@@ -12,6 +12,8 @@ are so vested in textual markup following the TEI Guidelines for which few exter
 <p>I am hoping, with your help, to figure out how to best push versions of this data into the flow, around a more formal call, initially, to the digital humanities community-at-large as part of Open Access Week 2013 so I can track the various morphings and instantiations of this data to share back with the IU community, especially my faculty partners.</p>
 
 <h2>Data Sets</h2>
+The following TEI/XML and plain text files are made available for good times:
+
 * <a href="http://dlib.indiana.edu/collections/imh/">Indiana Magazine of History</a>, one the nation's oldest scholarly historical journal, 1905-2011
 * <a href="http://dlib.indiana.edu/collections/vwwp/">Victorian Women Writers Project</a>, 1830-1929
 * <a href="http://www.dlib.indiana.edu/collections/inauthors/">Indiana Authors and Their Books</a>, 1850-1929 
@@ -19,12 +21,14 @@ are so vested in textual markup following the TEI Guidelines for which few exter
 * Wright American Fiction (undergoing web site migration, 1851-1875)
 
 <h2>Textual Analysis Tools</h2>
+The following are a list of sample tools that can be used with the above data:
 
 <h3>TEI-Aware Tools</h3>
-* <a href="http://sourceforge.net/projects/txm">TXM</a> (installation required)
 * <a href="http://code.google.com/p/philomine/">PhiloLogic/PhiloMine</a> (installation required) 
+* <a href="http://sourceforge.net/projects/txm">TXM</a> (installation required)
 
 <h3>Plain Text Tools</h3>
-* <a href="http://mallet.cs.umass.edu">Mallet</a> for topic-modeling
+* <a href="https://github.com/richardneal/Lexos">Lexos</a> (installation required)
+* <a href="http://mallet.cs.umass.edu">Mallet</a> for topic-modeling (installation required) 
+* <a href="http://voyant-tools.org">Voyant</a> for textual analysis (web-based)
 * <a href="https://vue.tufts.edu/">VUE</a> for visualization and other analyses (registration and installation required)
-* <a href="http://voyant-tools.org">Voyant</a>for textual analysis (web-based)
