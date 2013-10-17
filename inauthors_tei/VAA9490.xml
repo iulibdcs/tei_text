@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//IA Books//DTD TEI for Indiana Authors Books//EN" "teixlite.dtd">
+<TEI.2 id="VAA9490">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main">Landmarks</title>
+				<title type="subtitle">The lost farm and other poems</title>
+				<author>Piatt, John James, 1835-1917.</author>
+				<respStmt>
+					<resp>Encoded By</resp>
+					<name>Jennifer Liss</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Digital Library Program, Indiana University</publisher>
+				<pubPlace>Bloomington, IN</pubPlace>
+				<address>
+          <addrLine>1320 E. 10th St.</addrLine>
+          <addrLine>Bloomington, IN 47405</addrLine>
+        </address>
+				<idno>VAA9490</idno>
+				<availability status="unknown">
+					<p>Copyright 2009 Trustees of Indiana University</p>
+					<p>Indiana University provides the information contained on this web site for
+						non-commercial, personal, or research use only. All other use, including but not limited
+						to commercial or scholarly reproductions, redistribution, publication or transmission,
+						whether by electronic means or otherwise, without prior written permission of the
+						copyright holder is strictly prohibited.</p>
+				</availability>
+				<date>2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblFull>
+					<titleStmt>
+						<title type="main">Landmarks</title>
+						<title type="subtitle">The lost farm and other poems</title>
+						<author id="ina-v1-entry-0679">Piatt, John James, 1835-1917</author>
+					</titleStmt>
+					<extent>116 p. ; 20 cm.</extent>
+					<publicationStmt>
+						<publisher>James R. Osgood &amp; Company</publisher>
+						<pubPlace>Boston</pubPlace>
+						<date>1877</date>
+					</publicationStmt>
+					<notesStmt>
+						<note>Cover title: The lost farm etc.</note>
+						<note>On verso of t.p.: Riverside, Cambridge : Printed by H.O. Houghton and
+							Company.</note>
+					</notesStmt>
+				</biblFull>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>The Digital Library Program was awarded a Library Services and Technology Act (LSTA)
+					grant in 2005 to make available online the three-volume, reference work, <title>Indiana
+						Authors and Their Books</title> along with selected monographs by Indiana authors.</p>
+			</projectDesc>
+			<editorialDecl n="3">
+				<p>This electronic text file was created by Optical Character Recognition (OCR), and has
+					been encoded and edited using the recommendations for Level 3 of the TEI in Libraries
+					Guidelines following the TEI Lite standard. Digital page images are linked to the text
+					file.</p>
+			</editorialDecl>
+			<tagsDecl>
+				<tagUsage gi="div1">Numbered divs used.</tagUsage>
+			</tagsDecl>
+			<classDecl>
+				<taxonomy id="lcsh">
+					<bibl>
+						<title>Library of Congress Subject Headings</title>
+					</bibl>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language>English</language>
+			</langUsage>
+			<textClass>
+				<keywords scheme="lcsh">
+					<list>
+						<item>Frontier and pioneer life</item>
+						<item>Country life</item>
+					</list>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<!--The revision description tracks significant changes made to the file
+      after completion. This information will remain commented out unless someone has
+      conducted quality assessment of the texts and have made changes to the file as a
+      result.-->
+		<revisionDesc>
+			<change>
+				<date>2011-09-27</date>
+				<respStmt>
+					<name>Jennifer Liss</name>
+					<resp>Technical Services Project Manager</resp>
+				</respStmt>
+				<item>Cleaned sourceDesc info; fixed date typo on title page</item>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<pb n="[iii]" id="VAA9490-001"/>
+			<titlePage>
+				<docTitle>
+					<titlePart type="main">Landmarks.</titlePart>
+					<milestone unit="typography" n="-------"/>
+					<titlePart type="subtitle">THE LOST FARM<lb/> AND<lb/> OTHER POEMS.</titlePart>
+				</docTitle>
+				<byline>BY<lb/>
+					<docAuthor>JOHN JAMES PIATT,</docAuthor><lb/> AUTHOR OF "WESTERN WINDOWS," ETC.</byline>
+				<docImprint>
+					<pubPlace>BOSTON:</pubPlace><lb/>
+					<publisher>JAMES R. OSGOOD &amp; COMPANY</publisher><lb/>
+					<publisher>Late Ticknor &amp; Fields</publisher>, and <publisher>Fields, Osgood, &amp;
+						Co.</publisher><lb/>
+					<docDate>1877</docDate>
+				</docImprint>
+			</titlePage>
+			<pb n="[iv]" id="VAA9490-002"/>
+			<div1 type="verso">
+				<p rend="center">Entered according to act of Congress, in the year 1871, by<lb/> JOHN JAMES
+					PIATT,<lb/> in the Office of the Librarian of Congress, at Washington.</p>
+				<p rend="center">RIVERSIDE, CAMBRIDGE:<lb/> PRINTED BY H. O. HOUGHTON AND COMPANY.</p>
+			</div1>
+			<pb n="[v]" id="VAA9490-003"/>
+			<div1 type="dedication">
+				<p rend="center">TO<lb/> DONN PIATT,<lb/> FROM<lb/> HIS FRIEND AND KINSMAN.</p>
+			</div1>
+			<pb n="[vi]" id="VAA9490-004"/>
+			<pb n="vii" id="VAA9490-005"/>
+			<div1 type="contents">
+				<head rend="center">CONTENTS.</head>
+				<milestone unit="typography" n="-----"/>
+				<list type="simple">
+					<head rend="center">LANDMARKS.</head>
+					<item>THE LOST FARM, <hi rend="right">11</hi><ptr targType="pb" target="VAA9490-009"
+						/></item>
+					<item>THE FORGOTTEN WELL, <hi rend="right">22</hi><ptr targType="pb" target="VAA9490-020"
+						/></item>
+					<item>TWO HARVESTS, <hi rend="right">25</hi><ptr targType="pb" target="VAA9490-023"
+						/></item>
+					<item>MOORE'S CHIMNEY, <hi rend="right">30</hi>
+						<ptr targType="pb" target="VAA9490-028"/></item>
+					<item>WALKING TO THE STATION, <hi rend="right">35</hi><ptr targType="pb"
+							target="VAA9490-033"/></item>
+					<item>GRANDFATHER WRIGHT, <hi rend="right">39</hi><ptr targType="pb" target="VAA9490-037"
+						/></item>
+					<item>FARTHER, <hi rend="right">40</hi><ptr targType="pb" target="VAA9490-038"/></item>
+				</list>
+				<list type="simple">
+					<head rend="center">OTHER POEMS.</head>
+					<item>THE THREE WORK-DAYS, <hi rend="right">43</hi><ptr targType="pb" target="VAA9490-041"
+						/></item>
+					<item>THE LOST GENIUS, <hi rend="right">44</hi><ptr targType="pb" target="VAA9490-042"
+						/></item>
+					<item>CONFLAGRATION, <hi rend="right">47</hi><ptr targType="pb" target="VAA9490-045"
+						/></item>
+					<item>THE NEW HOUSE, <hi rend="right">50</hi><ptr targType="pb" target="VAA9490-048"
+						/></item>
+					<item>THE PEACH BLOSSOMS, <hi rend="right">54</hi><ptr targType="pb" target="VAA9490-052"
+						/></item>
+					<item>THE YELLOW LEAF, <hi rend="right">57</hi><ptr targType="pb" target="VAA9490-055"
+						/></item>
+					<item>THE UNBIDDEN GUEST, <hi rend="right">61</hi><ptr targType="pb" target="VAA9490-059"
+						/></item>
+					<item>APPLE-GATHERING, <hi rend="right">63</hi><ptr targType="pb" target="VAA9490-061"
+						/></item>
+					<item>CAESAR SALUTED, <hi rend="right">66</hi><ptr targType="pb" target="VAA9490-064"
+						/></item>
+					<item>IF, <hi rend="right">71</hi><ptr targType="pb" target="VAA9490-069"/></item>
+					<item>THE CHRYSALIS, <hi rend="right">72</hi><ptr targType="pb" target="VAA9490-070"
+						/></item>
+					<item>LONG AGO, <hi rend="right">74</hi><ptr targType="pb" target="VAA9490-072"/></item>
+					<pb n="viii" id="VAA9490-006"/>
+					<item>THE NEW COMING, <hi rend="right">76</hi><ptr targType="pb" target="VAA9490-074"
+						/></item>
+					<item>CONFIDENCES, <hi rend="right">78</hi><ptr targType="pb" target="VAA9490-076"
+						/></item>
+					<item>CARPE DIEM, <hi rend="right">81</hi><ptr targType="pb" target="VAA9490-079"/></item>
+					<item>SUNSHINE IN RAIN, <hi rend="right">82</hi><ptr targType="pb" target="VAA9490-080"
+						/></item>
+					<item>BREVIA :- <list type="simple">
+							<item>Success, <hi rend="right">83</hi><ptr targType="pb" target="VAA9490-081"
+								/></item>
+							<item>Keeping a Rose's Company, <hi rend="right">83</hi><ptr targType="pb"
+									target="VAA9490-081"/></item>
+							<item>For -, <hi rend="right">84</hi><ptr targType="pb" target="VAA9490-082"/></item>
+							<item>Popularity and Fame, <hi rend="right">84</hi><ptr targType="pb"
+									target="VAA9490-082"/></item>
+							<item>Winter Sunset, <hi rend="right">85</hi><ptr targType="pb" target="VAA9490-083"
+								/></item>
+							<item>For Sculpture, <hi rend="right">86</hi><ptr targType="pb" target="VAA9490-084"
+								/></item>
+							<item>A Lost Kingdom of Gods, <hi rend="right">86</hi><ptr targType="pb"
+									target="VAA9490-084"/></item>
+							<item>Tasking the Muse, <hi rend="right">87</hi><ptr targType="pb"
+									target="VAA9490-085"/></item>
+							<item>With Some Old Letters, <hi rend="right">87</hi><ptr targType="pb"
+									target="VAA9490-085"/></item>
+							<item>A December Night, <hi rend="right">88</hi><ptr targType="pb"
+									target="VAA9490-086"/></item>
+							<item>New Flights, <hi rend="right">89</hi><ptr targType="pb" target="VAA9490-087"
+								/></item>
+							<item>Former Self, <hi rend="right">89</hi><ptr targType="pb" target="VAA9490-087"
+								/></item>
+						</list>
+					</item>
+					<item>SNOW-FALLING, <hi rend="right">90</hi><ptr targType="pb" target="VAA9490-088"
+						/></item>
+					<item>HALF-DREAMING, <hi rend="right">91</hi><ptr targType="pb" target="VAA9490-089"
+						/></item>
+					<item>BEARERS OF THE WORLD, <hi rend="right">92</hi><ptr targType="pb"
+							target="VAA9490-090"/></item>
+					<item>AFTERWARD, <hi rend="right">94</hi><ptr targType="pb" target="VAA9490-092"/></item>
+					<item>TRANSFIGURATION, <hi rend="right">96</hi><ptr targType="pb" target="VAA9490-094"
+						/></item>
+					<item>TWO WATCHERS, <hi rend="right">98</hi><ptr targType="pb" target="VAA9490-096"
+						/></item>
+					<item>A MAN'S VOTE, <hi rend="right">99</hi><ptr targType="pb" target="VAA9490-097"
+						/></item>
+					<item>PARTING AND MEETING, <hi rend="right">101</hi><ptr targType="pb"
+							target="VAA9490-099"/></item>
+					<item>A ROSE'S JOURNEY,<hi rend="right">102</hi><ptr targType="pb" target="VAA9490-100"
+						/></item>
+					<item>ARMY OF THE POTOMAC, <hi rend="right">103</hi><ptr targType="pb"
+							target="VAA9490-101"/></item>
+					<item>TWO RETURNS, <hi rend="right">106</hi><ptr targType="pb" target="VAA9490-104"
+						/></item>
+					<item>TO THE STATUE ON THE CAPITOL, <hi rend="right">110</hi><ptr targType="pb"
+							target="VAA9490-108"/></item>
+					<item>IN MARCH, <hi rend="right">112</hi><ptr targType="pb" target="VAA9490-110"/></item>
+					<item>THE BUBBLE-BLOWERS, <hi rend="right">114</hi><ptr targType="pb" target="VAA9490-112"
+						/></item>
+					<item>WITH SHELLS AND POEMS, <hi rend="right">115</hi><ptr targType="pb"
+							target="VAA9490-113"/></item>
+				</list>
+			</div1>
+		</front>
+		<body>
+			<pb n="9" id="VAA9490-007"/>
+			<div1 type="book">
+				<head type="supplied">LANDMARKS</head>
+				<div2 type="section">
+					<head rend="center">LANDMARKS.</head>
+					<epigraph rend="center">
+						<p>"GLAD SIGHT, WHEREVER NEW WITH OLD<lb/> IS JOIN'D THROUGH SOME DEAR HOME-BORN
+							TIE."</p>
+						<bibl>
+							<author rend="right">WORDSWORTH.</author>
+						</bibl>
+					</epigraph>
+					<pb n="[10]" id="VAA9490-008"/>
+					<pb n="11" id="VAA9490-009"/>
+					<div3 type="poem">
+						<head rend="center">THE LOST FARM.<lb/> THE SCHOOLMASTER'S STORY.</head>
+						<lg>
+							<l>W<hi rend="sc">HEN</hi> my strong fathers came into the West,</l>
+							<l>They chose a tract of land they thought the best:</l>
+							<l>Near a swift river, in whose constant flow</l>
+							<l>Peacefully earth and heaven were one below;</l>
+							<l>Gigantic wardens, on the horizon, stood</l>
+							<l>Far-circling hills, rough to their tops with wood.</l>
+						</lg>
+						<lg>
+							<l>They came, a long and dangerous journey then,</l>
+							<l>Through paths that had not known of civil men;</l>
+							<l>With wives and children looking back, and still</l>
+							<l>Returning long in dreams confusing will,</l>
+							<pb n="12" id="VAA9490-010"/>
+							<l>They came, and in the panther-startled shade</l>
+							<l>The deep foundations of a State were laid.</l>
+							<l>The axe, in stalwart hands, with steadfast stroke,</l>
+							<l>The savage echoes of the forest woke,</l>
+							<l>And, one by one, breaking the centuries' spell,</l>
+							<l>The hardy trees, long-crashing, with thunder fell.</l>
+							<l>The log-house rose, within the solitude,</l>
+							<l>And civilized the tenants of the wood.</l>
+							<l>It was not long before the shadow'd mold</l>
+							<l>Open'd to take the sunshine's gift of gold;</l>
+							<l>In the dark furrow dropp'd the trusted seed,</l>
+							<l>And the first harvest bless'd the sower's need.</l>
+						</lg>
+						<lg>
+							<l>Oh, dear the memory of their simpler wealth,</l>
+							<l>Whose hardship nursed the iron flower of health;</l>
+							<l>Oh, sweet the record of the lives they spent,</l>
+							<l>Whose breath was peace, whose benison content;</l>
+							<l>Unenvied now by us, their delicate sons,</l>
+							<pb n="13" id="VAA9490-011"/>
+							<l>The dangers which they braved, those heartier ones!</l>
+							<l>The Indian's midnight coming, long ago,</l>
+							<l>And the wolf's howl in nights that shone with snow,</l>
+							<l>These are but dreams to us (who would but dream),</l>
+							<l>Pictured far off, heard as lost sounds that seem:</l>
+							<l>They knew the terror, seventy years gone by,</l>
+							<l>Of the realities we may not try,</l>
+							<l>Who left the farm on which my new-born eyes</l>
+							<l>Saw the great miracle of earth and skies.</l>
+						</lg>
+						<lg>
+							<l>The fields were clear'd; the farm-house, girt around</l>
+							<l>With meadow-lands and orchards, held its ground;</l>
+							<l>The goodly place had wavering uplands, sweet</l>
+							<l>With cattle-pastures, hot with ripening wheat.</l>
+							<l>The house look'd Westward, where the river lay</l>
+							<l>Shimmering o'er level lands at close of day,</l>
+							<l>Or, many-twinkling through the autumnal morn,</l>
+							<l>In the hazy heat rustled the languid corn.</l>
+							<pb n="14" id="VAA9490-012"/>
+							<l>Not far were neighbors-- heirs of acres wide,</l>
+							<l>Or the small farms in which the old divide.</l>
+							<l>By the close pike, a half-mile off to the north,</l>
+							<l>The tavern, with old-fashion'd sign thrust forth,</l>
+							<l>Show'd Washington, a little faded then,</l>
+							<l>(Too faded now, among new-famous men!)</l>
+							<l>And, close beside, the blacksmith-shop was found,</l>
+							<l>In August noons obtrusive with its sound,</l>
+							<l>Or late in winter eves, a welcome sight,</l>
+							<l>Burning and brightening through with bursting light!</l>
+						</lg>
+						<lg>
+							<l>Such was the farm-- how dear to my regret!--</l>
+							<l>Whose fresh life runs into my bosom yet.</l>
+							<l>My dreams may bear me thither even now.</l>
+							<l>Again, with eager heart and sunburnt brow,</l>
+							<l>Homesick at times, I take a noiseless train,</l>
+							<l>Wandering, breath-like, to my home again;</l>
+							<pb n="15" id="VAA9490-013"/>
+							<l>See my glad brothers, in the June-sweet air,</l>
+							<l>Toss the green hay, the hot sheaves of harvest bear;</l>
+							<l>The fireside warms into my heart-how plain!</l>
+							<l>And my lost mother takes her boy again;</l>
+							<l>My sisters steal around me tenderly--</l>
+							<l>And all that can not be yet seems to be!</l>
+						</lg>
+						<lg>
+							<l>In thirty years what changes there have been!--</l>
+							<l>How disappear the landmarks that were seen!</l>
+							<l>If I should go to seek my boyhood's place,</l>
+							<l>What chart would show the way, what guide would trace?</l>
+						</lg>
+						<lg>
+							<l>New people came. Around the tavern grew</l>
+							<l>New dwellings and new manners-- all things new.</l>
+							<l>The impetus of something in the land</l>
+							<l>(Some gold, unseen, diviners understand),</l>
+							<l>Some mystic loadstone of the earth or air,</l>
+							<pb n="16" id="VAA9490-014"/>
+							<l>Drew all the nimble spirits of action there.</l>
+							<l>The village, not without a conscious pride,</l>
+							<l>Grew fast and gather'd in the country-side,</l>
+							<l>Then took the name of town. And now, behold,</l>
+							<l>A wild, strange rumor through the country roll'd!--</l>
+							<l>A railroad was projected, East and West,</l>
+							<l>Which would not slight us, so the shrewd ones guess'd.</l>
+							<l>Strange men with chain and compass came at last</l>
+							<l>Among the hills, across the valley pass'd;</l>
+							<l>Through field and woodland, pasture, orchard, they</l>
+							<l>Turn'd not aside, but kept straight on their way.</l>
+							<l>Old farmers threaten'd, but it did no good--</l>
+							<l>The quick conservatives of the neighborhood.</l>
+							<l>"We do not want it!" many said, and one,</l>
+							<l>"Through field of mine I swear it shall not run!"</l>
+							<l>And paced his boundary-line with loaded gun.</l>
+							<l>Others replied (wise, weather-sighted, they!)</l>
+							<pb n="17" id="VAA9490-015"/>
+							<l>You'11 think a little differently, some day.</l>
+							<l>The wheels of progress will you block-good speed!</l>
+							<l>(Cut off your nose to spite your face, indeed!)</l>
+							<l>'T will make the land worth double, where you walk."</l>
+							<l>"Stuff! stuff!" the old fogies answer'd--" how you talk!"</l>
+						</lg>
+						<lg>
+							<l>Road was open'd. Soon another, down</l>
+							<l>Northward and Southward, cut across the town:</l>
+							<l>Both pass'd through meadows where my boyhood stray'd:</l>
+							<l>One through the barn within whose mow I play'd.</l>
+							<l>And then a newer force of circumstance</l>
+							<l>Took hold and pull'd the place in quick advance:</l>
+							<l>The lovely river-swift, and deep, and strong--</l>
+							<l>Upon whose shore I fish'd and idled long,</l>
+							<l>(The still companion of my dreaming hour,)</l>
+							<l>Had great advantages of water-power.</l>
+							<pb n="18" id="VAA9490-016"/>
+							<l>Saw-mills and grist-mills, factories builded there,</l>
+							<l>Cover'd the banks and jarr'd the quiet air.</l>
+							<l>The river could not sleep nor dream its old</l>
+							<l>Beautiful dream, in morn or evening gold,</l>
+							<l>Or as a fallen soul had fitful glance</l>
+							<l>At its divine and lost inheritance.</l>
+						</lg>
+						<lg>
+							<l>The town became a city-- growing still,</l>
+							<l>And growing ever, with a giant's will</l>
+							<l>Gathering and grasping, changing all it took.</l>
+							<l>A city sewer was my school-boy brook.</l>
+							<l>The farm remain'd, but only in the name;</l>
+							<l>The old associations lived the same.</l>
+							<l>The approaching city drew its arm around,</l>
+							<l>And threaten'd more and more the invaded ground;</l>
+							<l>Near and more near its noises humm'd and groan'd,</l>
+							<l>(Higher and higher priced the land we own'd!)</l>
+							<l>My father held his ground, and would not sell.</l>
+							<pb n="19" id="VAA9490-017"/>
+							<l>The stiff wiseacres praised his wisdom well.</l>
+						</lg>
+						<lg>
+							<l>At last I came from home. At college long</l>
+							<l>Absent, at home something, meanwhile, went wrong.</l>
+							<l>I need not tell the fact. What house is proof,</l>
+							<l>With jealous threshold and protected roof</l>
+							<l>Against the subtle foes that every-where</l>
+							<l>Stand waiting to attack in safest air--</l>
+							<l>The insidious foes of Fortune or of Fate,</l>
+							<l>Who plan our ruin while we estimate</l>
+							<l>Our sum of new success ? My father died--</l>
+							<l>(My mother soon was buried by his side;)</l>
+							<l>The farm pass'd into speculative hands,</l>
+							<l>Who turn'd to sudden profit all its lands.</l>
+							<l>The greedy city seized upon them fast,</l>
+							<l>And the dear home was swept into the Past.</l>
+							<l>Across its quiet meadows streets were laid,</l>
+							<l>White-hot, the dusty thoroughfares of trade.</l>
+							<pb n="20" id="VAA9490-018"/>
+							<l>Where the gray farm-house had its sacred hearth</l>
+							<l>Sprang buildings hiding heaven and crowding earth.</l>
+						</lg>
+						<lg>
+							<l>A score of years were pass'd. Return'd by chance</l>
+							<l>(A railway accident the circumstance)</l>
+							<l>To that strange city only known by name,</l>
+							<l>Unwilling visitor by night I came;</l>
+							<l>And, sleeping there within some great hotel,</l>
+							<l>There rose a dream that fills my heart to tell.</l>
+							<l>I came, a boy-- it seem'd not long away--</l>
+							<l>Close to my father's house at shut of day.</l>
+							<l>I cross'd the pasture and the orchard where</l>
+							<l>Glimmer'd the cider-mill in golden air;</l>
+							<l>The faint, soft tremor of the wandering bell</l>
+							<l>Of cattle mingled with the old clover-smell.</l>
+							<l>I leap'd the brook that twinkled darkly bright,</l>
+							<l>And saw the farm-house dusk'd in mellow light.</l>
+							<l>The river, painted with the Western gleam,</l>
+							<pb n="21" id="VAA9490-019"/>
+							<l>Show'd through the leaves a Paradisal dream.</l>
+							<l>By the side-door my father met me then,</l>
+							<l>My mother kiss'd me in the porch again--</l>
+							<l>A moment all that was not was! I 'woke</l>
+							<l>And through my window saw the morning smoke</l>
+							<l>Of the loud city. And my dream, behold,</l>
+							<l>Was on the spot of the dear hearth of old!</l>
+							<l>A man's vain tears hung vague within my eyes.</l>
+						</lg>
+						<lg>
+							<l>The Lost Farm underneath the city lies.</l>
+						</lg>
+					</div3>
+					<pb n="[22]" id="VAA9490-020"/>
+					<div3 type="poem">
+						<head rend="center">THE FORGOTTEN WELL.</head>
+						<lg>
+							<l>B<hi rend="sc">Y</hi> the old high road I find,</l>
+							<l rend="ti-2">(The weeds their story tell,)</l>
+							<l>With fallen curb and fill'd with stones,</l>
+							<l rend="ti-2">A long-forgotten well.</l>
+						</lg>
+						<lg>
+							<l>The chimney, crumbling near,</l>
+							<l rend="ti-2">A mute historian stands,</l>
+							<l>Of human joy and human woe--</l>
+							<l rend="ti-2">Far, faded fireside bands!</l>
+						</lg>
+						<lg>
+							<l>Here still the apple blows</l>
+							<l rend="ti-2">Its bloom of rose-lit snow;</l>
+							<l>The rose-tree bless'd some gentle hands</l>
+							<l rend="ti-2">With roses, long ago.</l>
+						</lg>
+						<pb n="23" id="VAA9490-021"/>
+						<lg>
+							<l>I can not choose but dream</l>
+							<l rend="ti-2">Of all thy good foredone;</l>
+							<l>Old alms-giver, thy gifts once more</l>
+							<l rend="ti-2">Show diamonds in the sun!</l>
+						</lg>
+						<lg>
+							<l>From yonder vanish'd home,</l>
+							<l rend="ti-2">Blithe children therein born;</l>
+							<l>The mother with her crowing babe;</l>
+							<l rend="ti-2">The grandsire palsy-worn;</l>
+						</lg>
+						<lg>
+							<l>Strong men, whose weighted limbs</l>
+							<l rend="ti-2">Falter through dust and heat;</l>
+							<l>Lithe youths in dreamland sowing deeds;</l>
+							<l rend="ti-2">Shy maidens blushing sweet;</l>
+						</lg>
+						<lg>
+							<l>The reaper from his sheaves;</l>
+							<l rend="ti-2">The mower from his hay--</l>
+							<pb n="24" id="VAA9490-022"/>
+							<l>These take thy freshness in their hearts,</l>
+							<l rend="ti-2">And pass-- my dream--away!</l>
+						</lg>
+						<lg>
+							<l>Forgotten by the throng,</l>
+							<l rend="ti-2">Uncared for and unknown,</l>
+							<l>None seek thee through the wood of weeds</l>
+							<l rend="ti-2">Neglect has slowly sown.</l>
+						</lg>
+						<lg>
+							<l>Yet, under all, thou'rt there--</l>
+							<l rend="ti-2">Exhaustless, pure, and cold--</l>
+							<l>If but the sunshine came to see;</l>
+							<l rend="ti-2">The fountain ne'er grows old!</l>
+						</lg>
+					</div3>
+					<pb n="25" id="VAA9490-023"/>
+					<div3 type="poem">
+						<head rend="center">TWO HARVESTS.<lb/> A MOUND IN THE PRAIRIES.</head>
+						<lg>
+							<l>A<hi rend="sc">LL</hi> day the reapers through the wheat</l>
+							<l>Have wrought amid the sultry heat,</l>
+							<l>Reaping the harvest wide and fleet.</l>
+						</lg>
+						<lg>
+							<l>All day the binders' stooping train</l>
+							<l>Have swelter'd through the sweating grain,</l>
+							<l>Binding the bearded sheaves amain:</l>
+						</lg>
+						<lg>
+							<l>With shouted jest, with breaks of song,</l>
+							<l>Lightening their heavy toil along,</l>
+							<l>A merry-hearted, boisterous throng!</l>
+						</lg>
+						<lg>
+							<l>But now, where all alone I stand,</l>
+							<l>The shocks like tents of gold expand,</l>
+							<l>The camp of Plenty in the Land!</l>
+						</lg>
+						<pb n="26" id="VAA9490-024"/>
+						<lg>
+							<l>Through the wide solitude around</l>
+							<l>Shrills but the empty dream of sound;</l>
+							<l>The Hours in golden sheaf lie bound.</l>
+						</lg>
+						<lg>
+							<l>Bathed in the crimsoning hush of air,</l>
+							<l>Yon mound, against the twilight bare</l>
+							<l>Breathes from a deeper twilight there.</l>
+						</lg>
+						<lg>
+							<l>The long grass rustled, year by year;</l>
+							<l>The herded bison thunder'd near;</l>
+							<l>Bounding in sunshine flew the deer.</l>
+						</lg>
+						<lg>
+							<l>The summers went, the summers came--</l>
+							<l>Years, years, years, years!-- and all the same;</l>
+							<l>November's winding-sheet was flame!</l>
+						</lg>
+						<lg>
+							<l>The trees that hedge the prairies in</l>
+							<l>Have whispers dim of what has been,</l>
+							<l>Traditions of their crumbled kin.</l>
+						</lg>
+						<pb n="27" id="VAA9490-025"/>
+						<lg>
+							<l>Yon mound was still while centuries fled</l>
+							<l>And at their feet forgot their dead;</l>
+							<l>Nothing was ask'd and nothing said.</l>
+						</lg>
+						<lg>
+							<l>Now, vast with twilight's glamoury,</l>
+							<l>It whispers weirdly unto me;</l>
+							<l>Great dusky mirages I see.</l>
+						</lg>
+						<lg>
+							<l>In far-off days the Atlantic morn</l>
+							<l>Came not to find a world new-born;</l>
+							<l>Wide fields of sunshine shake with corn.</l>
+						</lg>
+						<lg>
+							<l>Lo, here an elder harvest land,</l>
+							<l>With many another reaper band!--</l>
+							<l>The tents of Plenty thickly stand.</l>
+						</lg>
+						<lg>
+							<l>All day the binders' stooping train,</l>
+							<l>Sweltering through the sweating grain,</l>
+							<l>Bind the hot-bearded sheaves amain:</l>
+						</lg>
+						<pb n="28" id="VAA9490-026"/>
+						<lg>
+							<l>With shouted jest, with breaks of song,</l>
+							<l>Lightening their heavy toil along,</l>
+							<l>A merry-hearted, boisterous throng!</l>
+						</lg>
+						<lg>
+							<l>And, as in those fair fields we see,</l>
+							<l>Through Bible-gates of memory,</l>
+							<l>In the high East shine beauteously:</l>
+						</lg>
+						<lg>
+							<l>Some Boaz owns the harvest plain,</l>
+							<l>Where, following the reapers' train,</l>
+							<l>See, Ruth, the gleaner, walks again!</l>
+						</lg>
+						<lg>
+							<l>Love, that had flush'd the centuries,</l>
+							<l>Lovely, as yonder, dwells with these;</l>
+							<l>And Faith, with nations at her knees!</l>
+						</lg>
+						<lg>
+							<l>The same sun shines, the same earth glows,</l>
+							<l>With the same transient joys and woes</l>
+							<l>The last man as the first man knows.</l>
+						</lg>
+						<pb n="29" id="VAA9490-027"/>
+						<lg>
+							<l>For Nature, swarthy mother, warms</l>
+							<l>(However changed their faces, forms,)</l>
+							<l>One human family in her arms!</l>
+						</lg>
+						<lg>
+							<l>The cattle low from field to fold;</l>
+							<l>The harvesters in evening gold</l>
+							<l>Leave the dusk shocks-- the tale is told!</l>
+						</lg>
+						<lg>
+							<l>The silence falls, the twilight deep;</l>
+							<l>Myriads of morns the grasses creep</l>
+							<l>Across vast solitudes of sleep.</l>
+						</lg>
+						<lg>
+							<l>The herded bison thunder'd near;</l>
+							<l>Bounding in sunshine flew the deer;</l>
+							<l>The long grass rustled year by year.</l>
+						</lg>
+						<lg>
+							<l>Wolf, deer, and bison!-- lo! the Wind,</l>
+							<l>A huntsman wild, to mad and blind,</l>
+							<l>Flinging his fiery torch behind!</l>
+						</lg>
+					</div3>
+					<pb n="30" id="VAA9490-028"/>
+					<div3 type="poem">
+						<head rend="center">MOORE'S CHIMNEY.</head>
+						<div4 rend="part">
+							<head rend="center">I.<lb/> THE SHADOW-LAND.</head>
+							<lg>
+								<l>R<hi rend="sc">OUND</hi> us lies a Land of Shadow, not a footstep echoes
+									o'er;</l>
+								<l>Song of peace and cry of battle falter, dying, ever-more.</l>
+							</lg>
+							<lg>
+								<l>War-fires in the vales are leaping, with the glaring dance of war,</l>
+								<l>But the fiercely-gleaming faces are a painted dream afar.</l>
+							</lg>
+							<lg>
+								<l>O'er the valley, clothed in shadow, sunlit stands the startled deer,</l>
+								<pb n="31" id="VAA9490-029"/>
+								<l>From the cliff against the morning flashing away, breath-like, with fear.</l>
+							</lg>
+							<lg>
+								<l>Lo, the golden light of morning o'er the Land of Shadow cast,</l>
+								<l>Where the tomahawk is buried in the grave-mound of the Past!</l>
+							</lg>
+							<lg>
+								<l>Nothing of that Land remains, now, save these gray historic trees,</l>
+								<l>Shaking through their glittering branches dews of olden memories!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">II.<lb/> THE RUIN.</head>
+							<lg>
+								<l>Here among the greenery hidden, warder of that Shadow-Land,</l>
+								<l>Near the noisy-trampled highway, see the old dead chimney stand!--</l>
+							</lg>
+							<pb n="32" id="VAA9490-030"/>
+							<lg>
+								<l>Hidden from the busy highway 'mong the cherries large and low,</l>
+								<l>Whose new blossoms fill the breezes with a gentle drift of snow!</l>
+							</lg>
+							<lg>
+								<l>Dead!--no more a flame is leaping through it toward the wintry cold;</l>
+								<l>Dead!--no more its smoke is wreathing woodlands deep and dim and old.</l>
+							</lg>
+							<lg>
+								<l>Dead!--no more its azure welcome gladdens eyes that houseless roam;</l>
+								<l>Dead!--no more it seems uplifting incense from the heart of Home!</l>
+							</lg>
+							<lg>
+								<l>Gone the hands that shook the forest, burying in the furrow'd soil</l>
+								<l>Careful seeds of trust returning harvest-guerdon for their toil.</l>
+							</lg>
+							<pb n="33" id="VAA9490-031"/>
+							<lg>
+								<l>Gone the hearts that made pale faces, when the wolves came starved with cold,</l>
+								<l>And the fireside still was waiting through the twilight snows of old.</l>
+							</lg>
+							<lg>
+								<l>Gone the homely cabin-threshold, with the feet that cross'd it o'er;</l>
+								<l>Gone the closely-gather'd household, with their dwelling low and poor.</l>
+							</lg>
+							<lg>
+								<l>Yet I see a light of sparkles redden up old evenings wild,</l>
+								<l>Like the fancies sent to wander up the chimney by a child.</l>
+							</lg>
+							<lg>
+								<l>Hearts, I think, there may be, somewhere, echoing through the vanish'd door,</l>
+								<l>Dreaming dreams returning, hearing footsteps from the crumbled floor.</l>
+							</lg>
+							<pb n="34" id="VAA9490-032"/>
+							<lg>
+								<l>Children, whose new lives were darken'd here with shades of sudden fears,</l>
+								<l>May be children, wandering hither, while old gray men lose their years;</l>
+							</lg>
+							<lg>
+								<l>They may hear the red-man's voices through the night the silence start,</l>
+								<l>And, awaking, the old terror shiver newly through the heart.</l>
+							</lg>
+							<lg>
+								<l>You may find them growing weary, faltering through the busy lands,</l>
+								<l>Wrinkled by the years their faces, shaken by, the years their hands.</l>
+							</lg>
+							<lg>
+								<l>Of them here no token lingers, save the chimney gray and low,</l>
+								<l>With a gleam of lighted faces from a fireside long ago!</l>
+							</lg>
+						</div4>
+					</div3>
+					<pb n="35" id="VAA9490-033"/>
+					<div3 type="poem">
+						<head rend="center">WALKING TO THE STATION.</head>
+						<lg>
+							<l>I <hi rend="sc">WANDER</hi> down the woodland lane,</l>
+							<l rend="ti-2">That to the turnpike greenly steals:</l>
+							<l>In breathless twilight-gold, again,</l>
+							<l rend="ti-2">To wait the far-approaching wheels;</l>
+							<l>To hear the driver's horn once more</l>
+							<l rend="ti-2">Wind all around the river wood,</l>
+							<l>Shy echoes start along the shore</l>
+							<l rend="ti-2">And thrill the bosky solitude.</l>
+						</lg>
+						<lg>
+							<l>Here, coming back last night, I've found,</l>
+							<l rend="ti-2">Of folk familiar once, how few!--</l>
+							<l>Some, blacken'd names in graveyard ground,</l>
+							<l rend="ti-2">Forgotten on the farms they knew.</l>
+							<pb n="36" id="VAA9490-034"/>
+							<l>In our quick West the ruthless plow</l>
+							<l rend="ti-2">Spares not dear landmarks to displace;</l>
+							<l>The old Home, so long regretted, now</l>
+							<l rend="ti-2">Stared at me with a stranger's face!</l>
+						</lg>
+						<lg>
+							<l>Hark! the vague hum of wheels is blown,</l>
+							<l rend="ti-2">Fitful, across the evening calm--</l>
+							<l>No; 't is the far-off sound, well known</l>
+							<l rend="ti-2">To boyish ears, of Mower's dam.</l>
+							<l>I started later than I ought,</l>
+							<l rend="ti-2">It may be, and the stage is pass'd--</l>
+							<l>Fond fancy!-- disenchanting thought,</l>
+							<l rend="ti-2">That will not let the fancy last!</l>
+						</lg>
+						<lg>
+							<l>Ah, broken dream! The wheels no more</l>
+							<l rend="ti-2">Ring faint beyond the Southern hill;</l>
+							<l>No longer down the valley roar,</l>
+							<l rend="ti-2">Waking the twilight bridges still;</l>
+							<pb n="37" id="VAA9490-035"/>
+							<l>No more the lonely farm it cheers</l>
+							<l rend="ti-2">To see the tavern's added light--</l>
+							<l>The stage is gone these seventeen years;</l>
+							<l rend="ti-2">I walk to meet the train to-night.</l>
+						</lg>
+						<lg>
+							<l>Yet here's the crossing (ne'er a trace</l>
+							<l rend="ti-2">Of the old toll-gate toward the mill)--</l>
+							<l>The parting and the meeting place,</l>
+							<l rend="ti-2">Dear, dear to homesick memory still!</l>
+							<l>Oh, schoolboy-time of joy and woe,</l>
+							<l rend="ti-2">Of sad farewells, of blithe returns!--</l>
+							<l>I feel again the pang to go,</l>
+							<l rend="ti-2">The homeward rapture in me burns!</l>
+						</lg>
+						<lg>
+							<l>A sound grows busy with the breeze,</l>
+							<l rend="ti-2">A nearing roar, a glancing light,</l>
+							<l>A tremor through yon darkling trees--</l>
+							<l rend="ti-2">The fiery pant, the rushing might!</l>
+							<pb n="38" id="VAA9490-036"/>
+							<l>The head-light glares, the whistle screams;</l>
+							<l rend="ti-2">I cross the field, the platform gain.</l>
+							<l>Give back, for old regrets and dreams,</l>
+							<l rend="ti-2">To-morrow, love and dear ones, train!</l>
+						</lg>
+					</div3>
+					<pb n="39" id="VAA9490-037"/>
+					<div3 type="poem">
+						<head rend="center">GRANDFATHER WRIGHT.</head>
+						<l>H<hi rend="sc">E</hi> knew of the great pioneering days,</l>
+						<l>And the dread Indian times that only live</l>
+						<l>In dreams of old men when the ember-ghost</l>
+						<l>Of long December evenings, Memory,</l>
+						<l>Rising from the white ashes of the hearth</l>
+						<l>And from the ashes of their outburnt lives,</l>
+						<l>Haunts them, and fills them with a tender breath</l>
+						<l>From the rough forests, full of wolves and deer,</l>
+						<l>Where their young hearts made the fierce land their own.</l>
+					</div3>
+					<pb n="40" id="VAA9490-038"/>
+					<div3 type="poem">
+						<head rend="center">FARTHER.</head>
+						<lg>
+							<l>F<hi rend="sc">AR-OFF</hi> a young State rises, full of might:</l>
+							<l rend="ti-2">I paint its brave escutcheon. Near at hand</l>
+							<l rend="ti-2">See the log cabin in the rough clearing stand;</l>
+							<l>A woman by its door, with steadfast sight,</l>
+							<l>Trustful, looks Westward, where, uplifted bright,</l>
+							<l rend="ti-2">Some city's Apparition, weird and grand,</l>
+							<l rend="ti-2">In dazzling quiet fronts the lonely land,</l>
+							<l>With vast and marvelous structures wrought of light,</l>
+							<l>Motionless on the burning cloud afar:--</l>
+							<l rend="ti-2">The haunting vision of a time to be,</l>
+							<l>After the heroic age is ended here,</l>
+							<l>Built on the boundless, still horizon's bar</l>
+							<l rend="ti-2">By the low sun, his gorgeous prophecy</l>
+							<l>Lighting the doorway of the pioneer!</l>
+						</lg>
+					</div3>
+				</div2>
+				<pb n="[41]" id="VAA9490-039"/>
+				<div2 type="section">
+					<head rend="center">OTHER POEMS.</head>
+					<pb n="[42]" id="VAA9490-040"/>
+					<pb n="43" id="VAA9490-041"/>
+					<div3 type="poem">
+						<head rend="center">THE THREE WORK-DAYS.</head>
+						<lg>
+							<l>S<hi rend="sc">O</hi> much to do, so little done!</l>
+							<l>In sleepless eyes I saw the sun;</l>
+							<l>His beamless disk in darkness lay,</l>
+							<l>The dreadful ghost of Y<hi rend="sc">ESTERDAY</hi>!</l>
+						</lg>
+						<lg>
+							<l>So little done, so much to do!</l>
+							<l>The morning shone on harvests new;</l>
+							<l>In eager light I wrought my way,</l>
+							<l>And breathed the spirit of T<hi rend="sc">O-DAY</hi>!</l>
+						</lg>
+						<lg>
+							<l>So much to do, so little done!</l>
+							<l>The toil is past, the rest begun;</l>
+							<l>Though little done, and much to do,</l>
+							<l>T<hi rend="sc">O-MORROW</hi> Earth and Heaven are new!</l>
+						</lg>
+					</div3>
+					<pb n="44" id="VAA9490-042"/>
+					<div3 type="poem">
+						<head rend="center">THE LOST GENIUS.</head>
+						<lg>
+							<l>A <hi rend="sc">GIANT</hi> came to me when I was young,</l>
+							<l rend="ti-2">My instant will to ask--</l>
+							<l>My earthly Servant, from the earth he sprung</l>
+							<l rend="ti-2">Eager for any task!</l>
+						</lg>
+						<lg>
+							<l>"What wilt thou, O my Master?" he began;</l>
+							<l rend="ti-2">"Whatever can be," I.</l>
+							<l>"Say thy first wish-- whate'er thou wilt I can,"</l>
+							<l rend="ti-2">The Strong Slave made reply.</l>
+						</lg>
+						<lg>
+							<l>"Enter the earth and bring its riches forth,</l>
+							<l rend="ti-2">For pearls explore the sea."</l>
+							<l>He brought, from East and West and South and North,</l>
+							<l rend="ti-2">All treasures back to me!</l>
+						</lg>
+						<pb n="45" id="VAA9490-043"/>
+						<lg>
+							<l>"Build me a palace wherein I may dwell."</l>
+							<l rend="ti-2">"Awake and see it done,"</l>
+							<l>Spake his great voice at dawn. Oh, miracle!</l>
+							<l rend="ti-2">That glitter'd in the sun!</l>
+						</lg>
+						<lg>
+							<l>"Find me the princess fit for my embrace,</l>
+							<l rend="ti-2">The vision of my breast;</l>
+							<l>For her search every clime and every race."</l>
+							<l rend="ti-2">My yearning arms were bless'd!</l>
+						</lg>
+						<lg>
+							<l>"Get me all knowledge." Sages with their lore,</l>
+							<l rend="ti-2">And poets with their songs,</l>
+							<l>Crowded my palace halls at every door,</l>
+							<l rend="ti-2">In still, obedient throngs!</l>
+						</lg>
+						<lg>
+							<l>"Now bring me wisdom." Long ago he went;</l>
+							<l rend="ti-2">(The cold task harder seems:)</l>
+							<pb n="46" id="VAA9490-044"/>
+							<l>He did not hasten with the last content--</l>
+							<l rend="ti-2">The rest, meanwhile, were dreams!</l>
+						</lg>
+						<lg>
+							<l>Houseless and poor, on many a trackless road,</l>
+							<l rend="ti-2">Without a guide, I found</l>
+							<l>A white-hair'd phantom, with the world his load</l>
+							<l rend="ti-2">Bending him to the ground!</l>
+						</lg>
+						<lg>
+							<l>"I bring thee wisdom, Master." Is it he,</l>
+							<l rend="ti-2">I marvel'd then, in sooth?</l>
+							<l>"Thy palace-builder, beauty-seeker, see!"</l>
+							<l rend="ti-2">I saw the Ghost of Youth!</l>
+						</lg>
+					</div3>
+					<pb n="47" id="VAA9490-045"/>
+					<div3 type="poem">
+						<head rend="center">CONFLAGRATION.</head>
+						<div4 type="part">
+							<head rend="center">I.</head>
+							<lg>
+								<l>P<hi rend="sc">LAYING</hi> with little children on the hearth,</l>
+								<l rend="ti-3">An hour ago--</l>
+								<l rend="ti-3">With fitful mirth</l>
+								<l>Their gentle eyes were lighted--lo! the Flame,</l>
+								<l>Like a lithe Fairy, to their fancies came,</l>
+								<l rend="ti-2">Whispering whispers low!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">II.</head>
+							<lg>
+								<l>All sleep. The harmless Fairy wakes and chases</l>
+								<l>Across the floor, and from the darkness crawls,</l>
+								<l rend="ti-2">Clambering up the walls,</l>
+								<l>And looks into the children's sleeping faces;</l>
+								<l rend="ti-2">Now through the window shines</l>
+								<l rend="ti-2">On the dew-burden'd vines;</l>
+								<pb n="48" id="VAA9490-046"/>
+								<l rend="ti-3">Then, Fiend-like, leaps,</l>
+								<l rend="ti-4">Aloof,</l>
+								<l rend="ti-3">Upon the roof!</l>
+								<l rend="ti-3">The city sleeps.</l>
+								<l rend="ti-2">It waves its myriad hands,</l>
+								<l>And laughs and dances, a maniac lost from bands!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">III.</head>
+							<lg>
+								<l rend="ti-3">The scared bells ring!--</l>
+								<l rend="ti-2">All sleepers, wakening, start</l>
+								<l rend="ti-3">With fluttering heart!</l>
+								<l rend="ti-2">Look! the gigantic Thing</l>
+								<l>The unimprison'd Fury, tosses high</l>
+								<l>Bloodiest arms against the frighten'd sky,</l>
+								<l>O'er streets that glare with men! Midnight gives way</l>
+								<l rend="ti-2">To the flame-cradled day!</l>
+								<l>White Fear and red Confusion mingle cries:</l>
+								<l rend="ti-3">"Arise! arise!</l>
+								<pb n="49" id="VAA9490-047"/>
+								<l rend="ti-2">The city is in flame!"</l>
+								<l>The hearth-born Terror keeps its hurrying march,</l>
+								<l>The world aghast before, the clouds its victory-arch,</l>
+								<l rend="ti-1">(The Larés on their altars die,</l>
+								<l rend="ti-2">The wives and children fly:)</l>
+								<l rend="ti-2">And ashes are its fame!</l>
+							</lg>
+						</div4>
+					</div3>
+					<pb n="50" id="VAA9490-048"/>
+					<div3 type="poem">
+						<head rend="center">THE NEW HOUSE.</head>
+						<div4 type="part">
+							<head rend="center">I.<lb/> THE BUILDING.</head>
+							<lg>
+								<l>A <hi rend="sc">STRANGER</hi> in the village street,</l>
+								<l>Shines the new house in morning light--</l>
+								<l>No quick enchantment sprung by night,</l>
+								<l>A vision for the sun, complete,</l>
+								<l>Like that the Arabian story shows:</l>
+								<l>For the slow toil of hours and days,</l>
+								<l>With steadfast hands and stalwart blows,</l>
+								<l>Wrought with the builder's brain, to raise</l>
+								<l>This temple, yet unconsecrate,</l>
+								<l>Of Home and Household Deities,</l>
+								<l>The stronghold of Domestic Peace,</l>
+								<l>Familiar Church and private State!</l>
+								<pb n="51" id="VAA9490-049"/>
+								<l>The builder he has watch'd it long,</l>
+								<l>Since first the pencil-plan was made</l>
+								<l>And the deep under-stone was laid,</l>
+								<l>The fast foundation firm and strong,</l>
+								<l>Through slow processes, day by day,</l>
+								<l>While floors were fix'd and rafters hung,</l>
+								<l>Till now-the workmen pass'd away--</l>
+								<l>He wakes from slumber, blithe and young:</l>
+								<l>Behold, at last, his work is done!--</l>
+								<l>His house-in-air no longer dream,</l>
+								<l>Illumined by the morning gleam,</l>
+								<l>Transfigurd by the rising sun!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">II.<lb/> THE DWELLERS.</head>
+							<lg>
+								<l>Come at Morning-- you shall see</l>
+								<l>What a blissful company</l>
+								<l>Enter in the open door!</l>
+								<pb n="52" id="VAA9490-050"/>
+								<l>Children, children, evermore,</l>
+								<l>Dancing, singing, laughing, play,</l>
+								<l>Making merry holiday--</l>
+								<l>Happy faces, garments gay!--</l>
+								<l>Introducing Fairy-land,</l>
+								<l>Back to barren desert sand</l>
+								<l>Bringing flowers flown from earth:</l>
+								<l>The long coming-in of Birth!</l>
+							</lg>
+							<lg>
+								<l>Come at Midnight-- you shall see</l>
+								<l>What a ghostly company</l>
+								<l>Pass from out the open door!</l>
+								<l>Old men, old men, evermore,</l>
+								<l>Wrinkled, dusty, travel-spent,</l>
+								<l>Burden-bearers bow'd and bent,</l>
+								<l>Songless, sighing, halting, slow,</l>
+								<l>In funereal garments go,</l>
+								<l>But, upon the threshold, lo!</l>
+								<pb n="53" id="VAA9490-051"/>
+								<l>Sudden children, vanish there,</l>
+								<l>Lost in light and lifting air,</l>
+								<l>Beautiful with blissful breath:</l>
+								<l>The long going-forth of Death!</l>
+							</lg>
+						</div4>
+					</div3>
+					<pb n="54" id="VAA9490-052"/>
+					<div3 type="poem">
+						<head rend="center">THE PEACH-BLOSSOMS.</head>
+						<epigraph rend="center">
+							<p>SENT TO ME IN THE CITY, WITH THE WORDS,<lb/> "IT IS SPRING."</p>
+						</epigraph>
+						<lg>
+							<l>I<hi rend="sc">t</hi> was a gentle gift to send,</l>
+							<l>This thought in blossoms from a friend:</l>
+							<l rend="ti-2">Within my city room</l>
+							<l>I seem to breathe the country air,</l>
+							<l>While April's kisses every-where</l>
+							<l rend="ti-2">Start Earth's brown cheeks to bloom!</l>
+						</lg>
+						<lg>
+							<l>Oh, beautiful the welcome sight!</l>
+							<l>(Flushing my paper as I write,</l>
+							<l rend="ti-2">My words seem blossoming!)--</l>
+							<pb n="55" id="VAA9490-053"/>
+							<l>The lovely lighted snow that falls</l>
+							<l>Rosy around the cottage walls,</l>
+							<l rend="ti-2">A miracle of Spring!</l>
+						</lg>
+						<lg>
+							<l>Dream-like, I hear the sunny hum</l>
+							<l>Of swarming bees; low voices come</l>
+							<l rend="ti-2">Familiar, close, and dear:</l>
+							<l>I hardly know if I am there,</l>
+							<l>Or, shutting out the noisy air,</l>
+							<l rend="ti-2">Those birds are singing here!</l>
+						</lg>
+						<lg>
+							<l>To the dry city's restless heart</l>
+							<l>What tender influence ye impart,</l>
+							<l rend="ti-2">My blossoms, soft and wild!</l>
+							<l>Ah! from this barren cell I feel</l>
+							<l>Your subtle wand, enchanting, steal</l>
+							<l rend="ti-2">Me to the Past-- a child!</l>
+						</lg>
+						<pb n="56" id="VAA9490-054"/>
+						<lg>
+							<l>A child whose laughter-lighted face</l>
+							<l>Breaks from some happy door, a-chase</l>
+							<l rend="ti-2">For new-wing'd butterflies:</l>
+							<l>The wind, how merrily, takes his hair!--</l>
+							<l>Sing, birds, and keep him ever there</l>
+							<l rend="ti-2">With world-forgetting eyes!</l>
+						</lg>
+						<lg>
+							<l>Most gracious miracle of Spring</l>
+							<l>That gives the dead tree, blossoming,</l>
+							<l rend="ti-2">Its resurrection hour!</l>
+							<l>Lo! Memory lifts her wizard bough,</l>
+							<l>(That seem'd as bare and barren,) now</l>
+							<l rend="ti-2">Within my soul, in flower!</l>
+						</lg>
+					</div3>
+					<pb n="57" id="VAA9490-055"/>
+					<div3 type="poem">
+						<head rend="center">THE YELLOW LEAF:<lb/> IN THE POET'S BOOK.</head>
+						<lg>
+							<l>"W<hi rend="sc">HISPER</hi>, Yellow Leaf, to me</l>
+							<l>Thy forgotten history."</l>
+						</lg>
+						<lg>
+							<l>"One far spring-time, green and young,</l>
+							<l>On a sunny bough we hung.</l>
+						</lg>
+						<lg>
+							<l>"Happiest of green leaves were we,</l>
+							<l>Fluttering glad on the green tree.</l>
+						</lg>
+						<lg>
+							<l>"Merrily fairy moonbeams play'd,</l>
+							<l>Dancing through our dancing shade.</l>
+						</lg>
+						<pb n="58" id="VAA9490-056"/>
+						<lg>
+							<l>"Deck'd with Morn's lost jewelry,</l>
+							<l>Full of singing birds were we.</l>
+						</lg>
+						<lg>
+							<l>"Through the May and through the June</l>
+							<l>We danced every breeze's tune.</l>
+						</lg>
+						<lg>
+							<l>"Ask not where my kin are flown;</l>
+							<l>I am old and here alone.</l>
+						</lg>
+						<lg>
+							<l>"Their far summer-time was brief;</l>
+							<l>I am here a Yellow Leaf.</l>
+						</lg>
+						<lg>
+							<l>"Sunbeams grew cold and winds grew wild--</l>
+							<l>Kiss the Summer's orphan child!"</l>
+						</lg>
+						<lg>
+							<l>"Whisper, Yellow Leaf, to me</l>
+							<l>Why the poet treasures thee."</l>
+						</lg>
+						<pb n="59" id="VAA9490-057"/>
+						<lg>
+							<l>"That far Spring, when we were young,</l>
+							<l>In our shade a maiden sung;</l>
+						</lg>
+						<lg>
+							<l>"And his life a blossoming tree,</l>
+							<l>Danced with leaves as glad as we.</l>
+						</lg>
+						<lg>
+							<l>"But those blissful leaves at last</l>
+							<l>Flutter'd, falling, to the Past.</l>
+						</lg>
+						<lg>
+							<l>"See his song along with me,</l>
+							<l>Yellow Leaf of Memory!</l>
+						</lg>
+						<lg>
+							<l>"Book-marks of his life we lie,</l>
+							<l>Brother-leaves, the song and I.</l>
+						</lg>
+						<lg>
+							<l>"Song and leaf, from that far Spring</l>
+							<l>Dreams of joy and woe we bring.</l>
+						</lg>
+						<pb n="60" id="VAA9490-058"/>
+						<lg>
+							<l>"Let the song again be sung:</l>
+							<l>I again am green and young.</l>
+						</lg>
+						<lg>
+							<l>"And a maiden sings below:</l>
+							<l>Sun-leaf'd shadows wreathe her brow.</l>
+						</lg>
+						<lg>
+							<l>"Summer-time and love were brief:</l>
+							<l>Love the Poet's Yellow Leaf!"</l>
+						</lg>
+					</div3>
+					<pb n="61" id="VAA9490-059"/>
+					<div3 type="poem">
+						<head rend="center">THE UNBIDDEN GUEST.<lb/> ON THE DEATH OF A BRIDE.</head>
+						<lg>
+							<l>AH, many doors He jars with welcome knock!</l>
+							<l rend="ti-2">To the o'erburthen'd breast,</l>
+							<l>Through the dark hall, His footstep gives no shock,</l>
+							<l rend="ti-2">But seems a sound of rest.</l>
+						</lg>
+						<lg>
+							<l>O Uninvited! every street hath such--</l>
+							<l rend="ti-2">Enough, enough for Thee!</l>
+							<l>Hunger and Cold, they bless thy kindred touch</l>
+							<l rend="ti-2">And ask thy company!</l>
+						</lg>
+						<lg>
+							<l>Lo, one glad house by love had lighted been</l>
+							<l rend="ti-2">With his first, soft, sweet Moon,</l>
+							<pb n="62" id="VAA9490-060"/>
+							<l>And Life, the bidden guest, had just come in--</l>
+							<l rend="ti-2">Follow'd by Death how soon!</l>
+						</lg>
+						<lg>
+							<l>Sudden the lamps grow dark, a stealthy cold</l>
+							<l rend="ti-2">Palsies the joyous room;</l>
+							<l>The young man's place is taken by the old,</l>
+							<l rend="ti-2">Dark, deaf, dumb, sightless Groom!</l>
+						</lg>
+						<lg>
+							<l>The marriage greetings falter in speechless pain!</l>
+							<l rend="ti-2">Blithe bells-- your toll we hear!</l>
+							<l>The bridal party goes-- the funeral train;</l>
+							<l rend="ti-2">The bridal-bed's the bier!</l>
+						</lg>
+					</div3>
+					<pb n="63" id="VAA9490-061"/>
+					<div3 type="poem">
+						<head rend="center">APPLE-GATHERING.</head>
+						<lg>
+							<l>T<hi rend="sc">HE</hi> beautiful apples, so golden and mellow,</l>
+							<l rend="ti-2">They will fall at a kiss of the breeze,</l>
+							<l>While it breathes through the foliage frosty and yellow</l>
+							<l rend="ti-2">And the sunshine is filling the trees!</l>
+							<l>Though high in the light wind they gladly would linger</l>
+							<l rend="ti-2">On the boughs where their blossoms were found,</l>
+							<l>Yet they drop at a breath, at the touch of a finger</l>
+							<l rend="ti-2">They shatter their cores on the ground!</l>
+						</lg>
+						<lg>
+							<l>Through the morn of October while Autumn is trying</l>
+							<l rend="ti-2">With all things to make-believe Spring,</l>
+							<pb n="64" id="VAA9490-062"/>
+							<l>How the leaves of the orchard around us are flying!--</l>
+							<l rend="ti-2">The heavens with jubilee ring!</l>
+							<l>The ladders in breezes of sunshine are swinging,</l>
+							<l rend="ti-2">The farmer-boys gladden and climb:</l>
+							<l>To gather the fruit they are swaying and singing--</l>
+							<l rend="ti-2">Glad hearts to glad voices keep time!</l>
+						</lg>
+						<lg>
+							<l>Far down the bright air they are happy to listen</l>
+							<l rend="ti-2">To the noise of the mill and the flail,</l>
+							<l>And the waters that laugh as they leap and they glisten</l>
+							<l rend="ti-2">From the dam that is lighting the vale!</l>
+							<l>The wild flutter of bells that so dreamily rises</l>
+							<l rend="ti-2">From glades where the cows wander slow,</l>
+							<l>And the laughter of faces in childish surprises</l>
+							<l rend="ti-2">When the wind flings an apple below!</l>
+						</lg>
+						<pb n="65" id="VAA9490-063"/>
+						<lg>
+							<l>Oh, see! in the trees that are drinking the splendor,</l>
+							<l rend="ti-2">How the gladness of boyhood is seen!--</l>
+							<l>How they shake all the branches so windy and slender,</l>
+							<l rend="ti-2">And a quick golden rain is between!</l>
+							<l>High and higher they climb, till the grasses are cover'd</l>
+							<l rend="ti-2">With the fruits that were sweet April flowers,</l>
+							<l>And the yellowing leaves that all over them hover'd</l>
+							<l rend="ti-2">Flutter down with the apples in showers!</l>
+						</lg>
+						<lg>
+							<l>The harvests are garner'd, the meadows are burning,</l>
+							<l rend="ti-2">At sunset, in golden and brown;</l>
+							<l>The apples are gather'd, the wagons returning:</l>
+							<l rend="ti-2">The Winter may bluster and frown!</l>
+							<l>The blind-drifting snows may make barren the even,</l>
+							<l rend="ti-2">Dark twilights may shiver with rain;</l>
+							<l>But the apples and cider by Summer are given--</l>
+							<l rend="ti-2">Give Winter to Summer again!</l>
+						</lg>
+					</div3>
+					<pb n="66" id="VAA9490-064"/>
+					<div3 type="poem">
+						<head rend="center">CAESAR SALUTED.<lb/> [JULY, 1870.]</head>
+						<epigraph rend="center">
+							<p rend="i">Caesar, morituri te salutant."</p>
+							<bibl>[From the German of Albert Traeger.]</bibl>
+						</epigraph>
+						<lg>
+							<l>I<hi rend="sc">S</hi> it enough, now? Nations into strife</l>
+							<l rend="ti-2">To goad, your cloudy soul has ponder'd long;</l>
+							<l>The Slaughterers you have bidden whet the knife.</l>
+							<l rend="ti-2">The Caesar nods, and rages his wild throng.</l>
+							<l>But while they nod to you with their hot cries,</l>
+							<l rend="ti-2">The Dying, to the arena who move fast,</l>
+							<l>Look you, and see the pallid Ghosts arise,</l>
+							<l rend="ti-2">That stern and solemn gather, hurrying past!</l>
+							<l rend="ti-2">Do you not know them-feel no sting at last?--</l>
+							<l rend="ti-3">"Caesar, the Dead salute you."</l>
+						</lg>
+						<pb n="67" id="VAA9490-065"/>
+						<lg>
+							<l>Where gay-cheek'd Vice her pleasure-house has set</l>
+							<l rend="ti-2">For over-feasts of Horror, there erewhile</l>
+							<l>Shatter'd they lay upon the pavement, yet</l>
+							<l rend="ti-2">Keeping the oath you swore to with a smile:</l>
+							<l>First victims to the death-tools, ever more</l>
+							<l rend="ti-2">Your wit has tried to perfect: there lay still</l>
+							<l>In bloody blouse and the red cap, you wore</l>
+							<l rend="ti-2">Yourself to court the Republic in until</l>
+							<l rend="ti-2">The Butcher, silent, on them crept to kill--</l>
+							<l rend="ti-3">"Caesar, the Dead salute you."</l>
+						</lg>
+						<lg>
+							<l>Those, too, who did not win the bright, quick death</l>
+							<l rend="ti-2">Of heroes, sword in hand and smile on face--</l>
+							<l>In Cayenne's fever-swamps who spent their breath,</l>
+							<l rend="ti-2">With that dry guillotine dying apace;</l>
+							<l>Those who in prisons linger'd till the chain</l>
+							<l rend="ti-2">Dropp'd but with life away ; those who, outworn</l>
+							<pb n="68" id="VAA9490-066"/>
+							<l>With sharp, home-longing, ever-gnawing pain,</l>
+							<l rend="ti-2">Saw their last light in exile-lands, forlorn;</l>
+							<l rend="ti-2">Hair-blanch'd with grief, those left at home to mourn--</l>
+							<l rend="ti-3">"Caesar, the Dead salute you."</l>
+						</lg>
+						<lg>
+							<l>And, see, these come with open wounds, who chose</l>
+							<l rend="ti-2">After your eagles' flights to follow, these</l>
+							<l>Whose days found in your battles early close--</l>
+							<l rend="ti-2">To whom you said: "The Empire, it is Peace;"</l>
+							<l>For Liberty, you promised, to each fight</l>
+							<l rend="ti-2">You led them: when their blood gave victory,</l>
+							<l>With scornful smile, after your triumph-light,</l>
+							<l rend="ti-2">You dug another grave for Liberty,</l>
+							<l rend="ti-2">So that the earth a graveyard seem'd to be--</l>
+							<l rend="ti-3">"Caesar, the Dead salute you."</l>
+						</lg>
+						<pb n="69" id="VAA9490-067"/>
+						<lg>
+							<l>From the Black Sea they rise and gather round;</l>
+							<l rend="ti-2">Out of the Italian plains the Sleepers wake,</l>
+							<l>Who, freed by you, then saw their native ground</l>
+							<l rend="ti-2">The after-burden of your armies take;</l>
+							<l>And those sent far across the Atlantic tide</l>
+							<l rend="ti-2">To meet in Mexico their fatal blight,</l>
+							<l>There where a second time your sword was tried</l>
+							<l rend="ti-2">At the Republic with malignant spite,</l>
+							<l rend="ti-2">And where your star first lost its early light--</l>
+							<l rend="ti-3">"Caesar, the Dead salute you."</l>
+						</lg>
+						<lg>
+							<l>From out his Tomb is risen another wraith--</l>
+							<l rend="ti-2">(Rest in the Invalides he finds no more:)</l>
+							<l>The German war-cry, "Victory or Death!"</l>
+							<l rend="ti-2">Has proved his sign of ruin once before;</l>
+							<l>In his gray cloak and the little hat he stands</l>
+							<l rend="ti-2">Ready for march, the Ancestor of your reign,</l>
+							<pb n="70" id="VAA9490-068"/>
+							<l>But no war-fire his hollow eye commands:</l>
+							<l rend="ti-2">Backward his finger points to St. Helene,</l>
+							<l rend="ti-2">As if he sigh'd that still grave to regain--</l>
+							<l rend="ti-3">"Caesar, the Dead salute you."</l>
+						</lg>
+					</div3>
+					<pb n="71" id="VAA9490-069"/>
+					<div3 type="poem">
+						<head rend="center">IF.</head>
+						<lg>
+							<l>S<hi rend="sc">TRONG</hi> little Monosyllable between</l>
+							<l rend="ti-2">Desire and joy, between the hand and heart</l>
+							<l>Of all our longing; dreary death's-head seen</l>
+							<l rend="ti-2">Ere our quick lips to touch the nectar part!</l>
+							<l>O giant dwarf, making the whole world cling</l>
+							<l rend="ti-2">To thy cold arm before the infant feet</l>
+							<l rend="ti-2">Of frail resolves can walk, man-like, complete,</l>
+							<l>Steep mountain-roads of high accomplishing!</l>
+							<l rend="ti-2">Dim dragon in the way of our designing,</l>
+							<l>No Red-Cross Knight may vanquish! Though most brave,</l>
+							<l>Strong Will before thee crouches, a mute slave--</l>
+							<l rend="ti-2">Faith dies to feel thee in her path declining!</l>
+							<l>If! thou dost seem to our poor human sense</l>
+							<l>The broken crutch of our blind providence!</l>
+						</lg>
+					</div3>
+					<pb n="72" id="VAA9490-070"/>
+					<div3 type="poem">
+						<head rend="center">THE CHRYSALIS.</head>
+						<lg>
+							<l>LOOK! a chrysalis, dry and old,</l>
+							<l>Coffin of a worm, I hold:</l>
+							<l>'T is no lovely thing you see--</l>
+							<l>All of beauty yet must be;</l>
+							<l>You must wait a while, till Spring,</l>
+							<l>For the blossom, for the wing.</l>
+							<l>Call it by whatever name,</l>
+							<l>Couch or coffin, 't is the same.</l>
+							<l>Deeper down than Science sees</l>
+							<l>In old wells of mysteries,</l>
+							<l>(With her mirror'd face below,</l>
+							<l>Like a wondering child's a-glow,)</l>
+							<l>Farther far than sagest seeks,</l>
+							<l>Far as stars that shine in creeks,</l>
+							<pb n="73" id="VAA9490-071"/>
+							<l>Lo! in this unlovely shell</l>
+							<l>Masked Miracle doth dwell,</l>
+							<l>Old as Heaven, young as Earth!</l>
+							<l>God breathes and all death is birth:</l>
+							<l>At his breath and touch, in Spring,</l>
+							<l>Flutter, flower!-- blossom, wing!</l>
+						</lg>
+					</div3>
+					<pb n="74" id="VAA9490-072"/>
+					<div3 type="poem">
+						<head rend="center">LONG AGO.</head>
+						<lg>
+							<l>T<hi rend="sc">HOUGH</hi> for the soul a lovely Heaven awaits,</l>
+							<l rend="ti-2">Through years of woe,</l>
+							<l>The Paradise with angels in its gates</l>
+							<l rend="ti-2">Is Long Ago.</l>
+						</lg>
+						<lg>
+							<l>The heart's lost Home! Ah, thither winging ever</l>
+							<l rend="ti-2">In silence, show</l>
+							<l>Vanishing faces!-- but they vanish never</l>
+							<l rend="ti-2">In Long Ago!</l>
+						</lg>
+						<lg>
+							<l>Ye toil'd through desert sands to reach To-morrow,</l>
+							<l rend="ti-2">With footsteps slow,</l>
+							<l>Poor Yesterdays!-- Immortal gleams ye borrow</l>
+							<l rend="ti-2">In Long Ago.</l>
+						</lg>
+						<pb n="75" id="VAA9490-073"/>
+						<lg>
+							<l>The world is dark: backward our thoughts are yearning,</l>
+							<l rend="ti-2">Our eyes o'erflow:</l>
+							<l>Sweet Memories, angels to our tears returning,</l>
+							<l rend="ti-2">Leave Long Ago.</l>
+						</lg>
+						<lg>
+							<l>We climb: child-roses to our knees are climbing,</l>
+							<l rend="ti-2">From valleys low;</l>
+							<l>To call us back, dear birds and brooks are rhyming</l>
+							<l rend="ti-2">In Long Ago.</l>
+						</lg>
+						<lg>
+							<l>Hands clasp'd, tears shed, sad songs are sung!-- the fair,</l>
+							<l rend="ti-2">Beloved ones, lo!</l>
+							<l>Shine yonder, through the angel-gates of air,</l>
+							<l rend="ti-2">In Long Ago!</l>
+						</lg>
+					</div3>
+					<pb n="76" id="VAA9490-074"/>
+					<div3 type="poem">
+						<head rend="center">THE NEW COMING.</head>
+						<lg>
+							<l>S<hi rend="sc">HE</hi> comes again! She comes again! On the new earth once
+								more!</l>
+							<l>The children sweet, they meet and greet and pull her to the door!</l>
+						</lg>
+						<lg>
+							<l>Blithe maiden, dancing home her song! Oh, echoes sad, depart!</l>
+							<l>Her smile's the key in every door of the prison of the heart!</l>
+						</lg>
+						<lg>
+							<l>All things remember, seeing her-- her traveling choir the birds!</l>
+							<l>What singing in the sunshine, and what lowing of the herds!</l>
+						</lg>
+						<pb n="77" id="VAA9490-075"/>
+						<lg>
+							<l>The lambs, that only Winter knew, have like a garland bound her--</l>
+							<l>As if they knew her long ago, all gladdening dance around her!</l>
+						</lg>
+						<lg>
+							<l>The trees she only looks upon-green leaves begin to grow!</l>
+							<l>The orchard blushes! Is it snow?-- but oh! how fragrant snow!</l>
+						</lg>
+						<lg>
+							<l>All things are in the sunny air, whate'er can learn to fly;</l>
+							<l>The very worm has brighest wings-in its heaven, the butterfly!</l>
+						</lg>
+						<lg>
+							<l>The Spring! The Spring! She is here again-her train the gentlest hours!</l>
+							<l>And the last of the snow, she is smiling so, forgets it was not-flowers!</l>
+						</lg>
+					</div3>
+					<pb n="78" id="VAA9490-076"/>
+					<div3 type="poem">
+						<head rend="center">CONFIDENCES:<lb/> IN A BOOK OF LIKES AND DISLIKES.<ref id="ref_001"
+								rend="super" target="note_001">*</ref></head>
+						<lg>
+							<l>1. M<hi rend="sc">Y</hi> favorite virtue, what is that? Ah me,</l>
+							<l>I'll "make a virtue of Necessity!"</l>
+						</lg>
+						<lg>
+							<l>2. That ancient apple-eater I like, madam--</l>
+							<l>The frontispiece of all history-- the Old Adam.</l>
+						</lg>
+						<lg>
+							<l>3. Tyrants and traitors, bloody-handed men-</l>
+							<l>I think of these with hesitating pen,</l>
+							<l>And lo! from graves abhorr'd and flowerless rise</l>
+						</lg>
+						<note id="note_001"><ref target="ref_001" rend="super">*</ref>Written after the
+							following printed indications: I. Write your favorite virtue. 2. Favorite character in
+							history. 3. The character in history you despise most. 4. Favorite prose author. 5.
+							Favorite poet. 6. Favorite occupation. 7. Favorite color. 8. Favorite flower. 9.
+							Favorite food. 1o. Favorite name. i. Favorite motto. 12. What you dislike most. 13.
+							What you consider the greatest happi- ness on earth. 14. Your pet name. 15. Full
+							signature.</note>
+						<pb n="79" id="VAA9490-077"/>
+						<lg>
+							<l>(But Nero's once had flowers) their ghosts and cries!-</l>
+							<l>They claim appeal with pale, imploring look:</l>
+							<l>"The Supreme Court- the True Historian's Book!"</l>
+						</lg>
+						<lg>
+							<l>4. My pet of authors, must I name, in prose?</l>
+							<l>I'm sure I know not. The dear Lord only knows!</l>
+						</lg>
+						<lg>
+							<l>5. The children of the Muse, nor great nor small,</l>
+							<l>I can but see the Mother's face in all</l>
+							<l>Reflected. Some have names, as-thus and thus.</l>
+							<l>Before and after walks Anonymous.</l>
+						</lg>
+						<lg>
+							<l>6. With "good intentions," wavering to and fro,</l>
+							<l>To pave those scorching sidewalks Down Below!</l>
+						</lg>
+						<lg>
+							<l>7. The ebon Black that makes the star more bright,</l>
+							<l>The White wherein all colors end in light.</l>
+						</lg>
+						<pb n="80" id="VAA9490-078"/>
+						<lg>
+							<l>8. Rose, Lily, and Violet-- the lovely Three</l>
+							<l>That represent their race in poetry.</l>
+						</lg>
+						<lg>
+							<l>9. "Sour grapes."</l>
+						</lg>
+						<lg>
+							<l>10. I think that name, of all the host,</l>
+							<l>I like the best is------hers I love the most!</l>
+						</lg>
+						<lg>
+							<l>11. "Sic transit gloria Mundi." (Let it pass!)</l>
+						</lg>
+						<lg>
+							<l>12. To see my death's-head's vanity in a glass.</l>
+						</lg>
+						<lg>
+							<l>13. The earliest Dream of Happiness, at most</l>
+							<l>To dream-- nor wake to see its latest ghost.</l>
+						</lg>
+						<lg>
+							<l>14. 'T is closed on Memory's lips, how dear!</l>
+						</lg>
+						<lg>
+							<l>15. <hi rend="right">Now, that</hi></l>
+							<l>I've answer'd, I remain, <hi rend="right">J. J. P.</hi></l>
+						</lg>
+					</div3>
+					<pb n="81" id="VAA9490-079"/>
+					<div3 type="poem">
+						<head rend="center">CARPE DIEM.</head>
+						<lg>
+							<l>T<hi rend="sc">O-DAY</hi> I can not choose but share</l>
+							<l>The indolence of earth and air;</l>
+							<l rend="ti-2">In dreamful languor lying,</l>
+							<l>I see, like thistle-flowers that sail</l>
+							<l>Adown some hazed autumnal vale,</l>
+							<l rend="ti-2">The Hours to Lethé flying.</l>
+						</lg>
+						<lg>
+							<l>The hour-glass twinkles in the sun;</l>
+							<l>Unchanged its ceaseless course is run</l>
+							<l rend="ti-2">Through ever-changeful weathers--</l>
+							<l>"Time flies," its motto: 't is no crime,</l>
+							<l>I think, to pluck the wings of Time,</l>
+							<l rend="ti-2">And sleep upon his feathers!</l>
+						</lg>
+					</div3>
+					<pb n="82" id="VAA9490-080"/>
+					<div3 type="poem">
+						<head rend="center">SUNSHINE IN RAIN.</head>
+						<lg>
+							<l>T<hi rend="sc">HE</hi> rain darkles down over woodland and town,</l>
+							<l rend="ti-2">The clouds are all hid in the gray of the rain;</l>
+							<l>The wind creeps out of the mist in the meadow,</l>
+							<l rend="ti-2">And beats the wet rose at the pane.</l>
+						</lg>
+						<lg>
+							<l>On the honeysuckle porch in the shadow</l>
+							<l rend="ti-2">The little child lightens the darken'd floor;</l>
+							<l>He claps at the storm with his happy hands,</l>
+							<l rend="ti-2">He laughs at the thunder's roar!</l>
+						</lg>
+						<lg>
+							<l>Ah, why is he glad while the meadows are sad,</l>
+							<l rend="ti-2">And our voices are lower'd in graver replies?</l>
+							<l>But so many rainbows spring up o'er the storm</l>
+							<l rend="ti-2">From his heart to his merry eyes!</l>
+						</lg>
+					</div3>
+					<pb n="83" id="VAA9490-081"/>
+					<div3 type="poem">
+						<head rend="center">BREVIA.</head>
+						<div4 type="part">
+							<head rend="center">SUCCESS.</head>
+							<lg>
+								<l>T<hi rend="sc">HE</hi> noblest goal is never reach'd, because</l>
+								<l>Ever withdrawn by the high god that draws;</l>
+								<l>And he who says, content, "Success is mine,"</l>
+								<l>Gaining the world, has lost the soul divine.</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">KEEPING A ROSE'S COMPANY.-- A PERSIAN FABLE.</head>
+							<lg>
+								<l>A <hi rend="sc">TRAVELER</hi>, toiling on a weary way,</l>
+								<l>Found in his path a piece of fragrant clay.</l>
+								<l>"This seems but common earth," says he, "but how</l>
+								<l>Delightful!-- it is full of sweetness now!</l>
+								<l>Whence is thy fragrance ?" From the clay there grows</l>
+								<l>A voice: "I have been very near a rose."</l>
+							</lg>
+						</div4>
+						<pb n="84" id="VAA9490-082"/>
+						<div4 type="part">
+							<head rend="center">FOR-----.</head>
+							<lg>
+								<l>I<hi rend="sc">F</hi> poor the words I breathe you,</l>
+								<l>Oh, magic be their power!--</l>
+								<l>What lovely wreaths shall wreathe you</l>
+								<l>If wishes come to flower!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">POPULARITY AND FAME.</head>
+							<l>
+								<hi rend="center">I.</hi>
+							</l>
+							<lg>
+								<l>POST-HASTE one flies-at noisy inns she gossips on the way,</l>
+								<l>Where staring boys applaud and shout, and men in liveries gay:</l>
+								<l>Her business is in yonder town, her journey lasts to-day.</l>
+							</lg>
+							<l>
+								<hi rend="center">II.</hi>
+							</l>
+							<lg>
+								<l>One travels slow-at first her inns are houses for the poor;</l>
+								<pb n="85" id="VAA9490-083"/>
+								<l>Then mayors wait at city gate and kings at palace door:</l>
+								<l>To the world's end she journeys on, her road is evermore.</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">WINTER SUNSET.</head>
+							<lg>
+								<l rend="ti-2">T<hi rend="sc">HE</hi> winter day is done:</l>
+								<l>Froth early morn blown over restless crowds</l>
+								<l rend="ti-2">Of slow-advancing clouds,</l>
+								<l>With chilly, azure-lighted intervals,</l>
+								<l>Now-- large and low, beneath their lifted vail--</l>
+								<l rend="ti-2">Breathlessly bright! the sun</l>
+								<l>Against the eastern distance falls,</l>
+								<l>Reddening the far forests, empty and cold,</l>
+								<l>Whence the dumb river draws its icy trail</l>
+								<l>Through valley-farms the barren hills enfold,</l>
+								<l>And on the slope, under the spark-like spire,</l>
+								<l>The village window++s shiver, all afire!</l>
+							</lg>
+						</div4>
+						<pb n="86" id="VAA9490-084"/>
+						<div4 type="part">
+							<head rend="center">FOR SCULPTURE.</head>
+							<lg>
+								<l>L<hi rend="sc">O</hi>, Sleep binds over the weary angel Life,</l>
+								<l rend="ti-2">Whose globe, his care, turns idly from his hand,</l>
+								<l>With all its continents of toil and strife,</l>
+								<l rend="ti-2">With all its tossing seas and shifting sand!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">A LOST KINGDOM OF GODS.</head>
+							<lg>
+								<l>T<hi rend="sc">HE</hi> vast Olympian Heaven vanishes</l>
+								<l>Like the frail wreck of clouds that travel slow</l>
+								<l>After a thunder-storm, when eastward far</l>
+								<l>They sink, forever fainter, lower, down</l>
+								<l>In evening dusk among dark mountain peaks,</l>
+								<l>With vague unpurposed thunders, nerveless bolts</l>
+								<l>Of dull forgetful lightnings; and its King,</l>
+								<l>Who made an earthquake if he bent his brows,</l>
+								<pb n="87" id="VAA9490-085"/>
+								<l>Moves with his kind in half-forgotten dreams,</l>
+								<l>Such as we dream, and, waking, find are naught,</l>
+								<l>But feel their nothing present in all the air.</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">TASKING THE MUSE.</head>
+							<lg>
+								<l>T<hi rend="sc">HY</hi> housekeeper the goddess will not be--</l>
+								<l rend="ti-2">Make task-work for the Muse and she will fly;</l>
+								<l>Her gift of love is in her liberty:</l>
+								<l rend="ti-2">But, close thy door-- then she is in her sky!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">WITH SOME OLD LETTERS.</head>
+							<lg>
+								<l>O<hi rend="sc">LD</hi> lips that speak no more I hear;</l>
+								<l>Old vanish'd faces, brightening, come;</l>
+								<l>Old footsteps echo, strangely near,</l>
+								<l>From happy doors of Home!--</l>
+								<pb n="88" id="VAA9490-086"/>
+								<l>I feel the quick blood of the Past</l>
+								<l>Beat through Time's veins again in light;</l>
+								<l>I see warm hands, from loving hearts</l>
+								<l>Extended, while they write!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">A DECEMBER NIGHT.</head>
+							<lg>
+								<l>L<hi rend="sc">ISTEN</hi>!-- the wind is crying, like a loon</l>
+								<l>On some far water, and the rising moon</l>
+								<l>Stands breathless on the snow! That wind!-- it seems</l>
+								<l>A lost soul crying out in holy dreams,</l>
+								<l>The cry of some long unappeased despair</l>
+								<l>That has no human tongue-a soul in the air!</l>
+								<l>The flame drops into ember-breathing gloom;</l>
+								<l>Glimmers of shadow walk around the room,</l>
+								<l>Great shapeless shapes, a shuddering moment plain,</l>
+								<l>As the flame drops, then vanishing again!</l>
+							</lg>
+						</div4>
+						<pb n="89" id="VAA9490-087"/>
+						<div4 type="part">
+							<head rend="center">NEW FLIGHTS.</head>
+							<lg>
+								<l>H<hi rend="sc">OW</hi> glad yet sad is he whom gods have given,</l>
+								<l>With wings that lift him ever toward their Heaven,</l>
+								<l>The sight that looks beyond the farthest star</l>
+								<l>And sees, each higher flight, the Heaven more far!</l>
+							</lg>
+						</div4>
+						<div4 type="part">
+							<head rend="center">FORMER SELF.</head>
+							<lg>
+								<l>L<hi rend="sc">IFE'S</hi> task-work comes, after our youthful dreams,</l>
+								<l>And we forget in drudgeries of earth</l>
+								<l>Those bodily wings that took our dreams to Heaven,</l>
+								<l>Now heavy-drooping, soil'd, invisible,</l>
+								<l>Unlifted and unconscious by our sides.</l>
+								<l>Yet there are times when we remember them,</l>
+								<l>And vaguely feel their old and buoyant power</l>
+								<l>And dream its restoration suddenly,</l>
+								<l>But for a moment only-- dropping down</l>
+								<l>We recognize the vanish'd angelhood,</l>
+								<l>Care-burden'd men whose footprints pass in dust.</l>
+							</lg>
+						</div4>
+					</div3>
+					<pb n="90" id="VAA9490-088"/>
+					<div3 type="poem">
+						<head rend="center">SNOW-FALLING.</head>
+						<lg>
+							<l>T<hi rend="sc">HE</hi> wonderful Snow is falling,</l>
+							<l rend="ti-2">Over river and woodland and wold;</l>
+							<l>The trees bear spectral blossom</l>
+							<l rend="ti-2">In the moonshine blurr'd and cold.</l>
+						</lg>
+						<lg>
+							<l>There's a beautiful garden in Heaven;</l>
+							<l rend="ti-2">And these are the banish'd flowers,</l>
+							<l>Falling and driven and drifted</l>
+							<l rend="ti-2">Into this dark world of ours!</l>
+						</lg>
+					</div3>
+					<pb n="91" id="VAA9490-089"/>
+					<div3 type="poem">
+						<head rend="center">HALF-DREAMING.<lb/>
+							<hi rend="sc">TO -----, IN ABSENCE.</hi></head>
+						<lg>
+							<l>T<hi rend="sc">HEY</hi> come, in long procession rise before</l>
+							<l>My wakeful sight, most gentle thoughts of thee</l>
+							<l>And of thy love, the dearest dream to me</l>
+							<l>That ever grew dear truth for evermore;</l>
+							<l>And as a child in his still bed-- the door</l>
+							<l>Half-open where his mother's light may be</l>
+							<l>A comfort to his lonely sense when he,</l>
+							<l>Though waking, feels warm slumber reach the core</l>
+							<l>Of his fresh spirit-- drops his lids at last</l>
+							<l>To visit Fairyland, and numberless</l>
+							<l>Lithe shadows pass and shapes created fast,</l>
+							<l>Charming him till he sleeps, and are his dream:</l>
+							<l>So, while I wake in home-sick dreaminess,</l>
+							<l>My thoughts of thee through dreamful visions gleam.</l>
+						</lg>
+					</div3>
+					<pb n="92" id="VAA9490-090"/>
+					<div3 type="poem">
+						<head rend="center">BEARERS OF THE WORLD.</head>
+						<lg>
+							<l>I <hi rend="sc">THOUGHT</hi> of that grave Fable of the Past,</l>
+							<l>World-shouldering Atlas, and I slept at noon.</l>
+						</lg>
+						<lg>
+							<l>Then wandering shadows, wavering out of dreams,</l>
+							<l>(From men once sweating in the sun,) I saw,</l>
+							<l>Stooping and groaning, pass-- like those beheld</l>
+							<l>In Purgatory by the Florentine,</l>
+							<l>Bow'd down with penance. And these utter'd cries</l>
+							<l>Of sharp complaint continuous, wailing blind</l>
+							<l>At the deaf Providence that would not see</l>
+							<l>Nor lift their woful burdens. Each one cried:</l>
+							<l>"Most wretched Atlas, for I bear the world!"</l>
+							<l>And vanish'd in some barren space of sand.</l>
+							<pb n="93" id="VAA9490-091"/>
+							<l>Then others follow'd-- burden'd like to those</l>
+							<l>That pass'd before lamenting-- crown'd with peace,</l>
+							<l>Silent with dews of patience in their breasts,</l>
+							<l>Or with long sorrows hush'd on prayerful lips,</l>
+							<l>Or cheerful-brow'd, with forward-looking smiles</l>
+							<l>Of tender welcome for the wayside friends</l>
+							<l>By Nature sent to meet them-- flower, and bird,</l>
+							<l>And tree, and fountain-head, and dancing brook;</l>
+							<l>And some with eyes uplifted came, like him</l>
+							<l>Who dropp'd his pack at the Celestial Gate,</l>
+							<l>White with the years and wayworn with the dust.</l>
+							<l>And each one, leaning onward ever, said:</l>
+							<l>"Most happy Atlas, for I bear the world!"--</l>
+							<l>Vanishing in the gateways of a Land</l>
+							<l>Green with the pastures of a Paradise.</l>
+						</lg>
+					</div3>
+					<pb n="94" id="VAA9490-092"/>
+					<div3 type="poem">
+						<head rend="center">AFTERWARD.</head>
+						<lg>
+							<l>N<hi rend="sc">O</hi> more? Through all the years to meet</l>
+							<l rend="ti-2">No more? No more! Alas, no more!</l>
+							<l>I pray thy lips may smile as sweet--</l>
+							<l rend="ti-2">Unblest, I bless thee as before;</l>
+							<l>In solitudes of men apart</l>
+							<l rend="ti-2">My life's blind flowers for their dawn</l>
+							<l>Shall grope and climb-- into thy heart;</l>
+							<l rend="ti-2">And grow-- in dreams of sunshine gone!</l>
+						</lg>
+						<lg>
+							<l>No more? Through all the years to meet</l>
+							<l rend="ti-2">No more? No more! Alas, no more!</l>
+							<l>The tide that in my heart has beat</l>
+							<l rend="ti-2">May ebb, but still must haunt the shore</l>
+							<pb n="95" id="VAA9490-093"/>
+							<l>And leave vague shells of thought to lie</l>
+							<l rend="ti-2">And murmur evermore of thee;</l>
+							<l>On barren sand, until I die,</l>
+							<l rend="ti-2">The tide-mark of my love shall be.</l>
+						</lg>
+						<lg>
+							<l>No more? Through all the years to meet</l>
+							<l rend="ti-2">No more? No more! Alas, no more!</l>
+							<l>Yet oft from embers, strange and sweet,</l>
+							<l rend="ti-2">Shall start the flame so sweet before.</l>
+							<l>Again thy face I may not see,</l>
+							<l rend="ti-2">But still thy spirit in mine shall rise;</l>
+							<l>The violets over graves shall be,</l>
+							<l rend="ti-2">And from their souls shall look thine eyes.</l>
+						</lg>
+					</div3>
+					<pb n="96" id="VAA9490-094"/>
+					<div3 type="poem">
+						<head rend="center">TRANSFIGURATION.<lb/> [CHARLESTOWN, VA., DEC. 2, 1859.<lb/>
+							WASHINGTON, D. C., DEC. 2, 1863.<ref id="ref_002" rend="super" target="note_002"
+								>*</ref>]</head>
+						<lg>
+							<l>FOUR years ago the Savior of the Slave</l>
+							<l rend="ti-2">Took in his strong, brave arms a slave-born child--</l>
+							<l>Ere from the gallows to the martyr's grave</l>
+							<l rend="ti-2">He pass'd-- with manly blessing, deep and mild.</l>
+						</lg>
+						<lg>
+							<l>O Land, however strong, too weak to do</l>
+							<l rend="ti-2">Such office then! Like Christopher of old,</l>
+						</lg>
+						<note id="note_002"><ref target="ref_002" rend="super">*</ref>It seemed a suggestive
+							coincidence, that Crawford's Statue of Freedom (the work of putting which in bronze
+							was said to have been executed by negroes who were, or had been, slaves in the employ
+							of Clark Mills) was raised to its position on the dome of the National Capitol on the
+							anniversary of the execution at Charlestown, four years previous, and at the same hour
+							of the day.</note>
+						<pb n="97" id="VAA9490-095"/>
+						<lg>
+							<l>In that poor child the lifted Christ he knew,</l>
+							<l rend="ti-2">The great bond-breaker in his human hold!</l>
+						</lg>
+						<lg>
+							<l>O humbled Nation! To thy proudest place</l>
+							<l rend="ti-2">Thou liftest yonder shape of Freedom now,</l>
+							<l>Where Morning shall be quick to see her face,</l>
+							<l rend="ti-2">And Eve to touch with dew her sacred brow!</l>
+						</lg>
+						<lg>
+							<l>But he who seeks the soul within the form</l>
+							<l rend="ti-2">In that bright shape shall see another sight:</l>
+							<l>A gray old man, holding, in calm or storm,</l>
+							<l rend="ti-2">The unfetter'd child forever in the light!</l>
+						</lg>
+					</div3>
+					<pb n="98" id="VAA9490-096"/>
+					<div3 type="poem">
+						<head rend="center">TWO WATCHERS.</head>
+						<lg>
+							<l>T<hi rend="sc">WO</hi> ships sail on the ocean;</l>
+							<l rend="ti-2">Two watchers walk the shore:</l>
+							<l>One wrings wild hands and cries,</l>
+							<l rend="ti-2">"Farewell for evermore."</l>
+						</lg>
+						<lg>
+							<l>One sees, with face uplifted,</l>
+							<l rend="ti-2">(Soft homes of dream her eyes,)</l>
+							<l>Her sail, beyond the horizon,</l>
+							<l rend="ti-2">Reflected in the skies!</l>
+						</lg>
+					</div3>
+					<pb n="99" id="VAA9490-097"/>
+					<div3 type="poem">
+						<head rend="center">A MAN'S VOTE.<lb/> [NOVEMBER, 1864.]</head>
+						<lg>
+							<l>G<hi rend="sc">O</hi> down into the ballot-box-- from no unconscious hand--</l>
+							<l>And, rising on the morrow morn, ring out through all the Land!</l>
+							<l>Go down into the ballot-box, my single vote, tonight:</l>
+							<l>Ring with a myriad, single-voiced, abroad in morning light!</l>
+						</lg>
+						<lg>
+							<l>Go down into the ballot-box, a righteous vote and true--</l>
+							<l>No patriot's blood shall wasted seem, no bondman's dream, for you!</l>
+							<pb n="100" id="VAA9490-098"/>
+							<l>Go down into the ballot-box, unheard, unfelt, unknown:</l>
+							<l>You shall be heard and felt and seen-- the Day for you'll be shown!</l>
+						</lg>
+						<lg>
+							<l>If all the morn I held you fast, in silence and apart,</l>
+							<l>It matters not, 0 vote, you know I kept you in my heart!</l>
+							<l>Go down into the ballot-box-for Right at any cost;</l>
+							<l>And, what though last?-- the polls are closed-- thank God, you are not lost!</l>
+						</lg>
+					</div3>
+					<pb n="101" id="VAA9490-099"/>
+					<div3 type="poem">
+						<head rend="center">PARTING AND MEETING.</head>
+						<lg>
+							<l>O <hi rend="sc">WINGS</hi> of parting, heavy!</l>
+							<l rend="ti-2">0 wings of meeting, light!</l>
+							<l>We part-- the shadows hover;</l>
+							<l rend="ti-2">We meet-- the world is bright!</l>
+						</lg>
+						<lg>
+							<l>We part-- the birds at sunset</l>
+							<l rend="ti-2">Fold round their songs their wings;</l>
+							<l>We meet-- the sun arises,</l>
+							<l rend="ti-2">The lark in Heaven sings!</l>
+						</lg>
+					</div3>
+					<pb n="102" id="VAA9490-100"/>
+					<div3 type="poem">
+						<head rend="center">A ROSE'S JOURNEY.</head>
+						<lg>
+							<l>H<hi rend="sc">ASTE</hi> on your gentle journey, sent</l>
+							<l>To sweetest goal flower ever went:</l>
+							<l>Ah me, that can not follow close--</l>
+							<l>But my heart runs before you, rose!</l>
+						</lg>
+						<lg>
+							<l>O happy rose, I envy you--</l>
+							<l>But sweetness makes such sweet grace due:</l>
+							<l>First to her lips one moment press'd--</l>
+							<l>Then your long Heaven on her dear breast!</l>
+						</lg>
+					</div3>
+					<pb n="103" id="VAA9490-101"/>
+					<div3 type="poem">
+						<head rend="center">ARMY OF THE POTOMAC.<lb/> [WASHINGTON, MAY, 1865.]</head>
+						<lg>
+							<l>S<hi rend="sc">OLDIERS</hi>, return'd from many a fight, to-day</l>
+							<l>I call another year, another May:</l>
+							<l>Then from your homes at first ye march'd away.</l>
+						</lg>
+						<lg>
+							<l>Your country summon'd-- what quick answer came</l>
+							<l>Shall never be forgot by human fame:</l>
+							<l>The North was red with one electric flame!</l>
+						</lg>
+						<lg>
+							<l>The dragon's teeth were sown that started men--</l>
+							<l>(So may the Land be never sown again!)</l>
+							<l>Ye were the crop that sprang in armor then.</l>
+						</lg>
+						<lg>
+							<l>Lo, every highway made its end in one,</l>
+							<l>With stern advancing dust against the sun!--</l>
+							<l>A line of bayonets thrust to Washington!</l>
+						</lg>
+						<pb n="104" id="VAA9490-102"/>
+						<lg>
+							<l>I heard, I saw!-- the street ye tread to-day</l>
+							<l>Took echoes that shall never pass away,</l>
+							<l>Visions that shall be visible for aye!</l>
+						</lg>
+						<lg>
+							<l>--Ye come from many a long-remember'd fight:</l>
+							<l>Your flags are glittering, in the windy light,</l>
+							<l>With names that make their tremulous stars more bright.</l>
+						</lg>
+						<lg>
+							<l>Banners whose rags are famous, veterans too,</l>
+							<l>Pathetic with the storms they flutter'd through,</l>
+							<l>Ye bear in pride and tenderness with you!</l>
+						</lg>
+						<lg>
+							<l>Ye come-ye are not all that went away:</l>
+							<l>Another myriad, great as yours, to-day</l>
+							<l>Keep their encampment with the flowers of May.</l>
+						</lg>
+						<lg>
+							<l>--Ye came from homes that haply echo still</l>
+							<l>With your last footsteps on the quiet sill:</l>
+							<l>Go back, go back, the empty air to fill!</l>
+						</lg>
+						<pb n="105" id="VAA9490-103"/>
+						<lg>
+							<l>Ye came from new-plow'd fields and wheated lands,</l>
+							<l>Where the old harvests call'd for willing hands:</l>
+							<l>Go back to join the gentle reaper bands!</l>
+						</lg>
+						<lg>
+							<l>Ye came-- the work is done ye came to do:</l>
+							<l>Go back, go back, 0 servants tried and true--</l>
+							<l>Go back to find your Land created new!</l>
+						</lg>
+					</div3>
+					<pb n="106" id="VAA9490-104"/>
+					<div3 type="poem">
+						<head rend="center">TWO RETURNS.</head>
+						<lg>
+							<l>LAST night I found your gentle face</l>
+							<l rend="ti-2">Within the household air you bless;</l>
+							<l rend="ti-2">The gather'd rays of happiness</l>
+							<l>Touch'd all things in the hearth-warm'd place.</l>
+						</lg>
+						<lg>
+							<l>Last night I dream'd a weird, sad dream:</l>
+							<l rend="ti-2">The moonrise shiver'd through the trees,</l>
+							<l rend="ti-2">With a low-moaning autumn breeze,</l>
+							<l>And fleck'd the roof with ghostly gleam.</l>
+						</lg>
+						<lg>
+							<l>Through frost-furr'd rose-vines warmly cast,</l>
+							<l rend="ti-2">Welcoming arms of household flame</l>
+							<l rend="ti-2">Reach'd forth to meet me as I came</l>
+							<l>And clasp me in from all the Past.</l>
+						</lg>
+						<pb n="107" id="VAA9490-105"/>
+						<lg>
+							<l>Glad voices made the walls alive</l>
+							<l rend="ti-2">With murmur-music: loving sound</l>
+							<l rend="ti-2">That even the world's far echoes found--</l>
+							<l>Lost bees of Love in Memory's hive!</l>
+						</lg>
+						<lg>
+							<l>I paused, I listen'd: you were there!--</l>
+							<l rend="ti-2">A moment and the wander'd years</l>
+							<l rend="ti-2">Would melt in smiles or drown in tears,</l>
+							<l>And change would pass away in air!</l>
+						</lg>
+						<lg>
+							<l>I knock'd: your footsteps lightly came,</l>
+							<l rend="ti-2">And drew old music from my heart--</l>
+							<l rend="ti-2">Oh, opening door! I stood apart:</l>
+							<l>Darkness!-- no voice, no face, no flame!</l>
+						</lg>
+						<lg>
+							<l>No hurrying warmth of happy air,</l>
+							<l rend="ti-2">Though the dear chimney rosily</l>
+							<pb n="108" id="VAA9490-106"/>
+							<l rend="ti-2">Clasp'd close some lighted family:</l>
+							<l>You were not there, you were not there!</l>
+						</lg>
+						<lg>
+							<l>"The wind!" half-whisper'd some one. Then</l>
+							<l rend="ti-2">The Summer shut the Winter out:</l>
+							<l rend="ti-2">The startled child with eager shout</l>
+							<l>Climb'd mother-knees secure again!</l>
+						</lg>
+						<lg>
+							<l>The walls were glad with laugh and shout:</l>
+							<l rend="ti-2">Returning young, and lithe and gay,</l>
+							<l rend="ti-2">Who shiver'd there so old and gray?--</l>
+							<l>The Summer shut the Winter out.</l>
+						</lg>
+						<lg>
+							<l>And where were you? Dead years replied,</l>
+							<l rend="ti-2">Slow, one by one.<lb/>
+								<hi rend="right">----Another tone,</hi></l>
+							<l rend="ti-2">The dream in blissful waking flown,</l>
+							<l>Gave back the happy-hearted tide!</l>
+						</lg>
+						<pb n="109" id="VAA9490-107"/>
+						<lg>
+							<l>Snow warm'd to flowers by April air,</l>
+							<l rend="ti-2">How brightly fell those dreadful years !</l>
+							<l rend="ti-2">Lo, all my heart lay fresh in tears--</l>
+							<l>Your morning voice was on the stair!</l>
+						</lg>
+					</div3>
+					<pb n="110" id="VAA9490-108"/>
+					<div3 type="poem">
+						<head rend="center">TO THE STATUE ON THE CAPITOL:<lb/>
+							<hi rend="sc">LOOKING EASTWARD AT DAWN</hi>.</head>
+						<lg>
+							<l>W<hi rend="sc">HAT</hi> sunken splendor in the Eastern skies</l>
+							<l rend="ti-2">Seest thou, O Watcher, from thy lifted place?--</l>
+							<l>Thine old Atlantic dream is in thine eyes,</l>
+							<l rend="ti-2">But the new Western morning on thy face.</l>
+						</lg>
+						<lg>
+							<l>Beholdest thou, in reapparent light,</l>
+							<l rend="ti-2">Thy lost Republics? They were visions, fled.</l>
+							<l>Their ghosts in ruin'd cities walk by night--</l>
+							<l rend="ti-2">It is no resurrection of their dead.</l>
+						</lg>
+						<pb n="111" id="VAA9490-109"/>
+						<lg>
+							<l>But look, behind thee, where in sunshine lie</l>
+							<l rend="ti-2">Thy boundless fields of harvest in the West,</l>
+							<l>Whose savage garments from thy shoulders fly,</l>
+							<l rend="ti-2">Whose eagle clings in sunrise to thy crest!</l>
+						</lg>
+						<p>WASHINGTON, D. C.</p>
+					</div3>
+					<pb n="112" id="VAA9490-110"/>
+					<div3 type="poem">
+						<head rend="center">IN MARCH.</head>
+						<lg>
+							<l>W<hi rend="sc">ELCOME</hi>, sweet Wind; you bring</l>
+							<l>A soul of Spring</l>
+							<l>From some far, fragrant rose,</l>
+							<l>That blows</l>
+							<l>In some dear, coming May, or half-forgotten Spring.</l>
+						</lg>
+						<lg>
+							<l>Welcome, sweet Dream; you bear</l>
+							<l>Your wings of air</l>
+							<l>From some far isle of love--</l>
+							<l>A dove,</l>
+							<l>Flying with gentle bough from some far, lovelier air.</l>
+						</lg>
+						<pb n="113" id="VAA9490-111"/>
+						<lg>
+							<l>What though the sweet Wind knows</l>
+							<l>A vanish'd rose--</l>
+							<l>My dream the Past, alone,</l>
+							<l>Has known?--</l>
+							<l>Bloom from my heart, sweet dream; climb from my dream, sweet rose!</l>
+						</lg>
+					</div3>
+					<pb n="114" id="VAA9490-112"/>
+					<div3 type="poem">
+						<head rend="center">THE BUBBLE-BLOWERS.</head>
+						<lg>
+							<l>J<hi rend="sc">OYOUS</hi> faces in the sunshine,</l>
+							<l>Happy laughter, tossing hair!</l>
+							<l>See the children blowing bubbles,</l>
+							<l>Worlds'in bright-enchanted air!</l>
+						</lg>
+						<lg>
+							<l>Worlds, their merry new creations--</l>
+							<l>Fairy globes for lifted eyes!</l>
+							<l>In the sunshine rise the bubbles--</l>
+							<l>From their hearts the fairies rise!</l>
+						</lg>
+					</div3>
+					<pb n="115" id="VAA9490-113"/>
+					<div3 type="poem">
+						<head rend="center">WITH SOME SHELLS AND POEMS.</head>
+						<lg>
+							<l>T<hi rend="sc">AKE</hi> up these little sea-shells, Dear,</l>
+							<l>And press them closely to your ear:</l>
+							<l>Their vague and desolate monotone</l>
+							<l>Saddens you with its ceaseless moan,</l>
+							<l>As if the ocean, prison'd there,</l>
+							<l>Moved with a vast but dumb despair.</l>
+						</lg>
+						<lg>
+							<l>Deep in those cells of subtle sound</l>
+							<l>Some boundless spirit seems prison-bound,</l>
+							<l>Murmuring of shores where wrecks are strown</l>
+							<l>And ghosts of tempests walk alone,</l>
+							<l>Yet, over all-- from all apart--</l>
+							<l>You hear the beatings of your heart.</l>
+						</lg>
+						<pb n="116" id="VAA9490-114"/>
+						<lg>
+							<l>Take now these poems, vague with woe,</l>
+							<l>Found with the sea-shells long ago:</l>
+							<l>Within you hear the sounds that swell</l>
+							<l>From restless seas and haunt the shell;</l>
+							<l>But listen, and your heart shall let</l>
+							<l>New music silence old regret.</l>
+						</lg>
+					</div3>
+				</div2>
+			</div1>
+		</body>
+	</text>
+</TEI.2>

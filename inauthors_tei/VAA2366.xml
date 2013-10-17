@@ -1,0 +1,2032 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI.2 PUBLIC "-//IA Books//DTD TEI for Indiana Authors Books//EN" "teixlite.dtd" [
+<!NOTATION JPG SYSTEM "JPEG">
+<!ENTITY VAA2366-1 SYSTEM "figures/VAA2366-1.jpg" NDATA JPG>
+<!ENTITY VAA2366-2 SYSTEM "figures/VAA2366-2.jpg" NDATA JPG>
+<!ENTITY VAA2366-3 SYSTEM "figures/VAA2366-3.jpg" NDATA JPG>
+<!ENTITY VAA2366-4 SYSTEM "figures/VAA2366-4.jpg" NDATA JPG>
+]>
+<TEI.2 id="VAA2366">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Madness of May: electronic edition</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <address>
+                    <addrLine>1320 E. 10th St.</addrLine>
+                    <addrLine>Bloomington, IN 47405</addrLine>
+                </address>
+                <idno>VAA2366</idno>
+                <availability status="unknown">
+                    <p>Copyright 2008 Trustees of Indiana University</p>
+                    <p>Indiana University provides the information contained on this web site for non-commercial,
+                        personal, or research use only. All other use, including but not limited to commercial or
+                        scholarly reproductions, redistribution, publication or transmission, whether by electronic
+                        means or otherwise, without prior written permission of the copyright holder is strictly
+                        prohibited.</p>
+                </availability>
+                <date>2007</date>
+            </publicationStmt>
+            <sourceDesc>
+                <biblFull><titleStmt>
+                    <title type="main">The Madness of May</title>
+                    <author id="ina-v1-entry-0644">Nicholson, Meredith, 1866-1947</author></titleStmt>
+                    <publicationStmt>
+                        <publisher>Charles Scribner&apos;s Sons</publisher>
+                        <pubPlace>New York</pubPlace>
+                        <date>1917</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+                <p>The Digital Library Program was awarded a Library Services and Technology Act (LSTA)
+                    grant in 2005 to make available online the three-volume, reference work, <title>Indiana Authors 
+                        and Their Books</title> along with selected monographs by Indiana authors.
+                </p>
+            </projectDesc>
+            <editorialDecl n="3">
+                <p>This electronic text file was created by Optical Character Recognition (OCR), and
+                    has been encoded and edited using the recommendations for Level 3 of the TEI in
+                    Libraries Guidelines following the TEI Lite standard. Digital page images are
+                    linked to the text file.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <tagUsage gi="div1">Numbered divs used.</tagUsage>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language>English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2008-02-29</date>
+                <respStmt>
+                    <name>Annette D. Richmond</name>
+                    <resp>Encoder</resp>
+                </respStmt>
+                <item>Corrected teiHeader, pb tags, front matter.</item>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb id="VAA2366-001" n="[]"/>
+            <div1 type="halftitle">
+                <head>THE MADNESS OF MAY</head>
+                <p/>
+            </div1>
+            <pb id="VAA2366-002" n="[]"/>
+            <div1 type="frontispiece">
+                <figure entity="VAA2366-1">
+                    <p>&quot;I didn&apos;t know it was <hi rend="i">your</hi> moon,&quot; he said. [<hi
+                            rend="i">Page</hi> 60</p>
+                </figure>
+                <p/>
+            </div1>
+            <pb id="VAA2366-003" n="[]"/>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE<lb/> MADNESS OF MAY</titlePart>
+                </docTitle>
+                <byline>BY<lb/>
+                    <docAuthor>MEREDITH NICHOLSON</docAuthor></byline>
+                <byline>WITH ILLUSTRATIONS BY<lb/> FREDERIC DORR STEELE</byline>
+                <epigraph>
+                    <p>Upon the morn they took their horses with the queen, and rode a-maying in woods and meadows, as
+                        it pleased them.</p>
+                    <bibl>
+                        <hi rend="i">The Age of Chivalry</hi>.</bibl>
+                </epigraph>
+                <docImprint>
+                    <pubPlace>NEW YORK</pubPlace>
+                    <publisher>CHARLES SCRIBNER&apos;S SONS</publisher>
+                    <docDate>1917</docDate>
+                </docImprint>
+            </titlePage>
+            <pb id="VAA2366-004" n="[]"/>
+            <div1 type="verso">
+                <p rend="center">C<hi rend="sc">OPYRIGHT,</hi> 1917, <hi rend="sc">BY</hi>
+                    <lb/> CHARLES SCRIBNER&apos;S SONS</p>
+                <p rend="center">Published March, 1917</p>
+            </div1>
+            <pb id="VAA2366-005" n="[]"/>
+            <div1 type="dedication">
+                <p rend="center">TO<lb/> MRS. CHARLES THOMAS KOUNTZE</p>
+            </div1>
+            <pb id="VAA2366-006" n="[]"/>
+            <div1 type="figures">
+                <head>ILLUSTRATIONS</head>
+                <list type="simple">
+                    <item>&quot;I didn&apos;t know it was <hi rend="i">your</hi> moon,&quot; he said <hi
+                            rend="right">
+                            <hi rend="i">Frontispiece</hi>
+                        </hi>
+                        <ptr targType="pb" target="VAA2366-002"/></item>
+                    <item>&quot;The young person left in haste, that&apos;s clear enough,&quot; remarked
+                        Hood <hi rend="right">30</hi>
+                        <ptr targType="pb" target="VAA2366-036"/></item>
+                    <item>&quot;I make it a rule never to deny food to any applicant, no matter how unworthy. You
+                        may remain&quot; <hi rend="right">122</hi>
+                        <ptr targType="pb" target="VAA2366-129"/></item>
+                    <item>&quot;Throw up your hands, boys; it&apos;s no use!&quot; cried Hood in mock
+                        despair <hi rend="right">164</hi>
+                        <ptr targType="pb" target="VAA2366-172"/></item>
+                </list>
+            </div1>
+        </front>
+        <body>
+            <pb id="VAA2366-007" n="[1]"/>
+            <div1 type="book">
+                <head>THE MADNESS OF MAY</head>
+            <pb id="VAA2366-008" n="3"/>
+            <div2 type="chapter" n="1">
+                <head>I</head>
+                <p>BILLY DEERING let himself into his father&apos;s house near Radford Hills, Westchester County,
+                    and with a nod to Briggs, who came into the hall to take his hat and coat, began turning over the
+                    letters that lay on the table.</p>
+                <p>&quot;Mr. Hood has arrived, sir,&quot; the servant announced. &quot;I put him in the
+                    south guest-room.&quot;</p>
+                <p>Deering lifted his head with a jerk. &quot;Hoodwhat Hood?&quot;</p>
+                <p>&quot;Mr. Hood is all I know, sir. He said he was expectedyou had asked him for the night. If
+                    there&apos;s a mistake&quot;</p>
+                <p>Deering reached for his hat and coat, which Briggs still held. His face <pb id="VAA2366-009" n="4"/>
+                    whitened, and the outstretched hand shook visibly. Briggs eyed him with grave concern, then took a
+                    step toward the stairway.</p>
+                <p>&quot;If you wish, sir&quot;</p>
+                <p>&quot;Never mind, Briggs,&quot; Deering snapped. &quot;It&apos;s all right.
+                    I&apos;d forgotten I had a guest coming; that&apos;s all.&quot;</p>
+                <p>He opened a letter with assumed carelessness and held it before his eyes until the door closed upon
+                    Briggs. Then his jaws tightened. He struck his hands together and mounted the steps doggedly, as
+                    though prepared for a disagreeable encounter.</p>
+                <p>All the way out on the train he had feared that this might happen. The long arm of the law was
+                    already clutching at his collar, but he had not reckoned with this quick retribution. The <pb
+                        id="VAA2366-010" n="5"/> presence of the unknown man in the house could be explained on no other
+                    hypothesis than the discovery of his theft of two hundred thousand dollars in gilt-edged bonds from
+                    the banking-house of Deering, Gaylord &amp; Co. It only remained for him to kill himself and
+                    escape from the shame that would follow exposure. He must do this at once, but first he would see
+                    who had been sent to apprehend him. Hood was an unfamiliar name; he had never known a Hood anywhere,
+                    he was confident of that.</p>
+                <p>The house was ominously quiet. Deering paused when he reached his own room, glanced down the hall,
+                    then opened the door softly, and fell back with a gasp before the blaze of lights. There, lost in
+                    the recesses of a comfortable <pb id="VAA2366-011" n="6"/> chair, with his legs thrown across the
+                    mahogany table, sat a man he had never seen before.</p>
+                <p>&quot;Ah, Deering; very glad you&apos;ve come,&quot; murmured the stranger, glancing up
+                    unhurriedly from his perusal of a newspaper.</p>
+                <p>He had evidently been reading for some time, as the floor was littered with papers. At this instant
+                    something in the page before him caught his attention and he deftly extracted a quarter of a column
+                    of text, pinched it with the scissors&apos; points and dropped it on a pile of similar cuttings
+                    on the edge of the table.</p>
+                <p>&quot;Just a moment!&quot; he remarked in the tone of a man tolerant of interruptions,
+                    &quot;and do pardon me for mussing up your room. I liked it better here <pb id="VAA2366-012"
+                        n="7"/> than in the pink room your man gave meno place there to put your legs! Creature of
+                    habit; can&apos;t rest without sticking my feet up.&quot;</p>
+                <p>He opened a fresh newspaper and ran his eyes over the first page with the trained glance of an expert
+                    exchange reader.</p>
+                <p>&quot;The Minneapolis papers are usually worthless for my purposes, and yet occasionally they
+                    print something I wouldn&apos;t miss. I&apos;m the best friend the &apos;buy your home
+                    paper&apos; man has,&quot; he ran on musingly, skimming the page and ignoring Deering, who
+                    continued to stare in stupefied amazement from the doorway. &quot;Ah!&quot;</p>
+                <p>The scissors flashed and the unknown added another item to his collection.</p>
+                <p>&quot;That&apos;s all,&quot; he remarked with a <pb id="VAA2366-013" n="8"/> sigh. He
+                    dropped his feet to the floor, rose, and lazily stretched himself.</p>
+                <p>Tall, compactly built, a face weather-beaten where the flesh showed above a close-clipped brownish
+                    beard, and hair, slightly gray, brushed back smoothly from a broad foreheadthese items Deering noted
+                    swiftly as he dragged himself across the threshold.</p>
+                <p>&quot;Really, a day like this would put soul into a gargoyle,&quot; the stranger remarked,
+                    brushing the paper-shavings from his trousers. &quot;Motored up from Jersey and had a grand time
+                    all the way. I walk, mostly, but commandeer a machine for long skips. To learn how to live, my dear
+                    boy, that&apos;s the great business! Not sure I&apos;ve caught the trick, but I&apos;m
+                    working at it, with such feeble talents as the gods have bestowed.&quot;</p>
+                <pb id="VAA2366-014" n="9"/>
+                <p>He filled a pipe deftly from a canvas bag, and drew the strings together with white, even teeth.</p>
+                <p>This cool, lounging stranger was playing a trick of some kind; Deering was confident of this and
+                    furious at his utter inability to cope with him. He clung to the back of a chair, trembling with
+                    anger.</p>
+                <p>&quot;My name,&quot; the visitor continued, tossing his match into an ash-tray, &quot;is
+                    HoodR. Hood. The lone initial might suggest Robert or Roderigo, but if your nursery library was
+                    properly stocked you will recall a gentleman named Robin Hood of Sherwood Forest. I don&apos;t
+                    pretend to be a descendantfar from it; adopted the name out of sheer admiration for one of the
+                    grandest figures in all literature. Robin Hood, Don <pb id="VAA2366-015" n="10"/> Quixote, and
+                    George Borrow are rubricated saints in my calendar. By the expression on your face I see that you
+                    don&apos;t make me out, and I can&apos;t blame you for thinking me insane; but, my dear boy,
+                    such an assumption does me a cruel wrong! Briefly, I&apos;m a hobo with a weakness for good
+                    society, and yet a friend of the under dog. I confess to a passion for grand opera and lobster in
+                    all its forms. Do you grasp the idea?&quot;</p>
+                <p>Deering did not grasp it. The man had protested his sanity, but Deering had heard somewhere that a
+                    confident belief in their mental soundness is a common hallucination of lunatics. Still, the
+                    stranger&apos;s steady gray eyes did not encourage the suspicion that he was mad.
+                    Deering&apos;s own reason, already severely taxed, was unequal to the task <pb id="VAA2366-016"
+                        n="11"/> of dealing with this assured and cheerful Hood, who looked like a gentleman but talked
+                    like a fool.</p>
+                <p>&quot;For God&apos;s sake, who are you and what do you want?&quot; he demanded angrily.</p>
+                <p>Hood pushed him gently into a chair, utterly ignoring his fury.</p>
+                <p>&quot;What time do we dine? Seven-thirty, I think your servant told me. I shan&apos;t dress
+                    if you don&apos;t mind. Speaking of clothes, that man of yours is a very superficial observer;
+                    let me in on the strength of my automobile coat, and I suppose the machine impressed him too. If
+                    he&apos;d looked under the surface at these poor rags, I&apos;d never have got by! That
+                    illustrates an ancient habit of the serving class in thinking all is gold that glitters. Snobs!
+                    Deplorable <pb id="VAA2366-017" n="12"/> weakness! Let&apos;s talk like sensible men till the
+                    gong sounds.&quot;</p>
+                <p>Deering shook himself impatiently. This absurd talk, carefully calculated, he assumed, to prolong his
+                    misery, had torn his nerves to shreds. Hood sat down close to him in a straight-backed chair,
+                    crossed his legs, and thrust his hands into his coat pockets.</p>
+                <p>&quot;My dear boy, in the name of all the gods at once, cheer up! To satisfy your very natural
+                    curiosity, I&apos;ll say that I fancied you were in trouble and needed a strong arm to sustain
+                    you in your hour of trial. Laudable purposeah, I see you begin to feel more comfortable. I have
+                    every intention of playing the big brother to you for a few hours, weeks, or months, or till you
+                    come out of your green funk. You wonder, <pb id="VAA2366-018" n="13"/> of course, what motive I have
+                    for intruding in this waylying to your servant, and making myself at home in your house. The motive,
+                    so far as there is any, is the purely selfish one of finding enjoyment for myself, while
+                    incidentally being of service to you. And you&apos;re bound to admit that that&apos;s a fair
+                    offer in this world of greed and selfishness. The great trouble with most of us is that the flavor
+                    so soon wears out of the chewing-gum. Do you remember the last time you had a good, hearty laugh?
+                    I&apos;ll wager you don&apos;t!&quot;</p>
+                <p>Deering scowled, but Hood continued to expound his philosophy:</p>
+                <p>&quot;The world&apos;s roaring along at such a rate we can&apos;t find happiness anywhere
+                    but in the dictionary. It&apos;s worrying me to death, just the spectacle of the fool <pb
+                        id="VAA2366-019" n="14"/> old human race never getting a chance to sit down by the side of the
+                    road and pick the pebbles out of its shoes. Everybody&apos;s feet hurt and everybody&apos;s
+                    carrying a blood pressure that&apos;s bound to blow the roof off. I tell you, Deering,
+                    civilization hasn&apos;t got anything on the gypsies but soap and sanitary plumbing.
+                    I&apos;m just forty-five and for years I&apos;ve kept in motion most of the time. Alone of
+                    great travellers William Jennings Bryan has reviewed more water-tanks than I. I find the same
+                    delight in Butte, Peoria, Galesburg, Des Moines, Ashtabula, and Bangor, in Tallahassee, Birmingham,
+                    and Waco, that others seek in London, Paris, and Viennaand it&apos;s all American stuffbusiness
+                    of flags flying and Constitution being chanted offstage by a choir of a million voices! <pb
+                        id="VAA2366-020" n="15"/> I&apos;ve lived in coal-camps in Colorado, wintered with Maine
+                    lumbermen, hopped the ties with hobos, and enjoyed the friendship of thieves. I don&apos;t mean
+                    to brag, but I suppose there isn&apos;t a really first-rate crook in the country that I
+                    don&apos;t know. And down in the underworld they look on meif I may modestly say itas an old
+                    reliable friend. I&apos;ve found these contacts immensely instructive, as you may imagine.
+                    Don&apos;t get nervous! I never stole anything in my life.&quot;</p>
+                <p>He thrust his fingers into his inside waistcoat pocket, and drew out a packet of bills, neatly
+                    folded, and opened them for Deering&apos;s wondering inspection.</p>
+                <p>&quot;I beg of you don&apos;t jump to the conclusion that I roll in wealth. Money is poison
+                    to me; I hate the very smell of <pb id="VAA2366-021" n="16"/> ithaven&apos;t a cent of my own in
+                    the world. This belongs to my chauffeurcarry it as a precaution merely.&quot;</p>
+                <p>Hood relighted his pipe, and dreamily watched the match blacken and curl in his fingers.</p>
+                <p>&quot;Your chauffeur?&quot; Deering suggested, like a child prompting a parent in the midst
+                    of an absorbing story.</p>
+                <p>&quot;Oh, yes! Cassowary&quot;he pronounced the word lingeringly as though to prolong his
+                    pleasure in it&quot;real name doesn&apos;t matter. His father rolled up a big wad cutting
+                    the forest primeval into lumber, and left it to Cassowarymatter of a million or two. Cassowary had
+                    been driven to drink by an unhappy love-affair when I plucked him as a brand from burning Broadway.
+                    Nice chap, but too much self-indulgence; <pb id="VAA2366-022" n="17"/> never had any discipline.
+                    He&apos;s pretty well broken in now, and as we seemed to need each other we follow the long
+                    trail together. Manage to hit it off first-rate. He&apos;s still mooning over the girl; tough
+                    that he can&apos;t have the only thing in the world he wants! Obstreperous parent adumbrated in
+                    the foreground, shotgun in hand. I don&apos;t allow Cassowary to carry any moneywould rather
+                    risk contamination myself than expose him to it. If he stays with me for a few years, his
+                    accumulated income will roll up so that he can endow orchestras and art museums all through the
+                    prairie towns of the West, and become a great benefactor of mankind.&quot;</p>
+                <p>Hood&apos;s story was manifestly absurd, and yet he invested it with a certain <pb
+                        id="VAA2366-023" n="18"/> plausibility. Even Cassowary, as Hood described him, seemed a wholly
+                    credible person, and the bills Hood had drawn from his pocket bore all the marks of honest money.</p>
+                <p>Dinner was announced, and Hood lounged down-stairs and into the dining-room arm in arm with Deering.
+                    A tapestry on the wall immediately attracted his attention. After pecking at the edges with his
+                    long, slender fingers he turned to his seat with a sigh.</p>
+                <p>&quot;Preposterous imitation! I dare say it was passed off as a real Gobelin, but I know the
+                    artist who fakes those thingsa New Jersey genius and very smooth at the game.&quot;</p>
+                <p>Deering had never paid the slightest attention to the tapestry, which had hung in the room for a
+                    dozen years, <pb id="VAA2366-024" n="19"/> but he apologized in a vein of irony for its
+                    spuriousness, and steeled himself against complaints of the food; but after tasting the soup Hood
+                    praised it with enthusiasm. He was wholly at ease, and his table manners were beyond criticism. He
+                    seemed indifferent to the construction Deering or the bewildered Briggs might place upon his
+                    confessions, to which he now glibly addressed himself.</p>
+                <p>&quot;A couple of years ago I was roaming through the Western provinces with a couple of old
+                    friends who persistagainst my advice, I assure youin the childish pastime of safe-blowing. We got
+                    pinched <hi rend="i">en bloc</hi>, and as I was broke I had to sponge on the yeggs to get me out of
+                    jail.&quot;</p>
+                <p>Briggs dropped a plate and Deering <pb id="VAA2366-025" n="20"/> frowned at the interruption. Hood
+                    went on tranquilly:</p>
+                <p>&quot;However, I was immured only three weeks, and the experience was broadening. That was in
+                    Omaha, and I&apos;ll say without fear of contradiction that the Omaha jail is one of the most
+                    comfortable in the Missouri Valley. I recommend it, Deering, without reservation, to any one in
+                    search of tranquillity. After they turned me loose I introduced myself to an old college
+                    classmatefraternity brotherno danger of exposure. I had him put me up at the Omaha Club, and then I
+                    gave a dinner to the United States commissioner who heard my case, the district attorney, and the
+                    United States marshal. I wanted to ask the yeggs tooit seemed only squarebut the judge was out of
+                    town, and <pb id="VAA2366-026" n="21"/> the marshal was afraid his Honor might cite him for contempt
+                    if he brought his prisoners to my party. These things probably seem to you most banal, but take it
+                    all round I do manage to keep amused. Of course, now and then I pay more for my fun than
+                    it&apos;s worth. Last summer I mixed in with some moonshiners in Tennessee. Moonshining is
+                    almost a lost art, and I wanted the experience before the business became extinct. An unsociable
+                    lot, the lone still boys, and wouldn&apos;t warm up to me a bit. The unhappy result was a bullet
+                    through my left lung. I got patched up by a country doctor, but had to spend two months in a
+                    Philadelphia hospital for the finishing touches.&quot;</p>
+                <p>Deering&apos;s uneasiness increased. This man who spoke so blithely of imprisonment <pb
+                        id="VAA2366-027" n="22"/> and bullets in his lung must have a motive for his visit. With a jerk
+                    of the head he sent Briggs from the room.</p>
+                <p>&quot;This is all very amusing,&quot; he remarked with decision as he put down his
+                    salad-fork, &quot;but will you pardon me for asking just why you came here? I have your own word
+                    for it that your favorite <unclear>a--</unclear> is consorting with criminals, and that money you
+                    flashed may have been stolen for all I know! If you have any business with me&quot;</p>
+                <p>&quot;My dear boy, I don&apos;t blame you for growing restless,&quot; replied Hood
+                    amiably. &quot;Of course, I know that your father and sister are away, and that you are alone.
+                    Your family history I am pretty familiar with; your antecedents and connections are excellent. Your
+                    mother, who died four years ago, was of <pb id="VAA2366-028" n="23"/> the Rhode Island Ranger
+                    familyand there is no better blood in America. Your sister Constance won the Westchester golf
+                    championship last yearI learned that from the newspapers, which I read with a certain passion, as
+                    you have observed. If I hadn&apos;t thought you needed companymy company particularlyI
+                    shouldn&apos;t have landed on your door-step. You dined Monday night at the Hotel Pendragonat a
+                    table in the corner on the Fifth Avenue side, and your dejection touched me deeply. Afterward you
+                    went down to the rathskeller, and sat there all alone drinking stuff you didn&apos;t need. It
+                    roused my apprehensions. I feared things were going badly with you, and I thought I&apos;d give
+                    you a chance to unburden your soul to me, Hood, the enchanted hobo&quot;</p>
+                <pb id="VAA2366-029" n="24"/>
+                <p>&quot;For sheer cheek&quot; began Deering hotly.</p>
+                <p>Hood lifted his hand deprecatingly.</p>
+                <p>&quot;Please don&apos;t!&quot; he remarked soothingly. &quot;With the tinkle of a
+                    bell you can call your man and have me bounced. I repacked my bag after taking a bath in your very
+                    comfortable guest-room, and we can part immediately. But let us be sensible, Deering; just between
+                    ourselves, don&apos;t you really need me?&quot;</p>
+                <p>His tone was ingratiating, his manner the kindest. Deering had walked the streets for two days trying
+                    to bring himself to the point of confessing his plight to one of a score of loyal friendsmen he had
+                    known from prep-school days, and on through college: active, resourceful, wealthy young fellows who
+                    would risk much to help himand yet <pb id="VAA2366-030" n="25"/> in his fear and misery he had
+                    shrunk from approaching them. Hood, he was now convinced, was not a detective come to arrest him; in
+                    fact his guest&apos;s sympathies and connections seemed to lie on the other side of the
+                    law&apos;s barricade.</p>
+                <p>They had coffee in the living-room, where Hood, inspired by specimens of the work of several of the
+                    later French painters, discussed art with sophistication. Deering observed him intently. There was
+                    something immensely attractive in Hood&apos;s face; his profile, clean-cut as a cameo, was
+                    thoroughly masculine; his head was finely moulded, and his gray eyes were frank and responsive.</p>
+                <p>&quot;It&apos;s possible,&quot; said Deering, after a long silence in which Hood smoked
+                    meditatively, &quot;that you may be able to help me.&quot;</p>
+                <pb id="VAA2366-031" n="26"/>
+                <p>On a sudden impulse he rose and put out his hand.</p>
+                <p>&quot;Thank you,&quot; said Hood gravely, &quot;but don&apos;t tell me unless you
+                    really want to.&quot;</p>
+            </div2>
+            <pb id="VAA2366-032" n="27"/>
+            <div2 type="chapter" n="2">
+                <head>II</head>
+                <p>&quot;SO after all the bother of stealing two hundred thousand dollars&apos; worth of
+                    negotiable securities you <hi rend="i">lost</hi> them!&quot; Hood remarked when Deering ended
+                    his recital.</p>
+                <p>Deering frowned and nodded. Not only had he told his story to this utter stranger, but he had found
+                    infinite relief in doing so.</p>
+                <p>&quot;Let us go over the points again,&quot; said Hood calmly. &quot;You set down your
+                    suitcase containing two hundred K. &amp; L. Terminal <hi rend="i">5</hi>&apos;s in the Grand
+                    Central Station, turned round to buy a ticket to Boston, and when you picked up the bag it was the
+                    wrong one! Such instances <pb id="VAA2366-033" n="28"/> are not rare; the strong family resemblance
+                    between suitcases has caused much trouble in this world. Only the other day a literary friend told
+                    me the magazine editors have placed a ban on mixed suitcases as a fictional device; but of course
+                    that doesn&apos;t help us any in this affair. I&apos;ve known a few professional suitcase
+                    lifters. One of the smoothest is Sammy Tibbots, but he&apos;s doing time in Joliet, so we may as
+                    well eliminate Sammy.&quot;</p>
+                <p>&quot;No, no!&quot; Deering exclaimed impatiently. &quot;It was a girl who did the trick!
+                    She was at the local ticket window, just behind me. You see, I was nervous and after I bought my
+                    ticket it dropped to the floor, and while I was picking it up that girl grabbed my suitcase and beat
+                    it for the gate.&quot;</p>
+                <pb id="VAA2366-034" n="29"/>
+                <p>&quot;Enter the girl,&quot; Hood muttered. &quot;&apos;Twas ever thus! Of course, you
+                    telegraphed ahead and stopped herthat was the obvious course.&quot;</p>
+                <p>&quot;There you go! If I&apos;d done that, there wouldn&apos;t have been any publicity;
+                    oh, no!&quot; Deering replied contemptuously. &quot;People don&apos;t carry big bunches
+                    of bonds around in suitcases; they send &apos;em by registered express. Of course, if the girl
+                    was honest she&apos;d report the matter to the railroad officials and they&apos;d notify the
+                    police, and they&apos;d be looking for the thief! And that&apos;s just what I don&apos;t
+                    want.&quot;</p>
+                <p>&quot;Of course not,&quot; Hood assented readily. &quot;That was Wednesday and this is
+                    Friday, and you haven&apos;t seen any ads in the papers about a suitcase full of bonds? Well,
+                    I&apos;d hardly have <pb id="VAA2366-035" n="30"/> missed such a thing myself. What did the girl
+                    look like?&quot;</p>
+                <p>&quot;Small, dressed in blue and wearing a white veil. She made a lively sprint for the gate, and
+                    climbed into the last car just as the train started. The conductor yelled to her not to try it, but
+                    the porter jumped out and pushed her up the steps.&quot;</p>
+                <p>At Hood&apos;s suggestion Deering brought the suitcase that had been exchanged for his own, and
+                    disclosed its contentsa filmy night-dress, a silk shirt-waist, a case of ivory toilet articles
+                    bearing a complicated monogram, a bottle of violet-water, half empty, a pair of silk stockings, a
+                    novel, a pair of patentleather pumps, all tumbled together.</p>
+                <p>&quot;The young person left in haste, that&apos;s clear enough,&quot; remarked Hood,
+                    balancing <pb id="VAA2366-036" n="[]"/>
+                    <figure entity="VAA2366-2">
+                        <p>&quot;The young person left in haste, that&apos;s clear enough,&quot; remarked
+                            Hood.</p>
+                    </figure>
+                    <pb id="VAA2366-037" n="31"/> one of the pumps in his hand. &quot;&apos;Bonet,
+                    Paris,&apos;&quot; he read, squinting at the lining. &quot;Most deplorable that we have
+                    both slippers; one would have been a clew, and we could have spent the rest of our lives measuring
+                    footprints. Very nice slippers, though; fastidious young person, I&apos;ll wager. The monogram
+                    on these trinkets is of no assistanceit might be R. G. T., or T. G. R., or G. R. T. Monograms are a
+                    nuisance, a delusion, a snare!&quot;</p>
+                <p>Deering flung the faintly scented violet-tinted toilet-case into the bag resentfully.</p>
+                <p>&quot;The silly little fool; why didn&apos;t she mind what she was doing!&quot; he
+                    exclaimed angrily, &quot;and not steal other people&apos;s things!&quot;</p>
+                <p>&quot;Pardon me,&quot; Hood remonstrated, <pb id="VAA2366-038" n="32"/> &quot;but from
+                    your story the less you speak of stealing the better. But it isn&apos;t clear yet why you
+                    sneaked the bonds. Your father has a reputation for generosity; you&apos;re an only son and
+                    slated to succeed him in the banking-house. Just what was your idea in starting for Boston with the
+                    loot?&quot;</p>
+                <p>&quot;It was to help Ned Ranscomb, an old pal of mine,&quot; Deering blurted&quot;one of
+                    the best fellows on earth, who has pulled me out of a lot of holes. He&apos;d taken options on
+                    Mizpah Copper for more than he could pay for and fell on my neck to help him out. And the rotten
+                    part of it is that I can&apos;t find him anywhere! I&apos;ve telephoned and telegraphed all
+                    over creation, but he&apos;s fallen off the earth! I tell you everything from the start has gone
+                    wrong. I guess <pb id="VAA2366-039" n="33"/> I didn&apos;t tell you that I already had a couple
+                    of hundred thousand in Mizpahall I could put up personally, and now I&apos;ve lost the two
+                    hundred thousand I stole, and Ned&apos;s got cold feet and drowned himself, and here
+                    I&apos;m talking about it to a man who may be a crook for all I know!&quot;</p>
+                <p>&quot;This disappearance of Ranscomb has a suspicious look,&quot; remarked Hood, ignoring the
+                    fling. &quot;Either money or a woman, of course.&quot;</p>
+                <p>&quot;Ranscomb,&quot; Deering retorted savagely, &quot;is all business and never fools
+                    with women. And you can bet that with this big copper deal on he wouldn&apos;t waste time on any
+                    girl that ever was born.&quot;</p>
+                <p>&quot;Human beings are as we find them,&quot; observed Hood judicially, &quot;but
+                    you&apos;re <pb id="VAA2366-040" n="34"/> entirely too tragic about this whole business. If it
+                    isn&apos;t comedy, it&apos;s nothing. I&apos;ll wager the girl who skipped with your
+                    stolen boodle has a sense of humor. The key-note to her character is in this novel she grabbed as
+                    she hastily packed her bag&apos;The Madness of May.&apos; That&apos;s one of the
+                    drollest books ever written. A story like that is a boon to mankind; it kept me chuckling all night.
+                    Haven&apos;t read it? Well, the heroine excused herself from a dinner-table that was boring her
+                    to death, ran to her room and packed a suitcase, and that was the last her friends saw of her for
+                    some time. Along about this season it&apos;s in the blood of healthy human beings to pine for
+                    clean air and the open road. It&apos;s the wanderlust that&apos;s in all of us, old and
+                    young alike. It&apos;s possible <pb id="VAA2366-041" n="35"/> that the young lady who ran off
+                    with your bonds felt the spring madness and determined to hit the trail as the girl did in that
+                    yarn. Finding herself possessed of a lot of bonds belonging to a stranger, I dare say she is badly
+                    frightened. Put yourself in that girl&apos;s place, Deeringimagine her feelings, landing
+                    somewhere after a hurried journey, opening her suitcase to chalk her nose, and finding herself a
+                    thief!&quot;</p>
+                <p>&quot;Rot!&quot; sniffed Deering angrily.</p>
+                <p>One moment he distrusted Hood; the next his heart warmed to him. At the table the light-hearted
+                    adventurer had kept him entertained and amused with his running comment on books, public characters,
+                    the world&apos;s gold supply, and scrapes he had been in, without dropping any clew to his
+                    identity. He seemed to <pb id="VAA2366-042" n="36"/> be a veritable encyclopdia of places;
+                    apparently there was not a town in the United States that he hadn&apos;t visited, and he spoke
+                    of exclusive clubs and thieves&apos; dens in the same breath. But Deering&apos;s hopes of
+                    gaining practical aid in the search for the lost bonds was rapidly waning.</p>
+                <p>&quot;There&apos;s no use being silly about this; I&apos;m going to telephone to a
+                    detective agency and tell them to send out a good man, right awayto-night-&quot;</p>
+                <p>&quot;As you please,&quot; Hood assented, &quot;but if you do, you&apos;ll regret it
+                    to your last hour. I know the whole breed, and you may count on their making a mess of it. And
+                    consider for a moment that what you propose means putting a hired bloodhound on the trail of a girl
+                    who probably never harmed a kitten in her <pb id="VAA2366-043" n="37"/> life. It would be rotten
+                    caddishness to send a policeman after her. It isn&apos;t done, Deering; it isn&apos;t done!
+                    Of course, there&apos;s not much chance that the sleuths would ever come within a hundred miles
+                    of her, but what if they found her! You are a gentleman, Deering, and that&apos;s not the game
+                    for you to play.&quot;</p>
+                <p>&quot;Then tell me a better one! In ten days at the farthest father will be back and what am I
+                    going to say to himhow am I going to explain breaking into his safety box and stealing those
+                    bonds?&quot;</p>
+                <p>&quot;You can&apos;t explain it, of course, and it&apos;s rather up to you, son, to put
+                    &apos;em back. Every hour you spend talking about it is wasted time. That girl&apos;s had
+                    your suitcase two days, and it&apos;s your duty to find her. Something must <pb id="VAA2366-044"
+                        n="38"/> have happened or she&apos;d have turned it back to the railroad company. Perhaps
+                    she&apos;s been arrested as a thief and thrown into jail! Again, her few effects point to a
+                    degree of prosperityshe&apos;s not a girl who would steal for profit; I&apos;ll swear to
+                    that. We must find that girl! We&apos;ll toss a slipper and start off the way the toe
+                    points.&quot;</p>
+                <p>Indifferent to Deering&apos;s snort of disgust, Hood was already whirling the slipper in the air.</p>
+                <p>&quot;Slightly northeast! There you are, Deeringthe clear pointing of Fate! The girl
+                    wasn&apos;t going far or she wouldn&apos;t have been in the local ticket line, and even a
+                    lady in haste packs more stuff for a long journey. We&apos;ll run up to the Barton Armsan
+                    excellent inn, and establish headquarters. The girl who <pb id="VAA2366-045" n="39"/> danced off
+                    with your two hundred thousand is probably around there somewhere, bringing up her tennis for the
+                    first tournaments of the season. Let&apos;s be moving; a breath of air will do you
+                    good.&quot;</p>
+                <p>&quot;That&apos;s all you can do about it, is it?&quot; demanded Deering. &quot;Let
+                    me tell my whole storyput myself in your power, and now the best you can do is to flip a slipper to
+                    see which way to start!&quot;</p>
+                <p>&quot;Just as good a way as any,&quot; remarked Hood amiably.</p>
+                <p>He pressed the button, ordered his car, and then led the way back to Deering&apos;s room.</p>
+                <p>&quot;Throw some things into a bag. You&apos;ll soon forget your sordid money affairs and
+                    begin to live, and you&apos;d <pb id="VAA2366-046" n="40"/> better be prepared for anything that
+                    turns up. I&apos;ll fold the coats; some old fishing-togs for rough work and jails, and even
+                    your dress suit may come in handy.&quot;</p>
+                <p>He fell to work, folding the suits neatly, while Deering moved about like a man in a trance,
+                    assembling linen and toilet articles.</p>
+                <p>&quot;Something tells me we&apos;re going to have a pretty good time,&quot; continued
+                    Hood musingly. &quot;I&apos;ll show you untold kingdoms, things that never were on sea or
+                    land. We shall meet people worn with the world-old struggle for things they don&apos;t need, and
+                    who are out in the tender May air looking for happinessthe only business, my dear boy,
+                    that&apos;s really worth while. And you&apos;ll be surprised, son, to find how many such
+                    people there are.&quot;</p>
+                <pb id="VAA2366-047" n="41"/>
+                <p>&quot;Ah, you&apos;re ready, Cassowary!&quot; remarked Hood as they stepped out of the
+                    side door where a big touring-car was drawn up in the driveway. &quot;Just a moment till I get
+                    my stick.&quot;</p>
+                <p>Briggs had placed their bags in the car, and Deering had a moment in which to observe the chauffeur,
+                    who stood erect and touched his cap. Hood&apos;s protg proved to be a tall, dark, well-knit
+                    young fellow dressed in a well-fitting chauffeur&apos;s costume.</p>
+                <p>&quot;It&apos;s a good night for a run,&quot; Deering suggested, eying the man in the
+                    light from the door.</p>
+                <p>&quot;Fine, sir.&quot;</p>
+                <p>&quot;I hope the people in the house took good care of you.&quot;</p>
+                <p>&quot;Very good, sir.&quot;</p>
+                <p>There was nothing in Cassowary&apos;s <pb id="VAA2366-048" n="42"/> voice or manner to indicate
+                    that he was the possessor of the fortune to which Hood had referred so lightly. Deering&apos;s
+                    hastily formed impressions of Hood&apos;s chauffeur were wholly agreeable and satisfying.</p>
+                <p>Hood, lingering in the hall, could be heard warning Briggs against the further accumulation of fat.
+                    He recommended a new system of reducing, and gave the flushed and stuttering butler the name of a
+                    New York specialist in dietetics whom he advised him to consult without delay.</p>
+                <p>The chauffeur&apos;s lips twitched and, catching Deering&apos;s eye, he winked. Deering
+                    tapped his forehead. Cassowary shook his head.</p>
+                <p>&quot;Don&apos;t you believe it!&quot; he ejaculated with spirit.</p>
+                <pb id="VAA2366-049" n="43"/>
+                <p>At this moment Hood appeared on the steps, banging his recovered stick noisily as he descended.</p>
+                <p>&quot;The Barton Arms, Cassowary,&quot; he ordered, and they set off at a lively clip.</p>
+            </div2>
+            <pb id="VAA2366-050" n="44"/>
+            <div2 type="chapter" n="3">
+                <head>III</head>
+                <p>ON the steps of the Barton Arms an hour later Hood and Deering ran into two men who were just leaving
+                    the inn. Hood greeted them heartily as old acquaintances and remained talking to them while Deering
+                    went to ask for rooms.</p>
+                <p>&quot;The suspicions of those fellows always tickle me,&quot; he remarked as he joined
+                    Deering at the desk, where he scrawled &quot;R. Hood, Sherwoodville,&quot; on the register.
+                    &quot;Detectivesrather good as the breed goes, but not men of true vision. Now and then
+                    I&apos;ve been able to give them a useful hintthe slightest, mind you, and only where I could
+                    divert suspicion from some of my friends in <pb id="VAA2366-051" n="45"/> the underworld. I always
+                    try to be of assistance to predatory genius; there are clever crooks and stupid ones; the kind who
+                    stoop to vulgar gun-work when their own stupidity gets them into a tight pinch don&apos;t appeal
+                    to me. My artistic sensibilities are affronted by clumsy work.&quot;</p>
+                <p>&quot;Perhaps&quot; Deering suggested with a hasty glance at the door&quot;maybe
+                    they&apos;re looking for me!&quot;</p>
+                <p>&quot;Bless you, no,&quot; Hood replied as they followed a boy with their bags;
+                    &quot;nothing so intelligent as that. On the contrary&quot;he paused at the landing and laid
+                    his hand impressively on Deering&apos;s arm&quot;on the contrary, they&apos;re looking
+                    for <hi rend="i">me</hi>!&quot;</p>
+                <p>He went on with a chuckle and a shake of the head, as though the thought <pb id="VAA2366-052" n="46"
+                    /> of being pursued by detectives gave him the keenest pleasure. When he reached their rooms he sat
+                    down and struck his knee sharply and chuckled again. Deering turned frowningly for an explanation of
+                    his mirth.</p>
+                <p>&quot;Oh, don&apos;t bother about those chaps! I repeat, that they are looking for me,
+                    but&quot;he knit his fingers behind his head and grinned&quot;they don&apos;t <hi
+                        rend="i">know</hi> it!&quot;</p>
+                <p>&quot;Don&apos;t know you are you!&quot; exclaimed Deering.</p>
+                <p>&quot;You never said a truer word! More than that, they&apos;re not likely to! There are
+                    things, son, IHood, the frankest of mortalscan&apos;t tell even you! I, Hood, the inexplicable;
+                    Hood, the prince of tramps, the connoisseur in all the artseven I must have my secrets; <pb
+                        id="VAA2366-053" n="47"/> but in time, my dear boy, in time you shall know everything! But
+                    there&apos;s work before us! The long arm of coincidence beckons us. We shall test for ourselves
+                    all the claptrap of the highest-priced novelists.&quot;</p>
+                <p>Deering walked to the window and stared out at the landscape, then strode toward Hood angrily.</p>
+                <p>&quot;I don&apos;t like this!&quot; he wailed despairingly. &quot;You promised to
+                    help me find those stolen bonds, and now you&apos;re talking like a lunatic again. If I
+                    can&apos;t find the bonds, I&apos;ve got to find Ranscomb, and get back that first two
+                    hundred thousand I gave him. I can&apos;t stand thisdetectives waiting for us wherever we stop,
+                    and you babbling rotrot&quot; Words failed him; he clinched his hands and glared.</p>
+                <pb id="VAA2366-054" n="48"/>
+                <p>&quot;Don&apos;t bluster, son, or I shall grow peevish,&quot; Hood replied tolerantly.
+                    &quot;At the present moment I feel like taking a walk under the mystical May stars. The night
+                    invites the soul to meditation; the stars may have the answer to all our perplexities. Stop fretting
+                    about your bonds and your friend Ranscomb; very likely he&apos;s busted, clean broke;
+                    that&apos;s what usually happens to fellows who take money from their friends and put it into
+                    the metals. Possibly he swallowed poison, and went to sleep forever just to escape your wrath. Let
+                    us take counsel of the heavens and try to forget your sins. We must still move the way the slipper
+                    pointednortheast. The road bends away from the inn just right for a fresh start. We depart, we skip,
+                    we are on our way, my dear boy!&quot;</p>
+                <pb id="VAA2366-055" n="49"/>
+                <p>They had walked nearly a mile when Deering announced that he was tired, and refused to go farther. He
+                    clambered upon a stone wall at the roadside. On a high ridge some distance away and etched against
+                    the stars was a long, low house.</p>
+                <p>&quot;Splendid type of bungalow,&quot; Hood commented, throwing his legs over the wall.
+                    &quot;I&apos;m glad you have an eye for nice effectsthe roof makes a pretty line against the
+                    stars, and those pines beyond add a toucha distinct touch. Bungalows should always be planned with a
+                    view to night effects; too bad architects don&apos;t always consider little points like
+                    that.&quot;</p>
+                <p>Deering growled angrily. Suddenly as his eyes gazed over the long, sloping meadow that rose to the
+                    house he started and laid his hand on Hood&apos;s knee.</p>
+                <pb id="VAA2366-056" n="50"/>
+                <p>&quot;Steady, steady! Always give a ghost a chance,&quot; murmured Hood.</p>
+                <p>If the figure that danced across the meadow was a ghost, it was an agile one, and its costume
+                    represented a radical departure from the traditional garb of spirits doomed to walk the night.</p>
+                <p>&quot;A boy, kicking up before he goes to bed,&quot; suggested Deering, forgetting his
+                    sorrows for the moment as he contemplated the dancing apparition.</p>
+                <p>&quot;In a clown&apos;s suit, if I&apos;m any judge,&quot; said Hood, jumping down
+                    from the wall and moving cautiously up the slope. The dancing figure suddenly darted away through a
+                    clump of trees.</p>
+                <p>&quot;Of course,&quot; remarked Hood when they had reached the level where the figure had
+                    executed its fantastic gyrations, &quot;of course, it&apos;s none of our affair; <pb
+                        id="VAA2366-057" n="51"/> but, in that story I was telling you about, the heroine danced around
+                    at night in strange costumes scaring people to death. I&apos;m not saying this ghost has read
+                    that bookI&apos;m merely stating a fact.&quot;</p>
+                <p>They found a path that zigzagged across the meadow and followed it to the edge of a ravine. Below
+                    they heard the ripple of running water; and as an agreeable accompaniment some one was whistling
+                    softly.</p>
+                <p>In a moment the rattle of loosened gravel caused them to drop down by the path. The pantalooned
+                    figure came up, still whistling, and paused for a moment to take breath. Deering, throwing himself
+                    back from the path, grasped a bush. The twigs rattled noisily, and with a frightened
+                    &quot;Oh!&quot; the clown darted away, nimbly and fleetly. They <pb id="VAA2366-058" n="52"
+                    /> followed a white blur in the starlight for an instant and heard the patter of light feet.</p>
+                <p>&quot;A girl,&quot; whispered Deering.</p>
+                <p>&quot;I believe you are right,&quot; remarked Hood, feeling about in the grass, &quot;and
+                    here&apos;s a part of her costume.&quot; He picked up something white and held it to his
+                    face. &quot;She dropped her clown&apos;s cap when you began shaking the scenery. I seem to
+                    remember that a girl&apos;s hair is sweet like that! In old times the clown&apos;s cap was
+                    supposed to possess magic. Son, we have begun well! A girl masquerading, happy victim of the May
+                    madnessthis is the jolliest thing I&apos;ve struck in yearsa girl, out dancing all by her
+                    lonesome under the starsColumbine playing Harlequin!&quot;</p>
+                <p>&quot;We might as well be off,&quot; he added, <pb id="VAA2366-059" n="53"/> relighting his
+                    pipe. &quot;We frightened her ladyship, and she will dance no more to-night. However, we have
+                    her cap, which points the way for to-morrow&apos;s work.&quot;</p>
+                <p>&quot;You&apos;re going to hang around here watching a girl cut monkey-shines!&quot;
+                    moaned Deering. &quot;You haven&apos;t forgotten what we&apos;re looking for, have
+                    you!&quot; he demanded, shaking his fist in Hood&apos;s face.</p>
+                <p>&quot;Once more, be calm! Don&apos;t you see that you&apos;re on the verge of a new
+                    &apos;Midsummer Night&apos;s Dream&apos;; that the world&apos;s tired of work and
+                    gone back to play! Don&apos;t talk like a tired business man whose wife has dragged him to see
+                    one of Ibsen&apos;s frolics&apos;Rosmersholm,&apos; for examplewhere they talk for three
+                    hours and then jump in the well! The <pb id="VAA2366-060" n="54"/> fact that there&apos;s one
+                    girl left in the world to dance under stars ought to hearten you for anything. We don&apos;t
+                    find in this world the things we&apos;re looking for, Deering; we&apos;ve got to be ready
+                    for surprises. I won&apos;t say that that&apos;s the girl who ran off with your bonds; all I
+                    can say is that she&apos;s as likely to be the one as any girl I can think of. Tut!
+                    Don&apos;t imagine I don&apos;t sympathize with you in your troubles; but forget them,
+                    that&apos;s the ticket. This will do for tonight. We&apos;d better go back to the Barton and
+                    to bed.&quot;</p>
+                <p>He yawned sleepily and started toward the road. Deering caught him by the arm.</p>
+                <p>&quot;I was just thinking&quot; he began.</p>
+                <p>&quot;Thinking is a bad habit, my boy. Thought is the curse of the world. The <pb
+                        id="VAA2366-061" n="55"/> less thinking we do the better off we are. Down at Pass Christian last
+                    winter I sat under a tree for a solid month and never thought a think. Most profitable time I ever
+                    spent in my life. Camped with a sneak-thief who was making a tour of the Southern resortsnice chap;
+                    must tell you about him sometime.&quot;</p>
+                <p>He chuckled as though the recollection of his larcenous companion <unclear/> eased him tremendously.</p>
+                <p>&quot;I don&apos;t believe I&apos;ll go back to the Barton just yet,&quot; Deering
+                    suggested timidly. &quot;It&apos;s possible, you know, that that girl <hi rend="i"
+                    >might</hi>&quot;</p>
+                <p>&quot;You&apos;ve got it!&quot; exclaimed Hood eagerly, clapping his hands upon
+                    Deering&apos;s shoulders. &quot;The spell is taking hold! Wait here a thousand years if you
+                    like for that kid to come back, and <pb id="VAA2366-062" n="56"/> don&apos;t bother about me.
+                    But cut out your vulgar bond twaddle, and don&apos;t ask her if she stole your suitcase! As like
+                    as not she&apos;ll lead you to the end of the rainbow, and show you a meal sack bulging with
+                    red, red gold. Here&apos;s her capbetter keep it for good luck.&quot;</p>
+                <p>Deering stood, with the clown&apos;s cap in his hand, staring after Hood&apos;s retreating
+                    figure. It was not wholly an illusion that he had experienced a change of some sort, and he wondered
+                    whether there might not be something in Hood&apos;s patter about the May madness. At any rate,
+                    his troubles had slipped from him, and he was conscious of a new and delightful sense of freedom.
+                    Moreover, he had been kidnapped by the oddest man he had ever met, and he didn&apos;t care!</p>
+            </div2>
+            <pb id="VAA2366-063" n="57"/>
+            <div2 type="chapter" n="4">
+                <head>IV</head>
+                <p>BEYOND the bungalow rose a dark strip of woodland, and suddenly, as Deering&apos;s eyes caught
+                    sight of it, he became aware that the moon, which had not appeared before that night, seemed to be
+                    lingering cosily among the trees. Even a victim of May madness hardly sees moons where they do not
+                    exist, but to all intents and purpose this <hi rend="i">was</hi> a moon, a large round moon, on its
+                    way down the horizon in the orderly fashion of elderly moons. He turned toward the road, then
+                    glanced back quickly to make sure his eyes were not playing tricks upon him. The moon was still
+                    there, blandly staring. His powers of orientation had often been tested; on <pb id="VAA2366-064"
+                        n="58"/> hunting and fishing trips he had ranged the wilderness without a compass, and never
+                    come to grief. He was sure that this huge orb was in the north, where no moon of decent habits has
+                    any right to be.</p>
+                <p>With his eyes glued to this phenomenon, he advanced up the slope. When he reached the crest of the
+                    meadow the moon still hung where he had first seen ita most unaccountable moon that apparently
+                    lingered to encourage his investigations.</p>
+                <p>He jumped a wall that separated the meadow from the woodland, and advanced resolutely toward the
+                    lunar mystery. He found Stygian darkness in among the pines: the moon, considering its size, shed
+                    amazingly little light. He crept toward it warily, and in a moment <pb id="VAA2366-065" n="59"/>
+                    stood beneath the outward and visible form of a moon cleverly contrived of barrel staves and
+                    tissue-paper with a lighted lantern inside, and thrust into the crotch of a tree.</p>
+                <p>As he contemplated it something struck himsomething, he surmised, that had been flung by mortal hand,
+                    and a pine-cone caught in his waistcoat collar.</p>
+                <p>&quot;Please don&apos;t spoil my moon,&quot; piped a voice out of the darkness.
+                    &quot;It&apos;s a lot of trouble to make a moon!&quot;</p>
+                <p>Walking cautiously toward the wall, he saw, against the star dusk of the open, the girl in clown
+                    costume who had danced in the meadow. She sat the long way of the wall, her knees clasped
+                    comfortably, and seemed in nowise disturbed by his appearance.</p>
+                <p>&quot;I beg your pardon,&quot; he said, &quot;but <pb id="VAA2366-066" n="60"/> I
+                    didn&apos;t know it was <hi rend="i">your</hi> moon. I thought it was just the regular old moon
+                    that had got lost on the way home.&quot;</p>
+                <p>&quot;Oh, don&apos;t apologize. I rather hoped somebody would come up to have a look at it;
+                    but you&apos;d better run along now. This is private property, you know.&quot;</p>
+                <p>&quot;Thanks for the hint,&quot; he remarked. &quot;But on a night when moons hang in
+                    trees you can&apos;t expect me to be scared away so easily. And besides, I&apos;m an
+                    outlaw,&quot; he ended in a tone meant to be terrifying.</p>
+                <p>She betrayed neither surprise nor fear, but laughed and uttered a &quot;Really!&quot; that
+                    was just such a &quot;really&quot; as any well-bred girl might use at a tea, or anywhere
+                    else that reputable folk congregate, <pb id="VAA2366-067" n="61"/> to express faint surprise. Her
+                    way of laughing was altogether charming. A girl who donned a clown&apos;s garb for night
+                    prowling and manufactured moons for her own amusement could not have laughed otherwise, he
+                    reflected.</p>
+                <p>&quot;A burglar?&apos;&quot; she suggested with mild curiosity.</p>
+                <p>&quot;Not professionally; but I&apos;m seriously thinking of going in for it. What do you
+                    think of burgling as a career?&quot;</p>
+                <p>&quot;InterestingratherI should think,&quot; she replied after a moment&apos;s
+                    hesitation, as though she were weighing his suggestion carefully.</p>
+                <p>&quot;And highway robbery appeals to merather. It&apos;s more picturesque, and you
+                    wouldn&apos;t have to break into houses. I think I&apos;d rather work in the open.&quot;</p>
+                <pb id="VAA2366-068" n="62"/>
+                <p>&quot;The chances of escape might be better,&quot; she admitted; &quot;but you
+                    needn&apos;t try the bungalow down there, for there&apos;s nothing in it worth stealing. I
+                    give you my word for that!&quot;</p>
+                <p>&quot;Oh, I hadn&apos;t thought of the bungalow. I had it in mind to begin by holding up a
+                    motor. Nobody&apos;s doing that sort of thing just now.&quot;</p>
+                <p>&quot;Capital!&quot; she murmured pleasantly, as though she found nothing extraordinary in
+                    the idea. &quot;So you&apos;re really new at the game.&quot;</p>
+                <p>&quot;Well, I&apos;ve <hi rend="i">stolen</hi> before, if that&apos;s what you mean, but
+                    I didn&apos;t get much fun out of it. I suppose after the first fatal plunge the rest will come
+                    easier.&quot;</p>
+                <p>&quot;I dare say that&apos;s true,&quot; she assented. There was real witchery in the
+                    girl&apos;s light, murmurous laugh.</p>
+                <pb id="VAA2366-069" n="63"/>
+                <p>It seemed impossible to surprise her; she was taking him as a matter of courseas though sitting on a
+                    wall at night, and talking to a strange young man about stealing was a familiar experience.</p>
+                <p>&quot;I&apos;ve joined Robin Hood&apos;s band,&quot; he continued. &quot;At least
+                    I&apos;ve been adopted by a new sort of Robin Hood who&apos;s travelling round robbing the
+                    rich to pay the poor, and otherwise meddling in people&apos;s affairsthe old original Robin Hood
+                    brought up to date. If it hadn&apos;t been for him I might be cooling my heels in jail right
+                    now. He&apos;s an expert on jailsbeen in nearly every calaboose in America. He&apos;s tucked
+                    me under his wingpersuaded me to take the highway, and not care a hang for anything.&quot;</p>
+                <p>&quot;How delightful!&quot; she replied, but so <pb id="VAA2366-070" n="64"/> slowly that he
+                    began to fear that his confidences had alarmed her. &quot;That&apos;s too good to be true;
+                    you&apos;re fooling, aren&apos;t youreally?&quot;</p>
+                <p>His eyes had grown accustomed to the light, and her profile was now faintly limned in the dusk. Hers
+                    was the slender face of youth. The silhouette revealed the straightest of noses and the firmest of
+                    little chins. She was young, so young that he felt himself struggling in an immeasurable gulf of
+                    years as he watched her. Apparently such sophistication as she possessed was in the things of the
+                    world of wonder, the happy land of make-believe.</p>
+                <p>&quot;Keats would have liked a night like this,&quot; she said gently.</p>
+                <p>Deering was silent. Keats was a person whom he knew only as the subject <pb id="VAA2366-071" n="65"/>
+                    of a tiresome lecture in his English course at college.</p>
+                <p>&quot;Bill Blake would have adored it, but he would have had lambs in the pasture,&quot; she
+                    added.</p>
+                <p>&quot;Bill Blake?&quot; he questioned. &quot;Do you mean Billy Blake who was halfback on
+                    the Harvard eleven last year?&quot;</p>
+                <p>She tossed her head and laughed merrily.</p>
+                <p>&quot;I love that!&quot; she replied lingeringly, as though to prolong her joy in his
+                    ignorance. &quot;I was thinking of a poet of that name who wrote a nice verse something like
+                    this:</p>
+                <lg>
+                    <l n="1">&apos;I give you the end of a golden string;</l>
+                    <l n="2" rend="ti-1">Only wind it into a ball,</l>
+                    <l n="3">It will lead you in at Heaven&apos;s gate,</l>
+                    <l n="4" rend="ti-1">Built in Jerusalem&apos;s wall.&apos;&quot;</l>
+                </lg>
+                <p>No girl had ever quoted poetry to him before, and he was thinking more <pb id="VAA2366-072" n="66"/>
+                    of her pretty way of repeating the stanzakeeping time with her handsthan of the verse itself.</p>
+                <p>&quot;Well,&quot; he said, &quot;what&apos;s the rest of it?&quot;</p>
+                <p>&quot;Oh, there isn&apos;t any rest of it! Don&apos;t you see that there
+                    couldn&apos;t be anything morethat it&apos;s finisheda perfect little poem all by
+                    itself!&quot;</p>
+                <p>He played with a loosened bit of stone, meekly conscious of his stupidity. And he did not like to
+                    appear stupid before a girl who danced alone in the starlight and hung moons in trees.</p>
+                <p>&quot;I&apos;m afraid I don&apos;t get it. I&apos;d a lot rather stay by this wall
+                    talking to you than go to Jerusalem.&quot;</p>
+                <p>&quot;You&apos;d be foolish to do that if you really had the end of the golden string, and
+                    could follow it to Paradise. I think <pb id="VAA2366-073" n="67"/> it means any nice placejust any
+                    place where happiness is.&quot;</p>
+                <p>He was not getting on, and to gain time he bade her repeat the stanza.</p>
+                <p>&quot;I think I understand now; I&apos;ve never gone in much for poetry, you know,&quot;
+                    he explained humbly.</p>
+                <p>&quot;Burglars are natural poets, I suppose,&quot; she continued. &quot;A burglar just
+                    has to have imagination or he can&apos;t climb through the window of a house he has never seen
+                    before. He must imagine everything perfectlythe silver on the sideboard, the watch under the pillow,
+                    and the butler stealing down the back stairs with a large, shiny pistol in his hand.&quot;</p>
+                <p>&quot;Certainly,&quot; Deering agreed readily. &quot;And if he runs into a policeman on
+                    the way out he&apos;s got to imagine that <pb id="VAA2366-074" n="68"/> it&apos;s an old
+                    college friend and embrace him.&quot;</p>
+                <p>&quot;You mustn&apos;t spoil a pretty idea that way!&quot; she admonished in a tone that
+                    greatly softened the rebuke. &quot;Come to think of it, you haven&apos;t told me your name
+                    yet; of course, if you become a burglar, you will have a great number of names, but I&apos;d
+                    like awfully to know your true one.&quot;</p>
+                <p>&quot;Why?&quot; he demanded.</p>
+                <p>&quot;Because you seem nice and well brought up for a burglar, and I liked your going up to the
+                    moon and poking your finger into it. That makes me feel that I&apos;d like to know
+                    you.&quot;</p>
+                <p>&quot;Well, the circumstances being as they are, and being really a thief, you mustn&apos;t
+                    ask me to tell my real name; for all I know you may be a detective in disguise.&quot;</p>
+                <pb id="VAA2366-075" n="69"/>
+                <p>&quot;I&apos;m notreally,&quot; she saidhe found her &quot;reallys&quot;
+                    increasingly enchanting.</p>
+                <p>&quot;You might call me Friar Tuck or Little John. I&apos;m travelling with Robin Hood, you
+                    remember.&quot;</p>
+                <p>&quot;Mr. Tuckthat will be splendid!&quot;</p>
+                <p>&quot;And now that you know my name it&apos;s only fair to tell me yours.&quot;</p>
+                <p>&quot;Pierrette,&quot; she answered.</p>
+                <p>&quot;Not really!&quot;</p>
+                <p>His unconscious imitation of her manner of uttering this phrase evoked another merry laugh.</p>
+                <p>&quot;Yes, really,&quot; she answered.</p>
+                <p>&quot;And you live somewhere, of coursenot in the tree up there with your moon, but in the
+                    bungalow, I suppose.&quot;</p>
+                <p>&quot;I live wherever I am; that&apos;s the fun of playing all the time,&quot; she
+                    replied evasively. &quot;<hi rend="i">Poste restante</hi>, the Little Dipper. How do you like
+                    that?&quot;</p>
+                <pb id="VAA2366-076" n="70"/>
+                <p>&quot;But just now your true domicile is the bungalow?&quot; he persisted.</p>
+                <p>&quot;Oh, I&apos;ve been stopping there for a few days, that&apos;s all. I
+                    haven&apos;t any homenot really,&quot; she added as though she found her homelessness the
+                    happiest of conditions. She snapped her fingers and recited:</p>
+                <q direct="unspecified">
+                    <p>&quot;Wherever stars shine brightest, there my home shall be,</p>
+                    <p>In the murmuring forest or by the sounding sea,</p>
+                    <p>With overhead the green bough and underfoot the grass,</p>
+                    <p>Where only dreams and butterflies ever dare to pass!&quot;</p>
+                </q>
+                <p>&quot;Is that Keats or Blake?&quot; he ventured timidly.</p>
+                <p>&quot;It&apos;s <hi rend="i">me</hi>, you goose! But it&apos;s only an imitationwhy,
+                    Stevenson, of course, and pretty punk as you ought to know. Gracious!&quot;</p>
+                <pb id="VAA2366-077" n="71"/>
+                <p>She jumped down from the wall, on the side toward the bungalow, and stared up at the tree she had
+                    embellished with her moon.</p>
+                <p>&quot;The moon&apos;s gone out, and I&apos;ve got to go <hi rend="i">in</hi>!&quot;</p>
+                <p>&quot;Please, before you go, when can I see you again?&quot;</p>
+                <p>&quot;Who knows!&quot; she exclaimed unsympathetically; but she waited as though pondering
+                    the matter.</p>
+                <p>&quot;But I must see you again!&quot; he persisted.</p>
+                <p>&quot;Oh, I shouldn&apos;t say that it was wholly essential to your happinessor mine! I
+                    can&apos;t meet burglarssocially!&quot;</p>
+                <p>&quot;Burglars! But I&apos;m not&quot; he cried protestingly.</p>
+                <p>She bent toward him with one hand extended pleadingly.</p>
+                <pb id="VAA2366-078" n="72"/>
+                <p>&quot;Don&apos;t say it! Don&apos;t <hi rend="i">say</hi> it! If you say you&apos;re
+                        <hi rend="i">not</hi>, you won&apos;t be any fun any more!&quot;</p>
+                <p>&quot;Well, then we&apos;ll say I ama terrible freebootera bold, bad pirate,&quot; he
+                    growled. &quot;Now, may I come?&quot;</p>
+                <p>She mused a moment, then struck her hands together.</p>
+                <p>&quot;Come to the bungalow breakfast; that&apos;s a fine idea!&quot;</p>
+                <p>&quot;And may I bring Hood?&quot; he asked, leaning half-way across the wall in his anxiety
+                    to conclude the matter before she escaped. &quot;He&apos;s my boss, you understand, and
+                    I&apos;m afraid I can&apos;t shake him.&quot;</p>
+                <p>&quot;Certainly; bring Mr. Hood. Breakfast at eight.&quot;</p>
+                <p>&quot;And your homeyour addressis there in the bungalow?&quot;</p>
+                <pb id="VAA2366-079" n="73"/>
+                <p>&quot;I&apos;ve told you where my home is, in a verse I made up specially; and my address is
+                    care of the Little Dipperthere it is, up there in the sky, all nice and silvery.&quot;</p>
+                <p>His gaze followed the pointing of her finger. The Little Dipper, as an address for the use of
+                    mortals, struck him as rather remote. To his surprise she advanced to the wall, rested her hands
+                    upon it, and peered into his face.</p>
+                <p>&quot;Isn&apos;t this perfectly killing?&quot; she asked in a tone wholly different from
+                    that in which she had carried on her share of the colloquy.</p>
+                <p>He experienced an agreeable thrill as it flashed upon him that this was no child, but a young woman
+                    who, knowing the large world, had suddenly awakened to a consciousness that encounters <pb
+                        id="VAA2366-080" n="74"/> with strange young men by starlight were not to be prolonged forever.
+                    In the luminous dusk he noted anew the delicate perfectness of her face, the fine brow about which
+                    her hair had tumbled from her late exertions. Her eyes searched his face with honest curiosityfor an
+                    instant only.</p>
+                <p>Then she stepped back, as though to mark a return to her original character, and answered her own
+                    question with an air of amused conviction:</p>
+                <p>&quot;It <hi rend="i">is</hi> perfectly killing!&quot;</p>
+                <p>His hand fumbled the cap in his pocket.</p>
+                <p>&quot;Here&apos;s something I found down yonderyour clown&apos;s cap.&quot;</p>
+                <p>She took it with a murmur of thanks, and darted away toward the bungalow. He heard her light step on
+                    the veranda <pb id="VAA2366-081" n="75"/> and then a door closed with a sharp bang.</p>
+                <p>Deering walked back to the inn with his head high and elation throbbing in his pulses. He observed
+                    groups of people playing bridge in the inn parlor, and he was filled with righteous contempt for
+                    them. The May air had changed his whole nature. He was not the William B. Deering who had meditated
+                    killing himself a few hours earlier. A new joy had entered into him; he was only afraid now that he
+                    might not live forever!</p>
+                <p>Hood slept tranquilly, his bed littered with the afternoon&apos;s New York papers which evidently
+                    he had been scissoring when he fell asleep. Deering&apos;s attitude toward the strange vagrant
+                    had changed since his meeting <pb id="VAA2366-082" n="76"/> with Pierrette. Hood might be as mad as
+                    the traditional hatter, and yet there was somethingindubitably somethingabout the man that set him
+                    apart from the common run of mortals.</p>
+                <p>Deering lay awake a long time rejoicing in his new life, and when he dreamed it was of balloon-like
+                    moons cruising lazily over woods and fields, pursued by innumerable Pierrettes in spotted trousers
+                    and pointed caps.</p>
+            </div2>
+            <pb id="VAA2366-083" n="77"/>
+            <div2 type="chapter" n="5">
+                <head>V</head>
+                <p>HE awoke at seven, and looked in upon Hood, who lay sprawled upon his bed reading one of the battered
+                    volumes of Borrow he carried in his bag.</p>
+                <p>&quot;Get your tub, son; I&apos;ve had mine and came back to bed to let you have your sleep
+                    out. Marvellous manBorrow. Spring&apos;s the time to read him. We&apos;ll have some
+                    breakfast and go out and see what the merry old world has to offer.&quot;</p>
+                <p>With nice calculation he tossed the book into the open bag on the further side of the room, rose, and
+                    stretched himself. Deering stifled an impulse to scoff at his silk pajamas as hardly an appropriate
+                    sleeping garb for one who professed <pb id="VAA2366-084" n="78"/> to have taken vows of poverty.
+                    Hood noted his glance.</p>
+                <p>&quot;Found these in some nabob&apos;s house at Bar Harbor last fall. Went up in November,
+                    after all the folks had gone, to have a look at the steely blue ocean; camped in a big cottage for a
+                    few days. Found a drawer full of these things and took the pink ones. Wrote my thanks on the
+                    villa&apos;s stationery and pinned &apos;em to the fireplace. I hate to admit it, son, but I
+                    verily believe I could stand a little breakfast.&quot;</p>
+                <p>&quot;We&apos;re going out for breakfast,&quot; Deering remarked with affected
+                    carelessness. &quot;I accepted an invitation for you last night. A girl up there at the bungalow
+                    asked me; I told her about you, and she seemed willing to stand for it.&quot;</p>
+                <pb id="VAA2366-085" n="79"/>
+                <p>&quot;The thought pleases me! You are certainly doing well, my boy!&quot; Hood replied,
+                    dancing about on one foot as he drew a sock on the other.</p>
+                <p>He explained that a man should never sit down while dressing; that the exercise he got in balancing
+                    himself was of the greatest value as a stimulus to the circulation.</p>
+                <p>&quot;She&apos;s a very nice girl, I think,&quot; Deering continued, showing his lathered
+                    face at the bathroom door.</p>
+                <p>He hadn&apos;t expected Hood to betray surprise, and he was not disappointed in the
+                    matter-of-course fashion in which his companion received the invitation.</p>
+                <p>&quot;Breakfast is the one important meal of the day,&quot; Hood averred as he executed a
+                    series of hops in his efforts to land inside his trousers. &quot;All great adventures <pb
+                        id="VAA2366-086" n="80"/> should be planned across breakfast tables; centrepiece of cool fruits;
+                    coffee of teasing fragrance, the toast crisp; an egg perhaps, if the morning labors are to be
+                    severe. I know a chap in Boston who cuts out breakfast altogether. Most melancholy person I ever
+                    knew; peevish till one o&apos;clock, then throws in a heavy lunch that ruins him for the rest of
+                    the day. What did you say the adorable&apos;s name was?&quot;</p>
+                <p>&quot;Pierrette,&quot; Deering spluttered from the tub.</p>
+                <p>&quot;Delightful!&quot; cried Hood, flourishing his hair-brushes. &quot;Then you met the
+                    dancing-girl! I must say&quot;</p>
+                <p>&quot;She had hung a moon in a tree! I followed the moon and found the girl!&quot;</p>
+                <p>&quot;Always the way; it never fails,&quot; Hood commented, as though the finding <pb
+                        id="VAA2366-087" n="81"/> of the girl had fully justified his philosophy of life. &quot;But
+                    we can&apos;t fool away much time at the bungalow; we&apos;ve got a lot to do
+                    to-day.&quot;</p>
+                <p>&quot;Time!&quot; cried Deering, &quot;I&apos;m going to stay forever! You
+                    can&apos;t expect me to find a girl whose post-office address is the Little Dipper, and then go
+                    coolly off and forget about her!&quot;</p>
+                <p>&quot;That&apos;s the right spirit, son,&quot; Hood remarked cautiously; &quot;but
+                    we&apos;ll see. I&apos;ll have a look at her and decide what&apos;s best for you. My
+                    business right now is to keep you out of trouble. You can&apos;t tell about these moon girls;
+                    she may have a wart on her nose when you see her in daylight.&quot;</p>
+                <p>Deering hooted.</p>
+                <p>&quot;And she probably has parents who may not relish the idea of having two <pb id="VAA2366-088"
+                        n="82"/> strange men prowling about the premises looking for breakfast. There are still a few of
+                    those old-fashioned people left in the world. It may be only a backdoor hand-out for us, but
+                    I&apos;ve sawed wood for breakfast before now. I&apos;ll wait for you below; I want to see
+                    how old Cassowary&apos;s standing the racket. The boy seemed a little cheerfuller last
+                    night.&quot;</p>
+                <p>They walked to the bungalow which, to Deering&apos;s relief, was still perched on the ridge as he
+                    had left it. He was beset with misgivings as they entered the gate and followed a hedge-lined path
+                    that rose gradually to the house; it might be a joke after all; but Hood&apos;s manner was
+                    reassuring. He swung his stick and praised the landscape, and when they reached the veranda banged
+                        <pb id="VAA2366-089" n="83"/> the knocker noisily. A capped and aproned maid opened the door
+                    immediately.</p>
+                <p>Deering, struck with cowardice, found his legs quaking and stepped back to allow Hood to declare
+                    their purpose.</p>
+                <p>&quot;We have come for breakfast, lass,&quot; Hood announced, &quot;and have brought our
+                    appetites with us if that fact interests you.&quot;</p>
+                <p>&quot;You are expected,&quot; said the maid; &quot;breakfast will be served
+                    immediately.&quot;</p>
+                <p>She led the way across a long livingroom to the dining-room beyond, where a table was set for three.
+                    The tangible presence of the third plate caused Deering&apos;s heart to thump.</p>
+                <p>&quot;The host or hostess?&quot; Hood inquired as the girl waited for them to be seated.</p>
+                <pb id="VAA2366-090" n="84"/>
+                <p>&quot;The lady of the house wished me to say that she would be herein spirit! Pressing duties
+                    called her elsewhere.&quot;</p>
+                <p>Deering&apos;s spirits sank. Pierrette, then, was only a dream of the night, and had never had
+                    the slightest intention of meeting him at breakfast! The maid curtsied and vanished through a swing
+                    door.</p>
+                <p>Hood, accepting the situation as he found it, expressed his satisfaction as a bowl of strawberries
+                    was placed on the table, and as the door ceased swinging behind the maid, laid his hand on
+                    Deering&apos;s arm. &quot;Don&apos;t worry; mere shyness has driven our divinity away:
+                    you can see for yourself that even a girl who hangs moons in trees might shrink from the shock of a
+                    daylight meeting with a gentleman she had found amusing by <pb id="VAA2366-091" n="85"/> starlight.
+                    Let it suffice that she provided the breakfast according to schedulethat&apos;s highly
+                    encouraging. With strawberries at present prices she has been generous. This little disappointment
+                    merely adds zest to the adventure.&quot;</p>
+                <p>The hand of the maid as she changed his plate at once interested Deering. It was a slender, supple,
+                    well-kept hand, browned by the sun. Her maid&apos;s dress was becoming; her cap merely served to
+                    invite attention to her golden-brown hair. Her coloring left nothing for the heart to desire, and
+                    her brown eyes called immediately for a second glance. She was deft and quick; her graceful walk in
+                    itself compelled admiration. As the door closed upon her, Hood bent a look of inquiry upon his
+                    brooding companion.</p>
+                <pb id="VAA2366-092" n="86"/>
+                <p>&quot;Perhaps she&apos;s the adorablethe true, authentic Pierrette,&quot; he suggested.</p>
+                <p>Deering shook his head.</p>
+                <p>&quot;No; the other girl was not so tall and her voice was different; it was wonderfully sweet
+                    and full of laughter. I couldn&apos;t be fooled about it.&quot;</p>
+                <p>&quot;There&apos;s mystery herea game of some kind. Mark the swish of silken skirts; unless
+                    my eyes fail me, I caught a glimpse of silken hose as she flitted into the pantry.&quot;</p>
+                <p>When an omelet had been served and the coffee poured (she poured coffee charmingly!) Hood called her
+                    back as she was about to leave them.</p>
+                <p>&quot;Two men should never be allowed to eat alone. If your mistress is not returning at once,
+                    will you not do us the honor to sit down with us?&quot;</p>
+                <pb id="VAA2366-093" n="87"/>
+                <p>&quot;Thank you, sir,&quot; she said, biting her lip to conceal a smile.</p>
+                <p>Deering was on his feet at once and drew out the third chair, which she accepted without debate. She
+                    composedly folded her arms on the edge of the table as though she were in nowise violating the rules
+                    set down for the guidance of waitresses. Hood, finding the situation to his taste, blithely assumed
+                    the lead in the conversation.</p>
+                <p>&quot;It is perfectly proper for you to join us at table,&quot; he remarked, &quot;but
+                    formal introductions would not be in keeping. Still, your employer doubtless has some familiar name
+                    for you, and you might with propriety tell us what it is, so we won&apos;t need to attract your
+                    attention by employing the vulgar &apos;Say&apos; or &apos;Listen&apos;!&quot;</p>
+                <p>&quot;My mistress calls me Babette,&quot; she <pb id="VAA2366-094" n="88"/> answered, her
+                    lashes drooping becomingly.</p>
+                <p>&quot;Perfect!&quot; cried Hood ecstatically. &quot;And we are two outlaws whose names it
+                    is more discreet for us to withhold, even if it were proper to exchange names with a mere
+                    housemaid.&quot;</p>
+                <p>Deering winced; it was indecent in Hood to treat her as though she were a housemaid when so obviously
+                    she was not.</p>
+                <p>&quot;My friend doesn&apos;t mean to be rude,&quot; he explained; &quot;the morning
+                    air always makes him a little delirious.&quot;</p>
+                <p>&quot;I hope I know my place,&quot; the girl replied, &quot;and I&apos;m sure you
+                    gentlemen mean to be kind.&quot;</p>
+                <p>&quot;You needn&apos;t count the spoons after we leave,&quot; said Hood; &quot;I
+                    assure you we have no professional designs on the house.&quot;</p>
+                <pb id="VAA2366-095" n="89"/>
+                <p>&quot;Thank you, sir. Of course, if you stole anything, it would be taken out of my
+                    wages.&quot;</p>
+                <p>Deering&apos;s interest in her increased.</p>
+                <p>She rested her chin on her hand just as his sister often did when they lingered together at table. He
+                    was a good brother and Constance was his standard. He was sure that Constance would like
+                    Pierrette&apos;s maid. He resented Hood&apos;s patronizing attitude toward the girl, but
+                    Hood&apos;s spirits were soaring and there was no checking him.</p>
+                <p>&quot;Babette,&quot; he began, &quot;I&apos;m going to trouble you with a question,
+                    not doubting you will understand that my motives are those of a philosopher whose whole life has
+                    been devoted to the study of the human race. May I ask you to state in all sincerity whether you
+                    consider <pb id="VAA2366-096" n="90"/> apple sauce the essential accompaniment of roast
+                    duck?&quot;</p>
+                <p>&quot;I do not; nor do I care for jelly with venison,&quot; she answered readily.</p>
+                <p>&quot;Admirable! You are clearly no child of convention but an independent thinker! May I smoke?
+                    Thanks!&quot;</p>
+                <p>He drew out his pipe and turned beaming to the glowering Deering.</p>
+                <p>&quot;There, my boy! Babette is one of usone of the great company of the stars! Wonderful, how
+                    you find them at every turn! Babette, my sister, I salute you!&quot;</p>
+                <p>She smiled and turned toward Deering.</p>
+                <p>&quot;Are you, too, one of the Comrades of Perpetual Youth?&quot; she inquired gravely.</p>
+                <p>&quot;I am,&quot; Deering declared heartily, <pb id="VAA2366-097" n="91"/> and they smiled at
+                    each other; &quot;but I&apos;m only a novicea brother of the second class.&quot;</p>
+                <p>She shook her head.</p>
+                <p>&quot;There can be no question of classes in the great comradeshipeither we are or we are
+                    not.&quot;</p>
+                <p>&quot;Well spoken!&quot; Hood assented, pushing back his chair and crossing his legs
+                    comfortably.</p>
+                <p>&quot;And youdo you and Pierrette think about things the same way?&quot; Deering asked.</p>
+                <p>&quot;We doby not thinking,&quot; Babette replied. &quot;Thinking among the comrades is
+                    forbidden, is it not?&quot;</p>
+                <p>&quot;Absolutely,&quot; Hood affirmed. &quot;Our young brother here is still a little
+                    weak in the faith, but he&apos;s taking to it splendidly.&quot;</p>
+                <pb id="VAA2366-098" n="92"/>
+                <p>&quot;I&apos;m new myself,&quot; Babette confessed.</p>
+                <p>&quot;You&apos;re letter-perfect in the part,&quot; said Hood. &quot;Perhaps you were
+                    driven to it? Don&apos;t answer if you would be embarrassed by a confession.&quot;</p>
+                <p>The girl pondered a moment; her face grew grave, and she played nervously with the sugar-tongs.</p>
+                <p>&quot;A man loved me and I sent him away, and was sorry!&quot; The last words fell from her
+                    lips falteringly.</p>
+                <p>&quot;He will come backif he is worthy of one of the comradeship,&quot; said Hood
+                    consolingly. &quot;Even now he may be searching for you.&quot;</p>
+                <p>&quot;I was unkind to him; I was very hard on him! And I&apos;ve been afraidsometimesthat I
+                    should never see him again.&quot;</p>
+                <p>Deering thought he saw a glint of <pb id="VAA2366-099" n="93"/> tears in her eyes. She rose hastily
+                    and asked with a wavering smile:</p>
+                <p>&quot;If there&apos;s nothing further&quot;</p>
+                <p>&quot;Not foodif you mean that,&quot; said Hood.</p>
+                <p>&quot;But about Pierrette!&quot; Deering exclaimed despairingly. &quot;If she&apos;s
+                    likely to come, we must wait for her.&quot;</p>
+                <p>&quot;I rather advise you against it,&quot; the girl answered. &quot;I have no idea when
+                    she will come back.&quot;</p>
+                <p>They rose instinctively as she passed out. The door fanned a moment and was still.</p>
+                <p>&quot;Well?&quot; demanded Deering ironically.</p>
+                <p>&quot;Please don&apos;t speak to me in that tone,&quot; responded Hood. &quot;This
+                    was your breakfast, not mine; you needn&apos;t scold me if it didn&apos;t go to suit you!
+                    Ah, what have we here!&quot;</p>
+                <pb id="VAA2366-100" n="94"/>
+                <p>He had drawn back a curtain at one end of the dining-room, disclosing a studio beyond. It was
+                    evidently a practical workshop and bore traces of recent use. Deering passed him and strode toward
+                    an easel that supported a canvas on which the paint was still wet. He cried out in astonishment:</p>
+                <p>&quot;That&apos;s the moon girlthat&apos;s the girl I talked to last nightclown clothes
+                    and all! She&apos;s sitting on the wall there just as I found her.&quot;</p>
+                <p>&quot;A sophisticated brush; no amateur&apos;s job,&quot; Hood muttered, squinting at the
+                    canvas. &quot;Seems to me I&apos;ve seen that sort of thing somewhere latelyPantaloon,
+                    Harlequin, Columbine, and Clownlatest fad in magazine covers. We&apos;re in the studio of a
+                    popular illustratorthere&apos;s a bunch of proofs on the table, and those things on the floor
+                    are from <pb id="VAA2366-101" n="95"/> the same hand. Signature in the corner a trifle obscureMary
+                    B. Taylor.&quot;</p>
+                <p>&quot;She may be Babette,&quot; Deering suggested. &quot;Suppose I call her and
+                    ask?&quot;</p>
+                <p>Hood, having become absorbed in a portfolio of pen-and-ink sketches of clowns, harlequins, and
+                    columbines, subjects in which the owner of the studio apparently specialized, paid no heed to the
+                    suggestion. When Deering returned he was gazing critically at a sketch showing a dozen clowns
+                    executing a spirited dance on a garden-wall.</p>
+                <p>&quot;She&apos;s skipped! There isn&apos;t a soul on the place,&quot; Deering
+                    announced dejectedly.</p>
+                <p>&quot;Not at all surprising; probably gone to join her model, Pierrette. And we&apos;d better
+                    clear out before we learn too much; life ceases to be interesting when you begin to find the answers
+                    to riddles.</p>
+                <pb id="VAA2366-102" n="96"/>
+                <p>Pierrette is probably a friend of the artist, and plays model for the fun of it. The same girl is
+                    repeated over and over again in these drawingsfrom which I argue that Pierrette likes to pose and
+                    Babette enjoys painting her. We mustn&apos;t let this affect the general illusion. The next turn
+                    of the road will doubtless bring us to something that can&apos;t be explained so
+                    easily.&quot;</p>
+                <p>&quot;If it doesn&apos;t bring us to Pierrette&quot; began Deering.</p>
+                <p>&quot;Tut! None of that! For all you know it may bring us to something infinitely better.
+                    Remember that this is mid-May, and anything may happen before June kindles the crimson ramblers. Let
+                    us be off.&quot;</p>
+                <p>Half-way across the living-room Deering stopped suddenly.</p>
+                <pb id="VAA2366-103" n="97"/>
+                <p>&quot;My bagmy suitcase!&quot; he shouted.</p>
+                <p>A suitcase it was beyond question, placed near the door as though to arrest their attention. Deering
+                    pounced upon it eagerly and flung it open.</p>
+                <p>&quot;It&apos;s all rightthe stuff&apos;s here!&quot; he cried huskily.</p>
+                <p>He began throwing out the packets that filled the case, glancing hurriedly at the seals. Hood lounged
+                    near, watching him languidly.</p>
+                <p>&quot;Most unfortunate,&quot; he remarked, noting the growing satisfaction on
+                    Deering&apos;s face as he continued his examination. &quot;Now that you&apos;ve found
+                    that rubbish, I suppose there&apos;ll be no holding you; you&apos;ll go back to listen to
+                    the ticker just when I had begun to have some hope of you!&quot;</p>
+                <p>&quot;It was Pierrette that took it; it <pb id="VAA2366-104" n="98"/> couldn&apos;t have been
+                    this artist girl,&quot; said Deering, excitedly whipping out his penknife and slitting one of
+                    the packages. A sheaf of blank wrappingpaper fluttered to the floor. His face whitened and he gave a
+                    cry of dismay. &quot;Robbed! Tricked!&quot; he groaned, staring at Hood.</p>
+                <p>Hood picked up the paper and scrutinized the seal.</p>
+                <p>&quot;S. J. Deering, personal,&quot; he read in the wax. &quot;You don&apos;t suppose
+                    that girl has taken the trouble to forge your father&apos;s private seal, do you?&quot;</p>
+                <p>Deering feverishly tore open the other packages.</p>
+                <p>&quot;All alike; the stuff&apos;s gone!&quot;</p>
+                <p>Perspiration beaded his forehead. He stared stupidly at the worthless paper.</p>
+                <p>&quot;You ought to be grateful, son,&quot; said <pb id="VAA2366-105" n="99"/> Hood;
+                    &quot;yesterday you thought yourself a thiefnow that load&apos;s off your mind, and you know
+                    yourself for an honest man. General rejoicing seems to be in order. Looks as though your parent had
+                    robbed himselfrather a piquant situation, I must say.&quot;</p>
+                <p>He carried the wrappers to the window-seat and examined them more closely.</p>
+                <p>&quot;Seals were all intact. &apos;The Tyringham estate,&apos; &quot; he read
+                    musingly. &quot;What do you make of that?&quot; he asked Deering, who remained crumpled on
+                    the floor beside the suitcase.</p>
+                <p>&quot;That&apos;s an estate father was executor ofit&apos;s a long story. Old man
+                    Tyringham had been a customer of his, and left a will that made it impossible to close the estate
+                    till his son had reached <pb id="VAA2366-106" n="100"/> a certain age. The final settlement was to
+                    be made this summer. But my God, Hood, do you suppose fathermy father could be&quot;</p>
+                <p>&quot;A defaulter?&quot; Hood supplied blandly.</p>
+                <p>&quot;It&apos;s impossible!&quot; roared Deering. &quot;Father&apos;s the very
+                    soul of honor.&quot;</p>
+                <p>&quot;I dare say he is,&quot; remarked Hood carelessly. &quot;So were you till greed led
+                    you to pilfer your governor&apos;s strong box. Let us be tolerant and withhold judgment.
+                    It&apos;s enough that your own skirts are clear. Put that stuff out of sight; we must
+                    flit.&quot;</p>
+                <p>Hood set off for the Barton Arms at a brisk pace, talking incessantly.</p>
+                <p>&quot;This whole business is bully beyond my highest expectations. By George, it&apos;s
+                    almost too good to be true! Critics <pb id="VAA2366-107" n="101"/> of the drama complain that the
+                    average amateur&apos;s play ends with every act; but so far in our adventures every incident
+                    leads on to something else. Perfectly immense that somebody had beaten you to the bonds!&quot;</p>
+                <p>Deering&apos;s emotions were beyond utterance. It was a warm morning, and he did not relish
+                    carrying the suitcase, whose recovery had plunged him into a despair darker than that caused by its
+                    loss.</p>
+                <p>At a turn in the road Hood paused, struck his stick heavily upon the ground, and drew out the
+                    slipper. He whirled it in the air three times and twice it pointed east. He thrust it back into his
+                    pocket with a sigh of satisfaction and brushed the dust from his hands.</p>
+                <p>&quot;Once more we shall follow the pointing <pb id="VAA2366-108" n="102"/> slipper. Yesterday it
+                    led us to the moon girl, the bungalow, and the suitcase; now it points toward the mysterious east,
+                    and no telling what new delights!&quot;</p>
+            </div2>
+            <pb id="VAA2366-109" n="103"/>
+            <div2 type="chapter" n="6">
+                <head>VI</head>
+                <p>HOOD and Deering found Cassowary sitting in the machine in the inn yard reading a newspaper; this
+                    Hood promptly seized and scanned with his trained eye.</p>
+                <p>&quot;Are the bags aboard? Ah, I see you have been forehanded, Cassowary!&quot;</p>
+                <p>Deering went to the inn office and came out with a number of telegrams which he read as he slowly
+                    crossed the yard.</p>
+                <p>&quot;What do you think of this?&quot; he asked weakly. The yellow sheets shook in his hand
+                    and his face was white. &quot;I wired to a bank and a club in San Francisco last night, and
+                    they&apos;ve answered that father isn&apos;t in San Francisco and <pb id="VAA2366-110"
+                        n="104"/> hasn&apos;t been there! And I wired the people Constance was to visit at Pasadena,
+                    and they don&apos;t know anything about her. Just look at these things!&quot;</p>
+                <p>&quot;Sounds like straight information, but why worry?&quot; remarked Hood, scanning the
+                    telegrams.</p>
+                <p>&quot;But why should father lie to me? Why should Constance say she was going to California if
+                    she wasn&apos;t?&quot;</p>
+                <p>&quot;My dear boy, don&apos;t ask me such questions!&quot; Hood remarked with an injured
+                    air. &quot;You are guilty of the gravest error in sending telegrams without consulting me! How
+                    can we trust ourselves to Providence if you persist in sending telegrams! If you do this again, I
+                    shall be seriously displeased, and you mustn&apos;t displease Hood. Hood is very ugly in his
+                    wrath.&quot;</p>
+                <pb id="VAA2366-111" n="105"/>
+                <p>Deering was at the point of tears. Hood was a fool, and he wished to tell him so, but the words stuck
+                    in his throat.</p>
+                <p>&quot;We move eastward toward the Connecticut border, Cassowary,&quot; Hood ordered and
+                    pushed Deering into the machine.</p>
+                <p>Hood was as merry as the morning itself, and talked ceaselessly as they rolled through the country,
+                    occasionally bidding Cassowary slow down and give heed to his discourse. The chauffeur listened with
+                    a grin, glancing guardedly at Deering, who stared grimly ahead with an unlighted cigar in his mouth.
+                    He was not to be disturbed in his meditations upon the blackness of the world by the idiotic prattle
+                    of a madman. For half an hour Hood had <pb id="VAA2366-112" n="106"/> been describing his adventures
+                    with a Dublin University man, whose humor he pronounced the keenest and most satisfying he had ever
+                    known. He had gathered from this person an immense fund of lore relating to Irish superstitions.</p>
+                <p>&quot;He left me just when I had learned to love him,&quot; Hood concluded mournfully.
+                    &quot;Became fascinated with a patent-medicine faker we struck at a county fair in Indiana. He
+                    was so tickled over the way the long-haired doctor played the banjo and jollied the crowd that he
+                    attached himself to his caravan. That Irishman was one of the most agreeable men to be in jail with
+                    that I ever knew; even hardened murderers would cotton to him. That spire over there must be
+                    Addington.</p>
+                <pb id="VAA2366-113" n="107"/>
+                <p>The inn is nothing to boast of, but we&apos;d better tackle it.&quot;</p>
+                <p>His gayety at luncheon once more won Deering to a cheerier view of his destiny. Hood called for the
+                    proprietor and lectured him roundly for offering canned-blueberry pie. The fact that blueberries
+                    were out of season made no difference to the outraged Hood; pie produced from a can was a gross
+                    imposition. He cited legal decisions covering such cases and intimated that he might bring
+                    proceedings. As the innkeeper strode angrily away an elderly woman at a neighboring table addressed
+                    the dining-room on the miserable incompetence of the pastry-cooks of these later times, winding up
+                    by thanking Hood heartily for his protest. She was from Boston, she announced, and the declining <pb
+                        id="VAA2366-114" n="108"/> intellectual life of that city she attributed to the deterioration of
+                    its pie.</p>
+                <p>Hood rose and gravely replied in a speech of five minutes, much to the delight of two girls at the
+                    old lady&apos;s table. Hood wrote his name on the menu card, and bade the giggling waitress hand
+                    it to the lady from Boston. Her young companions conferred for a moment, and then sent back a card
+                    on which appeared these names neatly pencilled:</p>
+                <list type="simple">
+                    <item>M<hi rend="sc">AID</hi> M<hi rend="sc">ARLAN</hi>
+                    </item>
+                    <item>T<hi rend="sc">HE</hi> Q<hi rend="sc">UEEN OF</hi> S<hi rend="sc">HEBA</hi>
+                    </item>
+                    <item>T<hi rend="sc">HE</hi> D<hi rend="sc">UCHESS OF</hi> S<hi rend="sc">UFFOLK</hi> (M<hi
+                            rend="sc">ASS</hi>.)</item>
+                </list>
+                <p>&quot;My dear boy,&quot; Hood remarked to Deering after he had bowed elaborately to the trio,
+                    &quot;I tell you the whole world&apos;s caught step with us! That lady and her two nieces,
+                    or granddaughters as the case may be, are under the spell, just <pb id="VAA2366-115" n="109"/> as
+                    you and I are and Cassowary and your Pierrette and Babette of the bungalow. If only you could yield
+                    yourself to the May spirit, how happy we might be! Just think of Cassowary; worth a million dollars
+                    and eating his lunch with the chauffeurs somewhere below stairs and picking up much information that
+                    he will impart to me later! What a bully world this would be if all mankind followed my system:
+                    stupid conventions all broken-down; the god of mirth holding his sides as he contemplates the world
+                    at play! You may be sure that old lady is a stickler for the proprieties when she&apos;s at
+                    home; widow of a bishop most likely. Those girls have been carefully reared, you can see that, but
+                    full of the spirit of mischief. The moment I tackled that <pb id="VAA2366-116" n="110"/> stupid
+                    innkeeper about his monstrous pie they felt the drawing of the mystic tie that binds us together
+                    with silken cords. Very likely they, like us, are in search of adventure, and if our own affairs
+                    were less urgent I should certainly cultivate their further acquaintance.&quot;</p>
+                <p>The lady who called herself the Duchess of Suffolk (Mass.) was undoubtedly a person of consequence
+                    and the possessor of a delightful humor. Deering assumed that she and her companions were abroad
+                    upon a lark of some kind and were enjoying themselves tremendously. Hood&apos;s spell renewed
+                    its grip upon him. It occurred to him that the whole world might have been touched with the May
+                    madness, and that the old order of things had passed forever. <pb id="VAA2366-117" n="111"/> It
+                    seemed ages since he had watched the ticker in his father&apos;s office. As they sat smoking on
+                    the veranda the Duchess of Suffolk, the Queen of Sheba, and Maid Marian came out and entered a big
+                    car. The old lady bowed with dignity as the car moved off; the girls waved their hands.</p>
+                <p>&quot;Perfect!&quot; Hood muttered as he returned their salutations. &quot;We may never
+                    meet again in this world, but the memory of this encounter will abide with me forever.&quot;</p>
+                <p>&quot;I don&apos;t want to appear fussy, Hood,&quot; Deering began good-naturedly,
+                    &quot;but would you mind telling me what&apos;s next on your programme?&quot;</p>
+                <p>&quot;Not in the slightest. It&apos;s just occurred to me that it would be well to dine
+                    to-night in one of the handsome <pb id="VAA2366-118" n="112"/> villas scattered through these hills.
+                    Still following the slipper, we shall choose one somewhere east of the inn and present ourselves
+                    confidently at the front door. Failing there, we shall assault the postern and, perhaps, enrich our
+                    knowledge of life with the servants&apos; gossip.&quot;</p>
+                <p>&quot;There are some famous kennels in this neighborhood, and I&apos;d hate awfully to have
+                    an Airedale bite a hole in my leg,&quot; Deering suggested.</p>
+                <p>&quot;My dear boy, that&apos;s the tamest thing that could happen to us! My calves are
+                    covered with scars from dogs&apos; teeth; you soon get hardened to canine ferocity.
+                    We&apos;ll take a tramp for an hour to work the fuzz off our gray matter, and then a nap to
+                    freshen us up for the evening. We shall learn much to-night; I&apos;m confident of
+                    that.&quot;</p>
+                <pb id="VAA2366-119" n="113"/>
+                <p>There seemed to be no way of escaping Hood or changing his mind once he announced a decision. The
+                    programme was put through exactly as he had indicated. The important thing about the tramp was that
+                    Cassowary accompanied them on the walk, and Deering found him both agreeable and interesting. He
+                    discoursed of polo, last year&apos;s Harvard-Yale football game, and iceboating, in which he
+                    seemed deeply experienced.</p>
+                <p>Hood left them to look for hieroglyphics on a barn which he said was a veritable palimpsest of
+                    cryptic notations of roving thieves.</p>
+                <p>Cassowary&apos;s manner underwent a marked change when he and Deering were alone.</p>
+                <p>&quot;If you&apos;re going to give the old boy <pb id="VAA2366-120" n="114"/> the
+                    slip,&quot; he said earnestly, &quot;I want you to give me notice. I&apos;m not going to
+                    be left alone with him.&quot;</p>
+                <p>Their eyes met in a long scrutiny; then Deering laughed.</p>
+                <p>&quot;I don&apos;t know how you feel about it, but, by George, I&apos;m afraid to shake
+                    him!&quot;</p>
+                <p>&quot;That&apos;s exactly my fix,&quot; Cassowary answered. &quot;I was in a bad way
+                    when he picked me up: just about ready to jump off a high building and let it go at that. And I must
+                    say he does make things seem brighter. He mustn&apos;t see us talking off key, as he&apos;d
+                    say, but I&apos;d like to ask you this: what&apos;s he running away from? That&apos;s
+                    what worries me. What&apos;s he grabbing newspapers for all the time and slashing out ads and
+                    other queer stuff?&quot;</p>
+                <p>&quot;You&apos;ve got me there,&quot; Deering replied <pb id="VAA2366-121" n="115"/>
+                    soberly. &quot;We ran into some men the other night who he said were detectives looking for him,
+                    but it didn&apos;t seem to worry him any.&quot;</p>
+                <p>&quot;There&apos;s nothing new in <hi rend="i">that</hi>. We&apos;ve struck a number of
+                    men who apparently were looking for somebody, and he greatly enjoys chaffing them. If he&apos;s
+                    really a crook, he wouldn&apos;t be exposing himself to arrest as he does.&quot;</p>
+                <p>Hood was now returning from his investigations of the barn, and as he crossed the pasture was
+                    examining a bunch of the newspaper clippings with which his pockets were stuffed.</p>
+                <p>&quot;You needn&apos;t be afraid of getting into trouble with him,&quot; Cassowary
+                    remarked admiringly. &quot;He pulls off things you wouldn&apos;t think could be done.
+                    He&apos;s a marvel, that man!&quot;</p>
+                <pb id="VAA2366-122" n="116"/>
+                <p>&quot;Old Bill Fogarty&apos;s been ripping into the country stores in these parts,&quot;
+                    began Hood volubly; &quot;found his mark on the barn, all right. Amusing cuss, Fogarty. Sawed
+                    himself out of most of the jails between here and Bangor. We&apos;ll probably meet up with him
+                    somewhere. It&apos;s about time to go back for that snooze, boys. To the road again!&quot;</p>
+                <p>He strode off singing, in a very good tenor voice, snatches from Italian operas, and his pace was so
+                    rapid that his companions were hard pressed to keep up with him.</p>
+            </div2>
+            <pb id="VAA2366-123" n="117"/>
+            <div2 type="chapter" n="7">
+                <head>VII</head>
+                <p>EVENING dress was becoming to Hood, enhancing the distinction which his rough corduroys never wholly
+                    obscured. He surveyed Deering critically, gave a twist to his tie, and said it was time to be off.
+                    As they drove slowly through the country he discussed the various houses they passed, speculating as
+                    to the entertainment they offered. He finally ordered Cassowary to stop at the entrance to an
+                    imposing estate, where a large colonial mansion stood some distance from the highway.</p>
+                <p>&quot;This strikes me as promising,&quot; he remarked, rising in the car and craning his neck
+                    to gain a view of the house through the shrubbery. &quot;Drive in, Cassowary, <pb
+                        id="VAA2366-124" n="118"/> and stand by with the car till you see whether we have to run for
+                    it.&quot;</p>
+                <p>He gave the electric annunciator a prolonged push, and as a butler opened the door advanced into the
+                    hall with his most authoritative air.</p>
+                <p>&quot;Mr. Hood and Mr. Tuck. I trust I correctly understood that we dine at seven.&quot; The
+                    man eyed them with surprise but took their coats and hats.</p>
+                <p>&quot;We are expected. Please announce us immediately.&quot;</p>
+                <p>Deering followed him bewilderedly into the drawing-room and planted himself close to the door.</p>
+                <p>&quot;Assurance, my dear boy, conquers all things,&quot; Hood declaimed. &quot;This stuff
+                    looks like real Chippendale, and the rugs seem to be genuine.&quot; He sniffed contemptuously as
+                    he posed before <pb id="VAA2366-125" n="119"/> a long mirror for a final inspection of his raiment.
+                    &quot;It always pains me to detect the odor of boiled vegetables when I enter a strange house.
+                    Architects tell me that it is almost impossible to prevent&quot;</p>
+                <p>A woman&apos;s figure flashed in the mirror beside him, and he whirled round and bowed from the
+                    hips.</p>
+                <p>&quot;I trust you are not so lacking in the sense of hospitality that you find yourself
+                    considering means of ejecting us. My comrade and I are weary from a long journey.&quot;</p>
+                <p>Turning quickly, her gaze fell upon Deering, who was stealing on tiptoe toward the door.</p>
+                <p>&quot;Halt!&quot; commanded Hood.</p>
+                <p>Deering paused and sheepishly faced his hostess.</p>
+                <pb id="VAA2366-126" n="120"/>
+                <p>She was a small, trim, graceful woman, of the type that greets middle life smilingly and with no fear
+                    of what may lie beyond. Her dark hair had whitened, but her rosy cheeks belied its insinuations. She
+                    viewed Deering with frank curiosity, but with no indication of alarm. She was not a woman one would
+                    consciously annoy, and Deering&apos;s face burned as he felt her eyes inspecting him from head
+                    to foot. He had never before been so heartily ashamed of himself; once out of this scrape, he meant
+                    to escape from Hood and lead a circumspect, orderly life.</p>
+                <p>&quot;Which is Hood and which is Tuck?&quot; the woman asked with a faint smile.</p>
+                <p>&quot;The friar is the gentleman standing on one foot at your right,&quot; Hood answered.
+                    &quot;Conscious of my unworthiness, <pb id="VAA2366-127" n="121"/> I plead guilty to being
+                    HoodHood the hobo delectable, the tramp incomprehensible!&quot;</p>
+                <p>&quot;Incomprehensible,&quot; she repeated; &quot;you strike me as altogether
+                    obvious.&quot;</p>
+                <p>&quot;You never made a greater mistake,&quot; Hood returned with asperity. &quot;But the
+                    question that now agitates us is simply this: do we eat or do we not?&quot;</p>
+                <p>Deering looked longingly at a chair with which he felt strongly impelled to brain his suave,
+                    unruffled companion. Hood apparently was hardened to such encounters, and stood his ground
+                    unflinchingly. All Deering&apos;s instincts of chivalry were roused by the little woman, who had
+                    every reason for turning them out of doors. He resolved to make it easy for her to do so.</p>
+                <p>&quot;I beg your pardon&quot; he faltered.</p>
+                <pb id="VAA2366-128" n="122"/>
+                <p>Hood signalled to him furiously behind her back to maintain silence.</p>
+                <p>&quot;No apology would be adequate,&quot; she remarked with dignity. &quot;We&apos;d
+                    better drop that and consider your errand on its strict merits.&quot;</p>
+                <p>&quot;Admirably said, madam,&quot; Hood rejoined readily. &quot;We ask nothing of you but
+                    seats at your table and the favor of a little wholesome and stimulating conversation, which I refuse
+                    to believe you capable of denying us.&quot;</p>
+                <p>A clock somewhere began to boom seven. She waited for the last stroke to die away.</p>
+                <p>&quot;I make it a rule never to deny food to any applicant, no matter how unworthy. You may
+                    remain.&quot;</p>
+                <p>Deering had hardly adjusted himself to this when an old gentleman entered <pb id="VAA2366-129" n="[]"/>
+                    <figure entity="VAA2366-3">
+                        <p rend="center">&quot;I make it a rule never to deny food to any applicant, no matter how
+                            unworthy. You may remain.&quot;</p>
+                    </figure>
+                    <pb id="VAA2366-130" n="123"/> the room, and with only the most casual glance at the two pilgrims
+                    walked to the grand piano, shook back his cuffs, and began playing Mendelssohn&apos;s
+                    &quot;Spring Song,&quot; as though that particular melody were the one great passion of his
+                    life. When he had concluded he rose and shook down his cuffs.</p>
+                <p>&quot;If that isn&apos;t music,&quot; he demanded, walking up to the amazed Deering, who
+                    still clung to his post by the door, &quot;what is it? Answer me that!&quot;</p>
+                <p>&quot;You played it perfectly,&quot; Deering stammered.</p>
+                <p>&quot;And you,&quot; he demanded, whirling upon Hood, &quot;what have you to say,
+                    sir?&quot;</p>
+                <p>&quot;The great master himself would have envied your touch,&quot; Hood replied.</p>
+                <p>The old gentleman glared. &quot;Rot!&quot; <pb id="VAA2366-131" n="124"/> he ejaculated; and
+                    then, turning to the mistress of the house, he asked: &quot;Do these ruffians dine with
+                    us?&quot;</p>
+                <p>&quot;They seem about to do us that honor. My father, Mr. Hood, and Mr. Tuck. Shall we go out to
+                    dinner?&quot;</p>
+                <p>The gentleman she had introduced as her father glared againa separate glare for eachand, advancing
+                    with a ridiculous strut, gave the lady his arm.</p>
+                <p>In the hall Hood intercepted Deering in the act of effecting egress by way of the front door. His
+                    fingers dug deeply into his nervous companion&apos;s arm as he dragged him along, talking in his
+                    characteristic vein:</p>
+                <p>&quot;My dear Tuck, it&apos;s a pleasure to find ourselves at last in a home whose
+                    appointments speak for breeding and taste. The portrait on our right bears <pb id="VAA2366-132"
+                        n="125"/> all the marks of a genuine Copley. Madam, may I inquire whether I correctly attribute
+                    that portrait to our great American master?&quot;</p>
+                <p>&quot;You are quite right,&quot; she answered over her shoulder. &quot;The subject of the
+                    portrait is my great-great-grandfather.&quot;</p>
+                <p>&quot;My dear Tuck!&quot; cried Hood jubilantly, still clutching Deering&apos;s arm,
+                    &quot;fate has again been kind to us; we are among folk of quality, as I had already
+                    guessed.&quot;</p>
+                <p>The dining-room was in dark oak; the glow from concealed burners shed a soft light upon a round
+                    table.</p>
+                <p>&quot;You will sit at my right, Mr. Hood, and Mr. Tuck by my father on the other side.&quot;</p>
+                <p>Deering pinched himself to make sure <pb id="VAA2366-133" n="126"/> he was awake. The next instant
+                    the room whirled, and he clutched the back of his chair for support. A girl came into the room and
+                    walked quickly to the seat beside him.</p>
+                <p>&quot;Mr Hood and Mr. Tuck, my daughter&quot;</p>
+                <p>She hesitated, and the girl laughingly ejaculated: &quot;Pierrette!&quot;</p>
+                <p>&quot;Sit down, won&apos;t you, please,&quot; said the little lady; but Deering stood
+                    staring open-mouthed at the girl.</p>
+                <p>Beyond question, she was the girl of the Little Dipper; there was no mistaking her. At this point the
+                    old gentleman afforded diversion by rising and bowing first to Hood and then to Deering.</p>
+                <p>&quot;I am Pantaloon,&quot; he said. &quot;My daughter is Columbine, as you may have
+                    guessed.&quot;</p>
+                <pb id="VAA2366-134" n="127"/>
+                <p>&quot;It&apos;s very nice to see you again,&quot; Pierrette remarked to Deering;
+                    &quot;but, of course, I didn&apos;t know you would be here. How goes the burgling?&quot;</p>
+                <p>&quot;Ierhaven&apos;t got started yet. I find it a little difficult&quot;</p>
+                <p>&quot;I&apos;m afraid you&apos;re not getting much fun out of the adventurous
+                    life,&quot; she suggested, noting the wild look in his eyes.</p>
+                <p>&quot;I don&apos;t understand things, that&apos;s all,&quot; he confessed,
+                    &quot;but I think I&apos;m going to like it.&quot;</p>
+                <p>&quot;You find it a little too full of surprises? Oh, we all do at first! You see grandfather is
+                    seventy, and he never grew up, and mamma is just like him. And I&quot; She shrugged her
+                    shoulders and flashed a smile at her grandparent.</p>
+                <p>&quot;You are wonderfulbewildering,&quot; Deering stammered.</p>
+                <pb id="VAA2366-135" n="128"/>
+                <p>The old gentleman was inveighing at Hood upon America&apos;s lack of mirth; the American people
+                    had utterly lost their capacity for laughter, the old man averred. Deering&apos;s fork beat a
+                    lively tattoo on his plate as he attacked his caviar.</p>
+                <p>And then another girl entered and walked to the remaining vacant place opposite him.</p>
+                <p>&quot;Smeraldina,&quot; murmured the mistress of the house, glancing round the table, and
+                    calmly finishing a remark the girl&apos;s entrance had interrupted.</p>
+                <p>Deering&apos;s last hold upon sanity slowly relaxed. Unless his wits were entirely gone, he was
+                    facing his sister Constance. She wore a dark gown, with white collar and cuffs, and her manner was
+                    marked by the restraint of an upper servant of <pb id="VAA2366-136" n="129"/> some sort who sits at
+                    the family table by sufferance. He was about to gasp out her name when she met his eyes with a
+                    glinty stare and a quick shake of the head. Then Pierrette addressed a remark to herkindly meant to
+                    relieve her embarrassmentreferring to a walk over the hills they had taken together that afternoon.</p>
+                <p>&quot;Ah, Smeraldina!&quot; cried Pantaloon, &quot;how is that last chapter? Columbine
+                    refuses to show me any more of the book until it is finished. I look to you to make a duplicate for
+                    my private perusal.&quot;</p>
+                <p>Here was light of a sort upon the strange household; its mistress was a writer of books; Constance
+                    was her secretary; but the effort to explain how his sister came to be masquerading in such a rle
+                    left him doddering, and <pb id="VAA2366-137" n="130"/> that she should refuse to recognize himher
+                    own brother!</p>
+                <p>&quot;If that new book is half as good as &apos;The Madness of May,&apos;&quot;
+                    Pantaloon was saying, &quot;I shall not be disappointed.&quot;</p>
+                <p>&quot;Oh, it&apos;s much better; infinitely better!&quot; Constance declared warmly.</p>
+                <p>&quot;Tuck, do you realize we are in the presence of greatness?&quot; cried Hood. Then,
+                    turning to Columbine: &quot;The author will please accept my heartiest
+                    congratulations!&quot;</p>
+                <p>&quot;Thank you kindly,&quot; replied the hostess. &quot;I&apos;m fortunate in my
+                    secretary. Smeraldina is my fifth, and the first who ever made a suggestion that was of the
+                    slightest use. The others had no imagination; they all objected to being called Smeraldina, and one
+                    of them was named Smith!&quot;</p>
+                <p>&quot;I&apos;m afraid I&apos;m the first who ever <pb id="VAA2366-138" n="131"/> had the
+                    impertinence to suggest anything,&quot; Constance answered humbly.</p>
+                <p>This was not the sister Deering had known in his old life before he fell victim to the prevailing May
+                    madness. She was in servitude and evidently trying to make the best of it. She had been the
+                    jolliest, the most high-spirited of girls, and to find her now meekly acting as amanuensis to a lady
+                    whose very name he didn&apos;t know sent his imagination stumbling through the blindest of dark
+                    alleys.</p>
+                <p>Only the near presence of Pierrette and her perfect composure and goodnature checked his inclination
+                    to stand up and shout to relieve his feelings.</p>
+                <p>&quot;I hope you don&apos;t mind my not turning up for breakfast,&quot; she remarked in
+                    her low, bell-like tones.</p>
+                <p>Deering&apos;s hopes rose. That breakfast <pb id="VAA2366-139" n="132"/> at the bungalow seemed
+                    the one tangible incident of his twenty-four hours in Hood&apos;s company and, perhaps, if he
+                    let her take the lead, he might find himself on solid earth again.</p>
+                <p>&quot;I&apos;d been week-ending with Babette; she&apos;s an artist, you know, and
+                    I&apos;m posing for another of mamma&apos;s heroines. Babette got me up at daylight to pose
+                    for the last picture and thenI skipped and left her to manage the breakfast.&quot;</p>
+                <p>Her laugh as she said this established her identity beyond question. For a moment the thought of the
+                    packages of worthless wrapping-paper he had found in his suitcase chilled his happiness in finding
+                    her again; but it had not been her fault; the unbroken seals fully established her innocence.</p>
+                <p>&quot;You understand, of course, that it&apos;s <pb id="VAA2366-140" n="133"/> a dark secret
+                    that mother writes. She had scribbled for her own amusement all her life, and published
+                    &apos;The Madness of May&apos; just to see what the public would do to it.&quot;</p>
+                <p>&quot;I understand that it&apos;s immensely amusing,&quot; remarked Deering, thrilling as
+                    she turned toward him.</p>
+                <p>&quot;Oh, you haven&apos;t read it!&quot; she cried. &quot;Mamma, Mr. Tuck
+                    hasn&apos;t read your book.&quot;</p>
+                <p>&quot;My young friend is just beginning his education,&quot; interposed Hood. &quot;I
+                    unhesitatingly pronounce &apos;The Madness of May&apos; a classicsomething the tired world
+                    has been awaiting for years!&quot;</p>
+                <p>&quot;Right!&quot; cried Pantaloon. &quot;You are quite right, sir. &apos;The Madness
+                    of May&apos; isn&apos;t a novel, it&apos;s a text-book on happiness!&quot;</p>
+                <pb id="VAA2366-141" n="134"/>
+                <p>&quot;Truer words were never spoken!&quot; exclaimed Hood with enthusiasm.</p>
+                <p>&quot;Do you know,&quot; began Deering, when it was possible to address Pierrette directly
+                    again, &quot;I don&apos;t believe I was built for this life. I find myself checking off the
+                    alphabet on my fingers every few minutes to see if I have gone plumb mad!&quot;</p>
+                <p>She bent toward him with entreaty in her eyes. He observed that they were brown eyes! In the
+                    starlight he had been unable to judge of their color, and he was chagrined that he hadn&apos;t
+                    guessed at that first interview that she was a brown-eyed girl. Only a browneyed girl would have
+                    hung a moon in a tree! Brown eyes are immensely eloquent of all manner of pleasant things such as
+                    mischief, mirth, and dreams.</p>
+                <pb id="VAA2366-142" n="135"/>
+                <p>Moreover, brown eyes are so highly sensitized that they receive and transmit messages in the most
+                    secret of ciphers, and yet always with circumspection. He was perfectly satisfied with
+                    Pierrette&apos;s eyes and relieved that they were not blue, for blue eyes may be cold, and the
+                    finest of black eyes are sometimes dull. Gray eyes alonemisty, fathomless gray eyesshare imagination
+                    with brown ones. But neither a blue-eyed nor a black-eyed nor a gray-eyed Pierrette was to be
+                    thought of. Pierrette&apos;s eyes were brown, as he should have known, and what she was saying
+                    to him was just what he should have expected once the color of her eyes had been determined.</p>
+                <p>&quot;Please don&apos;t! You must never try to <hi rend="i">understand</hi> things like this!
+                    You <pb id="VAA2366-143" n="136"/> see grandpa and mamma love larking, and this is a lark.
+                    We&apos;re always larking, you know.&quot;</p>
+                <p>Hood&apos;s voice rose commandingly:</p>
+                <p>&quot;Once when I was in jail in Utica&quot;</p>
+                <p>Deering regretted his shortness of leg that made it impossible to kick his erratic companion under
+                    the table. But a chorus of approval greeted this promising opening, and Hood continued relating with
+                    much detail the manner in which he had once been incarcerated in company with a pickpocket whose
+                    accomplishments and engaging personality he described with gusto. There was no denying that Hood
+                    talked well, and the strict attention he was receiving evoked his best efforts.</p>
+                <p>Deering, covertly glancing at his sister, found that she too hung upon Hood&apos;s <pb
+                        id="VAA2366-144" n="137"/> words. Her presence in the house still presented an enigma with which
+                    his imagination struggled futilely, but no opportunity seemed likely to offer for an exchange of
+                    confidences.</p>
+                <p>Constance was a thoroughbred and played her part flawlessly. Her treatment by her employer left
+                    nothing to be desired; the amusing little grandfather appealed to her now and then with unmistakable
+                    liking, and the smiles that passed between her and Pierrette were evidence of the friendliest
+                    relationship.</p>
+                <p>The dinner was served in a leisurely fashion that encouraged talk, and Deering availed himself of
+                    every chance for a tte--tte with Pierrette. She graciously came down out of the clouds and conversed
+                    of things that were within his <pb id="VAA2366-145" n="138"/> comprehensionof golf and polo for
+                    exampleand then passed into the unknown again. But in no way did she so much as hint at her
+                    identity. When she referred to her mother or grandfather she employed the pseudonyms by which he
+                    already knew them. While they were on the subject of polo he asked her if she had witnessed a
+                    certain match.</p>
+                <p>&quot;Oh, yes, I was there!&quot; she replied. &quot;And, of course, I saw you; you were
+                    the star performer. At tea afterward I saw you again, surrounded by admirers.&quot; She laughed
+                    at his befuddlement. &quot;But it&apos;s against all the rules to try to unmask me! Of
+                    course, I know you, but maybe you will never know me!&quot;</p>
+                <p>&quot;I don&apos;t believe you are cruel enough <pb id="VAA2366-146" n="139"/> to prolong my
+                    agony forever! I can&apos;t stand this much longer!&quot;</p>
+                <p>&quot;Perhaps some day,&quot; she answered quietly and meeting his eager gaze steadily,
+                    &quot;we shall meet just as the people of the world meet, and then maybe you won&apos;t like
+                    me at all!&quot;</p>
+                <p>&quot;After this the world will never be the same planet again. Hereafter my business will be to
+                    follow you&quot;</p>
+                <p>She broke in laughingly, &quot;even to the Little Dipper?&quot;</p>
+                <p>&quot;Even to the farthest star!&quot; he answered.</p>
+                <p>After coffee had been served in the drawing-room, Hood, again dominating the company (much to
+                    Deering&apos;s disgust), suggested music. Pierrette contributed a flashing, golden Chopin waltz
+                    and Pantaloon Schubert&apos;s &quot;Serenade,&quot; <pb id="VAA2366-147" n="140"/> which
+                    he played atrociously, whereupon Hood announced that he would sing a Scotch ballad, which he
+                    proceeded to do surprisingly well. The evening could not last forever, and Deering chafed at his
+                    inability to detach Pierrette from the piano; but she was most provokingly submissive to
+                    Hood&apos;s demand that the music continue. Deering had protested that he didn&apos;t sing;
+                    he hated himself for not singing!</p>
+                <p>He fidgeted awhile; then, finding the others fully preoccupied with their musical experiments,
+                    quietly left the drawing-room. It had occurred to him that Constance, who had disappeared when they
+                    left the table, might be seeking a chance to speak to him and he strolled through the library (a
+                    large room with books crowding to the ceiling) <pb id="VAA2366-148" n="141"/> to a glass door
+                    opening into a conservatory, which was dark save for the light from the library. He was about to
+                    turn away when an outer door opened furtively and Cassowary stepped in from the grounds. The
+                    chauffeur glanced about nervously as though anxious to avoid detection.</p>
+                <p>As Deering watched him a shadow darted by, and his sisterunmistakably Constance in the dark gown with
+                    its white collar and cuffs that she had worn at dinnermoved swiftly toward the chauffeur. She gave
+                    him both hands; he kissed her eagerly; then they began talking earnestly. For several minutes
+                    Deering heard the blurred murmur of rapid question and reply; then, evidently disturbed by an
+                    outburst of merriment from the drawing-room, the two <pb id="VAA2366-149" n="142"/> parted with
+                    another hand-clasp and kiss, and Cassowary darted through the outer door.</p>
+                <p>Constance waited a moment, as though to compose herself, and then began retracing her steps down the
+                    conservatory aisle. As she passed his hiding-place Deering stepped out and seized her arm.</p>
+                <p>&quot;So this is what&apos;s in the wind, is it?&quot; he demanded roughly. &quot;I
+                    suppose you don&apos;t know that that man&apos;s a bad lot, a worthless fellow Hood picked
+                    up in the hope of reforming him! For all I know he may be the chauffeur he pretends to be!&quot;</p>
+                <p>She freed herself and her eyes flashed angrily.</p>
+                <p>&quot;You don&apos;t know what you&apos;re saying! That man is a gentleman, and if <pb
+                        id="VAA2366-150" n="143"/> he went to pieces for a while it was my fault. I met him at the
+                    Drakes&apos; last year when you were away hunting in Canada. He came to our house afterward, but
+                    for some reason father took one of his strong dislikes to him, and forbade my seeing him again. I
+                    knew he was with this man Hood, and when I left the table awhile ago I met him outside the
+                    servants&apos; dining-room and told him I would talk to him here.&quot;</p>
+                <p>&quot;What does he call himself?&quot; Deering asked.</p>
+                <p>&quot;Torrence is the name the Drakes gave him,&quot; she answered with faint irony.
+                    &quot;He&apos;s a ranchman in Wyoming and was in Bob Drake&apos;s class in
+                    college.&quot;</p>
+                <p>He knew perfectly well that the Drakes were not people likely to countenance an impostor. His first
+                    instinct <pb id="VAA2366-151" n="144"/> had been to protect his sister from an unknown scamp, and he
+                    was sorry that he had spoken to her so roughly. Her distress and anxiety were apparent, and he was
+                    filled with pity for her. Since childhood they had been the best of pals, and if she loved a man who
+                    was worthy of her he would aid the affair in every way possible. He was surprised by the abruptness
+                    with which she stepped close to him and laid her hand on his arm.</p>
+                <p>&quot;Billy, who <hi rend="i">is</hi> Hood?&quot; she whispered.</p>
+                <p>&quot;I don&apos;t know!&quot; he ejaculated, and then as she eyed him curiously he
+                    explained hurriedly: &quot;I was in an awful mess when he turned up, Connie. I&apos;d gone
+                    into a copper deal with Ned Rans-comb and needed more money to help him through with it. I put in
+                    all I <pb id="VAA2366-152" n="145"/> had and touched one of father&apos;s boxes at the bank for
+                    some more and lost it, or didn&apos;t lose it; God knows what did become of it! It would take a
+                    week to tell you the whole story. Ranscomb disappeared, absolutely, and there I was! I should have
+                    killed myself if that lunatic Hood hadn&apos;t turned up and hypnotized me. But
+                    whatwhat&quot; (he fairly choked with the question), &quot;in heaven&apos;s name are you
+                    doing here? Why did you cut out California? I tell you, Connie, if I&apos;m not crazy everybody
+                    else is! I nearly fainted when you came into the dining-room.&quot;</p>
+                <p>Constance smiled at his despair, but hurried on with explanations:</p>
+                <p>&quot;We can&apos;t talk here, but I can clear up a few things. Father read that
+                    woman&apos;s book, and it went to his <pb id="VAA2366-153" n="146"/> head. Yes,&quot; she
+                    added as Deering groaned in his helplessness, &quot;father&apos;s acting a good deal like
+                    those people in the drawing-room. He&apos;s got the May madness, and I&apos;m afraid
+                    I&apos;ve got a touch of it myself! Father started off to have adventures like the people in
+                    that book and dragged me along to get my mind off Tommy&quot;</p>
+                <p>&quot;Tommy?&quot;</p>
+                <p>&quot;Mr. Torrence!&quot;</p>
+                <p>Billy swallowed this with a gulp.</p>
+                <p>&quot;But, Billy,&quot; Constance continued seriously, &quot;there&apos;s really
+                    something on father&apos;s mind; he thinks he&apos;s looking for somebody, and I&apos;m
+                    not sure whether he is or not. That&apos;s how I come to be here. He made me answer an
+                    advertisement and take this position to spy on these people.&quot;</p>
+                <pb id="VAA2366-154" n="147"/>
+                <p>&quot;My God!&quot; Deering gasped, &quot;gone clean mad, the whole bunch of us. Who the
+                    deuce are these lunatics anyhow?&quot;</p>
+                <p>&quot;I don&apos;t know, Billy; honestly I don&apos;t! You know nearly as much about them
+                    as I do. Their mail goes to a bank in town, and I met my employer at a lawyer&apos;s office in
+                    Hartford. Father suspects something and made me do it, so I might watch them. The mother and
+                    daughter have been abroad a great deal, and just came home a month ago. I never saw this man Hood
+                    until tonight. The mother and daughter and the old gentleman call each other by the names you heard
+                    at the table, and the books in the library are marked with half a dozen names. Even the silver gives
+                    no clew. I&apos;ve been here a week and only one person has come to <pb id="VAA2366-155" n="148"
+                    /> the house&quot; (she lowered her voice to a whisper), &quot;and that was Ned
+                    Ranscomb!&quot;</p>
+                <p>He clutched her hands, and the words he tried to utter became a queer, inarticulate gurgle in his
+                    throat.</p>
+                <p>&quot;Ned came here to see a girl,&quot; she went on: &quot;an artist who made the
+                    pictures for &apos;The Madness of May.&apos; He&apos;s quite crazy about her. I did get
+                    that much out of Pierrette. This artist&apos;s a victim of the madness too, and seems to be
+                    leading Ned a gay dance!&quot;</p>
+                <p>&quot;Took my two hundred thousand and got me to steal two more,&quot; he groaned,
+                    &quot;and then went chasing a girl all over creation! And the fool always bragged that he was
+                    immune; that no girl&quot;</p>
+                <p>&quot;Another victim of the same disease, that&apos;s all,&quot; answered Constance with
+                    a wry smile.</p>
+                <pb id="VAA2366-156" n="149"/>
+                <p>&quot;Not Ned; not Ranscomb! That settles it! We&apos;ve all gone loony!&quot;</p>
+                <p>&quot;Well, even so, we mustn&apos;t be caught here,&quot; said Constance with decision
+                    as the music ceased.</p>
+                <p>&quot;Tell me, quick, where can I find the governor?&quot; Deering demanded.</p>
+                <p>&quot;If you <hi rend="i">must</hi> know, Billy,&quot; she replied, her lips quivering with
+                    mirth, &quot;our dear parent is in jailin <hi rend="i">jail</hi>! Tommy collected those glad
+                    tidings at the garage.&quot;</p>
+                <p>Having launched this at her astounded brother, she pushed him from her and ran away through the
+                    conservatory.</p>
+            </div2>
+            <pb id="VAA2366-157" n="150"/>
+            <div2 type="chapter" n="8">
+                <head>VIII</head>
+                <p>&quot;TUCK, my boy, you should cultivate the art of music!&quot; cried Hood as Deering
+                    reappeared, somewhat pale but resigned to an unknown fate, in the drawing-room. &quot;And now
+                    that ten has struck we must be on our way. Madam, will you ring for Cassowary, the prince of
+                    chauffeurs, as we must leave your hospitable home at once?&quot; He began making his adieus with
+                    the greatest formality.</p>
+                <p>&quot;Mr. Tuck,&quot; said the mistress of the house as Deering gave her a limp hand,
+                    &quot;you have conferred the greatest honor upon us. Please never pass our door without
+                    stopping.&quot;</p>
+                <p>&quot;To-morrow,&quot; he said, turning to <pb id="VAA2366-158" n="151"/> Pierrette,
+                    &quot;I shall find you to-morrow, either here or in the Dipper!&quot;</p>
+                <p>&quot;Before you see me or the Dipper again, many things may happen!&quot; she laughed.</p>
+                <p>The triothe absurd little Pantaloon; Columbine, laughing and gracious to the last, and Pierrette,
+                    smiling, charming, adorablecheerily called good night from the door as Cassowary sent the car
+                    hurrying out of the grounds.</p>
+                <p>&quot;Well, what do you think of the life of freedom now?&quot; demanded Hood as the car
+                    reached the open road. &quot;Begin to have a little faith in me, eh?&quot;</p>
+                <p>&quot;Well, you seemed to put it over,&quot; Deering admitted grudgingly. &quot;But I
+                    can&apos;t go on this way, Hood; I really can&apos;t stand it. I&apos;ve got to quit
+                    right now!&quot;</p>
+                <pb id="VAA2366-159" n="152"/>
+                <p>&quot;My dear boy!&quot; Hood protested.</p>
+                <p>&quot;I&apos;ve heard bad news about my father; one of theerservants back there told me he
+                    was in jail!&quot;</p>
+                <p>&quot;Stop!&quot; bawled Hood. &quot;This is important if true! Cassowary, I&apos;ve
+                    told you time and again to bring me any news you pick up in servants&apos; halls. What have you
+                    heard about the arrest of a gentleman named Deering?&quot;</p>
+                <p>&quot;He&apos;s been pinched, all right,&quot; the chauffeur answered as he stopped the
+                    car and turned round. &quot;The constables over at West Dempster are trapping joy-riders, and
+                    they nailed Mr. Deering about sundown for speeding. I learned that from the chauffeur at that house
+                    where you dined.&quot;</p>
+                <p>Hood slapped his knee and chortled with delight.</p>
+                <pb id="VAA2366-160" n="153"/>
+                <p>&quot;There&apos;s work ahead of us! But probably he&apos;s bailed himself out by this
+                    time.&quot;</p>
+                <p>&quot;Not on your life!&quot; Cassowary answered, and Deering marked a note of jubilation in
+                    his tone, as though the thought of Mr. Deering&apos;s incarceration gave him pleasure.
+                    &quot;The magistrate&apos;s away for the night, and there&apos;s nobody there to fix
+                    bail. It&apos;s part of the treatment in these parts to hold speed fiends a night or
+                    two.&quot;</p>
+                <p>Again Hood&apos;s hand fell upon Deering&apos;s knee.</p>
+                <p>&quot;A situation to delight the gods!&quot; he cried. &quot;Cassowary, old man, at the
+                    next crossroads turn to the right and run in at the first gate. There&apos;s a farmhouse in the
+                    midst of an orchard; we&apos;ll stop there and change our clothes.&quot;</p>
+                <pb id="VAA2366-161" n="154"/>
+                <p>As the car started Deering whirled upon Hood and shook him violently by the collar.</p>
+                <p>&quot;I&apos;m sick of all this rot! I can&apos;t stand any more, I tell you.
+                    I&apos;m going to quit right here!&quot;</p>
+                <p>Hood drew his arm round him affectionately.</p>
+                <p>&quot;My dear son, have I failed you at any point? Have you ever in your life had any adventures
+                    to compare with those you&apos;ve had with me? Stop whining and trust all to Hood!&quot;</p>
+                <p>Deering sank back into his corner with a growl of suppressed rage.</p>
+                <p>When they reached the farmhouse Hood drew out a key and opened the front door with a proprietorial
+                    air.</p>
+                <p>&quot;Whose place is this? I want to know what I&apos;m getting in for,&quot; Deering
+                    demanded wrathfully.</p>
+                <pb id="VAA2366-162" n="155"/>
+                <p>&quot;Mine, dearest Tuck! Mine, and the taxes paid. I use it as a rest-house for weary and jaded
+                    crooks, if that will ease your mind!&quot;</p>
+                <p>Cassowary struck matches and lighted candles, disclosing a half-furnished room in great disorder. Old
+                    clothing, paper bags that had contained food, a violin, and books in good bindings littered a table
+                    in the middle of the floor, and articles of clothing were heaped in confusion on a time-battered
+                    settle. The odor of stale pipe smoke hung upon the air. Under an empty bottle on the mantel Hood
+                    found a scrap of paper which he scanned for a moment and then tore into pieces.</p>
+                <p>&quot;Just a scratch from good old Fogarty; he&apos;s been taking the rest-cure here between
+                    jobs. Skipped yesterday; same chap that left his mark for me on that <pb id="VAA2366-163" n="156"/>
+                    barn. One of the royal good fellows, Fogarty; does his work neatlynever carries a gun or pots a cop;
+                    knows he can climb out of any jail that ever was made, and that, son, gives any man a joyful sense
+                    of ease and security. The Tombs might hold him, but he avoids large cities; knows his limitations
+                    like a true man of genius. Rare bird; thrifty doesn&apos;t describe him; he&apos;s just
+                    plain stingy; sells stolen postage-stamps at par; the only living yegg that can put that over! By
+                    George, I wouldn&apos;t be surprised if he couldn&apos;t sell &apos;em at a
+                    premium!&quot;</p>
+                <p>As he talked he rummaged among the old clothes, chose a mud-splashed pair of trousers, and bade
+                    Deering put them on, adding an even more disreputable coat and hat. Cassowary helped himself <pb
+                        id="VAA2366-164" n="157"/> to a change of raiment, and Hood selected what seemed to be the worst
+                    of the lot.</p>
+                <p>&quot;Three suspicious characters will be noted by the constabulary of West Dempster within two
+                    hours!&quot; cried Hood, hopping out of his dress trousers. &quot;Into the calaboose we
+                    shall go, my dear Tuck! Never say that I haven&apos;t a thought for your peace and happiness. It
+                    will give me joy unfeigned to bring you face to face with your delightful parent. Cassowary, my son,
+                    I&apos;m going to hide those bills of yours in the lining of my coat for safety. If they found
+                    ten thousand plunks on me, they&apos;d never let us go!&quot;</p>
+                <p>&quot;Hood!&quot; cried Deering in a voice moist with tears, &quot;for God&apos;s
+                    sake what fool thing are you up to now?&quot;</p>
+                <pb id="VAA2366-165" n="158"/>
+                <p>&quot;I tell you we&apos;re going to jail!&quot; Hood answered jubilantly.
+                    &quot;You&apos;ve dined in good company with the most charming of girls at your side;
+                    you&apos;ve had a taste of the prosperous life; and now it&apos;s fitting that we should
+                    touch the other extreme. The moment we step out of this shack we&apos;re criminals, crooks,
+                    gallows meat;&quot; he rolled this last term under his tongue unctuously. &quot;This will
+                    top all our other adventures. Here&apos;s hoping Fogarty may have preceded us. The old boy likes
+                    to get pinched occasionally just for the fun of it.&quot;</p>
+                <p>He was already blowing out the candles, and, seizing his stick, led the way back to the highway, with
+                    Deering and Cassowary at his heels. The car had been run into an old barn, which <pb
+                        id="VAA2366-166" n="159"/> had evidently served Hood before. Within twenty-four hours they would
+                    be touring again, he announced. The change from his dress clothes to ill-fitting rags had evidently
+                    wrought a change of mood. Between whiffs at his pipe he sought consolation in Wagner, chanting bars
+                    of &quot;In <hi rend="i">fernem</hi> Land.&quot;</p>
+                <p>Cassowary, who had adjusted himself to this new situation without question, whispered in
+                    Deering&apos;s ear: &quot;Don&apos;t kick; he&apos;s got something up his sleeve.
+                    And he&apos;ll get you out of it; remember that! I&apos;ve been in jail with him
+                    before.&quot;</p>
+                <p>Deering drew away impatiently. He was in no humor to welcome confidences from Torrence, <hi rend="i"
+                        >alias</hi> Cassowary, whom his sister met clandestinely and <hi rend="i">kissed</hi>the kiss
+                    rankled! And yet it was nothing <pb id="VAA2366-167" n="160"/> against Cassowary that he had been
+                    following Hood about like an infatuated fool. Deering knew himself to be equally culpable on that
+                    score, and he was even now trudging after the hypnotic vagabond with a country calaboose as their
+                    common goal. The chauffeur&apos;s interview with Constance had evidently cheered him mightily,
+                    and he joined his voice to Hood&apos;s in a very fair rendering of &quot;Ben Bolt.&quot;
+                    Deering swore under his breath, angry at Hood, and furious that he had so little control of a
+                    destiny that seemed urging him on to destruction.</p>
+            </div2>
+            <pb id="VAA2366-168" n="161"/>
+            <div2 type="chapter" n="9">
+                <head>IX</head>
+                <p>AT one o&apos;clock West Dempster lay dark and silent before them. As they crossed a bridge into
+                    the town Hood began to move cautiously.</p>
+                <p>&quot;Remember that we give up without a struggle: there&apos;s too much at stake to risk a
+                    bullet now, and these country lumpkins shoot first, and hand you their cards afterward.&quot;</p>
+                <p>He dived into an alley, and emerged midway of a block where a number of barrels under a shed awning
+                    advertised a grocery.</p>
+                <p>&quot;Admirable!&quot; whispered Hood, throwing his arms about his comrades. &quot;We
+                    will now arouse the watch.&quot;</p>
+                <pb id="VAA2366-169" n="162"/>
+                <p>With this he kicked a barrel into the gutter, and jumped back like a mischievous boy into the shelter
+                    of the alley. Footsteps were heard in a moment, far down the street.</p>
+                <p>&quot;These country cops are sometimes shrewd, but often the silly children of convention like
+                    the rest of us. West Dempster has an evil reputation in the underworld. The pinching of joy-riders
+                    is purely incidental; they run in anybody they catch after the curfew sounds from the coffin
+                    factory.&quot;</p>
+                <p>A window overhead opened with a bang, and a blast from a police whistle pierced the air shrilly.
+                    Deering started to run, but Hood upset him with a thrust of his foot. Two men were already creeping
+                    up behind them in the alley; the owner of the grocery stole out of <pb id="VAA2366-170" n="163"/>
+                    the front door in a long nightgown and began howling dismally for help.</p>
+                <p>&quot;Throw up your hands, boys; it&apos;s no use!&quot; cried Hood in mock despair.</p>
+                <p>Then the man in the nightgown, after menacing Hood with a pistol, stuck the barrel of it into
+                    Deering&apos;s mouth, opened inopportunely to protest his innocence. The policemen threw
+                    themselves upon Hood and Cassowary, toppled them over, and flashed electric lamps in their faces.</p>
+                <p>&quot;More o&apos; them yeggs,&quot; announced one of the officers with satisfaction as
+                    he snapped a pair of handcuffs on Cassowary&apos;s wrists. &quot;Don&apos;t you fellows
+                    try any monkey-shines or we&apos;ll plug you full o&apos; lead. Trot along now.&quot;</p>
+                <p>The gentleman in the night-robe wished to detain the party for a recital <pb id="VAA2366-171" n="164"
+                    /> of his own prowess in giving warning of the attempted burglary. The police were disposed to make
+                    light of his assistance, while Hood hung back to support the grocer&apos;s cause, a generosity
+                    on his part that was received ill-temperedly by the officers of the law. They bade the grocer report
+                    to the magistrate Monday morning, and they parted, but only after Hood had shaken the crestfallen
+                    grocer warmly by the hand, warning him with the greatest solicitude against further exposure to the
+                    night air. Two other policemen appeared; the whole force was doing them honor, Hood declared
+                    proudly. He lifted his voice in song, but the lyrical impulse was hushed by a prod from a revolver.
+                    He continued to talk, however, assuring his captors of his heartiest admiration for <pb
+                        id="VAA2366-172" n="[]"/>
+                    <figure entity="VAA2366-4">
+                        <p rend="center">&quot;Throw up your hands, boys; it&apos;s no use!&quot; cried Hood
+                            in mock despair.</p>
+                    </figure>
+                    <pb id="VAA2366-173" n="165"/> their efficiency. He meant to recommend them for positions in the
+                    secret servicemen of their genius were wasted upon a country town.</p>
+                <p>When they reached the town hall a melancholy jailer roused himself and conducted them to the lockup
+                    in the rear of the building. Careful search revealed nothing but a mass of crumpled clippings and a
+                    pipe and tobacco in Hood&apos;s pockets.</p>
+                <p>&quot;Guess they dropped their tools somewhere,&quot; muttered one of the officers.</p>
+                <p>&quot;My dear boy,&quot; explained Hood, &quot;the gentleman in the nightie, whom I take
+                    to be a citizen and merchant of standing in your metropolis, may be able to assist you in finding
+                    them. We left our safe-blowing apparatus in a chicken-coop in his back yard.&quot;</p>
+                <pb id="VAA2366-174" n="166"/>
+                <p>They were entered on the blotter as R. Hood, F. Tuck, and Cass O&apos;Weary the last Hood spelled
+                    with the utmost care for the scowling turnkeyand charged with attempt to commit burglary and arson.</p>
+                <p>Hood grumbled; he had hoped it would be murder or piracy on the high seas; burglary and arson were so
+                    commonplace, he remarked with a sigh.</p>
+                <p>The door closed upon them with an echoing clang, and they found themselves in a large coop, bare save
+                    for several benches ranged along the walls. Two of these were occupied by prisoners, one of whom, a
+                    short, thick-set man, snored vociferously. Hood noted his presence with interest.</p>
+                <p>&quot;Fogarty!&quot; he whispered with a triumphant wave of his hand.</p>
+                <pb id="VAA2366-175" n="167"/>
+                <p>A tall man who had chosen a cot as remote as possible from his fellow prisoner sat up and, seeing the
+                    newcomers, stalked majestically to the door and yelled dismally for the keeper, who lounged
+                    indifferently to the cage, puffing a cigar.</p>
+                <p>&quot;This is an outrage!&quot; roared the prisoner. &quot;Locking me up with these
+                    felonsthese common convicts! I demand counsel; I&apos;m going to have a writ of habeas corpus!
+                    When I get out of here I&apos;m going to go to the governor of your damned State and complain of
+                    this. All Connecticut shall know of it! All America shall hear of it! To be locked up with one
+                    safe-blower is enough, and now you&apos;ve stuck three murderers into this rotten hole. I tell
+                    you I can give bail. I tell you&quot;</p>
+                <pb id="VAA2366-176" n="168"/>
+                <p>The jailer snarled and bade him be quiet. In the tone of a man who is careful of his words he
+                    threatened the direst punishment for any further expression of the gentleman&apos;s opinions.
+                    Whereupon the gentleman seized the bars and shook them violently, and then, as though satisfied that
+                    they were steel of the best quality, dropped his arms to his sides with a gesture of impotent
+                    despair.</p>
+                <p>&quot;Father!&quot;</p>
+                <p>In spite of Constance&apos;s assertion, confirmed by Cassowary, Deering had not believed that his
+                    father was in jail; but the outraged gentleman who had demanded the writ of habeas corpus was,
+                    beyond question, Samuel J. Deering, head of the banking-house of Deering, Gaylord &amp; Co. Mr.
+                    Deering was <pb id="VAA2366-177" n="169"/> striding toward his bench with the sulky droop of a
+                    premium batter who has struck out with the bases full.</p>
+                <p>Scorning to glance at the creature in rags who had flung himself in his path, Samuel J. Deering
+                    lunged at him fiercely with his right arm. Billy, ducking opportunely, saved his indignant parent
+                    from tumbling upon the floor by catching him in his arms. Feeling that he had been attacked by a
+                    ruffian, Mr. Deering yelled that he was being murdered.</p>
+                <p>&quot;I&apos;m Billy! For God&apos;s sake, be quiet!&quot;</p>
+                <p>The senior Deering tottered to the wall.</p>
+                <p>&quot;Billy! What are <hi rend="i">you</hi> in for?&quot; he demanded finally.</p>
+                <p>&quot;Burglary, arson, and little things like that,&quot; Billy answered with a jauntiness
+                        <pb id="VAA2366-178" n="170"/> that surprised him as much as it pained his father, who continued
+                    to stare uncomprehendingly.</p>
+                <p>&quot;You&apos;ve been reading that damned book, too, have you?&quot; he whispered
+                    hoarsely in his son&apos;s ear. &quot;You&apos;ve gone crazy like everybody else, have
+                    you?&quot;</p>
+                <p>&quot;I&apos;ve been kidnaped, if that&apos;s what you mean,&quot; Billy answered
+                    with a meaningful glance over his shoulder, and then with a fine attempt at bravado:
+                    &quot;I&apos;m Friar Tuck, and that chap smoking a pipe is Robin Hood.&quot;</p>
+                <p>Ordinarily his father&apos;s sense of humor could be trusted to respond to an intelligent appeal.
+                    A slow grin had overspread Mr. Deering&apos;s face as Friar Tuck was mentioned, but when Billy
+                    added Robin Hood his father&apos;s countenance underwent changes indicative of hope, <pb
+                        id="VAA2366-179" n="171"/> fear, and chagrin. Clinging to Billy&apos;s shoulder, he peered
+                    through the gloom of the cage toward Hood, who lay on a bench, his coat rolled up for a pillow,
+                    tranquilly smoking, with his eyes fixed upon the steel roof.</p>
+                <p>&quot;Hood!&quot; Mr. Deering walked slowly toward Hood&apos;s bench.</p>
+                <p>Hood sat up, took his pipe from his mouth, and nodded.</p>
+                <p>&quot;Hood, this is my father,&quot; said Billy.</p>
+                <p>&quot;A great pleasure, I&apos;m sure,&quot; Hood responded courteously, extending his
+                    hand. &quot;I suppose it was inevitable that we should meet sooner or later, Mr.
+                    Deering.&quot;</p>
+                <p>&quot;Youyou <hi rend="i">are</hi> BobBobTyringham?&quot; asked Deering anxiously.</p>
+                <p>&quot;Right!&quot; cried Hood in his usual assured manner. &quot;And I will say for <pb
+                        id="VAA2366-180" n="172"/> you that you have given me a good chase. I confess that I
+                    didn&apos;t think you capable of it; I swear I didn&apos;t! Tuck, I congratulate you; your
+                    father is one of the true brotherhood of the stars. He&apos;s been chasing me for a month and,
+                    by Jove, he&apos;s kept me guessing! But when I heard that he&apos;d been jailed for
+                    speeding, with a prospect of spending Sunday in this hole, I decided that it was time to throw down
+                    the mask.&quot;</p>
+                <p>Lights began to dance in the remote recesses of Billy&apos;s mind. Hood was Robert Tyringham, for
+                    whom his father held as trustee two million dollars. Tyringham had not been heard of in years. The
+                    only son of a most practical father, he had been from youth a victim of the <hi rend="i"
+                    >wanderlust</hi>, absenting himself from home for long periods. For ten <pb id="VAA2366-181" n="173"
+                    /> years he had been on the list of the missing. That Hood should be this man was unbelievable. But
+                    the senior Deering seemed not to question his identity. He sat down with a deep sigh and then began
+                    to laugh.</p>
+                <p>&quot;If I hadn&apos;t found you by next Wednesday, I should have had to turn your property
+                    over to a dozen charitable institutions provided for by your father&apos;s willand, by George,
+                    I&apos;ve been fighting a temptation to steal it!&quot; His arms clasped Billy&apos;s
+                    shoulder convulsively. &quot;It&apos;s been horrible, ghastly! I&apos;ve been afraid I
+                    might find you and afraid I wouldn&apos;t! I tell you it&apos;s been hell. I&apos;ve
+                    spent thousands of dollars trying to find you, fearing one day you might turn up, and the next day
+                    afraid you wouldn&apos;t. And, you know, Tyringham, <pb id="VAA2366-182" n="174"/> your father
+                    was my dearest friend; that&apos;s what made it all so horrible. I want you to know about it,
+                    Billy; I want you to know the worst about me; I&apos;m not the man you thought me. When I
+                    started away with Constance and told you I was going to California I decided to make a last effort
+                    to find Tyringham. I read a damned novel that acted on me like a poison; that&apos;s why
+                    I&apos;ve made a fool of myself in a thousand ways, thinking that by masquerading over the
+                    country I might catch Tyringham at his own game. And now you know what I might have been; you see
+                    what I was trying to bea common thief, a betrayer of a sacred trust.&quot;</p>
+                <p>&quot;Don&apos;t talk like that, father,&quot; began Billy, shaken by his
+                    father&apos;s humility. &quot;I guess we&apos;re in the same hole, only <pb
+                        id="VAA2366-183" n="175"/> I&apos;m in deeper. I tried to rob <hi rend="i">you</hi>. I tried
+                    to steal some of that Tyringham money myself, butbut&quot;</p>
+                <p>Hood, wishing to leave the two alone for their further confidences, walked to the recumbent Fogarty,
+                    roused him with a dig in the ribs, and conferred with him in low tones.</p>
+                <p>&quot;You took the stuff from my box, Billy?&quot; Mr. Deering asked.</p>
+                <p>Billy waited apprehensively for what might follow. It was possible that his father had already robbed
+                    the Tyringham estate; the thought chilled him into dejection.</p>
+                <p>&quot;I <hi rend="i">had</hi> stolen it. My God, I couldn&apos;t help it!&quot; Deering
+                    groaned. &quot;I left that waste paper in the box to fool myself, and put the real stuff in
+                    another place. I hopedyes, that was it, I hopedI&apos;d <pb id="VAA2366-184" n="176"/> never
+                    find Tyringham and I could keep those bonds. But all the time I kept looking for him. You see,
+                    Billy, I couldn&apos;t be as bad as I wanted to be; and yet&quot;</p>
+                <p>He drew his hand across his face as though to shut out the picture he saw of himself as a felon.</p>
+                <p>&quot;Oh, you wouldn&apos;t have done it; you couldn&apos;t have done it!&quot; cried
+                    Billy, anxious to mitigate his father&apos;s misery. &quot;If you hadn&apos;t hidden the
+                    real bonds, I&apos;d have been a thief! Ned Ranscomb was trying to corner Mizpah and needed my
+                    help. I put in all I hadthat two hundred thousand you gave me my last birthday, and then he skipped.
+                    When I get hold of <hi rend="i">him</hi>!&quot;</p>
+                <p>&quot;You put two hundred thousand in Mizpah?&quot;</p>
+                <pb id="VAA2366-185" n="177"/>
+                <p>&quot;I did, like a fool, and, of course, it&apos;s lost! Ned went daffy about a girl and
+                    dropped Mizpahand my money!&quot;</p>
+                <p>Mr. Deering was once more a business man. &quot;What did Ranscomb buy at?&quot; he asked
+                    curtly.</p>
+                <p>&quot;Seven and a quarter.&quot;</p>
+                <p>&quot;Then you needn&apos;t kick Ned! The Ranscombs put through their deal and
+                    Mizpah&apos;s gone to forty!&quot;</p>
+                <p>Hood rejoined them, and they talked till daylight. He told them much of himself. The responsibility
+                    of a great fortune had not appealed to him; he had been honest in his preference for the vagabond
+                    life, but realized, now that he was well launched upon middle age, that it was only becoming and
+                    decent for him to alter his ways. Billy&apos;s liking for him, that had struggled so
+                    rebelliously <pb id="VAA2366-186" n="178"/> against impatience and distrust, warmed to the heartiest
+                    admiration.</p>
+                <p>&quot;Of course I knew you were married,&quot; the senior Deering remarked for
+                    Billy&apos;s enlightenment, &quot;and now and then I got glimpses of you in your gypsy life.
+                    Your wife had a fortune of her ownshe was one of Augustus Davis&apos;s daughtersso of course she
+                    hasn&apos;t suffered from your foolishness.&quot;</p>
+                <p>&quot;My wife shared my tastes; there has never been the slightest trouble between us. Our
+                    daughter is just like us. But now Mrs. Tyringham thinks we ought to settle down and be
+                    respectable.&quot;</p>
+                <p>&quot;I knew your wife and daughter had come home. I had got that far,&quot; Mr. Deering
+                    resumed. &quot;And after I began to suspect that you and Hood were the <pb id="VAA2366-187"
+                        n="179"/> same person I put my own daughter into your house on the Dempster road as a spy to
+                    watch for you.&quot;</p>
+                <p>&quot;My wife wasn&apos;t fooled for a minute,&quot; Hood chuckled. &quot;We were
+                    having our last fling before we settled down for the rest of our days. We all have the same weakness
+                    for a springtime lark: my wife, my daughter, and I.&quot;</p>
+                <p>Billy ran his hands through his hair. &quot;Pierrette! Pierrette is your daughter!&quot;</p>
+                <p>&quot;Certainly,&quot; replied Hood; &quot;and Columbine, the dearest woman in the world,
+                    is my wife, and Pantaloon my father-in-law. In my affair with you there was only one coincidence:
+                    everything else was planned. It was Pierrette, whose real name is RobertaBobby for short, when
+                    we&apos;re not playing a game of some sortBobby really <pb id="VAA2366-188" n="180"/> did lift
+                    your suitcase by mistake. And it was stowed away in Cassowary&apos;s car when I came to your
+                    house intending to return it. But when I saw that you needed diversion I decided to give you a
+                    whirl. It was an easy matter for Cassowary to move the suitcase to the bungalow, where you found it.
+                    I steered you to the house on purpose to see how you and Bobby would hit it off. The result seems to
+                    have been satisfactory!&quot;</p>
+                <p>Cassowary turned uneasily on his bench.</p>
+                <p>&quot;And before we quit all this foolishness,&quot; Hood resumed with a glance at the
+                    chauffeur, &quot;there&apos;s one thing I want to ask you, Mr. Deering, as a special favor.
+                    That chap lying over there is Tommy Torrence, whom you kicked off your door-step for daring to love
+                    your <pb id="VAA2366-189" n="181"/> daughter. He&apos;s one of the best fellows in the world.
+                    Just because his father, the old senator, didn&apos;t quite hit it off with you in a railroad
+                    deal before Tommy was born is no reason why you should take it out on the boy. He started for the
+                    bad after you made a row over his attentions to your daughter, but he&apos;s been with me six
+                    months and he&apos;s as right and true a chap as ever lived. You&apos;ve got to fix it up
+                    with him or I&apos;llI&apos;llwell, I&apos;ll be pretty hard on your boy if he ever
+                    wants to break into my family!&quot;</p>
+                <p>With this Hood rose and drew from his pocket a handful of newspaper clippings which he threw into the
+                    air and watched flutter to the floor.</p>
+                <p>&quot;Those are some of your advertisements offering handsome rewards for <pb id="VAA2366-190"
+                        n="182"/> news of me dead or alive. In collecting them I&apos;ve had a mighty good time.
+                    Let&apos;s all go to sleep; to-morrow night the genial Fogarty will get us out of this.
+                    He&apos;s over there now sawing the first bar of that window!&quot;</p>
+            </div2>
+            <pb id="VAA2366-191" n="183"/>
+            <div2 type="chapter" n="10">
+                <head>X</head>
+                <p>AYEAR has passed and it is May again and the last day of that month of enchantment. There has been a
+                    house-party at the Deering place at Radford Hills. Constance came from Wyoming to spend May with her
+                    father, bringing with her, of course, her husband, sometime known as Cassowary, who has been elected
+                    to the legislature of his State and, may, it is reported, be governor one of these days. The
+                    Tyringhams are there, and this includes Robert Tyringham, <hi rend="i">alias</hi> R. Hood, and his
+                    wife (whose authorship of &quot;The Madness of May,&quot; has not yet been acknowledged) and
+                    also her father, Augustus Davis, who continues to find <pb id="VAA2366-192" n="184"/> recreation in
+                    frequent attacks upon any inoffensive piano that gets in his way. Mr. and Mrs. Edward Ranscomb, too,
+                    have shared Mr. Deering&apos;s hospitality. Marriage has not interrupted Mrs.
+                    Ranscomb&apos;s career as an artist, though she has dropped illustrating, and is specializing in
+                    children&apos;s portraits with distinguished success.</p>
+                <p>The senior Deering, wholly at peace with his conscience, does not work as hard as he used to before
+                    his taste of adventurous life gained in the pursuit of Hood. He is very proud of his
+                    daughter-in-law, whose brown eyes bring constant cheer and happiness to his table. If she does not
+                    hang moons in trees any more, she is still quite capable of doing so, and has no idea of permitting
+                    her husband to wear himself out in the <pb id="VAA2366-193" n="185"/> banking-house. They are going
+                    to keep some time every year for play, she declares, to the very end of their lives.</p>
+                <p>Hood had been devoting himself assiduously to mastering the details of his business affairs, living
+                    as other men do, keeping regular office hours in a tall building with an outlook toward the sea, and
+                    taking his recreation on the golf-links every other afternoon.</p>
+                <p>&quot;Mamma has been nervous all this month about papa,&quot; Roberta (known otherwise as
+                    Pierrette or Bobby) was saying as she and Billy slowly paced the veranda. &quot;But now May is
+                    over and he hasn&apos;t shown any disposition to run away. I suppose he&apos;s really
+                    cured.&quot; There was a tinge of regret in her last words.</p>
+                <p>&quot;Yes,&quot; Billy replied carelessly. &quot;He <pb id="VAA2366-194" n="186"/>
+                    hasn&apos;t mentioned his old roving days lately. I think he&apos;s even sensitive about
+                    having them referred to.&quot;</p>
+                <p>&quot;But even if he should want to go, mamma wouldn&apos;t break her heart about it. She
+                    feels that it&apos;s really something fine in him: his love of the out-of-doors, and adventures,
+                    and knowing all sorts and conditions of men. And he has really helped lots of people, just as he
+                    helped you. And he always had so much fun when we all played gypsy, or he went off alone and came
+                    back with no end of good stories. I&apos;m just a little sorry&quot;</p>
+                <p>They paused, clasping hands and looking off at the starry canopy. Suddenly from the side of the house
+                    a man walked slowly, hesitatingly. He stopped, turned, glanced at the veranda, and <pb
+                        id="VAA2366-195" n="187"/> then, sniffing the air, walked rapidly toward the gate, swinging a
+                    stick, his face lifted to the stars.</p>
+                <p>Bobby&apos;s hand clasped Billy&apos;s more tightly as they watched in silence.</p>
+                <p>&quot;It&apos;s papa; he&apos;s taking to the road again!&quot; she murmured.</p>
+                <p>&quot;But he&apos;ll come back; it won&apos;t be for long this time. I haven&apos;t
+                    the heart to stop him!&quot;</p>
+                <p>&quot;No,&quot; she said softly, &quot;it would be cruel to do that.&quot;</p>
+                <p>The lamps at the gate shone upon Robert Tyringham as he paused and then, with a characteristic
+                flourish of his stick, turned westward and strode away into the night.</p>
+                </div2>
+            </div1>
+        </body>
+    </text>
+</TEI.2>
