@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7137">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Queen’s Ball</title>
+                <title type="filing">Queen’s Ball</title>
+                <author>Clive, Caroline Wigley (1801-1873)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by</resp>
+                    <name>Robert Chavez and</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 19 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>February 8, 1996</date>
+                <idno>VAB7137</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is from the University of California, Los Angeles
+                    Library.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The Queen’s Ball</title>
+                        <author>Clive, Caroline, 1801-1873</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Caroline Clive</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>15 p.</extent>
+                    <publicationStmt>
+                        <publisher>Saunders and Otley</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1847">1847</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag,
+                    with the value "indent1" for one tab stop, "indent2" for two tab stops, etc. All
+                    split lines are attributed as "type=i" for the initial portion, and "type=f" for
+                    the final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="2"/>
+                    <tagUsage gi="addrline" occurs="7"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="bibl" occurs="1"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="closer" occurs="1"/>
+                    <tagUsage gi="date" occurs="5"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="div0" occurs="1"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docdate" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="emph" occurs="3"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="epigraph" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="figure" occurs="1"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="head" occurs="1"/>
+                    <tagUsage gi="item" occurs="3"/>
+                    <tagUsage gi="l" occurs="230"/>
+                    <tagUsage gi="lg" occurs="13"/>
+                    <tagUsage gi="name" occurs="7"/>
+                    <tagUsage gi="p" occurs="7"/>
+                    <tagUsage gi="pb" occurs="13"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="3"/>
+                    <tagUsage gi="pubplace" occurs="3"/>
+                    <tagUsage gi="q" occurs="1"/>
+                    <tagUsage gi="resp" occurs="8"/>
+                    <tagUsage gi="respstmt" occurs="7"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="50"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="title" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="2"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+            <keywords scheme="#mla">
+                <list>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                </list>
+            </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1996-02-06</date><label>editors.</label><name>Robert Chavez and Aaron
+                    Kleist, </name>finished data entry, basic encoding and proofing.</change>
+            <change><date>1996-02-08</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI‐conformant encoding and final proofing.</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-08-03" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added filing title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-08-03" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-09-02" who="elizabethmunson">Added genre term</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE QUEEN’S BALL</titlePart>
+                    <titlePart type="sub">A Poem.</titlePart>
+                </docTitle>
+                <byline>BY <docAuthor>V.</docAuthor></byline>
+                <epigraph>
+                    <q>
+                        <p>“I hear that one hundred and fifty people were invited to the ball, last
+                            Friday, who are dead.”</p>
+                    </q>
+                    <bibl> Extract of a Letter from a Friend, dated June 17th, 1847.</bibl>
+                </epigraph>
+                <docImprint>
+                    <pubPlace>London</pubPlace>
+                    <publisher>Saunders and Otley,
+                        <address><addrLine>Conduit Street.</addrLine></address></publisher>
+                </docImprint>
+                <docDate>1847.</docDate>
+            </titlePage>
+        </front>
+        <body>
+            <pb xml:id="VAB7137-001"/>
+            <div type="poem">
+                <head>THE QUEEN’S BALL</head>
+                <lg type="verse_paragraph">
+                    <l>How soon forgotten are the Dead!</l>
+                    <l rend="ti-1">A splendid throng the Palace calls </l>
+                    <l rend="ti-1">To meet and revel in its halls;</l>
+                    <l>And of the names that thus are sped,</l>
+                    <l>Seven score and ten of them are dead.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>They had been living when the crowd</l>
+                    <l>Last met within these portals proud;</l>
+                    <l>They join’d the dance, they shared the feast,</l>
+                    <l>They glitter’d brightly in their best;—</l>
+                    <l>Since then on dying beds they lay,</l>
+                    <l>And, hid at home, had pass’d away,</l>
+                    <l rend="ti-1">Far from the tumult and the sound;</l>
+                    <l rend="ti-1">And when the holiday came round,</l>
+                    <pb n="4" xml:id="VAB7137-002"/>
+                    <l>Their summons with the rest went out; </l>
+                    <l>The crowd till now had missed them not. </l>
+                    <l>They heard it in their narrow bed, </l>
+                    <l>It pierced to each one’s shrouded head, </l>
+                    <l>Where cold, and dark, and silent, they </l>
+                    <l>Beneath the Sod or Marble lay; </l>
+                    <l>And Pluto grimly gave consent, </l>
+                    <l>That to the feast their steps be bent.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Full many a one refused his ear</l>
+                    <l>To sounds which once had been so dear;</l>
+                    <l>He shut his eyes again, and said,</l>
+                    <l rend="ti-1">’Twas wrong to ’mind him of his woes;</l>
+                    <l>And made a signal with his head,</l>
+                    <l rend="ti-1">That they should leave him to repose.</l>
+                    <l>He would not lift the sealing stone,</l>
+                    <l rend="ti-1">Nor ope the coffin lid anew;</l>
+                    <l>To have the wide world for his own,</l>
+                    <l rend="ti-1">Again he would not jostle through.</l>
+                </lg>
+                <pb n="5" xml:id="VAB7137-003"/>
+                <lg type="verse_paragraph">
+                    <l>But some came gliding from their den, </l>
+                    <l>Glad to be summoned once again; </l>
+                    <l>The royal words that call’d them there, </l>
+                    <l>Forced through the door their forms of air. </l>
+                    <l>They and the living mix’d once more, </l>
+                    <l>And paced the lengthen’d corridor; </l>
+                    <l>Both heard the music swell and fall, </l>
+                    <l>The flow’rs breathed perfume over all, </l>
+                    <l>With robes of state, the shrouds were blent, </l>
+                    <l>And, side by side, up stairs they went.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>But little did those living men </l>
+                    <l>The things that were among them ken; </l>
+                    <l>The Spirits wore such ghostly hue, </l>
+                    <l>That you might see men’s faces through; . </l>
+                    <l>They cast no gloom upon the way, </l>
+                    <l>Nor dimm’d a lady’s bright array, </l>
+                    <l>For shadows, shadowless, were they. </l>
+                    <l>Where space was left, they glided on, </l>
+                    <l>None knew the space held any one;</l>
+                    <pb n="6" xml:id="VAB7137-004"/>
+                    <l>Where throng’d the crowd those chambers wide</l>
+                    <l rend="ti-1">Their airy forms pass’d through—and e’en</l>
+                    <l>When press’d the living side to side,</l>
+                    <l rend="ti-1">The risen dead were there between.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>One phantom was a girl, who here</l>
+                    <l>Had glitter’d in her eighteenth year,</l>
+                    <l>So heavenly fair in those bright hours,</l>
+                    <l>With quaint device of dress and flow’rs,</l>
+                    <l>That the eye dwelt on her surprised,</l>
+                    <l>As on a fable realized:</l>
+                    <l>One, spell‐bound most of all, had burn’d</l>
+                    <l>With love, which frankly she return’d;</l>
+                    <l>But while their silken courtship sped,</l>
+                    <l rend="ti-1">Did sudden clouds a storm unroll;</l>
+                    <l>And ’twixt them left a gulf so dread</l>
+                    <l rend="ti-1">As frightened from its place her soul.</l>
+                    <l>The world, whose fragile ornament</l>
+                    <l rend="ti-1">She for a time so brief had been,</l>
+                    <pb n="7" xml:id="VAB7137-005"/>
+                    <l>Heard, faintly, of some dark event,</l>
+                    <l rend="ti-1">That hid her from its festive scene;</l>
+                    <l>Heard all that was, and what was not;</l>
+                    <l>Inquired, conjectured, and forgot.</l>
+                    <l>Meantime the maiden’s life took wing;</l>
+                    <l rend="ti-1">Beneath Existence’ strife it died;</l>
+                    <l>And, like a fountain of the Spring,</l>
+                    <l rend="ti-1">It met the Summer’s sun, and dried;</l>
+                    <l>Her lover watch’d, with broken heart,</l>
+                    <l rend="ti-1">(Or what to him and her seem’d broken,)</l>
+                    <l rend="ti-1">And the last words that she heard spoken,</l>
+                    <l>Were, “Not for long, my Life, we part.”</l>
+                    <l>She heard, and smiled, in death, to be</l>
+                    <l>Love’s victim, and its victory.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>She came this night, and, unseen, moved,</l>
+                    <l>Where she had glitter’d, triumph’d, loved;</l>
+                    <l>And, ’mid new beauties, sought for one</l>
+                    <l>Who should lament for her that’s gone.</l>
+                    <pb n="8" xml:id="VAB7137-006"/>
+                    <l>She found him straight; but, ah! no dream </l>
+                    <l>Of her, the dead, there seem’d for him; </l>
+                    <l>He moved among the fair and gay, </l>
+                    <l>His smile, and ready word had they; </l>
+                    <l>He touch’d soft hands, and breathed a sigh, </l>
+                    <l>And sought, and found an answering eye;</l>
+                    <l>And in the dance he mix’d with many,</l>
+                    <l>As happy and as light as any.</l>
+                    <l>Then on his breast the phantom rush’d,</l>
+                    <l>Her phantom hair his bosom brush’d,</l>
+                    <l>Her fond fantastic arms she wound,</l>
+                    <l>Beseechingly, his form around.</l>
+                    <l rend="ti-1">Her airy lips his visage kiss’d; </l>
+                    <l>In vain, in vain; no thought he cast </l>
+                    <l>Back on the memory of the past, </l>
+                    <l>And she must let it go at last,</l>
+                    <l rend="ti-1">The cherish’d hope that she was miss’d.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>A ghost went gliding round, who’d been </l>
+                    <l>The guest of guests, in such a scene;</l>
+                    <pb n="9" xml:id="VAB7137-007"/>
+                    <l>Without <emph rend="i">his</emph> wit, the feast was cross’d, </l>
+                    <l>Without <emph rend="i">his</emph> pen, the scene was lost; </l>
+                    <l>He came to earth, to weep their lot, </l>
+                    <l>Who wanted him, and found him not. </l>
+                    <l>But, where were they? Did none recall </l>
+                    <l>His presence, needful once to all? </l>
+                    <l>New wits were ris’n—new words were said,— </l>
+                    <l>And his like him were of the dead. </l>
+                    <l>Yet Genius is a deathless light, </l>
+                    <l>That still burns on through thickest night; </l>
+                    <l>It fires a steady lamp, whose rays </l>
+                    <l>Descend through time, like stars through space; </l>
+                    <l>Though twice a thousand years be fled, </l>
+                    <l>We still repeat what Æsop said.</l>
+                    <l>Thus he, sad ghost! slow circling there, </l>
+                    <l>By many an all‐unconscious ear; </l>
+                    <l>Caught at the last, the dearest name, </l>
+                    <l>His own,—the hold he had on Fame. </l>
+                    <l>“Poor ——,” the speaker said, “his môt, </l>
+                    <l>The witty soul! was—so and so.”</l>
+                    <pb n="10" xml:id="VAB7137-008"/>
+                    <l>He heard,—he drank the praise they gave,</l>
+                    <l>And went the easier to his grave.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>A ghost was there, who died in age,</l>
+                    <l>Not wearied yet with pilgrimage;</l>
+                    <l>A soul, so kindly and so slight,—</l>
+                    <l>So guileless in the world’s despite</l>
+                    <l rend="ti-1">So void of thought, yet rightly feeling, </l>
+                    <l>It could have no descending weight,— </l>
+                    <l>’Twould flutter up to heaven’s gate,</l>
+                    <l rend="ti-1">Like down, on rising breezes, stealing.</l>
+                    <l>And yet she sighed to see the ray</l>
+                    <l rend="ti-1">Of gem and gold, her own of late, </l>
+                    <l>Which on a younger bosom lay,</l>
+                    <l rend="ti-1">The owner of her name and state.</l>
+                    <l>Not all forgotten, she; for one </l>
+                    <l>Whom the new Lady smiled upon, </l>
+                    <l>Said, “Is it true, then, that at last </l>
+                    <l>The ancient Dame away has pass’d?</l>
+                    <pb n="11" xml:id="VAB7137-009"/>
+                    <l>She heard, and turned her to the Tomb,</l>
+                    <l>And said “Alas! your turn will come.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>A shade who had been once a Mother</l>
+                    <l rend="ti-1">Now came and mingled with the rest;</l>
+                    <l>Among the crowd she sought no other </l>
+                    <l rend="ti-1">Than her she nursed upon her breast.</l>
+                    <l>’Twas not so long since she had died— </l>
+                    <l rend="ti-1">Only six months since she was gone;</l>
+                    <l>And when they filled those halls of Pride,</l>
+                    <l>None recollected that the Maid </l>
+                    <l rend="ti-1">Ought to be summon’d now, alone.</l>
+                    <l>There was she, slender, young, and fair,</l>
+                    <l>White feathers in her auburn hair; </l>
+                    <l>A robe of white, where threads of wool</l>
+                    <l>Scarce made the web less slight and cool;</l>
+                    <l>Silk lace, like cobwebs fine and slack,</l>
+                    <l rend="ti-1">And on her arm a bracelet black.</l>
+                    <l>The black was that which mourn’d her mother,</l>
+                    <pb n="12" xml:id="VAB7137-010"/>
+                    <l>And sign of grief she had no other. </l>
+                    <l>The phantom look’d into her face </l>
+                    <l>If aught of sorrow she might trace; </l>
+                    <l>And gazing, almost smiled to see </l>
+                    <l>How glad and beautiful was she; </l>
+                    <l>But when she mark’d that fairy thing </l>
+                    <l>Unguided walk the Circe ring, </l>
+                    <l>Who in her gay imprudence did </l>
+                    <l>Things which a mother would forbid— </l>
+                    <l>Oh, then the Phantom sank beneath </l>
+                    <l>The real bitterness of Death. </l>
+                    <l>“My girl, my darling!” (thus she cried </l>
+                    <l>In words to which was sound denied,) </l>
+                    <l>“My treasure, pleasure, first‐born, pride, </l>
+                    <l>For thine own sake, oh, think upon </l>
+                    <l>The doting mother who is gone!” </l>
+                    <l>Fond words, vain words, that mix’d with air </l>
+                    <l>Which floated musically there.</l>
+                </lg>
+                <pb n="13" xml:id="VAB7137-011"/>
+                <lg type="verse_paragraph">
+                    <l>More ghosts! more ghosts! one spirit came </l>
+                    <l>Answering the summons to his name; </l>
+                    <l>To bear it was so long his lot, </l>
+                    <l rend="ti-1">That he forgot ’twas his no more; </l>
+                    <l>But all, except himself, forgot </l>
+                    <l rend="ti-1">That ever it was he who bore. </l>
+                    <l>He saw his heir, he heard him call </l>
+                    <l>“Mine!” the broad lands, the hounds, the hall; </l>
+                    <l>He saw the same bland list’ning smile</l>
+                    <l>Which shone for him in life, erewhile; </l>
+                    <l>He felt, “Could I again go home</l>
+                    <l>In flesh and blood, as here I come,</l>
+                    <l>What were the sorrow, the despair</l>
+                    <l>Of those who wear my mourning there?”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>More ghosts! before a lovely dame </l>
+                    <l>One, passionate and trembling came;</l>
+                    <l>And mark’d her easy, pamper’d grace, </l>
+                    <l>Her locks arrang’d, and flower‐crown’d face. </l>
+                    <l>In one past hour those two had been</l>
+                    <pb n="14" xml:id="VAB7137-012"/>
+                    <l>The actors in a fearful scene.</l>
+                    <l>Oh, God! what Tragedies pass o’er</l>
+                    <l rend="ti-1">The great world’s gilded Theatre!</l>
+                    <l>What deeds may they have wrought before,</l>
+                    <l rend="ti-1">Who now so smooth and bland appear!</l>
+                    <l>And when the fatal scene is o’er,</l>
+                    <l rend="ti-1">What different Fate for him and her;</l>
+                    <l>She lightly skims the ball‐room floor,</l>
+                    <l rend="ti-1">And he is in the sepulchre!</l>
+                    <l>His shadowy hands catch hers, not now</l>
+                    <l>Her pulses throb, her fingers glow;</l>
+                    <l>He says a word, but wakes no flame,</l>
+                    <l>Recalls no crime, renews no shame!</l>
+                    <l>The circling world admires and woos,</l>
+                    <l rend="ti-1">The place with sights of joy is full,</l>
+                    <l>And she her dainty path pursues,</l>
+                    <l rend="ti-1">Fastidious, courted, beautiful;</l>
+                    <l>And yet across her heart there shot</l>
+                    <l>A sudden, isolated thought;</l>
+                    <l>A sudden sight her mind’s eye caught,</l>
+                    <pb n="15" xml:id="VAB7137-013"/>
+                    <l>Places and shapes which once had been; </l>
+                    <l>Herself, and him, and all that lay </l>
+                    <l>Behind in that eventful day, </l>
+                    <l rend="ti-1">And what was done and suffer’d then. </l>
+                    <l>To‐night what made it reappear? </l>
+                    <l rend="ti-1">None <emph rend="i">living</emph> knew of it, save her; </l>
+                    <l>And there was nothing to recall </l>
+                    <l>Such thoughts in that resplendent hall. </l>
+                    <l>No; that bright lady knew not why; </l>
+                    <l>Perchance the cause was—He was nigh.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>More Ghosts! I know their stories well,</l>
+                    <l>But stories more, I will not tell.</l>
+                </lg>
+            </div>
+            <closer>T.C. Savill, Printer, 4, Chandos‐street, Covent‐garden.</closer>
+        </body>
+    </text>
+</TEI>

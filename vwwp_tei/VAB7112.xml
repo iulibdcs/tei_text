@@ -1,0 +1,1434 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7112">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Morlas</title>
+                <title type="filing">Morlas</title>
+                <author>Clive, Caroline Wigley (1801-1873)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by</resp>
+                    <name>Robert Chavez and</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 62 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>February 9, 1996</date>
+                <idno>VAB7112</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is from the University of California, Los Angeles
+                    Library.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The Morlas</title>
+                        <author>Clive, Caroline, 1801-1873</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Caroline Clive</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>59 p.</extent>
+                    <publicationStmt>
+                        <publisher>Hope &amp; Co.</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1853">1853</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag,
+                    with the value "indent1" for one tab stop, "indent2" for two tab stops, etc. All
+                    split lines are attributed as "type=i" for the initial portion, and "type=f" for
+                    the final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="2"/>
+                    <tagUsage gi="addrline" occurs="7"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="closer" occurs="1"/>
+                    <tagUsage gi="corr" occurs="1"/>
+                    <tagUsage gi="date" occurs="5"/>
+                    <tagUsage gi="div" occurs="2"/>
+                    <tagUsage gi="div0" occurs="1"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docdate" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="emph" occurs="3"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="figure" occurs="1"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="head" occurs="1"/>
+                    <tagUsage gi="hi" occurs="2"/>
+                    <tagUsage gi="item" occurs="3"/>
+                    <tagUsage gi="l" occurs="1070"/>
+                    <tagUsage gi="lg" occurs="36"/>
+                    <tagUsage gi="name" occurs="8"/>
+                    <tagUsage gi="p" occurs="7"/>
+                    <tagUsage gi="pb" occurs="55"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="3"/>
+                    <tagUsage gi="pubplace" occurs="3"/>
+                    <tagUsage gi="resp" occurs="8"/>
+                    <tagUsage gi="respstmt" occurs="7"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="1"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="title" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="2"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                    <tagUsage gi="trailer" occurs="1"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+            <keywords scheme="#mla">
+                <list>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                </list>
+            </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1996-02-06</date><label>editors.</label><name>Robert Chavez and Aaron
+                    Kleist, </name>finished data entry, basic encoding and proofing.</change>
+            <change><date>1996-02-09</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI‐conformant encoding and final proofing.</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-08-02" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-08-02" who="elizabethmunson">Added filing title</change>
+            <change when="2010-08-02" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-08-04" who="elizabethmunson">Changed sourceDesc author name to match the majority of texts by 
+                this author</change>
+            <change when="2010-08-02" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-09-01" who="elizabethmunson">Added genre term</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE MORLAS.</titlePart>
+                    <titlePart type="sub">A Poem.</titlePart>
+                </docTitle>
+                <byline>BY <docAuthor>V.</docAuthor></byline>
+                <docImprint>
+                    <pubPlace>LONDON:</pubPlace>
+                    <publisher>HOPE &amp;
+                        CO.,<address><addrLine>16, GREAT MARLBOROUGH ST.</addrLine></address></publisher>
+                </docImprint>
+                <docDate>1853.</docDate>
+            </titlePage>
+            <div type="preface">
+                <p><hi>THIS</hi> poem has lain by me all the best years of my life, and at intervals
+                    during that time, has been added to and amended. The last copy made before this
+                    final one, is honourably marked with approbation in various places, and
+                    criticism in others, by one of the ablest pencils of the day. I improved it as
+                    far as I was able according to those criticisms, and now I feel justified in
+                    offering it to the world, as the best I can do; which if it fails to please,
+                    fails through want of ability, not for want of pains.</p>
+            </div>
+        </front>
+        <body>
+            <pb xml:id="VAB7112-001"/>
+            <div type="poem">
+                <head>THE MORLAS.</head>
+                <lg type="verse_paragraph">
+                    <l><hi>RUDE</hi> was the ancient forest glade, </l>
+                    <l>A tangled wilderness of shade; </l>
+                    <l>And labour’s hand had wrought with pain, </l>
+                    <l>A path o’er cumber’d hill and plain. </l>
+                    <l>Fantastic stretch’d the giant bough, </l>
+                    <l>And stunted copse‐wood crouched below; </l>
+                    <l>And suns above but ill could make </l>
+                    <l>A way to warm the shaded brake; </l>
+                    <l>Or tint the grass with hues more fair, </l>
+                    <l>Or stir the long‐imprisoned air. </l>
+                    <l>’Twas all primeval, wan, and rude, </l>
+                    <l>A wilderness of savage mood, </l>
+                    <l>Where fancy musingly might trace </l>
+                    <l>The signs of a forgotten place.</l>
+                    <pb n="6" xml:id="VAB7112-002"/>
+                    <l>But in this more than solitude, </l>
+                    <l>One spot amid the deepest wood, </l>
+                    <l>Appeared a home selected thence, </l>
+                    <l>To which the desert was defence. </l>
+                    <l>Not man, nor art, that region claim’d, </l>
+                    <l>’Twas free from man, by art untamed; </l>
+                    <l>Yet so adorn’d it was, and fair, </l>
+                    <l>Some spirit seem’d abiding there, </l>
+                    <l>Who with his hand its beauty wrought, </l>
+                    <l>And spent on every part a thought.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>A rock, whose clefts the birch‐tree graced,</l>
+                    <l rend="ti-1">With pallid leaf, and motion light,</l>
+                    <l>To fence the quiet scene was plac’d,</l>
+                    <l rend="ti-1">And hid the world without from sight.</l>
+                    <l>The blossoms of the fox‐glove sprung,</l>
+                    <l>Its airiest pinnacles among,</l>
+                    <l>And wood‐bine branches, long and fair,</l>
+                    <l>Hung pendant in the depths of air;</l>
+                    <l>Down midway, was a hollow space</l>
+                    <pb n="7" xml:id="VAB7112-003"/>
+                    <l>Which gave the waters ample place,</l>
+                    <l>Where paus’d they in the rocky breast,</l>
+                    <l>And took a momentary rest;</l>
+                    <l>Then with smooth, rapid edge, they pass’d</l>
+                    <l>Across the stream‐worn brim at last;</l>
+                    <l>And from the broad projecting stone,</l>
+                    <l rend="ti-1">Leaped forth with foam‐rebounding shock;</l>
+                    <l>Then sloping, and diffus’d went down,</l>
+                    <l rend="ti-1">Over the slant face of the rock. </l>
+                    <l>Such sound unceasing from them came, </l>
+                    <l>Of changeful accent, yet the same; </l>
+                    <l>As suited well th’ unalter’d scene </l>
+                    <l>Of hill, and rock, and forest sheen;</l>
+                    <l>Whose beauty spreading all around,</l>
+                    <l>Found voice in that perpetual sound.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>’Twas all adorn’d, alone, remote,</l>
+                    <l>A self‐sufficing, holy spot;</l>
+                    <l>Which man might gladly linger nigh,</l>
+                    <l>To soothe his soul, and please his eye.</l>
+                    <pb n="8" xml:id="VAB7112-004"/>
+                    <l>His presence there would not destroy </l>
+                    <l>The charm to which he owed his joy; </l>
+                    <l>But nothing could he add; ’twas he,</l>
+                    <l rend="ti-1">Who mourned when onward forced to stray;</l>
+                    <l>The scene which welcom’d him, would be </l>
+                    <l rend="ti-1">As beautiful, were he away.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Here, from the trav’ller’s path, which wound</l>
+                    <l>The outer wilderness around,</l>
+                    <l>I turned, the body’s rest to find,</l>
+                    <l>And soothe my labour‐harassed mind;</l>
+                    <l>And when the first delicious sense,</l>
+                    <l>Had passed, of toil‐worn indolence,</l>
+                    <l>And the fair scene that met my view,</l>
+                    <l>More lovely, though less wondrous, grew,</l>
+                    <l>That human langour o’er me came,</l>
+                    <l>Spread to the spirit from the frame;</l>
+                    <l>Which on the object we pursue,</l>
+                    <l>Throws, when we pause, a sober hue,</l>
+                    <l>And tells us, ’twas the chase alone</l>
+                    <pb n="9" xml:id="VAB7112-005"/>
+                    <l rend="ti-1">Bestowed the light we seemed to see;</l>
+                    <l>And when that eager mood was gone,</l>
+                    <l rend="ti-1">Gone too would all the brightness be.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>With that unworded feeling, fell</l>
+                    <l>My eyes more sadly o’er the dell</l>
+                    <l>Whose deep, majestic loneliness</l>
+                    <l>Seem’d on my wand’ring heart to press;</l>
+                    <l>Unlike to human hope or fear,</l>
+                    <l>It kept unchanged its steadfast sphere;</l>
+                    <l>Unmoved by man its master’s woe,</l>
+                    <l>Was its perennial beauty’s glow;</l>
+                    <l>And ever youthful flowed its tide,</l>
+                    <l>While passing generations died.</l>
+                    <l>Here too, perchance, full many a one,</l>
+                    <l rend="ti-1">My elder brothers of the grave,</l>
+                    <l>Like me, had shelter’d from the sun,</l>
+                    <l rend="ti-1">And gaz’d as I did, on the wave.</l>
+                    <l>That fount perchance had cooled their lip,</l>
+                    <l>Their breast had panted ’gainst the steep;</l>
+                    <pb n="10" xml:id="VAB7112-006"/>
+                    <l>But long since then, that eye and breast,</l>
+                    <l>Had mouldered in the earth at rest.</l>
+                    <l>And as the men of times gone by</l>
+                    <l>Passed thus before my musing eye,</l>
+                    <l>Such melancholy mood began,</l>
+                    <l rend="ti-1">To steal upon me from the scene,</l>
+                    <l>As gathers round a spot, where man</l>
+                    <l rend="ti-1">Is not, but has or may have been.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Methought I was alone; alone</l>
+                    <l>I was of mortals; but a tone,</l>
+                    <l>Responding to my musings, spoke,</l>
+                    <l>So like the scene whose pause it broke,</l>
+                    <l>That of its sounds it seemed but one,</l>
+                    <l>Th’ harmonious and the master tone.</l>
+                    <l>“Oh human heart, how truly thou,</l>
+                    <l rend="ti-1">Hast echo’d those who went before;</l>
+                    <l>How oft the thoughts that fill thee now,</l>
+                    <l rend="ti-1">Have swell’d on my secluded shore.</l>
+                    <l>True visions on thy soul have shone,</l>
+                    <pb n="11" xml:id="VAB7112-007"/>
+                    <l>Of many a form long passed and gone,</l>
+                    <l>Which rested once upon this spot,</l>
+                    <l>Lov’d, left it, wander’d, and are not.</l>
+                    <l>Could thy remembrance backward stray; </l>
+                    <l>Throughout the earth’s protracted day,</l>
+                    <l>And with the unalter’d scene, unite</l>
+                    <l>The altering shapes that rose to sight,</l>
+                    <l>The varied speech, and garb, and face,</l>
+                    <l>Which chang’d as Time pursu’d his race,</l>
+                    <l>Wherein to each a span he gave,</l>
+                    <l>Betwixt the cradle and the grave,</l>
+                    <l>How wouldst thou fondly linger near,</l>
+                    <l rend="ti-1">To ponder on the time that’s o’er;</l>
+                    <l>On many a smile, and many a tear,</l>
+                    <l>Which fill my phantom‐peopled sphere,</l>
+                    <l rend="ti-1">Fix’d shadows, tho’ they’re forms no more. </l>
+                    <l>Pause, Mortal; I who saw them all, </l>
+                    <l>And love their being to recall, </l>
+                    <l>Will tell of some who haunt this nook, </l>
+                    <l>On whom, as e’en on thee I look;</l>
+                    <l>Whose race has many a year been run,</l>
+                    <pb n="12" xml:id="VAB7112-008"/>
+                    <l>Their will decayed, their errand done; </l>
+                    <l>And yet before mine eye they stand, </l>
+                    <l>Perpetual dwellers of the land, </l>
+                    <l>Whose presence fixes here the hours, </l>
+                    <l>They pass’d among my shelt’ring bowers.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thus spake the voice, and I who bent</l>
+                    <l>My gaze towards its place intent,</l>
+                    <l>Saw gathering in the western ray,</l>
+                    <l>Where near the stream a low rock lay,</l>
+                    <l>A semblance, such as meets our gaze,</l>
+                    <l>Trembling o’er earth on summer days;</l>
+                    <l>Which, indistinctly hovering,</l>
+                    <l>Has not a name, yet is a thing</l>
+                    <l>It seem’d that one invisible,</l>
+                    <l>Who oft unknown may near us dwell,</l>
+                    <l>Had come by some mysterious chance,</l>
+                    <l>To meet awhile a mortal glance.</l>
+                    <l>And could my words take finer shape,</l>
+                    <l>To catch th’ ideas that escape,</l>
+                    <pb n="13" xml:id="VAB7112-009"/>
+                    <l rend="ti-1">There would be some by which to speak,</l>
+                    <l rend="ti-1">Of shape and hue, distinct tho’ weak;</l>
+                    <l rend="ti-1">A form which, how it met the sight</l>
+                    <l rend="ti-2">I knew not, save that it was there;</l>
+                    <l rend="ti-1">A quiv’ring and a colour’d light,</l>
+                    <l rend="ti-2">That seem’d embodied but in air.</l>
+                    <l rend="ti-1">Such form may dance among the spray,</l>
+                    <l rend="ti-1">That flies from falling streams away,</l>
+                    <l rend="ti-1">And e’en that slender veil can screen</l>
+                    <l rend="ti-1">The less substantial shape within.</l>
+                    <l rend="ti-1">Such hue may mingle with the bow</l>
+                    <l rend="ti-1">That spans the waterfall below;</l>
+                    <l rend="ti-1">And, mixing half with air and sun,</l>
+                    <l rend="ti-1">Brood o’er the stream it calls its own.</l>
+                    <l rend="ti-1">Such shape and hue to poet’s eye,</l>
+                    <l rend="ti-1">May sometimes throw the unseen by.</l>
+                    <l>And come, while watches he the ev’ning fade,</l>
+                    <l>Thinking of shades, itself a shade;</l>
+                    <l>As now upon the grey stone’s mossy seat</l>
+                    <l>The Spirit of the Valley sate,</l>
+                    <l>And spoke all peacefully, yet melancholy,</l>
+                    <pb n="14" xml:id="VAB7112-010"/>
+                    <l>Of human scenes, of Sorrow, Hope, and Folly.</l>
+                    <l>Which in my heart and eye, earth’s feelings stirr’d,</l>
+                    <l>While told of joy and grief, his still untroubl’d word.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thou call’st it long, when gazing back, </l>
+                    <l>Across a twenty summers’ track, </l>
+                    <l>Thy baffled eye those scenes would mark, </l>
+                    <l>Ere came thy life from forth the dark. </l>
+                    <l>Nor dost thou err. Time’s previous race, </l>
+                    <l rend="ti-1">Is veil’d in solemn night to thee; </l>
+                    <l>And those few years of all its space, </l>
+                    <l rend="ti-1">People alone thy memory. </l>
+                    <l>But oh, to me, how brief appears </l>
+                    <l>Such term of pass’d or coming years; </l>
+                    <l>How uneventfully they glide, </l>
+                    <l>Along my shore, and o’er my tide </l>
+                    <l>O’er which far longer time must range, </l>
+                    <l>Ere character’d thereon by change.</l>
+                    <pb n="15" xml:id="VAB7112-011"/>
+                    <l>The annual flow’rs renew’d and shed,</l>
+                    <l>The Spring rain’s tribute to my bed,</l>
+                    <l>The winter’s pomp, when men withdraw</l>
+                    <l>While pass its hours of strength and awe,</l>
+                    <l>And summer’s radiance, when they come</l>
+                    <l>To share my joy and see my bloom,</l>
+                    <l>Such regulated change alone</l>
+                    <l>Those brief years work around my throne;</l>
+                    <l>And I to further time must gaze</l>
+                    <l>Ere I can reckon length of days.</l>
+                    <l>To me existence is a stream</l>
+                    <l>Whose founts so far in distance gleam,</l>
+                    <l>That ’tis a joy sublime to trace</l>
+                    <l>A line thro’ such a length of space;</l>
+                    <l>A length where all that was appears</l>
+                    <l>Thro’ twice three thousand conscious years.</l>
+                    <l>No dusky cloud is near behind,</l>
+                    <l>From which emerg’d of late my mind;</l>
+                    <l>No onward cloud as dark, is near,</l>
+                    <l>Wherein to plunge and disappear;</l>
+                    <l>Behind, before, I gaze on life,</l>
+                    <pb n="16" xml:id="VAB7112-012"/>
+                    <l>With all its shifting changes rife;</l>
+                    <l>Nor, as I see the moments fly,</l>
+                    <l>Regret them, like the things that die.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Sons of each age to me have brought</l>
+                    <l>And op’d the treasure‐house of thought;</l>
+                    <l>For still my shaded bow’r and flood s</l>
+                    <l rend="ti-1">Have drawn the pilgrim from his way;</l>
+                    <l>Primeval wanderers have woo’d</l>
+                    <l>The dell that lur’d thy steps to‐day.</l>
+                    <l>I’ve seen the savage, wild and bare</l>
+                    <l>(Who, naked to the season’s shocks,</l>
+                    <l>Yet gather’d flow’rs to dress his locks),</l>
+                    <l>Sink down recumbent there.</l>
+                    <l>Ecstatic strove his spirit’s flame,</l>
+                    <l rend="ti-1">Wild as the untam’d forest herds,</l>
+                    <l>In passions felt without a name,</l>
+                    <l rend="ti-1">And thoughts for which he wanted words.</l>
+                    <l>Then like spent light’ning would it shroud</l>
+                    <l>Within th’ impenetrable cloud;</l>
+                    <pb n="17" xml:id="VAB7112-013"/>
+                    <l>And leave him rayless and oppress’d,</l>
+                    <l>As tho’ he knew no joy but rest.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>He died, and all his race, and then</l>
+                    <l>There came a brighter mood o’er men, </l>
+                    <l>Tho’ slowly grew each added ray,</l>
+                    <l>As steals the grey dawn into day;</l>
+                    <l>Here, where the savage stretch’d his strength,</l>
+                    <l>Has stood and mus’d the sage at length,</l>
+                    <l>Who, form’d by all that went before,</l>
+                    <l>The stamp of earth’s whole ages bore.</l>
+                    <l>I saw him with enlighten’d eye</l>
+                    <l>Explore the secrets of the sky,</l>
+                    <l>Perceive the fix’dness of the sun,</l>
+                    <l>And mark the planets round it run;</l>
+                    <l>He knew the earth whereon he stood</l>
+                    <l>Was hanging midway in the void;</l>
+                    <l>A trav’ller in eternal space,</l>
+                    <l>With one appointed path to trace. </l>
+                    <l>I saw him glow, I saw him burn</l>
+                    <pb n="18" xml:id="VAB7112-014"/>
+                    <l>With joy, such mysteries to learn,</l>
+                    <l>And rise in his exulting mood</l>
+                    <l>From those sublimest works to God.</l>
+                    <l>He felt the Good and Great unroll</l>
+                    <l>Their aim stupendous on his soul;</l>
+                    <l>And lift him to the calm of mind</l>
+                    <l>That leaves the passion’s rage behind,</l>
+                    <l>Yet keeps them like a chasten’d fire</l>
+                    <l>To nerve the hand, the heart inspire,</l>
+                    <l>And make the bosom they refin’d</l>
+                    <l>As warm and wide as human kind.</l>
+                    <l>He gaz’d on glorious scenes above,</l>
+                    <l>Vast as his pow’r and wish to love;</l>
+                    <l>Scenes where his spirit should aspire</l>
+                    <l rend="ti-1">To act as freely as to plan;</l>
+                    <l>And do such glorious deeds as fire</l>
+                    <l rend="ti-1">The brave, immortal will to man.</l>
+                    <l>He felt that boundless will descend</l>
+                    <l rend="ti-1">From dreams, creation’s width to bless,</l>
+                    <l>The lowliest mortal to befriend</l>
+                    <l rend="ti-1">By daily, human kindliness.</l>
+                    <pb n="19" xml:id="VAB7112-015"/>
+                    <l rend="ti-1">He learn’d to bow his spirit’s pride,</l>
+                    <l rend="ti-1">And meekly on the earth abide,</l>
+                    <l rend="ti-1">Altho’ one day his sphere should lie</l>
+                    <l rend="ti-1">Beyond the limit of the sky,</l>
+                    <l rend="ti-1">And ev’ry stedfast star should be</l>
+                    <l rend="ti-1">Less grand, less permanent than he.</l>
+                    <l rend="ti-1">Such lofty lesson reason breath’d</l>
+                    <l rend="ti-1">Upon his soul, such glory wreathed</l>
+                    <l rend="ti-1">To be his aim in upper light,</l>
+                    <l rend="ti-1">By which to raise and guide his flight,</l>
+                    <l rend="ti-1">He lov’d the aim, the glory own’d—</l>
+                    <l>Ah, Goal and glory rather sought than found !</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l rend="ti-1">So wide th’ extreme mine eye might trace</l>
+                    <l rend="ti-1">Between the sage and savage race;</l>
+                    <l rend="ti-1">Yet were they both, and all between,</l>
+                    <l rend="ti-1">The actors of a common scene;</l>
+                    <l rend="ti-1">One heart they own’d, one course they ran,</l>
+                    <l rend="ti-1">The mighty family of man.</l>
+                    <l rend="ti-1">I mark’d them when the world was young,</l>
+                    <pb n="20" xml:id="VAB7112-016"/>
+                    <l rend="ti-1">I mark them now; and ’tis the same,</l>
+                    <l>A change in mood, and air, and tongue,</l>
+                    <l rend="ti-1">Another garb, another name,</l>
+                    <l>But still the race who sleep and wake,</l>
+                    <l>Weep, laugh, desire, and love alike.</l>
+                    <l>Yes, when <emph rend="i">thou</emph> camest, toil‐worn here,</l>
+                    <l>I saw the self‐same look appear</l>
+                    <l>Upon thy face, which told that he</l>
+                    <l rend="ti-1">Who died, when time had yet to roll</l>
+                    <l rend="ti-1">Whole ages ere he wak’d thy soul,</l>
+                    <l>Was brother, living man, to thee !</l>
+                    <l>The look of toil and solitude</l>
+                    <l>Spread over many a various mood,</l>
+                    <l>Which tells that human fate has drawn</l>
+                    <l>Its thousand stories still from one.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>O’er human kind one fate has roll’d,</l>
+                    <l rend="ti-1">Their thoughts a thousand ways may call,</l>
+                    <l>A thousand tales their doom has told,</l>
+                    <l rend="ti-1">But one conclusion ended all.</l>
+                    <pb n="21" xml:id="VAB7112-017"/>
+                    <l>Death waited still by ev’ry path,</l>
+                    <l rend="ti-1">Now naked shown, now crown’d with flow’rs;</l>
+                    <l>Now sweeping earth in kinglike wrath,</l>
+                    <l rend="ti-1">And now a guest in social bow’rs.</l>
+                    <l>How oft I’ve stood and listen’d here</l>
+                    <l>To heart‐struck mourners o’er the bier,</l>
+                    <l>Who, wheresoe’er the lost was laid,</l>
+                    <l>A tomb‐place of their own hearts made;</l>
+                    <l>And pondered by my joyous wave,</l>
+                    <l>The speechless silence of the grave.</l>
+                    <l>Behold! where stands yon pond’rous stone;</l>
+                    <l>It rests its weight the green upon;</l>
+                    <l>And ’twixt the waters and its base,</l>
+                    <l>The sward extends in ample space.</l>
+                    <l>An aged tree above it bends,</l>
+                    <l>And from the sun its front defends.</l>
+                    <l>That tree was in its prime when came</l>
+                    <l>A youthful mother here, whose frame </l>
+                    <l>Could scarce her toilsome path prolong, </l>
+                    <l>Yet for her child she still was strong.</l>
+                    <l>From flames, from foes that child she sav’d,</l>
+                    <pb n="22" xml:id="VAB7112-018"/>
+                    <l>Far off the bloody tumult rav’d;</l>
+                    <l>And she had sought and found a nest</l>
+                    <l>Wherein the treasure of her breast</l>
+                    <l>From human force and fraud might rest.</l>
+                    <l>Upon the stone her boy she laid,</l>
+                    <l>Far rais’d above my torrent’s bed,</l>
+                    <l>Beneath the tree whose shelt’ring bough</l>
+                    <l>Temper’d with shade the noon‐day glow;</l>
+                    <l>And here at large each little limb</l>
+                    <l>He stretch’d within the chequer’d beam,</l>
+                    <l>While, of her woe one hour beguil’d,</l>
+                    <l>The mother on her infant smil’d.</l>
+                    <l>Then, as his eyelids closed at last,</l>
+                    <l>And ev’ry sense in sleep was fast,</l>
+                    <l>She rose to seek for needful food</l>
+                    <l rend="ti-1">Wherewith to greet his waking there;</l>
+                    <l>And left him in the shelt’ring wood,</l>
+                    <l rend="ti-1">Spending her very soul in pray’r.</l>
+                    <l>Her sleeping boy partook the breeze</l>
+                    <l>That stirr’d and freshen’d in the trees;</l>
+                    <l>The same sun‐ray that cheer’d the flow’r,</l>
+                    <pb n="23" xml:id="VAB7112-019"/>
+                    <l>Sent to his frame its quick’ning power;</l>
+                    <l>It rous’d his blood, it smooth’d his limb,</l>
+                    <l rend="ti-1">And dy’d his cheek a brighter hue;</l>
+                    <l>The clay that warm’d to life in him,</l>
+                    <l rend="ti-1">Enjoy’d, rejoic’d—ah, suffer’d too. </l>
+                    <l>Short while before, and far away, </l>
+                    <l>A storm had darken’d on the day; </l>
+                    <l>And where my stream its sources fed, </l>
+                    <l>Swell’d them beyond their wonted bed. </l>
+                    <l>E’en then the tide was rolling on,</l>
+                    <l>The trusting mother—she was gone. </l>
+                    <l>Unseen of her its bursting force, </l>
+                    <l>Unheard the thunder of its course; </l>
+                    <l>’Twas coming when her boy she laid </l>
+                    <l>In the predestinated glade; </l>
+                    <l>’Twas gathering in the future’s breast, </l>
+                    <l>When all seem’d safest and at rest. </l>
+                    <l>It came, and heavily it fell </l>
+                    <l>On all that dwelt within the dell;</l>
+                    <l>It swept the shore, and bar’d the lea,</l>
+                    <l>It bowed and brake the o’erhanging tree;</l>
+                    <pb n="24" xml:id="VAB7112-020"/>
+                    <l>It crush’d the bough, it razed the flow’r,</l>
+                    <l rend="ti-1">Till ev’ry hue grew dim and dark;</l>
+                    <l>And in <choice>
+                            <corr>its</corr>
+                            <sic>it's</sic>
+                        </choice> all‐involving pow’r</l>
+                    <l rend="ti-1">It swept the sleeping infant’s ark.</l>
+                    <l>The frame so full of life but now,</l>
+                    <l>Was shiver’d like the living bough;</l>
+                    <l>The clay that suffer’d and enjoy’d</l>
+                    <l>Was like earth’s senseless clod destroy’d.</l>
+                    <l>’Twas not for me to check the wave,</l>
+                    <l>The darling of a heart to save;</l>
+                    <l>Or turn the torrent from its way</l>
+                    <l>Because the child within it lay.</l>
+                    <l>I pour’d the tide as freely round,</l>
+                    <l>As when within their usual bound</l>
+                    <l>All calmly did the waters run,</l>
+                    <l>With rippling course, beneath the sun.</l>
+                    <l>And when the flood subsided there,</l>
+                    <l>I mark’d the fertile earth prepare</l>
+                    <l>To welcome other, brighter hours,</l>
+                    <l>And cover o’er its scars with flow’rs,</l>
+                    <l>And all be as before the tide,</l>
+                    <pb n="25" xml:id="VAB7112-021"/>
+                    <l>Except the human thing that died.</l>
+                    <l><emph>That</emph> was no more a thing that smil’d;</l>
+                    <l>A beaming, speaking, weeping child. </l>
+                    <l>It was not what the mother left,</l>
+                    <l>A human shape, adroit and deft, </l>
+                    <l>Arms that would circle round her neck, </l>
+                    <l>Limbs prompt to follow at her beck </l>
+                    <l>’Twas clay, that bore as yet the trace </l>
+                    <l>Of healthful form, and smiling face; </l>
+                    <l>But was her son of yesterday </l>
+                    <l>No more than other stone or clay, </l>
+                    <l>She came, and saw the waters wild </l>
+                    <l>Rush where she left her helpless child, </l>
+                    <l>And stared upon the madd’ning view, </l>
+                    <l>And all her loss at once she knew, </l>
+                    <l>While pain intolerable pressed </l>
+                    <l>Shrieks from her over‐master’d breast,— </l>
+                    <l>And yet, in sooth, a mortal’s grief</l>
+                    <l rend="ti-1">Has but a few brief years to run,</l>
+                    <l>Time brought its winter of relief,</l>
+                    <l rend="ti-1">And she was ashes like her son,</l>
+                    <pb n="26" xml:id="VAB7112-022"/>
+                    <l>But sad tho’ brief, her tragic part; </l>
+                    <l>She linger’d still with aching heart </l>
+                    <l>About the stone, she meant to save </l>
+                    <l>The boy who to its breast she gave, </l>
+                    <l>And which had been her darling’s grave, </l>
+                    <l>And wrote these words upon its brow— </l>
+                    <l>Voice of so many a parent’s woe. </l>
+                    <l>“The saddest mother weeping here alone, </l>
+                    <l>Graves to the best and dearest child, a stone.”</l>
+                    <l>Poor beating heart! Fair dying child! </l>
+                    <l>So early of your joy beguil’d! </l>
+                    <l>E’en had ye lived all years that life </l>
+                    <l>Did e’er protract its mortal strife, </l>
+                    <l>Ye must have parted long ago, </l>
+                    <l>In Nature’s ceaseless ebb and flow. </l>
+                    <l>A century’s tide has roll’d above </l>
+                    <l>That mother’s sorrow and her love.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Full many tales like this might I</l>
+                    <l>Recite, to raise thy kindly sigh;</l>
+                    <l>For still in every shape wherein</l>
+                    <pb n="27" xml:id="VAB7112-023"/>
+                    <l>The heart with other heart may twine,</l>
+                    <l>Does Death, a veiled attendant, move,</l>
+                    <l>Close following in the train of love.</l>
+                    <l>Death has a name in every tongue, </l>
+                    <l rend="ti-1">An emblem in each distant land; </l>
+                    <l>A chord in every breast is strung, </l>
+                    <l rend="ti-1">Alike responsive to his hand. </l>
+                    <l>They sing his dirge a thousand ways; </l>
+                    <l rend="ti-1">But still, like many an instrument </l>
+                    <l rend="ti-1">In melancholy concert blent, </l>
+                    <l>One harmony of woe they raise. </l>
+                    <l>The infant wailing with its cries, </l>
+                    <l>The lifeless breast on which it lies, </l>
+                    <l>The friends who o’er the cold one bend, </l>
+                    <l>That just has ceased to be their friend, </l>
+                    <l>The stricken heart that walks the plain, </l>
+                    <l>Where, after battle, lie the slain; </l>
+                    <l>Or in a city’s wreck, alone, </l>
+                    <l>Mourns for the thousand’s voice with one, </l>
+                    <l>All, all, the common requiem fill, </l>
+                    <l>Whose cadence ne’er on earth is still;</l>
+                    <pb n="28" xml:id="VAB7112-024"/>
+                    <l>A lower now, now louder voice, </l>
+                    <l>Mingling with all things that rejoice; </l>
+                    <l>For ever there when heard the least, </l>
+                    <l>Goal of the brightest and the best, </l>
+                    <l>A thought as present as the mind, </l>
+                    <l>A grief as old as human kind.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Such, such is man, so griev’d and gay,</l>
+                    <l>So form’d alike, to meet decay;</l>
+                    <l>So full of feeling, hope, and dread,</l>
+                    <l>Aspiring, sinking, living, dead—</l>
+                    <l>I’ve seen him still, from race to race,</l>
+                    <l>O’er the same path, the life fire chase,</l>
+                    <l>Since from their natal bed the first</l>
+                    <l>Fresh waters of my current burst.</l>
+                    <l>Him shall I see, till flames that gleam</l>
+                    <l>Absorbing earth, o’er me shall stream;</l>
+                    <l>Shall drink my river where it flows,</l>
+                    <l>And wrap my woods in grand repose,</l>
+                    <l>While in its overwhelming ray,</l>
+                </lg>
+                <pb n="29" xml:id="VAB7112-025"/>
+                <lg type="verse_paragraph">
+                    <l>My hues dissolve and melt away,</l>
+                    <l>And in its thunder‐voice is drown’d</l>
+                    <l rend="ti-1">My age‐long accents of delight;</l>
+                    <l>Dissolving in a tide of sound,</l>
+                    <l rend="ti-1">And disappearing veil’d in light.</l>
+                    <l>Then from the valley passing free,</l>
+                    <l rend="ti-1">Which lies behind, in ruin hurl’d, </l>
+                    <l>I, Phœnix‐like, shall rise, and be</l>
+                    <l rend="ti-1">An element of some new world.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thus spoke the spirit, and his form</l>
+                    <l>Appear’d dissolving as the storm</l>
+                    <l>Of prophet feeling stirr’d within,</l>
+                    <l>And shadow’d forth the coming scene.</l>
+                    <l>More quiv’ring light his aspect grew,</l>
+                    <l>Transparent more his sunny hue,</l>
+                    <l>And buoyant on the atmosphere,</l>
+                    <l>Seem’d rising lighter than the air.</l>
+                    <l>Thus mists, when sudden heat comes on,</l>
+                    <l>And looks thro’ clouds, the mid‐day sun,</l>
+                    <pb n="30" xml:id="VAB7112-026"/>
+                    <l>Expand and glow, and trembling move,</l>
+                    <l>Transfus’d with light, the earth above—</l>
+                    <l>And when subsiding, calm became</l>
+                    <l>The feeling in his subtle frame,</l>
+                    <l>He re‐assum’d his speech and place;</l>
+                    <l>As when the sun conceals his face,</l>
+                    <l>The mist forsakes its kindling vein,</l>
+                    <l>And settles calm on earth again.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Ere I beheld the race of Man,</l>
+                    <l rend="ti-1">The wild bird whistled in my shade;</l>
+                    <l rend="ti-1">The beast beside my torrent played,</l>
+                    <l>Each sought and gained the wish’d‐for span.</l>
+                    <l>I marked the wand’ring herd go by,</l>
+                    <l>And lov’d their quick yet quiet eye;</l>
+                    <l>Who, full of courage, walked the glade,</l>
+                    <l>Wherein they ne’er had been dismay’d.</l>
+                    <l>My breast was warm’d by Summer’s ray,</l>
+                    <l rend="ti-1">My leafy wood, my crystal flood,</l>
+                    <l>Beneath it glancing lay.</l>
+                    <pb n="31" xml:id="VAB7112-027"/>
+                    <l>Reflected clouds in pomp sail’d on,</l>
+                    <l>And trac’d their shades, the stream upon.</l>
+                    <l>Heav’n’s wrath, when summer heats were high,</l>
+                    <l>Came bursting on my uprais’d eye,</l>
+                    <l>And showed me Nature’s glorious form,</l>
+                    <l>Wrapp’d in the dark veil of the storm.</l>
+                    <l>Then winds with sudden voice would rise,</l>
+                    <l>Throw wide the portal of the skies,</l>
+                    <l>And issuing like a sovereign forth,</l>
+                    <l>The rainbow spann’d the lighted earth;</l>
+                    <l>The Autumn mornings glistening rose</l>
+                    <l>Upon a coloured, bright repose,</l>
+                    <l>A silent glow of leaf and stem,</l>
+                    <l>Crown’d with the last night’s diadem,</l>
+                    <l>And broken only by the sound</l>
+                    <l>Made by my fuller torrent’s bound;</l>
+                    <l>Or by the voice of joyous bird,</l>
+                    <l>For some quick living instants heard.</l>
+                    <l>Each change of season, hour, and year,</l>
+                    <l>I saw successively appear;</l>
+                    <l>The moon at dewy midnight bright,</l>
+                    <pb n="32" xml:id="VAB7112-028"/>
+                    <l>With all its quietude of light,</l>
+                    <l>The yet serener dawn when rest</l>
+                    <l rend="ti-1">Kept o’er reposing life its thrall;</l>
+                    <l>But daylight kindling in the East,</l>
+                    <l rend="ti-1">E’en like a mother woke for all. </l>
+                    <l>A teeming solitude lay round; </l>
+                    <l>A sea of forest was my bound; </l>
+                    <l>Where winds alone would nobly sweep </l>
+                    <l>As o’er the waters of the deep; </l>
+                    <l>Or from his rock the eagle’s cry </l>
+                    <l>Resound across the morning sky; </l>
+                    <l>While rust’ling in the covert’s haunt, </l>
+                    <l>Stirr’d the unseen inhabitant. </l>
+                    <l>All else was still; creation’s hand </l>
+                    <l>Impress’d the solitary land; </l>
+                    <l>And many a wild’s untrodden span </l>
+                    <l>Still lay between my dell and man, </l>
+                    <l>Who, new to earth, not yet could trace </l>
+                    <l>Half of his mighty dwelling‐place.</l>
+                </lg>
+                <pb n="33" xml:id="VAB7112-029"/>
+                <lg type="verse_paragraph">
+                    <l>But when full many a year had pass’d, </l>
+                    <l>Each lone and lovely as the last, </l>
+                    <l>A feeling to the valley came </l>
+                    <l>That all without was not the same. </l>
+                    <l>A change pass’d o’er the living things </l>
+                    <l>That sought it in their wanderings; </l>
+                    <l>And who erewhile so careless stray’d, </l>
+                    <l>But now would start at bush or shade, </l>
+                    <l>As tho’ to question if it were </l>
+                    <l>That something which had taught them fear.</l>
+                    <l>Once came a stag with panting hide, </l>
+                    <l>A dart was quiv’ring in his side, </l>
+                    <l>And to th’ accustom’d spot he flew </l>
+                    <l>There ease and joy of old he knew; </l>
+                    <l>And sought to crop the flow’ry lea, </l>
+                    <l>His pastime, food, and remedy. </l>
+                    <l>But dim of eye, and faint of limb, </l>
+                    <l>I had no healing herb for him. </l>
+                    <l>Once, too, when earth was all at rest,</l>
+                    <l rend="ti-1">And silv’ry bright came down the flood,</l>
+                    <l>There roll’d on its descending breast</l>
+                    <pb n="34" xml:id="VAB7112-030"/>
+                    <l rend="ti-1">The long, red lines of blood.</l>
+                    <l>They came, and pass’d, and all was still;</l>
+                    <l>They marr’d not the abounding rill;</l>
+                    <l>The trees were green, the flow’rs were gay,</l>
+                    <l>The birds were singing on the spray;</l>
+                    <l>They told of far events to me</l>
+                    <l>Which shook a land I could not see.</l>
+                    <l>As when some troubled region rocks</l>
+                    <l>Beneath an earthquake’s ’whelming shocks,</l>
+                    <l>A land at peace far off, will feel</l>
+                    <l rend="ti-1">A larger billow on its shore; </l>
+                    <l>A cloud across its sky will steal,</l>
+                    <l rend="ti-1">And all grow quiet as before.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Such signs repeated came and went;</l>
+                    <l>I waited calmly for th’ event;</l>
+                    <l>And felt within my dell remote</l>
+                    <l>A troubled spirit stirr’d without.</l>
+                    <l>At last I heard a stranger sound</l>
+                    <l>Break boldly o’er the hills around,</l>
+                    <pb n="35" xml:id="VAB7112-031"/>
+                    <l>And Echo for the first time ran, </l>
+                    <l>Responsive to the voice of man. </l>
+                    <l>Noblest yet saddest tone it was, </l>
+                    <l>Heard thus ’mid nature’s grand repose; </l>
+                    <l>A sov’reign who had lost his throne, </l>
+                    <l>Disown’d by realms that were his own; </l>
+                    <l>A kingly governor, whose land </l>
+                    <l>Rebell’d against its lord’s command; </l>
+                    <l>A voice which once was form’d to be </l>
+                    <l>The crown of earthly harmony, </l>
+                    <l>But which so oftentimes had grieved, </l>
+                    <l>Oppress’d by want, by hope deceiv’d, </l>
+                    <l>Had mourn’d so many an hour of pain, </l>
+                    <l>And breath’d so many a wish in vain,</l>
+                    <l>That grief had mingled with the tone </l>
+                    <l>A mournful cadence of its own; </l>
+                    <l>A living and a thinking woe</l>
+                    <l>Which soul‐less beings cannot know.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>He came at last; I saw him stand;</l>
+                    <pb n="36" xml:id="VAB7112-032"/>
+                    <l>The form erect, the adept hand; </l>
+                    <l>The smiling lip, the soul‐lit eye;</l>
+                    <l rend="ti-1">Words growing with his want’s increase,</l>
+                    <l>And wishes wand’ring wide and high,</l>
+                    <l rend="ti-1">Which stirr’d no living heart but his. </l>
+                    <l>Less strong than half that he subdu’d,</l>
+                    <l>The conquer’d gave him arms; the wood </l>
+                    <l>Was tribute for the shaft of doom,</l>
+                    <l>The bird had wing’d it from his plume;</l>
+                    <l>And naked, feeble at his birth,</l>
+                    <l>Earth gave him means to conquer earth.</l>
+                    <l>But tho’ he stood there bold and free,</l>
+                    <l rend="ti-1">And of all things had once been lord,</l>
+                    <l>Yet weak and weary‐worn was he,</l>
+                    <l rend="ti-1">And show’d that with the world he warr’d,</l>
+                    <l>Still insecure of victory.</l>
+                    <l>He sought around the berry’s food;</l>
+                    <l>He panted thirsty for the flood;</l>
+                    <l>And as my torrent met his sight,</l>
+                    <l>Down sprang he from the mountain’s height,</l>
+                    <l>As I have seen the wandering deer</l>
+                    <pb n="37" xml:id="VAB7112-033"/>
+                    <l>Behold, and rush to taste it here.</l>
+                    <l>Yon basin, where the torrent’s shock</l>
+                    <l>Comes with its first leap from the rock,</l>
+                    <l>He earliest reach’d; but ere his lip</l>
+                    <l>In the desir’d fount would dip,</l>
+                    <l>He stood, and with his eyes upraised,</l>
+                    <l>One whom he felt but saw not, praised;</l>
+                    <l>Then stoop’d, and where the waters burst,</l>
+                    <l>Drain’d the long eager draught of thirst.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Revived he rose, and looked again</l>
+                    <l>With brighten’d eye o’er hill and plain; </l>
+                    <l>And took the guidance of the sun </l>
+                    <l>Again to lead his journey on. </l>
+                    <l>But still he kept the scene in thought </l>
+                    <l>Which succour to his mis’ry brought; </l>
+                    <l>And he and many a hunter bow’d</l>
+                    <l>Thenceforth to drink the quick’ning flood. </l>
+                    <l>Ere long the fount by which he sate</l>
+                    <l>In his first need, grew consecrate;</l>
+                    <pb n="38" xml:id="VAB7112-034"/>
+                    <l>And they who at his knee were rear’d</l>
+                    <l>Respecting that which he rever’d,</l>
+                    <l>Would climb th’ ascent, as he of yore,</l>
+                    <l>To pray where he had pray’d before.</l>
+                    <l>Nor, when those men were pass’d away,</l>
+                    <l>Did, like themselves, their faith decay;</l>
+                    <l>Their custom sanctified the spot,</l>
+                    <l>Altho’ themselves were all forgot.</l>
+                    <l>The pilgrim journey’d there, to lave</l>
+                    <l>With many a rite within the wave;</l>
+                    <l>The conscience‐stricken, barefoot stood,</l>
+                    <l>Tracking his briery path with blood,</l>
+                    <l>And wash’d the painful drops therein,</l>
+                    <l>As tho’ with them had pass’d his sin.</l>
+                    <l>The hunter, when his way was lost,</l>
+                    <l>His dog untrue, his purpose cross’d,</l>
+                    <l>And swollen streams and darken’d skies</l>
+                    <l>Show’d like offended deities,</l>
+                    <l>Bethought him of the hallow’d soil,</l>
+                    <l rend="ti-1">And vow’d to leave upon its shore</l>
+                    <l>A portion of his hard won spoil,</l>
+                    <pb n="39" xml:id="VAB7112-035"/>
+                    <l rend="ti-1">If home might welcome him once more.</l>
+                    <l>And weary wretches who were laid,</l>
+                    <l>Forgotten half, on sickness’ bed,</l>
+                    <l>Would ponder on the forest scene,</l>
+                    <l>And think to win back health therein.</l>
+                    <l>Then would they rouse their languid frame,</l>
+                    <l>And hope half‐cur’d them e’er they came;</l>
+                    <l>Would travel through the multitude</l>
+                    <l>Who wealth, or fame, or love pursu’d;</l>
+                    <l>And to the goal of health crawl on,</l>
+                    <l>As ’twere on earth the only one.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thus mis’ry, weakness, gladness press’d</l>
+                    <l>Around the fountain’s hallow’d breast;</l>
+                    <l>And nature’s untaught prayer would start</l>
+                    <l>From out the overflowing heart,</l>
+                    <l>Unfashion’d, undirect, and oft</l>
+                    <l rend="ti-1">Far wand’ring from its proper home;</l>
+                    <l>By grief, by joy, by feeling taught,</l>
+                    <l rend="ti-1">They knew to pray, but not to whom.</l>
+                    <pb n="40" xml:id="VAB7112-036"/>
+                    <l>To <emph rend="i">me</emph> full oft was sent the prayer;</l>
+                    <l>They call’d the valley’s sprite to hear;</l>
+                    <l>And while they knew no holier name,</l>
+                    <l>Pure from their lips such worship came;</l>
+                    <l>I sate remote, and heard around</l>
+                    <l>All motionless, the eager sound;</l>
+                    <l>For well I knew that though their word</l>
+                    <l>To me the suppliant vow preferr’d,</l>
+                    <l>A holier shrine receiv’d their pray’r,</l>
+                    <l>A nobler presence bent the ear;</l>
+                    <l>E’en as the clouds from incense spread</l>
+                    <l rend="ti-1">In worship to an idol given,</l>
+                    <l>Ascend beyond that idol’s head,</l>
+                    <l rend="ti-1">And bear the tribute up to Heaven.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>But not for aye such error slept</l>
+                    <l rend="ti-1">Over the thought‐bewildered land;</l>
+                    <l>The clouds that shadow’d earth were swept</l>
+                    <l rend="ti-1">Back by a master’s mighty hand,</l>
+                    <l>And to the world’s remotest shore</l>
+                    <pb n="41" xml:id="VAB7112-037"/>
+                    <l>His messengers their errand bore.</l>
+                    <l>One in a sunnier climate born,</l>
+                    <l>Came hither, toil and travel‐worn;</l>
+                    <l>His darker hue and sable eyes</l>
+                    <l>Told of a home ’neath warmer skies,</l>
+                    <l>Whence o’er the ocean and the land</l>
+                    <l>He’d journeyed to our northern strand.</l>
+                    <l>He came when bright the midnight moon</l>
+                    <l>Was sailing at its cloudless noon;</l>
+                    <l>The stars were forth, the worlds of light,</l>
+                    <l>The brother‐worlds we see by night;</l>
+                    <l>And o’er them thro’ the peopled sky</l>
+                    <l>Wander’d his meditative eye.</l>
+                    <l>In rev’rence by the stream he bow’d,</l>
+                    <l>Where pray’r from human lips had flow’d;</l>
+                    <l>He also pray’d—but not as those</l>
+                    <l>Who heretofore the temple chose.</l>
+                    <l rend="ti-1">To adore an unknown God;</l>
+                    <l>Simple and solemn was his word</l>
+                    <l>In midnight’s gather’d silence heard;</l>
+                    <l>While with raised eyes, as tho’ a son</l>
+                    <pb n="42" xml:id="VAB7112-038"/>
+                    <l>Should gaze his parent’s face upon, </l>
+                    <l>He traced the glitt’ring heavens above, </l>
+                    <l>Where all was order, mind, and love; </l>
+                    <l>And with a name, sublime as fair, </l>
+                    <l>Which ne’er before was uttered there, </l>
+                    <l>“Our Father!” he began his prayer. </l>
+                    <l>Oh word to Nature’s feelings true!</l>
+                    <l rend="ti-1">Heaven on the earth was shining bright;</l>
+                    <l>And earth, beneath her veil of dew,</l>
+                    <l rend="ti-1">Smil’d back the radiance of the night. </l>
+                    <l>Her wand’ring sons were some at rest; </l>
+                    <l>Some waking on her ample breast; </l>
+                    <l>While one before her lighted shrine </l>
+                    <l>Gave sacrifice of thoughts divine; </l>
+                    <l>And like the hush’d creation’s priest, </l>
+                    <l>The ruling God of all addressed.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>He rose at last, and round survey’d </l>
+                    <l>The temple where his prayer was made, </l>
+                    <l>Which aught less holy seem’d to stain,</l>
+                    <pb n="43" xml:id="VAB7112-039"/>
+                    <l>Like sacrilege of some pure fane.</l>
+                    <l>And such there was; for hands unwise</l>
+                    <l rend="ti-1">Had trembling grav’d upon the stone,</l>
+                    <l>Forms which themselves made deities,</l>
+                    <l rend="ti-1">Then bent the knee to look upon.</l>
+                    <l>Frowns on the rough‐hewn brow they plac’d,</l>
+                    <l>And fear’d the frowns themselves had trac’d;</l>
+                    <l>Wrath on the lips their hands displayed,</l>
+                    <l>And strove to soothe the wrath they made.</l>
+                    <l>Each idol from its place of pride,</l>
+                    <l>In love, not ire, he put aside;</l>
+                    <l>And left the charge to wood and wind,</l>
+                    <l>To shadow forth the Maker’s mind.</l>
+                    <l>Then o’er the fount a cross he wrought;</l>
+                    <l>A simple sign, whose aspect brought</l>
+                    <l>An awful scene before his thought.</l>
+                    <l>That sign no heavy yoke imposed,</l>
+                    <l rend="ti-1">No fear enforc’d, no hope forbid;</l>
+                    <l>And of the Deity disclosed,</l>
+                    <l rend="ti-1">Not what He was, but what He did.</l>
+                </lg>
+                <pb n="44" xml:id="VAB7112-040"/>
+                <lg type="verse_paragraph">
+                    <l>This done, he sate him down apart,</l>
+                    <l>And watched the place with musing heart;</l>
+                    <l>Awaiting till the morn should bring</l>
+                    <l>A pilgrim to the healing spring.</l>
+                    <l>One came, when day was just begun,</l>
+                    <l>And on the vale first beamed the sun;</l>
+                    <l>When gay the light, and quick the air,</l>
+                    <l>And all was healthful, fresh, and fair;</l>
+                    <l>With foot infirm he came, and made</l>
+                    <l>Slow progress up the wished‐for glade,</l>
+                    <l>And as he toiled the point to gain,</l>
+                    <l>Counted each weary step by pain,</l>
+                    <l>While oft he sigh’d, to mark the deer</l>
+                    <l rend="ti-1">Fly to its haunts amid the dell,</l>
+                    <l>And bounding on its wift career,</l>
+                    <l rend="ti-1">Feel not the limbs that sped so well.</l>
+                    <l>Oft sank he breathless on the earth,</l>
+                    <l>Disdainful tears oft gushing forth,</l>
+                    <l>Pride in his human bosom swelling</l>
+                    <l rend="ti-1">Against the chains that Nature bound,</l>
+                    <l rend="ti-1">’Mid the free world his will around;</l>
+                    <pb n="45" xml:id="VAB7112-041"/>
+                    <l>Fear with repeated voice foretelling</l>
+                    <l>That health could never be for him,</l>
+                    <l>To nerve his breast, and brace his limb.</l>
+                    <l>Yet strong desire upheld his heart</l>
+                    <l rend="ti-1">Above the doubts which there had scope; </l>
+                    <l>It was not hope, and yet its voice</l>
+                    <l rend="ti-1">All fondly imitated hope.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Toil worn, and yet with throbbing blood,</l>
+                    <l>At length beside the fount he stood,</l>
+                    <l>And trembling limbs, with toil at strife,</l>
+                    <l rend="ti-1">And eyes where fev’rish passion gleamed,</l>
+                    <l rend="ti-1">Whose fire broke burning out, and seem’d </l>
+                    <l>Fed on the very oil of life, </l>
+                    <l>Bore witness how the moment press’d </l>
+                    <l>Upon his agitated breast. </l>
+                    <l>’Twas one that long had been before,</l>
+                    <l rend="ti-1">Amid the future’s dancing shapes; </l>
+                    <l>It soon would join the days of yore,</l>
+                    <l>Whose flying light the eye escapes.</l>
+                    <pb n="46" xml:id="VAB7112-042"/>
+                    <l>Say would that moment keep or break, </l>
+                    <l>The promise it had seemed to make?</l>
+                    <l>Oh, stinging doubt! He dared not wait, </l>
+                    <l>Thus standing face to face with fate, </l>
+                    <l>But plunged, at once within the wave, </l>
+                    <l>That was to cheat him, or to save.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Frail human race! thy time is brief,</l>
+                    <l>Thy life a Summer’s passing leaf.</l>
+                    <l>And yet what worlds of thought may be</l>
+                    <l>Press’d in a moment’s space for thee!</l>
+                    <l>Keen doubt is there—and hope and fear,</l>
+                    <l>Each shrin’d within its secret sphere;</l>
+                    <l>Whereof th’ impending hand of Fate</l>
+                    <l>Is stooping to unbar the gate.</l>
+                    <l>The roll of long realities,</l>
+                    <l>Within the folded portal lies,</l>
+                    <l>A life with all its time secured,</l>
+                    <l>To be enjoyed, or be endured;</l>
+                    <l>A tide of weal, a tide of woe,—</l>
+                    <pb n="47" xml:id="VAB7112-043"/>
+                    <l>Which is it? Ah, no heart may know. </l>
+                    <l>Both Fates within the gate abide,</l>
+                    <l>And but one moment to decide.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>That moment pass’d, and he was left </l>
+                    <l>Of its deceitful hope bereft; </l>
+                    <l>No angel voice an answer gave, </l>
+                    <l>No healing spirit stirr’d the wave, </l>
+                    <l>The heedless silence seemed to dart </l>
+                    <l>An ice‐bolt to his very heart; </l>
+                    <l>Yet as a statue when the ray </l>
+                    <l>Moves o’er it in the close of day </l>
+                    <l>Beams with an outward radiance rife, </l>
+                    <l>And seems to stir and grow to life, </l>
+                    <l>Nor till expires the passing light, </l>
+                    <l>Resumes again its own cold white; </l>
+                    <l>So he, while hope within expired, </l>
+                    <l>Lost not the look it had inspired, </l>
+                    <l>But stood as though he could not dare </l>
+                    <l>Become familiar with despair.</l>
+                    <pb n="48" xml:id="VAB7112-044"/>
+                    <l>Till all at once his heart gave way, </l>
+                    <l>And on the earth the mourner lay.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>He deem’d not any human eye, </l>
+                    <l>In that dark hour of need was nigh; </l>
+                    <l>But near his place the stranger stood, </l>
+                    <l>And marked his pain with pitying mood; </l>
+                    <l>And fain to comfort him drew near, </l>
+                    <l>With outstretched hand, and kindly cheer. </l>
+                    <l>He pointed to the cross, and won </l>
+                    <l>The languished eye to follow on, </l>
+                    <l>Breathed forth a name, in such a tone </l>
+                    <l>As best becomes the Holiest One; </l>
+                    <l>Paused at the appeal to Deity— </l>
+                    <l>Then bade him, in that name, be free.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Oh sudden thrill, unwonted fire !</l>
+                    <l rend="ti-1">Tide of sensation new and sweet</l>
+                    <l rend="ti-1">Upstarting sudden on his feet,</l>
+                    <pb n="49" xml:id="VAB7112-045"/>
+                    <l>What ecstacies of joy inspire</l>
+                    <l rend="ti-1">The languid frame that lay of late</l>
+                    <l rend="ti-1">Upon itself a burden weight.</l>
+                    <l>He rose like Man new made, who feels</l>
+                    <l>How life its first‐born pow’r reveals;</l>
+                    <l>He stood amaz’d with happiness,</l>
+                    <l>A stranger to his own new‐ bliss;</l>
+                    <l>Then as the truth unveiled its brow</l>
+                    <l>(No fleeting, fading, vision now),</l>
+                    <l>He sprang at once to take the measure</l>
+                    <l>Of his new strength’s abounding treasure;</l>
+                    <l>Up the steep mountain side he strain’d</l>
+                    <l rend="ti-1">Ecstatic as he met the air;</l>
+                    <l>The peak that highest rose, he gain’d</l>
+                    <l rend="ti-1">With joy as wide as earth seem’d there.</l>
+                    <l>He stood upon the torrent’s brim,</l>
+                    <l>He leap’d across the foaming stream;</l>
+                    <l>He rush’d upon the paths which hung</l>
+                    <l>The boldest precipice among;</l>
+                    <l>And gaz’d around as one who hath</l>
+                    <l>Earth now for his unshackled path;</l>
+                    <pb n="50" xml:id="VAB7112-046"/>
+                    <l>And he, no Laggard more must be </l>
+                    <l>Behind the Busy, Gay, and Free. </l>
+                    <l>At last he came with flying pace </l>
+                    <l>Back to the all‐eventful place, </l>
+                    <l>And bent his grateful knee on earth </l>
+                    <l>To Him from whom his joy had birth. </l>
+                    <l>Words for his thoughts were all too weak; </l>
+                    <l>His eye, but not his tongue, could speak; </l>
+                    <l>And eloquent of thanks it shone </l>
+                    <l>The stranger’s answ’ring face upon.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>What need to say the stranger’s knee</l>
+                    <l>Was bow’d beside him on the lea?</l>
+                    <l>And to the Heav’n above referr’d</l>
+                    <l>The grateful look, th’ adoring word,</l>
+                    <l>To One invisible, yet nigh,</l>
+                    <l>He raised the pilgrim’s heart and eye,</l>
+                    <l>Till joy‐instructed, he received</l>
+                    <l>The living truths, received and lived;</l>
+                    <l>And when as night was drawing near</l>
+                    <pb n="51" xml:id="VAB7112-047"/>
+                    <l rend="ti-1">Forth on his way th’ apostle went,</l>
+                    <l>And told of toil and hunger drear,</l>
+                    <l rend="ti-1">And days in thankless labour spent,</l>
+                    <l>The grateful pilgrim undismay’d</l>
+                    <l>And only of the past afraid,</l>
+                    <l>Clung to him still, as those who flee</l>
+                    <l>The dungeon’s walls, and freedom see;</l>
+                    <l>And when they once that view obtain</l>
+                    <l>Can die, but not descend again;</l>
+                    <l>So he, who knew of no dismay</l>
+                    <l>Except to be as yesterday,</l>
+                    <l>Pass’d by the stranger’s side, forsaking</l>
+                    <l rend="ti-1">All that of old, nay still was dear;</l>
+                    <l>Thro’ the wide world his journey taking,</l>
+                    <l rend="ti-1">Contented since that friend was near.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thy tale too, wanderer, is enwrought </l>
+                    <l>Within my phantom‐peopled thought, </l>
+                    <l>And thou between thy birth and tomb </l>
+                    <l>Wilt leave a trace upon the gloom.</l>
+                    <pb n="52" xml:id="VAB7112-048"/>
+                    <l>The world will mark it not, for far</l>
+                    <l>Glides thro’ the crowded heav’n thy star;</l>
+                    <l>And clouds that veil its quiet ray,</l>
+                    <l>It cannot frown or smile away.</l>
+                    <l>But in thy heart mine eye has read</l>
+                    <l rend="ti-1">What never human eye might test; </l>
+                    <l>And mark’d therein what change has sped,</l>
+                    <l rend="ti-1">While outward all appear’d at rest. </l>
+                    <l>And ’tis my pastime there to see </l>
+                    <l>Thy hidden springs of grief and glee, </l>
+                    <l>And trace that changeful world within, </l>
+                    <l>Borne shrine‐like thro’ a busy scene. </l>
+                    <l>There can I mark, tho’ clos’d at last, </l>
+                    <l>The wounds that once were bleeding fast, </l>
+                    <l>And call’d thy silent spirit still </l>
+                    <l>To muse upon the inner ill, </l>
+                    <l>Till as they heal’d, and were at rest,</l>
+                    <l rend="ti-1">Thy heart renew’d its wasted pow’rs; </l>
+                    <l>As when—the coffin in its breast—</l>
+                    <l rend="ti-1">The grave conceals itself in flow’rs. </l>
+                    <l>There lie the wrecks of feeling, springing</l>
+                    <pb n="53" xml:id="VAB7112-049"/>
+                    <l>Too rashly up in life’s beginning,</l>
+                    <l>Which tho’ they seem’d the very pride</l>
+                    <l rend="ti-1">And being of its vital part,</l>
+                    <l>Were torn perforce, and cast aside,</l>
+                    <l rend="ti-1">Altho’ the scathing rent thy heart. </l>
+                    <l>And there, alas! are things less fair, </l>
+                    <l>The wasting track of Sin yet bare; </l>
+                    <l>Whose flames in lurid splendour shone, </l>
+                    <l>But sered the soil when they were gone; </l>
+                    <l>And crossing still thy path and way, </l>
+                    <l>Their obstacles thy course delay; </l>
+                    <l>While bitterer far such foes appear, </l>
+                    <l>Since ’twas thyself who set them there.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>That heart of thine I choose ’mid all</l>
+                    <l>On whom mine eyes attentive fall,</l>
+                    <l>To hear the records of the dell</l>
+                    <l>Where seeing and unseen I dwell.</l>
+                    <l>Perchance a hundred years may wane</l>
+                    <l>Ere mortal hear my voice again;</l>
+                    <pb n="54" xml:id="VAB7112-050"/>
+                    <l>A thousand forms before me stray,</l>
+                    <l>Ere one shall tempt me as to‐day,</l>
+                    <l>To mix as now I do with thine,</l>
+                    <l>The current of his thoughts and mine.</l>
+                    <l>When virtue comes, I sit to trace</l>
+                    <l>With spirit rous’d its godlike face;</l>
+                    <l>When sorrow wanders here alone,</l>
+                    <l>Unmov’d I keep my mossy stone,</l>
+                    <l>And with a still observance see</l>
+                    <l>A passion never known to me.</l>
+                    <l>But thou, I know not why, hast wrought</l>
+                    <l>My thought to commune with thy thought;</l>
+                    <l>And feelings which o’er all flow free,</l>
+                    <l>Have grown to words when turned to thee.</l>
+                    <l>I love thy melancholy eye,</l>
+                    <l rend="ti-1">The portal of a musing mind,</l>
+                    <l>The lip where the long stifled sigh</l>
+                    <l rend="ti-1">Turns to a smile for human kind.</l>
+                    <l>I love thy wandering mood which long</l>
+                    <l rend="ti-1">Dwells on some lonely hue or shape; </l>
+                    <l>While answ’ring words of broken song</l>
+                    <pb n="55" xml:id="VAB7112-051"/>
+                    <l rend="ti-1">Thy solitary lip escape. </l>
+                    <l>I too can muse, and dream away </l>
+                    <l>’Mid real sights, false thoughts, the day; </l>
+                    <l>Can scan the clouds that o’er me sail: </l>
+                    <l>And fancy faces which they veil; </l>
+                    <l>Can hear the winds and branches play </l>
+                    <l>And the still sounds of middle day, </l>
+                    <l>Till from such elements arise </l>
+                    <l>Life, Death and Fate upon mine eyes; </l>
+                    <l>Spheres far remote around me bend; </l>
+                    <l>Scenes that are not as yet, descend; </l>
+                    <l>And Fancy stays her flight, and deems </l>
+                    <l>That truth is born amid her dreams.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>’Tis true that Man’s unquiet sphere </l>
+                    <l>Of Love and Fame, of Hope and Fear, </l>
+                    <l>Spreads not its influence to this glade, </l>
+                    <l>Where I my mystic home have made. </l>
+                    <l>Those passions fill a moment’s space, </l>
+                    <l>They cloud or light a mortal’s face;</l>
+                    <pb n="56" xml:id="VAB7112-052"/>
+                    <l>The form belov’d in dust must wane,</l>
+                    <l rend="ti-1">The kindly voice, too soon is mute;</l>
+                    <l>The heart has turn’d to earth again</l>
+                    <l rend="ti-1">Ere half its pow’rs have borne their fruit. </l>
+                    <l>But still that transitory glow </l>
+                    <l>Is all of bright that Man may know; </l>
+                    <l>Those fleeting pangs of pain and strife </l>
+                    <l>Are half his momentary life; </l>
+                    <l>And were my time as brief as thine, </l>
+                    <l>I too should o’er its flight repine, </l>
+                    <l>And learn to shed that tear which lies </l>
+                    <l>Uncall’d‐for now within my eyes;</l>
+                    <l>Like the deep lake which lies at rest </l>
+                    <l>Lock’d in a mountain’s rocky breast;— </l>
+                    <l>Unbroken sleeps its shelter’d stream, </l>
+                    <l>Ne’er urg’d by breezes o’er the brim.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Farewell! thy foot a trav’ller goes</l>
+                    <l>Into a land it little knows;</l>
+                    <l>Perchance the step it next must make</l>
+                    <pb n="57" xml:id="VAB7112-053"/>
+                    <l>Is on the quicksand or the snake ;</l>
+                    <l>And in this day’s nigh counted hours</l>
+                    <l>Thou treadest the last time on flow’rs,</l>
+                    <l>Perchance thou ne’er again must stray</l>
+                    <l>Here where thy life has left a day,</l>
+                    <l>Or not till years have roll’d along,</l>
+                    <l>When dried thy heart, and mute thy song,</l>
+                    <l>And thou no more, with darken’d ken</l>
+                    <l>Can see the valley’s spirit then.</l>
+                    <l>It may be too, that I can see</l>
+                    <l>Some change or chance reserv’d for thee;</l>
+                    <l>The shifting scene of human life,</l>
+                    <l>The night that ends its fitful strife;</l>
+                    <l>The bliss or woe, the shade or bloom,</l>
+                    <l>That lights a home, or delves a tomb.</l>
+                    <l>But ask not, tho’ thine eyes illume</l>
+                    <l>Eager to follow thro’ the gloom;</l>
+                    <l>For ’tis thy mortal fate to go</l>
+                    <l>Blindfold alike to joy and woe.</l>
+                    <l>Farewell! the hours that here have fled,</l>
+                    <l>The scenes wherein those hours were sped,</l>
+                    <pb n="58" xml:id="VAB7112-054"/>
+                    <l>Are in thy Mem’ry’s book a gain,</l>
+                    <l>From the uncertain, dark, and vain.</l>
+                    <l>And oft when life has nothing bright</l>
+                    <l>Onward to lure Hope’s ready sight,</l>
+                    <l>Thy soul its thoughts will backward throw</l>
+                    <l>To Shapes and Scenes of long ago;</l>
+                    <l>And shutting out the present shade,</l>
+                    <l rend="ti-1">Will to the sunny Past have flown;</l>
+                    <l rend="ti-1">Where pleasure has been, and is grown </l>
+                    <l>Immortal even as the Dead.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>He ceas’d, and waited not reply</l>
+                    <l>Except my fix’d attentive eye;</l>
+                    <l>On that, a quiet smile he cast,</l>
+                    <l>Not joy, not grief, tho’ ’twas the last.</l>
+                    <l>And still intent, I mark’d the shade</l>
+                    <l>Into more shadowy fineness fade;</l>
+                    <l>And flow’rs and trees behind appear;</l>
+                    <l>In hue and outline bright and clear.</l>
+                    <l>So much akin he was to air,</l>
+                    <pb n="59" xml:id="VAB7112-055"/>
+                    <l>Scarce knew I when he melted there; </l>
+                    <l>So like his form to flitting light, </l>
+                    <l>It still seemed dazzling on my sight; </l>
+                    <l>I lost him not in wood or stream, </l>
+                    <l>He vanish’d not in cloud or beam; </l>
+                    <l>No sound as tho’ he pass’d was heard, </l>
+                    <l>No rustling noise of garments stirr’d, </l>
+                    <l>I saw him on his wonted stone, </l>
+                    <l>Until the latest line was gone.— </l>
+                    <l>The haunting spirit of the spot </l>
+                    <l>Was viewless, but departed not.</l>
+                </lg>
+                <closer>THE END.</closer>
+            </div>
+            <trailer>LONDON: Hope and Co., Printers, 16, Great Marlborough Street.</trailer>
+        </body>
+    </text>
+</TEI>

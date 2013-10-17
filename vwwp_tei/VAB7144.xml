@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7144">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Rhythm of Life</title>
+                <title type="filing">Rhythm of Life</title>
+                <author>Meynell, Alice Christiana Thompson (1847-1922)</author>
+                <respStmt>
+                    <resp>Transcribed by </resp>
+                    <name>David Price</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded and edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 124 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>26-October-1998</date>
+                <idno>VAB7144</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the Research Collections, Indiana
+                    University.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The Rhythm of Life</title>
+                        <author>Meynell, Alice, 1847-1922</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Alice Meynell</name>
+                        </respStmt>
+                    </titleStmt>
+                    <editionStmt>
+                        <edition>Third Edition</edition>
+                    </editionStmt>
+                    <extent>106 p.</extent>
+                    <publicationStmt>
+                        <publisher>John Lane</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1896">1896</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All quotation marks, hyphens, dashes, apostrophes and colons have been
+                    transcribed as entity references.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as "-" and em dashes as &amp;mdash;.</p>
+                <p>The publisher’s advertisement following p. 106 has been omitted.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"></tagUsage>
+                    <tagUsage gi="addrline" occurs="1"></tagUsage>
+                    <tagUsage gi="back" occurs="1"></tagUsage>
+                    <tagUsage gi="bibl" occurs="35"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="byline" occurs="1"></tagUsage>
+                    <tagUsage gi="div" occurs="2"></tagUsage>
+                    <tagUsage gi="div0" occurs="20"></tagUsage>
+                    <tagUsage gi="docauthor" occurs="1"></tagUsage>
+                    <tagUsage gi="docdate" occurs="1"></tagUsage>
+                    <tagUsage gi="docimprint" occurs="1"></tagUsage>
+                    <tagUsage gi="doctitle" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="10"></tagUsage>
+                    <tagUsage gi="foreign" occurs="14"></tagUsage>
+                    <tagUsage gi="front" occurs="1"></tagUsage>
+                    <tagUsage gi="head" occurs="22"></tagUsage>
+                    <tagUsage gi="hi" occurs="19"></tagUsage>
+                    <tagUsage gi="item" occurs="20"></tagUsage>
+                    <tagUsage gi="l" occurs="4"></tagUsage>
+                    <tagUsage gi="list" occurs="1"></tagUsage>
+                    <tagUsage gi="orig" occurs="7"></tagUsage>
+                    <tagUsage gi="p" occurs="67"></tagUsage>
+                    <tagUsage gi="pb" occurs="109"></tagUsage>
+                    <tagUsage gi="publisher" occurs="2"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="2"></tagUsage>
+                    <tagUsage gi="q" occurs="2"></tagUsage>
+                    <tagUsage gi="ref" occurs="20"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepage" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepart" occurs="2"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">French</language>
+            </langUsage>
+            <textClass>
+            <keywords scheme="#mla">
+                <list>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/essay">essay</term></item>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/prose">prose</term></item>
+                </list>
+            </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>April 1998</date><label>transcriber.</label><name>David Price,
+                </name>finished data entry for Project Gutenberg</change>
+            <change><date>26-Oct-1998</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI-conformant encoding and editing</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-08-03" who="elizabethmunson">Removed date from fileDesc title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added filing title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-08-03" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-08-03" who="elizabethmunson">Tagged title elements inside bibl</change>
+            <change when="2010-09-10" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-15" who="elizabethmunson">Changed div type="back_matter" to 
+            "acknowledgment"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">THE RHYTHM OF LIFE </titlePart>
+                    <titlePart type="sub">AND OTHER ESSAYS</titlePart>
+                </docTitle>
+                <byline>BY <docAuthor>ALICE MEYNELL </docAuthor></byline>
+                <docImprint>
+                    <pubPlace>LONDON </pubPlace>
+                    <publisher>JOHN LANE:
+                        <address><addrLine>VIGO ST.</addrLine></address></publisher>
+                    <publisher>COPELAND AND DAY</publisher>
+                    <pubPlace>BOSTON</pubPlace>
+                </docImprint>
+                <docDate>1896</docDate>
+            </titlePage>
+            <pb xml:id="VAB7144-001"></pb>
+            <div type="contents">
+                <head>CONTENTS</head>
+                <list type="simple">
+                    <item>THE RHYTHM OF LIFE, <ref rend="right" target="#VAB7144-003">1</ref></item>
+                    <item>DECIVILISED, <ref rend="right" target="#VAB7144-009">7</ref></item>
+                    <item>A REMEMBRANCE, <ref rend="right" target="#VAB7144-014">12</ref></item>
+                    <item>THE SUN, <ref rend="right" target="#VAB7144-019">17</ref></item>
+                    <item>THE FLOWER, <ref rend="right" target="#VAB7144-024">22</ref></item>
+                    <item>UNSTABLE EQUILIBRIUM, <ref rend="right" target="#VAB7144-028">26</ref></item>
+                    <item>THE UNIT OF THE WORLD, <ref rend="right" target="#VAB7144-031">29</ref></item>
+                    <item>BY THE RAILWAY SIDE, <ref rend="right" target="#VAB7144-038">36</ref></item>
+                    <item>POCKET VOCABULARIES, <ref rend="right" target="#VAB7144-042">40</ref></item>
+                    <item>PATHOS, <ref rend="right" target="#VAB7144-047">45</ref></item>
+                    <item>THE POINT OF HONOUR, <ref rend="right" target="#VAB7144-051">49</ref></item>
+                    <item>COMPOSURE, <ref rend="right" target="#VAB7144-056">54</ref></item>
+                    <item>DR. OLIVER WENDELL HOLMES, <ref rend="right" target="#VAB7144-062">60</ref></item>
+                    <item>JAMES RUSSELL LOWELL, <ref rend="right" target="#VAB7144-070">68</ref></item>
+                    <item>DOMUS ANGUSTA, <ref rend="right" target="#VAB7144-076">74</ref></item>
+                    <item>REJECTION, <ref rend="right" target="#VAB7144-081">79</ref></item>
+                    <item>THE LESSON OF LANDSCAPE <ref rend="right" target="#VAB7144-085">83</ref></item>
+                    <item>MR. COVENTRY PATMORE'S ODES, <ref rend="right" target="#VAB7144-091">89</ref></item>
+                    <item>INNOCENCE AND EXPERIENCE, <ref rend="right" target="#VAB7144-099">97</ref></item>
+                    <item>PENULTIMATE CARICATURE <ref rend="right" target="#VAB7144-103">101</ref></item>
+                </list>
+            </div>
+        </front>
+        <body>
+            <pb xml:id="VAB7144-002"></pb>
+            <head>THE RHYTHM OF LIFE</head>
+            <pb n="1" xml:id="VAB7144-003"></pb>
+            <div type="chapter">
+                <head>THE RHYTHM OF LIFE</head>
+                <p><hi>IF</hi> life is not always poetical, it is at least metrical. Periodicity
+                    rules over the mental experience of man, according to the path of the orbit of
+                    his thoughts. Distances are not gauged, ellipses not measured, velocities not
+                    ascertained, times not known. Nevertheless, the recurrence is sure. What the
+                    mind suffered last week, or last year, it does not suffer now; but it will
+                    suffer again next week or next year. Happiness is not a matter of events; it
+                    depends upon the tides of the mind. Disease is metrical, closing in at shorter
+                    and shorter periods towards death, sweeping abroad at longer and longer
+                    intervals towards recovery. Sorrow for one cause was intolerable yesterday, and
+                    will be intolerable to-morrow; to-day it is easy to bear, but the cause has not
+                    passed. Even the burden of a spiritual distress unsolved<pb n="2" xml:id="VAB7144-004"></pb> is bound to leave the heart to a temporary peace; and
+                    remorse itself does not remain—it returns. Gaiety takes us by a dear surprise.
+                    If we had made a course of notes of its visits, we might have been on the watch,
+                    and would have had an expectation instead of a discovery. No one makes such
+                    observations; in all the diaries of students of the interior world, there have
+                    never come to light the records of the Kepler of such cycles. But Thomas à
+                    Kempis knew of the recurrences, if he did not measure them. In his cell alone
+                    with the elements—‘What wouldst thou more than these? for out of these were all
+                    things made’—he learnt the stay to be found in the depth of the hour of
+                    bitterness, and the remembrance that restrains the soul at the coming of the
+                    moment of delight, giving it a more conscious welcome, but presaging for it an
+                    inexorable flight. And ‘rarely, rarely comest thou,’ sighed Shelley, not to
+                    Delight merely, but to the Spirit of Delight. Delight can be compelled
+                    beforehand, called, and constrained to our service—Ariel can be bound to a daily
+                    task; but such artificial violence throws life out of metre, and it is not the
+                    spirit that is thus compelled. <emph>That</emph> flits upon<pb n="3" xml:id="VAB7144-005"></pb> an orbit elliptically or parabolically or
+                    hyperbolically curved, keeping no man knows what trysts with Time.</p>
+                <p>It seems fit that Shelley and the author of the <bibl><title>Imitation</title></bibl> should
+                    both have been keen and simple enough to perceive these flights, and to guess at
+                    the order of this periodicity. Both souls were in close touch with the spirits
+                    of their several worlds, and no deliberate human rules, no infractions of the
+                    liberty and law of the universal movement, kept from them the knowledge of
+                    recurrences. <foreign xml:lang="ita">Eppur si muove</foreign>. They knew that
+                    presence does not exist without absence; they knew that what is just upon its
+                    flight of farewell is already on its long path of return. They knew that what is
+                    approaching to the very touch is hastening towards departure. ‘O wind,’ cried
+                    Shelley, in autumn, <q>
+                        <l>‘O wind,</l>
+                        <l>If winter comes, can spring be far behind?’</l>
+                    </q> They knew that the flux is equal to the reflux; that to interrupt with
+                    unlawful recurrences, out of time, is to weaken the impulse of onset and
+                    retreat; the sweep and impetus of movement. To live in constant efforts after an
+                    equal life, whether the equality be sought in<pb n="4" xml:id="VAB7144-006"></pb>
+                    mental production, or in spiritual sweetness, or in the joy of the senses, is to
+                    live without either rest or full activity. The souls of certain of the saints,
+                    being singularly simple and single, have been in the most complete subjection to
+                    the law of periodicity. Ecstasy and desolation visited them by seasons. They
+                    endured, during spaces of vacant time, the interior loss of all for which they
+                    had sacrificed the world. They rejoiced in the uncovenanted beatitude of
+                    sweetness alighting in their hearts. Like them are the poets whom, three times
+                    or ten times in the course of a long life, the Muse has approached, touched, and
+                    forsaken. And yet hardly like them; not always so docile, nor so wholly prepared
+                    for the departure, the brevity, of the golden and irrevocable hour. Few poets
+                    have fully recognised the metrical absence of their Muse. For full recognition
+                    is expressed in one only way—silence.</p>
+                <p>It has been found that several tribes in Africa and in America worship the moon,
+                    and not the sun; a great number worship both; but no tribes are known to adore
+                    the sun, and not the moon. For the periodicity of the sun is still in part a
+                    secret; but that of the moon<pb n="5" xml:id="VAB7144-007"></pb> is modestly
+                    apparent, perpetually influential. On her depend the tides; and she is Selene,
+                    mother of Herse, bringer of the dews that recurrently irrigate lands where rain
+                    is rare. More than any other companion of earth is she the Measurer. Early
+                    Indo-Germanic languages knew her by that name. Her metrical phases are the
+                    symbol of the order of recurrence. Constancy in approach and in departure is the
+                    reason of her inconstancies. Juliet will not receive a vow spoken in invocation
+                    of the moon; but Juliet did not live to know that love itself has tidal
+                    times—lapses and ebbs which are due to the metrical rule of the interior heart,
+                    but which the lover vainly and unkindly attributes to some outward alteration in
+                    the beloved. For man—except those elect already named—is hardly aware of
+                    periodicity. The individual man either never learns it fully, or learns it late.
+                    And he learns it so late, because it is a matter of cumulative experience upon
+                    which cumulative evidence is lacking. It is in the after-part of each life that
+                    the law is learnt so definitely as to do away with the hope or fear of
+                    continuance. That young sorrow comes so near to despair is a result of this
+                    young ignorance. So is the<pb n="6" xml:id="VAB7144-008"></pb> early hope of great
+                    achievement. Life seems so long, and its capacity so great, to one who knows
+                    nothing of all the intervals it needs must hold—intervals between aspirations,
+                    between actions, pauses as inevitable as the pauses of sleep. And life looks
+                    impossible to the young unfortunate, unaware of the inevitable and unfailing
+                    refreshment. It would be for their peace to learn that there is a tide in the
+                    affairs of men, in a sense more subtle—if it is not too audacious to add a
+                    meaning to Shakespeare—than the phrase was meant to contain. Their joy is flying
+                    away from them on its way home; their life will wax and wane; and if they would
+                    be wise, they must wake and rest in its phases, knowing that they are ruled by
+                    the law that commands all things—a sun's revolutions and the rhythmic pangs of
+                    maternity.</p>
+            </div>
+            <pb n="7" xml:id="VAB7144-009"></pb>
+            <div type="chapter">
+                <head>DECIVILISED</head>
+                <p><hi>THE</hi> difficulty of dealing—in the course of any critical duty—with
+                    decivilised man lies in this: when you accuse him of vulgarity—sparing him no
+                    doubt the word—he defends himself against the charge of barbarism. Especially
+                    from new soil—transatlantic, colonial—he faces you, bronzed, with a half
+                    conviction of savagery, partly persuaded of his own youthfulness of race. He
+                    writes, and recites, poems about ranches and canyons; they are designed to
+                    betray the recklessness of his nature and to reveal the good that lurks in the
+                    lawless ways of a young society. He is there to explain himself, voluble, with a
+                    glossary for his own artless slang. But his colonialism is only provincialism
+                    very articulate. The new air does but make old decadences seem more stale; the
+                    young soil does but set into fresh<pb n="8" xml:id="VAB7144-010"></pb> conditions
+                    the ready-made, the uncostly, the refuse feeling of a race decivilising.
+                    American fancy played long this pattering part of youth. The New-Englander
+                    hastened to assure you with so self-denying a face he did not wear war-paint and
+                    feathers, that it became doubly difficult to communicate to him that you had
+                    suspected him of nothing wilder than a second-hand dress coat. And when it was a
+                    question not of rebuke, but of praise, the American was ill-content with the
+                    word of the judicious who lauded him for some delicate successes in continuing
+                    something of the literature of England, something of the art of France; he was
+                    more eager for the applause that stimulated him to write romances and to paint
+                    panoramic landscape, after brief training in academies of native inspiration.
+                    Even now English voices, with violent commonplace, are constantly calling upon
+                    America to begin—to begin, for the world is expectant. Whereas there is no
+                    beginning for her, but instead a continuity which only a constant care can guide
+                    into sustained refinement and can save from decivilisation.</p>
+                <p>But decivilised man is not peculiar to new soil. The English town, too, knows him
+                        in<pb n="9" xml:id="VAB7144-011"></pb> all his dailiness. In England, too, he
+                    has a literature, an art, a music, all his own—derived from many and various
+                    things of price. Trash, in the fulness of its in simplicity and cheapness, is
+                    impossible without a beautiful past. Its chief characteristic—which is futility,
+                    not failure—could not be achieved but by the long abuse, the rotatory
+                    reproduction, the quotidian disgrace, of the utterances of Art, especially the
+                    utterance by words. Gaiety, vigour, vitality, the organic quality, purity,
+                    simplicity, precision—all these are among the antecedents of trash. It is after
+                    them; it is also, alas, because of them. And nothing can be much sadder than
+                    such a proof of what may possibly be the failure of derivation.</p>
+                <p>Evidently we cannot choose our posterity. Reversing the steps of time, we may,
+                    indeed, choose backwards. We may give our thoughts noble forefathers. Well
+                    begotten, well born our fancies must be; they shall be also well derived. We
+                    have a voice in decreeing our inheritance, and not our inheritance only, but our
+                    heredity. Our minds may trace upwards and follow their ways to the best
+                    well-heads of the arts. The very habit of our thoughts may be persuaded one way
+                    unawares by<pb n="10" xml:id="VAB7144-012"></pb> their antenatal history. Their
+                    companions must be lovely, but need be no lovelier than their ancestors; and
+                    being so fathered and so husbanded, our thoughts may be intrusted to keep the
+                    counsels of literature.</p>
+                <p>Such is our confidence in a descent we know. But, of a sequel which of us is
+                    sure? Which of us is secured against the dangers of subsequent depreciation?
+                    And, moreover, which of us shall trace the contemporary tendencies, the one
+                    towards honour, the other towards dishonour? Or who shall discover why
+                    derivation becomes degeneration, and where and when and how the bastardy
+                    befalls? The decivilised have every grace as the antecedent of their
+                    vulgarities, every distinction as the precedent of their mediocrities. No
+                    ballad-concert song, feign it sigh, frolic, or laugh, but has the excuse that
+                    the feint was suggested, was made easy, by some living sweetness once. Nor are
+                    the decivilised to blame as having in their own persons possessed civilisation
+                    and marred it. They did not possess it; they were born into some tendency to
+                    derogation, into an inclination for things mentally inexpensive. And the
+                    tendency can hardly do other than continue.<pb n="11" xml:id="VAB7144-013"></pb>
+                    Nothing can look duller than the future of this second-hand and multiplying
+                    world. Men need not be common merely because they are many; but the infection of
+                    commonness once begun in the many, what dulness in their future! To the eye that
+                    has reluctantly discovered this truth—that the vulgarised are not
+                        <emph>un</emph>civilised, and that there is no growth for them—it does not
+                    look like a future at all. More ballad-concerts, more quaint English, more
+                    robustious barytone songs, more piecemeal pictures, more young decoration, more
+                    colonial poetry, more young nations with withered traditions. Yet it is before
+                    this prospect that the provincial overseas lifts up his voice in a boast or a
+                    promise common enough among the incapable young, but pardonable only in
+                    senility. He promises the world a literature, an art, that shall be new because
+                    his forest is untracked and his town just built. But what the newness is to be
+                    he cannot tell. Certain words were dreadful once in the mouth of desperate old
+                    age. Dreadful and pitiable as the threat of an impotent king, what shall we name
+                    them when they are the promise of an impotent people? ‘I will do such things:
+                    what they are yet I know not.’</p>
+            </div>
+            <pb n="12" xml:id="VAB7144-014"></pb>
+            <div type="chapter">
+                <head>A REMEMBRANCE</head>
+                <p><hi>WHEN</hi> the memories of two or three persons now upon earth shall be rolled
+                    up and sealed with their records within them, there will be no remembrance left
+                    open, except this, of a man whose silence seems better worth interpreting than
+                    the speech of many another. Of himself he has left no vestiges. It was a common
+                    reproach against him that he never acknowledged the obligation to any kind of
+                    restlessness. The kingdom of heaven suffereth violence, but as he did none there
+                    was nothing for it but that the kingdom of heaven should yield to his leisure.
+                    The delicate, the abstinent, the reticent graces were his in the heroic degree.
+                    Where shall I find a pen fastidious enough to define and limit and enforce so
+                    many significant negatives? Words seem to offend by too much assertion, and to
+                    check the suggestions<pb n="13" xml:id="VAB7144-015"></pb> of his reserve. That
+                    reserve was life-long. Loving literature, he never lifted a pen except to write
+                    a letter. He was not inarticulate, he was only silent. He had an exquisite style
+                    from which to refrain. The things he abstained from were all exquisite. They
+                    were brought from far to undergo his judgment, if haply he might have selected
+                    them. Things ignoble never approached near enough for his refusal; they had not
+                    with him so much as that negative connexion. If I had to equip an author I
+                    should ask no better than to arm him and invest him with precisely the riches
+                    that were renounced by the man whose intellect, by integrity, had become a
+                    presence-chamber.</p>
+                <p>It was by holding session among so many implicit safeguards that he taught,
+                    rather than by precepts. Few were these in his speech, but his personality made
+                    laws for me. It was a subtle education, for it persuaded insensibly to a
+                    conception of my own. How, if he would not define, could I know what things were
+                    and what were not worthy of his gentle and implacable judgment? I must needs
+                    judge them for myself, yet he constrained me in the judging. Within that
+                    constraint and under that stimulus, which seemed to touch the ultimate<pb n="14" xml:id="VAB7144-016"></pb> springs of thoughts before they sprang, I began to
+                    discern all things in literature and in life—in the chastity of letters and in
+                    the honour of life—that I was bound to love. Not the things of one character
+                    only, but excellent things of every character. There was no tyranny in such a
+                    method. His idleness justified itself by the liberality it permitted to his
+                    taste. Never having made his love of letters further a secondary purpose, never
+                    having bound the literary genius—that delicate Ariel—to any kind of servitude,
+                    never having so much as permitted himself a prejudice whereby some of his
+                    delights should be stinted while others were indulged beyond the sanctions of
+                    modest reason, he barely tolerated his own preferences, which lay somewhat on
+                    the hither side of full effectiveness of style. These the range of his reading
+                    confessed by certain exclusions. Nevertheless it was not of deficiencies that he
+                    was patient: he did but respect the power of pause, and he disliked violence
+                    chiefly because violence is apt to confess its own limits. Perhaps, indeed, his
+                    own fine negatives made him only the more sensible of any lack of those literary
+                    qualities that are bound in their full complement to hold <choice>
+                        <orig>them-</orig>
+                        <reg>themselves</reg>
+                    </choice><pb n="15" xml:id="VAB7144-017"></pb> selves at the disposal of the
+                    consummate author—to stand and wait, if they may do no more.</p>
+                <p>Men said that he led a <foreign xml:lang="fre">dilettante</foreign> life. They
+                    reproached him with the selflessness that made him somewhat languid. Others,
+                    they seemed to aver, were amateurs at this art or that; he was an amateur at
+                    living. So it was, in the sense that he never grasped at happiness, and that
+                    many of the things he had held slipped from his disinterested hands. So it was,
+                    too, in this unintended sense; he loved life. How should he not have loved a
+                    life that his living made honourable? How should he not have loved all arts, in
+                    which his choice was delicate, liberal, instructed, studious, docile, austere?
+                    An amateur man he might have been called, too, because he was not discomposed by
+                    his own experiences, or shaken by the discovery which life brings to us—that the
+                    negative quality of which Buddhism seems to accuse all good is partaken by our
+                    happiness. He had always prayed temperate prayers and harboured probable wishes.
+                    His sensibility was extreme, but his thought was generalised. When he had joy he
+                    tempered it not in the common way by meditation upon the general sorrow but by a
+                    recollection of the general<pb n="16" xml:id="VAB7144-018"></pb> pleasure. It was
+                    his finest distinction to desire no differences, no remembrance, but loss among
+                    the innumerable forgotten. And when he suffered, it was with so quick a nerve
+                    and yet so wide an apprehension that the race seemed to suffer in him. He pitied
+                    not himself so tenderly as mankind, of whose capacity for pain he was then
+                    feelingly persuaded. His darkening eyes said in the extreme hour: ‘I have
+                    compassion on the multitude.’</p>
+            </div>
+            <pb n="17" xml:id="VAB7144-019"></pb>
+            <div type="chapter">
+                <head>THE SUN</head>
+                <p><hi>NOWHERE</hi> else does the greater light so rule the day, so measure, so
+                    divide, so reign, make so imperial laws, so visibly kindle, so immediately
+                    quicken, so suddenly efface, so banish, so restore, as in a plain like this of
+                    Suffolk with its enormous sky. The curious have an insufficient motive for going
+                    to the mountains if they do it to see the sunrise. The sun that leaps from a
+                    mountain peak is a sun past the dew of his birth; he has walked some way towards
+                    the common fires of noon. But on the flat country the uprising is early and
+                    fresh, the arc is wide, the career is long. The most distant clouds, converging
+                    in the beautiful and little-studied order of cloud-perspective (for most
+                    painters treat clouds as though they formed perpendicular and not horizontal
+                    scenery), are those that gather at the central point of sunrise.<pb n="18" xml:id="VAB7144-020"></pb> On the plain, and there only, can the
+                    construction—but that is too little vital a word; I should rather say the
+                    organism—the unity, the design, of a sky be understood. The light wind that has
+                    been moving all night is seen to have not worked at random. It has shepherded
+                    some small flocks of cloud afield and folded others. There's husbandry in
+                    Heaven. And the order has, or seems to have, the sun for its midst. Not a line,
+                    not a curve, but confesses its membership in a design declared from horizon to
+                    horizon.</p>
+                <p>To see the system of a sky in fragments is to miss what I learn to look for in
+                    all achieved works of Nature and art: the organism that is unity and life. It is
+                    the unity and life of painting. The Early Victorian picture—(the school is still
+                    in full career, but essentially it belongs to that triumphal period)—is but a
+                    dull sum of things put together, in concourse, not in relation; but the true
+                    picture is <emph>one</emph>, however multitudinous it may be, for it is composed
+                    of relations gathered together in the unity of perception, of intention, and of
+                    light. It is organic. Moreover, how truly relation is the condition of life may
+                    be understood from the extinct state of the English stage, which<pb n="19" xml:id="VAB7144-021"></pb> resembles nothing so much as a Royal Academy picture.
+                    Even though the actors may be added together with something like vivacity
+                    (though that is rare), they have no vitality in common. They are not members one
+                    of another. If the Church and Stage Guild be still in existence, it would do
+                    much for the art by teaching that Scriptural maxim. I think, furthermore, that
+                    the life of our bodies has never been defined so suggestively as by one who
+                    named it a living relation of lifeless atoms. Could the value of relation be
+                    more curiously set forth? And one might penetrate some way towards a
+                    consideration of the vascular organism of a true literary style in which there
+                    is a vital relation of otherwise lifeless word with word. And wherein lies the
+                    progress of architecture from the stupidity of the pyramid and the dead weight
+                    of the Cyclopean wall to the spring and the flight of the ogival arch, but in a
+                    quasi-organic relation? But the way of such thoughts might be intricate, and the
+                    sun rules me to simplicity.</p>
+                <p>He reigns as centrally in the blue sky as in the clouds. One October of late had
+                    days absolutely cloudless. I should not have<pb n="20" xml:id="VAB7144-022"></pb>
+                    certainly known it had there been a hill in sight. The gradations of the blue
+                    are incalculable, infinite, and they deepen from the central fire. As to the
+                    earthly scenery, there are but two ‘views’ on the plain; for the aspect of the
+                    light is the whole landscape. To look with the sun or against the sun—this is
+                    the alternative splendour. To look with the sun is to face a golden country,
+                    shadowless, serene, noble and strong in light, with a certain lack of relief
+                    that suggests—to those who dream of landscape—the country of a dream. The
+                    serried pines, and the lighted fields, and the golden ricks of the farms are
+                    dyed with the sun as one might paint with a colour. Bright as it is, the glow is
+                    rather the dye of sunlight than its luminosity. For by a kind of paradox the
+                    luminous landscape is that which is full of shadows—the landscape before you
+                    when you turn and face the sun. Not only every reed and rush of the salt
+                    marshes, every uncertain aspen-leaf of the few trees, but every particle of the
+                    October air shows a shadow and makes a mystery of the light. There is nothing
+                    but shadow and sun; colour is absorbed and the landscape is reduced to a shining
+                    simplicity. Thus is the dominant<pb n="21" xml:id="VAB7144-023"></pb> sun sufficient
+                    for his day. His passage kindles to unconsuming fires and quenches into living
+                    ashes. No incidents save of his causing, no delight save of his giving: from the
+                    sunrise, when the larks, not for pairing, but for play, sing the only virginal
+                    song of the year—a heart younger than Spring's in the season of decline—even to
+                    the sunset, when the herons scream together in the shallows. And the sun
+                    dominates by his absence, compelling the low country to sadness in the
+                    melancholy night.</p>
+            </div>
+            <pb n="22" xml:id="VAB7144-024"></pb>
+            <div type="chapter">
+                <head>THE FLOWER</head>
+                <p><hi>THERE</hi> is a form of oppression that has not until now been confessed by
+                    those who suffer from it or who are participants, as mere witnesses, in its
+                    tyranny. It is the obsession of man by the flower. In the shape of the flower
+                    his own paltriness revisits him—his triviality, his sloth, his cheapness, his
+                    wholesale habitualness, his slatternly ostentation. These return to him and
+                    wreak upon him their dull revenges. What the tyranny really had grown to can be
+                    gauged nowhere so well as in country lodgings, where the most ordinary things of
+                    design and decoration have sifted down and gathered together, so that foolish
+                    ornament gains a cumulative force and achieves a conspicuous commonness. Stem
+                    and petal and leaf—the fluent forms that a man has not by heart but certainly by
+                    rote—are woven, printed, cast, and<pb n="23" xml:id="VAB7144-025"></pb> stamped
+                    wherever restlessness and insimplicity have feared to leave plain spaces. The
+                    most ugly of all imaginable rooms, which is probably the parlour of a farm-house
+                    arrayed for those whom Americans call summer-boarders, is beset with flowers. It
+                    blooms, a dry, woollen, papery, cast-iron garden. The floor flourishes with
+                    blossoms adust, poorly conventionalised into a kind of order; the table-cover is
+                    ablaze with a more realistic florescence; the wall-paper is set with bunches;
+                    the rigid machine-lace curtain is all of roses and lilies in its very
+                    construction, over the muslin blinds an impotent sprig is scattered. In the
+                    worsted rosettes of the bell-ropes, in the plaster picture-frames, in the
+                    painted tea-tray and on the cups, in the pediment of the sideboard, in the
+                    ornament that crowns the barometer, in the finials of sofa and arm-chair, in the
+                    finger-plates of the ‘grained’ door, is to be seen the ineffectual portrait or
+                    to be traced the stale inspiration of the flower. And what is this bossiness
+                    around the grate but some blunt, black-leaded garland? The recital is wearisome,
+                    but the retribution of the flower is precisely weariness. It is the persecution
+                    of man, the haunting of his trivial visions,<pb n="24" xml:id="VAB7144-026"></pb>
+                    and the oppression of his inconsiderable brain.</p>
+                <p>The man so possessed suffers the lot of the weakling—subjection to the smallest
+                    of the things he has abused. The designer of cheap patterns is no more
+                    inevitably ridden by the flower than is the vain and transitory author by the
+                    phrase. But I had rather learn my decoration of the Japanese, and place against
+                    the blank wall one pot plain from the wheel, holding one singular branch in
+                    blossom, in the attitude and accident of growth. And I could wish abstention to
+                    exist, and even to be evident, in my words. In literature as in all else man
+                    merits his subjection to trivialities by a kind of economical greed. A condition
+                    for using justly and gaily any decoration would seem to be a certain reluctance.
+                    Ornament—strange as the doctrine sounds in a world decivilised—was in the
+                    beginning intended to be something jocund; and jocundity was never to be
+                    achieved but by postponement, deference, and modesty. Nor can the prodigality of
+                    the meadows in May be quoted in dispute. For Nature has something even more
+                    severe than moderation: she has an innumerable singleness. Her butter-cup
+                    meadows are not<pb n="25" xml:id="VAB7144-027"></pb> prodigal; they show multitude,
+                    but not multiplicity, and multiplicity is exactly the disgrace of decoration.
+                    Who has ever multiplied or repeated his delights? or who has ever gained the
+                    granting of the most foolish of his wishes—the prayer for reiteration? It is a
+                    curious slight to generous Fate that man should, like a child, ask for one thing
+                    many times. Her answer every time is a resembling but new and single gift; until
+                    the day when she shall make the one tremendous difference among her gifts—and
+                    make it perhaps in secret—by naming one of them the ultimate. What, for novelty,
+                    what, for singleness, what, for separateness, can equal the last? Of many
+                    thousand kisses the poor last—but even the kisses of your mouth are all
+                    numbered.</p>
+            </div>
+            <pb n="26" xml:id="VAB7144-028"></pb>
+            <div type="chapter">
+                <head>UNSTABLE EQUILIBRIUM</head>
+                <p><hi>IT</hi> is principally for the sake of the leg that a change in the dress of
+                    man is so much to be desired. The leg, completing as it does the form of man,
+                    should make a great part of that human scenery which is at least as important as
+                    the scenery of geological structure, or the scenery of architecture, or the
+                    scenery of vegetation, but which the lovers of mountains and the preservers of
+                    ancient buildings have consented to ignore. The leg is the best part of the
+                    figure, inasmuch as it has the finest lines and therewith those slender,
+                    diminishing forms which, coming at the base of the human structure, show it to
+                    be a thing of life by its unstable equilibrium. A lifeless structure is in
+                    stable equilibrium; the body, springing, poised, upon its fine ankles and narrow
+                    feet, never stands without implying and expressing life. It is the leg that
+                    first suggested<pb n="27" xml:id="VAB7144-029"></pb> the phantasy of flight. We
+                    imagine wings to the figure that is erect upon the vital and tense legs of man;
+                    and the herald Mercury, because of his station, looks new-lighted. All this is
+                    true of the best leg, and the best leg is the man's. That of the young child, in
+                    which the Italian schools of painting delighted, has neither movement nor
+                    supporting strength. In the case of the woman's figure it is the foot, with its
+                    extreme proportional smallness, that gives the precious instability, the spring
+                    and balance that are so organic. But man should no longer disguise the long
+                    lines, the strong forms, in those lengths of piping or tubing that are of all
+                    garments the most stupid. Inexpressive of what they clothe as no kind of
+                    concealing drapery could ever be, they are neither implicitly nor explicitly
+                    good raiment. It is hardly possible to err by violence in denouncing them. Why,
+                    when a bad writer is praised for ‘clothing his thought,’ it is to modern raiment
+                    that one's nimble fancy flies—fain of completing the beautiful metaphor!</p>
+                <p>The human scenery: yes, costume could make a crowd something other than the mass
+                    of sooty colour—dark without depth—and the multiplication of undignified forms
+                    that fill<pb n="28" xml:id="VAB7144-030"></pb> the streets, and demonstrate, and
+                    strike, and listen to the democrat. For the undistinguished are very important
+                    by their numbers. These are they who make the look of the artificial world. They
+                    are man generalised; as units they inevitably lack something of interest; all
+                    the more have they cumulative effect. It would be well if we could persuade the
+                    average man to take on a certain human dignity in the clothing of his average
+                    body. Unfortunately he will be slow to be changed. And as to the poorer part of
+                    the mass, so wretched are their national customs—and the wretchedest of them all
+                    the wearing of other men's old raiment—that they must wait for reform until the
+                    reformed dress, which the reformers have not yet put on, shall have turned
+                    second-hand.</p>
+            </div>
+            <pb n="29" xml:id="VAB7144-031"></pb>
+            <div type="chapter">
+                <head>THE UNIT OF THE WORLD</head>
+                <p><hi>THE</hi> quarrel of Art with Nature goes on apace. The painters have long
+                    been talking of selecting, then of rejecting, or even, with Mr. Whistler, of
+                    supplanting. And then Mr. Oscar Wilde, in the witty and delicate series of
+                    inversions which he headed ‘The Decay of Lying,’ declared war with all the
+                    irresponsibility naturally attending an act so serious. He seems to affirm that
+                    Nature is less proportionate to man than is architecture; that the house is
+                    built and the sofa is made measurable by the unit measure of the body; but that
+                    the landscape is set to some other scale. ‘I prefer houses to the open air. In a
+                    house we all feel of the proper proportions. Egotism itself, which is so
+                    necessary to a proper sense of human dignity, is absolutely the result of indoor
+                    life.’ Nevertheless, before it is too<pb n="30" xml:id="VAB7144-032"></pb> late, let
+                    me assert that though nature is not always clearly and obviously made to man's
+                    measure, he is yet the unit by which she is measurable. The proportion may be
+                    far to seek at times, but the proportion is there. Man's farms about the lower
+                    Alps, his summer pastures aloft, have their relation to the whole construction
+                    of the range; and the range is great because it is great in regard to the
+                    village lodged in a steep valley in the foot hills. The relation of flower and
+                    fruit to his hands and mouth, to his capacity and senses (I am dealing with
+                    size, and nothing else), is a very commonplace of our conditions in the world.
+                    The arm of man is sufficient to dig just as deep as the harvest is to be sown.
+                    And if some of the cheerful little evidences of the more popular forms of
+                    teleology are apt to be baffled, or indefinitely postponed, by the retorts that
+                    suggest themselves to the modern child, there remains the subtle and
+                    indisputable witness borne by art itself: the body of man composes with the mass
+                    and the detail of the world. The picture is irrefutable, and the picture
+                    arranges the figure amongst its natural accessories in the landscape, and would
+                    not have them otherwise.</p>
+                <pb n="31" xml:id="VAB7144-033"></pb>
+                <p>But there is one conspicuous thing in the world to which man has not served as a
+                    unit of proportion, and that one thing is a popularly revered triumph of that
+                    very art of architecture in which Mr. Oscar Wilde has confidence for keeping
+                    things in scale. Human ingenuity in designing St. Peter's on the Vatican, has
+                    achieved this one exception to the universal harmony—a harmony enriched by
+                    discords, but always on one certain scale of notes—which the body makes with the
+                    details of the earth. It is not in the landscape, where Mr. Oscar Wilde has too
+                    rashly looked for contempt and contumely, but in the art he holds precious as
+                    the minister to man's egotism, that man's Ego is defied. St. Peter's is not
+                    necessarily too large (though on other grounds its size might be liable to
+                    correction); it is simply out of relation to the most vital thing on the
+                    earth—the thing which has supplied some secret rod to measure the waves withal,
+                    and the whales, the sea-wall cliffs, the ears of wheat, the cedar-branches,
+                    pines and diamonds and apples. Now, Emerson would certainly not have felt the
+                    soft shock and stimulus of delight to which he confesses himself to be liable at
+                    the first touch of certain phrases, had<pb n="32" xml:id="VAB7144-034"></pb> not the
+                    words in every case enclosed a promise of further truth and of a second
+                    pleasure. One of these swift and fruitful experiences visited him with the
+                    saying—grown popular through him—that an architect should have a knowledge of
+                    anatomy. There is assuredly a germ and a promise in the phrase. It delights us,
+                    first, because it seems to recognise the organic, as distinct from the merely
+                    constructive, character of finely civilised architecture; and next, it persuades
+                    us that Vitruvius had in truth discovered the key to size—the unit that is
+                    sometimes so obscurely, yet always so absolutely, the measure of what is great
+                    and small among things animate and inanimate. And in spite of themselves the
+                    architects of St. Peter's were constrained to take something from man; they
+                    refused his height for their scale, but they tried to use his shape for their
+                    ornament. And so in the blankest dearth of fancy that ever befel architect or
+                    builder they imagined human beings bigger than the human beings of experience;
+                    and by means of these, carved in stone and inlaid in mosaic, they set up a
+                    relation of their own. The basilica was related to the colossal figure (as<pb n="33" xml:id="VAB7144-035"></pb> a church more wisely measured would have been
+                    to living man), and so ceased to be large; and nothing more important was
+                    finally achieved than transposal of the whole work into another scale of
+                    proportions—a scale in which the body of man was not the unit. The pile of
+                    stones that make St. Peter's is a very little thing in comparison with Soracte;
+                    but man, and man's wife, and the unequal statures of his children, are in touch
+                    with the structure of the mountain rather than with that of the church which has
+                    been conceived without reference to the vital and fundamental rule of his
+                    inches.</p>
+                <p>Is there no egotism, ministering to his dignity, that man, having the law of the
+                    organism of the world written in his members, can take with him, out of the room
+                    that has been built to accord with him, into the landscape that stands only a
+                    little further away? He has deliberately made the smoking chair and the table;
+                    there is nothing to surprise him in their ministrations. But what profounder
+                    homage is rendered by the multitudinous Nature going about the interests and the
+                    business of which he knows so little, and yet throughout confessing him! His
+                        eyes<pb n="34" xml:id="VAB7144-036"></pb> have seen her and his ears have heard,
+                    but it would never have entered into his heart to conceive her. His is not the
+                    fancy that could have achieved these woods, this little flush of summer from the
+                    innumerable flowering of grasses, the cyclic recreation of seasons. And yet he
+                    knows that he is imposed upon all he sees. His stature gives laws. His labour
+                    only is needful—not a greater strength. And the sun and the showers are made
+                    sufficient for him. His furniture must surely be adjudged to pay him but a
+                    coarse flattery in comparison with the subjection, yet the aloofness, of all
+                    this wild world. This is no flattery. The grass is lumpy, as Mr. Oscar Wilde
+                    remarks with truth: Nature is not man's lacquey, and has no pre-occupation about
+                    his more commonplace comforts. These he gives himself indoors; and who prizes,
+                    with any self-respect, the things carefully provided by self-love? But when that
+                        <foreign xml:lang="fre">farouche</foreign> Nature, who has never spoken to
+                    him, and to whom he has never had the opportunity of hinting his wishes or his
+                    tastes—when she reveals the suggestions of his form and the desire of his eyes,
+                    and amongst her numberless purposes lets him surprise in her the purpose to
+                        accord<pb n="35" xml:id="VAB7144-037"></pb> with him, and lets him suspect
+                    further harmonies which he has not yet learnt to understand—then man becomes
+                    conscious of having received a token from her lowliness, and a favour from her
+                    loveliness, compared with which the care wherewith his tailor himself has fitted
+                    him might leave his gratitude cool.</p>
+            </div>
+            <pb n="36" xml:id="VAB7144-038"></pb>
+            <div type="chapter">
+                <head>BY THE RAILWAY SIDE</head>
+                <p><hi>MY</hi> train drew near to the Via Reggio platform on a day between two of
+                    the harvests of a hot September; the sea was burning blue, and there were a
+                    sombreness and a gravity in the very excesses of the sun as his fires brooded
+                    deeply over the serried, hardy, shabby, seaside ilex-woods. I had come out of
+                    Tuscany and was on my way to the Genovesato: the steep country with its
+                    profiles, bay by bay, of successive mountains grey with olive-trees, between the
+                    flashes of the Mediterranean and the sky; the country through the which there
+                    sounds the twanging Genoese language, a thin Italian mingled with a little
+                    Arabic, more Portuguese, and much French. I was regretful at leaving the elastic
+                    Tuscan speech, canorous in its vowels set in emphatic <emph>l's</emph> and
+                        <emph>m's</emph> and the vigorous soft spring of the double consonants. But
+                    as the train arrived its noises<pb n="37" xml:id="VAB7144-039"></pb> were drowned by
+                    a voice declaiming in the tongue I was not to hear again for months—good
+                    Italian. The voice was so loud that one looked for the audience: Whose ears was
+                    it seeking to reach by the violence done to every syllable, and whose feelings
+                    would it touch by its insincerity? The tones were insincere, but there was
+                    passion behind them; and most often passion acts its own true character poorly,
+                    and consciously enough to make good judges think it a mere counterfeit. Hamlet,
+                    being a little mad, feigned madness. It is when I am angry that I pretend to be
+                    angry, so as to present the truth in an obvious and intelligible form. Thus even
+                    before the words were distinguishable it was manifest that they were spoken by a
+                    man in serious trouble who had false ideas as to what is convincing in
+                    elocution.</p>
+                <p>When the voice became audibly articulate, it proved to be shouting blasphemies
+                    from the broad chest of a middle-aged man—an Italian of the type that grows
+                    stout and wears whiskers. The man was in <foreign xml:lang="fre">bourgeois</foreign> dress, and he stood with his hat off in front of the
+                    small station building, shaking his thick fist at the sky. No one was on the
+                    platform with him except the railway officials, who seemed<pb n="38" xml:id="VAB7144-040"></pb> in doubt as to their duties in the matter, and two
+                    women. Of one of these there was nothing to remark except her distress. She wept
+                    as she stood at the door of the waiting-room. Like the second woman, she wore
+                    the dress of the shopkeeping class throughout Europe, with the local black lace
+                    veil in place of a bonnet over her hair. It is of the second woman—O unfortunate
+                    creature!—that this record is made—a record without sequel, without consequence;
+                    but there is nothing to be done in her regard except so to remember her. And
+                    thus much I think I owe after having looked, from the midst of the negative
+                    happiness that is given to so many for a space of years, at some minutes of her
+                    despair. She was hanging on the man's arm in her entreaties that he would stop
+                    the drama he was enacting. She had wept so hard that her face was disfigured.
+                    Across her nose was the dark purple that comes with overpowering fear. Haydon
+                    saw it on the face of a woman whose child had just been run over in a London
+                    street. I remembered the note in his journal as the woman at Via Reggio, in her
+                    intolerable hour, turned her head my way, her sobs lifting it. She was afraid
+                    that the man would throw <choice>
+                        <orig>him-</orig>
+                        <reg>himself</reg>
+                    </choice><pb n="39" xml:id="VAB7144-041"></pb> self under the train. She was afraid
+                    that he would be damned for his blasphemies; and as to this her fear was mortal
+                    fear. It was horrible, too, that she was humpbacked and a dwarf.</p>
+                <p>Not until the train drew away from the station did we lose the clamour. No one
+                    had tried to silence the man or to soothe the woman's horror. But has any one
+                    who saw it forgotten her face? To me for the rest of the day it was a sensible
+                    rather than a merely mental image. Constantly a red blur rose before my eyes for
+                    a background, and against it appeared the dwarf's head, lifted with sobs, under
+                    the provincial black lace veil. And at night what emphasis it gained on the
+                    boundaries of sleep! Close to my hotel there was a roofless theatre crammed with
+                    people, where they were giving Offenbach. The operas of Offenbach still exist in
+                    Italy, and the little town was placarded with announcements of <bibl><title>La Bella
+                        Elena</title></bibl>. The peculiar vulgar rhythm of the music jigged audibly through
+                    half the hot night, and the clapping of the town's-folk filled all its pauses.
+                    But the persistent noise did but accompany, for me, the persistent vision of
+                    those three figures at the Via Reggio station in the profound sunshine of the
+                    day.</p>
+            </div>
+            <pb n="40" xml:id="VAB7144-042"></pb>
+            <div type="chapter">
+                <head>POCKET VOCABULARIES</head>
+                <p><hi>A</hi> serviceable substitute for style in literature has been found in such
+                    a collection of language ready for use as may be likened to a portable
+                    vocabulary. It is suited to the manners of a day that has produced
+                    salad-dressing in bottles, and many other devices for the saving of processes.
+                    Fill me such a wallet full of ‘graphic’ things, of ‘quaint’ things and ‘weird,’
+                    of ‘crisp’ or ‘sturdy’ Anglo-Saxon, of the material for ‘word-painting’ (is not
+                    that the way of it?), and it will serve the turn. Especially did the Teutonic
+                    fury fill full these common little hoards of language. It seemed, doubtless, to
+                    the professor of the New Literature, that if anything could convince him of his
+                    own success it must be the energy of his Teutonisms and his avoidance of languid
+                    Latin derivatives, fit only for the pedants of the<pb n="41" xml:id="VAB7144-043"></pb> eighteenth century. Literature doubtless is made of
+                    words. What then is needful, he seems to ask, besides a knack of beautiful
+                    words? Unluckily for him, he has achieved, not style, but slang. Unluckily for
+                    him, words are not style, phrases are not style. ‘The man is style.’ O good
+                    French language, cunning and good, that lets me read the sentence in obverse or
+                    converse as I will! And I read it as declaring that the whole man, the very
+                    whole of him, is his style. The literature of a man of letters worthy the name
+                    is rooted in all his qualities, with little fibres running invisibly into the
+                    smallest qualities he has. He who is not a man of letters, simply is not one; it
+                    is not too audacious a paradox to affirm that doing will not avail him who fails
+                    in being. ‘Lay your deadly doing down,’ sang once some old hymn known to
+                    Calvinists. Certain poets, a certain time ago, ransacked the language for words
+                    full of life and beauty, made a vocabulary of them, and out of wantonness wrote
+                    them to death. To change somewhat the simile, they scented out a word—an
+                    earlyish word, by preference—ran it to earth, unearthed it, dug it out, and
+                    killed it. And then their followers bagged it. The very<pb n="42" xml:id="VAB7144-044"></pb> word that lives, ‘new every morning,’ miraculously
+                    new, in the literature of a man of letters, they killed and put into their bag.
+                    And, in like manner, the emotion that should have caused the word is dead for
+                    those, and for those only, who abuse its expression. For the maker of a portable
+                    vocabulary is not content to turn his words up there: he turns up his feelings
+                    also, alphabetically or otherwise. Wonderful how much sensibility is at hand in
+                    such round words as the New Literature loves. Do you want a generous emotion?
+                    Pull forth the little language. Find out moonshine, find out moonshine!</p>
+                <p>Take, as an instance, Mr. Swinburne's ‘hell.’ There is, I fear, no doubt whatever
+                    that Mr. Swinburne has put his ‘hell’ into a vocabulary, with the inevitable
+                    consequences to the word. And when the minor men of his school have occasion for
+                    a ‘hell’ (which may very well happen to any young man practising authorship), I
+                    must not be accused of phantasy if I say that they put their hands into Mr.
+                    Swinburne's vocabulary and pick it. These vocabularies are made out of vigorous
+                    and blunt language. ‘What hempen homespuns have we swaggering here?’ Alas, they
+                        are<pb n="43" xml:id="VAB7144-045"></pb> homespuns from the factory,
+                    machine-made in uncostly quantities. Obviously, power needs to make use of no
+                    such storage. The property of power is to use phrases, whether strange or
+                    familiar, as though it created them. But even more than lack of power is lack of
+                    humour the cause of all the rankness and the staleness, of all the Anglo-Saxon
+                    of commerce, of all the weary ‘quaintness’—that quaintness of which one is moved
+                    to exclaim with Cassio: ‘Hither comes the bauble!’ Lack of a sense of humour
+                    betrays a man into that perpetual too-much whereby he tries to make amends for a
+                    currency debased. No more than any other can a witty writer dispense with a
+                    sense of humour. In his moments of sentiment the lack is distressing; in his
+                    moments of wit it is at least perceptible. A sense of humour cannot be always
+                    present, it may be urged. Why, no; it is the lack of it that is—importunate.
+                    Other absences, such as the absence of passion, the absence of delicacy, are, if
+                    grievous negatives, still mere negatives. These qualities may or may not be
+                    there at call, ready for a summons; we are not obliged to know; we are not
+                    momentarily aware, unless they ought to be in action, whether their action is
+                    possible. But<pb n="44" xml:id="VAB7144-046"></pb> want of power and want of a sense
+                    of the ridiculous: these are lacks wherefrom there is no escaping, deficiencies
+                    that are all-influential, defects that assert themselves, vacancies that
+                    proclaim themselves, absences from the presence whereof there is no flying; what
+                    other paradoxes can I adventure? Without power—no style. Without a possible
+                    humour,—no style. The weakling has no confidence in himself to keep him from
+                    grasping at words that he fancies hold within them the true passions of the
+                    race, ready for the uses of his egoism. And with a sense of humour a man will
+                    not steal from a shelf the precious treasure of the language and put it in his
+                    pocket.</p>
+            </div>
+            <pb n="45" xml:id="VAB7144-047"></pb>
+            <div type="chapter">
+                <head>PATHOS</head>
+                <p><hi>A FUGITIVE</hi> writer wrote but lately on the fugitive page of a minor
+                    magazine: ‘For our part, the drunken tinker [Christopher Sly] is the most real
+                    personage of the piece, and not without some hints of the pathos that is worked
+                    out more fully, though by different ways, in Bottom and Malvolio.’ Has it indeed
+                    come to this? Have the Zeitgeist and the Weltschmerz and the other things
+                    compared to which ‘le spleen’ was gay, done so much for us? Is there to be no
+                    laughter left in literature free from the preoccupation of a sham real-life? So
+                    it would seem. Even what the great master has not shown us in his work, that
+                    your critic convinced of pathos is resolved to see in it. By the penetration of
+                    his intrusive sympathy he will come at it. It is of little use now to explain
+                    Snug the joiner<pb n="46" xml:id="VAB7144-048"></pb> to the audience: why, it is
+                    precisely Snug who stirs their emotions so painfully. Not the lion; they can see
+                    through that: but the Snug within, the human Snug. And Master Shallow has the
+                    Weltschmerz in that latent form which is the more appealing; and discouraging
+                    questions arise as to the end of old Double; and Argan in his nightcap is the
+                    tragic figure of Monomania; and human nature shudders at the petrifaction of the
+                    intellect of Mr. F.'s aunt. <foreign xml:lang="ita">Et patati, et
+                        patata</foreign>.</p>
+                <p>It may be only too true that the actual world is ‘with pathos delicately edged.’
+                    For Malvolio living we should have had living sympathies: so much aspiration, so
+                    ill-educated a love of refinement; so unarmed a credulity, noblest of
+                    weaknesses, betrayed for the laughter of a chambermaid. By an actual Bottom the
+                    weaver our pity might be reached for the sake of his single self-reliance, his
+                    fancy and resource condemned to burlesque and ignominy by the niggard doom of
+                    circumstance. But is not life one thing and is not art another? Is it not the
+                    privilege of literature to make selection and to treat things singly, without
+                    the after-thoughts of life, without the troublous completeness of the<pb n="47" xml:id="VAB7144-049"></pb> many-sided world? Is not Shakespeare, for this
+                    reason, our refuge? Fortunately unreal is his world when he will have it so; and
+                    there we may laugh with open heart at a grotesque man: without misgiving,
+                    without remorse, without reluctance. If great creating Nature has not assumed
+                    for herself she has assuredly secured to the great creating poet the right of
+                    partiality, of limitation, of setting aside and leaving out, of taking one
+                    impression and one emotion as sufficient for the day. Art and Nature are
+                    separate, complementary; in relation, not in confusion, with one another. And
+                    all this officious cleverness in seeing round the corner, as it were, of a thing
+                    presented by literary art in the flat—(the borrowing of similes from other arts
+                    is of evil tendency; but let this pass, as it is apt)—is but another sign of the
+                    general lack of a sense of the separation between Nature and the sentient mirror
+                    in the mind. In some of his persons, indeed, Shakespeare is as Nature herself,
+                    all-inclusive; but in others—and chiefly in comedy—he is partial, he is
+                    impressionary, he refuses to know what is not to his purpose, he is an artist.
+                    And in that gay, wilful world it is that he gives us—or used to give us, for<pb n="48" xml:id="VAB7144-050"></pb> even the world is obsolete—the pleasure of
+                        <foreign xml:lang="fre">oubliance</foreign>.</p>
+                <p>Now this fugitive writer has not been so swift but that I have caught him a clout
+                    as he went. Yet he will do it again; and those like-minded will assuredly also
+                    continue to show how much more completely human, how much more sensitive, how
+                    much more responsible, is the art of the critic than the world has ever dreamt
+                    till now. And, superior in so much, they will still count their superior weeping
+                    as the choicest of their gifts. And Lepidus, who loves to wonder, can have no
+                    better subject for his admiration than the pathos of the time. It is bred now of
+                    your mud by the operation of your sun. 'Tis a strange serpent; and the tears of
+                    it are wet.</p>
+            </div>
+            <pb n="49" xml:id="VAB7144-051"></pb>
+            <div type="chapter">
+                <head>THE POINT OF HONOUR</head>
+                <p><hi>NOT</hi> without significance is the Spanish nationality of Velasquez. In
+                    Spain was the Point put upon Honour; and Velasquez was the first Impressionist.
+                    As an Impressionist he claimed, implicity if not explicity, a whole series of
+                    delicate trusts in his trustworthiness; he made an appeal to the confidence of
+                    his peers; he relied on his own candour and asked that the candid should rely
+                    upon him; he kept the chastity of art when other masters were content with its
+                    honesty, and when others saved artistic conscience he safeguarded the point of
+                    honour. Contemporary masters more or less proved their position, and convinced
+                    the world by something of demonstration; the first Impressionist simply asked
+                    that his word should be accepted. To those who would not take his word he offers
+                    no bond. To those who will, he grants the distinction<pb n="50" xml:id="VAB7144-052"></pb> of a share in his responsibility. Somewhat unrefined,
+                    in comparison to his lofty and simple claim to be believed on a suggestion, is
+                    the commoner painter's production of his credentials, his appeal to the
+                    sanctions of ordinary experience, his self-defence against the suspicion of
+                    making irresponsible mysteries in art. ‘You can see for yourself,’ the lesser
+                    man seems to say to the world, ‘thus things are, and I render them in such
+                    manner that your intelligence may be satisfied.’ This is an appeal to average
+                    experience—at the best the cumulative experience; and with the average, or with
+                    the sum, art cannot deal without derogation. The Spaniard seems to say: ‘Thus
+                    things are in my pictorial sight. Trust me, I apprehend them so.’ We are not
+                    excluded from his counsels, but we are asked to attribute a certain authority to
+                    him, master of the craft as he is, master of that art of seeing pictorially
+                    which is the beginning and not far from the end—not far short of the whole—of
+                    the art of painting. So little indeed are we shut out from the mysteries of a
+                    great Impressionist's impression that Velasquez requires us to be in some degree
+                    his colleagues. Thus may each of us to whom he<pb n="51" xml:id="VAB7144-053"></pb>
+                    appeals take praise from the praised: He leaves my educated eyes to do a little
+                    of the work. He respects my responsibility no less—though he respects it less
+                    explicitly—than I do his. What he allows me would not be granted by a meaner
+                    master. If he does not hold himself bound to prove his own truth, he returns
+                    thanks for my trust. It is as though he used his countrymen's courteous
+                    hyperbole and called his house my own. In a sense of the most noble hostship he
+                    does me the honours of his picture.</p>
+                <p>Because Impressionism is so free, therefore is it doubly bound. Because there is
+                    none to arraign it, it is a thousand times responsible. To undertake this art
+                    for the sake of its privileges without confessing its obligations—or at least
+                    without confessing them up to the point of honour—is to take a vulgar freedom:
+                    to see immunities precisely where there are duties, and an advantage where there
+                    is a bond. A very mob of men have taken Impressionism upon themselves in this
+                    our later day. It is against all probabilities that more than a few among these
+                    have within them the point of honour. In their galleries we are beset with a dim
+                    distrust. And to distrust is<pb n="52" xml:id="VAB7144-054"></pb> more humiliating
+                    than to be distrusted. How many of these landscape-painters, deliberately rash,
+                    are painting the truth of their own impressions? An ethical question as to
+                    loyalty is easily answered; truth and falsehood as to fact are, happily for the
+                    intelligence of the common conscience, not hard to divide. But when the <foreign xml:lang="lat">dubium</foreign> concerns not fact but artistic truth, can
+                    the many be sure that their sensitiveness, their candour, their scruple, their
+                    delicate equipoise of perceptions, the vigilance of their apprehension, are
+                    enough? Now Impressionists of late have told us things as to their
+                    impressions—as to the effect of things upon the temperament of this man and upon
+                    the mood of that—which should not be asserted except on the artistic point of
+                    honour. The majority can tell ordinary truth, but they should not trust
+                    themselves for truth extraordinary. They can face the general judgment, but they
+                    should hesitate to produce work that appeals to the last judgment, which is the
+                    judgment within. There is too much reason to divine that a certain number of
+                    those who aspire to derive from the greatest of masters have no temperaments
+                    worth speaking of, no point of view worth seizing,<pb n="53" xml:id="VAB7144-055"></pb> no vigilance worth awaiting, no mood worth waylaying.
+                    And to be, <foreign xml:lang="fre">de parti pris</foreign>, an Impressionist
+                    without these! O Velasquez! Nor is literature quite free from a like reproach in
+                    her own things. An author, here and there, will make as though he had a word
+                    worth hearing—nay, worth over-hearing—a word that seeks to withdraw even while
+                    it is uttered; and yet what it seems to dissemble is all too probably a
+                    platitude. But obviously, literature is not—as is the craft and mystery of
+                    painting—so at the mercy of a half-imposture, so guarded by unprovable honour.
+                    For the art of painting is reserved that shadowy risk, that undefined salvation.
+                    May the gods guard us from the further popularising of Impressionism; for the
+                    point of honour is the simple secret of the few.</p>
+            </div>
+            <pb n="54" xml:id="VAB7144-056"></pb>
+            <div type="chapter">
+                <head>COMPOSURE</head>
+                <p><hi>TRIBULATION</hi>, Immortality, the Multitude: what remedy of composure do
+                    these words bring for their own great disquiet! Without the remoteness of the
+                    Latinity the thought would come too close and shake too cruelly. In order to the
+                    sane endurance of the intimate trouble of the soul an aloofness of language is
+                    needful. Johnson feared death. Did his noble English control and postpone the
+                    terror? Did it keep the fear at some courteous, deferent distance from the
+                    centre of that human heart, in the very act of the leap and lapse of mortality?
+                    Doubtless there is in language such an educative power. Speech is a school.
+                    Every language is a persuasion, an induced habit, an instrument which receives
+                    the note indeed but gives the tone. Every language imposes a quality, teaches a
+                    temper, proposes a way,<pb n="55" xml:id="VAB7144-057"></pb> bestows a tradition:
+                    this is the tone—the voice—of the instrument. Every language, by counter-change,
+                    replies to the writer's touch or breath his own intention, articulate: this is
+                    his note. Much has always been said, many things to the purpose have been
+                    thought, of the power and the responsibility of the note. Of the legislation and
+                    influence of the tone I have been led to think by comparing the tranquillity of
+                    Johnson and the composure of Canning with the stimulated and close emotion, the
+                    interior trouble, of those writers who have entered as disciples in the school
+                    of the more Teutonic English.</p>
+                <p>For if every language be a school, more significantly and more educatively is a
+                    part of a language a school to him who chooses that part. Few languages offer
+                    the choice. The fact that a choice is made implies the results and fruits of a
+                    decision. The French author is without these. They are of all the heritages of
+                    the English writer the most important. He receives a language of dual
+                    derivation. He may submit himself to either University, whither he will take his
+                    impulse and his character, where he will leave their influence, and whence he
+                    will accept their education. The<pb n="56" xml:id="VAB7144-058"></pb> Frenchman has
+                    certainly a style to develop within definite limits; but he does not subject
+                    himself to suggestions tending mainly hitherwards or thitherwards, to currents
+                    of various race within one literature. Such a choice of subjection is the
+                    singular opportunity of the Englishman. I do not mean to ignore the necessary
+                    mingling. Happily that mingling has been done once for all for us all. Nay, one
+                    of the most charming things that a master of English can achieve is the
+                    repayment of the united teaching by linking their results so exquisitely in his
+                    own practice, that words of the two schools are made to meet each other with a
+                    surprise and delight that shall prove them at once gayer strangers, and sweeter
+                    companions, than the world knew they were. Nevertheless there remains the
+                    liberty of choice as to which school of words shall have the place of honour in
+                    the great and sensitive moments of an author's style: which school shall be used
+                    for conspicuousness, and which for multitudinous service. And the choice being
+                    open, the perturbation of the pulses and impulses of so many hearts quickened in
+                    thought and feeling in this day suggests to me a deliberate return to the
+                    recollectedness of<pb n="57" xml:id="VAB7144-059"></pb> the more tranquil language.
+                    ‘Doubtless there is a place of peace.’</p>
+                <p>A place of peace, not of indifference. It is impossible not to charge some of the
+                    moralists of the last century with an indifference into which they educated
+                    their platitudes and into which their platitudes educated them. Addison thus
+                    gave and took, until he was almost incapable of coming within arm's-length of a
+                    real or spiritual emotion. There is no knowing to what distance the removal of
+                    the ‘appropriate sentiment’ from the central soul might have attained but for
+                    the change and renewal in language, which came when it was needed. Addison had
+                    assuredly removed eternity far from the apprehension of the soul when his Cato
+                    hailed the ‘pleasing hope,’ the ‘fond desire;’ and the touch of war was distant
+                    from him who conceived his ‘repulsed battalions’ and his ‘doubtful battle.’ What
+                    came afterwards, when simplicity and nearness were restored once more, was
+                    doubtless journeyman's work at times. Men were too eager to go into the workshop
+                    of language. There were unreasonable raptures over the mere making of common
+                    words. ‘A hand-shoe! a finger-hat! a foreword! Beautiful!’ they cried; and
+                        for<pb n="58" xml:id="VAB7144-060"></pb> the love of German the youngest
+                    daughter of Chrysale herself might have consented to be kissed by a grammarian.
+                    It seemed to be forgotten that a language with all its construction visible is a
+                    language little fitted for the more advanced mental processes; that its images
+                    are material; and that, on the other hand, a certain spiritualising and
+                    subtilising effect of alien derivations is a privilege and an advantage
+                    incalculable—that to possess that half of the language within which Latin
+                    heredities lurk and Romanesque allusions are at play is to possess the state and
+                    security of a dead tongue, without the death.</p>
+                <p>But now I spoke of words encountering as gay strangers, various in origin,
+                    divided in race, within a master's phrase. The most beautiful and the most
+                    sudden of such meetings are of course in Shakespeare. ‘Superfluous kings,’ ‘A
+                    lass unparalleled,’ ‘Multitudinous seas:’ we needed not to wait for the
+                    eighteenth century or for the nineteenth to learn the splendour of such
+                    encounters, of such differences, of such nuptial unlikeness and union. But it is
+                    well that we should learn them afresh. And it is well, too, that we should not
+                    resist the rhythmic reaction bearing us now <choice>
+                        <orig>some-</orig>
+                        <reg>somewhat</reg>
+                    </choice><pb n="59" xml:id="VAB7144-061"></pb> what to the side of the Latin. Such a
+                    reaction is in some sort an ethical need for our day. We want to quell the
+                    exaggerated decision of monosyllables. We want the poise and the pause that
+                    imply vitality at times better than headstrong movement expresses it. And not
+                    the phrase only but the form of verse might render us timely service. The
+                    controlling couplet might stay with a touch a modern grief, as it ranged in
+                    order the sorrows of Canning for his son. But it should not be attempted without
+                    a distinct intention of submission on the part of the writer. The couplet
+                    transgressed against, trespassed upon, shaken off, is like a law outstripped,
+                    defied—to the dignity neither of the rebel nor of the rule. To Letters do we
+                    look now for the guidance and direction which the very closeness of the emotion
+                    taking us by the heart makes necessary. Shall not the Thing more and more, as we
+                    compose ourselves to literature, assume the honour, the hesitation, the leisure,
+                    the reconciliation of the Word?</p>
+            </div>
+            <pb n="60" xml:id="VAB7144-062"></pb>
+            <div type="chapter">
+                <head>DR. OLIVER WENDELL HOLMES</head>
+                <p><hi>IT</hi> is good to go, now and again—let the American phrase be
+                    permitted—‘back of’ some of our contemporaries. We never desired them as
+                    coëvals. We never wished to share an age with them; we share nothing else with
+                    them. And we deliver ourselves from them by passing, in literature, into the
+                    company of an author who wrote before their time, and yet is familiarly modern.
+                    To read Dr. Oliver Wendell Holmes, then, is to go behind the New Humorist—into a
+                    time before he was, or his Humour. Obviously we go in like manner behind many
+                    another, but the funny writer of the magazines is suggested because in reference
+                    to him our act has a special significance. We connect him with Dr. Holmes by a
+                    reluctant ancestry, by an impertinent descent. It may be objected that such a
+                    connection is but a trivial thing to<pb n="61" xml:id="VAB7144-063"></pb> attribute,
+                    as a conspicuous incident, to a man of letters. So it is. But the triviality has
+                    wide allusions. It is often a question which of several significant trivialities
+                    a critic shall choose in his communication with a reader who does not insist
+                    that all the grave things shall be told him. And, by the way, are we ever
+                    sufficiently grateful for that reader, whom the last few years have given to us,
+                    or to whom we have been given by the last few years? A trivial connexion has
+                    remote and negative issues. To go to Dr. Oliver Wendell Holmes's period is to
+                    get rid of many things; to go to himself is especially to get rid of the New
+                    Humour, yet to stand at its unprophetic source. And we love such authors as
+                    Dickens and this American for their own sake, refusing to be aware of their
+                    corrupt following. We would make haste to ignore their posterity, and to assure
+                    them that we absolve them from any fault of theirs in the bastardy.</p>
+                <p>Humour is the most conspicuous thing in the world, which must explain why the
+                    little humour in <bibl><title>Elsie Venner</title></bibl> and the <bibl><title>Breakfast Table</title></bibl>
+                    series is not only the first thing the critic touches but the thing whereby he
+                    relates this author to his following and to the<pb n="62" xml:id="VAB7144-064"></pb>
+                    world. The young man John, Colonel Sprowle with his ‘social entertainment,’ the
+                    Landlady and her daughter, and the Poor Relation, almost make up the sum of the
+                    comic personages, and fifty per cent. of the things they say—no more—are good
+                    enough to remain after the bloom of their vulgarity has worn off. But that half
+                    is excellent, keen, jolly, temperate; and because of that temperance—the most
+                    stimulating and fecundating of qualities—the humour of it has set the literature
+                    of a hemisphere to the tune of mirth. Like Mr. Lowell's it was humour in
+                    dialect—not Irish dialect nor negro, but American; and it made New England aware
+                    of her comedy. Until then she had felt within herself that there was nothing to
+                    laugh at. ‘Nature is in earnest when she makes a woman,’ says Dr. Oliver Wendell
+                    Holmes. Rather, she takes herself seriously when she makes the average spiritual
+                    woman: as seriously as that woman takes herself when she makes a novel. And in a
+                    like mood Nature made New England and endowed her with purpose, with mortuary
+                    frivolities, with long views, with energetic provincialism.</p>
+                <p>If we remember best <bibl><title>The Wonderful One-<pb n="63" xml:id="VAB7144-065"></pb>
+                        Hoss Shay</title></bibl>, we do so in spite of the religious and pathetic motive of
+                    the greater part of Dr. Holmes's work, and of his fancy, which should be at
+                    least as conspicuous as his humour. It is fancy rather than imagination; but it
+                    is more perfect, more definite, more fit, than the larger art of imagery, which
+                    is apt to be vague, because it is intellectual and adult. No grown man makes
+                    quite so definite mental images as does a child; when the mind ages it thinks
+                    stronger thoughts in vaguer pictures. The young mind of Dr. Holmes has less
+                    intellectual imagination than intelligent fancy. For example: ‘If you ever saw a
+                    crow with a king-bird after him, you will get an image of a dull speaker and a
+                    lively listener. The bird in sable plumage flaps heavily along his
+                    straightforward course, while the other sails round him, over him, under him,
+                    leaves him, comes back again, tweaks out a black feather, shoots away once more,
+                    never losing sight of him, and finally reaches the crow's perch at the same time
+                    the crow does;’ but the comparison goes on after this at needless length, with
+                    explanations. Again: ‘That blessed clairvoyance which sees into things without
+                    opening them: that glorious licence<pb n="64" xml:id="VAB7144-066"></pb> which,
+                    having shut the door and driven the reporter from the keyhole, calls upon Truth,
+                    majestic Virgin! to get off from her pedestal and drop her academic
+                        <emph>poses</emph>.’ And this, of the Landlady: ‘She told me her story once;
+                    it was as if a grain that had been ground and bolted had tried to individualise
+                    itself by a special narrative.’ ‘The riotous tumult of a laugh, which, I take
+                    it, is the mob-law of the features.’ ‘Think of the Old World—that part of it
+                    which is the seat of ancient civilisation! ... A man cannot help marching in
+                    step with his kind in the rear of such a procession.’ ‘Young folk look on a face
+                    as a unit; children who go to school with any given little John Smith see in his
+                    name a distinctive appellation.’ And that exquisitely sensitive passage on the
+                    nervous outward movement and the inward tranquillity of the woods. Such things
+                    are the best this good author gives us, whether they go gay with metaphor, or be
+                    bare thoughts shapely with their own truth.</p>
+                <p>Part of the charm of Dr. Holmes's comment on life, and of the phrase wherein he
+                    secures it, arises from his singular vigilance. He has unpreoccupied and alert
+                        eyes.<pb n="65" xml:id="VAB7144-067"></pb> Strangely enough, by the way, this
+                    watchfulness is for once as much at fault as would be the slovenly observation
+                    of an ordinary man, in the description of a horse's gallop, ‘skimming along
+                    within a yard of the ground.’ Who shall trust a man's nimble eyes after this,
+                    when habit and credulity have taught him? Not an inch nearer the ground goes the
+                    horse of fact at a gallop than at a walk. But Dr. Holmes's vigilance helps him
+                    to somewhat squalid purpose in his studies of New England inland life. Much
+                    careful literature besides has been spent, after the example of <bibl><title>Elsie
+                        Venner</title></bibl> and the <bibl><title>Autocrat</title></bibl>, upon the cottage worldliness,
+                    the routine of abundant and common comforts achieved by a distressing household
+                    industry, the shrillness, the unrest, the best-parlour emulation, the ungraceful
+                    vanity, of Americans of the country-side and the country-town; upon their
+                    affections made vulgar by undemonstrativeness, and their consciences made vulgar
+                    by demonstrativeness—their kindness by reticence, and their religion by
+                    candour.</p>
+                <p>As for the question of heredity and of individual responsibility which Dr. Oliver
+                    Wendell Holmes proposes in <bibl><title>Elsie Venner</title></bibl>, it is strange that a man
+                    whom it had sincerely disquieted<pb n="66" xml:id="VAB7144-068"></pb> should present
+                    it—not in its own insolubility but—in caricature. As though the secrets of the
+                    inherited body and soul needed to be heightened by a bit of burlesque
+                    physiology! It is in spite of our protest against the invention of Elsie's
+                    horrible plight—a conception and invention which Dr. Oliver Wendell Holmes
+                    should feel to be essentially frivolous—that the serpent-maiden moves us deeply
+                    by her last ‘Good night,’ and by the gentle phrase that tells us ‘Elsie wept.’
+                    But now, if Dr. Holmes shall succeed in proposing the question of separate
+                    responsibility so as to convince every civilised mind of his doubts, there will
+                    be curiously little change wrought thereby in the discipline of the world. For
+                    Dr. Holmes incidentally lets us know that he cherishes and values the instinct
+                    of intolerance and destructiveness in presence of the cruel, the self-loving,
+                    and the false. Negation of separate moral responsibility, when that negation is
+                    tempered by a working instinct of intolerance and destructiveness, will deal
+                    with the felon, after all, very much in the manner achieved by the present
+                    prevalent judicialness, unscientific though it may be. And to say this is to
+                    confess that Dr. Oliver<pb n="67" xml:id="VAB7144-069"></pb> Wendell Holmes has
+                    worked, through a number of books, to futile purpose. His books are justified by
+                    something quite apart from his purpose.</p>
+            </div>
+            <pb n="68" xml:id="VAB7144-070"></pb>
+            <div type="chapter">
+                <head>JAMES RUSSELL LOWELL</head>
+                <p><hi>THE</hi> United States have produced authors not a few; among some names not
+                    the most famous, perhaps, on the popular tongue, are two or three names of their
+                    poets; but they have hardly given to the world more than one man of
+                    letters—judicious, judicial, disinterested, patient, happy, temperate,
+                    delighted. The colonial days, with the ‘painful’ divines who brought the parish
+                    into the wilderness; the experimental period of ambition and attempts at a
+                    literature that should be young as the soil and much younger than the race; the
+                    civil-war years, with a literature that matched the self-conscious and inexpert
+                    heroism of the army;—none of these periods of the national life could fitly be
+                    represented by a man of letters. And though James Russell Lowell was the
+                    contemporary of the ‘transcendentalists,’ and a man of middle age<pb n="69" xml:id="VAB7144-071"></pb> when the South seceded, and though indeed his fame as
+                    a Yankee humourist is to be discerned through the smoke and the dust, through
+                    the gravity and the burlesque, of the war, clear upon the other side, yet he was
+                    virtually the child of national leisure, of moderation and education, an
+                    American of the seventies and onwards. He represented the little-recognised fact
+                    that in ripeness, not in rawness, consists the excellence of Americans—an
+                    excellence they must be content to share with contemporary nations, however much
+                    it may cost them to abandon we know not what bounding ambitions which they have
+                    never succeeded in definitely describing in words. Mr. Lowell was a refutation
+                    of the fallacy that an American can never be American enough. He ranked with the
+                    students and the critics among all nations, and nothing marks his transatlantic
+                    conditions except, perhaps, that his scholarliness is a little anxious and would
+                    not seem so; he enriches his phrases busily, and yet would seem composed; he
+                    makes his allusions tread closely one upon another, and there is an assumed
+                    carelessness, and an ill-concealed vigilance, as to the effect their number and
+                    their erudition will produce upon<pb n="70" xml:id="VAB7144-072"></pb> the reader.
+                    The American sensitiveness takes with him that pleasantest of forms; his style
+                    confesses more than he thinks of the loveable weakness of national vanity, and
+                    asks of the stranger now and again, ‘Well, what do you think of my country?’</p>
+                <p>Declining, as I do, to separate style in expression from style in the thought
+                    that informs it—for they who make such a separation can hardly know that style
+                    should be in the very conception of a phrase, in its antenatal history, else the
+                    word is neither choice nor authentic—I recognise in Mr. Lowell, as a prose
+                    author, a sense of proportion and a delicacy of selection not surpassed in the
+                    critical work of this critical century. Those small volumes, <bibl><title>Among My
+                        Books</title></bibl> and <bibl><title>My Study Windows</title></bibl>, are all pure literature. A
+                    fault in criticism is the rarest thing in them. I call none to mind except the
+                    strange judgment on Dr. Johnson: ‘Our present concern with the Saxons is chiefly
+                    a literary one.... Take Dr. Johnson as an instance. The Saxon, as it appears to
+                    me, has never shown any capacity for art,’ and so forth. One wonders how Lowell
+                    read the passage on Iona, and the letter to Lord Chesterfield, and the Preface
+                        to<pb n="71" xml:id="VAB7144-073"></pb> the Dictionary without conviction of the
+                    great English writer's supreme art—art that declares itself and would not be
+                    hidden. But take the essay on Pope, that on Chaucer, and that on one Percival, a
+                    writer of American verse of whom English readers are not aware, and they prove
+                    Lowell to have been as clear in judging as he was exquisite in sentencing. His
+                    essay ‘On a Certain Condescension in Foreigners’ is famous, but an equal fame is
+                    due to ‘My Garden Acquaintance’ and ‘A Good Word for Winter.’ His talk about the
+                    weather is so full of wit that one wonders how prattlers at a loss for a topic
+                    dare attempt one so rich. The birds that nest in his syringas seem to be not his
+                    pensioners only, but his parishioners, so charmingly local, so intent upon his
+                    chronicle does he become when he is minded to play White of Selborne with a
+                    smile. And all the while it is the word that he is intent upon. You may trace
+                    his reading by some fine word that has not escaped him, but has been garnered
+                    for use when his fan has been quick to purge away the chaff of commonplace. He
+                    is thus fastidious and alert in many languages. You wonder at the delicacy of
+                    the sense whereby he perceives a<pb n="72" xml:id="VAB7144-074"></pb> choice rhyme
+                    in the Anglo-Norman of Marie de France or a clang of arms in the brief verse of
+                    Peire de Bergerac, or touches sensitively a word whereby Dante has transcended
+                    something sweet in Bernard de Ventadour, or Virgil somewhat noble in Homer. In
+                    his own use, and within his own English, he has the abstinence and the freshness
+                    of intention that keep every word new for the day's work. He gave to the
+                    language, and did not take from it; it gained by him, and lost not. There are
+                    writers of English now at work who almost convince us of their greatness until
+                    we convict them on that charge: they have succeeded at an unpardonable cost;
+                    they are glorified, but they have beggared the phrases they leave behind
+                    them.</p>
+                <p>Nevertheless Lowell was no poet. To accept his verse as a poet's would be to
+                    confess a lack of instinct, and there is no more grievous lack in a lover of
+                    poetry. Reason, we grant, makes for the full acceptance of his poems, and
+                    perhaps so judicial a mind as his may be forgiven for having trusted to reason
+                    and to criticism. His trust was justified—if such justification avails—by the
+                    admiration of fairly educated people who apparently hold<pb n="73" xml:id="VAB7144-075"></pb> him to have been a poet first, a humourist in the
+                    second place, and an essayist incidentally. It is hard to believe that he failed
+                    in instinct about himself. More probably he was content to forego it when he
+                    found the ode, the lyric, and the narrative verse all so willing. They made no
+                    difficulty, and he made none; why then are we reluctant to acknowledge the
+                    manifest stateliness of this verse and the evident grace of that, and the fine
+                    thought finely worded? Such reluctance justifies itself. Nor would I attempt to
+                    back it by the cheap sanctions of prophecy. Nay, it is quite possible that
+                    Lowell's poems may live; I have no commands for futurity. Enough that he
+                    enriched the present with the example of a scholarly, linguistic, verbal love of
+                    literature, with a studiousness full of heart.</p>
+            </div>
+            <pb n="74" xml:id="VAB7144-076"></pb>
+            <div type="chapter">
+                <head>DOMUS ANGUSTA</head>
+                <p><hi>THE</hi> narrow house is a small human nature compelled to a large human
+                    destiny, charged with a fate too great, a history too various, for its slight
+                    capacities. Men have commonly complained of fate; but their complaints have been
+                    of the smallness, not of the greatness, of the human lot. A disproportion—all in
+                    favour of man—between man and his destiny is one of the things to be taken for
+                    granted in literature: so frequent and so easy is the utterance of the habitual
+                    lamentation as to the trouble of a ‘vain capacity,’ so well explained has it
+                    ever been. <q>
+                        <l>‘Thou hast not half the power to do me harm</l>
+                        <l>That I have to be hurt,’</l>
+                    </q> discontented man seems to cry to Heaven, taking the words of the brave
+                    Emilia. But inarticulate has been the voice within the<pb n="75" xml:id="VAB7144-077"></pb> narrow house. Obviously it never had its poet. Little
+                    elocution is there, little argument or definition, little explicitness. And yet
+                    for every vain capacity we may assuredly count a thousand vain destinies, for
+                    every liberal nature a thousand liberal fates. It is the trouble of the wide
+                    house we hear of, clamorous of its disappointments and desires. The narrow house
+                    has no echoes; yet its pathetic shortcoming might well move pity. On that strait
+                    stage is acted a generous tragedy; to that inadequate soul is intrusted an
+                    enormous sorrow; a tempest of movement makes its home within that slender
+                    nature; and heroic happiness seeks that timorous heart.</p>
+                <p>We may, indeed, in part know the narrow house by its inarticulateness—not,
+                    certainly, its fewness of words, but its inadequacy and imprecision of speech.
+                    For, doubtless, right language enlarges the soul as no other power or influence
+                    may do. Who, for instance, but trusts more nobly for knowing the full word of
+                    his confidence? Who but loves more penetratingly for possessing the ultimate
+                    syllable of his tenderness? There is a ‘pledging of the word,’ in another sense
+                        than<pb n="76" xml:id="VAB7144-078"></pb> the ordinary sense of troth and
+                    promise. The poet pledges his word, his sentence, his verse, and finds therein a
+                    peculiar sanction. And I suppose that even physical pain takes on an edge when
+                    it not only enforces a pang but whispers a phrase. Consciousness and the word
+                    are almost as closely united as thought and the word. Almost—not quite; in spite
+                    of its inexpressive speech, the narrow house is aware and sensitive beyond, as
+                    it were, its poor power.</p>
+                <p>But as to the whole disparity between the destiny and the nature, we know it to
+                    be general. Life is great that is trivially transmitted; love is great that is
+                    vulgarly experienced. Death, too, is a heroic virtue; and to the keeping of us
+                    all is death committed: death, submissive in the indocile, modest in the
+                    fatuous, several in the vulgar, secret in the familiar. It is destructive
+                    because it not only closes but contradicts life. Unlikely people die. The one
+                    certain thing, it is also the one improbable. A dreadful paradox is perhaps
+                    wrought upon a little nature that is incapable of death and yet is constrained
+                    to die. That is a true destruction, and the thought of it is obscure.</p>
+                <pb n="77" xml:id="VAB7144-079"></pb>
+                <p>Happy literature corrects all this disproportion by its immortal pause. It does
+                    not bid us follow man or woman to an illogical conclusion. Mrs. Micawber never
+                    does desert Mr. Micawber. Considering her mental powers, by the way, an
+                    illogical conclusion for her would be manifestly inappropriate. Shakespeare,
+                    indeed, having seen a life whole, sees it to an end: sees it out, and Falstaff
+                    dies. More than Promethean was the audacity that, having kindled, quenched that
+                    spark. But otherwise the grotesque man in literature is immortal, and with
+                    something more significant than the immortality awarded to him in the sayings of
+                    rhetoric; he is predurable because he is not completed. His humours are
+                    strangely matched with perpetuity. But, indeed, he is not worthy to die; for
+                    there is something graver than to be immortal, and that is to be mortal. I
+                    protest I do not laugh at man or woman in the world. I thank my fellow-mortals
+                    for their wit, and also for the kind of joke that the French so pleasantly call
+                        <foreign xml:lang="fre">une joyeuseté</foreign>; these are to smile at. But
+                    the gay injustice of laughter is between me and the book.</p>
+                <p>That narrow house—there is sometimes a<pb n="78" xml:id="VAB7144-080"></pb> message
+                    from its living windows. Its bewilderment, its reluctance, its defect, show by
+                    moments from eyes that are apt to express none but common things. There are
+                    allusions unawares, involuntary appeals, in those brief glances. Far from me and
+                    from my friends be the misfortune of meeting such looks in reply to pain of our
+                    inflicting. To be clever and sensitive and to hurt the foolish and the
+                    stolid—wouldst thou do such a deed for all the world? Not I, by this heavenly
+                    light.</p>
+            </div>
+            <pb n="79" xml:id="VAB7144-081"></pb>
+            <div type="chapter">
+                <head>REJECTION</head>
+                <p><hi>SIMPLICITY</hi> is not virginal in the modern world. She has a penitential or
+                    a vidual singleness. We can conceive an antique world in which life, art, and
+                    letters were simple because of the absence of many things; for us now they can
+                    be simple only because of our rejection of many things. We are constrained to
+                    such a vigilance as will not let even a master's work pass unfanned and
+                    unpurged. Even among his phrases one shall be taken and the other left. For he
+                    may unawares have allowed the habitualness that besets this multitudinous life
+                    to take the pen from his hand and to write for him a page or a word; and
+                    habitualness compels our refusals. Or he may have allowed the easy impulse of
+                    exaggeration to force a sentence which the mere truth, sensitively and
+                    powerfully pausing, would well have become. Exaggeration<pb n="80" xml:id="VAB7144-082"></pb> has played a part of its own in human history. By
+                    depreciating our language it has stimulated change, and has kept the circulating
+                    word in exercise. Our rejection must be alert and expert to overtake
+                    exaggeration and arrest it. It makes us shrewder than we wish to be. And,
+                    indeed, the whole endless action of refusal shortens the life we could desire to
+                    live. Much of our resolution is used up in the repeated mental gesture of
+                    adverse decision. Our tacit and implicit distaste is made explicit, who shall
+                    say with what loss to our treasury of quietness? We are defrauded of our
+                    interior ignorance, which should be a place of peace. We are forced to confess
+                    more articulately than befits our convention with ourselves. We are hurried out
+                    of our reluctances. We are made too much aware. Nay, more: we are tempted to the
+                    outward activity of destruction; reviewing becomes almost inevitable. As for the
+                    spiritual life—O weary, weary act of refusal! O waste but necessary hours, vigil
+                    and wakefulness of fear! ‘We live by admiration’ only a shortened life who live
+                    so much in the iteration of rejection and repulse. And in the very touch of joy
+                    there hides I know not what ultimate denial;<pb n="81" xml:id="VAB7144-083"></pb> if
+                    not on one side, on the other. If joy is given to us without reserve, not so do
+                    we give ourselves to joy. We withhold, we close. Having denied many things that
+                    have approached us, we deny ourselves to many things. Thus does <foreign xml:lang="ita">il gran rifiuto</foreign> divide and rule our world.</p>
+                <p>Simplicity is worth the sacrifice; but all is not sacrifice. Rejection has its
+                    pleasures, the more secret the more unmeasured. When we garnish a house we
+                    refuse more furniture, and furniture more various, than might haunt the dreams
+                    of decorators. There is no limit to our rejections. And the unconsciousness of
+                    the decorators is in itself a cause of pleasure to a mind generous, forbearing,
+                    and delicate. When we dress, no fancy may count the things we will none of. When
+                    we write, what hinders that we should refrain from Style past reckoning? When we
+                    marry—. Moreover, if simplicity is no longer set in a world having the great and
+                    beautiful quality of fewness, we can provide an equally fair setting in the
+                    quality of refinement. And refinement is not to be achieved but by rejection.
+                    One who suggests to me that refinement is apt to be a mere negative has<pb n="82" xml:id="VAB7144-084"></pb> offered up a singular blunder in honour of
+                    robustiousness. Refinement is not negative, because it must be compassed by many
+                    negations. It is a thing of price as well as of value; it demands immolations,
+                    it exacts experience. No slight or easy charge, then, is committed to such of us
+                    as, having apprehension of these things, fulfil the office of exclusion. Never
+                    before was a time when derogation was always so near, a daily danger, or when
+                    the reward of resisting it was so great. The simplicity of literature, more
+                    sensitive, more threatened, and more important than other simplicities, needs a
+                    guard of honour, who shall never relax the good will nor lose the good heart of
+                    their intolerance.</p>
+            </div>
+            <pb n="83" xml:id="VAB7144-085"></pb>
+            <div type="chapter">
+                <head>THE LESSON OF LANDSCAPE</head>
+                <p><hi>THE</hi> landscape, like our literature, is apt to grow and to get itself
+                    formed under too luxurious ideals. This is the evil work of that <emph>little
+                        more</emph> which makes its insensible but persistent additions to styles,
+                    to the arts, to the ornaments of life—to nature, when unluckily man becomes too
+                    explicitly conscious of her beauty, and too deliberate in his arrangement of it.
+                    The landscape has need of moderation, of that fast-disappearing grace of
+                    unconsciousness, and, in short, of a return towards the ascetic temper. The
+                    English way of landowning, above all, has made for luxury. Naturally the country
+                    is fat. The trees are thick and round—a world of leaves; the hills are round;
+                    the forms are all blunt; and the grass is so deep as to have almost the effect
+                    of snow in smoothing off all points and curving away all abruptness. <choice>
+                        <orig>Eng-</orig>
+                        <reg>England</reg>
+                    </choice><pb n="84" xml:id="VAB7144-086"></pb> land is almost as blunt as a
+                    machine-made moulding or a piece of Early Victorian cast-iron work. And on all
+                    this we have, of set purpose, improved by our invention of the country park.
+                    There all is curves and masses. A little more is added to the greenness and the
+                    softness of the forest glade, and for increase of ornament the fat land is
+                    devoted to idleness. Not a tree that is not impenetrable, inarticulate. Thick
+                    soil below and thick growth above cover up all the bones of the land, which in
+                    more delicate countries show brows and hollows resembling those of a fine face
+                    after mental experience. By a very intelligible paradox, it is only in a
+                    landscape made up for beauty that beauty is so ill achieved. Much beauty there
+                    must needs be where there are vegetation and the seasons. But even the seasons,
+                    in park scenery, are marred by the <emph>little too much</emph>: too complete a
+                    winter, too emphatic a spring, an ostentatious summer, an autumn too
+                    demonstrative.</p>
+                <p>‘Seek to have less rather than more.’ It is a counsel of perfection in <bibl><title>The
+                        Imitation of Christ</title></bibl>. And here, undoubtedly, is the secret of all that
+                    is virile and classic in the art of man, and of all in nature that is most <choice>
+                        <orig>harmoni-</orig>
+                        <reg>harmonious</reg>
+                    </choice><pb n="85" xml:id="VAB7144-087"></pb> ous with that art. Moreover, this is
+                    the secret of Italy. How little do the tourists and the poets grasp this latter
+                    truth, by the way—and the artists! The legend of Italy is to be gorgeous, and
+                    they have her legend by rote. But Italy is slim and all articulate; her most
+                    characteristic trees are those that are distinct and distinguished, with lines
+                    that suggest the etching-point rather than a brush loaded with paint. Cypresses
+                    shaped like flames, tall pines with the abrupt flatness of their tops, thin
+                    canes in the brakes, sharp aloes by the road-side, and olives with the delicate
+                    acuteness of the leaf—these make keen lines of slender vegetation. And they own
+                    the seasons by a gentle confession. Rather than be overpowered by the clamorous
+                    proclamation of summer in the English woods, we would follow June to this
+                    subtler South: even to the Campagna, where the cycle of the seasons passes
+                    within such narrow limitations that insensitive eyes scarcely recognise it. In
+                    early spring there is a fresher touch of green on all the spaces of grass, the
+                    distance grows less mellow and more radiant; by the coming of May the green has
+                    been imperceptibly dimmed again; it blushes with the mingled colours of<pb n="86" xml:id="VAB7144-088"></pb> minute and numberless flowers—a dust of
+                    flowers, in lines longer than those of ocean billows. This is the desert
+                    blossoming like a rose: not the obvious rose of gardens, but the multitudinous
+                    and various flower that gathers once in the year in every hand's-breadth of the
+                    wilderness. When June comes the sun has burnt all to leagues of harmonious seed,
+                    coloured with a hint of the colour of harvest, which is gradually changed to the
+                    lighter harmonies of winter. All this fine chromatic scale passes within such
+                    modest boundaries that it is accused as a monotony. But those who find its
+                    modesty delightful may have a still more delicate pleasure in the blooming and
+                    blossoming of the sea. The passing from the winter blue to the summer blue, from
+                    the cold colour to the colour that has in it the fire of the sun, the kindling
+                    of the sapphire of the Mediterranean—the significance of these sea-seasons, so
+                    far from the pasture and the harvest, is imperceptible to ordinary senses, as
+                    appears from the fact that so few stay to see it all fulfilled. And if the
+                    tourist stayed, he would no doubt violate all that is lovely and moderate by the
+                    insistence of his descriptions. He would find adjectives for the blue sea,
+                        but<pb n="87" xml:id="VAB7144-089"></pb> probably he would refuse to search for
+                    words for the white. A white Mediterranean is not in the legend. Nevertheless it
+                    blooms, now and then, pale as an opal; the white sea is the flower of the
+                    breathless midsummer. And in its clear, silent waters, a few days, in the
+                    culmination of the heat, bring forth translucent living creatures, many-shaped
+                    jelly-fish, coloured like mother-of-pearl.</p>
+                <p>But without going so far from the landscape of daily life, it is in agricultural
+                    Italy that the <emph>little less</emph> makes so undesignedly, and as it were so
+                    inevitably, for beauty. The country that is formed for use and purpose only is
+                    immeasurably the loveliest. What a lesson in literature! How feelingly it
+                    persuades us that all except a very little of the ornament of letters and of
+                    life makes the dulness of the world. The tenderness of colour, the beauty of
+                    series and perspective, and the variety of surface, produced by the small
+                    culture of vegetables, are among the charms that come unsought, and that are not
+                    to be found by seeking—are never to be achieved if they are sought for their own
+                    sake. And another of the delights of the useful laborious land is its vitality.
+                    The soil may be thin and dry, but<pb n="88" xml:id="VAB7144-090"></pb> man's life is
+                    added to its own. He has embanked the hill to make little platforms for the
+                    growth of wheat in the light shadows of olive leaves. Thanks to the métayer
+                    land-tenure, man's heart, as well as his strength, is given to the ground, with
+                    his hope and his honour. Louis Blanc's ‘point of honour of industry’ is a
+                    conscious impulse—it is not too much to say—with most of the Tuscan contadini;
+                    but as each effort they make for their master they make also for the bread of
+                    their children, it is no wonder that the land they cultivate has a look of life.
+                    But in all colour, in all luxury, and in all that gives material for picturesque
+                    English, this lovely scenery for food and wine and raiment has that <emph>little
+                        less</emph> to which we desire to recall a rhetorical world.</p>
+            </div>
+            <pb n="89" xml:id="VAB7144-091"></pb>
+            <div type="chapter">
+                <head>MR. COVENTRY PATMORE'S ODES</head>
+                <p>To most of the great poets no greater praise can be given than praise of their
+                    imagery. Imagery is the natural language of their poetry. Without a parable she
+                    hardly speaks. But undoubtedly there is now and then a poet who touches the
+                    thing, not its likeness, too vitally, too sensitively, for even such a pause as
+                    the verse makes for love of the beautiful image. Those rare moments are simple,
+                    and their simplicity makes one of the reader's keenest experiences. Other
+                    simplicities may be achieved by lesser art, but this is transcendent simplicity.
+                    There is nothing in the world more costly. It vouches for the beauty which it
+                    transcends; it answer for the riches it forbears; it implies the art which it
+                    fulfils. All abundance ministers to it, though it is so single. And here we get
+                    the sacrificial quality which is the well-kept<pb n="90" xml:id="VAB7144-092"></pb>
+                    secret of art at this perfection. All the faculties of the poet are used for
+                    preparing this naked greatness—are used and fruitfully spent and shed. The
+                    loveliness that stands and waits on the simplicity of certain of Mr. Coventry
+                    Patmore's Odes, the fervours and splendours that are there, only to be put to
+                    silence—to silence of a kind that would be impossible were they less
+                    glorious—are testimonies to the difference between sacrifice and waste.</p>
+                <p>But does it seem less than reasonable to begin a review of a poet's work with
+                    praise of an infrequent mood? Infrequent such a mood must needs be, yet it is in
+                    a profound sense characteristic. To have attained it once or twice is to have
+                    proved such gift and grace as a true history of literature would show to be
+                    above price, even gauged by the rude measure of rarity. Transcendent simplicity
+                    could not possibly be habitual. Man lives within garments and veils, and art is
+                    chiefly concerned with making mysteries of these for the loveliness of his life;
+                    when they are rent asunder it is impossible not to be aware that an overwhelming
+                    human emotion has been in action. Thus <bibl><title>Departure</title></bibl>, <bibl><title>If I Were
+                        Dead</title></bibl>, <bibl><title>A<pb n="91" xml:id="VAB7144-093"></pb> Farewell</title></bibl>,
+                        <bibl><title>Eurydice</title></bibl>, <bibl><title>The Toys</title></bibl>, <bibl><title>St. Valentine's
+                        Day</title></bibl>—though here there is in the exquisite imaginative play a
+                    mitigation of the bare vitality of feeling—group themselves apart as the
+                    innermost of the poet's achievements.</p>
+                <p>Second to these come the Odes that have splendid thought in great images, and
+                    display—rather than, as do the poems first glanced at, betray—the beauties of
+                    poetic art. Emotion is here, too, and in shocks and throes, never frantic when
+                    almost intolerable. It is mortal pathos. If any other poet has filled a cup with
+                    a draught so unalloyed, we do not know it. Love and sorrow are pure in <bibl><title>The
+                        Unknown Eros</title></bibl>; and its author has not refused even the cup of terror.
+                    Against love often, against sorrow nearly always, against fear always, men of
+                    sensibility instantaneously guard the quick of their hearts. It is only the
+                    approach of the pang that they will endure; from the pang itself, dividing soul
+                    and spirit, a man who is conscious of a profound capacity for passion defends
+                    himself in the twinkling of an eye. But through nearly the whole of Coventry
+                    Patmore's poetry there is an endurance of the mortal touch. Nay, more, he has
+                    the endurance of the immortal touch. That is,<pb n="92" xml:id="VAB7144-094"></pb>
+                    his capacity for all the things that men elude for their greatness is more than
+                    the capacity of other men. He endures therefore what they could but will not
+                    endure and, besides this, degrees that they cannot apprehend. Thus, to have
+                    studied <bibl><title>The Unknown Eros</title></bibl> is to have had a certain experience—at
+                    least the impassioned experience of a compassion; but it is also to have
+                    recognised a soul beyond our compassion.</p>
+                <p>What some of the Odes have to sing of, their author does not insist upon our
+                    knowing. He leaves more liberty for a well-intentioned reader's error than makes
+                    for peace and recollection of mind in reading. That the general purpose of the
+                    poems is obscure is inevitable. It has the obscurity of profound clear waters.
+                    What the poet chiefly secures to us is the understanding that love and its
+                    bonds, its bestowal and reception, does but rehearse the action of the union of
+                    God with humanity—that there is no essential man save Christ, and no essential
+                    woman except the soul of mankind. When the singer of a Song of Songs seems to
+                    borrow the phrase of human love, it is rather that human love had first borrowed
+                    the truths of the love of God.<pb n="93" xml:id="VAB7144-095"></pb> The thought
+                    grows gay in the three <bibl><title>Psyche</title></bibl> odes, or attempts a gaiety—the reader
+                    at least being somewhat reluctant. How is it? Mr. Coventry Patmore's play more
+                    often than not wins you to but a slow participation. Perhaps because some thrust
+                    of his has left you still tremulous.</p>
+                <p>But the inequality of equal lovers, sung in these Odes with a Divine allusion, is
+                    a most familiar truth. Love that is passionate has much of the impulse of
+                    gravitation—gravitation that is not falling, as there is no downfall in the
+                    precipitation of the sidereal skies. The love of the great for the small is the
+                    passionate love; the upward love hesitates and is fugitive. St. Francis Xavier
+                    asked that the day of his ecstasy might be shortened; Imogen, the wife of all
+                    poetry, ‘prays forbearance;’ the child is ‘fretted with sallies of his mother's
+                    kisses.’ It might be drawing an image too insistently to call this a centrifugal
+                    impulse.</p>
+                <p>The art that utters an intellectual action so courageous, an emotion so
+                    authentic, as that of Mr. Coventry Patmore's poetry, cannot be otherwise than
+                    consummate. Often the word has a fulness of significance that gives<pb n="94" xml:id="VAB7144-096"></pb> the reader a shock of appreciation. This is always so
+                    in those simplest odes which we have taken as the heart of the author's work.
+                    Without such wonderful rightness, simplicity of course is impossible. Nor is
+                    that beautiful precision less in passages of description, such as the landscape
+                    lines in <bibl><title>Amelia</title></bibl> and elsewhere. The words are used to the uttermost
+                    yet with composure. And a certain justness of utterance increases the
+                    provocation of what we take leave to call unjust thought in the few poems that
+                    proclaim an intemperate scorn—political, social, literary. The poems are but two
+                    or three; they are to be known by their subjects—we might as well do something
+                    to justify their scorn by using the most modern of adjectives—and call them
+                    topical. Here assuredly there is no composure. Never before did superiority bear
+                    itself with so little of its proper, signal, and peculiar grace—reluctance.</p>
+                <p>If Mr. Patmore really intends that his Odes shall be read with minim, or crochet,
+                    or quaver rests, to fill up a measure of beaten time, we are free to hold that
+                    he rather arbitrarily applies to liberal verse the laws of verse set for
+                    use—cradle verse and march-<pb n="95" xml:id="VAB7144-097"></pb> marking verse (we
+                    are, of course, not considering verse set to music, and thus compelled into the
+                    musical time). Liberal verse, dramatic, narrative, meditative, can surely be
+                    bound by no time measures—if for no other reason, for this: that to prescribe
+                    pauses is also to forbid any pauses unprescribed. Granting, however, his
+                    principle of catalexis, we still doubt whether the irregular metre of <bibl><title>The
+                        Unknown Eros</title></bibl> is happily used except for the large sweep of the flight
+                    of the Ode more properly so called. <bibl><title>Lycidas</title></bibl>, the <bibl><title>Mrs. Anne
+                        Killigrew</title></bibl>, the <bibl><title>Intimations</title></bibl>, and Emerson's
+                        <bibl><title>Threnody</title></bibl>, considered merely for their versification, fulfil
+                    their laws so perfectly that they certainly move without checks as without
+                    haste. So with the graver Odes—much in the majority—of Mr. Coventry Patmore's
+                    series. A more lovely dignity of extension and restriction, a more touching
+                    sweetness of simple and frequent rhyme, a truer impetus of pulse and impulse,
+                    English verse could hardly yield than are to be found in his versification. And
+                    what movement of words has ever expressed flight, distance, mystery, and
+                    wonderful approach, as they are expressed in a celestial line—the eighth in the
+                    ode <bibl><title>To the Unknown Eros</title></bibl>?<pb n="96" xml:id="VAB7144-098"></pb> When we
+                    are sensible of a metrical check it is in this way: To the English ear the
+                    heroic line is the unit of metre, and when two lines of various length
+                    undesignedly add together to form a heroic line, they have to be separated with
+                    something of a jerk. And this adding—as, for instance, of a line of four
+                    syllables preceding or following one of six—occurs now and then, and even in
+                    such a masterly measure of music as <bibl><title>A Farewell</title></bibl> It is as when a sail
+                    suddenly flaps windless in the fetching about of a boat. In <bibl><title>The Angel in
+                        the House</title></bibl>, and other earlier poems, Mr. Coventry Patmore used the
+                    octosyllabic stanza perfectly, inasmuch as he never left it either heavily or
+                    thinly packed. Moreover those first poems had a composure which was the prelude
+                    to the peace of the Odes. And even in his slightest work he proves himself the
+                    master—that is, the owner—of words that, owned by him, are unprofaned, are as
+                    though they had never been profaned; the capturer of an art so quick and close
+                    that it is the voice less of a poet than of the very Muse.</p>
+            </div>
+            <pb n="97" xml:id="VAB7144-099"></pb>
+            <div type="chapter">
+                <head>INNOCENCE AND EXPERIENCE</head>
+                <p><hi>I SHALL</hi> not ask the commentators whether Blake used these two words in
+                    union or in antithesis. They assuredly have an inseverable union in the art of
+                    literature. The songs of Innocence and Experience are for each poet the songs of
+                    his own separate heart and life; but to take the cumulative experiences of other
+                    men, and to use these in place of the virginal fruit of thought—whereas one
+                    would hardly consent to take them for ordering even the most habitual of daily
+                    affairs—is to forego Innocence and Experience at once and together. Obviously,
+                    Experience can be nothing except personal and separate; and Innocence of a
+                    singularly solitary quality is his who does not dip his hands into other men's
+                    histories, and does not give to his own word the common sanction of other men's
+                    summaries and <choice>
+                        <orig>conclu-</orig>
+                        <reg>conclusions</reg>
+                    </choice><pb n="98" xml:id="VAB7144-100"></pb> sions. Therefore I bind Innocence and
+                    Experience in one, and take them as a sign of the necessary and noble isolation
+                    of man from man—of his uniqueness. But if I had a mind to forego that manner of
+                    personal separateness, and to use the things of others, I think I would rather
+                    appropriate their future than their past. Let me put on their hopes, and the
+                    colours of their confidence, if I must borrow. Not that I would burden my
+                    prophetic soul with unjustified ambitions; but even this would be more tolerable
+                    than to load my memory with an unjustifiable history.</p>
+                <p>And yet how differently do the writers of a certain kind of love-poetry consider
+                    this matter. These are the love-poets who have no reluctance in adopting the
+                    past of a multitude of people to whom they have not even been introduced. Their
+                    verse is full of ready-made memories, various, numerous, and cruel. No single
+                    life—supposing it to be a liberal life concerned with something besides
+                    sex—could quite suffice for so much experience, so much disillusion, so much
+                        <foreign xml:lang="fre">déception</foreign>. To achieve that tone in its
+                    fulness it is necessary to take for one's own the <foreign xml:lang="lat">præterita</foreign> (say) of Alfred de Musset and of the men who helped<pb n="99" xml:id="VAB7144-101"></pb> him—not to live but—to have lived; it is
+                    necessary to have lived much more than any man lives, and to make a common hoard
+                    of erotic remembrances with all kinds of poets.</p>
+                <p>As the Franciscans wear each other's old habits, and one Friar goes about darned
+                    because of another's rending, so the poet of a certain order grows cynical for
+                    the sake of many poets' old loves. Not otherwise will the resultant verse
+                    succeed in implying so much—or rather so many, in the feminine plural. The man
+                    of very sensitive individuality might hesitate at the adoption. The Franciscan
+                    is understood to have a fastidiousness and to overcome it. But these poets so
+                    triumph over their repugnance that it does not appear. And yet, if choice were,
+                    one might wish rather to make use of one's fellowmen's old shoes than put their
+                    old secrets to use, and dress one's art in a motley of past passions. Moreover,
+                    to utilise the mental experience of many is inevitably to use their verse and
+                    phrase. For the rest, all the traits of this love-poetry are familiar enough.
+                    One of them is the absence of the word of promise and pledge, the loss of the
+                    earliest and simplest of the impulses of love: which is the<pb n="100" xml:id="VAB7144-102"></pb> vow. ‘Till death!’ ‘For ever!’ are cries too simple
+                    and too natural to be commonplace, and in their denial there is the least
+                    tolerable of banalities—that of other men's disillusions.</p>
+                <p>Perfect personal distinctness of Experience would be in literature a delicate
+                    Innocence. Not a passage of cheapness, of greed, of assumption, of sloth, or of
+                    any such sins in the work of him whose love-poetry were thus true, and whose
+                        <foreign xml:lang="fre">pudeur</foreign> of personality thus simple and
+                    inviolate. This is the private man, in other words the gentleman, who will
+                    neither love nor remember in public.</p>
+            </div>
+            <pb n="101" xml:id="VAB7144-103"></pb>
+            <div type="chapter">
+                <head>PENULTIMATE CARICATURE</head>
+                <p><hi>THERE</hi> has been no denunciation, and perhaps even no recognition, of a
+                    certain social immorality in the caricature of the mid-century and earlier.
+                    Literary and pictorial alike, it had for its notice the vulgarising of the
+                    married woman. No one now would read Douglas Jerrold for pleasure, but it is
+                    worth while to turn up that humourist's serial, <bibl><title>Mrs. Caudle's Curtain
+                        Lectures</title></bibl>, which were presumably considered good comic reading in the
+                    <bibl><title>Punch</title></bibl> of that time, and to make acquaintance with a certain
+                    ideal of the grotesque. Obviously to make a serious comment on anything which
+                    others consider or have considered humorous is to put one's-self at a
+                    disadvantage. He who sees the joke holds himself somewhat the superior of the
+                    man who would see it, such as it is, if he thought it worth his eyesight. The
+                        last-<pb n="102" xml:id="VAB7144-104"></pb> named has to bear the least
+                    tolerable of modern reproaches; but he need not always care. Now to turn over
+                    Douglas Jerrold's monologues is to find that people in the mid-century took
+                    their mirth principally from the life of the <foreign xml:lang="fre">arrière
+                        boutique</foreign>. On that shabby stage was enacted the comedy of
+                    literature. Therefore we must take something of the vulgarity of Jerrold as a
+                    circumstance of the social ranks wherein he delighted. But the essential
+                    vulgarity is that of the woman. There is in some old <bibl><title>Punch</title></bibl> volume a
+                    drawing by Leech—whom one is weary of hearing named the gentle, the
+                    refined—where the work of the artist has vied with the spirit of the
+                    letter-press. Douglas Jerrold treats of the woman's jealousy, Leech of her
+                    stays. They lie on a chair by the bed, beyond description gross. And page by
+                    page the woman is derided, with an unfailing enjoyment of her foolish ugliness
+                    of person, of manners, and of language. In that time there was, moreover, one
+                    great humourist; he bore his part willingly in vulgarising the woman; and the
+                    part that fell to him was the vulgarising of the act of maternity. Woman
+                    spiteful, woman suing man at the law for evading her fatuous <choice>
+                        <orig>com-</orig>
+                        <reg>companionship</reg>
+                    </choice><pb n="103" xml:id="VAB7144-105"></pb> panionship, woman incoherent, woman
+                    abandoned without restraint to violence and temper, woman feigning
+                    sensibility—in none of these ignominies is woman so common, foul, and foolish
+                    for Dickens as she is in child-bearing.</p>
+                <p>I named Leech but now. He was, in all things essential, Dickens's contemporary.
+                    And accordingly the married woman and her child are humiliated by his pencil;
+                    not grossly, but commonly. For him she is moderately and dully ridiculous. What
+                    delights him as humorous is that her husband—himself wearisome enough to die
+                    of—is weary of her, finds the time long, and tries to escape her. It amuses him
+                    that she should furtively spend money over her own dowdiness, to the annoyance
+                    of her husband, and that her husband should have no desire to adorn her, and
+                    that her mother should be intolerable. It pleases him that her baby, with
+                    enormous cheeks and a hideous rosette in its hat—a burlesque baby—should be a
+                    grotesque object of her love, for that too makes subtly for her abasement.
+                    Charles Keene, again—another contemporary, though he lived into a later and
+                    different time. He saw little else than common forms of human
+                    ignominy—indignities of civic physique, of<pb n="104" xml:id="VAB7144-106"></pb>
+                    stupid prosperity, of dress, of bearing. He transmits these things in greater
+                    proportion than he found them—whether for love of the humour of them, or by a
+                    kind of inverted disgust that is as eager as delight—one is not sure which is
+                    the impulse. The grossness of the vulgarities is rendered with a completeness
+                    that goes far to convince us of a certain sensitiveness of apprehension in the
+                    designer; and then again we get convinced that real apprehension—real
+                    apprehensiveness—would not have insisted upon such things, could not have lived
+                    with them through almost a whole career. There is one drawing in the
+                        <bibl><title>Punch</title></bibl> of years ago, in which Charles Keene achieved the
+                    nastiest thing possible to even the invention of that day. A drunken citizen, in
+                    the usual broadcloth, has gone to bed, fully dressed, with his boots on and his
+                    umbrella open, and the joke lies in the surprise awaiting, when she awakes, the
+                    wife asleep at his side in a night-cap. Every one who knows Keene's work can
+                    imagine how the huge well-fed figure was drawn, and how the coat wrinkled across
+                    the back, and how the bourgeois whiskers were indicated. This obscene drawing is
+                    matched by many equally<pb n="105" xml:id="VAB7144-107"></pb> odious. Abject
+                    domesticity, ignominies of married life, of middle-age, of money-making; the old
+                    common jape against the mother-in-law; ill-dressed men with whisky—ill-dressed
+                    women with tempers; everything that is underbred and decivilised; abominable
+                    weddings: in one drawing a bridegroom with shambling sidelong legs asks his
+                    bride if she is nervous; she is a widow, and she answers, ‘No, never was.’ In
+                    all these things there is very little humour. Where Keene achieved fun was in
+                    the figures of his schoolboys. The hint of tenderness which in really fine work
+                    could never be absent from a man's thought of a child or from his touch of one,
+                    however frolic or rowdy the subject in hand, is absolutely lacking in Keene's
+                    designs; nevertheless, we acknowledge that here is humour. It is also in some of
+                    his clerical figures when they are not caricatures, and certainly in ‘Robert,’
+                    the City waiter of <bibl><title>Punch</title></bibl>. But so irresistible is the derision of
+                    the woman that all Charles Keene's persistent sense of vulgarity is intent
+                    centrally upon her. Never for any grace gone astray is she bantered, never for
+                    the social extravagances, for prattle, or for beloved dress; but always for her
+                    jealousy, and for the repulsive<pb n="106" xml:id="VAB7144-108"></pb> person of the
+                    man upon whom she spies and in whom she vindicates her ignoble rights. If this
+                    is the shopkeeper the possession of whom is her boast, what then is she?</p>
+                <p>This great immorality, centring in the irreproachable days of the Exhibition of
+                    1851, or thereabouts—the pleasure in this particular form of human disgrace—has
+                    passed, leaving one trace only: the habit by which some men reproach a silly
+                    woman through her sex, whereas a silly man is not reproached through his sex.
+                    But the vulgarity of which I have written here was distinctively English—the
+                    most English thing that England had in days when she bragged of many another—and
+                    it was not able to survive an increased commerce of manners and letters with
+                    France. It was the chief immorality destroyed by French fiction.</p>
+            </div>
+        </body>
+        <pb xml:id="VAB7144-109"></pb>
+        <back>
+            <div type="acknowledgment">
+                <p>I am indebted to the Editor of ‘<bibl>The National Observer</bibl>’ for
+                    permission to reprint the Essays that appeared in that paper.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

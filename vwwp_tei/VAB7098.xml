@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7098">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A London Plane-Tree and Other Verse</title>
+                <title type="filing">London Plane-Tree and Other Verse</title>
+                <author>Levy, Amy (1861-1889)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by </resp>
+                    <name>Felix Jung</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 70 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>September 28, 1995</date>
+                <idno>VAB7098</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is in the Research Collections, Indiana University
+                    Libraries.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>A London Plane-Tree and other Verse</title>
+                        <author>Levy, Amy, 1861-1889</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Amy Levy</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>94 p.</extent>
+                    <publicationStmt>
+                        <publisher>T. Fisher Unwin </publisher>
+                        <pubPlace>London </pubPlace>
+                        <address><addrLine>Paternoster Square </addrLine></address>
+                        <date when="1889">1889</date>
+                    </publicationStmt>
+                    <seriesStmt>
+                        <title>Cameo Series</title>
+                    </seriesStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnet"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. The first letter
+                    of each poem is printed as a drop cap. All poems with regularly indented lines
+                    have an attribute "rend=indent1" for one tab stop, "rend=indent2" for two tab
+                    stops, etc.</p>
+                <p>All apostrophes and single right quotation marks are encoded as &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="3"/>
+                    <tagUsage gi="addrline" occurs="9"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="back" occurs="1"/>
+                    <tagUsage gi="bibl" occurs="10"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="4"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="cit" occurs="7"/>
+                    <tagUsage gi="date" occurs="5"/>
+                    <tagUsage gi="div" occurs="8"/>
+                    <tagUsage gi="div0" occurs="51"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docdate" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="emph" occurs="14"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="epigraph" occurs="10"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="figure" occurs="2"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="2"/>
+                    <tagUsage gi="group" occurs="1"/>
+                    <tagUsage gi="head" occurs="80"/>
+                    <tagUsage gi="hi" occurs="51"/>
+                    <tagUsage gi="item" occurs="61"/>
+                    <tagUsage gi="l" occurs="914"/>
+                    <tagUsage gi="lg" occurs="188"/>
+                    <tagUsage gi="list" occurs="8"/>
+                    <tagUsage gi="name" occurs="14"/>
+                    <tagUsage gi="note" occurs="1"/>
+                    <tagUsage gi="p" occurs="7"/>
+                    <tagUsage gi="pb" occurs="80"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="4"/>
+                    <tagUsage gi="pubplace" occurs="3"/>
+                    <tagUsage gi="q" occurs="7"/>
+                    <tagUsage gi="ref" occurs="54"/>
+                    <tagUsage gi="resp" occurs="7"/>
+                    <tagUsage gi="respstmt" occurs="7"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="2"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="56"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="5"/>
+                    <tagUsage gi="title" occurs="4"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="3"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000
+                                terms and 200,000 names to ensure consistency in the terms and names
+                                assigned during indexing. The VWWP project will utilize a subset of
+                                the MLA Thesaurus to assign genre headings to the VWWP texts.
+                            </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-06-30</date><label>editor</label><name>Felix Jung, </name>finished
+                data entry and proofing</change>
+            <change><date>1995-09-22</date><label>general editor</label><name>Perry Willett,
+                </name>finished TEI-conformant encoding and final proofing</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-07-30" who="elizabethmunson">Removed date and "a machine readable
+                transcription" from fileDesc title</change>
+            <change when="2010-07-30" who="elizabethmunson">Corrected hyphen in fileDesc and
+                sourceDesc titles</change>
+            <change when="2010-07-30" who="elizabethmunson">Added filing title</change>
+            <change when="2010-07-30" who="elizabethmunson">Added LCNAF form of author name to
+                sourceDesc (hyphen adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-30" who="elizabethmunson">Normalized date in
+                biblFull/publicationStmt</change>
+            <change when="2010-07-30" who="elizabethmunson">Tagged title element(s) inside
+                bibl</change>
+            <change when="2010-08-26" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-01" who="elizabethmunson">Changed div type="sonnet" to "poem";
+                changed "back" to "docImprint"</change>
+            <change when="2011-06-28" who="dotporter">Changed group/text to div type="part"</change>
+            <change when="2011-06-29" who="dotporter">Added back group/text; changed div type="part" to div type="book"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb xml:id="VAB7098-001"/>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">A London Plane‐Tree and other Verse</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Amy Levy</docAuthor></byline>
+                <byline n="series_title">Cameo Series</byline>
+                <docImprint>
+                    <publisher>T. Fisher Unwin </publisher>
+                    <pubPlace>
+                        <address><addrLine>Paternoster Sq. </addrLine><addrLine>London, E.C. </addrLine></address>
+                    </pubPlace>
+                    <docDate when="1889">MDCCCLXXXIX</docDate>
+                </docImprint>
+            </titlePage>
+            <pb xml:id="VAB7098-002"/>
+            <pb xml:id="VAB7098-003"/>
+            <div type="dedication">
+                <head>To Clementina Black.</head>
+                <lg type="verse_paragraph">
+                    <l>More blest than was of old Diogenes,</l>
+                    <l>I have not held my lantern up in vain.</l>
+                    <l>Not mine, at least, this evil—to complain :</l>
+                    <l>“There is none honest among all of these.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Our hopes go down that sailed before the breeze ;</l>
+                    <l>Our creeds upon the rock are rent in twain ;</l>
+                    <l>Something it is, if at the last remain</l>
+                    <l>One floating spar cast up by hungry seas.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The secret of our being, who can tell ?</l>
+                    <l>To praise the gods and Fate is not my part ;</l>
+                    <l>Evil I see, and pain ; within my heart</l>
+                    <l>There is no voice that whispers : “All is well.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Yet fair are days in summer ; and more fair</l>
+                    <l>The growths of human goodness here and there.</l>
+                </lg>
+            </div>
+            <pb xml:id="VAB7098-004"/>
+            <div type="contents">
+                <head type="supplied">Contents</head>
+                <list type="simple">
+                    <head>A London Plane‐Tree.</head>
+                    <item>A London Plane‐Tree <ref target="#VAB7098-008" rend="right">17</ref></item>
+                    <item>London in July <ref target="#VAB7098-009" rend="right">18</ref></item>
+                    <item>A March Day in London <ref target="#VAB7098-010" rend="right">19</ref></item>
+                    <item>Ballade of an Omnibus <ref target="#VAB7098-012" rend="right">21</ref></item>
+                    <item>Ballade of a Special Edition <ref target="#VAB7098-014" rend="right">23</ref></item>
+                    <item>Roundels <hi rend="right"> 25‐27</hi><list type="simple">
+                            <item>Straw in the Street <ref target="#VAB7098-016" rend="right">25</ref></item>
+                            <item>Between the Showers<ref target="#VAB7098-017" rend="right">26</ref></item>
+                            <item>Out of Town<ref target="#VAB7098-018" rend="right">27</ref></item>
+                        </list></item>
+                    <item>The Piano‐Organ <ref target="#VAB7098-019" rend="right">28</ref></item>
+                    <item>London Poets <ref target="#VAB7098-020" rend="right">29</ref></item>
+                    <item>The Village Garden <ref target="#VAB7098-021" rend="right">30</ref></item>
+                </list>
+                <list type="simple">
+                    <head>Love, Dreams, and Death.</head>
+                    <item>New Love, New Life <ref target="#VAB7098-024" rend="right">35</ref></item>
+                    <item>Impotens <ref target="#VAB7098-025" rend="right">36</ref></item>
+                    <item>Youth and Love <ref target="#VAB7098-026" rend="right">37</ref></item>
+                    <item>The Dream <ref target="#VAB7098-027" rend="right">38</ref></item>
+                    <item>On the Threshold <ref target="#VAB7098-028" rend="right">39</ref></item>
+                    <item>The Birch‐Tree at Loschwitz <ref target="#VAB7098-029" rend="right">40</ref></item>
+                    <item>In the Night <ref target="#VAB7098-030" rend="right">41</ref></item>
+                    <item>Borderland <ref target="#VAB7098-031" rend="right">42</ref></item>
+                    <pb n="10" xml:id="VAB7098-005"/>
+                    <item>At Dawn <ref target="#VAB7098-032" rend="right">43</ref></item>
+                    <item>Last Words <ref target="#VAB7098-033" rend="right">44</ref></item>
+                    <item>June <ref target="#VAB7098-035" rend="right">46</ref></item>
+                    <item>A Reminiscence <ref target="#VAB7098-036" rend="right">47</ref></item>
+                    <item>The Sequel to “A Reminiscence” <ref target="#VAB7098-037" rend="right">48</ref></item>
+                    <item>In the Mile End Road <ref target="#VAB7098-039" rend="right">50</ref></item>
+                    <item>Contradictions <ref target="#VAB7098-040" rend="right">51</ref></item>
+                    <item>Twilight <ref target="#VAB7098-041" rend="right">52</ref></item>
+                    <item>In September <ref target="#VAB7098-042" rend="right">53</ref></item>
+                </list>
+                <list type="simple">
+                    <head>Moods and Thoughts.</head>
+                    <item>The Old House <ref target="#VAB7098-044" rend="right">57</ref></item>
+                    <item>Lohengrin <ref target="#VAB7098-045" rend="right">58</ref></item>
+                    <item>Alma Mater <ref target="#VAB7098-046" rend="right">59</ref></item>
+                    <item>In the Black Forest <ref target="#VAB7098-048" rend="right">61</ref></item>
+                    <item>Captivity <ref target="#VAB7098-049" rend="right">62</ref></item>
+                    <item>The Two Terrors <ref target="#VAB7098-051" rend="right">64</ref></item>
+                    <item>The Promise of Sleep <ref target="#VAB7098-052" rend="right">65</ref></item>
+                    <item>The Last Judgment <ref target="#VAB7098-053" rend="right">66</ref></item>
+                    <item>Felo de Se <ref target="#VAB7098-055" rend="right">68</ref></item>
+                    <item>The Lost Friend <ref target="#VAB7098-058" rend="right">71</ref></item>
+                    <item>Cambridge in the Long <ref target="#VAB7098-059" rend="right">72</ref></item>
+                    <item>To Vernon Lee <ref target="#VAB7098-061" rend="right">74</ref></item>
+                    <item>The Old Poet <ref target="#VAB7098-062" rend="right">75</ref></item>
+                    <item>On the Wye in May <ref target="#VAB7098-064" rend="right">77</ref></item>
+                    <item>Oh, is it Love? <ref target="#VAB7098-065" rend="right">78</ref></item>
+                    <item>In the Nower <ref target="#VAB7098-066" rend="right">79</ref></item>
+                    <item>The End of the Day <ref target="#VAB7098-067" rend="right">80</ref></item>
+                </list>
+                <pb n="11" xml:id="VAB7098-006"/>
+                <list type="simple">
+                    <head>Odds and Ends.</head>
+                    <item>Songs from <bibl><title>The New Phaon</title></bibl> (unpublished)—<list type="simple">
+                            <item rend="indent1">1. A Wall‐flower <ref target="#VAB7098-070" rend="right">85</ref></item>
+                            <item rend="indent1">2. The First Extra <ref target="#VAB7098-071" rend="right">86</ref></item>
+                            <item rend="indent1">3. At a Dinner Party <ref target="#VAB7098-072" rend="right">87</ref></item>
+                        </list></item>
+                    <item>Philosophy <ref target="#VAB7098-073" rend="right">88</ref></item>
+                    <item>A Game of Lawn Tennis <ref target="#VAB7098-075" rend="right">90</ref></item>
+                    <item>To E. <ref target="#VAB7098-076" rend="right">91</ref></item>
+                </list>
+            </div>
+        </front>
+
+
+        <group>
+            <text>
+                <body>
+                    <div type="part">
+                        <pb xml:id="VAB7098-007"/>
+                        <head>A London Plane‐Tree.</head>
+                        <pb n="17" xml:id="VAB7098-008"/>
+                        <div type="poem">
+                            <head>A London Plane‐Tree.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>GREEN</hi> is the plane‐tree in the square,</l>
+                                <l rend="ti-1">The other trees are brown ;</l>
+                                <l>They droop and pine for country air ;</l>
+                                <l rend="ti-1">The plane‐tree loves the town.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Here from my garret‐pane, I mark</l>
+                                <l rend="ti-1">The plane‐tree bud and blow,</l>
+                                <l>Shed her recuperative bark,</l>
+                                <l rend="ti-1">And spread her shade below.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Among her branches, in and out,</l>
+                                <l rend="ti-1">The city breezes play ;</l>
+                                <l>The dun fog wraps her round about ;</l>
+                                <l rend="ti-1">Above, the smoke curls grey.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Others the country take for choice,</l>
+                                <l rend="ti-1">And hold the town in scorn ;</l>
+                                <l>But she has listened to the voice</l>
+                                <l rend="ti-1">On city breezes borne.</l>
+                            </lg>
+                        </div>
+                        <pb n="18" xml:id="VAB7098-009"/>
+                        <div type="poem">
+                            <head>London in July.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>WHAT</hi> ails my senses thus to cheat ?</l>
+                                <l rend="ti-1">What is it ails the place,</l>
+                                <l>That all the people in the street</l>
+                                <l rend="ti-1">Should wear one woman’s face ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The London trees are dusty‐brown</l>
+                                <l rend="ti-1">Beneath the summer sky ;</l>
+                                <l>My love, she dwells in London town,</l>
+                                <l rend="ti-1">Nor leaves it in July.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O various and intricate maze,</l>
+                                <l rend="ti-1">Wide waste of square and street ;</l>
+                                <l>Where, missing through unnumbered days,</l>
+                                <l rend="ti-1">We twain at last may meet !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And who cries out on crowd and mart ?</l>
+                                <l rend="ti-1">Who prates of stream and sea ?</l>
+                                <l>The summer in the city’s heart—</l>
+                                <l rend="ti-1">That is enough for me.</l>
+                            </lg>
+                        </div>
+                        <pb n="19" xml:id="VAB7098-010"/>
+                        <div type="poem">
+                            <head>A March Day in London.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>THE</hi> east wind blows in the street to‐day ;</l>
+                                <l>The sky is blue, yet the town looks grey.</l>
+                                <l>’Tis the wind of ice, the wind of fire,</l>
+                                <l>Of cold despair and of hot desire,</l>
+                                <l>Which chills the flesh to aches and pains,</l>
+                                <l>And sends a fever through all the veins.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>From end to end, with aimless feet,</l>
+                                <l>All day long have I paced the street.</l>
+                                <l>My limbs are weary, but in my breast</l>
+                                <l>Stirs the goad of a mad unrest.</l>
+                                <l>I would give anything to stay</l>
+                                <l>The little wheel that turns in my brain ;</l>
+                                <l>The little wheel that turns all day,</l>
+                                <l>That turns all night with might and main.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>What is the thing I fear, and why ?</l>
+                                <l>Nay, but the world is all awry—</l>
+                                <l>The wind’s in the east, the sun’s in the sky.</l>
+                            </lg>
+                            <pb n="20" xml:id="VAB7098-011"/>
+                            <lg type="verse_paragraph">
+                                <l>The gas‐lamps gleam in a golden line ;</l>
+                                <l>The ruby lights of the hansoms shine,</l>
+                                <l>Glance, and flicker like fire‐flies bright ;</l>
+                                <l>The wind has fallen with the night,</l>
+                                <l>And once again the town seems fair</l>
+                                <l>Thwart the mist that hangs i’ the air.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And o’er, at last, my spirit steals</l>
+                                <l>A weary peace ; peace that conceals</l>
+                                <l>Within its inner depths the grain</l>
+                                <l>Of hopes that yet shall flower again.</l>
+                            </lg>
+                        </div>
+                        <pb n="21" xml:id="VAB7098-012"/>
+                        <div type="poem">
+                            <head>Ballade of an Omnibus.</head>
+                            <epigraph>
+                                <cit>
+                                    <q>
+                                        <l>To see my love suffices me.</l>
+                                    </q>
+                                    <bibl>—<title>Ballades in Blue China</title>.</bibl>
+                                </cit>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>SOME</hi> men to carriages aspire ;</l>
+                                <l>On some the costly hansoms wait ;</l>
+                                <l>Some seek a fly, on job or hire ;</l>
+                                <l>Some mount the trotting steed, elate.</l>
+                                <l>I envy not the rich and great,</l>
+                                <l>A wandering minstrel, poor and free,</l>
+                                <l>I am contented with my fate—</l>
+                                <l>An omnibus suffices me.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>In winter days of rain and mire</l>
+                                <l>I find within a corner strait ;</l>
+                                <l>The ’busmen know me and my lyre</l>
+                                <l>From Brompton to the Bull‐and‐Gate.</l>
+                                <l>When summer comes, I mount in state</l>
+                                <l>The topmost summit, whence I see</l>
+                                <l>Crœsus look up, compassionate—</l>
+                                <l>An omnibus suffices me.</l>
+                            </lg>
+                            <pb n="22" xml:id="VAB7098-013"/>
+                            <lg type="verse_paragraph">
+                                <l>I mark, untroubled by desire,</l>
+                                <l>Lucullus’ phaeton and its freight.</l>
+                                <l>The scene whereof I cannot tire,</l>
+                                <l>The human tale of love and hate,</l>
+                                <l>The city pageant, early and late</l>
+                                <l>Unfolds itself, rolls by, to be</l>
+                                <l>A pleasure deep and delicate.</l>
+                                <l>An omnibus suffices me.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Princess, your splendour you require,</l>
+                                <l>I, my simplicity ; agree</l>
+                                <l>Neither to rate lower nor higher.</l>
+                                <l>An omnibus suffices me.</l>
+                            </lg>
+                        </div>
+                        <pb n="23" xml:id="VAB7098-014"/>
+                        <div type="poem">
+                            <head>Ballade of a Special Edition.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>HE</hi> comes ; I hear him up the street—</l>
+                                <l rend="ti-1">Bird of ill omen, flapping wide</l>
+                                <l>The pinion of a printed sheet,</l>
+                                <l rend="ti-1">His hoarse note scares the eventide.</l>
+                                <l>Of slaughter, theft, and suicide</l>
+                                <l rend="ti-1">He is the herald and the friend ;</l>
+                                <l>Now he vociferates with pride—</l>
+                                <l rend="ti-1">A double murder in Mile End !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A hanging to his soul is sweet ;</l>
+                                <l rend="ti-1">His gloating fancy’s fain to bide</l>
+                                <l>Where human‐freighted vessels meet,</l>
+                                <l rend="ti-1">And misdirected trains collide.</l>
+                                <l>With Shocking Accidents supplied,</l>
+                                <l rend="ti-1">He tramps the town from end to end.</l>
+                                <l>How often have we heard it cried—</l>
+                                <l rend="ti-1">A double murder in Mile End.</l>
+                            </lg>
+                            <pb n="24" xml:id="VAB7098-015"/>
+                            <lg type="verse_paragraph">
+                                <l>War loves he ; victory or defeat,</l>
+                                <l rend="ti-1">So there be loss on either side.</l>
+                                <l>His tale of horrors incomplete,</l>
+                                <l rend="ti-1">Imagination’s aid is tried.</l>
+                                <l>Since no distinguished man has died,</l>
+                                <l rend="ti-1">And since the Fates, relenting, send</l>
+                                <l>No great catastrophe, he’s spied</l>
+                                <l rend="ti-1">This double murder in Mile End.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Fiend, get thee gone ! no more repeat</l>
+                                <l rend="ti-1">Those sounds which do mine ears offend.</l>
+                                <l>It is apocryphal, you cheat,</l>
+                                <l rend="ti-1">Your double murder in Mile End.</l>
+                            </lg>
+                        </div>
+                        <pb n="25" xml:id="VAB7098-016"/>
+                        <div type="poem">
+                            <head>Straw in the Street.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>STRAW</hi> in the street where I pass to‐day</l>
+                                <l>Dulls the sound of the wheels and feet.</l>
+                                <l>’Tis for a failing life they lay</l>
+                                <l rend="ti-1">Straw in the street.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Here, where the pulses of London beat,</l>
+                                <l>Someone strives with the Presence grey ;</l>
+                                <l>Ah, is it victory or defeat ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The hurrying people go their way,</l>
+                                <l>Pause and jostle and pass and greet ;</l>
+                                <l>For life, for death, are they treading, say</l>
+                                <l rend="ti-1">Straw in the street ?</l>
+                            </lg>
+                        </div>
+                        <pb n="26" xml:id="VAB7098-017"/>
+                        <div type="poem">
+                            <head>Between the Showers.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>BETWEEN</hi> the showers I went my way,</l>
+                                <l rend="ti-1">The glistening street was bright with flowers ;</l>
+                                <l>It seemed that March had turned to May</l>
+                                <l rend="ti-1">Between the showers.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Above the shining roofs and towers</l>
+                                <l rend="ti-1">The blue broke forth athwart the grey ;</l>
+                                <l>Birds carolled in their leafless bowers.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Hither and tither, swift and gay,</l>
+                                <l rend="ti-1">The people chased the changeful hours ;</l>
+                                <l>And you, you passed and smiled that day,</l>
+                                <l rend="ti-1">Between the showers.</l>
+                            </lg>
+                        </div>
+                        <pb n="27" xml:id="VAB7098-018"/>
+                        <div type="poem">
+                            <head>Out of Town.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>OUT</hi> of town the sky was bright and blue,</l>
+                                <l rend="ti-1">Never fog‐cloud, lowering, thick, was seen to frown
+                                    ;</l>
+                                <l>Nature dons a garb of gayer hue,</l>
+                                <l rend="ti-1">Out of town.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Spotless lay the snow on field and down,</l>
+                                <l rend="ti-1">Pure and keen the air above it blew ;</l>
+                                <l>All wore peace and beauty for a crown.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>London sky, marred by smoke, veiled from view,</l>
+                                <l rend="ti-1">London snow, trodden thin, dingy brown,</l>
+                                <l>Whence that strange unrest at thoughts of you</l>
+                                <l rend="ti-1">Out of town ?</l>
+                            </lg>
+                        </div>
+                        <pb n="28" xml:id="VAB7098-019"/>
+                        <div type="poem">
+                            <head>The Piano‐Organ.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>MY</hi> student‐lamp is lighted,</l>
+                                <l rend="ti-1">The books and papers are spread ;</l>
+                                <l>A sound comes floating upwards,</l>
+                                <l rend="ti-1">Chasing the thoughts from my head.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I open the garret window,</l>
+                                <l rend="ti-1">Let the music in and the moon ;</l>
+                                <l>See the woman grin for coppers,</l>
+                                <l rend="ti-1">While the man grinds out the tune.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Grind me a dirge or a requiem,</l>
+                                <l rend="ti-1">Or a funeral‐march sad and slow,</l>
+                                <l>But not, O not, that waltz tune</l>
+                                <l rend="ti-1">I heard so long ago.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I stand upright by the window,</l>
+                                <l rend="ti-1">The moonlight streams in wan :—</l>
+                                <l>O God ! with its changeless rise and fall</l>
+                                <l rend="ti-1">The tune twirls on and on.</l>
+                            </lg>
+                        </div>
+                        <pb n="29" xml:id="VAB7098-020"/>
+                        <div type="poem">
+                            <head>London Poets.</head>
+                            <head type="sub">(In Memoriam.)</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>THEY</hi> trod the streets and squares where now I tread,</l>
+                                <l>With weary hearts, a little while ago ;</l>
+                                <l>When, thin and grey, the melancholy snow</l>
+                                <l>Clung to the leafless branches overhead ;</l>
+                                <l>Or when the smoke‐veiled sky grew stormy‐red</l>
+                                <l>In autumn ; with a re‐arisen woe</l>
+                                <l>Wrestled, what time the passionate spring winds blow ;</l>
+                                <l>And paced scorched stones in summer :—they are dead.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The sorrow of their souls to them did seem</l>
+                                <l>As real as mine to me, as permanent.</l>
+                                <l>To‐day, it is the shadow of a dream,</l>
+                                <l>The half‐forgotten breath of breezes spent.</l>
+                                <l>So shall another soothe his woe supreme—</l>
+                                <l>“No more he comes, who this way came and went.”</l>
+                            </lg>
+                        </div>
+                        <pb n="30" xml:id="VAB7098-021"/>
+                        <div type="poem">
+                            <head>The Village Garden.</head>
+                            <head type="sub">To E.M.S.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>HERE</hi>, where your garden fenced about and still is,</l>
+                                <l rend="ti-1">Here, where the unmoved summer air is sweet</l>
+                                <l>With mixed delight of lavender and lilies,</l>
+                                <l rend="ti-1">Dreaming I linger in the noontide heat.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Of many summers are the trees recorders,</l>
+                                <l rend="ti-1">The turf a carpet many summers wove ;</l>
+                                <l>Old‐fashioned blossoms cluster in the borders,</l>
+                                <l rend="ti-1">Love‐in‐a‐mist and crimson‐hearted clove.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>All breathes of peace and sunshine in the present,</l>
+                                <l rend="ti-1">All tells of bygone peace and bygone sun,</l>
+                                <l>Of fruitful years accomplished, budding, crescent,</l>
+                                <l rend="ti-1">Of gentle seasons passing one by one.</l>
+                            </lg>
+                            <pb n="31" xml:id="VAB7098-022"/>
+                            <lg type="verse_paragraph">
+                                <l>Fain would I bide, but ever in the distance</l>
+                                <l rend="ti-1">A ceaseless voice is sounding clear and low ;—</l>
+                                <l>The city calls me with her old persistence,</l>
+                                <l rend="ti-1">The city calls me—I arise and go.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Of gentler souls this fragrant peace is guerdon ;</l>
+                                <l rend="ti-1">For me, the roar and hurry of the town,</l>
+                                <l>Wherein more lightly seems to press the burden</l>
+                                <l rend="ti-1">Of individual life that weighs me down.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I leave your garden to the happier comers</l>
+                                <l rend="ti-1">For whom its silent sweets are anodyne.</l>
+                                <l>Shall I return? Who knows, in other summers</l>
+                                <l rend="ti-1">The peace my spirit longs for may be mine ?</l>
+                            </lg>
+                        </div>
+                    </div>
+
+                </body>
+            </text>
+            <text>
+                <body>
+
+                    <div type="book">
+                        <pb xml:id="VAB7098-023"/>
+                        <head>Love, Dreams, &amp; Death.</head>
+                        <epigraph>
+                            <cit>
+                                <q>
+                                    <l>Ah Love! could you and I with Him conspire</l>
+                                    <l>To grasp this sorry Scheme of Things entire,</l>
+                                    <l rend="ti-1">Would not we shatter it to bits—and then</l>
+                                    <l>Re‐mould it nearer to the Heart’s Desire!</l>
+                                </q>
+                                <bibl>Omar Khayyám.</bibl>
+                            </cit>
+                        </epigraph>
+                        <pb n="35" xml:id="VAB7098-024"/>
+                        <div type="poem">
+                            <head>New Love, New Life.</head>
+                            <div type="canto">
+                                <head>I.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi>SHE</hi>, who so long has lain</l>
+                                    <l rend="ti-1">Stone‐stiff with folded wings,</l>
+                                    <l>Within my heart again</l>
+                                    <l rend="ti-1">The brown bird wakes and sings.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Brown nightingale, whose strain</l>
+                                    <l rend="ti-1">Is heard by day, by night,</l>
+                                    <l>She sings of joy and pain,</l>
+                                    <l rend="ti-1">Of sorrow and delight.</l>
+                                </lg>
+                            </div>
+                            <div type="canto">
+                                <head>II.</head>
+                                <lg type="verse_paragraph">
+                                    <l>’Tis true,—in other days</l>
+                                    <l rend="ti-1">Have I unbarred the door ;</l>
+                                    <l>He knows the walks and ways—</l>
+                                    <l rend="ti-1">Love has been here before.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Love blest and love accurst</l>
+                                    <l rend="ti-1">Was here in days long past ;</l>
+                                    <l>This time is not the first,</l>
+                                    <l rend="ti-1">But this time is the last.</l>
+                                </lg>
+                            </div>
+                        </div>
+                        <pb n="36" xml:id="VAB7098-025"/>
+                        <div type="poem">
+                            <head>Impotens.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>IF</hi> I were a woman of old,</l>
+                                <l rend="ti-1">What prayers I would pray for you, dear ;</l>
+                                <l>My pitiful tribute behold—</l>
+                                <l rend="ti-1">Not a prayer, but a tear.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The pitiless order of things,</l>
+                                <l rend="ti-1">Whose laws we may change not nor break,</l>
+                                <l>Alone I could face it—it wrings</l>
+                                <l rend="ti-1">My heart for your sake.</l>
+                            </lg>
+                        </div>
+                        <pb n="37" xml:id="VAB7098-026"/>
+                        <div type="poem">
+                            <head>Youth and Love.</head>
+                            <l><hi>WHAT</hi> does youth know of love ?</l>
+                            <l rend="ti-1">Little enough, I trow !</l>
+                            <l>He plucks the myrtle for his brow,</l>
+                            <l rend="ti-1">For his forehead the rose.</l>
+                            <l rend="ti-2">Nay, but of love</l>
+                            <l rend="ti-1">It is not youth who knows.</l>
+                        </div>
+                        <pb n="38" xml:id="VAB7098-027"/>
+                        <div type="poem">
+                            <head>The Dream.</head>
+                            <epigraph>
+                                <cit>
+                                    <q>
+                                        <l>Believe me, this was true last night,</l>
+                                        <l>Tho’ it is false to‐day.</l>
+                                    </q>
+                                    <bibl>A.M.F. Robinson.</bibl>
+                                </cit>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>A FAIR</hi> dream to my chamber flew :</l>
+                                <l>Such a crowd of folk that stirred,</l>
+                                <l>Jested, fluttered ; only you,</l>
+                                <l>You alone of all that band,</l>
+                                <l>Calm and silent, spake no word.</l>
+                                <l>Only once you neared my place,</l>
+                                <l>And your hand one moment’s space</l>
+                                <l>Sought the fingers of my hand ;</l>
+                                <l>Your eyes flashed to mine ; I knew</l>
+                                <l>All was well between us two.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * *</head>
+                                <l>On from dream to dream I past,</l>
+                                <l>But the first sweet vision cast</l>
+                                <l>Mystic radiance o’er the last.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * *</head>
+                                <l>When I woke the pale night lay</l>
+                                <l>Still, expectant of the day ;</l>
+                                <l>All about the chamber hung</l>
+                                <l>Tender shade of twilight gloom ;</l>
+                                <l>The fair dream hovered round me, clung</l>
+                                <l>To my thought like faint perfume :—</l>
+                                <l>Like sweet odours, such as cling</l>
+                                <l>To the void flask, which erst encloses</l>
+                                <l>Attar of rose ; or the pale string</l>
+                                <l>Of amber which has lain with roses.</l>
+                            </lg>
+                        </div>
+                        <pb n="39" xml:id="VAB7098-028"/>
+                        <div type="poem">
+                            <head>On the Threshold.</head>
+                            <l><hi>O GOD</hi>, my dream ! I dreamed that you were dead ;</l>
+                            <l>Your mother hung above the couch and wept</l>
+                            <l>Whereon you lay all white, and garlanded</l>
+                            <l>With blooms of waxen whiteness. I had crept</l>
+                            <l>Up to your chamber‐door, which stood ajar,</l>
+                            <l>And in the doorway watched you from afar,</l>
+                            <l>Nor dared advance to kiss your lips and brow.</l>
+                            <l>I had no part nor lot in you, as now ;</l>
+                            <l>Death had not broken between us the old bar ;</l>
+                            <l>Nor torn from out my heart the old, cold sense</l>
+                            <l>Of your misprision and my impotence.</l>
+                        </div>
+                        <pb n="40" xml:id="VAB7098-029"/>
+                        <div type="poem">
+                            <head>The Birch‐Tree at Loschwitz.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>AT</hi> Loschwitz above the city</l>
+                                <l rend="ti-1">The air is sunny and chill ;</l>
+                                <l>The birch‐trees and the pine‐trees</l>
+                                <l rend="ti-1">Grow thick upon the hill.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Lone and tall, with silver stem,</l>
+                                <l rend="ti-1">A birch‐tree stands apart ;</l>
+                                <l>The passionate wind of spring‐time</l>
+                                <l rend="ti-1">Stirs in its leafy heart.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I lean against the birch‐tree,</l>
+                                <l rend="ti-1">My arms around it twine ;</l>
+                                <l>It pulses, and leaps, and quivers,</l>
+                                <l rend="ti-1">Like a human heart to mine.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>One moment I stand, then sudden</l>
+                                <l rend="ti-1">Let loose mine arms that cling :</l>
+                                <l>O God ! the lonely hillside,</l>
+                                <l rend="ti-1">The passionate wind of spring !</l>
+                            </lg>
+                        </div>
+                        <pb n="41" xml:id="VAB7098-030"/>
+                        <div type="poem">
+                            <head>In the Night.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>CRUEL</hi>? I think there never was a cheating</l>
+                                <l rend="ti-1">More cruel, thro’ all the weary days than this !</l>
+                                <l>This is no dream, my heart kept on repeating,</l>
+                                <l rend="ti-1"><emph>But sober certainty of waking bliss</emph>.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Dreams? O, I know their faces — goodly seeming,</l>
+                                <l rend="ti-1">Vaporous, whirled on many‐coloured wings ;</l>
+                                <l>I have had dreams before, this is no dreaming,</l>
+                                <l rend="ti-1">But daylight gladness that the daylight brings.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>What ails my love ; what ails her ? She is paling ;</l>
+                                <l rend="ti-1">Faint grows her face, and slowly seems to fade !</l>
+                                <l>I cannot clasp her—stretch out unavailing</l>
+                                <l rend="ti-1">My arms across the silence and the shade.</l>
+                            </lg>
+                        </div>
+                        <pb n="42" xml:id="VAB7098-031"/>
+                        <div type="poem">
+                            <head>Borderland.</head>
+                            <l><hi>AM</hi> I waking, am I sleeping ?</l>
+                            <l>As the first faint dawn comes creeping</l>
+                            <l>Thro’ the pane, I am aware</l>
+                            <l>Of an unseen presence hovering,</l>
+                            <l>Round, above, in the dusky air :</l>
+                            <l>A downy bird, with an odorous wing,</l>
+                            <l>That fans my forehead, and sheds perfume,</l>
+                            <l>As sweet as love, as soft as death,</l>
+                            <l>Drowsy‐slow through the summer‐gloom.</l>
+                            <l>My heart in some dream‐rapture saith,</l>
+                            <l><emph>It is she</emph>. Half in a swoon,</l>
+                            <l>I spread my arms in slow delight.—</l>
+                            <l>O prolong, prolong the night,</l>
+                            <l>For the nights are short in June !</l>
+                        </div>
+                        <pb n="43" xml:id="VAB7098-032"/>
+                        <div type="poem">
+                            <head>At Dawn.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>IN</hi> the night I dreamed of you ;</l>
+                                <l rend="ti-1">All the place was filled</l>
+                                <l>With your presence ; in my heart</l>
+                                <l rend="ti-1">The strife was stilled.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>All night I have dreamed of you ;</l>
+                                <l rend="ti-1">Now the morn is grey.—</l>
+                                <l>How shall I arise and face</l>
+                                <l rend="ti-1">The empty day?</l>
+                            </lg>
+                        </div>
+                        <pb n="44" xml:id="VAB7098-033"/>
+                        <div type="poem">
+                            <head>Last Words.</head>
+                            <epigraph>
+                                <cit>
+                                    <q>
+                                        <l>Dead! all’s done with!</l>
+                                    </q>
+                                    <bibl>R. Browning.</bibl>
+                                </cit>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>THESE</hi> blossoms that I bring,</l>
+                                <l>This song that here I sing,</l>
+                                <l>These tears that now I shed,</l>
+                                <l>I give unto the dead.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>There is no more to be done,</l>
+                                <l>Nothing beneath the sun,</l>
+                                <l>All the long ages through,</l>
+                                <l>Nothing—by me for you.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The tale is told to the end ;</l>
+                                <l>This, ev’n, I may not know—</l>
+                                <l>If we were friend and friend,</l>
+                                <l>If we were foe and foe.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l><emph>All’s done with</emph> utterly,</l>
+                                <l><emph>All’s done with</emph>. Death to me</l>
+                                <l>Was ever Death indeed ;</l>
+                                <l>To me no kindly creed</l>
+                            </lg>
+                            <pb n="45" xml:id="VAB7098-034"/>
+                            <lg type="verse_paragraph">
+                                <l>Consolatory was given.</l>
+                                <l>You were of earth, not Heaven. . . .</l>
+                                <l>This dreary day, things seem</l>
+                                <l>Vain shadows in a dream,</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Or some strange, pictured show ;</l>
+                                <l>And mine own tears that flow,</l>
+                                <l>My hidden tears that fall,</l>
+                                <l>The vainest of them all.</l>
+                            </lg>
+                        </div>
+                        <pb n="46" xml:id="VAB7098-035"/>
+                        <div type="poem">
+                            <head>June.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>LAST</hi> June I saw your face three times ;</l>
+                                <l rend="ti-1">Three times I touched your hand ;</l>
+                                <l>Now, as before, May month is o’er,</l>
+                                <l rend="ti-1">And June is in the land.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O many Junes shall come and go,</l>
+                                <l rend="ti-1">Flow’r‐footed o’er the mead ;</l>
+                                <l>O many Junes for me, to whom</l>
+                                <l rend="ti-1">Is length of days decreed.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>There shall be sunlight, scent of rose ;</l>
+                                <l rend="ti-1">Warm mist of summer rain ;</l>
+                                <l>Only this change—I shall not look</l>
+                                <l rend="ti-1">Upon your face again.</l>
+                            </lg>
+                        </div>
+                        <pb n="47" xml:id="VAB7098-036"/>
+                        <div type="poem">
+                            <head>A Reminiscence.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>IT</hi> is so long gone by, and yet</l>
+                                <l rend="ti-1">How clearly now I see it all !</l>
+                                <l>The glimmer of your cigarette,</l>
+                                <l rend="ti-1">The little chamber, narrow and tall.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Perseus ; your picture in its frame ;</l>
+                                <l rend="ti-1">(How near they seem and yet how far !)</l>
+                                <l>The blaze of kindled logs ; the flame</l>
+                                <l rend="ti-1">Of tulips in a mighty jar.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Florence and spring‐time : surely each</l>
+                                <l rend="ti-1">Glad things unto the spirit saith.</l>
+                                <l>Why did you lead me in your speech</l>
+                                <l rend="ti-1">To these dark mysteries of death ?</l>
+                            </lg>
+                        </div>
+                        <pb n="48" xml:id="VAB7098-037"/>
+                        <div type="poem">
+                            <head>The Sequel to “A Reminiscence.”</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>NOT</hi> in the street and not in the square,</l>
+                                <l rend="ti-1">The street and square where you went and came ;</l>
+                                <l>With shuttered casement your house stands bare,</l>
+                                <l rend="ti-1">Men hush their voice when they speak your name.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I, too, can play at the vain pretence,</l>
+                                <l rend="ti-1">Can feign you dead ; while a voice sounds clear</l>
+                                <l>In the inmost depths of my heart : Go hence,</l>
+                                <l rend="ti-1">Go, find your friend who is far from here.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Not here, but somewhere where I can reach !</l>
+                                <l rend="ti-1">Can a man with motion, hearing and sight,</l>
+                                <l>And a thought that answered my thought and speech,</l>
+                                <l rend="ti-1">Be utterly lost and vanished quite ?</l>
+                            </lg>
+                            <pb n="49" xml:id="VAB7098-038"/>
+                            <lg type="verse_paragraph">
+                                <l>Whose hand was warm in my hand last week ? . . . </l>
+                                <l rend="ti-1">My heart beat fast as I neared the gate—</l>
+                                <l>Was it this I had come to seek,</l>
+                                <l rend="ti-1">“A stone that stared with your name and date ;”</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A hideous, turfless, fresh‐made mound ;</l>
+                                <l rend="ti-1">A silence more cold than the wind that blew ?</l>
+                                <l>What had I lost, and what had I found ?</l>
+                                <l rend="ti-1">My flowers that mocked me fell to the ground—</l>
+                                <l>Then, and then only, my spirit knew.</l>
+                            </lg>
+                        </div>
+                        <pb n="50" xml:id="VAB7098-039"/>
+                        <div type="poem">
+                            <head>In the Mile End Road.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>HOW</hi> like her ! But ’tis she herself,</l>
+                                <l rend="ti-1">Comes up the crowded street,</l>
+                                <l>How little did I think, the morn,</l>
+                                <l rend="ti-1">My only love to meet !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Whose else that motion and that mien ?</l>
+                                <l rend="ti-1">Whose else that airy tread ?</l>
+                                <l>For one strange moment I forgot</l>
+                                <l rend="ti-1">My only love was dead.</l>
+                            </lg>
+                        </div>
+                        <pb n="51" xml:id="VAB7098-040"/>
+                        <div type="poem">
+                            <head>Contradictions.</head>
+                            <l><hi>NOW</hi>, even, I cannot think it true,</l>
+                            <l>My friend, that there is no more you.</l>
+                            <l>Almost as soon were no more I,</l>
+                            <l>Which were, of course, absurdity !</l>
+                            <l>Your place is bare, you are not seen,</l>
+                            <l>Your grave, I’m told, is growing green ;</l>
+                            <l>And both for you and me, you know,</l>
+                            <l>There’s no Above and no Below.</l>
+                            <l>That you are dead must be inferred,</l>
+                            <l>And yet my thought rejects the word.</l>
+                        </div>
+                        <pb n="52" xml:id="VAB7098-041"/>
+                        <div type="poem">
+                            <head>Twilight.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>SO</hi> Mary died last night ! To‐day</l>
+                                <l rend="ti-1">The news has travelled here.</l>
+                                <l>And Robert died at Michaelmas,</l>
+                                <l rend="ti-1">And Walter died last year.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I went at sunset up the lane,</l>
+                                <l rend="ti-1">I lingered by the stile ;</l>
+                                <l>I saw the dusky fields that stretched</l>
+                                <l rend="ti-1">Before me many a mile.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I leaned against the stile, and thought</l>
+                                <l rend="ti-1">Of her whose soul had fled—</l>
+                                <l>I knew that years on years must pass</l>
+                                <l rend="ti-1">Or e’er I should be dead.</l>
+                            </lg>
+                        </div>
+                        <pb n="53" xml:id="VAB7098-042"/>
+                        <div type="poem">
+                            <head>In September.</head>
+                            <l><hi>THE</hi> sky is silver‐grey ; the long</l>
+                            <l rend="ti-1">Slow waves caress the shore.—</l>
+                            <l>On such a day as this I have been glad,</l>
+                            <l rend="ti-1">Who shall be glad no more.</l>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <pb xml:id="VAB7098-043"/>
+            <text>
+                <body>
+
+
+                    <div type="book">
+                        <head>Moods and Thoughts.</head>
+                        <epigraph>
+                            <cit>
+                                <q>
+                                    <l>I sent my Soul through the Invisible</l>
+                                    <l>Some letter of that After‐life to spell ;</l>
+                                    <l rend="ti-1">And by and by my Soul returned to me,</l>
+                                    <l>And answered, “I Myself am Heaven and Hell.”</l>
+                                </q>
+                                <bibl>Omar Khayyám.</bibl>
+                            </cit>
+                        </epigraph>
+                        <pb n="57" xml:id="VAB7098-044"/>
+                        <div type="poem">
+                            <head>The Old House.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>IN</hi> through the porch and up the silent stair ;</l>
+                                <l rend="ti-1">Little is changed, I know so well the ways ;—</l>
+                                <l>Here, the dead came to meet me ; it was there</l>
+                                <l rend="ti-1">The dream was dreamed in unforgotten days.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>But who is this that hurries on before,</l>
+                                <l rend="ti-1">A flitting shade the brooding shades among ?—</l>
+                                <l>She turned,—I saw her face,—O God, it wore</l>
+                                <l rend="ti-1">The face I used to wear when I was young !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I thought my spirit and my heart were tamed</l>
+                                <l rend="ti-1">To deadness ; dead the pangs that agonise.</l>
+                                <l>The old grief springs to choke me,—I am shamed</l>
+                                <l rend="ti-1">Before that little ghost with eager eyes.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O turn away, let her not see, not know !</l>
+                                <l rend="ti-1">How should she bear it, how should understand ?</l>
+                                <l>O hasten down the stairway, haste and go,</l>
+                                <l rend="ti-1">And leave her dreaming in the silent land.</l>
+                            </lg>
+                        </div>
+                        <pb n="58" xml:id="VAB7098-045"/>
+                        <div type="poem">
+                            <head>Lohengrin.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>BACK</hi> to the mystic shore beyond the main</l>
+                                <l>The mystic craft has sped, and left no trace.</l>
+                                <l rend="ti-1">Ah, nevermore may she behold his face,</l>
+                                <l>Nor touch his hand, nor hear his voice again !</l>
+                                <l>With hidden front she crouches ; all in vain</l>
+                                <l rend="ti-1">The proffered balm. A vessel nears the place ;</l>
+                                <l>They bring her young, lost brother ; see her strain</l>
+                                <l rend="ti-1">The new‐found nursling in a close embrace.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>God, we have lost Thee with much questioning.</l>
+                                <l>In vain we seek Thy trace by sea and land,</l>
+                                <l>And in Thine empty fanes where no men sing.</l>
+                                <l rend="ti-1">What shall we do through all the weary days ?</l>
+                                <l rend="ti-1">Thus wail we and lament. Our eyes we raise,</l>
+                                <l>And, lo, our Brother with an outstretched hand !</l>
+                            </lg>
+                        </div>
+                        <pb n="59" xml:id="VAB7098-046"/>
+                        <div type="poem">
+                            <head>Alma Mater.</head>
+                            <epigraph>
+                                <cit>
+                                    <q>
+                                        <l>A haunted town thou art to me.</l>
+                                    </q>
+                                    <bibl>Andrew Lang.</bibl>
+                                </cit>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>TO‐DAY</hi> in Florence all the air</l>
+                                <l>Is soft with spring, with sunlight fair ;</l>
+                                <l>In the tall street gay folks are met ;</l>
+                                <l>Duomo and Tower gleam overhead,</l>
+                                <l>Like jewels in the city set,</l>
+                                <l>Fair‐hued and many‐faceted.</l>
+                                <l>Against the old grey stones are piled</l>
+                                <l>February violets, pale and sweet,</l>
+                                <l>Whose scent of earth in woodland wild</l>
+                                <l>Is wafted up and down the street.</l>
+                                <l>The city’s heart is glad ; my own</l>
+                                <l><emph>Sits lightly on its bosom’s throne</emph>.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>Why is it that I see to‐day,</l>
+                                <l>Imaged as clear as in a dream,</l>
+                                <l>A little city far away,</l>
+                                <l>A churlish sky, a sluggish stream,</l>
+                                <pb n="60" xml:id="VAB7098-047"/>
+                                <l>Tall clust’ring trees and gardens fair,</l>
+                                <l>Dark birds that circle in the air,</l>
+                                <l>Grey towers and fanes ; on either hand,</l>
+                                <l>Stretches of wind‐swept meadow‐land ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>Oh, who can sound the human breast ?</l>
+                                <l>And this strange truth must be confessed ;</l>
+                                <l>That city do I love the best</l>
+                                <l>Wherein my heart was heaviest !</l>
+                            </lg>
+                        </div>
+                        <pb n="61" xml:id="VAB7098-048"/>
+                        <div type="poem">
+                            <head>In the Black Forest.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>I LAY</hi> beneath the pine trees,</l>
+                                <l rend="ti-1">And looked aloft, where, through</l>
+                                <l>The dusky, clustered tree‐tops,</l>
+                                <l rend="ti-1">Gleamed rent, gay rifts of blue.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I shut my eyes, and a fancy</l>
+                                <l rend="ti-1">Fluttered my sense around :</l>
+                                <l>“I lie here dead and buried,</l>
+                                <l rend="ti-1">And this is churchyard ground.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>“I am at rest for ever ;</l>
+                                <l rend="ti-1">Ended the stress and strife.”</l>
+                                <l>Straight I fell to and sorrowed</l>
+                                <l rend="ti-1">For the pitiful past life.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Right wronged, and knowledge wasted ;</l>
+                                <l rend="ti-1">Wise labour spurned for ease ;</l>
+                                <l>The sloth and the sin and the failure ;</l>
+                                <l rend="ti-1">Did I grow sad for these ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>They had made me sad so often ;</l>
+                                <l rend="ti-1">Not now they made me sad ;</l>
+                                <l>My heart was full of sorrow</l>
+                                <l rend="ti-1">For joy it never had.</l>
+                            </lg>
+                        </div>
+                        <pb n="62" xml:id="VAB7098-049"/>
+                        <div type="poem">
+                            <head>Captivity.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>THE</hi> lion remembers the forest,</l>
+                                <l rend="ti-1">The lion in chains ;</l>
+                                <l>To the bird that is captive a vision</l>
+                                <l rend="ti-1">Of woodland remains.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>One strains with his strength at the fetter,</l>
+                                <l rend="ti-1">In impotent rage ;</l>
+                                <l>One flutters in flights of a moment,</l>
+                                <l rend="ti-1">And beats at the cage.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>If the lion were loosed from the fetter,</l>
+                                <l rend="ti-1">To wander again ;</l>
+                                <l>He would seek the wide silence and shadow</l>
+                                <l rend="ti-1">Of his jungle in vain.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>He would rage in his fury, destroying ;</l>
+                                <l rend="ti-1">Let him rage, let him roam !</l>
+                                <l>Shall he traverse the pitiless mountain,</l>
+                                <l rend="ti-1">Or swim through the foam ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>If they opened the cage and the casement,</l>
+                                <l rend="ti-1">And the bird flew away ;</l>
+                                <l>He would come back at evening, heartbroken,</l>
+                                <l rend="ti-1">A captive for aye.</l>
+                            </lg>
+                            <pb n="63" xml:id="VAB7098-050"/>
+                            <lg type="verse_paragraph">
+                                <l>Would come if his kindred had spared him,</l>
+                                <l rend="ti-1">Free birds from afar—</l>
+                                <l>There was wrought what is stronger than iron</l>
+                                <l rend="ti-1">In fetter and bar.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I cannot remember my country,</l>
+                                <l rend="ti-1">The land whence I came ;</l>
+                                <l>Whence they brought me and chained me and made me</l>
+                                <l rend="ti-1">Nor wild thing nor tame.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>This only I know of my country,</l>
+                                <l rend="ti-1">This only repeat :—</l>
+                                <l>It was free as the forest, and sweeter</l>
+                                <l rend="ti-1">Than woodland retreat.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>When the chain shall at last be broken,</l>
+                                <l rend="ti-1">The window set wide ;</l>
+                                <l>And I step in the largeness and freedom</l>
+                                <l rend="ti-1">Of sunlight outside ;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Shall I wander in vain for my country ?</l>
+                                <l rend="ti-1">Shall I seek and not find ?</l>
+                                <l>Shall I cry for the bars that encage me</l>
+                                <l rend="ti-1">The fetters that bind ?</l>
+                            </lg>
+                        </div>
+                        <pb n="64" xml:id="VAB7098-051"/>
+                        <div type="poem">
+                            <head>The Two Terrors.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>TWO</hi> terrors fright my soul by night and day :</l>
+                                <l>The first is Life, and with her come the years ;</l>
+                                <l>A weary, winding train of maidens they,</l>
+                                <l>With forward‐fronting eyes, too sad for tears ;</l>
+                                <l>Upon whose kindred faces, blank and grey,</l>
+                                <l>The shadow of a kindred woe appears.</l>
+                                <l>Death is the second terror ; who shall say</l>
+                                <l>What form beneath the shrouding mantle nears ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Which way she turn, my soul finds no relief,</l>
+                                <l>My smitten soul may not be comforted ;</l>
+                                <l>Alternately she swings from grief to grief,</l>
+                                <l>And, poised between them, sways from dread to dread.</l>
+                                <l>For there she dreads because she knows ; and here,</l>
+                                <l>Because she knows not, inly faints with fear.</l>
+                            </lg>
+                        </div>
+                        <pb n="65" xml:id="VAB7098-052"/>
+                        <div type="poem">
+                            <head>The Promise of Sleep.</head>
+                            <epigraph>
+                                <l>Put the sweet thoughts from out thy mind,</l>
+                                <l rend="ti-1">The dreams from out thy breast ;</l>
+                                <l>No joy for thee—but thou shalt find</l>
+                                <l rend="ti-3">Thy rest</l>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>ALL</hi> day I could not work for woe,</l>
+                                <l rend="ti-1">I could not work nor rest ;</l>
+                                <l>The trouble drove me to and fro,</l>
+                                <l rend="ti-1">Like a leaf on the storm’s breast.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Night came and saw my sorrow cease ;</l>
+                                <l rend="ti-1">Sleep in the chamber stole ;</l>
+                                <l>Peace crept about my limbs, and peace</l>
+                                <l rend="ti-1">Fell on my stormy soul.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And now I think of only this,—</l>
+                                <l rend="ti-1">How I again may woo</l>
+                                <l>The gentle sleep— who promises</l>
+                                <l rend="ti-1">That death is gentle too.</l>
+                            </lg>
+                        </div>
+                        <pb n="66" xml:id="VAB7098-053"/>
+                        <div type="poem">
+                            <head>The Last Judgment.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>WITH</hi> beating heart and lagging feet,</l>
+                                <l>Lord, I approach the Judgment‐seat.</l>
+                                <l>All bring hither the fruits of toil,</l>
+                                <l>Measures of wheat and measures of oil ;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Gold and jewels and precious wine ;</l>
+                                <l>No hands bare like these hands of mine.</l>
+                                <l>The treasure I have nor weighs nor gleams :</l>
+                                <l>Lord, I can bring you only dreams.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>In days of spring, when my blood ran high,</l>
+                                <l>I lay in the grass and looked at the sky,</l>
+                                <l>And dreamed that my love lay by my side—</l>
+                                <l>My love was false, and then she died.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>All the heat of the summer through,</l>
+                                <l>I dreamed she lived, that her heart was true</l>
+                                <l>Throughout the hours of the day I slept,</l>
+                                <l>But woke in the night, at times, and wept.</l>
+                            </lg>
+                            <pb n="67" xml:id="VAB7098-054"/>
+                            <lg type="verse_paragraph">
+                                <l>The nights and days, they went and came,</l>
+                                <l>I lay in shadow and dreamed of fame ;</l>
+                                <l>And heard men passing the lonely place,</l>
+                                <l>Who marked me not and my hidden face.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>My strength waxed faint, my hair grew grey ;</l>
+                                <l>Nothing but dreams by night and day.</l>
+                                <l>Some men sicken, with wine and food ;</l>
+                                <l>I starved on dreams, and found them good.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>This is the tale I have to tell—</l>
+                                <l><emph>Show the fellow the way to hell</emph>.</l>
+                            </lg>
+                        </div>
+                        <pb n="68" xml:id="VAB7098-055"/>
+                        <div type="poem">
+                            <head>Felo de Se.</head>
+                            <head type="sub">With Apologies to Mr. Swinburne.</head>
+                            <l><hi>FOR</hi> repose I have sighed and have struggled ; have sigh’d
+                                and have struggled in vain</l>
+                            <l>I am held in the Circle of Being and caught in the Circle of
+                                Pain.</l>
+                            <l>I was wan and weary with life ; my sick soul yearned for death ;</l>
+                            <l>I was weary of women and war and the sea and the wind’s wild breath
+                                ;</l>
+                            <l>I cull’d sweet poppies and crush’d them, the blood ran rich and red
+                                :—</l>
+                            <l>And I cast it in crystal chalice and drank of it till I was dead.</l>
+                            <l>And the mould of the man was mute, pulseless in ev’ry part,</l>
+                            <l>The long limbs lay on the sand with an eagle eating the heart.</l>
+                            <pb n="69" xml:id="VAB7098-056"/>
+                            <l>Repose for the rotting head and peace for the putrid breast,</l>
+                            <l>But for that which is “I” indeed the gods have decreed no rest ;</l>
+                            <l>No rest but an endless aching, a sorrow which grows amain :—</l>
+                            <l>I am caught in the Circle of Being and held in the Circle of
+                                Pain.</l>
+                            <l>Bitter indeed is Life, and bitter of Life the breath,</l>
+                            <l>But give me life and its ways and its men, if this be Death.</l>
+                            <l>Wearied I once of the Sun and the voices which clamour’d around :</l>
+                            <l>Give them me back—in the sightless depths there is neither light nor
+                                sound.</l>
+                            <l>Sick is my soul, and sad and feeble and faint as it felt</l>
+                            <l>When (far, dim day) in the fair flesh‐fane of the body it dwelt.</l>
+                            <l>But then I could run to the shore, weeping and weary and weak ;</l>
+                            <l>See the waves’ blue sheen and feel the breath of the breeze on my
+                                cheek :</l>
+                            <l>Could wail with the wailing wind ; strike sharply the hands in
+                                despair ;</l>
+                            <pb n="70" xml:id="VAB7098-057"/>
+                            <l>Could shriek with the shrieking blast, grow frenzied and tear the
+                                hair ;</l>
+                            <l>Could fight fierce fights with the foe or clutch at a human hand
+                                ;</l>
+                            <l>And weary could lie at length on the soft, sweet, saffron sand. . .
+                                .</l>
+                            <l>I have neither a voice nor hands, nor any friend nor a foe ;</l>
+                            <l>I am I—just a Pulse of Pain—I am I, that is all I know.</l>
+                            <l>For Life, and the sickness of Life, and Death and desire to die
+                                ;—</l>
+                            <l>They have passed away like the smoke, here is nothing but Pain and
+                                I.</l>
+                        </div>
+                        <pb n="71" xml:id="VAB7098-058"/>
+                        <div type="poem">
+                            <head>The Lost Friend.</head>
+                            <epigraph>
+                                <l>The people take the thing of course,</l>
+                                <l rend="ti-1">They marvel not to see</l>
+                                <l>This strange, unnatural divorce</l>
+                                <l rend="ti-1">Betwixt delight and me.</l>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>I KNOW</hi> the face of sorrow, and I know</l>
+                                <l>Her voice with all its varied cadences ;</l>
+                                <l>Which way she turns and treads ; how at her ease</l>
+                                <l>Things fit her dreary largess to bestow.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Where sorrow long abides, some be that grow</l>
+                                <l>To hold her dear, but I am not of these ;</l>
+                                <l>Joy is my friend, not sorrow ; by strange seas,</l>
+                                <l>In some far land we wandered, long ago.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O faith, long tried, that knows no faltering !</l>
+                                <l>O vanished treasure of her hands and face !—</l>
+                                <l>Beloved—to whose memory I cling,</l>
+                                <l>Unmoved within my heart she holds her place.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And never shall I hail that other “friend,”</l>
+                                <l>Who yet shall dog my footsteps to the end.</l>
+                            </lg>
+                        </div>
+                        <pb n="72" xml:id="VAB7098-059"/>
+                        <div type="poem">
+                            <head>Cambridge in the Long.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>WHERE</hi> drowsy sound of college‐chimes</l>
+                                <l rend="ti-1">Across the air is blown,</l>
+                                <l>And drowsy fragrance of the limes,</l>
+                                <l rend="ti-1">I lie and dream alone.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A dazzling radiance reigns o’er all—</l>
+                                <l rend="ti-1">O’er gardens densely green,</l>
+                                <l>O’er old grey bridges and the small,</l>
+                                <l rend="ti-1">Slow flood which slides between.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>This is the place ; it is not strange,</l>
+                                <l rend="ti-1">But known of old and dear.—</l>
+                                <l>What went I forth to seek ? The change</l>
+                                <l rend="ti-1">Is mine ; why am I here ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Alas, in vain I turned away,</l>
+                                <l rend="ti-1">I fled the town in vain ;</l>
+                                <l>The strenuous life of yesterday</l>
+                                <l rend="ti-1">Calleth me back again.</l>
+                            </lg>
+                            <pb n="73" xml:id="VAB7098-060"/>
+                            <lg type="verse_paragraph">
+                                <l>And was it peace I came to seek ?</l>
+                                <l rend="ti-1">Yet here, where memories throng,</l>
+                                <l>Ev’n here, I know the past is weak,</l>
+                                <l rend="ti-1">I know the present strong.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>This drowsy fragrance, silent heat,</l>
+                                <l rend="ti-1">Suit not my present mind,</l>
+                                <l>Whose eager thought goes out to meet</l>
+                                <l rend="ti-1">The life it left behind.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Spirit with sky to change ; such hope,</l>
+                                <l rend="ti-1">An idle one we know ;</l>
+                                <l>Unship the oars, make loose the rope,</l>
+                                <l rend="ti-1">Push off the boat and go. . . .</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Ah, would what binds me could have been</l>
+                                <l rend="ti-1">Thus loosened at a touch !</l>
+                                <l>This pain of living is too keen,</l>
+                                <l rend="ti-1">Of loving, is too much.</l>
+                            </lg>
+                        </div>
+                        <pb n="74" xml:id="VAB7098-061"/>
+                        <div type="poem">
+                            <head>To Vernon Lee.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>ON</hi> Bellosguardo, when the year was young,</l>
+                                <l>We wandered, seeking for the daffodil</l>
+                                <l>And dark anemone, whose purples fill</l>
+                                <l>The peasant’s plot, between the corn‐shoots sprung.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Over the grey, low wall the olive flung</l>
+                                <l>Her deeper greyness ; far off, hill on hill</l>
+                                <l>Sloped to the sky, which, pearly‐pale and still,</l>
+                                <l>Above the large and luminous landscape hung.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A snowy blackthorn flowered beyond my reach ;</l>
+                                <l>You broke a branch and gave it to me there ;</l>
+                                <l>I found for you a scarlet blossom rare.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thereby ran on of Art and Life our speech ; </l>
+                                <l>And of the gifts the gods had given to each—</l>
+                                <l>Hope unto you, and unto me Despair.</l>
+                            </lg>
+                        </div>
+                        <pb n="75" xml:id="VAB7098-062"/>
+                        <div type="poem">
+                            <head>The Old Poet.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>I WILL</hi> be glad because it is the Spring ;</l>
+                                <l rend="ti-1">I will forget the winter in my heart—</l>
+                                <l>Dead hopes and withered promise ; and will wring</l>
+                                <l rend="ti-1">A little joy from life ere life depart.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>For spendthrift youth with passion‐blinded eyes,</l>
+                                <l rend="ti-1">Stays not to see how woods and fields are bright
+                                    ;</l>
+                                <l>He hears the phantom voices call, he flies</l>
+                                <l rend="ti-1">Upon the track of some unknown delight.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>To him the tender glory of the May,</l>
+                                <l rend="ti-1">White wonder of the blossom, and the clear,</l>
+                                <l>Soft green leaves that opened yesterday,</l>
+                                <l rend="ti-1">This only say : Forward, my friend, not here !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>They breathe no other messages than this,</l>
+                                <l rend="ti-1">They have no other meaning for his heart ;</l>
+                                <l>Unto his troubled sense they tell of bliss,</l>
+                                <l rend="ti-1">Which make, themselves, of bliss the better part.</l>
+                            </lg>
+                            <pb n="76" xml:id="VAB7098-063"/>
+                            <lg type="verse_paragraph">
+                                <l>Yea, joy is near him, tho’ he does not know ;</l>
+                                <l rend="ti-1">Her unregarded shape is at his side,</l>
+                                <l>Her unheard voice is whispering clear and low,</l>
+                                <l rend="ti-1">Whom, resting never, seeks he far and wide.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>So once it was with us, my heart ! To‐day</l>
+                                <l rend="ti-1">We will be glad because the leaves are green,</l>
+                                <l>Because the fields are fair and soft with May,</l>
+                                <l rend="ti-1">Nor think on squandered springtimes that have
+                                    been.</l>
+                            </lg>
+                        </div>
+                        <pb n="77" xml:id="VAB7098-064"/>
+                        <div type="poem">
+                            <head>On the Wye in May.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>NOW</hi> is the perfect moment of the year.</l>
+                                <l rend="ti-1">Half naked branches, half a mist of green,</l>
+                                <l>Vivid and delicate the slopes appear ;</l>
+                                <l rend="ti-1">The cool, soft air is neither fierce nor keen,</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And in the temperate sun we feel no fear ;</l>
+                                <l rend="ti-1">Of all the hours which shall be and have been,</l>
+                                <l>It is the briefest as it is most dear,</l>
+                                <l rend="ti-1">It is the dearest as the shortest seen.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O it was best, belovèd, at the first.—</l>
+                                <l rend="ti-1">Our hands met gently, and our meeting sight</l>
+                                <l>Was steady ; on our senses scarce had burst</l>
+                                <l rend="ti-1">The faint, fresh fragrance of the new delight. . .
+                                    .</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I seek that clime, unknown, without a name,</l>
+                                <l rend="ti-1">Where first and best and last shall be the same.</l>
+                            </lg>
+                        </div>
+                        <pb n="78" xml:id="VAB7098-065"/>
+                        <div type="poem">
+                            <head>Oh, is it Love?</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>O IS</hi> it Love or is it Fame,</l>
+                                <l rend="ti-1">This thing for which I sigh ?</l>
+                                <l>Or has it then no earthly name</l>
+                                <l rend="ti-1">For men to call it by ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I know not what can ease my pains,</l>
+                                <l rend="ti-1">Nor what it is I wish ;</l>
+                                <l>The passion at my heart‐strings strains</l>
+                                <l rend="ti-1">Like a tiger in a leash.</l>
+                            </lg>
+                        </div>
+                        <pb n="79" xml:id="VAB7098-066"/>
+                        <div type="poem">
+                            <head>In the Nower.</head>
+                            <head type="sub">To J. De P.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>DEEP</hi> in the grass outstretched I lie,</l>
+                                <l rend="ti-1">Motionless on the hill ;</l>
+                                <l>Above me is a cloudless sky,</l>
+                                <l rend="ti-1">Around me all is still :</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>There is no breath, no sound, no stir,</l>
+                                <l rend="ti-1">The drowsy peace to break :</l>
+                                <l>I close my tired eyes—it were</l>
+                                <l rend="ti-1">So simple not to wake.</l>
+                            </lg>
+                        </div>
+                        <pb n="80" xml:id="VAB7098-067"/>
+                        <div type="poem">
+                            <head>The End of the Day.</head>
+                            <head type="sub">To B. T.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>DEAD‐TIRED</hi>, dog‐tired, as the vivid day</l>
+                                <l>Fails and slackens and fades away.—</l>
+                                <l>The sky that was so blue before</l>
+                                <l>With sudden clouds is shrouded o’er.</l>
+                                <l>Swiftly, stilly the mists uprise,</l>
+                                <l>Till blurred and grey the landscape lies.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>All day we have plied the oar ; all day</l>
+                                <l>Eager and keen have said our say</l>
+                                <l>On life and death, on love and art,</l>
+                                <l>On good or ill at Nature’s heart.</l>
+                                <l>Now, grown so tired, we scarce can lift</l>
+                                <l>The lazy oars, but onward drift.</l>
+                                <l>And the silence is only stirred</l>
+                                <l>Here and there by a broken word.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>O, sweeter far than strain and stress</l>
+                                <l>Is the slow, creeping weariness.</l>
+                                <pb n="81" xml:id="VAB7098-068"/>
+                                <l>And better far than thought I find</l>
+                                <l>The drowsy blankness of the mind.</l>
+                                <l>More than all joys of soul or sense</l>
+                                <l>Is this divine indifference ;</l>
+                                <l>Where grief a shadow grows to be,</l>
+                                <l>And peace a possibility.</l>
+                            </lg>
+                        </div>
+                    </div>
+
+                </body>
+            </text>
+            <pb xml:id="VAB7098-069"/>
+            <text>
+                <body>
+
+                    <div type="book">
+                        <head>Odds and Ends.</head>
+                        <pb n="85" xml:id="VAB7098-070"/>
+                        <div type="poem">
+                            <head>A Wall Flower.</head>
+                            <epigraph>
+                                <l>I lounge in the doorway and languish in vain</l>
+                                <l>While Tom, Dick and Harry are dancing with Jane</l>
+                            </epigraph>
+                            <lg type="verse_paragraph">
+                                <l><hi>MY</hi> spirit rises to the music’s beat ;</l>
+                                <l>There is a leaden fiend lurks in my feet !</l>
+                                <l>To move unto your motion, Love, were sweet.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Somewhere, I think, some other where, not here,</l>
+                                <l>In other ages, on another sphere,</l>
+                                <l>I danced with you, and you with me, my dear.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>In perfect motion did our bodies sway,</l>
+                                <l>To perfect music that was heard alway ;</l>
+                                <l>Woe’s me, that am so dull of foot to‐day !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>To move unto your motion, Love, were sweet ;</l>
+                                <l>My spirit rises to the music’s beat—</l>
+                                <l>But, ah, the leaden demon in my feet !</l>
+                            </lg>
+                        </div>
+                        <pb n="86" xml:id="VAB7098-071"/>
+                        <div type="poem">
+                            <head>The First Extra.</head>
+                            <head type="sub">A Waltz Song.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>O SWAY</hi>, and swing, and sway,</l>
+                                <l rend="ti-1">And swing, and sway, and swing !</l>
+                                <l>Ah me, what bliss like unto this,</l>
+                                <l rend="ti-1">Can days and daylight bring ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A rose beneath your feet</l>
+                                <l rend="ti-1">Has fallen from my head ;</l>
+                                <l>Its odour rises sweet,</l>
+                                <l rend="ti-1">All crushed it lies, and dead.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O Love is like a rose,</l>
+                                <l rend="ti-1">Fair‐hued, of fragrant breath ;</l>
+                                <l>A tender flow’r that lives an hour,</l>
+                                <l rend="ti-1">And is most sweet in death.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O swing, and sway, and swing,</l>
+                                <l rend="ti-1">And rise, and sink, and fall !</l>
+                                <l>There is no bliss like unto this,</l>
+                                <l rend="ti-1">This is the best of all.</l>
+                            </lg>
+                        </div>
+                        <pb n="87" xml:id="VAB7098-072"/>
+                        <div type="poem">
+                            <head>At a Dinner Party.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>WITH</hi> fruit and flowers the board is deckt,</l>
+                                <l rend="ti-1">The wine and laughter flow ;</l>
+                                <l>I’ll not complain—could one expect</l>
+                                <l rend="ti-1">So dull a world to know ?</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>You look across the fruit and flowers,</l>
+                                <l rend="ti-1">My glance your glances find.—</l>
+                                <l>It is our secret, only ours,</l>
+                                <l rend="ti-1">Since all the world is blind.</l>
+                            </lg>
+                        </div>
+                        <pb n="88" xml:id="VAB7098-073"/>
+                        <div type="poem">
+                            <head>Philosophy.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>ERE</hi> all the world had grown so drear,</l>
+                                <l>When I was young and you were here,</l>
+                                <l>’Mid summer roses in summer weather,</l>
+                                <l>What pleasant times we’ve had together !</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>We were not Phyllis, simple‐sweet,</l>
+                                <l>And Corydon ; we did not meet</l>
+                                <l>By brook or meadow, but among</l>
+                                <l>A Philistine and flippant throng</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Which much we scorned ; (less rigorous</l>
+                                <l>It had no scorn at all for us !)</l>
+                                <l>How many an eve of sweet July,</l>
+                                <l>Heedless of Mrs. Grundy’s eye,</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>We’ve scaled the stairway’s topmost height,</l>
+                                <l>And sat there talking half the night ;</l>
+                                <l>And, gazing on the crowd below,</l>
+                                <l>Thanked Fate and Heaven that made us so ;—</l>
+                            </lg>
+                            <pb n="89" xml:id="VAB7098-074"/>
+                            <lg type="verse_paragraph">
+                                <l>To hold the pure delights of brain</l>
+                                <l>Above light loves and sweet champagne.</l>
+                                <l>For, you and I, we did eschew</l>
+                                <l>The egoistic “I” and “you ;”</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And all our observations ran</l>
+                                <l>On Art and Letters, Life and Man.</l>
+                                <l>Proudly we sat, we two, on high,</l>
+                                <l>Throned in our Objectivity ;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Scarce friends, not lovers (each avers),</l>
+                                <l>But sexless, safe Philosophers.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>Dear Friend, you must not deem me light</l>
+                                <l>If, as I lie and muse to‐night,</l>
+                                <l>I give a smile and not a sigh</l>
+                                <l>To thoughts of our Philosophy.</l>
+                            </lg>
+                        </div>
+                        <pb n="90" xml:id="VAB7098-075"/>
+                        <div type="poem">
+                            <head>A Game of Lawn Tennis.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>WHAT</hi> wonder that I should be dreaming</l>
+                                <l rend="ti-1">Out here in the garden to‐day ?</l>
+                                <l>The light through the leaves is streaming,—</l>
+                                <l rend="ti-2">
+                                    <emph>Paulina cries, “Play !”</emph>
+                                </l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The birds to each other are calling,</l>
+                                <l rend="ti-1">The freshly‐cut grasses smell sweet ;</l>
+                                <l>
+                                    <emph>To Teddy’s dismay, comes falling</emph>
+                                </l>
+                                <l rend="ti-2">
+                                    <emph>The ball at my feet.</emph>
+                                </l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>
+                                    <emph>“Your stroke should be over, not under !”</emph>
+                                </l>
+                                <l rend="ti-1">
+                                    <emph>“But that’s such a difficult way !”</emph>
+                                </l>
+                                <l>The place is a springtide wonder</l>
+                                <l rend="ti-2">Of lilac and may ;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Of lilac, and may, and laburnum,</l>
+                                <l rend="ti-1">Of blossom,—<emph>We’er losing the set !</emph></l>
+                                <l>
+                                    <emph>“Those volleys of Jenny’s,—return them ;</emph>
+                                </l>
+                                <l rend="ti-1">
+                                    <emph>“Stand close to the net ! ”</emph>
+                                </l>
+                            </lg>
+                            <pb n="91" xml:id="VAB7098-076"/>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>You are so fond of the Maytime,</l>
+                                <l rend="ti-1">My friend, far away ;</l>
+                                <l>Small wonder that I should be dreaming</l>
+                                <l rend="ti-1">Of you in the garden to‐day.</l>
+                            </lg>
+                        </div>
+                        <pb n="92" xml:id="VAB7098-077"/>
+                        <div type="poem">
+                            <head>To E.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi>THE</hi> mountains in fantastic lines</l>
+                                <l>Sweep, blue‐white, to the sky, which shines</l>
+                                <l>Blue as blue gems ; athwart the pines</l>
+                                <l rend="ti-1">The lake gleams blue.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>We three were here, three years gone by ;</l>
+                                <l>Our Poet, with fine‐frenzied eye,</l>
+                                <l>You, stepped in learned lore, and I,</l>
+                                <l rend="ti-1">A poet too.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Our Poet brought us books and flowers,</l>
+                                <l>He read us <bibl><title>Faust</title></bibl> ; he talked for
+                                    hours</l>
+                                <l>Philosophy (sad Schopenhauer’s),</l>
+                                <l rend="ti-1">Beneath the trees :</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And do you mind that sunny day,</l>
+                                <l>When he, as on the sward he lay,</l>
+                                <l>Told of Lassalle who bore away</l>
+                                <l rend="ti-1">The false Louise ?</l>
+                            </lg>
+                            <pb n="93" xml:id="VAB7098-078"/>
+                            <lg type="verse_paragraph">
+                                <l>Thrice‐favoured bard! to him alone</l>
+                                <l>That green and snug retreat was shown,</l>
+                                <l>Where to the vulgar herd unknown,</l>
+                                <l rend="ti-1">Our pens we plied.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>(For, in those distant days, it seems,</l>
+                                <l>We cherished sundry idle dreams,</l>
+                                <l>And with our flowing foolscap reams</l>
+                                <l rend="ti-1">The Fates defied.)</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And after, when the day was gone,</l>
+                                <l>And the hushed, silver night came on,</l>
+                                <l>He showed us where the glow‐worm shone ;—</l>
+                                <l rend="ti-1">We stooped to see.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>There, too, by yonder moon we swore</l>
+                                <l>Platonic friendship o’er and o’er ;</l>
+                                <l>No folk, we deemed, had been before</l>
+                                <l rend="ti-1">So wise and free.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <head>* * * * * * *</head>
+                                <l>And do I sigh or smile to‐day ?</l>
+                                <l>Dead love or dead ambition, say,</l>
+                                <l>Which mourn we most? Not much we weigh</l>
+                                <l rend="ti-1">Platonic friends.</l>
+                            </lg>
+                            <pb n="94" xml:id="VAB7098-079"/>
+                            <lg type="verse_paragraph">
+                                <l>On you the sun is shining free ;</l>
+                                <l>Our Poet sleeps in Italy,</l>
+                                <l>Beneath an alien sod ; on me</l>
+                                <l rend="ti-1">The cloud descends.</l>
+                            </lg>
+                        </div>
+                    </div>
+
+                </body>
+            </text>
+        </group>
+        <back>
+            <div type="docImprint">
+                <head type="supplied">Imprint</head>
+                <bibl>
+                    <publisher>Unwin Brothers, </publisher>
+                    <pubPlace>London, E.C.</pubPlace>
+                </bibl>
+            </div>
+        </back>
+    </text>
+</TEI>

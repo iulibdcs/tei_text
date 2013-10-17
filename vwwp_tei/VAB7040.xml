@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7040">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Common-Sense Country</title>
+                <author>Bevington, Louisa Sarah (Guggenberger) (1845-1895)</author>
+                <respStmt>
+                    <resp>Transcribed, encoded and edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 29 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>August 30, 1996</date>
+                <idno>VAB7040</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the Utopia Pamphlet Collection, Duke University
+                    Library. </note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Common-Sense Country </title>
+                        <author>Bevington, L. S. (Louisa Sarah), 1845-1895</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>L.S. Bevington </name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>12 p. </extent>
+                    <publicationStmt>
+                        <publisher>Printed and Published by James Tochatti, “Liberty”
+                            Press</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1890">1890</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag, with the
+                    value "indent1" for one tab stop, "indent2" for two tab stops, etc. All split
+                    lines are attributed as "type=i" for the initial portion, and "type=f" for the
+                    final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+                <p>Certain titles are supplied for further clarification and to function as navigational aides.  These are distinguished by a type attribute in the head tag with value of "supplied."</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="abbr" occurs="1"/>
+                    <tagUsage gi="address" occurs="2"/>
+                    <tagUsage gi="addrline" occurs="8"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="back" occurs="1"/>
+                    <tagUsage gi="bibl" occurs="3"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="corr" occurs="4"/>
+                    <tagUsage gi="date" occurs="5"/>
+                    <tagUsage gi="div" occurs="4"/>
+                    <tagUsage gi="div0" occurs="1"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="emph" occurs="2"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="figure" occurs="1"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="head" occurs="3"/>
+                    <tagUsage gi="item" occurs="12"/>
+                    <tagUsage gi="list" occurs="2"/>
+                    <tagUsage gi="name" occurs="29"/>
+                    <tagUsage gi="p" occurs="27"/>
+                    <tagUsage gi="pb" occurs="9"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="4"/>
+                    <tagUsage gi="pubplace" occurs="4"/>
+                    <tagUsage gi="resp" occurs="6"/>
+                    <tagUsage gi="respstmt" occurs="6"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="48"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="title" occurs="5"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="1"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000
+                                terms and 200,000 names to ensure consistency in the terms and names
+                                assigned during indexing. The VWWP project will utilize a subset of
+                                the MLA Thesaurus to assign genre headings to the VWWP texts.
+                            </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Anarchism</item>
+                        <item>Utopias</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/utopian+fiction">utopian fiction</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-10-20</date><label>general editor.</label><name>Perry Willett,
+                </name>finished data entry, TEI-conformant encoding and proofing</change>
+            <change><date>1996-08-30</date><label>general editor.</label><name>Perry Willett,
+                </name>verified date of death of author</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-09" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-07-29" who="elizabethmunson">Removed date and "a machine readable
+                transcription" from fileDesc title</change>
+            <change when="2010-07-29" who="elizabethmunson">Corrected hyphen in fileDesc and
+                sourceDesc titles</change>
+            <change when="2010-07-29" who="elizabethmunson">Added LCNAF form of author name to
+                sourceDesc (hyphen adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-29" who="elizabethmunson">Normalized date in
+                biblFull/publicationStmt</change>
+            <change when="2010-08-24" who="elizabethmunson">Added genre term</change>
+            <change when="2010-08-30" who="elizabethmunson">Changed div type="back" to "docImprint"
+                and removed div type="body"</change>
+            <change when="2010-09-14" who="elizabethmunson">Changed div type="advertisement" to
+            "publishers_catalog"</change>
+            <change when="2011-06-28" who="dotporter">Added div type="essay" and added head type="supplied" to the divs in frontmatter</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Common‐Sense Country </titlePart>
+                </docTitle>
+                <byline>By <docAuthor>L.S. Bevington</docAuthor></byline>
+                <docImprint>
+                    <pubPlace>London </pubPlace>
+                    <publisher>Printed and Published by James Tochatti, “Liberty” Press,
+                        <address><addrLine>60, Grove Park Terrace</addrLine><addrLine>Chiswick.</addrLine></address></publisher>
+                </docImprint>
+            </titlePage>
+            <div type="publishers_catalog">
+                <head type="supplied">Publisher's Catalog</head>
+                <bibl>
+                    <title>Liberty Pamphlets. </title>
+                </bibl>
+                <list type="simple">
+                    <head type="sub">In the Press.</head>
+                    <item>Socialism in Danger. Part II. By <name>E. Domela Nieuwenhuis</name>.
+                        Translated by <name>R. Grierson</name>.</item>
+                    <item>Parliamentary Politics in the Socialist Movement. By <name>Errico
+                            Malatesta</name>.</item>
+                </list>
+                <list type="simple">
+                    <head type="sub">16 pp., 8vo., printed on toned paper, Price One Penny.</head>
+                    <item>Jones’ Boy: Dialogues on Social Questions Between an ‘Enfant Terrible’ and
+                        his Father. By <name>“Spokeshave.”</name></item>
+                    <item>Liberty Lyrics By <name>L.S. Bevington</name>.</item>
+                    <item>The Ideal and the Youth. By <name>Elisée Reclus</name>.</item>
+                    <item>An Anarchist on Anarchy, By <name>Elisée Reclus</name>.</item>
+                    <item>In Defence of Emma Goldmann and the Right of Expropriation. By
+                            <name>Voltairine de Cleyre</name>.</item>
+                    <item>First Series. The Why I Ams: Why I Am a Socialist and an Atheist, by
+                            <name>Conrad Naewiger</name>; Why I Am a Social Democrat, by <name>G.
+                            Bernard Shaw</name>; Why I Am an Individualist Anarchist, by <name>J.
+                            Armsden</name>.</item>
+                    <item>Second Series. The Why I Ams: Why I Am a Communist, by <name>William
+                            Morris</name>; Why I Am an Expropriationist, by <name>L.S.
+                            Bevington</name>.</item>
+                </list>
+            </div>
+            <div type="publishers_catalog">
+                <head type="supplied">Publisher's Catalog</head>
+                <bibl>
+                    <title>Liberty: A Journal of Anarchist Communism. </title>
+                </bibl>
+                <p>Published Monthly. Price One Penny.</p>
+                <p>The Contributors Include <name>Louise Michel, </name><name>A. Hamon, </name>
+                    <name>W. Morris, </name><name>P. Kropotkin, </name><name>Errico Malatesta, </name>
+                    <name>Elisee Reclus,</name>
+                    <name>G.B. Shaw, </name><name>L.S. Bevington, </name>
+                    <name>J. Glen, </name><name>Touzeau Parris, </name>and All the Best Writers and
+                    Thinkers in the Socialist Movement.</p>
+            </div>
+        </front>
+        <body>
+            <div type="essay">
+                <head>Common‐Sense Country.</head>
+                <p>There was a country where Common‐sense had somehow got the upper hand. In that
+                    country sense was as common as lunacy is in a madhouse. There was a place for
+                    everything, and everything was either in that place, or else was on the direct
+                    way there—the shortest way, the easiest way, the cheapest way. In that country
+                    everybody was brought up with the notion that the simplest plan in everything
+                    served everybody’s turn best, even the clever people’s; and it was taken as a
+                    matter of course that if things did not go wrong people wouldn’t. They read in
+                    their books of history and comparative sociology that in countries <choice>
+                        <corr>where</corr>
+                        <sic>were</sic>
+                    </choice> things do go wrong, people go wrong too, in the blind, blundering
+                    attempt to straighten things back a bit. But in Common‐sense Country it was
+                    always said when things went wrong that there had been some nonsense—that is,
+                    empty word‐play—in the heads or habits of the people, which had diverted
+                    attention from realities, and caused the people to let things wander out of the
+                    way.</p>
+                <p>In Common‐sense Country all the commodities and goods, all the instruments,
+                    utensils, and appliances—in short, all the “things”—had very simple and
+                    unadventurous biographies, and, if they could have spoken, they would not have
+                    had much harrowing information to impart about the ravages of their tissues and
+                    textures caused by moth and rust, not yet of<pb n="4" xml:id="VAB7040-001"/>
+                    vicissitudes incurred at the hands of thieves breaking through to steal. “I was
+                    needed: I was made: I was conveyed: I was applied: I was consumed.” That would
+                    have summed up the history of a thing in the country where things went right:
+                    only five short chapters. In most countries, of course, all sorts of distressing
+                    and distracting other chapters intervene. Thus: “I was coveted: I was done
+                    without: I was lied for: I was hated for: I was speculated in: I was
+                    adulterated: I was advertised<choice>
+                        <corr>:</corr>
+                        <sic>.</sic>
+                    </choice> I was legislated about: I was sold (and my buyer with me): I was
+                    squandered: I was hoarded: I was quarrelled over: I was fought for: I was
+                    burgled: I was bombed.”</p>
+                <p>In Common‐sense Country there was a job for everyone, and everyone was merrily,
+                    ardently, or placidly doing that job. No one was doing mere “business” and
+                    calling it work. No one was doing real work and feeling it “toil”. Dull jobs
+                    were done in short spells by an immense number of people; delightful jobs were
+                    worked at for the pleasure of the thing, in longer spells, and by a fewer number
+                    of people. It fell out so, naturally, and because of common sense; nobody had to
+                    be at the trouble of enforcing the arrangement. The man with the dullest or most
+                    fatiguing job, as a matter of course, got the longest leisure for re‐creation of
+                    his naturally flagging zest for the job. The man with the most pleasureable and
+                    healthy job hardly knew leisure from job. The kindliest and most able‐bodied and
+                    jolliest of the people had common‐sense reasons for attending to the least
+                    appetizing tasks. Everybody knew they wanted doing; and these kindly, vigorous,
+                    and jolly folks were those who cared most about getting them done, and cared
+                    least about minor disagreeables. They also liked the peculiar way in which other
+                    people shook hands with them for it, and more than made it good to them in the
+                    way of respect and hospitality wherever they went.</p>
+                <pb n="5" xml:id="VAB7040-002"/>
+                <p>You never saw any feet without shoes in cold weather in Common‐sense Country. And
+                    you never saw any shoes heaped up thousands thick in warehouses with no feet to
+                    put into them. Common‐sense citizens had grave objections, not only to cold,
+                    discomfort, and disease, but also grave objections to the enormous expense of
+                    thought, time, material, and goodwill, necessarily involved in any and every
+                    measure for keeping empty shoes warm indoors, and human feet cold outside in the
+                    street. You never came to a place in any Common‐sense city where, by turning
+                    your head to the right, you could see one horn of a dilemma in the shape of a
+                    lot of grain or fish being destroyed on the lunatic excuse that it could not be
+                    sold for more than it cost, while by turning your head to the left the other
+                    horn of the dilemma became visible in the shape of men and women (with their
+                    children) hungry, worried, and constantly at their wits’ end, only because they
+                    could not buy back the comestibles they had ploughed, reaped, milled, fished,
+                    and otherwise laboured to bring within human reach.</p>
+                <p>In Common‐sense Country there were no jerry built houses, because people could
+                    not see any reason for making insecure and unhealthy dwellings. There were no
+                    ground landlords to make it disadvantageous to any builder to build honestly; no
+                    builders so hard pressed, therefore, that they were obliged to cause the masons
+                    to scamp work, use limeless mortar, or unseasoned wood. No builder or mason,
+                    moreover, had (in the name of common‐sense) any object whatever in view so
+                    immediately as the supplying of buildings wanted for use. He built houses for
+                    bakers, clothiers, artists, and all sorts of other useful persons; and these
+                    lived in the houses and produced food, clothing, works of art, and all sorts of
+                    other useful things for the builder in exchange.</p>
+                <pb n="6" xml:id="VAB7040-003"/>
+                <p>There was no waste of any energy or of any talent in Common‐sense Country. There
+                    were no churches and temples made with hands; because hands had better things to
+                    do than build prisons to shut up souls in. Also because in strict common sense
+                    the sky was holy enough to “sit under,” and even to sing spiritual songs under.
+                    Besides, Common‐senseites had discovered that you could not get the sun and
+                    fixed stars and all their lesser lights into the biggest of temples ever made
+                    with hands. In Common‐sense Country people like daylight for their minds and
+                    morals as well as for their bodies; and found it cheapest in the long run.</p>
+                <p>There were next to no shipwrecks on the coasts of Common‐sense Country; no one
+                    raced any ships to port in all weathers for the nonsensical reason of getting in
+                    before other ships. People on shore could always afford to wait a day or so for
+                    the weather, better than they could afford to kill men, sink ships, and spoil
+                    cargoes through running amuck at nature’s meteorological arrangements. It did
+                    not matter a jot to any one which ship got in first, since all ships were full
+                    of supplies, and sure to drop in, in natural order, as fast as needed. What
+                    sense of hurry there was, founded of course on experience of the inconvenience
+                    of waiting, led to all possible improvements <choice>
+                        <corr>in</corr>
+                        <sic>iu</sic>
+                    </choice> the art and science of ship‐building and engine‐building, so that
+                    wind‐and‐wave difficulties had been reduced to a minimum. So there was no
+                    colliding in fogs, no bursting of boilers, no over‐lading, and no un‐seaworthy
+                    craft; also no “Lloyd’s” agencies, to speculate on anyone’s want of
+                    common‐sense, and to live as parasites on the low moral vitality of the public,
+                    making profit at its expense. When folk talk of “insuring” in that country, they
+                    always meant making as sure as possible against chances of mishap. To insure a
+                    ship was to build her well, fit her well, man her well, to steer clear of
+                    shoals, and keep her in sound repair. Likewise with the insurance<pb n="7" xml:id="VAB7040-004"/> of houses. And to insure your life, you had only to
+                    eat, drink, and clothe yourself on hygienic principles, to avoid the indolence
+                    or the over‐taxing of any of your faculties, and to act fairly by every one of
+                    your fellow‐creatures with whom you had to do. In common‐sense language,
+                    insuring your life or property never meant to make it worth anyone’s while to
+                    destroy either one or the other.</p>
+                <p>No visible teacher taught common‐sense in that country. Children were born with
+                    it ready‐made. It lay in their human nature. It taught itself. It “growed” (like
+                    Topsy) because neither “business” nor “policy” existed to check or warp
+                    it—indeed neither the policy of business nor the business of policy were known
+                    at all, except as queer, sad, old superstitions, suffered through and done with
+                    ages ago, during the time when human generations were paying a big price in the
+                    purgatory of civilization, for the privilege of having beaten other creatures in
+                    the dangerous matter of language. Children in Common‐sense Country were never
+                    taught to be “wise and prudent,” because that was the way to prevent anything of
+                    any interest or beauty or high import from being “revealed.” Their little,
+                    honest, ignorant, simple questions received honest, accurate, and simple
+                    answers, in language which they could understand, and which they never needed to
+                    unlearn afterwards. And this alike on all subjects. Every young man and young
+                    woman grew up with as much common‐sense in his or her head or expectations as
+                    the elders could help them to. And each young man or young woman went on from a
+                    common‐sense starting point to use his or her faculties as individual endowment
+                    suggested, so that each generation kept on fearlessly adding to real knowledge
+                    by experimenting in new directions as common‐sense prompted; while the elders
+                    loved to have it so, and felt rewarded for their good faith to the children, and
+                    were sometimes in their own turn listeners, questioners, learners.</p>
+                <pb n="8" xml:id="VAB7040-005"/>
+                <p>Common‐sense citizens never said “Time is money.” They said that money‐minting,
+                    money‐managing, and money‐protecting entail endless waste of time and trouble;
+                    that they are an abuse of human faculty, resulting in a great deal of
+                    death—bodily, intellectual, moral, and spiritual. Also it was said these and
+                    like employments were as nonsensical in their objects as they were vicious in
+                    their effects. Money in Common‐sense Country had no meaning, any more than it
+                    has in a beehive. No one said “Money is power.” Sometimes it was said “Money is
+                    weakness.” That was when Common‐senseites were speaking of the doings and
+                    miseries of the inhabitants of Lunatic Land. (By the way, the word used was not
+                        <emph>money</emph> but <emph>mammon</emph>.) One objection they had to
+                    money, beyond its non‐sensicalness, was its tendency—in proportion to the degree
+                    of its accumulation in a man’s hand—to sap away his “soul,” his moral
+                    individuality, his character. They said, “What can it profit a man to lose his
+                    soul, and become a moral paralytic?” They observed also that wherever in Lunatic
+                    Land mammon had accumulated in a man’s hand, it had a tendency to put into his
+                    other a sceptre, a truncheon, a gatling gun, or some other preposterous
+                    implement, making of that moral paralytic a lord over two, or five, or ten
+                    cities, or markets, or communities—as the case might be.</p>
+                <p>As there was no mammon, there were none of those dismal things which are eternal
+                    essentials where mammon reigns. There were no arsenals, no armies, no police, no
+                    spies: no banks, no prisons, no poorhouses: no brothels, no divorce courts, no
+                    nunneries, no confessionals: no “rings,” no strikes, no infernal machines, no
+                    gallows. Common‐sense found no sort of use in any of these queer things.
+                    Common‐sense knew by hear‐say that mammon could not reign without them; but then
+                    common sense found no reason whatever for putting up with mammon, or paying its
+                    expenses.</p>
+                <pb n="9" xml:id="VAB7040-006"/>
+                <p>There were many stores and depots where anyone who wanted anything for wear, or
+                    consumption, or instruction, or pleasure, or any other use, could go, or send
+                    and get it, or get it made. He never had to ask “What’s the damage?” because in
+                    Common‐sense Country damage was objected to. Everyone knew that no one had got
+                    what he did not want, because nobody was so insane as to cumber himself with the
+                    custody of anything that was of no use or pleasure to him; so that to ask him to
+                    give up what was of direct use or pleasure to him would damage him. No one was
+                    short of anything, because the world is very fruitful, and human beings are very
+                    numerous, very ingenious, and very industrious, and are able and eager to make
+                    it more and more fruitful. Wealth in Common‐sense Country increased even faster
+                    than the population, so that there was more leisure for every new generation
+                    born. Whatever was not of direct use to the individuals who produced it, it was
+                    to the convenience of these individuals to place in care, and outside custody
+                    altogether, so that those to whom it was not superfluous might choose their own
+                    time and put it to their own uses. It is only in Lunatic Land that everybody
+                    (willingly or not) makes a practice of fining everybody else for the privilege
+                    of living alongside of him on the same planet. It takes a hereditary lunatic of
+                    many generations’ standing to go shamming about in the roundabout, nonsensically
+                    solemn effort to convert man’s natural home into a penal colony, by means of a
+                    cunningly devised system of fines all round for being alive and active and
+                    wanting to stop so.</p>
+                <p>In Common‐sense Country there were born ninety‐five per <choice>
+                        <abbr>cent.</abbr>
+                        <expan>centum</expan>
+                    </choice> fewer idiots, cripples, and otherwise afflicted mortals than are born
+                    elsewhere. The few there were, were not felt as a burden; for those of tender
+                    hearts found a natural pleasure in doing what could be done to make life
+                    tolerable for these sad and ever diminishing exceptions; and of course they were
+                        no<pb n="10" xml:id="VAB7040-007"/> expense in a land of plenty, where
+                    access was free to whatever was wanted, without money and without price.</p>
+                <p>In Common‐sense Country words were true, and purposes single; even newspapers
+                    expressed real opinions, and conveyed real information; fun abounded, and nobody
+                    preached. Every shade of individuality was respected and made welcome, variety
+                    being suggestive as well as interesting. No one wheedled, no one canted, no one
+                    flattered, or equivocated, or slandered; because none of these were necessary
+                    expedients. There was never anything to fear from either honesty or generosity
+                    in that land. People could have food, friends, fun, and freedom without little
+                    abject servilities. Every individual was, as a matter of course, left perfectly
+                    free on his capable side, while being courteously and gladly aided, by custom
+                    and common consent, on his weak side. So that there was nothing to prevent his
+                    voluntarily and naturally making common cause with others in the overcoming of
+                    common difficulties, and in the acquirement, production, and distribution of all
+                    good things.</p>
+                <p>There was no schism in that country, because there was no Church. There was a
+                    great deal of religion, because Common‐senseites had time to try their best
+                    powers of life and mind on everything, and the more they knew, the deeper depths
+                    of sheer wonderfulness did they find beneath the new‐won knowledge. They found
+                    that life, love, liberty, peace, progress, and everything worth having came as
+                    the reward of adherence to certain inexorable, universal laws, inherent in
+                    everything; laws in which there was no variableness, nor shadow of turning; and
+                    also no respect of persons. They had the intensest interest and zest in getting
+                    hold of these laws, and falling in with them as fast as they became visible; and
+                    they never dreamt of making cheap and nasty substitutes for laws in places or
+                    cases where none<pb n="11" xml:id="VAB7040-008"/> appeared of their own accord.
+                    As neither the ignorance nor superstition of their fellows served anyone’s turn
+                    in a country where citizens were free and trusted one another, no people in
+                    black were kept to purvey either the one or the other, not even to women or to
+                    the little children. All black arts were forgotten, and not missed. On the other
+                    hand Common‐sense Country was rich in prophets, or poets, of the variety known
+                    as “born not made.”</p>
+                <p>There was no sedition, because there was no State. Instead, there was every where
+                    a most beautiful order; for common‐sense, left to itself, saw no use in a public
+                    muddle, or in a private scramble; such as exists everywhere and all the while in
+                    Lunatic Land. It was moreover found that there were a thousand simpler, cheaper,
+                    and surer (because more natural) ways of forestalling <choice>
+                        <corr>and</corr>
+                        <sic>an1</sic>
+                    </choice> discouraging any atavistic aggressiveness on the part of individuals,
+                    than bribing a number of strangers beforehand to be in readiness to retaliate by
+                    proxy.</p>
+                <p>There was no swindling because there was no competition. Instead, there was
+                    endless emulation. The results of doing any thing well, usefully, or admirably
+                    were wholly pleasant. The social results of doing anything that wanted doing
+                    better and more easily and swiftly than it had been done before, were so
+                    exceptionally pleasant that all the most energetic and able people aspired and
+                    endeavoured to experience those results at first hand. No man‐imposed
+                    restriction thwarted or impeded any experiment, and in the end the community
+                    learnt something useful by every mistake made. General goodwill and prosperity
+                    were immense; because there were no reasons at all for tricking anybody—quite
+                    the reverse.</p>
+                <p>Human nature was never made a butt for satire, or a subject of regret, in
+                    Common‐sense Country. No mud, <pb n="12" xml:id="VAB7040-009"/> no rotten eggs,
+                    no printers’ ink were thrown at it. No one made a “living” by undertaking to
+                    convince others of their unsuspected depravity, with promise of cure for it in
+                    exchange for cash down and vows of allegiance. No one made any name or fame for
+                    himself by undertaking to keep human nature in others in order, by means of
+                    penal and restrictive regulations invented and imposed by human nature in
+                    himself or his set. Common‐senseites saw that human nature was a branch of
+                    nature at large, and that to divide it against itself was the surest way to get
+                    it out of gear. Whenever a proclivity was found to be universal amongst humans,
+                    common‐sense put the natural interpretation on the fact, and respected the
+                    proclivity, however superficially inconvenient in minor respects or exceptional
+                    cases. They respected it as due to some instinct, implanted and developed by the
+                    law of Lifewardness, and which it was therefore dangerous and disastrous
+                    systematically to nullify and oppose. Their endeavour was, instead, to become
+                    better acquainted with it.</p>
+                <p>The great pleasure of trustful, unchecked sympathy, and of spontaneous glowing
+                    kindliness, was enjoyed nowhere to such a degree as in Common‐sense Country. The
+                    old people, the little children, the animals and birds had a happy time of it;
+                    and there was free exchange of friendship and affection between the dumb and the
+                    human sharers of earthly life. And in the healthy, breathable, moral atmosphere
+                    of habitual good faith, fearless thinking, true speech, and sincere dealing
+                    which (by dint of simple good sense) people had gradually instituted, the
+                    necessary love of self, which takes such crude forms in Lunatic Land, had
+                    overflowed at every point, and become indistinguishable from the delicious,
+                    zest‐giving, and inexhaustible pleasure of love for those around.</p>
+                <p>There was Peace in Common‐sense Country, and Goodwill among men; and Happiness
+                    and Fullness of Life had become the Natural Order of the day.</p>
+            </div>
+        </body>
+        <back>
+            <div type="docImprint">
+                <head type="supplied">Imprint</head>
+                <bibl>
+                    <publisher>Printed by James Tochatti, </publisher>
+                    <pubPlace>at 60 Grove Park Terrace, Chiswick, W</pubPlace>
+                </bibl>
+            </div>
+        </back>
+    </text>
+</TEI>

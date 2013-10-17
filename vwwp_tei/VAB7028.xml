@@ -1,0 +1,2737 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7028">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Songs and Sonnets</title>
+                <author>Blind, Mathilde (1841-1896)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by</resp>
+                    <name>Ed Fox</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 105 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>April 2, 1996</date>
+                <idno>VAB7028</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is from the Research Collections, Indiana
+                    University.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Songs and Sonnets</title>
+                        <author>Blind, Mathilde, 1841-1896</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Mathilde Blind</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>119 p.</extent>
+                    <publicationStmt>
+                        <publisher>Chatto &amp; Windus,</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1893">1893</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag, with the
+                    value "indent1" for one tab stop, "indent2" for two tab stops, etc. All split
+                    lines are attributed as "type=i" for the initial portion, and "type=f" for the
+                    final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"/>
+                    <tagUsage gi="addrline" occurs="6"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="3"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="date" occurs="5"/>
+                    <tagUsage gi="div" occurs="2"/>
+                    <tagUsage gi="div0" occurs="61"/>
+                    <tagUsage gi="div1" occurs="26"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docdate" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="figure" occurs="1"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="group" occurs="1"/>
+                    <tagUsage gi="head" occurs="94"/>
+                    <tagUsage gi="hi" occurs="85"/>
+                    <tagUsage gi="item" occurs="92"/>
+                    <tagUsage gi="l" occurs="1409"/>
+                    <tagUsage gi="lg" occurs="261"/>
+                    <tagUsage gi="list" occurs="4"/>
+                    <tagUsage gi="name" occurs="7"/>
+                    <tagUsage gi="note" occurs="1"/>
+                    <tagUsage gi="p" occurs="6"/>
+                    <tagUsage gi="pb" occurs="119"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="3"/>
+                    <tagUsage gi="pubplace" occurs="3"/>
+                    <tagUsage gi="ref" occurs="95"/>
+                    <tagUsage gi="resp" occurs="7"/>
+                    <tagUsage gi="respstmt" occurs="7"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="52"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="4"/>
+                    <tagUsage gi="title" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="1"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                    <tagUsage gi="trailer" occurs="1"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000
+                                terms and 200,000 names to ensure consistency in the terms and names
+                                assigned during indexing. The VWWP project will utilize a subset of
+                                the MLA Thesaurus to assign genre headings to the VWWP texts.
+                            </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1996-03-26</date><label>editors.</label><name>Ed Fox, </name>finished data
+                entry, basic encoding and proofing.</change>
+            <change><date>1996-04-02</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI‐conformant encoding and final proofing.</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-07-28" who="elizabethmunson">Removed date and "a machine readable
+                transcription" from fileDesc title</change>
+            <change when="2010-07-28" who="elizabethmunson">Added LCNAF form of author name to
+                sourceDesc and fileDesc author (hyphen adjusted for both, parenthesis adjusted for
+                fileDesc)</change>
+            <change when="2010-07-28" who="elizabethmunson">Normalized date in
+                biblFull/publicationStmt</change>
+            <change when="2010-07-30" who="elizabethmunson">Fixed TOC links, starting with Pauper
+                Poet's Song</change>
+            <change who="elizabethmunson" when="2010-08-24">Added genre term</change>
+            <change who="elizabethmunson" when="2010-08-27">Changed div type="sonnet" to
+                "poem"</change>
+            <change who="elizabethmunson" when="2010-09-17">Added type="note" to TOC footnotes so
+                they would render properly</change>
+            <change when="2011-06-28" who="dotporter">Changed group/text to div type="part"</change>
+            <change when="2011-06-29" who="dotporter">Added back group/text</change>
+            <change when="2011-08-12" who="maryborgo">Corrected contents heading</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">SONGS AND SONNETS</titlePart>
+                </docTitle>
+                <byline>BY <docAuthor>MATHILDE BLIND </docAuthor></byline>
+                <docImprint>
+                    <pubPlace>London </pubPlace>
+                    <publisher>CHATTO &amp; WINDUS, PICCADILLY</publisher>
+                </docImprint>
+                <docDate>1893</docDate>
+            </titlePage>
+            <pb n="v" xml:id="VAB7028-001"/>
+            <div type="contents">
+                <head>CONTENTS.</head>
+                <list type="simple">
+                    <item>LOVE IN EXILE:— <list type="simple">
+                            <item>SHE STOOD AGAINST THE ORIENT SUN <ref target="#VAB7028-006" rend="right">3</ref></item>
+                            <item>WINDING ALL MY LIFE ABOUT THEE <ref target="#VAB7028-008" rend="right">5</ref></item>
+                            <item>I CHARGE YOU, O WINDS OF THE WEST <ref target="#VAB7028-010" rend="right">7</ref></item>
+                            <item>THOU WALKEST WITH ME <ref target="#VAB7028-013" rend="right">10</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>I THINK OF THEE IN
+                                WATCHES OF THE NIGHT <ref target="#VAB7028-014" rend="right">11</ref></item>
+                            <item>I WAS AGAIN BESIDE THEE IN A DREAM <ref target="#VAB7028-015" rend="right">12</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>OUR SOULS HAVE
+                                TOUCHED EACH OTHER <ref target="#VAB7028-017" rend="right">14</ref></item>
+                            <item>I AM ATHIRST <ref target="#VAB7028-019" rend="right">16</ref></item>
+                            <item>I WOULD I WERE THE GLOW‐WORM, THOU THE FLOWER <ref target="#VAB7028-020" rend="right">17</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>THE WOODS SHAKE IN
+                                AN AGUE‐FIT <ref target="#VAB7028-022" rend="right">19</ref></item>
+                            <item>DOST THOU REMEMBER <ref target="#VAB7028-024" rend="right">21</ref></item>
+                            <item>LIKE SOME WILD SLEEPER WHO ALONE AT NIGHT <ref target="#VAB7028-025" rend="right">22</ref></item>
+                            <item>O MOON, LARGE GOLDEN SUMMER MOON <ref target="#VAB7028-026" rend="right">23</ref></item>
+                            <item>I PLANTED A ROSE TREE IN MY GARDEN <ref target="#VAB7028-027" rend="right">24</ref></item>
+                            <item>WHY WILL YOU HAUNT ME UNAWARES <ref target="#VAB7028-028" rend="right">25</ref></item>
+                            <item>WHEN YOU WAKE FROM TROUBLED SLUMBERS <ref target="#VAB7028-029" rend="right">26</ref></item>
+                            <pb n="vi" xml:id="VAB7028-002"/>
+                            <item>IN A LONESOME BURIAL‐PLACE <ref target="#VAB7028-031" rend="right">28</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>DEEP IN A
+                                YEW‐SEQUESTERED GROVE <ref target="#VAB7028-033" rend="right">30</ref></item>
+                            <item>ON LIFE’S LONG ROUND <ref target="#VAB7028-035" rend="right">32</ref></item>
+                            <item>AH, YESTERDAY WAS DARK AND DREAR <ref target="#VAB7028-036" rend="right">33</ref></item>
+                            <item>I TOOK YOUR FACE IN TO MY DREAMS <ref target="#VAB7028-037" rend="right">34</ref></item>
+                            <item>WE MET AS STRANGERS ON LIFE’S LONELY WAY <ref target="#VAB7028-038" rend="right">35</ref></item>
+                            <item>YOU MAKE THE SUNSHINE OF MY HEART <ref target="#VAB7028-039" rend="right">36</ref></item>
+                            <item>AH, IF YOU KNEW HOW SOON AND LATE <ref target="#VAB7028-040" rend="right">37</ref></item>
+                            <item>YOUR LOOKS HAVE TOUCHED MY SOUL WITH BRIGHT <ref target="#VAB7028-041" rend="right">38</ref></item>
+                            <item>WHAT MAGIC IS THERE IN THY MIEN <ref target="#VAB7028-042" rend="right">39</ref></item>
+                            <item>L’ENVOI <ref target="#VAB7028-043" rend="right">40</ref></item>
+                        </list></item>
+                    <item>SONGS:— <list type="simple">
+                            <item>PAUPER POET’S SONG <ref target="#VAB7028-048" rend="right">47</ref></item>
+                            <item>SNOW OR SNOWDROPS? <ref target="#VAB7028-050" rend="right">49</ref></item>
+                            <item>A SPRING SONG <ref target="#VAB7028-051" rend="right">50</ref></item>
+                            <item>“ALL MY HEART IS STIRRING LIGHTLY” <ref target="#VAB7028-052" rend="right">51</ref></item>
+                            <item>APRIL RAIN <ref target="#VAB7028-053" rend="right">52</ref></item>
+                            <item>APPLE‐BLOSSOM <ref target="#VAB7028-055" rend="right">54</ref></item>
+                            <item>THE MUSIC‐LESSON <ref target="#VAB7028-057" rend="right">56</ref></item>
+                            <item>“ONCE ON A GOLDEN DAY” <ref target="#VAB7028-059" rend="right">58</ref></item>
+                            <item>ROSE D’AMOUR <ref target="#VAB7028-061" rend="right">60</ref></item>
+                            <item>ONLY A SMILE <ref target="#VAB7028-062" rend="right">61</ref></item>
+                            <item>THE SONGS OF SUMMER <ref target="#VAB7028-063" rend="right">62</ref></item>
+                            <item>“YEA, THE ROSES ARE STILL ON FIRE” <ref target="#VAB7028-064" rend="right">63</ref></item>
+                            <item>AUTUMN TINTS <ref target="#VAB7028-065" rend="right">64</ref></item>
+                            <pb n="vii" xml:id="VAB7028-003"/>
+                            <item><ref target="#songs-note01" type="note">*</ref>ON AND ON <ref target="#VAB7028-067" rend="right">66</ref></item>
+                            <item>A CHILD’S FANCY <ref target="#VAB7028-069" rend="right">68</ref></item>
+                            <item>ON A VIOLA D’AMORE <ref target="#VAB7028-071" rend="right">70</ref></item>
+                            <item>BROWN EYES <ref target="#VAB7028-073" rend="right">72</ref></item>
+                            <item>MY LADY <ref target="#VAB7028-074" rend="right">73</ref></item>
+                            <item>SOMETIMES I WONDER <ref target="#VAB7028-076" rend="right">75</ref></item>
+                            <item>MANY WILL LOVE YOU <ref target="#VAB7028-077" rend="right">76</ref></item>
+                            <item>A DREAM <ref target="#VAB7028-078" rend="right">77</ref></item>
+                            <item>GREEN LEAVES AND SERE <ref target="#VAB7028-079" rend="right">78</ref></item>
+                            <item>THE HUNTER’S MOON <ref target="#VAB7028-080" rend="right">79</ref></item>
+                            <item>A PARTING <ref target="#VAB7028-082" rend="right">81</ref></item>
+                            <item>LASSITUDE <ref target="#VAB7028-083" rend="right">82</ref></item>
+                            <item>SEEKING <ref target="#VAB7028-084" rend="right">83</ref></item>
+                        </list></item>
+                    <item>SONNETS:— <list type="simple">
+                            <item>CLEAVE THOU THE WAVES <ref target="#VAB7028-087" rend="right">87</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>HOPE <ref target="#VAB7028-088" rend="right">88</ref></item>
+                            <item>THE DEAD <ref target="#VAB7028-089" rend="right">89</ref></item>
+                            <item>TIME’S SHADOW <ref target="#VAB7028-090" rend="right">90</ref></item>
+                            <item>A SYMBOL <ref target="#VAB7028-091" rend="right">91</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>SUFFERING <ref target="#VAB7028-092" rend="right">92</ref></item>
+                            <item>ANAΛKH <ref target="#VAB7028-093" rend="right">93</ref></item>
+                            <item>SLEEP <ref target="#VAB7028-094" rend="right">94</ref></item>
+                            <item>DEAD LOVE <ref target="#VAB7028-095" rend="right">95</ref></item>
+                            <item>DESPAIR <ref target="#VAB7028-096" rend="right">96</ref></item>
+                            <item>TO MEMORY <ref target="#VAB7028-097" rend="right">97</ref></item>
+                            <item>SAVING LOVE <ref target="#VAB7028-098" rend="right">98</ref></item>
+                            <item>HAUNTED STREETS <ref target="#VAB7028-099" rend="right">99</ref></item>
+                            <pb n="viii" xml:id="VAB7028-004"/>
+                            <item>MOTHERHOOD <ref target="#VAB7028-100" rend="right">100</ref></item>
+                            <item>THE AFTER‐GLOW <ref target="#VAB7028-101" rend="right">101</ref></item>
+                            <item>TO THE OBELISK DURING THE GREAT FROST, 1881 <ref target="#VAB7028-102" rend="right">102</ref></item>
+                            <item>MANCHESTER BY NIGHT <ref target="#VAB7028-103" rend="right">103</ref></item>
+                            <item>THE RED SUNSETS, 1883 <ref target="#VAB7028-104" rend="right">104</ref></item>
+                            <item>THE RED SUNSETS, 1883 <ref target="#VAB7028-105" rend="right">105</ref></item>
+                            <item>THE SLEEPING BEAUTY <ref target="#VAB7028-106" rend="right">106</ref></item>
+                            <item>THE ROBIN REDBREAST <ref target="#VAB7028-107" rend="right">107</ref></item>
+                            <item>A WINTER LANDSCAPE <ref target="#VAB7028-108" rend="right">108</ref></item>
+                            <item>ON THE LIGHTHOUSE AT ANTIBES <ref target="#VAB7028-109" rend="right">109</ref></item>
+                            <item>BEAUTY <ref target="#VAB7028-110" rend="right">110</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>IN THE ST.
+                                GOTTHARDT PASS <ref target="#VAB7028-111" rend="right">111</ref></item>
+                            <item>CAGNES <ref target="#VAB7028-112" rend="right">112</ref></item>
+                            <item>HEART’S‐EASE <ref target="#VAB7028-113" rend="right">113</ref></item>
+                            <item>UNTIMELY LOVE <ref target="#VAB7028-114" rend="right">114</ref></item>
+                            <item>THE PASSING YEAR <ref target="#VAB7028-115" rend="right">115</ref></item>
+                            <item>CHRISTMAS EVE <ref target="#VAB7028-116" rend="right">116</ref></item>
+                            <item><ref target="#songs-note01" type="note">*</ref>THE EVENING OF THE
+                                YEAR <ref target="#VAB7028-117" rend="right">117</ref></item>
+                            <item>NEW YEAR’S EVE <ref target="#VAB7028-118" rend="right">118</ref></item>
+                            <item>NIRVANA <ref target="#VAB7028-119" rend="right">119</ref></item>
+                        </list></item>
+                </list>
+                <note anchored="true" place="foot" xml:id="songs-note01">* The new poems are marked
+                    with a star.</note>
+            </div>
+        </front>
+        <group>
+            <text>
+                <body>
+                    <pb xml:id="VAB7028-005"/>
+                    <div type="part">
+                        <head>LOVE IN EXILE AND OTHER SONGS</head>
+                        <pb n="3" xml:id="VAB7028-006"/>
+                        <div type="poem">
+                            <head>LOVE IN EXILE</head>
+                            <div type="canto">
+                                <head>I.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">SHE</hi> stood against the Orient sun,</l>
+                                    <l>Her face inscrutable for light;</l>
+                                    <l>A myriad larks in unison</l>
+                                    <l>Sang o’er her, soaring out of sight.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>A myriad flowers around her feet</l>
+                                    <l>Burst flame‐like from the yielding sod,</l>
+                                    <l>Till all the wandering airs were sweet</l>
+                                    <l>With incense mounting up to God.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>A mighty rainbow shook, inclined</l>
+                                    <l>Towards her, from the Occident,</l>
+                                    <l>Girdling the cloud‐wrack which enshrined</l>
+                                    <l>Half the light‐bearing firmament.</l>
+                                </lg>
+                                <pb n="4" xml:id="VAB7028-007"/>
+                                <lg type="verse_paragraph">
+                                    <l>Lit showers flashed golden o’er the hills,</l>
+                                    <l>And trees flung silver to the breeze,</l>
+                                    <l>And, scattering diamonds, fleet‐foot rills</l>
+                                    <l>Fled laughingly across the leas.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Yea, Love, the skylarks laud but thee,</l>
+                                    <l>And writ in flowers thine awful name;</l>
+                                    <l>Spring is thy shade, dread Ecstasy,</l>
+                                    <l>And life a brand which feeds thy flame.</l>
+                                </lg>
+                            </div>
+                            <pb n="5" xml:id="VAB7028-008"/>
+                            <div type="canto">
+                                <head>II.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">WINDING</hi> all my life about thee,</l>
+                                    <l rend="ti-1">Let me lay my lips on thine;</l>
+                                    <l>What is all the world without thee,</l>
+                                    <l rend="ti-3">Mine —oh mine!</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Let me press my heart out on thee,</l>
+                                    <l rend="ti-1">Grape of life’s most fiery vine,</l>
+                                    <l>Spilling sacramental on thee</l>
+                                    <l rend="ti-3">Love’s red wine.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Let thy strong eyes yearning o’er me</l>
+                                    <l rend="ti-1">Draw me with their force divine;</l>
+                                    <l>All my soul has gone before me</l>
+                                    <l rend="ti-3">Clasping thine.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Irresistibly I follow,</l>
+                                    <l rend="ti-1">As whenever we may run</l>
+                                    <l>Runs our shadow, as the swallow</l>
+                                    <l rend="ti-3">Seeks the sun. </l>
+                                </lg>
+                                <pb n="6" xml:id="VAB7028-009"/>
+                                <lg type="verse_paragraph">
+                                    <l>Yea, I tremble, swoon, surrender</l>
+                                    <l rend="ti-1">All my spirit to thy sway,</l>
+                                    <l>As a star is drowned in splendour</l>
+                                    <l rend="ti-3">Of the day.</l>
+                                </lg>
+                            </div>
+                            <pb n="7" xml:id="VAB7028-010"/>
+                            <div type="canto">
+                                <head>III.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">I CHARGE</hi> you, O winds of the West, O winds
+                                        with the wings of the dove,</l>
+                                    <l>That ye blow o’er the brows of my Love, breathing low that I
+                                        sicken for love.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I charge you, O dews of the Dawn, O tears of the star of the
+                                        morn,</l>
+                                    <l>That ye fall at the feet of my love with the sound of one
+                                        weeping forlorn.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I charge you, O birds of the Air, O birds flying home to your
+                                        nest,</l>
+                                    <l>That ye sing in his ears of the joy that for ever has fled
+                                        from my breast.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I charge you, O flowers of the Earth, O frailest of things,
+                                        and most fair,</l>
+                                    <l>That ye droop in his path as the life in me shrivels consumed
+                                        by despair.</l>
+                                </lg>
+                                <pb n="8" xml:id="VAB7028-011"/>
+                                <lg type="verse_paragraph">
+                                    <l>O Moon, when he lifts up his face, when he seeth the waning
+                                        of thee,</l>
+                                    <l>A memory of her who lies wan on the limits of life let it
+                                        be.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Many tears cannot quench, nor my sighs extinguish, the flames
+                                        of love’s fire,</l>
+                                    <l>Which lifteth my heart like a wave, and smites it, and breaks
+                                        its desire.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I rise like one in a dream when I see the red sun flaring
+                                        low,</l>
+                                    <l>That drags me back shuddering from sleep each morning to life
+                                        with its woe.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I go like one in a dream, unbidden my feet know the way</l>
+                                    <l>To that garden where love stood in blossom with the red and
+                                        white hawthorn of May.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The song of the throstle is hushed, and the fountain is dry
+                                        to its core,</l>
+                                    <l>The moon cometh up as of old; she seeks, but she finds him no
+                                        more.</l>
+                                </lg>
+                                <pb n="9" xml:id="VAB7028-012"/>
+                                <lg type="verse_paragraph">
+                                    <l>The pale‐faced, pitiful moon shines down on the grass where I
+                                        weep,</l>
+                                    <l>My face to the earth, and my breast in an anguish ne’er
+                                        soothed into sleep.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The moon returns, and the spring, birds warble, trees burst
+                                        into leaf,</l>
+                                    <l>But Love once gone, goes for ever, and all that endures is
+                                        the grief.</l>
+                                </lg>
+                            </div>
+                            <pb n="10" xml:id="VAB7028-013"/>
+                            <div type="canto">
+                                <head>IV.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">THOU</hi> walkest with me as the
+                                        spirit‐light</l>
+                                    <l rend="ti-1">Of the hushed moon, high o’er a snowy hill,</l>
+                                    <l>Walks with the houseless traveller all the night,</l>
+                                    <l rend="ti-1">When trees are tongueless and when mute the
+                                        rill.</l>
+                                    <l>Moon of my soul, O phantasm of delight,</l>
+                                    <l rend="ti-1">Thou walkest with me still.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The vestal flame of quenchless memory burns</l>
+                                    <l rend="ti-1">In my soul’s sanctuary. Yea, still for thee</l>
+                                    <l>My bitter heart hath yearned, as moonward yearns</l>
+                                    <l rend="ti-1">Each separate wave‐pulse of the clamorous
+                                        sea:</l>
+                                    <l>My Moon of love, to whom for ever turns</l>
+                                    <l rend="ti-1">The life that aches through me.</l>
+                                </lg>
+                            </div>
+                            <pb n="11" xml:id="VAB7028-014"/>
+                            <div type="canto">
+                                <head>V.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">I THINK</hi> of thee in watches of the
+                                        night,</l>
+                                    <l rend="ti-2">I feel thee near;</l>
+                                    <l>Like mystic lamps consumed with too much light</l>
+                                    <l rend="ti-2">Thine eyes burn clear.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The barriers that divide us in the day</l>
+                                    <l rend="ti-2">And hide from view,</l>
+                                    <l>Like idle cobwebs now are brushed away</l>
+                                    <l rend="ti-2">Between us two.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I probe the deep recesses of thy mind</l>
+                                    <l rend="ti-2">Without control,</l>
+                                    <l>And in its inmost labyrinth I find</l>
+                                    <l rend="ti-2">My own lost soul.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>No longer like an exile on the earth</l>
+                                    <l rend="ti-2">I wildly roam,</l>
+                                    <l>I was thy double from the hour of birth</l>
+                                    <l rend="ti-2">And thou my home.</l>
+                                </lg>
+                            </div>
+                            <pb n="12" xml:id="VAB7028-015"/>
+                            <div type="canto">
+                                <head>VI.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">I WAS</hi> again beside thee in a dream:</l>
+                                    <l rend="ti-1">Earth was so beautiful, the moon was shining;</l>
+                                    <l>The muffled voice of many a cataract stream</l>
+                                    <l rend="ti-1">Came like a love‐song, as, with arms
+                                        entwining,</l>
+                                    <l>Our hearts were mixed in unison supreme.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The wind lay spell‐bound in each pillared pine,</l>
+                                    <l rend="ti-1">The tasselled larches had no sound or motion,</l>
+                                    <l>As my whole life was sinking into thine—</l>
+                                    <l rend="ti-1">Sinking into a deep, unfathomed ocean</l>
+                                    <l>Of infinite love—uncircumscribed, divine.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Night held her breath, it seemed, with all her stars:</l>
+                                    <l rend="ti-1">Eternal eyes that watched in mute compassion</l>
+                                    <l>Our little lives o’erleap their mortal bars,</l>
+                                    <l rend="ti-1">Fused in the fulness of immortal passion,</l>
+                                    <l>A passion as immortal as the stars.</l>
+                                </lg>
+                                <pb n="13" xml:id="VAB7028-016"/>
+                                <lg type="verse_paragraph">
+                                    <l>There was no longer any thee or me;</l>
+                                    <l rend="ti-1">No sense of self, no wish or incompleteness</l>
+                                    <l>The moment, rounded to Eternity,</l>
+                                    <l rend="ti-1">Annihilated time’s destructive fleetness:</l>
+                                    <l>For all but love itself had ceased to be.</l>
+                                </lg>
+                            </div>
+                            <pb n="14" xml:id="VAB7028-017"/>
+                            <div type="canto">
+                                <head>VII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">OUR</hi> souls have touched each other,</l>
+                                    <l rend="ti-1">Two fountains from one jet;</l>
+                                    <l>Like children of one mother</l>
+                                    <l rend="ti-1">Our leaping thoughts have met.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>We were as far asunder</l>
+                                    <l rend="ti-1">As green isles in the sea;</l>
+                                    <l>And now we ask in wonder</l>
+                                    <l rend="ti-1">How that could ever be.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I dare not call thee lover</l>
+                                    <l rend="ti-1">Nor any earthly name,</l>
+                                    <l>Though love’s full cup flows over</l>
+                                    <l rend="ti-1">As water quick with flame.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>When two strong minds have mated</l>
+                                    <l rend="ti-1">As only spirits may,</l>
+                                    <l>The wold shines new created</l>
+                                    <l rend="ti-1">In a diviner day.</l>
+                                </lg>
+                                <pb n="15" xml:id="VAB7028-018"/>
+                                <lg type="verse_paragraph">
+                                    <l>Yea, though hard fate may sever</l>
+                                    <l rend="ti-1">My fleeting self from thine,</l>
+                                    <l>Thy thought will live for ever</l>
+                                    <l rend="ti-1">And ever grow in mine.</l>
+                                </lg>
+                            </div>
+                            <pb n="16" xml:id="VAB7028-019"/>
+                            <div type="canto">
+                                <head>VIII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">I AM</hi> athirst, but not for wine;</l>
+                                    <l>The drink I long for is divine,</l>
+                                    <l>Poured only from your eyes in mine.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I hunger, but the bread I want,</l>
+                                    <l>Of which my blood and brain are scant,</l>
+                                    <l>Is your sweet speech, for which I pant.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I am a‐cold, and lagging lame,</l>
+                                    <l>Life creeps along my languid frame;</l>
+                                    <l>Your love would fan it into flame.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Heaven’s in that little word—your love!</l>
+                                    <l>It makes my heart coo like a dove,</l>
+                                    <l>My tears fall as I think thereof.</l>
+                                </lg>
+                            </div>
+                            <pb n="17" xml:id="VAB7028-020"/>
+                            <div type="canto">
+                                <head>IX.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">I WOULD</hi> I were the glow‐worm, thou the
+                                        flower,</l>
+                                    <l rend="ti-1">That I might fill thy cup with glimmering
+                                        light;</l>
+                                    <l>I would I were the bird, and thou the bower,</l>
+                                    <l rend="ti-1">To sing thee songs throughout the summer
+                                        night.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I would I were a pine tree deeply rooted,</l>
+                                    <l rend="ti-1">And thou the lofty, cloud‐beleaguered rock,</l>
+                                    <l>Still, while the blasts of heaven around us hooted,</l>
+                                    <l rend="ti-1">To cleave to thee and weather every shock.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I would I were the rill, and thou the river;</l>
+                                    <l rend="ti-1">So might I, leaping from some headlong steep,</l>
+                                    <l>With all my waters lost in thine for ever,</l>
+                                    <l rend="ti-1">Be hurried onwards to the unfathomed deep.</l>
+                                </lg>
+                                <pb n="18" xml:id="VAB7028-021"/>
+                                <lg type="verse_paragraph">
+                                    <l>I would—what would I not? O foolish dreaming!</l>
+                                    <l rend="ti-1">My words are but as leaves by autumn shed,</l>
+                                    <l>That, in the faded moonlight idly gleaming,</l>
+                                    <l rend="ti-1">Drop on the grave where all our love lies
+                                        dead.</l>
+                                </lg>
+                            </div>
+                            <pb n="19" xml:id="VAB7028-022"/>
+                            <div type="canto">
+                                <head>X.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">THE</hi> woods shake in an ague‐fit,</l>
+                                    <l rend="ti-1">The mad wind rocks the pine,</l>
+                                    <l>From sea to sea the white gulls flit</l>
+                                    <l rend="ti-1">Into the roaring brine.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The moon as if in panic grief</l>
+                                    <l rend="ti-1">Darts through the clouds on high,</l>
+                                    <l>Blown like a wild autumnal leaf</l>
+                                    <l rend="ti-1">Across the wilder sky.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The gusty rain is driving fast,</l>
+                                    <l rend="ti-1">And through the rain we hear,</l>
+                                    <l>Above the equinoctial blast,</l>
+                                    <l rend="ti-1">The thunder of the Weir.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The voices of the wind and rain</l>
+                                    <l rend="ti-1">Wail echoing through my heart—</l>
+                                    <l>That love is ever dogged by pain</l>
+                                    <l rend="ti-1">And fondest souls must part.</l>
+                                </lg>
+                                <pb n="20" xml:id="VAB7028-023"/>
+                                <lg type="verse_paragraph">
+                                    <l>You made heart’s summer, O my friend,</l>
+                                    <l rend="ti-1">But now we bid adieu,</l>
+                                    <l>There will be winter without end</l>
+                                    <l rend="ti-1">And tears for ever new.</l>
+                                </lg>
+                            </div>
+                            <pb n="21" xml:id="VAB7028-024"/>
+                            <div type="canto">
+                                <head>XI.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">DOST</hi> thou remember ever, for my sake,</l>
+                                    <l>When we two rowed upon the rock‐bound lake?</l>
+                                    <l>How the wind‐fretted waters blew their spray</l>
+                                    <l>About our brows like blossom‐falls of May</l>
+                                    <l rend="ti-2">One memorable day?</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Dost thou remember the glad mouth that cried—</l>
+                                    <l>“Were it not sweet to die now side by side,</l>
+                                    <l>To lie together tangled in the deep</l>
+                                    <l>Close as the heart‐beat to the heart—so keep</l>
+                                    <l rend="ti-2">The everlasting sleep?”</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Dost thou remember? Ah, such death as this</l>
+                                    <l>Had set the seal upon my heart’s young bliss!</l>
+                                    <l>But, wrenched asunder, severed and apart,</l>
+                                    <l>Life knew a deadlier death: the blighting smart</l>
+                                    <l rend="ti-2">Which only kills the heart.</l>
+                                </lg>
+                            </div>
+                            <pb n="22" xml:id="VAB7028-025"/>
+                            <div type="canto">
+                                <head>XII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">LIKE</hi> some wild sleeper who alone at
+                                        night</l>
+                                    <l>Walks with unseeing eyes along a height,</l>
+                                    <l rend="ti-1">With death below and only stars above;</l>
+                                    <l>I, in broad daylight, walk as if in sleep,</l>
+                                    <l>Along the edges of life’s perilous steep,</l>
+                                    <l rend="ti-1">The lost somnambulist of love.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I, in broad day, go walking in a dream,</l>
+                                    <l>Led on in safety by the starry gleam</l>
+                                    <l rend="ti-1">Of thy blue eyes that hold my heart in
+                                        thrall;</l>
+                                    <l>Let no one wake me rudely, lest one day,</l>
+                                    <l>Startled to find how far I’ve gone astray,</l>
+                                    <l rend="ti-1">I dash my life out in my fall.</l>
+                                </lg>
+                            </div>
+                            <pb n="23" xml:id="VAB7028-026"/>
+                            <div type="canto">
+                                <head>XIII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">O MOON</hi>, large golden summer moon,</l>
+                                    <l rend="ti-1">Hanging between the linden trees,</l>
+                                    <l rend="ti-1">Which in the intermittent breeze</l>
+                                    <l>Beat with the rhythmic pulse of June!</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>O night‐air, scented through and through</l>
+                                    <l rend="ti-1">With honey‐coloured flower of lime,</l>
+                                    <l rend="ti-1">Sweet now as in that other time</l>
+                                    <l>When all my heart was sweet as you!</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The sorcery of this breathing bloom</l>
+                                    <l rend="ti-1">Works like enchantment in my brain,</l>
+                                    <l rend="ti-1">Till, shuddering back to life again,</l>
+                                    <l>My dead self rises from its tomb.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>And, lovely with the love of yore,</l>
+                                    <l rend="ti-1">Its white ghost haunts the moon‐white ways;</l>
+                                    <l rend="ti-1">But, when it meets me face to face,</l>
+                                    <l>Flies trembling to the grave once more.</l>
+                                </lg>
+                            </div>
+                            <pb n="24" xml:id="VAB7028-027"/>
+                            <div type="canto">
+                                <head>XIV.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">I PLANTED</hi> a rose tree in my garden,</l>
+                                    <l rend="ti-1">In early days when the year was young;</l>
+                                    <l>I thought it would bear me roses, roses,</l>
+                                    <l rend="ti-1">While nights were dewy and days were long.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>It bore me once, and a white rose only—</l>
+                                    <l rend="ti-1">A lovely rose with petals of light;</l>
+                                    <l>Like the moon in heaven, supreme and lonely;</l>
+                                    <l rend="ti-1">And the lightning struck it one summer night.</l>
+                                </lg>
+                            </div>
+                            <pb n="25" xml:id="VAB7028-028"/>
+                            <div type="canto">
+                                <head>XV.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">WHY</hi> will you haunt me unawares,</l>
+                                    <l rend="ti-1">And walk into my sleep,</l>
+                                    <l rend="ti-1">Pacing its shadowy thoroughfares,</l>
+                                    <l>Where long‐dried perfume scents the airs,</l>
+                                    <l rend="ti-1">While ghosts of sorrow creep,</l>
+                                    <l>Where on Hope’s ruined altar‐stairs,</l>
+                                    <l rend="ti-1">With ineffectual beams,</l>
+                                    <l>The Moon of Memory coldly glares</l>
+                                    <l rend="ti-1">Upon the land of dreams?</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>My yearning eyes were fain to look</l>
+                                    <l rend="ti-1">Upon your hidden face;</l>
+                                    <l>Their love, alas! you could not brook,</l>
+                                    <l>But in your own you mutely took</l>
+                                    <l rend="ti-1">My hand, and for a space</l>
+                                    <l>You wrung it till I throbbed and shook,</l>
+                                    <l rend="ti-1">And woke with wildest moan</l>
+                                    <l>And wet face channeled like a brook</l>
+                                    <l rend="ti-1">With your tears or my own.</l>
+                                </lg>
+                            </div>
+                            <pb n="26" xml:id="VAB7028-029"/>
+                            <div type="canto">
+                                <head>XVI.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">WHEN</hi> you wake from troubled slumbers</l>
+                                    <l rend="ti-1">With a dream‐bewildered brain,</l>
+                                    <l>And old leaves which no man numbers</l>
+                                    <l rend="ti-1">Chattering tap against the pane;</l>
+                                    <l>And the midnight wind is wailing</l>
+                                    <l>Till you very life seems quailing</l>
+                                    <l rend="ti-1">As the long gusts shudder and sigh:</l>
+                                    <l rend="ti-1">Know you not that homeless cry</l>
+                                    <l rend="ti-1">Is my love’s, which cannot die,</l>
+                                    <l rend="ti-1">Wailing through Eternity?</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>When beside the glowing embers,</l>
+                                    <l rend="ti-1">Sitting in the twilight lone,</l>
+                                    <l>Drop on drop you hear November’s</l>
+                                    <l rend="ti-1">Melancholy monotone,</l>
+                                    <l>As the heavy rain comes sweeping,</l>
+                                    <l>With a sound of weeping, weeping,</l>
+                                    <l rend="ti-1">Till your blood is chilled with fears;</l>
+                                    <l rend="ti-1">Know you not those falling tears,</l>
+                                    <pb n="26" xml:id="VAB7028-030"/>
+                                    <l rend="ti-1">Flowing fast through years on years,</l>
+                                    <l rend="ti-1">For my sobs within your ears?</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>When with dolorous moan the billows</l>
+                                    <l rend="ti-1">Surge around where, far and wide,</l>
+                                    <l>Leagues on leagues of sea‐worn hollows</l>
+                                    <l rend="ti-1">Throb with thunders of the tide,</l>
+                                    <l>And the weary waves in breaking</l>
+                                    <l>Fill you, thrill you, as with aching</l>
+                                    <l rend="ti-1">Memories of our love of yore,</l>
+                                    <l rend="ti-1">Where you pace the sounding shore,</l>
+                                    <l rend="ti-1">Hear you not, through roll and roar,</l>
+                                    <l rend="ti-1">Soul call soul for evermore?</l>
+                                </lg>
+                            </div>
+                            <pb n="28" xml:id="VAB7028-031"/>
+                            <div type="canto">
+                                <head>XVII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">IN</hi> a lonesome burial‐place</l>
+                                    <l>Crouched a mourner white of face;</l>
+                                    <l rend="ti-1">Wild her eyes—unheeding</l>
+                                    <l>Circling pomp of night and day—</l>
+                                    <l>Ever crying, “Well away,</l>
+                                    <l rend="ti-1">Love lies a‐bleeding!”</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>And her sighs were like a knell,</l>
+                                    <l>And her tears for ever fell,</l>
+                                    <l rend="ti-1">With their warm rain feeding</l>
+                                    <l>That purpureal flower, alas!</l>
+                                    <l>Trailing prostrate in the grass,</l>
+                                    <l rend="ti-1">Love lies a‐bleeding.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Through the yews’ black‐tufted gloom</l>
+                                    <l>Crimson light fell on the tomb,</l>
+                                    <l rend="ti-1">Funeral shadows breeding:</l>
+                                    <pb n="29" xml:id="VAB7028-032"/>
+                                    <l>In the sky the sun’s light shed</l>
+                                    <l>Dyed the earth one awful red—</l>
+                                    <l rend="ti-1">Love lies a‐bleeding.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Came grey mists, and blanching cloud</l>
+                                    <l>Bore one universal shroud;</l>
+                                    <l>Came the bowed moon leading,</l>
+                                    <l rend="ti-1">From the infinite afar</l>
+                                    <l>Star that rumoured unto star—</l>
+                                    <l rend="ti-1">Love that lies a‐bleeding.</l>
+                                </lg>
+                            </div>
+                            <pb n="30" xml:id="VAB7028-033"/>
+                            <div type="canto">
+                                <head>XVIII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">DEEP</hi> in a yew‐sequestered grove</l>
+                                    <l>I sat and wept my heart away;</l>
+                                    <l>A child came by at close of day</l>
+                                    <l>With eyes as sweet as new‐born love.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>He came from sun‐bleached meadows where</l>
+                                    <l>High on the hedge the topmost rose</l>
+                                    <l>Curtsies to every wind that blows.</l>
+                                    <l>A wanton of the summer air.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>The sunset aureoled his brow,</l>
+                                    <l>Kindling the roses in his hand,</l>
+                                    <l>And by my side I saw him stand</l>
+                                    <l>To offer me his rose‐red bough:</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Take back thy gift—I sighed forlorn,</l>
+                                    <l>And showed where like the yew’s red seed,</l>
+                                    <l>My blood had trickled, bead on bead,</l>
+                                    <l>From wounds made by his cruel thorn.</l>
+                                </lg>
+                                <pb n="31" xml:id="VAB7028-034"/>
+                                <lg type="verse_paragraph">
+                                    <l>He smiled and said:—Nay, take my Rose;</l>
+                                    <l>You know, when all is said and done,</l>
+                                    <l>There’s not a joy beneath the sun</l>
+                                    <l>Worth lovers’ joys but lovers’ woes.</l>
+                                </lg>
+                            </div>
+                            <pb n="32" xml:id="VAB7028-035"/>
+                            <div type="canto">
+                                <head>XIX.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">ON</hi> life’s long round by chance I found</l>
+                                    <l rend="ti-1">A dell impearled with dew;</l>
+                                    <l>Where hyacinths, gushing from the ground,</l>
+                                    <l rend="ti-1">Lent to the earth heaven’s native hue</l>
+                                    <l rend="ti-2">Of holy blue.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>I sought that plot of azure light</l>
+                                    <l rend="ti-1">Once more in gloomy hours;</l>
+                                    <l>But snow had fallen overnight</l>
+                                    <l>And wrapped in mortuary white</l>
+                                    <l rend="ti-1">My fairy ring of flowers.</l>
+                                </lg>
+                            </div>
+                            <pb n="33" xml:id="VAB7028-036"/>
+                            <div type="canto">
+                                <head>XX.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">AH</hi>, yesterday was dark and drear,</l>
+                                    <l rend="ti-1">My heart was deadly sore;</l>
+                                    <l>Without thy love it seemed, my Dear,</l>
+                                    <l rend="ti-1">That I could live no more.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>And yet I laugh and sing to‐day;</l>
+                                    <l rend="ti-1">Care or care not for me,</l>
+                                    <l>Thou canst not take the love away</l>
+                                    <l rend="ti-1">With which I worship thee.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>And if to‐morrow, Dear, I live,</l>
+                                    <l rend="ti-1">My heart I shall not break:</l>
+                                    <l>For still I hold it that to give</l>
+                                    <l rend="ti-1">Is sweeter than to take.</l>
+                                </lg>
+                            </div>
+                            <pb n="34" xml:id="VAB7028-037"/>
+                            <div type="canto">
+                                <head>XXI.</head>
+                                <l><hi rend="sc">I TOOK</hi> your face into my dreams,</l>
+                                <l rend="ti-1">It floated round me like a light;</l>
+                                <l>Your beauty’s consecrating beams</l>
+                                <l rend="ti-1">Lay mirrored in my heart all night.</l>
+                                <l>As in a lonely mountain mere,</l>
+                                <l rend="ti-1">Unvisited of any streams,</l>
+                                <l>Supremely bright and still and clear,</l>
+                                <l rend="ti-1">The solitary moonlight gleams,</l>
+                                <l rend="ti-1">Your face was shining in my dreams.</l>
+                            </div>
+                            <pb n="35" xml:id="VAB7028-038"/>
+                            <div type="canto">
+                                <head>XXII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">WE</hi> met as strangers on life’s lonely
+                                        way,</l>
+                                    <l rend="ti-1">And yet it seemed we knew each other well;</l>
+                                    <l>There was no end to what thou hadst to say,</l>
+                                    <l rend="ti-1">Or to the thousand things I found to tell.</l>
+                                    <l>My heart, long silent, at thy voice that day</l>
+                                    <l rend="ti-1">Chimed in my breast like to a silver bell.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>How much we spoke, and yet still left untold</l>
+                                    <l rend="ti-1">Some secret half revealed within our eyes:</l>
+                                    <l>Didst thou not love me once in ages old?</l>
+                                    <l rend="ti-1">Had I not called thee with importunate cries,</l>
+                                    <l>And, like a child left sobbing in the cold,</l>
+                                    <l rend="ti-1">Listened to catch from far thy fond replies?</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>We met as strangers, and as such we part;</l>
+                                    <l rend="ti-1">Yet all my life seems leaving me with thine;</l>
+                                    <l>Ah, to be clasped once only heart to heart,</l>
+                                    <l rend="ti-1">If only once to feel that thou wert mine!</l>
+                                    <l>These lips are locked, and yet I know thou art</l>
+                                    <l rend="ti-1">That all in all for which my soul did pine.</l>
+                                </lg>
+                            </div>
+                            <pb n="36" xml:id="VAB7028-039"/>
+                            <div type="canto">
+                                <head>XXIII.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">YOU</hi> make the sunshine of my heart</l>
+                                    <l rend="ti-1">And its tempestuous shower;</l>
+                                    <l>Sometimes the thought of you is like</l>
+                                    <l rend="ti-1">A lilac bush in flower,</l>
+                                    <l>Yea, honey‐sweet as hives in May.</l>
+                                    <l>And then the pang of it will strike</l>
+                                    <l>My bosom with a fiery smart,</l>
+                                    <l>As though love’s deeply planted dart</l>
+                                    <l rend="ti-1">Drained all its life away.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>My thoughts hum round you, Dear, like bees</l>
+                                    <l rend="ti-1">About a bank of thyme,</l>
+                                    <l>Or round the yellow blossoms of</l>
+                                    <l rend="ti-1">The heavy‐scented lime.</l>
+                                    <l>Ah, sweeter you than honeydew,</l>
+                                    <l rend="ti-1">Yet dark the ways of love,</l>
+                                    <l>For it has robbed my soul of peace,</l>
+                                    <l>And marred my life and turned heart’s‐ease</l>
+                                    <l rend="ti-1">Into funereal rue.</l>
+                                </lg>
+                            </div>
+                            <pb n="37" xml:id="VAB7028-040"/>
+                            <div type="canto">
+                                <head>XXIV.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">AH</hi>, if you knew how soon and late</l>
+                                    <l rend="ti-1">My eyes long for a sight of you</l>
+                                    <l>Sometimes in passing by my gate</l>
+                                    <l rend="ti-1">You’d linger until fall of dew,</l>
+                                    <l rend="ti-2">If you but knew!</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Ah, if you knew how sick and sore</l>
+                                    <l rend="ti-1">My life flags for the want of you,</l>
+                                    <l>Straightway you’d enter at the door</l>
+                                    <l rend="ti-1">And clasp my hand between your two,</l>
+                                    <l rend="ti-2">If you but knew!</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Ah, if you knew how lost and lone</l>
+                                    <l rend="ti-1">I watch and weep and wait for you,</l>
+                                    <l>You’d press my heart close to your own</l>
+                                    <l rend="ti-1">Till love had healed me through and through,</l>
+                                    <l rend="ti-2">If you but knew!</l>
+                                </lg>
+                            </div>
+                            <pb n="38" xml:id="VAB7028-041"/>
+                            <div type="canto">
+                                <head>XXV.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">YOUR</hi> looks have touched my soul with
+                                        bright</l>
+                                    <l rend="ti-3">Ineffable emotion;</l>
+                                    <l>As moonbeams on a stormy night</l>
+                                    <l>Illume with transitory light</l>
+                                    <l>A seagull on her lonely flight</l>
+                                    <l rend="ti-3">Across the lonely ocean.</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>Fluttering from out the gloom and roar,</l>
+                                    <l rend="ti-3">On fitful wing she flies,</l>
+                                    <l>Moon‐white above the moon‐washed shore;</l>
+                                    <l>Then, drowned in darkness as before,</l>
+                                    <l>She’s lost, as I when lit no more</l>
+                                    <l rend="ti-3">By your beloved eyes.</l>
+                                </lg>
+                            </div>
+                            <pb n="39" xml:id="VAB7028-042"/>
+                            <div type="canto">
+                                <head>XXVI.</head>
+                                <lg type="verse_paragraph">
+                                    <l><hi rend="sc">WHAT</hi> magic is there in thy mien</l>
+                                    <l rend="ti-1">What sorcery in thy smile,</l>
+                                    <l>Which charms away all cark and care,</l>
+                                    <l>Which turns the foul days into fair,</l>
+                                    <l rend="ti-1">And for a little while</l>
+                                    <l>Changes this disenchanted scene</l>
+                                    <l>From the sere leaf into the green,</l>
+                                    <l rend="ti-1">Transmuting with love’s golden wand</l>
+                                    <l rend="ti-1">This beggared life to fairyland?</l>
+                                </lg>
+                                <lg type="verse_paragraph">
+                                    <l>My heart goes forth to thee, oh friend,</l>
+                                    <l rend="ti-1">As some poor pilgrim to a shrine,</l>
+                                    <l>A pilgrim who has come from far</l>
+                                    <l>To seek his spirit’s folding star,</l>
+                                    <l rend="ti-1">And sees the taper shine;</l>
+                                    <l>The goal to which his wanderings tend,</l>
+                                    <l>Where want and weariness shall end,</l>
+                                    <l rend="ti-1">And kneels ecstatically blest</l>
+                                    <l rend="ti-1">Because his heart hath entered rest.</l>
+                                </lg>
+                            </div>
+                        </div>
+                        <pb n="40" xml:id="VAB7028-043"/>
+                        <div type="poem">
+                            <head>L’ENVOI.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THOU</hi> art the goal for which my spirit
+                                    longs;</l>
+                                <l rend="ti-3">As dove on dove,</l>
+                                <l>Bound for one home, I send thee all my songs</l>
+                                <l rend="ti-3">With all my love.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thou art the haven with fair harbour lights;</l>
+                                <l rend="ti-3">Safe locked in thee,</l>
+                                <l>My heart would anchor after stormful nights</l>
+                                <l rend="ti-3">Alone at sea.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thou art the rest of which my life is fain,</l>
+                                <l rend="ti-3">The perfect peace;</l>
+                                <l>Absorbed in thee the world, with all its pain</l>
+                                <l rend="ti-3">And toil, would cease.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thou art the heaven to which my soul would go!</l>
+                                <l rend="ti-3">O dearest eyes,</l>
+                                <l>Lost in your light you would turn hell below</l>
+                                <l rend="ti-3">To Paradise.</l>
+                            </lg>
+                            <pb n="41" xml:id="VAB7028-044"/>
+                            <lg type="verse_paragraph">
+                                <l>Thou all in all for which my heart‐blood yearns!</l>
+                                <l rend="ti-3">Yea, near or far—</l>
+                                <l>Where the unfathomed ether throbs and burns</l>
+                                <l rend="ti-3">With star on star,</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Or where, enkindled by the fires of June,</l>
+                                <l rend="ti-3">The fresh earth glows,</l>
+                                <l>Blushing beneath the mystical white moon</l>
+                                <l rend="ti-3">Through rose on rose—</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thee, thee, I see, thee feel in all live things,</l>
+                                <l rend="ti-3">Beloved one;</l>
+                                <l>In the first bird which tremulously sings</l>
+                                <l rend="ti-3">Ere peep of sun;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>In the last nestling orphaned in the hedge,</l>
+                                <l rend="ti-3">Rocked to and fro,</l>
+                                <l>When dying summer shudders in the sedge,</l>
+                                <l rend="ti-3">And swallows go;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>When roaring snows rush down the mountain‐pass,</l>
+                                <l rend="ti-3">March floods with rills</l>
+                                <l>Or April lightens through the living grass</l>
+                                <l rend="ti-3">In daffodils;</l>
+                            </lg>
+                            <pb n="42" xml:id="VAB7028-045"/>
+                            <lg type="verse_paragraph">
+                                <l>When poppied cornfields simmer in the heat</l>
+                                <l rend="ti-3">With tare and thistle,</l>
+                                <l>And, like winged clouds above the mellow wheat,</l>
+                                <l rend="ti-3">The starlings whistle;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>When stained with sunset the wide moorlands glare</l>
+                                <l rend="ti-3">In the wild weather,</l>
+                                <l>And clouds with flaming craters smoke and flare</l>
+                                <l rend="ti-3">Red o’er red heather;</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>When the bent moon, on frostbound midnights waking,</l>
+                                <l rend="ti-3">Leans to the snow</l>
+                                <l>Like some world‐mother whose deep heart is breaking</l>
+                                <l rend="ti-3">O’er human woe.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>As the round sun rolls red into the ocean,</l>
+                                <l rend="ti-3">Till all the sea</l>
+                                <l>Glows fluid gold, even so life’s mazy motion</l>
+                                <l rend="ti-3">Is dyed with thee:</l>
+                            </lg>
+                            <pb n="43" xml:id="VAB7028-046"/>
+                            <lg type="verse_paragraph">
+                                <l>For as the wave‐like years subside and roll,</l>
+                                <l rend="ti-3">O heart’s desire,</l>
+                                <l>Thy soul glows interfused within my soul,</l>
+                                <l rend="ti-3">A quenchless fire.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Yea, thee I feel, all storms of life above,</l>
+                                <l rend="ti-3">Near though afar;</l>
+                                <l>O thou my glorious morning star of love,</l>
+                                <l rend="ti-3">And evening star.</l>
+                            </lg>
+                        </div>
+                    </div>
+                </body>
+            </text>
+            <pb xml:id="VAB7028-047"/>
+            <text>
+                <body>
+
+
+                    <div type="part">
+                        <head>SONGS</head>
+                        <pb n="47" xml:id="VAB7028-048"/>
+                        <div type="poem">
+                            <head>PAUPER POET’S SONG.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">SUN</hi>, moon, and stars, the ample air,</l>
+                                <l>The birds shrill whistling everywhere,</l>
+                                <l rend="ti-1">Fields white with lambs and daisies;</l>
+                                <l>The pearls of eve, the jewelled morn,</l>
+                                <l>The rose rich blowing on the thorn,</l>
+                                <l rend="ti-1">The glow of blush‐rose faces;</l>
+                                <l>The silver glint of sun‐smit rain,</l>
+                                <l>The shattered sun‐gold of the main,</l>
+                                <l rend="ti-1">And heaven’s sweet breath that moves it;</l>
+                                <l>The earth, our myriad‐bosomed nurse,</l>
+                                <l>This whole miraculous universe</l>
+                                <l rend="ti-1">Belongs to him who loves it!</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Why fret then for the gold of this,</l>
+                                <l>The fame of that man, or the bliss,</l>
+                                <l rend="ti-1">Or such another’s graces?</l>
+                                <l>Oh heart that chim’st with golden verse,</l>
+                                <l>My heart, thou art the magic purse</l>
+                                <l rend="ti-1">Which all dull trouble chases;</l>
+                                <pb n="48" xml:id="VAB7028-049"/>
+                                <l>Thine too fruition of all fame</l>
+                                <l>When the live soul, as flame with flame,</l>
+                                <l rend="ti-1">Weds the dead soul that moves it;</l>
+                                <l>Then sing for aye, and aye rehearse,</l>
+                                <l>This whole miraculous universe</l>
+                                <l rend="ti-1">Belongs to him who loves it!</l>
+                            </lg>
+                        </div>
+                        <pb n="49" xml:id="VAB7028-050"/>
+                        <div type="poem">
+                            <head>SNOW OR SNOWDROPS?</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">IS</hi> it snow or snowdrops’ shimmer</l>
+                                <l rend="ti-1">Whitens thus the bladed grass,</l>
+                                <l>With a faint aërial glimmer,—</l>
+                                <l rend="ti-1">Spring or winter, which did pass?</l>
+                                <l>For the sky is dim and tender</l>
+                                <l rend="ti-1">With an evanescent light,</l>
+                                <l rend="ti-1">And the fading fields are white,</l>
+                                <l>White with snow or snowdrops, under</l>
+                                <l rend="ti-1">The fair firstling stars of night.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Little robin, softly, cheerly</l>
+                                <l rend="ti-1">Piping on yon wintry bough,</l>
+                                <l>Why have all the fields that pearly</l>
+                                <l rend="ti-1">Iridescence, knowest thou?</l>
+                                <l>Did old Winter, grim and hoary,</l>
+                                <l rend="ti-1">Aim a parting dart at Spring</l>
+                                <l rend="ti-1">As she fled on azure wing,</l>
+                                <l>Or did she with rainbow glory</l>
+                                <l rend="ti-1">In his face her snowdrops fling?</l>
+                            </lg>
+                        </div>
+                        <pb n="50" xml:id="VAB7028-051"/>
+                        <div type="poem">
+                            <head>A SPRING SONG.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">DARK</hi> sod pierced by flames of flowers,</l>
+                                <l rend="ti-1">Dead wood freshly quickening,</l>
+                                <l>Bright skies dusked with sudden showers,</l>
+                                <l rend="ti-1">Lit by rainbows on the wing.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Cuckoo calls and young lambs’ bleating,</l>
+                                <l rend="ti-1">Nimble airs which coyly bring</l>
+                                <l>Little gusts of tender greeting</l>
+                                <l rend="ti-1">From shy nooks where violets cling.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Half‐fledged buds and birds and vernal</l>
+                                <l rend="ti-1">Fields of grass dew‐glistening;</l>
+                                <l>Evanescent life’s eternal</l>
+                                <l rend="ti-1">Resurrection, bridal Spring!</l>
+                            </lg>
+                        </div>
+                        <pb n="51" xml:id="VAB7028-052"/>
+                        <div type="poem">
+                            <head>“ALL MY HEART IS STIRRING LIGHTLY.”</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ALL</hi> my heart is stirring lightly</l>
+                                <l rend="ti-1">Like dim violets winter‐bound,</l>
+                                <l>Quickening as they feel the brightly</l>
+                                <l rend="ti-1">Glowing sunlight underground.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Yea, this drear and silent bosom,</l>
+                                <l rend="ti-1">Hushed as snow‐hid grove but now,</l>
+                                <l>Breaketh into leaf and blossom</l>
+                                <l rend="ti-1">Like a gleaming vernal bough.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Oh the singing, singing, singing!</l>
+                                <l rend="ti-1">Callow hopes that thrill my breast!</l>
+                                <l>Can the lark of love be winging</l>
+                                <l rend="ti-1">Back to its abandoned nest?</l>
+                            </lg>
+                        </div>
+                        <pb n="52" xml:id="VAB7028-053"/>
+                        <div type="poem">
+                            <head>APRIL RAIN.</head>
+                            <lg type="verse_paragraph">
+                                <l rend="ti-1"><hi rend="sc">THE</hi> April rain, the April
+                                    rain,</l>
+                                <l>Comes slanting down in fitful showers,</l>
+                                <l rend="ti-1">Then from the furrow shoots the grain,</l>
+                                <l>And banks are fledged with nestling flowers;</l>
+                                <l>And in grey shaw and woodland bowers</l>
+                                <l rend="ti-1">The cuckoo through the April rain</l>
+                                <l rend="ti-3">Calls once again.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l rend="ti-1">The April sun, the April sun,</l>
+                                <l>Glints through the rain in fitful splendour,</l>
+                                <l rend="ti-1">And in grey shaw and woodland dun</l>
+                                <l>The little leaves spring forth and tender</l>
+                                <l>Their infant hands, yet weak and slender,</l>
+                                <l rend="ti-1">For warmth towards the April sun,</l>
+                                <l rend="ti-3">One after one.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l rend="ti-1">And between shower and shine hath birth</l>
+                                <l>The rainbow’s evanescent glory;</l>
+                                <pb n="53" xml:id="VAB7028-054"/>
+                                <l rend="ti-1">Heaven’s light that breaks on mists of earth!</l>
+                                <l>Frail symbol of our human story,</l>
+                                <l>It flowers through showers where, looming hoary,</l>
+                                <l rend="ti-1">The rain‐clouds flash with April mirth,</l>
+                                <l rend="ti-3">Like Life on earth.</l>
+                            </lg>
+                        </div>
+                        <pb n="54" xml:id="VAB7028-055"/>
+                        <div type="poem">
+                            <head>APPLE‐BLOSSOM.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">BLOSSOM</hi> of the apple trees!</l>
+                                <l rend="ti-1">Mossy trunks all gnarled and hoary,</l>
+                                <l rend="ti-1">Grey boughs tipped with rose‐veined glory,</l>
+                                <l>Clustered petals soft as fleece</l>
+                                <l>Garlanding old apple trees!</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>How you gleam at break of day!</l>
+                                <l rend="ti-1">When the coy sun, glancing rarely,</l>
+                                <l rend="ti-1">Pouts and sparkles in the pearly</l>
+                                <l>Pendulous dewdrops, twinkling gay</l>
+                                <l>On each dancing leaf and spray.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Through your latticed boughs on high,</l>
+                                <l rend="ti-1">Framed in rosy wreaths, one catches</l>
+                                <l rend="ti-1">Brief kaleidoscopic snatches</l>
+                                <l>Of deep lapis‐lazuli</l>
+                                <l>In the April‐coloured sky.</l>
+                            </lg>
+                            <pb n="55" xml:id="VAB7028-056"/>
+                            <lg type="verse_paragraph">
+                                <l>When the sundown’s dying brand</l>
+                                <l rend="ti-1">Leaves your beauty to the tender</l>
+                                <l rend="ti-1">Magic spells of moonlight splendour,</l>
+                                <l>Glimmering clouds of bloom you stand,</l>
+                                <l>Turning earth to fairyland.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Cease, wild winds, O, cease to blow!</l>
+                                <l rend="ti-1">Apple‐blossom, fluttering, flying,</l>
+                                <l rend="ti-1">Palely on the green turf lying,</l>
+                                <l>Vanishing like winter snow;</l>
+                                <l>Swift as joy to come and go.</l>
+                            </lg>
+                        </div>
+                        <pb n="56" xml:id="VAB7028-057"/>
+                        <div type="poem">
+                            <head>THE MUSIC‐LESSON.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">A THRUSH</hi> alit on a young‐leaved spray,</l>
+                                <l rend="ti-3">And, lightly clinging,</l>
+                                <l rend="ti-3">It rocked in its singing</l>
+                                <l>As the rapturous notes rose loud and gay;</l>
+                                <l rend="ti-3">And with liquid shakes,</l>
+                                <l rend="ti-3">And trills and breaks,</l>
+                                <l>Rippled though blossoming bough of May.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Like a ball of fluff, with a warm brown throat</l>
+                                <l rend="ti-3">And throbbing bosom,</l>
+                                <l rend="ti-3">’Mid the apple‐blossom,</l>
+                                <l>The new‐fledged nestling sat learning by rote</l>
+                                <l rend="ti-3">To echo the song</l>
+                                <l rend="ti-3">So tender and strong,</l>
+                                <l>As it feebly put in its frail little note.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O blissfullest lesson amid the green grove!</l>
+                                <l rend="ti-3">The low wind crispeth</l>
+                                <l rend="ti-3">The leaves, where lispeth</l>
+                                <pb n="57" xml:id="VAB7028-058"/>
+                                <l>The shy little bird with its parent above;</l>
+                                <l rend="ti-3">Two voices that mingle</l>
+                                <l rend="ti-3">And make but a single</l>
+                                <l>Hymn of rejoicing in praise of their love.</l>
+                            </lg>
+                        </div>
+                        <pb n="58" xml:id="VAB7028-059"/>
+                        <div type="poem">
+                            <head>“ONCE ON A GOLDEN DAY.”</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ONCE</hi> on a golden day,</l>
+                                <l>In the golden month of May,</l>
+                                <l>I gave my heart away—</l>
+                                <l rend="ti-1">Little birds were singing.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I culled my heart in truth,</l>
+                                <l>Wet with the dews of youth,</l>
+                                <l>For love to take, forsooth—</l>
+                                <l rend="ti-1">Little flowers were springing.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Love sweetly laughed at this,</l>
+                                <l>And between kiss and kiss</l>
+                                <l>Fled with my heart in his:</l>
+                                <l rend="ti-1">Winds warmly blowing.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And with his sun and shower</l>
+                                <l>Love kept my heart in flower,</l>
+                                <l>As in the greenest bower</l>
+                                <l rend="ti-1">Rose richly glowing.</l>
+                            </lg>
+                            <pb n="59" xml:id="VAB7028-060"/>
+                            <lg type="verse_paragraph">
+                                <l>Till, worn at evensong,</l>
+                                <l>Love dropped my heart among</l>
+                                <l>Stones by the way ere long;</l>
+                                <l rend="ti-1">Misprizèd token.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>There in the wind and rain,</l>
+                                <l>Trampled and rent in twain,</l>
+                                <l>Ne’er to be whole again,</l>
+                                <l rend="ti-1">My heart lies broken.</l>
+                            </lg>
+                        </div>
+                        <pb n="60" xml:id="VAB7028-061"/>
+                        <div type="poem">
+                            <head>ROSE D’AMOUR.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">OH</hi> haste while roses bloom below,</l>
+                                <l>Oh haste while pale and bright above</l>
+                                <l>The sun and moon alternate glow,</l>
+                                <l rend="ti-1">To pluck the rose of love.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Yea, give the morning to the lark,</l>
+                                <l>The nightingale its glimmering grove,</l>
+                                <l>Give moonlight to the hungry dark,</l>
+                                <l rend="ti-1">But to man’s heart give love!</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Then haste while still the roses blow,</l>
+                                <l>And pale and bright in heaven above</l>
+                                <l>The sun and moon alternate glow,</l>
+                                <l rend="ti-1">Pluck, pluck the rose of love.</l>
+                            </lg>
+                        </div>
+                        <pb n="61" xml:id="VAB7028-062"/>
+                        <div type="poem">
+                            <head>ONLY A SMILE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">NO</hi> butterfly whose frugal fare</l>
+                                <l rend="ti-1">Is breath of heliotrope and clove,</l>
+                                <l>And other trifles light as air,</l>
+                                <l rend="ti-1">Could live on less than doth my love.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>That childlike smile that comes and goes</l>
+                                <l rend="ti-1">About your gracious lips and eyes,</l>
+                                <l>Hath all the sweetness of the rose,</l>
+                                <l rend="ti-1">Which feeds the freckled butterflies.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I feed my love on smiles, and yet</l>
+                                <l rend="ti-1">Sometimes I ask, with tears of woe,</l>
+                                <l>How had it been if we had met,</l>
+                                <l rend="ti-1">If you had met me long ago,</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Before the fast, defacing years</l>
+                                <l rend="ti-1">Had made all ill that once was well?</l>
+                                <l>Ah, then your smiling breeds such tears</l>
+                                <l rend="ti-1">As Tantalus may weep in hell.</l>
+                            </lg>
+                        </div>
+                        <pb n="62" xml:id="VAB7028-063"/>
+                        <div type="poem">
+                            <head>THE SONGS OF SUMMER.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> songs of summer are over and past!</l>
+                                <l rend="ti-1">The swallow’s forsaken the dripping eaves;</l>
+                                <l rend="ti-1">Ruined and black ’mid the sodden leaves</l>
+                                <l>The nests are rudely swung in the blast:</l>
+                                <l rend="ti-1">And ever the wind like a soul in pain</l>
+                                <l rend="ti-1">Knocks and knocks at the window‐pane.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The songs of summer are over and past!</l>
+                                <l rend="ti-1">Woe’s me for a music sweeter than theirs—</l>
+                                <l rend="ti-1">The quick, light bound of a step on the stairs,</l>
+                                <l>The greeting of lovers too sweet to last:</l>
+                                <l rend="ti-1">And ever the wind like a soul in pain</l>
+                                <l rend="ti-1">Knocks and knocks at the window‐pane.</l>
+                            </lg>
+                        </div>
+                        <pb n="63" xml:id="VAB7028-064"/>
+                        <div type="poem">
+                            <head>“YEA, THE ROSES ARE STILL ON FIRE.”</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">YEA</hi>, the roses are still on fire</l>
+                                <l rend="ti-1">With the bygone heat of July,</l>
+                                <l rend="ti-1">Though the least little wind drifting by</l>
+                                <l>Shake a rose‐leaf or two from the brier,</l>
+                                <l rend="ti-1">Be it never so soft a sigh.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Ember of love still glows and lingers</l>
+                                <l rend="ti-1">Deep at the red heart’s smouldering core;</l>
+                                <l rend="ti-1">With the sudden passionate throb of yore</l>
+                                <l>We shook as our eyes and clinging fingers</l>
+                                <l rend="ti-1">Met once only to meet no more.</l>
+                            </lg>
+                        </div>
+                        <pb n="64" xml:id="VAB7028-065"/>
+                        <div type="poem">
+                            <head>AUTUMN TINTS.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">CORAL‐COLOURED</hi> yew‐berries</l>
+                                <l rend="ti-1">Strew the garden ways,</l>
+                                <l>Hollyhocks and sunflowers</l>
+                                <l rend="ti-1">Make a dazzling blaze</l>
+                                <l rend="ti-1">In these latter days.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Marigolds by cottage doors</l>
+                                <l rend="ti-1">Flaunt their golden pride,</l>
+                                <l>Crimson‐punctured bramble leaves</l>
+                                <l rend="ti-1">Dapple far and wide</l>
+                                <l rend="ti-1">The green mountain‐side.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Far away, on hilly slopes</l>
+                                <l rend="ti-1">Where fleet rivulets run,</l>
+                                <l>Miles on miles of tangled fern,</l>
+                                <l rend="ti-1">Burnished by the sun,</l>
+                                <l rend="ti-1">Glow a copper dun.</l>
+                            </lg>
+                            <pb n="65" xml:id="VAB7028-066"/>
+                            <lg type="verse_paragraph">
+                                <l>For the year that’s on the wane,</l>
+                                <l rend="ti-1">Gathering all its fire,</l>
+                                <l>Flares up through the kindling world</l>
+                                <l rend="ti-1">As, ere they expire,</l>
+                                <l rend="ti-1">Flames leap high and higher.</l>
+                            </lg>
+                        </div>
+                        <pb n="66" xml:id="VAB7028-067"/>
+                        <div type="poem">
+                            <head>ON AND ON.</head>
+                            <lg type="verse_paragraph">
+                                <l>By long leagues of wood and meadow</l>
+                                <l rend="ti-1">On and on we drive apace;</l>
+                                <l>In the dreamy light and shadow</l>
+                                <l rend="ti-1">Veiling earth’s autumnal face.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Rosy clouds are drifting o’er us,</l>
+                                <l rend="ti-1">Rooks rise parleying from their tryst,</l>
+                                <l>And the road lies far before us,</l>
+                                <l rend="ti-1">Fading into amethyst.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>On and on, through leagues of heather,</l>
+                                <l rend="ti-1">Deeps of scarlet beaded lane,</l>
+                                <l>Like a pheasant’s golden feather</l>
+                                <l rend="ti-1">Golden leaves around us rain.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>On and on, where woodlands hoary,</l>
+                                <l rend="ti-1">In October’s lavish fire,</l>
+                                <pb n="67" xml:id="VAB7028-068"/>
+                                <l>Flame up with unearthly glory,</l>
+                                <l rend="ti-1">Beauteous summer’s funeral pyre.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>On and on, where casements blinking</l>
+                                <l rend="ti-1">Lighten into transient gules,</l>
+                                <l>As the dying day in sinking</l>
+                                <l rend="ti-1">Splashes all the wayside pools.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>On and on; the land grows dimmer,</l>
+                                <l rend="ti-1">And our road recedes afar;</l>
+                                <l>While on either hand there glimmer</l>
+                                <l rend="ti-1">Setting sun and rising star.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Would I knew what thoughts steal o’er you,</l>
+                                <l rend="ti-1">As the long road lengthens yet:</l>
+                                <l>Ah, like hope it winds before you,</l>
+                                <l rend="ti-1">And behind me like regret.</l>
+                            </lg>
+                        </div>
+                        <pb n="68" xml:id="VAB7028-069"/>
+                        <div type="poem">
+                            <head>A CHILD’S FANCY.</head>
+                            <lg type="verse_paragraph">
+                                <l>“<hi rend="sc">HUSH</hi>, hush! Speak softly, Mother dear,</l>
+                                <l>So that the daisies may not hear;</l>
+                                <l>For when the stars begin to peep,</l>
+                                <l>The pretty daisies go to sleep.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>“See, Mother, round us on the lawn,</l>
+                                <l>With soft white lashes closely drawn,</l>
+                                <l>They’ve shut their eyes so golden‐gay,</l>
+                                <l>That looked up through the long, long day.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>“But now they’re tired of all the fun—</l>
+                                <l>Of bees and birds, of wind and sun</l>
+                                <l>Playing their game at hide‐and‐seek;—</l>
+                                <l>Then very softly let us speak.”</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A myriad stars above the child</l>
+                                <l>Looked down from heaven and sweetly smiled;</l>
+                                <l>But not a star in all the skies</l>
+                                <l>Beamed on him with his Mother’s eyes.</l>
+                            </lg>
+                            <pb n="69" xml:id="VAB7028-070"/>
+                            <lg type="verse_paragraph">
+                                <l>She stroked his curly chestnut head,</l>
+                                <l>And whispering very softly, said,</l>
+                                <l>“I’d quite forgotten they might hear;</l>
+                                <l>Thank you for that reminder, dear.”</l>
+                            </lg>
+                        </div>
+                        <pb n="70" xml:id="VAB7028-071"/>
+                        <div type="poem">
+                            <head>ON A VIOLA D’AMORE.</head>
+                            <head type="sub">CARVED WITH A CUPID’S HEAD, AND PLAYED ON FOR THE FIRST
+                                TIME AFTER MORE THAN A CENTURY.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">WHAT</hi> fairy music clear and light,</l>
+                                <l rend="ti-1">Responsive to your fingers,</l>
+                                <l>Swells rippling on the summer night,</l>
+                                <l rend="ti-1">And amorously lingers</l>
+                                <l>Upon the sense, as long ago</l>
+                                <l>In days of rouge and rococo!</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A century of silence lay</l>
+                                <l rend="ti-1">On strings that had not spoken</l>
+                                <l>Since powdered lords to ladies gay</l>
+                                <l rend="ti-1">Gave, for a lover’s token,</l>
+                                <l>Fans glowing fresh from Watteau’s art,</l>
+                                <l>Well worth a marchioness’s heart.</l>
+                            </lg>
+                            <pb n="71" xml:id="VAB7028-072"/>
+                            <lg type="verse_paragraph">
+                                <l>Your dormant music, tranced and bound,</l>
+                                <l rend="ti-1">Was like the Sleeping Beauty</l>
+                                <l>Prince Charming in the forest found,</l>
+                                <l rend="ti-1">And kissed in loyal duty:</l>
+                                <l>And when she woke her eyes’ blue fire</l>
+                                <l>Turned the dumb forest to a lyre.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thus Amor with the bandaged eyes,</l>
+                                <l rend="ti-1">Fit symbol of hushed numbers,</l>
+                                <l>Most musically wakes and sighs</l>
+                                <l rend="ti-1">After an age of slumbers:</l>
+                                <l>Beneath your magic bow’s control</l>
+                                <l>The Viol has regained her soul.</l>
+                            </lg>
+                        </div>
+                        <pb n="72" xml:id="VAB7028-073"/>
+                        <div type="poem">
+                            <head>BROWN EYES.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">OH</hi>, brown Eyes with long black lashes,</l>
+                                <l rend="ti-2">Young brown Eyes,</l>
+                                <l>Depths of night from which there flashes</l>
+                                <l rend="ti-1">Lightning as of summer skies,</l>
+                                <l rend="ti-1">Beautiful brown Eyes!</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>In your veiled mysterious splendour</l>
+                                <l rend="ti-2">Passion lies</l>
+                                <l>Sleeping, but with sudden tender</l>
+                                <l rend="ti-1">Dreams that fill with vague surmise</l>
+                                <l rend="ti-1">Beautiful brown Eyes.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>All my soul, with yearning shaken,</l>
+                                <l rend="ti-2">Asks in sighs—</l>
+                                <l>Who will see your heart awaken,</l>
+                                <l rend="ti-1">Love’s divine sunrise</l>
+                                <l rend="ti-1">In those young brown Eyes?</l>
+                            </lg>
+                        </div>
+                        <pb n="73" xml:id="VAB7028-074"/>
+                        <div type="poem">
+                            <head>MY LADY.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">LIKE</hi> putting forth upon a sea</l>
+                                <l rend="ti-1">On which the moonbeams shimmer,</l>
+                                <l>Where reefs and unknown perils be</l>
+                                <l>To wreck, yea, wreck one utterly,</l>
+                                <l>It were to love you, lady fair,</l>
+                                <l>In whose black braids of billowy hair</l>
+                                <l rend="ti-1">The misty moonstones glimmer.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Oh, misty moonstone‐coloured eye,</l>
+                                <l rend="ti-1">Latticed behind long lashes,</l>
+                                <l>Within whose clouded orbs there lies,</l>
+                                <l>Like lightning in the sleeping skies,</l>
+                                <l>A spark to kindle and ignite,</l>
+                                <l>And set a fire of love alight</l>
+                                <l rend="ti-1">To burn one’s heart to ashes.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I will not put forth on this deep</l>
+                                <l rend="ti-1">Of perilous emotion;</l>
+                                <pb n="74" xml:id="VAB7028-075"/>
+                                <l>No, though your hands be soft as sleep,</l>
+                                <l>They shall not have my heart to keep,</l>
+                                <l>Nor draw it to your fatal sphere.</l>
+                                <l>Lady, you are as much to fear</l>
+                                <l rend="ti-1">As is the fickle ocean.</l>
+                            </lg>
+                        </div>
+                        <pb n="75" xml:id="VAB7028-076"/>
+                        <div type="poem">
+                            <head>SOMETIMES I WONDER.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">SOMETIMES</hi> I wonder if you guess</l>
+                                <l>The deep impassioned tenderness</l>
+                                <l rend="ti-1">Which overflows my heart;</l>
+                                <l>The love I never dare confess;</l>
+                                <l>Yet hard, yea, harder to repress</l>
+                                <l rend="ti-1">Than tears too fain to start.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Sometimes I ponder, O my sweet,</l>
+                                <l>The things I’ll tell you when we meet;</l>
+                                <l rend="ti-1">But straightway at your sight</l>
+                                <l>My heart’s blood oozes to my feet</l>
+                                <l>Like thawing waters in the heat,</l>
+                                <l rend="ti-1">Confused with too much light.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>I hardly know, when you are near,</l>
+                                <l>If it is love, or joy, or fear</l>
+                                <l rend="ti-1">Which fills my languid frame;</l>
+                                <l>Enveloped in your atmosphere,</l>
+                                <l>My dark self seems to disappear,</l>
+                                <l rend="ti-1">A moth entombed in flame.</l>
+                            </lg>
+                        </div>
+                        <pb n="76" xml:id="VAB7028-077"/>
+                        <div type="poem">
+                            <head>MANY WILL LOVE YOU.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">MANY</hi> will love you; you were made for
+                                    love;</l>
+                                <l>For the soft plumage of the unruffled dove</l>
+                                <l rend="ti-1">Is not so soft as your caressing eyes.</l>
+                                <l>You will love many; for the winds that veer</l>
+                                <l>Are not more prone to shift their compass, dear,</l>
+                                <l rend="ti-1">Than your quick fancy flies.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Many will love you; but I may not, no;</l>
+                                <l>Even though your smile sets all my life aglow,</l>
+                                <l rend="ti-1">And at your fairness all my senses ache.</l>
+                                <l>You will love many; but not me, my dear,</l>
+                                <l>Who have no gift to give you but a tear</l>
+                                <l rend="ti-1">Sweet for your sweetness’ sake.</l>
+                            </lg>
+                        </div>
+                        <pb n="77" xml:id="VAB7028-078"/>
+                        <div type="poem">
+                            <head>A DREAM.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ONLY</hi> a dream, a beautiful baseless dream;</l>
+                                <l rend="ti-3">Only a bright</l>
+                                <l>Flash from your eyes, a brief electrical gleam,</l>
+                                <l rend="ti-3">Charged with delight.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Only a waking, alone, in the moon’s last gleam</l>
+                                <l rend="ti-3">Fading from sight;</l>
+                                <l>Only a flooding of tears that shudder and stream</l>
+                                <l rend="ti-3">Fast through the night.</l>
+                            </lg>
+                        </div>
+                        <pb n="78" xml:id="VAB7028-079"/>
+                        <div type="poem">
+                            <head>GREEN LEAVES AND SERE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THREE</hi> tall poplars beside the pool</l>
+                                <l rend="ti-1">Shiver and moan in the gusty blast,</l>
+                                <l>The carded clouds are blown like wool,</l>
+                                <l rend="ti-1">And the yellowing leaves fly thick and fast.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The leaves, now driven before the blast,</l>
+                                <l rend="ti-1">Now flung by fits on the curdling pool,</l>
+                                <l>Are tossed heaven‐high and dropped at last</l>
+                                <l rend="ti-1">As if at the whim of a jabbering fool.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>O leaves, once rustling green and cool!</l>
+                                <l rend="ti-1">Two met here where one moans aghast</l>
+                                <l>With wild heart heaving towards the past:</l>
+                                <l rend="ti-1">Three tall poplars beside the pool.</l>
+                            </lg>
+                        </div>
+                        <pb n="79" xml:id="VAB7028-080"/>
+                        <div type="poem">
+                            <head>THE HUNTER’S MOON.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> Hunter’s Moon rides high,</l>
+                                <l rend="ti-1">High o’er the close‐cropped plain;</l>
+                                <l>Across the desert sky</l>
+                                <l rend="ti-1">The herded clouds amain</l>
+                                <l>Scamper tumultuously,</l>
+                                <l rend="ti-2">Chased by the hounding wind</l>
+                                <l rend="ti-2">That yelps behind.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The clamorous hunt is done,</l>
+                                <l rend="ti-1">Warm‐housed the kennelled pack;</l>
+                                <l>One huntsman rides alone</l>
+                                <l rend="ti-1">With dangling bridle slack;</l>
+                                <l>He wakes a hollow tone,</l>
+                                <l rend="ti-2">Far echoing to his horn</l>
+                                <l rend="ti-2">In clefts forlorn.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The Hunter’s Moon rides low,</l>
+                                <l rend="ti-1">Her course is nearly sped.</l>
+                                <pb n="80" xml:id="VAB7028-081"/>
+                                <l>Where is the panting roe?</l>
+                                <l rend="ti-1">Where hath the wild deer fled?</l>
+                                <l>Hunter and hunted now</l>
+                                <l rend="ti-2">Lie in oblivion deep:</l>
+                                <l rend="ti-2">Dead or asleep.</l>
+                            </lg>
+                        </div>
+                        <pb n="81" xml:id="VAB7028-082"/>
+                        <div type="poem">
+                            <head>A PARTING.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> year is on the wing, my love,</l>
+                                <l rend="ti-1">With tearful days and nights;</l>
+                                <l>The clouds are on the wing above</l>
+                                <l rend="ti-1">With gathering swallow‐flights.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The year is on the wing, my sweet,</l>
+                                <l rend="ti-1">And in the ghostly race,</l>
+                                <l>With patter of unnumbered feet,</l>
+                                <l rend="ti-1">The dead leaves fly apace.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The year is on the wing, and shakes</l>
+                                <l rend="ti-1">The last rose from its tree;</l>
+                                <l>And I, whose heart in parting breaks,</l>
+                                <l rend="ti-1">Must bid adieu to thee.</l>
+                            </lg>
+                        </div>
+                        <pb n="82" xml:id="VAB7028-083"/>
+                        <div type="poem">
+                            <head>LASSITUDE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">I LAID</hi> me down beside the sea,</l>
+                                <l>Endless in blue monotony;</l>
+                                <l>The clouds were anchored in the sky.</l>
+                                <l>Sometimes a sail went idling by.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Upon the shingles on the beach</l>
+                                <l>Grey linen was spread out to bleach,</l>
+                                <l>And gently with a gentle swell</l>
+                                <l>The languid ripples rose and fell.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>A fisher‐boy, in level line,</l>
+                                <l>Cast stone by stone into the brine:</l>
+                                <l>Methought I too might do as he,</l>
+                                <l>And cast my sorrows on the sea.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The old, old sorrows in a heap</l>
+                                <l>Dropped heavily into the deep;</l>
+                                <l>But with its sorrow on that day</l>
+                                <l>My heart itself was cast away.</l>
+                            </lg>
+                        </div>
+                        <pb n="83" xml:id="VAB7028-084"/>
+                        <div type="poem">
+                            <head>SEEKING.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">IN</hi> many a shape and fleeting apparition,</l>
+                                <l rend="ti-1">Sublime in age or with clear morning eyes,</l>
+                                <l>Ever I seek thee, tantalising Vision,</l>
+                                <l rend="ti-3">Which beckoning flies.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Ever I seek Thee, O evasive Presence,</l>
+                                <l rend="ti-1">Which on the far horizon’s utmost verge,</l>
+                                <l>Like some wild star in luminous evanescence,</l>
+                                <l rend="ti-3">Shoots o’er the surge.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Ever I seek Thy features ever flying,</l>
+                                <l rend="ti-1">Which ne’er beheld I never can forget:</l>
+                                <l>Lightning which flames through love, and mimics dying</l>
+                                <l rend="ti-3">In souls that set.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Ever I seek Thee through all clouds of error;</l>
+                                <l rend="ti-1">As when the moon behind earth’s shadow slips,</l>
+                                <pb n="84" xml:id="VAB7028-085"/>
+                                <l>She wears a momentary mask of terror</l>
+                                <l rend="ti-3">In brief eclipse.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Ever I seek Thee, passionately yearning;</l>
+                                <l rend="ti-1">Like altar‐fire on some forgotten fane,</l>
+                                <l>My life flames up irrevocably burning,</l>
+                                <l rend="ti-3">And burnt in vain.</l>
+                            </lg>
+                        </div>
+
+                    </div>
+                </body>
+            </text>
+            <text>
+                <body>
+                    <div type="part">
+                        <pb xml:id="VAB7028-086"/>
+                        <head>SONNETS</head>
+                        <pb n="87" xml:id="VAB7028-087"/>
+                        <div type="poem">
+                            <head>CLEAVE THOU THE WAVES.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">CLEAVE</hi> thou the waves that weltering to and
+                                    fro</l>
+                                <l>Surge multitudinous. The eternal Powers</l>
+                                <l>Of sun, moon, stars, the air, the hurrying hours,</l>
+                                <l>The winged winds, the still dissolving show</l>
+                                <l>Of clouds in calm or storm, for ever flow</l>
+                                <l>Above thee; while the abysmal sea devours</l>
+                                <l>The untold dead insatiate, where it lowers</l>
+                                <l>O’er glooms unfathomed, limitless, below.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>No longer on the golden‐fretted sands,</l>
+                                <l>Where many a shallow tide abortive chafes,</l>
+                                <l>Mayst thou delay; life onward sweeping blends</l>
+                                <l>With far‐off heaven: the dauntless one who braves</l>
+                                <l>The perilous flood with calm unswerving hands,</l>
+                                <l>The elements sustain: cleave thou the waves.</l>
+                            </lg>
+                        </div>
+                        <pb n="88" xml:id="VAB7028-088"/>
+                        <div type="poem">
+                            <head>HOPE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ALL</hi> treasures of the earth and opulent
+                                    seas,</l>
+                                <l>Metals and odorous woods and cunning gold,</l>
+                                <l>Fowls of the air and furry beasts untold,</l>
+                                <l>Vineyards and harvest fields and fruitful trees</l>
+                                <l>Nature gave unto Man; and last her keys</l>
+                                <l>Vouched passage to her secret ways of old</l>
+                                <l>Whence knowledge should be wrung, nay power to mould</l>
+                                <l>Out of the rough, his occult destinies.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>But tired of these he craved a wider scope:</l>
+                                <l>Then fair as Pallas from the brain of Jove</l>
+                                <l>From his deep wish there sprang, full‐armed, to cope</l>
+                                <l>With all life’s ills, even very death in love,</l>
+                                <l>The only thing man never wearies of—</l>
+                                <l>His own creation—visionary Hope.</l>
+                            </lg>
+                        </div>
+                        <pb n="89" xml:id="VAB7028-089"/>
+                        <div type="poem">
+                            <head>THE DEAD.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> dead abide with us! Though stark and
+                                    cold</l>
+                                <l>Earth seems to grip them, they are with us still:</l>
+                                <l>They have forged our chains of being for good or ill;</l>
+                                <l>And their invisible hands these hands yet hold.</l>
+                                <l>Our perishable bodies are the mould</l>
+                                <l>In which their strong imperishable will—</l>
+                                <l>Mortality’s deep yearning to fulfil—</l>
+                                <l>Hath grown incorporate through dim time untold.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Vibrations infinite of life in death,</l>
+                                <l>As a star’s travelling light survives its star!</l>
+                                <l>So may we hold our lives, that when we are</l>
+                                <l>The fate of those who then will draw this breath,</l>
+                                <l>They shall not drag us to their judgment bar,</l>
+                                <l>And curse the heritage which we bequeath.</l>
+                            </lg>
+                        </div>
+                        <pb n="90" xml:id="VAB7028-090"/>
+                        <div type="poem">
+                            <head>TIME’S SHADOW.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THY</hi> life, O Man, in this brief moment
+                                    lies:</l>
+                                <l rend="ti-1">Time’s narrow bridge whereon we darkling stand,</l>
+                                <l rend="ti-1">With an infinitude on either hand</l>
+                                <l>Receding luminously from our eyes.</l>
+                                <l>Lo, there thy Past’s forsaken Paradise</l>
+                                <l rend="ti-1">Subsideth like some visionary strand,</l>
+                                <l rend="ti-1">While glimmering faint, the Future’s promised
+                                    land,</l>
+                                <l>Illusive from the abyss, seems fain to rise.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>This hour alone Hope’s broken pledges mar,</l>
+                                <l rend="ti-1">And joy now gleams before, now in our rear,</l>
+                                <l>Like mirage mocking in some waste afar,</l>
+                                <l rend="ti-1">Dissolving into air as we draw near.</l>
+                                <l rend="ti-1">Beyond our steps the path is sunny‐clear,</l>
+                                <l>The shadow lying only where we are.</l>
+                            </lg>
+                        </div>
+                        <pb n="91" xml:id="VAB7028-091"/>
+                        <div type="poem">
+                            <head>A SYMBOL.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">HURRYING</hi> for ever in their restless flight</l>
+                                <l rend="ti-1">The generations of earth’s teeming womb</l>
+                                <l rend="ti-1">Rise into being and lapse into the tomb</l>
+                                <l>Like transient bubbles sparkling in the light;</l>
+                                <l>They sink in quick succession out of sight</l>
+                                <l rend="ti-1">Into the thick insuperable gloom</l>
+                                <l rend="ti-1">Our futile lives in flashing by illume—</l>
+                                <l>Lightning which mocks the darkness of the night.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Nay—but consider, though we change and die,</l>
+                                <l rend="ti-1">If men must pass shall Man not still remain?</l>
+                                <l rend="ti-1">As the unnumbered drops of summer rain</l>
+                                <l>Whose changing particles unchanged on high,</l>
+                                <l rend="ti-1">Fixed, in perpetual motion, yet maintain</l>
+                                <l>The mystic bow emblazoned on the sky.</l>
+                            </lg>
+                        </div>
+                        <pb n="92" xml:id="VAB7028-092"/>
+                        <div type="poem">
+                            <head>SUFFERING.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">OH</hi> ye, all ye, who suffer here below,</l>
+                                <l>Schooled in the baffling mystery of pain,</l>
+                                <l>Who on life’s anvil bear the fateful strain,</l>
+                                <l>Wrong as forged iron, hammered blow on blow.</l>
+                                <l>Take counsel with your grief, in that you know,</l>
+                                <l>That he who suffers suffers not in vain,</l>
+                                <l>Nay, that it shall be for the whole world’s gain,</l>
+                                <l>And wisdom prove the priceless price of woe.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thus in some new‐found land where no man’s feet</l>
+                                <l>Have trod a path, bold voyagers astray,</l>
+                                <l>May fall foredone by torturing thirst and heat:</l>
+                                <l>But from the impotent body of defeat—</l>
+                                <l>The winners spring who carve a conquering way—</l>
+                                <l>Measured by milestones of their perished clay.</l>
+                            </lg>
+                        </div>
+                        <pb n="93" xml:id="VAB7028-093"/>
+                        <div type="poem">
+                            <head>ANAΛKH.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">LIKE</hi> a great rock which looming o’er the
+                                    deep</l>
+                                <l>Casts his eternal shadow on the strands,</l>
+                                <l>And veiled in cloud inexorably stands,</l>
+                                <l>While vaulting round his adamantine steep</l>
+                                <l>Embattled breakers clamorously leap,</l>
+                                <l>Sun‐garlanded and hope‐uplifted bands,</l>
+                                <l>But soon with waters shattered in the sands</l>
+                                <l>Slowly recoiling back to ocean creep:</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>So sternly dost thou tower above us, Fate!</l>
+                                <l>For still our eager hearts exultant beat,</l>
+                                <l>Borne in the hurrying tide of life elate,</l>
+                                <l>And dashing break against thy marble feet.</l>
+                                <l>But would Hope’s rainbow‐aureole round us fleet,</l>
+                                <l>Without these hurtling shocks of man’s estate?</l>
+                            </lg>
+                        </div>
+                        <pb n="94" xml:id="VAB7028-094"/>
+                        <div type="poem">
+                            <head>SLEEP.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">LOVE‐CRADLING</hi> Night, lit by the lucent
+                                    moon,</l>
+                                <l>Most pitiful and mother‐hearted Night!</l>
+                                <l>Blest armistice in life’s tumultuous fight,</l>
+                                <l>Resolving discords to a spheral tune!</l>
+                                <l>When tired with heat and strenuous toil of noon,</l>
+                                <l>With ceaseless conflict betwixt might and right,</l>
+                                <l>With ebb and flow of sorrow and delight,</l>
+                                <l>Our panting hearts beneath their burdens swoon:</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>To thee, O star‐eyes comforter, we creep,</l>
+                                <l>Earth’s ill‐used step‐children to thee make moan,</l>
+                                <l>As hiding in thy dark skirts’ ample sweep;</l>
+                                <l>—Poor debtors whose brief life is not their own;</l>
+                                <l>For dunned by Death, to whom we owe its loan,</l>
+                                <l>Give us, O Night, the interest paid in sleep.</l>
+                            </lg>
+                        </div>
+                        <pb n="95" xml:id="VAB7028-095"/>
+                        <div type="poem">
+                            <head>DEAD LOVE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">MOTHER</hi> of the unfortunate, mystic form,</l>
+                                <l>Who calm, immutable, like oldest fate,</l>
+                                <l>Sittest, where through the sombre swinging gate</l>
+                                <l>Moans immemorial life’s encircling storm.</l>
+                                <l>My heart, sore stricken by grief’s leaden arm,</l>
+                                <l>Lags like a weary pilgrim knocking late,</l>
+                                <l>And sigheth—toward thee staggering with its weight—</l>
+                                <l>Behold Love conquered by thy son, the worm!</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>He stung him mid the roses’ purple bloom,</l>
+                                <l>The Rose of roses, yea, a thing so sweet,</l>
+                                <l>Haply to stay blind Change’s flying feet,</l>
+                                <l>And stir with pity the unpitying tomb.</l>
+                                <l>Here, take him, cold, cold, heavy and void of breath!</l>
+                                <l>Nor me refuse, O Mother almighty, death.</l>
+                            </lg>
+                        </div>
+                        <pb n="96" xml:id="VAB7028-096"/>
+                        <div type="poem">
+                            <head>DESPAIR.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THY</hi> wings swoop darkening round my soul,
+                                    Despair!</l>
+                                <l>And on my brain thy shadow seems to brood</l>
+                                <l>And hem me round with stifling solitude,</l>
+                                <l>With chasms of vacuous bloom which are thy lair.</l>
+                                <l>No light of human joy, no song or prayer,</l>
+                                <l>Breaks ever on this chaos, all imbrued</l>
+                                <l>With heart’s‐blood trickling from the multitude</l>
+                                <l>Of sweet hopes slain, or agonising there.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Lo, wilt thou yield thyself to grief, and roll</l>
+                                <l>Vanquished from thy high seat, imperial brain,</l>
+                                <l>And abdicating turbulent life’s control,</l>
+                                <l>Be dragged a captive bound in sorrow’s chain?</l>
+                                <l>Nay! though my heart is breaking with its pain,</l>
+                                <l>No pain on earth has power to crush my soul.</l>
+                            </lg>
+                        </div>
+                        <pb n="97" xml:id="VAB7028-097"/>
+                        <div type="poem">
+                            <head>TO MEMORY.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">OH</hi> in this dearth and winter of the soul,</l>
+                                <l>When even Hope, still wont to soar and sing,</l>
+                                <l>Droopeth, a starveling bird whose downy wing</l>
+                                <l>Stiffens ere dead through the dank drift it fall—</l>
+                                <l>Yea, ere Hope perish utterly, I call</l>
+                                <l>On thee, fond Memory, that thou haste and bring</l>
+                                <l>One leaf, one blossom from that far‐off spring</l>
+                                <l>When love’s auroral light lay over all.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Bring but one pansy: haply so the thrill</l>
+                                <l>Of poignant yearning for those glad dead years</l>
+                                <l>May, like the gusty south, breathe o’er the chill</l>
+                                <l>Of frozen grief, dissolving it in tears,</l>
+                                <l>Till numb Hope, stirred by that warm dropping rain,</l>
+                                <l>Will deem, perchance, Love’s springtide come again.</l>
+                            </lg>
+                        </div>
+                        <pb n="98" xml:id="VAB7028-098"/>
+                        <div type="poem">
+                            <head>SAVING LOVE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">WOULD</hi> we but love what will not pass away!</l>
+                                <l rend="ti-1">The sun that on each morning shines as clear</l>
+                                <l rend="ti-1">As when it rose first on the world’s first year;</l>
+                                <l>The fresh green leaves that rustle on the spray.</l>
+                                <l>The sun will shine, the leaves will be as gay</l>
+                                <l rend="ti-1">When graves are full of all our hearts held dear,</l>
+                                <l rend="ti-1">When not a soul of those who loved us here,</l>
+                                <l>Not one, is left us—creatures of decay.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Yea, love the Abiding in the Universe</l>
+                                <l>Which was before, and will be after us.</l>
+                                <l rend="ti-1">Nor yet for ever hanker and vainly cry</l>
+                                <l rend="ti-1">For human love—the beings that change or die;</l>
+                                <l>Die—change—forget: to care so is a curse,</l>
+                                <l>Yet cursed we’ll be rather than not care thus.</l>
+                            </lg>
+                        </div>
+                        <pb n="99" xml:id="VAB7028-099"/>
+                        <div type="poem">
+                            <head>HAUNTED STREETS.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">LO</hi>, haply walking in some clattering
+                                    street—</l>
+                                <l>Where throngs of men and women dumbly pass,</l>
+                                <l>Like shifting pictures seen within a glass</l>
+                                <l>Which leave no trace behind—one seems to meet,</l>
+                                <l>In roads once trodden by our mutual feet,</l>
+                                <l>A face projected from that shadowy mass</l>
+                                <l>Of faces, quite familiar as it was,</l>
+                                <l>Which beaming on us stands out clear and sweet.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The face of faces we again behold</l>
+                                <l>That lit our life when life was very fair,</l>
+                                <l>And leaps our heart toward eyes and mouth and hair:</l>
+                                <l>Oblivious of the undying love grown cold,</l>
+                                <l>Or body sheeted in the churchyard mould,</l>
+                                <l>We stretch out yearning hands and grasp—the air.</l>
+                            </lg>
+                        </div>
+                        <pb n="100" xml:id="VAB7028-100"/>
+                        <div type="poem">
+                            <head>MOTHERHOOD.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">FROM</hi> out the front of being, undefiled,</l>
+                                <l rend="ti-1">A life hath been upheaved with struggle and pain;</l>
+                                <l rend="ti-1">Safe in her arms a mother holds again</l>
+                                <l>That dearest miracle—a new‐born child.</l>
+                                <l>To moans of anguish terrible and wild—</l>
+                                <l rend="ti-1">As shrieks the night‐wind through an ill‐shut
+                                    pane—</l>
+                                <l rend="ti-1">Pure heaven succeeds; and after fiery strain</l>
+                                <l>Victorious woman smiles serenely mild.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Yea, shall she not rejoice, shall not her frame</l>
+                                <l rend="ti-1">Thrill with a mystic rapture! At this birth,</l>
+                                <l>The soul now kindled by her vital flame</l>
+                                <l rend="ti-1">May it not prove a gift of priceless worth?</l>
+                                <l>Some saviour of his kind whose starry fame</l>
+                                <l rend="ti-1">Shall bring a brightness to the darkened earth.</l>
+                            </lg>
+                        </div>
+                        <pb n="101" xml:id="VAB7028-101"/>
+                        <div type="poem">
+                            <head>THE AFTER‐GLOW.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">IT</hi> is a solemn evening, golden‐clear—</l>
+                                <l rend="ti-1">The Alpine summits flame with rose‐lit snow</l>
+                                <l rend="ti-1">And headlands purpling on wide seas below,</l>
+                                <l>And clouds and woods and arid rocks appear</l>
+                                <l>Dissolving in the sun’s own atmosphere</l>
+                                <l rend="ti-1">And vast circumference of light, whose slow</l>
+                                <l rend="ti-1">Transfiguration—glow and after‐glow—</l>
+                                <l>Turns twilight earth to a more luminous sphere.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Oh heart, I ask, seeing that the orb of day</l>
+                                <l>Has sunk below, yet left to sky and sea</l>
+                                <l rend="ti-1">His glory’s spiritual after‐shine:</l>
+                                <l>I ask if Love, whose sun hath set for thee,</l>
+                                <l>May not touch grief with his memorial ray,</l>
+                                <l rend="ti-1">And lend to loss itself a joy divine?</l>
+                            </lg>
+                        </div>
+                        <pb n="102" xml:id="VAB7028-102"/>
+                        <div type="poem">
+                            <head>TO THE OBELISK</head>
+                            <head type="sub">DURING THE GREAT FROST, 1881.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THOU</hi> sign‐post of the Desert! Obelisk,</l>
+                                <l>Once fronting in thy monumental pride</l>
+                                <l>Egypt’s fierce sun, that blazing far and wide,</l>
+                                <l>Sheared her of tree and herb, till like a disk</l>
+                                <l>Her waste stretched shadowless, and fraught with risk</l>
+                                <l>To those who with their beasts of burden hied</l>
+                                <l>Across the seas of sand until they spied</l>
+                                <l>Thy pillar, and their flagging hearts grew brisk:</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Now reared beside out Thames so wintry grey,</l>
+                                <l>Where blocks of ice drift with the drifting stream,</l>
+                                <l>Thou risest o’er the alien prospect! Say,</l>
+                                <l>Yon dull, blear, rayless orb whose lurid gleam</l>
+                                <l>Tinges the snow‐draped ships and writhing steam,</l>
+                                <l>Is this the sun which fired thine orient day?</l>
+                            </lg>
+                        </div>
+                        <pb n="103" xml:id="VAB7028-103"/>
+                        <div type="poem">
+                            <head>MANCHESTER BY NIGHT.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">O’ER</hi> this huge town, rife with intestine
+                                    wars,</l>
+                                <l>Whence as from monstrous sacrificial shrines</l>
+                                <l>Pillars of smoke climb heavenward, Night inclines</l>
+                                <l>Black brows majestical with glimmering stars.</l>
+                                <l>Her dewy silence soothes life’s angry jars:</l>
+                                <l>And like a mother’s wan white face, who pines</l>
+                                <l>Above her children’s turbulent ways, so shines</l>
+                                <l>The moon athwart the narrow cloudy bars.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Now toiling multitudes that hustling crush</l>
+                                <l>Each other in the fateful strife for breath,</l>
+                                <l>And, hounded on by diverse hungers, rush</l>
+                                <l>Across the prostrate ones that groan beneath,</l>
+                                <l>Are swathed within the universal hush,</l>
+                                <l>As life exchanges semblances with death.</l>
+                            </lg>
+                        </div>
+                        <pb n="104" xml:id="VAB7028-104"/>
+                        <div type="poem">
+                            <head>THE RED SUNSETS, 1883.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> twilight heavens are flushed with
+                                    gathering light,</l>
+                                <l rend="ti-1">And o’er wet roofs and huddling streets below</l>
+                                <l rend="ti-1">Hang with a strange Apocalyptic glow</l>
+                                <l>On the black fringes of the wintry night.</l>
+                                <l>Such bursts of glory may have rapt the sight</l>
+                                <l rend="ti-1">Of him to whom on Patmos long ago</l>
+                                <l rend="ti-1">The visionary angel came to show</l>
+                                <l>That heavenly city built of chrysolite.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And lo, three factory hands begrimed with soot,</l>
+                                <l rend="ti-1">Aflame with the red splendour, marvelling stand,</l>
+                                <l>And gaze with lifted faces awed and mute.</l>
+                                <l rend="ti-1">Starved of earth’s beauty by Man’s grudging hand,</l>
+                                <l>O toilers, robbed of labour’s golden fruit,</l>
+                                <l rend="ti-1">Ye, too, may feast in Nature’s fairyland.</l>
+                            </lg>
+                        </div>
+                        <pb n="105" xml:id="VAB7028-105"/>
+                        <div type="poem">
+                            <head>THE RED SUNSETS, 1883.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> boding sky was charactered with cloud,</l>
+                                <l rend="ti-1">The scripture of the storm—but high in air,</l>
+                                <l rend="ti-1">Where the unfathomed zenith still was bare,</l>
+                                <l>A pure expanse of rose‐flushed violet glowed</l>
+                                <l>And, kindling into crimson light, o’erflowed</l>
+                                <l rend="ti-1">The hurrying wrack with such a blood‐red glare,</l>
+                                <l rend="ti-1">That heaven, igniting, wildly seemed to flare</l>
+                                <l>On the dazed eyes of many an awe‐struck crowd.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And in far lands folk presaged with blanched lips</l>
+                                <l>Disastrous wars, earthquakes, and foundering ships,</l>
+                                <l rend="ti-1">Such whelming floods as never dykes could stem,</l>
+                                <l>Or some proud empire’s ruin and eclipse:</l>
+                                <l rend="ti-1">Lo, such a sky, they cried, as burned o’er them</l>
+                                <l rend="ti-1">Once lit the sacking of Jerusalem!</l>
+                            </lg>
+                        </div>
+                        <pb n="106" xml:id="VAB7028-106"/>
+                        <div type="poem">
+                            <head>THE SLEEPING BEAUTY.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THERE</hi> was intoxication in the air;</l>
+                                <l rend="ti-1">The wind, keen blowing from across the seas,</l>
+                                <l rend="ti-1">O’er leagues of new‐ploughed land and heathery
+                                    leas,</l>
+                                <l>Smelt of wild gorse whose gold flamed everywhere.</l>
+                                <l>And undertone of song pulsed far and near,</l>
+                                <l rend="ti-1">The soaring larks filled heaven with ecstasies,</l>
+                                <l rend="ti-1">And, like a living clock among the trees,</l>
+                                <l>The shouting cuckoo struck the time of year.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>For now the Sun had found the earth once more,</l>
+                                <l rend="ti-1">And woke the Sleeping Beauty with a kiss;</l>
+                                <l>Who thrilled with light of love in every pore,</l>
+                                <l rend="ti-1">Opened her flower‐blue eyes, and looked in his.</l>
+                                <l>Then all things felt life fluttering at their core—</l>
+                                <l rend="ti-1">The world shook mystical in lambent bliss.</l>
+                            </lg>
+                        </div>
+                        <pb n="107" xml:id="VAB7028-107"/>
+                        <div type="poem">
+                            <head>THE ROBIN REDBREAST.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> year’s grown songless! No glad pipings
+                                    thrill</l>
+                                <l rend="ti-1">The hedge‐row elms, whose wind‐worn branches
+                                    shower</l>
+                                <l rend="ti-1">Their leaves on the sere grass, where some late
+                                    flower</l>
+                                <l>In golden chalice hoards the sunlight still.</l>
+                                <l>Our summer guests, whose raptures used to fill</l>
+                                <l rend="ti-1">Each apple‐blossomed garth and honeyed bower,</l>
+                                <l rend="ti-1">Have in adversity’s inclement hour</l>
+                                <l>Abandoned us to bleak November’s chill.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>But hearken! Yonder russet bird among</l>
+                                <l rend="ti-1">The crimson clusters of the homely thorn</l>
+                                <l>Still bubbles o’er with little rills of song—</l>
+                                <l>A blending of sweet hope and resignation:</l>
+                                <l rend="ti-1">Even so, when life of love and youth is shorn,</l>
+                                <l>One friend becomes its last, best consolation.</l>
+                            </lg>
+                        </div>
+                        <pb n="108" xml:id="VAB7028-108"/>
+                        <div type="poem">
+                            <head>A WINTER LANDSCAPE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ALL</hi> night, all day, in dizzy, downward
+                                    flight,</l>
+                                <l rend="ti-1">Fell the wild‐whirling, vague, chaotic snow,</l>
+                                <l rend="ti-1">Till every landmark of the earth below,</l>
+                                <l>Trees, moorlands, roads, and each familiar sight</l>
+                                <l>Were blotted out by the bewildering white.</l>
+                                <l rend="ti-1">And winds, now shrieking loud, now whimpering
+                                    low,</l>
+                                <l rend="ti-1">Seemed lamentations for the world‐old woe</l>
+                                <l>That death must swallow life, and darkness light.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>But all at once the rack was blown away,</l>
+                                <l rend="ti-1">The snowstorm hushing ended in a sigh;</l>
+                                <l rend="ti-1">Then like a flame the crescent moon on high</l>
+                                <l>Leaped forth among the planets; pure as they,</l>
+                                <l>Earth vied in whiteness with the Milky Way:</l>
+                                <l rend="ti-1">Herself a star beneath the starry sky.</l>
+                            </lg>
+                        </div>
+                        <pb n="109" xml:id="VAB7028-109"/>
+                        <div type="poem">
+                            <head>ON THE LIGHTHOUSE AT ANTIBES.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">A STORMY</hi> light of sunset glows and glares</l>
+                                <l rend="ti-1">Between two banks of cloud, and o’er the brine</l>
+                                <l rend="ti-1">Thy fair lamp on the sky’s carnation line</l>
+                                <l>Alone on the lone promontory flares:</l>
+                                <l>Friend of the Fisher who at nightfall fares</l>
+                                <l rend="ti-1">Where lurk false reefs masked by the hyaline</l>
+                                <l rend="ti-1">Of dimpling waves, within whose smile divine</l>
+                                <l>Death lies in wait behind Circean snares.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The evening knows thee ere the evening star;</l>
+                                <l rend="ti-1">Or sees that flame sole Regent of the bight,</l>
+                                <l>When storm, hoarse rumoured by the hills afar,</l>
+                                <l rend="ti-1">Makes mariners steer landward by thy light,</l>
+                                <l>Which shows through shock of hostile nature’s war</l>
+                                <l rend="ti-1">How man keeps watch o’er man through deadliest
+                                    night.</l>
+                            </lg>
+                        </div>
+                        <pb n="110" xml:id="VAB7028-110"/>
+                        <div type="poem">
+                            <head>BEAUTY.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">EVEN</hi> as on some black background full of
+                                    night</l>
+                                <l rend="ti-1">And hollow storm in cloudy disarray,</l>
+                                <l rend="ti-1">The forceful brush of some great master may</l>
+                                <l>More brilliantly evoke a higher light;</l>
+                                <l>So beautiful, so delicately white,</l>
+                                <l rend="ti-1">So like a very metaphor of May,</l>
+                                <l rend="ti-1">Your loveliness on my life’s sombre grey</l>
+                                <l>In its perfection stands out doubly bright.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>And yet your beauty breeds a strange despair,</l>
+                                <l rend="ti-1">And pang of yearning in the helpless heart;</l>
+                                <l>To shield you from time’s fraying wear and tear,</l>
+                                <l rend="ti-1">That from yourself yourself would wrench apart,</l>
+                                <l>How save you, fairest, but to set you where</l>
+                                <l rend="ti-1">Mortality kills death in deathless art?</l>
+                            </lg>
+                        </div>
+                        <pb n="111" xml:id="VAB7028-111"/>
+                        <div type="poem">
+                            <head>IN THE ST. GOTTHARDT PASS.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">THE</hi> storm which shook the silence of the
+                                    hills</l>
+                                <l>And sleeping pinnacles of ancient snow</l>
+                                <l>Went muttering off in one last thunder throe</l>
+                                <l>Mixed with a moan of multitudinous rills;</l>
+                                <l>Yea, even as one who has wept much, but stills</l>
+                                <l>The flowing tears of some convulsive woe</l>
+                                <l>When a fair light of hope begins to glow</l>
+                                <l>Athwart the gloom of long remembered ills:</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>So does the face of this scarred mountain height</l>
+                                <l>Relax its stony frown, while slow uprolled</l>
+                                <l>Invidious mists are changed to veiling gold.</l>
+                                <l>Wild peaks still fluctuate between dark and bright,</l>
+                                <l>But when the sun laughs at them, as of old,</l>
+                                <l>They kiss high heaven in all embracing light.</l>
+                            </lg>
+                        </div>
+                        <pb n="112" xml:id="VAB7028-112"/>
+                        <div type="poem">
+                            <head>CAGNES.</head>
+                            <head type="sub">ON THE RIVIERA.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">IN</hi> tortuous windings up the steep incline</l>
+                                <l rend="ti-1">The sombre street toils to the village square,</l>
+                                <l rend="ti-1">Whose antique walls in stone and moulding bear</l>
+                                <l>Dumb witness to the Moor. Afar off shine,</l>
+                                <l>With tier on tier, cutting heaven’s blue divine,</l>
+                                <l rend="ti-1">The snowy Alps; and lower the hills are fair,</l>
+                                <l rend="ti-1">With wave‐green olives rippling down to where</l>
+                                <l>Gold clusters hang and leaves of sunburnt vine.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>You may perchance, I never shall forget</l>
+                                <l rend="ti-1">When, between twofold glory of land and sea,</l>
+                                <l>We leant together o’er the old parapet,</l>
+                                <l rend="ti-1">And saw the sun go down. For, oh, to me,</l>
+                                <l>The beauty of that beautiful strange place</l>
+                                <l>Was its reflection beaming from your face.</l>
+                            </lg>
+                        </div>
+                        <pb n="113" xml:id="VAB7028-113"/>
+                        <div type="poem">
+                            <head>HEART’S‐EASE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">AS</hi> opiates to the sick on wakeful nights,</l>
+                                <l rend="ti-1">As light to flowers, as flowers in poor men’s
+                                    rooms,</l>
+                                <l rend="ti-1">As to the fisher when the tempest glooms</l>
+                                <l>The cheerful twinkling of his village lights;</l>
+                                <l>As emerald isles to flagging swallow flights,</l>
+                                <l rend="ti-1">As roses garlanding with tendrilled blooms</l>
+                                <l rend="ti-1">The unweeded hillocks of forgotten tombs,</l>
+                                <l>As singing birds on cypress‐shadowed heights,</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Thou art to me—a comfort past compare—</l>
+                                <l rend="ti-1">For thy joy‐kindling presence, sweet as May,</l>
+                                <l rend="ti-1">Sets all my nerves to music, makes away</l>
+                                <l>With sorrow and the numbing frost of care,</l>
+                                <l rend="ti-1">Until the influence of thine eyes’ bright sway</l>
+                                <l>Has made life’s glass go up from foul to fair.</l>
+                            </lg>
+                        </div>
+                        <pb n="114" xml:id="VAB7028-114"/>
+                        <div type="poem">
+                            <head>UNTIMELY LOVE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">PEACE</hi>, throbbing heart, nor let us shed one
+                                    tear</l>
+                                <l rend="ti-1">O’er this late love’s unseasonable glow;</l>
+                                <l rend="ti-1">Sweet as a violet blooming in the snow,</l>
+                                <l>The posthumous offspring of the widowed year</l>
+                                <l>That smells of March when all the world is sere,</l>
+                                <l rend="ti-1">And, while around the hurtling sea‐winds blow—</l>
+                                <l rend="ti-1">Which twist the oak and lay the pine tree low—</l>
+                                <l>Stands childlike in the storm and has no fear.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Poor helpless blossom orphaned of the sun,</l>
+                                <l rend="ti-1">How could it thus brave winter’s rude estate?</l>
+                                <l rend="ti-1">Oh love, more helpless, why bloom so late,</l>
+                                <l>Now that the flower‐time of the year is done?</l>
+                                <l>Since thy dear course must end when scarce begun,</l>
+                                <l rend="ti-1">Nipped by the cold touch of relentless fate.</l>
+                            </lg>
+                        </div>
+                        <pb n="115" xml:id="VAB7028-115"/>
+                        <div type="poem">
+                            <head>THE PASSING YEAR.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">NO</hi> breath of wind stirs in the painted
+                                    leaves,</l>
+                                <l rend="ti-1">The meadows are as stirless as the sky,</l>
+                                <l rend="ti-1">Like a Saint’s halo golden vapours lie</l>
+                                <l>Above the restful valley’s garnered sheaves.</l>
+                                <l>The journeying Sun, like one who fondly grieves,</l>
+                                <l rend="ti-1">Above the hills seems loitering with a sigh,</l>
+                                <l rend="ti-1">As loth to bid the fruitful earth good‐bye,</l>
+                                <l>On these hushed hours of luminous autumn eves.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>There is a pathos in his softening glow,</l>
+                                <l rend="ti-1">Which like a benediction seems to hover</l>
+                                <l>O’er the tranced earth, ere he must sink below</l>
+                                <l rend="ti-1">And leave her widowed of her radiant Lover,</l>
+                                <l>A frost‐bound sleeper in a shroud of snow,</l>
+                                <l rend="ti-1">While winter winds howl a wild dirge above her.</l>
+                            </lg>
+                        </div>
+                        <pb n="116" xml:id="VAB7028-116"/>
+                        <div type="poem">
+                            <head>CHRISTMAS EVE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ALONE</hi>—with one fair star for company,</l>
+                                <l>The loveliest star among the hosts of night,</l>
+                                <l>While the grey tide ebbs with the ebbing light—</l>
+                                <l>I pace along the darkening wintry sea.</l>
+                                <l>Now round the yule‐log and the glittering tree</l>
+                                <l>Twinkling with festive tapers, eyes as bright</l>
+                                <l>Sparkle with Christmas joys and young delight,</l>
+                                <l>As each one gathers to his family.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>But I—a waif on earth where’er I roam—</l>
+                                <l>Uprooted with life’s bleeding hopes and fears</l>
+                                <l>From that one heart that was my heart’s sole home,</l>
+                                <l>Feel the old pang pierce through the severing years,</l>
+                                <l>And as I think upon the years to come</l>
+                                <l>That fair star trembles through my falling tears.</l>
+                            </lg>
+                        </div>
+                        <pb n="117" xml:id="VAB7028-117"/>
+                        <div type="poem">
+                            <head>THE EVENING OF THE YEAR.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">WAN</hi> mists enwrap the still‐born day;</l>
+                                <l>The harebell withers on the heath;</l>
+                                <l>And all the moorland seems to breathe</l>
+                                <l>The hectic beauty of decay.</l>
+                                <l>Within the open grave of May</l>
+                                <l>Dishevelled trees drop wreath on wreath;</l>
+                                <l>Wind‐wrung and ravelled underneath</l>
+                                <l>Waste leaves choke up the woodland way.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>The grief of many partings near</l>
+                                <l>Wails like an echo in the wind:</l>
+                                <l>The days of love lie far behind,</l>
+                                <l>The days of loss lie shuddering near.</l>
+                                <l>Life’s morning‐glory who shall bind?</l>
+                                <l>It is the evening of the year.</l>
+                            </lg>
+                        </div>
+                        <pb n="118" xml:id="VAB7028-118"/>
+                        <div type="poem">
+                            <head>NEW YEAR’S EVE.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">ANOTHER</hi> full‐orbed year hath waned to‐day,</l>
+                                <l>And set in the irrevocable past,</l>
+                                <l>And headlong whirled long Time’s winged blast</l>
+                                <l>My fluttering rose of youth is borne away:</l>
+                                <l>Ah rose once crimson with the blood of May,</l>
+                                <l>A honeyed haunt where bees would break their fast,</l>
+                                <l>I watch thy scattering petals flee aghast,</l>
+                                <l>And all the flickering rose‐lights turning grey.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Poor fool of life! plagued ever with thy vain</l>
+                                <l>Regrets and futile longings! were the years</l>
+                                <l>Not cups o’erbrimming still with gall and tears?</l>
+                                <l>Let go thy puny personal joy and pain!</l>
+                                <l>If youth with all its brief hope disappears,</l>
+                                <l>To deathless hope we must be born again.</l>
+                            </lg>
+                        </div>
+                        <pb n="119" xml:id="VAB7028-119"/>
+                        <div type="poem">
+                            <head>NIRVANA.</head>
+                            <lg type="verse_paragraph">
+                                <l><hi rend="sc">DIVEST</hi> thyself, O Soul, of vain desire!</l>
+                                <l rend="ti-1">Bid hope farewell, dismiss all coward fears;</l>
+                                <l rend="ti-1">Take leave of empty laughter, emptier tears,</l>
+                                <l>And quench, for ever quench, the wasting fire</l>
+                                <l>Wherein this heart, as in a funeral pyre,</l>
+                                <l rend="ti-1">Aye burns, yet is consumed not. Years on years</l>
+                                <l rend="ti-1">Moaning with memories in thy maddened ears—</l>
+                                <l>Let at thy word, like refluent waves, retire.</l>
+                            </lg>
+                            <lg type="verse_paragraph">
+                                <l>Enter thy soul’s vast realm as Sovereign Lord,</l>
+                                <l>And, like that angel with the flaming sword,</l>
+                                <l rend="ti-1">Wave off life’s clinging hands. Then chains will
+                                    fall</l>
+                                <l>From the poor slave of self’s hard tyranny—</l>
+                                <l>And Thou, a ripple rounded by the sea,</l>
+                                <l rend="ti-1">In rapture lost be lapped within the All.</l>
+                            </lg>
+                        </div>
+                    </div>
+                    <trailer>Ballantyne Press. Printed by Ballantyne, Hanson &amp; Co., Edinburgh
+                        and London</trailer>
+                </body>
+
+            </text>
+        </group>
+    </text>
+</TEI>

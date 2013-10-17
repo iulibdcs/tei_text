@@ -1,0 +1,2795 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7089">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Lady of La Garaye</title>
+                <title type="filing">Lady of La Garaye</title>
+                <author>Norton, Caroline Sheridan (1808-1877)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded and by </resp>
+                    <name>Carolyn C. Sherayko</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 130 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>August 4, 1996</date>
+                <idno>VAB7089</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the Research Collections, Indiana
+                    University.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The Lady of La Garaye</title>
+                        <author>Norton, Caroline Sheridan, 1808-1877</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Caroline Norton</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>153 p.</extent>
+                    <publicationStmt>
+                        <publisher>Macmillan and Co.</publisher>
+                        <pubPlace>London</pubPlace>
+                        <date when="1866">1866</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag, with the
+                    value "indent1" for one tab stop, "indent2" for two tab stops, etc. All split
+                    lines are attributed as "type=i" for the initial portion, and "type=f" for the
+                    final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"/>
+                    <tagUsage gi="addrline" occurs="6"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="back" occurs="1"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="2"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="closer" occurs="1"/>
+                    <tagUsage gi="corr" occurs="2"/>
+                    <tagUsage gi="date" occurs="6"/>
+                    <tagUsage gi="div" occurs="4"/>
+                    <tagUsage gi="div0" occurs="2"/>
+                    <tagUsage gi="div1" occurs="7"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docedition" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="emph" occurs="20"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="figure" occurs="2"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="head" occurs="19"/>
+                    <tagUsage gi="hi" occurs="10"/>
+                    <tagUsage gi="item" occurs="5"/>
+                    <tagUsage gi="l" occurs="1971"/>
+                    <tagUsage gi="language" occurs="1"/>
+                    <tagUsage gi="langusage" occurs="1"/>
+                    <tagUsage gi="lg" occurs="141"/>
+                    <tagUsage gi="list" occurs="1"/>
+                    <tagUsage gi="name" occurs="7"/>
+                    <tagUsage gi="note" occurs="2"/>
+                    <tagUsage gi="p" occurs="19"/>
+                    <tagUsage gi="pb" occurs="146"/>
+                    <tagUsage gi="profiledesc" occurs="1"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="3"/>
+                    <tagUsage gi="pubplace" occurs="3"/>
+                    <tagUsage gi="q" occurs="2"/>
+                    <tagUsage gi="ref" occurs="4"/>
+                    <tagUsage gi="resp" occurs="7"/>
+                    <tagUsage gi="respstmt" occurs="7"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="59"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="2"/>
+                    <tagUsage gi="title" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="1"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                    <tagUsage gi="trailer" occurs="1"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000
+                                terms and 200,000 names to ensure consistency in the terms and names
+                                assigned during indexing. The VWWP project will utilize a subset of
+                                the MLA Thesaurus to assign genre headings to the VWWP texts.
+                            </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">French</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>La Garaye, Marie Marguerite (La Motte-Picquet), comtesse de, 1681-1757
+                            -- Poetry</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1996-07-24</date><label>editor.</label><name>Carolyn Sherayko,
+                </name>finished data entry, TEI-conformant encoding and proofing.</change>
+            <change><date>1996-08-04</date><label>general editor.</label><name>Perry Willett,
+                </name>finished editing and final proofing</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-10" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-07-30" who="elizabethmunson">Removed date and "a machine readable
+                transcription" from fileDesc title</change>
+            <change when="2010-07-30" who="elizabethmunson">Added LCNAF form of author name to
+                sourceDesc (hyphen adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-30" who="elizabethmunson">Normalized date in
+                biblFull/publicationStmt</change>
+            <change when="2010-08-26" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-17" who="elizabethmunson">Added @place="end" to footnotes</change>
+            <change when="2010-09-24" who="elizabethmunson">Moved note element to top of item; wrapped label tag around text at beginning of note</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">The Lady of La Garaye</titlePart>
+                </docTitle>
+                <byline>By the <docAuthor>Hon. Mrs. Norton.</docAuthor></byline>
+                <docImprint>
+                    <pubPlace>London: </pubPlace>
+                    <publisher>Macmillan and Co.</publisher>
+                    <date>1866.</date>
+                </docImprint>
+                <docEdition>[The Right of Translation and Reproduction is reserved.]</docEdition>
+            </titlePage>
+            <pb n="1" xml:id="VAB7089-001"/>
+            <pb n="3" xml:id="VAB7089-002"/>
+            <div type="dedication">
+                <head>DEDICATION.</head>
+                <lg type="verse_paragraph">
+                    <l><hi>FRIEND</hi> of old days, of suffering, storm, and strife,</l>
+                    <l rend="ti-1">Patient and kind through many a wild appeal;</l>
+                    <l>In the arena of thy brilliant life</l>
+                    <l rend="ti-1">Never too busy or too cold to feel:</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Companion from whose ever teeming store</l>
+                    <l rend="ti-1">Of thought and knowledge, happy memory brings</l>
+                    <l>So much of social wit and sage’s lore,</l>
+                    <l rend="ti-1">Garnered and gleaned by me as precious things:</l>
+                </lg>
+                <pb n="4" xml:id="VAB7089-003"/>
+                <lg type="verse_paragraph">
+                    <l>Kinsman of him whose very name soon grew</l>
+                    <l rend="ti-1">Unreal as music heard in pleasant dreams,</l>
+                    <l>So vain the hope my girlish fancy drew,</l>
+                    <l rend="ti-1">So faint and far his vanished presence seems.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>To thee I dedicate this record brief</l>
+                    <l rend="ti-1">Of foreign scenes and deeds too little known;</l>
+                    <l>This tale of noble souls who conquered grief</l>
+                    <l rend="ti-1">By dint of tending sufferings not their own.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thou hast known all my life: its pleasant hours,</l>
+                    <l rend="ti-1">(How many of them have I owed to thee!)</l>
+                    <l>Its exercise of intellectual powers,</l>
+                    <l rend="ti-1">With thoughts of fame and gladness not to be.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thou knowest how Death for ever dogged my way,</l>
+                    <l rend="ti-1">And how of those I loved the best, and those</l>
+                    <pb n="5" xml:id="VAB7089-004"/>
+                    <l>Who loved and pitied <emph rend="i">me</emph> in life’s young day,</l>
+                    <l rend="ti-1">Narrow, and narrower still, the circle grows.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Thou knowest—for thou hast proved—the dreary shade</l>
+                    <l rend="ti-1">A first‐born’s loss casts over lonely days;</l>
+                    <l>And gone is now the pale fond smile, that made</l>
+                    <l rend="ti-1">In my dim future, yet, a path of rays.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Gone, the dear comfort of a voice whose sound</l>
+                    <l rend="ti-1">Came like a beacon‐bell, heard clear above</l>
+                    <l>The whirl of violent waters surging round;</l>
+                    <l rend="ti-1">Speaking to shipwrecked ears of help and love.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The joy that budded on my own youth’s bloom,</l>
+                    <l rend="ti-1">When life wore still a glory and a gloss,</l>
+                    <l>Is hidden from me in the silent tomb;</l>
+                    <l rend="ti-1">Smiting with premature unnatural loss,</l>
+                </lg>
+                <pb n="6" xml:id="VAB7089-005"/>
+                <lg type="verse_paragraph">
+                    <l>So that my very soul is wrung with pain,</l>
+                    <l rend="ti-1">Meeting old friends whom most I love to see.</l>
+                    <l>Where are the younger lives, since these remain?</l>
+                    <l rend="ti-1">I weep the eyes that should have wept for me!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>But all the more I cling to those who speak</l>
+                    <l rend="ti-1">Like thee, in tones unaltered by my change;</l>
+                    <l>Greeting my saddened glance, and faded cheek,</l>
+                    <l rend="ti-1">With the same welcome that seemed sweet and strange</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>In early days: when I, of gifts made proud,</l>
+                    <l rend="ti-1">That could the notice of such men beguile,</l>
+                    <l>Stood listening to thee in some brilliant crowd,</l>
+                    <l rend="ti-1">With the warm triumph of a youthful smile.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Oh! little now remains of all that was!</l>
+                    <l rend="ti-1">Even for this gift of linking measured words,</l>
+                    <pb n="7" xml:id="VAB7089-006"/>
+                    <l>My heart oft questions, with discouraged pause,</l>
+                    <l rend="ti-1">Does music linger in the slackening chords?</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Yet, friend, I feel not that all power is fled,</l>
+                    <l rend="ti-1">While offering to thee, for the kindly years,</l>
+                    <l>The intangible gift of thought, whose silver thread</l>
+                    <l rend="ti-1">Heaven keeps untarnished by our bitterest tears.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>So, in the brooding calm that follows woe,</l>
+                    <l rend="ti-1">This tale of <emph rend="sc">LA GARAYE</emph> I fain would
+                        tell,—</l>
+                    <l>As, when some earthly storm hath ceased to blow,</l>
+                    <l rend="ti-1">And the huge mounting sea hath ceased to swell;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>After the maddening wrecking and the roar,</l>
+                    <l rend="ti-1">The wild high dash, the moaning sad retreat,</l>
+                    <l>Some cold slow wave creeps faintly to the shore,</l>
+                    <l rend="ti-1">And leaves a white shell at the gazer’s feet.</l>
+                </lg>
+                <pb n="8" xml:id="VAB7089-007"/>
+                <lg type="verse_paragraph">
+                    <l>Take, then, the poor gift in thy faithful hand;</l>
+                    <l rend="ti-1">Measure its worth not merely by my own,</l>
+                    <l>But hold it dear as gathered from the sand</l>
+                    <l rend="ti-1">Where so much wreck of youth and hope lies strown.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>So, if in years to come my words abide—</l>
+                    <l rend="ti-1">Words of the dead to stir some living brain—</l>
+                    <l>When thoughtful readers lay my book aside,</l>
+                    <l rend="ti-1">Musing on all it tells of joy and pain,</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Towards thee, good heart, towards thee their thoughts shall roam,</l>
+                    <l rend="ti-1">Whose unforsaking faith time hath not riven;</l>
+                    <l>And to their minds this just award shall come,</l>
+                    <l rend="ti-1">’Twas a <emph rend="sc">TRUE</emph> friend to whom such thanks
+                        were given!</l>
+                </lg>
+            </div>
+            <pb n="9" xml:id="VAB7089-008"/>
+            <div type="introduction">
+                <head>INTRODUCTION.</head>
+                <p><hi>IT</hi> is pleasant to me to be able to assure my readers that the story I
+                    have undertaken to versify is in no respect a fiction. I have added nothing to
+                    the beautiful and striking simplicity of the events it details. I have respected
+                    that mournful “romance of real life” too much to spoil its lessons by any
+                    poetical licence. Nothing is mine in this story but the language in which it is
+                    told. The portrait of the Countess de la Garaye is copied from an authentic
+                    picture preserved in one of the religious houses of Dinan, in Brittany, where
+                    the Hospital of Incurables,<pb n="10" xml:id="VAB7089-009"/> founded by her and
+                    her husband, still subsists. The ruined château and its ivy‐covered gateway are
+                    faithfully given, without embellishment or alteration, as they appeared when I
+                    saw them in the year 1860. The château is rapidly crumbling. The memory of the
+                    De la Garayes is fresh in the memory of the people. They died within two years
+                    of each other, and were buried among their poor in the district of Taden;
+                    having, both during their lives and by will after death, contributed the greater
+                    part of their fortune to the wisest and most carefully conducted charities.
+                    Among the bequests left by the Count de la Garaye, was one especially
+                    interesting to this country; for he left a large sum to the prisoners of Rennes
+                    and Dinan, consisting principally of English officers and soldiers who where
+                    suffering, in these crowded foreign jails, all the horrors<pb n="11" xml:id="VAB7089-010"/> which the philanthropic Howard endeavoured to reform
+                    in his own land; and which at one time caused a sort of plague to break out in
+                    Dinan. This humane bequest is the more remarkable, as the Count was, in spite of
+                    the gentleness and generosity of his feelings towards imprisoned foes, patriotic
+                    enough to insist on marching to oppose the landing of the English on the coast
+                    of France in 1746, though he was then upwards of seventy years of age!</p>
+                <p>He was of noble family, being the younger son of Guillaume Marot, Count de la
+                    Garaye, Governor of the town and castle of Dinan;—that strong fortress which
+                    Anne of Brittany, in her threatened dominions, playfully termed the “key of her
+                    casket.” By the death of his elder brother, he became inheritor of the family
+                    honours, and married Mademoiselle de la Motte‐Piquet, niece<pb n="12" xml:id="VAB7089-011"/> of the Chevalier de la Motte‐Piquet, who so greatly
+                    distinguished himself in the American war. Claude‐Toussaint, Count de la Garaye,
+                    was a man personally attractive in appearance and manner, and very dexterous in
+                    fencing and feats of horsemanship. To the plaintive beauty of his wife’s
+                    portrait I have scarcely been able to render justice, even with the advantage of
+                    its being engraved by Mr. Shaw.</p>
+                <p>Those who may desire to read the narrative in plain prose, will find a notice of
+                    the Château de la Garaye in the “Recherches sur Dinan et ses Environs,” by Luigi
+                    Odorici, Curator of the Museum of that town, and in the travelling guide lately
+                    issued by M. Peignet, both works published on the spot. Allusion is also made to
+                    the story, or rather to the beneficient works of charity performed by the De la
+                    Garayes, in<pb n="13" xml:id="VAB7089-012"/> Madame de Genlis’ “Adèle et
+                    Théodore;” but inasmuch as she has totally altered the real circumstances, and
+                    attributed these holy deeds to the result of grief for the loss of a daughter,
+                    even while admitting in a foot‐note that she is aware the De la Garayes never
+                    had a child, and that all is her own invention, I do not think it necessary
+                    further to allude to her version of the tale; more striking in its unadorned
+                    beauty than all the art of the poet or romancist could make it.</p>
+            </div>
+        </front>
+        <pb xml:id="VAB7089-013"/>
+        <body>
+           <div type="poem">
+                <head>THE LADY OF LA GARAYE.</head>
+                <div type="canto">
+                    <head>PROLOGUE.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>RUINS!</hi> A charm is in the word:</l>
+                        <l>It makes us smile, it makes us sigh,</l>
+                        <l>’Tis like the note of some spring bird</l>
+                        <l>Recalling other Springs gone by,</l>
+                        <l>And other wood‐notes which we heard</l>
+                        <l>With some sweet face in some green lane,</l>
+                        <l>And never can so hear again!</l>
+                    </lg>
+                    <pb n="16" xml:id="VAB7089-014"/>
+                    <lg type="verse_paragraph">
+                        <l>Ruins! They were not desolate</l>
+                        <l>To us,—the ruins we remember:</l>
+                        <l>Early we came and lingered late,</l>
+                        <l>Through bright July, or rich September;</l>
+                        <l>With young companions wild with glee,</l>
+                        <l>We feasted ’neath some spreading tree—</l>
+                        <l>And looked into their laughing eyes,</l>
+                        <l>And mocked the echo for replies.</l>
+                        <l>Oh! eyes—and smiles—and days of yore,</l>
+                        <l>Can nothing your delight restore?</l>
+                        <l>Return!</l>
+                        <l>Return? In vain we listen;</l>
+                        <l>Those voices have been lost to earth!</l>
+                        <l>Our hearts may throb—our eyes may glisten,</l>
+                        <l>They’ll call no more in love or mirth.</l>
+                        <l>For, like a child sent out to play,</l>
+                        <l>Our youth hath had its holiday,</l>
+                        <l>And silence deepens where we stand</l>
+                        <pb n="17" xml:id="VAB7089-015"/>
+                        <l>Lone as in some foreign land,</l>
+                        <l>Where our language is not spoken,</l>
+                        <l>And none know our hearts are broken.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Ruins! How we loved them then!</l>
+                        <l>How we loved the haunted glen</l>
+                        <l>Which grey towers overlook,</l>
+                        <l>Mirrored in the glassy brook.</l>
+                        <l>How we dreamed,—and how we guessed,</l>
+                        <l>Looking up, with earnest glances,</l>
+                        <l>Where the black crow built its nest,</l>
+                        <l>And we built our wild romances;</l>
+                        <l>Tracing in the crumbled dwelling</l>
+                        <l>Bygone tales of no one’s telling!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>This was the Chapel: that the stair:</l>
+                        <l>Here, where all lies damp and bare,</l>
+                        <l>The fragrant thurible was swung,</l>
+                        <pb n="18" xml:id="VAB7089-016"/>
+                        <l>The silver lamp in beauty hung,</l>
+                        <l>And in that mass of ivied shade</l>
+                        <l>The pale nuns sang—the abbot prayed.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>This was the Kitchen. Cold and blank</l>
+                        <l>The huge hearth yawns; and wide and high</l>
+                        <l>The chimney shows the open sky;</l>
+                        <l>There daylight peeps through many a crank</l>
+                        <l>Where birds immund find shelter dank,</l>
+                        <l>And when the moonlight shineth through,</l>
+                        <l>Echoes the wild tu‐whit tu‐whoo</l>
+                        <l>Of mournful owls, whose languid flight</l>
+                        <l>Scarce stirs the silence of the night.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>This is the Courtyard,—damp and drear!</l>
+                        <l>The men‐at‐arms were mustered here;</l>
+                        <l>Here would the fretted war‐horse bound,</l>
+                        <l>Starting to hear the trumpet sound;</l>
+                        <pb n="19" xml:id="VAB7089-017"/>
+                        <l>And Captains, then of warlike fame,</l>
+                        <l>Clanked and glittered as they came.</l>
+                        <l>Forgotten names! forgotten wars!</l>
+                        <l>Forgotten gallantry and scars!</l>
+                        <l>How is your little busy day</l>
+                        <l>Perished and crushed and swept away!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Here is the Lady’s Chamber, whence</l>
+                        <l>With looks of lovely innocence</l>
+                        <l>Some heroine our fancy dresses</l>
+                        <l>In golden locks or raven tresses,</l>
+                        <l>And pearl embroidered silks and stuffs,</l>
+                        <l>And quaintly quilted sleeves and ruffs,</l>
+                        <l>Looked forth to see retainers go,</l>
+                        <l>Or trembled at the assaulting foe.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>This was the Dungeon; deep and dark!</l>
+                        <l>Where the starved prisoner moaned in vain</l>
+                        <pb n="20" xml:id="VAB7089-018"/>
+                        <l>Until Death left him, stiff and stark,</l>
+                        <l>Unconscious of the galling chain</l>
+                        <l>By which the thin bleached bones were bound</l>
+                        <l>When chance revealed them under ground.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh, Time! oh, ever conquering Time!</l>
+                        <l>These men had once their prime:</l>
+                        <l>But now, succeeding generations hear</l>
+                        <l>Beneath the shadow of each crumbling arch</l>
+                        <l>The music low and drear,</l>
+                        <l>The muffled music of thy onward march,</l>
+                        <l>Made up of piping winds and rustling leaves</l>
+                        <l>And plashing rain‐drops falling from slant eaves,</l>
+                        <l>And all mysterious unconnected sounds</l>
+                        <l>With which the place abounds.</l>
+                        <l>Time doth efface</l>
+                        <l>Each day some lingering trace</l>
+                        <l>Of human government and human care:</l>
+                        <pb n="21" xml:id="VAB7089-019"/>
+                        <l>The things of air</l>
+                        <l>And earth, usurp the walls to be their own;</l>
+                        <l>Creatures that dwell alone,</l>
+                        <l>Occupy boldly: every mouldering nook</l>
+                        <l>Wherein we peer and look,</l>
+                        <l>Seems with wild denizens so swarming rife,</l>
+                        <l>We know the healthy stir of human life</l>
+                        <l>Must be for ever gone!</l>
+                        <l>The walls where hung the warriors’ shining casques</l>
+                        <l>Are green with moss and mould;</l>
+                        <l>The blindworm coils where Queens have slept, nor asks</l>
+                        <l>For shelter from the cold.</l>
+                        <l>The swallow,—he is master all the day,</l>
+                        <l>And the great owl is ruler through the night;</l>
+                        <l>The little bat wheels on his circling way</l>
+                        <l>With restless flittering flight;</l>
+                        <pb n="22" xml:id="VAB7089-020"/>
+                        <l>And that small black bat, and the creeping things,</l>
+                        <l>At will they come and go,</l>
+                        <l>And the soft white owl with velvet wings</l>
+                        <l>And a shriek of human woe!</l>
+                        <l>The brambles let no footstep pass</l>
+                        <l>By that rent in the broken stair,</l>
+                        <l>Where the pale tufts of the windle‐strae grass</l>
+                        <l>Hang like locks of dry dead hair;</l>
+                        <l>But there the keen wind ever weeps and moans,</l>
+                        <l>Working a passage through the mouldering stones.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh, Time! oh, conquering Time!</l>
+                        <l>I know that wild wind’s chime</l>
+                        <l>Which, like a passing bell,</l>
+                        <l>Or distant knell,</l>
+                        <l>Speaks to man’s heart of Death and of Decay;</l>
+                        <pb n="23" xml:id="VAB7089-021"/>
+                        <l>While thy step passes o’er the necks of Kings</l>
+                        <l>And over common things,—</l>
+                        <l>And into Earth’s green orchards making way,</l>
+                        <l>Halts, where the fruits of human hope abound,</l>
+                        <l>And shakes their trembling ripeness to the ground.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>But hark, a sudden shout</l>
+                        <l>Of laughter! and a nimble giddy rout,</l>
+                        <l>Who know not yet what saddened hours may mean,</l>
+                        <l>Come dancing through the scene!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Ruins! Ruins! let us roam</l>
+                        <l>Through what was a human home,</l>
+                        <l>What care we</l>
+                        <l>How deep its depths of darkness be?</l>
+                        <l>Follow! Follow!</l>
+                        <pb n="24" xml:id="VAB7089-022"/>
+                        <l>Down the hollow</l>
+                        <l>Through the bramble‐fencing thorns</l>
+                        <l>Where the white snail hides her horns;</l>
+                        <l>Leap across the dreadful gap</l>
+                        <l>To that corner’s mossy lap,—</l>
+                        <l>Do, and dare!</l>
+                        <l>Clamber up the crumbling stair;</l>
+                        <l>Trip along the narrow wall,</l>
+                        <l>Where the sudden rattling fall</l>
+                        <l>Of loosened stones, on winter nights,</l>
+                        <l>In his dreams the peasant frights:</l>
+                        <l>And push them, till their rolling sound,</l>
+                        <l>Dull and heavy, beat the ground.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Now a song, high up and clear,</l>
+                        <l>Like a lark’s enchants the ear;</l>
+                        <l>Or some happy face looks down,</l>
+                        <l>Looking, oh! so fresh and fair,</l>
+                        <pb n="25" xml:id="VAB7089-023"/>
+                        <l>Wearing youth’s most glorious crown,</l>
+                        <l>One rich braid of golden hair:</l>
+                        <l>Or two hearts that wildly beat,</l>
+                        <l>And two pair of eager feet,</l>
+                        <l>Linger in the turret’s bend</l>
+                        <l>As they side by side ascend,</l>
+                        <l>For the momentary bliss</l>
+                        <l>Of a lover’s stolen kiss;</l>
+                        <l>And emerge into the shining</l>
+                        <l>Of that summer day’s declining,</l>
+                        <l>Disengaging clasping hands</l>
+                        <l>As they meet their comrade bands;</l>
+                        <l>With the smile that lately hovered,</l>
+                        <l>(Making lips and eyes so bright,)</l>
+                        <l>And the blush which darkness covered</l>
+                        <l>Mantling still in rosy light!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Ruins! Oh! ye have your charm;</l>
+                        <pb n="26" xml:id="VAB7089-024"/>
+                        <l>Death is cold, but life is warm;</l>
+                        <l>And the fervent days we knew</l>
+                        <l>Ere our hopes grew faint and few,</l>
+                        <l>Claim even now a happy sigh,</l>
+                        <l>Thinking of those hours gone by:</l>
+                        <l>Of the wooing long since passed,—</l>
+                        <l>Of the love that still shall last,—</l>
+                        <l>Of the wooing and the winning;</l>
+                        <l>Brightest end to bright beginning;</l>
+                        <l>When the feet we sought to guide</l>
+                        <l>Tripped so lightly by our side,</l>
+                        <l>That, as swift they made their way</l>
+                        <l>Through the path and tangled brake,</l>
+                        <l>Safely we could swear and say</l>
+                        <l>We loved all ruins for their sake!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Gentle hearts, one ruin more</l>
+                        <l>From amongst so many score—</l>
+                        <pb n="27" xml:id="VAB7089-025"/>
+                        <l>One, from out a host of names,</l>
+                        <l>To your notice puts forth claims.</l>
+                        <l>Come! with me make holiday,</l>
+                        <l>In the woods of La Garaye,</l>
+                        <l>Sit within those tangled bowers,</l>
+                        <l>Where fleet by the silent hours,</l>
+                        <l>Only broken by a song</l>
+                        <l>From the chirping woodland throng.</l>
+                        <l>Listen to the tale I tell:</l>
+                        <l>Grave the story is—not sad;</l>
+                        <l>And the peasant plodding by</l>
+                        <l>Greets the place with kindly eye</l>
+                        <l>For the inmates that it had!</l>
+                    </lg>
+                </div>
+                <pb n="29" xml:id="VAB7089-026"/>
+                <div type="canto">
+                    <head type="supplied">PART I.</head>
+                    <head>THE LADY OF LA GARAYE.</head>
+                    <head type="sub">PART I.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>ON</hi> Dinan’s walls the morning sunlight plays,</l>
+                        <l>Gilds the stern fortress with a crown of rays,</l>
+                        <l>Shines on the children’s heads that troop to school,</l>
+                        <l>Turns into beryl‐brown the forest pool,</l>
+                        <l>Sends diamond sparkles over gushing springs,</l>
+                        <l>And showers down glory on the simplest things.</l>
+                        <pb n="30" xml:id="VAB7089-027"/>
+                        <l>And many a young seigneur and damsel bold</l>
+                        <l>See with delight those beams of reddening gold,</l>
+                        <l>For they are bid to join the hunt to‐day</l>
+                        <l>By Claud Marot, the lord of La Garaye;</l>
+                        <l>And merry is it in his spacious halls;</l>
+                        <l>Cheerful the host, whatever sport befalls,</l>
+                        <l>Cheerful and courteous, full of manly grace,</l>
+                        <l>His heart’s frank welcome written in his face;</l>
+                        <l>So eager, that his pleasure never cloys,</l>
+                        <l>But glad to share whatever he enjoys;</l>
+                        <l>Rich, liberal, gaily dressed, of noble mien,</l>
+                        <l>Clear eyes,—full curving mouth,—and brow serene;</l>
+                        <l>Master of speech in many a foreign tongue,</l>
+                        <l>And famed for feats of arms, although so young;</l>
+                        <l>Dexterous in fencing, skilled in horsemanship—</l>
+                        <l>His voice and hand preferred to spur or whip;</l>
+                        <l>Quick at a jest and smiling repartee,</l>
+                        <pb n="31" xml:id="VAB7089-028"/>
+                        <l>With a sweet laugh that sounded frank and free,</l>
+                        <l>But holding Satire an accursèd thing,</l>
+                        <l>A poisoned javelin or a serpent’s sting;</l>
+                        <l>Pitiful to the poor; of courage high;</l>
+                        <l>A soul that could all turns of fate defy</l>
+                        <l>Gentle to women: reverent to old age:</l>
+                        <l>What more, young Claud, could men’s esteem engage?</l>
+                        <l>What more be given to bless thine earthy state,</l>
+                        <l>Save Love,—which still must crown the happiest fate!</l>
+                        <l>Love, therefore, came. That sunbeam lit his life</l>
+                        <l>And where he wooed, he won, a gentle wife</l>
+                        <l>Born, like himself, of lineage brave and good;</l>
+                        <l>And, like himself, of warm and eager mood;</l>
+                        <l>Glad to share gladness, pleasure to impart,</l>
+                        <l>With dancing spirits and a tender heart.</l>
+                        <pb n="32" xml:id="VAB7089-029"/>
+                        <l>Pleased too to share the manlier sports which made</l>
+                        <l>The joy of his young hours. No more afraid</l>
+                        <l>Of danger, than the seabird, used to soar</l>
+                        <l>From the high rocks above the ocean’s roar,</l>
+                        <l>Which dips its slant wing in the wave’s white crest,</l>
+                        <l>And deems the foamy undulations, rest.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Nor think the feminine beauty of her soul</l>
+                        <l>Tarnished by yielding to such joy’s control;</l>
+                        <l>Nor that the form which, like a flexile reed,</l>
+                        <l>Swayed with the movements of her bounding steed,</l>
+                        <l>Took from those graceful hours a rougher force,</l>
+                        <l>Or left her nature masculine and coarse.</l>
+                        <l>She was not bold from boldness, but from love;</l>
+                        <l>Bold from gay frolic; glad with him to rove</l>
+                        <pb n="33" xml:id="VAB7089-030"/>
+                        <l>In danger or in safety, weal or woe,</l>
+                        <l>And where he ventured, still she yearned to go.</l>
+                        <l>Bold with the courage of his bolder life,</l>
+                        <l>At home a tender and submissive wife;</l>
+                        <l>Abroad, a woman, modest,—ay, and proud;</l>
+                        <l>Not seeking homage from the casual crowd.</l>
+                        <l>She remained pure, that darling of his sight,</l>
+                        <l>In spite of boyish feats, and rash delight;</l>
+                        <l>Still the eyes fell before an insolent look,</l>
+                        <l>Or flashed their bright and innocent rebuke;</l>
+                        <l>Still the cheek kept its delicate youthful bloom,</l>
+                        <l>And the blush reddened through the snow‐white plume.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He that had seen her, with her courage high,</l>
+                        <l>First in the chase where all dashed rapid by;</l>
+                        <l>He that had watched her bright impetuous look</l>
+                        <l>When she prepared to leap the silver brook,—</l>
+                        <pb n="34" xml:id="VAB7089-031"/>
+                        <l>Fair in her Springtime as a branch of May,—</l>
+                        <l>Had felt the dull sneer feebly die away,</l>
+                        <l>And unused kindly smiles upon his cold lips play!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>God made all pleasure innocent; but man</l>
+                        <l>Turns them to shame, since first our earth began</l>
+                        <l>To shudder ’neath the stroke of delving tools</l>
+                        <l>When Eve and Adam lost,—poor tempted fools,—</l>
+                        <l>The sweet safe shelter of their Eden bowers,</l>
+                        <l>Its easy wealth of sun‐ripe fruits and flowers,</l>
+                        <l>For some forbidden zest that was not given,</l>
+                        <l>Some riotous hope to make a mimic heaven,</l>
+                        <l>And sank,—from being wingless angels,—low</l>
+                        <l>Into the depths of mean and abject woe.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Why should the sweet elastic sense of joy</l>
+                        <l>Presage a fault? Why should the pleasure cloy,</l>
+                        <pb n="35" xml:id="VAB7089-032"/>
+                        <l>Or turn to blame, which Heaven itself inspires,</l>
+                        <l>Who gave us health and strength and all desires?</l>
+                        <l>The children play, and sin not;—let the young</l>
+                        <l>Still carol songs, as others too have sung;</l>
+                        <l>Still urge the fiery courser o’er the plain,</l>
+                        <l>Proud of his glossy sides and flowing mane;</l>
+                        <l>Still, when they meet in careless hours of mirth,</l>
+                        <l>Laugh, as if Sorrow were unknown to earth;</l>
+                        <l>Prattling sweet nothings, which, like buds of flowers,</l>
+                        <l>May turn to earnest thoughts and vigilant hours.</l>
+                        <l>What boys can suffer, and weak women dare,</l>
+                        <l>Let Indian and Crimean wastes declare:</l>
+                        <l>Perchance in that gay group of laughers stand</l>
+                        <l>Guides and defenders for our native land;—</l>
+                        <l>Folly it is to see a wit in woe,</l>
+                        <l>And hold youth sinful for the spirits’ flow.</l>
+                        <pb n="36" xml:id="VAB7089-033"/>
+                        <l>As thro’ the meadow lands clear rivers run,</l>
+                        <l>Blue in the shadow—silver in the sun—</l>
+                        <l>Till, rolling by some pestilential source,</l>
+                        <l>Some factory work whose wheels with horrid force</l>
+                        <l>Strike the pure waters with their dripping beams,</l>
+                        <l>Send poison gushing to the crystal streams,</l>
+                        <l>And leave the innocent things to whom God gave</l>
+                        <l>A natural home in that translucent wave</l>
+                        <l>Gasping strange death, and floating down to show</l>
+                        <l>The evil working in the depths below,—</l>
+                        <l>So man can poison pleasure at its source;</l>
+                        <l>Clog the swift sparkle of its rapid course,</l>
+                        <l>Mix muddy morbid thoughts in vicious strife,</l>
+                        <l>Till to the surface floats the death of life;—</l>
+                        <pb n="37" xml:id="VAB7089-034"/>
+                        <l>But not the less the stream itself was pure—</l>
+                        <l>And not the less may blameless joy endure.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Careless,—but not impure,—the joyous days</l>
+                        <l>Passed in a rapturous whirl; a giddy maze,</l>
+                        <l>Where the young Count and lovely Countess drew</l>
+                        <l>A new delight from every pleasure new.</l>
+                        <l>They woke to gladness as the morning broke;</l>
+                        <l>Their very voices kept, whene’er they spoke,</l>
+                        <l>A ring of joy, a harmony of life,</l>
+                        <l>That made you bless the husband and the wife.</l>
+                        <l>And every day the careless festal throng,</l>
+                        <l>And every night the dance and feast and song,</l>
+                        <l>Shared with young boon companions, marked the time</l>
+                        <l>As with a carillon’s exulting chime;</l>
+                        <pb n="38" xml:id="VAB7089-035"/>
+                        <l>Where those two entered, gloom passed out of sight,</l>
+                        <l>Chased by the glow of their intense delight.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>So, till the day when over Dinan’s walls</l>
+                        <l>The Autumn sunshine of my story falls;</l>
+                        <l>And the guests bidden, gather for the chase,</l>
+                        <l>And the smile brightens on the lovely face</l>
+                        <l>That greets them in succession as they come</l>
+                        <l>Into that high and hospitable home.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Like a sweet picture doth the Lady stand,</l>
+                        <l>Still blushing as she bows; one tiny hand,</l>
+                        <l>Hid by a pearl‐embroidered gauntlet, holds</l>
+                        <l>Her whip, and her long robe’s exuberant folds.</l>
+                        <l>The other hand is bare, and from her eyes</l>
+                        <l>Shades now and then the sun, or softly lies,</l>
+                        <l>With a caressing touch, upon the neck</l>
+                        <pb n="39" xml:id="VAB7089-036"/>
+                        <l>Of the dear glossy steed she loves to deck</l>
+                        <l>With saddle‐housings worked in golden thread,</l>
+                        <l>And golden bands upon his noble head.</l>
+                        <l>White is the little hand whose taper fingers</l>
+                        <l>Smooth his fine coat,—and still the lady lingers,</l>
+                        <l>Leaning against his side; nor lifts her head,</l>
+                        <l>But gently turns as gathering footsteps tread;</l>
+                        <l>Reminding you of doves with shifting throats,</l>
+                        <l>Brooding in sunshine by their sheltering cotes.</l>
+                        <l>Under her plumèd hat her wealth of curls</l>
+                        <l>Falls down in golden links among her pearls,</l>
+                        <l>And the rich purple of her velvet vest</l>
+                        <l>Slims the young waist, and rounds the graceful breast.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>So, till the latest joins the happy Meet;</l>
+                        <l>Then springs she gladly to her eager feet;</l>
+                        <l>And, while the white hand from her courser’s side</l>
+                        <pb n="40" xml:id="VAB7089-037"/>
+                        <l>Slips like a snow‐flake, stands prepared to ride.</l>
+                        <l>Then lightly vaulting to her seat, she seems</l>
+                        <l>Queen of some fair procession seen in dreams;</l>
+                        <l>Queen of herself, and of the world; sweet Queen!</l>
+                        <l>Her crown the plume above her brow serene,</l>
+                        <l>Her jewelled whip a sceptre, and her dress</l>
+                        <l>The regal mantle worn by loveliness.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And well she wears such mantle: swift <choice>
+                                <corr>the</corr>
+                                <sic>he</sic>
+                            </choice> horse,</l>
+                        <l>But firm her seat throughout the rapid course;</l>
+                        <l>No rash unsteadiness, no shifting pose</l>
+                        <l>Disturbs that line of beauty as she goes:</l>
+                        <l>She wears her robe as some fair sloop her sails,</l>
+                        <l>Which swell and flutter to the rising gales,</l>
+                        <l>But never from the cordage taut and trim</l>
+                        <l>Slacken or swerve away. The evening dim</l>
+                        <pb n="41" xml:id="VAB7089-038"/>
+                        <l>Sees her return, unwearied and unbent,</l>
+                        <l>The fair folds falling smooth as when she went;</l>
+                        <l>The little foot no clasping buckle keeps,</l>
+                        <l>She frees it, and to earth untrammelled leaps.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Alas! look well upon that picture fair!</l>
+                        <l>The face—the form—the smile—the golden hair;</l>
+                        <l>The agile beauty of each movement made,—</l>
+                        <l>The loving softness of her eyes’ sweet shade,</l>
+                        <l>The bloom and pliant grace of youthful days,</l>
+                        <l>The gladness and the glory of her gaze.</l>
+                        <l>If we knew when the last time was the last,</l>
+                        <l>Visions so dear to straining eyes went past;</l>
+                        <l>If we knew when the horror and the gloom</l>
+                        <l>Should overcast the pride of beauty’s bloom;</l>
+                        <l>If we knew when affection nursed in vain</l>
+                        <l>Should grow to be but bitterness and pain;</l>
+                        <l>It were a curse to blight all living hours</l>
+                        <pb n="42" xml:id="VAB7089-039"/>
+                        <l>With a hot dust, like dark volcano showers.</l>
+                        <l>Give thanks to God who blinded us with Hope;</l>
+                        <l>Denied man skill to draw his horoscope;</l>
+                        <l>And, to keep mortals of the present fond,</l>
+                        <l>Forbid the keenest sight to pierce beyond!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Falsehood from those we trusted; cruel sneers</l>
+                        <l>From those whose voice was music to our ears;</l>
+                        <l>Lonely old age; oppressed and orphaned youth;</l>
+                        <l>Yearning appeals to hearts that know no ruth;</l>
+                        <l>Ruin, that starves pale mouths we loved to feed;</l>
+                        <l>A friend’s forsaking in our utmost need;</l>
+                        <l>These come,—and sting,—and madden; ay, and slay;</l>
+                        <l>But not the less our joy hath had its day;</l>
+                        <l>No little cloud first flecked our tranquil skies,</l>
+                        <l>Presaging shipwreck to the prophet eyes;</l>
+                        <l>No hand came forth upon the walls of home</l>
+                        <pb n="43" xml:id="VAB7089-040"/>
+                        <l>With vanishing radiance writing darkest doom;</l>
+                        <l>No child‐soul called us in the dead of night,</l>
+                        <l>Thrilled with a message from a God of might;</l>
+                        <l>No shrouded Seer, by some enforcing spell,</l>
+                        <l>Rose from Death’s rest, Life’s restless chance to tell;</l>
+                        <l>The lightning smote us—shivering stem and bough:</l>
+                        <l>All was so green: all lies so blighted now!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>They ride together all that sunny day,</l>
+                        <l>Claud and the lovely Lady of Garaye;</l>
+                        <l>O’er hill and dale,—through fields of late reaped corn,</l>
+                        <l>Through woods,—wherever sounds the hunting horn,</l>
+                        <l>Wherever scour the fleet hounds, fast they follow,</l>
+                        <pb n="44" xml:id="VAB7089-041"/>
+                        <l>Through tufted thickets and the leaf‐strewn hollow;</l>
+                        <l>And thrice,—the game secured,—they rest awhile,</l>
+                        <l>And slacken bridle with a breathless smile:</l>
+                        <l>And thrice, with joyous speed, off, off they go,—</l>
+                        <l>Like a fresh arrow from a new‐strung bow!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>But now the ground is rough with boulder stones,</l>
+                        <l>Where, wild beneath, the prisoned streamlet moans,</l>
+                        <l>The prisoned streamlet strugggling to be free,</l>
+                        <l>Baring the roots of many a toppling tree,</l>
+                        <l>Breaking the line where smooth‐barked saplings rank,</l>
+                        <l>And undermining all the creviced bank;</l>
+                        <l>Till gushing out at length to open space,</l>
+                        <pb n="45" xml:id="VAB7089-042"/>
+                        <l>Mad with the effort of its desperate race,</l>
+                        <l>It pauses, swelling o’er the narrow ridge</l>
+                        <l>Where fallen branches make a natural bridge,</l>
+                        <l>Leaps to the next desent, and, balked no more,</l>
+                        <l>Foams to a waterfall, whose ceaseless roar</l>
+                        <l>Echoes far down the banks, and through the forest hoar!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Across the water full of peakèd stones—</l>
+                        <l>Across the water where it chafes and moans—</l>
+                        <l>Across the water at its widest part—</l>
+                        <l>Which wilt thou leap,—oh, lady of brave heart?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Their smiling eyes have met—those eager two:</l>
+                        <l>She looks at Claud, as questioning which to do:</l>
+                        <l>He rides—reins in —looks down the torrent’s course,—</l>
+                        <l>Pats the sleek neck of his sure‐footed horse,—</l>
+                        <pb n="46" xml:id="VAB7089-043"/>
+                        <l>Stops,—measures spaces with his eagle eye,</l>
+                        <l>Tries a new track, and yet returns to try.</l>
+                        <l>Sudden, while pausing at the very brink,</l>
+                        <l>The damp leaf‐covered ground appears to sink,</l>
+                        <l>And the keen instinct of the wise dumb brute</l>
+                        <l>Escapes the yielding earth, the slippery root;</l>
+                        <l>With a wild effort as if taking wing</l>
+                        <l>The monstrous gap he clears with one safe spring;</l>
+                        <l>Reaches—(and barely reaches)—past the roar</l>
+                        <l>Of the wild stream, the further lower shore,—</l>
+                        <l>Scrambles—recovers,—rears—and panting stands</l>
+                        <l>Safe ’neath his master’s nerveless trembling hands.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh! even while he leapt, his horrid thought</l>
+                        <l>Was of the peril to that lady brought;</l>
+                        <l>Oh! even while he leapt, her Claud looked back,</l>
+                        <l>And shook his hand to warn her from the track.</l>
+                        <pb n="47" xml:id="VAB7089-044"/>
+                        <l>In vain: the pleasant voice she loved so well</l>
+                        <l>Feebly re‐echoed through that dreadful dell,</l>
+                        <l>The voice that was the music of her home</l>
+                        <l>Shouted in vain across that torrent’s foam.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He saw her, pausing on the bank above;</l>
+                        <l>Saw,—like a dreadful vision of his love,—</l>
+                        <l>That dazzling dream stand on the edge of death:</l>
+                        <l>Saw it—and stared—and prayed—and held his breath.</l>
+                        <l>Bright shone the Autumn sun on wood and plain;</l>
+                        <l>On the steed’s glossy flanks and flowing mane;</l>
+                        <l>On the wild silver of the rushing brook;</l>
+                        <l>On his wife’s smiling and triumphant look;</l>
+                        <l>Bright waved against the sky her wind‐tost plume,</l>
+                        <pb n="48" xml:id="VAB7089-045"/>
+                        <l>Bright on her freshened cheek the healthy bloom,—</l>
+                        <l>Oh! all bright things, how could ye end in doom?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Forward they leaped! They leaped—a coloured flash</l>
+                        <l>Of life and beauty. Hark! a sudden crash,—</l>
+                        <l>Blent with that dreadful sound, a man’s sharp cry,—</l>
+                        <l>Prone,—’neath the crumbling bank,—the horse and lady lie!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>The heart grows humble in an awe‐struck grief;</l>
+                        <l>Claud thinks not, dreams not, plans not her relief.</l>
+                        <l>Strengthen him but, O God! to reach the place,</l>
+                        <l>And let him look upon her dying face!</l>
+                        <pb n="49" xml:id="VAB7089-046"/>
+                        <l>Let him but say farewell! farewell, sweet love!</l>
+                        <l>And once more hear her speak, and see her move,—</l>
+                        <l>And ask her if she suffers where she lies,—</l>
+                        <l>And kiss the lids down on her closing eyes,—</l>
+                        <l>And he will be content.</l>
+                        <l>He climbs and strives:</l>
+                        <l>The strength is in his heart of twenty lives;</l>
+                        <l>Across the leaf‐strewn gaps he madly springs;</l>
+                        <l>From branch to branch like some wild ape he swings;</l>
+                        <l>Breasts, with hot effort, that cold rushing source</l>
+                        <l>Of death and danger. With a giant’s force</l>
+                        <l>His bleeding hands and broken nails have clung</l>
+                        <l>Round the gnarled slippery roots above him hung,</l>
+                        <l>And now he’s near,—he sees her through the leaves;</l>
+                        <pb n="50" xml:id="VAB7089-047"/>
+                        <l>But a new horrid fear his mind receives:</l>
+                        <l>The steed! his hoofs may crush that angel head!</l>
+                        <l>No, Claud,—her favourite is already dead,</l>
+                        <l>One shivering gasp thro’ limbs that now stretch out like lead.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He’s with her! is he dying too? his blood</l>
+                        <l>Beats no more to and fro; his abstract mood</l>
+                        <l>Weighs like a nightmare; something, well he knows,</l>
+                        <l>Is horrible,—and still the horror grows;</l>
+                        <l>But what it is, or how it came to pass,</l>
+                        <l>Or why he lies half fainting on the grass,</l>
+                        <l>Or what he strove to clutch at in his fall,</l>
+                        <l>Or why he had no power for help to call,</l>
+                        <l>This is confused and lost.</l>
+                        <l>But Claud has heard</l>
+                        <l>A sound like breathings from a sleeping bird</l>
+                        <pb n="51" xml:id="VAB7089-048"/>
+                        <l>New‐caged that day,—a weak distrubing sigh,</l>
+                        <l>The whisper of a grief that cannot cry,—</l>
+                        <l>Repeated, and then still; and then again</l>
+                        <l>Repeated,—and a long low moan of pain.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>The hunt is passing; through the arching glade</l>
+                        <l>The hounds sweep on in flickering light and shade,</l>
+                        <l>The cheery huntsman winds his rallying horn,</l>
+                        <l>And voices shouting from his guests that morn</l>
+                        <l>Keep calling, calling, “Claud, the hunt is o’er,</l>
+                        <l>Return we to the merry halls once more!”</l>
+                        <l>Claud hears not; heeds not;—all is like a dream</l>
+                        <l>Except that lady lying by the stream;</l>
+                        <l>Above all tumult of uproarious sound</l>
+                        <l>Comes the faint sigh that breathes along the ground,</l>
+                        <l>Where pale as death in her returning life</l>
+                        <pb n="52" xml:id="VAB7089-049"/>
+                        <l>Writhes the sweet angel whom he still calls wife.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He parts the masses of her golden hair,</l>
+                        <l>He lifts her, helpless, with a shudderng care,</l>
+                        <l>He looks into her face with awe‐struck eyes;—</l>
+                        <l>She dies—the darling of his soul—she dies!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>You might have heard, through that thought’s fearful shock,</l>
+                        <l>The beating of his heart like some huge clock;</l>
+                        <l>And then the strong pulse falter and stand still,</l>
+                        <l>When lifted from that fear with sudden thrill</l>
+                        <l>He bent to catch faint murmurs of his name,</l>
+                        <l>Which from those blanched lips low and trembling came:</l>
+                        <l>“Oh! Claud!” she said: no more—</l>
+                        <l>But never yet,</l>
+                        <l>Through all the loving days since first they met,</l>
+                        <pb n="53" xml:id="VAB7089-050"/>
+                        <l>Leaped his heart’s blood with such a yearning vow</l>
+                        <l>That she was all in all to him, as now.</l>
+                        <l>“Oh! Claud—the pain!”</l>
+                        <l>“Oh! Gertrude, my beloved!”</l>
+                        <l>Then faintly o’er her lips a wan smile moved,</l>
+                        <l>Which dumbly spoke of comfort from his tone,</l>
+                        <l>As though she felt half saved, not so to die alone.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Ah! happy they who in their grief or pain</l>
+                        <l>Yearn not for some familiar face in vain;</l>
+                        <l>Who in the sheltering arms of love can lie</l>
+                        <l>Till human passion breathes its latest sigh;</l>
+                        <l>Who, when words fail to enter the dull ear,</l>
+                        <l>And when eyes cease from seeing forms most dear,</l>
+                        <l>Still the fond clasping touch can understand,—</l>
+                        <pb n="54" xml:id="VAB7089-051"/>
+                        <l>And sink to death from that detaining hand!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He sits and watches; and she lies and moans;</l>
+                        <l>The wild stream rushes over broken stones;</l>
+                        <l>The dead leaves flutter to the mossy earth;</l>
+                        <l>Far‐away echoes bring the hunters’ mirth;</l>
+                        <l>And the long hour creeps by—too long—too long;</l>
+                        <l>Till the chance music of a peasant’ song</l>
+                        <l>Breaks the hard silence with a human hope,</l>
+                        <l>And Claud starts up and gazes down the slope;</l>
+                        <l>And from a wandering herdsman he obtains</l>
+                        <l>The help whose want has chilled his anxious veins.</l>
+                        <l>Into a simple litter then they bind</l>
+                        <l>Thin cradling branches deftly intertwined;</l>
+                        <l>And there they lay the lady as they found her,</l>
+                        <l>With all her bright hair streaming sadly round her;</l>
+                        <pb n="55" xml:id="VAB7089-052"/>
+                        <l>Her white lips parted o’er the pearly teeth</l>
+                        <l>Like pictured saints’, who die a martyr’s death,—</l>
+                        <l>And slowly bear her, like a corse of clay,</l>
+                        <l>Back to the home she left so blithe to‐day.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>The starry lights shine forth from tower and hall,</l>
+                        <l>Stream through the gateway, glimmer on the wall,</l>
+                        <l>And the loud pleasant stir of busy men</l>
+                        <l>In courtyard and in stable sounds again.</l>
+                        <l>And through the windows, as that death‐bier passes,</l>
+                        <l>They see the shining of the ruby glasses</l>
+                        <l>Set at brief intervals for many a guest</l>
+                        <l>Prepared to share the laugh, the song, the jest;</l>
+                        <l>Prepared to drink, with many a courtly phrase,</l>
+                        <l>Their host and hostess—‘Health to the Garayes!’</l>
+                        <l>Health to the slender, lithe, yet stalwart frame</l>
+                        <pb n="56" xml:id="VAB7089-053"/>
+                        <l>Of Claud Marot—Count of that noble name;</l>
+                        <l>Health to his lovely Countess: health—to her!</l>
+                        <l>Scarce seems she now with faintest breath to stir:</l>
+                        <l>Oh! half‐shut eyes—oh! brow with torture damp,—</l>
+                        <l>Will life’s oil rise in that expiring lamp?</l>
+                        <l>Are there yet days to come, or does he bend</l>
+                        <l>Over a hope of which this is the end?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He shivers, and hot tears shut out the sight</l>
+                        <l>Of that dear home for feasting made so bright;</l>
+                        <l>The golden evening light is round him dying,</l>
+                        <l>The dark rooks to their nests are slowly flying,</l>
+                        <l>As underneath the portal, faint with fear,</l>
+                        <l>He sees her carried, now so doubly dear;</l>
+                        <l>“Save her!” is written in his anxious glances,</l>
+                        <l>As the quick‐summoned leech in haste advances.</l>
+                        <pb n="57" xml:id="VAB7089-054"/>
+                        <l>“Save her!”—and through the gloom of midnight hours,</l>
+                        <l>And through the hot noon, shut from air and flowers,</l>
+                        <l>Young Claud sits patient—waiting day by day</l>
+                        <l>For health for that sweet lady of Garaye.</l>
+                    </lg>
+                </div>
+                <pb n="59" xml:id="VAB7089-055"/>
+                <div type="canto">
+                    <head>THE LADY OF LA GARAYE.</head>
+                    <head type="sub">PART II.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>A FIRST</hi> walk after sickness: the sweet breeze</l>
+                        <l>That murmurs welcome in the bending trees,</l>
+                        <l>When the cold shadowy foe of life departs,</l>
+                        <l>And the warm blood flows freely through our hearts:</l>
+                        <l>The smell of roses,—sound of trickling streams,</l>
+                        <l>The elastic turf cross‐barred with golden gleams,</l>
+                        <l>That seems to lift, and meet our faltering tread;</l>
+                        <pb n="60" xml:id="VAB7089-056"/>
+                        <l>The happy birds, loud singing overhead;</l>
+                        <l>The glorious range of distant shade and light,</l>
+                        <l>In blue perspective, rapturous to our sight,</l>
+                        <l>Weary of draperied curtains folding round,</l>
+                        <l>And the monotonous chamber’s narrow bound;</l>
+                        <l>With,—best of all,—the consciousness at length,</l>
+                        <l>In every nerve of sure returning strength:—</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Long the dream stayed to cheer that darkened room,</l>
+                        <l>That this should be the end of all that gloom!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Long, as the vacant life trained idly by,</l>
+                        <l>She pressed her pillow with a restless sigh,—</l>
+                        <l>“To‐morrow, surely, I shall stronger feel!”</l>
+                        <l>To‐morrow! but the slow days onward steal,</l>
+                        <l>And find her still with feverish aching head,</l>
+                        <l>Still cramped with pain; still lingering in her bed;</l>
+                        <pb n="61" xml:id="VAB7089-057"/>
+                        <l>Still sighing out the tedium of the time;</l>
+                        <l>Still listening to the clock’s recurring chime,</l>
+                        <l>As though the very hours that struck were foes,</l>
+                        <l>And might, but would not, grant complete respose.</l>
+                        <l>Until the skilled physician,—sadly bold</l>
+                        <l>From frequent questioning,—her sentence told!</l>
+                        <l>That no good end could come to her faint yearning,—</l>
+                        <l>That no bright hour should see her health returning,—</l>
+                        <l>That changeful seasons,—not for one dark year,</l>
+                        <l>But on through life,—must teach her how to bear:</l>
+                        <l>For through all Springs, with rainbow‐tinted showers,</l>
+                        <l>And through all Summers, with their wealth of flowers,</l>
+                        <pb n="62" xml:id="VAB7089-058"/>
+                        <l>And every Autumn, with its harvest‐home,</l>
+                        <l>And all white Winters of the time to come,—</l>
+                        <l>Crooked and sick for ever she must be:</l>
+                        <l>Her life of wild activity and glee</l>
+                        <l>Was with the past, the future was a life</l>
+                        <l>Dismal and feeble; full of suffering; rife</l>
+                        <l>With chill denials of accustomed joy,</l>
+                        <l>Continual torment, and obscure annoy.</l>
+                        <l>Blighted in all her bloom,—her withered frame</l>
+                        <l>Must now inherit age; young but in name.</l>
+                        <l>Never could she, at close of some long day</l>
+                        <l>Of pain that strove with hope, exulting lay</l>
+                        <l>A tiny new‐born infant on her breast,</l>
+                        <l>And, in the soft lamp’s glimmer, sink to rest,</l>
+                        <l>The strange corporeal weakness sweetly blent</l>
+                        <l>With a delicious dream of full content;</l>
+                        <l>With pride of motherhood, and thankful prayers,</l>
+                        <l>And a confused glad sense of novel cares,</l>
+                        <pb n="63" xml:id="VAB7089-059"/>
+                        <l>And peeps into the future brightly given,</l>
+                        <l>As though her babe’s blue eyes turned earth to heaven!</l>
+                        <l>Never again could she, when Claud returned</l>
+                        <l>After brief absence, and her fond heart yearned</l>
+                        <l>To see his earnest eyes, with upward glancing,</l>
+                        <l>Greet her known windows, even while yet advancing,—</l>
+                        <l>Fly with light footsteps down the great hall‐stair,</l>
+                        <l>And give him welcome in the open air</l>
+                        <l>As though she were too glad to see him come,</l>
+                        <l>To wait till he should enter happy home,</l>
+                        <l>And there, quick‐breathing, glowing, sparkling stand,</l>
+                        <l>His arm round her slim waist; hand locked in hand;</l>
+                        <l>The mutual kiss exchanged of happy greeting,</l>
+                        <pb n="64" xml:id="VAB7089-060"/>
+                        <l>That needs no secrecy of lovers’ meeting;</l>
+                        <l>While, giving welcome also in their way,</l>
+                        <l>Her dogs barked rustling round him, wild with play;</l>
+                        <l>And voices called, and hasty steps replied,</l>
+                        <l>And the sleek fiery steed was led aside,</l>
+                        <l>And the grey seneschal came forth and smiled,</l>
+                        <l>Who held him in his arms while yet a child;</l>
+                        <l>And cheery jinglings from unfastened doors,</l>
+                        <l>And vaulted echoes through long corridors,</l>
+                        <l>And distant bells that thrill along the wires,</l>
+                        <l>And stir of logs that heap up autumn fires,</l>
+                        <l>Crowned the glad eager bustle that makes known</l>
+                        <l>The Master’s step is on his threshold‐stone!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Never again those rides so gladly shared,</l>
+                        <l>So much enjoyed,—in which so much was dared</l>
+                        <l>To prove no peril from the gate or brook,—</l>
+                        <pb n="65" xml:id="VAB7089-061"/>
+                        <l>Need bring the shadow of an anxious look,</l>
+                        <l>To mar the pleasant ray of proud surprise</l>
+                        <l>That shone from out those dear protecting eyes.</l>
+                        <l>No more swift hurrying through the summer rain,</l>
+                        <l>That showered light silver on the freshened plain,</l>
+                        <l>Hung on the tassels of the hazel bough,</l>
+                        <l>And plashed the azure of the river’s flow.</l>
+                        <l>No more glad climbing of the mountain height,</l>
+                        <l>From whence a map, drawn out in lines of light,</l>
+                        <l>Showed dotting villages, and distant spires,</l>
+                        <l>And the red rows of metal‐burning fires,</l>
+                        <l>And purple covering woods, within which stand</l>
+                        <l>White mansions of the nobles of the land.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>No more sweet wanderings far from tread of men,</l>
+                        <l>In the deep thickets of the sunny glen,</l>
+                        <l>To see the vanished Spring bud forth again;</l>
+                        <l>Its well remembered tufts of primrose set</l>
+                        <pb n="66" xml:id="VAB7089-062"/>
+                        <l>Among the sheltered banks of violet;</l>
+                        <l>Or in thatched summer‐houses sit and dream,</l>
+                        <l>Through gurgling gushes of the woodland stream;</l>
+                        <l>Then, rested rise, and by the sunset ray</l>
+                        <l>Saunter at will along the homeward way;</l>
+                        <l>Pausing at each delight,—the singing loud</l>
+                        <l>Of some sweet thrush, e’er lingering eve be done;</l>
+                        <l>Or the pink shining of some casual cloud</l>
+                        <l>That blushes deeper as it nears the sun.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>The rough woodpath; the little rocky burn;</l>
+                        <l>Nothing of this can ever now return.</l>
+                        <l>The life of joy is over: what is left</l>
+                        <l>Is a half life; a life of strength bereft;</l>
+                        <l>The body broken from the yearning soul,</l>
+                        <l>Never again to make a perfect whole!</l>
+                        <l>Helpless desires, and cravings unfulfilled;</l>
+                        <l>Bitter regret, in stormy weepings stilled;</l>
+                        <pb n="67" xml:id="VAB7089-063"/>
+                        <l>Strivings whose easy effort used to bless,</l>
+                        <l>Grown full of danger and sharp weariness;</l>
+                        <l>This is the life whose dreadful dawn must rise</l>
+                        <l>When the night lifts, within whose gloom she lies:</l>
+                        <l>Hope, on whose lingering help she leaned so late,</l>
+                        <l>Struck from her clinging by the sword of fate—</l>
+                        <l>That wild word <emph rend="sc">NEVER</emph>, to her shrinking gaze,</l>
+                        <l>Seems written on the wall in fiery rays.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Never!—our helpless changeful natures shrink</l>
+                        <l>Before that word as from the grave’s cold brink!</l>
+                        <l>Set us a term whereto we must endure,</l>
+                        <l>And you shall find our crown of patience sure;</l>
+                        <l>But the irrevocable smites us down;—</l>
+                        <l>Helpless we lie before the eternal frown;</l>
+                        <l>Waters of Marah whelm the blinded soul,</l>
+                        <l>Stifle the heart, and drown our self‐control.</l>
+                        <pb n="68" xml:id="VAB7089-064"/>
+                        <l>So, when she heard the grave physician speak,</l>
+                        <l>Horror crept through her veins, who, faint and weak,</l>
+                        <l>And tortured by all motion, yet had lain</l>
+                        <l>With a meek cheerfulness that conquered pain,</l>
+                        <l>Hoping,—till that dark hour. Give back the hope,</l>
+                        <l>Though years rise sad with intervening scope!</l>
+                        <l>Scarce can those radiant eyes with sickly stare</l>
+                        <l>Yet comprehend that sentence of despair:</l>
+                        <l>Crooked and sick for ever! Crooked and sick!</l>
+                        <l>She, in whose veins the passionate blood ran quick</l>
+                        <l>As leaps the rivulet from the mountain height,</l>
+                        <l>That dances rippling into Summer light;</l>
+                        <l>She, in whose cheek the rich bloom always stayed,</l>
+                        <l>And only deepened to a lovelier shade;</l>
+                        <l>She, whose fleet limbs no exercise could tire,</l>
+                        <pb n="69" xml:id="VAB7089-065"/>
+                        <l>When wild hill‐climbing wooed her spirit higher!</l>
+                        <l>Knell not above her bed this funeral chime;</l>
+                        <l>Bid her be prisoner for a certain time;</l>
+                        <l>Tell her blank years must waste in that changed home,</l>
+                        <l>But not for ever,—not for life to come;</l>
+                        <l>Let infinite torture be her daily guest,</l>
+                        <l>But set a term beyond which shall be rest.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>In vain! she sees that trembling fountain rise,</l>
+                        <l>Tears of compassion in an old man’s eyes;</l>
+                        <l>And in low pitying tones, again he tells</l>
+                        <l>The doom that sounds to her like funeral bells.</l>
+                        <l>Long on his face her wistful gaze she kept;</l>
+                        <l>Then dropped her head, and wildly moaned and wept;</l>
+                        <l>Shivering through every limb, as lightning thought</l>
+                        <pb n="70" xml:id="VAB7089-066"/>
+                        <l>Smote her with all the endless ruin wrought.</l>
+                        <l>Never to be a mother! Never give</l>
+                        <l>Another life beyond her own to live,</l>
+                        <l>Never to see her husband bless their child,</l>
+                        <l>Thinking (dear blessèd thought!) like him it smiled:</l>
+                        <l>Never again with Claud to walk or ride,</l>
+                        <l>Partake his pleasures with a playful pride,</l>
+                        <l>But cease from all companionship so shared,</l>
+                        <l>And only have the hours his pity spared.</l>
+                        <l>His pity—ah! his pity, would it prove</l>
+                        <l>As warm and lasting as admiring love?</l>
+                        <l>Or would her petty joys’ late‐spoken doom</l>
+                        <l>Carry the great joy with them to joy’s tomb?</l>
+                        <l>Would all the hopes of life at once take wing?</l>
+                        <l>The thought went through her with a secret sting,</l>
+                        <l>And she repeated, with a moaning cry,</l>
+                        <l>“Better to die, O God! ’Twere best to die!”</l>
+                        <pb n="71" xml:id="VAB7089-067"/>
+                        <l>But we die not by wishing; in God’s hour,</l>
+                        <l>And not our own, do we yield up the power</l>
+                        <l>To suffer or enjoy. The broken heart</l>
+                        <l>Creeps through the world, encumbered by its clay;</l>
+                        <l>While dearly loved and cherished ones depart,</l>
+                        <l>Though prayer and sore lamenting clog their way.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>She lived: she left that sick room, and was brought</l>
+                        <l>Into the scenes of customary thought:</l>
+                        <l>The banquet‐room, where lonely sunshine slept,</l>
+                        <l>Saw her sweet eyes look round before she wept;</l>
+                        <l>The garden heard the slow wheels of her chair,</l>
+                        <l>When noon‐day heat had warmed the untried air;</l>
+                        <l>The pictures she had smiled upon for years,</l>
+                        <l>Met her gaze trembling through a mist of tears;</l>
+                        <pb n="72" xml:id="VAB7089-068"/>
+                        <l>Her favourite dog, his long unspoken name</l>
+                        <l>Hearing once more, with timid fawning came;</l>
+                        <l>It seemed as if all things partook her blight,</l>
+                        <l>And sank in shadow like a spell of night.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And she saw Claud,—Claud in the open day,</l>
+                        <l>Who through dim sunsets, curtained half away,</l>
+                        <l>And by the dawn, and by the lamp’s pale ray</l>
+                        <l>So long had watched her!</l>
+                        <l>And Claud also saw,</l>
+                        <l>That beauty which was once without a flaw;</l>
+                        <l>And flushed,—but strove to hide the sense of shock,—</l>
+                        <l>The feelings that some witchcraft seemed to mock.</l>
+                        <l>Are those her eyes, those eyes so full of pain?</l>
+                        <l>Her restless looks that hunt for ease in vain?</l>
+                        <l>Is that her step, that halt uneven tread?</l>
+                        <l>Is that her blooming cheek, so pale and dead?</l>
+                        <pb n="73" xml:id="VAB7089-069"/>
+                        <l>Is that,—the querulous anxious mind that tells</l>
+                        <l>Its little ills, and on each ailment dwells,—</l>
+                        <l>The spirit alert which early morning stirred</l>
+                        <l>Even as it rouses every gladsome bird,</l>
+                        <l>Whose chorus of irregular music goes</l>
+                        <l>Up with the dew that leaves the sun‐touched rose?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh! altered, altered; even the smile is gone,</l>
+                        <l>Which, like a sunbeam, once exulting shone!</l>
+                        <l>Smiles have returned; but not the smiles of yore;</l>
+                        <l>The joy, the youth, the triumph, are no more.</l>
+                        <l>An anxious smile remains, that disconnects</l>
+                        <l>Smiling from gladness; one that more dejects,</l>
+                        <l>Than floods of passionate weeping, for it tries</l>
+                        <l>To contradict the question of our eyes:</l>
+                        <l>We say, “Thou’rt pained, poor heart, and full of woe?”</l>
+                        <pb n="74" xml:id="VAB7089-070"/>
+                        <l>It drops that shining veil, and answers “No;”</l>
+                        <l>Shrinks from the touch of unaccepted hands,</l>
+                        <l>And while it grieves, a show of joy commands.</l>
+                        <l>Wan shine such smiles;—as evening sunlight falls</l>
+                        <l>On a deserted house whose empty walls</l>
+                        <l>No longer echo to the children’s play</l>
+                        <l>Or voice of ruined inmates fled away;</l>
+                        <l>Where wintry winds alone, with idle state,</l>
+                        <l>Move the slow swinging of its rusty gate.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>But something sadder even than her pain</l>
+                        <l>Torments her now; and thrills each languid vein.</l>
+                        <l>Love’s tender instinct feels through every nerve</l>
+                        <l>When love’s desires, or love itself doth swerve.</l>
+                        <l>All the world’s praise re‐echoed to the sky</l>
+                        <l>Cancels not blame that shades a lover’s eye;</l>
+                        <l>All the world’s blame, which scorn for scorn repays,</l>
+                        <pb n="74" xml:id="VAB7089-071"/>
+                        <l>Fails to disturb the joy of lover’s praise.</l>
+                        <l>Ah! think not vanity alone doth deck</l>
+                        <l>Wtih rounded pearls the young girl’s innocent neck,</l>
+                        <l>Who in her duller days contented tries</l>
+                        <l>The homely robe that with no rival vies,</l>
+                        <l>But on the happy night she hopes to meet</l>
+                        <l>The one to whom she comes with trembling feet,</l>
+                        <l>With crimson roses decks her bosom fair,</l>
+                        <l>Warm as the thoughts of love all glowing there,</l>
+                        <l>Because she must his favourite colours wear;</l>
+                        <l>And all the bloom and beauty of her youth</l>
+                        <l>Can scarce repay, she thinks, her lover’s truth.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Vain is the argument so often moved,</l>
+                        <l>“Who feels no jealousy hath never loved;”</l>
+                        <l>She whose quick fading comes before her tomb,</l>
+                        <l>Is jealous even of her former bloom.</l>
+                        <pb n="76" xml:id="VAB7089-072"/>
+                        <l>Restless she pines; because, to her distress,</l>
+                        <l>One charm the more is now one claim the less</l>
+                        <l>On his regard whose words are her chief treasures,</l>
+                        <l>And by whose love alone her worth she measures.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Gertrude of La Garaye, thy heart is sore;</l>
+                        <l>A worm is gnawing at the rose’s core,</l>
+                        <l>A doubt corrodeth all thy tender trust,</l>
+                        <l>The freshness of thy day is choked in dust.</l>
+                        <l>Not for the pain—although the pain be great,</l>
+                        <l>Not for the change—though changed be all thy state;</l>
+                        <l>But for a sorrow dumb and unrevealed,</l>
+                        <l>Most from its cause with mournful care concealed—</l>
+                        <l>From Claud—who goes and who returns with sighs</l>
+                        <l>And gazes on his wife with wistful eyes,</l>
+                        <pb n="77" xml:id="VAB7089-073"/>
+                        <l>And muses in his brief and cheerless rides</l>
+                        <l>If her dull mood will mend; and inly chides</l>
+                        <l>His own sad spirit, that sinks down so low,</l>
+                        <l>Instead of lifting her from all her woe;</l>
+                        <l>And thinks if he but loved her less, that he</l>
+                        <l>Could cheer her drooping soul with gaiety—</l>
+                        <l>But wonders evermore that Beauty’s loss</l>
+                        <l>To such a soul should seem so sore a cross.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Until one evening in that quiet hush</l>
+                        <l>That lulls the falling day, when all the gush</l>
+                        <l>Of various sounds seem buried with the sun,</l>
+                        <l>He told his thought.</l>
+                        <l>As winter streamlets run,</l>
+                        <l>Freed by some sudden thaw, and swift make way</l>
+                        <l>Into the natural channels where they play,</l>
+                        <l>So leaped her young heart to his tender tone,</l>
+                        <pb n="78" xml:id="VAB7089-074"/>
+                        <l>So, answering to his warmth, resumed her own;</l>
+                        <l>And all her doubt and all her grief confest,</l>
+                        <l>Leaning her faint head on his faithful breast.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“Not always, Claud, did I my beauty prize;</l>
+                        <l>Thy words first made it precious in my eyes,</l>
+                        <l>And till thy fond voice made the gift seem rare,</l>
+                        <l>Nor tongue nor mirror taught me I was fair.</l>
+                        <l>I recked no more of beauty in that day</l>
+                        <l>Of happy girlishness and childlike play,</l>
+                        <l>Than some poor woodland bird who stays his flight</l>
+                        <l>On some low bough when summer days are bright,</l>
+                        <l>And in that pleasant sunshine sits and sings,</l>
+                        <l>And breaks the plumage of his glistening wings,</l>
+                        <l>Recks of the passer‐by who stands to praise</l>
+                        <l>His feathered smoothness and his thrilling lays.</l>
+                        <pb n="79" xml:id="VAB7089-075"/>
+                        <l>But now, I make my moan—I make my moan—</l>
+                        <l>I weep the brightness lost, the beauty gone;</l>
+                        <l>Because, now, fading is to fall from thee,</l>
+                        <l>As the dead fruit falls blighted from the tree;</l>
+                        <l>For thee,—not vanished loveliness,—I weep;</l>
+                        <l>My beauty was a spell, thy love to keep;</l>
+                        <l>For I have heard and read how men forsake</l>
+                        <l>When time and tears that gift of beauty take,</l>
+                        <l>Nor care although the heart they leave may break!”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>A husband’s love was there—a husband’s love,—</l>
+                        <l>Strong, comforting, all other loves above;</l>
+                        <l>On her bowed neck he laid his tender hand,</l>
+                        <l>And his voice steadied to his soul’s command:</l>
+                        <l>“Oh! thou mistaken and unhappy child,</l>
+                        <l>Still thy complainings, for thy words are wild.</l>
+                        <l>Thy beauty, though so perfect, was but one</l>
+                        <pb n="80" xml:id="VAB7089-076"/>
+                        <l>Of the bright ripples dancing to the sun,</l>
+                        <l>Which, from the hour I hoped to call thee wife,</l>
+                        <l>Glanced down the silver stream of happy life.</l>
+                        <l>Whatever change Time’s heavy clouds may make,</l>
+                        <l>Those are the waters which my thirst shall slake;</l>
+                        <l>River of all my hopes thou wert and art;</l>
+                        <l>The current of thy being bears my heart;</l>
+                        <l>Whether it sweep along in shine or shade,</l>
+                        <l>By barren rocks, or banks in flowers arrayed,</l>
+                        <l>Foam with the storm, or glide in soft repose,—</l>
+                        <l>In that deep channel, love unswerving flows!</l>
+                        <l>How canst thou dream of beauty as a thing</l>
+                        <l>On which depends the heart’s own withering?</l>
+                        <l>Lips budding red wth tints of vernal years,</l>
+                        <l>And delicate lids of eyes that shed no tears,</l>
+                        <l>And light that falls upon the shining hair</l>
+                        <pb n="81" xml:id="VAB7089-077"/>
+                        <l>As though it found a second sunbeam there,—</l>
+                        <l>These must go by, my Gertrude, must go by;</l>
+                        <l>The leaf must wither and the flower must die;</l>
+                        <l>The rose can only have a rose’s bloom;</l>
+                        <l>Age would have wrought thy wondrous beauty’s doom;</l>
+                        <l>A little sooner did that beauty go—</l>
+                        <l>A little sooner—Darling, take it so;</l>
+                        <l>Nor add a strange despair to all this woe;</l>
+                        <l>And take my faith, by changes unremoved,</l>
+                        <l>To thy last hour of age and blight, beloved!”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>But she again,—“Alas! not from distrust</l>
+                        <l>I mourn, dear Claud, nor yet to thee unjust.</l>
+                        <l>I love thee: I believe thee: yea, I know</l>
+                        <l>Thy very soul is wrung to see my woe;</l>
+                        <l>The earthquake of compassion trembles still</l>
+                        <l>Within its depths, and conquers natural will.</l>
+                        <pb n="82" xml:id="VAB7089-078"/>
+                        <l>But after,—after,—when the shock is past,—</l>
+                        <l>When cruel Time, who flies to change so fast,</l>
+                        <l>Hath made my suffering an accustomed thing,</l>
+                        <l>And only left me slowly withering;</l>
+                        <l>Then will the empty days rise chill and lorn,</l>
+                        <l>The lonely evening, the unwelcome morn,</l>
+                        <l>Until thy path at length be brightly crost</l>
+                        <l>By some one holding all that I have lost;</l>
+                        <l>Some one with youthful eyes, enchanting, bright,</l>
+                        <l>Full as the morning of a liquid light;</l>
+                        <l>And while my pale lip stiff and sad remains,</l>
+                        <l>Her smiles shall thrill like sunbeams through thy veins:</l>
+                        <l>I shall fade down, and she, with simple art,</l>
+                        <l>All bloom and beauty, dance into thy heart!</l>
+                        <l>Then, then, my Claud, shall I—at length alone—</l>
+                        <l>Recede from thee with an unnoticed moan,</l>
+                        <pb n="83" xml:id="VAB7089-079"/>
+                        <l>Sink where none heed me, and be seen no more,</l>
+                        <l>Like waves that fringe the Netherlandish shore,</l>
+                        <l>Which roll unmurmuring to the flat low land,</l>
+                        <l>And sigh to death in that monotonous sand.”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Again his earnest hand on hers he lays,</l>
+                        <l>With love and pain and wonder in his gaze.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“Oh, darling! bitter word and bitter thought</l>
+                        <l>What dæmon to thy trusting heart hath brought?</l>
+                        <l>It may be thus within some sensual breast,</l>
+                        <l>By passion’s fire, not true love’s power possest;</l>
+                        <l>The creature love, that never lingers late,</l>
+                        <l>A springtide thirst for some chance‐chosen mate.</l>
+                        <l>Oh! my companion, ’twas not so with me;</l>
+                        <l>Not in the days long past, nor now shall be.</l>
+                        <l>The drunken dissolute hour of Love’s sweet cup,</l>
+                        <pb n="84" xml:id="VAB7089-080"/>
+                        <l>When eyes are wild, and mantling blood is up,</l>
+                        <l>Even in my youth to me was all unknown:</l>
+                        <l>Until I truly loved, I was alone.</l>
+                        <l>I asked too much of intellect and grace,</l>
+                        <l>To pine, though young, for every pretty face,</l>
+                        <l>Whose passing brightness to quick fancies made</l>
+                        <l>A sort of sunshine in the idle shade;</l>
+                        <l>Beauties who starred the earth like common flowers,</l>
+                        <l>The careless eglantines of wayside bowers.</l>
+                        <l>I lingered till some blossom rich and rare</l>
+                        <l>Hung like a glory on the scented air,</l>
+                        <l>Enamouring at once the heart and eye,</l>
+                        <l>So that I paused, and could not pass it by.</l>
+                        <l>Then woke the passionate love within my heart,</l>
+                        <l>And only with my life shall that depart;</l>
+                        <l>’Twas not so sensual strong, so loving weak,</l>
+                        <l>To ebb when ebbs the rose‐tinge on thy cheek;</l>
+                        <pb n="85" xml:id="VAB7089-081"/>
+                        <l>Fade with thy fading, weakening day by day</l>
+                        <l>Till thy locks silver with a dawning grey:</l>
+                        <l>No, Gertrude, trust me, for thou may’st believe,</l>
+                        <l>A better faith is that which I receive;</l>
+                        <l>Sacred I’ll hold the sacred name of wife,</l>
+                        <l>And love thee to the sunset verge of life!</l>
+                        <l>Yea, shall so much of empire o’er man’s soul</l>
+                        <l>Live in a wanton’s smile, and no control</l>
+                        <l>Bind down his heart to keep a steadier faith,</l>
+                        <l>For links that are to last from life to death?</l>
+                        <l>Let those who can, in transient love rejoice,—</l>
+                        <l>Still to new hopes breathe forth successive sighs,—</l>
+                        <l>Give me the music of the accustomed voice,</l>
+                        <l>And the sweet light of long familiar eyes!”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He ceased. But she, for all her fervent speech,</l>
+                        <l>Sighed as she listened. “Claud, I cannot reach</l>
+                        <l>The summit of the hope where thou wouldst set me,</l>
+                        <pb n="86" xml:id="VAB7089-082"/>
+                        <l>And all I crave is never to forget me!</l>
+                        <l>Wedded I am to pain and not to thee,</l>
+                        <l>Thy life’s companion I no more can be,</l>
+                        <l>For thou remainest all thou wert—but I</l>
+                        <l>Am a fit bride for Death, and long to die.</l>
+                        <l>Yea, long for death; for thou wouldst miss me then</l>
+                        <l>More even than now, in mountain and in glen;</l>
+                        <l>And musing by the white tomb where I lay,</l>
+                        <l>Think of the happier time and earlier day,</l>
+                        <l>And wonder if the love another gave</l>
+                        <l>Equalled the passion buried in that grave.”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Then with a patient tenderness he took</l>
+                        <l>That pale wife in his arms, with yearning look:</l>
+                        <l>“Oh! dearer now than when thy girlish tongue</l>
+                        <l>Faltered consent to love while both were young,</l>
+                        <l>Weep no more foolish tears, but lift thy head;</l>
+                        <pb n="87" xml:id="VAB7089-083"/>
+                        <l>Those drops fall on my heart like molten lead;</l>
+                        <l>And all my soul is full of vain remorse,</l>
+                        <l>Because I let thee take that dangerous course,</l>
+                        <l>Share in the chase, pursue with horn and hound,</l>
+                        <l>And follow madly o’er the roughened ground.</l>
+                        <l>Not lightly did I love, nor lightly choose;</l>
+                        <l>Whate’er thou losest I will also lose;</l>
+                        <l>If bride of Death,—being first my chosen bride,—</l>
+                        <l>I will await death, lingering by thy side;</l>
+                        <l>And God, He knows, who reads all human thought,</l>
+                        <l>And by whose will this bitter hour was brought,</l>
+                        <l>How eagerly, could human pain be shifted,</l>
+                        <l>I would lie low, and thou once more be lifted</l>
+                        <l>To walk in beauty as thou didst before,</l>
+                        <l>And smile upon the welcome world once more.</l>
+                        <l>Oh! loved even to the brim of love’s full fount,</l>
+                        <pb n="88" xml:id="VAB7089-084"/>
+                        <l>Wilt thou set nothing to firm faith’s account?</l>
+                        <l>Choke back thy tears which are thy bitter smart,</l>
+                        <l>Lean thy dear head upon my aching heart;</l>
+                        <l>It may be God, who saw our careless life,</l>
+                        <l>Not sinful, yet not blameless, my sweet wife,</l>
+                        <l>(Since all we thought of, in our youth’s bright May,</l>
+                        <l>Was but the coming joy from day to day;)</l>
+                        <l>Hath blotted out all joy to bid us learn</l>
+                        <l>That this is not our home; and make us turn</l>
+                        <l>From the enchanted earth, where much was given,</l>
+                        <l>To higher aims, and a forgotten heaven.”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>So spoke her love—and wept in spite of words;</l>
+                        <l>While her heart echoed all his heart’s accords,</l>
+                        <l>And leaning down, she said with whispering sigh,</l>
+                        <pb n="89" xml:id="VAB7089-085"/>
+                        <l>“I sinned, my Claud, in wishing so to die.”</l>
+                        <l>Then they, who oft in Love’s delicious bowers</l>
+                        <l>Had fondly wasted glad and passionate hours,</l>
+                        <l>Kissed with a mutual moan:—but o’er their lips</l>
+                        <l>Love’s light passed clear, from under Life’s eclipse.</l>
+                    </lg>
+                </div>
+                <pb n="91" xml:id="VAB7089-086"/>
+                <div type="canto">
+                    <head>THE LADY OF LA GARAYE.</head>
+                    <head type="sub">A THRENODY.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>HOW</hi> Memory haunts us! When we fain would be</l>
+                        <l>Alone and free,</l>
+                        <l>Uninterrupted by his mournful words,</l>
+                        <l>Faint, indistinct, as are a wind‐harp’s chords</l>
+                        <l>Hung on a leafless tree,—</l>
+                        <l>He will not leave us: we resolve in vain</l>
+                        <l>To chase him forth—for he returns again,</l>
+                        <l>Pining incessantly!</l>
+                        <l>In the old pathways of our lost delights</l>
+                        <pb n="92" xml:id="VAB7089-087"/>
+                        <l>He walks on sunny days and starlit nights,</l>
+                        <l>Answering our restless moan,</l>
+                        <l>With,—“I am here alone,</l>
+                        <l>My brother Joy is gone—for ever gone!</l>
+                        <l>Round your decaying home</l>
+                        <l>The Spring indeed is come,</l>
+                        <l>The leaves are thrilling with a sense of life,</l>
+                        <l>The sap of flowers is rife,</l>
+                        <l>But where is Joy, Heaven’s messenger,—bright Joy,—</l>
+                        <l>That curled and radiant boy,</l>
+                        <l>Who was the younger brother of my heart?</l>
+                        <l>Why let ye him whom I so loved depart?</l>
+                        <l>Call him once more,</l>
+                        <l>And let us all be glad, as heretofore!”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Then, urged and stung by Memory, we go forth,</l>
+                        <l>And wander south and north,</l>
+                        <pb n="93" xml:id="VAB7089-088"/>
+                        <l>Deeming Joy may yet answer to our yearning;</l>
+                        <l>But all is blank and bare:</l>
+                        <l>The silent air</l>
+                        <l>Echoes no pleasant shout of his returning.</l>
+                        <l>Yet somewhere—somewhere, by the pathless woods,</l>
+                        <l>Or silver rippling floods,</l>
+                        <l>He wanders as he wandered once with us;</l>
+                        <l>Through bright arcades of cities populous;</l>
+                        <l>Or else in deserts rude,</l>
+                        <l>Happy in solitude,</l>
+                        <l>And choosing only Youth to be his mate,</l>
+                        <l>He leaves us to our fate.</l>
+                        <l>We hear his distant laughter as we go,</l>
+                        <l>Pacing, ourselves, with Woe,—</l>
+                        <l>Both us he hath outstripped for evermore!</l>
+                        <l>Seek him not in the wood,</l>
+                        <pb n="94" xml:id="VAB7089-089"/>
+                        <l>Where the sweet ring‐doves ever murmuring brood;</l>
+                        <l>Nor on the hill, nor by the golden shore:</l>
+                        <l>Others inherit that which once was ours;</l>
+                        <l>The freshness of the hours,—</l>
+                        <l>The sparkling of the early morning rime,</l>
+                        <l>The evanescent glory of the time!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>With them, in some sweet glade,</l>
+                        <l>Warm with a summer shade,</l>
+                        <l>Or where white clover, blooming fresh and wild,</l>
+                        <l>Breathes like the kisses of a little child,</l>
+                        <l>He lingers now:—we call him back in vain</l>
+                        <l>To our world’s snow and rain;</l>
+                        <l>The bower we built him when he was our guest</l>
+                        <l>Life’s storms have beaten down,</l>
+                        <l>And he far off hath flown,</l>
+                        <l>And buildeth where there is a sunnier nest;</l>
+                        <pb n="95" xml:id="VAB7089-090"/>
+                        <l>Or, closing rainbow wings and laughing eyes,</l>
+                        <l>He lieth basking ’neath the open skies,</l>
+                        <l>Taking his rest</l>
+                        <l>On the soft moss of some unbroken ground,</l>
+                        <l>Where sobs did never sound.</l>
+                        <l>Oh! give him up: confess that Joy has gone:</l>
+                        <l>He met you at the source of Life’s bright river;</l>
+                        <l>And if he hath passed on,</l>
+                        <l>’Tis that his task is done,</l>
+                        <l>He hath no future message to deliver,</l>
+                        <l>But leaves you lone and still for ever and for ever!</l>
+                    </lg>
+                </div>
+                <pb n="97" xml:id="VAB7089-091"/>
+                <div type="canto">
+                    <head>THE LADY OF LA GARAYE.</head>
+                    <head type="sub">PART III. </head>
+                    <lg type="verse_paragraph">
+                        <l><hi>NEVER</hi> again! When first that sentence fell</l>
+                        <l>From lips so loth the bitter truth to tell,</l>
+                        <l>Death seemed the balance of its burdening care,</l>
+                        <l>The only end of such a strange despair.</l>
+                        <l>To live deformed; enfeebled; still to sigh</l>
+                        <l>Through changeless days that o’er the heart go by</l>
+                        <l>Colourless,—formless,—melting as they go</l>
+                        <pb n="98" xml:id="VAB7089-092"/>
+                        <l>Into a dull and unrecorded woe,—</l>
+                        <l>Why strive for gladness in such dreary shade?</l>
+                        <l>Why seek to feel less cheerless, less afraid?</l>
+                        <l>What recks a little more or less of gloom,</l>
+                        <l>When a continual darkness is our doom?</l>
+                        <l>But custom, which, to unused eyes that dwell</l>
+                        <l>Long in the blankness of a prison cell,</l>
+                        <l>At length shows glimmerings through some ruined hole,—</l>
+                        <l>Trains to endurance the imprisoned soul;</l>
+                        <l>And teaching how with deepest gloom to cope,</l>
+                        <l>Bids patience light her lamp, when sets the sun of hope.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And e’en like one who sinks to brief repose</l>
+                        <l>Cumbered with mournfulness from many woes;</l>
+                        <l>Who, restless dreaming, full of horror sleeps,</l>
+                        <l>And with a worse than waking anguish weeps,</l>
+                        <pb n="99" xml:id="VAB7089-093"/>
+                        <l>Till in his dream some precipice appear</l>
+                        <l>Which he must face, however great his fear:</l>
+                        <l>Who stepping on those rocks, then feels them break</l>
+                        <l>Beneath him,—and, with shrieks, leaps up awake;</l>
+                        <l>And seeing but the grey unwelcome morn,</l>
+                        <l>And feeling but the usual sense forlorn,</l>
+                        <l>Of loss and dull remembrance of known grief,</l>
+                        <l>Melts into tears that partly bring relief,</l>
+                        <l>Because, though misery holds him, yet his dreams</l>
+                        <l>More dreadful were than all around him seems:—</l>
+                        <l>So, in the life grown real of loss and woe,</l>
+                        <l>She woke to crippled days; which, sad and slow</l>
+                        <l>And infinitely weary as they were,</l>
+                        <l>At first, appeared less hard than fancy deemed, to bear.</l>
+                        <pb n="100" xml:id="VAB7089-094"/>
+                        <l>But as those days rolled on, of grinding pain,</l>
+                        <l>Of wild untamed regrets, and yearnings vain,</l>
+                        <l>Sad Gertrude grew to weep with restless tears</l>
+                        <l>For all the vanished joys of blighted years.</l>
+                        <l>And most she mourned with feverish piteous pining,</l>
+                        <l>When o’er the land the summer sun was shining;</l>
+                        <l>And all the volumes and the missals rare,</l>
+                        <l>Which Claud had gathered with a tender care,</l>
+                        <l>Seemed nothing to the book of nature, spread</l>
+                        <l>Around her helpless feet and weary head.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh! woodland paths she ne’er again may see,</l>
+                        <l>Oh! tossing branches of the forest tree,</l>
+                        <l>Oh! loveliest banks in all the land of France,</l>
+                        <l>Glassing your shadows in the silvery Rance;</l>
+                        <l>Oh! river with your swift yet quiet tide,</l>
+                        <pb n="101" xml:id="VAB7089-095"/>
+                        <l>Specked with white sails that seem in dreams to glide;</l>
+                        <l>Oh! ruddy orchards, basking on the hills,</l>
+                        <l>Whose plenteous fruit the thirsty flagon fills;</l>
+                        <l>And oh! ye winds, which, free and unconfined,</l>
+                        <l>No sickness poisons, and no heart can bind,—</l>
+                        <l>Restore her to enjoyment of the earth!</l>
+                        <l>Echo again her songs of careless mirth,</l>
+                        <l>Those little Breton songs so wildly sweet,</l>
+                        <l>Fragments of music strange and incomplete,</l>
+                        <l>Her small red mouth went warbling by the way</l>
+                        <l>Through the glad roamings of her active day.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>It may not be! Blighted are summer hours!</l>
+                        <l>The bee goes booming through the plats of flowers,</l>
+                        <l>The butterfly its tiny mate pursues</l>
+                        <l>With rapid fluttering of its painted hues,</l>
+                        <pb n="102" xml:id="VAB7089-096"/>
+                        <l>The thin‐winged gnats their transient time employ</l>
+                        <l>Reeling through sunbeams in a dance of joy,</l>
+                        <l>The small field‐mouse with wide transparent ears</l>
+                        <l>Comes softly forth, and softly disappears,</l>
+                        <l>The dragon‐fly hangs glittering on the reed,</l>
+                        <l>The spider swings across his filmy thread,</l>
+                        <l>And gleaming fishes, darting to and fro,</l>
+                        <l>Make restless silver in the pools below.</l>
+                        <l>All these poor lives—these lives of small account,</l>
+                        <l>Feel the ethereal thrill within them mount;</l>
+                        <l>But the great human life,—the life Divine,—</l>
+                        <l>Rests in dull torture, heavy and supine,</l>
+                        <l>And the bird’s song, by Garaye’s walls of stone,</l>
+                        <l>Crosses, within, the irrepressible moan!</l>
+                        <l>The slow salt tears, half weakness and half grief,</l>
+                        <l>That sting the eyes before they bring relief,</l>
+                        <l>And which with weary lids she strives in vain</l>
+                        <pb n="103" xml:id="VAB7089-097"/>
+                        <l>To prison back upon her aching brain,</l>
+                        <l>Fall down the lady’s cheek,—her heart is breaking:</l>
+                        <l>A mournful sleep is hers; a hopeless waking;</l>
+                        <l>And oft, in spite of Claud’s beloved rebuke,</l>
+                        <l>When first the awful wish her spirit shook,—</l>
+                        <l>She dreams of <emph rend="sc">DEATH</emph>,—and of that quiet shore</l>
+                        <l>In the far world where eyes shall weep no more,</l>
+                        <l>And where the soundless feet of angels pass,</l>
+                        <l>With floating lightness o’er the sea of glass.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Nor is she sole in gloom. Claud too hath lost</l>
+                        <l>His power to soothe her,—all his thoughts are tost</l>
+                        <l>As in a storm of sadness: shall he speak</l>
+                        <l>To her, who lies so faint, and lone, and weak,</l>
+                        <l>Of pleasant walks and rides? or yet describe</l>
+                        <l>The merry sayings of that careless tribe</l>
+                        <pb n="104" xml:id="VAB7089-098"/>
+                        <l>Of friends and boon companions now unseen,—</l>
+                        <l>Or the wild beauty of the forest green,—</l>
+                        <l>Or daring feats and hair‐breadth ’scapes, which they</l>
+                        <l>Who are not crippled, think a thing for play?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He dare not:—oft without apparent cause</l>
+                        <l>He checks his speaking with a faltering pause;</l>
+                        <l>Oft when she bids him, with a mournful smile,</l>
+                        <l>By stories such as these the hour beguile,</l>
+                        <l>And he obeys—only because she bids—</l>
+                        <l>He sees the large tears welling ’neath the lids.</l>
+                        <l>Or if a moment’s gaiety return</l>
+                        <l>To his young heart that scarce can yet unlearn</l>
+                        <l>Its habits of delight in all things round,</l>
+                        <l>And he grows eager on some subject found</l>
+                        <l>In their discourse, linked with the outward world,</l>
+                        <pb n="105" xml:id="VAB7089-099"/>
+                        <l>Till with a pleasant smile his lip is curled,—</l>
+                        <l>Even with her love she smites him back to pain!</l>
+                        <l>Upon his hand her tears and kisses rain;</l>
+                        <l>And with a suffocated voice she cries,</l>
+                        <l>“O Claud!—the old bright days!”</l>
+                        <l>And then he sighs,</l>
+                        <l>And with a wistful heart makes new endeavour</l>
+                        <l>To cheer or to amuse;—and so for ever,</l>
+                        <l>Till in his brain the grief he tries to cheat,</l>
+                        <l>A dreary mill‐wheel circling seems to beat,</l>
+                        <l>And drive out other thoughts—all thoughts but one:</l>
+                        <l>That he and she are both alike undone,—</l>
+                        <l>That better were their mutual fate, if when</l>
+                        <l>That leap was taken in the fatal glen,</l>
+                        <l>Both had been found, released from pain and dread,</l>
+                        <pb n="106" xml:id="VAB7089-100"/>
+                        <l>In the rough waters of the torrent’s bed,</l>
+                        <l>And greeted pitying eyes, with calm smiles of the Dead!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>A spell is on the efforts each would make,</l>
+                        <l>With willing spirit, for the other’s sake:</l>
+                        <l>Through some new path of thought he fain would move,—</l>
+                        <l>And she her languid hours would fain employ,—</l>
+                        <l>But bitter grows the sweetness of their love,—</l>
+                        <l>And a lament lies under all their joy.</l>
+                        <l>She, watches Claud,—bending above the page;</l>
+                        <l>Thinks him grown pale, and wearying with his care;</l>
+                        <l>And with a sigh his promise would engage</l>
+                        <l>For happy exercise and summer air:</l>
+                        <l>He, watches her, as sorrowful she lies,</l>
+                        <l>And thinks she dreams of woman’s hope denied;</l>
+                        <pb n="107" xml:id="VAB7089-101"/>
+                        <l>Of the soft gladness of a young child’s eyes,</l>
+                        <l>And pattering footsteps on the terrace wide,—</l>
+                        <l>Where sunshine sleeps, as in a home for light,</l>
+                        <l>And glittering peacocks make a rainbow show,—</l>
+                        <l>But which seems sad, because that terrace bright</l>
+                        <l>Must evermore remain as lone as now.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And either tries to hide the thoughts that wring</l>
+                        <l>Their secret hearts; and both essay to bring</l>
+                        <l>Some happy topic, some yet lingering dream,</l>
+                        <l>Which they with cheerful words shall make their theme;</l>
+                        <l>But fail,—and in their wistful eyes confess</l>
+                        <l>All their words never own of hopelessness.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Was then <emph rend="sc">DESPAIR</emph> the end of all this woe?</l>
+                        <l>Far off the angel voices answer, No!</l>
+                        <l>Devils despair, for they believe and tremble;</l>
+                        <pb n="108" xml:id="VAB7089-102"/>
+                        <l>But man believes and hopes. Our griefs resemble</l>
+                        <l>Each other but in this. Grief comes from Heaven;</l>
+                        <l>Each thinks his own the bitterest trial given;</l>
+                        <l>Each wonders at the sorrows of his lot;</l>
+                        <l>His neighbour’s sufferings presently forgot,</l>
+                        <l>Though wide the difference which our eyes can see</l>
+                        <l>Not only in grief’s kind, but its degree.</l>
+                        <l>God grants to some, all joys for their possession,</l>
+                        <l>Nor loss, nor cross, the favoured mortal mourns;</l>
+                        <l>While some toil on, outside those bounds of blessing,</l>
+                        <l>Whose weary feet for ever tread on thorns.</l>
+                        <l>But over all our tears God’s rainbow bends;</l>
+                        <l>To all our cries a pitying ear He lends;</l>
+                        <l>Yea, to the feeble sound of man’s lament</l>
+                        <l>How often have His messengers been sent!</l>
+                        <pb n="109" xml:id="VAB7089-103"/>
+                        <l>No barren glory circles round His throne,</l>
+                        <l>By mercy’s errands were His angels known;</l>
+                        <l>Where hearts were heavy, and where eyes were dim,</l>
+                        <l>There did the brightness radiate from Him;</l>
+                        <l>God’s pity,—clothed in an apparent form,—</l>
+                        <l>Starred with a polar light the human storm,</l>
+                        <l>Floated o’er tossing seas man’s sinking bark,</l>
+                        <l>And for all dangers built one sheltering ark.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>When a slave’s child lay dying, parched with thirst,</l>
+                        <l>Till o’er the arid waste a fountain burst,—</l>
+                        <l>When Abraham’s mournful hand upheld the knife</l>
+                        <l>To smite the silver cord of Isaac’s life,—</l>
+                        <l>When faithful Peter in his prison slept,—</l>
+                        <l>When lions to the feet of Daniel crept,—</l>
+                        <l>When the tried Three walked through the furnace glare,</l>
+                        <pb n="110" xml:id="VAB7089-104"/>
+                        <l>Believing God was with them, even there,—</l>
+                        <l>When to Bethesda’s sunrise‐smitten wave</l>
+                        <l>Poor trembling cripples crawl’d their limbs to lave;—</l>
+                        <l>In all the various forms of human trial,</l>
+                        <l>Brimming that cup, filled from a bitter vial,</l>
+                        <l>Which even the suffering Christ with fainting cry</l>
+                        <l>Under God’s will had shudderingly past by:—</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>To hunger, pain, and thirst, and human dread;</l>
+                        <l>Imprisonment; sharp sorrow for the dead;</l>
+                        <l>Deformed contraction; burdensome disease;</l>
+                        <l>Humbling and fleshly ill!—to all of these</l>
+                        <l>The shining messengers of comfort came,—</l>
+                        <l>God’s angels,—healing in God’s holy name.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And when the crowning pity sent to earth</l>
+                        <l>The Man of Sorrows, in mysterious birth;</l>
+                        <pb n="111" xml:id="VAB7089-105"/>
+                        <l>And the angelic tones with one accord</l>
+                        <l>Made loving chorus to proclaim the Lord;</l>
+                        <l>Was Isaac’s guardian there, and he who gave</l>
+                        <l>Hagar the sight of that cool gushing wave?</l>
+                        <l>Did the defender of the youthful Three,</l>
+                        <l>And Peter’s usher, join that psalmody?</l>
+                        <l>With him who at the dawn made healing sure,</l>
+                        <l>Troubling the waters with a freshening cure;</l>
+                        <l>And those, the elect, to whom the task was given</l>
+                        <l>To offer solace to the Son of Heaven,</l>
+                        <l>When,—mortal tremors by the Immortal felt,—</l>
+                        <l>Pale, ’neath the Syrian olives, Jesu knelt,</l>
+                        <l>Alone,—’midst sleeping followers warned in vain;</l>
+                        <l>Alone with God’s compassion, and His pain!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Cease we to dream. Our thoughts are yet more dim</l>
+                        <l>Than children’s are, who put their trust in Him.</l>
+                        <pb n="112" xml:id="VAB7089-106"/>
+                        <l>All that our wisdom knows, or ever can,</l>
+                        <l>Is this: that God hath pity upon man;</l>
+                        <l>And where His Spirit shines in Holy Writ,</l>
+                        <l>The great word <emph rend="sc">COMFORTER</emph> comes after it.</l>
+                    </lg>
+                </div>
+                <pb n="113" xml:id="VAB7089-107"/>
+                <div type="canto">
+                    <head>THE LADY OF LA GARAYE.</head>
+                    <head type="sub">PART IV.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>SILENT</hi> old gateway! whose two columns stand</l>
+                        <l>Like simple monuments on either hand;</l>
+                        <l>No trellised iron‐work, with pleasant view</l>
+                        <l>Of trim‐set flowery gardens shining through;</l>
+                        <l>No bolts to bar unasked intruders out;</l>
+                        <l>No well‐oiled hinge whose sound, like one low note</l>
+                        <pb n="114" xml:id="VAB7089-108"/>
+                        <l>Of music, tells the listening hearts that yearn,</l>
+                        <l>Expectant of dear footsteps, where to turn;</l>
+                        <l>No ponderous bell whose loud vociferous tone</l>
+                        <l>Into the rose‐decked lodge hath echoing gone,</l>
+                        <l>Bringing the porter forth with brief delay,</l>
+                        <l>To spread those iron wings that check the way;</l>
+                        <l>Nothing but ivy‐leaves, and crumbling stone;</l>
+                        <l>Silent old gateway,—even <emph rend="i">thy</emph> life is gone!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>But ere those columns, lost in ivvied shade,</l>
+                        <l>Black on the midnight sky their forms portrayed;</l>
+                        <l>And ere thy gate, by damp weeds overtopped,</l>
+                        <l>Swayed from its rusty fastenings and then dropped,—</l>
+                        <l>When it stood portal to a living home,</l>
+                        <l>And saw the living faces go and come,</l>
+                        <pb n="115" xml:id="VAB7089-109"/>
+                        <l>What various minds, and in what various moods,</l>
+                        <l>Crossed the fair paths of these sweet solitudes!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Old gateway, thou hast witnessed times of mirth,</l>
+                        <l>When light the hunter’s gallop beat the earth;</l>
+                        <l>When thy quick wakened echo could but know</l>
+                        <l>Laughter and happy voices, and the flow</l>
+                        <l>Of jocund spirits, when the pleasant sight</l>
+                        <l>Of broidered dresses (careless youth’s delight,)</l>
+                        <l>Trooped by at sunny morn, and back at falling night.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And thou hast witnessed triumph,—when the Bride</l>
+                        <l>Passed through,—the stately Bridegroom at her side;</l>
+                        <l>The village maidens scattering many a flower,</l>
+                        <l>Bright as the bloom of living beauty’s dower,</l>
+                        <l>With cheers and shouts that bid the soft tears rise</l>
+                        <pb n="116" xml:id="VAB7089-110"/>
+                        <l>Of joy exultant, in her downcast eyes.</l>
+                        <l>And thou hadst gloom, when,—fallen from beauty’s state,—</l>
+                        <l>Her mournful litter rustled through the gate,</l>
+                        <l>And the wind waved its branches as she past,—</l>
+                        <l>And the dishevelled curls around her cast,</l>
+                        <l>Rose on that breeze and kissed, before they fell,</l>
+                        <l>The iron scroll‐work with a wild farewell!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And thou hast heard sad dirges chanted low,</l>
+                        <l>And sobbings loud from those who saw with woe</l>
+                        <l>The feet borne forward by a funeral train,</l>
+                        <l>Which homeward never might return again,</l>
+                        <l>Nor in the silence of the frozen nights</l>
+                        <l>Reclaim that dwelling and its lost delights;</l>
+                        <l>But lowly lie, however wild love’s yearning,</l>
+                        <l>The dust that clothed them, unto dust returning.</l>
+                        <pb n="117" xml:id="VAB7089-111"/>
+                        <l>Through thee, how often hath been borne away</l>
+                        <l>Man’s share of dual life—the senseless clay!</l>
+                        <l>Through thee how oft hath hastened, glad and bold,</l>
+                        <l>God’s share—the eager spirit in that mould;</l>
+                        <l>But neither life nor death hath left a trace</l>
+                        <l>On the strange silence of that vacant place.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Not vacant in the day of which I write!</l>
+                        <l>Then rose thy pillared columns fair and white;</l>
+                        <l>Then floated out the odorous pleasant scent</l>
+                        <l>Of cultured shrubs and flowers together blent,</l>
+                        <l>And o’er the trim‐kept gravel’s tawny hue</l>
+                        <l>Warm fell the shadows and the brightness too.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Count Claud is at the gate, but not alone:</l>
+                        <l>Who is his friend?</l>
+                        <l>They pass, and both are gone.</l>
+                        <pb n="118" xml:id="VAB7089-112"/>
+                        <l>Gone, by the bright warm path, to those sad halls</l>
+                        <l>Where now his slackened step in sadness falls;</l>
+                        <l>Sadness of every day and all day long,</l>
+                        <l>Spite of the summer glow and wild bird’s song.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Who is that slow‐paced Priest to whom he bows</l>
+                        <l>Courteous precedence, as he sighing shows</l>
+                        <l>The oriel window where his Gertrude dwells,</l>
+                        <l>And all her mournful story briefly tells?</l>
+                        <l>Who is that friend whose hand with gentle clasp</l>
+                        <l>Answers his own young agonizing grasp,</l>
+                        <l>And looks upon his burst of passionate tears</l>
+                        <l>With calmer grieving of maturer years?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh! well round that friend’s footsteps might be breathed</l>
+                        <l>The blessing which the Italian poet wreathed</l>
+                        <pb n="119" xml:id="VAB7089-113"/>
+                        <l>Into a garland gay of graceful words,</l>
+                        <l>As full of music as a lute’s low chords;</l>
+                        <l>“Blessed be the year, the time, the day, the hour,”</l>
+                        <l>When He passed through those gates, whose gentle power</l>
+                        <l>Lifted with ministrant zeal the leaden grief,</l>
+                        <l>Probed the soul’s festering wounds and brought relief,</l>
+                        <l>And taught the sore vexed spirits where to find</l>
+                        <l>Balm that could heal, and thoughts that cheered the mind.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Prior of Benedictines, did thy prayers</l>
+                        <l>Bring down a blessing on them unawares,</l>
+                        <l>While yet their faces were to thee unknown,</l>
+                        <l>And thou wert kneeling in thy cell alone,</l>
+                        <l>Where thy meek litanies went up to Heaven,</l>
+                        <pb n="120" xml:id="VAB7089-114"/>
+                        <l>That <emph rend="sc">ALL</emph> who suffered might have comfort
+                            given,</l>
+                        <l>And thy heart yearned for all thy fellow‐men,</l>
+                        <l>Smitten with sorrows far beyond thy ken?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He sits by Gertrude’s couch, and patient listens</l>
+                        <l>To her wild grieving voice;—his dark eye glistens</l>
+                        <l>With tearful sympathy for that young wife,</l>
+                        <l>Telling the torture of her broken life;</l>
+                        <l>And when he answers her she seems to know</l>
+                        <l>The peace of resting by a river’s flow.</l>
+                        <l>Tender his words, and eloquently wise;</l>
+                        <l>Mild the pure fervour of his watchful eyes;</l>
+                        <l>Meek with serenity of constant prayer</l>
+                        <l>The luminous forehead, high and broad and bare;</l>
+                        <l>The thin mouth, though not passionless, yet still;</l>
+                        <l>With a sweet calm that speaks an angel’s will,</l>
+                        <l>Resolving service to his God’s behest,</l>
+                        <l>And ever musing how to serve Him best.</l>
+                        <pb n="121" xml:id="VAB7089-115"/>
+                        <l>Not old, nor young; with manhood’s gentlest grace;</l>
+                        <l>Pale to transparency the pensive face,</l>
+                        <l>Pale not with sickness, but with studious thought,</l>
+                        <l>The body tasked, the fine mind overwrought;</l>
+                        <l>With something faint and fragile in the whole,</l>
+                        <l>As though ’twere but a lamp to hold a soul.</l>
+                        <l>Such was the friend who came to La Garaye,</l>
+                        <l>And Claud and Gertrude lived to bless the day!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>There is a love that hath not lover’s wooing,</l>
+                        <l>Love’s wild caprices, nor love’s hot pursuing;</l>
+                        <l>But yet a clinging and persistent love,</l>
+                        <l>Tenderly binding, most unapt to rove;</l>
+                        <l>As full of fervent and adoring dreams,</l>
+                        <l>As the more gross and earthlier passion seems,</l>
+                        <l>But far more single‐hearted; from its birth,</l>
+                        <l>With humblest notions of unequal worth!</l>
+                        <pb n="122" xml:id="VAB7089-116"/>
+                        <l>Guided and guidable; with thankful trust;</l>
+                        <l>Timid, lest all complaint should be unjust;</l>
+                        <l>Circling,—a lesser orb,—around its star</l>
+                        <l>With tributary love, that dare not war.</l>
+                        <l>Such is the love which aged men inspire;</l>
+                        <l>Priests, whose pure hearts are full of sacred fire;</l>
+                        <l>And friends of dear friends dead,—whom trembling we admire.</l>
+                        <l>A touch of mystery lights the rising morn</l>
+                        <l>Of love for those who lived ere we were born;</l>
+                        <l>Whose eyes the eyes of ancestors have seen;</l>
+                        <l>Whose voice hath answered voices that have been;</l>
+                        <l>Whose words show wisdom gleaned in days gone by,</l>
+                        <l>As glory flushes from a sunset sky.</l>
+                        <l>Our judgment leans upon them, feeling weak;</l>
+                        <pb n="123" xml:id="VAB7089-117"/>
+                        <l>Our hearts lift yearning towards them as they speak,</l>
+                        <l>And silently we listen, lest we lose</l>
+                        <l>Some teaching truth, and benefits refuse.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>With such a love did Gertrude learn to greet</l>
+                        <l>The gentle Prior; whose slow‐pacing feet</l>
+                        <l>Each day of her sad life made welcome sound</l>
+                        <l>Across the bright path of her garden ground.</l>
+                        <l>And ere the golden summer past away,</l>
+                        <l>And leaves were yellowing with a pale decay;</l>
+                        <l>Ere, drenched by sweeping storms of autumn rain,</l>
+                        <l>In turbulent billows lay the beaten grain;</l>
+                        <l>Ere Breton orchards, ripening, turned to red</l>
+                        <l>All the green freshness which the spring‐time shed,</l>
+                        <l>Mocking the glory which the sunset fills</l>
+                        <l>With stripes of crimson o’er the painted hills,—</l>
+                        <pb n="124" xml:id="VAB7089-118"/>
+                        <l>Her thoughts submitted to his thoughts’ control,</l>
+                        <l>As ’twere an elder brother of her soul.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Well she remembered how that soul was stirred,</l>
+                        <l>By the rebuking of his gentle word,</l>
+                        <l>When in her faltering tones complaint was given,</l>
+                        <l>“What had I done; to earn such fate from Heaven?”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“Oh, Lady! here thou liest, with all that wealth</l>
+                        <l>Or love can do to cheer thee back to health;</l>
+                        <l>With books that woo the fancies of thy brain,</l>
+                        <l>To happier thoughts than brooding over pain;</l>
+                        <l>With light, with flowers, with freshness, and with food,</l>
+                        <l>Dainty and chosen, fit for sickly mood:</l>
+                        <l>With easy couches for thy languid frame,</l>
+                        <l>Bringing real rest, and not the empty name;</l>
+                        <pb n="125" xml:id="VAB7089-119"/>
+                        <l>And silent nights, and soothed and comforted days;</l>
+                        <l>And Nature’s beauty spread before thy gaze:—</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“What have the Poor done, who instead of these</l>
+                        <l>Suffer in foulest rags each dire disease,</l>
+                        <l>Creep on the earth, and lean against the stones,</l>
+                        <l>When some disjointing torture racks their bones;</l>
+                        <l>And groan and grope throughout the wearying night,</l>
+                        <l>Denied the rich man’s easy luxury,—light?</l>
+                        <l>What has the Babe done,—who, with tender eyes,</l>
+                        <l>Blinks at the world a little while, and dies;</l>
+                        <l>Having first stretched, in wild convulsive leaps,</l>
+                        <l>His fragile limbs, which ceaseless suffering keeps</l>
+                        <l>In ceaseless motion, till the hour when death</l>
+                        <l>Clenches his little heart, and stops his breath?</l>
+                        <l>What has the Idiot done, whose half‐formed soul</l>
+                        <pb n="126" xml:id="VAB7089-120"/>
+                        <l>Scarce knows the seasons as they onward roll;</l>
+                        <l>Who flees with gibbering cries, and bleeding feet,</l>
+                        <l>From idle boys who pelt him in the street!</l>
+                        <l>What have the fair girls done, whose early bloom</l>
+                        <l>Wasting like flowers that pierce some creviced tomb,</l>
+                        <l>Plants that have only known a settled shade,</l>
+                        <l>Lives that for others’ uses have been made,—</l>
+                        <l>Toil on from morn to night, from night to morn,</l>
+                        <l>For those chance pets of Fate, the wealthy born;</l>
+                        <l>Bound not to murmur, and bound not to sin,</l>
+                        <l>However bitter be the bread they win?</l>
+                        <l>What hath the Slandered done, who vainly strives</l>
+                        <l>To set his life among untarnished lives?</l>
+                        <l>Whose bitter cry for justice only fills</l>
+                        <l>The myriad echoes lost among life’s hills;</l>
+                        <l>Who hears for evermore the self‐same lie</l>
+                        <l>Clank clog‐like at his heel when he would try</l>
+                        <pb n="127" xml:id="VAB7089-121"/>
+                        <l>To climb above the loathly creeping things</l>
+                        <l>Whose venom poisons, and whose fury stings,</l>
+                        <l>And so slides back; for ever doomed to hear</l>
+                        <l>The old witch, Malice, hiss with serpent leer</l>
+                        <l>The old hard falsehood to the old bad end,</l>
+                        <l>Helped, it may be, by some traducing friend,</l>
+                        <l>Or one rocked with him on one mother’s breast,—</l>
+                        <l>Learned in the art of where to smite him best.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“What we must suffer, proves not what was done:</l>
+                        <l>So taught the God of Heaven’s anointed Son,</l>
+                        <l>Touching the blind man’s eyes amid a crowd</l>
+                        <l>Of ignorant seething hearts who cried aloud</l>
+                        <l>The blind, or else his parents, had offended;</l>
+                        <l>That was Man’s preaching; God that preaching mended.</l>
+                        <l>But whatsoe’er we suffer, being still</l>
+                        <l>Fixed and appointed by the heavenly will,</l>
+                        <pb n="128" xml:id="VAB7089-122"/>
+                        <l>Behoves us bear with patience as we may</l>
+                        <l>The Potter’s moulding of our helpless clay.</l>
+                        <l>Much, Lady, hath He taken, but He leaves</l>
+                        <l>What outweighs all for which thy spirit grieves;</l>
+                        <l>No greater gift lies even in God’s control</l>
+                        <l>Than the large love that fills a human soul.</l>
+                        <l>If taking that, He left thee all the rest,</l>
+                        <l>Would not vain <choice>
+                                <corr>anguish</corr>
+                                <sic>angush</sic>
+                            </choice> wring thy pining breast?</l>
+                        <l>If, taking all, that dear love yet remains,</l>
+                        <l>Hath it not balm for all thy bitter pains?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“Oh, Lady! there are lonely deaths that make</l>
+                        <l>The heart that thinks upon them burn and ache;</l>
+                        <l>And such I witnessed on the purple shore</l>
+                        <l>Where scorched Vesuvius rears his summit hoar,</l>
+                        <l>And Joan’s gaunt palace, with its skull‐like eyes,</l>
+                        <l>And barbarous and cruel memories,</l>
+                        <l>For ever sees the blue wave lap its feet,</l>
+                        <pb n="129" xml:id="VAB7089-123"/>
+                        <l>And the white glancing of the fishers’ fleet.</l>
+                        <l>The death of the <emph rend="sc">FORSAKEN</emph>! lone he lies,</l>
+                        <l>His sultry noon, fretted by slow black flies,</l>
+                        <l>That settle on pale cheek and quivering brow</l>
+                        <l>With a soft torment. The increasing glow</l>
+                        <l>Brings the full shock of day; the hot air grows</l>
+                        <l>Impure alike from action and repose;</l>
+                        <l>Bruised fruit, and faded flowers, and dung and dust,</l>
+                        <l>The rich man’s stew‐pan, and the beggar’s crust,</l>
+                        <l>Poison the faint lips opening hot and dry,</l>
+                        <l>Loathing the plague they breathe with gasping sigh,</l>
+                        <l>The thick oppression of its stifling heat,</l>
+                        <l>The busy murmur of the swarming street,</l>
+                        <l>The roll of chariots and the rush of feet;</l>
+                        <l>With the tormenting music’s nasal twang</l>
+                        <l>Distorting melodies his loved ones sang!</l>
+                        <pb n="130" xml:id="VAB7089-124"/>
+                        <l>“Then comes a change—not silence, but less sound,</l>
+                        <l>Less echo of hard footsteps on the ground,</l>
+                        <l>Less rolling thunder of vociferous words,</l>
+                        <l>As though the clang struck out in crashing chords</l>
+                        <l>Fell into single notes, that promise rest</l>
+                        <l>To the wild fever of the labouring breast.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“Last cometh on the night—the hot, bad night,</l>
+                        <l>With less of all—of heat, of dust, of light;</l>
+                        <l>And leaves him watching, with a helpless stare,—</l>
+                        <l>The theme of no one’s hope and no one’s care!</l>
+                        <l>The cresset lamp, that stands so grim and tall,</l>
+                        <l>Widens and wavers on the upper wall;</l>
+                        <l>And calming down from day’s perpetual storm</l>
+                        <l>His thoughts’ dark chaos takes some certain form,</l>
+                        <l>And he begins to pine for joys long lost,</l>
+                        <l>Or hopes unrealized;—till bruised and tost</l>
+                        <l>He sends his soul vain journeys through the gloom</l>
+                        <pb n="131" xml:id="VAB7089-125"/>
+                        <l>For radiant eyes that should have wept his doom.</l>
+                        <l>Then clasps his hands in prayer, and for a time,</l>
+                        <l>Gives aspirations unto things sublime:</l>
+                        <l>But sinking to some speck of sorrow found,</l>
+                        <l>Some point which, like a little festering wound,</l>
+                        <l>Holds all his share of pain,—he gazes round,</l>
+                        <l>Seeking some vanished form, some hand whose touch</l>
+                        <l>Would almost cure him; and he yearns so much,</l>
+                        <l>That passionate painful sobs his breathing choke,</l>
+                        <l>And the thin bubble of his dream hath broke!</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“So, still again; and all alone again;</l>
+                        <l>Not even a vision present with his pain.</l>
+                        <l>The hot real round him; the forsaken bed;</l>
+                        <l>The tumbled pillow, and the restless head.</l>
+                        <l>The drink so near his couch, and yet too far</l>
+                        <l>For feeble hands to reach; the cold fine star</l>
+                        <pb n="132" xml:id="VAB7089-126"/>
+                        <l>That glitters through the unblinded window‐pane,</l>
+                        <l>And with slow gliding leaves it blank again;</l>
+                        <l>Till morning flushing through the world once more,</l>
+                        <l>Brings the dull likeness of the day before,—</l>
+                        <l>The first vague freshness of new wings unfurled,</l>
+                        <l>As though Hope lighted, somewhere, in the world;</l>
+                        <l>The heat of noon; the fading down of light;</l>
+                        <l>The glimmering evening, and the restless night.</l>
+                        <l>And then again the morning; and the noon;</l>
+                        <l>The evening and the morning;—till a boon</l>
+                        <l>Of double weakness sinks him, and he knows</l>
+                        <l>One or two other days shall end his woes:</l>
+                        <l>One or two mournful evenings, glimmering grey,</l>
+                        <l>One or two hopeless risings of new day.</l>
+                        <l>One or two noons too weak to brush off flies,</l>
+                        <l>One or two nights of flickering feeble sighs,</l>
+                        <l>One or two shivering breaks of helpless tears,</l>
+                        <pb n="133" xml:id="VAB7089-127"/>
+                        <l>One or two yearnings for forgotten years,—</l>
+                        <l>And then the end of all, then the great change,</l>
+                        <l>When the freed soul, let loose at length to range,</l>
+                        <l>Leaves the imprisoning and imprisoned clay,</l>
+                        <l>And soars far out of reach of sorrow and decay!”</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Then Claud, who watched the faint and pitying flush</l>
+                        <l>Tint her transparent cheek; with sudden gush</l>
+                        <l>Of manly ardour, spoke of soldier deaths;</l>
+                        <l>Of scattered slain who lay on cold bleak heaths:</l>
+                        <l>Of prisoners pining for their native land</l>
+                        <l>After the battle’s vain and desperate stand;</l>
+                        <l>Brave hearts in dungeons,—rusting like their swords;</l>
+                        <l>And wounded men,—midst whom the rifling hordes</l>
+                        <l>Of spoil‐desiring searchers crept and smote,—</l>
+                        <pb n="134" xml:id="VAB7089-128"/>
+                        <l>Who vainly heard the rallying bugle’s note,</l>
+                        <l>Or the quick march of their companions pass;</l>
+                        <l>Sunk, dumb and dying, on the trampled grass.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Then also, the meek anxious Prior told</l>
+                        <l>Of war’s worst horrors,—when in freezing cold,</l>
+                        <l>Or in the torrid heat, men lay and groaned,</l>
+                        <l>With none to hear or heed them when they moaned;</l>
+                        <l>Or, with half‐help,—borne in a comrade’s arms</l>
+                        <l>To where, all huddled up in feverish swarms,</l>
+                        <l>The dying numbers mocked the scanty skill</l>
+                        <l>Of wearied surgeons,—crowding, crowding still,</l>
+                        <l>With different small degrees of lingering breath,</l>
+                        <l>Asking for instant aid, or choked in death.</l>
+                        <l>Order, and cleanliness, and thought, and care,</l>
+                        <l>The hush of quiet, or the sound of prayer,</l>
+                        <pb n="135" xml:id="VAB7089-129"/>
+                        <l>These things were not:—nor, from the exhausted store,</l>
+                        <l>Medicines and balms, to help the troubling sore;</l>
+                        <l>Nor soft cool lint, like dew on parched‐up ground,</l>
+                        <l>Clothing the weary, burning, festering wound;</l>
+                        <l>Nor delicate linen; nor fresh cooling drinks</l>
+                        <l>To woo the fever‐cracking lip which shrinks</l>
+                        <l>Even from such solace; nor the presence blest</l>
+                        <l>Of holy women watching broken rest,</l>
+                        <l>And gliding past them through the wakeful night,</l>
+                        <l>Like her whose Shadow made the soldier’s light.<ref target="#lagaraye-note01">*</ref></l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And as the three discoursed of things like these,</l>
+                        <l>Sweet Gertrude felt her mind grow ill at ease.</l>
+                        <l>The words of Claud,—that God took what was given</l>
+                        <l>To teach their hearts to turn from earth to heaven;</l>
+                        <l>The Prior’s words, of tender mild appeal,</l>
+                        <pb n="136" xml:id="VAB7089-130"/>
+                        <l>Teaching her how for others’ woes to feel;</l>
+                        <l>Weighed on her heart; till all the past life seemed</l>
+                        <l>Thankless and thoughtless: and the lady dreamed</l>
+                        <l>Of succour to the helpless, and of deeds</l>
+                        <l>Pious and merciful, whose beauty breeds</l>
+                        <l>Good deeds in others, copying what is done,</l>
+                        <l>And ending all by earnest thought begun.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Nor idly dreamed. Where once the shifting throng</l>
+                        <l>Of merry playmates met, with dance and song,—</l>
+                        <l>Long rows of simple beds the place proclaim</l>
+                        <l>A Hospital, in all things but the name.</l>
+                        <l>In that same castle where the lavish feast</l>
+                        <l>Lay spread, that fatal night, for many a guest,</l>
+                        <l>The sickly poor are fed! Beneath that porch</l>
+                        <l>Where Claud shed tears that seemed the lids to scorch,</l>
+                        <pb n="137" xml:id="VAB7089-131"/>
+                        <l>Seeing her broken beauty carried by</l>
+                        <l>Like a crushed flower that now has but to die,</l>
+                        <l>The self‐same Claud now stands and helps to guide</l>
+                        <l>Some ragged wretch to rest and warmth inside.</l>
+                        <l>But most to those, the hopeless ones, on whom</l>
+                        <l>Early or late her own sad spoken doom,</l>
+                        <l>Hath been pronounced; the Incurables; she spends</l>
+                        <l>Her lavish pity, and their couch attends.</l>
+                        <l>Her home is made their home; her wealth their dole;</l>
+                        <l>Her busy courtyard hears no more the roll</l>
+                        <l>Of gilded vehicles, or pawing steeds,</l>
+                        <l>But feeble steps of those whose bitter needs</l>
+                        <l>Are their sole passport. Through that gateway press</l>
+                        <l>All varying forms of sickness and distress,</l>
+                        <pb n="138" xml:id="VAB7089-132"/>
+                        <l>And many a poor worn face that hath not smiled</l>
+                        <l>For years,—and many a feebled crippled child,—</l>
+                        <l>Blesses the tall white portal where they stand,</l>
+                        <l>And the dear Lady of the liberal hand.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Not in a day such happy change was brought;</l>
+                        <l>Not in a day the works of mercy wrought:</l>
+                        <l>But in God’s gradual time. As Winter’s chain</l>
+                        <l>Melts from the earth and leaves it green again:</l>
+                        <l>As the fresh bud a crimsoning beauty shows</l>
+                        <l>From the black briars of a last year’s rose:</l>
+                        <l>So the full season of her love matures,</l>
+                        <l>And her one illness breeds a thousand cures.</l>
+                        <l>Her soft eyes looking into other eyes,</l>
+                        <l>Bleared, and defaced to blinding cavities,</l>
+                        <l>Weary not in their task; nor turn away</l>
+                        <l>With a sick loathing from their glimmering ray.</l>
+                        <l>Her small white comforting hand,—no longer hid</l>
+                        <pb n="139" xml:id="VAB7089-133"/>
+                        <l>In pearl‐embroidered gauntlet,—lifts the lid</l>
+                        <l>Outworn with labour in the bitter fields,</l>
+                        <l>And with a tender skill some healing yields;</l>
+                        <l>Bathes the swoln redness,—shades unwelcome light;—</l>
+                        <l>And into morning turns their threatening night.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And Claud, her eager Claud, with fervent heart,</l>
+                        <l>Earnest in all things, nobly does his part;</l>
+                        <l>His high intelligence hath mastered much</l>
+                        <l>That baffled science: with a surgeon’s touch</l>
+                        <l>He treats,—himself,—the hurts from many a wound,</l>
+                        <l>And, by deep study, novel cures hath found.</l>
+                        <l>But good and frank and simple he remains,</l>
+                        <l>Though a King’s notice lauds successful pains;</l>
+                        <l>And, echoing through his grateful country, fame</l>
+                        <l>Sends to far nations noble Garaye’s name.<ref target="#lagaraye-note02">*</ref></l>
+                        <pb n="140" xml:id="VAB7089-134"/>
+                        <l>Oh! loved and reverenced long that name shall be,</l>
+                        <l>Though, crumbled on the soil of Brittany,</l>
+                        <l>No stone, at last, of that pale Ruin shows</l>
+                        <l>Where stood the gateway of his joys and woes.</l>
+                        <l>For, in the Breton town, the good deeds done</l>
+                        <l>Yield a fresh harvest still, from sire to son:</l>
+                        <l>Still thrives the noble Hospital that gave</l>
+                        <l>Shelter to those whom none from pain could save;</l>
+                        <l>Still to the schools the ancient chiming clock</l>
+                        <l>Calls the poor yeanlings of a simple flock:</l>
+                        <l>Still the calm Refuge for the fallen and lost</l>
+                        <l>(Whom love a blight and not a blessing crost,)</l>
+                        <l>Sends out a voice to woo the grieving breast,—</l>
+                        <l>Come unto me, ye weary, and find rest!</l>
+                        <l>And still the gentle nurses,—vowed to give</l>
+                        <l>Their aid to all who suffer and yet live,—</l>
+                        <pb n="141" xml:id="VAB7089-135"/>
+                        <l>Go forth in show‐white cap and sable gown,</l>
+                        <l>Tending the sick and hungry in the town,</l>
+                        <l>And show dim pictures on their quiet walls</l>
+                        <l>Of those who dwelt in Garaye’s ruined halls!</l>
+                    </lg>
+                </div>
+                <pb n="143" xml:id="VAB7089-136"/>
+                <div type="canto">
+                    <head>THE LADY OF LA GARAYE.</head>
+                    <head type="sub">CONCLUSION.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>PEACE</hi> to their ashes! Far away they lie,</l>
+                        <l>Among their poor, beneath the equal sky.</l>
+                        <l>Among their poor, who blessed them ere they went</l>
+                        <l>For all the loving help and calm content.</l>
+                        <l>Oh! happy beings, who have gone to hear</l>
+                        <l>“Well done, ye faithful servants,” sounding clear;</l>
+                        <pb n="144" xml:id="VAB7089-137"/>
+                        <l>How easy all your virtues to admire;</l>
+                        <l>How hard, alas! to copy and aspire.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Servant of God, well done! They serve God well</l>
+                        <l>Who serve His creatures: when the funeral bell</l>
+                        <l>Tolls for the dead, there’s nothing left of all</l>
+                        <l>That decks the scutcheon and the velvet pall</l>
+                        <l>Save this. The coronet is empty show:</l>
+                        <l>The strength and loveliness are hid below:</l>
+                        <l>The shifting wealth to others hath accrued:</l>
+                        <l>And learning cheers not the grave’ solitude:</l>
+                        <l>What’s <emph rend="sc">DONE</emph>, is what remains! Ah, blessed they</l>
+                        <l>Who leave completed tasks of love to stay</l>
+                        <l>And answer mutely for them, being dead,</l>
+                        <l>Life was not purposeless, though Life be fled.</l>
+                        <pb n="145" xml:id="VAB7089-138"/>
+                        <l>Even as I write, before me seem to rise,</l>
+                        <l>Like stars in darkness, well remembered eyes</l>
+                        <l>Whose light but lately shone on earth’s endeavour,</l>
+                        <l>Now vanished from this troubled world for ever.</l>
+                        <l>Oh! missed and mourned by many,—I being one,—</l>
+                        <l><emph rend="sc">HERBERT</emph>, not vainly thy career was run;</l>
+                        <l>Nor shall Death’s shadow, and the folding shroud,</l>
+                        <l>Veil from the future years thy worth allowed.</l>
+                        <l>Since all thy life thy single hope and aim</l>
+                        <l>Was to do good,—not make thyself a name,—</l>
+                        <l>’Tis fit that by the good remaining yet,</l>
+                        <l>Thy name be one men never can forget.</l>
+                        <l>Oh! eyes I first knew in our mutual youth.</l>
+                        <l>So full of limpid earnestness and truth;</l>
+                        <l>Eyes I saw fading still, as day by day</l>
+                        <pb n="146" xml:id="VAB7089-139"/>
+                        <l>The body, not the spirit’s strength, gave way;</l>
+                        <l>Eyes that I last saw lifting their farewell</l>
+                        <l>To the now darkened windows where I dwell,—</l>
+                        <l>And wondered, as I stood there sadly gazing,</l>
+                        <l>If Death were brooding in their faint upraising;</l>
+                        <l>If never more thy footstep light should cross</l>
+                        <l>My threshold stone—but friends bewail thy loss,</l>
+                        <l>And She bewidowed young, who lonely trains</l>
+                        <l>Children that boast thy good blood in their veins;</l>
+                        <l>Fair eyes,—your light was quenched while men still thought</l>
+                        <l>To see those tasks to full perfection brought!</l>
+                        <l>But <emph rend="sc">GOOD</emph> is not a shapeless mass of stone,</l>
+                        <l>Hewn by man’s hands and worked by him alone;</l>
+                        <l>It is a seed God suffers One to sow,—</l>
+                        <l>Many to reap; and when the harvests grow,</l>
+                        <l><emph rend="sc">GOD</emph> giveth increase through all coming years,—</l>
+                        <pb n="147" xml:id="VAB7089-140"/>
+                        <l>And lets us reap in joy, seed that was sown in tears.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Brave heart! true soldier’s son; set at thy post,</l>
+                        <l>Deserting not till life itself was lost;</l>
+                        <l>Thou faithful sentinel for others’ weal,</l>
+                        <l>Clad in a surer panoply than steel,</l>
+                        <l>A resolute purpose,—sleep, as heroes sleep,—</l>
+                        <l>Slain, but not conquered! We thy loss must weep,</l>
+                        <l>And while our sight the mist of sorrow dims,</l>
+                        <l>Feel all these comforting words die down like hymns</l>
+                        <l>Hushed after service in cathedral walls;</l>
+                        <l>But proudly on thy name thy country calls,</l>
+                        <l>By thee raised higher than the highest place</l>
+                        <l>Yet won by any of thy ancient race.</l>
+                        <l>Be thy sons like thee! Sadly as I bend</l>
+                        <pb n="148" xml:id="VAB7089-141"/>
+                        <l>Above the page, I write thy name, lost friend!</l>
+                        <l>With a friend’s name this brief book did begin,</l>
+                        <l>And a friend’s name shall end it: names that win</l>
+                        <l>Happy remembrance from the great and good;</l>
+                        <l>Names that shall sink not in oblivion’s flood,</l>
+                        <l>But with clear music, like a church‐bell’s chime,</l>
+                        <l>Sound through the river’s sweep of onward rushing Time!</l>
+                    </lg>
+                </div>
+            </div>
+        </body>
+        <pb n="149" xml:id="VAB7089-142"/>
+        <back>
+            <div type="notes">
+                <head>NOTES.</head>
+                <list type="simple">
+                    <item><note anchored="true" xml:id="lagaraye-note01" place="end">
+                            <label>Note 1, page 135, line 11.<ref>“Like her whose Shadow made the
+                                    Soldier’s light.”</ref></label>
+                            <p><hi>VERY</hi>sure I am that the great American poet, <emph rend="sc">LONGFELLOW</emph>, would not refuse me permission to append
+                                here, in lieu of any note of explanation, his own beautiful lines on
+                                Miss Nightingale, alluding to the anecdote of a dying soldier
+                                pressing his lips to her shadow on the wall.</p>
+                            <q>
+                                <floatingText>
+                                    <body>
+                                        <div type="poem">
+                                            <head>SAINT FILOMENA.</head>
+                                            <head type="sub">From the Atlantic Monthly.</head>
+                                            <lg type="verse_paragraph">
+                                                <l>Whene’er a noble deed is wrought,</l>
+                                                <l>Whene’er is spoken a noble thought,</l>
+                                                <l rend="ti-1">Our hearts, in glad surprise,</l>
+                                                <l rend="ti-1">To higher levels rise.</l>
+                                            </lg>
+                                            <pb n="150" xml:id="VAB7089-143"/>
+                                            <lg type="verse_paragraph">
+                                                <l>The tidal wave of deeper souls</l>
+                                                <l>Into our inmost being rolls,</l>
+                                                <l rend="ti-1">And lifts us unawares</l>
+                                                <l rend="ti-1">Out of all meaner cares.</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>Honour to those whose words or deeds</l>
+                                                <l>Thus help us in our daily needs,</l>
+                                                <l rend="ti-1">And by their overflow</l>
+                                                <l rend="ti-1">Raise us from what is low!</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>Thus thought I, as by night I read</l>
+                                                <l>Of the great army of the dead,</l>
+                                                <l rend="ti-1">The trenches cold and damp,</l>
+                                                <l rend="ti-1">The starved and frozen camp—</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>The wounded from the battle‐plain,</l>
+                                                <l>In dreary hospitals of pain,</l>
+                                                <l rend="ti-1">The cheerless corridors,</l>
+                                                <l rend="ti-1">The cold and stony floors.</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>Lo! in that house of misery</l>
+                                                <l>A lady with a lamp I see</l>
+                                                <l rend="ti-1">Pass through the glimmering
+                                                  gloom,</l>
+                                                <l rend="ti-1">And flit from room to room.</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>And slow, as in a dream of bliss,</l>
+                                                <l>The speechless sufferer turns to kiss</l>
+                                                <l rend="ti-1">Her shadow, as it falls</l>
+                                                <l rend="ti-1">Upon the darkening walls.</l>
+                                            </lg>
+                                            <pb n="151" xml:id="VAB7089-144"/>
+                                            <lg type="verse_paragraph">
+                                                <l>As if a door in heaven should be</l>
+                                                <l>Opened, and then closed suddenly,</l>
+                                                <l rend="ti-1">The vision came and went,</l>
+                                                <l rend="ti-1">The light shone and was spent.</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>On England’s annals, through the long</l>
+                                                <l>Hereafter of her speech and song,</l>
+                                                <l rend="ti-1">That light its rays shall cast</l>
+                                                <l rend="ti-1">From portals of the past.</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>A lady with a lamp shall stand</l>
+                                                <l>In the great history of the land,</l>
+                                                <l rend="ti-1">A noble type of good,</l>
+                                                <l rend="ti-1">Heroic womanhood.</l>
+                                            </lg>
+                                            <lg type="verse_paragraph">
+                                                <l>Nor even shall be wanting here</l>
+                                                <l>The palm, the lily and the spear,</l>
+                                                <l rend="ti-1">The symbols that of yore</l>
+                                                <l rend="ti-1">Saint <emph rend="sc">FILOMENA</emph>
+                                                  bore.</l>
+                                            </lg>
+                                        </div>
+                                    </body>
+                                </floatingText>
+                            </q>
+                        </note></item>
+                    <item><note anchored="true" xml:id="lagaraye-note02" place="end">
+                            <label>Note 2, page 139, last line. <ref>“Sends to far nations noble
+                                    Garaye’s name.”</ref></label>
+                            <p>I extract this note from the work of M. Odorici, which I mentioned in
+                                my Introduction:—</p>
+                            <q xml:lang="fre">
+                                <p>“Parmi les découvertes heureuses et utiles que M. de la Garaye
+                                    fit dans ses expériences chimiques, nous citerons
+                                    particulièrement ce qu’il nommait <emph rend="i">les sels
+                                        essentiels</emph>, tirés des végétaux et des minéraux<pb n="152" xml:id="VAB7089-145"/> au moyen de l’eau mise en
+                                    mouvement sans l’aide du feu ni d’aucun autre agent mécanique.
+                                    Ces sels renfermant les principes les plus actifs, fournirent
+                                    des remèdes salutaires et jusqu’alors inusités.</p>
+                                <p>“La nouvelle de cette découverte parvint aux oreilles du Roi et
+                                    excita la libéralité de S. M., dont le cœur compatissant ne se
+                                    démentit jamais. Le Roi voulut que ces secrets, trouvés et
+                                    distribués pour ainsi dire dans le silence, fussent rendus
+                                    publics et que les bienfaits qui devaient en résulter pussent se
+                                    répandre dans toutes les classes.</p>
+                                <p>“Louis XV. le manda exprès à Marly en 1731, et, après diverses
+                                    expériences faites devant plusieurs personnages, le Roi, pour
+                                    témoigner au comte de la Garaye sa satisfaction toute
+                                    particulière, lui fit compter 50,000 livres, qui tournèrent au
+                                    profit des pauvres et de la science.</p>
+                                <p>“Plus tard le Roi lui envoya son portrait et celui de la Reine,
+                                    avec 25,000 livres pour une seconde découverte; plusieurs grands
+                                    seigneurs, les princes du sang, et entre autres le savant et
+                                    trop calomnié duc d’Orléans, lui écrivirent des lettres de
+                                    félicitations, et l’imprimeur J.‐B. Coignard publia du comte de
+                                    la Garaye, un mémoire intitulé: <emph rend="i">Chimie
+                                        hydraulique.</emph></p>
+                                <p>“Aimé et honoré du Roi, il fut créeacute; en 1725 chevalier de
+                                    l’Ordre royal et militaire de <emph rend="i">Notre‐Dame‐du‐Mont‐Carmel et de
+                                        Saint‐Lazare‐de‐Jérusalem</emph>. En<pb n="153" xml:id="VAB7089-146"/> 1729, Mgr. le duc d’Orléans l’éleva à
+                                    la dignité de <emph rend="i">Grand‐Hospitalier</emph>
+                                    (Commandeur) de ce même ordre pour la province de Bretagne.</p>
+                                <p>“En 1746, le jeune duc de Penthièvre, accompagné du marquis de
+                                    Saint‐Pern, étant venu pour présider les Etats de Bretagne, lui
+                                    fit l’honneur de la visiter à la Garaye, d’y passer trois jours
+                                    et de partager avec lui les occupations d’infirmier, objet de sa
+                                    plus tendre sollicitude.”</p>
+                            </q>
+                            <p>A curious phase of life, in a man who began his career as a gay young
+                                officer. He greatly distinguished himself at the siege of Namur, and
+                                was a brave and gallant soldier.</p>
+                        </note></item>
+                </list>
+                <closer>THE END.</closer>
+                <trailer>R. Clay, Son, and Taylor, Printers, London.</trailer>
+            </div>
+        </back>
+    </text>
+</TEI>

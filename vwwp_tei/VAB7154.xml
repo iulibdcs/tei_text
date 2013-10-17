@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7154">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Shelley’s View of Nature Contrasted With Darwin’s</title>
+                <author>Blind, Mathilde (1841-1896)</author>
+                <respStmt>
+                    <resp>Transcribed, encoded and edited by</resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 40 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>December 10, 1995</date>
+                <idno>VAB7154</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is from the University of California, Berkeley
+                    Library.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Shelley’s View of Nature Contrasted With Darwin’s</title>
+                        <author>Blind, Mathilde, 1841-1896</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Mathilde Blind</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>22 p.</extent>
+                    <publicationStmt>
+                        <publisher>Printed for Private Distribution. </publisher>
+                        <pubPlace>London: </pubPlace>
+                        <date when="1886">1886</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag, with the
+                    value "indent1" for one tab stop, "indent2" for two tab stops, etc. All split
+                    lines are attributed as "type=i" for the initial portion, and "type=f" for the
+                    final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"></tagUsage>
+                    <tagUsage gi="addrline" occurs="6"> </tagUsage>
+                    <tagUsage gi="author" occurs="1"></tagUsage>
+                    <tagUsage gi="availability" occurs="1"></tagUsage>
+                    <tagUsage gi="back" occurs="1"></tagUsage>
+                    <tagUsage gi="bibl" occurs="16"></tagUsage>
+                    <tagUsage gi="biblfull" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="byline" occurs="1"></tagUsage>
+                    <tagUsage gi="change" occurs="2"></tagUsage>
+                    <tagUsage gi="corr" occurs="1"></tagUsage>
+                    <tagUsage gi="date" occurs="5"></tagUsage>
+                    <tagUsage gi="div" occurs="2"></tagUsage>
+                    <tagUsage gi="div0" occurs="1"></tagUsage>
+                    <tagUsage gi="docauthor" occurs="1"></tagUsage>
+                    <tagUsage gi="docdate" occurs="1"></tagUsage>
+                    <tagUsage gi="docimprint" occurs="1"></tagUsage>
+                    <tagUsage gi="doctitle" occurs="1"></tagUsage>
+                    <tagUsage gi="editorialdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="2"></tagUsage>
+                    <tagUsage gi="encodingdesc" occurs="1"></tagUsage>
+                    <tagUsage gi="extent" occurs="2"></tagUsage>
+                    <tagUsage gi="filedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="foreign" occurs="1"></tagUsage>
+                    <tagUsage gi="front" occurs="1"></tagUsage>
+                    <tagUsage gi="head" occurs="1"></tagUsage>
+                    <tagUsage gi="hi" occurs="1"></tagUsage>
+                    <tagUsage gi="item" occurs="2"></tagUsage>
+                    <tagUsage gi="l" occurs="87"></tagUsage>
+                    <tagUsage gi="language" occurs="2"></tagUsage>
+                    <tagUsage gi="langusage" occurs="1"></tagUsage>
+                    <tagUsage gi="name" occurs="5"></tagUsage>
+                    <tagUsage gi="p" occurs="24"></tagUsage>
+                    <tagUsage gi="pb" occurs="15"></tagUsage>
+                    <tagUsage gi="profiledesc" occurs="1"></tagUsage>
+                    <tagUsage gi="publicationstmt" occurs="2"></tagUsage>
+                    <tagUsage gi="publisher" occurs="4"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="4"></tagUsage>
+                    <tagUsage gi="q" occurs="7"></tagUsage>
+                    <tagUsage gi="resp" occurs="5"></tagUsage>
+                    <tagUsage gi="respstmt" occurs="5"></tagUsage>
+                    <tagUsage gi="revisiondesc" occurs="1"></tagUsage>
+                    <tagUsage gi="seriesstmt" occurs="1"></tagUsage>
+                    <tagUsage gi="sourcedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="tagsdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="tagusage" occurs="53"></tagUsage>
+                    <tagUsage gi="tei.2" occurs="1"></tagUsage>
+                    <tagUsage gi="teiheader" occurs="1"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="title" occurs="3"></tagUsage>
+                    <tagUsage gi="titlepage" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepart" occurs="1"></tagUsage>
+                    <tagUsage gi="titlestmt" occurs="2"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ger">German</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Shelley, Percy Bysshe, 1792-1822--Criticism and interpretation</item>
+                        <item>Darwin, Charles, 1809-1882</item>
+                        <item>Nature in literature</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/prose">prose</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/lecture">lecture</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-12-10</date><label>general editor.</label><name>Perry Willett,
+                </name>finished transcription, TEI‐conformant encoding and final proofing.</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-17" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-08-03" who="elizabethmunson">Removed date and "a machine
+                readable transcription" from fileDesc title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added LCNAF form of author name to
+                sourceDesc (hyphen adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-08-03" who="elizabethmunson">Normalized date in
+            biblFull/publicationStmt</change>
+            <change when="2010-08-03" who="elizabethmunson">Tagged title elements inside bibl</change>
+            <change when="2010-09-03" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-03" who="elizabethmunson">Changed div type="back" to "docImprint"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Shelley’s View of Nature Contrasted With Darwin’s.
+                    </titlePart>
+                </docTitle>
+                <byline>By <docAuthor>Mathilde Blind.</docAuthor></byline>
+                <docImprint>
+                    <pubPlace>London:</pubPlace>
+                    <publisher>Printed for Private Distribution. </publisher>
+                </docImprint>
+                <docDate>1886.</docDate>
+            </titlePage>
+            <pb xml:id="VAB7154-001"></pb>
+            <div type="colophon">
+                <p>Of this Book Twenty‐five Copies have been printed.</p>
+            </div>
+        </front>
+        <body>
+            <div type="lecture">
+                <head>SHELLEY’S VIEW OF NATURE CONTRASTED WITH DARWIN’S.</head>
+                <p><hi>LADIES AND GENTLEMEN</hi>,—I venture this evening to offer a few remarks on a
+                    very complex and far‐reaching subject, and before beginning I must crave your
+                    indulgence if you find, as must almost unavoidably be the case, that my
+                    treatment of it is more fragmentary than could be wished. Speaking broadly, I
+                    think it will be admitted that the poet’s attitude toward, and interpretation
+                    of, Nature may be said to undergo continual modification in harmony with the
+                    development of religious and scientific thought. For although the poet in his
+                    happiest intuitions often leaps at truths far in advance of the conclusions
+                    reached by the slower processes of methodical research, yet on the whole, the
+                    representative poems of the world seem to body forth the view of Nature, which
+                    is essentially the product of their age and nation.</p>
+                <p>In the <bibl><title>Iliad</title></bibl> and the <bibl><title>Odyssey</title></bibl> we find the aspects of the
+                    visible universe personified in a thousand and one shapes of plastic beauty. The
+                    vivifying power and splendour of the sun radiates through the limbs of Apollo;
+                    shaggy‐breasted Pan is the expression of lush‐teeming forest life, and the fatal
+                    allurement of lapping waters murmurs for ever in the sweet‐voiced sirens. The
+                    manifestations of the inorganic world are regarded, by Homer for example, as
+                    synonymous with human nature; and the gods, demi‐gods, titans, nereids, dryads,
+                    and fauns, which represent sky, clouds, ocean, rivers, and forests,<pb n="10" xml:id="VAB7154-002"></pb> are neither better nor worse than the men and women
+                    that people the earth.</p>
+                <p>With the Christian conception of the world this feeling towards Nature underwent
+                    a complete transformation. She was now regarded as something opposed to the
+                    divine, something inherently bad given over to the flesh and the devil. There is
+                    a stanza in Milton’s <bibl><title>Ode on the Morning of Christ’s Nativity</title></bibl> which
+                    aptly expresses this view:— <q>
+                        <l rend="ti-1">“Only with speeches fair </l>
+                        <l rend="ti-1">She woos the gentle air</l>
+                        <l>To hide her guilty front with innocent snow:</l>
+                        <l rend="ti-1">And on her naked shame,</l>
+                        <l rend="ti-1">Pollute with sinful blame,</l>
+                        <l>The saintly veil of maiden white to throw;</l>
+                        <l>Confounded that her Maker’s eyes</l>
+                        <l>Should look so near upon her foul deformities.”</l>
+                    </q></p>
+                <p>Indeed all through the Middle Ages there was a distinct recoil from the material
+                    universe, which may be traced more or less clearly in all mediæval poets. They
+                    liked snugly hedged‐in gardens and sunny closes surrounded by venerable
+                    cloisters and “the waste and solitary places,” which Shelley loved, appalled
+                    them with thoughts of bogies and hobgoblins. For in their day the
+                    vapour‐shrouded mountain‐top, the wild and desolate moorland, the tumbling
+                    stream, were the haunts of the Evil One—as is still attested, indeed, by a
+                    thousand significant appellations of bridge and pass; while to their
+                    superstitious fancies the exiled gods of Greece and Rome, now changed into
+                    demons, were supposed to hold their ungodly revels in moonlit woods and valleys.
+                    In fact, the poetic feeling of mediæval times toward the more remote and
+                    unfamiliar scenes of Nature, seems to find expression in that weird German
+                    ballad where the witch Lorelei warns the belated traveller:— <q xml:lang="ger">
+                        <l>“‘Es is schon spät, es ist schon kalt,</l>
+                        <l>Kommst nimmermehr aus diesem Wald.’</l>
+                    </q>
+                    <q type="translation">
+                        <l>Full late it is, and chill the eve,</l>
+                        <l>This wood thou nevermore shalt leave.”</l>
+                    </q></p>
+                <p>But as men shook off the gloomy and cruel superstitions engendered by the oldest
+                    and most oppressive<pb n="11" xml:id="VAB7154-003"></pb> form of the Christian
+                    religion, the idea that Nature was accursed passed away along with the belief in
+                    witches, spells, dæmoniacal possessions, and other hideous fancies begotten of
+                    ignorance and credulity. The human heart turning thirstily towards a
+                    rehabilitated nature, saw that she was fair, and felt a thrill of delight at the
+                    beauty of moonlight on still waters, at the radiance of snow‐crowned Alps, at
+                    the sublimity of seas in storm or calm. This new sensation of wonder and
+                    admiration in the splendour of the material Universe found its apostle in Jean
+                    Jacques Rousseau. He became the High Priest of this modern Nature‐worship. In
+                    his eyes Nature was entirely good, sinless, and beneficent. Man alone, by
+                    introducing an artificial kind of civilisation, with its kings and priests, its
+                    class distinctions, its arbitrary division of property, its irresponsible power
+                    and abject poverty, had brought injustice into the world and all the evils that
+                    oppress society. Let him but return to a state of nature, and it would be as
+                    well with him as with the fish disporting themselves in the water, or with the
+                    birds in the air. Considering these violent transitions from one mode of thought
+                    to its opposite, one can’t help owning that Luther was not so far out when, with
+                    his sledge‐hammer wit, he likened mankind to a tipsy boor who has no sooner been
+                    lifted into the saddle on one side that he tumbles down on the other. And we
+                    must own that the leap from the mental state of St. Bernhardt, who, passing
+                    along the shore of the lake of Geneva, was so absorbed in his pious meditations
+                    as to be quite oblivious of the scenery around him, to that of Jean Jacques,
+                    whose whole soul went out in adoration to the beauty of this identical
+                    landscape, is quite as a whimsical a performance as the boor’s toppling from one
+                    side of the saddle to the other. But be that as it may, there can be little
+                    doubt that Rousseau and the French Encyclopédists, with their rose‐coloured view
+                    of Nature, powerfully influenced that group of English poets to which
+                    Wordsworth, Coleridge, Southey, Byron, Keats, and Shelley may be said to belong.
+                    For widely as they differ from each other, they yet have one thing in
+                    common—that passionate, that all‐absorbing love of Nature which sustained them
+                    in all disappointments they were<pb n="12" xml:id="VAB7154-004"></pb> doomed to meet
+                    in regard to their social aspirations. Shelley, above all, was profoundly and
+                    permanently swayed by this fervid feeling. In his youth, as is testified by
+                        <bibl><title>Queen Mab</title></bibl>, and the notes appended to it, he had been vitally
+                    influenced by the study of Rousseau’s writings, and those of the other
+                    philosophical precursors of the French Revolution. From them he had to a great
+                    extent imbibed the firm conviction that if you could only rid society of kings
+                    and priests we should immediately enter on the Golden Age, and instead of
+                    discord, war, and wretchedness, the earth would become the abode of love and
+                    harmony. This is the keynote of Shelley’s most important poems—of <bibl><title>The
+                        Revolt of Islam</title></bibl>, of <bibl><title>Prometheus Unbound</title></bibl>, of
+                        <bibl><title>Hellas</title></bibl>. The same ideas, packed in a narrow compass, are
+                    expressed in <bibl><title>The Ode to Liberty</title></bibl>—that noble and inspired poem which
+                    is a kind of epitome of the development of man from the beginnings of life to
+                    its culmination in the loftiest intellectual achievement. Shelley here seems to
+                    us nearly to approach the threshold of the new era, and almost to apprehend that
+                    revolution in our conception of Nature which was to take place not so very long
+                    afterwards, when the Darwinian theory of the evolution of life gave a new aspect
+                    to man’s relation to the world around him. Had Shelley only lived longer, he
+                    might have succeeded in harmonising his views of Nature with those so luminously
+                    developed by Darwin, Alfred Russel Wallace, and other scientific thinkers, and
+                    by doing so there can be little doubt that the body of his poetic work would
+                    have gained in backbone and solidity. It is just because Shelley was a
+                    philosophic poet, because he aimed at grasping the world as a whole, and at
+                    embodying sound ideas in his loftiest flights of imagination, that we must
+                    regret that his conception of Nature is rather the off‐spring of the eighteenth
+                    century than of the nineteenth. Two evils, or more properly speaking, one evil
+                    with two heads, like the Austrian eagle, is ever present to Shelley’s mind—the
+                    double yoke of superstition and tyranny. Let but triumphant liberty abolish
+                    this, and it seems to him that all the rest must inevitably follow. From
+                    hard‐hearted oppressors men will become kind, sympathetic, and gentle, while
+                    women, no longer required<pb n="13" xml:id="VAB7154-005"></pb> to be hypocrites by
+                    Mrs. Grundy, will naturally turn into brave, generous, and sincere human beings.
+                    There will be a return to a primitive state of innocence, and man, no longer
+                    divorced from Nature, will be guided by her benign influences. This idea is
+                    enunciated in many of Shelley’s works, but perhaps the clearest expression of it
+                    is in <bibl><title>Queen Mab</title></bibl>, where he says:— <q>
+                        <l>“Look on yonder earth:</l>
+                        <l>The golden harvests spring; the unfailing sun</l>
+                        <l>Sheds light and life; the fruits, the flowers, the trees,</l>
+                        <l>Arise in due succession; all things speak</l>
+                        <l>Peace, harmony, and love. The universe</l>
+                        <l>In nature’s silent eloquence, declares</l>
+                        <l>That all fulfil the works of love and joy,—</l>
+                        <l>All but the outcast man. He fabricates</l>
+                        <l>The sword, which stabs his peace; he cherisheth</l>
+                        <l>The snakes that gnaw his heart: he raiseth up</l>
+                        <l>The tyrant, whose delight is in his woe,</l>
+                        <l>Whose sport is in his agony.”</l>
+                    </q></p>
+                <p>Mark here that man the outcast is contrasted with the peace, harmony, and love
+                    which otherwise prevail on the earth. I should like to quote still another
+                    passage to the same effect:— <q>
+                        <l>“Hath Nature’s soul</l>
+                        <l>That form’d this world so beautiful, that spread</l>
+                        <l>Earth’s lap with plenty, and life’s smallest chord</l>
+                        <l>Strung to unchanging unison, that gave</l>
+                        <l>The happy birds their dwelling in the grove,</l>
+                        <l>That yielded to the wanderers of the deep</l>
+                        <l>The lovely silence of the unfathom’d main,</l>
+                        <l>And fill’d the meanest worm that crawls in dust</l>
+                        <l>With spirit, thought, and love; on Man alone,</l>
+                        <l>Partial in causeless malice, wantonly</l>
+                        <l>Heap’d ruin, vice, and slavery; his soul</l>
+                        <l>Blasted with withering curses; placed afar</l>
+                        <l>The meteor‐happiness, that shuns his grasp,</l>
+                        <l>But serving on the frightful gulf to glare,</l>
+                        <l>Rent wide beneath his footsteps?</l>
+                        <l>Nature!—no!</l>
+                        <l>Kings, priests and statesmen, blast the human flower</l>
+                        <l>Even in its tender bud; their influence darts</l>
+                        <l>Like subtle poison through the bloodless veins</l>
+                        <l>Of desolate society. The child</l>
+                        <l>Ere he can lisp his mother’s sacred name,</l>
+                        <l>Swells with the unnatural pride of crime, and lifts</l>
+                        <l>His baby‐sword even in a hero’s mood.”</l>
+                    </q></p>
+                <p>We see here that, according to Shelley, all living creatures, “from the meanest
+                    worm that crawls” to the <pb n="14" xml:id="VAB7154-006"></pb> happy birds in the
+                    grove, enjoy peace and happiness, all excepting poor miserable man, who, by some
+                    fatality of his constitution, has ever been the prey of some few among his own
+                    kind who, by superior force or cunning, have befooled him, despoiled him,
+                    enslaved him, and generally rendered his state one of abject fear and
+                    wretchedness. If such were the case, society would certainly have to be regarded
+                    as an unmixed evil, and the sooner human beings followed Rousseau’s advice and
+                    returned to the state of primitive nature the better!</p>
+                <p>But is it true that all things in Nature, where man is not, speak “peace,
+                    harmony, and love”? Why, if we open our Darwin, the very opposite fact meets us
+                    at every turn. Yes, in the very vegetable kingdom, amid the gentle race of
+                    flowers so dear to Shelley, precisely the same forces are at work, the same
+                    incessant strife is raging, the same desires and appetites prevail, which he so
+                    abominated in the world of man. For gnawing at the root of life itself seems
+                    this power of evil from which the poet’s sensitive soul shrank with such
+                    horror—lust, hunger, rapine, cruelty. So far from peace being the law of Nature,
+                    we learn on the contrary, from our great naturalist, that from the lowest
+                    semi-vital organism to the highest and most complex forms of life battle is
+                    being waged within battle for the right to breath, to eat, and to multiply on
+                    the earth. Look, for example, at the flower‐like sea‐anemones, with their
+                    exquisite forms and delicate rainbow‐tints. What a shock it is to one’s moral
+                    being to see them suddenly close like a tightly‐drawn sack on a lot of little
+                    living creatures that one sees madly struggling through the semi‐diaphanous
+                    substance till they are stifled in their living tomb. And this law which bids
+                    animal prey upon animal, however revolting to the human conscience, is a
+                    necessity of that Nature, which, if not as terribly unjust as the God of
+                    Calvinistic theology, seems, at least to our human apprehension, to be callous
+                    to the sanguine strife and destruction which is going on in every nook and
+                    corner of the earth. Darwin, like Shelley, admits that we see the face of Nature
+                    bright with gladness: but he adds, “we do not see, or we forget, that the birds
+                    which are idly singing around us<pb n="15" xml:id="VAB7154-007"></pb> mostly live on
+                    insects or seeds, and are thus constantly destroying life; or we forget how
+                    largely these songsters, or their eggs, or their nestlings, are destroyed by
+                    birds and beasts of prey.”</p>
+                <p>Inch by inch every available space of air, of earth, and of water is contested,
+                    fought for, finally conquered by some living creature or other, the stronger
+                    ever devouring the weaker, or at least beating him out of the field and leaving
+                    him to perish. So that the reckless competition, the selfishness, the cruelty
+                    which to Shelley appeared as essentially the result of bad government, nay, as
+                    almost an accident of human society, might have been traced by him feature by
+                    feature throughout the animal kingdom, from the slave‐making ant to the thievish
+                    sparrow. For Dr. Watt’s admonition to the children that “birds in their little
+                    nests agree,” is, unfortunately, one of those amiable delusions which, on closer
+                    examination, turn out anything but true. On the contrary, not only does active
+                    jealousy exist between the different species of birds, but they are the most
+                    omnivorous of creatures, and one is sorry to think that, in spite “of the
+                    spirit, thought, and love which fill the meanest worm that crawls,” they swallow
+                    the poor innocent with no more compunction than the human biped does his lamb
+                    and mint sauce. And then what unchronicled tragedies happen in those
+                    leaf‐embowered nests, whose form and structure look indeed as if they were
+                    presided over by the spirit of love and peace. What, for one thing, should we
+                    see if we were to peep into some of them? Perhaps a cuckoo, uninvited, laying
+                    her egg in the nest of another kind of bird, whose own brood, when she has
+                    hatched the intruder, will be ruthlessly ejected by him. For, according to
+                    Darwin, the young cuckoo has not only the instinct, but a back actually adapted
+                    for getting rid of his foster‐brothers, who thus, poor things, unceremoniously
+                    thrown on the ground, perish of cold and hunger.</p>
+                <p>Then again, if we take the hive‐bees, we shall see in that wonderfully‐regulated
+                    community something not unlike an old‐fashioned monarchy with a ruler “by the
+                    grace of God.” For the queen‐bee is so absolute in<pb n="16" xml:id="VAB7154-008"></pb> her own domains that she will suffer no second near
+                    her, and promptly destroys the young queens her daughters, as soon as they are
+                    born, or perishes herself in the combat. Shelley would have had to own here that
+                    even “those royal murderers, whose mean thrones are bought by crimes and
+                    treachery and gore,” could hardly match the savage instinctive hatred of this
+                    little insect fresh from Nature’s hand. There is perhaps something even more
+                    appalling in the fact that the slave‐making instinct should exist among animals.
+                    But it seems that certain species of ants are in the habit of carrying off the
+                    pupæ of another species to their nests and there rearing them as slaves. These
+                    slaves are black and not above half the size of their red masters, so that the
+                    contrast in their appearance is striking. With some kinds of ants, the <foreign xml:lang="lat">Formica rufescens</foreign>, the tyrants, by never doing any
+                    work, have actually lost the power of helping themselves, and are so dependent,
+                    that when a migration takes place the slaves have to carry their masters in
+                    their jaws!</p>
+                <p>These, alas! are but a few examples taken at random of the oppression, strife,
+                    and cruelty, which seem to pervade all organic beings according to that dread
+                    law formulated by Darwin: “Let the strongest live and the weakest die.”</p>
+                <p>The fact is, that Shelley, when flying to Nature away from the hard‐hearted ways
+                    of men, was really leaping from the frying‐pan into the fire. For the very thing
+                    he abhorred most in human society—the implacable struggle for supremacy of one
+                    individual with another—was raging with tenfold force in the world around him,
+                    because less tempered by the mitigating influences of conscience and sympathy.
+                    It is true that the sensitive organisation of Shelley, shrinking from the rough
+                    contact with reality, never quite looked Nature in the face; and in west wind
+                    and sunset cloud, in running stream and fragrant flower, he recognised a more
+                    benignant manifestation of power than that which he saw in the Social State of
+                    Man, because what he saw reflected by these passive phenomena was in reality the
+                    shade of his own soul. And his own soul, being one of the loveliest as well as
+                    loftiest that ever passed<pb n="17" xml:id="VAB7154-009"></pb> across the stage of
+                    the world, transmuted the visible Universe to something after its own
+                    likeness.</p>
+                <p>In <bibl><title>Prometheus Unbound</title></bibl> Shelley grapples with the problem of good and
+                    evil, and with the moral regeneration of man; but, as I remarked before, it is
+                    to be regretted that in the working out of this magnificent idea the poet was
+                    not able to profit by those great generalisations of Darwin which have
+                    revolutionised the modern conception of life. I am inclined to call this poem
+                    the Passion‐Play of Humanity. Instead of the Crucifixion of Christ we have here
+                    Man himself, or perhaps, rather the Human Mind, enduring an agony of thousands
+                    of years through being held captive by Jupiter. Now Jupiter is in a certain
+                    sense the creation of Prometheus, and primarily holds his sway in heaven through
+                    him. So that all the misery endured by the Titan, and by the world of men and
+                    women for whom he suffers, and by the earth herself in sympathetic pity for her
+                    offspring, is due in reality to the phantasm of a celestial tyrant whose shadow
+                    clouds the universe. But surely the existence of evil is more deeply entwined
+                    with the roots of life than seems here admitted; and though the abolition of
+                    irresponsible tyrannic power in heaven and on earth would no doubt do much to
+                    lessen the ills of life, it can certainly not be regarded as a universal panacea
+                    for them. I do not know whether I shall be ignominiously expelled from the
+                    Shelley Society, or perhaps even stoned, if I confess that there has always
+                    seemed to me to be something crude and undigested in the manner in which the
+                    poet tries to solve the problem of good and evil in <bibl><title>Prometheus
+                        Unbound</title></bibl>. His leading motive is apparently the same as that which
+                    constitutes the vital teaching of all great religions—namely, the redemption of
+                    Man. The Titan, by the endurance of woes which hope thinks infinite, by the
+                    forgiveness of wrongs darker than death or night, by the defiance of power which
+                    seems omnipotent, has wrought out this deliverance. But it is curious how
+                    vaguely this great triumph is described. The principle of evil incarnated in
+                    Jupiter simply topples down or is hurled down, one hardly knows how, by
+                    Demogorgon, his son, and the<pb n="18" xml:id="VAB7154-010"></pb> change which
+                    straightway transforms the earth from a scene of toil, famine, war and tyranny,
+                    to one of boundless love and harmony, is equally shadowy. The spirit of the hour
+                    thus describes the change which has come over things on his proclaiming the glad
+                    tidings of the liberation of Prometheus:— <q>
+                        <l>“But soon I look’d,</l>
+                        <l>And behold thrones were kingless, and men walk’d</l>
+                        <l>One with the other even as spirits do,</l>
+                        <l>None fawn’d, none trampled; hate, disdain, or fear,</l>
+                        <l>Self‐love or self‐contempt, on human brows</l>
+                        <l>No more inscribed, as o’er the gate of hell,</l>
+                        <l>‘All hope abandon ye who enter here,’</l>
+                        <l>None frown’d, none trembled, none with eager fear</l>
+                        <l>Gazed on another’s eye of cold command,</l>
+                        <l>Until the subject of a tyrant’s will</l>
+                        <l>Became, worse fate, the object of his own,</l>
+                        <l>Which spurr’d him, like an outspent horse to death...</l>
+                        <l>Thrones, altars, judgment‐seats, and prisons; wherein,</l>
+                        <l>And beside which, by wretched men were borne</l>
+                        <l>Sceptres, tiaras, swords, and chains, and tomes</l>
+                        <l>Of reason’d wrong, glozed on by ignorance,</l>
+                        <l>Were like those monstrous and barbaric shapes,</l>
+                        <l>The ghost of a no more remember’d fame,</l>
+                        <l>Which, from their unworn obelisks, look forth</l>
+                        <l>In triumph o’er the palaces and tombs</l>
+                        <l>Of those who were their conquerors: mouldering round</l>
+                        <l>Those imaged to the pride of kings and priests,</l>
+                        <l>A dark yet mighty faith, a power as wide</l>
+                        <l>As is the world it wasted, and are now</l>
+                        <l>But an astonishment; even so the tools</l>
+                        <l>And emblems of its last captivity,</l>
+                        <l>Amid the dwellings of the peopled earth,</l>
+                        <l>Stand not o’erthrown, but unregarded now.<choice>
+                                <corr>”</corr>
+                                <sic>’</sic>
+                            </choice></l>
+                    </q></p>
+                <p>This ultimate triumph of the human mind over the forces of evil by which it is
+                    encompassed, and the consequent advent of a Golden Age, has been mystically
+                    foreshadowed by all great religious and ethical teachers, and Shelley could not
+                    have chosen a finer or more stupendous subject for a great dramatic poem. But I
+                    venture to think that if he had worked out this theme with more historic
+                    realism—if he had not unfortunately been debarred from casting into a poetic
+                    mould the modern scientific conception of evolution and the struggle for
+                    existence—that he would have shown the human race as typified in Prometheus, not
+                    as physically and morally depraved, owing to its gradual alienation from<pb n="19" xml:id="VAB7154-011"></pb> Nature, but, on the contrary, as emerging from
+                    a semi‐brutal, barbarous condition, and continually progressing to higher stages
+                    of moral and mental development. For the true conflict consists in man’s
+                    struggle with the irresponsible forces of Nature, and the victory in his
+                    conquest over them, both as regards the subjection of his own lower animal
+                    instincts and in his continually growing power through knowledge of turning
+                    these elemental forces, that filled his savage progenitors with fear and terror,
+                    into the nimblest of servants. This, I take it, would have been a conclusion
+                    more in harmony with the Darwinian conception of the universe, and also more
+                    consoling on the whole. For I suppose most of us would agree with Strauss’s view
+                    that, just as it is more honourable in a citizen to have raised himself from a
+                    lower to a higher station in the social scale instead of having lapsed into
+                    degradation from some former proud estate, so <emph>Man</emph> himself gains in
+                    moral value, when one reflects that with infinite pain and struggle he has
+                    slowly risen above the thraldom of physical nature, and eating of the fruit of
+                    the tree of knowledge has learned, at whatever cost of mere sensuous enjoyment,
+                    to distinguish good from evil. Shelley, on the contrary, bitten by the nature
+                    worship of Rousseau, was too much inclined to glorify not only the future but
+                    also the remote past, at the expense of the present. As, for example, when he
+                    says “that at some distant period man forsook the path of nature, and sacrificed
+                    the purity and happiness of his being to unnatural appetites, and that <emph>ALL
+                        VICE</emph> arose from the ruin of healthful innocence.” Here is hardly the
+                    place, or it would be easy to prove, from Darwin’s <bibl><title>Descent of Man</title></bibl>,
+                    that every kind of unnatural appetite and vice has prevailed among men in a
+                    state of nature. Thus the murder of infants was practised on the largest scale
+                    throughout the world, the robbery of strangers was considered as honourable,
+                    women were commonly like slaves, among some savage tribes it was custom to kill
+                    their old and decrepit parents, while intemperance, licentiousness, and
+                    unnatural crimes were the common practice. Considering that such was the
+                    original bias of humanity, we may perhaps apply to it the remark of an American
+                    humorist on being<pb n="20" xml:id="VAB7154-012"></pb> told that some one was a
+                    self‐made man, to wit, that it relieved his Maker of a great responsibility.</p>
+                <p>In concluding these few remarks, I can only trust that I have not been tiresome
+                    by dwelling too exclusively on Shelley’s philosophy of Nature, and scarcely at
+                    all on the simply artistic value of his work. But as we meet to help each other
+                    in a fuller comprehension of his poetry, I hope I shall be forgiven if I have
+                    ventured to point out certain imperfections in the work of our beloved poet.
+                    “Swear by no master’s words” is a saying of Goethe’s that would have been
+                    heartily endorsed by Shelley, the iconoclast of authority. But if he failed
+                    comparatively in his attempt “at solving the universe,” if I may be permitted to
+                    use a favourite expression of my friend, the late W.K. Clifford, Shelley
+                    succeeded, perhaps more completely than any other poet, in marrying the most
+                    sublime or evanescent appearances of the material universe to human emotion.
+                    Indeed, the essence of Shelley’s being seems to have become one with the
+                    impetuous west wind, his heaven‐aspiring song thrills us in the notes of the
+                    skylark, and the rapture of his words has added a new radiance to the beauty of
+                    flowers.</p>
+                <p>And though I have hitherto only dwelt on the contrast between the views of Nature
+                    held by Shelley and Darwin, I should like before concluding to say a few words
+                    as regards the final junction of their views in the glorious vistas they
+                    disclose of ever higher types of life replacing those that had gone before. For,
+                    judging by analogy, better, wiser, and more beautiful beings will inhabit this
+                    planet in the ages to come, according to the laws of evolution, than we can now
+                    have any conception of. And I hope that we are all agreed that in Shelley
+                    himself we have already a certain foreshadowing of something better—for with his
+                    exquisitely sensitive organisation, of which he might well say, “I am but as a
+                    nerve o’er which do creep the else unfelt oppressions of the earth,” with his
+                    scorn for vulgar aims ending in self‐aggrandisement, with his impatience of the
+                    conventional, continually hampering standards of morality, and with his passion
+                    for reforming the world, he seems lifted, not only above the needs and greeds of
+                    sensual desires, but<pb n="21" xml:id="VAB7154-013"></pb> also above fierce
+                    competition, the corroding jealousy, and malignant rivalries from which
+                    intellectual workers are so rarely exempt: failing, where he did fail, because
+                    he could not help investing the imperfect natures of transitory individuals with
+                    an ideal beauty which, fading on a closer view, induced in him a shuddering
+                    recoil of dismay and disillusion. Outsoaring the limits of the actual world,
+                    Shelley’s mind foreshadowed loftier types than any yet in existence, his purpose
+                    being, as he says, “to familiarise the highly‐refined imagination of the more
+                    select classes of poetical readers with beautiful idealisms of moral excellence;
+                    aware that, until the mind can love, and admire, and trust, and hope, and
+                    endure, reasoned principles of moral conduct are seeds cast upon the highway of
+                    life, which the unconscious passenger tramples into dust, although they would
+                    bear the harvest of his happiness.” In the noble‐hearted Laon, the liberator of
+                    his country, who only suffers defeat because he is fain to overcome his enemies
+                    by generosity; in Cythna, the high‐souled woman, who rouses her sex in harem and
+                    seraglio from the inanition of a weak dependence to an ardent participation in
+                    the noble war of liberation; and, above all, in Prometheus himself, the heroic
+                    martyr who vanquishes hell by pitying his torturers, the Furies: in these and
+                    similar types Shelley has incorporated nearly all of goodness, love, and wisdom
+                    that it is at present possible to conceive. But his creations have been accused
+                    of being vague and unsubstantial shadows that take no more hold of us than the
+                    visionary shapes seen in a sunset sky. And we cannot deny that the accusation
+                    contains more truth. For poets have unfortunately always been more successful in
+                    depicting scenes of passion, crime, and agony than in their descriptions of
+                    divine love and beatitude. Take only as an example the <bibl><title>Inferno</title></bibl> of
+                    Dante as compared to his <bibl><title>Paradiso</title></bibl>, or Milton’s Satan contrasted
+                    with the angelic hosts; and to come to more mundane subjects, the most tragic
+                    themes have always taken the strongest hold of men, as witness the murder of
+                    Agamemnon, the doom of Œdipus, the madness of King Lear, the ambition of
+                    Macbeth, the imprisonment of Margaret, the ordeal of Fantine.</p>
+                <pb n="22" xml:id="VAB7154-014"></pb>
+                <p>And it must be confessed that though, as a rule, we know very little of heaven,
+                    our experience of hell is pretty considerable. Now, as the substance of all
+                    poetry has to be extracted mostly from experience, Shelley, when he tried to
+                    embody his beautiful idealisms of moral excellence, and found that reality
+                    yielded him a rather meagre crop of impressions, had to weave his aërial webs
+                    too much from his own inner consciousness. But his glowing anticipation of a
+                    better future in store for humanity is, in a certain sense, the warrant of its
+                    own fulfilment, and his poetry will become a factor in helping to bring it
+                    about; for in the continual process of selection there is no reason why the
+                    moral ideals of one generation should not become the stepping‐stones toward
+                    their realisation in another. And in this process of evolution the final triumph
+                    of the human mind over the brute forces of nature may be achieved, and Shelley’s
+                    magnificent prophecy at the close of the fourth act of the
+                    <bibl><title>Prometheus</title></bibl> turn to simple truth, the prophecy that <q>
+                        <l>“The man remains,—</l>
+                        <l>Sceptreless, free, uncircumscribed, but man:</l>
+                        <l>Equal, unclassed, tribeless, and nationless,</l>
+                        <l>Exempt from awe, worship, degree, the king</l>
+                        <l>Over himself; just, gentle, wise: but man.</l>
+                        <l>Passionless? no:—yet free from guilt or pain,—</l>
+                        <l>Which were, for his will made or suffered them;</l>
+                        <l>Nor yet exempt, though ruling them like slaves,</l>
+                        <l>From chance, and death, and mutability,—</l>
+                        <l>The clogs of that which else might oversoar</l>
+                        <l>The loftiest star of unascended heaven</l>
+                        <l>Pinnacled dim in the intense inane.”</l>
+                    </q></p>
+            </div>
+        </body>
+        <pb xml:id="VAB7154-015"></pb>
+        <back>
+            <div type="docImprint">
+                <p>Printed by <bibl>
+                        <publisher>Richard Clay &amp; Sons, </publisher>
+                        <pubPlace>Bread Street Hill,</pubPlace>
+                        <date>December, 1886.</date>
+                    </bibl></p>
+            </div>
+        </back>
+    </text>
+</TEI>

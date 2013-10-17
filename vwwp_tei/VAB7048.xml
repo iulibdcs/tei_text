@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7048">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chiefly a Dialogue</title>
+                <author>Bevington, Louisa Sarah (Guggenberger) (1845-1895)</author>
+                <respStmt>
+                    <resp>Transcribed, encoded and edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 45 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>August 30, 1996</date>
+                <idno>VAB7048</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the New York Public Library.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Chiefly a Dialogue. Concerning Some Difficulties of a Dunce. </title>
+                        <author>Bevington, L. S. (Louisa Sarah), 1845-1895</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>L.S. Bevington </name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>15 p. </extent>
+                    <publicationStmt>
+                        <publisher>“Freedom” Office,</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1895">1895</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag,
+                    with the value "indent1" for one tab stop, "indent2" for two tab stops, etc. All
+                    split lines are attributed as "type=I" for the initial portion, and "type=f" for
+                    the final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="2"></tagUsage>
+                    <tagUsage gi="addrline" occurs="7"></tagUsage>
+                    <tagUsage gi="author" occurs="1"></tagUsage>
+                    <tagUsage gi="availability" occurs="1"></tagUsage>
+                    <tagUsage gi="back" occurs="1"></tagUsage>
+                    <tagUsage gi="bibl" occurs="1"></tagUsage>
+                    <tagUsage gi="biblfull" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="change" occurs="3"></tagUsage>
+                    <tagUsage gi="corr" occurs="9"></tagUsage>
+                    <tagUsage gi="date" occurs="5"></tagUsage>
+                    <tagUsage gi="div" occurs="1"></tagUsage>
+                    <tagUsage gi="div0" occurs="5"></tagUsage>
+                    <tagUsage gi="docdate" occurs="1"></tagUsage>
+                    <tagUsage gi="docedition" occurs="1"></tagUsage>
+                    <tagUsage gi="docimprint" occurs="1"></tagUsage>
+                    <tagUsage gi="doctitle" occurs="1"></tagUsage>
+                    <tagUsage gi="editorialdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="61"></tagUsage>
+                    <tagUsage gi="encodingdesc" occurs="1"></tagUsage>
+                    <tagUsage gi="extent" occurs="2"></tagUsage>
+                    <tagUsage gi="filedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="front" occurs="1"></tagUsage>
+                    <tagUsage gi="head" occurs="9"></tagUsage>
+                    <tagUsage gi="item" occurs="20"></tagUsage>
+                    <tagUsage gi="l" occurs="44"></tagUsage>
+                    <tagUsage gi="lg" occurs="10"></tagUsage>
+                    <tagUsage gi="list" occurs="2"></tagUsage>
+                    <tagUsage gi="name" occurs="6"></tagUsage>
+                    <tagUsage gi="p" occurs="115"></tagUsage>
+                    <tagUsage gi="pb" occurs="13"></tagUsage>
+                    <tagUsage gi="publicationstmt" occurs="2"></tagUsage>
+                    <tagUsage gi="publisher" occurs="3"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="3"></tagUsage>
+                    <tagUsage gi="resp" occurs="6"></tagUsage>
+                    <tagUsage gi="respstmt" occurs="6"></tagUsage>
+                    <tagUsage gi="revisiondesc" occurs="1"></tagUsage>
+                    <tagUsage gi="seriesstmt" occurs="1"></tagUsage>
+                    <tagUsage gi="sourcedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="sp" occurs="76"></tagUsage>
+                    <tagUsage gi="speaker" occurs="76"></tagUsage>
+                    <tagUsage gi="stage" occurs="2"></tagUsage>
+                    <tagUsage gi="tagsdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="tagusage" occurs="51"></tagUsage>
+                    <tagUsage gi="tei.2" occurs="1"></tagUsage>
+                    <tagUsage gi="teiheader" occurs="1"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="title" occurs="3"></tagUsage>
+                    <tagUsage gi="titlepage" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepart" occurs="2"></tagUsage>
+                    <tagUsage gi="titlestmt" occurs="2"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Imaginary conversations</item>
+                        <item>Anarchism</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/political+drama">political drama</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/didactic+poetry">didactic poetry</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/prose">prose</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1996-07-15</date><label>general editor.</label><name>Perry Willett,
+                </name>finished data entry, TEI-conformant encoding and proofing</change>
+            <change><date>1996-08-30</date><label>general editor.</label><name>Perry Willett,
+                </name>verified date of death of author</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-09" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-07-29" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-07-29" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-29" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>            
+            <change when="2010-08-25" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-15" who="elizabethmunson">Changed div type="back" to "publishers_catalog"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docEdition>PRICE ONE PENNY.</docEdition>
+                <docTitle>
+                    <titlePart type="main">CHIEFLY A DIALOGUE.</titlePart>
+                    <titlePart type="sub">Concerning Some Difficulties of a Dunce.</titlePart>
+                </docTitle>
+                <docImprint>
+                    <pubPlace>London.</pubPlace>
+                    <publisher>“Freedom” Office,
+                        <address><addrLine>7 Lamb’s Conduit Street,
+W.C.</addrLine></address></publisher>
+                    <docDate>1895.</docDate>
+                </docImprint>
+            </titlePage>
+        </front>
+        <body>
+            <pb xml:id="VAB7048-001"></pb>
+            <div type="dialogue">
+                <head>A DIALOGUE.</head>
+                <head type="sub">BY L.S. BEVINGTON.</head>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>What is money?</p>
+                </sp>
+                <sp>
+                    <speaker>The Other Fellow.—</speaker>
+                    <p>Something rare and useless which you are compelled to obtain before anyone
+                        will let you get at things that are needful, useful and plentiful.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Oh! Then, I suppose, if you have not got any money you had better leave off
+                        hoping for the plentiful things, and set to work to make what you want for
+                        yourself.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Why, old man, you can’t!</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>How's that? I feel as if I could.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Not you. Money is there to stop you. It is a means used not only for making
+                        it difficult for you to get at what is ready‐made, but also for making it
+                        dangerous for you to start digging or planting, or making what you want for
+                        yourself.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Then what on earth is money good for?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Ah, that's where the joke comes in. Money is a device for enabling
+                            <emph>some</emph> people to get at whatever they want without paying for
+                        it.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>What is paying?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Damaging yourself in some way: parting with what you are in need of; enduring
+                        something injurious; depriving yourself of health or strength or rest;
+                        spending more than your exertions can restore to you; impoverishing your
+                            <emph>life</emph> in some way. Money lets <emph>some</emph> people get
+                        all they want, and more too, by only damaging <emph>other</emph> people; so
+                        that they themselves are not required to pay at all.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Oh, but I shouldn’t like to do that. Is there not enough of everything in
+                        this great big world for everyone to get at what they are in want of without
+                        damaging anyone?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Yes; and now-a-days it can all be got at too. But, then, there's not
+                            <emph>money</emph> enough to go round; and as I said before, you are
+                        bound to get money before you will be <choice>
+                            <corr>allowed</corr>
+                            <sic>all wed</sic>
+                        </choice> to get at anything better, or even to make and use anything
+                        better, for yourself. And if no one <emph>gives</emph> you money which some
+                        one else has paid for, you will have to pay for some yourself. But whether
+                        you are one of the people who pay damage or no, when<pb xml:id="VAB7048-002"></pb> you have once got money enough away from other people, you can bribe
+                        anyone with it to let you have anything else you choose.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>What people are they who don't pay?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Well, they have many names. They call themselves “noble” people, and “gentle”
+                        people; “upper” people, “higher” people, the “best” people, and so on. They
+                        speak of one another’s “majesty,” “highness,” “grace,” “holiness,” and
+                        “eminence”; and are addressed as “honorable,” “reverend,” “learned,”
+                        “worshipful”; and, in the absence of the other epithets, never miss getting
+                        themselves called “respectable.”</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>What pretty names! Why do they call themselves all that?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Their god only knows. (There are three Ms and an N in their god’s name. Aye!
+                        And he <emph>is</emph> in the know, too; and “has mercy on them, miserable
+                        sinners.”) But they only call themselves by fancy names when money is not
+                        being inquired about. When it is, and especially when they are thinking
+                        about the man in the street, they call themselves Sovereigns, Legislators,
+                        Owners, Employers, Pastors, Masters and Benefactors. And the man in the
+                        street is mostly careful to get well out of the way of their
+                        carriages‐and‐pairs before he has the cheek to nickname them Bosses,
+                        Exploiters, Sweaters, Parasites, Loafers and Frauds. They are all men of
+                            <emph>means</emph>, that’s why.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>What is a man of means?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>I told you before: men with money enough to procure necessaries, comforts,
+                        luxuries, leisure and pleasure without paying for them and entirely at other
+                        folk’s expense; and then to force these folks to put up with them.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>But don’t people pay for what <emph>money</emph> they have?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Some do; some don’t.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Who have the most money; the people who pay for it, or the people who
+                        don’t?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>The people who don’t. They are called “rich” people, because they get more
+                        means than they can use up. They grow tall and live a long time, and are
+                        very much respected.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>And what are the people called who pay for what money they have?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>They are called “poor” people. They spend their time, strength and ability in
+                        making necessaries, comforts and luxuries to give the rich people. They
+                        generally die early, and often miserably. They are not at all respected or
+                        envied.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Why do they spend themselves like that?</p>
+                </sp>
+                <pb n="5" xml:id="VAB7048-003"></pb>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>To buy a little money with, from the rich people whom they make the presents
+                        to. You see, they cannot have any food or clothing for themselves till they
+                        have bought some money. And without any food or clothing they could not go
+                        on spending their time and strength again to‐morrow, and then the rich
+                        people would miss their luxuries.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>But when they have bought enough money for their food and clothes, whom do
+                        they give it to? where do the food and clothes come from?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>One question at a time, please. They <emph>don’t</emph> give in the money
+                        where the food and clothes come from. They give the money to some people who
+                        have custody of the food and clothing, but who have not made it; and these
+                        people give a little of the money to the poor people who <emph>have</emph>
+                        made the food and clothes, keeping the rest for themselves. Sometimes the
+                        money is handed through several, and what passes on gets less and less, so
+                        that the men who buy the last shillings of it with the time and toil which
+                        they have spent away in providing the good are, you see, poor men also. This
+                        way of going on is called “business.”</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Stop! Let me understand. Then you mean to say that some rich folk, whom for
+                        clearness I’ll call Strong, Sons &amp; Co., get the full produce of the
+                        poor men’s life‐time and life‐strength, and turn it into counters, and then
+                        hand back a very few of the counters so that the poor men may have them as
+                        tickets for useful stuff for Strong &amp; Co. to‐morrow; and then do you
+                        tell me that another lot of rich people, whom we’ll call Rong Brothers
+                        &amp; Co., take the tickets as a bribe for the clothes and food, and
+                        keep back part of the counters from the other poor men who have made the
+                        clothes and food on like terms?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Yes, that’s something like how it is. Only you’ve got to recollect that, with
+                        Strong, Sons &amp; Co., over the way, insisting upon having everything
+                        they can think of for nothing, and forcing <emph>everybody</emph> to take
+                        their counters in exchange or go without, Messrs. Rong Brothers &amp;
+                        Co. couldn’t live <emph>at all</emph> (let alone live idly or “respectably”)
+                        if they did not stop some of the goods from going straight where they are
+                        wanted, so as to be able to stop some of the counters coming from the other
+                        direction. They then let the goods pass on their way on condition of
+                        receiving <emph>more</emph> counters than they gave up in order to get the
+                        goods into their custody. What do you think of it all?</p>
+                </sp>
+                <pb n="6" xml:id="VAB7048-004"></pb>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Why, if you ask me plainly, I think the rich men are impudent rogues, and the
+                        poor men are damned fools. Which are you, sir, may I ask?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Oh, I’m one of the damned fools, or I certainly should not have answered your
+                        questions on the square. But, mark you, the impudence of the other gang is
+                            <emph>legal</emph>. There’s a deal in that<choice>
+                            <corr>.</corr>
+                            <sic></sic>
+                        </choice> And it takes a clever dunce like you to find out I am a fool. Most
+                        people think a man wise and prudent who puts up with what is legal. But
+                        you’re right; I <emph>am</emph> a fool.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Legal! legal!—what’s <emph>legal</emph>?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Oh, come now! Have I got to explain that too? Legal means according to
+                        Parliamentary law: the business way of managing to live by money, at the
+                        cost of other people’s lives and liberties is according to law, whether
+                        fools call it impudence or not.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Isn’t there any plainer word to tell me what Parliamentary law is; and why it
+                        makes people seem wise who put up with being impudently treated?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Why, Parliamentary law is whatever a few score of fellow have settled among
+                        themselves to make tens of millions of other people conform to; in fact,
+                        everybody is made to conform who has not extra money enough to make it worth
+                        the while of anyone in office to let him go his own way instead.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Oh! ah! But that isn’t telling me <emph>what</emph> “law” is. What is it
+                        those fellows want you to conform to?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Well, you’ve got to conform to anything, no matter what, that more than half
+                        this little lot of fellows want to see other people do. Sometimes it’s one
+                        thing; sometimes it’s another: but it is always whatever this lot of fellows
+                        suppose will turn out best for <emph>business</emph>.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Then, it is only the wishes of the bigger number of this little lot that all
+                        other people are made to conform to? And the wishes of these law‐fellows is
+                        whatever is good for business? And business is the plan of getting most
+                        money into the hands of people who pay least? And money is a means by which
+                        these people may make it difficult for the rest of us to get at what is
+                        necessary in order to make useful things with, and difficult to have the use
+                        of them when made? (Scratches his head.) And folks are “damned fools” who
+                        don’t see the wisdom of putting up with it all.........Please, sir, what is
+                        this country called?—because it seems to me that everyone in it is off his
+                        chump.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>You dunce! It is a glorious Empire! The land of the <emph>free</emph>!!</p>
+                </sp>
+                <pb n="7" xml:id="VAB7048-005"></pb>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Free what? Free business‐law makers? or free rich law‐breakers? or free
+                        swindlers and sweaters? or what?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Sh—! It isn’t respectable to talk like that. Free <emph>citizens</emph>, of
+                        course! A free citizen is a law‐abiding citizen. You are free just as far as
+                        you do what you are told.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>I say, you’re having a game with me! I’m not such a dunce that I don’t know
+                        what “free” means. It doesn’t mean abiding by what you are told, especially
+                        when you can’t “abide” the chaps that tell you, nor yet their impudence.
+                        Free means exactly the opposite. It means living just how your own
+                        give‐and‐take commonsense makes you want to live. It means not being made to
+                        toil when you are in want of rest; and it means not being forced to be idle
+                        when you want to be at work.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Oh, that sort of freedom is only fit for angels and the other lower animals.
+                        It may suit beavers and birds and bees all right; but you and I are free
+                        citizens, you know, because we can take our chance of choosing
+                            <emph>whose</emph> wishes we will conform to. We can have a “Yes,” or
+                        “No,” to give to anyone who wants to be a law‐maker; and if a certain number
+                        of others choose him too, then he can be one of those whose will will become
+                        our law and everyone else’s, that is, of course, if he is one of those who,
+                            <emph>by counting heads</emph>, prevails over the others in Parliament.
+                        You must see how much freer that makes a citizen than having only himself to
+                        consult! And a country may well be called free where nearly everyone can
+                        help choose his own law‐master, some one whose head may chance to count up
+                        on the right side.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p><emph>Nearly everyone?</emph> I suppose that means nine out of ten of us?
+                        Well, there’s me and my wife at home, and my aged mother, and my daughter,
+                        aged 22; and two strong sons of 17 and 18. I suppose if nearly all of us can
+                        help choose whose wishes we’ll conform to (so that business may go on) we
+                        all of us at home can have a choice; unless perhaps me, because everyone
+                        knows I’m a dunce. My mother and wife and daughter and sons are very sharp
+                        witted.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>No: on the contrary, it’s only you in all the family who may help choose
+                        someone to impose on the lot of you <emph>his</emph> way of keeping business
+                        what it is, and of keeping the rich people where they are,—that is, in
+                        position and in possession.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Lord! how queer! What knocks me is your saying we are <emph>all</emph> free
+                        citizens. If many households are constituted like mine, I should say it was
+                        only a small minority who may even choose,<pb n="8" xml:id="VAB7048-006"></pb>
+                        and <choice>
+                            <corr>it’s</corr>
+                            <sic>its</sic>
+                        </choice> a chance whose choice wins; and that believing in one master more
+                        than another has nothing to do with being <emph>free</emph>. But now,
+                        explain to me why anyone <emph>must</emph> choose any law‐maker at all?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p><emph>Must</emph> choose? Well, there’s nothing to make you choose
+                            <emph>anyone</emph> if you don’t want to. And there’s no
+                            <emph>reason</emph>, if you come to that, why people who don’t like to
+                        spend their lives in working and suffering for the leisure and pleasure of
+                        those who take all their means from them, and run the laws to save
+                        themselves from being opposed,—no reason <emph>at all</emph> why they should
+                        choose anyone. But I suppose they do it because they good‐naturedly believe
+                        the man they chooses cares more about them than himself; or because they
+                        believe it is good for somebody else even if it isn’t very advantageous for
+                        themselves to have to conform to whomsoever wants to have his will made into
+                        law. And then, you see, if the poor don’t help choose, they rightly suppose
+                        the rich will have all the choosing to themselves; and everything would be
+                        more business‐like than ever. For, if you don’t help choose, mark you, you
+                        have to conform to what <emph>others</emph> choose, all the same.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>What a hell of a fix! But you keep saying “<emph>have</emph> to conform,” and
+                            “<emph>make</emph> you conform,” How’s that? How can you be
+                            <emph>made</emph> to do anything in a land of free citizens?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>What I mean by being made to conform is that if it is known that you don’t
+                        want to conform you’ll not get employed to help fatten any business man and
+                        his covey. And if he don’t want you for his job you’ll starve, just in
+                        proportion as you are free and law‐abiding. That is your impersonal,
+                        non‐aggressive legal punishment at his hands. And if you really set about
+                        going your own way as a man, wherever and whenever you think the law is
+                        unfair, the you’ll get a personal and direct punishment. Why, man alive!
+                        you’ve heard of “coppers” and police‐courts, and soldiers and bullets and
+                        prisons and gallows, eh? You live in the enemy’s country wherever you
+                        go.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Yes; but even now I can’t imagine how it is possible to get the prisons
+                        built, or to find police and soldiers enough to do any particular harm with,
+                        if there are so few rich people in comparison with poor people. For, I
+                        suppose it is only rich people who care to build prisons or arsenals, or who
+                        will care to be coppers or soldiers or hangmen?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>You Juggins! No. The rich people can’t do all that! Why they want all their
+                        time for the Turf, and clubs, and big<pb n="9" xml:id="VAB7048-007"></pb>
+                        “receptions,” and “little” dinners, etc., etc., etc. The prison‐builders,
+                        and bullet and bomb makers, gallows‐men, soldiers and bobbies are all poor
+                        devils like you and me! The rich folk carry out their law against the poor
+                        with the help of the poor. If our sort didn’t do it for them, and bully our
+                        own sort in favour of the big bugs, then it wouldn’t get done at all,
+                        because it <emph>couldn’t</emph>.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Then being poor seems to make men do whatever rich folk want done; even if it
+                        is to injure themselves and to help kill one another.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Yes: being poor means being governed, body and soul. Being rich means
+                        governing.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Govern? that’s another new word.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Same as law. That is to say, Government is a trick in two moves: First move,
+                        make your will “law”; second move, injure people who disobey your will, that
+                        is who “break” your law.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce</speaker>
+                    <stage type="mix">(indignantly).—</stage>
+                    <p>And, top of all this, you mean to tell me the people who are wise not to
+                        laugh at the officers, spoil the arsenals, make a bonfire of law‐papers and
+                        title‐deeds, and—</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>For Peace and Quiet’s sake stop <emph>that</emph> nonsense. Why, it’s tru—
+                        it’s Anar—, at any rate it’s revo— I mean it’s downright
+                            <emph>unconstitutional</emph> to talk that way! It is quite
+                        constitutional to lock men up for less than that sometimes.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce</speaker>
+                    <stage type="mix">(after reflection).—</stage>
+                    <p>Well, I’ve got an idea that can’t be unconstitutional. Suppose all the poor
+                        people chose a little set of men like themselves to make the laws, how would
+                        the rich people get along then?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Come, dunce; you’re getting quite a politician! And that’s the very thing the
+                        rich folk more than anyone else would be glad to see you stop at, because
+                        your interests would have to lie their way then, and real change could be
+                        avoided.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>How’s that? Surely poor men’s laws would be all fair and square; and there
+                        would be plenty of everything—bread, occupation, education, and liberty,—for
+                        everyone then, and no money to hitch the wheels with.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Poor men’s laws! Ha! ha! Poor men don’t need laws to make them able to dig
+                        and plant, or build machines and houses, or make roads, or steer ships, or
+                        take notice and learn things, and think. They can do all that as easily as
+                        bees can make a honeycomb and fill it, directly you sweep all the legal
+                        money‐rubbish out of the way, and let them get at the land, and at the
+                        machinery they have already made. It is only par‐<pb n="10" xml:id="VAB7048-008"></pb> asites that can’t get hold of what they want any
+                        way except by turning the workers’ honey into money, and then wiping it into
+                        their own pockets by the great law‐trick.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Well, but poor men in the talking‐shop might talk <emph>their</emph> wills
+                        into law, mightn’t they? And make it <emph>illegal</emph> for anyone to live
+                        an other people’s cost.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>No: poor men are not patent men, warranted to <emph>keep square</emph> where
+                        it is cheaper to <emph>turn round</emph>. They are just like other men so
+                        far as that goes, and once inside the “gas‐house” their first job is to stop
+                        there, and get themselves made into rich men if they can. Their “honorable”
+                        position makes them change their tastes to fit the present system and their
+                        memories get hazy about their mates in the street. And it soon dawns upon
+                        them that in order to run <emph>any laws at all</emph> with reference to a
+                        class that the laws <emph>don’t suit</emph>, it is needful to do more than
+                        talk and report and tie knots in red tape. They must have the disposal of
+                            <emph>Tyranny’s tricolor</emph>!</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Eh? What’s that?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p><choice>
+                            <corr>Tyranny’s</corr>
+                            <sic>Tranny's</sic>
+                        </choice> three colors, I say, Red, Black, and Blue;—Soldiers, Priests and
+                        Policemen. If they have truncheons, cordite, and hell‐fire to drive their
+                        laws home with, well and good. But law, without these little aids, ends in
+                        gas, and looks silly. And these three implements cost <emph>money</emph>,
+                        don’t you see? How are law‐makers to expect to get the business folks’ money
+                        to pay for brute force and clerical cunning, when it is to oppose business
+                        and riches by it?</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Why, by taxes. I didn’t know what law was till you told me, but the
+                        tax‐collector told me the law could <emph>force</emph> me to pay my taxes,
+                        and had a right to the money to keep up the Royal Family, and the Army, and
+                        the Church, and God knows what. But if <emph>we</emph> had the government we
+                        could force the rich people to pay for things <emph>we</emph> care about,
+                        couldn’t we?—Education, and Science, and Art, and beautiful smooth roads and
+                        railways, and electric locomotion, and miles of splendid gardens and free
+                        parks. Oh, my!</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>How you do gallop on. It is all wrong. Governments can only get money into
+                        their hands by taxing folks who have money. And more and more people would
+                        be short of money, to pay government or anyone else, if business got shaky
+                        or trade came to a standstill. And business and trade <emph>would</emph> get
+                        shaky directly people with a little money stopped a trick called
+                        “investing.” And they <emph>would</emph> stop investing if Govern‐<pb n="11" xml:id="VAB7048-009"></pb> ment couldn’t be trusted to back up business for
+                        them, and to leave the control of the land and other capital just where it
+                        is. No, no, dunce. Even if it were any good to anyone to have this or that
+                        set or class of men forcing their notions on all the rest, there would still
+                        be no chance of getting government worked by our sort in our behalf. No need
+                        to waste time and energy that way. Everything that really wants doing by
+                        arrangements made directly among those able and willing to do it, without
+                        any formalities forced on them (with fines attached) by men at a distance
+                        not directly concerned in it. Red tape is expensive, mind you, besides
+                        tangling everybody’s fingers.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Then what earthly reason have the people for not <emph>joining
+                            together</emph> and getting whatever there’s enough material and
+                        machinery for, without bothering about the law? What is there to stop the
+                        poor policemen and soldiers from helping the people to employ themselves
+                        without orders from officers. What earthly reason—</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Look here! You forget the Church. There’s no <emph>earthly</emph> reason, but
+                        there’s an <emph>un</emph>earthly one. The priests and parsons who live at
+                        the people’s cost, like the rest of the business world. They don’t produce
+                        any wealth but they are allowed by the law to use up a good deal in exchange
+                        for the service they do the Royalties and Law‐and‐War‐makers, Bankers and
+                        Stockbrokers, Pleasure‐seekers and loafing Landgrabbers. Their job is to
+                        keep the people’s minds dull and quiet, so that they should not make awkward
+                        inquiries, and find out how the whole swindle began and what it’s kept going
+                        for. They chloroform the people’s wits.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>That’s a bit! How can they chloroform anyone who doesn’t choose?</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Why, by telling them corrupting lies about wrongs and rights, and making out
+                        there’s a dreadful curse on people who don’t believe what parsons and
+                        priests say, and by keeping them so ignorant that they have no chance of
+                        discovering where the lies come in. These lovers of darkness have the
+                        decency to dress up in black; it is about the only honest thing they do.
+                        They cadge for money to run their music, illuminations, scents, millinery,
+                        and entertainments in church—bait for women and children’ and, bock of it
+                        all, their job is to <emph>steal a march</emph> on straightforward progress,
+                        so as to keep the game as long as possible in the hands of those classes
+                        whose interests it is to run churches. They are after their own grub in the
+                        only way they<pb n="12" xml:id="VAB7048-010"></pb> know. It is a very
+                        respectable way of lying, cheating and tyrannising. In this free country
+                        these black ones are all the sons of gentiles and nobles and
+                        highly‐respectable commercials.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Still I don’t see how they can tie the hands of the people and prevent
+                        soldiers and police from joining them in trying for freedom.</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Tie their <emph>hands</emph>? no. They know a trick worth two of that. They
+                        tie their <emph>consciences</emph> while they are young. They are funks
+                        about argument with men, but by flattering and baiting the women they get
+                        the children trusted to them in the schools of ignorance, because the little
+                        creatures are so defenceless against lies, that the best of them can be made
+                        to grow up with just that shaped conscience that it suits law and property
+                        for wage‐slaves to have. When the people find out what the Church is after,
+                        then there’s hope for the people. Not before.</p>
+                </sp>
+                <sp>
+                    <speaker>Dunce.—</speaker>
+                    <p>Well, your information has made me feel sure of one thing. Law is only a fine
+                        word for coarse, cruel force wrapped up in fraud and cunning. And its only
+                        use is to keep up property and to keep rich people easy and unopposed. It is
+                        a big infernal <emph>swindle</emph>!</p>
+                </sp>
+                <sp>
+                    <speaker>Other Fellow.—</speaker>
+                    <p>Agreed, old man. It is not Power but Freedom we want. You are a dunce, and I
+                        am a fool; but I think it would puzzle a philosopher to prove we were
+                        wrong.</p>
+                </sp>
+            </div>
+            <div type="poem">
+                <head>PLAYED OUT.</head>
+                <lg type="verse_paragraph">
+                    <l rend="ti-1">Too long have been played</l>
+                    <l rend="ti-1">Moral tricks of mere trade,</l>
+                    <l>They’ve brought us well‐nigh to perdition;</l>
+                    <l rend="ti-1">For trade as a saviour</l>
+                    <l rend="ti-1">Of human behaviour</l>
+                    <l>Is placed in a d———d false position.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l rend="ti-1">The base of sound moral</l>
+                    <l rend="ti-1">Leaves room for no quarrel,</l>
+                    <l>But binds every life to its brothers;</l>
+                    <l rend="ti-1">While the meaning of trade</l>
+                    <l rend="ti-1">Is—“Sell! <emph>Sell</emph>!—till you’re ‘made.’</l>
+                    <l>“Get power, Number One; <emph>hang</emph> the others!”</l>
+                </lg>
+            </div>
+            <pb n="13" xml:id="VAB7048-011"></pb>
+            <div type="poem">
+                <head>HOW IT’S DONE.</head>
+                <lg type="verse_paragraph">
+                    <l>“How shall I fill this church of mine</l>
+                    <l rend="ti-1">“On which my power depends?”—</l>
+                    <l>“Say what old Mammon wants to hear,</l>
+                    <l rend="ti-1">“And he will help your ends.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“How shall I win an echoing name,</l>
+                    <l rend="ti-1">“As one too just to sin?”—</l>
+                    <l>“Why, own a ‘Daily,’ sweat your staff,</l>
+                    <l rend="ti-1">“And puff yourself therein.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“But how to get the paper read?”—</l>
+                    <l rend="ti-1">The tradesman swift replies:</l>
+                    <l>“Just advertise my shoddy, sir,</l>
+                    <l rend="ti-1">“And then I’ll buy your lies.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“How shall I make my son a lord?”</l>
+                    <l rend="ti-1">Sighs yonder man of beer.</l>
+                    <l>One who has done it tips the wink,</l>
+                    <l rend="ti-1">And whispers in his ear—</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“Run your own venture on the cheap,</l>
+                    <l rend="ti-1">“And flatter those you sweat;</l>
+                    <l>“Give moral reasons everywhere,</l>
+                    <l rend="ti-1">“And keep what <choice>
+                            <corr>of</corr>
+                            <sic>oof</sic>
+                        </choice> you get.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“How shall I get my weary wife</l>
+                    <l rend="ti-1">“An hour of needed rest?</l>
+                    <l>“How shall I feed the little child</l>
+                    <l rend="ti-1">“That’s starving at her breast?”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“Disguise your principles, my man,</l>
+                    <l rend="ti-1">“Accept a priest’s advice,</l>
+                    <l>“And sell your soul, to feed your child,</l>
+                    <l rend="ti-1">“At labour’s lowest price.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“How shall I get our daughter wed?”</l>
+                    <l rend="ti-1">Cries Dives to his wife—</l>
+                    <l>The answer was so infamous</l>
+                    <l rend="ti-1">I ran for my dear life.</l>
+                </lg>
+            </div>
+            <pb n="14" xml:id="VAB7048-012"></pb>
+            <div type="text">
+                <head>THE ANATHEMASIAN CREED.</head>
+                <p>Whosoever will be damned, before all things it is necessary that he hold the
+                    Capitalistic Faith.</p>
+                <p>Which Faith except everyone do keep whole and unqualified, without doubt he shall
+                    progress indefinitely.</p>
+                <p>And the Capitalistic Faith is this: that we worship one Mammon in Trinity and
+                    Trinity in Unity.</p>
+                <p>Neither confounding the monopolies nor dividing the substance (especially not
+                    dividing the substance).</p>
+                <p>For there is one monopoly of the Money‐Bag, another of the Statute, and another
+                    of the Holy Church.</p>
+                <p>But the Mammon of the Money‐Bag, of the Statute, and of the Holy Church is all
+                    one; the vainglory equal, the majesty co‐infernal.</p>
+                <p>Such as the Money‐Bag is, such is the Statute, and such is the Holy Church.</p>
+                <p>The Money‐Bag indiscriminate, the Statute indiscriminate, and the Holy Church
+                    indiscriminate.</p>
+                <p>The Money‐Bag indefensible, the Statute indefensible, and the Holy Church
+                    indefensible.</p>
+                <p>The Money‐Bag infernal, the Statute infernal, and the Holy Church infernal.</p>
+                <p>And yet they are not three infernals but one infernal.</p>
+                <p>As also there are not three indefensibles, nor three undiscriminated, but one
+                    undiscriminated and one indefensible.</p>
+                <p>And yet there are not three Almighties but one Almighty.</p>
+                <p>So is the Money‐bag a god, the Statute a god, and the Holy Church a god.</p>
+                <p>And yet there are not three gods, but one god.</p>
+                <p>Likewise the Money‐bag is Law, the Statute is Law, and the Holy Church is
+                    Law.</p>
+                <p>And yet not three Laws, but one Law.</p>
+                <p>For like as we are compelled by the Capitalistic Verity to acknowledge every
+                    privileged <choice>
+                        <corr></corr>
+                        <sic>)</sic>
+                    </choice> personage by himself to be God and Law<choice>
+                        <corr>.</corr>
+                        <sic></sic>
+                    </choice></p>
+                <p>So are we forbidden by the Capitalistic superstition to say there be three Gods,
+                    or three Laws.</p>
+                <p>The Money‐Bag is made of none, neither needed nor earned.</p>
+                <p>The Statute is of the Money‐Bag alone, not earned nor needed, but purchased.</p>
+                <p>The Holy Church is of the Money‐Bag and the Statute, neither earned nor needed
+                    nor purchased, but resulting.</p>
+                <p>So there is one Mammon, not three Mammons; one Statute, not three Statutes; one
+                    Holy Church, not three Holy Churches.</p>
+                <p>And in this Trinity none is afore or after the other, none is greater or less
+                    than another.</p>
+                <p>But the whole three Jingoes are co‐infernal together and co‐equal.</p>
+                <p>So that in all things as is aforesaid the Unity in Trinity and the Trinity in
+                    Unity is to be worshipped.</p>
+                <p>This is the Capitalistic Faith, which except a man believe faithfully he may
+                    possibly be saved.</p>
+                <p>Glory be taken from the Money‐Bag, and from the Statute, and from the Holy
+                    Church.</p>
+                <p>As it was in the beginning so it isn’t now, nor ever will be again. Progress
+                    without end. Amen.</p>
+            </div>
+            <pb n="15" xml:id="VAB7048-013"></pb>
+            <div type="text">
+                <head>WHO MADE THE CAKE?</head>
+                <p>“In the sweat of your brows,” the rich man said, “ye who are useful shall eat
+                    your bread. In the sweat of your brows, too—don’t mistake—we pastors and masters
+                    will live on cake.” Year in, year out, the sweating was done; they toiled in the
+                    factory, toiled in the sun; for the master still left them a daily crust, and
+                    the pastor still preached that the text was just. Year in, year out, grew the
+                    pile of laws; this point grew weightier, clause by clause, “To him that holdeth
+                    shall more be given; from him that yieldeth take all but—heaven.”</p>
+                <p>The Lord said, “Sweat of the brow brings bread.” It was something shrewder the
+                    landlord said:—“Out of their sweat‐won bread we’ll draw cake for ourselves, and
+                    our rights by law.” The parson in preaching quite left that out; the people were
+                    foolish and dull, no doubt; but landlords<choice>
+                        <corr>’</corr>
+                        <sic></sic>
+                    </choice> hirelings have such an air when they mount in the pulpit or groan in
+                    prayer. They have lived on the fat of the land, you see, by letting the will of
+                    the landlord be, and by urging the winners of daily bread to bow to God’s will
+                    in all they said.</p>
+                <p>Well, a new day dawned, and the people awoke, and found it was only old Mammon
+                    who spoke; they examined the swindle that held them fast, and got to the back of
+                    the trick at last. The sweat of the patient, toil‐worn brow, buys more than the
+                    vouched‐for bread by now. Surely, O world, there’s a sad mistake, for where are
+                    the people who made the cake? How are they cared for, how are they fed?
+                    Care‐worn and bound with their crust of bread; while the folk whom they feed
+                    make a law, you see, to keep themselves leisurely, merry, and free.</p>
+                <p>Men of the <choice>
+                        <corr>factory</corr>
+                        <sic>factoy</sic>
+                    </choice>! men of the field! you who have won all this plentiful yield, cry to
+                    the world for your children’s sake—</p>
+                <p>“Those who have made it shall taste of the cake!”</p>
+            </div>
+        </body>
+        <back>
+            <div type="publishers_catalog">
+                <head>FREEDOM, THE ANARCHIST, THE TORCH, &amp; LIBERTY, </head>
+                <head type="sub">Journals of Anarchist‐Communism.</head>
+                <list type="simple">
+                    <head>FREEDOM PAMPHLETS.</head>
+                    <item>No. 1. THE WAGE SYSTEM. By Peter Kropotkine. 1d.</item>
+                    <item>No. 2. THE COMMUNE OF PARIS. By Peter Kropotkine. 1d.</item>
+                    <item>No. 3. A TALK ABOUT ANARCHIST‐COMMUNISM BETWEEN TWO WORKERS. By E.
+                        Malatesta. 1d.</item>
+                    <item>No. 4. ANARCHIST‐COMMUNISM: ITS BASIS AND PRINCIPLES. By Peter Kropotkine.
+                        1d.</item>
+                    <item>No. 5. ANARCHY. By E. Malatesta. 1d.</item>
+                    <item>No. 6. ANARCHIST MORALITY. By Peter Kropotkine 1d.</item>
+                    <item>No. 7. EXPROPRIATION. By Peter Kropotkine. 1d.</item>
+                    <item>No. 8. ANARCHISM AND OUTRAGE. By C.M. Wilson. ½d.</item>
+                </list>
+                <list type="simple">
+                    <item>LAW AND AUTHORITY. By Peter Kropotkine. 2d.</item>
+                    <item>EVOLUTION AND REVOLUTION. By Elysee Reclus. 1d.</item>
+                    <item>AN APPEAL TO THE YOUNG. By Peter Kropotkine. 1d.</item>
+                    <item>THE CHICAGO MARTYRS. Their speeches in Court and the record of their
+                        trial, with the reasons given by Governor Altgeld for pardoning Fielden,
+                        Schwab, and Neebe. Price sixpence.</item>
+                    <item>AN ANARCHIST ON ANARCHY. By Elysee Reclus. 1d.</item>
+                    <item>GOD AND THE STATE. By Michael Bakounine. Price fourpence.</item>
+                    <item>THE IDEAL AND YOUTH. By Elysee Reclus. 1d.</item>
+                    <item>REVOLUTIONARY STUDIES. By Peter Kropotkine. 1d.</item>
+                    <item>REVOLUTIONARY GOVERNMENT. By Peter Kropotkine. 1d.</item>
+                </list>
+                <bibl>Printed by T. Cantwell at 98 Judd Street, London, W.C.</bibl>
+            </div>
+        </back>
+    </text>
+</TEI>

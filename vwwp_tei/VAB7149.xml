@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7149">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Sanctuary of Mercy</title>
+                <title type="filing">Sanctuary of Mercy</title>
+                <author>Caird, Mona (1854-1932)</author>
+                <respStmt>
+                    <resp>Transcribed, encoded and edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 27 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>23-June-1999</date>
+                <idno>VAB7149</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the New York Public Library Research
+                    Collections.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The Sanctuary of Mercy.</title>
+                        <author>Caird, Mona</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Mona Caird</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>8 p.</extent>
+                    <publicationStmt>
+                        <publisher>[s.n.]</publisher>
+                        <pubPlace>[London] </pubPlace>
+                        <date to="1879" from="1890">[189?]</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All quotation marks, hyphens, dashes, apostrophes and colons have been
+                    transcribed as entity references.</p>
+                <p>All single right quotation marks are encoded as &amp;rsquo;, apostrophes as
+                    &amp;apos;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all em dashes are encoded
+                    as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="bibl" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="cit" occurs="1"></tagUsage>
+                    <tagUsage gi="div1" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="16"></tagUsage>
+                    <tagUsage gi="head" occurs="2"></tagUsage>
+                    <tagUsage gi="hi" occurs="1"></tagUsage>
+                    <tagUsage gi="l" occurs="19"></tagUsage>
+                    <tagUsage gi="lb" occurs="2"></tagUsage>
+                    <tagUsage gi="lg" occurs="6"></tagUsage>
+                    <tagUsage gi="note" occurs="20"></tagUsage>
+                    <tagUsage gi="p" occurs="18"></tagUsage>
+                    <tagUsage gi="pb" occurs="7"></tagUsage>
+                    <tagUsage gi="q" occurs="8"></tagUsage>
+                    <tagUsage gi="ref" occurs="20"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="title" occurs="3"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+            <keywords scheme="#mla">
+                <list>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/prose">prose</term></item>
+                </list>
+            </keywords>
+            </textClass>                
+        </profileDesc>
+        <revisionDesc>
+            <change><date>23-Jun-1999</date><label>general editor.</label><name>Perry Willett,
+                </name>finished data entry, TEI-conformant encoding and proofing</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-08-03" who="elizabethmunson">Removed date from fileDesc title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added filing title</change>
+            <change when="2010-08-03" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for fileDesc)</change>
+            <change when="2010-08-03" who="elizabethmunson">Only decade is known, so normalized date range in 
+            biblFull/publicationStmt</change>
+            <change when="2010-09-03" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-03" who="elizabethmunson">Removed div type="body"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="book">   
+            <head>THE SANCTUARY OF MERCY.</head>
+                <head type="sub">BY MRS. MONA CAIRD.</head>
+                <p><hi rend="b">IN</hi> studying the relation of the human to the animal races, I
+                    have been greatly struck by the different spirit displayed by writers as regards
+                    this question—a question profound in its importance both to man and beast, but
+                    which, nevertheless, has scarcely yet risen into the realm of human speculation
+                    and morality. One seldom meets with any definite and fully thought-out statement
+                    on the matter: the disposition of the writer is displayed in chance utterances,
+                    passing allusions, which indicate the nature of the feeling rather than
+                    formulate an opinion.</p>
+                <p>As yet little or no attempt has been made to civilise our relationship with the
+                    teeming, eager life that swarms around us, a life infinitely more multitudinous
+                    and far-spread than our own, filling the world with more pangs and joys and
+                    fears and sensations in one day than its human inhabitants can produce in one
+                    year. Although as yet the whole dramatic, pathetic existence of these multitudes
+                    is practically unknown to us, I have found in almost all the poets—and
+                    invariably in the very great ones—a tender sympathy and sense of kinship with
+                    these creatures of the earth and air. Poets and seers hae shown that their
+                    hearts are large enough to include in their sympathy not only the dog and
+                    horse—so full of appeal in their generous fidelity to man—but the poor, hunted,
+                    despised creatures, whose very existence is an affront to our noble selves,
+                    whose poor little lives may be torn and tortured out of them by any savagely
+                    ingenious device that our High Superiority may discover for the infliction of a
+                    dreadful death upon the helpless “little brothers” whom St. Francis loved so
+                    tenderly. Our poets have felt, in flashes, by the very compulsion of the poet's
+                    heart, the great, beautiful truth of universal kinship, the unity of all life
+                    and its profound mystery; the healing that lies in sympathy—in a large,
+                    unsectarian sympathy with throbbing nerves and aching hearts, be they of man or
+                    beast; a love that stops at no poor barriers of genus and species, but goes out
+                    broadly and beneficently, as some<pb n="2" xml:id="VAB7149-001"></pb> great wind of
+                    spring that thaws the aching earth and releases the ice-bound streams, and calls
+                    forth flowers and green things and all the joy of the world. In this we must see
+                    the image of our hope.</p>
+                <p>We are striving in this wonderful age to find a cure for human wretchedness, to
+                    break down miserable barriers of class and creed, to unite the human race in
+                    bonds of brotherhood, to stimulate the sympathies and calm the strife and
+                    suffering of the human lot. In this revolt against injustice and cruelty, are
+                    the unfortunate animals to be eternally left out in the cold? Are we to proclaim
+                    peace and goodwill to all men and yet remain the savage tyrants and tormentors
+                    of the beings who stand in most need of mercy, from their utter helplessness?
+                    The inconsequence, the treachery, the meanness of such exclusion must strike
+                    every generous heart and sound intellect merely when it is stated! Peace and
+                    goodwill to all that live—surely <emph>that</emph> must be the watchword of the
+                    future. <q>
+                        <lg type="verse_paragraph">
+                            <l>Be my benediction said</l>
+                            <l>With my hand upon thy head,</l>
+                            <l>Gentle fellow-creature!</l>
+                        </lg>
+                    </q> When shall we be able, as a race, to repeat in one great chorus those
+                    tender words of Mrs. Browning?</p>
+                <p>In our present efforts towards a nobler, juster, kinder relationship of man to
+                    man we shall learn many things, discover many errors and many moral truths
+                    little suspected. And of these I think the greatest and least suspected in its
+                    full meaning and amplitude is that of our kinship and our duty to the creatures
+                    who have to find in us their Providence.</p>
+                <p>By whatever means and methods we may strive towards a better social state, let it
+                    never be forgotten that, in the last resort, salvation lies in the heart of man,
+                        <emph>or nowhere</emph>, and that all things which tend to harden that human
+                    heart, to bind it in a frosty spell of pitiless self-seeking—be the results
+                    never so much to our temporal advantage—must perforce help to destroy the
+                    impulses and sympathies that make for peace and social happiness. That which
+                    teaches us to torment the weak for any purpose whatever, and to inflict
+                        <emph>not swift death but slow torture</emph> on any living thing, will
+                    assuredly help to annul the efforts, however earnest and however wise, that may
+                    be made to establish peace and justice among the suffering nations. Strange that
+                    a thing so obvious should need insisting upon! It is sheer madness to ignore the
+                    very source and life-spring of human weal or woe—the heart and brain of man. Yet
+                        of<pb n="3" xml:id="VAB7149-002"></pb> this madness the present generation is
+                    guilty, since it allows learned professors, on the plea of doing good to our
+                    bodies, to ruin our souls; since it still permits a law to remain on the Statute
+                    Book which gives a licence to physiologists to take a living, trembling
+                    creature—dog, cat, rabbit, frog—to tie it down on a board or trough, and there
+                    to cut it open and dissect its nerves and organs<ref target="#caird-sanctuarynote01" rend="super">1</ref>: pierce its brain with red-hot
+                        wire<ref target="#caird-sanctuarynote02" rend="super">2</ref>, fill its veins with
+                    gelatine, prussian blue, or any other substance that may seem good to its
+                        tormentor<ref target="#caird-sanctuarynote03" rend="super">3</ref>: to cause inflammation
+                    of bones by inserting a red-hot needle as deeply as possible<ref target="#caird-sanctuarynote04" rend="super">4</ref>, bake it alive<ref target="#caird-sanctuarynote05">5</ref>, pierce its liver with a
+                    needle<ref target="#caird-sanctuarynote06" rend="super">6</ref>, inflame its eyes by piercing and
+                    then drawing a thread through the cornea<ref target="#caird-sanctuarynote07" rend="super">7</ref>: inoculate the same sensitive organs with virus till they rot away
+                    in a putrefying sore<ref target="#caird-sanctuarynote08" rend="super">8</ref>: inoculate
+                    horrible diseases into the blood<ref target="#caird-sanctuarynote09" rend="super">9</ref>:
+                    create agonising inflammations of tissue<ref target="#caird-sanctuarynote10" rend="super">10</ref>: inflict the lengthened horrible
+                    suffering of rabies<ref target="#caird-sanctuarynote11" rend="super">11</ref>: make learned researches in the
+                    “paths of sensation”<ref target="#caird-sanctuarynote12" rend="super">12</ref> and the nature
+                    of pain<ref target="#caird-sanctuarynote13" rend="super">13</ref>—experiments that go on
+                    often for hours, and often require the victim to be kept alive in its agony for
+                    days and even months.<ref target="#caird-sanctuarynote14" rend="super">14</ref></p>
+                <p>And all this is done ostensibly in the interests of mankind! All this is done to
+                    make human existence pleasanter and more comfortable! Verily I think that
+                    vivisectors are doing their level best to make human life absolutely
+                    intolerable! Can any <note anchored="true" place="foot" xml:id="caird-sanctuarynote01">1 Prof. C.S. Roy's Experiments, as reported, in the
+                        Proceedings of the Cambridge Philosophical Society, May 23rd, 1881,
+                        &amp;c., &amp;c.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote02"><hi rend="super">2</hi> Prof. David
+                        Ferrier, “The Functions of the Brain.”</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote03"><hi rend="super">3</hi> Handbook for
+                        the Physiological Laboratory, pp. 97, 104, 113.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote04"><hi rend="super">4</hi> Handbook for
+                        the Physiological Laboratory, p. 159.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote05"><hi rend="super">5</hi> Drs.
+                        Lauder-Brunton and Theodore Cash, October number of “THE PRACTIONER,” 1884.
+                        The animals baked were dogs.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote06"><hi rend="super">6</hi> Handbook for
+                        the Physiological Laboratory, p. 160.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote07"><hi rend="super">7</hi> Handbook for
+                        the Physiological Laboratory, pp. 160-1-2.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote08"><hi rend="super">8</hi> Dr. E.
+                        Klein, F.R.S., “Further Report on the Etiology of Diphtheria.” (Appendix B.)
+                        I quote this not from original work (which cannot be obtained at the British
+                        Museum), but from various writers who have succeeded in obtaining it.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote09"><hi rend="super">9</hi> BRITISH
+                        MEDICAL JOURNAL, 1891 &amp;c., &amp;c.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote10"><hi rend="super">10</hi> BRITISH
+                        MEDICAL JOURNAL, 1882, Feb. 11, p. 645.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote11"><hi rend="super">11</hi> Dr. Borel,
+                        in the PALL MALL GAZETTE, August 1889, &amp;c., &amp;c.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote12"><hi rend="super">12</hi>(a) Prof.
+                        David Ferrier, “Functions of the Brain.”<lb></lb> (b) JOURNAL OF PHYSIOLOGY,
+                        vol. xiii., p. 773, December, 1892, &amp;c.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote13"><hi rend="super">13</hi> Mantegazza,
+                        “Fisiologia del Dolore” (Physiology of Pain).</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote14"><hi rend="super">14</hi>(a) Baron
+                        Weber, “Torture Chamber of Science.”<lb></lb> (b) Royal Commission, QQ. 416,
+                        5362, &amp;c., &amp;c.</note><pb n="4" xml:id="VAB7149-003"></pb> man be
+                    really willing that agony so shocking shall be undergone on the off-chance of
+                    his gaining something from it? If he cannot endure that thought for himself, if
+                    his very manhood revolts, as it surely <emph>must</emph> revolt, at the idea of
+                    this wholesale martyrdom for his sake, how can he bear to doom his fellowmen to
+                    the same intolerable burden?</p>
+                <p>Good heavens! of what unholy amalgam of flint and steel do the vivisectors
+                    suppose human hearts to be made, that they dare to tell us they commit such
+                    deeds on our behalf, tempting our baseness with promises of gain? What an insult
+                    is that bait! To what low, pitiful, unmanly qualities in us does the learned
+                    physiologist make his only too successful appeal! Every day, with our consent,
+                    under our laws, all over the Christian and civilised world, this anguish of dumb
+                    creatures is being suffered. And let it not be forgotten that vivisection is
+                    practised at an ever increasing rate, as the official returns show, and that it
+                    grows more ruthless and more terrible every year, as by the very law of our
+                    nature it is <emph>bound</emph> to do, unless some reaction sets in, unless some
+                    great national outcry is made against the practice of State-licensed cruelty.
+                    For the honour of human nature, let us abolish it in justice to these helpless
+                    ones: do not let us wait until we do it in sheer terror for
+                        <emph>ourselves</emph>! The practice is gradually extending to human
+                    subjects who are poor and helpless enough to be safely used in that capacity.
+                    Are we to sit still and acquiesce till human vivisection becomes an open and
+                    “respectable” industry?</p>
+                <p>Surely the people of England who possess so powerful a voting influence will not
+                    be so blind as to let it go on unopposed.</p>
+                <p>Their own interests, if nothing else, ought to rouse them to resist. They have
+                    but to question candidates for elections, and to refuse to vote for those who
+                    will not oppose the practice, and the law which charters it would
+                        <emph>have</emph> to be repealed. It is because these savageries are
+                    committed by men who are respected and admired that they are so terribly
+                    dangerous to our national morality and to our progress in all its aspects. The
+                    crimes of acknowledge criminals are ominous enough, but they need scarcely be
+                    considered in comparison with the chartered and applauded cruelties of men
+                    (probably honestly believing themselves to be not only justified but active in
+                    well-doing) who are looked up to as distinguished members of an honourable
+                    profession, and who are creating a moral standard—or rather destroying one—with
+                    every breath they draw.<pb n="5" xml:id="VAB7149-004"></pb> Can this be called
+                    exaggeration if we remember that such men as these spend their whole lives in
+                    subjecting gentle unoffending creatures to the tortures of the damned? If only
+                    men and women could realise <emph>but for one moment</emph> those tortures, I am
+                    convinced that the practice of vivisection would be swept away in a great burst
+                    of national fury before another year had passed! But alas, nothing can reveal
+                    that hell on earth to the multitudes of men and women, absorbed, perforce, in
+                    their business and in their own many griefs. But let it be remembered that the
+                    animals in their anguish have no redress, no possibility of appeal, of
+                    combination, no consolation of faith, hope, or religion, none of the exaltation
+                    of voluntary sacrifice. There is nothing for them but the dark unimaginable
+                    horror of dumb, hopeless, ghastly suffering.</p>
+                <p>Dr. Hoggan tells us that after going through three campaigns where he saw many a
+                    sad sight, he saw none sadder than when the dogs were brought up from the
+                    cellars to be vivisected, the poor creatures appearing terrified, as if they
+                    knew that some cruel fate awaited them. They would try to appeal for mercy by
+                    begging, or licking the hands of their pitiless torturers; but always in
+                        vain.<ref target="#caird-sanctuarynote15" rend="super">1</ref> Once it is recorded that
+                    the students were touched by the appeals of a poor little fox terrier, and tried
+                    to persuade the professor to spare it; but the learned gentleman said that he
+                    would teach them to give way to no such maudlin sensibility, and he vivisected
+                    the creature cruelly then and there, and also kept him to serve for further
+                    experiment on the following day.<ref target="#caird-sanctuarynote16" rend="super">2</ref></p>
+                <p>People often talk judicially and “moderately” about vivisection, as if it were a
+                    question merely of human welfare and of medical science. Let me entreat those
+                    who take that view to try to <emph>realise</emph> the fate of a creature, seized
+                    and bound by strong ruthless hands, and tortured slowly, cleverly, delicately,
+                    exquisitely, sometimes with the muscles of the larynx cut,<ref target="#caird-sanctuarynote17" rend="super">3</ref> so that the operator shall not be
+                    disturbed by its groans and cries; sometimes under the spell of the “hellish
+                    drug” curare (so called by Tennyson), which holds every muscle still and
+                    stiff—though the victim lies unbound in his <note anchored="true" place="foot" xml:id="caird-sanctuarynote15"><hi rend="super">1</hi> Letter to the <title>Morning Post</title>,
+                        Feb. 2nd, 1875.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote16"><hi rend="super">2</hi> Told to a
+                        friend of Miss Cobbe by a student who was present at the experiment—“The
+                        Modern Rack,” by Frances Power Cobbe.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote17"><hi rend="super">3</hi> Prof.
+                        Schiff, on “The Physiology of the Digestion.” Quoted by Baron von Weber, in
+                        “The Torture Chamber of Science.”</note><pb n="6" xml:id="VAB7149-005"></pb>
+                    trough—so that movement or utterance is impossible, while at the same time the
+                    whole elaborate network of sensory nerves is left free—nay, according to some
+                    experts, with heightened sensitivenes—to perform their terrible work of
+                    conveying sensation through the delicate, branching fibres to all parts of the
+                    agonised body; a network that seems to form a horrible garment of anguish in
+                    which the creature lies still and stark in an unimaginable martyrdom.<ref target="#caird-sanctuarynote18" rend="super">1</ref></p>
+                <p>If after <emph>really</emph> understanding and conceiving all this, men and women
+                    could continue to sanction vivisection, then I think we should be driven to the
+                    awful conclusion that the average human being is so black and savage at heart
+                    that the sooner he is swept into nothingness the better: a creature beyond
+                    praying for—and not worth the effort of prayer! But the fact is—it
+                        <emph>must</emph> be so—that people do not realise the martyrdom that they
+                    decree or acquiesce in, the vivisectors having very cleverly and consistently
+                    managed to slur over the awful facts with graceful euphemisms—to put it
+                    mildly—so that vivisection is actually becoming to many another name for Science
+                    herself—Science the gentle and beneficent!</p>
+                <p>I firmly believe that some day it will be recognised by all that vivisection is,
+                    in fact, the arch-enemy of Science, whose teaching has ever been that Nature is
+                    one in essence, and that her laws are harmonious and not contradictory; but if
+                    her laws are not contradictory, how can it possible be that what is morally
+                    wrong should be scientifically right, that what is cruel and unjust should lead
+                    us to peace and health? We have never yet found this to be the rule in any other
+                    case. Why should there be an exception in this? Are there special natural laws
+                    in favour of the physiologist, that he alone should be held justified in
+                    pursuing legitimate ends by <emph>illegitimate means</emph>? Suppose Art were
+                    also to set up a claim to follow her sublime vocation by torture: suppose
+                    Religion reasserted her privilege by enforcing her teaching by fire and sword.
+                    If one <note anchored="true" place="foot" xml:id="caird-sanctuarynote18"><hi rend="super">1</hi> The
+                        celebrated vivisector, Claude Bernard, thus describes the effects of curare:
+                        “We shall see this death which seems to us to arrive so calmly and so free
+                        from pain, is on the contrary accompanied by <emph>the most atrocious
+                            sufferings that the mind of man can conceive</emph>..... In this
+                        motionless body, behind that glazing eye, and with all the appearances of
+                        death, sensibility and intelligence persist in their entirety.”—REVUE DES
+                        DEUX MONDES, Ch. ii., p. 173, and Ch. iv., p. 182, of bound numbers of the
+                        periodical.</note><pb n="7" xml:id="VAB7149-006"></pb> profession or calling may
+                    do evil that good may come, why may not all follow this Jesuits' creed? Science
+                    herself cries out against the false doctrine, the blasphemy of the
+                    vivisector.</p>
+                <p>If he be right—if we must act as fiends in order to gain angelic ends—then life
+                    is intolerable and preposterous; moral beauty is a sham, and goodness a foolish
+                    dream. There is no alternative. Yet those who swear allegiance to the medical
+                    priesthood profess an unshaken belief in moral law and progress. They profess
+                    this belief, while their actions proclaim their conviction that by the torture
+                    of the weak the strong will be benefited and blessed—in other words, that there
+                    is no such thing as moral law.</p>
+                <p>If only these upholders of the new priesthood would study the works of their
+                    masters—if only they would place side by side, for instance, Dr. Klein' s frank
+                    and repeated assertion that he cared nothing for the anguish of the animals<ref target="#caird-sanctuarynote20" rend="super">1</ref>, or Richet's explanation of the
+                    vivisector's motives<ref target="#caird-sanctuarynote21" rend="super">2</ref>, with
+                    Wordsworth's well-known lines— <q>
+                        <lg type="verse_paragraph">
+                            <l>Never to blend our pleasures or our pride</l>
+                            <l>With sorrow of the meanest thing that feels.</l>
+                        </lg>
+                    </q> or Pope's— <q>
+                        <lg type="verse_paragraph">
+                            <l>Wider and more wide, th' o'erflowings of the mind,</l>
+                            <l>Take ev'ry creature in, of ev'ry kind.</l>
+                        </lg>
+                    </q> or his reproach to man— <q>
+                        <lg type="verse_paragraph">
+                            <l>Of half that live the butcher and the tomb,</l>
+                            <l>Who, foe to Nature, hears the general groan,</l>
+                            <l>Murders their species and <emph>betrays his own</emph>.</l>
+                        </lg>
+                    </q> or Cowper's— <q>
+                        <lg type="verse_paragraph">
+                            <l>I would not number on my list of friends</l>
+                            <l>(Though graced with polished manners and fine sense,</l>
+                            <l>Yet wanting sensibility) the man</l>
+                            <l>Who needlessly sets foot upon a worm;</l>
+                        </lg>
+                    </q> or Shakespeare's— <q>
+                        <l>How shalt thou hope for mercy, rendering none?</l>
+                    </q> and the reproof to the queen in <title>Cymbeline</title>, who wished to try
+                    the effect of drugs upon the lower animals— <cit>
+                        <q>
+                            <l>Your highness shall from this practice but make hard your heart.</l>
+                        </q>
+                        <bibl>—<title>Cymbeline</title>, Act I., sc. vi.</bibl>
+                    </cit> Can any sane, any generous mind doubt which is the truer and <note anchored="true" place="foot" xml:id="caird-sanctuarynote20"><hi rend="super">1</hi>See his
+                        evidence given before the Royal Commission.</note>
+                    <note anchored="true" place="foot" xml:id="caird-sanctuarynote21"><hi rend="super">2</hi>“.... this
+                        scientific curiosity, which alone animates him, is explained by the high
+                        idea he has formed of Science. <emph>This is why we pass our days in fetid
+                            laboratories, surrounded by groaning creatures, in the midst of blood
+                            and suffering, bent over palpitating entrails</emph>.”—Prof. Richet, in
+                        REVUE DES DEUX MONDES, Feb. 15th, 1883.</note><pb n="8" xml:id="VAB7149-007"></pb> the better and the more trustworthy spirit; which will lead us straighter and
+                    further along the path of progress and peace: that of the vivisector or that of
+                    the poet?</p>
+                <p>It is this prophetic, universl element, this moral clairvoyance, that gives that
+                    large, tender, stirring quality to the work of the true poet, convincing as
+                    nothing else convinces, for we feel that it comes straight from the very source
+                    of Truth itself. We are bound to believe that he gives us good counsel when he
+                    bids us treat the poor beasts with tenderness and pity, and extend to them the
+                    sanctuary of human kindness and kinship. Let the vivisector say what he will,
+                    both reason and conscience tell us that there is no alternative to this
+                    conviction, except that this accursed universe is but the Devil's playground,
+                    wherein we are at once his playfellows and his victims: his victims in that we
+                    are doomed to suffer in so cruel a fashion the pangs of hunger, cold, anxiety,
+                    strife, toil, parting, disease, degradation, madness: his playfellows in that we
+                    imitate and join him in his ghastly business by inflicting in <emph>our</emph>
+                    turn, and for our own ends, pain unspeakable on those helpless ones, obviously
+                    our next of kin, whose weakness tempts the coward in us and inspires the fiend,
+                    while it leaves us seemingly unpunished, and free to wield our power for savage
+                    uses worthy of our leader!</p>
+                <p>It seems strange, indeed, that the human mind can be completely seduced from a
+                    truth which nevertheles it cannot fail to recognise when it is clearly placed
+                    before it. Yet from such a truth the vivisectors and their party have managed to
+                    seduce us! I defy any one who admits the existence of a moral law at all to deny
+                    that in the long run we shall lose and not gain by committing a deliberate
+                    wrong. I challenge such a person to honestly deny that the wrong and the cruelly
+                    so committed will in some way and at some time have to be expiated by ourselves
+                    and our descendants.</p>
+                <p>In how tremendous and profound and terrible a sense the following lines from
+                    Shelley are true—literally, bitterly, piercingly true, with the dreadful
+                    certainty of a law of Nature mankind will some day have to learn as regards
+                    this, “our meanest crime.” <q>
+                        <lg type="verse_paragraph">
+                            <l>Those who inflict must suffer, for they see</l>
+                            <l>The work of their own hearts, and that must be</l>
+                            <l>Our chastisement or recompense.</l>
+                        </lg>
+                    </q></p>
+        </div>
+        </body>
+    </text>
+</TEI>

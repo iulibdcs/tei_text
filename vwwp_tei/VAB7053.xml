@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7053">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dream Life and Real Life</title>
+                <author>Schreiner, Olive (1855-1920)</author>
+                <respStmt>
+                    <resp>Transcribed by </resp>
+                    <name>Sue Asscher</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoded and edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 52 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>10-September-1998</date>
+                <idno>VAB7053</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the Research Collections, Indiana
+                    University.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Dream Life and Real Life: a Little African Story</title>
+                        <author>Schreiner, Olive, 1855-1920</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Ralph Iron [i.e. Olive Schreiner]</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>93 p.</extent>
+                    <publicationStmt>
+                        <publisher>T. Fisher Unwin</publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1893">1893</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All quotation marks, hyphens, dashes, apostrophes and colons have been
+                    transcribed as entity references.</p>
+                <p>All apostrophes are encoded as &amp;apos;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as "-" and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"></tagUsage>
+                    <tagUsage gi="addrline" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="byline" occurs="2"></tagUsage>
+                    <tagUsage gi="closer" occurs="4"></tagUsage>
+                    <tagUsage gi="date" occurs="2"></tagUsage>
+                    <tagUsage gi="dateline" occurs="4"></tagUsage>
+                    <tagUsage gi="div" occurs="2"></tagUsage>
+                    <tagUsage gi="div0" occurs="3"></tagUsage>
+                    <tagUsage gi="docauthor" occurs="1"></tagUsage>
+                    <tagUsage gi="docdate" occurs="1"></tagUsage>
+                    <tagUsage gi="docimprint" occurs="1"></tagUsage>
+                    <tagUsage gi="doctitle" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="5"></tagUsage>
+                    <tagUsage gi="front" occurs="1"></tagUsage>
+                    <tagUsage gi="gloss" occurs="4"></tagUsage>
+                    <tagUsage gi="head" occurs="10"></tagUsage>
+                    <tagUsage gi="hi" occurs="3"></tagUsage>
+                    <tagUsage gi="item" occurs="3"></tagUsage>
+                    <tagUsage gi="list" occurs="1"></tagUsage>
+                    <tagUsage gi="milestone" occurs="6"></tagUsage>
+                    <tagUsage gi="orig" occurs="2"></tagUsage>
+                    <tagUsage gi="p" occurs="171"></tagUsage>
+                    <tagUsage gi="pb" occurs="80"></tagUsage>
+                    <tagUsage gi="publisher" occurs="1"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="1"></tagUsage>
+                    <tagUsage gi="q" occurs="3"></tagUsage>
+                    <tagUsage gi="ref" occurs="3"></tagUsage>
+                    <tagUsage gi="signed" occurs="1"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepage" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepart" occurs="2"></tagUsage>
+                    <tagUsage gi="trailer" occurs="1"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Children -- Conduct of life -- Juvenile fiction</item> 
+                        <item>Conduct of life -- Juvenile fiction</item>
+                        <item>Children's stories</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/fiction">fiction</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/short+story">short story</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>01-Aug-1998</date><label>transcriber.</label><name>Sue Asscher,
+                </name>finished transcription for Project Gutenberg</change>
+            <change><date>10-Sep-1998</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI-conformant encoding and proofing</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-10" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-07-29" who="elizabethmunson">Removed date from fileDesc title</change>
+            <change when="2010-07-29" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-29" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-08-25" who="elizabethmunson">Added genre term</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <byline>
+                    <docAuthor>RALPH IRON</docAuthor>
+                </byline>
+                <docTitle>
+                    <titlePart type="main">DREAM LIFE AND REAL LIFE</titlePart>
+                    <titlePart type="sub">A LITTLE AFRICAN STORY</titlePart>
+                </docTitle>
+                <byline>BY THE AUTHOR OF “DREAMS,” “THE STORY OF AN AFRICAN FARM,”
+                    &amp;c.</byline>
+                <docImprint>
+                    <pubPlace>LONDON </pubPlace>
+                    <publisher>T. FISHER UNWIN
+                        <address><addrLine>PATERNOSTER SQUARE</addrLine></address></publisher>
+                </docImprint>
+                <docDate when="1893">M DCCC XCIII</docDate>
+            </titlePage>
+            <pb xml:id="VAB7053-001"></pb>
+            <div type="dedication">
+                <head>DEDICATION</head>
+                <p>TO MY BROTHER FRED, FOR WHOSE SCHOOL MAGAZINE THE FIRST OF THESE LITTLE
+                    STORIES—ONE OF THE FIRST I EVER MADE—WAS WRITTEN OUT MANY LONG YEARS AGO.</p>
+                <closer>
+                    <signed>R.I.</signed>
+                    <dateline>NEW COLLEGE, EASTBOURNE. <date>Sept. 29th, 1893.</date></dateline>
+                </closer>
+            </div>
+            <pb xml:id="VAB7053-002"></pb>
+            <div type="contents">
+                <head>CONTENTS</head>
+                <list type="simple">
+                    <item>1. DREAM LIFE AND REAL LIFE; A LITTLE AFRICAN STORY <ref rend="right" target="#VAB7053-004">13</ref></item>
+                    <item>2. THE WOMAN'S ROSE <ref rend="right" target="#VAB7053-041">51</ref></item>
+                    <item>3. THE POLICY IN FAVOUR OF PROTECTION —” <ref rend="right" target="#VAB7053-055">67</ref></item>
+                </list>
+            </div>
+        </front>
+        <body>
+            <pb n="11" xml:id="VAB7053-003"></pb>
+            <div type="story">
+                <head>DREAM LIFE AND REAL LIFE.</head>
+                <pb n="13" xml:id="VAB7053-004"></pb>
+                <head>DREAM LIFE AND REAL LIFE; A LITTLE AFRICAN STORY.</head>
+                <p><hi>LITTLE</hi> Jannita sat alone beside a milk-bush. Before her and behind her
+                    stretched the plain, covered with red sand and thorny “Karroo” bushes; and here
+                    and there a milk-bush, looking like a bundle of pale green rods tied together.
+                    Not a tree was to be seen anywhere, except on the banks of the river, and<pb n="14" xml:id="VAB7053-005"></pb> that was far away, and the sun beat on her
+                    head. Round her fed the Angora goats she was herding; pretty things, especially
+                    the little ones, with white silky curls that touched the ground. But Jannita sat
+                    crying. If an angel should gather up in his cup all the tears that have been
+                    shed, I think the bitterest would be those of children.</p>
+                <p>By and by she was so tired, and the sun was so hot, she laid her head against the
+                    milk-bush, and dropped asleep.</p>
+                <p>She dreamed a beautiful dream. She thought that when she went back<pb n="15" xml:id="VAB7053-006"></pb> to the farmhouse in the evening, the walls were
+                    covered with vines and roses, and the “kraals” (<gloss>sheepfolds</gloss>) were
+                    not made of red stone, but of lilac trees full of blossom. And the fat old Boer
+                    smiled at her, and the stick he held across the door for the goats to jump over,
+                    was a lily rod with seven blossoms at the end. When she went to the house her
+                    mistress gave her a whole roaster-cake for her supper, and the mistress's
+                    daughter had stuck a rose in the cake; and her mistress's son-in-law said,
+                    “Thank you!” when she pulled off his boots, and did not kick her.</p>
+                <pb n="16" xml:id="VAB7053-007"></pb>
+                <p>It was a beautiful dream.</p>
+                <p>While she lay thus dreaming, one of the little kids came and licked her on her
+                    cheek, because of the salt from her dried-up tears. And in her dream she was not
+                    a poor indentured child any more, living with Boers. It was her father who
+                    kissed her. He said he had only been asleep--that day when he lay down under the
+                    thorn-bush; he had not really died. He felt her hair, and said it was grown long
+                    and silky, and he said they would go back to Denmark now. He asked her why her
+                    feet were bare, and what the marks on her back were. Then he put<pb n="17" xml:id="VAB7053-008"></pb> her head on his shoulder, and picked her up, and
+                    carried her away, away! She laughed--she could feel her face against his brown
+                    beard. His arms were so strong.</p>
+                <p>As she lay there dreaming, with the ants running over her naked feet, and with
+                    her brown curls lying in the sand, a Hottentot came up to her. He was dressed in
+                    ragged yellow trousers, and a dirty shirt, and torn jacket. He had a red
+                    handkerchief round his head, and a felt hat above that. His nose was flat, his
+                    eyes like slits, and the wool on his head was gathered into little round balls.
+                    He came to the milk-bush, and<pb n="18" xml:id="VAB7053-009"></pb> looked at the
+                    little girl lying in the hot sun. Then he walked off, and caught one of the
+                    fattest little Angora goats, and held its mouth fast, as he stuck it under his
+                    arm. He looked back to see that she was still sleeping, and jumped down into one
+                    of the “sluits.” (<gloss>The deep fissures, generally dry, in which the
+                        superfluous torrents of water are carried from the “Karroo” plains after
+                        thunderstorms.</gloss>) He walked down the bed of the “sluit” a little way
+                    and came to an overhanging bank, under which, sitting on the red sand, were two
+                    men. One was a tiny, ragged, old bushman, four feet high; the<pb n="19" xml:id="VAB7053-010"></pb> other was an English navvy, in a dark blue blouse.
+                    They cut the kid's throat with the navvy's long knife, and covered up the blood
+                    with sand, and buried the entrails and skin. Then they talked, and quarrelled a
+                    little; and then they talked quietly again.</p>
+                <p>The Hottentot man put a leg of the kid under his coat and left the rest of the
+                    meat for the two in the “sluit,” and walked away.</p>
+                <p>When little Jannita awoke it was almost sunset. She sat up very frightened, but
+                    her goats were all about her. She began to drive them home. “I do not think<pb n="20" xml:id="VAB7053-011"></pb> there are any lost,” she said.</p>
+                <p>Dirk, the Hottentot, had brought his flock home already, and stood at the “kraal”
+                    door with his ragged yellow trousers. The fat old Boer put his stick across the
+                    door, and let Jannita's goats jump over, one by one. He counted them. When the
+                    last jumped over: “Have you been to sleep today?” he said; “there is one
+                    missing.”</p>
+                <p>Then little Jannita knew what was coming, and she said, in a low voice, “No.” And
+                    then she felt in her heart that deadly sickness that you feel when you tell a
+                    lie; and again she said, “Yes.”</p>
+                <pb n="21" xml:id="VAB7053-012"></pb>
+                <p>“Do you think you will have any supper this evening?” said the Boer.</p>
+                <p>“No,” said Jannita.</p>
+                <p>“What do you think you will have?”</p>
+                <p>“I don't know,” said Jannita.</p>
+                <p>“Give me your whip,” said the Boer to Dirk, the Hottentot.</p>
+                <milestone unit="section"></milestone>
+                <p>The moon was all but full that night. Oh, but its light was beautiful!</p>
+                <p>The little girl crept to the door of the outhouse where she slept, and looked at
+                    it. When you are hungry, and very, very sore, you do not cry. She leaned her
+                    chin on<pb n="22" xml:id="VAB7053-013"></pb> one hand, and looked, with her great
+                    dove's eyes--the other hand was cut open, so she wrapped it in her pinafore. She
+                    looked across the plain at the sand and the low karroo-bushes, with the
+                    moonlight on them.</p>
+                <p>Presently, there came slowly, from far away, a wild spring-buck. It came close to
+                    the house, and stood looking at it in wonder, while the moonlight glinted on its
+                    horns, and in its great eyes. It stood wondering at the red brick walls, and the
+                    girl watched it. Then, suddenly, as if it scorned it all, it curved its
+                    beautiful back and turned; and away it fled over<pb n="23" xml:id="VAB7053-014"></pb> the bushes and sand, like a sheeny streak of white lightning. She stood up to
+                    watch it. So free, so free! Away, away! She watched, till she could see it no
+                    more on the wide plain.</p>
+                <p>Her heart swelled, larger, larger, larger: she uttered a low cry; and without
+                    waiting, pausing, thinking, she followed on its track. Away, away, away! “I--I
+                    also!” she said, “I--I also!”</p>
+                <p>When at last her legs began to tremble under her, and she stopped to breathe, the
+                    house was a speck behind her. She dropped on the earth, and held her panting
+                    sides.</p>
+                <pb n="24" xml:id="VAB7053-015"></pb>
+                <p>She began to think now.</p>
+                <p>If she stayed on the plain they would trace her footsteps in the morning and
+                    catch her; but if she waded in the water in the bed of the river they would not
+                    be able to find her footmarks; and she would hide, there where the rocks and the
+                    “kopjes” were.</p>
+                <p>
+                    <gloss>(“Kopjes,” in the karroo, are hillocks of stone, that rise up singly or
+                        in clusters, here and there; presenting sometimes the fantastic appearance
+                        of old ruined castles or giant graves, the work of human hands.)</gloss>
+                </p>
+                <p>So she stood up and walked towards the river. The water in the river was low;
+                    just a<pb n="25" xml:id="VAB7053-016"></pb> line of silver in the broad bed of sand,
+                    here and there broadening into a pool. She stepped into it, and bathed her feet
+                    in the delicious cold water. Up and up the stream she walked, where it rattled
+                    over the pebbles, and past where the farmhouse lay; and where the rocks were
+                    large she leaped from one to the other. The night wind in her face made her
+                    strong--she laughed. She had never felt such night wind before. So the night
+                    smells to the wild bucks, because they are free! A free thing feels as a chained
+                    thing never can.</p>
+                <p>At last she came to a place<pb n="26" xml:id="VAB7053-017"></pb> where the willows
+                    grew on each side of the river, and trailed their long branches on the sandy
+                    bed. She could not tell why, she could not tell the reason, but a feeling of
+                    fear came over her.</p>
+                <p>On the left bank rose a chain of “kopjes” and a precipice of rocks. Between the
+                    precipice and the river bank there was a narrow path covered by the fragments of
+                    fallen rock. And upon the summit of the precipice a kippersol tree grew, whose
+                    palm-like leaves were clearly cut out against the night sky. The rocks cast a
+                    deep shadow, and the<pb n="27" xml:id="VAB7053-018"></pb> willow trees, on either
+                    side of the river. She paused, looked up and about her, and then ran on,
+                    fearful.</p>
+                <p>“What was I afraid of? How foolish I have been!” she said, when she came to a
+                    place where the trees were not so close together. And she stood still and looked
+                    back and shivered.</p>
+                <p>At last her steps grew wearier and wearier. She was very sleepy now, she could
+                    scarcely lift her feet. She stepped out of the river-bed. She only saw that the
+                    rocks about her were wild, as though many little “kopjes” had been broken up and
+                    strewn upon the ground, lay<pb n="28" xml:id="VAB7053-019"></pb> down at the foot of
+                    an aloe, and fell asleep.</p>
+                <milestone unit="section"></milestone>
+                <p>But, in the morning, she saw what a glorious place it was. The rocks were piled
+                    on one another, and tossed this way and that. Prickly pears grew among them, and
+                    there were no less than six kippersol trees scattered here and there among the
+                    broken “kopjes.” In the rocks there were hundreds of homes for the coneys, and
+                    from the crevices wild asparagus hung down. She ran to the river, bathed in the
+                    clear cold water, and tossed it over her head. She<pb n="29" xml:id="VAB7053-020"></pb> sang aloud. All the songs she knew were sad, so she
+                    could not sing them now, she was glad, she was so free; but she sang the notes
+                    without the words, as the cock-o-veets do. Singing and jumping all the way, she
+                    went back, and took a sharp stone, and cut at the root of a kippersol, and got
+                    out a large piece, as long as her arm, and sat to chew it. Two coneys came out
+                    on the rock above her head and peeped at her. She held them out a piece, but
+                    they did not want it, and ran away.</p>
+                <p>It was very delicious to her. Kippersol is like raw<pb n="30" xml:id="VAB7053-021"></pb> quince, when it is very green; but she liked it. When
+                    good food is thrown at you by other people, strange to say, it is very bitter;
+                    but whatever you find yourself is sweet!</p>
+                <p>When she had finished she dug out another piece, and went to look for a pantry to
+                    put it in. At the top of a heap of rocks up which she clambered she found that
+                    some large stones stood apart but met at the top, making a room.</p>
+                <p>“Oh, this is my little home!” she said.</p>
+                <p>At the top and all round it was closed, only in the front it was open. There<pb n="31" xml:id="VAB7053-022"></pb> was a beautiful shelf in the wall for the
+                    kippersol, and she scrambled down again. She brought a great branch of prickly
+                    pear, and stuck it in a crevice before the door, and hung wild asparagus over
+                    it, till it looked as though it grew there. No one could see that there was a
+                    room there, for she left only a tiny opening, and hung a branch of feathery
+                    asparagus over it. Then she crept in to see how it looked. There was a glorious
+                    soft green light. Then she went out and picked some of those purple little
+                    ground flowers--you know them--those that keep their faces<pb n="32" xml:id="VAB7053-023"></pb> close to the ground, but when you turn them up and
+                    look at them they are deep blue eyes looking into yours! She took them with a
+                    little earth, and put them in the crevices between the rocks; and so the room
+                    was quite furnished. Afterwards she went down to the river and brought her arms
+                    full of willow, and made a lovely bed; and, because the weather was very hot,
+                    she lay down to rest upon it.</p>
+                <p>She went to sleep soon, and slept long, for she was very weak. Late in the
+                    afternoon she was awakened by a few cold drops falling on her face. She sat up.
+                        A<pb n="33" xml:id="VAB7053-024"></pb> great and fierce thunderstorm had been
+                    raging, and a few of the cool drops had fallen through the crevice in the rocks.
+                    She pushed the asparagus branch aside, and looked out, with her little hands
+                    folded about her knees. She heard the thunder rolling, and saw the red torrents
+                    rush among the stones on their way to the river. She heard the roar of the river
+                    as it now rolled, angry and red, bearing away stumps and trees on its muddy
+                    water. She listened and smiled, and pressed closer to the rock that took care of
+                    her. She pressed the palm of her hand against it. When you have<pb n="34" xml:id="VAB7053-025"></pb> no one to love you, you love the dumb things very
+                    much. When the sun set, it cleared up. Then the little girl ate some kippersol,
+                    and lay down again to sleep. She thought there was nothing so nice as to sleep.
+                    When one has had no food but kippersol juice for two days, one doesn't feel
+                    strong.</p>
+                <p>“It is so nice here,” she thought as she went to sleep, “I will stay here
+                    always.”</p>
+                <p>Afterwards the moon rose. The sky was very clear now, there was not a cloud
+                    anywhere; and the moon shone in through the bushes in the door, and made a
+                    lattice-work of light on her face.<pb n="35" xml:id="VAB7053-026"></pb> She was
+                    dreaming a beautiful dream. The loveliest dreams of all are dreamed when you are
+                    hungry. She thought she was walking in a beautiful place, holding her father's
+                    hand, and they both had crowns on their heads, crowns of wild asparagus. The
+                    people whom they passed smiled and kissed her; some gave her flowers, and some
+                    gave her food, and the sunlight was everywhere. She dreamed the same dream over
+                    and over, and it grew more and more beautiful; till, suddenly, it seemed as
+                    though she were standing quite alone. She looked up: on one side of her was
+                        the<pb n="36" xml:id="VAB7053-027"></pb> high precipice, on the other was the
+                    river, with the willow trees, drooping their branches into the water; and the
+                    moonlight was over all. Up, against the night sky the pointed leaves of the
+                    kippersol trees were clearly marked, and the rocks and the willow trees cast
+                    dark shadows.</p>
+                <p>In her sleep she shivered, and half awoke.</p>
+                <p>“Ah, I am not there, I am here,” she said; and she crept closer to the rock, and
+                    kissed it, and went to sleep again.</p>
+                <p>It must have been about three o'clock, for the moon had begun to sink towards<pb n="37" xml:id="VAB7053-028"></pb> the western sky, when she woke, with a violent
+                    start. She sat up, and pressed her hand against her heart.</p>
+                <p>“What can it be? A coney must surely have run across my feet and frightened me!”
+                    she said, and she turned to lie down again; but soon she sat up. Outside, there
+                    was the distinct sound of thorns crackling in a fire.</p>
+                <p>She crept to the door and made an opening in the branches with her fingers.</p>
+                <p>A large fire was blazing in the shadow, at the foot of the rocks. A little
+                    Bushman sat over some burning coals that had been raked<pb n="38" xml:id="VAB7053-029"></pb> from it, cooking meat. Stretched on the ground was an
+                    Englishman, dressed in a blouse, and with a heavy, sullen face. On the stone
+                    beside him was Dirk, the Hottentot, sharpening a bowie knife.</p>
+                <p>She held her breath. Not a coney in all the rocks was so still.</p>
+                <p>“They can never find me here,” she said; and she knelt, and listened to every
+                    word they said. She could hear it all.</p>
+                <p>“You may have all the money,” said the Bushman; “but I want the cask of brandy. I
+                    will set the roof alight in six places, for a<pb n="39" xml:id="VAB7053-030"></pb>
+                    Dutchman burnt my mother once alive in a hut, with three children.”</p>
+                <p>“You are sure there is no one else on the farm?” said the navvy.</p>
+                <p>“No, I have told you till I am tired,” said Dirk; “the two Kaffirs have gone with
+                    the son to town; and the maids have gone to a dance; there is only the old man
+                    and the two women left.”</p>
+                <p>“But suppose,” said the navvy, “he should have the gun at his bedside, and
+                    loaded!”</p>
+                <p>“He never has,” said Dirk; “it hangs in the passage, and the cartridges too. He
+                    never thought when he<pb n="40" xml:id="VAB7053-031"></pb> bought it what work it
+                    was for! I only wish the little white girl was there still,” said Dirk; “but she
+                    is drowned. We traced her footmarks to the great pool that has no bottom.”</p>
+                <p>She listened to every word, and they talked on.</p>
+                <p>Afterwards, the little Bushman, who crouched over the fire, sat up suddenly,
+                    listening.</p>
+                <p>“Ha! what is that?” he said.</p>
+                <p>A Bushman is like a dog: his ear is so fine he knows a jackal's tread from a wild
+                    dog's.</p>
+                <p>“I heard nothing,” said the navvy.</p>
+                <pb n="41" xml:id="VAB7053-032"></pb>
+                <p>“I heard,” said the Hottentot; “but it was only a coney on the rocks.”</p>
+                <p>“No coney, no coney,” said the Bushman; “see, what is that there moving in the
+                    shade round the point?”</p>
+                <p>“Nothing, you idiot!” said the navvy. “Finish your meat; we must start now.”</p>
+                <p>There were two roads to the homestead. One went along the open plain, and was by
+                    far the shortest; but you might be seen half a mile off. The other ran along the
+                    river bank, where there were rocks, and holes, and willow-trees to hide among.
+                    And all down the river bank ran a little figure.</p>
+                <pb n="42" xml:id="VAB7053-033"></pb>
+                <p>The river was swollen by the storm full to its banks, and the willow trees dipped
+                    their half-drowned branches into its water. Wherever there was a gap between
+                    them, you could see it flow, red and muddy, with the stumps upon it. But the
+                    little figure ran on and on; never looking, never thinking; panting, panting!
+                    There, where the rocks were the thickest; there, where on the open space the
+                    moonlight shone; there, where the prickly pears were tangled, and the rocks cast
+                    shadows, on it ran; the little hands clinched, the little heart beating, the
+                    eyes fixed always ahead.</p>
+                <pb n="43" xml:id="VAB7053-034"></pb>
+                <p>It was not far to run now. Only the narrow path between the high rocks and the
+                    river.</p>
+                <p>At last she came to the end of it, and stood for an instant. Before her lay the
+                    plain, and the red farm-house, so near, that if persons had been walking there
+                    you might have seen them in the moonlight. She clasped her hands. “Yes, I will
+                    tell them, I will tell them!” she said; “I am almost there!” She ran forward
+                    again, then hesitated. She shaded her eyes from the moonlight, and looked.
+                    Between her and the farm-house there were three figures moving over the low
+                    bushes.</p>
+                <pb n="44" xml:id="VAB7053-035"></pb>
+                <p>In the sheeny moonlight you could see how they moved on, slowly and furtively;
+                    the short one, and the one in light clothes, and the one in dark.</p>
+                <p>“I cannot help them now!” she cried, and sank down on the ground, with her little
+                    hands clasped before her.</p>
+                <milestone unit="section"></milestone>
+                <p>“Awake, awake!” said the farmer's wife; “I hear a strange noise; something
+                    calling, calling, calling!”</p>
+                <p>The man rose, and went to the window.</p>
+                <p>“I hear it also,” he said; “surely some jackal's at the sheep. I will load my gun
+                    and go and see.”</p>
+                <pb n="45" xml:id="VAB7053-036"></pb>
+                <p>“It sounds to me like the cry of no jackal,” said the woman; and when he was gone
+                    she woke her daughter.</p>
+                <p>“Come, let us go and make a fire, I can sleep no more,” she said; “I have heard a
+                    strange thing tonight. Your father said it was a jackal's cry, but no jackal
+                    cries so. It was a child's voice, and it cried, ‘Master, master, wake!’”</p>
+                <p>The women looked at each other; then they went to the kitchen, and made a great
+                    fire; and they sang psalms all the while.</p>
+                <p>At last the man came back; and they asked him, “What have you seen?”<pb n="46" xml:id="VAB7053-037"></pb> “Nothing,” he said, “but the sheep asleep in their
+                    kraals, and the moonlight on the walls. And yet, it did seem to me,” he added,
+                    “that far away near the ‘krantz’ <gloss>[precipice]</gloss> by the river, I saw
+                    three figures moving. And afterwards--it might have been fancy--I thought I
+                    heard the cry again; but since that, all has been still there.”</p>
+                <milestone unit="section"></milestone>
+                <p>Next day a navvy had returned to the railway works.</p>
+                <p>“Where have you been so long?” his comrades asked.</p>
+                <p>“He keeps looking over his shoulder,” said one, “as<pb n="47" xml:id="VAB7053-038"></pb> though he thought he should see something there.”</p>
+                <p>“When he drank his grog today,” said another, “he let it fall, and looked
+                    round.”</p>
+                <p>Next day, a small old Bushman, and a Hottentot, in ragged yellow trousers, were
+                    at a wayside canteen. When the Bushman had had brandy, he began to tell how
+                    something (he did not say whether it was man, woman, or child) had lifted up its
+                    hands and cried for mercy; had kissed a white man's hands, and cried to him to
+                    help it. Then the Hottentot took the Bushman by the throat, and dragged him
+                    out.</p>
+                <p>Next night, the moon rose<pb n="48" xml:id="VAB7053-039"></pb> up, and mounted the
+                    quiet sky. She was full now, and looked in at the little home; at the purple
+                    flowers stuck about the room, and the kippersol on the shelf. Her light fell on
+                    the willow trees, and on the high rocks, and on a little new-made heap of earth
+                    and round stones. Three men knew what was under it; and no one else ever
+                    will.</p>
+                <closer>
+                    <dateline>Lily Kloof, South Africa.</dateline>
+                </closer>
+            </div>
+            <pb n="49" xml:id="VAB7053-040"></pb>
+            <div type="story">
+                <head>THE WOMAN'S ROSE</head>
+                <pb n="51" xml:id="VAB7053-041"></pb>
+                <head>THE WOMAN'S ROSE.</head>
+                <p><hi>I HAVE</hi> an old, brown carved box; the lid is broken and tied with a
+                    string. In it I keep little squares of paper, with hair inside, and a little
+                    picture which hung over my brother's bed when we were children, and other things
+                    as small. I have in it a rose. Other women also have such boxes where they<pb n="52" xml:id="VAB7053-042"></pb> keep such trifles, but no one has my rose.</p>
+                <p>When my eye is dim, and my heart grows faint, and my faith in woman flickers, and
+                    her present is an agony to me, and her future a despair, the scent of that dead
+                    rose, withered for twelve years, comes back to me. I know there will be spring;
+                    as surely as the birds know it when they see above the snow two tiny, quivering
+                    green leaves. Spring cannot fail us.</p>
+                <p>There were other flowers in the box once; a bunch of white acacia flowers,
+                    gathered by the strong hand of a man, as we passed down a village<pb n="53" xml:id="VAB7053-043"></pb> street on a sultry afternoon, when it had rained, and
+                    the drops fell on us from the leaves of the acacia trees. The flowers were damp;
+                    they made mildew marks on the paper I folded them in. After many years I threw
+                    them away. There is nothing of them left in the box now, but a faint, strong
+                    smell of dried acacia, that recalls that sultry summer afternoon; but the rose
+                    is in the box still.</p>
+                <p>It is many years ago now; I was a girl of fifteen, and I went to visit in a small
+                    up-country town. It was young in those days, and two days' journey from the
+                        nearest<pb n="54" xml:id="VAB7053-044"></pb> village; the population consisted
+                    mainly of men. A few were married, and had their wives and children, but most
+                    were single. There was only one young girl there when I came. She was about
+                    seventeen, fair, and rather fully-fleshed; she had large dreamy blue eyes, and
+                    wavy light hair; full, rather heavy lips, until she smiled; then her face broke
+                    into dimples, and all her white teeth shone. The hotel-keeper may have had a
+                    daughter, and the farmer in the outskirts had two, but we never saw them. She
+                    reigned alone. All the men worshipped her. She<pb n="55" xml:id="VAB7053-045"></pb>
+                    was the only woman they had to think of. They talked of her on the “stoep,” at
+                    the market, at the hotel; they watched for her at street corners; they hated the
+                    man she bowed to or walked with down the street. They brought flowers to the
+                    front door; they offered her their horses; they begged her to marry them when
+                    they dared. Partly, there was something noble and heroic in this devotion of men
+                    to the best woman they knew; partly there was something natural in it, that
+                    these men, shut off from the world, should pour at the feet of one woman the<pb n="56" xml:id="VAB7053-046"></pb> worship that otherwise would have been given
+                    to twenty; and partly there was something mean in their envy of one another. If
+                    she had raised her little finger, I suppose, she might have married any one out
+                    of twenty of them.</p>
+                <p>Then I came. I do not think I was prettier; I do not think I was so pretty as she
+                    was. I was certainly not as handsome. But I was vital, and I was new, and she
+                    was old--they all forsook her and followed me. They worshipped me. It was to my
+                    door that the flowers came; it was I had twenty horses offered me<pb n="57" xml:id="VAB7053-047"></pb> when I could only ride one; it was for me they waited
+                    at street corners; it was what I said and did that they talked of. Partly I
+                    liked it. I had lived alone all my life; no one ever had told me I was beautiful
+                    and a woman. I believed them. I did not know it was simply a fashion, which one
+                    man had set and the rest followed unreasoningly. I liked them to ask me to marry
+                    them, and to say, No. I despised them. The mother heart had not swelled in me
+                    yet; I did not know all men were my children, as the large woman knows when her
+                    heart is grown.</p>
+                <pb n="58" xml:id="VAB7053-048"></pb>
+                <p>I was too small to be tender. I liked my power. I was like a child with a new
+                    whip, which it goes about cracking everywhere, not caring against what. I could
+                    not wind it up and put it away. Men were curious creatures, who liked me, I
+                    could never tell why. Only one thing took from my pleasure; I could not bear
+                    that they had deserted her for me. I liked her great dreamy blue eyes, I liked
+                    her slow walk and drawl; when I saw her sitting among men, she seemed to me much
+                    too good to be among them; I would have given all their compliments if she
+                        would<pb n="59" xml:id="VAB7053-049"></pb> once have smiled at me as she smiled
+                    at them, with all her face breaking into radiance, with her dimples and flashing
+                    teeth. But I knew it never could be; I felt sure she hated me; that she wished I
+                    was dead; that she wished I had never come to the village. She did not know,
+                    when we went out riding, and a man who had always ridden beside her came to ride
+                    beside me, that I sent him away; that once when a man thought to win my favour
+                    by ridiculing her slow drawl before me I turned on him so fiercely that he never
+                    dared come before me again. I<pb n="60" xml:id="VAB7053-050"></pb> knew she knew
+                    that at the hotel men had made a bet as to which was the prettier, she or I, and
+                    had asked each man who came in, and that the one who had staked on me won. I
+                    hated them for it, but I would not let her see that I cared about what she felt
+                    towards me.</p>
+                <p>She and I never spoke to each other.</p>
+                <p>If we met in the village street we bowed and passed on; when we shook hands we
+                    did so silently, and did not look at each other. But I thought she felt my
+                    presence in a room just as I felt hers.</p>
+                <p>At last the time for my<pb n="61" xml:id="VAB7053-051"></pb> going came. I was to
+                    leave the next day. Some one I knew gave a party in my honour, to which all the
+                    village was invited.</p>
+                <p>It was midwinter; there was nothing in the gardens but a few dahlias and
+                    chrysanthemums, and I suppose that for two hundred miles round there was not a
+                    rose to be bought for love or money. Only in the garden of a friend of mine, in
+                    a sunny corner between the oven and the brick wall, there was a rose tree
+                    growing which had on it one bud. It was white, and it had been promised to the
+                    fair haired girl to wear at the party.</p>
+                <p>The evening came; when I arrived and went to the waiting-room, to take off my
+                    mantle, I found the girl there already. She was dressed in pure white, with her
+                    great white arms and shoulders showing, and her bright hair glittering in the
+                    candle-light, and the white rose fastened at her breast. She looked like a
+                    queen. I said “Good evening,” and turned away quickly to the glass to arrange my
+                    old black scarf across my old black dress.</p>
+                <p>Then I felt a hand touch my hair.</p>
+                <p>“Stand still,” she said.</p>
+                <p>I looked in the glass.<pb n="63" xml:id="VAB7053-052"></pb> She had taken the white
+                    rose from her breast, and was fastening it in my hair.</p>
+                <p>“How nice dark hair is; it sets off flowers so.” She stepped back and looked at
+                    me. “It looks much better there!”</p>
+                <p>I turned round.</p>
+                <p>“You are so beautiful to me,” I said.</p>
+                <p>“Y-e-s,” she said, with her slow Colonial drawl; “I'm so glad.”</p>
+                <p>We stood looking at each other.</p>
+                <p>Then they came in and swept us away to dance. All the evening we did not come
+                    near to each other. Only<pb n="64" xml:id="VAB7053-053"></pb> once, as she passed,
+                    she smiled at me.</p>
+                <p>The next morning I left the town.</p>
+                <p>I never saw her again.</p>
+                <p>Years afterwards I heard she had married and gone to America; it may or may not
+                    be so--but the rose--the rose is in the box still! When my faith in woman grows
+                    dim, and it seems that for want of love and magnanimity she can play no part in
+                    any future heaven; then the scent of that small withered thing comes
+                    back:--spring cannot fail us.</p>
+                <closer>
+                    <dateline>Matjesfontein, South Africa.</dateline>
+                </closer>
+            </div>
+            <pb n="65" xml:id="VAB7053-054"></pb>
+            <div type="story">
+                <head>“THE POLICY IN FAVOUR OF PROTECTION —.”</head>
+                <head type="sub">Was it Right?—Was it Wrong?</head>
+                <pb n="67" xml:id="VAB7053-055"></pb>
+                <head>“THE POLICY IN FAVOUR OF PROTECTION —.”</head>
+                <head type="sub">Was it Right?—Was it Wrong?</head>
+                <p><hi>A WOMAN</hi> sat at her desk in the corner of a room; behind her a fire burnt
+                    brightly.</p>
+                <p>Presently a servant came in and gave her a card.</p>
+                <p>“Say I am busy and can see no one now. I have to finish this article by two
+                    o'clock.”</p>
+                <p>The servant came back. The caller said she would only keep her a moment: it<pb n="68" xml:id="VAB7053-056"></pb> was necessary she should see her.</p>
+                <p>The woman rose from her desk. “Tell the boy to wait. Ask the lady to come
+                    in.”</p>
+                <p>A young woman in a silk dress, with a cloak reaching to her feet, entered. She
+                    was tall and slight, with fair hair.</p>
+                <p>“I knew you would not mind. I wished to see you so!”</p>
+                <p>The woman offered her a seat by the fire. “May I loosen your cloak?--the room is
+                    warm.”</p>
+                <p>“I wanted so to come and see you. You are the only person in the world who could
+                    help me! I know you<pb n="69" xml:id="VAB7053-057"></pb> are so large, and generous,
+                    and kind to other women!” She sat down. Tears stood in her large blue eyes: she
+                    was pulling off her little gloves unconsciously.</p>
+                <p>“You know Mr.--” (she mentioned the name of a well-known writer): “I know you
+                    meet him often in your work. I want you to do something for me!”</p>
+                <p>The woman on the hearth-rug looked down at her.</p>
+                <p>“I couldn't tell my father or my mother, or any one else; but I can tell you,
+                    though I know so little of you. You know, last summer he came and stayed with us
+                    a month. I saw a<pb n="70" xml:id="VAB7053-058"></pb> great deal of him. I don't
+                    know if he liked me; I know he liked my singing, and we rode together--I liked
+                    him more than any man I have ever seen. Oh, you know it isn't true that a woman
+                    can only like a man when he likes her; and I thought, perhaps, he liked me a
+                    little. Since we have been in town we have asked, but he has never come to see
+                    us. Perhaps people have been saying something to him about me. You know him, you
+                    are always meeting him, couldn't you say or do anything for me?” She looked up
+                    with her lips white and drawn. “I feel sometimes<pb n="71" xml:id="VAB7053-059"></pb> as if I were going mad! Oh, it is so terrible to be a woman!” The woman
+                    looked down at her. “Now I hear he likes another woman. I don't know who she is,
+                    but they say she is so clever, and writes. Oh, it is so terrible, I can't bear
+                    it.”</p>
+                <p>The woman leaned her elbow against the mantel-piece, and her face against her
+                    hand. She looked down into the fire. Then she turned and looked at the younger
+                    woman. “Yes,” she said, “it is a very terrible thing to be a woman.” She was
+                    silent. She said with some <choice>
+                        <orig>diffi-</orig>
+                        <reg>difficulty</reg>
+                    </choice><pb n="72" xml:id="VAB7053-060"></pb> culty: “Are you sure you love him!
+                    Are you sure it is not only the feeling a young girl has for an older man who is
+                    celebrated, and of whom every one is talking.”</p>
+                <p>“I have been nearly mad. I haven't slept for weeks!” She knit her little hands
+                    together, till the jewelled rings almost cut into the fingers. “He is everything
+                    to me; there is nothing else in the world. You, who are so great, and strong,
+                    and clever, and who care only for your work, and for men as your friends, you
+                    cannot understand what it is when one person is everything to you,<pb n="73" xml:id="VAB7053-061"></pb> when there is nothing else in the world!”</p>
+                <p>“And what do you want me to do?”</p>
+                <p>“Oh, I don't know!” She looked up. “A woman knows what she can do. Don't tell him
+                    that I love him.” She looked up again. “Just say something to him. Oh, it's so
+                    terrible to be a woman; I can't do anything. You won't tell him exactly that I
+                    love him? That's the thing that makes a man hate a woman, if you tell it him
+                    plainly.”</p>
+                <p>“If I speak to him I must speak openly. He is my friend. I cannot fence with him.
+                    I have never fenced<pb n="74" xml:id="VAB7053-062"></pb> with him in my own
+                    affairs.” She moved as though she were going away from the fireplace, then she
+                    turned and said: “Have you thought of what love is between a man and a woman
+                    when it means marriage? That long, long life together, day after day, stripped
+                    of all romance and distance, living face to face: seeing each other as a man
+                    sees his own soul? Do you realize that the end of marriage is to make the man
+                    and woman stronger than they were; and that if you cannot, when you are an old
+                    man and woman and sit by the fire, say, ‘Life has been a braver<pb n="75" xml:id="VAB7053-063"></pb> and a freer thing for us, because we passed it hand
+                    in hand, than if we had passed through it alone,’ it has failed? Do you care for
+                    him enough to live for him, not tomorrow, but when he is an old, faded man, and
+                    you an old, faded woman? Can you forgive him his sins and his weaknesses, when
+                    they hurt you most? If he were to lie a querulous invalid for twenty years,
+                    would you be able to fold him in your arms all that time, and comfort him, as a
+                    mother comforts her little child?” The woman drew her breath heavily.</p>
+                <p>“Oh, I love him <choice>
+                        <orig>abso-</orig>
+                        <reg>absolutely</reg>
+                    </choice><pb n="76" xml:id="VAB7053-064"></pb> lutely! I would be glad to die, if
+                    only I could once know that he loved me better than anything in the world!”</p>
+                <p>The woman stood looking down at her. “Have you never thought of that other woman;
+                    whether <emph>she</emph> could not perhaps make his life as perfect as you?” she
+                    asked, slowly.</p>
+                <p>“Oh, no woman ever could be to him what I would be. I would live for him. He
+                    belongs to me.” She bent herself forward, not crying, but her shoulders moving.
+                    “It is such a terrible thing to be a woman, to be able to do nothing and say
+                    nothing!”</p>
+                <pb n="77" xml:id="VAB7053-065"></pb>
+                <p>The woman put her hand on her shoulder; the younger woman looked up into her
+                    face; then the elder turned away and stood looking into the fire. There was such
+                    quiet, you could hear the clock tick above the writing-table.</p>
+                <p>The woman said: “There is one thing I can do for you. I do not know if it will be
+                    of any use--I will do it.” She turned away.</p>
+                <p>“Oh, you are so great and good, so beautiful, so different from other women, who
+                    are always thinking only of themselves! Thank you so much. I know I can trust
+                    you. I couldn't<pb n="78" xml:id="VAB7053-066"></pb> have told my mother, or any one
+                    but you.”</p>
+                <p>“Now you must go; I have my work to finish.”</p>
+                <p>The younger woman put her arms round her. “Oh, you are so good and
+                    beautiful!”</p>
+                <p>The silk dress and the fur cloak rustled out of the room.</p>
+                <p>The woman who was left alone walked up and down, at last faster and faster, till
+                    the drops stood on her forehead. After a time she went up to the table; there
+                    was written illegibly in a man's hand on a fragment of manuscript paper: <q>“Can
+                        I come to see you this afternoon?”</q><pb n="79" xml:id="VAB7053-067"></pb> Near
+                    it was a closed and addressed envelope. She opened it. In it were written the
+                    words: <q>“Yes, please, come.”</q></p>
+                <p>She tore it across and wrote the words: <q>“No, I shall not be at
+                    liberty.”</q></p>
+                <p>She closed them in an envelope and addressed them. Then she rolled up the
+                    manuscript on the table and rang the bell. She gave it to the servant. “Tell the
+                    boy to give this to his master, and say the article ends rather abruptly; they
+                    must state it is to be continued; I will finish it tomorrow. As he passes No. 20
+                    let him leave this note there.”</p>
+                <p>The servant went out. She walked up and down with her hands folded above her
+                    head.</p>
+                <milestone unit="section"></milestone>
+                <p>Two months after, the older woman stood before the fire. The door opened
+                    suddenly, and the younger woman came in.</p>
+                <p>“I had to come--I couldn't wait. You have heard, he was married this morning? Oh,
+                    do you think it is true? Do help me!” She put out her hands.</p>
+                <p>“Sit down. Yes, it is quite true.”</p>
+                <p>“Oh, it is so terrible, and I didn't know anything! Did you ever say anything<pb n="81" xml:id="VAB7053-068"></pb> to him?” She caught the woman's hands.</p>
+                <p>“I never saw him again after the day you were here,--so I could not speak to
+                    him--but I did what I could.” She stood looking passively into the fire.</p>
+                <p>“And they say she is quite a child, only eighteen. They say he only saw her three
+                    times before he proposed to her. Do you think it is true?”</p>
+                <p>“Yes, it is quite true.”</p>
+                <p>“He can't love her. They say he's only marrying her for her rank and her
+                    money.”</p>
+                <p>The woman turned quickly.</p>
+                <p>“What right have you to say that? No one but me<pb n="82" xml:id="VAB7053-069"></pb>
+                    knows him. What need has he of any one's rank or wealth? He is greater than them
+                    all! Older women may have failed him; he has needed to turn to her beautiful,
+                    fresh, young life to compensate him. She is a woman whom any man might have
+                    loved, so young and beautiful; her family are famed for their intellect. If he
+                    trains her, she may make him a better wife than any other woman would have
+                    done.”</p>
+                <p>“Oh, but I can't bear it--I can't bear it!” The younger woman sat down in the
+                    chair. “She will be his wife, and have his children.”</p>
+                <pb n="83" xml:id="VAB7053-070"></pb>
+                <p>“Yes.” The elder woman moved quickly. “One wants to have the child, and lay its
+                    head on one's breast and feed it.” She moved quickly. “It would not matter if
+                    another woman bore it, if one had it to take care of.” She moved restlessly.</p>
+                <p>“Oh, no, I couldn't bear it to be hers. When I think of her I feel as if I were
+                    dying; all my fingers turn cold; I feel dead. Oh, you were only his friend; you
+                    don't know!”</p>
+                <p>The older spoke softly and quickly, “Don't you feel a little gentle to her when
+                    you think she's going to be his<pb n="84" xml:id="VAB7053-071"></pb> wife and the
+                    mother of his child? I would like to put my arms round her and touch her once,
+                    if she would let me. She is so beautiful, they say.”</p>
+                <p>“Oh, I could never bear to see her; it would kill me. And they are so happy
+                    together to-day! He is loving her so!”</p>
+                <p>“Don't you want him to be happy?” The older woman looked down at her. “Have you
+                        <emph>never</emph> loved him, at all?”</p>
+                <p>The younger woman's face was covered with her hands. “Oh, it's so terrible, so
+                    dark! and I shall go on living year after year, always in this<pb n="85" xml:id="VAB7053-072"></pb> awful pain! Oh, if I could only die!”</p>
+                <p>The older woman stood looking into the fire; then slowly and measuredly she said,
+                    “There are times, in life, when everything seems dark, when the brain reels, and
+                    we cannot see that there is anything but death. But, if we wait long enough,
+                    after long, long years, calm comes. It may be we cannot say it was well; but we
+                    are contented, we accept the past. The struggle is ended. That day may come for
+                    you, perhaps sooner than you think.” She spoke slowly, and with difficulty.</p>
+                <p>“No, it can never come<pb n="86" xml:id="VAB7053-073"></pb> for me. If once I have
+                    loved a thing, I love it for ever. I can never forget.”</p>
+                <p>“Love is not the only end in life. There are other things to live for.”</p>
+                <p>“Oh, yes, for you! To me love is everything!”</p>
+                <p>“Now, you must go, dear.”</p>
+                <p>The younger woman stood up. “It has been such a comfort to talk to you. I think I
+                    should have killed myself if I had not come. You help me so. I shall always be
+                    grateful to you.”</p>
+                <p>The older woman took her hand.</p>
+                <p>“I want to ask something of you.”</p>
+                <p>“What is it?”</p>
+                <pb n="87" xml:id="VAB7053-074"></pb>
+                <p>“I cannot quite explain to you. You will not understand. But there are times when
+                    something more terrible can come into a life than it should lose what it loves.
+                    If you have had a dream of what life ought to be, and you try to make it real,
+                    and you fail; and something you have killed out in your heart for long years
+                    wakes up and cries, ‘Let each man play his own game, and care nothing for the
+                    hand of his fellow! Each man for himself. <emph>So</emph> the game must be
+                    played!’ and you doubt all you have lived for, and the ground seems washing out
+                    under your feet--.” She paused.<pb n="88" xml:id="VAB7053-075"></pb> “Such a time
+                    has come to me now. If you would promise me that if ever another woman comes to
+                    seek your help, you will give it to her, and try to love her for my sake, I
+                    think it will help me. I think I should be able to keep my faith.”</p>
+                <p>“Oh, I will do anything you ask me to. You are so good and great.”</p>
+                <p>“Oh, good and great!--if you knew! Now go, dear.”</p>
+                <p>“I have not kept you from your work, have I?”</p>
+                <p>“No; I have not been working lately. Good-by, dear.”</p>
+                <p>The younger woman went; and the elder knelt down by<pb n="89" xml:id="VAB7053-076"></pb> the chair, and wailed like a little child when you
+                    have struck it and it does not dare to cry loud.</p>
+                <milestone unit="section"></milestone>
+                <p>A year after; it was early spring again.</p>
+                <p>The woman sat at her desk writing; behind her the fire burnt brightly. She was
+                    writing a leading article on the causes which in differing peoples lead to the
+                    adoption of Free Trade or Protectionist principles.</p>
+                <p>The woman wrote on quickly. After a while the servant entered and laid a pile of
+                    letters on the table. “Tell the boy I shall have done in fifteen minutes.”
+                        She<pb n="90" xml:id="VAB7053-077"></pb> wrote on. Then she caught sight of the
+                    writing on one of the letters. She put down her pen, and opened it. It ran
+                    so:--</p>
+                <p>“DEAR FRIEND,--I am writing to you, because I know you will rejoice to hear of my
+                    great happiness. Do you remember how you told me that day by the fire to
+                        <emph>wait</emph>, and after long, long years I should see that all was for
+                    the best? That time has come sooner than we hoped. Last week in Rome I was
+                    married to the best, noblest, most large-hearted of men. We are now in Florence
+                    together. You don't know how beautiful all life is<pb n="91" xml:id="VAB7053-078"></pb> to me. I know now that the old passion was only a
+                    girl's foolish dream. My husband is the first man I have ever truly loved. He
+                    loves me and understands me as no other man ever could. I am thankful that my
+                    dream was broken; God had better things in store for me. I don't hate that woman
+                    any more; I love every one! How are you, dear? We shall come and see you as soon
+                    as we arrive in England. I always think of you so happy in your great work and
+                    helping other people. I don't think <emph>now</emph> it is terrible to be a
+                    woman; it is lovely.</p>
+                <p>“I hope you are enjoying<pb n="92" xml:id="VAB7053-079"></pb> this beautiful spring
+                    weather.</p>
+                <p>“Yours, always full of gratitude and love,</p>
+                <p>“E--.”</p>
+                <p>The woman read the letter: then she stood up and walked towards the fire. She did
+                    not re-read it, but stood with it open in her hand, looking down into the blaze.
+                    Her lips were drawn in at the corners. Presently she tore the letter up slowly,
+                    and watched the bits floating down one by one into the grate. Then she went back
+                    to her desk, and began to write, with her mouth still drawn in at the corners.
+                    After a while she laid her arm<pb n="93" xml:id="VAB7053-080"></pb> on the paper and
+                    her head on her arm, and seemed to go to sleep there.</p>
+                <p>Presently the servant knocked; the boy was waiting. “Tell him to wait ten minutes
+                    more.” She took up her pen--“The Policy of the Australian Colonies in favour of
+                    Protection is easily understood--” she waited--“when one considers the fact--the
+                    fact--”; then she finished the article.</p>
+                <closer>
+                    <dateline>Cape Town, South Africa, <date>1892.</date></dateline>
+                </closer>
+            </div>
+            <trailer>UNWIN BROTHERS, CHILWORTH AND LONDON.</trailer>
+        </body>
+    </text>
+</TEI>
