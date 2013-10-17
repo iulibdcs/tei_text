@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd"
+     xml:id="VAC6286">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title >The Fatal Stroke, or, The Philosophy of Intemperance </title>
+            <author >Divoll, Willard.</author>
+            <respStmt>
+               <resp >General Editor</resp>
+               <name >Perry Willett</name>
+            </respStmt>
+            <respStmt>
+               <resp >Electronic Text Specialist</resp>
+               <name  xml:id="adamhoch">Adam Hochstetter</name>
+            </respStmt>
+            <respStmt>
+               <resp >General Editor</resp>
+               <name  xml:id="mdalmau">Michelle Dalmau</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher >Digital Library Program, Indiana University</publisher>
+            <pubPlace>Bloomington, IN</pubPlace>
+            <address >
+               <addrLine xmlns="http://www.tei-c.org/ns/1.0">1320 E. 10th St.</addrLine>
+               <addrLine xmlns="http://www.tei-c.org/ns/1.0">Bloomington, IN 47405</addrLine>
+            </address>
+            <idno >VAC6286</idno>
+            <availability  status="unknown">
+               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
+                    copyright only to original contributions made by the Victorian Women Writers
+                    Project participants and other members of the university community. Indiana
+                    University makes no claim of copyright to the original text. Permission is
+                    granted to download, transmit or otherwise reproduce, distribute or display the
+                    contributions to this work claimed by Indiana University for non-profit
+                    educational purposes, provided that this header is included in its entirety. For
+                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title  level="s" type="project">Wright American Fiction: An Electronic
+                    Collection</title>
+         </seriesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title >The fatal stroke, or, The philosophy of intemperance</title>
+                  <author >Divoll, Willard.</author>
+               </titleStmt>
+               <extent >62 p.</extent>
+               <publicationStmt>
+                  <publisher >Baker &amp; Goodwin</publisher>
+                  <pubPlace>New York </pubPlace>
+                  <date  when="1869">1869</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p >This text was created as part of a project by the Committee on Institutional
+                    Cooperation. Project description and participants are available at the project
+                    website at http://www.letrs.indiana.edu/wright.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+                    has been encoding and edited using the recommendations for Level 4 of the TEI in
+                    Libraries Guidelines. Digital page images are linked to the text file.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language  ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change  who="Perry Willett, Indiana University" when="2005-05-30">Finished OCR, rough encoding and error checking</change>
+         <change  who="Perry Willett, Indiana University" when="2005-06-30">Finished TEI conversion</change>
+         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text > 
+      <front> 
+         <titlePage xmlns="http://www.tei-c.org/ns/1.0" type="cover"> 
+            <pb  n=" (Cover) " xml:id="VAC6286-00000001"/> 
+            <docTitle> 
+               <titlePart>THE FATAL STROKE;</titlePart> 
+               <titlePart type="sub">OR THE PHILOSOPHY OF INTEMPERANCE.</titlePart> 
+            </docTitle> 
+            <byline >BY <docAuthor xmlns="http://www.tei-c.org/ns/1.0">WILLARD DIVOLL.</docAuthor>
+            </byline> 
+            <docImprint>
+               <pubPlace>NEW YORK:</pubPlace> 
+               <publisher >BAKER &amp; GODWIN, PRINTERS, <address> 
+                     <addrLine xmlns="http://www.tei-c.org/ns/1.0">PRINTING-HOUSE SQUARE.</addrLine> 
+                  </address>
+               </publisher>
+            </docImprint> 
+            <docDate>1869.</docDate> 
+         </titlePage> 
+         <div type="advertisement"> 
+            <pb n="Advertisement" xml:id="VAC6286-00000002"/> 
+            <head>STATEN ISLAND FANCY DYEING ESTABLISHMENT.</head> 
+            <head type="sub">BARRETT NEPHEWS &amp; CO.,</head> 
+            <p>Principal Office at 5 and 7 John Street, New York.</p> 
+            <list> 
+               <item>BRANCH OFFICE in NEW YORK, 1142 Broadway, 2 Doors above 26th St. (Making Two Offices (only) in New York City.)</item> 
+               <item>BRANCH OFFICE in BROOKLYN, 269 Fulton St., corner of Tillary.</item> 
+               <item>BRANCH OFFICE in PHILADELPHIA, 47 North Eighth St.</item> 
+               <item>BRANCH OFFICE in BALTIMORE, 110 West Baltimore St.</item> 
+            </list> 
+            <p>All Kinds of Dress Goods, in the piece or made into Garments, Dyed, Cleaned, or Refinished.</p> 
+            <p>Ladies' Dresses, Cloaks, Mantillas, &amp;c., in all Fabrics, Cleaned, without ripping.</p> 
+            <p>Gentlemen's Coats, Overcoats, Pants, Vests, &amp;c., Dyed or Cleaned, without ripping.</p> 
+            <p>Kid Gloves and Feathers Cleaned or Dyed.</p> 
+            <p>Linen and Muslin Window Shades, Chintz Curtains, &amp;c., Cleaned and Glazed.</p> 
+            <p>Lace and Muslin Curtains, Table Covers, Carpets, Rugs, &amp;c., Cleaned and Refinished.</p> 
+            <p>Damask and Moreen Curtains beautifully Dyed.</p> 
+            <p>Crape Shawls, Dyed the most brilliant Shades of Crimson, or the more Delicate or Grave Colors.</p> 
+            <p>Cashmere, Broche, Wool, Crape and other Shawls Cleaned in the best manner.</p> 
+            <p>BARRETT NEPHEWS &amp; CO.</p> 
+            <p>Abm. C. Wood, Treasurer. Nathan M. Heal, President.</p> 
+            <p>PRINCIPAL OFFICE, Nos. 5 and 7 John Street, New York.</p> 
+         </div> 
+         <titlePage xmlns="http://www.tei-c.org/ns/1.0"> 
+            <pb  n=" (TitlePage) " xml:id="VAC6286-00000003"/> 
+            <docTitle> 
+               <titlePart>THE FATAL STROKE;</titlePart> 
+               <titlePart type="sub">OR THE PHILOSOPHY OF INTEMPERANCE.</titlePart> 
+            </docTitle> 
+            <byline >BY <docAuthor xmlns="http://www.tei-c.org/ns/1.0">WILLARD DIVOLL.</docAuthor>
+            </byline> 
+            <docImprint>
+               <pubPlace>NEW YORK:</pubPlace> 
+               <publisher >BAKER &amp; GODWIN, PRINTERS, <address> 
+                     <addrLine xmlns="http://www.tei-c.org/ns/1.0">PRINTING-HOUSE SQUARE.</addrLine> 
+                  </address>
+               </publisher>
+            </docImprint> 
+            <docDate>1869.</docDate> 
+            <pb  n="3" xml:id="VAC6286-00000004"/> 
+            <docEdition>Entered according to Act of Congress, in the year 1869, by WILLARD DIVOLL, In the Clerk's Office of the District Court of the United States for the Southern District of New York.</docEdition> 
+         </titlePage> 
+         <div type="preface"> 
+             
+            <head>PREFACE.</head> 
+            <p>READER: I am aware that the subject of Temperance has been discussed in almost every form; yet it is one so intimately connected with the welfare of individuals and communities, that I have been induced to write this little work, believing that my manner of treating the subject is novel, and hoping thereby to impress more thoroughly on the minds of all, especially the young, the ruinous results of what is called moderate drinking. Drinkers generally flatter themselves that they are all right if they are able to attend to business, and do not get staggering drunk. But facts show that a large portion of the males of this country, and in all rum-drinking countries, if not drunkards, are decidedly <emph>Rum Struck,</emph> which is another name for "drunk," with its variations and modifications. The <emph>Rum Struck</emph> are easily distinguished from the natural man or non-<emph>Rum Struck.</emph> There are thousands terribly afflicted with the <emph>Rum Stroke</emph> who are not aware of the fact, while others can see it very distinctly. I trust that<pb n="4" xml:id="VAC6286-00000005"/> the facts and hints I have given in this little work will induce all to study the subject more closely, especially the young.</p> 
+            <p>I believe the ladies will give my little book a warm reception, as they are favorable to clean men-such as neither use rum, tobacco, nor profane language. The really temperance men will encourage me, as they sympathize with every effort to make men wiser and better. I believe moderate and immoderate drinkers will read it, because it more deeply interests them than anybody else. Young men, no doubt, will read it carefully, because written especially for their benefit.</p> 
+            <closer>
+               <signed>AUTHOR.</signed>
+            </closer> 
+         </div> 
+         <div type="introduction"> 
+             
+            <head>INTRODUCTION</head> 
+            <head type="sub">BY HORACE A. COOK.</head> 
+            <p>I have carefully read this Manuscript entitled "THE FATAL STROKE, OR THE PHILOSOPHY OF INTEMPERANCE," and find the subject treated in a manner which will at the same time captivate the attention and convey a salutary lesson to the reader. The author has made drinking men talk in bar-rooms and other places of resort, but has avoided all profane and vulgar language so common among that class. A variety of significant names has been introduced to represent different characters whose counterparts the reader will at once find in his own city, village, or neighborhood. There is no doubt that men are liable to become drunken or Rum Stricken more or less according to their physical constitution. This difference is represented by the Woodenbottoms, and Ironsides is clearly true to nature. The description of the Rum Struck class is an important feature of the work, and is deserving of special attention. The majority of this class are not so far gone as to be insensible to reason and truth, and there is a natural desire in all rational beings to maintain health, beauty, and vigor. And the ever present consciousness of carrying on their person the visible signs of the Rum Stroke should be a constant warning to all, and a powerful incentive to reformation. There is a charm and attractiveness about the work which cannot fail to secure the attention of the youthful reader, and leave a lasting impression upon his mind. The author has done well in submitting this volume to the public. Parents especially, whether temperate or intemperate, who wish their children to lead a life of honor and usefulness should at once place a copy of the work in their hands. Sons and Daughters of Temperance, and other similar organizations, will also find it an excellent auxiliary in promoting the noble work in which they are engaged.</p> 
+         </div> 
+      </front> 
+      <body>
+         <div type="book">
+            <head>The fatal stroke, or, The philosophy of intemperance</head> 
+            <div type="part"> 
+               <pb n="5" xml:id="VAC6286-00000006"/> 
+                
+               <head>THE FATAL STROKE;</head> 
+               <head type="sub">OR, THE PHILOSOPHY OF INTEMPERANCE.</head> 
+               <p>I HAVE written this treatise for the benefit of all, but more especially for young men. The conclusions are the result of my observations, and I really believe them to be true. I wish you to criticise them sharply but candidly, and satisfy yourselves of their truthfulness. You have heard of people being <emph>struck</emph> in various ways. I have not had much experience that way, and hope, by the blessing of God, I never shall, but can imagine that it would be very disagreeable to be struck in any form. Some are struck with men's fists, which often results in a fall, or a black eye; some with policemen's clubs, which gives a sore head; others are struck with brickbats and shillalahs, producing very disagreeable sensations. These are bad enough, yet by no means the most fatal strokes to which men are subject. It is worse to be struck by lightning than by a brickbat, though the person struck by lightning might not experience any pain, as the stroke might produce instantaneous death; yet the result would be deplorable. Others are struck with the palsy, which is a<pb n="6-7" xml:id="VAC6286-00000007"/> stroke very much to be dreaded, though not always producing instantaneous death. Some are prostrated and often killed by a stroke of the sun. These are evils which none of us would like to experience, and l am thankful that most of them maybe avoided, and those which are unavoidable seldom occur. Persons who are struck with brickbats, fists, stones, and clubs, are generally doing something they ought not to do. 'No one should give himself the least uneasiness about lightning, as there are a thousand chances for one to die some other way than being killed by lightning.</p> 
+               <p>Having now mentioned some of the more principal dangerous strokes to which men are liable, I will give you an account of a stroke more fatal than any of these, and one you have scarcely thought of-I mean the Ruin Stroke. For my present purpose I shall divide the human family into two classes-viz.: the Bum Struck, and those not Rum Struck, or the Natural man. These two classes embrace all. You would be surprised if you knew the magnitude of the first class. I do not think that it is equal to one-half, but the proportion is very large. Probably one-third of the males, in many communities, are Rum Struck. There are many females, also, to say the least, slightly affected that way; yet their number is small in comparison with the males so afflicted. It is important that all should know how to distinguish between the Rum Struck and the Natural man. There are a few cases requiring close observation and accurate judgment to determine to which class they belong. And, my young friends, there is no subject more profitable for you to study than the classification of the human family under these heads. Remember that every person you meet will come under one or the other of these divisions, and must be put down as Rum Struck or not Rum Struck. Rum Struck men;are seen everywhere. In cities they seem to form nearly half you meet in the streets, saloons, lodging-houses, and cars. Where there is one man who would be called a drunkard, there are ten Rum Struck men whose condition is not much better. Rum Struck men appear to be multiplying beyond all calculation. I am astonished at the number I see in my daily observations among men. Drinkers generally flatter themselves that they are using very fine liquor, and therefore it cannot injure them. Let me say to you all, that whether you drink what you call fine liquors or vile mixtures, if you follow it up you will soon find yourselves badly Rum Stricken. The best liquor will kill; the only difference is that vile mixtures will make shorter work of you.</p> 
+               <p>There are some persons who drink strong liquors occasionally, yet are not Rum Struck, because the effect of the liquor has not as yet made its appearance on their outer man. Young men, let your thoughts be turned to this subject, because it is intimately connected with your welfare in these times of excessive Rum Drinking. However lightly some may think of it, yet nevertheless it is a <emph>terrible</emph> thing to be Rum Struck. It is more dangerous, more disgraceful, more to be dreaded than all other strokes to which the human family are liable. A Rum<pb n="8-9" xml:id="VAC6286-00000008"/> Struck person is doomed, ruined, lost, unless he immediately applies the remedy, which is <emph>total abstinence</emph> of all strong drinks. And even this will not restore and reconstruct the man mentally and physically as he was made by the hand of God, especially if the symptoms of the Rum Stroke have been of long standing, yet it will generally save him and make him respectable and useful. In old cases the Rum Stroke cannot be wholly obliterated, yet the man may be saved as by fire-the disease may be stayed, but the effects of the Stroke are often indelibly fixed upon the person. You may ask me if a young man becomes Rum Struck the first time he gets intoxicated. I answer no, though he receives a temporary shock, yet from which he soon recovers, and if he does not again become intoxicated, there will be no visible signs of the Rum Stroke left upon him. It is only by repeated shocks that the Rum Stroke fixes itself upon the body and mind of the man or woman. If these shocks are repeated a certain number of times, though they be ever so gentle, they will produce symptoms of the Rum Stroke. That is to say, that if a man drinks strong liquor daily, so as to excite his system, he will in time become a Rum-Struck man, though never known to be at all drunk. Yet if he often gets drunk, the Rum Stroke will the sooner make its appearance. These mild shocks are very dangerous, because liable to become more and more severe almost unconsciously, till the man is thoroughly Rum Struck. So you see that men may become Ruin Struck without being really drunk at all. If a man drinks pretty freely of strong or intoxicating liquors, though he might never be so affected as to disqualify him for business or taking proper care of himself on all occasions, yet he will surely become Rum Struck. Ah! here is where thousands deceive themselves and make shipwreck of their bodies and souls. They congratulate themselves that they are never seen unable to do business, or staggering through the streets or holding themselves up by the fence or lamp-post, or heard yelling like wild Indians from the effects of rum. They flatter themselves that they are very temperate and exemplary men, when at the same time they are ruinously Rum Stricken. The close observer discovers at once their true condition; he knows that they have received the Fatal Stroke; it is seen in the eyes, in the skin, and sticking out on the nose, and on the cheeks, and often manifests itself by a protruding abdomen, and by he whole general appearance.</p> 
+               <p>Deluded mortals! they have become irretrievably Rum Stricken, without being conscious of it. Young man, beware of the Fatal Stroke!</p> 
+               <p>Many young men form the habit of using strong drinks after the following manner: Mr. A. is a young man of eighteen intoxicated, nor has he the least mark or symptom of the Run Stroke about him. A. is invited to a drinking-place by Mr. B., a professed friend, whose habits were decidedly bad, on pretext of enjoying themselves at some games of pleasure. A. accepts, and has his pleasure as well as his pain, for when they left the place of pleasure and dissipation, he<pb n="10-11" xml:id="VAC6286-00000009"/> was incapable of walking at all gracefully, but cut very ugly zigzag lines in every movement. Not that he had drank much liquor, but not being used to drinking, a little made him drunk. B. laughed at him and joked him-told him that his head was weak, and that he must practice a little-gain strength and not be so green. However, B. takes very good care of his friend A., and sees him home all safe, but not all right.</p> 
+               <p>After a few days B. gets A out again to a place of pleasure. A. is very cautious this time, drinks lightly, and at the closing of their pleasure hours he finds himself perfectly sober and in command of his own person. B. congratulates A. on his success, and assures him that he will soon be a man and a gentleman. A. is simple enough to believe that he has really acquired some power which will make him more manly; and is actually proud of himself from the fact that he had been to a place of dissipation and pleasure, and had taken part in the games and in the drinking, and still was very capable of taking care of his own person-not obliged to submit to the disgrace of being taken home by another, as before. A. takes courage, thinks he will be a man-takes small drinks and enjoys himself like a real gentleman. Consequently he has many more meetings with his friend B. and others. But he was unfortunate enough soon to fall in with a very convivial party, and not willing to be behind the foremost in spirit and liberality, and as the mutual treating and drinking went round, those not able to stand up under heavy doses began to show symptoms of intoxication toxication, and before the closing of the carnival Mr. A., to use a plain word, was very drunk, and his person had to be taken charge of by others who had better use of their senses' and limbs. Poor fellow I Where is the man and gentleman now? Time passed. A. became what is termed a periodical drunkard, to the great disgrace of himself and annoyance to his family and friends. B. was seldom known to be really drunk, but in a few years he became a badly Rum Struck man. His eyes and nose were very red, his face bloated, his language profane, vulgar, and coarse, and his manners offensive. His whole personal appearance testified that he was terribly Rum Stricken; and I am safe in saying that he died of the Rum Stroke at about the age of fifty five years. Young man, beware of the Fatal Stroke!</p> 
+               <p>Drunkards and Rum Struck men are not all alike, by any means. Mr. G. is an entirely different man from Mr. B., as you will see by the following account: I knew Mr. G. well. I saw him daily and conversed with him frequently. He was an educated man, a lawyer by profession, refined in his conversation, polite in his manners, always neatly and elegantly clad-really a gentleman. He had a plenty of this world's goods, an amiable wife, beautiful and interesting children, and I believed he loved them dearly. Mr. G. was never seen in any common drinking-place, taking his drams at the bar-no, indeed; he was too proud and dignified to be seen in such places. But he had acquired a habit of drinking liquor, and he loved it, no doubt. Consequently he gratified his tastes in this respect to their full demands<pb n="12-13" xml:id="VAC6286-00000010"/> mands. He kept a plenty of good brandy and other liquors in his cellar, of which he drank daily, and offered them to such friends as he thought would like to participate with him, but he scorned to urge or offer them to those who were opposed to their use. Mr. G. was never seen staggering along the streets, or heard talking in a boisterous manner from the effects of liquor. He remained quiet and gentlemanly till the day of his death. And I am sorry to tell you that he died of the Rum Stroke. A gentleman not called a drunkard, but nevertheless died of Rum Stroke. All his friends saw for years before he died that he was badly Rum Stricken. But I suppose he did not realize the fact. It was a pity that so kind-hearted and gentlemanly a man should thus destroy himself. Young man, beware, beware!</p> 
+               <p>I verily believe that thousands continue to use strong drinks because they do not understand the philosophical principles thereby involved. Many a man says to himself, "I know that I use strong drink several times a day, and I am not sure that it injures me, nor am I quite certain that it does me any good. I feel conscious that I have the power to break the habit whenever I have a mind to do so." Such persons reason correctly then they say that they can quit whenever they have a mind. But the great difficulty is to have a mind. To have a mind means a determined resolution to do or not to do a certain thing. Now, philosophically, no person can form a resolution to do or not to do a certain thing without a sufficient motive to move the will to that purpose. A drinking man must have powerful motives tives to enable him to form a resolution sufficiently strong to overcome his acquired habits and appetites. Acquired habits will call him regularly to his drinks; his appetites will often remind him that a small drink more will not hurt him; his nerves and other bodily functions will occasionally notify him that he <emph>actually</emph> needs a little stimulus. All these influences together will surely keep the person who has once formed the habit of drinking continually at his cups, unless something alarms him-unless great danger is imminent. Just so long as the drinker flatters himself that liquor does not hurt him, nor disgrace him, he never can quit-it is morally impossible. It is not so easy to form a resolution to quit drinking rum as some people imagine. I say, philosophically, the person who has that habit can not form such resolution without a sufficient motive. The drinker feels conscious of his power to quit; that is, he feels free to do so, if he had a mind; but he does not know the difficulty of getting such a mind. Where is the mind to come from so long as he feels that drink does not hurt him, and that he is all right? Other people may see alarming symptoms in his features and general appearance, but he sees them not. Others may see (though not what is termed a drunkard) that he is rapidly becoming Rum Stricken. If he could see and know himself as others see and know him, he would be enabled to form a resolution to quit forever the use of strong drinks. Whoever reads this, if he is in the habit of drinking strong liquors, let him examine himself-inquire into his own condition, and not deceive himself. Whoever will do<pb n="14-15" xml:id="VAC6286-00000011"/> his candidly, will no doubt find a motive to induce him to quit forever the use of rum as a beverage. Ignorance of the philosophical workings of strong drinks is the secret of drunkenness and Rum Struck Men become irretrievably Rum Stricken before. Men become irretrievably Rum Stricken before they are aware that they have been at all intemperate. For instance, Mr. D., who was really a Rum Struck man, would pray and exhort in religious meetings. He yet had some respect and liking for the good Word. His brethren had to caution him from time to time about his habits, as they saw unmistakable evidences of intemperance. Finally, not heeding the admonitions kindly given, he was informed that he must give up the bottle or the church; and not thinking that he was an intemperate man, he decided to stick to the bottle and let the church slide. Poor man! he tried to enjoy both rum and religion, but his success was decidedly bad. He did not know his true condition in body or mind; he thought it right to use rum what <emph>he</emph> called temperately. This man thought that he was using rum moderately, yet he had under that process become a decidedly Rum Stricken man, and his influence in the church was, of course, demoralizing. I know a Mr. R., who is a member of a church and is very wealthy. He contributed largely toward erecting the house of worship, and he pays a large part of the minister's salary. He is a very nice man excepting his habits of drinking." He is never drunk, perhaps, but is badly Rum Stricken. To turn him out of church would be equal to stopping the wheels of the whole machinery. So nothing is done about the matter in the church. I think they had better try and reform him. I think it possible, as he is a mail of sense. Possibly this gentleman enjoys religion to a certain extent. I believe he is aware that he sometimes drinks too much; but he has not yet been able to form a resolution to quit. Sometimes I think the man who drinks and gets drunk, and staggers about the streets, and falls in the mud, more favored than the man who drinks hard and never gets intoxicated, because the former is made conscious, by unmistakable signs, that he has been drunk, and knows that if he keeps on in that way he will soon be entitled to the dreaded and terrible appellation of <emph>Drunkard;</emph> while the latter, by constant hard drinking, is brought to the same physical and mental condition as the former without being aware of the fact, or receiving the dreaded name of <emph>drunkard.</emph> I hope that many drinkers, when made to understand the results of hard and continuous rum drinking, will take the alarm, and be enabled to form a resolution to quit the vile and destructive habit altogether. The man who never staggers may nevertheless drink twice as much rum as another who is often seen intoxicated. The man who never staggers may show more indelible signs of the Rum Stroke than the man who occasionally gets very drunk, and he is as wide of the mark of true manhood as the other. In this connection, my young friends, I wish to give a short history of two very numerous and well-known families in this country, and, in fact, they are numerals in all civilized nations. I do not refer to the Smiths and Browns; no, for they bear no comparison in number<pb n="16-17" xml:id="VAC6286-00000012"/> ber or notoriety to the families I now have in mind. As soon as I shall name them you will remember of having seen many of them in your communications with your fellow-men.</p> 
+               <p>I refer to the celebrated families of Ironsides and Woodenbottoms. Which of you have not heard of old John Ironside, and William, Charles, Jacob, Peter, and Philip Ironside? They were among the early settlers of this country, many of whom were most estimable men and citizens. Some settled South, some East, and others in the North and West, so that their descendants are well distributed over the country. The Woodenbottoms were also among the early settlers of this country, and their descendants are as numerous and as well dispersed as the Ironsides. The Ironside family have many excellent traits of character; they are the bone and sinew of this country, and furnish a large portion of its brains.</p> 
+               <p>The Ironside family, perhaps, have furnished more great men than the Woodenbottoms. They have distinguished men in all branches of knowledge-in art and science, poetry, music, etc. The Wooden-bottoms, however, are not far behind the Ironsides in their men of note. In some branches of knowledge I think the Woodenbottoms are superior to the Ironsides.</p> 
+               <p>The Woodenbottoms are of a sanguine-nervous temperament, and quick of apprehension, while the Ironsides are of the nervous-bilious-strong physically and mentally-slower, but more enduring than the Woodenbottoms. There is a constitutional difference in the two families which results in marked characteristics of each family. The Ironsides, as a family, are rougher, harder, and more thorough going than the Woodenbottoms. I have now mentioned some of the distinguishing characteristics of the two families. Now let us see how they stand on the rum question; for under no circumstances do men so strikingly show their natural traits of character as when under the influence of strong drink. I am sorry to say that both families are much addicted to strong drink, but drink affects them differently according to their natural constitutions. We shall find that the Ironsides distinguish themselves at the business of rum drinking, as well as in more honorable pursuits of life. But I can tell you that the Woodenbottoms are by no means slow at this business. If any difference, I would say that the Woodenbottoms are more eager for a drink than the Ironsides. So far as drinking rum is concerned, the Woodenbottoms have a good record. Yet when they go in for a trial of strength with the Ironsides in rum drinking, they find themselves "caved," and laid out high and dry, while the Ironsides are yet quite fresh and good as new, simply because nature; has furnished them with a metallic constitution. I have seen, and no doubt that many of you have, a party of spreeors made up of Ironsides and Wooden-bottoms. Men generally mix in this way when they mean to have a jolly time; a variety of elements always tends to make the party more lively and interesting. In such spreeing parties I have noticed that the Ironsides would keep what is called sober,<pb n="18-19" xml:id="VAC6286-00000013"/> while the Woodenbottoms would be nearly all drunk. Some would be staggering about the room, and others asleep on the chairs; and when drinks were called, some of the Woodenbottoms were unable to come to time, though they made desperate efforts to do so. They felt bad, no doubt, to <emph>hear</emph> that their companions were to have another round of drinks (<emph>for</emph> they could not <emph>see</emph>), and they, poor fellows, not able to get to the bar to participate. A Woodenbottornen generally, so long as he can hold up his head and see anything at all, is ready for another drink. As the spreeing party proceeded from hotel to hotel, from grogshop to grogshop, the Woodenbottomers began to fall off. One is left at this place, and another at that place, asleep or too drunk to walk. Some sit down on the sidewalk, or tumble down in the streets; and as the day breaks, and the early light of morning reminds the party that it is time to bring their convivialities to a close, they count noses, and find that John, Sam, Phil, Jim, and nearly all the Woodenbottoms, are absent. They were strewed all along the route, some here and some there, and those who still continued with the Ironsides were so drunk that it took both sides of the road to contain them, and their tongues were so thick that they were incapable of uttering a single articulate sound. The Ironsides made sport of these poor fellows, yet they pitied them because they were so weak-minded as to get drunk and disgrace themselves.</p> 
+               <p>The getting drunk, I think, was owing more to a weakness in the knees and back than in the mind- that is, when compared to the Ironsides. The Ironsides go home in triumph. They are able to find their own houses, and they recognize their own wives, and what is better, their wives recognize them, though somewhat damaged in personal appearance. The wife of the Ironside asks him where he Has been, and what has transpired. He answers very indefinitely, but does not forget to tell her all about the Woodenbottoms, how they got drunk and disgraced themselves and the party-how they <emph>spewed</emph> and staggered about, and tumbled down along the route.</p> 
+               <p>Mrs. Ironside thought it a shame that the Woodenbottoms should make such beasts of themselves-should so disgrace themselves and their families; and she thought that Mr. Ironside should go in better company. She was quite right, yet Mr. Jacob Ironside, her husband, had drank, no doubt, <emph>twice</emph> as much rum during the "spree" as Mr. John Wooden bottom, who is asleep at the Pewter Mug Hotel, or Mr. Samuel Woodenbottom, who is lying along the roadside between Bull's Head and the Telegraph Hotel. I have only given a brief account of a single party made up of men of these two distinguished families, but you must remember that similar gatherings are continually taking place, with the same general results. I have given some particular in reference to this party, in order to caution those who belong to the Woodenbottom family about joining the Ironsides in a party of pleasure, especially when drinking liquor is to be the order of the day, as they will surely come off worsted.</p> 
+               <pb n="20-21" xml:id="VAC6286-00000014"/> 
+               <p>"Now a few words about rum suckers, or hangers on about hotels and other places where rum is sold. There are many of both Ironsides and Woodenbottoms who act in that capacity. It would be difficult to tell which family furnishes the greater number of this class. But one thing is certain, the Woodenbottoms die off early, while the Ironsides often hold out to pretty good age, consuming during their lifetime an enormous amount of rum. These hangers on do little odd jobs about drinking-places for their grog or small pay. They are often a source of revenue to the proprietor by their readiness to drink with others, asked or unasked. They are always prompt to the call for drinks, and are very sociable. The following little conversation between Captain John Ironside and Sam Woodenbottom, at the Union House, is characteristic. "Good morning, Mr. Woodenbottom," said Captain Ironside; "will you take a drink with me?" "Captain Ironside, I don't care if I do. I think a <emph>small</emph> drink will do me good, as I do not feel very well this morning," said Woodenbottom. "Don't feel very well," returned the Captain; "you fellows are always talking about not feeling very well, and that a little rum would cure you. If that were the case, you would always be well, for I am sure you drink rum enough to kill or cure a horse." "Woodenbottom smiled, and took the retort good-naturedly. "Do you call that a <emph>small</emph> drink?" said the Captain to Woodenbottom, as he turned out nearly a tumblerful of liquid fire. "O Captain Ironside! I have not had but one <emph>smile</emph> this morning, and I feel the need of something a little bracing," said Woodenbottom. Yes, no doubt," returned the Captain," you need something bracing, and you will find yourself braced up against a post in two hours, if you take such drinks as that; besides, the landlord cannot make any profit, Woodenbottom, on such drinks. If there were many such fellows, you would break the house." "Captain," replied Woodenbottom, "you know I generally take <emph>small</emph> drinks, and am seldom drunk, and the proprietor makes a deal of money off of me, as I drink here with a good many people during the day." "I should think it would kill you, Sam, to drink so much rum," said the Captain. "Captain Ironside," said Woodenbottom, "do you really think that I drink as much rum one day with another as you do?" May be not," said the Captain, "because you are dead drunk so much of the time that you are unable to get to the bar. Besides, you ought not to drink much; you are old and weak, and do not eat as much in two days as I do at one meal." "I am not so old and weak as you imagine," returned Woodenbottom. "I do a deal of work about this house. I do not know what they would do without me." "I have no doubt," said the Captain, "you are a very useful man, Mr. Woodenbottom. Come, let us take a little more, and I will go. I see," said the Captain, as Woodenbottom turned out his liquor into the glass, "that you are no lover of <emph>small</emph> drinks, Mr. Woodenbottom." "Indeed I am," returned Woodenbottom, smiling," but I prefer a <emph>large</emph> one, Captain." "You are right now, old Sam," said the Captain; "give us your hand. Good morning to you, sir." "Farewell<pb n="22-23" xml:id="VAC6286-00000015"/> well, farewell, Captain Ironside; may luck attend yon, replied Woodenbottom.</p> 
+               <p>Now here comes Charles Tumbledown, who is a distant relative of old Sam Woodenbottom, on the Tnmbledown side of the house. Charley is a fair representative of that branch of the Woodenbottom family. Charley Tnmbledown as yet quite a young man, but a notorious drunkard. His father left him a snug little fortune, and if he had properly taken care of it, it would have made him comfortable through life. I think his portion was about six thousand dollars. But ever since he came into possession of the money he has done little but drink rum and treat others. So his life and money are fast wasting away. Charles is very liberal and careless with his money whenever he gets drunk, and that is quite often. He is robbed of his money by a set of dishonest fellows, who are constantly watching their opportunity. Charley Tumbledown meets old Sam Woodenbottom at the Union House. "How are you, Charley? said old Sam. "None the b-b-better for, yon," said Charley. "O Charley! I see you are on a 'bust' yet," said old Sam. "Come, old Sam, Iet's t-ta-take a smile," said Charley. "I don't care if I do," replied old Sam; "I think a little would do me good, as I don't feel very well this morning." "You never do fe-feel very well, Mr. Wo-woodenbottom. I fe-feel first rate," stammered Charley. Mr. Tumbledown, having been on a "spree" for two or three days, was so weak and drunk that he came near falling on the floor as he attempted to walk. "Sit down-sit down on the chair," said old Sam, "and rest yourself, then try and get home, so that your wife can give you a good thrashing for getting drunk." "She had b-better not urider-t-ta-take that," said Tumbledown. "Good-by," said old Sam; "I have a little work to do, so I must got," Go-good-b-by," stammered Charley.</p> 
+               <p>Just at this moment Mr. John Zigzager came into the hotel. "Hallo! Mr. Zigzager," said old Sam Woodenbottom, "how are yon this morning?"</p> 
+               <p>ZIGZAGER. I am well enough; how do you get along?</p> 
+               <p>SAM. Well, I am not very smart this morning, friend Zigzager.</p> 
+               <p>ZIGZAGER. No, I suppose not. Well, Sam, if you will treat to something you will feel better.</p> 
+               <p>SAM. Well, Zigzager, I would do it in a moment-my disposition is good-but to tell you the truth, I haven't a <emph>single "red."</emph>
+               </p> 
+               <p>ZIGZAGER. Unfortunate man! Old Sam, I've got a shilling or two left. Come, Iet's take something to drink.</p> 
+               <p>SAM. Well, I don't care if I do, Zigzager; I think a drop of something would do me good this morning. (They fill their glasses.) Did you know that I and you are related, Zigzager?</p> 
+               <p>ZIGZAGER. Very distant. I claim, no relation, Sam.</p> 
+               <p>SAM. Why, you need not be ashamed of the relation, for you must know that the Woodenbottoms are a great family. I know the pedigree of the whole "kin." Your grandfather was Isaac Zigzager, a very smart man. He married one Miss Mary Eight-uply, daughter of Judge Bightuply. You have<pb n="24-25" xml:id="VAC6286-00000016"/> heard, John, of Judge Rightuply. He was one of the best men who ever lived. The Judge did not favor the union of his daughter with Isaac, your grandfather, because Isaac was in the habit of getting intoxicated. Isaac was very good looking and very smart, and promised never to drink any more, and Mary was much attached to him. So the match was finally made. But your grandfather did not keep his promise to drink no more-for he always loved his drams, and would occasionally get too much. Yet he was a business man-when sober. It is said that his wife had great influence over him, and that all his success was owing to her. Well, John, her mother was a Woodenbottom, daughter of John Woodenbottom, who was one of the first men in the town.</p> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Yes, Sam; I believe there is some family connection between our family and the Wood-enbottoms, but I could never keep the run of it.</p> 
+               </sp> 
+               <p>Just at this moment Mr. William Perpendicular came in on some business, and the following conversation took place between him and Mr. Zigzager:</p> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Good morning, Mr. Perpendicular.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPENDICULAR.</speaker> 
+                  <p>Good morning, sir; how do you do, sir?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Mr. Perpendicular, I have just had something to drink at the bar. Won't you take something at my expense?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>No, sir, I thank you. I do not drink any rum.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>zigzag.</speaker> 
+                  <p>Well, take some lager, sarsaparilla, or soda water.</p> 
+               </sp> 
+                
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Oh no, sir; I drink coffee, tea, and water; and when I want anything better or stronger, I prefer to buy it myself. I do not believe in being treated to drinks by anybody, sir.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>You are not offended, Mr. Perpendicular?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Oh no, sir; not at all, sir.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>I suppose, Mr. Perpendicular, you think that you are a better man than I am?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Oh no, not at all, Mr. Zigzager.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>You are ashamed of my company, I suppose?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>I must say that I am ashamed of your habits, and the company you often keep; but as a man, I claim no natural superiority over you or any of your company.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>My habits make me so <emph>low</emph> that I am not entitled to your respect?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Your habits make you so <emph>low</emph> that I am determined not to practice them, lest I might also be degraded.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Did you ever see me do any thing very disgraceful, Mr. Perpendicular?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Yes; I have seen you, in consequence of strong drink, do many things disgraceful-though I suppose you did not mean it.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Now, just name what I have done that is so disgraceful. You do not see me in the gutter, do you?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Well, I do not know as I ever saw you fall down; but I have seen you mark out a very crooked path. I should consider myself disgraced if<pb n="26-27" xml:id="VAC6286-00000017"/> I got so drunk 'as to stagger from one side of the road to the other. I should consider myself disgraced if so drunk as to be unable to drive my horse in the road. I should consider myself disgraced if, in consequence of liquor, I drove my oxen into the gutter, and upset a load of hay. You asked me to state some disgraceful acts. You do not deny these acts, do you?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Well, Mr. Perpendicular, you know sometimes when a man meets with friends he will get a little too much. But you know that it is seldom that I get out of the <emph>way.</emph> You do not put me on a level with Charles and John Tumbledown, do you?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PEEPED.</speaker> 
+                  <p>Well, Zigzager, you are a little better on your legs than they are; but you drink more rum than they do. You say that you do not often get out of the way. I think you do. You are out late at nights; you annoy your wife and children; you spend your money for rum which you should put to a better use.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>I have got more money than some cold-water men, Mr. Perpendicular.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>What if you have; that is nothing to the point. Yet there are some cold-water folks who have more money than you. For instance, there are your neighbors Mr. Springwater and Mr. Straight-goer. Ten years ago you had more than both of them together. Now you cannot deny that they have got the start of you. Their houses, barns, and farms are in a far better condition than yours.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Well, that may be; but I intended be fore this to have put mine in order; but money has been so "tight" that-</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PERPEN.</speaker> 
+                  <p>Yes, money has been <emph>tight</emph> with you, no doubt; but you were <emph>tight</emph> before the money was. O Mr. Zigzager! if you will quit this rum-drinking business, you will feel better and be better, and money will not get "tight," nor you either. Good morning, sir.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>ZIGZAGER.</speaker> 
+                  <p>Good morning.</p> 
+               </sp> 
+               <p>At the central depot of the great Safety Eailroad people of all classes, professions, and trades, meet for various purposes: some to take the cars, some to meet their friends who might arrive; others to look after freight, and many to get a drink in the hotel adjoining. A great variety of talk or conversation may be heard in and around the depot and hotel. Well, just on the steps of the depot a short time since, the following conversation took place between some mechanics, a farmer, and a Quaker. The mechanics appeared to be well acquainted with each other, and must have belonged to the place. The three who took part in the conversation were called Frank, Jim, and Ike. The conversation commenced about protective unions, and closed with the rum question, in which the farmer and Quaker participated.</p> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>Frank, do you belong to the Protective Union?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FRANK.</speaker> 
+                  <p>Not now, Jim. I did once; but I could not stand your strikes. I could not afford to be idle half of my time.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>Frank, you are one of those fellows who will<pb n="28-29" xml:id="VAC6286-00000018"/> work the life out of themselves for little or nothing. I can make as much as you do, and not work half of my time.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FRANK.</speaker> 
+                  <p>No, I do not work for nothing; but it is far better to work for moderate wages than to be hanging around doing nothing. I do not believe you save much money, Jim, if you do get big wages; because you are idle so much. When I am doing nothing, I am spending what I already have; and you know such is the case with yourself, Jim.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>IKE.</speaker> 
+                  <p>That is the truth, Frank. I know it is so in my case. I do not call myself a spendthrift by any means; but during the strikes I find my money goes fast. I take a drink here and there; I treat and am treated, and before I am aware of it my money is gone; whereas, if I had been at work, I should not have drank perhaps more than two glasses a day. Jim, you know that you spend twice as much for rum as I do.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>Well, a fellow may as well spend his money one way as another-it must be spent in some shape. I do not want to work every day; I want some time for pleasure. If you were all like me we would agree not to work for less than seven dollars a day. Then we could spend some money and have some left too. I am not like Frank-he is too close and mean to spend a cent for pleasure in any shape.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>How would it do for the farmers to club together, and agree not to sell a bushel of potatoes for less than four dollars, and other things in the same proportion?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>I will tell you, Farmer, how it would work: we mechanics would not buy your stuff, for we could not pay your prices; we would buy or hire some pieces of land, and raise our own potatoes and other vegetables.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>Just so. And if we have to pay a carpenter seven or eight dollars a day, and masons at the same rate, our houses would cost so much that we could not pay for their erection. So, we should have to turn carpenters, and put up our own houses. If they did not look quite as well, we could live in them.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friends, allow me to say a word. I think I see the difficulty. Everybody wishes to make money, or rather to get money; but very few love to work for it. So all kinds of contrivances are got up to fill the pockets of each man with money, without patient labor-the Eight Hour Law, protective unions, and so on. Now, friends, as a principle, to make money without working hard for it, is simply impossible. For poor men to make money (and most men are born poor) without patient labor, would be like carrying one's self over a river in a basket, or discovering perpetual motion. Certain rules to protect labor would be well enough if they could be applied. But those who would protect their labor by combination or without combination, must have the elements of protection in themselves. If they are wanting in industry or temperance, they may combine as much as they please, yet they will find no real protection or benefit resulting from such combination, but rather a damage.</p> 
+               </sp> 
+               <pb n="30-31" xml:id="VAC6286-00000019"/> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>Then, Friend Broadbrim, you do not believe in protecting the labor of a poor man-do you?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Yes, James, most certainly I do; and my plan of protection is a sure one. It was never known to fail, and if thou wilt try it thou wilt find it to turn out as I say. Thou sayest that a laboring man should have seven dollars per day. Now, let me tell thee, James, if thou shouldst have ten dollars per day thou wouldst save no money.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>Why not, Broadbrim?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Because, when thouhadst wrought two or three days, thou wouldst do no more till thy money was gone; for thou art fond of pleasure and dissipation. There is no principle of industry or protection within thee, James. The more you get a day the less days you will work. I know this from your own confession.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FRANK.</speaker> 
+                  <p>That is so. He would have no more money at the end of the month if he had ten dollars a day than now.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friend Frank appears to have protective principles within him, and he will thereby surely protect his labor, union or no union. A man's labor is protected more by saving its proceeds than by procuring high rates. Friends, there are many obstacles in the way of perfect protection; but let me tell you all, that the principal one is, simply, rum-drinking. Though you are all strangers to me, yet I perceive that Franklin is a temperate man; and I have no doubt that he has, and is, laying up some means to make him useful and comfortable during life. I perceive that he has the elements of protection in himself self. James says that he is mean. Now I tell thee, James, that Franklin is not mean for saving his money, and thus protecting his labor. Industry and temperance never made a man mean yet, but rather virtuous and noble.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>IKE.</speaker> 
+                  <p>It is no use of denying this, Jim. We know that we have spent most of our earnings by drinking, and have earned much less in consequence of our habits.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>I know something about this myself. I formerly drank moderately;-though never was drunk in my life, except on some public days I might have gotten somewhat excited by taking a little too much. I have always worked hard, and spent nothing needlessly, except for liquor. I did not think I was doing wrong. I was not aware that the money I used for rum made any particular difference with the result of my labors. My wife used to complain that she could not have things so comfortable as neighbor B.'s wife. Yet I worked as steadily and performed as much as neighbor B. Neither of us had much to start with. But B. was strictly temperate-he never spent a cent for rum or any strong drink, except perhaps occasionally in sickness. B. laid up something every year, and Vas steadily getting ahead of me, which fact I could not well understand. Well, certain circumstances induced me to review the whole matter. On this review I found that the little item of rum made all the difference between my prosperity and neighbor B.'s.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>No doubt of it, friend. And now thou art a temperate man, and reapest the benefit of thy<pb n="32-33" xml:id="VAC6286-00000020"/> labor; friend, thou hast discovered the true principles of protection.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>On examining into my habits I found that I was using about three glasses of liquor or ale per day. Now, you may not believe me, but I tell you that little item of expense kept me constantly behindhand.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>O Farmer! that never made the difference.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>Yes it did; and I will show you how it did, and it will work so with you and any poor man when he is starting in business, no matter what his calling may be. Now, as I said, I drank about three glasses per day, that was thirty cents, and by calculation I found that that would amount to two dollars and ten cents per week, and there are fifty-two weeks in a year, which equaled $109.20 a year. Now, that sum will buy eleven barrels of flour at ten dollars per barrel; that would make bread enough to supply a large family. If I raised my own bread then I would save over one hundred dollars toward my groceries. Now, for a man just starting in business, and is hard pushed to make ends meet, one hundred and nine dollars per year is not to be despised-in fact, that amount lost yearly; is sure to keep a poor man forever poor in any ordinary business; and that amount saved, in a few years is sure to make a frugal man independent. This is a fact which you cannot get over or around-the result is a mathematical demonstration. It is only since I have saved the one hundred and nine dollars that my prosperity commenced. And if you will all do as I am now doing-abstaining entirely from rum drinking-you will find that your earnings will accumulate steadily, and in the course of a few years you will be quite independent.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friend, thou art entirely correct. And there is another view which may be taken of this one hundred and nine dollars per year. It is not well to borrow money when one can get along without it, but sometimes, in starting a business, it is necessary to do so. Now, we find by calculation that at seven per cent, $109 will pay the interest on $1,557, so that the man who drinks no rum would have the advantage of $1,557 capital over the man who drank three glasses of grog per day. Now, this amount of money properly handled, in a few years would give any man a good start in business. So, friends, rum-drinking is not only often fatal to health, but is absolutely fatal to prosperity, though taken in moderate quantities, as our friend the farmer has shown us. The principle is correct-though a poor man work ever so hard, he never can get ahead so long as he drinks two or three glasses of grog per day; yet there are thousands striving to gain property, and do not know that the few drams they daily take keeps them constantly at the starting point.</p> 
+                  <p>Now remember, that no union, no association can protect you unless you first protect yourselves by industry, and, above all, by temperance. I see the cars are approaching: I must soon depart from this place. I will bid you all farewell. (The Quaker here takes the Farmer by hand and says:) I believe, friend Farmer, thou art a good man. Mayest thou be guided into all truth. I bid thee farewell.</p> 
+               </sp> 
+               <pb n="34-35" xml:id="VAC6286-00000021"/> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>I thank you for your kind instructions.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Not at all, friend. "We are indebted to thee; thou hast shown us the great evil of moderate drinking. I never, understood it so well before. Farewell, friend.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FARMER.</speaker> 
+                  <p>Farewell.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friend Franklin (taking him by the hand), I perceive that thou art in the right way. Thou art a temperate and industrious man; thou layest up thy wages when thou art young and strong, that thou mightst have support when sick and old. But, friend, do not set thy heart on this world's riches, but rather seek through the Spirit that inheritance which fadeth not away. I hardly need to say to thee, Franklin, drink no rum. I bid you farewell.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>FRANK.</speaker> 
+                  <p>My dear friend, I thank you for your kind expressions and the interest you take in my welfare. Farewell.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friend Isaac, I perceive that thou art willing to confess thy faults; there is much hope of thee. I pray thee drink no more <emph>rum,</emph> but save thy earnings to support thee in old age, if thy life shouldst be spared so long. May the Spirit be with. Farewell.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>LKE.</speaker> 
+                  <p>I must thank you for these kind words of advice, and I am determined from this hour to drink no more strong drink. Good-by to you, my friend.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friend James, thou delightest in folly, pleasure, and dissipation. May the Good Spirit give thee a better mind. Nothing but the Spirit can convert thee, James, and make thee temperate, industrious trious, and happy man. May it be thus with thee. Farewell.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JIM.</speaker> 
+                  <p>Friend Broadbrim, I like thy preaching, and shall never forget thee, nor the lessons of this hour. I cannot promise now that I will drink no more rum, but I will think of the matter. Farewell, old friend.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Friend, thou listeneth well (said the Quaker, extending his hand to a bystander), but thou takest no part in the conversation, like many others here.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>IKE.</speaker> 
+                  <p>His name is Peter.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKER.</speaker> 
+                  <p>Peter is a good name. My name is Benjamin "West Dost thou believe in temperance, Peter?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PETER.</speaker> 
+                  <p>I do, though I sometimes drink too much; but from this time henceforth I am resolved to drink no more rum. I see my error.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>QUAKICR.</speaker> 
+                  <p>A good resolution, Peter; mayest thou be strengthened and blessed in it. Farewell-farewell all.</p> 
+               </sp> 
+               <p>Here the conversation ended, and the company dispersed. All who participated and listened appeared to be much interested, and I believe the truth found a lodgment in many a heart.</p> 
+               <p>Nothing deceives men so much as rum. It deceives them in the quantity they drink-in the money it costs-in the time wasted, and in its general effect upon health, character, and prosperity.</p> 
+               <milestone n="--" unit="typography"/> 
+               <pb n="36-37" xml:id="VAC6286-00000022"/> 
+               <p>There is in the town of Allbusiness a certain man, a lawyer by profession, who is sometimes elected by the people a judge or magistrate. He has the confidence of a large number of business men, is considered a safe and sound lawyer. His name is Charles Woodenbottom, and when simply a lawyer he was called Esquire Woodenbottom, but on being elected a magistrate he was called Judge Woodenbottom. Judge Woodenbottom is by no means an extraordinary man. He possesses fair abilities, bears a good reputation, keeps tolerably good hours for the town of Allbusiness. I am not quite sure that he is a member of any church, but I know that he attends church regularly, and believes perhaps firmly the essential principles of the Christian religion. I have said that Judge Woodenbottom is not a very extraordinary-man, and certainly he is not extraordinary in his habits of visiting the hotels for his drinks, and this is the light in which I wish to exhibit him at this time. In this particular I think he may be considered a representative rather than an extraordinary man. "Well, Squire Woodenbottom, or Judge Woodenbottom, as he is now called, is in the habit of visiting various <emph>respectable</emph> drinking-places for the purpose of getting a little stimulus, several times during the day. Lately he is often seen at the Telegraph Hotel.' There is also in this town a well known character called Philip Ironside, who is now, and has been for the last thirty years, what may be called a hanger-on at the hotels. Philip is now over sixty years old. Old Phil, as he is called, belonged to a respectable family when he was a young man-that is, his father was a very respectable man and a good citizen, not addicted to much drinking. But Philip early became a lover of rum, and he has continued to gratify his appetite up to the present day. He has a nice wife, and she, fortunately, owns a small house, where they have a comfortable home. He often misuses her, but she keeps it all to herself. He has two or three sons, one of whom is a very respectable man; the others are somewhat dissipated. Phil was seldom seen ragged, but often with a rather neat patch on his knee and elbow. Had it not been for the kindness of Phils wife, he would have gone to destruction long before this. She took sufficient interest in him to repair his clothes, and make his appearance as respectable as possible. I would not have you understand that old Phil Ironside is the worst man in the world. He is quite intelligent, and considerable of a politician; when young was an ardent Jackson man, and now believes in liberal ideas; was a strong Union man during the war; believed in giving everybody his rights, even to the negro. He has been in the habit of staying about drinking-places, doing odd jobs for his rum or small pay, ever since he was twenty-five years old; knows a great deal about all those transactions which generally transpire at such institutions. He is pleasant and communicative, especially to those who ask him to drink with them. Twenty-five years ago he stayed mostly at the Black Bear Hotel, where they kept lodging, food, and drink for man and beast. For a few years he has been at the Telegraph Hotel. I have introduced Judge Woodenbottom and old Phil<pb n="38-39" xml:id="VAC6286-00000023"/> Ironside because I happened to be present at the Telegraph when Judge Woodenbottom came in to get a drink, and old Phil being in the bar-room the Judge asked him to drink with him. And I may remark here that many of the most respectable drinkers were in the habit of treating old Phil. He always had some compliments for them; besides, they could get much valuable information from him, as he was well posted on many subjects. The conversation between the Judge and old Phil was characteristic and instructive. I shall only give that part of the conversation which is pertinent to my purpose. It is a little strange, but nevertheless a remarkable fact, that when hard drinkers meet, much of their conversation is about rum-drinking. They joke and twit each other on the quantity of liquor they consume. If one thinks he is more respectable than another, he is sure to remind his more dilapidated companion of the fact in some pointed remarks. The one who treats takes the liberty of saying what he pleases to his more unfortunate friend, who is so short in purse as to be unable to return the compliment. The hanger-on cares little what is said to him, so long as he gets his rum. While waiting to see a gentleman at the Telegraph Hotel not long since, I saw Judge Woodenbottom enter the bar-room where old Phil Ironside was sitting, waiting no doubt for some esquire, judge, farmer, or mechanic to come in and invite him to take a drink. The Judge recognized old Phil at once, and the following conversation took place:</p> 
+               <sp> 
+                  <speaker>JUDGE WOODENBOTTOM.</speaker> 
+                  <p>Good afternoon, Mr. Ironside. I am going to take a little something; will you join me?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL IRONSIDE.</speaker> 
+                  <p>Certainly, I will; and I am very glad to see you, Judge.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>What will you take, Phil?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Whatever you drink, Judge, I shall drink.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Barkeeper, I will take a little gin, if you please.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Then gin it is for me, too. (<hi rend="i"/>They fill their glasses.)</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Judge, excuse me, but I tell you candidly, you are the best Judge that ever sat on the bench in this town. Your decisions are just; you go for right, without regard to men.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Thank you, Mr. Ironside; I always try to do justice.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Here's health, happiness, and long life to you, Judge.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Thank you, Phil. (<hi rend="i"/>They touch glasses, and drink.)</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Judge, what do you think of the Cuban affairs?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Oh, I don't bother myself about Cuba; yet I think eventually Spain will lose Cuba.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, I go in for the independence of Cuba. I believe the people of that island, and all people, should have their rights. I was a Union man during the war, though I was no black Republican at first, yet if liberty means black Republicanism, then I am the blackest of the black. These temperance people are trying to take away my right and your right, Judge, to have a social glass. I<pb n="40-41" xml:id="VAC6286-00000024"/> don't believe in kingcraft, priestcraft, nor any craft which takes away men's natural rights and privileges. I say, let every one eat and drink what he pleases, Judge.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, I suppose you were a politician in the days of Jackson.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes, Judge, I was a Jackson man all over. Jackson was a man who went in for the people and right. Ah, Judge, the days of Jackson were good old days; we had the right kind of men to govern the country then. There was Judge Marshall, too; where do we find such men now? Excuse me, Judge, I do not refer to you. You are young enough yet, Judge, to occupy the Supreme bench, and no doubt you are capable.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, what you say about Jackson and Marshall is very true; as for me, I have no aspirations for high positions. I am quite satisfied with the position I now hold.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, I go in for the people and right.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>You believe in, I suppose, the <foreign xml:lang="LAT">vox Populi vox Dei.</foreign>
+                  </p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>I have seen that phrase, Judge, but I do not exactly understand its meaning.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>It means, the will of the people is the will of God, or whatever the people declare to be right, is right.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes, Judge, that is the doctrine-the will of the people-I go that.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, you must have seen a good deal in your day, having been so long about these public places. I remember of seeing you at the Black Bear Hotel when I was a boy, over thirty years ago.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes, I was there thirty years ago, Judge.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, you must be a pretty old man.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well,, Judge, I am past sixty, and I find I cannot stand what I could once, yet I am smarter than a good many younger men.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, you can't drink so much rum now as you did twenty years ago?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, as for that I drink about all I can get; yet I do not drink as much as I did, and I do not suppose I could stand it. I did not used to mind a quart a day; now I don't believe I could stand up under it.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, how is it they say that rum kills people? Now you have drank hard over forty years, and you are pretty smart yet.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, I will tell you, it <emph>does</emph> kill some men. I can count up several around here, men whom I knew, who killed themselves-with rum. They were lying about the streets here drunk day after day, with nothing to eat. They soon died off, most of them less than fifty years old.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, you would have been a rich man if you hack not drank turn. All the rum you have consumed would have amounted to a fortune.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Oh no, Judge! I would have spent it some other way perhaps.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>How much rum, Phil, do you suppose you have drank for the last thirty-five years? How much would it average per day?</p> 
+               </sp> 
+               <pb n="42-43" xml:id="VAC6286-00000025"/> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, I used to drink a quart a day, and sometimes more. I would buy a pint, besides all my drinks at the bar. I don't average more than a pint now. Well, I suppose if all the ruin I ever drank was put in one place it would float the Great Eastern.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Well, we will say that for the last thirty-five years you have drank a pint and a half a day. There are 365 days in a year; that would make 365 pints and 365 half pints-448 pints-224 quarts in a year; for thirty-five years-7,840 quarts. Half of that you have drank in drams. It has cost you about 50 cents a day altogether, or-182 dollars a year; thirty-five years-6,387 dollars. If it had been on interest, it would have amounted to over 12,000 dollars.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, it cannot be helped now, Judge. It is a good deal to drink, but it has not hurt me much, neither did I pay for all of it.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, don't you find that rum hurts you now when you drink freely?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes, it makes me feel differently from what it did formerly; it makes me dull and sleepy, and when I wake up I feel worse than the devil.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Do you know how the devil feels, Phil?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>I suppose the Old Nick does a good deal of mischief, and gets badly punished for it. I have no doubt he drinks more liquid fire than I do.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, old as you are, had you not better taper off, and quit drinking? If you would, you would be very respectable.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Judge, what do you mean? Ain't I respectable spectable? Do you see me lying around drunk? Don't I take care of myself, and get home without the assistance of others?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Well, Phil, I have seen you pretty drunk, so much so that you could scarcely walk at all.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Judge, to be plain, I really think there is more danger of your being a drunkard than me.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Why, Phil, how much rum must a man drink to be a drunkard? Would not a quart a day make him a drunkard? Would not enough to float the Great Eastern make him a drunkard?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>To be candid, Judge, I think one-half of those quantities would make you a drunkard, as well as many others; yet I believe I have never been so drunk as to require assistance to get home. But, Judge-excuse me-it is reported, and I have it correctly-in fact I know it-on a certain occasion your honor was so intoxicated that a friend was under the necessity of seeing your honor home.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>When did you hear of that Phil, and who told you?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>I heard it straight enough; more than that, I know it is so, Judge. I do not say that you are in the habit of getting in that situation; in fact, I know that you are not.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Well, Phil, that was on an extraordinary occasion; and there were others-honorable men-in a worse condition than I was. You would be surprised if I should mention the names of gentlemen who were really drunk on that night.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>I would not be surprised at anything, Judge.</p> 
+               </sp> 
+               <pb n="44-45" xml:id="VAC6286-00000026"/> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>I have always been ashamed of that night's proceedings, but, Phil, do you think there is danger of me becoming dissipated?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Now, Judge, you have asked me a question; I suppose you want a candid answer.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Certainly I do.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, let us-review the ground, Judge; have you not drank more rum to-day than I have?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Oh no, Phil, I guess not.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL;</speaker> 
+                  <p>Well, let us see. This morning you were at the Kamtschatka (formerly Scampchatta) House. I had an errand there, and I saw you talking with Judge Updown of the Supreme Court, and Lawyer Seethrough, and I know that they would invite you to drink, and you them-that would make three drinks to start with. Is not that so, Judge?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Yes, Phil, you are right so far.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, you went from the Kamtschatka House to the Walrus Hotel; a friend of mine saw you there; you were talking and smoking with Capt. Straightup, Col. Flyhigh, Gen. Killum, and Dr. Hotwater. Is not that correct, Judge?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>Judge.</speaker> 
+                  <p>You are quite right so far, Phil.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, there are four drinks more, any way, and perhaps half a dozen.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Now you are wrong, Phil; they had just drank as I went in, and I asked them to drink with me, and they did so. Then we smoked cigars furnished by Gen. Killum. After the space of a quarter of an hour's chat, Col. Flyhigh treated to drinks, and we parted.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>All right, Judge; thence you went to the Shakspeare Hotel. I know that, for I had a <emph>little business</emph> there myself. I saw you in the further barroom, where a drink costs a little more than in the room where I was. Of course, Judge, you go among the first-class; but you know that respectability costs too much for me, Judge, so I took a drink in the lower house with Farmer Long. Well, I saw you there, Judge, conversing with Mr. Golden the importer, Mr. Fairface the merchant, and Mr. Hawksfeather the editor of the "Imperial Gazette." I also saw in the room Mr. Crowtracks, the principal writer of the "Alaska Journal of Commerce;" and your friend Mr. Fulljug, editor of the "American Politician," a journal devoted, you know, Judge, to free speech and free voting to <emph>certain classes,</emph> free plunder and stealing to such as may desire to take a hand; but the only <emph>good</emph> thing it advocates is <emph>free rum</emph> to all. I saw also Mr. Comforttaker, the vestryman, go into the bar-room. I don't say that he drank anything, Judge. Now, Judge, how many drinks did you take at the Shakspeare? Come, own up.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Well, Phil, I took three drinks and a smoke.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>That makes-let me see-three at the; Kamtschatka, two at the Walrus House, and three at the Shakspeare-eight in all. How many drinks you took before you came here, I have no means of knowing, Judge.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>That is all, Phil; and I have not drank so much before in one day for a long time. If I had had business on hand I should not have drank more than three glasses all day.</p> 
+               </sp> 
+               <pb n="46-47" xml:id="VAC6286-00000027"/> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>I believe you, Judge. Now, Judge, Now me to tell you what I think, and what others think too. Well, to be plain, we think that you often take a <emph>little</emph> too much for a Judge.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Why, Phil, you astonish me; do people think so?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>They certainly do. Now, Judge, you are a rising man, and if you will take my advice you will come out all right. Judge, you must excuse me for being so plain; you will not be offended for what I say. You know I am called old Phil Ironside-drunken old man-true, all but the drunken. My reputation, Judge, is made. You cannot stand drinking like me; you are a wooden-bottomed man, Judge, and, like a wooden ship, if you are not careful you will have your bottom and sides knocked in, and you will go down to rise no more, or possibly be hauled up high and dry for repairs before you are aware of it. You are a smart and capable man, Judge, and if you will take my advice you will be the gainer. I know all about drinking; I know how it affects me and others. I know that there is not one young man in fifty' now living, who can drink as I have, and live to see fifty years. Then, in all candor, Judge, let me say to you, as a rising man, drink <emph>lightly and seldom.</emph>
+                  </p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil Ironside, your advice is most excellent. I will try and profit by it. Let us take a drop and retire. <hi rend="i"/>(They drink.)</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>By-the-by, Judge, what was that great occasion when so many of you got high?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Why, Phil, you certainly have not forgotten gotten that. It was the greatest day we ever had in the town of Allbusiness; it was the reception of Kamkamer, the King of Kamtschatka, and suite, by the town authorities.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Oh yes, Judge, I recollect it now distinctly. It was six or seven years ago. Oh yes, that was a great time. The king and suite came to the city drawn by ten grizzly bears and fifty Lapland</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Yes, Phil, that certainly was one of the greatest demonstrations we ever had in this town. The streets were jammed with people eager to catch a glimpse of his Majesty and attendants, with their long team of bears and dogs.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Well, Judge, I can assure you I did not run after the king and party. I was down at the old Black Bear Hotel, and I did m not think it worth my while to go across the street to look at such barbarians. Most people make fools of themselves on such occasions, Judge. I would not give a glass of grog for the whole party.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>You know, Phil, that the authorities ex-tented to his Majesty and suite the freedom of the town.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>His Majesty and suite! who were his suite? They were nothing but a lot of bear and dog drivers.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>There were with his Majesty his Secretary of State or Prime Minister, Mr. Kuka, and his son. Mr. Kuka was a very great man; but the others, excepting his son, were not of much importance. You will recollect, Phil, that at the banquet, given<pb n="48-49" xml:id="VAC6286-00000028"/> to his Majesty at the Scampchatta House (afterward called the Kamtschatka, in honor of the king) I was appointed to make the principal speech.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes, I was in the bar-room below the hall, and heard your voice ring through the house-and occasionally there would be roars of laughter-so I knew that you were all right, Judge. It was reported. Judge, that you had, on that occasion, all kinds of liquor; but the king and his party would not take a drop of brandy, gin, whisky, nor any strong drink whatever; but called for oil to drink.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>That was so; they would not touch the best of our liquors, but called for oils. So a large quantity of different oils were furnished, and every time toasts were drunk the king and attendants would fill their glasses with the various oils, and drink their contents off so smoothly that it created roars of laughter among the guests.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes, Judge, while yourself and other distinguished citizens were getting drunk on your fine liquors, these barbarians were entirely sober.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>That is so; and I believe the king drank over a quart of the different oils, and each of the others about the same quantity. It would fairly bring the house down with laughter to see his Majesty smack his lips after drinking a tumbler full of petroleum.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>I recollect, Judge, that the grizzly bears and dogs, with their drivers, were entertained at the Black Bear Hotel, then kept by Daniel Hiderspider, and he made a pretty good thing out of them. And we had much sport with those fellows, too. One night, after they had eat all the food they could get, they actually drank all the oil out of the oil cans, and then broke the lamps and drank all the oil out of them. Then they opened a box of sperm candles and eat them all up. Well, Hiderspider was terribly vexed at this conduct, and sent for Mr. Kuka, the king's secretary, to come and pay the damages. Kuka immediately repaired to the Black Bear Hotel, and on his arrival he was informed of the conduct of his men, and requested to pay the damages. But Mr. Kuka refused to pay on the ground that the mayor of the city had extended to the king and party the freedom of the town, and therefore they had a right to take whatever they wanted. In that respect Mr. Kuka showed himself a sensible man. But Mr. Hiderspider did not see it in that light, and threatened him with a suit at law. Mr. Kuka then consulted his Majesty about the matter, who immediately ordered him to pay the bill.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Mr. Kuka took a singular view of the freedom of the city, yet a very natural one.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Mr. Hiderspider after that gave these men all the petroleum they wanted, and charged Mr. Kuka an enormous price for it. I recollect that he paid so liberally that Mr. Hiderspider changed the name of the hotel from Black Bear to Grizzly Bear, in honor of the bears, I suppose.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>And I believe you had much fun with the men?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Yes; by some trick two or three of the men were persuaded to take brandy, and it made them dead-drunk. Oh! they were so drunk they<pb n="50-51" xml:id="VAC6286-00000029"/> could scarcely move at all for two days. The king was sent for: he came, looked at them, and shook his head significantly, and said to Kuka: "This is a very unhealthy climate; some terrible disease rages here, and we will all get it if we stay longer, I have seen all I wish of American civilization in this town of Allbusiness." So the king ordered the hears and dogs to be put to the royal vehicle early in the morning, and they left the town hastily, amid the cheers and huzzas of an admiring people-I mean admiring fools. I except you, Judge; I know the circumstances in which you were placed.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>It is singular that the Kamtschatkans are so fond of oil; yet I believe that to be the case with all people who live in very cold countries.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Perhaps, Judge, it would be better for us to drink oil instead of so much rum.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JUDGE.</speaker> 
+                  <p>Phil, like the Kamtschatkans we really <emph>do</emph> drink oil. The only difference is, that while they take <emph>petroleum,</emph> we drink <emph>fusil oil.</emph> I am off; good-by, Phil.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>PHIL.</speaker> 
+                  <p>Farewell, Judge; success to you.</p> 
+                  <milestone n="--" unit="typography"/> 
+                  <p>Of the many families made miserable by intoxicating drinks, I will only speak of a few instances which have come under my observation. Mr. James Woodenbottom is one of those crazy, dare-devil sort of men, which we often meet. "When he is drunk he is very cross and abusive to his family. His wife is a very nice woman, kind-hearted and timid to a fault. Her sufferings are very great on account of her husband's conduct toward her. The following is only a specimen of what often transpires at his house. Woodenbotton came home one night not long since crazy with rum. What is remarkable about him he always has a good use of his legs and tongue while his brain is entirely upset. As he entered the door of his house he commenced cursing and swearing at his wife. He asked his wife several questions in an angry mood, and blamed her for everything that was done or not done, as may be seen by the following conversation:</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOODENIBOTTOM.</speaker> 
+                  <p>Well, you are here, are you, old lady?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Yes, I am here; why did you stay so long?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>That is my business. Are the horses fed?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>No, I guess not; you know that Johnny is too little to water and feed the horses.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Too little (here he cursed terribly); you are bringing that boy up in idleness. I never can have anything done when I am away.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>You ought to be home to see that things are done properly and in time.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>I ought to be home! I will do as I please about that. I will let you know that I am master of the situation. (Here he takes his wife by the arm and pulls her up from her chair with great violence.) Now get me something to eat immediately.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>I will, if you will ask me kindly.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>I shan't ask you again. I say get me some supper, or by-</p> 
+               </sp> 
+               <pb n="52-53" xml:id="VAC6286-00000030"/> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>I am getting it as fast as I can.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Where is Johnny?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>He has gone over to his Aunt Mary's.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Gone over to his Aunt Mary's! I want him home to help me. What did you let him go to his Aunt Mary's for:</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>He asked me if he might go and stay a little while, and I told him he might.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Did I not tell you not to let him go there; and if you did, that I would whip him and you too?</p> 
+                  <p>(Here Winterbottom grew terribly ferocious, and suddenly flew at his wife with such a determined and threatening manner, that she was compelled to make her escape out of the house to Save herself from bodily injury. And Susan, a girl of twelve years old, who had all this time been sitting quiet from fear, instantly followed her mother. So Mr. Woodenbottom had to stay alone till he got sober, then his wife and daughter went home, and domestic affairs resumed their accustomed rounds. But there is little comfort in that family. Woodenbottom makes himself and family perfectly miserable. Poor wife and child! what can they do? Kind treatment appears to have no effect upon Mr. James Woodenbottom.)</p> 
+                  <p>There is Mr. William Woodenbottom, a cousin of James, who is a drinking man, too, and goes on sprees, but fortunately or unfortunately for him, he has a wife who appreciates his character, and understands, her own rights very well. Mrs. William Woodenbottom is not only a strong-minded but a strong-limbed woman. On a certain occasion when her William reached home-which he did with difficulty, being decidedly drunk-the way she pitched into him is a "caution" to all who indulge in strong drink. As Woodenbottom entered the door, "Ah!" she exclaimed, "you have fetched up at last, have ye!"</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Now you are drunk as a beast, you villain! how dare you act in this manner? I'll learn you better than this. (Here she grips him by the collar, and, with a sudden jerk, sends him half across the room, sprawling on the floor.) Get up; you are so drunk you can't get up.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOODENBOTTOM.</speaker> 
+                  <p>You had bet-better be careful. I'll fix you for this.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>You'll fix me! what can you do? (Here she takes him by the collar and stands him up and shakes him as a terrier does a rat.) Now sit down in that chair and keep still.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>I can't speak, eh?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>No, you can't speak. You are a pretty man to go off and stay all night, spending all your money for rum, when your family are suffering for clothes. Here is Jane who has not a shoe to her feet; and Johnny and Willie have to stay home from school because they have no clothes fit to wear. That <emph>very</emph> money you spent last night I expected to have to buy something for the children.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Don't get era-crazy. I've got money yet.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Let me see your pocket-book. Oh! you are so drunk you can't get it out. I'll take it out for you. (She thrusts her hand into his trowsers<pb n="54-55" xml:id="VAC6286-00000031"/> pocket and brings it out.) You had six dollars when you went away; now you have only two left. You have drank it up or given it away, or somebody has robbed you.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Nobody has robbed me.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>It matters not, the money is gone; and you ought to have a cowhiding-such a simple fool as you are. Oh! I am so vexed I have a good mind to pull the hair out of your head. (Here she takes him by the hair and jerks him out of the chair.)</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Oh, oh, for God sake don't pull the ha-hair all out of my head!</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Well, I will just shut you up in that closet. (She opens the door.) Go in there now.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>I shan't do it.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Shan't do it, eh! I'll put you in there before you can say Jack Robinson. (Here she collars him and a struggle ensues, but she finally gets him into the closet and fastens the door.)</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Open the door and let me out.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>No, sir; not till you promise to behave yourself.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Open the do-door, wife. (He kicks the door.)</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Stop your kicking against the door, or I'll keep you there all day Will you promise to behave yourself?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>I tell you to open the do-door.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Won't you get drunk any more?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>No, ma-marm.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Is that sure?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, it is sure as fa-fate.</p> 
+               </sp> 
+                
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Won't you go to the rumshops any more?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>No, no; do let me out.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Do you promise upon your word and honor that you will not spend your money for rum?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, I promise; let me out, or I'll kick the door through.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WILLIE.</speaker> 
+                  <p>Mother, won't you let papa out? it is dark in there, and I guess he is hungry.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Go away, Willie, and sit down; I will take care of your papa.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>I say, let me out or I'll kick the door down.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>You kick the door down if you dare, my boy. I am going to keep you in there till you promise to behave yourself.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>Wood.</speaker> 
+                  <p>Well, haven't I promised?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>You mean it, do ye?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, m-marm; I mean it.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JANE.</speaker> 
+                  <p>Ma, please let papa out-he is hungry; I want to give him some of my bread and butter.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>You go away, child, and keep still; I won't hurt your papa.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>JANE.</speaker> 
+                  <p>He says he will be good now; let him out.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Well, now come out. (She opens the door.) Now, just sit down on that chair there.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, marm; I'll let you be the head of the family now, but it will be my turn soon.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Yes, you would make a pretty head of the family, wouldn't you? Where did you go to spend so much money?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Oh! I was down at the Earthen Jug House.</p> 
+               </sp> 
+               <pb n="56-57" xml:id="VAC6286-00000032"/> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Earthen Jug House! in that low rumhole, eh?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, marm, I was there.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Who was there with you?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Well, Foppish Joe was there.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Foppish Joe!-he is a nice young man. Who else was there?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Well, Free-hearted Jake was there.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Free-hearted Jake!-he is another drunken spendthrift. Who else?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Well, Close-fisted Billy was there.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Close-fisted Billy! well, I dare say that he did not spend his money.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>No, not a "red;" he is too mean to spend his own money.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>How could you spend so much money? you must have paid for all.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Well, no; I wanted to keep up my end, you know-and-</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Well, I don't blame you after you got into it. I don't want you to get drunk on other folks' money, like Close-fisted Billy; but I tell you to keep out of that kind of company. I tell you if you go there again the way I will handle you will be a caution.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, marm-to old people, I suppose.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Yes, to old people, and especially to you, Mr. Woodenbottom. Let alone the disgrace of getting drunk, I cannot afford to have you fool away money for rum when myself and children, are suffering for clothes and the necessaries of life. Now you understand, don't you?</p> 
+               </sp> 
+                
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, marm, I understand you. Now, marm, I would like a mouthful to eat.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>A mouthful to eat, eh? you don't deserve a crumb. If you ever get in this way again, I will shut you in the closet and feed you on bread and water for thirty days-and so I will.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, marm; will you get me a mouthful of bread now?</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>Yes, I will get you something to eat this time.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, do; I begin to feel a little hungry.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WIFE.</speaker> 
+                  <p>There, now, go to eating, and let me hear no more from you.</p> 
+               </sp> 
+               <sp> 
+                  <speaker>WOOD.</speaker> 
+                  <p>Yes, marm.</p> 
+               </sp> 
+               <p>It is doubtful whether Mr. Woodenbottom would have been any better if he had had a wife of milder disposition. Notwithstanding his promises and his wife's threatenings he would occasionally get drunk, for he had a great weakness that way. It is well that once in a while a drunken man finds his match. If James Woodenbottom had a wife just like Mrs. William Woodenbottom, the warfare would be pretty equal, and in that case it would be doubtful which party would win the day; yet I am inclined to believe that victory would favor the side of Mrs. Woodenbottom.</p> 
+               <p>Luke Ironside was a man who drank too much strong drink, and often went home to his family in a state of intoxication. But he was not at all like James and William Woodenbottom. Of course, his conduct was a source of annoyance to his wife and children, and caused them much unhappiness. Yet<pb n="58-59" xml:id="VAC6286-00000033"/> when intoxicated he did not rave like a madman-he seemed to have a little sense left. His wife is an intelligent and kind lady, and she always treated him with great kindness. No doubt she took great interest in his welfare. By talking to him at proper times about his habits, she aroused within him his self respect and better nature, and he was enabled to resolve that he would drink no more intoxicating liquors. He did resolve, and he kept his resolution. Before Mr. Ironside reformed he had lost his business and the confidence of the people, and was on the verge of ruin; but now he has regained the confidence of his former customers and of the people-and, in fact, they have trusted him with very important stations.</p> 
+               <p>It is not necessary to relate any particular conversations between him and his wife-it is sufficient to say that he is a reformed and happy man; and his wife and children are especially made happy by the complete restoration of Mr. Ironside to himself.</p> 
+               <p>It is unfortunate for a woman to marry a drinking man; but she may often, by kindness, relieve him of much suffering-and sometimes, by using the proper means, reform him completely.</p> 
+                
+               <p>My young friends, I have given, some specimens of the two distinguished families, the Ironsides and the Woodenbottoms, of whom you are descendants; and each of you, whether belonging to the Ironsides or Woodenbottoms, have the greatest possible motives to abstain entirely from the use of strong drinks. If you belong to the Ironside family, clothed by nature with a strong, vigorous, and iron constitution, you should so conduct yourself as to develop your mental and physical powers for your own benefit and happiness, and also for the benefit of your kind. But if you are a descendant of the Woodenbottoms, and nature has furnished you with a delicate and sensitive constitution, it is equally incumbent on you to take care and improve your faculties, so as to enjoy life, and spread joy and happiness all around you. Young men, you should study the nature of man, and try to understand the Dignity and exaltation of which humanity is capable, especially that exaltation which as Christian men we hope to realize in a future state of being.</p> 
+               <p>When you once have a just idea of the dignity of which men are capable, you will be prepared to understand the awful degradation to which they are capable of descending. If you study humanity in this light, there will spring up in your minds the most powerful motives never to touch that thing which hazards your dignity and happiness here and hereafter. I believe, from the hints and facts here given, you will thus study humanity, and will thereby gain a moral power which will be your guide and support through life.</p> 
+               <pb n="60-61" xml:id="VAC6286-00000034"/> 
+               <p>Which of you wishes to carry about on his person visible signs of the Bum Stroke? If you drink rum, you will be obliged to carry these signs wherever you go. Nature is sure to protest against any encroachments upon her rights. When threatened and outraged, she will put out her signals of distress and danger, and will keep them out till you come to her rescue, or both you and she will go down to death together before your time. When she shall have put out her signals to notify any of you of her suffering condition from intemperance, she will immediately haul them in, go far as she is able, whenever you come to her relief by quitting the use of intoxicating drinks. If she does not haul her signals entirely out of view, it is because of weakness, and in such cases they will remain a perpetual warning of the crime and folly of rum-drinking.</p> 
+               <p>I have often thought that when boys and young men can see that the world is full of drunkards and Bum-strickee men-and when they read history, they see that it has been so for hundreds of years-how they dare drink a drop of strong liquor; for they must know, if they drink, a large portion of them will surely become drunken and Bum-stricken men in the coming generation. Boys of ten and twelve years old would be horror-struck if they thought they were to be degraded drunkards and Bum-stricken men after arriving at manhood. Yet it is true-that lively, innocent boy, is to be a degraded drunkard, just as sure as fate, under our present civilization and customs. Let me say a word to you, boys. Under our present customs, young men and boys learn to drink rum; and so long as that custom prevails, a good many of you will become drunken and Bum-stricken men. Now, my lads, the future condition of the world is in your hands. You can make it a far better and happier world than it now is.</p> 
+               <p>You know very well that all the drunken and Bum-stricken men in the world will soon die off, whether they reform or not; they will soon pass away. Now, if every living boy who is twelve years old would resolve never to drink any rum at all, and keep his resolve, in thirty of forty years we would have a different world, because there would scarcely be a drunkard or Bum-stricken man in it, and consequently a very little crime and misery. Now, boys, this great reform is in your hands, and you can effect it very easily. Let every boy twelve years old put his resolve in the book of Besolution, that he will be henceforth a temperance boy-a clean boy. In order to be a clean boy, you must resolve to use neither rum, tobacco, nor profane language. Smoking and chewing tobacco and swearing have some connection with rum-drinking. To be really a <emph>clean</emph> boy, you must refrain from all these. Now, why should you not be <emph>clean?</emph> Though your fathers might use rum, tobacco, and profane language, yet they do not wish you to do so. No, indeed; they would be very glad to hear that you had resolved to practice none of these evil habits.</p> 
+               <p>So, lads, there is nothing in the way of your becoming <emph>clean boys.</emph> Your fathers, mothers, and sisters will encourage you. We will have an Order<pb n="62-63" xml:id="VAC6286-00000035"/> of Clean Boys instituted, of which every clean boy of twelve years can become a member. Then at fifteen, you can be initiated into the "Order of Clean Youths;" at eighteen, into the "Order of Clean Young Men;" at twenty-one years old, into the "Order of Clean Men and Model Citizens." I would give to the members of each Order golden medals, finely executed, with significant designs.</p> 
+               <p>Young men and boys, think of this fact: the world is in your hands. Try and realize the responsibility you are under to make a good world before thirty years shall have passed.</p> 
+                
+            </div> 
+         </div>
+      </body> 
+      <back> 
+         <div type="advertisement"> 
+            <pb n="64-65 (Advertisement) " xml:id="VAC6286-00000036"/> 
+             
+            <head>WATERS' NEW SCALE PIANOS</head> 
+            <head type="sub">With Iron Frame,</head> 
+            <head type="sub">OVERSTRUNG BASS AND AGRAFFE BRIDGE,</head> 
+            <head type="sub">Melodeons and Cabinet Organs.</head> 
+            <head>THE BEST MANUFACTURED.</head> 
+            <head type="sub">Warranted for Six years.</head> 
+            <head type="sub">Pianos, Melodeons, and Organs,</head> 
+            <head>PRICES GREATLY REDUCED FOR CASH.</head> 
+            <p>New 7-Octave Pianos of first-class makers for $275 and upwards. New Cabinet Organs for $45 and upwards. Second-hand Instruments from $40 to $175. Monthly instalments received, and instruments for rent.</p> 
+            <p>WAREROOMS, 481 BROADWAY. HORACE WATERS.</p> 
+            <div type="advertisement"> 
+               <head>Testimonials.</head> 
+               <p>The Waters Pianos are known as among the very best.-<title>N. Y. Evangelist.</title>
+               </p> 
+               <p>We can speak of the merits of the Waters Pianos from personal knowledge as being of the very best quality.-<title>Christian Intelligencer.</title>
+               </p> 
+               <p>The Waters Pianos are built of the best and most thoroughly seasoned material.-<title>Advocate and Journal.</title>
+               </p> 
+               <p>Our friends will find at Mr, Waters store the very best assortment of Pianos, Melodeons, and Organs to be found in the United States.-<title>Graham's Magazine.</title>
+               </p> 
+               <p>Horace Waters, 481 Broadway, is famed for the excellence of his Pianos and organs-<title>Evening post.</title>
+               </p> 
+               <p>The Waters Piano ranks with the best manufactured in America.-<title>The Independent, N. Y.</title>
+               </p> 
+               <p>MUSICAL DOINGS.-Since Mr. Waters gave up publishing sheet music, he has devoted all his capital and attention to the manufacture and sale of Pianos and Melodeons. He has just issued a catalogue of his new instruments, giving a new scale of prices, which shows a marked reduction from former" rates, and hid Pianos have recently been awarded the First Premium at several Fairs. Many people of the present day, who are attracted, if not Confused, with the flaming advertisements of rival Piano houses, probable overlook a modest manufacturer like Mr. Waters; but we happen to know that his instruments earned him a good reputation long before expositions and "honors" connected therewith were ever thought of; indeed, we have one of 'Mr. Waters' Piano Fortes now in oil residence (where it has stood for years), of which any manufacturer in the world might well be proud. We have always been delighted with it as a sweet-toned and powerful instrument, and there is no doubt of its durability; more than this some of the best amateur players in the city, as well as several celebrated pianists, have performed on the said piano, and all pronounce it a superior and <emph>first-class instrument.</emph> Stronger endorsement we could not give.-<title>Home Journal.</title>
+               </p> 
+            </div> 
+         </div> 
+         <div type="advertisement"> 
+            <pb n="66-67 (Advertisement) " xml:id="VAC6286-00000037"/> 
+            <head>IVES' PATENT LAMPS</head> 
+            <head type="sub">SAFETY ECONOMY</head> 
+            <p>THE BEST LAMP EVER USED CAN BELIGHTED, FILLED, AND TRIMMED WITHOUT REMOVING GLOBE, SHADE OR CHIMNEY</p> 
+            <p>SOLD BY DEALERS GENERALLY.</p> 
+            <p>Special attention given to retail trade, And the Furnishing of Churches, Dwellings, Factories, Hotels, Stores, &amp;c., complete throughout every apartment with SAFE STATIONARY LIGHTS In place of those that are movable and dangerous.</p> 
+            <p>THE BEST REFINED KEROSENE OIL-Warrented Safe.</p> 
+         </div> 
+         <div type="advertisement"> 
+            <head>NO ONE NEED BE IN THE DARK!</head> 
+            <p>All Travelers should use the POCKET LANTERN.</p> 
+            <p>VERY LIGHT, STRONG, AND DURABLE. Can be folded and carried in the pocket or traveling bag with safety and convenience, occupying and space of a cigar case, and are opened and closed as readily. They contain, whether open or closed, matches and extra candles, and are always ready for use.</p> 
+            <p>Agents for Hartshorn's Patent Folding Lamp Shades.</p> 
+            <p>Send for Circulars, address THE IVES PATENT LAMP CO. 37 Barclay St. &amp; 42 Park Place, New York.</p> 
+         </div> 
+         <div type="advertisement"> 
+             
+            <head>BENEDICT BROTHERS,</head> 
+            <head type="sub">No. 691 Broadway,</head> 
+            <head type="sub">Bet. Amity &amp; Fourth Sts.,</head> 
+            <head>JEWELERS,</head> 
+            <head type="sub">KEEPERS OF THE CITY TIME,</head> 
+            <head>Fine Watches, Chains, Diamonds, AND SOLID SILVERWARE.</head> 
+            <p>Agents for the AMERICAN WALTHAM WATCH.</p> 
+            <p>Watches Repaired in the most thorough manner, and Warranted.</p> 
+            <p>READ THIS!</p> 
+            <p>The Lowest Price List Ever Published OF THE AMERICAN WALTHAM WATCHES</p> 
+            <p>In Solid Gold and Coin Silver Cases only.</p> 
+            <list> 
+               <head>PRICES.</head> 
+               <item>Coin Silver Hunting Watches $17 00</item> 
+               <item>Gold Hunting Watches, Gents' Size 79 50</item> 
+               <item>Gold Hunting Watches, Ladies' Size 69 50</item> 
+            </list> 
+            <p>ALSO THE Benedicts' Time Watch.</p> 
+            <list> 
+               <head>PRICES.</head> 
+               <item>Silver Watch, Ovington Benedict $30 00</item> 
+               <item>Gold (18 kt.) 90 00</item> 
+               <item>Silver Watch, Samuel W. Benedict 45 00</item> 
+               <item>Gold (18 kt.) 105 00</item> 
+            </list> 
+            <p>Sent to all parts of the country by express, with privilege to examine before paying.</p> 
+            <p>Send for a circular, and compare prices before purchasing elsewhere.</p> 
+            <p>BENEDICT BROTHERS, JEWELERS, And Keepers of the City Time,</p> 
+            <p>No. 691 BROADWAY, Near Fourth Street, NEW YORK.</p> 
+         </div> 
+         <div type="advertisement"> 
+            <pb n="68 (Advertisement) " xml:id="VAC6286-00000038"/> 
+            <head>PELOUBET, PELTON &amp; CO.,</head> 
+            <head type="sub">MANUFACTURERS OF STANDARD ORGANS and MELODEONS AND DEALERS IN PIANOS,</head> 
+            <head type="sub">841 Broadway, New York.</head> 
+            <p>
+               <figure> </figure>
+            </p> 
+            <p>These Organs contain every improvement worthy of the name, and are superior in pipe-like quality and variety of tone, and in all true organ effects, and have been invariably awarded the First Prize wherever exhibited in competition.</p> 
+            <p>WAREROOMS, 841 Broadway, New York.</p> 
+            <p>Send for a Price List.</p> 
+         </div> 
+      </back> 
+   </text>
+</TEI>

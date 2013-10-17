@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd"
+     xml:id="VAC5704">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title >Solon, or, The Rebellion of '61 </title>
+            <author >Delphine.</author>
+            <respStmt>
+               <resp >General Editor</resp>
+               <name >Perry Willett</name>
+            </respStmt>
+            <respStmt>
+               <resp >Electronic Text Specialist</resp>
+               <name  xml:id="adamhoch">Adam Hochstetter</name>
+            </respStmt>
+            <respStmt>
+               <resp >General Editor</resp>
+               <name  xml:id="mdalmau">Michelle Dalmau</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher >Digital Library Program, Indiana University</publisher>
+            <pubPlace>Bloomington, IN</pubPlace>
+            <address >
+               <addrLine xmlns="http://www.tei-c.org/ns/1.0">1320 E. 10th St.</addrLine>
+               <addrLine xmlns="http://www.tei-c.org/ns/1.0">Bloomington, IN 47405</addrLine>
+            </address>
+            <idno >VAC5704</idno>
+            <availability  status="unknown">
+               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
+                    copyright only to original contributions made by the Victorian Women Writers
+                    Project participants and other members of the university community. Indiana
+                    University makes no claim of copyright to the original text. Permission is
+                    granted to download, transmit or otherwise reproduce, distribute or display the
+                    contributions to this work claimed by Indiana University for non-profit
+                    educational purposes, provided that this header is included in its entirety. For
+                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title  level="s" type="project">Wright American Fiction: An Electronic
+                    Collection</title>
+         </seriesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title >Solon, or, The Rebellion of '61</title>
+                  <author >Delphine.</author>
+               </titleStmt>
+               <extent >74 p.</extent>
+               <publicationStmt>
+                  <publisher >S.P. Rounds</publisher>
+                  <pubPlace>Chicago Ill. </pubPlace>
+                  <date  when="1862">1862</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p >This text was created as part of a project by the Committee on Institutional
+                    Cooperation. Project description and participants are available at the project
+                    website at http://www.letrs.indiana.edu/wright.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+                    has been encoding and edited using the recommendations for Level 4 of the TEI in
+                    Libraries Guidelines. Digital page images are linked to the text file.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change  who="Perry Willett, Indiana University" when="2000-09-27">Finished OCR, rough encoding and error checking</change>
+         <change  who="William Fietzer, University of Minnesota" when="2002-01-31">Finished TEI encoding and proofreading</change>
+         <change  who="Perry Willett, Indiana University" when="2002-02-05">Finished final editing</change>
+         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text > 
+      <front> 
+         <titlePage xmlns="http://www.tei-c.org/ns/1.0"> 
+            <pb  n=" (TitlePage) " xml:id="VAC5704-00000001"/> 
+            <docTitle> 
+               <titlePart>SOLON,</titlePart> 
+               <titlePart type="sub">OR THE REBELLION OF '61.</titlePart> 
+               <titlePart type="sub">A DOMESTIC AND POLITICAL TRAGEDY.</titlePart> 
+            </docTitle> 
+            <byline >BY <docAuthor xmlns="http://www.tei-c.org/ns/1.0">DELPHINE.</docAuthor>
+            </byline> 
+            <epigraph > 
+               <q>
+                  <p>"TRUTH IS STRANGER THAN FICTION."</p>
+               </q> 
+            </epigraph> 
+            <epigraph > 
+               <cit> 
+                  <q>
+                     <lg type="quotation"> 
+                        <l part="F">They never fail who die</l> 
+                        <l>In a great cause. The block may soak their gore,</l> 
+                        <l>Their heads may sodden in the sun; their limbs</l> 
+                        <l>Be strung to city gates, or castle walls;</l> 
+                        <l>But still their spirits walk abroad. Though years</l> 
+                        <l>Elapse, and others share as dark a doom,</l> 
+                        <l>They but augment the deep and sweeping thoughts</l> 
+                        <l>Which overspread all others, and conduct</l> 
+                        <l>The world at last to freedom.</l> 
+                     </lg>
+                  </q> 
+                  <bibl>--Byron.</bibl> 
+               </cit> 
+            </epigraph> 
+            <docImprint>
+               <pubPlace>CHICAGO, ILL.:</pubPlace> 
+               <publisher >S. P. ROUNDS, BOOK AND JOB PRINTER, 46 STATE STREET.</publisher>
+            </docImprint> 
+            <docDate>1862.</docDate> 
+            <pb  n="2" xml:id="VAC5704-00000002"/> 
+            <docEdition>Entered according to Act of Congress, in the year 1862, by DELPHINE, in the Clerk's Office of the District Court of the Northern District of Illinois.</docEdition> 
+         </titlePage> 
+         <div type="preface"> 
+            <pb n=""/> 
+            <head>PREFACE.</head> 
+            <p>The justice of our country's cause, with solemn import, hangs on every lip. From each loyal soul, though mute in utterance, <choice>
+                  <sic>assends</sic>
+                  <corr>ascends</corr>
+               </choice> to Heaven the one fervent prayer: "God save the Union!" That our hearts should pray, and our hands labor to effect this grand preservation, is the responsible duty of every lover of liberty and truth.</p> 
+            <p>Should sentiments breathed in the following pages awaken within our hearts a deeper interest in freedom's cause, or serve to cement more firmly the golden chain of love which binds humanity to sublime truths, and the holy alliance between the finite and the Infinite, grateful to God will be the writer, for the satisfaction that a little good may arise from an humble effort.</p> 
+         </div> 
+         <div type="characters"> 
+            <pb n="5" xml:id="VAC5704-00000003"/> 
+            <pb n=""/> 
+            <head>CAST OF CHARACTERS.</head> 
+            <list> 
+               <item>SOLON, - - - - - - The South.</item> 
+               <item>NORA, - - - - - - - The North.</item> 
+            </list> 
+            <list> 
+               <head>LEADERS OF THE REBELLION.</head> 
+               <item>JEFFERSON DAVIS, - - - - Father of Solon.</item> 
+               <item>ALEXANDER H. STEPHENS, - - - - Cloud of Might.</item> 
+               <item>GEN. BEAUREGARD, - - - - The Lion of Fury.</item> 
+               <item>GEN. PRICE, - - - - - - Ignus Fatuus.</item> 
+               <item>GEN. PILLOW, - - - - - Waning Night.</item> 
+            </list> 
+            <list> 
+               <head>LEADERS OF THE FEDERAL ARMY.</head> 
+               <item>ABRAHAM LINCOLN, - - - - Father of Nora.</item> 
+               <item>SEWARD AND CAMERON, - - - - Pillars of State.</item> 
+               <item>GEN. MCCLELLAN, - - - - The Rising Sun.</item> 
+               <item>GEN. SCOTT, - - - - - - The Setting Sun.</item> 
+               <item>GEN. LYON, - - - - - - The Comet.</item> 
+               <item>GEN. FREMONT, - - - - - The Avalanche.</item> 
+               <item>GEN. HUNTER, - - - - - The Morning Star.</item> 
+            </list> 
+            <list> 
+               <head>TERMS.</head> 
+               <item>Quenching the National Fire, - Extinction of Slavery.</item> 
+               <item>England, - - - The Moon.</item> 
+               <item>France, - - - - The Flaming Sword.</item> 
+               <item>The Heavens darkened, - Death scene of Jefferson Davis.</item> 
+               <item>Pall bearers, - - - Wigfall, Johnson Slidell, Gov. Wise.</item> 
+               <item>Gulf of Oblivion, - - Grave of Beauregard.</item> 
+               <item>Bottomless Pit opened, - - View of the heart of Floyd.</item> 
+               <item>The Vision, - - - Restoration of Peace.</item> 
+            </list> 
+            <p>SCENES.-Washington and Missouri.</p> 
+         </div> 
+      </front> 
+      <body>
+         <div type="book">
+            <head>Solon, or, The Rebellion of '61</head> 
+            <div type="chapter"> 
+               <pb n="6-7" xml:id="VAC5704-00000004"/> 
+               <pb n=""/> 
+               <head>CHAPTER FIRST.</head> 
+               <epigraph> 
+                  <cit> 
+                     <q>
+                        <lg type="quotation"> 
+                           <l>Sail on, O Nation strong and great!</l> 
+                           <l>Humanity with all its fears,</l> 
+                           <l>With all the hope of future years,</l> 
+                           <l>Is hanging breathless on thy fate!</l> 
+                           <l>We know what master laid thy keel,</l> 
+                           <l>What workmen wrought thy ribs of steel,</l> 
+                           <l>Who made each mast, and sail, and rope,</l> 
+                           <l>What anvils rang, what hammers beat,</l> 
+                           <l>In what a forge and what a heat</l> 
+                           <l>Were shaped the anchors of thy hope.</l> 
+                           <l>In spite of rock and tempest's roar,</l> 
+                           <l>In spite of false lights on the shore,</l> 
+                           <l>Sail on, nor fear to breast the sea.</l> 
+                           <l>Our hearts, our hopes are all with thee,</l> 
+                           <l>Our hearts, our hopes, our prayers, our tears,</l> 
+                           <l>Our faith triumphant o'er our fears,</l> 
+                           <l>Are all with thee,-are all with thee!</l> 
+                        </lg>
+                     </q> 
+                     <bibl>-Longfellow.</bibl> 
+                  </cit> 
+               </epigraph> 
+               <p>Dark grew the western sky, and gathering clouds folded their huge pinions more closely around the electric fires within. The arched vault was lurid with the crimson flow that streaked the horizon at the twilight hour.</p> 
+               <p>Rumbling thunders shook the battlements of heaven, and the voice of old ocean wailed and trembled beneath their awful roar. Fiercely the elements combined their innate powers, threatening destruction upon all the weeping earth. But the voice of God walked upon the waters, and the glorious sun burst<pb n="8-9" xml:id="VAC5704-00000005"/> forth, bidding the world sweet peace and tranquil rest. The following day would behold a grand re-union of the warring elements of minds eternal, or a final dissolution of peace and happiness, and a total demolition of liberty and power. What wonder that the firmament of heaven is shaken, when the earth reels and totters beneath the tornado of dissolution?</p> 
+               <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+               <p>Anon two voices are heard in conflict: "To-morrow we must part forever, my beautiful Nora, my dearly beloved. Thou wilt make no concessions, because thy noble father, thou sayest, when invested with the need of power, will, at all hazards, carry out the principles of Washington and Jefferson; making liberty and human rights the awe-inspiring theme of the nation.</p> 
+               <p>"His faith in his ability to maintain the principles of our forefathers, and perpetuate the Union, will prove to be 'faith without works.' He may, by chance, save the cargo and the passengers, yet the old ship, the Constitution, must sink, a total wreck. He is a stern man, thy father, my Nora, but he shall yet feel the force of my hatred of his principles.</p> 
+               <p>"And we must part! God knows how it rends my heart to repeat those cold and cruel words. Heaven bears witness that I have loved thee long and fervently-loved as mortal man never loved before. Thou hast been my light, my life. My every thought twined around thee as some beautiful and divine presence, filling my soul with happiness and bliss; teaching me to believe that, let my will be what it may, no power on earth our kindred souls could sever.</p> 
+               <pb n=""/> 
+               <p>"Alas, alas! that the sun of abolition should shine with such burning rays upon the horizon of slavery as to dry up the ocean of affection which has hitherto rolled in glorious unison between us. Alas, dear Nora, I fear our separation will prove a dire calamity to both-a final overthrow of all our peace and prosperity-and where, indeed, will end our dreaded woes?</p> 
+               <p>"Dear Nora, thou art still silent. Hast thou no bright hope to whisper; no language of love to breathe to my despairing soul?"</p> 
+               <p>Wise man paused to listen once again, ere she might perhaps be to him no more a "good genius," to the counsels of his "better half," hoping to hear from her lips such deep and humble concessions as would justify him in remaining with her in the bonds of wedlock, until he could regain his former influence over her, and subdue more effectually her kindred.</p> 
+               <p>When wilt thou learn, O man! woman was created to wear the form of an angel, so long as thy heart is filled with kindness towards her. But when thou dost seek to <choice>
+                     <sic>tyranize</sic>
+                     <corr>tyrannize</corr>
+                  </choice> over her, to compel her into subjection to thy wishes, she will eventually appear in the spirit of a demon, taunting thee with the corroding bitterness of those deep and incurable wounds which thou hast so thoughtlessly inflicted upon her heart. Of such is the kingdom of earth. But let us return to our prospective, domestic and political tragedy.</p> 
+               <p>"I have been lost in reflection, dear Solon," whispered Nora, "wandering through the bright yet thorny paths of the past to that dear old time when you and I were wed, when happiness and prosperity, attending<pb n="10-11" xml:id="VAC5704-00000006"/> ing our hand in hand efforts, and love, the deepest and purest, as I believed, bound us by the golden chain which time could not sever, war, fire nor sword could sunder. But even now I seem to see, far back in the past, the dark shadow of distrust that crept cringly between us, while the phantom of selfish fear seemed to hover over with a faint foreshadowing of future ill. Enough of the past. What have we to hope for in the future but destruction of principle and desolation of soul; ruin, fanaticism, and, O most deplorable! the moral death of the nation?</p> 
+               <p>"Many long years, dear Solon, have I been thy faithful companion, and we have seen added to our once happy household another and another of those noble children<note xmlns="http://www.tei-c.org/ns/1.0" xml:id="WRIGHT2-0185-NOTE001" n="*"
+                        place="foot">
+                     <p >States</p>
+                  </note> whom God has given us, and who have contributed much to our happiness; whose fame and whose name have been borne across the wide Atlantic, and of whom foreign nations have spoken in eulogy. Ah, that thou and I should severed be, and these our daughters part too, forever!</p> 
+               <p>"Pause and consider, my dear husband. Thou lovest slavery more than me. Thou lovest that ease and indolence ever attendant upon the patrons of slavery. Thou hatest free labor and human rights, therefore is thy heart cold, proud and ungodly.</p> 
+               <p>"Do you flatter yourself, my love, that because I have foreborne until forbearence has ceased to be a virtue, I am blind to your faults, that I honor and respect your principles? No, believe me, your faults, though I have forgiven so many, have ever been heinous in my sight, yet the love I bear toward our children<pb n=""/> dren caused my tongue to cleave to the roof of my mouth whenever I sought to reprove thee for thy daring and traitorous acts, and in this respect am I greatly in error. Instead of winking at thy first transgressions until thy strong bold spirit had gathered new strength to <choice>
+                     <sic>tyranize</sic>
+                     <corr>tyrannize</corr>
+                  </choice> over me, I should have studied thy nature and purposes more effectually and sought to repress thy first evil desires to transgress the laws of the land, and annul the rights of the people. When man shall have ceased to reverence the laws of his country and respect the rights of his fellow man, he will also have forfeited his respect for and interest in his household."</p> 
+               <p>"Nay, it does not follow," replied Solon, "that a man should lose his affections for his family because he cannot abide by the conservative laws of the land, when they have become offensive and exceedingly oppressive to his sense of justice. Those Black Republican laws are becoming intolerable to every lover of independence of spirit, and every hater of injustice and wrong.</p> 
+               <p>"Could we have had a milder and more generous form of government than that which will be administered through thy father and his cabinet, there would have been no cause for this distressing eruption between us, which now exists, the consequences of which will prove, not only disgraceful, but very disastrous to the happiness and well being of our children. But it is not too late to redeem the past. The only power that can save from ruin, or cause me to relent in my purposes, in fine, that we may possibly withstand the<pb n="12-13" xml:id="VAC5704-00000007"/> tide of dissolution, which has no reflux, but is continually rolling with inevitable force upon us, is concession from thy lips, and the humiliation of compromise from thy father. Your influence over him is unbounded. He will carry out your will and purposes, even at the point of the bayonet if need be. Therefore, what is your decision, my beloved? Remember to-morrow, and decide wisely."</p> 
+               <p>The voice of Solon was hushed, yet Nora remained in deep and profound thought. It was of most momentous importance for her to decide between her duty to her country and the long cherished affection for her companion and those children who would depart with him. The intense and painful silence was at last broken by the perceptible agitation of Nora's low but impressive voice:</p> 
+               <p>"Shall I," she said, "who have adhered to that liberty which was purchased at so dear a price, the blood of our forefathers, implore my father, as thou desirest, to defame his noble name, to make himself a stigma in the land; the hiss and by-word of generations to come; the land-mark of insult of foreign nations, by the dark and traitorous act of compromise; of granting an extension of thy crimes, in increase of thy vices, and protection, beyond our present laws, of the horrid acts of villiany of which some of thy kindred have been guilty? No! Rather would I bathe my hands in my own heart's blood, than live a traitor to my people and their laws. No! Sooner would I war with kindred blood than wear the brand of felony and shame which belongs to the instigators of disunion<pb n=""/> union. No! nor ever will my noble father and brothers submit to the awful destiny which thou wouldst force upon them. My father is just and merciful, yet will he not, so long as there is one ray of hope, see this Union, upon which the whole world is gazing, dissolved-the marriage vow forever annulled. Patience, my love, and a little faith in his honesty of heart and high and noble principles, will teach thee that the laws of our land will justify him in all his proceedings.</p> 
+               <p>"You fear that when my father assumes the authority invested in him by the voice of the people, he will rule you with the rod of iron; that he will force you to abandon your <emph>beloved institution</emph>, slavery, or he will overthrow its monuments in your midst. In that belief you are mistaken. My father will not meddle with your idols, nor deprive you of your worship of darkness rather than light. Nor will he war with your principles, unless your own violence and your traitorous acts towards his people shall compel him to send out force of arms to quell your stern and haughty rebellion.</p> 
+               <p>"Yet, if war with thee is inevitable, let it come! It matters not how soon the bonds of matrimony are dissolved between us, if a steadfastness to high and holy principle must dissolve them. Yes, if war must come, let it come! In the language of that noble patriot, Patrick Henry, I repeat mine own sentiments and those of my kindred: 'I care not what others may say, but as for me, give me liberty or give me death!' You comprehend my sentiments, my husband<pb n="14-15" xml:id="VAC5704-00000008"/> band, therefore you can act in accordance with or without them."</p> 
+               <p>"This then, is thy stern decision, my proud, rebellious and beautiful Nora," said Solon, in bitterness. "There is very little indeed of the gentleness of woman in thy nature. The true woman's heart will submit to any discipline, or 'despotism,' as you term it, rather than lose the confidence and affections of her liege lord, and you, my Nora, I have ever fondly believed until now, possessed sufficient gentleness and womanly tenderness of heart to cause you to submit your future will to mine, and forget the fancied wrongs of which you deemed me guilty towards you."</p> 
+               <p>"Allow me to sketch one scene from real life," said Nora, interrupting her liege in the gentlest manner possible. "Behold a man, haggard and wo-worn. His eyes roll heavily in their sockets, where burneth ever and forever the midnight fires of intemperance. His intellect, once bright and glorious, is besotted and benumbed, and the beast of the field reasoneth as well as he. Once he was the loved and cherished friend of the noblest of God's creatures, the patriots. Then, too, was he the stately oak, around which the household vines clung for protection against the rude tempests of time. His very name was a household word that breathed magic to every heart, and music to every soul. His sentiments were revered as oracles of wisdom, and rare and noble intellect shone through all his precepts and examples. But a storm gathered over his life's sky, and dense clouds <choice>
+                     <sic>lomed</sic>
+                     <corr>loomed</corr>
+                  </choice> above the horizon. Then came the dark hours-then came the<pb n=""/> tempter also. He fell, and great was the consternation occasioned by his downfall. He had an idol which caused his overthrow. His idol was king Alcohol, (thine-pardon the allusion-is slavery,) his deadliest foe.</p> 
+               <p>"But look at him again. He is the most loathsome of all 'worms of the dust.' Even the child cannot pass him by without a look of pity and contempt. Poor outcast! where is the purifying home influence that could have saved thee from thy terrible doom?</p> 
+               <p>"He had once a beloved companion who was 'worthy of him,' he said, 'in his noblest days,' and who in prosperity forsook him not; yet, when the tempter came, she who should have grown strong in courage, and thrust the tempter from the household, stood trembling, fearing to resist the entrance of the evil one, lest her husband should deem her 'meddlesome,' or too 'strong minded.' Seest thou reality in the picture which I have presented?"</p> 
+               <p>"Little, very little indeed," answered Solon. "But do you really consider me depraved in intellect, because I uphold slavery as an institution, ordained by the Father of the universe? Do you see me going the downward road to ruin because I hold the slave in bondage, believing it to be the lawful and moral right of posterity to do the same?"</p> 
+               <p>"Slavery," said Nora, "is a vice, a CURSE, to the country wherever it finds toleration; hence the evils growing out of it are almost as numerous as the sands of the sea. <choice>
+                     <sic>Wenever</sic>
+                     <corr>Whenever</corr>
+                  </choice> the soul is held in bondage, man is, I believe, accountable to God for the sins of his fellow<pb n="16-17" xml:id="VAC5704-00000009"/> low man. Therefore is the curse of slavery darker and more damning than all other crimes into which the human race has fallen. It is a blot upon thy character which marks thy soul as perjured before God, and perfidious to man. The old world has long looked upon thee as a stumbling block in the way of civilization, and a traitor to the rights of both God and man. God grant that the shackles of slavery may one day fall, and that the soul of man may be made free from the terrible sins that necessarily follow the tyranny of man over man.</p> 
+               <p>"No, I do not ask you to relinquish your power over the slave, nor do I wish you to banish the <emph>darling</emph>, slavery, from your heart. I only watch and pray that the God of truth and justice will eventually open your eyes to behold the great sin that is resting upon you. I await patiently the fulfillment of his word, when He will bring the soul out of darkness, and set the bondaged free. He is just, wise and merciful, and will work out the redemption of all who trust in him."</p> 
+               <p>"Why this useless argument?" said Solon, "nought can avail with me. Thy father and his people must compromise as I desire, or I will sunder forever the strong bonds of union between us. I have wealth, luxury and power. I care not for the influence of thee and thine. To-morrow we shall no longer be one. The sun will rise upon our union, and set upon our disunion. Our fates are sealed. We shall part, and forever!"</p> 
+               <p>"Beware! false hearted!" said Nora, in firmness. "'Twill not be so easy to burst the bonds which God<pb n=""/> has joined together, commanding, 'let not man put <choice>
+                     <sic>assunder</sic>
+                     <corr>asunder</corr>
+                  </choice>.' It will be no light matter to break an alliance upon which all the nations of the earth have gazed in admiration and wonder.</p> 
+               <p>"Remember Bonaparte and Josephine. How soon did the monarch fall when he had annulled the marriage covenant between them-gone out from the light of her influence and love. He sought to gratify an ignoble ambition, and grasp the power beyond his reach, and in that grasp lost all, and banished himself from fame, fortune and friends. And such will be thy fate.</p> 
+               <p>"Dissolve this Union, and thou shalt become an outcast. Thy name shall be branded, from pole to pole, as a traitor to the nation-a tyrant of the household. Think not that by dissolving this Union you can form another in which you will be prosperous and happy. Dissolve our union, go forth from thy companion, draw part of our children after thee, yet so sure as the God of Heaven rules, will the day come when he will visit thee in the strength of his wrath, and thou wilt repent of thy sins in sackcloth and ashes, and plead with the humility and repentance of the prodigal to be received once more into that home which thou hast wilfully forsaken. Yes, sunder the golden chain of human love which has long bound us together by ties indissoluble, and thou shalt see, emblazoned in letters of blood, upon the ends of all the earth, thy name-'<emph>The Father of Traitors</emph>.'"</p> 
+               <p>"Cease! Silence, mad woman!" muttered Solon, in a storm of fury and rage, "nor dare to threaten<pb n="18-19" xml:id="VAC5704-00000010"/> thus. Think you that by your dark and terrible predictions you can avert the fall of the avalanche, or hush the thunders of the cataract? No! Nor can you terrify me into servitude to woman's weak, capricious <emph>whims</emph>. Nay, the curtain may fall from heaven's eyes, the <choice>
+                     <sic>seathing</sic>
+                     <corr/>
+                  </choice> sun of rebuke wither the brightest emblems of hope, yet will I heed not thy cold upbraidings, or consent to wear longer the yoke of matrimony which is the 'gall of bitterness' to my heart, and the 'bond of iniquity' to my soul. The fire of disunion has long been kindled between us, nor can it become extinguished. Already have a chosen few of our noblest daughters departed from the light of their mother's counsels, while others are weighing the matter and will soon follow. Already have I placed over them a just and wise ruler, who will soon hush the cries of 'God save the Union!' and 'Liberty or death!'</p> 
+               <p>"But let us repose once more in peace, that we may be strengthened and invigorated for the duties of that dark and portentious to-morrow."</p> 
+            </div> 
+            <div type="chapter"> 
+               <pb n=""/> 
+               <head>CHAPTER SECOND.</head> 
+               <epigraph> 
+                  <cit> 
+                     <q>
+                        <lg type="quotation"> 
+                           <l>When I behold a genius bright and base,</l> 
+                           <l>Of towering talent and terrestrial aims,</l> 
+                           <l>Methinks I see, as thrown from her high sphere,</l> 
+                           <l>The glorious fragments of a soul immortal</l> 
+                           <l>With rubbish mix'd, and glittering in the dust:</l> 
+                           <l>Struck at the splendid melancholy sight,</l> 
+                           <l>At once compassion soft and envy rise-</l> 
+                           <l>But wherefore envy? Talents, angel-bright,</l> 
+                           <l>If wanting worth, are shining instruments</l> 
+                           <l>In false Ambition's hand, to finish faults</l> 
+                           <l>Illustrious, and give infamy renown.</l> 
+                        </lg>
+                     </q> 
+                     <bibl>-Young.</bibl> 
+                  </cit> 
+               </epigraph> 
+               <p>O beautiful sun! thou hast risen not in vain upon man's iniquity. He cannot hide it from thee, though he shroud it in darkness dense as the gloom of death. Behold him! created in the image of God; a man of genius, power, and strength; endowed with noblest reason and rarest intellect; coveting dishonored glory and dishonest renown. False ambition hath blinded his sight of truth, and palsied his sense of justice. The clanking chains of mammon, forged upon his soul by the wretched hand of slavery, chime in sweetest harmony upon his distorted brain. He speaketh in the voice of thunder, and the mountains from slumber awake, and the rivers of strife leap and tremble at his terrible power. He standeth upon the mount of Hope with extended spear, and the Cloud of Might rises in<pb n="20-21" xml:id="VAC5704-00000011"/> gorgeous array before his longing vision. He feasteth upon the secrets of his soul, and saith in bold self-reliance: "I am the man. I will rule over them, and they shall be my people. In the wisdom of Solon, I have been chosen the lawgiver of the nation. I will strike out her Sun from the horizon, I will hew down the Pillars of State, and I will hurl the Avalanche from the mountain side into the gulf of woe. I will wade through seas of human gore, and I will fasten the upas fang of Solon upon every living thing. I will strike the Comet from its orbit, and I will dissolve the Pillar of Fire<note xmlns="http://www.tei-c.org/ns/1.0" xml:id="WRIGHT2-0185-NOTE002" n="*"
+                        place="foot">
+                     <p >Gen. Lane.</p>
+                  </note> in the crucible of an unknown hades. I will send the woe of intrigue and the pestilence of stampede among mine enemies, and I will flee their wrath while yet they are in hot pursuit, chasing only the shadow, while the substance hath eluded their grasp. I will decoy them through the sea of Dissolution, and the dark billows of distrust will roll on either side. Yea, I will pursue them with the Lion of Fury, with the Ignus Fatuus will I lead them estray. Should they steal upon me as a thief in the night, I will raise the Cloud of Might between us, and the Waning Night will overshadow them and they will reck not whither my strength and my footsteps have fled! I will dash the old ship, the Constitution, into a thousand fragments, not a <choice>
+                     <sic>vestage</sic>
+                     <corr>vestige</corr>
+                  </choice> of the wreck shall remain to speak of the pride of former days or the love of a bygone ancestry.</p> 
+               <p>"I will trample the laws of matrimony beneath my feet, and my idolized son, Solon, shall break the fetters of wedlock which bind him to the loathsome weakness<pb n=""/> of woman-her wanton and ill-graced affections. I will teach him that her tears are as the dews, soft and glittering, yet absorbed by every ray of brighter orb, or moistened by every breath of whispered love. I will teach him the falsity of woman's heart, and the deep cunning and artifice of her nature, when the moth of distrust begins to corrode her love and the hope of re-union but faintly gleams above the darkness of despair.</p> 
+               <p>"Yea, I will tower in my strength, and my future life shall be one of mystery and power. The softening beams of the glorious Moon will smile in approval upon me, and I shall be invigorated with a sense of new and lasting joy. The fire of the Flaming Sword will consume mine enemies, and I shall triumph in the glory of sovereign power and extended dominion. I will plant the tree of Anarchy in their midst, and they who have hungered for the bread of freedom shall partake of the fruit in all its bitterness. I will bow their heads beneath the yoke of tyranny, and oppression shall set her seal on every brow.</p> 
+               <p>"I will go now to my son, Solon, and advise him of my determination to rebel against all law and reject all principles proposed by the leaders of black republicanism and dough-faced democracy. His heart is with me, and should Providence permit me to annul the marriage covenant between the cold and haughty Nora and himself, I shall have accomplished the one most essential act, which will entitle me to the highest position the Nation can confer."</p> 
+               <p>Thus reasoned he who had so recently clothed himself<pb n="22-23" xml:id="VAC5704-00000012"/> in the magnificence of stern and relentless power-of sullen and atrocious authority.</p> 
+               <p>But knowest thou, O man, that the Most High worketh in His own sublime and mysterious way. He hath not made the sun to shine that thou shouldst cover it with blots so that it send forth pestilence and darkness rather than light and glory. Nor hath he wisely framed the grand solar system, wherein the heavenly bodies move in most perfect harmony, that a Lucifer may, with daring hand, strike out planet after planet, regardless of consequences of collision of forces, and the crashing of worlds whose relative motions and annual revolutions depend one upon another for strength, order and grandeur. No! The Great Ruler of the Universe will not suffer the work of a century to be destroyed by a single breath, until that great day when he shall destroy the wicked by the breath of his mouth and the brightness of his coming.</p> 
+               <p>Our temple of Freedom was reared upon a basis as pure as the throne of Heaven, as firm as the adamantine rocks. But woe to the structure built with human hands, although in form divine, when the storms of ages have passed over it, and the earthquakes of dissolution have rent its huge walls-when the thunders of public opinion and the tornadoes of disunion have darkened its windows, and the secret and smouldering fires of partizan spirit are creeping through every crevice, undermining the whole superstructure. Think you, then, that it will remain unshaken? Nay! it is more than we could expect of the "house made without hands, eternal in the heavens," were not our Father who is in<pb n=""/> heaven the Architect, Christ Jesus the Builder, and Eternity its foundation.</p> 
+               <p>Our temple of Freedom may be shaken to the centre by the blasts of war; yet so long as the spirit of patriotism looms up in its midst, and the patriotic are ready to defend it with their lives, it cannot fall. It will stand ages upon ages, an indissoluble monument of the glorious past; for its foundation is truth, liberty and love.</p> 
+               <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+               <p>"Yes, yes, you speak truly, my father," said Solon, "when you say that Nora and Solon are no longer one-true indeed; our very souls are uncongenial; our principles are at war with each other. There is no longer unity of purpose, or union of sentiment in our hearts. Her heart has been chilled towards me, and her sympathies twine not for me the wreath of happiness which decked my brow in former years. The fire of abolition has dried up the fountain of her affections, and she is a vain worshiper at the hollow shrine of so called freedom; and yet her soul is full of love-devotion-such as would make the angels blessed. But she loves not me. Once that love was all mine own; now, alas, it has flown forever. O God! must this be so? O bitter cup! must I indeed drink the dregs of eternal regret? Is there no balm for woes like mine? My very existence will be but a blank without the light of Nora's eye, and the sweet melody of her voice."</p> 
+               <p>"My son," said his father, "there is no cause for this regret. The separation once brought about, and<pb n="24-25" xml:id="VAC5704-00000013"/>  you will be happier in some new alliance, or, at least, you will be free from the unhallowed and intolerable influences of black republicanism which have so long cursed your union, and rendered your life most miserable. Once free, Solon, and you are the light of the world; stand firm, and you will be acknowledged as such. You fear the disgrace consequent from such a separation, yet Nora, weak woman, will feel it more than yourself."</p> 
+               <p>"Disgrace," said Solon, "will not be the only calamity which will follow our separation. Should Nora's father sternly refuse to acknowledge it, or to compromise the matter, the most terrible consequences may ensue-those of civil war and the shedding of kindred blood. Such a fatality may result in the overthrow of our peculiar institution, and destroy the prosperity and happiness of our children.</p> 
+               <p>"O, Father in Heaven! it is a cruel doom-a hard fate that has brought upon the separation of two souls such dire distress, such unmitigated woe. My brain <choice>
+                     <sic>reals</sic>
+                     <corr>reels</corr>
+                  </choice> at the thought. I cannot, I dare not, contemplate the dark and unpropitious future, lest madness seize my brain.</p> 
+               <p>"Let us depart from these scenes of horror. We will go to the oblivion of forgetfulness, and drink to the stars of our serpent flag. One glowing cup of the sparkling wine-one glance from the eye of that old monster, the serpent, will diffuse throughout my veins the hot blood of revenge, and I shall arise before Nora's father, causing his tongue to quiver, and his lips to be dumb, when he shall stand in the presence of the<pb n=""/> nation, and declare his determination to abolish slavery, and destroy its principles. Already do I feel the venom of the hydra-headed monster, suspicion, coursing through every pore, and revenge most terrible will fall upon the instigators of the extinction of slavery.</p> 
+               <p>"Farewell, father; we shall meet to-morrow somewhere on earth, to take measures against that old arch-fiend who would destroy us, and blot our names from the nation's glory. Woe, woe, to him! I will be a viper in his path!"</p> 
+            </div> 
+            <div type="chapter"> 
+               <pb n="26-27" xml:id="VAC5704-00000014"/> 
+               <head>CHAPTER THIRD.</head> 
+               <div type="poem"> 
+                  <head>THE PROPHESY.</head> 
+                  <lg type="para"> 
+                     <l part="F">Gleaming in yonder clouds</l> 
+                     <l>The sword of might suspended hangs: Anon,</l> 
+                     <l>It sweeps the skies, red with the livid gore</l> 
+                     <l>Of traitor hearts; and on the hilt do I</l> 
+                     <l>Behold, emblazoned there, these fearful words:</l> 
+                     <l part="I">The <choice>
+                           <sic>Conquorer</sic>
+                           <corr>Conqueror</corr>
+                        </choice>! the <choice>
+                           <sic>Conquorer</sic>
+                           <corr>Conqueror</corr>
+                        </choice>!</l> 
+                  </lg> 
+                  <lg type="para"> 
+                     <l part="F">Strange fate</l> 
+                     <l>Seems pending o'er the ghastly multitude,</l> 
+                     <l>Who onward press for strife; and deep and dark</l> 
+                     <l part="I">The consternation on each brow!</l> 
+                  </lg> 
+                  <lg type="para"> 
+                     <l part="F">Spirits are in the winds,</l> 
+                     <l>And voices of the gods are heard afar-</l> 
+                     <l>Hush'd are the stars, from their bright golden eyes</l> 
+                     <l>No light is shed. And yon fair moon hath hid</l> 
+                     <l>Her glit'ring rays beneath the sable wing</l> 
+                     <l>Of deathless gloom! Wide spreads the pall of dread</l> 
+                     <l>Despair, and the arched vault of hope lies hid</l> 
+                     <l part="I">Beyond.</l> 
+                  </lg> 
+                  <lg type="para"> 
+                     <l part="F">Myriads of living life must swarm</l> 
+                     <l>The gory sea of kindred blood, and waste</l> 
+                     <l part="I">Upon the tide of burning woe!</l> 
+                  </lg> 
+                  <lg type="para"> 
+                     <l part="F">Stern breasts</l> 
+                     <l>Are sealed with agony of coming years!</l> 
+                     <l>And fearful souls dissolve in sightless shapes</l> 
+                     <l>That haunt the ocean caves and terrify</l> 
+                     <l part="I">The fairy's sport.</l> 
+                  </lg> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <lg type="para"> 
+                     <l part="F">Thunderings and lightnings fill the earth,</l> 
+                     <l>And warriors quail before the awful power</l> 
+                     <pb n=""/> 
+                     <l>That shapes their certain doom! yet mock they in</l> 
+                     <l>Their wretched hope forlorn!</l> 
+                  </lg> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <lg type="para"> 
+                     <l rend="ti-1">Anon, a voice is heard above</l> 
+                     <l>The torrent's din-"Sweep on! sweep on! Truth shall</l> 
+                     <l part="I">Prevail!"</l> 
+                  </lg> 
+                  <lg type="para"> 
+                     <l>O! Nation-outcast!-full of woes, and crimes,</l> 
+                     <l>And wickedness! Thy days of grief and death</l> 
+                     <l>Are numbered of the Lord. Arise! shake off</l> 
+                     <l>Thy sins, and welcome thy release from dark</l> 
+                     <l>Oblivion's jaws! Shine forth in all the</l> 
+                     <l>Majesty of holy truth. Let righteous law</l> 
+                     <l>Cement the bond of future love.</l> 
+                  </lg> 
+               </div> 
+               <div type="section"> 
+                  <p>'Twas night. Half the world was hushed in dreams and visions of that one "to-morrow" on whose breath, fragrant with the sweet perfumes of love, or poisoned with the effluvia of a deadly upas, would be wafted healing balms to the wounds of the nation, or swift <choice>
+                        <sic>missels</sic>
+                        <corr>missiles</corr>
+                     </choice> of death to the Eagle of Liberty and light.</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+                  <p>'Twas midnight hour-that hour when the melting tones of love are hushed in the deep silent chambers of the soul to breathe, through holy inspiration, the pure angelic melody of hearts, whose music knows no utterance save in the heavenly harmony of poetic numbers, and whose outpourings of joy or woe are borne aloft to spirits blessed. It was at such an hour, when the ever varying beauties of the night throw a mantle of brilliant glory, or a sable fold of darkness, o'er the human mind, that the gay metropolis, awakened unto new life, with living souls who swarmed the capitol, all eager and anxious for the dawn of "to-morrow," yet many were waiting with an indistinct dread akin to foreshadowing of coming woe. But the<pb n="28-29" xml:id="VAC5704-00000015"/>  morning dawned gloriously, and the bright star of hope shone brilliantly above the dark cloud of woe which hovered hiddenly in the distant horizon.</p> 
+                  <p>The hour drew near when he-the father of his country-must stand before the people, and in tones profound utter those sentiments and disclose those principles which would move the great heart of the nation to return to its first love, and make glad the whole earth by the sunshine of beneficence and the blessedness of peace, or cause the nation to weep and bewail the darkness of bloodshed and the agonies of dissolution.</p> 
+                  <p>At length the hour arrived. Nora and Solon met face to face in the presence of him who was to seal their destiny for weal or woe. Each wore a look of resignation, yet both were silent. But when the honest old patriot arose and began to read to his wondering and attentive listeners these words of his inaugural address: "Fellow citizens of the United States," etc., the glance of Nora's eye brightened, and her whole countenance, irradiated with a deep glow of filial love, wore a reverential aspect, such as angels holy might assume in the presence of the Great Divine.</p> 
+                  <p>Now as the good man proceeded with the words, "Intelligence, patriotism, christianity, and a firm reliance on Him who has never yet forsaken this favored land, are still competent to adjust, in the best way, all our present difficulties.</p> 
+                  <p>"In your hands, my dissatisfied fellow countrymen, and not in mine, is the momentous issue of civil war. The government will not assail you. You can have<pb n=""/> no conflict without being yourselves the aggressors. You have no oath registered in heaven to destroy the government, while I have the most solemn one to preserve, protect and defend it." Then came the words, "We are not enemies, but friends. We must not be enemies;" and the great, generous and honest heart of the speaker seemed to go out towards Solon with a look of human love which would have melted a human heart into humble contrition. But Solon's brow contracted, his countenance grew dark and menacing, and in every lineament of his feature was depicted the spirit of firm resistance and awful defiance. And yet a tear of long <choice>
+                        <sic>burried</sic>
+                        <corr>buried</corr>
+                     </choice> patriotism trembled in his eye, when poured forth from the speaker the patriotic eloquence of a Washington in these noble and heaven-born sentiments: "Though passion may have strained, it must not break our bonds of affection. The mystic cords of memory, stretching from every battle field and patriot grave to every living heart and hearthstone, all over this broad land, will yet swell the cords of the Union when again touched, as surely they will be, by the better angels of our nature."</p> 
+                  <p>The oath of office was then administered in great solemnity, and the dense multitude departed.</p> 
+                  <p>"Surely," whispered Nora, "the dark storm so long gathering in Solon's bosom is now being dispelled by the 'better angels of his nature.'" Alas! dear Nora, appearances deceive thee.</p> 
+                  <p>They met-Nora and Solon-met, not as lovers do, when the storm has spent its force and the starlight of reunion illumes their weary path. They met to<pb n="30-31" xml:id="VAC5704-00000016"/>  talk of separation, "secession," and "final dissolution." They met to annul their former vows, and banish, if possible, every emotion of sympathy from their hearts. They met to part; to meet no more as friends, such as of yore, this side of heaven. Let the waves of oblivion and the dark billows of eternity roll over the scenes of horror, heart rending remorse and conflicting emotions which attend the breaking up of the home circle, the happy fireside and domestic felicity. The picture is too dark for contemplation.</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+                  <p>Hark! 'tis the clarion's voice! It calls, "To arms! to arms! ye brave!" The blood of brothers cries out against us. Listen, O Heaven! give ear, O earth! They who "have lived and loved together" are now at war with each other. Verily, they shall drink the vials of their own wrath, and quaff the cup of bitterness to its dregs.</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+                  <p>Behold the beautiful Nora, arrayed in all the strength of her loveliness, and in all the majesty of her power, leading the hosts to battle against her "lord and master."</p> 
+                  <p>O weak and unyielding woman! fearest thou not the oppression which must fall to the lot of the defeated? "MY CAUSE IS JUST!" she cries, and the vales, and the hills, and the rivers and fountains, reecho her words, and resound them back to the skies again.</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+                  <p>On! on! they cry, "Who rush to glory or the grave." Traitors! stand aloof! Thy destiny is sealed. Thou shalt conquer, but not, O dread ones, forever!</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+                  <pb n=""/> 
+                  <p>The conflict is wild and terrific. The heavens frown darkly. The voice of old Jove rends the mountain tops, and the awful thunders of the tornado, "Disunion," are heard on every side. The god of battle rides furiously upon the wings of storm, and directs the whirlwind in its course. The swift missiles of destruction hover over the land, and the <choice>
+                        <sic>firy</sic>
+                        <corr>fiery</corr>
+                     </choice> darts of death have pierced the heart of humanity; the blood of her brothers cries aloud for vengeance, while the agonies of remorse are furrowing her silent brow.</p> 
+                  <p>Behold! thou art fallen, O beautiful one! yet only for a little season. The livid tide of kindred blood shall wash thy sins away, and the tear of repentance shall cleanse and purify thy heart, for thou art in the cause of the "right."</p> 
+                  <p>Thou camest forth to battle with the fell tyrant "Wrong," without a prayer for the "oppressed" upon thy lips, or one token of penitence within thine eye. The sweet talesman, faith, was wrested from thee; hope fled, and thou wert deserted. Thou camest forth in thine own strength to contend with the overpowering force of "might," and lo, thou art defeated!</p> 
+                  <p>Proud Manassa shall tell, in after ages, of the deep woes inflicted upon thee for thy hot-headed rush, "<emph>on to victory!</emph>" yet fear not. Arise! shake off the reproach. Awaken to new and vigorous life. He who noteth the fall of the sparrow will listen to thy cries, and thou shalt ride on, the <choice>
+                        <sic>conquorer</sic>
+                        <corr>conqueror</corr>
+                     </choice> and to <choice>
+                        <sic>conquor</sic>
+                        <corr>conquer</corr>
+                     </choice>.</p> 
+                  <p>"The race is not to the swift, nor the battle to the strong."</p> 
+                  <pb n="32-33" xml:id="VAC5704-00000017"/> 
+                  <p>"There shall not any man be able to stand before thee all the days of thy life: as I was with Moses, so I will be with thee. I will not fail thee, nor forsake thee."</p> 
+                  <p>"Have I not commanded thee? Be strong and of good courage; be not afraid, neither be thou dismayed, for the Lord thy God is with thee whithersoever thou goest." Josh. I. 5, 9.</p> 
+               </div> 
+            </div> 
+            <div type="chapter"> 
+               <pb n=""/> 
+               <head>CHAPTER FOURTH.</head> 
+               <epigraph> 
+                  <q>
+                     <lg type="stanza"> 
+                        <l>The deep waters roll in tumult o'er my soul,</l> 
+                        <l>And the waves of memory dash o'er my barque;</l> 
+                        <l rend="ti-4">But hark!</l> 
+                        <l rend="ti-1">An echo rings wildly forth</l> 
+                        <l rend="ti-1">From the South, from the North;</l> 
+                        <l rend="ti-2">The war-cry, slavery!</l> 
+                        <l rend="ti-2">Slavery! slavery!</l> 
+                        <l rend="ti-3">Peals on the air,</l> 
+                        <l rend="ti-3">Men boldly dare</l> 
+                        <l>To breathe it to Heaven in solemn prayer.</l> 
+                     </lg>
+                     <lg type="stanza"> 
+                        <l>Pray on, never cease; may your faith e'er increase</l> 
+                        <l>Till the dawning light infuse every heart.</l> 
+                        <l rend="ti-4">Ye start!</l> 
+                        <l rend="ti-1">The battle thunder is near.</l> 
+                        <l rend="ti-1">Never fear, never fear.</l> 
+                        <l rend="ti-2">The Lord is merciful,</l> 
+                        <l rend="ti-2">Merciful, merciful.</l> 
+                        <l rend="ti-3">His cause is just;</l> 
+                        <l rend="ti-3">In him we'll trust.</l> 
+                        <l>While philanthropy guides us, <choice>
+                              <sic>conquor</sic>
+                              <corr>conquer</corr>
+                           </choice> we must.</l> 
+                     </lg>
+                     <lg type="stanza"> 
+                        <l>For freedom we'll fight, in the <choice>
+                              <sic>stringth</sic>
+                              <corr>strength</corr>
+                           </choice> of our might,</l> 
+                        <l>Till we sunder the bondage of men in their gloom.</l> 
+                        <l rend="ti-4">Boom! boom!</l> 
+                        <l rend="ti-1">The battle goes briskly on.</l> 
+                        <l rend="ti-1">Foes have come. Lo! they're gone!</l> 
+                        <l rend="ti-2">Huzzahs of victory!</l> 
+                        <l rend="ti-2">Victory! victory!</l> 
+                        <l rend="ti-3">Sound them on high,</l> 
+                        <l rend="ti-3">Ye hosts of the sky.</l> 
+                        <l>All hearts are resolving for Freedom to die.</l> 
+                     </lg>
+                  </q> 
+               </epigraph> 
+               <p>"I know thy kind heart, my father," said Nora, "I<pb n="34-35" xml:id="VAC5704-00000018"/> would see it open to the world, that they may read its true worth, its high and noble sentiments, its just and elevating principles. But, alas! the selfishness of poor human nature has blinded their sight, and they can only see thee through the microscope of self-righteousness, therefore art thou ever misunderstood and misrepresented. Could all the world know and love thee as I do, dear father, I am sure thy gentle voice would never have been heard in the call "to arms," for thine enemies would have been conquered by the love of principle and the force of example. But thus it is: 'man proposes and God disposes.'</p> 
+               <p>"In all ages of the world, whenever a government has become greatly corrupted, or darkly despotic, the All-Wise has raised up a ruler to revolutionize-to cleanse and purge the nation of her sin, and blot out the stain of her iniquity, and to tear down the bulwarks of despotism. And though kingdoms may crumble, and nations may fall, He will bind up the broken fragments, and cement the glorious bond of brotherhood more firmly together. That thou art the faithful pilot at the helm, and that the old ship, the Constitution, will be steered safely through the storm of war, unwrecked, is the ever constant and fervent prayer of thy Nora's heart.</p> 
+               <p>"Though thy movements may seem, to many an impetuous spirit, too weak and dilatory to accomplish the wishes of the nation, yet I doubt not that to thee belongs greater wisdom and prudence than to those who are hasty and less considerate of the terrible consequences, and the devastating influences of civil war.</p> 
+               <pb n=""/> 
+               <p>"The fire of patriotism burns, almost consumingly, within the breast of the nation; nor can it be quenched until we behold this glorious land free from <choice>
+                     <sic>tyrany</sic>
+                     <corr>tyranny</corr>
+                  </choice> and oppression. The lurid light of war may flicker and tremble, but it will not cease to burn until each traitor is stricken from the grand galaxy of national honor, and purer, truer, and brighter luminaries shall occupy their places.</p> 
+               <p>"Since the foundation of the world the grand luminary of light has not shone upon a more magnificent spectacle of patriotic devotion than the present age presents. The unity of men and minds, the general outpouring of the 'almighty dollar,' the universal spirit of self-sacrifice in woman, all these predict a future grand and glorious triumph of principle over error; the everlasting victory of freedom over <choice>
+                     <sic>tyrany</sic>
+                     <corr>tyranny</corr>
+                  </choice> and oppression!</p> 
+               <p>"Let the rebels come! Let them vainly hope to subdue us and blot out the constitution, yet death and disgrace is their certain doom! Let the traitors come and enkindle in our midst the furious fires of secession; yea, in the humble cottage, as in the 'Fifth Avenue palace,' and though it may cause torrents of blood to flow from the noblest and best hearts of our land to quench them, forbid, Almighty God, that they should flow forever!"</p> 
+               <p>"Indeed, my daughter," said the honest old patriot, "thy soul is filled with the purest and loftiest patriotism, such as would awaken the ocean from its slumbering deep, or cause the rocks and the mountains to cry out, 'give me liberty or give me death!'</p> 
+               <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               <pb n="36-37" xml:id="VAC5704-00000019"/> 
+               <p>Deep night hovers over the earth, with folded wings and solemn brow. No voice is in her footsteps, no music is in her soul; but the wails of the pierced and dying are borne silently upon her breath, and a look of woe is in her eye. The cloud-capped hills bow in majestic awe within her presence, and the silvery stars hush their whispers in the sky.</p> 
+               <p>Dark and portentous thou art, O beautiful one, whose habitation is unbounded space; whose existence is an unending eternity. I love thee, dark, deep night, as the soul loveth inward joy or "sober melancholy." But thou art more lovely yet, since the glorious Comet hath flown across thy purple drapery, and hidden beneath thy crimson folds. Or else to what new sphere is he wending his way, since he hath crossed the trackless path of livid gore, a light to the weary footsteps and a sunbeam of hope to the despairing heart?</p> 
+               <p>O thou Immutable One! who hast suffered so bright a luminary to be dispelled; so fair a central light to cease its burning. Couldst thou not have prolonged the visitation of the heavenly stranger until men's hearts were filled with the pure benevolence of purpose, the magnanimity of being, the philanthropy of soul, which radiated from this the chosen light which thou didst send to illuminate the hearts of thy people, and invigorate them with new life? The dense darkness following its sudden disappearance was almost overwhelming.</p> 
+               <p>The leaves of the forest sigh, the moss-covered rocks answer in mute eloquence, the hills and the mountains echo from side to side, "Father, thy will be<pb n=""/> done and not ours." 'Tis borne upon the viewless air, and re-echoes from the walls of the capitol-"the Comet has disappeared!"-<choice>
+                     <sic>reverbrating</sic>
+                     <corr>reverberating</corr>
+                  </choice>, "Father, thou art the ruler of thine own household. Verily thou doest all things well."</p> 
+               <p>The Comet has disappeared, but its light shall go not out no more forever. It is a thing immortal; a gleam of paradise.</p> 
+               <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               <p>"Our land will be darkened," sighed Nora, "by the disappearance from the nation's sky of so many 'bright particular stars.' Our people may lose courage, faith, and hope, for victory. Indeed, it seems to me, that misfortunes attend us not singly, but the thread of sorrow is strong and lasting. O that we may never regret that we have folded to our bosoms the weapons of death-the arms with which to kill our brothers. It is an inglorious fate-a shocking calamity-which has forced me to take up arms against my once idolized companion."</p> 
+               <p>"It is truly," said Nora's father, "a work of loathsome sorrow, of deepest regret; but our cause is just, and we must not flinch from duty, be its mandates ever so stern and severe. Then let our policy, our principles, or our politics, be what they may, yet upon the momentous issue of the present war, and the proper adjustment of our difficulties, may we ever be firmly united. We MUST stand by freedom's side, believing that with her cool and calculating courage, she will yet work out a sure and certain victory."</p> 
+               <p>"The traitors will be punished as they richly deserve<pb n="38-39" xml:id="VAC5704-00000020"/> serve," murmured Nora, somewhat sadly, "and we know not how many of our nearest and dearest friends may yet become traitors and violate all moral law and human obligations to both God and man. Think of it, my father: mine own bosom friend is false! is a traitor of darkest dye! Who can we trust? Shall we search the household but to find those soulless inhumanities clothed in the garb of friendship, bearing, concealed, the death-darts, ready at any moment to inflict the fatal wound, without one token of warning, or one moan of regret over such base ingratitude? Yes, we must expect to find enemies, even at home, so long as there is envy, hatred, malice and revenge, in the human breast-so long as the national fire is unquenched. It is not a recent thing that we find traitors among us. In 1852, among the last words Webster spoke, in public, he says: 'If classical history has been found to be, is now, and shall continue to be, the concomitant of free institutions, and of popular eloquence, what a field is opening to us for another Herodotus, and another Thucydides, (only may his throne not be a Peloponnesian war,) and another Livy. And, let me say, gentlemen, that if we, and our posterity, shall be true to the Christian religion-if we and they shall live always in the fear of God, and shall respect his commandments-if we and they shall maintain just moral sentiments, and such moral convictions of duty as shall control the heart and life-we may have the highest hopes of the future fortunes of our country. And, if we maintain those institutions of government and that political Union-exceeding all praise as it<pb n=""/> exceeds all former examples of political associations-we may be sure of one thing, that while our country furnishes material for a thousand masters of the historic art, it will afford no topic for a Gibbon. It will have no Decline and Fall. It will go on prospering and to prosper. But, if we and our posterity reject religious institutions and authority, violate the rules of eternal justice, trifle with the injunctions of morality, and recklessly destroy the political constitution which holds us together, no man can tell how suddenly a catastrophe may overwhelm us that shall bury all our glory in profound obscurity. If that catastrophe shall happen, let it have no history. Let the horrible <choice>
+                     <sic>narative</sic>
+                     <corr>narrative</corr>
+                  </choice> never be written; let its fate be like the lost book of Livy, which no human eye ever read; or the missing Pleiad, of which no man can ever know more that that it is lost, and lost forever.</p> 
+               <p>"'But, gentlemen, I will not take my leave of you in a tone of despondency. We may trust that Heaven will not forsake us so long as we do not forsake ourselves. Are we of this generation so <choice>
+                     <sic>derelect</sic>
+                     <corr>derelict</corr>
+                  </choice>-have we so little of the blood of the revolutionary fathers coursing through our <choice>
+                     <sic>viens</sic>
+                     <corr>veins</corr>
+                  </choice>-that we cannot preserve what our ancestors achieved? The world will cry shame on us, if we show ourselves unworthy to be the descendants of those great and illustrious men who fought for their liberty, and secured it to their posterity by the Constitution.</p> 
+               <p>"'The Constitution has enemies, secret and professed, but they cannot deny the fact that it secures us many benefits. These enemies, are unlike in character<pb n="40-41" xml:id="VAC5704-00000021"/> acter, but they all have some fault to find. Some of them are enthusiasts, hot-headed, self-sufficient, and head-strong. They fancy they can mark out for themselves a better path than that laid down for them. Phaeton, the son of Apollo, thought he could find a better course across the heavens for the sun.</p> 
+               <q>
+                  <lg type="quotation"> 
+                     <l>"Thus Phton once, amid the etherial plains</l> 
+                     <l>Leaped on his father's car, and seized the reins.</l> 
+                     <l>Far from his course impelled the morning sun,</l> 
+                     <l>Till nature's laws to wild disorder run."</l> 
+                  </lg>
+               </q> 
+               <p>"'Other enemies there are, more cool, and with more calculation. These have a deeper and more traitorous purpose. The have spoken of forcible resistance to the provisions of the constitution; they now speak of secession! Let me say, gentlemen, secession from us is accession elsewhere. He who renounces the protection of the stars and stripes, shelters himself under the shadow of another flag, you may rest assured of that. Now, to counteract the effect of malcontents, the friends of the constitution must rally. All its friends, of whatever section, whatever their sectional opinions may be, must unite for its preservation. To that standard we must adhere, and uphold it through all evil report and good report. We will sustain it, and meet death itself, if it come; we will ever encounter and defeat error, by day and by night, in light or in darkness-thick darkness-if it come, till <q>
+                     <lg type="quotation"> 
+                        <l>"Danger's troubled night is o'er,</l> 
+                        <l>And the star of peace return."</l> 
+                     </lg>
+                  </q>
+               </p> 
+               <pb n=""/> 
+               <p>"The conflict goes on," continued Nora, while a shudder of fear, such as she had not known before, ran through her veins, and seemed almost to chill her heart. "The conflict deepens," she repeated, "and Heaven only knows where it will end: whether in the entire overthrow of our government, or in the peace and re-union of the nation. The latter we hope and pray for. And yet, I fear, our hopes are vain. The prayers of this unrighteous nation will not be heard until she is purged of her iniquity. We may not hope for victory until with one heart we implore the Almighty for wisdom, counsel and aid, in all our struggles against the foes of freedom.</p> 
+               <p>"It is no light matter to see the dark frowns of the Moon turned upon us, instead of her wonted cheering smiles. It would be a fearful and doubtful contest with us, should she continue frowning and disapproving until the Flaming Sword shall interfere and put to flight all our former smiles of friendship, and sever that sweet union of heart, and fidelity towards each other, which has long characterized our social conditions."</p> 
+               <p>"May God in mercy avert such a catastrophe, my daughter," spake the "honest heart," "True, the Moon may not smile as propitiously as in former years. Though she has shown us momentarily her dark side, to try our faith in her sincerity, yet rest assured, dear Nora, her interests in us are too deep to be torn asunder by a single frown; and her welfare is too closely allied to our own to be violated without greater cause than that she disapproves some of the lighter measures<pb n="42-43" xml:id="VAC5704-00000022"/> sures we adopt in our proceedings against this accursed rebellion.</p> 
+               <p>"But we will hope for the best in all things. Our cause is just, and the Lord of Hosts is on our side. Though all the world should frown upon us, so long as our standard is truth, error cannot prevail against us, but will be, eventually, utterly overthrown, and her monuments of sin will perish forever. While the people are actuated by that impulse and fired by that patriotism which is causing the great uprising of the nation-that union of sentiment which has not since the grand erection of the universe, had its parallel-they will give both heart and hand to their country's cause; to her are they wed; for her will they labor faithfully, earnestly, yea, holily, until the last serpent flag is hurled into the gulf of darkness, and the maelstrom of oblivion shall carry it into the depths of an unknown hades, <q>
+                     <lg type="quotation"> 
+                        <l>'And the star-spangled banner in triumph shall wave</l> 
+                        <l>O'er the land of the free and the home of the brave.'"</l> 
+                     </lg>
+                  </q>
+               </p> 
+               <p>"And long may it wave," responded Nora, "and may it arouse both men and women to action. May we feel that there is now no time to reflect upon the past or to regret its measures; to dream over the follies of the nation, and weep that the past unwise administration has given our enemies greater power over us, and emboldened their traitor hearts with the vain hope of victory. Father, thy people will work, impelled by the thought that it is the duty of every lover of freedom to do, with all his or her might, whatever their hands may find to do, as though the salvation<pb n=""/> tion of the soul depended upon each and every effort put forth to save our glorious Union, and preserve unbroken the golden chain of human love which has long bound us together by ties indissoluble.</p> 
+               <p>"Woman, too, the 'weaker vessel,' is taking her part in the struggle. Ever faithful in her good works; self-sacrificing noble woman is denying herself of comforts to add to those of the soldier. She is often seen, like a ministering angel, watching beside the sick and afflicted, or the wounded soldier, who, instead of the downy bed, finds naught but the billowy turf upon which to languish out the last dying moan. No dear sister's gentle hand may be there to bathe the fevered brow, or bind up the fatal wounds; no kind mother's voice can reach him, soothing the wild distress and assuaging the pangs of death. No tender and loving wife, whose deep devotion says, 'I cannot give thee up,' may be there to infuse the soldier's heart with new life, while her prayer by his side, ascending to the Eternal, imploring the great Ruler of the universe to spare the beloved, if not for her sake, yet for her country's good, to enkindle the vital fires and bid him live for God and humanity. But the stranger, though she cannot fill the place of the dear devoted wife, yet she may earnestly and faithfully fulfill the mission of a mother or sister, and win for herself a treasure which gold cannot purchase nor time destroy: the imperishable gratitude of the honest soldier's heart, and the eternal blessing of God.</p> 
+               <p>"In this great struggle <choice>
+                     <sic>betewen</sic>
+                     <corr>between</corr>
+                  </choice> freedom and despotism, the influence of woman must be as deeply felt<pb n="44-45" xml:id="VAC5704-00000023"/> as in any former period of the world. She may touch the springs of the nation's power, and call in the most decisive events. As in France, the wonder-working Madame Roland laid her hands upon the secret springs of the nation's destiny, and the voice of the Revolution was heard throughout the land, enkindling its vital fires and stirring the souls of men to action. Yet she who could so move the great heart of Freedom, and win for herself honors imperishable, was content, in humility, to entwine around her husband's brow her laurels of fame. And this act of humility and devotion was more valuable to her happiness than the most glorious coronet that ever decked the brow of female sovereign."</p> 
+               <p>"America is dear as life to every loyal heart," said the patriot, "but this noble Union, for which our forefathers have bled and died, is dearer. O that it might have been preserved, unblemished, for it belongs to the brave and free who are willing to endure pestilence, peril life and brave death to save it from the tyrant's rule. It is a land so blessed-the land of liberty- and 'Hallowed is this Union.' Thus sings the poet of this our favored land:</p> 
+               <q>
+                  <lg type="stanza"> 
+                     <l>'Men, who hear Niag'ra's sound,</l> 
+                     <l>Men who tread the far Gulf's bound,</l> 
+                     <l>Ours is <choice>
+                           <sic>Fredom's</sic>
+                           <corr>Freedom's</corr>
+                        </choice> hallowed ground;</l> 
+                     <l rend="ti-2">Freedom's heirs are we.</l> 
+                     <l>From the white hills of the North</l> 
+                     <l>To the Colorado forth,</l> 
+                     <l>One the mighty Nation's birth,</l> 
+                     <l rend="ti-2">One its destiny.</l> 
+                     <l rend="ti-3">Hark the watchword as we rally,</l> 
+                     <l rend="ti-3">Over mountain, plain and valley,</l> 
+                     <l rend="ti-4">
+                        <emph>God and Liberty!</emph>
+                     </l> 
+                  </lg>
+                  <pb n=""/>
+                  <lg type="stanza"> 
+                     <l>Who hath sky of brighter gleams?</l> 
+                     <l>Broader lakes or braver streams?</l> 
+                     <l>Eden-like our wide land teems</l> 
+                     <l rend="ti-2">With fertility.</l> 
+                     <l>Strong are we, with strength untold;</l> 
+                     <l>Span of iron, ribs of gold;</l> 
+                     <l>Firm in earth's foundations old,</l> 
+                     <l rend="ti-2">Our security.</l> 
+                     <l rend="ti-3">Hark the watchword, &amp;c.</l> 
+                  </lg>
+                  <lg type="stanza"> 
+                     <l>Now the Eagle, sweeping o'er</l> 
+                     <l>Our vast empire's wave-girt shore,</l> 
+                     <l>Sees one margin-hears the roar</l> 
+                     <l rend="ti-2">Of one winding sea.</l> 
+                     <l>Ours the realm of rock and river,</l> 
+                     <l>Binding all with naught to sever;</l> 
+                     <l>God has made us <emph>one forever</emph>
+                     </l> 
+                     <l rend="ti-2">By a wise decree.</l> 
+                     <l rend="ti-3">Hark the watchword, &amp;c.</l> 
+                  </lg>
+                  <lg type="stanza"> 
+                     <l>By rich blood our fathers shed;</l> 
+                     <l>By the wisdom of our dead,</l> 
+                     <l>Pointing paths for us to tread,</l> 
+                     <l rend="ti-2">In fraternity;</l> 
+                     <l>By past deeds of glory done;</l> 
+                     <l>By our name of Washington,</l> 
+                     <l>
+                        <emph>Hallowed is our Union,</emph>
+                     </l> 
+                     <l rend="ti-2">
+                        <emph>Deathless it must be!</emph>
+                     </l> 
+                     <l rend="ti-3">Hark the watchword, &amp;c.'"</l> 
+                  </lg>
+               </q> 
+            </div> 
+            <div type="chapter"> 
+               <pb n="46-47" xml:id="VAC5704-00000024"/> 
+               <pb n=""/> 
+               <head>CHAPTER FIFTH.</head> 
+               <epigraph> 
+                  <cit> 
+                     <q>
+                        <lg type="QUOTATION"> 
+                           <l>Oh, South! thy flourishing cities were a spoil</l> 
+                           <l>Unto each other; thy hard hand oppressed</l> 
+                           <l>And crushed the helpless; thou didst make the soil</l> 
+                           <l>Drunk with the blood of those that loved thee best,</l> 
+                           <l>And thou didst drive from thy unnatural heart</l> 
+                           <l>Thy just and brave, to die in other climes.</l> 
+                           <l>Earth shuddered at thy deeds, and sighed for rest</l> 
+                           <l>From thine abominations. After times,</l> 
+                           <l>That yet shall read thy tale, will tremble at thy crimes.</l> 
+                        </lg>
+                     </q> 
+                     <bibl>Bryant.</bibl> 
+                  </cit> 
+               </epigraph> 
+               <div type="section"> 
+                  <p>Rolling thunders burst in fury over the mountains' brow, and lurid lightnings sped, their maddening fires following everywhere the wild torch of treason, making it seem more vividly glaring and more defyingly horrible. Yet, anon, the deep-toned thunders mutter a reproof, which startles the sons of men, causing them to ask in wonder and astonishment, "Is this the winding up of all things earthly? is this the last day of probation to mortals given?" No answer comes from the conflicting elements; but the deep blue skies frown darkly, terrible upon them. No answer to such questionings; but the red-winged lightning breathes in words that burn: "'Tis the last of the traitors!" All nature portending the same terrible doom: -the earth shall know them no more forever!"</p> 
+                  <p>Old ocean wails and trembles, and dashes her whitened<pb n="48-49" xml:id="VAC5704-00000025"/> ened billows against the rock-bound shore. A mystic sound, as of anguish, arose from her foaming breast; her deep and fathomless waters ware made partakers of the blood of the nation.</p> 
+                  <p>It comes! the storm of battle comes! The cannon's peal is breaking loud and wild, and death-fires fill the living air. All nature holds an elemental strife; dread warring sounds are in the winds, and night is on the deep-the night of death and dreamless woe!</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>Go, wondrous creature! mount where science guides;</l> 
+                              <l>Go, measure earth, weigh air, and state the tides;</l> 
+                              <l>Instruct the planets in what orbs to run;</l> 
+                              <l>Go, soar with Plato to th' empyreal sphere,</l> 
+                              <l>To the first good, first perfect and first fair;</l> 
+                              <l>Or tread the mazy round his, followers trod,</l> 
+                              <l>And, quitting sense, call imitation God;</l> 
+                              <l>As Eastern priests in giddy circles run,</l> 
+                              <l>And turn their heads to imitate the sun.</l> 
+                              <l>Then drop into thyself, and be a fool.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>-Pope</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>"My son, how goes the battle to-day?" asked the rebel chief.</p> 
+                  <p>"'All's well that ends well,'" replied Solon, "but the end is not yet. This will be the most fearful contest the world has ever known. The blood of the nation has flown as freely as the waters of the ocean, and yet the fire of vengeance is unquenched. This ungodly war of brothers against brothers will yet, I fear, cause the whole world to convulse with groans of the<pb n=""/> dying, and our land will be a desolation. Our homes have been destroyed, our cotton fields laid waste, and our servants let loose by insurrection among us. We are stung with treachery on every side. We are an unhonored and famished people. Father, have we not wasted already too many precious years in bitter and heart rending strife? Have not our swords and bayonets quaffed enough of human gore to satiate the hungry craving for our brothers' blood, and teach us that 'tis vain to hope for victory over our enemies? It is hard, 'tis very hard, to fight against woman-to take up arms against a once loved companion. I tell thee truly, my father, Nora can never be subdued. I once believed, firmly as you now do, that she would yet yield the contest or compromise. But how mistaken! She has gained the interests of the whole world in her favor, and her influence over the heart is more deeply felt than understood. She sways the human mind with such even temper and serene justice, that she is regarded almost as a saint among her people. And, indeed, many of our own are beginning to look upon her as such, and wish to feel again her benigned influence over them. I am candid in the opinion that one-half of our numbers are even now wishing for a re-union between Nora and myself."</p> 
+                  <p>"And that is thy wish also, Solon, is it not?" said his father. "You love the haughty Nora yet; you cannot erase her image from your heart. That sirene voice comes back to you as in former years, and you cannot war against her with such hatred and revenge<pb n="50-51" xml:id="VAC5704-00000026"/> as you had anticipated. You would return to her, humble yourself in sackcloth and ashes, and implore her forgiveness: and for what? Only that you may be duped by her smiles once more. You remind one of the language of some poetical soft-brain, who says:</p> 
+                  <p>"'There is a silence in deep love, as in deep water. There is a melancholy in it which suspends the foot; and the folded arms and the dejected head are the images which it reflects. No voice shakes its surface; the muses themselves approach it with a timid and tardy step, and a low and tremulous song.'</p> 
+                  <p>"Little did I dream that one so wise as my son Solon would ever reflect such fantastical images of folly. That you should still cling with such tenacity to a boyish 'first love,' surprises me. Indeed, I cannot comprehend such womanly weakness-such impotence of purpose. You must arouse yourself from such stupidity of soul, or we are lost; all is lost, if you do not labor, if not for love, for hate, at least-bitter, direst hate.</p> 
+                  <p>"Remember: there shall be no re-union between my son and the daughter of my hated rival and foe. The decree has gone forth; my laws are as the laws of the Meeds and Persians, unalterable. Our destiny is sealed. I cannot, if I would, revoke the seal. Let come what will; fire, sword, pestilence, and death! This is my will, though they should be the last words I shall utter again on earth. I cannot-I will not-submit tamely to see our vast wealth confiscated by northern hoards, while our cotton fields are overrun<pb n=""/> by their debased demagogues and wine-bibbing politicians. Enough. I have declared. On to 'victory or death!'"</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>The clouds which rise with thunder slake</l> 
+                              <l rend="ti-1">Our thirsty souls with rain:</l> 
+                              <l>The blow most dreaded falls to break</l> 
+                              <l rend="ti-1">From off our limbs a chain;</l> 
+                              <l>And wrongs of man to man but make</l> 
+                              <l rend="ti-1">The love of God more plain.</l> 
+                              <l>As through the shadowy lens of even</l> 
+                              <l>The eye looks farthest into heaven,</l> 
+                              <l>On gleams of star and depths of blue</l> 
+                              <l>The glaring sunshine never knew.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>-Whittier.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>He has fallen!-the mighty one!t-the Lion of Fury is pierced to the heart, and the deep red life tide is gurgling freely from his side. No more shall his roaring voice be heard amid the din of war, like the war trumpet, calling death and destruction upon the maddened foe. No more shall the forest re-echo the sound of his footsteps. No more shall his fury turn upon the weak, and trample into dust the down-trodden. He has gone, and the beasts of the forest will rend the air with their piercing cries, for they are left alone with death and their foe.</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <p>Rejoice, O Freedom! the first link in the fetters that bound thee-crushing thy great soul-is broken. One by one each link will yet be severed, and thou art free. Give thanks to God that he hath remembered thine hourly petitions, for thou art blessed in his love.</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <pb n="52-53" xml:id="VAC5704-00000027"/> 
+                  <p>O deep and inexhaustible darkness! O fathomless and unmeasured oblivion! No voice of melody breaks the silence of thy gloom. No bright star of hope dispells thy midnight of woe. No serene bliss crosses thy threshhold of despair, and no whisper of the past breathes tales of the inglorious dead who have passed through thy gloomy portals into the gulf of perdition.</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <p>Open wide, O Gulf of Oblivion! and may the Cloud of Might mingle freely with thy shadows of darkness, and enfold in thy unpurified robes the form that breathed pestilence, and corrupted death!</p> 
+                  <p>O inexorable One! thou hast sent the spoiler of virtue to his last account. The Cloud of Might hath enfolded him, and the Gulf of Oblivion has closed over his breast. Sleep on, <choice>
+                        <sic>hedious</sic>
+                        <corr>hideous</corr>
+                     </choice> sinner! no voice shall awaken thee until the "last call, 'to judgment,'" shall bring thee forth to receive the final sentence, "Depart from me, ye accursed sinner! my face you never more shall see!"</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l rend="ti-1">Victory! victory! to the prostrate nations!</l> 
+                              <l>Bear witness night, and ye mute constellations,</l> 
+                              <l>Who gaze on us from your crystalline cars!</l> 
+                              <l>Thoughts have gone forth whose power shall sleep no more.</l> 
+                              <l>Victory! victory! Earth's remotest shore,</l> 
+                              <l>Regions which groan beneath the ant-arctic stars,</l> 
+                              <l>The green lands cradled in the roar</l> 
+                              <l rend="ti-1">Of Western waves, and wildernesses,</l> 
+                              <l rend="ti-1">Peopled and vast, which skirt the oceans</l> 
+                              <l rend="ti-1">Where morning dies her golden tresses,</l> 
+                              <l rend="ti-1">Shall soon partake our high emotions;</l> 
+                              <l>Kings shall turn pale! Almighty Fear,</l> 
+                              <l>The fiend-god, when our charmed name he hear,</l> 
+                              <l>Shall fade like shadow from his thousand fanes,</l> 
+                              <l>While Truth, with Joy enthron'd, o'er his lost empire reigns.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>-Shelley.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <pb n=""/> 
+                  <p>"We shall triumph," said Nora, addressing the Pillars of State, "for the God of battle is our God. He goeth before and prepareth the way. As in the days of Moses, we are led forth to battle; the waters of disunion roll up on either side, yet we shall pass through, and our enemies will be swept away by their own wickedness.</p> 
+                  <p>"We gaze into the deep blue of God's infinite arch, and threatening clouds arise and forked lightnings play, and the thunder's rumbling voice is heard upon the mountain's brow, and fierce tornades speak below; 'tis then we shudder and feel that the tempest is near. And, tracing earth's broad domains with visible eye,-are they parched with thirst? burning the feet of the weary traveler, or are they yet laving their wavy foliage in the crystal fountains descended from the floodgates of heaven?-we can, with some degree of accuracy, calculate the results of the coming storm. But when the bow of promise spans the horizon, the majesty of God speaketh in all his works, and nature speaketh to man in silent yet powerful eloquence, telling him that light is looming up, dispelling the darkness of the past with bright promises of the future.</p> 
+                  <p>"Thus, too, in this world of living life, of mingling forms of light and beauty-of darkness and deformity-do we behold the elements of minds eternal, tempest-tost, in sweeping tornadoes of disunion-making waste, with volcanic fires of secession-desolating the soul's abundant harvest of glorious works. Yet when the bow of promise-those noble, unselfish and unfettered spirits of freedom, linked in the bond of<pb n="54-55" xml:id="VAC5704-00000028"/> brotherhood-span the Union's horizon, all hearts may rejoice that, though the tempest of war has not spent its force nor completed its destruction, the nation's sun will yet burst forth in glorious splendor, and all earth will be filled with gratitude to Heaven for the restoration of those inalienable rights which the God of our forefathers had once peacefully granted us.</p> 
+                  <p>"Therefore be of good courage," said Nora, "for upon this day's salvation hangs our destiny. We shall be victorious, or we shall be blotted out of the great book of the nation, as being too weak for the conflict, too slow for the enemy, and forgotten and forsaken of God, who has so loved us from the foundation of the world."</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <p>"God save the Union!" How it rings upon the misty air! The volley of shot and shell, the broadside of cannon, and the thundering of artillery, almost stifle the cry, God save the Union. The contest is fearful; foe <choice>
+                        <sic>agains</sic>
+                        <corr>against</corr>
+                     </choice> foe, with the grim visage of death staring on either side. The life current, like a flood, is drenching the earth, while the living and the dying are wading the gory sea, their shrieks and shouts, rending the heavens, seem to call down the vengeance of a just God upon their unceasing strife.</p> 
+                  <p>Hark! 'tis the shout: Victory! Victory! Victory! Is the foe thus quickly vanquished? Nay, it is but the maddened sound which calls forth renewed vengeance, and wakens the slumbering tornado of fiend-like despair that rushes on to perdition and death!</p> 
+                  <p>See! they struggle in awful horror, fired by the wild<pb n=""/> shout of victory! and famished with the barbarous thirst for human blood, they struggle with terrible and desperate power-in revolting and unrelenting slaughter!</p> 
+               </div> 
+               <div type="section"> 
+                  <epigraph> 
+                     <q>
+                        <floatingText xmlns="http://www.tei-c.org/ns/1.0"> 
+                           <body > 
+                              <div type="poem"> 
+                                 <head>SONG OF FREEDOM.</head> 
+                                 <lg type="stanza"> 
+                                    <l>Strike for Freedom I let the land</l> 
+                                    <l>Echo loud the stern command,</l> 
+                                    <l>Till each soul shall take the stand,</l> 
+                                    <l rend="ti-2">"On! to victory!"</l> 
+                                    <l>"On!" the watchword, "on!" the cry,</l> 
+                                    <l>Bravely dare to do or die,</l> 
+                                    <l>Nobly, boldly, e'er defy</l> 
+                                    <l rend="ti-2">Southern tyranny!</l> 
+                                 </lg> 
+                                 <lg type="stanza"> 
+                                    <l>Let the swords of freedom rise</l> 
+                                    <l>Till they pierce the angry skies,</l> 
+                                    <l>And the God of battle cries,</l> 
+                                    <l rend="ti-2">"Liberty or death!"</l> 
+                                    <l>Ho! ye brave true-hearted souls,</l> 
+                                    <l>Hark! the tide of battle rolls</l> 
+                                    <l>'Neath the banner Freedom folds,</l> 
+                                    <l rend="ti-2">Strike with every breath!</l> 
+                                 </lg> 
+                                 <lg type="stanza"> 
+                                    <l>"Lay the proud usurper low!"</l> 
+                                    <l>Death to Freedom's direst foe!</l> 
+                                    <l>Deep disgrace and dreaded woe</l> 
+                                    <l rend="ti-2">To the traitor knave!</l> 
+                                    <l>Rouse, ye freemen, strike again!</l> 
+                                    <l>Cleanse the land from every stain.</l> 
+                                    <l>Let the blood of heroes slain,</l> 
+                                    <l rend="ti-2">Speak to hearts still brave.</l> 
+                                 </lg> 
+                              </div> 
+                           </body> 
+                        </floatingText>
+                     </q> 
+                  </epigraph> 
+                  <p>The battle is won! The day is ours! Right has triumphed, and,we are again a free people. We have possessed ourselves of all the strong holds of the nation, and we have subdued the Cotton King in his glory. The fort was stormed by fire-no surrendering<pb n="56-57" xml:id="VAC5704-00000029"/> ing until by the devastation of fire the affrighted populace, panic struck, cried out for quarters. Great consternation was felt when the appeal for mercy was not granted until the signal to surrender was shown.</p> 
+                  <p>We have taken all the rebel leaders prisoners, and they will be dealt with according to the law of the land. This will be a sad and unholy work-a task I cannot contemplate without a feeling of horror and dread. To gaze upon our desolation-our blighted prosperity-and not shudder at the thought of the future, would be as looking on with an inhuman indifference.</p> 
+                  <p>"But Solon, father, thou wilt forgive," said Nora, "should you find sufficient penitence in his heart to satisfy you that he is really rebellious no more; that he is now willing to unite with me in sustaining the government and promoting the welfare of the people."</p> 
+                  <p>"Nothing can be more conciliatory to all parties than that Solon and yourself should again be united in might, mind and strength. I shall endeavor to the utmost of my capacity to facilitate such an object-to accomplish that purpose upon which the welfare of the nation depends for security and happiness. But were every other obstacle removed, there is still a most formidable one in the way of your re-union. Your husband's father will oppose it until his last breath shall expire."</p> 
+                  <p>"Yet, father," said Nora, "the laws of our land will require you to deal with him in the manner in which you deal with other leading traitors who were taken prisoners at the last battle, if so, all opposition<pb n=""/> to our best wishes may cease to exist. O, if he could only repent of his many crimes and be forgiven, it would be a pleasurable reflection to Solon, who has suffered wrongs and committed injustice and outrage towards us only through the influence of his father, and other rebel leaders. But I fear he is too far gone to feel the need of repentance until it is too late to avail anything towards a reconciliation between his Maker and himself. And, father, what will you do with him? exile him, or let him <emph>enjoy</emph> the tortures of hemp instead of the benefits of cotton? or would you prefer to give him a life of regret, <q>
+                        <lg type="quotation"> 
+                           <l>'In some dark dungeon let him lie,</l> 
+                           <l>Concealed from every human eye,'</l> 
+                        </lg>
+                     </q> where the canker of remorse would corrode every sensation of joy, and waste his unprofitable life faster than the fires of a bloodthirsty war have consumed it?"</p> 
+                  <p>"We have not fully determined what course to pursue in regard to the rebel chief. The other traitors will find hanging not 'too good' for them.</p> 
+                  <p>"But, would sudden or immediate death be the most laudable mode in which to punish him who has sought to overthrow a government which cost so many noble lives to establish, and, too, upon a basis which gave illustrious renown to its founders? Would all the horrors of a whole life's imprisonment prove a JUST retribution for one who has called into exercise all the base intrigues and murderous villainies of civil war? An exile! an outcast from society, friends, home and happiness, would the tortures of this atone for the blood which the vengeance of his ungodly<pb n="58-59" xml:id="VAC5704-00000030"/>  heart has caused to flow from many of the noblest and best of Freedom's sons? No! he, a second <choice>
+                        <sic>Robespere</sic>
+                        <corr>Robespierre</corr>
+                     </choice>, or a bloody Nero, he must be made an example to posterity. He must be taught to feel all the tortures of the damned-of one <emph>doomed</emph> to perdition, ere he shall pass away forever! The guillotine could not accomplish such a purpose. Conscience alone can achieve the victory over wrong, and convey to his sin-inebriate soul the elixir of repentance, when the cup of remorse has been quaffed to the dregs. Yes, conscience will yet do her work, ere his reason shall have taken its everlasting flight."</p> 
+                  <p>"You are well aware, father," interrupted Nora, "that so long as you suffer one leading traitor to exist, there will be cause to fear the instigation of another rebellion."</p> 
+                  <p>"Do not be needlessly alarmed, my daughter, in regard to a future rebellion; all its causes will soon cease to exist. We shall never again be disheartened by such a disasterous and distressing eruption. The National Fire is now nearly extinguished. Solon has repented fully of his folly and rashness, and longs for a reconciliation and re-union between thee and himself; and thy great, generous heart is ever ready to forgive, and to welcome the return of the prodigal to the happy household once more. The grand and glorious Moon has shown of late, by the equanimity of her smiles, that she approves our cause. And, indeed, how could she roll on in her lofty majesty, far exceeding all the other heavenly bodies in the mildness and purity of her light, and the genial rays of her luminous<pb n=""/> countenance, had she not declared to heaven that she loved justice more than power, and 'right' more than 'might'? Had she, by her frowning coldness, condemned the cause of freedom, when she is herself the freest of all the 'glittering host,' she would have produced a revolution in the heavens, and a collision among the heavenly forces, such as would have crushed the universe, or torn asunder the great wheels of nature. Truly she is to the world as the 'isles of beauty' to the 'vasty deep.' The Flaming Sword has been sheathed, and hangs menacingly over us no longer, but is ready to pierce the heart of Rebellion through, should Freedom again be <choice>
+                        <sic>trampeled</sic>
+                        <corr>trampled</corr>
+                     </choice> upon. It remains, therefore, only that we dispose of the traitors in the manner that will meet with the entire approval of the nation, and increase her confidence in our integrity of purpose, and christianity of heart. And now, my daughter, let our constant <choice>
+                        <sic>suplications</sic>
+                        <corr>supplications</corr>
+                     </choice> ascend to the Almighty Ruler of the universe, imploring him for wisdom, counsel and aid, in this our last severe national trial."</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <epigraph> 
+                     <q>
+                        <lg type="quotation"> 
+                           <l>"Now, howling tempests, all thy thunders pour,</l> 
+                           <l>Lash yet more madly dark Potomac's shore,</l> 
+                           <l>Higher, yet higher, let thy billows sweep,</l> 
+                           <l>Awaken, all ye terrors of the deep.</l> 
+                           <l>'Tis done-that broken, feverish dream is past,</l> 
+                           <l>And hushed in silence is the fearful blast;</l> 
+                           <l>With the last deep surge and <choice>
+                                 <sic>tepest</sic>
+                                 <corr>tempest</corr>
+                              </choice>-closing roar,</l> 
+                           <l>Th' immortal spirit fled, the traitor was no more."</l> 
+                        </lg>
+                     </q> 
+                  </epigraph> 
+                  <p>The Setting Sun is waning, gloriously descending to the verge of the ocean, bowing his golden locks<pb n="60-61" xml:id="VAC5704-00000031"/> beneath the pure crystal waters, of whose strength and whose majesty he is the most noble type; of whose power and whose mysterious depth of emotion he is the loftiest emblem, and of whose rarest gems his rays are as its brightest treasures. Grand and everlasting as is thy flow, O boundless deep, will be the radiance of the Setting Sun, mingling into an eternity of sublime thought and inspiration. As light fading into a calm, beautiful and tranquil sunset-as the beauty of earth blinding with the glory of heaven-will be thy farewell to the love, honor, patriotism and christian charity which the world has interwoven with thy being, and blended with thy radiance; which has so commingled with the light and influence of thy rising and setting, that we shall hallow and bless thy memory when thou shalt receive a more eternal weight of glory, where darkness and death shall never reign.</p> 
+                  <p>Thy glorious setting; how unlike the departure, from time into an unending eternity, of a conscience smitten and harrowed by all the <choice>
+                        <sic>deamons</sic>
+                        <corr>demons</corr>
+                     </choice> of its own darkly peopled and traitorous imagination!</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+                  <p>"Sentinel, is there no hope of my speedy release from this dungeon of impenetrable gloom?" said the rebel chief, in intolerable despair, looking alternately the picture of abject woe, or savage ferocity. His glances dark and sorrowful as the grave, or his eyes rolling frightfully in their sockets, wearing the horrid <choice>
+                        <sic>gastliness</sic>
+                        <corr>ghastliness</corr>
+                     </choice> of insanity.</p> 
+                  <p>"No hope!" answered the sentinel, who had watched over him a greater portion of the night, during his<pb n=""/> fitful ravings and dark and malicious threats against his foe.<note xmlns="http://www.tei-c.org/ns/1.0" xml:id="WRIGHT2-0185-NOTE003" n="*"
+                           place="foot">
+                        <p >Nora's father.</p>
+                     </note>
+                  </p> 
+                  <p>"No hope!" he repeated, "no hope! Must I be eternally damned!-confined in this 'hell of horrors?'-not even the light of reason to cheer this eternal death and everlasting night. No kindred voice to banish the demon, remorse, from my unpurified soul! My God! my God! hast thou indeed forsaken me? Mercy! mercy! O God of the universe! is there no mercy in Heaven?"</p> 
+                  <p>A low and solemn voice, as one coming from the depths of the grave, seemed to answer him: "There is no mercy without penitence; there is no forgiveness without repentance." The prisoner closed his eyes as though he would exclude some terrible vision which haunted his every thought. * * *</p> 
+                  <p>"Forbear, forbear!" cried the sentinel, grasping the hands of the rebel, who was smiting his breast furiously and tearing his hair from his fallen head. "Death will come soon enough-fearfully enough, too," muttered the sentinel, in hoarse and ungenial voice. "Death will come ere you are prepared to receive his icy grasp, which, I trow, will not be half so soothing as the warm embrace of a friend. You had better make your peace with God before it is too late."</p> 
+                  <p>"Too late! too late!" repeated the rebel, instinctively, "too late! He is here-here," he murmured, his reason flickering. "O my dagger! let me thrust it through his heart! My foe-he shall not torture me in death! Die, monster!" he said, drawing up his arm, clenching his hands and beating himself forcibly,<pb n="62-63" xml:id="VAC5704-00000032"/>  believing he was plunging the dagger into the heart of his foe.* * * * * *</p> 
+                  <p>"How goes it without?" said the sentinel to the warden, who had just <choice>
+                        <sic>enterd</sic>
+                        <corr>entered</corr>
+                     </choice> to inquire after the prisoner. "Rather dubious," he answered. "No prospect of the prisoner's release until his trial comes on. There is a rumor afloat, and generally believed, that the prisoner will be exiled-banished to the most desolate spot the earth contains. I would rather suffer a thousand deaths than measure out such an existence as that. Death, disgrace or the dungeon-anything but banishment. He will never live to feel such a shock, to suffer such misfortune. Vitality is too nearly exhausted, and withering remorse is doing its frightful work. I fear only that he will become a maniac. His reason is hourly being dethroned."</p> 
+                  <p>"Poor creature!" said the warden, pityingly, "if he would only repent and make his peace with his God, I should have some hope of him."</p> 
+                  <p>"Hark! he is raving again," said the sentinel.</p> 
+                  <p>"Blood! blood! See! 'tis streaming-it struck my heart-his sword-not mine. Bind up my wounds! I'll <choice>
+                        <sic>conquor</sic>
+                        <corr>conquer</corr>
+                     </choice> yet! Invidious foe, stand back! stand back! Do I behold thee, wretch? He's gone! I've slain my foe! Peace, peace to my aching breast."</p> 
+                  <milestone n="*   *   *   *   *   *" unit="typography"/> 
+                  <p>Gloomy, silent and sullen, he sits amid the court; all eyes riveted upon him, some streaming with tears of pity, others frowning with hatred and revenge. His countenance is haggard, and almost unearthly; his fine form wasted to a mere shadow, and that lofty<pb n=""/> brow, where intellect once reigned, is furrowed with the tortures of remorse. And those once darkly piercing eyes, glassy at times with the stare of madness, or flashing with the fires of indignation and revenge. Anon, his lips parting, words scarcely audible escape, betokening the terrible conflict which is going on within. Altogether, he is the most deplorable picture of human woe that ever wrung a sigh of sympathy from the human breast or caused a tear of pity to moisten a human eye.</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <p>The trial is over. The sentence of death is pronounced! He opens his eyes again to the light of reason, which seems to have returned in full force upon him, bringing home to his heart a sudden and awful realization of his wretched condition. He beholds, written upon the tablets of his own heart, in indelible characters, Treason! Secession! Disgrace and Death! He shrieks and sinks. His physical frame writhes in agony. His heart throbs wildly and pitiously. His eyes, restless and sorrowful, wear a frantic look of utterless woe and <choice>
+                        <sic>hopeles</sic>
+                        <corr>hopeless</corr>
+                     </choice> despair. Not one trace of courage is visible upon a single lineament of his features.</p> 
+                  <p>Strange, that he who had the atrocity and inhumanity to create a barbarous rebellion-to wring the deep moans of anguish from the hearts of the widows and orphans; he, whose sword has drank the blood of the nation and yet cries for more blood; he, whose voice, like the thunders of the foaming cataract, was heard amid the clamor of war, urging the marshaled<pb n="64-65" xml:id="VAC5704-00000033"/> host "on to victory"; he, the fallen, has not the fortitude to receive his sentence with firmness, and meet death as becomes a hero. Would that the departed ghost of old John Brown might return, to inspire him with courage to die manfully. Crime makes the strong weak.</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <p>The heavens are bowed in darkness, and the awful solemnity of the immutable and eternal Judge resteth upon them, and the waters of the "upper deep" are silent as the wings of death which hover over an immortal spirit who is about to try the realities of an unknown future. O, the agonies of dissolution to an unpurified soul!</p> 
+                  <p>Behold the weeping of the nation! One fervent and humble prayer from her great heart ascendeth to the throne of the Eternal, pleading that the vilest sinner may return to God and be forgiven.</p> 
+                  <p>The windows of heaven are opened, the spirit of mercy descendeth, and the voice of Faith penetrates the soul bleak with despair and crushed with woe, whispering to the dying, "forgive as thou wouldst be forgiven."</p> 
+                  <p>"They come," he murmured, wistfully, "they come; they would not let me die without repentance." He closed his weary eyes, breathed one contrite prayer, and there was rejoicing in Heaven over the one sinner's return. Still he <choice>
+                        <sic>suplicates</sic>
+                        <corr>supplicates</corr>
+                     </choice> the Son of God to intercede for him. The darkness of the heavens passeth away, the sweet vision of peace looms over his brow, and he opens his eyes to behold Solon standing<pb n=""/> by his side, bathing his emaciated hand with tears of gratitude that God had redeemed the lost. Little farther from him sat Nora, arrayed in the white robes of love and purity, waiting the first signal of reconciliation, to offer words of comfort and forgiveness. The soul of the dying grew strong in penitence when her smiles of sweet pity, resting upon him, bade him hope for mercy, even at the threshhold of death.</p> 
+                  <p>"My son," he said, "forgive thy father-fold thy beloved again to thy bosom-love, nourish and cherish her-listen to her counsels of wisdom, and go no more <choice>
+                        <sic>estray</sic>
+                        <corr>astray</corr>
+                     </choice>.</p> 
+                  <p>"Our National Fire was quenched, not by the blood which disunionists have shed, but by the mysterious hand of God, who delighteth not in sin, and the heavenly light of reason and religion, which is cleansing the human heart, teaching it to love justice, truth and the will of God; causing it to hate human bondage, and forgive and remove human error, that it may curse the land no more with bloodshed.</p> 
+                  <p>"May no daring hand seek again to enkindle the fires of disunion. 'Twere better that man were never born, than that he should live to do the mischief which I have done, and which now appears in all its <choice>
+                        <sic>hediousness</sic>
+                        <corr>hideousness</corr>
+                     </choice> between my God and mine own blood-stained soul.</p> 
+                  <p>"Believe me, my son, had the blood of the nation been poured out in torrents that would have swept the earth, as did the flood in the days of Noah, our great National Fire would still have remained unquenched so long as one spark of human life existed, had not<pb n="66-67" xml:id="VAC5704-00000034"/> the universal voice of prayer ascended to the throne of God, and his arm, extending, poured out freely the waters of mercy which are cleansing every stain from the land, quenching the soul of its thirst for blood, and purifying it from every sin and unrighteousness.</p> 
+                  <p>"O that they who are about to follow me may become convinced, as I have been, ere death shall close his icy arms around them, of their sins, and repent sincerely before God. Would to heaven that I could atone for the great evil which I have done!" He paused, beckoned Nora to his side, and taking her hand he placed it in Solon's, saying: "My daughter, forgive my son; the fault was not his; but mine only. Forgive us both-be <emph>one</emph> as God has made you one. Henceforth let nothing mar your future happiness. Let this union be renewed, and be constant evermore. You will forgive one another's faults, and stand by each other until the final dissolution of all things."</p> 
+                  <p>"I will," they both responded.</p> 
+                  <p>It is enough," said the dying, closing his eyes in peace, and the spirit returned to God who gave it.</p> 
+                  <milestone n="*   *   *   *   *   *   * " unit="typography"/> 
+                  <p>They bore him to his last resting place-the traitors<note xmlns="http://www.tei-c.org/ns/1.0" xml:id="WRIGHT2-0185-NOTE004" n="*"
+                           place="foot">
+                        <p >Pall-bearers.</p>
+                     </note>-they who were sentenced to death, and who had stood by him through dangers thick.</p> 
+                  <q>
+                     <lg type="quotation"> 
+                        <l>"He sees not, he hears not, he has fought his last battle,</l> 
+                        <l>No sound can awake him to glory again."</l> 
+                     </lg>
+                  </q> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <pb n=""/> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="para"> 
+                              <l rend="ti-4">Not in the legions</l> 
+                              <l>Of horrid hell can come a devil more damn'd</l> 
+                              <l part="I">In evils than this traitor!</l> 
+                           </lg>
+                           <lg type="para"> 
+                              <l part="F">I grant him bloody,</l> 
+                              <l>Luxurious, avaricious, false, deceitful,</l> 
+                              <l>Sudden, malicious, smacking of every sin</l> 
+                              <l>That has a name.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>-Shakspeare.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>It is open-the great Bottomless Pit is open-and all may read its characters, black with treason and theft, imbued with forgery and falsehood; stained with the blood of brothers-cursed with the widow and orphan's tears-reeking with the smoke of malice and revenge-exulting in the depravity of damnation and the ruin of humanity. Glorying in perfidy the most fiendish, thou art the most perfidious of all the damned.</p> 
+                  <p>O thou accursed Pit! swollen with deeds the most horrid, and swallowed up in crimes the most <choice>
+                        <sic>attrocious</sic>
+                        <corr>atrocious</corr>
+                     </choice>. Fire from God out of heaven will consume thee, and thou shalt have no longer a place where sin may hold its Bacchanalian feasts and midnight revels. The seal of "outer <choice>
+                        <sic>darknes</sic>
+                        <corr>darkness</corr>
+                     </choice>" is upon thee, and the sound of "weeping and wailing and gnashing of teeth" shall be heard within the depths of thine iniquitous tabernacle no more. Woe to thee! Thou art rent by the thunders of slavery, and the traitorous hand of secession hath torn thee asunder. Thy fragments will not be found, for thou art swept away by the revolution of Freedom, and the waters of peace have quenched the fire of Disunion that came forth from thee to destroy the nation. Thou, the Destroyer, thou art destroyed and art no more!</p> 
+                  <milestone n="*   *   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <pb n="68-69" xml:id="VAC5704-00000035"/> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>To the pure, all things are pure. Oblivion wrapped</l> 
+                              <l>Our spirits, and the fearful overthrow</l> 
+                              <l>Of public hope was from our being snap'd,</l> 
+                              <l>Though linked years had bound it there; for now</l> 
+                              <l>A power, a thirst, a knowledge, which, below</l> 
+                              <l>All thoughts, like light beyond the atmosphere,</l> 
+                              <l>Clothing its clouds with grace, doth ever flow,</l> 
+                              <l>Came on us, as we sat in silence there,</l> 
+                              <l>Beneath the golden <choice>
+                                    <sic>stras</sic>
+                                    <corr>stars</corr>
+                                 </choice> of the clear azure air.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>-Shelley.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>The storm is passed. All nature, refreshed and purified, pours forth anthems of praise to the Most High for his gracious goodness and unspeakable kindness towards fallen man. Truly He hath extended the arm of mercy, and the hand of the oppressor is laid low. Faith hath unlocked the seal, and the captive is led forth to bask beneath God's sunshine wheresoever he will. * * * * *</p> 
+                  <p>The sun, descending below the horizon, tipped with the golden tinge of mellow Autumn, his luminous rays falling upon tree and flower, mingling with the rich foliage and purple petals, adding beauty to beauty, or glistening upon the tranquil waters, sparkling like crystal dew-drops from the fountains of heaven, or like gems of richest hue within the bosom of old ocean's shrine, seems a living presence of all that is perfect, wonderful, and adorable.</p> 
+                  <p>Sublime and beautiful orb! Nor tempest, nor storm, tornado, nor whirlwind, can mar thy loveliness, or sully thy purity. Thou hast passed the ordeal-a light to the weary-a beacon to the benighted, and an emblem of the immutable <choice>
+                        <sic>grandure</sic>
+                        <corr>grandeur</corr>
+                     </choice> and munificence of the Unchangeable and Eternal.</p> 
+                  <p>Mind, too, like thee-noble, grand, immaculate and<pb n=""/> lofty-stands aloof the imperishable, towering in its own sublimity of principle; vast and unending in its purposes as unbounded space; fixed and immovable in the right as the eternity of Jehovah, by whose grand revolutions of time all earth is made to bow in adoration, and the heavens tremble in mute transport and wonder.</p> 
+                  <p>Thou, Mind, soarest above the dizzy whirlpool of sordid passion, and dwellest in thine own magnificent pavillion of deified purpose and purified thought. Thou, the great fulcrum of the universe, upon which rests all earthly power, whether innate or in action; by thee all creatures are swayed, whether in war or in peace. By thee the passions are made subservient to an high and holy will. Through thine influence comes purification from God, and that happiness unalloyed which gold cannot purchase, nor moth nor rust can corrupt. Thou hast stood the test of iniquity and injustice on all sides, surrounded by treason and carnage, yet mutilated by no vice-stained by no crime. Thou comest forth in thine own intellectual greatness, bearing, stamped upon thy noble brow, the purest and loftiest emblem of thy being, "Freedom forever! Freedom forever!!"</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+                  <p>"This generation will never appreciate thy purity and magnanimity of soul, my dear Nora," said Solon, who had listened enraptured to her praises of Freedom, "but ages to come will bless thy name, and laud the efforts which have given the back the Union unbroken, though once severed; purified, though once stained by<pb n="70-71" xml:id="VAC5704-00000036"/> crimes of darkest hue. Would that Freedom could give me back thy heart, filled with the warmest emotions of love-mine, and mine only- as when first we wed. O, will it never be? Is all lost?-lost forever! Is there no hope of re-union of spirit? or must this life be one of dark despair, with no bright ray of hope breaking through to dispell the soul's eternal gloom? May just Heaven forbid that we should wear out a miserable existence-linked together for selfish ends, because our interests demand it, our children desire it, and foreign influence decrees that we must unite and make the best of it. I cannot endure thy coldness. Nay, I cannot exist without thy love-that love which in my boyhood became a part of my being, and I knew nought of happiness save through thee, thou who wert my destiny."</p> 
+                  <p>"I gave my heart to thee, Solon," replied Nora, "not because of thy broad possessions, thine immense wealth, thy luxurious life and mine own personal interests, but for thy great, generous heart, thy noble intellect, and, more than all, for thy <emph>seeming</emph> fidelity to the Union for which our fathers bled and died. I loved thee because thou didst then love truth, justice and integrity, more than thy life. But those terrible fire eaters have been thy overthrow, and the destroyers of thy happiness. But let the dark past be forgotten. The future will, I trust, find thee more faithful in fulfilling thy renewed promises than the past has in keeping thy first vows. You need not doubt that all the devotion of my former love will be restored to you, should you prove worthy of it. Let time do<pb n=""/> his work; we will wait patiently and see what the future has in store for us. We will hope and pray that she will betide us no ill. We have renewed our former vows, and now let us learn to love and cherish each other until the end."</p> 
+                  <p>"But what will your father say of our re-union?" said Solon. "I know it has been his wish to see us again united."</p> 
+                  <p>"He will say," whispered Nora, "Heaven bless you, my children; may you ever live in the fear of God, and go no more estray."</p> 
+                  <p>"What will be his future course of action? Will he ever be able to subdue or overcome the prejudices of my people against him?" said Solon, with an expression of doubt hanging upon his lips.</p> 
+                  <p>"My father!" said Nora. "The world does not know him yet. He is honest and just. With the Constitution firmly upheld by the Pillars of State-the glory of the Rising Sun illuminating and cheering the gloomy way, and the Morning Stars singing together as the music of the spheres. His voice, blending like the voice of Freedom, will long be musical to the noble souls of the North; rising in <choice>
+                        <sic>grandure</sic>
+                        <corr>grandeur</corr>
+                     </choice>, as the roaring of the cataract above the lofty mountains of far-famed New England, <choice>
+                        <sic>reverbrating</sic>
+                        <corr>reverberating</corr>
+                     </choice> in thrilling tones across Mason and Dixon's Line-beyond that-his kindness and <choice>
+                        <sic>benificence</sic>
+                        <corr>beneficence</corr>
+                     </choice> of heart will mingle with the deep toned zephyrs of sympathy of the sunny South, and songs of 'Welcome to thy home-to the heart of the Nation, thou who art greater than Washington,' shall re-echo through all the land. Yea, even<pb n="72-73" xml:id="VAC5704-00000037"/> the interminable forests of the glorious West will rejoice at the sound of his footsteps, and smile at his coming. But of this thou wilt take no note, for he will steal so silently into the affections of all flesh, that they will only dream of the fountain of nature and the sunshine of heaven. And they will only see the glory of God in the work of his servant, who will labor earnestly and faithfully to bring about 'the good time coming.'"</p> 
+                  <p>"Beautiful being!" exclaimed Solon, gazing into her deep, soul-breathing eyes, "I can but adore thee more and more, for thy filial devotion to him who has devoted his whole life to thee. Were thy companion as worthy of thy affections as is thy father, we should both be happier now." He clasped her hand in his, and a strange and mysterious power came over them. It was not sleep, nor yet akin to sleep; nor was it much unlike a sweet and tranquil dream at dewy eve.</p> 
+                  <milestone n="*   *   *   *   *   *   *" unit="typography"/> 
+               </div> 
+               <div type="section"> 
+                  <head>THE VISION.</head> 
+                  <p>They sate in open air, musing upon the past, and all the glorious universe a flood of light became. The sky was draped in azure, purple and gold, and clouds of fleecy fold were blending through. Each star, a living gem, was radiant as the sun at his decline, and in the midst arose a structure huge and massive, glittering with richest gems as the bright <choice>
+                        <sic>stary</sic>
+                        <corr>starry</corr>
+                     </choice> host above. <choice>
+                        <sic>It</sic>
+                        <corr>Its</corr>
+                     </choice> portals were as many as the nations of the earth; its emblems and devices too, as numerous.</p> 
+                  <pb n=""/> 
+                  <p>They asked: "Whence came this temple fair, and what its import?" and were about to enter, when, suddenly withdrawn, beheld a sentinel or guardian, who kept the portal, and conveyed to them the intelligence which they desired.</p> 
+                  <p>"This edifice," he said, "is called the Temple of Genius, because it is dedicated to genius alone. 'Twas built by human hands, although it seems divine. Its architecture is the work of Heaven; its workmanship is the perfection of all things perfect. 'Twas reared for mortal good-in which to blend the laws of God and man in harmony-and genius is the power between the finite and the Infinite-the connecting link between earth and Heaven. Therefore is this most beautiful work of God and man dedicated to His greatest earthly power, Genius. This temple has as many spires as there are nations of the earth. Upon each spire is borne aloft the nation's flag of peace. See!" he said, pointing to one which bore the name, "America," and "Liberty forever!" "Art thou ready?" he said.</p> 
+                  <p>"We are," they both replied, and again they attempted to enter, and were repulsed.</p> 
+                  <p>"First take the oath of allegiance," said he, solemnly, "and swear that you will war no more with any nation of the earth." They took the oath and entered the temple. There, within that holy shrine, every nation under the whole heavens assembled, but vowed before they entered, that they would war no more-that there should be no more bloodshed, or enmity, or hatred, but all should be peace and unity of heart. Each nation entered at their own portal,<pb n="74-75" xml:id="VAC5704-00000038"/> but all met within the great council hall, with congratulations and peace-offerings. No mortal could pass the threshhold of that beautiful temple without purification. Within, the arts and sciences were taught in all their primeval purity. Genius alone stood unrivaled. At her shrine the nations paid their tributes of devotion. She was the supreme ruler. The whole world acknowledged the merits of Genius, pure genius, and all sin was swept away from her presence as darkness before the light of the sun. </p> 
+                  <p>Nora and Solon knelt at her shrine in that change of heart which belongs only to the tried soul, purified and refined. They turned away, wandering forth to view the wonders of the Almighty Architect, feeling their own insignificance and utter helplessness and dependence upon Him whom they had <choice>
+                        <sic>offeneed</sic>
+                        <corr>offended</corr>
+                     </choice> by their injustice and inhumanity towards each other. And now they have resolved to begin anew, and live as becomes the creature in the sight of the Creator. They have pledged their vows of eternal fidelity to each other, with brighter promises of the future.</p> 
+                  <p>Thus, dear reader, we will leave them, hoping that no domestic storm may ever again darken their horizon, or o'ercloud their happiness. Praying, too, that King Cotton will never more enkindle in the home circle the fire of Disunion, or seek to break those bonds which God has joined together, commanding: "Let nor man put asunder."</p> 
+               </div> 
+            </div> 
+            <closer>THE END</closer> 
+         </div>
+      </body> 
+   </text>
+</TEI>
