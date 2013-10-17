@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7095">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liberty Lyrics</title>
+                <author>Bevington, Louisa Sarah (Guggenberger) (1845-1895)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by </resp>
+                    <name>Felix Jung</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 40 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>August 30, 1996</date>
+                <idno>VAB7095</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is from Michigan State University Libraries.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Liberty Lyrics</title>
+                        <author>Bevington, L. S. (Louisa Sarah), 1845-1895</author> 
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>L.S. Bevington</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>16 p.</extent>
+                    <publicationStmt>
+                        <publisher>Printed and Published by James Tochatti, </publisher>
+                        <publisher>“Liberty” Press </publisher>
+                        <pubPlace>London </pubPlace>
+                        <date when="1895">1895</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag,
+                    with the value "indent1" for one tab stop, "indent2" for two tab stops, etc. All
+                    split lines are attributed as "type=i" for the initial portion, and "type=f" for
+                    the final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="2"></tagUsage>
+                    <tagUsage gi="addrline" occurs="7"></tagUsage>
+                    <tagUsage gi="author" occurs="1"></tagUsage>
+                    <tagUsage gi="availability" occurs="1"></tagUsage>
+                    <tagUsage gi="back" occurs="1"></tagUsage>
+                    <tagUsage gi="bibl" occurs="3"></tagUsage>
+                    <tagUsage gi="biblfull" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="byline" occurs="1"></tagUsage>
+                    <tagUsage gi="change" occurs="4"></tagUsage>
+                    <tagUsage gi="corr" occurs="4"></tagUsage>
+                    <tagUsage gi="date" occurs="6"></tagUsage>
+                    <tagUsage gi="div" occurs="3"></tagUsage>
+                    <tagUsage gi="div0" occurs="15"></tagUsage>
+                    <tagUsage gi="div1" occurs="2"></tagUsage>
+                    <tagUsage gi="docauthor" occurs="1"></tagUsage>
+                    <tagUsage gi="docdate" occurs="1"></tagUsage>
+                    <tagUsage gi="docimprint" occurs="1"></tagUsage>
+                    <tagUsage gi="doctitle" occurs="1"></tagUsage>
+                    <tagUsage gi="editorialdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="15"></tagUsage>
+                    <tagUsage gi="encodingdesc" occurs="1"></tagUsage>
+                    <tagUsage gi="extent" occurs="2"></tagUsage>
+                    <tagUsage gi="filedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="front" occurs="1"></tagUsage>
+                    <tagUsage gi="head" occurs="18"></tagUsage>
+                    <tagUsage gi="item" occurs="11"></tagUsage>
+                    <tagUsage gi="l" occurs="484"></tagUsage>
+                    <tagUsage gi="lg" occurs="109"></tagUsage>
+                    <tagUsage gi="list" occurs="1"></tagUsage>
+                    <tagUsage gi="name" occurs="33"></tagUsage>
+                    <tagUsage gi="p" occurs="7"></tagUsage>
+                    <tagUsage gi="pb" occurs="14"></tagUsage>
+                    <tagUsage gi="publicationstmt" occurs="2"></tagUsage>
+                    <tagUsage gi="publisher" occurs="4"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="2"></tagUsage>
+                    <tagUsage gi="resp" occurs="9"></tagUsage>
+                    <tagUsage gi="respstmt" occurs="9"></tagUsage>
+                    <tagUsage gi="revisiondesc" occurs="1"></tagUsage>
+                    <tagUsage gi="seriesstmt" occurs="1"></tagUsage>
+                    <tagUsage gi="sourcedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="tagsdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="tagusage" occurs="50"></tagUsage>
+                    <tagUsage gi="tei.2" occurs="1"></tagUsage>
+                    <tagUsage gi="teiheader" occurs="1"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="title" occurs="5"></tagUsage>
+                    <tagUsage gi="titlepage" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepart" occurs="1"></tagUsage>
+                    <tagUsage gi="titlestmt" occurs="2"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                   <list>
+                    <item>Anarchism</item>
+                    <item>Songs -- Texts</item> 
+                    <item>Socialism</item>
+                </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/song">song</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-06-30</date><label>editor.</label><name>Felix Jung, </name>finished
+                data entry, basic encoding and proofing</change>
+            <change><date>1995-09-22</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI-conformant encoding and final proofing</change>
+            <change><date>1996-08-30</date><label>general editor.</label><name>Perry Willett,
+                </name>verified date of death of author</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-07-30" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-07-30" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-30" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-08-26" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-01" who="elizabethmunson">Changed div type="advertisement" to
+            "publishers_catalog"; removed div type="question" and "response"; changed div type="back"
+            to "docImprint"</change>
+            <change when="2010-09-14" who="elizabethmunson">Merged two divs type="publishers_catalog"
+            into one div</change>
+            <change when="2011-08-13" who="maryborgo">Added head type="supplied" Publisher's Catalogue</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Liberty Lyrics. </titlePart>
+                </docTitle>
+                <byline>by <docAuthor>L.S. Bevington. </docAuthor></byline>
+                <docImprint>
+                    <pubPlace>London: </pubPlace>
+                    <publisher>Printed and Published by <name>James Tochatti</name>, “Liberty”
+                        Press. </publisher>
+                </docImprint>
+                <docDate>1895.</docDate>
+            </titlePage>
+            <div type="publishers_catalog">
+                <head type="supplied">Publisher's Catalog</head>
+                <bibl>
+                    <title>Liberty: A Journal of Anarchist Communism. </title>
+                    <respStmt>
+                        <resp>Edited By </resp>
+                        <name>James Tochatti </name>
+                    </respStmt>
+                </bibl>
+                <p>The Contributors Include <name>Louise Michel, </name><name>A. Hamon, </name>
+                    <name>W. Morris, </name><name>P. Kropotkin, </name><name>Errico Malatesta,
+                        </name><name>Elisee Reclus,</name>
+                    <name>G.B. Shaw, </name><name>L.S. Bevington, </name><name>J. Glen,
+                        </name><name>Touzeau Parris, </name>and All the Best Writers and Thinkers in
+                    the Socialist Movement.</p>
+                <bibl>
+                    <title>Liberty Pamphlets. </title>
+                </bibl>
+                <p>Just Published. 16pp., 8vo., printed on toned paper, Price One Penny</p>
+                <list type="series">
+                    <item>Jones’ Boy: Dialogues on Social Questions Between an ‘Enfant Terrible’ and
+                        his Father. By <name>“Spokeshave.”</name></item>
+                    <item>An Anarchist on Anarchy, By <name>Elisée Reclus</name>.</item>
+                    <item>The Ideal and the Youth. By <name>Elisée Reclus</name>.</item>
+                    <item>In Defence of Emma Goldmann and the Right of Expropriation. By
+                            <name>Voltairine de Cleyre</name>.</item>
+                    <item>First Series. The Why I Ams: Why I Am a Socialist and an Atheist, by
+                            <name>Conrad Naewiger</name>; Why I Am a Social Democrat, by <name>G.
+                            Bernard Shaw</name>; Why I Am an Individualist Anarchist, by <name>J.
+                            Armsden</name>.</item>
+                    <item>Second Series. The Why I Ams: Why I Am a Communist, by <name>William
+                            Morris</name>; Why I Am an Expropriationist, by <name>L.S.
+                            Bevington</name>.</item>
+                    <item>Will Be Published Shortly. The Why I Ams: Why I Am an Anarchist‐Socialist,
+                        by <name>Errico Malatesta</name>; Why I Am an Advocate of Physical Force, by
+                            <name>G. Lawrence</name>; Why I Am a Socialist and a Cooperator in
+                        Production by <name>E.T. Craig</name>.</item>
+                </list>
+            </div>
+        </front>
+        <body>
+            <head>Liberty Lyrics. </head>
+            <pb n="3" xml:id="VAB7095-001"></pb>
+            <div type="poem">
+                <head>The End of the World.</head>
+                <lg type="verse_paragraph">
+                    <l>Comrades! the end of the world’s at hand!</l>
+                    <l rend="ti-1">Our round earth planet? Ah, no;</l>
+                    <l>The planet shall roll, and the great sun stand,</l>
+                    <l>The beautiful sea‐waves break on the strand,</l>
+                    <l>The flowers and fruits shall cover the land—</l>
+                    <l rend="ti-1">But the World and its ills shall go.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Wherever has rested the golden smirch</l>
+                    <l rend="ti-1">White livers prepare to hie;</l>
+                    <l>At sign from the gold god’s tottering perch</l>
+                    <l>See, loth and lingering far in the lurch,</l>
+                    <l>Comes Mammon’s black hireling, the politic Church,</l>
+                    <l rend="ti-1">Canting the Socialist cry.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Hear how its foolish begin to say,</l>
+                    <l rend="ti-1">In fear of the final rout—</l>
+                    <l>“The night grows old, and the dread new day</l>
+                    <l>Requires that we follow the People’s way;</l>
+                    <l>Give us your oil, ye wise, we pray,</l>
+                    <l rend="ti-1">For our lamps are all flickering out.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The first time passed, and he died alone,</l>
+                    <l rend="ti-1">And the deaf world held on its way;</l>
+                    <l>And priest and ruler the tares have sown,</l>
+                    <l>Mingled with wheat they have rampant grown,</l>
+                    <l>But the Harvester knows his own—his own,</l>
+                    <l rend="ti-1">And in judgment he comes to‐day.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And Houses shall fall, built on golden sand,</l>
+                    <l rend="ti-1">And only the Truth be dear;</l>
+                    <l>The rock‐built dwellings of faith shall stand,</l>
+                    <l>The glad, free people shall joy in the land,</l>
+                    <l>And heart trust heart e’en as hand helps hand,</l>
+                    <l rend="ti-1">For the end of the World is here.</l>
+                </lg>
+            </div>
+            <pb n="4" xml:id="VAB7095-002"></pb>
+            <div type="poem">
+                <head>Looking Downwards.</head>
+                <l>O the sacred generations</l>
+                <l rend="ti-1">That have lived, and failed, and died!</l>
+                <l>And for our sakes—ours—the freed ones,</l>
+                <l rend="ti-1">Found their liberties denied!</l>
+                <l>Oh, the helpless half‐barbarians</l>
+                <l rend="ti-1">That yet felt the iron sway,</l>
+                <l>Ere they knew it or could love it</l>
+                <l rend="ti-1">As great Nature’s life‐ward way!</l>
+                <l>Shall I take my rights less bravely</l>
+                <l rend="ti-1">For the great ache in my heart,</l>
+                <l>When I think how these fought for me</l>
+                <l rend="ti-1">Who in victory had no part?—</l>
+                <l>How they trampled self and senses;</l>
+                <l rend="ti-1">How they forged their own restraints;</l>
+                <l>How they failed—defamed—as “sinners;”</l>
+                <l rend="ti-1">How they failed—athirst—as “saints.”</l>
+                <l>How they felt a “Right,” yet knew not</l>
+                <l rend="ti-1">Of the eternal How and Why;</l>
+                <l>And so built a church around them</l>
+                <l rend="ti-1">And a god‐throne in the sky.</l>
+                <l>Oh, ye tortured generations!</l>
+                <l rend="ti-1">Joy, with shame; or fame, with woe;</l>
+                <l>This the only choice allowed you</l>
+                <l rend="ti-1">Just that we in you might grow—</l>
+                <l>Just that we might win equipment,</l>
+                <l rend="ti-1">Title—privilege—to be;</l>
+                <l>Ay, eternal life‐adjustment</l>
+                <l rend="ti-1">And the <emph rend="i">right</emph> to liberty.</l>
+                <l>Through the tarnish on the glory</l>
+                <l rend="ti-1">Of the victor’s battle plain,</l>
+                <l>When the famine followed after,</l>
+                <l rend="ti-1">And the widows wept in vain;</l>
+                <l>Through the later, meaner horrors</l>
+                <l rend="ti-1">Of the subtle sins of trade</l>
+                <l>And the rents in human nature</l>
+                <l rend="ti-1">That mere luxury has made;</l>
+                <l>I—the heir of conscience in me,</l>
+                <l rend="ti-1">And that un‐willed sympathy</l>
+                <l>That cuts all the bands about me</l>
+                <l rend="ti-1">And for ever sets me free.</l>
+                <pb n="5" xml:id="VAB7095-003"></pb>
+                <l>Free to live and have my being—</l>
+                <l rend="ti-1">Free to choose or deprecate;</l>
+                <l>Free to keep law or to mend it,</l>
+                <l rend="ti-1">Free to recognise my mate.</l>
+                <l>Free, by all consent around me;</l>
+                <l rend="ti-1">Free by all consent within;</l>
+                <l>Free from human rule and precept;</l>
+                <l rend="ti-1">Free from human hurt and sin.</l>
+                <l>Very gently will I take it,</l>
+                <l rend="ti-1">Very careful will I be,</l>
+                <l>Lest the crucified and wistful</l>
+                <l rend="ti-1">Miss their chance, <emph rend="i">in vain</emph>, through me.</l>
+                <l>Ah! so painfully, so slowly,</l>
+                <l rend="ti-1">Has the whole truth loomed in sight</l>
+                <l>And the spirit opened meekly</l>
+                <l rend="ti-1">In this last day’s solemn light.</l>
+                <l>All the sorry powers of blindness</l>
+                <l rend="ti-1">That have offered lies for truth;</l>
+                <l>All the darkeners of counsel,</l>
+                <l rend="ti-1">All the smug misguides of youth,</l>
+                <l>That have mocked and martyred maidens,</l>
+                <l rend="ti-1">That have given stones for bread;</l>
+                <l>That have bound the wife in wedlock,</l>
+                <l rend="ti-1">Made for her the harlot’s bed;</l>
+                <l>And the Czar of all the Russias,</l>
+                <l rend="ti-1">And the clever Pope of Rome,</l>
+                <l>Ay, and proper <choice>
+                        <corr>Mrs.</corr>
+                        <sic>Mrs</sic>
+                    </choice> Grundy</l>
+                <l rend="ti-1">In John Bullion’s gilded home!</l>
+                <l>These are all upon their trial,</l>
+                <l rend="ti-1">These are foredoomed every one;</l>
+                <l>For the dawn begins to light them</l>
+                <l rend="ti-1">And they cannot bear the sun.</l>
+                <l>’Tis the very Day of Judgment;</l>
+                <l rend="ti-1">’Tis the proof‐tide of the race!</l>
+                <l>’Tis the coming of the saviours!</l>
+                <l rend="ti-1">’Tis the triumph‐time of grace!</l>
+                <l>Through the bride‐night of the social</l>
+                <l rend="ti-1">Tolls the knell of the depraved;</l>
+                <l>Died the human generations,</l>
+                <l rend="ti-1">And yet we—the few—<emph rend="i">are</emph> saved.</l>
+                <l>And the last shall soon be foremost,</l>
+                <l rend="ti-1">And the foremost shall be last;</l>
+                <l>For the Letter’s reign is over</l>
+                <l rend="ti-1">And the Spirit waxes fast.</l>
+            </div>
+            <pb n="6" xml:id="VAB7095-004"></pb>
+            <div type="poem">
+                <head>The Secret of the Bees.</head>
+                    <lg type="verse_paragraph">
+                        <l>How have you managed it? bright busy bee!</l>
+                        <l>You are all of you useful, yet each of you free.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>What man only talks of, the busy bee does;</l>
+                        <l>Shares food, and keeps order, with no waste of buzz.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>No cell that’s too narrow, no squandering of wax,</l>
+                        <l>No damage to pay, and no rent, and no tax.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>No drones kept in honey to look on and prate,</l>
+                        <l>No property tyrants, no big‐wigs of State.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Free access to flowers, free use of all wings;</l>
+                        <l>And when bee‐life is threatened, then free use of stings.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>No fighting for glory, no fighting for pelf;</l>
+                        <l>Each thrust at the risk of each soldier himself.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Comes over much plenty one summer, you’ll see</l>
+                        <l>A lull and a leisure for each busy bee.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>No over‐work, under‐work, glut of the spoil;</l>
+                        <l>No hunger for any, no purposeless toil.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Economy, Liberty, Order, and Wealth!—</l>
+                        <l>Say, busy bee, how you reached Social Health?</l>
+                    </lg>
+                    <l rend="right">(Answer.)</l>
+                    <lg type="verse_paragraph">
+                        <l>Say rather, why <emph rend="i">not</emph>? It is easier so;</l>
+                        <l>We have all the world open to come and to go.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>We haven’t got masters, we haven’t got money,</l>
+                        <l>We’ve nothing to hinder the gathering of honey.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>The sun and the air and the sweet summer flowers</l>
+                        <l>Attract to spontaneous use of our powers.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Our work is all natural—nothing but play,</l>
+                        <l>For wings and <choice>
+                                <corr>proboscis</corr>
+                                <sic>probocis</sic>
+                            </choice> can go their own way.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>We find it convenient to live in one nest,</l>
+                        <l>None hindering other from doing her best.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>We haven’t a Press, so we haven’t got lies,</l>
+                        <l>And it’s worth no one’s while to throw dust in our eyes.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>We haven’t among us a single pretence,</l>
+                        <l>And we got our good habits through sheer Common‐Sense.</l>
+                    </lg>
+                
+            </div>
+            <pb n="7" xml:id="VAB7095-005"></pb>
+            <div type="poem">
+                <head>Revolution.</head>
+                <lg type="verse_paragraph">
+                    <l rend="ti-1">Ah, yes! You must meet it, and brave it;</l>
+                    <l rend="ti-1">Too laggard—too purblind to save it;</l>
+                    <l>Who recks of your doubting and fearing</l>
+                    <l rend="ti-3">Phrase‐bound “Evolution?”</l>
+                    <l rend="ti-1">Do you not hear the sea sounding it?</l>
+                    <l rend="ti-1">Do you not feel the fates founding it?</l>
+                    <l>Do you not know it for nearing?</l>
+                    <l rend="ti-3">Its name—Revolution.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l rend="ti-1">What! stem it, and stay it, and spare it?</l>
+                    <l rend="ti-1">Or will you defy it, and dare it?</l>
+                    <l>Then this way or that you must change you</l>
+                    <l rend="ti-3">For swift restitution.</l>
+                    <l rend="ti-1">Do you not see men deserving it?</l>
+                    <l rend="ti-3">Do you not hear women nerving it?</l>
+                    <l>Down with old Mammon! and range you</l>
+                    <l rend="ti-3">To aid Revolution!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l rend="ti-1">The last hour has struck of our waiting,</l>
+                    <l rend="ti-1">The last of your bloodless debating,</l>
+                    <l>The wild‐fire of spirit is speeding</l>
+                    <l rend="ti-3">Us on to solution.</l>
+                    <l rend="ti-1">Do you not thrill at the uttering?</l>
+                    <l rend="ti-1">Do you not breathe the breeze fluttering</l>
+                    <l>Round the brave flag of our pleading?</l>
+                    <l rend="ti-3">The world’s Revolution!</l>
+                </lg>
+            </div>
+            <div type="poem">
+                <head>The Most Beautiful Thing.</head>
+                <lg type="verse_paragraph">
+                    <l>The most beautiful thing around or above</l>
+                    <l rend="ti-1">Is Love, true Love:</l>
+                    <l>The beautiful thing can more beautiful be</l>
+                    <l rend="ti-1">If its life be free.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Bind the most beautiful thing there is,</l>
+                    <l rend="ti-1">And the serpents hiss;</l>
+                    <l>Free from its fetters the beautiful thing,</l>
+                    <l rend="ti-1">And the angels sing.</l>
+                </lg>
+            </div>
+            <pb n="8" xml:id="VAB7095-006"></pb>
+            <div type="poem">
+                <head>Bought with a Price.</head>
+                <lg type="verse_paragraph">
+                    <l>Ay, a price! What price? Ye saved ones of these later ages,</l>
+                    <l rend="ti-1">Ye few who have learnt to be free, and have true things to
+                        tell?</l>
+                    <l>The price of the past generations of blind men and sages</l>
+                    <l rend="ti-1">Who lived for you, died for you, suffered, and went down to
+                        hell</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And never came back! Savage sinners, the conquered, despiséd;</l>
+                    <l rend="ti-1">Crude spokesmen of chaos they sprang from, all lusty with
+                        dew‐time;</l>
+                    <l>Then, singly, messiahs blood‐sweating for order and beauty;</l>
+                    <l rend="ti-1">In <emph rend="i">their</emph> day all failures; all martyrs for
+                        us of the new time.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Ay, bought with a price! my sisters and brothers, this moment</l>
+                    <l rend="ti-1">We live, and know how, and know why, and have nothing to
+                        fear;</l>
+                    <l>We are debtors, dear comrades! Oh, think of the Calvaries suffered;</l>
+                    <l rend="ti-1">Hands round: true to trust: “Millenium” is bound to appear.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>’Tis our generation must fight the last fight against Warfare,</l>
+                    <l rend="ti-1">Must hurl the god Mammon in depths of oblivion’s sea,</l>
+                    <l>Unmask and drive from us all tyrannous Powers of Darkness</l>
+                    <l rend="ti-1">And make the sweet planet a Home of Humanity— <emph rend="i">free</emph>.</l>
+                </lg>
+            </div>
+            <div type="poem">
+                <head>“Dreamers?”</head>
+                <lg type="verse_paragraph">
+                    <l>“Dreamers?” Ah, no! else he was a dreamer,</l>
+                    <l rend="ti-1">Our crucified brother of long, long ago;</l>
+                    <l>Arrested, and jeered at; “seditious;” “blasphemer;”</l>
+                    <l rend="ti-1">And legally slain, lest the people should <emph rend="i">know</emph></l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Offence against privileged, orthodox “order,”</l>
+                    <l rend="ti-1">That stirring of crowds by the straight word and true;</l>
+                    <l>No wonder <choice>
+                            <corr>respectable</corr>
+                            <sic>respeetable</sic>
+                        </choice> Dives condemned him,</l>
+                    <l rend="ti-1">And politic Roman, and clerical Jew.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Remember the agonised cry of desertion</l>
+                    <l rend="ti-1">Lest haply the whole had been suffered in vain;</l>
+                    <l>Ah! would he could know of this tardy awakening</l>
+                    <l rend="ti-1">Of Peoples at last, as the message grows plain.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>That “Kingdom” <emph rend="i">is coming</emph>, on earth as “within you,”</l>
+                    <l rend="ti-1">The reign of sweet peace, and goodwill amongst men;</l>
+                    <l>’Tis suffering violence? Yes, in the taking;</l>
+                    <l rend="ti-1">Yet, taken, there shall not be fighting again.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Dear comrades, hold on, ’mid reproach and derision,</l>
+                    <l rend="ti-1">To rid the old world of its thraldom and woe;</l>
+                    <l>And still in the pauses of conflict remember</l>
+                    <l rend="ti-1">That lone one, our comrade of long, long ago.</l>
+                </lg>
+            </div>
+            <pb n="9" xml:id="VAB7095-007"></pb>
+            <div type="poem">
+                <head>In Memoriam.</head>
+                <lg type="verse_paragraph">
+                    <l>Mad, as the world calls mad,</l>
+                    <l rend="ti-1">See Anarchy’s few;</l>
+                    <l>Fighting the False and the Bad</l>
+                    <l rend="ti-1">In all that they do;</l>
+                    <l>Forcing a way for the Glad,</l>
+                    <l rend="ti-1">The Pure, and the True.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Bolder and clearer it grows—</l>
+                    <l rend="ti-1">The Anarchist task;</l>
+                    <l>Liberty’s plausible foes</l>
+                    <l rend="ti-1">To assail and unmask;</l>
+                    <l>Handing the torch as it glows</l>
+                    <l rend="ti-1">To all who may ask.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Great! oh, exceedingly great,</l>
+                    <l rend="ti-1">The Anarchists’ claim!</l>
+                    <l>Fusing the falsehood of State</l>
+                    <l rend="ti-1">In unquenchable flame;</l>
+                    <l>Breaking the fetters of fate</l>
+                    <l rend="ti-1">In Humanity’s name.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Breathing with fiery breath</l>
+                    <l rend="ti-1">On the mammonite crew;</l>
+                    <l>Fearless, in splendor of faith,</l>
+                    <l rend="ti-1">Of the worst they can do;</l>
+                    <l>Blessed, in life and in death,</l>
+                    <l rend="ti-1">O beneficent few!</l>
+                </lg>
+            </div>
+            <div type="poem">
+                <head>Love’s Breadth.</head>
+                <lg type="verse_paragraph">
+                    <l>Love’s uttermost knows neither depth nor height</l>
+                    <l rend="ti-1">But soars or stoops unwittingly, for stress</l>
+                    <l rend="ti-1">Of mere dear love, importunate to bless</l>
+                    <l>And see its treasure crownéd in its sight.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Throws o’er each fleck some mantle of fine right</l>
+                    <l rend="ti-1">Woven of love’s transforming tenderness,</l>
+                    <l rend="ti-1">Woos to the waking charms it doth but guess,</l>
+                    <l>Creates, and frees, and leads into the light.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>O little maid! with all your shining hair</l>
+                    <l rend="ti-1">And bosom full of faith and kindliest trust,</l>
+                    <l>So would I have you love your love, my fair,</l>
+                    <l rend="ti-1">With woman’s strength of mercy, gently just;</l>
+                    <l>Wide, wide as heaven teach your heart to be,</l>
+                    <l>Love with love’s breadth, and hold through setting free.</l>
+                </lg>
+            </div>
+            <pb n="10" xml:id="VAB7095-008"></pb>
+            <div type="poem">
+                <head>Peace on Earth.</head>
+                <lg type="verse_paragraph">
+                    <l>Peace on our earth! Men reconciled</l>
+                    <l rend="ti-1">To Law that bids them be;</l>
+                    <l>O holy freedom! final faith!</l>
+                    <l rend="ti-1">O sacred certainty!</l>
+                    <l>I sometimes think the road to it</l>
+                    <l rend="ti-1">Lies through Gethsemane.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And yet the young are with us too,</l>
+                    <l rend="ti-1">Bold from the very first;</l>
+                    <l>Dear lads and maidens full of will</l>
+                    <l rend="ti-1">The golden cage to burst;</l>
+                    <l>Alert to note the living springs</l>
+                    <l rend="ti-1">That slake the whole world’s thirst.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The very goal we touch at last,</l>
+                    <l rend="ti-1">The haven of the free;</l>
+                    <l>Ah, comrades! you who understand,</l>
+                    <l rend="ti-1">Sing in your heart with me—</l>
+                    <l>“Thou Death, where now thy poisoned sting?</l>
+                    <l rend="ti-1">Where, Grave thy victory?”</l>
+                </lg>
+            </div>
+            <div type="poem">
+                <head>’Tis Daring Wins the Day.</head>
+                <lg type="verse_paragraph">
+                    <l>Are you cold, or are you lukewarm</l>
+                    <l rend="ti-1">You may freely have your say;</l>
+                    <l>When we’ve time we’ll read your musings,</l>
+                    <l rend="ti-1">But ’tis daring wins the day.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Ah, the Commune’s own are fiery,</l>
+                    <l rend="ti-1">While the business heads are cool,</l>
+                    <l>And Dame Nature hands her lightening</l>
+                    <l rend="ti-1">To the best child in <emph rend="i">her</emph> school—</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>To the grown child full of mercies</l>
+                    <l rend="ti-1">That not yet have had their fling;</l>
+                    <l>To the man that loves his fellows,</l>
+                    <l rend="ti-1">And will brook no bullying.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Sisters! brothers! wake from slumber,</l>
+                    <l rend="ti-1">Speed the great Cause on its way;</l>
+                    <l>Give your lives and dare your utmost,</l>
+                    <l rend="ti-1">For ’tis daring wins the day.</l>
+                </lg>
+                <pb n="11" xml:id="VAB7095-009"></pb>
+                <lg type="verse_paragraph">
+                    <l>Not in petty hate and envy,</l>
+                    <l rend="ti-1">Nor revenge grown mean and sour:</l>
+                    <l>Let the world see noble justice</l>
+                    <l rend="ti-1">Arming all your strokes of power.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>All the world is thrall to falsehood</l>
+                    <l rend="ti-1">That we rise to sweep away,</l>
+                    <l>Holding high Truth’s own brave banner,</l>
+                    <l rend="ti-1">For ’tis daring wins the day.</l>
+                </lg>
+            </div>
+            <div type="poem">
+                <head>If the World went Right.</head>
+                <lg type="verse_paragraph">
+                    <l>Oh! oh! the delight of beholding delight!</l>
+                    <l>The thing that should be if the world went right—</l>
+                    <l>Scope for all fitness and merriest might.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And oh, the dolour of looking on pain,</l>
+                    <l>Poor heart that exhausts its life in vain,</l>
+                    <l>Brave powers all bent that your rules restrain</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>If the world went right t’were a world of bliss:</l>
+                    <l>If everyone dealt with the task that’s his,</l>
+                    <l>No wholesomer, sunnier world than this.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Let your bird out of his cage, nor fear;</l>
+                    <l>And if he’s a bullfinch, as mine is here,</l>
+                    <l>You’ll laugh at his comic, diminutive cheer:</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Aye! and what’s more, if his food be there,</l>
+                    <l>He’ll go back to prison without your care—</l>
+                    <l>If you’re fair to him then to you he’s fair.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Not that he means it—it’s natural, quite;</l>
+                    <l>All the live things are so sure to go right</l>
+                    <l>If you trust them enough, and enjoy their delight.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Freedom! You’ll see what a man can be</l>
+                    <l>When his fellows are happy, as happy as he,</l>
+                    <l>When the whole wide world is at work and free!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>When the follies are laid which have led to the strife</l>
+                    <l>And the envy with which the sad earth is rife</l>
+                    <l>Shall yield to the Natural Order of Life!</l>
+                </lg>
+            </div>
+            <pb n="12" xml:id="VAB7095-010"></pb>
+            <div type="poem">
+                <head>In and Out of Church.</head>
+                <lg type="verse_paragraph">
+                    <l>Dogma‐dealer, talking treason,</l>
+                    <l>Spurning truth, perverting reason</l>
+                    <l>In and out of folly’s season</l>
+                    <l rend="ti-3">Year by year—</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Oh, a plague on all the twaddle</l>
+                    <l>In your hum drum niddle‐noodle,</l>
+                    <l>Mammon’s law‐paid molly‐coddle</l>
+                    <l rend="ti-3">Limp with fear.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Is there “sin” in worldy leaven?</l>
+                    <l>Yet there’s not one day in seven</l>
+                    <l>When you fail to sell your gammon</l>
+                    <l rend="ti-3">All for pelf;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>“Heaven to let”—to paying lodger;</l>
+                    <l>Ah, you canting devil‐dodger,</l>
+                    <l>Damn not us who spurn your Mammon,</l>
+                    <l rend="ti-3">Damn yourself!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>If I’ve done some bad behaving,</l>
+                    <l>And I don’t deserve the saving,</l>
+                    <l>Then ’tis honour bids the braving</l>
+                    <l rend="ti-3">Of my dues;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Pilot souls to your sky places</l>
+                    <l>Who are full of Sunday graces,</l>
+                    <l>And with sweat from poor men’s faces</l>
+                    <l rend="ti-3">Pay for pews.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Call the purse‐proud from their blisses,</l>
+                    <l>Call the fashionable misses</l>
+                    <l>From “advisers’” holy kisses,</l>
+                    <l rend="ti-3">Call, and call;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Call the people’s sly mind‐shapers,</l>
+                    <l>Call the kings of daily papers</l>
+                    <l>Cutting “law and order” capers</l>
+                    <l rend="ti-3">One and all.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Here’s my Lord Archbishop, mind you,</l>
+                    <l>Paid to gorge himself, and blind you,</l>
+                    <l>Till your very self can’t find you</l>
+                    <l rend="ti-3">Anywhere;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Simple Jesus! See the old ’un!</l>
+                    <l>Why, his dinner‐plates are golden!</l>
+                    <l>May the sight our hearts embolden</l>
+                    <l rend="ti-3">In our prayer.</l>
+                </lg>
+                <pb n="13" xml:id="VAB7095-011"></pb>
+                <lg type="verse_paragraph">
+                    <l>Ah, dismiss them, with a “blessing;”</l>
+                    <l>All intoning and confessing;</l>
+                    <l>Never more our souls distressing</l>
+                    <l rend="ti-3">With their cant!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Help to silence priestly mumble,</l>
+                    <l>Help the Mammon‐temples tumble,</l>
+                    <l>Freedom’s banner o’er the jumble</l>
+                    <l rend="ti-3">Firm to plant.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Come, dear toilers, stained and weary,</l>
+                    <l>Come and help the world grow cheery,</l>
+                    <l>Come from out your prison dreary</l>
+                    <l rend="ti-3">Built by greed;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>You who labour heavy‐laden,</l>
+                    <l>Slaving mother, trampled maiden,</l>
+                    <l>Ever preached to, every preyed on,</l>
+                    <l rend="ti-3">In your need;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Let your winters grow no colder,</l>
+                    <l>Rise at last and dare be bolder,</l>
+                    <l>Setting shoulder firm to shoulder</l>
+                    <l rend="ti-3">For a thrust!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Yokes be eased, and burdens lighter,</l>
+                    <l>As the great Hope warms the fighter,</l>
+                    <l>And the broad New Day grows brighter</l>
+                    <l rend="ti-3">And more just.</l>
+                </lg>
+            </div>
+            <div type="poem">
+                <head>The Spider and the Bee.</head>
+                <head type="sub">(A Tale for the Times.)</head>
+                <lg type="verse_paragraph">
+                    <l>He had closed his volume of theorie;</l>
+                    <l>He rose from his restful reverie—</l>
+                    <l>“The world must be saved by sympathie.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>He wandered forth in the summery air</l>
+                    <l>Not much he knew of the stress of care</l>
+                    <l>And nothing at all of the thing—Despair.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Pain was “pain,” and four letters long;</l>
+                    <l>And “force” five letters and always wrong;</l>
+                    <l>“Sympathy” said so ’twixt song and song.</l>
+                </lg>
+                <pb n="14" xml:id="VAB7095-012"></pb>
+                <lg type="verse_paragraph">
+                    <l>In a rose‐bush a spider’s net spied he,</l>
+                    <l>So neat, so clever, so orderlie;</l>
+                    <l>And, lo! in its meshes a honey‐bee.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The spider was large and her web was tough;</l>
+                    <l>She watched till the bee had struggled enough</l>
+                    <l>Before it was worth her while to be rough.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>But a hole in her institution, you see,</l>
+                    <l>Must never be made by struggles of bee;</l>
+                    <l>Oh, preposterous thought! Oh, catastrophe!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>So she rushed, and she clutched, and she bit, and she wove,</l>
+                    <l>As spiders will weave whose ancestors throve:</l>
+                    <l>And vainly the bee in its agony strove.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And he who stood by felt his sympathie</l>
+                    <l>Enlisted for spider, enlisted for bee—</l>
+                    <l>“I wish you may both—<emph rend="i">survive</emph> (?)” said he.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>O grand old Nature! who gives reward,</l>
+                    <l>And honey to busy bees doth afford,</l>
+                    <l>And honey <emph rend="i">and bee</emph> to the spider’s hoard.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Oh, poor bee! buzzing in vain, in vain,</l>
+                    <l>I sympathise, too, in your arduous strain!</l>
+                    <l>May bees of the future escape such pain!</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>To free you by Force were a serious wrong,</l>
+                    <l>For spiders have lived in that way so long</l>
+                    <l>They “work” at their nets, so neat, so strong.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Besides, Coercion!—so wicked, you see!—</l>
+                    <l>To compel that fat spider to set you free</l>
+                    <l>Were “in principle” evil, for you and for me.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Be sure I am sorry; perhaps some day</l>
+                    <l>Spiders will cease to subsist on prey,</l>
+                    <l>Or honey‐bees fly no more in their way.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>So the sun went down, and the spider fed</l>
+                    <l>On the agonised honey bee not yet dead;</l>
+                    <l>And sympathy sighed, and went home to bed.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>What of the tale? Well, it isn’t exact;</l>
+                    <l>Yet it hints at an ugly and pitiful fact.</l>
+                    <l>“Philosophy” severing language from fact—</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Sympathy’s name is a shibboleth spoken;</l>
+                    <l>Dreams of web‐spinners be speedily broken!—</l>
+                    <l>This story one tiny superfluous token.</l>
+                </lg>
+            </div>
+            <pb n="15" xml:id="VAB7095-013"></pb>
+            <div type="poem">
+                <head>Dinner.</head>
+                <lg type="verse_paragraph">
+                    <l>Now this is very serious, and should be understood—</l>
+                    <l>Here is a moral being that is influenced by food!</l>
+                    <l>For everything I like the taste of helps me to be good.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Now, mind you, ’tis of me I speak; I am but a beginner;</l>
+                    <l>I won’t profess to dictate to your old and hoary sinner;</l>
+                    <l>For all I know or care <emph rend="i">his</emph> soul may be the worse for
+                        dinner.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>But mine <emph rend="i">is not</emph>, and—Ribbon Blue!—’tis not the worse
+                        for wine;</l>
+                    <l>I help my soul with alcohol, yes, every time I dine;</l>
+                    <l>Again I must affirm, the soul I speak of, it is <emph rend="i">mine</emph>.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>I lost some worlds to save it, and the toughest world to lose</l>
+                    <l>Was just that worldly‐holy one that instituted “blues;”</l>
+                    <l>“Ribbons,” or “devils,” all the same, its precepts I refuse.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Perhaps mine is a tenth‐rate soul, not worth the while to save;</l>
+                    <l>Perhaps a quite incorrigible soul that <emph rend="i">can’t</emph>
+                        behave;</l>
+                    <l>But it is mine, and I shall have to wear it to my grave.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>I do not mind its company; though rough, ’tis not untrue;</l>
+                    <l>’Twill bear its pack of care, and then another pack for you;</l>
+                    <l>And <choice>
+                            <corr>if</corr>
+                            <sic>if if</sic>
+                        </choice> you give it dinner, yet a further pack or two.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Dame Nature said when I was born—“That child shall be my own;</l>
+                    <l>I’ll whip and punish, scold and frighten her till she is grown;</l>
+                    <l>And then I’ll share my jokes with her, and watch her run alone.”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>But at the christening were present sponsors very prim;</l>
+                    <l>Miss S. P. G., demure and pious, John Bull looking grim,</l>
+                    <l>And Mrs. Grundy—can’t you see her?—bland, and sly, and trim.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Dame Nature just looked on, and didn’t mind their whispering;</l>
+                    <l>She knew whom I belonged to, poor mis‐christened little thing!</l>
+                    <l>She meant despite them all, you see, that I should have my fling.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>She got into the nursemaid’s wrist, and cuffed me black and blue;</l>
+                    <l>And called me “Satan’s ugly child,” and why I never knew;</l>
+                    <l>That was her way of driving out the bounce from what I do.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>She got into some pastors next, and made them small and spiteful;</l>
+                    <l>She got into the Sunday tales, and rules of what is rightful,</l>
+                    <l>And made them seem all “cook’d” and queer, and not a bit delightful.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And when I came of age she dressed me up to play a part,</l>
+                    <l>And off we went to call on Mrs. Grundy, spruce and smart;</l>
+                    <l>And when we left, she looked at me; and chuckled from her heart.</l>
+                </lg>
+                <pb n="16" xml:id="VAB7095-014"></pb>
+                <lg type="verse_paragraph">
+                    <l>And many things came after that—amazement, wonder, hope;</l>
+                    <l>And fear and courage, hate and love, and manacles and scope;</l>
+                    <l>And all the world passed in and through, from demagogue to pope.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And each thing had its tug, to see if it could break the spell</l>
+                    <l>That good Dame Nature laid upon my heart, and brain as well;</l>
+                    <l>They wrung their wounded fingers as they went, and muttered “Hell!”</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>A dunce in all things worldly and in all things “proper” too,</l>
+                    <l>I joyed and sorrowed, on and on, with more or less ado;</l>
+                    <l>Until at last the Sun lit up a certainty or two.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>And one of them was this: Your soul won’t be the worse for dinner</l>
+                    <l>If meanwhile you remember you’re a tentative beginner</l>
+                    <l>On Nature’s new‐mown play‐ground, with survival to the winner.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>No physic for the glee of these—who feel with social nerves;</l>
+                    <l>No fences, right or left, for those—whose purpose never swerves;</l>
+                    <l>Your famished volunteer for Right and dine as he deserves.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Fair play on that fair play‐ground, then, for all brave souls and true,</l>
+                    <l>Hoist living Life’s red flag for goal, while coats and ribbons blue</l>
+                    <l>File off, to that inspiring tune—“We’ve got no work to do.”</l>
+                </lg>
+            </div>
+        </body>
+        <back>
+            <div type="docImprint">
+                <bibl> Printed and published by <name>J. Tochatti</name>,
+                    at<address><addrLine>60 Grove Park Terrace, Chiswiek.</addrLine></address></bibl>
+            </div>
+        </back>
+    </text>
+</TEI>

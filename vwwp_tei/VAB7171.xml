@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7171">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>In Summer-Time</title>
+                <author>Radford, Dollie (1858-1920)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by </resp>
+                    <name>Felix Jung</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 19 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>September 28, 1995</date>
+                <idno>VAB7171</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The copy transcribed is from the UC Santa Barbara Library, Printers
+                    Collection.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>In Summer-Time</title>
+                        <author>Radford, Dollie</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Dollie Radford</name>
+                        </respStmt>
+                        <respStmt>
+                            <resp>with Drawings by </resp>
+                            <name>James Guthrie.</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>23 p.</extent>
+                    <publicationStmt>
+                        <publisher>The Pear Tree Press </publisher>
+                        <pubPlace>Harting, Petersfield, Hampshire </pubPlace>
+                        <date when="1905">1905</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines use the attribute "rend" in the &lt;l&gt; tag,
+                    with the value "indent1" for one tab stop, "indent2" for two tab stops, etc. All
+                    split lines are attributed as "type=i" for the initial portion, and "type=f" for
+                    the final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"/>
+                    <tagUsage gi="addrline" occurs="6"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="back" occurs="1"/>
+                    <tagUsage gi="bibl" occurs="1"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="byline" occurs="2"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="date" occurs="6"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="div0" occurs="1"/>
+                    <tagUsage gi="div1" occurs="14"/>
+                    <tagUsage gi="docauthor" occurs="2"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="head" occurs="15"/>
+                    <tagUsage gi="hi" occurs="2"/>
+                    <tagUsage gi="item" occurs="3"/>
+                    <tagUsage gi="l" occurs="234"/>
+                    <tagUsage gi="lg" occurs="47"/>
+                    <tagUsage gi="name" occurs="8"/>
+                    <tagUsage gi="p" occurs="6"/>
+                    <tagUsage gi="pb" occurs="18"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="2"/>
+                    <tagUsage gi="pubplace" occurs="2"/>
+                    <tagUsage gi="resp" occurs="8"/>
+                    <tagUsage gi="respstmt" occurs="8"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="46"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="title" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="2"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+            <keywords scheme="#mla">
+                <list>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                </list>
+            </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-09-07</date><label>editor.</label><name>Felix Jung, </name>finished
+                data entry, basic encoding and proofing</change>
+            <change><date>1995-09-22</date><label>general editor.</label><name>Perry Willett,
+                </name>finished TEI-conformant encoding and final proofing</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-08-04" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-08-04" who="elizabethmunson">Corrected hyphen in fileDesc and sourceDesc titles</change>
+            <change when="2010-08-04" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for fileDesc)</change>
+            <change when="2010-08-04" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-08-04" who="elizabethmunson">Tagged title element inside bibl</change>
+            <change when="2010-09-03" who="elizabethmunson">Added genre term</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">In Summer Time. </titlePart>
+                    <titlePart type="sub">A Little Boy’s Dream.</titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Dollie Radford, </docAuthor></byline>
+                <byline>with Drawings by </byline>
+                <docAuthor>James Guthrie.</docAuthor>
+            </titlePage>
+        </front>
+        <body>
+            <pb n="3" xml:id="VAB7171-001"/>
+            <div type="poem">
+                <head>
+                    <hi>IN SUMMER‐TIME.</hi>
+                </head>
+                <div type="canto">
+                    <head type="supplied">I.</head>
+                    <lg type="verse_paragraph">
+                        <l><hi>THE</hi> sun is hot in the noisy street,</l>
+                        <l rend="ti-1">So hot on a summer day,</l>
+                        <l>And people pass with such busy feet,</l>
+                        <l rend="ti-1">There’s never a place for play.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And busy horses, with busy loads,</l>
+                        <l rend="ti-1">Are hurrying everywhere,</l>
+                        <l>The only creatures upon the roads,</l>
+                        <l rend="ti-1">With never a look to spare.</l>
+                    </lg>
+                    <pb n="4" xml:id="VAB7171-002"/>
+                    <lg type="verse_paragraph">
+                        <l>There is no place for a child to play,</l>
+                        <l rend="ti-1">No room for his little feet,</l>
+                        <l>There is no time, on a summer day,</l>
+                        <l rend="ti-1">For him in the noisy street.</l>
+                    </lg>
+                </div>
+                <div type="canto">
+                    <head>II.</head>
+                    <lg type="verse_paragraph">
+                        <l>And one little boy from a childish group,</l>
+                        <l rend="ti-1">Looked up through the smoky air,</l>
+                        <l>Away to a far‐away sweet blue sky,</l>
+                        <l rend="ti-1">And longed to be playing there—</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Away in the beautiful fairy clouds</l>
+                        <l rend="ti-1">That floated so near the sun;</l>
+                        <l>He wanted so much to be playing there,</l>
+                        <l rend="ti-1">Before all the day was done.</l>
+                    </lg>
+                </div>
+                <div type="canto">
+                    <head>III.</head>
+                    <lg type="verse_paragraph">
+                        <l>He walked away to the river,</l>
+                        <l rend="ti-1">Which flowed through the busy town,</l>
+                        <l>The quiet river that always</l>
+                        <l rend="ti-1">Was running there, up and down.</l>
+                    </lg>
+                    <pb n="5" xml:id="VAB7171-003"/>
+                    <lg type="verse_paragraph">
+                        <l>For close beside the deep water,</l>
+                        <l rend="ti-1">He knew of a place to rest,</l>
+                        <l>Where he could think of the fancies</l>
+                        <l rend="ti-1">And stories he loved the best.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>A dreary bare little corner,</l>
+                        <l rend="ti-1">A step in a stair of stone,</l>
+                        <l>But dear to a tiny fellow</l>
+                        <l rend="ti-1">Who wanted to weep alone.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And there, this beautiful morning,</l>
+                        <l rend="ti-1">He stole by himself and wept</l>
+                        <l>For one sweet day in a play‐ground</l>
+                        <l rend="ti-1">Where summer was really kept.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And there, when weary with crying,</l>
+                        <l rend="ti-1">And soothed by the flowing stream,</l>
+                        <l>He fell asleep, and his wishing</l>
+                        <l rend="ti-1">Came true in a happy dream.</l>
+                    </lg>
+                    <pb n="6" xml:id="VAB7171-004"/>
+                    <lg type="verse_paragraph">
+                        <l>For in his dreaming he journeyed</l>
+                        <l rend="ti-1">Away in a fairy boat,</l>
+                        <l>Through the wonderful unknown waters,</l>
+                        <l rend="ti-1">And all the great world afloat.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Away from struggle and tumult,</l>
+                        <l rend="ti-1">Away from the burning street,</l>
+                        <l>Away to beautiful country,</l>
+                        <l rend="ti-1">Where summer was fresh and sweet.</l>
+                    </lg>
+                </div>
+                <pb n="8" xml:id="VAB7171-005"/>
+                <div type="canto">
+                    <head>IV.</head>
+                    <lg type="verse_paragraph">
+                        <l>He passed the houses, dark and tall,</l>
+                        <l>That crowd along the river wall,</l>
+                        <l>And all the chimneys, black and high,</l>
+                        <l>Like giant fingers in the sky.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>He passed the great church with the towers,</l>
+                        <l>Where he had stood, so many hours,</l>
+                        <l>To listen to the friendly chimes,</l>
+                        <l>His very own dear nursery rhymes.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And, like a swallow on the wing,</l>
+                        <l>He passed the town and everything,</l>
+                        <l>As lightly in his boat he lay</l>
+                        <l>And steered its course that summer day.</l>
+                    </lg>
+                </div>
+                <pb n="9" xml:id="VAB7171-006"/>
+                <div type="canto">
+                    <head>V.</head>
+                    <l>And grassy gardens</l>
+                    <l rend="ti-1">Stretched beside</l>
+                    <l>The shining water,</l>
+                    <l rend="ti-1">Deep and wide;</l>
+                    <l>And many a willow</l>
+                    <l rend="ti-1">Weaved its boughs</l>
+                    <l>Into a shady</l>
+                    <l rend="ti-1">Fairy house,</l>
+                    <l>With open windows,</l>
+                    <l rend="ti-1">Long and thin,</l>
+                    <l>Just for a child</l>
+                    <l rend="ti-1">To peep within;</l>
+                    <l>Or in the sunshine</l>
+                    <l rend="ti-1">Seemed to play—</l>
+                    <l>A leafy fountain</l>
+                    <l rend="ti-1">All the day.</l>
+                </div>
+                <pb n="10" xml:id="VAB7171-007"/>
+                <div type="canto">
+                    <head>VI.</head>
+                    <l>Forget‐me‐nots,</l>
+                    <l>Forget‐me‐nots,</l>
+                    <l rend="ti-1">And purples tall and gay,</l>
+                    <l>And all the reeds,</l>
+                    <l>And river weeds,</l>
+                    <l rend="ti-1">To mark the pleasant way:</l>
+                    <l>And round and bright,</l>
+                    <l>The lilies white,</l>
+                    <l rend="ti-1">Safe in their watery beds,</l>
+                    <l>With pillows green</l>
+                    <l>And smooth and clean,</l>
+                    <l rend="ti-1">To rest their heavy heads.</l>
+                    <l>And swans that swim,</l>
+                    <l>Till day is dim,</l>
+                    <l rend="ti-1">Through all the sun and breeze,</l>
+                    <l>And, one by one,</l>
+                    <l>When day is done,</l>
+                    <l rend="ti-1">Fly off to fairy seas:</l>
+                    <pb n="11" xml:id="VAB7171-008"/>
+                    <l>And through the hours,</l>
+                    <l>The scent of flowers,</l>
+                    <l rend="ti-1">And waking or asleep,</l>
+                    <l>No child can find</l>
+                    <l>A path more kind,</l>
+                    <l rend="ti-1">A fairer course to keep.</l>
+                </div>
+                <div type="canto">
+                    <head>VII.</head>
+                    <lg type="verse_paragraph">
+                        <l>And sweet and new on either hand,</l>
+                        <l>The hay lies through the meadow land,</l>
+                        <l>In tidy cocks, which, it is plain,</l>
+                        <l>Were made for tumbling down again.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And at the brimming river’s brink</l>
+                        <l>The thirsty cattle come to drink,</l>
+                        <l>Where many a little wandering breeze</l>
+                        <l>Plays in the shadow of the trees.</l>
+                    </lg>
+                    <pb n="12" xml:id="VAB7171-009"/>
+                    <lg type="verse_paragraph">
+                        <l>And honey bees in concert hum,</l>
+                        <l>And very cheerful noises come</l>
+                        <l>From happy farms you cannot see,</l>
+                        <l>Across the country pleasantly.</l>
+                    </lg>
+                </div>
+                <div type="canto">
+                    <head>VIII.</head>
+                    <lg type="verse_paragraph">
+                        <l>And fast or tardily he goes,</l>
+                        <l rend="ti-1">Just as he wills,</l>
+                        <l>To where the narrowing river flows</l>
+                        <l rend="ti-1">Among the hills.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>To where the stream for ever springs,</l>
+                        <l rend="ti-1">So clear and bright,</l>
+                        <l>From some sweet store of precious things</l>
+                        <l rend="ti-1">Far out of sight.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And now, amid a violet bed,</l>
+                        <l rend="ti-1">At last he greets</l>
+                        <l>The friend for whom such tears he shed</l>
+                        <l rend="ti-1">In busy streets.</l>
+                    </lg>
+                </div>
+                <pb n="14" xml:id="VAB7171-010"/>
+                <div type="canto">
+                    <head>XI.</head>
+                    <lg type="verse_paragraph">
+                        <l>Her hair is like sunshine,</l>
+                        <l rend="ti-1">Her mantle is green,</l>
+                        <l>Her eyes are the sweetest</l>
+                        <l rend="ti-1">That ever were seen.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Her jewels are brighter</l>
+                        <l rend="ti-1">Than monarchs can show,</l>
+                        <l>Her hands are more tender</l>
+                        <l rend="ti-1">Than any we know.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And tired little pilgrims</l>
+                        <l rend="ti-1">Come often to rest,</l>
+                        <l>And hide all their troubles</l>
+                        <l rend="ti-1">And tears, on her breast.</l>
+                    </lg>
+                </div>
+                <div type="canto">
+                    <head>X.</head>
+                    <lg type="verse_paragraph">
+                        <l>She stayed him with a loving smile</l>
+                        <l rend="ti-1">And gentle hand,</l>
+                        <l>And led him with a joyous song,</l>
+                        <l rend="ti-1">Through all the land.</l>
+                    </lg>
+                    <pb n="15" xml:id="VAB7171-011"/>
+                    <lg type="verse_paragraph">
+                        <l>He walked with her through fragrant fields,</l>
+                        <l rend="ti-1">With sorrel red,</l>
+                        <l>That closed about him, as he passed,</l>
+                        <l rend="ti-1">And touched his head.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And from the hills, where he could see</l>
+                        <l rend="ti-1">The lanes and stiles,</l>
+                        <l>She showed him how the roses shone</l>
+                        <l rend="ti-1">For miles and miles.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And deep within a leafy glen,</l>
+                        <l rend="ti-1">She bade him hear,</l>
+                        <l>A chorus all the birds had made</l>
+                        <l rend="ti-1">To give him cheer.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Then in a pool she bathed his feet,</l>
+                        <l rend="ti-1">And ripe and sweet</l>
+                        <l>And plenteous fruit she gathered there,</l>
+                        <l rend="ti-1">For him to eat.</l>
+                    </lg>
+                    <pb n="16" xml:id="VAB7171-012"/>
+                    <lg type="verse_paragraph">
+                        <l>And when his rest and meal were done,</l>
+                        <l rend="ti-1">Through all the wood</l>
+                        <l>A band of laughing playmates ran,</l>
+                        <l rend="ti-1">To where he stood.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>A band of little girls and boys,</l>
+                        <l rend="ti-1">With sparkling eyes,</l>
+                        <l>Full of sweet knowledge of the flowers,</l>
+                        <l rend="ti-1">And forest wise.</l>
+                    </lg>
+                </div>
+                <pb n="17" xml:id="VAB7171-013"/>
+                <div type="canto">
+                    <head>XI.</head>
+                    <lg type="verse_paragraph">
+                        <l>And joyfully with them he strayed,</l>
+                        <l>And danced and frolicked in the shade,</l>
+                        <l>And sought and found, and understood,</l>
+                        <l>All the dear creatures of the wood.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And all that day, in sun and breeze,</l>
+                        <l>They laughed and played, till through the trees</l>
+                        <l>From bough to bough the shadows fell,</l>
+                        <l>And filled the wood from dell to dell.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And then the birds were gone to rest,</l>
+                        <l>And songs were stayed within the nest;</l>
+                        <l>The shadows deepened into night,</l>
+                        <l>And all the summer stars were bright.</l>
+                    </lg>
+                    <pb n="18" xml:id="VAB7171-014"/>
+                    <lg type="verse_paragraph">
+                        <l>And when above the tallest pine</l>
+                        <l>The moon upon the land did shine,</l>
+                        <l>They brought him through the fields again</l>
+                        <l>To where his boat lay clear and plain.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And when they all had said good‐bye,</l>
+                        <l>He turned to her who, still anigh,</l>
+                        <l>Had stayed his boat that happy day</l>
+                        <l>And helped him now to sail away.</l>
+                    </lg>
+                </div>
+                <pb n="20" xml:id="VAB7171-015"/>
+                <div type="canto">
+                    <head>XII.</head>
+                    <lg type="verse_paragraph">
+                        <l>“What shall I say</l>
+                        <l rend="ti-1">To those at home</l>
+                        <l>Who long so much </l>
+                        <l rend="ti-1">In woods to roam?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>What shall I do</l>
+                        <l rend="ti-1">When they shall cry</l>
+                        <l>For happy games</l>
+                        <l rend="ti-1">And friends—as I?</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>Oh, let them come</l>
+                        <l rend="ti-1">To this dear place,</l>
+                        <l>To hear your voice</l>
+                        <l rend="ti-1">And see your face.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And give me now</l>
+                        <l rend="ti-1">A message sweet,</l>
+                        <l>For those whom I</l>
+                        <l rend="ti-1">So soon shall greet.”</l>
+                    </lg>
+                </div>
+                <pb n="21" xml:id="VAB7171-016"/>
+                <div type="canto">
+                    <head>XIII.</head>
+                    <head rend="italics" type="sub">Her Song.</head>
+                    <lg type="verse_paragraph">
+                        <l>“Come, little ones, come quickly,</l>
+                        <l rend="ti-1">I’m waiting for you here,</l>
+                        <l>In all the wind and sunshine,</l>
+                        <l rend="ti-1">Throughout the changing year:</l>
+                        <l>In all the rain and tempest,</l>
+                        <l rend="ti-1">In all the starlight clear.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>“Come, little ones, come quickly,</l>
+                        <l rend="ti-1">I sing my songs for you,</l>
+                        <l>Made in my heart so surely,</l>
+                        <l rend="ti-1">My songs so old and new:</l>
+                        <l>Made for your ears more sweetly</l>
+                        <l rend="ti-1">Than singer ever knew.</l>
+                    </lg>
+                    <pb n="21" xml:id="VAB7171-017"/>
+                    <lg type="verse_paragraph">
+                        <l>“Come, little ones, come quickly,</l>
+                        <l rend="ti-1">Your happy home is here,</l>
+                        <l>Through all the wind and sunshine</l>
+                        <l rend="ti-1">I call you far and near:</l>
+                        <l>In all the dark and day‐time,</l>
+                        <l rend="ti-1">Throughout the changing year.”</l>
+                    </lg>
+                </div>
+                <pb n="23" xml:id="VAB7171-018"/>
+                <div type="canto">
+                    <head>XIV.</head>
+                    <lg type="verse_paragraph">
+                        <l>And with the stream her singing flows</l>
+                        <l rend="ti-1">In loving rhymes,</l>
+                        <l>And in its flowing sweeter grows</l>
+                        <l rend="ti-1">In summer times—</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>As ever through the country side,</l>
+                        <l rend="ti-1">By tree and flower,</l>
+                        <l>It passes to the city wide,</l>
+                        <l rend="ti-1">In sun and shower.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And through the business and the tears</l>
+                        <l rend="ti-1">Of many a street,</l>
+                        <l>It falls on listening children’s ears,</l>
+                        <l rend="ti-1">A promise sweet.</l>
+                    </lg>
+                    <lg type="verse_paragraph">
+                        <l>And he who loves and understands</l>
+                        <l rend="ti-1">Above them all,</l>
+                        <l>Sets forth, in dreams, through fragrant lands,</l>
+                        <l rend="ti-1">At her dear call.</l>
+                    </lg>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="colophon">
+                <p>The end of <bibl><title>In Summer‐Time</title></bibl>, written by Dollie Radford, with drawings
+                    by James Guthrie, who with Alfred Green printed and produced it at the Pear Tree
+                    Press, Harting, Petersfield, Hampshire, <date when="1905-12">December,
+                        MDCCCCV</date>.</p>
+            </div>
+        </back>
+    </text>
+</TEI>

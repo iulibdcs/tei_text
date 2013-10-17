@@ -1,0 +1,1786 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7068">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The New Godiva</title>
+                <title type="filing">New Godiva</title>
+                <author>Butler, Josephine Elizabeth Grey (1828-1906)</author>
+                <respStmt>
+                    <resp>Transcribed, encoded and edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 99 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>15-June-1998</date>
+                <idno>VAB7068</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is from the Schlesinger Library, Vassar College.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The New Godiva: A Dialogue; and; A Letter to the International
+                        Convention of Women at Washington </title>
+                        <author>Butler, Josephine Elizabeth Grey, 1828-1906</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Josephine E. Butler</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>46 p.</extent>
+                    <publicationStmt>
+                        <publisher>[s.n.] </publisher>
+                        <pubPlace>[s.l.]</pubPlace>
+                        <date when="1888">1888</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All quotation marks, hyphens, dashes, apostrophes and colons have been
+                    transcribed as entity references.</p>
+                <p>All apostrophes are encoded as &amp;apos;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+                <p>All quoted sections that are italicized in the original are enclosed in
+                    &lt;Q&gt; all other quoted sections are transcribed without encoding.
+                    All text encoded as &lt;EMPH&gt; is to be rendered in italics unless
+                    specified in the "rend" attribute. All names that appear in all caps are
+                    enclosed in &lt;NAME&gt;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="abbr" occurs="10"/>
+                    <tagUsage gi="bibl" occurs="4"/>
+                    <tagUsage gi="body" occurs="2"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="cit" occurs="2"/>
+                    <tagUsage gi="closer" occurs="1"/>
+                    <tagUsage gi="corr" occurs="4"/>
+                    <tagUsage gi="date" occurs="1"/>
+                    <tagUsage gi="dateline" occurs="1"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docdate" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="2"/>
+                    <tagUsage gi="emph" occurs="49"/>
+                    <tagUsage gi="epigraph" occurs="1"/>
+                    <tagUsage gi="foreign" occurs="10"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="group" occurs="1"/>
+                    <tagUsage gi="head" occurs="5"/>
+                    <tagUsage gi="l" occurs="15"/>
+                    <tagUsage gi="opener" occurs="2"/>
+                    <tagUsage gi="orig" occurs="2"/>
+                    <tagUsage gi="p" occurs="125"/>
+                    <tagUsage gi="pb" occurs="43"/>
+                    <tagUsage gi="q" occurs="9"/>
+                    <tagUsage gi="signed" occurs="1"/>
+                    <tagUsage gi="sp" occurs="87"/>
+                    <tagUsage gi="speaker" occurs="87"/>
+                    <tagUsage gi="stage" occurs="2"/>
+                    <tagUsage gi="text" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlepart" occurs="3"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">French</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Women's rights--United States</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/drama">drama</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>15-Jun-1998</date><label>general editor.</label><name>Perry Willett,
+                </name>finished transcription, encoding, and editing</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-10" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-07-29" who="elizabethmunson">Removed date from fileDesc title</change>
+            <change when="2010-07-29" who="elizabethmunson">Added filing title</change>
+            <change when="2010-07-29" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-07-29" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-07-29" who="elizabethmunson">Tagged title elements inside bibl</change>
+            <change who="elizabethmunson" when="2010-08-25">Added genre term</change>
+            <change who="kateboeree" when="2011-07-05">Added div type="part" to both texts</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text>
+                <front>
+                    <titlePage>
+                        <docTitle>
+                            <titlePart type="main">THE NEW GODIVA</titlePart>
+                            <titlePart type="sub">A DIALOGUE</titlePart>
+                        </docTitle>
+                        <byline>BY <docAuthor>JOSEPHINE E. BUTLER.</docAuthor></byline>
+                        <epigraph>
+                            <cit>
+                                <q>
+                                    <l>“‘You would not let your little finger ache</l>
+                                    <l>For such as <emph>these?</emph>’ ‘But I would die,’ she
+                                        said.”</l>
+                                </q>
+                                <bibl>GODIVA.</bibl>
+                            </cit>
+                        </epigraph>
+                        <docTitle>
+                            <titlePart type="main">A LETTER TO THE INTERNATIONAL CONVENTION OF WOMEN
+                                AT WASHINGTON FROM JOSEPHINE E. BUTLER</titlePart>
+                        </docTitle>
+                        <docDate>MARCH 1888</docDate>
+                    </titlePage>
+                </front>
+                <body>
+                    <div type="part">
+                    <head>THE NEW GODIVA.</head>
+                    <head>A DIALOGUE.</head>
+                    <stage type="mix">SCENE.‐‐A Smoking Room, Tyburnia.</stage>
+                    <stage type="mix">THE INTERLOCUTORS ARE TWO BROTHERS, VICTOR AND CECIL.</stage>
+                    <cit>
+                        <q>
+                            <l>“‘You would not let your little finger ache</l>
+                            <l>For such as <emph>these?</emph>’ ‘But I would die,’ she said.”</l>
+                        </q>
+                        <bibl>GODIVA.</bibl>
+                    </cit>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>The last of them gone, thank Heaven! Now, at last, we shall get a couple
+                            of hours alone together. I seem scarcely to have seen you since you came
+                            home. By the way, let me congratulate you on the figure you make in
+                            society, after ten years in Queensland. Our friends to‐night, I could
+                            see, imagined they had been asked to meet a kind of savage, a sort of
+                            wild‐man‐of‐the‐woods, and were surprised, and a little disappointed, to
+                            find a cultivated English gentleman, well up in the politics,
+                            literature, and even small‐talk of the day, and guiltless of eating with
+                            his knife, or helping himself with his fingers.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You flatter me. More than once this evening, I felt painfully conscious
+                            of my social inexperience. When your friend Aimee, for instance, sounded
+                            upon woman's suffrage, and eyed me with good humored contempt as I
+                            feebly expounded my retrograde views on that subject, I devoutly wished
+                            myself back in the Bush.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I deny the contempt. Aimee is incapable of scorn, except for what is
+                            base. She is the greatest friend my wife has.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Indeed! I should have thought her too strong‐minded for the gentle Mary.
+                            You smile—</p>
+                    </sp>
+                    <pb n="2" xml:id="VAB7068-001"/>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>At the notion of anything <emph>strong‐minded</emph>, in the vulgar sense
+                            of the term, in one of the most refined, tender, and lovable of women.
+                            Oh, prejudice! what a miracle‐worker art thou! You met a charming,
+                            sympathetic, feminine creature like Aimee, and you are prepared to fall
+                            at her feet. You hear that she wants the franchise, and instantly,
+                            without any change in her demeanour, you dub her
+                                <emph>strong‐minded</emph>, a compound of Medusa and Mrs.Jellyby, an
+                            unsexed, aggresive, officious, dangerous being, to whom all rational
+                            persons would give a wide berth!</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Aimee, at any rate, is fortunate in her champion! But, seriously,
+                            granting the prejudice, and attributing it, if you like, to a very
+                            natural cause, my ten years' exile from the haunts of civilization and
+                            progress, I confess that nothing has amazed me more in my solitude than
+                            certain recent developments of this woman question. Reading, of course,
+                            can never take the place of personal intercourse with one's fellows, to
+                            which, for all except scholars proper, it is at best an adjunct, and it
+                            is very possible that my mind has been warped by the solitary perusal of
+                            what Aimee would call reactionary journalism and periodical literature.
+                            But failing such personal intercourse, I have read all the more
+                            diligently, and, perhaps, I may say, honestly, and the result is a
+                            feeling of some bewilderment at what would appear to be some very
+                            curious, if not threatening, social phenomena. Even the strides of
+                            science, inconceivably marvellous though these are, seem to me to be
+                            less portentious than the moral revolution which is rapidly modifying
+                            and displacing the sex.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Perhaps you would mention some of the more alarming of these phenomena,
+                            some of the graver symptoms of the malady?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You are laughing at me. You know better than I do what they are. In the
+                            first place, you have ladies' high schools and colleges—women receiving
+                            men's education and men's degrees. Then you have lady doctors—women <pb n="3" xml:id="VAB7068-002"/> familarized with dissecting
+                            rooms—vivisecting rooms too, if our medical faculty is in the right.
+                            Then you have lady members of school‐boards and boards of guardians;
+                            ladies <choice>
+                                <corr>wielding</corr>
+                                <sic>weilding</sic>
+                            </choice> the municipal franchise; ladies assembling in monster
+                            demonstrations to clamour for the parliamentary franchise. Literature,
+                            of course, has been their special field for long; but, so far as I know,
+                            it is only of late years that they have joined the ranks of atheists and
+                            agnostics, and that if you happen upon a magazine article of more than
+                            common rancour against existing creeds, you are safe in taking for
+                            granted that it was written by a woman. Last, but not least, you have
+                            women initiating and banding together to promote an agitation of too
+                            unsavoury and repulsive a character even to name. How it has come to
+                            pass that any pure‐minded woman could mix herself up in the remotest
+                            degree in so contaminating a matter, I am, for my own part, totally at a
+                            loss to conceive. It is, of course, impossible not to credit the greater
+                            part of the large number of women who seem to be concerned in the
+                            movement with honest, if mistaken and pernicious motives. I can only say
+                            that, personally, I find it difficult to reconcile the notion of
+                            anything honourable or worthy with a “mission” of that sort. To take the
+                            most charitable view of the thing, I do not suppose that misguided
+                            philantrophy, ignorant, <choice>
+                                <corr>hysterical</corr>
+                                <sic>hysterrical</sic>
+                            </choice>, feminine enthusiasm, even culminated in so painful and
+                            revolting a monstrosity as this of the “shrieking sisterhood”—</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>That will do. Your outburst is natural enough, and you will easily
+                            believe that it is not the first philippic of the kind I have listened
+                            to. But before you go any further, I think it only fair to mention that
+                            the ranks of the “shrieking sisterhood” have been swelled by a recent
+                            convert, in the person of—your sister‐in‐law, my wife!</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Gracious powers!</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Do not look so distressed. I expected all this and only said nothing of
+                            the matter in writing, because I felt a personal explanation would be
+                            easier.</p>
+                    </sp>
+                    <pb n="4" xml:id="VAB7068-003"/>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>But you have allowed it? you countenanced it?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Pardon me. There is no question of allowing between my wife and myself.
+                            That is the relation between master and slave; or, if you will, between
+                            parent and child, not between two grown human beings endowed with
+                            reason. I admire Mary's “enthusiasm” and I share it, for reasons which I
+                            shall presently explain.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Good heavens! The gentle Mary! The sweetest, tenderest, merriest little
+                            girl of eighteen, as I recollect her. And so beautiful now, so young, so
+                            fair, a man <q>
+                                <l>“Would not beteem the winds of heaven</l>
+                                <l>Visit her face too roughly!”</l>
+                            </q> If these things must be—and from your espousal of the cause, I am
+                            willing to believe there is more in it than I know—surely they should be
+                            left to older women, to matrons and spinsters who are tired of Dorcas
+                            meetings and district‐visiting. That they should take to political
+                            agitation—and such political agitation—is bad enough. But a woman like
+                            Mary! born to enchant society! a woman you can hardly endure to see
+                            cross the muddy streets!</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I can best answer you by repeating a short conversation I had with her a
+                            few days ago. I found her one evening sitting alone—beautiful enough in
+                            the bright light—the face whiter than usual from a vigil that had not
+                            been tearless; the blue eyes still large with tears, yet, oddly enough,
+                            a smile about the mouth. She saw me start, and turned to me. “I was
+                            thinking,” she said, “how glad I am that I have kept my good looks. I
+                            have found out the use of being pretty now. It is a proof that you are
+                            in earnest.” “How so?” I asked. “It is not hard,” she said, “to make
+                            yourself unpopular, when you have few popular gifts to sacrifice, when
+                            you are wrecked by time, and, if not soured, saddened—as I suppose all
+                            thinking beings must be—by age. But to embrace an unpopular cause when
+                            you have, in a sense, the world at your feet; to lay yourself open to
+                            misconception and calumny and <pb n="5" xml:id="VAB7068-004"/> scorn,
+                            and worse” (here she shuddered), “when you might surround yourself with
+                            nothing but what is flattering and pleasant—this, I think, is to show
+                            that you are disinterested and sincere.”</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>It would be difficult, certainly, to, look into Mary's eyes and imagine
+                            her to be anything else. But go on. Did she say anything more?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>She did. After thinking for a few minutes very gravely, she began to
+                            smile again in that curious, tearful manner. “And in another way,” she
+                            said, “I have found it of use to be tolerably fresh and pleasant
+                            looking. It puts me quicker <foreign xml:lang="fre">en rapport</foreign>
+                            with my girls. It shows them that at least I have known what it is to be
+                            young and foolish. They write to me about my ‘dear face,’ my ‘bright
+                            face,’ my ‘happy smile.’ All that is useful, and not to be despised. I
+                            notice there are so many women who take up ‘work’ of various kinds from
+                            motives which are not the highest. They want occupation; they are tired
+                            of home restraints; they have had disappointments, and ‘<foreign xml:lang="fre">epousent Dieu, parce que'elles n'ont pu epouser leur
+                                cousin</foreign>.’ Now, in my case, my children can never think I go
+                            to them because I have nothing else to do.”</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Then Mary has some class of girls?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Not exactly. Mary is a believer in individual treatment, and, never has
+                            more than one with her at a time, if she can help it. She says she gets
+                            at them better in one tete‐a‐tete than she would do in twenty classes.
+                            Besides, classes are not exactly compatible with rescue work.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Rescue work. Do I understand you that Mary visits Refuges and
+                            Penitentiaries.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I should have said with the branch of rescue work which she has taken up.
+                            No. She has chosen a field which she deems of more importance, because
+                            it is the most difficult of all, and the workers in it are scarce, as
+                            yet. She and her friend Aimee visit the houses of ill‐fame in the
+                            daytime, try to reach the inmates separately, and when <pb n="6" xml:id="VAB7068-005"/> they have got them out, which they accomplish
+                            mainly by winning their affections, deal with each case singly, as the
+                            special circumstances require.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>I am bewildered! To hear you talk so calmly of such horrors! As if it
+                            were a matter of course that one's wife should be exposed to such
+                            contamination, should go freely into those dens of iniquity and
+                            associate on equal terms with the wretched women whose very existence it
+                            is a shame she should know of!</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I am only not surprised at your bewilderment, but I can sympathize with
+                            you in it. It is not till a man has given long, patient, unprejudiced
+                            and unselfish thought to this matter, that any other attitude of mind
+                            can be expected of him. We are all brought up, or have been until quite
+                            latterly, men and women alike, to ignore, as far as it can be ignored,
+                            that outward and visible sign of an inbred taint and of wide‐spread
+                            corruption known as the “social evil.” What we have heard of it in our
+                            youth, we have heard illicitly and by stealth; any practical knowledge
+                            we may have of it in later years, we acquire also illicitly and by
+                            stealth, lest our mothers and sisters, lest any pure‐minded woman, or,
+                            for the matter of that, high‐minded man, hear of our wild‐oat‐sowing;
+                            or, if we are of a different calibre, and unfortunately brought,
+                            officially or otherwise, into contact with the abominable thing, we get
+                            through our distasteful duties as rapidly as we may, thinking nothing of
+                            the tremendous issues, national and domestic, that are involved, but
+                            only how we may pass on, with all expedient haste, to less unsavoury
+                            business.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>I confess I have not been in the habit of regarding this matter from a
+                            “national” point of view. What do you mean, now, by tremendous national
+                            issues?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I could talk to you on that chapter till morning. But I prefer to sum up
+                            in words not my own the substance of what I should say. I can put my
+                            finger on the passage—here—in my common‐place book. It is from the <pb n="7" xml:id="VAB7068-006"/> first volume of Froude's “Early Life of
+                            Carlyle”:— <q>
+                                <p>He saw that now, as much as ever, the fate of nations depended,
+                                    not on their material development, but, as has been said in the
+                                    Bible, and among all serious peoples, on the moral virtues,
+                                    courage, veracity, PURITY, justice and good sense. Nations where
+                                    these were honoured prospered and became strong. Nations which
+                                    professed well with their lips, while their hearts were set on
+                                    wealth and pleasure, were overtaken as truly in modern Europe as
+                                    in ancient Palestine by the judgment of God.</p>
+                            </q></p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>I suppose there is no controverting the argument contained in that very
+                            eloquent passage. But I am afraid I am a dense, matter‐of‐fact person,
+                            not very susceptible to flights of rhetoric, and I own I should prefer
+                            some less vague and general proof of your assertion.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>As I said before, it would take me all night to prove it categorically.
+                            For the rest, I am not a great believer in statistics. As George Eliot
+                            says, “the driest argument has its hallucinations,” and I maintain that
+                            men may dream in statistics as well as in demonstrations, and cut out
+                            for themselves illusory worlds in the shape of returns, as well as
+                            axioms, “with a final exclusion of fact signed Q.E.D.” But if you are a
+                            stickler for figures, I will mention one or two. They will, I think,
+                            content you. The number of victims—I will call them by no harsher name,
+                            lest I come short of the truth—the number of victims to the selfishness
+                            of men, the indifference of women, and the ignorance and callousness of
+                            society generally, in London alone has been computed at 80,000. Suppose
+                            it is only half as many. Imagine <emph>forty thousand</emph> women
+                            living in a state of the profoundest moral and physical degradation, in
+                            a servitude more abject than the most abject form of slavery recorded in
+                            history, in a defilement as complete as anything we have shuddered at in
+                            the annals of ancient Rome or modern Paris! The fact requires no
+                            comment. It is not an agreeable fact; it is not a cheerful fact. But I
+                            think <pb n="8" xml:id="VAB7068-007"/> it cannot be gainsaid that it is
+                            an important fact, and that it behooves us as citizens—I will not say as
+                            humane and rational beings—to look it in the face. My common‐place book,
+                            which, with your leave, will remain open while we are upon this subject,
+                            furnishes plenty of evidence, <emph>not</emph> of a “vague and general”
+                            character, if more be desired. Here is a specimen. “I consider,” says a
+                            writer who has earned the right to be heard on this question, “the
+                            saddest and deepest of our social evils, the degradation of women, as
+                            preeminently a sin <emph>against the commmunity</emph>, feeding the
+                            crime and disease of the country to a degree that few altogether
+                            realize. Out of 18,700 summary female convictions in Ireland, 11,463, or
+                            61.3 per cent. were prostitutes. The statistics of disease would show
+                            more terrible results still, could they be obtained.” Have you had
+                            enough? Or will you hear another <emph>fact?</emph> Our slave‐population
+                            of degraded girls is of a transitory, not of a permanent character.
+                            About two‐fifths of them marry. What of their subsequent history? What
+                            of their off‐spring? What of a society recruited from such elements, of
+                            a lower class so mothered? But, as I said, to my own mind no figures are
+                            needed to expose the horrors of this national sore we hide indeed, but
+                            secretly nourish—I had almost said cherish—at any rate, accept as a
+                            disposition of things that always must be, as it always has been. For
+                            one whose eyes are opened, the proofs of the injury it occasions to the
+                            community, the deep‐seated evil of which it is at the same time cause
+                            and effect, are not far to seek. They are in every newspaper he takes
+                            up, every book he reads, every chance conversation he hears.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>May I interrupt you to ask a question in passing? I do not understand why
+                            you insist on calling these wretched women <emph>victims</emph> and
+                                <emph>slaves</emph>. Surely they are free agents like the rest of
+                            us, and have themselves to thank for the plight they are reduced to.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Are women free agents? Do we consider our own women—the women of our own
+                            class—free agents? <pb n="9" xml:id="VAB7068-008"/> Even when we have
+                            braced and strengthened them with all that care and culture can do for
+                            them; when, amid the amenities of home life, we have taught them German
+                            and music, possibly Greek and mathematics; do we consider them, so
+                            trained and panoplied, fit to be launched upon the world alone at
+                            fifteen, sixteen? Do we not look upon they as quasi children while they
+                            are in their teens—indeed, in many cases, till they marry, at whatever
+                            age? Do we not foster them, shelter them, shield them, demur to their
+                            going abroad unchaperoned—continue, in short, to father them? Yet these
+                            girls who make our streets unholy and our nights
+                                hideous—<emph>you</emph> persist in calling them <emph>women!</emph>
+                            What wondrous hallucination is this? Is it a far‐off memory of the
+                            “strange woman” of Proverbs? And do you seriously believe that three
+                            thousand years have wrought no change in this thing—that the Judea of
+                            Solomon's time was in all respects as the London of our own, that “the
+                            profligate married woman of mature years, described in those verses,
+                            bore the smallest relation to the wretched, hungry,ind ignorant children
+                            who infest our streets?” Again, it is scientific fact that a rapid
+                            physiological development is frequently accompanied by a sluggish mental
+                            one. The <emph>woman</emph> of sixteen is an infant in judgment, in
+                            reflection, in self‐control—</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>But not always in experience.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Almost always in experience that is calculated to do her any good. Of
+                            what use is it to her to <emph>know</emph> that infamy exists years
+                            before her sister of the upper classes suspects it? How does she acquire
+                            the knowledge? From the lips of the only teacher that ever kept man or
+                            woman steadfast in innocency of life—the lips of love? Or from her low
+                            surroundings, her unscrupulous companions, her coarse, unlovely mode of
+                            life, and those harsh threats which sow the seeds of every evil they are
+                            intended to avert?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>It is the matter of fact that these girls are for the most part very
+                            young in years?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>It appears from the statistics of Rescue Socie‐<pb n="10" xml:id="VAB7068-009"/> ties that the greater number are led astray
+                            before they are eighteen. I will not touch upon the appalling fact of
+                            the increasing desecration of mere children. You know that up to
+                            thirteen the law affords them a certain protection. After that we have
+                            ordained that these infants in mind and will, these unstable ones,
+                            these, orphaned ones—for orphaned they usually are of all true
+                            succour—shall be <emph>free agents</emph>. If they had so much good
+                            fortune as to possess material wealth, we should guard that for them
+                            till they were twenty‐one. No plea of “consent” would avail one who
+                            should seek to defraud tnem of their gold. But, if in a moment of
+                            giddiness and blindness—ah me! of hunger and of anguish—they barter away
+                            the one priceless possession that they have, what is that to us? She is
+                            of age, ask her, she shall speak for herself. She is—thirteen! Good God!
+                            It makes the blood curdle. Upon the condition of public opinion which
+                            renders such a state of the law tolerable for another hour, I will not
+                            trust myself to enlarge. I will merely turn again to the writer whose
+                            impassioned words I have quoted more than once. “As long as ruined girls
+                            are talked of as a necessity of a complex civilization, which delays
+                            early marriage; as long as a high price is forthcoming for the
+                            commodity; as long as Englishmen remain on a level with the Zulu
+                            chieftain who, when the English Government sent him a present of wagons
+                            and wheelbarrows, exclaimed, in fine scorn, ‘What's the use of those
+                            things for bearing our burthens whilst we have plenty of women?’ as long
+                            as the British Zulu says complacently, ‘What is the use of our bearing
+                            that burthen of self‐control which civilized life throws upon us, whilst
+                            we have plenty of women to crush and degrade,’ so long the demand will
+                            create the supply.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Stop a moment. You are going too fast. Your zeal, which I will admit to
+                            be righteous, seems to me to be slightly outrunning your discretion. I
+                            do not believe that the majority of men reason in that manner.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Oh, for that matter, neith1er do I. I am speaking <pb n="11" xml:id="VAB7068-010"/> of their practical, not of their ostensible
+                            reasoning. It matters very little to you how men <emph>talk</emph>, if
+                            once you have the unlucky knack of examining the logic of their
+                            actions.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Then you would give men in general credit for being so black‐hearted?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Heaven forbid. My quarrel is with principles, not with individuals. They
+                            are the victims of a false public opinion, that is all. For the most
+                            part they have no conception themselves where that same unconscious
+                            logic of theirs really lands them. I think well enough of my species to
+                            believe that when any average man does know it, does learn, by careful
+                            investigation, observation, and reflection, the true position in which
+                            he is placed by the anomalies of our present social code, he repudiates
+                            that code as he repudiates cowardice and baseness, and everything that
+                            dishonours, deforms, and degrades his manhood. For the rest, if I
+                            exaggerate in discussing this question, you must condone it on the score
+                            of the centuries of numbness, of deadness, that have surrounded the
+                            aspect of it upon which we are just now dwelling. We have hitherto
+                            exaggerated our blame of the weak woman. We may be pardoned for
+                            temporarily exaggerating our blame of the strong man. Let our endeavour
+                            be to fix our eyes neither upon man nor woman, but upon
+                                <emph>truth</emph> only, and the balance may be trusted to redress
+                            itself of its own accord. Meanwhile, there are heroic spirits who are
+                            not afraid of exaggerating their own share of responsibility in this
+                            matter. There is a young man—a kind of Galahad—brave as only the very
+                            pure can be—a true knight of modern times—who is giving his life to the
+                            cause. He once went up to a group of outcasts, and told them from his
+                            heart, with all the pitying respect and courtesy due to their spoiled
+                            womanhood, that when he thought of how men had wronged them, he was
+                            ashamed to look them in the face—he was ashamed to be a man.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You speak as though none of them had ever tempted men—young men
+                            especially—to evil.</p>
+                    </sp>
+                    <pb n="12" xml:id="VAB7068-011"/>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I never hear that argument without thinking of that manly excuse of
+                            Adam's: “The woman whom Thou gavest to be with me, she gave me of the
+                            tree, and I did eat.” But granting, as you know that I do abundantly
+                            grant, that most men are simply without the means of knowing their real
+                            duty in relation to women; that we wrong them only less cruelly than we
+                            wrong their temptresses, that we educate them falsely at home, at
+                            school, and in the world,—are we, on that account, to keep up our
+                            pariah‐system with regard to the weaker class of transgressors only? How
+                            did they become such? From choice? I answer most deliberately—No. In
+                            Paris, the “brothel of Europe,” as it has been called with painful
+                            fitness, it has been computed that only about five per cent. of these
+                            poor souls voluntarily choose and like their life. They are in prison
+                            and cannot come forth. The first false step has placed them under the
+                            social ban. Henceforth retrieval is made well‐nigh impossible. They must
+                            “tempt” or starve. They are the scorn of women, the slaves of men. The
+                            leaden pall of age‐long custom, of tradition, of conventionality, has
+                            descended upon them, as it were, in an instant, and effectually shut off
+                            from them all hope of rising into a purer air. Last of all, the State
+                            steps in to recognize their “trade” and fit them for it, to carefully
+                            exclude them from every constitutional, as they are already excluded
+                            from every social, privilege, to brand them like cattle, and set them
+                            apart for uses less noble than those to which we devote the beasts of
+                            the field.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>But are we to condone impurity in a woman? Is there not something to be
+                            said for the “age‐long custom” which ostracizes a fallen woman? Is she
+                            not a traitress to the cause which it is her special mission to
+                            uphold—the cause of domestic purity, of untarnished family life?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>No doubt the same reflection occurred to the Scribes and Pharisees when
+                            they brought the woman taken in adultery to One whom they suspected of
+                            disaffection <pb n="13" xml:id="VAB7068-012"/> towards certain of their
+                            existing institutions. But His pure eyes saw, through the mists of a dim
+                            nature, a fairer day arise, when the responsibility of the family—that
+                            unit of the State upon which its stability add strength depend—would not
+                            be thrown alone upon its weaker members; when men, of stronger passions
+                            if you will, but also stronger in the power of self‐control, would scorn
+                            to exact from women a standard of moral purity they were not prepared to
+                            conform to themselves. Tracing upon the sand those mystic signs whose
+                            purport we know not, we know that his passoniate soul was kindling with
+                            pity and shame, and the sorrowful indignation of the man who, amidst
+                            prevailing obscurantism, apprehends truth, who, amidst cynicism and
+                            cruelty, hungers after love. And those scathing words when his trance
+                            was ended,— <q>
+                                <l>“He that is without sin among you, let him first cast a stone at
+                                    her,”</l>
+                            </q> —how is it that they have not branded for ever our unequal moral
+                            standard with the infamy it deserves?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>That it is an unequal standard must occur at times to every one who
+                            thinks. But I have been accustomed to explain it to myself on the ground
+                            that it is based upon a natural law. The infidelity of the woman saps
+                            the very foundations of family life, confuses offspring, destroys the
+                            home, whereas the license of the man—</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Creates a pariah‐class which cannot exist without the most deadly injury
+                            to the family. How fatal to family life the existence in our midst of a
+                            class of women dedicated to impurity must be it would seem needless to
+                            demonstrate, were it not for the paradox current in some quarters that
+                            its maintenance is actually a safeguard of the family! There is no time
+                            in a desultory conversation like the present to refute this and such
+                            like arguments <foreign xml:lang="lat">seriatim</foreign>, We are but
+                            cursorily skiniming the surface of a vast question, which branches out
+                            at every turn into fresh ramifications. But I may tell you that science,
+                            medical and economic, is hourly proving the fallacy of any such sup‐<pb n="14" xml:id="VAB7068-013"/> position. For the rest mere
+                            common‐sense, without the aid of science, ought surely to suffice. As
+                            well keep an open cesspool at your door on the plea of its being a
+                            safe‐guard to health, as a moral plague‐spot like this in your great
+                            centres of population to preserve the purity of domestic life intact.
+                            Apart from tlhe more obvious and hideous dangers, must not such an
+                            institution react in a thousand subtle ways upon the atmosphere of our
+                            homes? Is it not a standing education in selfishness to our sons, in
+                            stupid heartlessness to our daughters?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>What do you mean?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Ah! you should hear Mary on that chapter. Her education, as you know, was
+                            neither more nor less Pharasaic than is usual with girls of her class.
+                            But she has often told me that when she made for herself the discovery
+                            that these nameless ones were her sisters, made of her own flesh and
+                            blood, only poor, only weak, only ignorant, only ground into a foul
+                            serfdom by the tender mercies of our Christian civilization, it
+                            revolutionized her life. She had been taught that it was wrong to know
+                            of their existence. When the scales fell from her eyes, she saw that in
+                            that teaching lay the root of half their wrongs. And she has told me,
+                            moreover, that it would be well if a childish, ignorant hardness were
+                            the worst result upon the characters of women, of this division of their
+                            sex into two classes, one to be cherished, the other to be destroyed.
+                            She has noted in some circles she was at one time a good deal thrown
+                            with—and who that has been much in society of late years will not
+                            confirm her words?—she has noted a deterioration among her girl
+                            companions and among women generally, which she cannot but attribute to
+                            the same source. She says that in the conditions of modern society it is
+                            impossible that the contamination should not spread beyond the limits we
+                            have tried to assign to it. One result of the increasing disproportion
+                            of women to men has been a tendency on the part of women of the upper
+                            classes to ape <pb n="15" xml:id="VAB7068-014"/> men's habits,
+                            amusements, dress and so forth, and among other things, to adopt more
+                            and more the moral tone which men think good enough among themselves.
+                            How can the constant companions of “fast” men fail to become “fast”
+                            themselves? and, in the over crowded state of the marriage‐market, not
+                            endeavour to outdo in dress, manners, ay, and in morals, their most
+                            formidable competitors? It is their <foreign xml:lang="fre">metier</foreign> to affect the style the men they consort with most
+                            admire, and who shall blame them? When men really worship and reverence
+                            purity in women—not in <emph>the</emph> woman they intend to make the
+                            mother of their children, but in women, in womanhood—things will mend
+                            fast enough.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>I suspect from what you say that the tone of society generally has not
+                            improved during the last few years. I have been leading the life of a
+                            recluse, and though you are pleased to compliment me on having preserved
+                            a certain veneer of civilization, our talk to‐night has made me feel
+                            more than ever behind the world. I do not recollect in my college and
+                            law‐student days such a condition of moral degeneracy as you
+                            describe.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Because, on the one hand, you had small natural affinity with it, and on
+                            the other, it never occurred to you to take cognizance of it from the,
+                            so to speak, external standpoint of the social reformer. Besides, it is
+                            true that matters have not changed for the better in recent years. How
+                            should they? We are reaping as we have sown. We have, as a community,
+                            sown to the flesh, and, as a community, we are reaping corruption. I
+                            have here a collection of notes, culled at random from the current
+                            literature of the day, and from my own personal experience, bearing on
+                            this part of our subject. Many of them are insignificant enough in
+                            themselves, merely the straws that show which way the wind blows. Will
+                            you hear a few?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You know my <foreign xml:lang="fre">penchant</foreign> for documentary
+                            evidence.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>The first I open to is from a book which has recently had an almost
+                            miraculous amount of success among <pb n="16" xml:id="VAB7068-015"/> all
+                            classes of readers. It purports to be the history of a scholar, a
+                            Christian, and a gentleman of the seventeenth century, whose varied
+                            culture and catholic breadth of spirit are probably intended as a model
+                            for all time. This is his attitude with regard to the virtue of
+                            chastity:—“As a courtier and man of the world [John Inglesant] was
+                            profoundly tolerant of error and even of vice (provided the latter did
+                            not entail suffering on any innocent victim), looking upon it as a
+                            natural incident in human affairs.”</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Well, what more would you have?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Before I reply to that question let me give you the absolutely identical
+                            views of a gentleman of the nineteenth century,—not a notorious <foreign xml:lang="fre">roue</foreign> whom we, I mean whom some of us, would
+                            be shy of admiting into our families—but a man neither better nor worse
+                            than other men, a “good fellow,” kind‐hearted, honourable, and popular
+                            in society. He figures in one of Whyte Melville's later novels, called
+                            “Roy's Wife.” He is, or imagines himself to be, deeply in love with a
+                            good woman, when he makes the following proposition to a friend. “Dine
+                            with me quietly, <foreign xml:lang="fre">en garcon</foreign>. I've a box
+                            at the Deucalion. We'll see the Ugly Duck—its rather a good
+                            burlesque—and bring What's‐her‐name back to supper. It wouldn't be bad
+                            fun.” Now, I need not point out to you that the author who credits a
+                            young Englishman with so much respect for women in general, and for the
+                            woman he loves in particular, is not one who is drawing on his
+                            imagination. He was, on the contrary, better qualified than most
+                            novelists to describe the bachelor life of our gilded youth. He was
+                            himself of a nobler strain than the Fitz‐Owens. Commenting upon this
+                            young gentleman's theory of life, he says—“Lord Fitz‐Owen's code of
+                            morals was one of which we cannot approve, the result of a false system
+                            of education..... He could see that it was wrong to disturb wedded
+                            happiness and the peace of families, to blight a girl's hopes, or taint
+                            a woman's reputation before the world with the lightest breath of <pb n="17" xml:id="VAB7068-016"/> shame. Such injuries he would no more
+                            have inflicted than he would have .... struck a man when he was down. To
+                            his own code of social morality as it may be called, he adhered
+                            strictly, but this left a wide range wherein he felt at liberty to
+                            disport himself, as he pleased.” Is not that John Inglesant to the
+                            letter? “Tolerant of vice provided it did not entail suffering on any
+                            innocent victim, looking upon it as a natural incident in human
+                            affairs.”</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Precisely; and I say again, what more can you expect? You are not,
+                            surely, sanguine enough to suppose that the “man of the world” will ever
+                            look at it in any other point of view?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Why should he not?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Why? The thing is an absurdity. And so about this pariah class, as you
+                            call it. It always has existed, and it always will exist.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Spare me that time‐honoured argument. It has been pleaded against every
+                            reform that ever germinated in the brain of prophet or seer, and, having
+                            drained his heart's blood, and procured for him the proud reward of
+                            cross or stake, went forth triumphant through an adoring world, and
+                            became a truism on children's lips. I am not so credulous as to suppose
+                            that we can eradicate vice any more than that we can eradicate murder or
+                            theft. What I do maintain is that we can eradicate tolerated and
+                            approved and legalized vice, and that by a due leavening of public
+                            opinion we can place it where it should be—in the same category with
+                            murder and theft. Have we ceased to regard the soul as of greater worth
+                            than the body? It is the murder of the soul. Do we revere the body? It
+                            is the theft of all that sanctifies that “temple.”</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>But if the murder be already done, the theft committed?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Let me recall to you that social code of Lord Fitz‐Owen's. He would not
+                            “strike a man when he was down.” That would have been as heinous as to
+                            cheat a <pb n="18" xml:id="VAB7068-017"/> man at cards, break your
+                            solemn word to a man, be guilty, in short, of any dishonourable act
+                            towards your equal and associate—<emph>man</emph>. But when it comes to
+                            a <emph>woman</emph>—when it is a woman who is “down”—what then? Plunge
+                            her lower! Heap infamy upon her! Place one more stumbling‐block in the
+                            way of her retrieval! Do your best that she shall continue a by‐word!
+                            You have law on your side, you have society on your side, you have—or
+                            until quite recently you had—women your side, you have immemorial usage
+                            on your side, and that noble “always‐has‐been‐and‐always‐must‐be” as
+                            your excuse. Against you, you have only—shall I call it the law of
+                            God?—the immutable law of Goodness which will have mercy and not
+                            subscriptions to charity‐lists, and justice rather than many missionary
+                            societies. But we are digressing. I will now give you a “straw” of a
+                            more portentous character. I have it recorded here in the terse form of
+                            a letter addressed not a great while since to a newspaper by a lady
+                            signing herself “A Soldier's Sister.” Referring to the case of an
+                            ex‐officer of the British Army, who was cashiered for what the judge who
+                            sentenced him described as “a wicked outrage which I must call cowardly
+                            and dishonourable,” she remarks that “the world to her has been a
+                            drearier place since 359 members of a leading club have pronounced that
+                            the conduct for which he was expelled the army <emph>has not detracted
+                                from his character as a gentleman</emph>.” Again I refrain from
+                            commenting upon the moral condition of a society in which such a
+                            phenomenon is possible. Let us pass on. My next extract is from a
+                                <bibl><title>Times</title></bibl>' Parliamentary report of last session. It shows,
+                            as you will see, that there is something irresistibly ludicrous to our
+                            senators in women meddling with politics at all; but that when they
+                            meddle with them at the expense of their dearest prejudices, and of
+                            their keenest susceptibilities, when they meddle with them at the cost
+                            of their happiness, their peace of mind, their health—ah me! of their
+                            reputation itself—that then the joke becomes truly exquisite.</p>
+                    </sp>
+                    <pb n="19" xml:id="VAB7068-018"/>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You refer, of course, to the annual difficulty of clearing the Ladies'
+                            Gallery when the objectionable Acts are under discussion. I cannot bring
+                            myself to see that it is in any way necessary—nay, that it is not highly
+                            undesirable that it should be occupied on those occasions.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Waiving that question for the moment, you must agree with me that the
+                            manner and mood in which its clearance is sought to be effected leave
+                            something to be desired. In the course of a brief disussion on the
+                            motion to exclude strangers, the <bibl><title>Times</title></bibl> reports “laughter”
+                            no less than five times. After this the common talk about Christianity
+                            elevating the social status of women, about chivalry “through which the
+                            reverence of man for woman became an integral part of the moral
+                            structure of society!” smacks somewhat of irony. “Integral part of the
+                            structure of society!” We have not learned the A B C of true reverence
+                            for women.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You surprise me: one would expect the graver aspects of these questions
+                            to appeal to men responsible for public affairs.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>The causes of the anomaly, like the causes of everything else, lie buried
+                            deep in the past, and would require half a lifetime to disinter and
+                            disentangle. But one broad fact may be stated, without fear of
+                            contradiction, which accounts for a good deal. The Christian Church
+                            (though the world owes to her the first recognition of personal purity,
+                            as a binding obligation on man and woman alike) in violent reaction
+                            against the excesses of the worn‐out Pagan world, started off in very
+                            early times on the wrong tack. She made the grand—I had almost said the
+                            irretrievable error—of seeking to be wiser than nature, wiser than God.
+                            Instead of placing purity where it was intended to be, in the very head
+                            and forefront of all the moral virtues, she gave it a second place; she
+                            subordinated <emph>purity,</emph> with marriage for its end and crown,
+                            and conjugal fidelity for its sacred duty and ideal, to a fantastic
+                            invention of her own called <emph>virginity</emph>. The result was, as
+                            might have been foretold, a speedy lowering<pb n="20" xml:id="VAB7068-019"/> of the chimerical standard, and a hopeless
+                            confusion of moral ideals. Concessions had to be made to the weak, sin
+                            had to be winked at; the doctrine of the “higher spiritual life” had to
+                            be invented—by the devil.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>And pray why—<emph>by the devil?</emph></p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Because a dual standard of morality can by no possibility have any other
+                            parentage. As soon as you admit that there can be a different standard
+                            of right and wrong, in essential matters, for pope and emperor, for monk
+                            and man of the world, for clergy and laity, you open the door to evrey
+                            sort of logical fallacy, and every form of creeping, contemptible
+                            iniquty. You speedily reach a state of things typified by the immortal
+                            grocer of “sand‐the‐sugar‐and‐then‐come‐into‐prayers” celebrity, or by
+                            the Italian cut‐throat who mutters an orison to the Virgin, with one
+                            hand on his stiletto and the other in your pocket.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>What about the Reformation? Did not the vessel of the church shift her
+                            course a little at that time?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>She did little more than exchange the Scylla of ceremonial for the
+                            Charybdis of dogma. And between these two she has most pitifully wavered
+                            ever since; the two opposing parties, Orthodox and Heretic, Catholic and
+                            Protestant, High and Low—call them what you will—too much occupied in
+                            vituperating each other to notice that all the time the angel of
+                                <emph>Goodness</emph> was standing without, forgotten and alone,
+                            yea, though his outstretched hands bore the print of the nails, and his
+                            face was, as it were, the face of the Christ.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>The charge is a terribly sweeping one.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Let me remind you, I am not speaking of individuals, of the handful of
+                            men who have battled in all ages, and in all communions, and who, as I
+                            thankfully acknowledge, are battling at the present moment, with real,
+                            not with what Milton called scarecrow, sins. But ask the average
+                            clergyman or minister whether he preaches against fornication, as St.
+                            Paul did. Your invariable reply will be something in <pb n="21" xml:id="VAB7068-020"/> which the phrase “mixed congregations” is
+                            chiefly audible.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>But do you not sympathize with him in his difficulty? How can he shape
+                            his discourse so that it shall not offend—I do not say the prude or the
+                            Philistine—but the little ones of his flock?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>I wonder whether these nice considerations weighed with St. Paul, when he
+                            lifted up his voice against the torrent of evil he saw threatening to
+                            overwhelm the world, or with the Baptist, when he cried to men in the
+                            wilderness to flee from the wrath to come! But tell me, where do you
+                            hear even the secondary causes of immorality denounced as they should
+                            be, and could be, without offense to any, from every pulpit in the land?
+                            Where is the prophet, who proclaims that selfish luxury, that busy
+                            idleness, that the life devoted to pleasure, to sport, to tittle‐tattle,
+                            or worse, is absolutely and unconditionally sinful, more sinful I say it
+                            without a shadow of hesitation—more sinful than the life of the wretched
+                            housebreaker or pickpocket, than the life of the child‐harlot, be she
+                            nine or nineteen? Where do you hear the hideous forced over‐crowding of
+                            our people, and the avariciousness of landlords, and supineness of
+                            munipalities, to the health and morals of the people denounced as they
+                            ought to be? Where do you hear the miserable condition of the large
+                            majority of working women and domestic servants exposed as it should
+                            be—the horrible extortion and oppression, whether voluntary or not, of
+                            the employers of women's labour, the starvation rate of wages, literally
+                            forcing them into sin, the total absence of every form of innocent
+                            recreation such as the young need, of all cheerful kindly sympathy in
+                            their bitter struggle for existence?</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>To hear you talk, one would suppose the “Song of the Shirt” might have
+                            been written yesterday.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Ay, and its sequal the “Bridge of Sighs.” There are at the present moment
+                            in London about 60,000 working girls earning wages barely sufficient to
+                            support life. What do you say, for instance, to shirt‐making at 2<choice>
+                                <abbr>d.</abbr>
+                                <expan>pence</expan>
+                            </choice>, 1¾<choice>
+                                <abbr>d.</abbr>
+                                <expan>pence</expan>
+                            </choice>, <choice>
+                                <orig>some‐</orig>
+                                <reg>sometime</reg>
+                            </choice><pb n="22" xml:id="VAB7068-021"/> time <emph>one penny</emph>
+                            each? The white slave, thus remunerated, can make six, or eight, perhaps
+                            even a dozen shirts in a day, by sitting at her machine from six in the
+                            morning till twelve at night. Out of this stupendous wage, <emph>she has
+                                to find her own thread</emph>. Or her trade, perchance, is the
+                            making of women's ulsters. For one of these garments, selling at 7<choice>
+                                <abbr>s.</abbr>
+                                <expan>shilling</expan>
+                            </choice> 11<choice>
+                                <abbr>d.</abbr>
+                                <expan>pence</expan>
+                            </choice>, she will be paid 2<choice>
+                                <abbr>d.</abbr>
+                                <expan>pence</expan>
+                            </choice>; for one selling at 25<choice>
+                                <abbr>s.</abbr>
+                                <expan>shilling</expan>
+                            </choice>, 6<choice>
+                                <abbr>d.</abbr>
+                                <expan>pence</expan>
+                            </choice> She can, with difficulty, make six in a day; thus earn a
+                            glorious income, out of which, as you may imagine, she scarcely misses 5<choice>
+                                <abbr>d.</abbr>
+                                <expan>pence</expan>
+                            </choice> for every dozen ulsters spent in twist and cotton! Or she is
+                            an apprentice, aged fifteen, in a house of business, a mile or two from
+                            her home. The walk is long, the hours of attendance are long, and she is
+                            often very weary. And she earns 2<choice>
+                                <abbr>s.</abbr>
+                                <expan>shilling</expan>
+                            </choice>, sometimes 1<choice>
+                                <abbr>s.</abbr>
+                                <expan>shilling</expan>
+                            </choice> a week!</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>And your theory is that this miserable and really iniquitous rate of
+                            payment. is one of the great feeders of the social evil?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Is it necessary of <emph>theories?</emph> Do not the <emph>facts</emph>
+                            stare one in the face? And yet we scorn, and yet we condemn, and yet we
+                            pass by on the other side. How can we expect self‐control, self‐denial,
+                            self‐respect, from those poor shivering, underfed bodies, to whom a
+                            hearty meal, a warm good garment, an hour's frolic, comes only in the
+                            form of temptation? It grows late, and the note‐book, which you have had
+                            too much of already, must be put away for to‐night, or I could poison
+                            your dreams with some entries under this head.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>There is time for one or two.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>A lady who devotes herself to some of these friendless ones, principally
+                            young servants who have forfeited their characters,
+                                writes:—<corr>“</corr>The feeding of poor girls at home has much to
+                            do with their unsatisfactory service. They go with a weak body to work
+                            hard—no appetite when they can get food.” Another lady says:—“I know of
+                            workroom where they have no fires until a certain date no matter how
+                            cold it may be. During last November<pb n="23" xml:id="VAB7068-022"/>
+                            the girls suffered horribly, and for one of them I had to procure a
+                            ticket as out‐patient to a hospital, her delicacy having been chiefly
+                            induced through constant suffering from cold whilst at work.” A doctor
+                            at Islington informs a daily paper that “within half a mile of my place
+                            there are a large number of retail establishments, chiefly of the cheap
+                            and competing kind, and at the present time I have on my books more than
+                            a dozen patients, young women, whose <choice>
+                                <corr>ailments</corr>
+                                <sic>aliments</sic>
+                            </choice> are entirely attributable to the excessive number of hours
+                            they are compelled to work, and to their being constantly on their
+                            feet.” These same patients are described as “some weak and fragile,
+                            others more robust, but all alike suffering <emph>intense pain</emph>,
+                            the natural consequence of being on their feet thirteen or fourteen
+                            hours every day, and sixteen or seventeen on a Saturday.....” And now to
+                            bed, with what appetite for sleep you may!</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Stay a moment. Time was made for slaves. Do you know you have touched me
+                            a good deal for these young creatures?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>If I could tell you all that I have heard from a woman's lips of what
+                            women, even women of the well‐nourished classes, suffer from the frailty
+                            of their bodies, the chronic lassitude, the regiment of woes falling
+                            under the to us mysterious head of “nerves,” the hidden sufferings of
+                            potential and actual motherhood which suck the energy and verve from
+                            life, as we men know it—but I have said enough. Cecil! it is time we
+                            shook off the selfishness of our cynicism, whether of word or act, and
+                            rose to a manlier view of our responsibilities towards the other sex. It
+                            is time we assumed something of the prerogative of strength; protection,
+                            even of the vile; pity, even for the temptress, spoiled, seared,
+                            bestialized by sin; reverence even for that most horrible, and happily
+                            rare thing, a womanhood tainted from the birth by hereditary guilt, and
+                            altogether past redemption by any effort of ours. Shall we not
+                                remember—<pb n="24" xml:id="VAB7068-023"/>
+                            <q>
+                                <l>“What 'tis to be a man—to curb and spurn</l>
+                                <l>The tyrant in us—that ignobler self,</l>
+                                <l>Which boasts not loathes its likeness to the brute,</l>
+                                <l>And owns no good save ease, no ill save pain!”</l>
+                            </q></p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Believe me, I do not speak mockingly when I say that I am ashamed to
+                            interrupt you with a reflection that has occurred to me more than once
+                            in the course of your remarks. But you will not misunderstand me. You
+                            have incidentally referred to a difference of opinion as to the
+                                <emph>necessity</emph> for the existence of an outcast class. I
+                            think you have disposed of your opponent's case from the more strictly
+                            social point of view. But you have touched very lightly upon the
+                            hygienic question. If I am rightly informed, the medical faculty are not
+                            altogether at one upon the point, and I understand that some doctors of
+                            repute are in the habit of giving young men counsel diametrically
+                            opposed to that which you would offer them.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Believe me, I do not speak thoughtlessly when I say that I am ashamed,
+                            always deeply ashamed and humiliated, when I am called upon to encounter
+                            that argument. It shows a profound ignorance of sound human physiology,
+                            which teaches us that self‐government is the principle of individual
+                            health, and chastity the condition a strong national growth. Two words
+                            should guide medical counsel—Temperance and Occupation. But usually I
+                            prefer to meet this difficulty with a <foreign xml:lang="lat">reductio
+                                ad absurdum</foreign>. If the existence of a class of <foreign xml:lang="lat">hetæræ</foreign> is a <emph>necessity</emph>, it
+                            should be not only, as indeed it is already, recognized by law as an
+                            industry like any other, but respected socially as an important factor
+                            in the national health and well‐being. It should be recruited—if there
+                            is anything in the enthusiasm of humanity not solely from the daughters
+                            of the people, because forsooth, they are the most defenceless; but
+                            fathers and brothers of the well‐to‐do classes, willing Jephthahs should
+                            occasionally, from patriotic motives—</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>Hold! hold! A jest may be carried too far.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Not in this connection. What do you say, for <pb n="25" xml:id="VAB7068-024"/> instance, to the jest of a magistrate at
+                            Orleans the other day, who, when a poor victim was about to name the
+                            wealthy scoundrel who had been her moral murderer, shut her mouth with,
+                            “Hush! Do not compromise <emph>the honour of a respectable man!</emph>”
+                            But this in passing. No, I do but depict the logical consequences of
+                            these theories about the <emph>necessity</emph> of vice. All I have said
+                            should, logically, take place, and something more. We should pull down,
+                            not only our churches—that goes without saying—but the institutes and
+                            lecture‐rooms where we inculcate humanity, ay, and the hospitals and
+                            asylums where we practise it. We should once and for ever do away with
+                            our religion, of course, but equally with our cant of virtue, of
+                            altruism, of a race made perfect by upward striving, and glorious by
+                            self‐renunciation. If we are so inconceivably selfish, cruel, and
+                            bestial as to set aside in cold blood a certain number of thousands of
+                            poor girls—<emph>not being OUR OWN sisters and daughters</emph>—as a
+                            holocaust; natural and <emph>necessary</emph> for the good of the
+                            community—why, we may talk of Suttee and the torturing of Hindu widows,
+                            we may talk of the atrocities of Mohammedan harems and of Australian
+                            savagedom—the only difference between these degraded barbarians and
+                            ourselves will be that we shall be a thousand times more degraded, more
+                            contemptible, more unspeakable than they, for we have prided ourselves
+                            on our civilization, we have prated of virtue, we have received, century
+                            after century, upon our foreheads the symbol of self‐effacement, the
+                            sign of the Cross, and we have called ourselves for ages by the name of
+                            the pure and compassionate Christ.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>I was thinking how our conversation began. Was it not with Aimee and the
+                            “shrieking sisterhood?” I should be glad to hear more of your views on
+                            the subject of that agitation, and its relation to the broader questions
+                            we somehow drifted into discussing.</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>That must be for another day. In the <choice>
+                                <orig>mean‐</orig>
+                                <reg>meanwhile</reg>
+                            </choice><pb n="26" xml:id="VAB7068-025"/> while, beware of regarding it
+                            as anything but what it is—a symptom of a great moral revolution. It is
+                            not a spasmodic, isolated phenomenon; it is a precursor of a chance
+                            already stirring in the secret heart of multitudes. The smuggling of
+                            those amazing and iniquitous Acts into our Statute‐books (in other
+                            countries, as you may not know, they exist only in the form of police
+                            regulations) was but the spark falling on the tinder, the last drop in
+                            the over‐full cup. Like the great kindred movement for the abolition of
+                            slavery, this movement is the product of the world's growth in the
+                            humaner virtues, of the late blossoming of loving‐kindness, mercy and
+                            equity. We may call in question, if we choose, its mode of operation,
+                            the details of its programme, the feasibility, nay the sanity of its
+                            immediate aims; about the <emph>principles</emph> which gave it birth
+                            are their own justification, and carry within them the germs of future,
+                            absolute triumph.</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>You are not too sanguine?</p>
+                    </sp>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Who said that history was prophecy? Even a superficial study of history
+                            makes one something of a sooth‐sayer. There was a time when the
+                            conscience of the world was ripe for a protest against the traffic in
+                            human flesh. The world knew it not. Slavery <emph>always had
+                            been</emph>, and, so it was said, always would be; but those who could
+                            read the signs of the times knew that it was doomed, and that had the
+                            nations been polled, and the result been a minority of one against the
+                            fated institution, still that <emph>the world would come round to that
+                                minority of one</emph>. Emerson spake truly. And so it is now. The
+                            world is ripe, not for perfection, not for Paradise, not for Utopia, but
+                            for the abolition of vice legalized, vice patented, vice tolerated in
+                            society with a toleration strangely like acquiescence, if not approval.
+                            That portent that struck you just know with horror and amazement—the
+                            descent of pure women into the arena—is perhaps the most momentous of
+                            them all. Well may it amaze, even appal you! It is a measure of the
+                            significance of the <pb n="27" xml:id="VAB7068-026"/> combat. This
+                            protest of women against the systematized degradation of their sex,
+                            against the desecration of marriage, against the undermining of the
+                            family, is a profounder thing than you know. It is unperceived,
+                            nine‐tenths of it; it is as yet immature; but it is growing fast; its
+                            roots are striking deep into the soil of the civilized world, and it
+                            will not fail to bear fruit upward.</p>
+                        <p>There was a picture of Long's in the Academy two or three years back—you
+                            were in the Bush—which held me spell‐bound. It represented Esther, the
+                            Queen, seated in royal apparel. She is about to carry out her grand
+                            resolve. It is a question of life or death. In her fixed pathetic eyes
+                            you read, “If I perish, I perish.” You cannot take away your own from
+                            them. The details, the <emph>technique</emph> of the picture are lost in
+                            that absorbed, absorbing gaze; tranquil, heroic, pitiful. I think of
+                            Esther now as symbolic of the woman of the nineteenth century,
+                            sacrificing life itself in the cause, not merely of her people, not even
+                            of her sex, but of humanity.</p>
+                        <p>Oftener I compare her to Godiva, staking something dearer than life in
+                            the high emprise, stripping herself bare of the very vesture of her
+                            soul, rather than see the poor of her people become a prey, the rich
+                            given over to selfish indulgence and shortsighted cruelty. It is no
+                            hyperbolical phrase that I use when I say, “dearer than life.” <q>
+                                <l>“‘You would not let your little finger ache</l>
+                                <l>For such as these?’ ‘But I would die,’ she said.”</l>
+                            </q> —the Godiva of old. And she <emph>would</emph> have died, probably
+                            would have preferred death to the grisly alternative which she accepted
+                            for the people's sake.</p>
+                        <p>From the new Godiva, to, a harder thing than the mere laying down of
+                            one's life has been required. From her, too, it has been exacted to
+                            place upon the altar <emph>her reputation</emph>, exposing herself to
+                            something worse than mere physical torture, to a species of
+                            misconception more exquisitely agonizing than the most ingenious
+                            refinement of bodily<pb n="28" xml:id="VAB7068-027"/> suffering. For her
+                            the delight of living is gone,, the invigorating charm of social
+                            pleasures, the early, innocent gladness of the world. Friendship, the
+                            consoler, is often spoiled for her; sometimes she is cut off from
+                            love—the breath of life. Over all her pathway a shadow lies, and when
+                            her eyes are brightest, and her talk gayest, the heaviness of this thing
+                            is at her heart.</p>
+                        <p>Oh, the leaven has been working for years! Thinking women of the last
+                            generation saw well enough that the existing social code was rotten, a
+                            pitiable convention, one half prudery, the other half laxity— <q>
+                                <l>“Whose pureness rooted in impureness stood,</l>
+                            </q> to adapt a line of the Laureate.</p>
+                        <p>They saw even then that something less hollow, less negative, less
+                            hypocritial, was required. They craved even then a more passionate
+                            goodness, a more militant purity; and in their lives and writings they
+                            presaged dimly the bursting forth of the flame that was smouldering in
+                            their day. The works of Elizabeth Barrett Browning are charged with this
+                            sense of crying need and of coming change. It was strong in Harriet
+                            Martineau and in Mary Carpenter. Earlier still, it kindled the “genius
+                            of benevolence” in Elizabeth Fry, and drew her, tender and tremulous and
+                            self‐distrustful as she was, with irresistible force to the filth and
+                            infamy of the female side of Newgate. Were that grand spirit among us
+                            now, with what holy joy would she have united in the crusade initiated
+                            by her spiritual daughter, Josephine Butler, supported in different ways
+                            and at different points of the field of battle by women like Fanny
+                            Vicars and Ellice Hopkins, Frances Power Cobbe, Elizabeth Blackwell, and
+                            Emily Venturi, and sanctioned by a name dear to every English heart, the
+                            honoured name of Florence Nightingale!</p>
+                    </sp>
+                    <sp>
+                        <speaker>CECIL.</speaker>
+                        <p>And the name of my sister‐in‐law—the sweet child I remember—is to be
+                            added to the bede‐roll. I still cannot find it in my heart to bear that
+                                <emph>she</emph> should suffer <emph>so</emph>.</p>
+                    </sp>
+                    <pb n="29" xml:id="VAB7068-028"/>
+                    <sp>
+                        <speaker>VICTOR.</speaker>
+                        <p>Mary and I sometimes agree that heroism <foreign xml:lang="fre">a
+                                deux</foreign> is not so very heroic after all, and that martyrdom
+                            together would be quite possible to bear. But since when have reformers
+                            trodden a primrose path. Since when have they not been despised and
+                            rejected of men—men and women of sorrows and acquainted with grief—from
+                            whom the world they shed their blood for hides, as it were, its face?
+                            And then, there is solace in high endeavour, and the very balm of Gilead
+                            in a great conviction. This new conception of one moral law for man and
+                            woman, this late‐won truth that prudery is not purity, and that laxity
+                            is merely baseness, that, if there be any virtue or any praise, the
+                            “sacred human principle of sex” is to be recognized from the first with
+                            a reverent candour, and trained from the first with religious awe, and
+                            that only sin is shameful—this, too, has its consolations, its brighter
+                            aspects, its glimpses of solemn energizing rapture.</p>
+                        <p>And the rest Time rectifies. The day is not far distant when we shall
+                            look back with a certain ashamed incredulity at our past selves—we who
+                            have mocked, or opposed, or stood aloof—and admit that while we loathed
+                            to see the people over‐taxed, while we shuddered and blundered,
+                            multiplied churches, subscribed to charities, tinkered at our Poor Law
+                            and fought over our School Boards, some women had had the inconceivable
+                            courage and devotion to grapple personally with the most deadly,
+                            difficult and distasteful of all the causes at the bottom of the
+                            pauperism, crime, and threatened national disintegration with which we
+                            were contending, and that the New Godiva— <q>
+                                <l>“Did more, and underwent and overcame.”</l>
+                            </q></p>
+                    </sp>
+                        </div>
+                </body>
+            </text>
+            <pb n="32" xml:id="VAB7068-029"/>
+            <text>
+                <body>
+                    <div type="part">
+                    <head>A LETTER TO THE INTERNATIONAL CONVENTION OF WOMEN AT WASHINGTON FROM
+                        JOSEPHINE E. BUTLER.</head>
+                    <head type="sub">MARCH 1888</head>
+                    <pb n="33" xml:id="VAB7068-030"/>
+                    <head>A LETTER TO THE INTERNATIONAL CONVENTION OF WOMEN AT WASHINGTON FROM
+                        JOSEPHINE E. BUTLER.</head>
+                    <opener>
+                        <dateline>
+                            <date>March, 1888.</date>
+                        </dateline>
+                    </opener>
+                    <opener>DEAR LADIES,</opener>
+                    <p>Being prevented by domestic circumstances from attending your assemblies
+                        personally, I am glad to entrust a few words of greeting to my dear and
+                        honored friend, Mrs. STEWARD, who has consented to cross the Atlantic, at my
+                        earnest request, as a delegate from our Ladies' National Association. That
+                        Association was formed in the winter of 1869, having for its definite aim
+                        the obtaining of the repeal of the Acts of Parliament of 1866‐69 for the
+                        State regulation of vice; or, in other words, for the provisioning of the
+                        army and navy (not in Great Britain alone, but in our Indian Empire and all
+                        our colonies) with selected and superintended and healthy women. “A celibate
+                        soldiery,” it was said by our heathen legislators of that day, “require such
+                        a provision as urgently and as regularly as they required daily
+                        rations.”</p>
+                    <p>Now, I have no reason to suppose that this special subject (always a mournful
+                        and repellant one) will be formally brought forward in your Convention;
+                        although the kindred and closely‐allied subject of personal and social
+                        purity will surely be so. It would, however, be impossible for me either to
+                        appear at or write to your Convention <pb n="34" xml:id="VAB7068-031"/> with
+                        the aim of furnishing a contribution to your deliberations, except in
+                        connection with my own life work, and the deep convictions which instigated
+                        that life‐work—and which have become even more and more profound as I
+                        continued in it.</p>
+                    <p>The Committee of our Ladies' National Association therefore strongly desired
+                        that a delegate should be selected from our midst, who had been associated
+                        in that work from an early period; and such an one is Mrs. Steward, who has
+                        been an indefatigable worker, not only in England, but in Belgium, in
+                        pursuit of and for the saving of the English‐girl victims who were bought,
+                        stolen and destroyed under this diabolical system of State‐protected vice in
+                        that country. There is now a crowd of younger workers who are bravely
+                        preaching the purity crusade and doing excellent vigilance work; while there
+                        are few of the veterans left who inaugurated in 1869 the fierce contest with
+                        our Government, the Houses of Lords and Commons, the Medical Boards, the
+                        Press, and the Upper Classes generally, in order to gain the abolition of
+                        the vice‐protecting laws—and to assert the equality of the Moral Law for two
+                        sexes, as well as the dignity and sacredness of Womanhood. Among those
+                        veteran workers were included the names of Florence Nightingale, Harriet
+                        Martineau, Mary Somerville, Mary Carpenter and others. Some are gone to
+                        their rest; others are aged and worn, and waiting for their call home. Those
+                        who remain hold together and work together still, bound to each other by
+                        strong affection, and by the memory of past suffering and conflict shared
+                        together. Of this group Mrs. Steward is one, and I commend her to your
+                        sisterly kindness and hospitality.</p>
+                    <p>It may not be out of place here, in order to set forth the motives which
+                        drove us to devote ourselves to this Crusade before all others, to quote
+                        some words of mine which were drawn from me at a great meeting in Leeds, in
+                        July, 1870. Some of us had been long working for the “Higher Education of
+                            <pb n="35" xml:id="VAB7068-032"/> Women.” A council for that end had
+                        been formed, embracing members from all the northern parts of England. I was
+                        for three years the President of that Council; but in 1870, feeling impelled
+                        to resign the presidentship, I thought it right to give my reasons for doing
+                        so. I venture to quote from a Report of that meeting.</p>
+                    <p>“There were gentlemen present who would give some account of the educational
+                        movement now going on in our country in its different branches. She proposed
+                        to give a short sketch of the educational efforts now being made on the
+                        Continent, under the auspices of the International Association of Women.
+                        They had arrived at a period of the world's history when the injunction,
+                        ‘Look not every one to his own things, but to the things of others,’ had
+                        become applicable to nations as well as to individuals. In fact, England
+                        could not safely live any longer for itself only, nor could any country; and
+                        she thought there was an exclusiveness peculiar to our insular character as
+                        a nation, which required correction before we could hope to give and receive
+                        all the benefit we might, and to get rid of war and other disturbances of
+                        progress and happiness. The objects of this International Association were
+                        the amelioration of the social position of women, and their moral and
+                        intellectual elevation, through education; and the granting of the various
+                        rights which they claimed.</p>
+                    <p>“Mrs. Butler detailed the practical steps which have been taken in the
+                        direction of this education, both at home and in Switzerland, Italy,
+                        Germany, Russia, France, and Constantinople; and in proceeding to consider
+                        the relation of this educational movement to a more general and a very great
+                        social movement, including innumerable interests—a movement which she
+                        trusted would result sooner or later in a purer and juster state of
+                        society—she said: ‘I proposed at our meeting yesterday to resign the office
+                        of President of this Council as soon as may be convenient to this Council to
+                        allow me to do so. It is not because I am not <pb n="36" xml:id="VAB7068-033"/> deeply interested in the cause which this Council
+                        represents. I may say I am more deeply interested than ever, for I see in
+                        the education of women one of the most necessary means of freeing poorer
+                        women from the awful slavery of which I have seen so much lately; nor do I
+                        undervalue the higher culture of the individual as a means towards the
+                        attainment of the highest personal happiness.</p>
+                    <p>The strangely providential guidance of all our schemes has lately been deeply
+                        impressed on my mind. We started our educational schemes, I believe, in an
+                        honest and humble spirit, and they appeared to us the readiest path towards
+                        aiding our fellow‐women, the distressed, the needy, and the wronged; and I
+                        believe our labour has not been in vain. But in this, as in all our work on
+                        earth, we need further enlightening and teaching. Looking back on my own
+                        experience of the past year, it appears to me as if God in His goodness had
+                        said to me, “I approve your motive and your work: but you are trying to lay
+                        on the topmost stones while there is an earthquake shaking your foundations.
+                        You must first descend to the lowest depths before you can safely build up;”
+                        and then He showed us a plague spot—He showed us a deadly poison working
+                        through the wholesale, systematic, and now legalized, degradation of women
+                        to the service of vice. He showed us the ready elements for a speedy
+                        destruction of society, which the highest education itself would not be able
+                        to stem. Not that our work in the cause of education has in any sense been a
+                        failure, far from it; but we need a still larger infusion into these noble
+                        schemes for educating the masses, of the spirit of self‐sacrifice, even of
+                        martyrdom; we need to have our hearts more deeply penetrated with pity, and
+                        to be more resolutely bent on making all our practical efforts tend to the
+                        revival of justice and of a pure and equal moral standard and equal
+                        laws.</p>
+                    <p>“While, therefore, I continue to regard the cause of Education as a most
+                        sacred cause, I come to the present <pb n="37" xml:id="VAB7068-034"/>
+                        meeting with a saddened heart; and I only propose to relinquish the office I
+                        now hold, because I feel that God has called me to a more painful one. All
+                        members have not the same office; all are not called to descend to the
+                        depths of woe to clear out moral sewers, and to cast in their lot among
+                        wretched slave gangs, in order to help the slaves to carry the weight of
+                        their chains, if not to break them away. This work, I think, is mine, but
+                        there is other work not less holy, and which aims not less directly at a
+                        future emancipation; so while I feel all the deeper gratitude to you, my
+                        fellow‐workers in this Council, for the work you are doing in the cause of
+                        humanity, I am obliged to confess to you that, for my own part, I fear I may
+                        not in future be able to give the needful time to this work which it
+                        demands. I wish to leave it in abler and freer hands. It has my deepest
+                        sympathy. It points to one of the most important of all the means by which
+                        we hope to undo the heavy burdens and let the oppressed go free and
+                        inaugurate a purer and sounder National Life. To keep pace, however, with
+                        this portion of the great work, one requires to have the head and heart
+                        free, and that cannot be the case with one who is called to deal with the
+                        most miserable, to walk side by side, hand in hand, with the outcast, the
+                        victim of our social sins, whose names one scarcely dares to name in refined
+                        society. I am full of hope for the education cause, and for the anti‐slavery
+                        cause, in which we are engaged. Nevertheless my very soul grows faint before
+                        the facts of 1870, and though that faintness of soul may complete one's
+                        fitness to be a fellow‐sufferer with the slave, it does not increase one's
+                        capacity for a work which requires intellectual energy.’”</p>
+                    <p>It is impossible, and would not be right, that I should trouble you with a
+                        report of the arduous work which our Women's Abolitionist Society
+                        accomplished between 1869 and 1874. Suffice it to say, that we shook the
+                        Government and aroused the whole nation; mountains were removed by the
+                        energy imparted by a gigantic faith. In 1874 a<pb n="38" xml:id="VAB7068-035"/> “new departure” was inaugurated. The battle was
+                        carried across the channel to France—where, under the first Napoleon, this
+                        abominable and impure tyranny had first been instituted in the end of the
+                        eighteenth century—to Italy, to Switzerland, to Germany and to the
+                        Netherlands. It afterwards spread to Spain, Holland, Denmark, Austria,
+                        Hungary; and Sweden and Norway. We now have friends in Russia; but no
+                        association is yet found there. The first year's work was reported by our
+                        financial secretary, Prof. Stuart, as follows:</p>
+                    <p>“It was indeed a wise intuition which led the women of England to carry into
+                        its original strongholds the campaign against the system of regulated vice,
+                        against whose encroachments we are contending in this country. That move
+                        will benefit the agitation for Repeal in this country not only by the vast
+                        strengthening and encouragement which the knowledge of the sympathy and
+                        co‐operation of persons of all tongues and countries has brought to so many
+                        of our workers here, but also because it has opened up an attack upon the
+                        whole vicious system in its rear, and, drying up the sources and roots, so
+                        to speak, will cause the system to fall more easily in this country; and not
+                        least because it has called forth in many countries the co‐operation of new
+                        Workers who may, confident of success and with united force and power, carry
+                        on the work against profligacy itself throughout a Christendom united for
+                        that end.</p>
+                    <p>“Not only have we seen, during the year of work just concluded, Refuges for
+                        the fallen established throughout many cities of Europe, and men and women
+                        of many languages joining together to call for and work for the abolition of
+                        regulated prostitution, and to aim through that at the abolition finally of
+                        prostitution itself; but we have seen whole cities shaken as it were with
+                        the wind of a new revival, recognizing the crime that they have committed
+                        before God in regulating and licensing the destruction of His image; we have
+                        seen through the length and breadth <pb n="39" xml:id="VAB7068-036"/> of
+                        nations societies formed, actively working in a cause which had before laid
+                        dormant; and we have seen the whole great nation of Italy, called as it were
+                        by the voice of God through his poor and weak servants, recognizing that
+                        virtue and purity alone can be the basis of future greatness.”</p>
+                    <p>In a brief time we had won the public adhesion to our cause of many of the
+                        most distinguished persons on the Continent, among whom we counted Joseph
+                        Mazzini and Garibaldi, in Italy; Jules Favre, Jules Simon, and Victor Hugo,
+                        in France; the Count Agenor de Gasparin and the Countess de Gasparin, of
+                        Geneva; Baron de Bunsen and Count Ungern Sternberg, in Germany; M. Emile de
+                        Laveleye, the well known writer and economist of Belgium. But it is not so
+                        much to the adhesion of the great men that we hold, as to the active
+                        concurrence of the thousands of women on the Continent of Europe, who have
+                        been awakened on this question, and who have formed numerous and
+                        ever‐increasing Associations for working out our aims, more especially in
+                        Switzerland, Holland, France, and the Scandinavian Peninsula.</p>
+                    <p>Our Continental Secretary, Mr. Humbert, writing on this subject after
+                        fourteen years' experience, says: “Happy are those nations in which women
+                        themselves have taken the initiative in this great movement, for in such
+                        cases the movement will never die; whereas in countries where the work is
+                        left entirely to men, although some reforms may be achieved, the movement is
+                        fitful and never possesses the same life.”</p>
+                    <p>This brings to me the most recent expansion of our work in the Colonies and
+                        in India. It is in allusion to this new expansion that Mr. Humbert writes
+                        the letter just quoted. He continues, “How are we to proceed successfully
+                        for the emancipation of women from the hateful thraldom imposed on them by
+                        the civilization of conquering races, the thraldom of compulsory and
+                        state‐regulated prostitution among Buddhists, Brahmins, Mahometans, or <pb n="40" xml:id="VAB7068-037"/> Pagans, where the fate of women, in this
+                        world, at least, depends absolutely on the will of man, their master? This
+                        is a difficult question to answer. We see occasionally a spark kindled
+                        amongst those nations; but the light is short lived, and it continually
+                        requires to be rekindled.” In spite of these difficulties, however, we are
+                        pushing forward our work in Egypt and in the French Colonies of North
+                        Africa, as well as in other directions.</p>
+                    <p>We believe that the question is coming rapidly to the front in India. The
+                        present mission of Mr. Dyer to India is producing an awakening there that
+                        will be productive of very decided results from a Parliamentary and
+                        Governmental point of view. We, as women, are more especially concerned with
+                        the awakening of the <emph>women</emph> of India on the subject of this
+                        imperially‐imposed degradation of their race, and to kindred questions
+                        vitally concerning womanhood. On this side we are full of hope. It is
+                        affecting to see the petitions which are now in the hands of some of our
+                        Members of Parliament this session. These petitions are from Anglo‐Indian
+                        and native women—and many are signed in Hindoo characters. The prayer of the
+                        petition is for relief from this degrading law. We receive also privately
+                        very touching appeals from Indian ladies, and to these our Association
+                        responds with eager sympathy. The following quotation from one of the
+                        replies, sent from the Leeds branch of our Abolition Society, will show you
+                        the spirit with which the women of the world are communicating with each
+                        other on this subject:—</p>
+                    <p>“Do let us assure you, dear Indian friends, that we have found that so long
+                        as our motives are pure, no evil knowledge can hurt us. We have seen, on the
+                        contrary, that work of this kind undertaken in the spirit of consecration
+                        (and in no other spirit can anyone endure to continue the work), may lead to
+                        a higher and purer knowledge of life and the human heart. That many have
+                        found (as all must do sooner or later) that intellectual force alone cannot
+                            <pb n="41" xml:id="VAB7068-038"/> guard against the horror of this evil;
+                        and have thus been driven to seek more spiritual means of warfare, and so
+                        have passed into a higher life.</p>
+                    <p>“Do be sure, dear friends, that whatever your enemies may say of you, in the
+                        invisible kingdom of righteousness, you can but be purified by this labour
+                        of love.</p>
+                    <p>“And when you most greatly doubt success, when the power and wiles of the
+                        enemy seem indeed to be too powerful for the feebleness of your hands, we
+                        feel sure you will find, as we have found, that from quarters least
+                        expected, from the darkest parts of your sky, from the weakest parts of your
+                        army, help and light and strength will come to you. Our victories do not
+                        often come to us in the manner or at the time that we expect, any more than
+                        do our defeats.</p>
+                    <p>“We cannot direct the whole order of the conduct of life; we can only fight
+                        in our own place, obeying the nearest word that reaches us, knowing that no
+                        army can be beaten of which each individual soldier refuses to accept
+                        defeat.”</p>
+                    <p>Thus the women of the world are reaching out their hands to each other, and
+                        banding themselves together so that when councils, rulers, and lords of
+                        science endeavour by decrees or by social tyranny to give a continuance to
+                        the most degrading institution which has defiled the history of the human
+                        race, they will have the power to say, “You shall not slay us or our
+                        sisters.” They have struck a note for which the ages have been waiting, and
+                        which even the Church itself in its organized ecclesiastical forms has never
+                        yet intoned.</p>
+                    <p>There is a point on which I have sometimes thought (possibly without reason)
+                        that American women feel less strongly than we do: I allude to the physical
+                        treatment forcibly imposed, the personal outrage on women, which lies at the
+                        root of the practical working of the whole system of the state regulation of
+                        vice. You have happily not had in America the practical experience which we
+                        in the old world have had of the degrading effects of this outrage. It is
+                        the <pb n="42" xml:id="VAB7068-039"/> final and most complete expression of
+                        the foul idea of woman as a chattel, a slave, an instrument, a mere vessel,
+                        officially dedicated to the vilest uses.</p>
+                    <p>At our last International Congress, held at Lausanne, in September, 1887,
+                        some of our less‐instructed followers had been occupying too much of our
+                        time in an attempt to defend, up to a certain point, the State's action in
+                        tyrannizing over women. Thinking that the moment had come for a decided word
+                        on the part of women themselves, I gave utterance to the thoughts which were
+                        in my mind; and in doing so I proclaimed in the name of all women, that
+                        whatever subtlety of argument might weigh with certain doctors, legislators,
+                        etc., this was nothing to us, and we women solemnly declared again the
+                        principle of our own dignity, and our determination never to sanction the
+                        enslavement of <emph>any</emph> woman by the outrage perpetrated under this
+                        system. At the close of my few words Mdme. de Morsier, of Paris, rose, and
+                        with uplifted hand asked earnestly that every woman present who agreed with,
+                        and re‐echoed from the depths of her heart the words of Mrs. Butler, should
+                        stand up. The large hall was crowded with women as well as men. The men
+                        continued sitting, but every woman rose, and with right hand uplifted high,
+                        followed the action of Mdme. de Morsier and Mdme. de Gingins, responding to
+                        the solemn words uttered by her—“In the name of God, Amen!” There was a
+                        significant silence of a few moments. Some of the gentlemen were surprised;
+                        most were deeply moved; and to every woman present, I feel convinced, it was
+                        a ratification of our principles never to be forgotten. The sound of it went
+                        far abroad beyond the mere hall of meeting itself.</p>
+                    <p>I mention this incident merely as an illustration of the spirit of our women
+                        in their jealous guardianship of the sacredness of womenhood, even in the
+                        persons of the most degraded of their sisters. I myself believe this spirit
+                        to be thoroughly in accord with that of our Master, Christ.</p>
+                    <pb n="43" xml:id="VAB7068-040"/>
+                    <p>As an inevitable and necessary accompaniment of the establishment of licensed
+                        houses of ill‐fame under Government patronage, all over the world there
+                        exists, as you well know, the most extensive slave traffic in the interests
+                        of vice. This fact has become so fully acknowledged during the last few
+                        years as to have given rise to that admirable and much‐needed Society—the
+                        “International Association of Friends of Girls,”—originating in Switzerland
+                        and now spreading all over and far beyond Europe. That Society has been
+                        greatly strengthened in England since the Congress held in London in 1886;
+                        and this fact is brought home to us by the reassuring sight at various
+                        railway stations and landing places of the warnings and friendly placards,
+                        so diligently distributed and put up by the English branch of the Society,
+                        informing all girls and women of where they may find friends, and of what
+                        dangers they must beware.</p>
+                    <p>Our Federation has collected carefully many facts and statistics concerning
+                        this world‐wide slave traffic. People in Europe speak with indignation of
+                        the traffic in negroes. It would be just as well if they would open their
+                        eyes to what is going on much nearer—throughout the whole of
+                        Europe—especially in Germany and Austria, where the exportation of white
+                        slaves is carried on on a large scale. A terrible picture is presented to us
+                        of the enforced movement to and fro upon the face of the earth of these
+                        youthful victims of human cruelty. “Numbers are embarked at Hamburgh, whose
+                        destination is South America, Bahia, and Rio de Janeiro. The greater number
+                        are probably engaged for Monte Video and Buenos Ayres; others are sent by
+                        the Straits of Magellan to Valparaiso. Other cargoes are sent to North
+                        America, some being forwarded to England others direct. The competition
+                        which the traders meet with when they land sometimes constrains them to go
+                        further ahead; they are found, therefore, descending the Mississippi with
+                        their cargoes to New Orleans and Texas. Others are taken on to California.
+                        In the market of California they <pb n="44" xml:id="VAB7068-041"/> are
+                        sorted and thence taken to provision the different localities on the coast
+                        as far as Panama. Others are sent from the New Orleans market to Cuba, the
+                        Antilles, and Mexico. Others are taken from Bohemia, Germany, and
+                        Switzerland, across the Alps to Italy, and thence further south to
+                        Alexandria and Suez, and eastward to Bombay, Calcutta, Singapore, Hong Kong,
+                        and Shanghai. The Russian official houses of vice draw their slaves in a
+                        great measure from Eastern Prussia, Pomerania, and Poland. The most
+                        important Russian station is Riga; it is there that the traders of St.
+                        Petersburg and Moscow sort and get ready their cargoes for Nijni‐Novgorod,
+                        and from this latter place cargoes are sent on to the more distant towns of
+                        Siberia. At Tschita, a young German was found who had been sold and resold
+                        in this manner.”</p>
+                    <p>You in America are happily free from the state regulation of vice; but,
+                        undoubtedly there is an extensive traffic in white slaves in your midst, and
+                        a constant importation of poor foreigners to your shores, who are destined
+                        to moral and spiritual destruction. I trust you will, from your Congress,
+                        put out strong hands for the abolition of this traffic.</p>
+                    <p>It may be that I am writing to some who have been accustomed to think of the
+                        poor outcasts of society as beings different from others—in some way tainted
+                        from their birth, creatures apart without the tenderness and capacities for
+                        good possessed by your own cherished daughters.</p>
+                    <p>You may have imagined them to be for the most part reckless and willful
+                        sinners; or, if in the first instance betrayed or forced into sin, now at
+                        least so utterly destroyed and corrupted as to have become something
+                        unmentionable in polite society. Now, all who have had a practical
+                        acquaintance with the lives of poor and tempted women, know how mistaken is
+                        such a judgment, how cruelly false in most cases. But granting for the
+                        moment that <emph>women</emph> who have fallen from virtue have become so
+                        degraded as to be<pb n="45" xml:id="VAB7068-042"/> repulsive or
+                        uninteresting to you, what have you to say concerning outraged children?—And
+                        thousands of these are but children in age and in knowledge.</p>
+                    <p>Who will dare to say that any child is determinedly, willfully wicked and
+                        degraded; that any child in the world is further from God's kingdom than we
+                        grown‐up people are, however virtuous we may be? Nay, but “<emph>of
+                            such</emph> is the Kingdom of Heaven.” One who never errs has said it.
+                        We are not told that He selected an exceptionally pure and holy child when
+                        He set a little child in the midst of the multitude, and said that, Except
+                        we become as such a little child, we shall in no wise enter the Kingdom of
+                        Heaven. Verily, “their angels do always behold the face of my Father, which
+                        is in Heaven,” and woe be to that man, to that nation, to those mothers of
+                        men and of nations, who, seeing that little child fallen among thieves,
+                        robbed, wounded, murdered, dying, shall calmly pass by on the other side! A
+                        day is coming in which it will not avail any of us to say, we knew it not;
+                        for now we know it. The means of knowing it, and the means of helping to
+                        redress this wrong are within our reach, at our very hand. I cherish the
+                        hope and the belief that the time is at hand when all women who are indeed
+                        mothers, and worthy of the name, will give up the chilling reserve, which
+                        seems too much like acquiescence in evil, and will come forward to the
+                        rescue, not only for the sake of the innocent and betrayed, but for the sake
+                        of their <emph>sons</emph>, and of our nation.</p>
+                    <p>This letter is sent forth with earnest prayer that while pardoning the
+                        imperfections of my poor appeal, God would make use of it to fan the holy
+                        and purifying fire, which I feel sure is already kindled in your hearts.
+                        When I kneel in my chamber to plead for the deliverance of these little ones
+                        for whom Christ died, I seem to see the childish faces gathering in crowds
+                        around me, filling the space on every side—the faces of the slaughtered dead
+                        as well as of the living. These victims, voiceless and unable to plead their
+                        own <pb n="46" xml:id="VAB7068-043"/> cause, seem to make their ceaseless,
+                        mute appeal from their scattered, unknown graves and from out those dark
+                        habitations of cruelty, where they are now helplessly imprisoned.</p>
+                    <p>But their weeping has been heard in heaven, and judgment is at hand. Of their
+                        destroyers it may be said, “They murder the fatherless; yet they say the
+                        Lord shall not see it.” Of you, O friends, let it be said, and let the
+                        Saviour Himself speak the words, “Inasmuch as ye have done it unto one of
+                        the least of these, ye have done it to Me.”</p>
+                    <closer>
+                        <signed>JOSEPHINE E. BUTLER.</signed>
+                    </closer>
+                        </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>

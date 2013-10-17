@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7179">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Truth Before Everything</title>
+                <author>Butler, Josephine Elizabeth Grey (1828-1906)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by</resp>
+                    <name>Kathryn Benedict</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 71 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>June 23, 1996</date>
+                <idno>VAB7179</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Truth Before Everything</title>
+                        <author>Butler, Josephine Elizabeth Grey, 1828-1906</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Josephine E. Butler.</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>24 p.</extent>
+                    <publicationStmt>
+                        <publisher>Pewtress &amp; Co., Printer. </publisher>
+                        <pubPlace>Liverpool: </pubPlace>
+                        <date when="1897">1897</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All quotation marks, hyphens, dashes, apostrophes and colons have been
+                    transcribed as entity references.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; all hyphens are encoded
+                    as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+                <p>All quoted sections that are italicized in the original are enclosed in
+                    &lt;q&gt;; all other quoted sections are transcribed without encoding.
+                    All text encoded as &lt;emph&gt; is to be rendered in italics unless
+                    specified in the "rend" attribute.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"></tagUsage>
+                    <tagUsage gi="addrline" occurs="6"></tagUsage>
+                    <tagUsage gi="author" occurs="1"></tagUsage>
+                    <tagUsage gi="availability" occurs="1"></tagUsage>
+                    <tagUsage gi="bibl" occurs="4"></tagUsage>
+                    <tagUsage gi="biblfull" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="change" occurs="3"></tagUsage>
+                    <tagUsage gi="cit" occurs="1"></tagUsage>
+                    <tagUsage gi="closer" occurs="1"></tagUsage>
+                    <tagUsage gi="date" occurs="6"></tagUsage>
+                    <tagUsage gi="div0" occurs="10"></tagUsage>
+                    <tagUsage gi="editorialdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="31"></tagUsage>
+                    <tagUsage gi="encodingdesc" occurs="1"></tagUsage>
+                    <tagUsage gi="epigraph" occurs="1"></tagUsage>
+                    <tagUsage gi="extent" occurs="2"></tagUsage>
+                    <tagUsage gi="filedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="foreign" occurs="10"></tagUsage>
+                    <tagUsage gi="head" occurs="10"></tagUsage>
+                    <tagUsage gi="hi" occurs="2"></tagUsage>
+                    <tagUsage gi="item" occurs="24"></tagUsage>
+                    <tagUsage gi="language" occurs="3"></tagUsage>
+                    <tagUsage gi="langusage" occurs="1"></tagUsage>
+                    <tagUsage gi="list" occurs="4"></tagUsage>
+                    <tagUsage gi="name" occurs="7"></tagUsage>
+                    <tagUsage gi="note" occurs="2"></tagUsage>
+                    <tagUsage gi="p" occurs="112"></tagUsage>
+                    <tagUsage gi="pb" occurs="23"></tagUsage>
+                    <tagUsage gi="profiledesc" occurs="1"></tagUsage>
+                    <tagUsage gi="publicationstmt" occurs="2"></tagUsage>
+                    <tagUsage gi="publisher" occurs="2"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="2"></tagUsage>
+                    <tagUsage gi="q" occurs="10"></tagUsage>
+                    <tagUsage gi="ref" occurs="2"></tagUsage>
+                    <tagUsage gi="resp" occurs="7"></tagUsage>
+                    <tagUsage gi="respstmt" occurs="7"></tagUsage>
+                    <tagUsage gi="revisiondesc" occurs="1"></tagUsage>
+                    <tagUsage gi="seriesstmt" occurs="1"></tagUsage>
+                    <tagUsage gi="signed" occurs="1"></tagUsage>
+                    <tagUsage gi="sourcedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="tagsdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="tagusage" occurs="49"></tagUsage>
+                    <tagUsage gi="tei.2" occurs="1"></tagUsage>
+                    <tagUsage gi="teiheader" occurs="1"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="title" occurs="3"></tagUsage>
+                    <tagUsage gi="titlestmt" occurs="2"></tagUsage>
+                    <tagUsage gi="trailer" occurs="1"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">French</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Prostitution -- Great Britain -- History -- 19th century -- Sources</item> 
+                        <item>Women -- Great Britain -- Social conditions</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/prose">prose</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/essay">essay</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1996-06-19</date><label>editor.</label><name>Kathryn Benedict,
+                </name>Transcribed and encoded.</change>
+            <change><date>1996-06-23</date><label>general editor.</label><name>Perry Willett,
+                </name>Finished TEI‐conformant encoding and proofing.</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-23" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-08-04" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-08-04" who="elizabethmunson">Added LCNAF form of author name to sourceDesc and fileDesc author (hyphen 
+            adjusted for both, parenthesis adjusted for fileDesc)</change>
+            <change when="2010-08-04" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-08-04" who="elizabethmunson">Tagged title elements inside bibl</change>
+            <change when="2010-09-03" who="elizabethmunson">Added genre term</change>
+            <change when="2011-06-30" who="kateboeree">Added div type="book"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="book"><head>TRUTH BEFORE EVERYTHING.</head>
+            <epigraph>
+                <cit>
+                    <q>“<hi>ONLY</hi> by the most absolute assertion of the uttermost truth, without
+                        qualification or compromise can a nation be waked to conscience of that
+                        truth or strengthened for duty.”</q>
+                    <bibl>—Wendell Philips at the grave of Lloyd Garrison.</bibl>
+                </cit>
+            </epigraph>
+            <div type="section">
+                <p><hi>I WISH</hi> it to be understood that the following words are written on my
+                    sole responsibility; the fact of my writing them being unknown to any
+                    Association to which I belong, and even to my most intimate friends.</p>
+                <p>We are once more,—as in 1869 and the following years, — face to face with a
+                    powerful body of persons desiring the adoption in our midst of the regulation of
+                    immorality by the State. By the force of circumstances, or I would rather say,
+                    by the Providence of God, my name (unworthy as it may be) came, after years of
+                    arduous work, to be placed at the front of this special movement on behalf of
+                    justice. I have, therefore, a solemn responsibility pressing upon me at this
+                    time. In the midst of the “strife of tongues” on this question, in the Press,
+                    and in official quarters, and hearing in the midst of that strife the voices of
+                    some of whom we had hoped better things, raised in unison with those which
+                    advocate a “legislation of despair,” I feel I have a word to say, and I must say
+                    it.</p>
+                <p>In doing so, I can with absolute truth declare that I harbour no feeling of
+                    bitterness in my heart against any living being; neither against any who have
+                    turned back from the straight path, nor against our most violent opponents. I
+                    judge with gentleness those of my fellow women who are now using their influence
+                    against the just and holy cause for which I have spent my life. Our warfare has
+                    never been against persons, but against vicious principles, against widely
+                    promulgated falsehoods, while we have only withstood or done battle with
+                    individuals when they became the exponents or incarnation of the base theories
+                    and principles which we oppose.</p>
+                <p>But while judging my opponents with gentleness, I will be true to Him whom I
+                    serve. In my opposition to false principles, to official and society lies (the
+                    blackest of all lies), to<pb n="2" xml:id="VAB7179-001"></pb> the injustice, the
+                    brutal egotism, the intrigues, the unworthy tricks, devices, and deceits to
+                    which these false principles lend themselves, I will continue to be stern and
+                    uncompromising; for my hatred of these vicious principles, these official and
+                    society lies continues to be as “strong as death,” as “cruel as the grave.”</p>
+                <p>For, while in a war of flesh and blood, mercy may intervene, a truce may be
+                    called, and life may be spared, <emph>principles know not the name of
+                        mercy</emph>.</p>
+                <p>In a conflict of principles which are severed from each other as far as heaven
+                    from hell there can be no truce; it is war to the death, until one side or the
+                    other is victorious.</p>
+                <p>And we know well on which side the victory will be. Though for a time the
+                    advocates of an evil cause—numerous, rich and in high positions—may seem to be
+                    victorious; though we may suffer a temporary defeat, that will be no means be
+                    the end. For “the battle is not ours; it is the Lord’s.”</p>
+                <p>Though for the moment we may be reduced in numbers, an apparently diminishing
+                    host, yet Gideon’s three hundred will do what Gideon’s thirty‐two thousand and
+                    three hundred could not do.</p>
+                <p>This confidence of ultimate victory, based on a foundation which cannot be
+                    shaken, enables us to regard with composure the forward advance and claims of
+                    materialism and fleshly indulgence, and to compassionate those—furious against
+                    us to‐day—who will be beaten to‐morrow, and who will be forced, before the
+                    “great cloud of witnesses” in heaven and earth, to confess themselves defeated
+                    and deserving of defeat.</p>
+                <p>A certain great reformer, recording how the Kings and Princes and great ones of
+                    the earth were laying their heads together and marshalling their forces against
+                    truth, said: “Then came the Lord God and asked, ‘<emph>How many do they reckon
+                        me?</emph>’” Ah, yes, how many does God count for? The high officials,
+                    military and naval chiefs, and medical experts have probably not considered
+                    this.</p>
+                <p>The conflict in which we are engaged is only a part of the great conflict between
+                    good and evil which is going on and becoming intensified throughout the earth,
+                    and our part of the conflict is not the least important part; it is vital, its
+                    roots are deep, its influence is as wide as the world. What more vital, next to
+                    our relations with God, than our relations—men and women—with each other? A
+                    direct compromise with vice on the part of the State or any public authority
+                    strikes at the root of those relationships, at family life, at respect for
+                    womanhood, at all true manliness in man.</p>
+                <pb n="3" xml:id="VAB7179-002"></pb>
+                <p>As a veteran in the abolitionist war, with an experience of thirty years of the
+                    regulation system in various countries of Europe, I do not hesitate to call it a
+                    masterpiece of Satan. I have looked closely into its working, in all its phases,
+                    and I have witnessed its baneful effects on family life, on the young, on
+                    students, on schoolboys, on women of the poorer classes, and on the population
+                    generally in those cities of Europe where it has been established for several
+                    years.</p>
+                <p>Julie V. Daubié, authoress of “Le femme pauvre du XIXme Siècle,” wrote to me from
+                    Paris in the years when we first demanded the repeal of the Contagious Disease
+                    Acts:—“Beware of imitating official France in this matter. This law has so
+                    infamous a character as the protector of the disorders of men, that the contempt
+                    which exists among us for the executive authority can only be attributed to the
+                    disgust which every honest man feels for every police functionary engaged in
+                    this business. You have the inexpressible happiness of having a moral
+                    Government, responsible functionaries, and a Queen who is the model of every
+                    virtue of public and private life. Supplicate that honourable and single‐hearted
+                    woman to take in hand the cause of human dignity and of virtue, and obtain from
+                    the wisdom of your Parliament a solemn affirmation of the authority of reason
+                    over subversive passions. Truly, if you cannot withdraw your women from the
+                    power of those police who drive them like cattle in the service of debauchery,
+                    you may abandon all hope for the general elevation of your women in
+                    England.”</p>
+                <p>A correspondent wrote to me about the same time from Milan (the regulation of
+                    vice having been introduced into Italy by Count Cavour), “The moral effect of
+                    this institution on the general population is fatal. The regulations imposed by
+                    the authorities on vice are a legal sanction, slightly cloaked, in the eyes, not
+                    only of the populace but of educated people. In fact, fathers themselves
+                    introduce their grown‐up sons to the State‐guaranteed houses of infamy, looking
+                    upon them as safeguards from imprudent marriages. Legal sanction produces public
+                    shamelessness. Not to speak of the bitter hardships, the violence and slavery to
+                    which the miserable women under this State control are subjected, the young men
+                    who come in contact with them lose all generous feeling, and, corrupted before
+                    they are full grown, they acquire the skepticism which withers the hearts and
+                    falsifies the conscience. The number of State victims to vice grows every day to
+                    excess, and marriage becomes always rarer.”</p>
+                <pb n="4" xml:id="VAB7179-003"></pb>
+                <p>Warnings similar to these have continued for many years past to be poured in upon
+                    us by the most thoughtful and the most experienced men and women of the
+                    Continent, and not least, from medical experts and high‐class police
+                    functionaries who have themselves worked the system and found it a disastrous
+                    failure from their own point of view. And yet there are Englishmen and
+                    Englishwomen, well meaning, and one would suppose, well educated, who are
+                    craving that Imperial England should be permitted to clothe herself with the
+                    cast‐off rags of a worn‐out and disgusting system which other nations are
+                    desiring to get rid of, but desiring it too late to get rid of the moral
+                    corruption and the falsification of public conscience which it engenders.</p>
+            </div>
+            <div type="section">
+                <head>WOMEN ADVOCATE “MAKING PROVISION FOR THE FLESH.”</head>
+                <p>The present renewed conflict differs from our first engagement with this enemy,
+                    in one important particular; namely that a considerable number of women have
+                    joined publicly in the demand for the return to a system which degrades their
+                    own sex by the enslavement of a number of the daughters of the poor to the
+                    supposed “inevitable” and unconquerable lusts of men.</p>
+                <p>In our first campaign, for many years, I was able to speak fearlessly as the
+                    exponent of the mind of women, generally, throughout the world, and I met with
+                    no contradiction in doing so, nor have I up to this moment met with any open
+                    contradiction on the Continent of Europe, to the statement that speaking
+                    generally, women were <foreign xml:lang="fre">solidaire</foreign> on this
+                    question. My own countrywomen have been the first in the world to set their seal
+                    to the infernal doctrine of the necessity of vice, and to proffer to our
+                    Imperial Government before the whole world, what Lady Frederick Cavendish
+                    rightly styles their “counsels of despair.”</p>
+                <p>The scene has changed indeed; we accept the fact, and look it full in the
+                    face.</p>
+                <p>For my own part, I do so without alarm of our cause, and scarcely even with
+                    surprise, although my heart is wounded with a sense of shame, and I mourn for
+                    those whose eyes are blinded to the truth.</p>
+                <p>When the Memorial to Government, in favour of the State organization of sexual
+                    vice, signed by Princesses, Peeresses and others, was first published, certain
+                    of my fellow workers—women —represented to me that it might be well, on our
+                    part, to abstain from any action tending to make the immense breach so created
+                    in the ranks of womanhood more pro‐<pb n="5" xml:id="VAB7179-004"></pb> nounced or
+                    apparent. It was hoped that many of these ladies might come to see their error,
+                    and that it would be very sad, by making much of this division among us, to show
+                    to the world that women no longer present a united front in a question as vital
+                    as this. “Let us not display our wounds more than necessary,” it was
+                    pleaded.</p>
+                <p>Appreciating the natural tenderness which prompted this advice, I felt it to
+                    involve a grave error.</p>
+                <p>There are occasions in which silence is best concerning differences of opinion in
+                    any Association, when those differences turn on mere personalities, or forms or
+                    procedures, and when the wounds are only surface wounds.</p>
+                <p>But when, on such a question of life and death as this is before us, womanhood
+                    which before seemed <foreign xml:lang="fre">solidaire</foreign>, is not merely
+                    wounded, but is literally cut in two, so to speak; when an abyss now separates
+                    the one company of women from the other, it is no time for silence, or for
+                    futile attempts to cover up wounds. We cannot, without the constant living of a
+                    lie, pretend that we are now a united womanhood. Our cause will receive deeper
+                    wounds than it has ever received yet if we attempt to minimize or gloss over the
+                    hideous fact that women, ladies of high estate and honourable names, have
+                    publicly petitioned for the re‐establishment in a portion of the British Empire
+                    of the masterpiece of Satan—that “covenant with death and agreement with hell”
+                    which a little knowledge of the human heart, and of the history of other
+                    countries than their own, a little of the Divine light in the conscience, a
+                    little independence of judgment and reliance on their own better instincts as
+                    women, would have shown them is the expression of an open revolt against the
+                    ethics and teaching of Christ.</p>
+                <p>In my inmost heart, however, I find some excuse for those ladies individually who
+                    have petitioned Government for the re‐enactment of the vice regulations.
+                    Probably many of them had no knowledge of the subject till very recently. In the
+                    absence of that knowledge they might without difficulty be worked upon and
+                    talked over by certain high officials and their own male relatives, who are
+                    favourable to the regulations. Alarming pictures of physical danger to the whole
+                    nation, were, no doubt, presented to them, while the moral aspect of the
+                    question was obscured.</p>
+                <p>Men and women alike in the most exalted social classes frequently possess
+                    extraordinarily little knowledge of the conditions of life among the poor, and
+                    consequently little sympathy with humbler people who are the most liable to
+                    suffer under grievances imposed officially, over and above<pb n="6" xml:id="VAB7179-005"></pb> the hardships incidental to their condition. High
+                    rank itself tends to confuse and obscure the mental vision on a subject
+                    concerning which, of all others, we need to know the instincts and convictions
+                    of the people, and to make room for the expression of the great heart of toiling
+                    and suffering humanity, which still so largely beats true among us, and in all
+                    lands.</p>
+                <p>No doubt there was a bitter regret among us when we first saw the petition of the
+                    Ladies in favour of vice organization. But we have had a severe discipline
+                    through long years past, which, while it has made our hearts still more tender
+                    over the weak, oppressed and misguided, has made them stronger than the hearts
+                    of lions in defence of the truth. We can be firm in its defence, if need be,
+                    against former friends and allies, and even when put to the test foretold by
+                    Christ, when a “man’s foes should be those of his own household.”</p>
+                <p>It is my desire to record in the strongest manner my protest against any
+                    temporizing, against any alliance in action or speech, <emph>on this
+                        question</emph>, with those women who have openly joined the ranks of the
+                    Regulationists, and against every shadow of compromise, or any weak complacency
+                    which might be pleaded as likely to withdraw some of these women from their
+                    present position, and induce them to repudiate their utterance.</p>
+                <p>I do not, and could not, counsel any slackening of the bonds of friendship, or
+                    abandonment of social intercourse with those who have so fatally erred in
+                    judgement. It may be that some them will come to see the question in its true
+                    light. But no weakness, no leaning towards their present position, no tolerance
+                    shown for the false principles they now defend will help to being about that
+                    result. There never was a time when the necessity was greater than at present,
+                    to place personal feelings second to principle.</p>
+                <p>The character of Christ is more frequently represented to us by Christian
+                    teachers in its gentleness and meekness, than in its uncompromising sternness
+                    and severity, which is nevertheless the severity of Love. When one of his
+                    disciples in an evil moment uttered a sentiment which was wholly false, and of
+                    the world, the Master turned and uttered that scathing rebuke:—“Get thee behind
+                    me, Satan!” In the presence of the bystanders and the other disciples, he called
+                    Peter by the name of the Spirit of enmity against God which for the moment
+                    possessed him. It must have cost the Master—the human Christ—something to rebuke
+                    his friend thus; but only by the extreme severity of his rebuke could the
+                    consciousness of the falseness of his<pb n="7" xml:id="VAB7179-006"></pb> utterance
+                    be brought home to that disciple and to those around him. Yet the Master loved
+                    that disciple while he rebuked him, and the disciple, repentant, continued to be
+                    his faithful follower.</p>
+                <p>It is not easy to imitate the sternness of Christ in dealing with friends. But
+                    these are days in which we must be stern; otherwise we shall float away
+                    helplessly down the stream of the world’s opinion, accepting the verdict of
+                    Society, be it true or false, in all matters, even the most vital.</p>
+            </div>
+            <div type="section">
+                <head>“PURITY SOCIETIES” AND “PURITY WORKERS.”</head>
+                <p>It is a beautiful word that of Purity; but when used as a mere title and in
+                    connection with our abolitionist crusade, how often is it misleading, how often
+                    even has it proved to be an encumbrance to the central principle which we were
+                    appointed to proclaim!</p>
+                <p>The teaching of purity of heart and life is most precious; it is indispensable.
+                    The work of purity teachers is an educational work, beginning in the nursery,
+                    and carried on through the school, the college, the apprentice life, to mature
+                    manhood. This holy, educational work lies at the very root of our hopes for the
+                    future of manhood and womanhood and for the stability of the commonwealth. May
+                    God send us myriads of true purity workers in this sense, with enlarged strong,
+                    true, and enlightened views of the relations of the sexes and of the
+                    requirements of the laws of God for all alike!</p>
+                <p>Such purity work then underlies, and is closely allied with, our special work,
+                    but it by no means adequately expresses all that that work is.</p>
+                <p>It may surprise or shock some who read these lines that I should say (yet I must
+                    say it) <emph>Beware of “purity workers” as allies in our warfare! Beware of
+                        “purity societies” which seek affiliation with our society!</emph></p>
+                <p>Truth before everything. It behoves me to speak truly, if I am driven even to
+                    speak harshly.</p>
+                <p>A long experience has confirmed the need of this warning. Interruptions to our
+                    work, difficulties innumerable, even disasters have occurred in our crusade
+                    owing to too great a trustfulness in every one calling himself or herself a
+                    purity worker, and to too great a readiness to admit Societies calling
+                    themselves by that name into close alliance with us. We have learned that it is
+                    not unusual for men and women to discourse eloquently in public on the subject
+                    of personal, domestic, and social purity, of the home, of conjugal life, of<pb n="8" xml:id="VAB7179-007"></pb> the dignity of womanhood, of the duties of
+                    parents, and yet to be ready to accept and endorse any amount of coercive and
+                    degrading treatment of certain classes of their fellow creatures, in the fatuous
+                    belief that you can oblige human beings to be moral by <emph>force</emph>, and
+                    in so doing that you may in some way promote social purity.</p>
+                <p>We have learned and learning many severe lessons. One of these lessons is never
+                    to covet the adhesion to our cause of distinguished and influential persons, or
+                    persons bearing great names,—never to invite their co‐operation as members of
+                    our League until their clearness of conviction on the central principles we
+                    defend has been fully proved, and gives assurance that they can stand the
+                    inevitable, crucial tests of these latter days. I could cite instances where
+                    much time and much power have been sacrificed to the desire to place the name of
+                    some social star or political leader on the list of our adherents. The French
+                    “Society of Public Morality” desired to place the name on its committee of a
+                    distinguished Senator who makes war in all sincerity against impure literature,
+                    and advocates several reforms in favour of social purity, but who is found, in
+                    spite of that good work of his, to be an ardent and determined supporter of the
+                    most complete form of the State organization of vice. What follows? Confusion,
+                    division and weakness in the Abolitionist camp.</p>
+                <p>But “how is it possible,” I hear it asked, “that purity workers should ever range
+                    themselves on the side of the State organization of a hideous vice”?</p>
+                <p>I wish, with all my heart, that those who ask this question would continue to ask
+                    it, sincerely and with full purpose of heart, until they have found the answer.
+                    For in the answer to that question will be found the root and the reason for the
+                    astonishing lapse of a large section of the citizens of “free England” into a
+                    belief in material and mechanical remedies for moral evils, and into an
+                    acceptance of inevitably degrading and cruel methods in the application of these
+                    remedies. The discovery of the true answer to the above question might bring
+                    some hope of the recognition of the seriousness of this lapse and of a return to
+                    moral sanity.</p>
+            </div>
+            <div type="section">
+                <head>“JUSTICE HAS FALLEN IN THE STREETS.”</head>
+                <p>The reason why it is possible for purity workers, good and pious people, men and
+                    women busy with good works, to approve of the State superintendence of sexual
+                    vice, is<pb n="9" xml:id="VAB7179-008"></pb> this—that our race is suffering from a
+                    species of moral atrophy,— from a <emph>fatal paralysis of the sense of
+                        justice</emph>. Many literally do not know what justice is. The spiritual
+                    sense to perceive it is dead. They can no more perceive its presence or absence
+                    than a blind man can perceive the presence or absence before him of a house or a
+                    tree. The recognition of the principles which have made England what she is,
+                    which have given her any claim to be called great, seems to be all but lost.</p>
+                <p>I have ever maintained that the principles which underlie all just law—respect
+                    for the human person, for the personal rights of all, for the claim to liberty
+                    of all who are not legally judged and condemned as criminals, for the equality
+                    of all—rich and poor, man and woman—before the law, are principles which have a
+                    divine origin. They are based on the teachings of Christ. Our nation became
+                    great among the nations through respect for these principles and through belief
+                    in the source whence they are derived. When they were violated in the past by
+                    Sovereigns, Parliaments,or Ministers, those violations were followed sometimes
+                    by swift retribution, sometimes they were avenged after prolonged conflict and
+                    suffering even to death of their stern and worthy upholders.</p>
+                <p>Will our nation ever recover from this paralysis of the sense of justice? It may
+                    do so, but only “through great tribulation.”</p>
+                <p>It must be acknowledged that this loss of respect for these high principles and
+                    of moral faith, this belief in and appeal to material forces for the moralizing
+                    of the people prevails chiefly among the more privileged classes. The poor are
+                    reminded of what justice is, too often, by its absence. I have generally found
+                    among the patient, laborious, and especially the religious poor, a feeling of
+                    disgust and weariness of the injustice and inequality of judgement in the world.
+                    Unlearned as they may be, their actual experience is a species of education
+                    which induces a sentiment which is not one of mere resentment. It is a mournful
+                    impression of the lost moral balance of the world, and a consciousness that
+                    justice is not the all‐prevailing principle of action in legislation or in any
+                    of the affairs of this world.</p>
+                <p>Justice, Justice, is what we, with them, desire. Our hearts cry out for Justice;
+                    our souls are athirst for Justice. Like the Hebrew prophet we are sometimes
+                    constrained to exclaim,“Justice has fallen in the street.” I do not speak of
+                    miscarriages of justice in our law courts; our Judges rank high among
+                    administrators of justice. I refer to the general<pb n="10" xml:id="VAB7179-009"></pb> tone of Society, among men and women alike, and to a widespread neglect or
+                    contempt of principles of equity in regard, to classes of persons whose
+                    interests it is easy to set aside.</p>
+                <p>Therefore, so far from regretting, I hail with hope the present renewal of the
+                    struggle (in the sphere of government superintendence of vice) between material
+                    force and moral. It will prove our Nation. It will sift, and test what yet
+                    remains of moral faith.</p>
+            </div>
+            <div type="section">
+                <head>CLASS LEGISLATION.</head>
+                <p>It is impossible not to ask ourselves at this time, “is this struggle about to
+                    take more than ever the nature of a class war?” We have always hoped that it
+                    might not take that form. Yet the forces on either side seen to be falling more
+                    and more into these lines. It cannot be said that the Abolitionist party are
+                    responsible for this. Who is it who have sounded the latest call to conflict in
+                    their loud demand for government guaranteed vice? That demand comes from the
+                    seats of our hereditary Legislators, from the Court, from Royal Palaces, and
+                    from the highest official ranks, Military and Civil. We believe and know that
+                    there are men and women in those ranks for whom the fine old motto <foreign xml:lang="fre">noblesse oblige</foreign>, is still a reality and a rule of
+                    conduct. But these are the few who have nobility enough of the true kind to rise
+                    above the standard of those around them. A friend writes to me:—“We are coming,
+                    it seems, to the time when we shall have to turn away from the men and women of
+                    rank and wealth to address ourselves to the people, the labouring and toiling
+                    class. ‘Come unto me, ye that labour and are heavy laden,’ Jesus said, and He
+                    knows and sighs in knowing, how hardly the rich shall enter into His kingdom.
+                    Has the time come? Shall we leave the upper classes alone? This is what my
+                    friend and I are asking ourselves. O! for those who feel themselves poor and
+                    lost, for the humble and weather‐beaten on life’s highway.”</p>
+                <p>From a great number of letters which I have received at different times from
+                    representative and respected men of the working classes, I make the following
+                    quotations. (I have the original letters before me from which the quotations are
+                    taken, and many more which can be seen by anyone who desires to see them):— <q>
+                        <p>“These gentlemen who make such a noise about the necessity of
+                            prostitution too often forget, I think, that, in order to satisfy that
+                            necessity, <emph>the dishonour of the daughters of the people</emph> is
+                            indispensable for till now<pb n="11" xml:id="VAB7179-010"></pb> none of the
+                            worshippers of these medical theories have been found ready to declare
+                            their willingness that <emph>their own daughters</emph> should be so
+                            sacrificed to satisfy that necessity. Instead of this, we find that
+                            gentlemen have employed every method of seduction that the mind of man
+                            or devil could invent to drag poor girls of our class into the mud, at
+                            an age when, to those who know the art,their corruption was an easy
+                            task.”</p>
+                        <p>“Tell these gentlemen that we workmen know what is lawful and what is
+                            unlawful, what is moral and what is immoral, better than they do. We
+                            answer them that God and conscience existed before their science, and
+                            that if their knowledge produces such fruit, the sooner they forget it
+                            the better it will be for their own souls and the souls of those whom
+                            they wish to influence. We poor devils who are constrained to labour
+                            twelve, or even fourteen, hours a day, know too well that food is indeed
+                            a necessity; but so long as we have hands to work with, we shall never
+                            forget that it is a duty to satisfy even that necessity lawfully.”</p>
+                    </q></p>
+                <p>Another writes from Newcastle‐on‐Tyne:— <q>
+                        <p>“The men who invented these detestable laws have refined upon the
+                            brutality and wickedness that have always been in the world. The effect
+                            of such wholesale violation and degradation of women, for such a
+                            purpose, and with such machinery, and such expenses, can only have the
+                            result of flooding the community with immorality, wherever it is set up.
+                            It appears to me that men in high places now wish to persuade working
+                            men that they ought not to marry and have children, but live in
+                            fornication and selfishness. Woe worth the day when England becomes
+                            fully leavened with so horrible a doctrine.”</p>
+                    </q></p>
+                <p>The following is from a leading working man in Birmingham:— <q>
+                        <p>“I am quite aware that the opinions of my own class in political matters
+                            have not yet received their due weight; but we cannot be indifferent in
+                            matters of this description, so immediately affecting the liberty, the
+                            social relationship of our sisters and daughters, and so surely,
+                            although it may be in an indirect manner, sapping and weakening our
+                            whole social system. We claim a right to speak, to approve or condemn,
+                            according to the light and the reason within us. And if our protest on
+                            the present question should still be disregarded, our faith and hope
+                            that we shall yet be heard and felt as a power in the State, is
+                            sufficiently strong that we do not despair.”</p>
+                    </q></p>
+                <p>The following is from Leeds, the writer having heard of the support given by a
+                    certain number of clergy to the vice‐protecting Acts:— <q>
+                        <p>“Permit me to say (I cannot help saying it), if those rev. gentlemen who
+                            support these vile Acts are going to that ‘better land’ of which they
+                            preach, my earnest and sincere prayer will ever be, that I may not go
+                            where they are.”</p>
+                    </q></p>
+                <p>A representative working man from Cumberland wrote:— <q>
+                        <p>“I may say, with all due humility, that I have had ample means of judging
+                            of the feelings of the working classes, having risen from a labouring
+                            man to my present position, and I can assure you nothing ever called
+                            forth so powerfully the latent minds of the masses as the introduction
+                            of this law. They abhor it.”</p>
+                    </q></p>
+                <pb n="12" xml:id="VAB7179-011"></pb>
+                <p>From Edinburgh:— <q>
+                        <p>“Both for myself and many other working men I can honestly say that it is
+                            with mingled feelings of indignation and shame I hear that these Acts
+                            are again thought of. To think that the Legislators of this highly
+                            civilized, this enlightened country, should pass laws which make even
+                            the French blush, is too much for the men of the North at any rate.”</p>
+                    </q></p>
+                <p>I am aware that the sentiments quoted above will be regarded by many with
+                    feelings of contempt. Nevertheless they are representative, and there is no
+                    doubt that men and women of the working classes see more straight to the heart
+                    of certain questions than do military, medical, or Government experts.</p>
+                <p>A word of warning is not out of season here to you, gentlemen and ladies, who
+                    fear the growing ascendancy of the people. You dread Socialism; but what can be
+                    more calculated to stimulate the revolted feelings of the masses than a
+                    persistence on your part in promoting measures which are oppressive to their own
+                    class? What more dreadful form of anarchy can there be than that which devotes
+                    numbers of the daughters of the poor to a system of enslavement and degradation
+                    for the basest service of the Imperial troops? It is a ghastly caricature of the
+                    Socialism you dread.</p>
+            </div>
+            <div type="section">
+                <head>THE ORIGIN OF THE SYSTEM OF REGULATION.</head>
+                <p>This system was first suggested by Aulus in 1762, during a period of disturbance
+                    in France when the rights of human dignity and individual liberty were forgotten
+                    or misunderstood. It was further elaborated by Restif de la Bretonne in 1790,
+                    and its principle was adopted by Napoleon 1st, on the eve of his conquering raid
+                    throughout Europe. Wherever his troops marched, a corresponding troop of drilled
+                    and superintended women slaves accompanied them in the service of vice. The
+                    example of Napoleon in this respect has been largely and disastrously followed,
+                    as for example in British India, where, said Dr. Ross, an army surgeon, “When a
+                    regiment arrives, a certain establishment is told off for each regiment as it
+                    arrives, and amongst others there is an establishment for prostitutes, who are
+                    regularly looked after. <ref target="#butler-note01">*</ref>”</p>
+                <p>The scheme of Restif de la Bretonne has been republished this year (1897), the
+                    Diamond Jubilee of Queen Victoria, in the <bibl><title>Times</title></bibl> of April 21st,
+                    under the signature of a distinguished <note anchored="true" place="foot" xml:id="butler-note01">* Evidence before the Royal Commission, 1871 (Q. 15,
+                        129).</note><pb n="13" xml:id="VAB7179-012"></pb> lady, whose advice on the
+                    subject appears to have been sought by members of the Government. I prefer,
+                    however, to speak of it as the work of Restif de la Bretonne, and to drop the
+                    name of the distinguished lady in connection with these cynical propositions
+                    made during the dark times of the French Revolution. The following is the text
+                    of the condensed English version of Restif de la Bretonne, which appeared in the
+                    <bibl><title>Times</title></bibl>:— <q>
+                        <list type="simple">
+                            <item>1. A quarter of each cantonment should be reserved for such women
+                                as are permitted to remain in camp; and all such women should be
+                                compelled to remain in houses or rooms specifically reserved to each
+                                by a registered number. The admission of men to this quarter should
+                                be strictly supervised.</item>
+                            <item>2. No woman should remain in this quarter unless periodically
+                                examined by properly qualified women doctors.</item>
+                            <item>3. No soldier should be allowed to enter this quarter without
+                                having undergone a like examination and having the same
+                                report.</item>
+                            <item>4. A register should be kept recording the name of each soldier
+                                entering the quarter, the number of the house which he does, and the
+                                date of such entry.</item>
+                            <item>5. On any women being found to be diseased in this quarter, or on
+                                any soldier found to be suffering in like manner, all such persons
+                                that the registered visits show to have rendered themselves liable
+                                to contagion should be put in quarantine until such time as their
+                                immunity can be verified.</item>
+                            <item>6. All consorting with women outside this quarter should render
+                                the offender liable to severe penalty.</item>
+                        </list>
+                    </q></p>
+                <p>Is it possible that anyone with any knowledge of human nature can imagine that
+                    men (leaving out of account women who being weaker are more easily coerced and
+                    enslaved) will ever be got to render obedience to a regulation so indecent as
+                    this? For my part, I can scarcely imagine anyone to have so low an opinion of
+                    human beings as the promoters of such a system must have. I have seen something
+                    of the worst side of humanity. I have encountered men who were more demons than
+                    men. I have been forced to fathom the depths of human corruption; yet, I thank
+                    God, my faith is strong as ever in the recoverability of the most abject of
+                    human beings, and in the spark of divine light which lingers even in those who
+                    are generally believed to be helpless. I refuse to believe that our poor young
+                    soldiers in India at the age of from 18 to 25 have reached such a depth of
+                    degradation as to accept or to cease to revolt against such rules as the above,
+                    and that it will ever be possible to drill them in debauchery so perfectly as to
+                    induce them to practice it with the order and precision with which they might
+                    attend a concert or a lecture, having their names entered, with the date, the
+                    circumstances, the number of the room visited,etc.. None but the coarsest, the
+                    most stupidly<pb n="14" xml:id="VAB7179-013"></pb> animal and shameless of the men
+                    would consent to perform their acts of impurity thus openly, under the eyes of
+                    the military police and the whole camp. But there would not be less vice, for
+                    the very publicity and shamelessness thus prescribed and enforced would
+                    themselves reproduce, in a great degree than ever before, that terror, that
+                    Giant Despair of all regulationists—“<emph>illicit prostitution</emph>,” the
+                    “consorting with unlicensed women,” which defeats all the sanitary efforts of
+                    the organizers of vice.</p>
+                <p>This result in the past is confirmed by many official papers. The latest among
+                    those written while the Cantonment Regulations were in full force, confirms the
+                    fact that the soldiers preferred to consort with women who <emph>evaded</emph>
+                    the regulations. “The Thirteenth Annual Report of the working of the Lock
+                    Hospitals of the North‐West Provinces and Oudh, for the year ending 31st
+                    December, 1886,” contains reports from 14 districts or cantonments. Twelve
+                    complain of the men’s consorting with unlicensed prostitutes, while the report
+                    indirectly places the difficulty in the strongest light by pointing out the
+                    necessity of insuring that“attractive women are kept in the regimental <foreign xml:lang="hin">chakla</foreign>” or brothel. The following is an extract
+                    from the Report from Fyzabad, which more fully supports the same view. “The
+                    police are said to be constantly on the alert to apprehend any unlicensed
+                    prostitute found within five miles of cantonments, and the regimental police
+                    patrol the city to prevent soldiers straying into the houses of unregistered
+                    city prostitutes. Yet unlicensed prostitution goes on as before.” From this it
+                    is evident that the policy afterwards adopted by the Indian Government of
+                    seeking to provide “younger and better‐looking women” was only the natural
+                    attempt to remedy the defect, in this drastic system, which was at once a cause
+                    and a proof of its failure. For the officials in these reports all uniformly
+                    attribute the increase of disease to the men’s consorting with
+                    “unlicensed”women.</p>
+                <p>This refusal on the part of men to accept the thing provided for them by
+                    Government (the <emph>thing</emph> superintended, medicated, its womanhood
+                    stamped out of it, no longer a woman, but a chattel), is in fact a redeeming
+                    feature in the character of the wretched, immoral soldier; it indicates a spark
+                    of something above the mere animal. It is a protest against being classed as
+                    wholly dehumanized and brutal. It is a secret rebellion of the human will in
+                    favour of some liberty of choice, a desire for the semblance, miserable as that
+                    semblance may be, of a little romance or adventure, a little of the seeking,
+                        courting<pb n="15" xml:id="VAB7179-014"></pb> and winning, which in the eyes of
+                    the young man is more agreeable and less degrading than the mechanically ordered
+                    practice of fornication prescribed by military officials and the State. To
+                    persons whose moral sense is not wholly blighted by complicity in this degrading
+                    system, it is touching to note (even in this particular) how poor human nature
+                    continually “struggles against its own final destruction,and for the retention
+                    of some remnant or rag of human dignity.”</p>
+                <p>Yet while evasion of regulation on the part of men and women alike will continue,
+                    as it has ever done, to defeat the hopes of the promoters of this accursed
+                    system on the hygienic side, the State by assuming this guilty attitude towards
+                    vice, exercises a fatal and far‐reaching influence on the public conscience.
+                    While on the one hand men will evade the State rules, they will yet see the
+                    State daily inviting them, by its organized machinery for vice, to unrestrained
+                    indulgence. There stands within the Indian Cantonment, together with the place
+                    of worship to which the troops are marched once a week, the <foreign xml:lang="hin">Chakla</foreign>, the <foreign xml:lang="fre">maison
+                        tolerée</foreign> of France, the <foreign xml:lang="lat">Lupanar</foreign>
+                    of the Romans, the house of debauchery, the place which is called in Scripture
+                    “an open sepulchre, resting upon the tomb”;“and you wish,” says M. Ed. de
+                    Pressensé, “that the State should hold the key to that chamber of death, that
+                    the State should be the door‐keeper to admit to it our youthful citizens”! The
+                    same weighty writer says: “your measures of protection are useless. How could it
+                    be otherwise? You wish to regulate vice, but it is of the essence of vice to
+                    refuse to be regulated. It is itself an irregularity. It violates all moral
+                    laws, you may expect it to transgress human rules. It is like a torrent which
+                    has overflowed its banks. It mocks all your regulations. You will never succeed
+                    in making disorderly passions well ordered in their gratification.”</p>
+                <p>And the Ladies’ Memorial speaks of this system as promoting the redemption of the
+                    women who are subjected to it. Would that they had once witnessed its effect on
+                    these poor slaves, or that they had the imagination to realize it!</p>
+                <p>The promoters and the opponents of this system of moral torture alike testify to
+                    its destructive effects on the helpless women. Of the former, is M. Alphonse
+                    Equiros, who says that when once the woman has entered the State regulated house
+                    of vice“she bid adieu to heaven, to liberty, to honour, and to the power to
+                    repent.” Dr. Hippolyte Mireur, of Marseilles, himself a worker in it, describes
+                    the “system which regularizes the sorrowful industry of the prostitute” as “the
+                    sinister stroke by which the woman is<pb n="16" xml:id="VAB7179-015"></pb> cut off
+                    from society, after which, she ceases to belong to herself and becomes the mere
+                        <emph>thing</emph> (<foreign xml:lang="fre">chose</foreign>) of the
+                    administration.”</p>
+                <p>M. Ed. De Pressensé, a strong opponent of legalised vice speaks thus: “Let us
+                    look at the situation of the woman whom the Governments have submitted to a
+                    regulations which is a complete and abject slavery. She deserves nothing but
+                    contempt, you say! She is invariably as morally perverse as you assert that she
+                    is! What is your part in the matter? You engulf her further; you thrust her down
+                    lower; you throw on her the last shovelful of earth to hurl her to the abyss;
+                    you roll upon her the stone which cannot be removed except by superhuman effort.
+                    ‘Oh! you have fallen, unfortunate creature, you say; well, we will complete the
+                    work, we will consummate your degradation; that which is already soiled shall be
+                    made still more vile.’ This is logic, but it is <emph>the logic of
+                        demons!</emph>” And this is the system which you, honourable ladies,
+                    Princesses and Peeresses, approve and demand!</p>
+            </div>
+            <div type="section">
+                <head>AN UNJUST IMPUTATION.</head>
+                <p>It continues to be reiterated that the Abolitionist are purely negative in their
+                    proposals, and that they suggest nothing of a positive kind to meet the plague
+                    of increasing disease resulting from vice.</p>
+                <p>This accusation is wholly false. Those who make it can scarcely have taken the
+                    trouble to read the many memorials, pamphlets and addresses which have emanated
+                    continually from our offices. We have pressed our positive suggestions upon
+                    successive Governments, but with little avail. Let me advise those who echo this
+                    taunt to obtain and read some of our latest utterances.</p>
+                <p>“The Soldier and his Masters” may be had at our office, 17, Tothill Street,
+                    Westminster, and it is full of positive suggestions, which, if adopted, could
+                    not fail to produce, in time, a marked change for the better in the morality and
+                    consequently in the hygiene of our soldiers. The following is extracted from a
+                    Memorandum published by the Abolitionists, and widely circulated in April last:— <q>
+                        <p>“We demand that there should be no reversion to an immoral and
+                            discredited system, but <emph>that practical steps should be
+                                taken</emph> which, while supplying adequate means for the voluntary
+                            treatment of disease, should be based on—</p>
+                        <list type="simple">
+                            <item>(1.) A positive discouragement of sexual vice;</item>
+                            <item>(2.) And a positive recognition of the merits of abstinence from
+                                    vice.<pb n="17" xml:id="VAB7179-016"></pb> In relation to this we
+                                would remark:<list type="simple">
+                                    <item>(a.) As matters stand, it seems that even the most
+                                        habitual profligacy is no impediment to promotion. It is
+                                        understood that Commanding officers make confidential
+                                        reports on their subordinates, but that the question of
+                                        sexual morality is never mentioned. Should it not be ordered
+                                        that henceforth moral character shall be at least an
+                                        important element in promotion?</item>
+                                    <item>(b.) A man who has spent much of his time in hospital from
+                                        these disgraceful diseases may, if he be a well conducted
+                                        soldier in other respects when he is out of hospital, get
+                                        his discharge with a character described as ‘exemplary.’
+                                        Should not the War Office decide at once, as it can if it
+                                        please, that the ‘medical history sheet’ shall be taken into
+                                        consideration as well as the ‘defaulters’ sheet’ in giving
+                                        the soldier a character?</item>
+                                    <item>(c.) Why should not the bad condition of a regiment in
+                                        regard to this question be regarded by the authorities as a
+                                        reflection on the officers and regiment, involving special
+                                        disciplines?</item>
+                                </list></item>
+                            <item>(3.) Before any step is taken to depart from the attitude which
+                                has for so many years been adopted by responsible authorities in
+                                this country, we suggest that a Select Committee should be appointed
+                                to enquire into the following points and others that may be
+                                    suggested—<list type="simple">
+                                    <item>(a.) What can be done more than has already done, and more
+                                        than is suggested above, to raise the moral tone of the Army
+                                        both among officers and men?</item>
+                                    <item>(b.) What more can be done in the way of providing
+                                        occupation, recreation, &amp;c., as suggested by the
+                                        Army Sanitary Commission?</item>
+                                    <item>(c.) Under what circumstances the proportion of married
+                                        men, which under the East India Company was 20 or 30 per
+                                        cent. was reduced to 12 per cent. and is now less than 4 per
+                                        cent.</item>
+                                    <item>(d.) Whether a system ensuring older men and longer
+                                        service for the British Army in India, so as to increase the
+                                        proportion of mature men, as suggested by Lord Roberts, is
+                                        feasible or desirable?</item>
+                                    <item>(e.) Why and to what extent the 70 ‘Cantonment’ and
+                                        ‘Cantonment General’ Hospitals at one time in existence
+                                        succeeded or failed, and why there are now only 13 of these
+                                        hospitals and 13 outdoor dispensaries now in existence for
+                                        the 108 military stations in India, and whether any means
+                                        could be taken to make hospitals of this class more
+                                        useful?</item>
+                                    <item>(f.) Whether any <emph>disciplinary measures</emph> have
+                                        been or can advantageously be adopted to diminish the
+                                        temptations to vice, by placing certain localities out of
+                                        bounds, and in other ways?</item>
+                                    <item>(g.) Whether any steps are being taken or can
+                                        advantageously be taken to prevent the access of women to
+                                        the neighbourhood of barracks, cantonments, or camps without
+                                        legitimate business?</item>
+                                    <item>(h.) Whether the present system of hospital stoppages,
+                                        which are now the same for shameful diseases as for those
+                                        which are unavoidable, is the best possible?</item>
+                                    <item>(i.) What are the causes of the great variations in the
+                                        admissions to hospitals in different stations and in
+                                        differing regiments?</item>
+                                </list></item>
+                        </list>
+                    </q></p>
+                <p>The following words are the concluding portion of a Memorial which the
+                    Abolitionist Society lately presented to Lord George Hamilton:— <q>
+                        <p>“We note with regret your dispatch places disease in the forefront and
+                            gives a very subordinate place to moral considerations. Even the one
+                            paragraph (14) referring to moral efforts introduces them only in
+                                relation<pb n="18" xml:id="VAB7179-017"></pb> to mitigating or checking
+                            the spread of disease. We believe this attitude (which has been that of
+                            the Indian Government for many decades) is the main cause of the present
+                            condition of the Indian Army, and that without a total change in this
+                            respect that condition will become more and more disastrous.</p>
+                        <p>“We earnestly plead with you to look beyond the horrible statistics of
+                            disease to the still more terrible facts of which it is at once the
+                            index and the inevitable outcome. The figures reveal the startling facts
+                            that we have in India an army of 70,000 men all but given up to reckless
+                            debauchery, and that these return to this country at the rate of 13,000
+                            annually, bringing with them the debasing sentiments and habits acquired
+                            during their Indian training, and infecting our industrial communities
+                            with a moral pestilence, more destructive of the national stamina than
+                            the disease on which you have concentrated your attention.</p>
+                        <p>“We submit that the only statesmanlike attitude—the only one that offers
+                            a hope of permanently lessening the deplorable physical effects of
+                            debauchery —is that of <emph>making well‐devised, continuous, and
+                                resolute efforts to remove temptations to that debauchery, to apply
+                                disciplinary provisions and restraints to check disease and
+                                discourage vice, and to place the soldier in an environment tending
+                                to develop his best physical, moral, intellectual and religious
+                                faculties</emph>. We have recently issued a Memorandum, of which we
+                            hand you a copy, containing <emph>practical suggestions</emph> in this
+                            direction, which we commend to your most earnest consideration. And in
+                            view of the gravity of the situation, we again repeat our request that a
+                            Select Committee be appointed to enquire as to what remedies may most
+                            wisely be adopted.”</p>
+                    </q></p>
+                <p>It cannot be said, in the face of such urgent counsels which have been put
+                    forward by us at different times, that our action is negative or merely
+                    destructive, without positive suggestion of any remedy.</p>
+                <p>The fact is that our age is a very impatient age. Few people nowadays have
+                    patience to wait for the gradual, but sure action of moral influences. The true
+                    remedies for all this vice and disease cannot possibly be immediate and rapid in
+                    their operation.</p>
+                <p>A panic has seized our public on this subject, as if the plague were at our
+                    doors, and they cry out for prompt sanitary protection.</p>
+                <p>And what most people desire is some immediate and constructive legislation. Now
+                    we have come, from a long experience, to have a profound distrust of
+                    constructive legislation in this matter. There is nothing so delicate as the
+                    moral relations of the sexes. Legislation on that subject cannot be carried into
+                    effect by men in government livery, with sticks in their hands, whom we call
+                    policemen; the power of the State must be exceedingly restricted in this domain.
+                    The law can, and ought to reach some of the sources whence prostitution is
+                    constantly supplied and fed, such as seduction, procuring, trafficking in “white
+                    slaves,” and the organization of vice. But how can the State punish<pb n="19" xml:id="VAB7179-018"></pb> a thing which it declares to be necessary, and while
+                    it itself seduces, procures, and organizes?</p>
+                <p>More than has ever yet been done may be done by associated action. If a mistake
+                    is made in an experiment by voluntary and associated workers, it is not fatal;
+                    we can go back from our error, and profit by the experience gained even in our
+                    mistakes. But laws <emph>create</emph>conditions, unexpected and unimagined by
+                    us beforehand, which frequently perplex and embarrass us as much as the original
+                    circumstances which occasioned the outcry for a law. The law is inelastic and
+                    rigid, and is sure to be unjust when dealing with this question.</p>
+                <p>In the question before us, above all others, the law inevitably becomes, even
+                    though it may not be meant to be so, a <emph>class</emph> law, of the grossest
+                    kind. If men were included in its penalties, they would only be men of the
+                    poorest class, probably only soldiers who are the servants of the State in such
+                    a degree that they could be brought under any legal discipline whatever; while
+                    the women brought under such a law would only be the daughters of the
+                    poor,—helpless, fallen, friendless, and despised. Who can imagine military
+                    captains, majors, or colonels brought under such a law, or the protected
+                    daughters of the favoured classes? But nothing less probably will meet the
+                    present impatient outcry, than some constructive legislation of a drastic kind
+                    which will fall upon one class alone, and be followed in time by its own
+                    appropriate curse.</p>
+                <p>Why do not our military authorities adopt some more radical and reasonable
+                    measures in regard to the soldiers? They are all powerful, and could do it if
+                    they wished. Their present methods are but a most wretched tinkering. We are as
+                    desirous as they that discipline—a strict discipline—should be applied to the
+                    boys who go out to India, and who are quite as amenable to good and restraining
+                    as to evil influences.</p>
+                <p>In the early years of the existence of the Contagious Disease Acts in England I
+                    visited many of the garrison towns subjected to them. At Chatham I entered one
+                    evening a hall attached to one of the State‐superintended houses of ill‐fame
+                    under strict police control. There was a crowd of miserable girls—“Queen’s
+                    women,” as they not unnaturally styled themselves—and a corresponding crowd of
+                    youths, raw recruits, drinking, singing, dancing, but in a languid, joyless
+                    manner. A group of them gathered round me, and as I spoke kindly to them a young
+                    soldier took by the arm another, a very young<pb n="20" xml:id="VAB7179-019"></pb>
+                    and innocent looking boy, and pushing him forward to me, said, “speak to him,
+                    Lady, he is from the country, he has just joined.” The boy’s face suggested a
+                    good home and a loving Christian mother, recently exchanged for this hell,
+                    filled with State guaranteed harlots. He came up to me in a confiding manner,
+                    and after a few words, he burst into tears, and said,“Oh, Ma’am, <emph>they
+                        expect us to bad, and we are bad</emph>.” <emph>They</emph>—the
+                    authorities—“expect us to be bad.” That boy expressed the whole truth concerning
+                    the effect of this degrading State institution, in those few simple words.</p>
+                <p>Why should not the authorities give a trial to the plan of <emph>expecting</emph>
+                    these young soldiers to be <emph>good</emph>? When certain officers have
+                    earnestly tried that simple and elevating method, it has been eminently
+                    successful; we know instances of its having been truly blessed in its results.
+                    But how many such officers are there, or how few? Apparently the Government and
+                    Military authorities are afraid of allowing any inquiry whatever on that
+                    head.</p>
+                <p>In the debate in the House of Lords, the Bishop of Southwell suggested that where
+                    regiments had deteriorated in morality, penalties should be inflicted on the
+                    colonels of the regiments personally. If those who were under him as a head
+                    master or a bishop deteriorated it would quite right if he were removed from his
+                    office. He had lived in a garrison town and he knew how much the character of a
+                    regiment depended upon its colonel.</p>
+                <p>Lord Clarina, as one of the oldest regimental officers in the House, was amazed
+                    to hear it suggested that penal results should fall upon a commanding officer in
+                    whose regiment there was a large amount of disease. No body of men were more
+                    devoted to their duty than the commanding officers of regiments.</p>
+                <p>Lord Clarina’s remarks were greeted with approving laughter. Noble Lords were
+                    amused at the idea of holding colonels responsible. They will continue to laugh,
+                    so secure are they in the immunity which rank gives them from the penalties
+                    inflicted on humbler people. They are of those of whom Christ said: “Ye load men
+                    with burdens grievous to be borne, but ye yourselves will not touch them with
+                    one of your fingers.”</p>
+                <p>Is it not to be feared that India may one day herself answer her rulers, and cut
+                    through the heart of this problem in her own manner? For the natives of India,
+                    superstitious and ignorant, and for the present apparently submissive, have yet
+                    enough of the man in them not to endure for ever that the women of their
+                    people,—a conquered people,—<pb n="21" xml:id="VAB7179-020"></pb> should be taken
+                    and bound to the service of the vices of the troops of their conquerors. They
+                    have their harlot temples and certain impure rites, but they are not all impure,
+                    as the British Army authorities themselves attest; the native soldier being in a
+                    far more honourable position as to vice and disease than the British soldier;
+                    and there are grave signs of a secret revolt in their minds against the supreme
+                    contempt for their women expressed in the high handed and degrading measures
+                    taken under the Cantonment Acts.</p>
+            </div>
+            <div type="section">
+                <head>FELLOWSHIP WITH THE WORKS OF DARKNESS.</head>
+                <p>Many of my friends will recollect the events of the 22nd of March of last year,
+                    in Geneva.</p>
+                <p>In all parts of Switzerland, except Geneva, the official organisation of vice has
+                    been abolished. Geneva alone clings to it, or rather it clings like a poisoned
+                    mantle to her, so closely that she cannot shake it off. It dates as one of her
+                    recognised institutions since the close of the last century, when Napoleon
+                    entered Geneva with his troops. A strong effort was made last year by the better
+                    part of the citizens to shake it off.</p>
+                <p>The question was put to the vote. The Regulationists were victorious. Sunday,
+                    March the 22nd, was the voting day. I prefer not to recount again in detail the
+                    horrors of that day and the following night, the orgies, the blasphemies, the
+                    violence of the victorious party, who entered churches carrying aloft the
+                    insignia of their abominable institution, the red lamp (the <foreign xml:lang="fre">Lampe Rouge</foreign> is by order of the Government hung over
+                    the door of every house where vice is practised under its protection), singing
+                    their obscene songs of praise to the demon, parodying a hymn sung in the
+                    churches to the Holy Spirit, and applying it to the symbol of their
+                    degradation.</p>
+                <p>At midnight, the furious mob assembled around the house of their leader, a Member
+                    of the Government, who addressed them from his balcony:—“You can now go home,
+                    citizens,” he said, “we have triumphed. We have saved our free institutions.
+                        <emph>Christianity</emph> (Pietisme, their word for vital Christianity)
+                        <emph>is dead in Geneva</emph>. We shall no more be troubled with it. We
+                    shall hear no more of that party.” <ref target="#butler-note02">*</ref></p>
+                <note anchored="true" place="foot" xml:id="butler-note02">* For the verification of
+                    these facts, and others even more terrible, I refer my readers to the “Signal de
+                    Genève” of that date, March 1896.</note>
+                <pb n="22" xml:id="VAB7179-021"></pb>
+                <p>The <bibl><title>Genevois</title></bibl>, of Geneva, edited by the Regulationist leader above
+                    mentioned, has recently had several jubilant articles on the revival of the
+                    demand in England for the State Organisation of Vice, and in his issue of the
+                    24th of May last,the Editor declares that the triumph of the Regulationist is
+                    everywhere assured, thanks to the British Government; and closes his article
+                    with the words: “The foolish noise of the Christians has come to an end
+                        <emph>even in England</emph>.”</p>
+                <p>Many honest and honourable people who do not see the inner meanings of the
+                    question before us uphold this disastrous governmental policy actively or by
+                    silent acquiescence; but one day they will know that deep down, at the source
+                    and origin of the movement, there are beings who know all, and knowing, say,
+                    “Evil be thou my good.” No mere question of the health of the Army, deeply
+                    important and pressing as that question is, would awaken the passion which this
+                    question evokes. Mrs. Harriet Martineau wrote in 1870, when our appeals had
+                    begun to arouse the country, “how appalled the profligates are, and how enraged!
+                    I have heard from very high authority that it is as if the depths of hell were
+                    stirred, so fierce is the passion of certain men at the check in a career which
+                    they supposed would be made more secure. . . . . The extraordinary violence and
+                    ill manners of certain newspaper editors speak volumes; and the audacity with
+                    which falsehoods are told, make it impossible to doubt that such disturbance
+                    arises out of fear. ‘Fear hath torment,’ and it is a sort of torment which, in
+                    its paroxysms, betrays its origin.”</p>
+                <p>The beings above indicated ar filled with a passionate desire to cast off the
+                    yoke of the moral law, or, to quote the words of one of themselves, to get rid
+                    of “this damnable Puritanism” which is so irksome to them. Nothing, they know,
+                    would so rapidly and forcibly conduce towards their liberation from this
+                    oppressive yoke than that the State should itself proclaim, and daily flaunt the
+                    proclamation before the eyes of all people, that free fleshly indulgence is
+                    necessary for man, and therefore not be blamed, but rather to be facilitated. No
+                    more teaching of the old‐fashioned doctrine that “he that soweth to the flesh,
+                    shall of the flesh reap corruption.” Profligacy will breathe freely under the
+                    new <foreign xml:lang="fre">régime</foreign>; let the Churches prate, and
+                    school‐children be taught to repeat certain words supposed to emanate from a
+                    Divine source. The lesson taught by the attitude of the State will be stronger
+                    than all!</p>
+                <p>This is the inner meaning of the struggle. It lies deep, deep, and we know who is
+                    its inspirer on that side; our<pb n="23" xml:id="VAB7179-022"></pb> battle is not
+                    merely against Government proposals, corrupt officialism, and medical theories.
+                    It is against legions of “unclean spirits.”</p>
+            </div>
+            <div type="section">
+                <head>TO ALL FAITHFUL FRIENDS OF OUR CAUSE.</head>
+                <p>For us, friends, at this time, our great concern must be <emph>to deliver our
+                        message</emph> clearly and sternly, and that our clarion shall give no
+                    uncertain sound. So shall we be found at the last to be faithful and true
+                    witnesses.</p>
+                <p>We need not pause and wonder over recent events. “Behold, I have told you
+                    before,” our Lord said, “Satan has desired to sift you like wheat.” “But I have
+                    prayed for you, that your faith will fail not.” Under what a heavy burden may
+                    not the human heart of our Saviour have bent when he uttered that prayer! For it
+                    was not uttered for the men alone to whom he then spoke. He said, “I pray not
+                    for these alone, but for all who shall believe on me through their word.”</p>
+                <p>And now, again, he is asking us,—“Can you drink of the cup that I drink of, and
+                    be baptized with the baptism that I am baptized with?”</p>
+            </div>
+            <div type="section">
+                <head>THE MINISTRY OF DEATH.</head>
+                <p>We are learning now more deeply than ever the power of Christ’s Crucifixion and
+                    Death. We understand more fully now that before the triumph comes, we must have
+                    died with him, singly and collectively; that his cause on earth must die, in
+                    order to live the life eternal. “<emph>I am He who liveth, and was dead</emph>.”
+                    Death must needs be gone through that “all may be accomplished”; for <emph>Death
+                        must take away its own</emph> that Life alone may remain.</p>
+                <p>Now, among us Abolitionists, death through temporary failure, will be doing its
+                    solemn work, consuming the chaff, refining the silver—and “you shall be
+                    scattered, every one to his own.” And so it will be revealed what is “our own,”
+                    where our treasure is, and where our heart is, in how much they have blended
+                    themselves with God’s purpose and in God’s work.</p>
+                <p>I pray that all that is not God’s in my own heart and the hearts of others, any
+                    be burned up and destroyed. As in the world, so among us, let there be a
+                    sifting, in order that all who can or must fall off <emph>may fall</emph>! The
+                    selection must take place before we go on further; and God is operating it<pb n="24" xml:id="VAB7179-023"></pb> through many tests. Those who in the depths of
+                    their hearts have any secret leaning to compromise with an evil principle are
+                    proved now to the uttermost, and,—for <emph>this</emph> warfare,— are cast
+                    aside, or left behind; for God can employ in it only whole‐hearted seekers after
+                    justice.</p>
+                <p>Let us boldly yield ourselves and the world to death’s solemn ministry, that what
+                    is of death may die!</p>
+                <p>We know that after Death comes Resurrection, and we seek not “the Living among
+                    the Dead.” We do not fear the Refiner’s fire, nor the sifting. We look beyond
+                    the “Great Tribulation” to the victory which is not far off.</p>
+            </div>
+            <closer>
+                <signed>Josephine E. Butler.</signed>
+                <date>July, 1897.</date>
+            </closer>
+            <trailer>Printed by Pewtress &amp;c. Co., 28, Little Queen Street, London,
+                W.C.</trailer></div>
+        </body>
+    </text>
+</TEI>

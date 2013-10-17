@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7170">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Claim of Englishwomen to the Suffrage Constitutionally Considered</title>
+                <title type="filing">Claim of Englishwomen to the Suffrage Constitutionally Considered</title>
+                <author>Taylor, Helen (1831-1907)</author>
+                <respStmt>
+                    <resp>Transcribed, encoded and edited by</resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 51 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>December 20, 1995</date>
+                <idno>VAB7170</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>The Claim of Englishwomen to the Suffrage Constitutionally Considered</title>
+                        <author>Taylor, Helen, 1831-1907</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Helen Taylor</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>16 p.</extent>
+                    <publicationStmt>
+                        <publisher>Trübner and Co. </publisher>
+                        <pubPlace>London: </pubPlace>
+                        <date when="1867">1867</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>The body occurs as DIV0. All quotation marks, hyphens, dashes, apostrophes and
+                    colons have been transcribed as entity references.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>Any hyphens occurring in line breaks have been removed; hyphens occuring in page
+                    breaks have been preserved. All hyphens are encoded as &amp;hyphen; and em
+                    dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="abbr" occurs="1"></tagUsage>
+                    <tagUsage gi="address" occurs="2"></tagUsage>
+                    <tagUsage gi="addrline" occurs="7"></tagUsage>
+                    <tagUsage gi="author" occurs="1"></tagUsage>
+                    <tagUsage gi="availability" occurs="1"></tagUsage>
+                    <tagUsage gi="bibl" occurs="2"></tagUsage>
+                    <tagUsage gi="biblfull" occurs="1"></tagUsage>
+                    <tagUsage gi="body" occurs="1"></tagUsage>
+                    <tagUsage gi="byline" occurs="1"></tagUsage>
+                    <tagUsage gi="change" occurs="2"></tagUsage>
+                    <tagUsage gi="closer" occurs="1"></tagUsage>
+                    <tagUsage gi="date" occurs="4"></tagUsage>
+                    <tagUsage gi="div" occurs="1"></tagUsage>
+                    <tagUsage gi="div0" occurs="1"></tagUsage>
+                    <tagUsage gi="docauthor" occurs="1"></tagUsage>
+                    <tagUsage gi="docdate" occurs="1"></tagUsage>
+                    <tagUsage gi="docimprint" occurs="1"></tagUsage>
+                    <tagUsage gi="doctitle" occurs="1"></tagUsage>
+                    <tagUsage gi="editorialdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="emph" occurs="4"></tagUsage>
+                    <tagUsage gi="encodingdesc" occurs="1"></tagUsage>
+                    <tagUsage gi="extent" occurs="2"></tagUsage>
+                    <tagUsage gi="filedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="foreign" occurs="2"></tagUsage>
+                    <tagUsage gi="front" occurs="1"></tagUsage>
+                    <tagUsage gi="head" occurs="1"></tagUsage>
+                    <tagUsage gi="hi" occurs="1"></tagUsage>
+                    <tagUsage gi="item" occurs="2"></tagUsage>
+                    <tagUsage gi="l" occurs="2"></tagUsage>
+                    <tagUsage gi="language" occurs="2"></tagUsage>
+                    <tagUsage gi="langusage" occurs="1"></tagUsage>
+                    <tagUsage gi="name" occurs="5"></tagUsage>
+                    <tagUsage gi="p" occurs="28"></tagUsage>
+                    <tagUsage gi="pb" occurs="15"></tagUsage>
+                    <tagUsage gi="profiledesc" occurs="1"></tagUsage>
+                    <tagUsage gi="publicationstmt" occurs="2"></tagUsage>
+                    <tagUsage gi="publisher" occurs="4"></tagUsage>
+                    <tagUsage gi="pubplace" occurs="4"></tagUsage>
+                    <tagUsage gi="q" occurs="1"></tagUsage>
+                    <tagUsage gi="ref" occurs="1"></tagUsage>
+                    <tagUsage gi="resp" occurs="5"></tagUsage>
+                    <tagUsage gi="respstmt" occurs="5"></tagUsage>
+                    <tagUsage gi="revisiondesc" occurs="1"></tagUsage>
+                    <tagUsage gi="seriesstmt" occurs="1"></tagUsage>
+                    <tagUsage gi="socalled" occurs="14"></tagUsage>
+                    <tagUsage gi="sourcedesc" occurs="1"></tagUsage>
+                    <tagUsage gi="tagsdecl" occurs="1"></tagUsage>
+                    <tagUsage gi="tagusage" occurs="55"></tagUsage>
+                    <tagUsage gi="tei.2" occurs="1"></tagUsage>
+                    <tagUsage gi="teiheader" occurs="1"></tagUsage>
+                    <tagUsage gi="text" occurs="1"></tagUsage>
+                    <tagUsage gi="title" occurs="3"></tagUsage>
+                    <tagUsage gi="titlepage" occurs="1"></tagUsage>
+                    <tagUsage gi="titlepart" occurs="1"></tagUsage>
+                    <tagUsage gi="titlestmt" occurs="2"></tagUsage>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"></ptr>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"></ptr>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"></ptr>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fre">French</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Women -- Suffrage -- Great Britain</item>
+                    </list>
+                </keywords>
+                <keywords scheme="#mla">
+                    <list>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/essay">essay</term></item>
+                        <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/prose">prose</term></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-12-20</date><label>general editor.</label><name>Perry Willett,
+                </name>finished transcription, TEI‐conformant encoding and final proofing.</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2009-11-20" who="#bn">Added Library of Congress subject headings</change>
+            <change when="2010-08-04" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-08-04" who="elizabethmunson">Added filing title</change>
+            <change when="2010-08-04" who="elizabethmunson">Added LCNAF form of author name to sourceDesc and fileDesc author (hyphen 
+            adjusted for both)</change>
+            <change when="2010-08-04" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-08-04" who="elizabethmunson">Tagged title element inside bibl</change>
+            <change when="2010-09-03" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-03" who="elizabethmunson">Removed div type="body"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">The Claim of Englishwomen to the Suffrage
+                        Constitutionally Considered.</titlePart>
+                </docTitle>
+                <byline>By<docAuthor>Helen Taylor.</docAuthor></byline>
+                <docImprint>Reprinted from the <ref>“Westminster Review”</ref>
+                    <pubPlace>London:</pubPlace>
+                    <publisher>Trübner and Co.,
+                        <address><addrLine>60, Paternoster Row.</addrLine></address></publisher></docImprint>
+                <docDate when="1867">MDCCCLXVII.</docDate>
+            </titlePage>
+            <pb xml:id="VAB7170-001"></pb>
+        </front>
+        <pb xml:id="VAB7170-002"></pb>
+        <body>
+            <div type="book">
+                <head>The Claim of Englishwomen to the Suffrage Constitutionally Considered.</head>
+                <p><hi>AMONG</hi> the demonstrations of opinion which the discussions on
+                    Parliamentary Reform have drawn forth during the past session, no one was more
+                    remarkable than the petition signed by fifteen hundred ladies, which was
+                    presented to the House of Commons by Mr. J. Stuart Mill. This petition is
+                    comprised in a few short sentences, and sets forth that the possession of
+                    property in this country carries with it the right to vote in the election of
+                    representatives in Parliament; that the exclusion from this right of women
+                    holding property is therefore anomalous; and that the petitioners pray that the
+                    representation of householders may be provided for without distinction of
+                    sex.</p>
+                <p>This claim, that since women are permitted to hold property they should also be
+                    permitted to exercise all the rights which, by our laws, the possession of
+                    property brings with it, is put forward in this petition on such strictly
+                    constitutional grounds, and is advanced so entirely without reference to any
+                    abstract rights, or fundamental changes in the institutions of English society,
+                    that it is impossible not to feel that the ladies who make it have done so with
+                    a practical purpose in view, and that they conceive themselves to be asking only
+                    for the recognition of rights which flow naturally from the existing laws and
+                    institutions of the country.</p>
+                <p>That a considerable number of ladies should think it worth while to examine into
+                    their actual political status, and finding it to all appearance inconsistent
+                    with the principles of the British Constitution, should proceed to lay what they
+                    term the <soCalled>anomaly</soCalled> before the House of Commons, is assuredly
+                    an important symptom of our<pb n="4" xml:id="VAB7170-003"></pb> national condition;
+                    an evidence that the minds of English people, men and women, are actively at
+                    work in many directions where they might have been but little expected to
+                    penetrate. It is, at the same time, a sign of that disposition which various
+                    causes (partly political and partly philosophical) have tended to foster of late
+                    years, to seek the reform of existing evils rather in the development than in
+                    the overthrow of the present order of things.</p>
+                <p>It may appear, at first sight, as though in proportion to the millions of
+                    Englishwomen who live happily under our laws, or who groan under all the
+                    miseries of wife‐beating and other social evils, without a thought of how their
+                    condition might be affected by legislation, fifteen hundred women are too small
+                    a number to be worthy of a moment’s consideration. But if we reflect a little on
+                    the peculiar position of women, and their usual ways of thinking—on their
+                    habitual reticence on all subjects which they are accustomed to consider as
+                    beyond their own sphere, their timidity and dread of exposing their names to
+                    public observation, their deference even to the most unreasonable prejudices of
+                    those who have any claim on their affections, their clinging to old
+                    associations, and their regard for the opinion of all who are even remotely
+                    connected with them—we shall see reason to think that these fifteen hundred
+                    ladies, who have not hesitated to affix their names to a public document, and to
+                    pronounce a decided opinion, open to the controversy and criticism of all the
+                    world, must represent an extraordinarily important phase of thought. It is not
+                    going too far to say, that for one woman who can and will pronounce openly on
+                    such a subject, there must be at least ten whom family hindrances or habitual
+                    timidity will prevent from expressing an opinion, even if they have formed any.
+                    And the number must be still greater of those whose minds are only partially
+                    prepared for any ideas on such subjects, who are little in the habit of arriving
+                    at any definite conclusions at all on political matters, but who, as they have
+                    passed through much of the same experience, and lived in the same state of
+                    society as their more energetic or more active‐minded sisters, must have been
+                    liable to the same influences, and are not at all unlikely to adopt the same way
+                    of thinking, when it is put before them in so plausible and so little startling
+                    a form as we find it in this petition. The peculiarly dependent position of
+                    women is another circumstance which must add much to our estimate of the number
+                    really represented by these fifteen hundred petitioners. There is scarcely a
+                    family in the kingdom where a mother, or a widowed or unmarried sister, or one
+                    married to a kind husband, is not the intimate friend and confidant of a
+                    daughter, a mother, or a sister in a less fortunate position. Those who have
+                    been brought up together, who have learnt from one another’s experience, or who
+                    have imbibed from one another the same ways of feeling, are often separated in
+                    appearance by the political or religious opinions of their fathers or husbands,
+                    or by a domestic despotism which only allows one person to express openly what
+                    many think. Moreover, when we remember that few women are able both to form and
+                    to express political opinions at all, without the assistance and encouragement
+                    of some at least among their male relations, it becomes evident that<pb n="5" xml:id="VAB7170-004"></pb> every woman who does form such must be looked upon as
+                    the representative of a considerable body of opinion. And when the thought thus
+                    expressed is so comparatively new as to meet with little external encouragement,
+                    it must be strongly rooted in many unseen ramifications before it can have grown
+                    vigorous enough to show itself in a clear, definite, and conspicuous shape. But
+                    even independently of any of these considerations, it is impossible to glance
+                    down the list of signatures appended to this petition without seeing that it
+                    includes a proportion large for the actual number of names, both of the
+                    intelligence and the property of Englishwomen. With all these facts before us,
+                    we think we are justified in repeating that the appearance of such a claim,
+                    supported in such a manner, is a significant indication of the direction public
+                    opinion is taking.</p>
+                <p>What we find asked for, then, in this petition seems to be that Englishwomen
+                    shall be included in that measure of political freedom which the wisdom of
+                    Parliament sees fit to grant to Englishmen. This amount of political
+                    enfranchisement is asked for by the means by which men and women have for ages
+                    been accustomed, in this country, to make their wants known to the legislature;
+                    namely, by petition to the House of Commons. It would appear as if the election
+                    to Parliament of a member who, before his election, distinctly enunciated his
+                    opinion that women ought to have votes, has, in the judgment of the petitioners,
+                    opened for them a new prospect of getting their claims heard. That a writer of
+                    the scientific eminence and political ability of the member for Westminster
+                    holds such an opinion, and moreover that openly proclaiming it he has been
+                    returned to Parliament by a constituency influenced only by public motives, is
+                    certainly a fact that may very justly encourage these ladies to think that the
+                    political representation of women is really a question ripe for discussion; and
+                    it may fairly give them reason to hope that if they can advance any rational
+                    grounds for their claims, they will receive reasonable attention.</p>
+                <p>This being the case, we propose to examine, in some degree, not merely into the
+                    general purport of this petition, but also into the specific reasons assigned in
+                    it for the claim which it puts forward. For although it would be in itself a
+                    remarkable thing that so many Englishwomen are now prepared to ask for some sort
+                    of political representation, yet more or less increase of the liberty allowed to
+                    women has been recommended by men and asked by women, both in this country and
+                    others, for a long time past. Some relaxation of the restrictions under which
+                    the female sex has hitherto laboured is indeed a natural and inevitable
+                    consequence of the advancing freedom and civilization of the other sex; but this
+                    movement is marked by what appear to us some novel and especially national
+                    characteristics. It is interesting to observe what form this general tendency
+                    towards freedom assumes when it shows itself among a large body of Englishwomen;
+                    by what means they propose to work it out, and by what train of reasoning they
+                    seek to recommend it to their countrymen.</p>
+                <p>The petitioners ground their request on the principles of the British
+                    Constitution. They assert that certain facts in our existing <pb n="6" xml:id="VAB7170-005"></pb> system establish that women cannot be considered to
+                    be without the pale of the Constitution, for that there are precedents to show
+                    that its general principles have already been applied to women in some
+                    particular cases. They point out that in this country the franchise is dependent
+                    upon property, and that the acknowledgment of women as sovereigns among us shows
+                    that women are not considered disqualified for government. From these two
+                    principles, both of which are undoubted parts of the British Constitution as it
+                    stands at this day—the representation of property, and government by female
+                    sovereigns—the petitioners draw the evident inference that where the female sex
+                    is no bar to the higher, it cannot reasonably be to the lower privileges of
+                    political life, when those privileges are dependent upon conditions (such as the
+                    possession of property) which women actually fulfil. And they characterize the
+                    exclusion of half the human race from any share in self‐government as an
+                        <soCalled>anomaly</soCalled> in our representative system.</p>
+                <p>Whether this way of treating the subject arises from the petitioners themselves
+                    only looking at it from this peculiarly English point of view, or whether it is
+                    adopted as the one likely to meet with the most general support and the smallest
+                    amount of dissent, it is equally a sign of the times. If the idea of the
+                    political representation of women has now made its appearance among us in a
+                    peculiarly English dress, and one adapted to the exigencies of the reform
+                    discussions of the past session (which have turned so specially on the
+                    representation of property, and a suitable property qualification), we cannot
+                    refuse to admit that it is all the fitter to take its place among the political
+                    ideas of the day; and that it has thereby assumed a more practical character
+                    than if it had been attempted to establish it on the grounds of any more general
+                    or philosophical systems of representation. Without attempting to go at length
+                    into the subject, it will be easily seen that the representation of women might
+                    be urged with considerable force on almost any of these systems; but it is
+                    itself more in harmony with our present institutions than they are. Nothing can
+                    be more entirely foreign to our whole English system than Universal Suffrage, or
+                    than either Personal or Class Representation. All these systems, whether we hold
+                    them to be in the abstract pernicious or beneficial, are so entirely unable to
+                    coalesce with that already prevailing among us, that if they are to be tried it
+                    would be a wise policy to introduce them <emph>parallel</emph>, so to speak, to
+                    our present institutions, of which they are not the development, but properly
+                    and literally a re‐form. But if any of these systems be admitted, either
+                    partially or entirely, either in theory or in practice, women would find a place
+                    under them equally with men. Universal Suffrage by its very name includes them;
+                    personal representation, if carried out on principle, has for its necessary
+                    consequence the representation of women, since the leading idea of personal
+                    representation is the effort to secure a hearing to every individual interest or
+                    opinion in the nation, however insignificant or obscure. And the totally
+                    opposite principle, of class representation, is in the highest degree favourable
+                    to the political interests of women, who, if considered as a class, are the most
+                    numerous class in the country. Indeed, no advo‐ <pb n="7" xml:id="VAB7170-006"></pb>
+                    cate of the system of class representation can for a moment refuse in
+                    consistency to recognise the claims of so important a class, and of one which is
+                    certainly bound together by a community of interests in many of the largest
+                    branches of human affairs. Those who disapprove of all attempts at class
+                    representation, and believe them to be a lingering remains of an effete state of
+                    society, and those who disapprove of special legislation grounded on difference
+                    of sex and enforcing by law the exclusion of women from all masculine
+                    occupations or privileges, may consistently object to consider women as a class,
+                    or to make any claim for them as such. But this is not possible for those who
+                    group all women together, as actual or potential wives and mothers. They, on the
+                    contrary, must in consistency admit that the wives and mothers of the nation,
+                    regarded as a class, form one before whose vital importance, and overwhelming
+                    numbers, all other classes shrink into insignificance. For independently of the
+                    consideration that women are in this country more numerous absolutely than the
+                    sum of all the many classes into which men are divided by their occupations, it
+                    is evident that if women are permitted no other interests than those which they
+                    hold in common with all women by virtue of their sex, these interests must be of
+                    proportionately greater consequence to women than the equivalent interests are
+                    to men, since men have other interests in life as well.</p>
+                <p>If therefore the lady petitioners had chosen to urge their claims simply as
+                    women, and not as English women, they would, on the theory of class
+                    representation, have been able to take up very strong ground. But, apart from
+                    all consideration of the abstract truth of this theory, it seems to us that they
+                    have done well to leave it aside. For it is, as we have indicated, diametrically
+                    opposed to the English political system, and indeed more fundamentally so than
+                    personal representation. For if the English system refuses to recognise the mere
+                    individual as a political unit, and if it insists that he must have palpable
+                    evidence that he requires protection for something more precious (we presume)
+                    than life or honour, before it admits him to any share in protecting himself;
+                    still more does it refuse to protect interests which do not belong to any one in
+                    particular, but which are diffused over vast numbers of men, grouped together
+                    under the merely ideal definition of a class. Property represented by an
+                    individual is the true political unit among us; and in this we recognise the
+                    influence of those mediæval habits of thought, which, putting forward living
+                    persons as the representatives of rights supposed to be inherent in particular
+                    functions or particular localities, was itself practically an advance on those
+                    Oriental ideas of caste which survive in the privileges of class, sex, or
+                    colour. This mode of thought was due partly, no doubt, to the influence of the
+                    Church, which gave and still gives examples of it in the “incumbent” and
+                    “parson” or “persona,” who derives his rights neither from privilege of birth
+                    nor even from his functions as priest, but from the induction into the enjoyment
+                    of certain property for his life, of which he has the management; and of which
+                    he becomes, so to speak, the bodily expression, the “persona,” responsible for
+                    the due payment of all charges. It was diffused and perpetuated by the
+                    arrangements made under the <pb n="8" xml:id="VAB7170-007"></pb> feudal system for
+                    the protection of property in times of war and against all illegal violence; and
+                    it seems to have been held, that as only those possessing property could be
+                    obliged to furnish a contingent share towards the expenses of government, they
+                    alone had any direct interest to protect against the central authority, which,
+                    in so far as it preserved peace and order in lawless times, must have stood in
+                    the position of gratuitous benefactor towards the unpropertied portion of the
+                    people. However this may be, there can be no doubt that the principle underlying
+                    our English system of government, is that men are endowed with the privilege of
+                    voting in the election of members of the Legislature, in order to enable them to
+                    protect their property against undue taxation, or other legislative enactments
+                    that might injuriously affect it. So deeply is this idea rooted in the English
+                    mind, that long after the separation of the American colonies we find American
+                    politicians arguing against conferring votes on negro slaves, upon the express
+                    ground that slaves, not being able to hold property, do not require political
+                    representation; and for authority for this point of view we find them referring
+                    to the acknowledged principles of the British system of law, which, it is well
+                    known, is considered as the foundation of the institutions of the United States,
+                    wherever not abrogated by the American Constitution or by special
+                    legislation.</p>
+                <p>Lord Somers, in 1703, speaking in the name of the House of Lords, lays it down
+                    that “The Lords ... conceive that giving a vote for a representative in
+                    Parliament is the essential privilege whereby every Englishman preserves his
+                    property; and that whatsoever deprives him of such a vote, deprives him of his
+                    birthright.” The line of thought, or train of reasoning, plainly to be traced
+                    here, is certainly very favourable to the claim of the ladies. The
+                        <soCalled>birthright</soCalled> of an Englishman is defined by this high
+                    authority as the privilege of preserving his property. He is refused any
+                    birthright inherent in himself, but it is laid down that by the possession of
+                    property he comes into possession of a privilege attached to property; a
+                    privilege which is a <soCalled rend="italics">birthright</soCalled> apparently,
+                    because it is <soCalled>essential</soCalled> to the system of law under which he
+                    is born. It is observable that this way of considering a <soCalled rend="italics">birthright</soCalled> as not of <emph>natural</emph> but of
+                        <emph>legal</emph> origin, is in conformity with modern habits of thought in
+                    regard to civilized men, the natives of civilized societies; but exactly in
+                    proportion as it is opposed to any <foreign xml:lang="lat">à priori</foreign>
+                    theories of the rights of man, it is also opposed to any attempt to give or
+                    withhold privileges for merely <emph>natural</emph> reasons, such as difference
+                    of sex. It is hard to see how, if the law of England endows a woman with
+                    property, it can, consistently with this legal dictum, deprive her of the
+                        <soCalled>essential privilege</soCalled> (which, as we understand Lord
+                    Somers, must be her <soCalled>birthright</soCalled> if she is born in England)
+                    whereby her property is to be preserved. Undoubtedly, Parliament may make
+                    special enactments excepting particular classes of English subjects from the
+                    rights they would otherwise enjoy in common with the rest of the community; and
+                    from this point of view the adoption of the word “male” in every Act of
+                    Parliament which confers the suffrage, must be looked upon as the adoption of an
+                    exceptional form, used (as Lord Somers would <pb n="9" xml:id="VAB7170-008"></pb>
+                    seem to say) to <soCalled>deprive</soCalled> Englishwomen of property of their
+                        <soCalled>birthright</soCalled>. Now, it is assuredly in harmony with all
+                    our institutions that any class of persons, labouring under an exceptional
+                    disability as a consequence of special legislation, should petition Parliament
+                    for its removal, and should appeal against it to the general principles of the
+                    Constitution; while the burden of adducing sufficient reasons for such an
+                    exceptional disability must, in justice, lie with its supporters.</p>
+                <p>In pointing out the quite peculiar position occupied by female possessors of
+                    property, the lady petitioners have undeniably touched upon a weak point in our
+                    present political system, a kind of gap, where in political life there exists no
+                    equivalent for what we have in social and civil life. It is an
+                        <soCalled>anomaly,</soCalled> as they assert. For who else among us,
+                    entitled by law to hold property to a certain amount, is nevertheless deprived
+                    of the vote which the British Constitution looks upon as the safeguard of
+                    property? The answer will be—Minors, idiots, lunatics, and criminals. These, and
+                    these only, are classed politically along with women. But none of these are so
+                    classed in anything but in politics. In no other respect can their standing
+                    among us be compared with that of women. We do not mean to compliment the ladies
+                    by asserting that they may not be as weak, as foolish, as mad, or as wicked as
+                    any of all these classes of the community; but we might be as enthusiastic a
+                    woman‐hater as ever wrote in the <bibl><title>Saturday Review</title>,</bibl> and still a
+                    moment’s reflection on the legal position of these classes would show that it
+                    has nothing in common with that of women administering their own property.
+                    However incapable these latter may be, our institutions do actually permit them
+                    to administer their property for themselves. Women do actually undertake the
+                    responsibility and enjoy the privileges of property, excepting only the
+                    privilege of voting. They are liable for debts; they can enter into contracts;
+                    they can alienate or they can purchase at their own free will and pleasure; they
+                    can devise by will or gift; they can sue or be sued in courts of law in
+                    vindication of their rights or in punishment of their shortcomings; they can
+                    release others from legal obligations towards themselves, and they can incur
+                    legal obligations towards others in regard of the property they hold. But
+                    minors, idiots, lunatics, and criminals can do none of all these things. They
+                    merely hold the right to the possession of property at some future time when
+                    they shall have become different from what they now are, along with the right to
+                    transfer it to their heirs. Upon them the law bestows no power of dealing with
+                    their possessions as seems good to themselves; no power of vindicating their own
+                    doings before a legal tribunal; no power of prosecuting those who attack their
+                    pecuniary interests; no power, in short, of <soCalled>preserving their
+                        property</soCalled> before the civil law.</p>
+                <p>Nor is this all. The legal powers of women in regard to property are no dead
+                    letter. These powers are not an obsolete right known only to antiquarians,
+                    hidden away among the curiosities of the Constitution, exercising no influence
+                    upon the world around us; a mere chance survivor of effete customs, an
+                    anachronism in the society in which we live. So far from it, the exercise of
+                    these powers is an <pb n="10" xml:id="VAB7170-009"></pb> established part of our
+                    social system, and every day becoming a more prominent part. It awakens no
+                    surprise by its novelty; it shocks the prejudices of no one among us; on the
+                    contrary, he who should propose to deprive maiden ladies of their little
+                    independence, and put it into the hands of their nephews, or who should
+                    recommend a law to place all widows’ property under the control of their
+                    deceased husband’s brother, would be universally looked upon as un‐English, and
+                    as either a fanatical admirer of exploded absurdities, or a would‐be introducer
+                    of Oriental ideas. Not only, therefore, do our laws permit women to exercise all
+                    the rights of property, but it is customary with us for women to do so, and
+                    public opinion regards their doing so as usual and proper. Nor is it any novelty
+                    among us. Although we know that in the more disturbed and lawless periods of our
+                    history it was necessary to make haste and marry rich unmarried girls and widows
+                    (unless they were willing to retire into convents), in order to secure
+                    protection for their riches, still we cannot point to any precise date when this
+                    state of things came to an end, and when advancing civilization and general
+                    respect for law relieved rich women form the fear of outrage, and made it
+                    possible for them to dispense with a male protector. It is very possible that
+                    the dispersion of the monastic houses may have hastened this stage in the
+                    emancipation of women; it is still more probable that the rise of the middle
+                    classes had much to do with it; but from whatever cause it originated, it has
+                    long been an established thing with us that no woman is obliged to hand over her
+                    property to any one unless she so pleases, and that if she does not so please,
+                    law and custom allow her the fullest liberty, and an absolute equality of right
+                    with men, excepting only in the single instance of political right.</p>
+                <p>Whence, then, comes this exception? Why, when they possess the necessary
+                    property, are women, alone among citizens of full age and sane mind, unconvicted
+                    of crime, disabled by a merely personal circumstance (that of sex) from
+                    exercising a right attached by our institutions to property and not to persons?
+                    What is the historical origin of this anomaly? For an historical origin there
+                    must be, and it appears to us shortsighted to attribute it to any of those
+                    general theories about the natural functions of women which it might be
+                    necessary to have recourse to in explaining a similar anomaly in a system based
+                    on universal suffrage. The explanation must, we think, be sought in our own
+                    history, and is not far to seek. It is probably the very fact to which we have
+                    referred, that, during the earlier period of our constitutional history, society
+                    was in so unsettled a state that women could not practically administer their
+                    own property, which led to women’s not being included among the voters in the
+                    elections of members of Parliament. While women did not actually fulfil the
+                    other functions of owners of property, the political functions were naturally
+                    not attributed to them. Even though it might be by no fault of their own that
+                    women could not govern their own property in those times, still it was not
+                    likely that they should be admitted to a share in the political government of
+                    property which was not actually under their management. The Constitution was
+                    perfectly consistent in permitting the feminine<pb n="11" xml:id="VAB7170-010"></pb>
+                    nominal owners of the property to derive as much benefit from their civil
+                    ownership as they could manage to do, while it ignored all personal claims on
+                    their part to political influence derived from property which they were not
+                    (from whatever causes) practically competent to administer. Many centuries
+                    elapsed after our electoral system had been brought into tolerably regular
+                    operation, before the progress of law and order enabled women, as a matter of
+                    course, to exercise openly the civil rights which the law attaches to property.
+                    It is in the natural course of things that now, after one or two centuries of
+                    the practical enjoyment of their civil rights, intelligent women begin to ask
+                    why the political rights should not accompany them.</p>
+                <p>To this question, there can, we apprehend, be but one answer in the negative, at
+                    all consistent with the general principles of English law and institutions. It
+                    may be said that society is still in too uncivilized a condition to be able to
+                    protect women in the enjoyment of their political rights; for that it is still
+                    beyond the power of the Government to prevent them from being molested by
+                    riotous proceedings at polling‐booths, or coerced by undue interference on the
+                    part of their male relations. It is evident that, even if this statement had a
+                    broader foundation in fact than we believe it has, this foundation would be
+                    diminished by the natural progress of every year that passes over our heads. But
+                    it can scarcely be seriously maintained that the central authority which can
+                    preserve Hyde Park, against the whole working population of London, for the
+                    recreation and health of ladies and children of the upper classes, is
+                    incompetent to preserve order in and around polling‐booths on the exceptional
+                    occasional of an election. And if neither the troops, nor the police, nor any
+                    number of special constables could prevent women from being subjected to insult
+                    on these occasions, it would still be perfectly easy to afford to them the same
+                    immunities as are already accorded to non‐resident members of the Universities
+                    of Oxford and Cambridge, and to permit ladies also to record their votes by
+                    means of voting papers.</p>
+                <p>The notion that the possession of a vote would expose women to improper coercion
+                    on the part of their male relations, will still less bear examination than the
+                    theory that our Government is not strong enough to protect any class of its
+                    subjects in the exercise of whatever rights it may see fit to accord them. The
+                    strength of the motives that would be likely to induce men to interfere with
+                    their female relatives in the disposal of their property, is incalculably
+                    greater than the strength of the motives that, even in times of political
+                    excitement, would urge men to try to overawe women in the exercise of the
+                    suffrage. The law has for centuries ruled that women possess sufficient strength
+                    of mind to protect their own pecuniary interests; and it has left them to seek
+                    the same redress as men, if they find themselves subjected to force or improper
+                    influence in doing so. The will of an elderly lady is not cancelled because of
+                    the possible influence her son may have used to induce her to make it in his
+                    favour, any more than the will of an old gentleman is set aside on account of
+                    the possible interference of his daughter. The <pb n="12" xml:id="VAB7170-011"></pb>
+                    law very properly refuses to consider whether men are likely to domineer over
+                    women, or whether women are likely to cajole men, and in either case it requires
+                    ample proof before proceeding to act on particular instances of either
+                    disposition. The law, which has, most properly, left women to fight their own
+                    battle (and the battle of their heirs) against private greed, cannot be required
+                    in these days to provide exceptional protection for them against the
+                    comparatively mild force of political enthusiasm. No candidate for parliamentary
+                    honours ever more ardently desired them, than a spend‐thrift nephew desires that
+                    his rich aunt would leave her comfortable fortune to him, rather than to her
+                    favourite minister; nevertheless, we none of us dream of depriving the poor lady
+                    of all control over her property, in order to protect her against the
+                    unprincipled importunities either of the minister or of the nephew. Yet how
+                    great is the prize that either of these may hope from the weakness of only one
+                    woman, compared to the triumph of the parliamentary candidate, even if every
+                    qualified woman in his constituency could be persuaded or compelled to vote for
+                    him! To say that such danger of undue coercion as might be exposed to by the
+                    possession of a vote, however small, is wanton, inasmuch as women seldom care
+                    for politics, is to overlook the drift of the constitutional claim made by the
+                    petitioners, and which it has been the purpose of this paper to follow out. The
+                    English representative system, such as it is, good or bad, represents not
+                    persons but property. By holding property women take on rights and duties of
+                    property. If they are not interested in politics, their property is. Poor‐laws
+                    and game‐laws, corn‐laws and malt‐tax, cattle‐plague compensation bills, the
+                    manning of the navy, and the conversion of Enfield rifles into
+                    breech‐loaders—all these things will make the property held by English women
+                    more or less valuable to the country at large of this and the succeeding
+                    generations. It is on the supposition that property requires representation that
+                    a property‐qualification is fixed by the law. It is not the mere personal
+                    interests of the rich man that a property franchise is supposed to protect; were
+                    it so, the injustice of giving the franchise to the rich man only would have
+                    been too grossly palpable to have endured so long, or to be capable of as good a
+                    defence as the English Constitution; for the rich man’s person is no dearer to
+                    himself or to the nation than the poor man’s. Nor is it granted to him because
+                    he is supposed to be, by some mysterious dispensation of providence, endowed by
+                    the possession of a 10 <choice>
+                        <abbr>l</abbr>
+                        <expan>pound</expan>
+                    </choice>. house with a special capacity to understand and care for the personal
+                    happiness of himself or others. The law acts upon the supposition that he who is
+                    in actual possession of property will be keener and more efficient to protect it
+                    than any other person. The abhorrence of our ancestors for allowing land to fall
+                    into <foreign xml:lang="fre"> main‐morte</foreign> proceeded in part from this
+                    mode of thought; a habit of considering it as at once the general interest that
+                    land should be efficiently managed and protected, and as the most effectual way
+                    of providing for its being so, to place it under the guardianship of an
+                    individual personally interested in it. It is to us almost indubitable, that the
+                    same legislators who enacted the statute of mortmain would, if as <pb n="13" xml:id="VAB7170-012"></pb> much English property had been in the hands of women
+                    as at the present day, either have deprived them of the right of holding
+                    property at all, or else have invested them with the power of protecting it in
+                    Parliament, rather than have permitted it to remain unrepresented as it is now
+                    is.</p>
+                <p>The next question that will probably be asked by such of our readers as have
+                    accompanied us thus far in the consideration of the peculiar line of argument of
+                    the Ladies’ Petition, is—Supposing this petition be granted, and that Parliament
+                    were to extend the suffrage to duly qualified women, what good would it do to
+                    them or to the country in general? And, on the other hand, what harm might be
+                    expected to arise from it? And, looking at the matter from the point of view in
+                    which it is placed by the petition, these two questions are perfectly
+                    reasonable; it is indeed in our eyes one of the merits of this point of view
+                    that it brings us so directly and so logically to the consideration of these
+                    really practical questions, and enables us to leave aside all those
+                    considerations either of abstract right or of accidental custom and sense of
+                    fitness, the discussion of which is certain to be as difficult as it usually
+                    indecisive. For if we acknowledge with the petitioners, that the exclusion of
+                    women from the right to vote in the election of members of Parliament is an
+                    anomaly, the question of right may be granted, but the question of expediency is
+                    not. We may acknowledge that their exclusion is exceptional, the result of
+                    exceptional legislation, producing an invidious distinction under which they
+                    alone labour; and yet we may think it desirable to impose such a distinction,
+                    and to establish such an exception. But then we must be prepared with reasons
+                    for doing so. What this petition appears to us to have pointed out is, that no
+                    one who accepts the principles upon which the British Constitution and English
+                    society are established, can consider the exclusion of women from political
+                    privileges as a matter of course. On the contrary, he must look upon it as the
+                    result of anomalous legislation, requiring to be justified either by its urgent
+                    necessity or by its evident advantages.</p>
+                <p>Unfortunately for anything like clearness of thought, it is very seldom that we
+                    find people willing to look at the subject in so simple and practical a manner;
+                    too often, on the contrary, the very persons who would most object to importing
+                    theories of the abstract rights of man, into a discussion on the franchise, will
+                    go off into vague generalities on the nature of women, and fancy that some such
+                    universal axioms can be somehow applicable to the legal position of particular
+                    classes of Englishwomen in the nineteenth century. Now we are far from denying
+                    that general principles must underlie not only all theory, but also all
+                    practice. We readily admit that most people do in reality either accept or
+                    reject the abstract theory of the natural equality of all men, just as they do
+                    in reality talk either poetry or prose; and so, in like manner, most people have
+                    their own theory as to the special aptitudes of women. But the theory that
+                        <soCalled>all women are destined for family life</soCalled> is about as
+                    applicable to any practical settlement of the franchise in this country, as the
+                    somewhat equivalent one that <soCalled>all men are born free and <pb n="14" xml:id="VAB7170-013"></pb> equal.</soCalled> We may assent to either
+                    assertion, or we may dissent from it, without being one whit further advanced in
+                    the question under discussion; for in fact they have nothing whatever to do with
+                    it, unless we propose to pull down the whole fabric of English law and society
+                    altogether, and build it up anew from its foundations. Whether or not all women
+                    are destined for family life, all Englishwomen do not live it; whether or not
+                    women are fitted by nature to be anything else than wives and mothers, many
+                    Englishwomen are something else; whether law ought or ought not to recognise
+                    women as anything else, the law of England does so recognise them. Marriage may
+                    or may not be the only good, the only ideal existence for all women; but the law
+                    of England has long ago refused to drive women into marriage, as sheep are
+                    driven into a fold, by shutting every gate against them but the one they are
+                    intended to go through. Even if all unmarried women ought to be looked upon as
+                    stray sheep, still, as we have already seen, both law and custom in this country
+                    have bestowed upon them abundance of rights and privileges; and the assertion
+                    that such people have no right even to exist, is out of place in answer to the
+                    question, whether the rights they already possess do not naturally imply one
+                    right more?</p>
+                <p>It seems to us, therefore, that no abstract ideas of woman’s mission can
+                    reasonably be brought forward as proof of an urgent necessity for the exclusion
+                    of women from the franchise under our existing system; and that if the question
+                    is asked—What good would be gained by their admission? the answer is very
+                    plain—Whatever good is to be gained by the British Constitution. If that be a
+                    good, it is evident that the carrying it out must be good. The perpetuation of
+                    an omission which originated in circumstances that have long since passed away,
+                    must do as much harm to those who are omitted as would have been done to their
+                    countrymen if the British Constitution had not existed. If it be an advantage to
+                    be able to protect one’s property by the power of voting for members of
+                    Parliament, the possession of this advantage must be a good for all those who
+                    live and own property under Parliamentary Government. The good that would be
+                    done to women themselves is, in fact, not open to dispute, unless we dispute the
+                    advantage of Parliamentary Government and representation of property; and in
+                    that case we must dispute the advantage of the English system of government
+                    altogether.</p>
+                <p>If, continuing to confine ourselves to a strictly constitutional point of view,
+                    we ask what would be the advantage to the country in general of the political
+                    representation of female holders of property, on the same conditions as men, we
+                    think, as we have already indicated, that the reply is equally clear. If the
+                    representation in Parliament of those who are interested in property is a
+                    national good, tending to the preservation and fostering of all property
+                    interests, to the increase of our national wealth, and to the handing down to
+                    our descendants of the national property under favourable conditions, then the
+                    disfranchisement of any class of holders of property must be an evil
+                    proportioned to their numbers, and their enfranchisement an advantage in the
+                    same proportion. Whatever may be the causes, there can be no doubt that the
+                    class of independent women is a con‐ <pb n="15" xml:id="VAB7170-014"></pb> tinually
+                    increasing one in this country, and their admission to the franchise is
+                    therefore continually becoming, by the natural course of events, a question of
+                    greater practical importance.</p>
+                <p>Turning now to the question, what harm could be done by their admission? we are
+                    embarrassed by difficulty of finding any answer whatever, unless we go out of
+                    the bounds we have prescribed to ourselves, and get beyond the limits of the
+                    constitutional point of view. Revolutionary violence is out of the question from
+                    them, and their numbers are not such as to give rise to any of the apprehensions
+                    of a disturbance of the balance of power which have been excited in some minds
+                    by the claims of the working classes. There would probably be found some duly
+                    qualified female voters in every rank of society, and among them some members of
+                    almost every religious system or political party, so that the existing interests
+                    of no single class or party or religious body could have anything to fear from
+                    them. It seems difficult to imagine a case where the principles of the
+                    Constitution could be applied with more absolute freedom from the slightest
+                    shadow of danger.</p>
+                <p>Can it be said that, although there would be no danger to the State, nor to
+                    anybody within the State, yet that private interests might suffer? We confess we
+                    do not see how this is to be maintained. If we consider the private interests of
+                    men, they cannot be concerned in the political action of independent women.
+                    Their political interests may be; but we have just seen that for these there is
+                    no danger. If it be urged that the power of voting may make women more
+                    independent than it is thought they ought to be, it appears to us, once again,
+                    that English law has already decided that women may be independent, and that a
+                    woman who is absolute mistress of her own life, person, and property, will not
+                    be rendered more independent of men by the power of giving an occasional vote
+                    for a member of Parliament. There are some who think that by giving to any women
+                    whatever the power politically to protect their own interests, we should
+                    diminish that generous, disinterested, and romantic character which is so
+                    charming in women, and which indeed we all like to see in others, and most of us
+                    even to encourage in ourselves, so long as it does not expose us too defenceless
+                    to the selfishness of the selfish. Yet the remarks we have already made on the
+                    legal ability of women to defend their own pecuniary interests will apply even
+                    more appositely here. For if the sole responsibility of all their own private
+                    pecuniary affairs does not unsex spinsters and widows, and make them coarse,
+                    worldly, avaricious, grasping, and selfish, the addition of a vote, giving them
+                    a very slight direct influence on public affairs, is not likely to have so
+                    extraordinary an effect upon the most gentle and amiable half of mankind; on the
+                    contrary, as we find that the names of ladies abound on all charitable and
+                    philanthropic subscription lists, showing how kindly and generous a use they are
+                    disposed to make of their property, so we might reasonably expect that such
+                    little direct influence on politics as the possession of a vote would give to
+                    women, would probably be chiefly used in the direction of what we may call
+                    philanthropic legislation; in any case, politics in themselves certainly afford
+                    more scope for exalted <pb n="16" xml:id="VAB7170-015"></pb> and generous feeling
+                    than private business affairs. Ladies accustomed to the government of households
+                    and the management of their families, will scarcely find political affairs
+                    petty, or calculated to exercise a narrowing influence on their sympathies.
+                    Whether we consider that women ought to be especially devoted to what is
+                    beautiful or to what is good, there is much work in the interests of either to
+                    be done in politics; and if the ladies were only to take schools, workhouses,
+                    public buildings, parks, gardens, and picture galleries under their special
+                    protection, and try to send to Parliament a few members who would work
+                    efficiently at such subjects, the rest of the community would have cause to be
+                    glad of their help, without their being themselves in the smallest degree
+                    vulgarized by such a task.</p>
+                <p>But, in fact, as we have already pointed out, it is too late to be afraid of
+                    letting Englishwomen share in the life of Englishmen. We cannot shut up our
+                    women in harems, and devote them to the cultivation of their beauty and of their
+                    children. We have most of us long ago acknowledged that a perfect woman is</p>
+                <q>
+                    <l>“Not too bright and good</l>
+                    <l>For human nature’s daily food.”</l>
+                </q>
+                <p>The fear that a womanly nature could be corrupted or hardened by politics, would
+                    strike at the root of our Western and Christian civilization, which owes much of
+                    its progress to having devolved upon women a share of the commonplace practical
+                    cares and duties which go to make up the sum of ordinary human life, whether
+                    domestic or political. The ingenuity, the love of luxury, the taste, and the
+                    housewifely instincts of women, have contributed much to the comforts of modern
+                    civilization; a more rapid and efficient adaptation of these same comforts to
+                    prisons, schools, barracks, and workhouses, would be a useful and probable
+                    result of the extension of women’s energies to political life. It is, indeed,
+                    remarkable how large a part of the subjects which occupy most attention in
+                    modern politics are of this quasi‐domestic character; and how growing a tendency
+                    there is for them to become ever more so. The homes of the working‐classes,
+                    education, factory acts (regulating the labour of women and children), sanitary
+                    laws, water supplies, drainage (all municipal legislation in fact), the whole
+                    administration of the poor‐laws, with its various subdivisions—care of the
+                    pauper sick, pauper schools, etc.—all these are subjects which already, by
+                    common consent, are included in the peculiarly feminine province of home and
+                    charity. If the possession of a vote should induce more women to extend their
+                    interest to the comfort and happiness of other homes besides their own, it will
+                    certainly not have exercised a deteriorating influence on their character.</p>
+            <closer>THE END.</closer>
+                </div>
+        </body>
+    </text>
+</TEI>

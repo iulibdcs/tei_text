@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAB7200">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Xantippe and Other Verse</title>
+                <author>Levy, Amy (1861-1889)</author>
+                <respStmt>
+                    <resp>Transcribed and encoded by </resp>
+                    <name>Felix Jung</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Edited by </resp>
+                    <name>Perry Willett</name>
+                </respStmt>
+                <respStmt xml:id="bn">
+                    <resp>E-text Editor</resp>
+                    <name>Brian Norberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Corrected By</resp>
+                    <name xml:id="elizabethmunson">Elizabeth Munson</name>
+                </respStmt>
+            </titleStmt>
+            <extent>TEI formatted filesize uncompressed: approx. 37 kbytes</extent>
+            <publicationStmt>
+                <publisher>Digital Library Program, Indiana University</publisher>
+                <pubPlace>Bloomington, IN</pubPlace>
+                <date>September 28, 1995</date>
+                <idno>VAB7200</idno>
+                <availability status="unknown">
+                    <p>© 2009, The Trustees of Indiana University. Indiana University makes a claim
+                        of copyright only to original contributions made by the Victorian Women
+                        Writers Project participants and other members of the university community.
+                        Indiana University makes no claim of copyright to the original text.
+                        Permission is granted to download, transmit or otherwise reproduce,
+                        distribute or display the contributions to this work claimed by Indiana
+                        University for non-profit educational purposes, provided that this header is
+                        included in its entirety. For inquiries about commercial uses, please
+                        contact:
+                        <address><addrLine>Digital Library Program</addrLine><addrLine>Main Library</addrLine><addrLine>Indiana University</addrLine><addrLine>Bloomington, IN 47405</addrLine><addrLine>United States of America</addrLine><addrLine>EMail: diglib@indiana.edu</addrLine></address></p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Victorian Women Writers Project: an Electronic Collection</title>
+                <respStmt>
+                    <name>Perry Willett, </name>
+                    <resp>General Editor.</resp>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>The transcribed copy is at the Lilly Library, Indiana University</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title>Xantippe, and Other Verse</title>
+                        <author>Levy, Amy, 1861-1889</author>
+                        <respStmt>
+                            <resp>by </resp>
+                            <name>Amy Levy</name>
+                        </respStmt>
+                    </titleStmt>
+                    <extent>30 p.</extent>
+                    <publicationStmt>
+                        <publisher>E. Johnson </publisher>
+                        <pubPlace>Cambridge [Eng.] </pubPlace>
+                        <date when="1881">1881</date>
+                    </publicationStmt>
+                </biblFull>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl><p><note n="false" xml:id="noPageImages">Page images not available for this text.</note></p>
+                <p>All poems occur as DIV0. Sonnets are attributed as "type=sonnets"; the rest are
+                    "type=poem". All quotation marks, hyphens, dashes, apostrophes and colons have
+                    been transcribed as entity references. All &lt;lg&gt; (line groups) are
+                    attributed as cantos, stanzas, couplets, verse paragraphs, etc. All poems with
+                    regularly indented lines have an attribute "rend=indent1" for one tab stop,
+                    "rend=indent2" for two tab stops, etc. All split lines are attributed as
+                    "type=i" for the initial portion, and "type=f" for the final portion.</p>
+                <p>All apostrophes and single right quotation marks are encoded as
+                    &amp;rsquo;.</p>
+                <p>All hyphens are encoded as &amp;hyphen; and em dashes as &amp;mdash;.</p>
+            </editorialDecl>
+            <tagsDecl>
+                <namespace name="http://www.tei-c.org/ns/1.0">
+                    <tagUsage gi="address" occurs="1"/>
+                    <tagUsage gi="addrline" occurs="6"/>
+                    <tagUsage gi="author" occurs="1"/>
+                    <tagUsage gi="availability" occurs="1"/>
+                    <tagUsage gi="bibl" occurs="3"/>
+                    <tagUsage gi="biblfull" occurs="1"/>
+                    <tagUsage gi="body" occurs="1"/>
+                    <tagUsage gi="byline" occurs="1"/>
+                    <tagUsage gi="change" occurs="3"/>
+                    <tagUsage gi="cit" occurs="1"/>
+                    <tagUsage gi="date" occurs="6"/>
+                    <tagUsage gi="div" occurs="1"/>
+                    <tagUsage gi="div0" occurs="7"/>
+                    <tagUsage gi="docauthor" occurs="1"/>
+                    <tagUsage gi="docdate" occurs="1"/>
+                    <tagUsage gi="docimprint" occurs="1"/>
+                    <tagUsage gi="doctitle" occurs="1"/>
+                    <tagUsage gi="editorialdecl" occurs="1"/>
+                    <tagUsage gi="emph" occurs="2"/>
+                    <tagUsage gi="encodingdesc" occurs="1"/>
+                    <tagUsage gi="epigraph" occurs="1"/>
+                    <tagUsage gi="extent" occurs="2"/>
+                    <tagUsage gi="filedesc" occurs="1"/>
+                    <tagUsage gi="foreign" occurs="1"/>
+                    <tagUsage gi="front" occurs="1"/>
+                    <tagUsage gi="head" occurs="13"/>
+                    <tagUsage gi="hi" occurs="7"/>
+                    <tagUsage gi="item" occurs="3"/>
+                    <tagUsage gi="l" occurs="490"/>
+                    <tagUsage gi="language" occurs="2"/>
+                    <tagUsage gi="langusage" occurs="1"/>
+                    <tagUsage gi="lg" occurs="21"/>
+                    <tagUsage gi="name" occurs="7"/>
+                    <tagUsage gi="p" occurs="6"/>
+                    <tagUsage gi="pb" occurs="31"/>
+                    <tagUsage gi="profiledesc" occurs="1"/>
+                    <tagUsage gi="publicationstmt" occurs="2"/>
+                    <tagUsage gi="publisher" occurs="3"/>
+                    <tagUsage gi="pubplace" occurs="2"/>
+                    <tagUsage gi="q" occurs="1"/>
+                    <tagUsage gi="resp" occurs="7"/>
+                    <tagUsage gi="respstmt" occurs="7"/>
+                    <tagUsage gi="revisiondesc" occurs="1"/>
+                    <tagUsage gi="seriesstmt" occurs="1"/>
+                    <tagUsage gi="sourcedesc" occurs="1"/>
+                    <tagUsage gi="tagsdecl" occurs="1"/>
+                    <tagUsage gi="tagusage" occurs="54"/>
+                    <tagUsage gi="tei.2" occurs="1"/>
+                    <tagUsage gi="teiheader" occurs="1"/>
+                    <tagUsage gi="text" occurs="1"/>
+                    <tagUsage gi="title" occurs="3"/>
+                    <tagUsage gi="titlepage" occurs="1"/>
+                    <tagUsage gi="titlestmt" occurs="2"/>
+                    <tagUsage gi="trailer" occurs="1"/>
+                </namespace>
+            </tagsDecl>
+            <classDecl>
+                <taxonomy xml:id="lcsh">
+                    <bibl>
+                        <title>Library of Congress Subject Headings</title>
+                        <ptr target="http://authorities.loc.gov/"/>
+                        <note>
+                            <p>Library of Congress Subject Headings originate from the source MARC
+                                record for the monograph when available.</p>
+                        </note>
+                    </bibl>
+                </taxonomy>
+                <taxonomy xml:id="mla">
+                    <bibl>
+                        <title>Modern Language Association Thesaurus</title>
+                        <ptr target="http://www.mla.org/publications/bibliography/howtouse_mlabiblio/howtosearchmlabiblio#mla" type="source"/>
+                        <ptr target="http://dlib.indiana.edu/vocabulary/modernlangassocgenre/" type="webservice"/>
+                        <note><p> The MLA Bibliography staff has created a thesaurus of over 50,000 terms and 200,000
+                            names to ensure consistency in the terms and names assigned during indexing. The VWWP
+                            project will utilize a subset of the MLA Thesaurus to assign genre headings to the VWWP
+                            texts. </p></note>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="ita">Italian</language>
+            </langUsage>
+            <textClass>
+            <keywords scheme="#mla">
+                <list>
+                    <item><term ref="http://terminology.dlib.indiana.edu/vwwpgenre/poetry">poetry</term></item>
+                </list>
+            </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date>1995-06-30</date><label>editor.</label><name>Felix Jung,</name>finished
+                data entry, basic encoding and proofing</change>
+            <change><date>1995-09-22</date><label>general editor.</label><name>Perry
+                Willett,</name>finished TEI-conformant encoding and final proofing</change>
+            <change><date>1996-10-19</date><label>general editor.</label><name>Perry Willett,
+                </name>fixed entity references to be SDATA</change>
+            <change><date>2005-02-06</date><label>Programmer</label><name>Mark Millard,
+                </name>Converted from SGML to TEI-XML</change>
+            <change when="2009-05-10" who="#bn">Coverted from P4 to P5</change>
+            <change when="2009-10-27" who="#bn">Normalized id scheme and encoding</change>
+            <change when="2010-08-05" who="elizabethmunson">Removed date and "a machine
+            readable transcription" from fileDesc title</change>
+            <change when="2010-08-05" who="elizabethmunson">Added LCNAF form of author name to sourceDesc (hyphen 
+            adjusted for both sourceDesc and fileDesc)</change>
+            <change when="2010-08-05" who="elizabethmunson">Normalized date in biblFull/publicationStmt</change>
+            <change when="2010-09-03" who="elizabethmunson">Added genre term</change>
+            <change when="2010-09-03" who="elizabethmunson">Changed div type="sonnet" to "poem"</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage>
+                <docTitle>
+                    <titlePart type="main">Xantippe and other verse </titlePart>
+                </docTitle>
+                <byline>by <docAuthor>Amy Levy</docAuthor></byline>
+                <docImprint>
+                    <pubPlace>Cambridge </pubPlace>
+                    <publisher>E. Johnson, Trinity Street </publisher>
+                </docImprint>
+                <docDate>1881</docDate>
+            </titlePage>
+        </front>
+        <body>
+            <pb n="1" xml:id="VAB7200-001"/>
+            <div type="poem">
+                <head>Xantippe.</head>
+                <head type="sub">(A FRAGMENT.)</head>
+                <l><hi>WHAT</hi>, have I waked again ? I never thought</l>
+                <l>To see the rosy dawn, or ev’n this grey, </l>
+                <l>Dull, solemn stillness, ere the dawn has come.</l>
+                <l>The lamp burns low ; low burns the lamp of life :</l>
+                <l>The still morn stays expectant, and my soul,</l>
+                <l>All weighted with a passive wonderment,</l>
+                <l>Waiteth and watcheth, waiteth for the dawn.</l>
+                <l>Come hither, maids ; too soundly have ye slept</l>
+                <l>That should have watched me ; nay, I would not chide—</l>
+                <l>Oft have I chidden, yet I would not chide</l>
+                <l>In this last hour ;—now all should be at peace.</l>
+                <l>I have been dreaming in a troubled sleep</l>
+                <l>Of weary days I thought not to recall ;</l>
+                <l>Of stormy days, whose storms are hushed long since ;</l>
+                <l>Of gladsome days, of sunny days ; alas !</l>
+                <l>In dreaming, all their sunshine seem’d so sad,</l>
+                <pb n="2" xml:id="VAB7200-002"/>
+                <l>As though the current of the dark To‐Be</l>
+                <l>Had flow’d, prophetic, through the happy hours.</l>
+                <l>And yet, full well, I know it was not thus ;</l>
+                <l>I mind me sweetly of the summer days,</l>
+                <l>When, leaning from the lattice, I have caught</l>
+                <l>The fair, far glimpses of a shining sea ;</l>
+                <l>And, nearer, of tall ships which thronged the bay,</l>
+                <l>And stood out blackly from a tender sky</l>
+                <l>All flecked with sulphur, azure, and bright gold ;</l>
+                <l>And in the still, clear air have heard the hum</l>
+                <l>Of distant voices ; and methinks there rose</l>
+                <l>No darker fount to mar or stain the joy</l>
+                <l>Which sprang ecstatic in my maiden breast</l>
+                <l>Than just those vague desires, those hopes and fears,</l>
+                <l>Those eager longings, strong, though undefined,</l>
+                <l>Whose very sadness makes them seem so sweet.</l>
+                <l>What cared I for the merry mockeries</l>
+                <l>Of other maidens sitting at the loom ?</l>
+                <l>Or for sharp voices, bidding me return</l>
+                <l>To maiden labour ? Were we not apart,—</l>
+                <l>I and my high thoughts, and my golden dreams,</l>
+                <l>My soul which yearned for knowledge, for a tongue</l>
+                <l>That should proclaim the stately mysteries</l>
+                <l>Of this fair world, and of the holy gods ?</l>
+                <pb n="3" xml:id="VAB7200-003"/>
+                <l>Then followed days of sadness, as I grew</l>
+                <l>To learn my woman‐mind had gone astray,</l>
+                <l>And I was sinning in those very thoughts—</l>
+                <l>For maidens, mark, such are not woman’s thoughts—</l>
+                <l>(And yet, ’tis strange, the gods who fashion us</l>
+                <l>Have given us such promptings). . . .</l>
+                <l>Fled the years,</l>
+                <l>Till seventeen had found me tall and strong,</l>
+                <l>And fairer, runs it, than Athenian maids</l>
+                <l>Are wont to seem ; I had not learnt it well—</l>
+                <l>My lesson of dumb patience—and I stood</l>
+                <l>At Life’s great threshold with a beating heart,</l>
+                <l>And soul resolved to conquer and attain. . . .</l>
+                <l>Once, walking ’thwart the crowded market place,</l>
+                <l>With other maidens, bearing in the twigs</l>
+                <l>White doves for Aphrodite’s sacrifice,</l>
+                <l>I saw him, all ungainly and uncouth, </l>
+                <l>Yet many gathered round to hear his words,</l>
+                <l>Tall youths and stranger‐maidens—Sokrates—</l>
+                <l>I saw his face and marked it, half with awe,</l>
+                <l>Half with a quick repulsion at the shape. . . .</l>
+                <l>The richest gem lies hidden furthest down,</l>
+                <l>And is the dearer for the weary search ;</l>
+                <l>We grasp the shining shells which strew the shore,</l>
+                <pb n="4" xml:id="VAB7200-004"/>
+                <l>Yet swift we fling them from us ; but the gem</l>
+                <l>We keep for aye and cherish. So a soul,</l>
+                <l>Found after weary searching in the flesh</l>
+                <l>Which half repelled our senses, is more dear,</l>
+                <l>For that same seeking, than the sunny mind</l>
+                <l>Which lavish Nature marks with thousand hints</l>
+                <l>Upon a brow of beauty. We are prone </l>
+                <l>To overweigh such subtle hints, then deem,</l>
+                <l>In after disappointment, we are fooled. . . .</l>
+                <l>And when, at length, my father told me all,</l>
+                <l>That I should wed me with great Sokrates,</l>
+                <l>I, foolish, wept to see at once cast down</l>
+                <l>The maiden image of a future love,</l>
+                <l>Where perfect body matched the perfect soul.</l>
+                <l>But slowly, softly did I cease to weep ;</l>
+                <l>Slowly I ’gan to mark the magic flash</l>
+                <l>Leap to the eyes, to watch the sudden smile</l>
+                <l>Break round the mouth, and linger in the eyes ;</l>
+                <l>To listen for the voice’s lightest tone—</l>
+                <l>Great voice, whose cunning modulations seemed</l>
+                <l>Like to the notes of some sweet instrument.</l>
+                <l>So did I reach and strain, until at last</l>
+                <l>I caught the soul athwart the grosser flesh.</l>
+                <l>Again of thee, sweet Hope, my spirit dreamed !</l>
+                <pb n="5" xml:id="VAB7200-005"/>
+                <l>I, guided by his wisdom and his love,</l>
+                <l>Led by his words, and counselled by his care,</l>
+                <l>Should lift the shrouding veil from things which be,</l>
+                <l>And at the flowing fountain of his soul</l>
+                <l>Refresh my thirsting spirit. . . .</l>
+                <l>And indeed,</l>
+                <l>In those long days which followed that strange day</l>
+                <l>When rites and song, and sacrifice and flow’rs,</l>
+                <l>Proclaimed that we were wedded, did I learn, </l>
+                <l>In sooth, a‐many lessons ; bitter ones</l>
+                <l>Which sorrow taught me, and not love inspired,</l>
+                <l>Which deeper knowledge of my kind impressed</l>
+                <l>With dark insistence on reluctant brain ;—</l>
+                <l>But that great wisdom, deeper, which dispels</l>
+                <l>Narrowed conclusions of a half‐grown mind,</l>
+                <l>And sees athwart the littleness of life</l>
+                <l>Nature’s divineness and her harmony,</l>
+                <l>Was never poor Xantippe’s. . . .</l>
+                <l>I would pause</l>
+                <l>And would recall no more, no more of life,</l>
+                <l>Than just the incomplete, imperfect dream</l>
+                <l>Of early summers, with their light and shade,</l>
+                <l>Their blossom‐hopes, whose fruit was never ripe ;</l>
+                <l>But something strong within me, some sad chord</l>
+                <pb n="6" xml:id="VAB7200-006"/>
+                <l>Which loudly echoes to the later life,</l>
+                <l>Me to unfold the after‐misery</l>
+                <l>Urges with plaintive wailing in my heart.</l>
+                <l>Yet, maidens, mark ; I would not that ye thought</l>
+                <l>I blame my lord departed, for he meant</l>
+                <l>No evil, so I take it, to his wife.</l>
+                <l>’Twas only that the high philosopher,</l>
+                <l>Pregnant with noble theories and great thoughts,</l>
+                <l>Deigned not to stoop to touch so slight a thing</l>
+                <l>As the fine fabric of a woman’s brain—</l>
+                <l>So subtle as a passionate woman’s soul.</l>
+                <l>I think, if he had stooped a little, and cared,</l>
+                <l>I might have risen nearer to his height,</l>
+                <l>And not lain shattered, neither fit for use</l>
+                <l>As goodly household vessel, nor for that</l>
+                <l>Far finer thing which I had hoped to be. . . . </l>
+                <l>Death, holding high his retrospective lamp,</l>
+                <l>Shows me those first, far years of wedded life,</l>
+                <l>Ere I had learnt to grasp the barren shape</l>
+                <l>Of what the Fates had destined for my life.</l>
+                <l>Then, as all youthful spirits are, was I</l>
+                <l>Wholly incredulous that Nature meant</l>
+                <l>So little, who had promised me so much.</l>
+                <l>At first I fought my fate with gentle words,</l>
+                <pb n="7" xml:id="VAB7200-007"/>
+                <l>With high endeavours after greater things ;</l>
+                <l>Striving to win the soul of Sokrates,</l>
+                <l>Like some slight bird, who sings her burning love</l>
+                <l>To human master, till at length she finds</l>
+                <l>Her tender language wholly misconceived,</l>
+                <l>And that same hand whose kind caress she sought,</l>
+                <l>With fingers flippant flings the careless corn. . . .</l>
+                <l>I do remember how, one summer’s eve,</l>
+                <l>He, seated in an arbour’s leafy shade,</l>
+                <l>Had bade me bring fresh wine‐skins. . . .</l>
+                <l>As I stood</l>
+                <l>Ling’ring upon the threshold, half concealed</l>
+                <l>By tender foliage, and my spirit light</l>
+                <l>With draughts of sunny weather, did I mark</l>
+                <l>An instant, the gay group before mine eyes.</l>
+                <l>Deepest in shade, and facing where I stood,</l>
+                <l>Sat Plato, with his calm face and low brows</l>
+                <l>Which met above the narrow Grecian eyes,</l>
+                <l>The pale, thin lips just parted to the smile,</l>
+                <l>Which dimpled that smooth olive of his cheek.</l>
+                <l>His head a little bent, sat Sokrates,</l>
+                <l>With one swart finger raised admonishing,</l>
+                <l>And on the air were borne his changing tones.</l>
+                <l>Low lounging at his feet, one fair arm thrown</l>
+                <pb n="8" xml:id="VAB7200-008"/>
+                <l>Around his knee (the other, high in air</l>
+                <l>Brandish’d a brazen amphor, which yet rained</l>
+                <l>Bright drops of ruby on the golden locks</l>
+                <l>And temples with their fillets of the vine),</l>
+                <l>Lay Alkibiades the beautiful.</l>
+                <l>And thus, with solemn tone, spake Sokrates:</l>
+                <l>‘ This fair Aspasia, which our Perikles</l>
+                <l>Hath brought from realms afar, and set on high</l>
+                <l>In our Athenian city, hath a mind,</l>
+                <l>I doubt not, of a strength beyond her race ;</l>
+                <l>And makes employ of it, beyond the way</l>
+                <l>Of women nobly gifted : woman’s frail—</l>
+                <l>Her body rarely stands the test of soul ;</l>
+                <l>She grows intoxicate with knowledge ; throws</l>
+                <l>The laws of custom, order, ’neath her feet,</l>
+                <l>Feasting at life’s great banquet with wide throat.’</l>
+                <l>Then sudden, stepping from my leafy screen,</l>
+                <l>Holding the swelling wine‐skin o’er my head,</l>
+                <l>With breast that heaved, and eyes and cheeks aflame,</l>
+                <l>Lit by a fury and a thought, I spake:</l>
+                <l>‘ By all great powers around us ! can it be</l>
+                <l>That we poor women are empirical ?</l>
+                <l>That gods who fashioned us did strive to make</l>
+                <l>Beings too fine, too subtly delicate,</l>
+                <pb n="9" xml:id="VAB7200-009"/>
+                <l>With sense that thrilled response to ev’ry touch </l>
+                <l>Of nature’s and their task is not complete ? </l>
+                <l>That they have sent their half‐completed work</l>
+                <l>To bleed and quiver here upon the earth ?</l>
+                <l>To bleed and quiver, and to weep and weep,</l>
+                <l>To beat its soul against the marble walls</l>
+                <l>Of men’s cold hearts, and then at last to sin !’</l>
+                <l>I ceased, the first hot passion stayed and stemmed</l>
+                <l>And frighted by the silence : I could see,</l>
+                <l>Framed by the arbour foliage, which the sun</l>
+                <l>In setting softly gilded with rich gold,</l>
+                <l>Those upturned faces, and those placid limbs ;</l>
+                <l>Saw Plato’s narrow eyes and niggard mouth,</l>
+                <l>Which half did smile and half did criticise,</l>
+                <l>One hand held up, the shapely fingers framed</l>
+                <l>To gesture of entreaty—‘ Hush, I pray,</l>
+                <l>Do not disturb her ; let us hear the rest ;</l>
+                <l>Follow her mood, for here’s another phase</l>
+                <l>Of your black-browed Xantippe. . . .’</l>
+                <l>Then I saw</l>
+                <l>Young Alkibiades, with laughing lips</l>
+                <l>And half‐shut eyes, contemptuous shrugging up</l>
+                <l>Soft, snowy shoulders, till he brought the gold</l>
+                <l>Of flowing ringlets round about his breasts.</l>
+                <pb n="10" xml:id="VAB7200-010"/>
+                <l>But Sokrates, all slow and solemnly, </l>
+                <l>Raised, calm, his face to mine, and sudden spake :</l>
+                <l>‘ I thank thee for the wisdom which thy lips</l>
+                <l>Have thus let fall among us : prythee tell</l>
+                <l>From what high source, from what philosophies</l>
+                <l>Didst cull the sapient notion of thy words ?’</l>
+                <l>Then stood I straight and silent for a breath,</l>
+                <l>Dumb, crushed with all that weight of cold contempt ;</l>
+                <l>But swiftly in my bosom there uprose</l>
+                <l>A sudden flame, a merciful fury sent</l>
+                <l>To save me ; with both angry hands I flung</l>
+                <l>The skin upon the marble, where it lay</l>
+                <l>Spouting red rills and fountains on the white ;</l>
+                <l>Then, all unheeding faces, voices, eyes,</l>
+                <l>I fled across the threshold, hair unbound—</l>
+                <l>White garment stained to redness—beating heart</l>
+                <l>Flooded with all the flowing tide of hopes</l>
+                <l>Which once had gushed out golden, now sent back</l>
+                <l>Swift to their sources, never more to rise. . . .</l>
+                <l>I think I could have borne the weary life,</l>
+                <l>The narrow life within the narrow walls,</l>
+                <l>If he had loved me ; but he kept his love</l>
+                <l>For this Athenian city and her sons ;</l>
+                <l>And, haply, for some stranger‐woman, bold</l>
+                <pb n="11" xml:id="VAB7200-011"/>
+                <l>With freedom, thought, and glib philosophy. . . .</l>
+                <l>Ah me ! the long, long weeping through the nights,</l>
+                <l>The weary watching for the pale‐eyed dawn</l>
+                <l>Which only brought fresh grieving : then I grew</l>
+                <l>Fiercer, and cursed from out my inmost heart</l>
+                <l>The Fates which marked me an Athenian maid.</l>
+                <l>Then faded that vain fury ; hope died out ;</l>
+                <l>A huge despair was stealing on my soul,</l>
+                <l>A sort of fierce acceptance of my fate,—</l>
+                <l>He wished a household vessel—well ! ’twas good,</l>
+                <l>For he should have it ! He should have no more</l>
+                <l>The yearning treasure of a woman’s love,</l>
+                <l>But just the baser treasure which he sought.</l>
+                <l>I called my maidens, ordered out the loom,</l>
+                <l>And spun unceasing from the morn till eve ;</l>
+                <l>Watching all keenly over warp and woof,</l>
+                <l>Weighing the white wool with a jealous hand.</l>
+                <l>I spun until, methinks, I spun away</l>
+                <l>The soul from out my body, the high thoughts</l>
+                <l>From out my spirit ; till at last I grew</l>
+                <l>As ye have known me,—eye exact to mark</l>
+                <l>The texture of the spinning ; ear all keen</l>
+                <l>For aimless talking when the moon is up,</l>
+                <l>And ye should be a‐sleeping ; tongue to cut</l>
+                <pb n="12" xml:id="VAB7200-012"/>
+                <l>With quick incision, ’thwart the merry words</l>
+                <l>Of idle maidens. . . .</l>
+                <l>Only yesterday</l>
+                <l>My hands did cease from spinning ; I have wrought</l>
+                <l>My dreary duties, patient till the last.</l>
+                <l>The gods reward me ! Nay, I will not tell</l>
+                <l>The after years of sorrow ; wretched strife</l>
+                <l>With grimmest foes—sad Want and Poverty ;—</l>
+                <l>Nor yet the time of horror, when they bore</l>
+                <l>My husband from the threshold ; nay, nor when</l>
+                <l>The subtle weed had wrought its deadly work.</l>
+                <l>Alas ! alas ! I was not there to soothe</l>
+                <l>The last great moment ; never any thought</l>
+                <l>Of her that loved him—save at least the charge,</l>
+                <l>All earthly, that her body should not starve. . . .</l>
+                <l>You weep, you weep ; I would not that ye wept ;</l>
+                <l>Such tears are idle ; with the young, such grief</l>
+                <l>Soon grows to gratulation, as, ‘her love</l>
+                <l>Was withered by misfortune ; mine shall grow</l>
+                <l>All nurtured by the loving,’ or, ‘her life</l>
+                <l>Was wrecked and shattered—mine shall smoothly sail.’</l>
+                <l>Enough, enough. In vain, in vain, in vain !</l>
+                <l>The gods forgive me ! Sorely have I sinned</l>
+                <l>In all my life. A fairer fate befall</l>
+                <pb n="13" xml:id="VAB7200-013"/>
+                <l>You all that stand there. . . .</l>
+                <l>Ha ! the dawn has come ;</l>
+                <l>I see a rosy glimmer—nay ! it grows dark ;</l>
+                <l>Why stand ye so in silence ? throw it wide,</l>
+                <l>The casement, quick ; why tarry ?—give me air—</l>
+                <l>O fling it wide, I say, and give me light !</l>
+            </div>
+            <pb n="14" xml:id="VAB7200-014"/>
+            <div type="poem">
+                <head>A Prayer.</head>
+                <l><hi>SINCE</hi> that I may not have</l>
+                <l>Love on this side the grave,</l>
+                <l rend="ti-1">Let me imagine Love.</l>
+                <l>Since not mine is the bliss</l>
+                <l>Of ‘claspt hands and lips that kiss,’</l>
+                <l rend="ti-1">Let me in dreams it prove.</l>
+                <l>What tho’ as the years roll</l>
+                <l>No soul shall melt to my soul,</l>
+                <l rend="ti-1">Let me conceive such thing ;</l>
+                <l>Tho’ never shall entwine</l>
+                <l>Loving arms around mine</l>
+                <l rend="ti-1">Let dreams caresses bring.</l>
+                <l>To live—it is my doom—</l>
+                <l>Lonely as in a tomb,</l>
+                <l rend="ti-1">This cross on me was laid ;</l>
+                <l>My God, I know not why ;</l>
+                <l>Here in the dark I lie,</l>
+                <l rend="ti-1">Lonely, yet not afraid.</l>
+                <pb n="15" xml:id="VAB7200-015"/>
+                <l>It has seemed good to Thee</l>
+                <l>Still to withhold the key</l>
+                <l rend="ti-1">Which opes the way to men ;</l>
+                <l>I am shut in alone,</l>
+                <l>I make not any moan,</l>
+                <l rend="ti-1">Thy ways are past my ken.</l>
+                <l>Yet grant me this, to find</l>
+                <l>The sweetness in my mind</l>
+                <l rend="ti-1">Which I must still forego ;</l>
+                <l>Great God which art above,</l>
+                <l>Grant me to image Love,—</l>
+                <l rend="ti-1">The bliss without the woe.</l>
+            </div>
+            <pb n="16" xml:id="VAB7200-016"/>
+            <div type="poem">
+                <head>Ralph to Mary.</head>
+                <lg type="verse_paragraph">
+                    <l><hi>LOVE</hi>, you have led me to the strand,</l>
+                    <l rend="ti-1">Here, where the stilly, sunset sea,</l>
+                    <l rend="ti-1">Ever receding silently,</l>
+                    <l>Lays bare a shining stretch of sand ;</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Which, as we tread, in waving line,</l>
+                    <l rend="ti-1">Sinks softly ’neath our moving feet ;</l>
+                    <l rend="ti-1">And looking down our glances meet,</l>
+                    <l>Two mirrored figures—yours and mine.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>To‐night you found me sad, alone,</l>
+                    <l rend="ti-1">Amid the noisy, empty books</l>
+                    <l rend="ti-1">And drew me forth with those sweet looks,</l>
+                    <l>And gentle ways which are your own.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The glory of the setting sun</l>
+                    <l rend="ti-1">Has sway’d and softened all my mood ;</l>
+                    <l rend="ti-1">This wayward heart you understood,</l>
+                    <l>Dear love, as you have always done.</l>
+                </lg>
+                <pb n="17" xml:id="VAB7200-017"/>
+                <lg type="verse_paragraph">
+                    <l>Have you forgot the poet wild,</l>
+                    <l rend="ti-1">Who sang rebellious songs and hurl’d</l>
+                    <l rend="ti-1">His fierce anathemas at ‘the world,’</l>
+                    <l>Which shrugg’d its shoulders, pass’d and smil’d?</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Who fled in wrath to distant lands,</l>
+                    <l rend="ti-1">And sitting, thron’d upon a steep,</l>
+                    <l rend="ti-1">Made music to the mighty deep,</l>
+                    <l>And thought, ‘Perhaps <emph>it</emph> understands.’</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Who back return’d, a wanderer drear,</l>
+                    <l rend="ti-1">Urged by the spirit’s restless pain,</l>
+                    <l rend="ti-1">Sang his wild melodies in vain—</l>
+                    <l>Sang them to ears that would not hear. . . . </l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>A weary, lonely thing he flies,</l>
+                    <l rend="ti-1">His soul’s fire with soul’s hunger quell’d,</l>
+                    <l rend="ti-1">Till, sudden turning, he beheld</l>
+                    <l>His meaning—mirrored in your eyes! . . .</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Ah, Love, since then have passed away</l>
+                    <l rend="ti-1">Long years ; some things are chang’d on earth;</l>
+                    <l rend="ti-1">Men say that poet had his worth,</l>
+                    <l>And twine for him the tardy bay.</l>
+                </lg>
+                <pb n="18" xml:id="VAB7200-018"/>
+                <lg type="verse_paragraph">
+                    <l>What care I, so that hand in hand,</l>
+                    <l rend="ti-1">And heart in heart we pace the shore ?</l>
+                    <l rend="ti-1">My heart desireth nothing more,</l>
+                    <l>We understand,—we understand.</l>
+                </lg>
+            </div>
+            <pb n="19" xml:id="VAB7200-019"/>
+            <div type="poem">
+                <head>‘Felo de Se.’</head>
+                <head type="sub">With Apologies to Mr. Swinburne.</head>
+                <l><hi>FOR</hi> repose I have sighed and have struggled ; have sigh’d and have
+                    struggled in vain ;</l>
+                <l>I am held in the Circle of Being and caught in the Circle of Pain.</l>
+                <l>I was wan and weary with life ; my sick soul yearned for death ;</l>
+                <l>I was weary of women and war and the sea and the wind’s wild breath ;</l>
+                <l>I cull’d sweet poppies and crush’d them, the blood ran rich and red :—</l>
+                <l>And I cast it in crystal chalice and drank of it till I was dead.</l>
+                <l>And the mould of the man was mute, pulseless in ev’ry part,</l>
+                <l>The long limbs lay on the sand with an eagle eating the heart.</l>
+                <l>Repose for the rotting head and peace for the putrid breast,</l>
+                <pb n="20" xml:id="VAB7200-020"/>
+                <l>But for that which is ‘I’ indeed the gods have decreed no rest ;</l>
+                <l>No rest but an endless aching, a sorrow which grows amain :—</l>
+                <l>I am caught in the Circle of Being and held in the Circle of Pain.</l>
+                <l>Bitter indeed is Life, and bitter of Life the breath,</l>
+                <l>But give me Life and its ways and its men, if this be Death.</l>
+                <l>Wearied I once of the Sun and the voices which clamour’d around :</l>
+                <l>Give them me back—in the sightless depths there is neither light nor sound.</l>
+                <l>Sick is my soul, and sad and feeble and faint as it felt</l>
+                <l>When (far, dim day) in the fair flesh‐fane of the body it dwelt.</l>
+                <l>But then I could run to the shore, weeping and weary and weak ;</l>
+                <l>See the waves’ blue sheen and feel the breath of the breeze on my cheek :</l>
+                <l>Could wail with the wailing wind ; strike sharply the hands in despair ;</l>
+                <l>Could shriek with the shrieking blast, grow frenzied and tear the hair ;</l>
+                <pb n="21" xml:id="VAB7200-021"/>
+                <l>Could fight fierce fights with the foe or clutch at a human hand ;</l>
+                <l>And weary could lie at length on the soft, sweet, saffron sand. . . .</l>
+                <l>I have neither a voice nor hands, nor any friend nor a foe ;</l>
+                <l>I am I—just a Pulse of Pain—I am I, that is all I know.</l>
+                <l>For Life, and the sickness of Life, and Death and desire to die ;—</l>
+                <l>They have passed away like the smoke, here is nothing but Pain and I.</l>
+            </div>
+            <pb n="22" xml:id="VAB7200-022"/>
+            <div type="poem">
+                <head>Sonnet.</head>
+                <lg type="verse_paragraph">
+                    <l><hi>MOST</hi> wonderful and strange it seems, that I</l>
+                    <l>Who but a little time ago was tost</l>
+                    <l>High on the waves of passion and of pain,</l>
+                    <l>With aching heat and wildly throbbing brain,</l>
+                    <l>Who peered into the darkness, deeming vain</l>
+                    <l>All things there found if but One thing were lost,</l>
+                    <l>Thus calm and still and silent here should lie,</l>
+                    <l>Watching and waiting, —waiting passively.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The dark has faded, and before mine eyes</l>
+                    <l>Have long, grey flats expanded, dim and bare ;</l>
+                    <l>And through the changing guises all things wear</l>
+                    <l>Inevitable Law I recognise :</l>
+                    <l>Yet in my heart a hint of feeling lies</l>
+                    <l>Which half a hope and half a despair.</l>
+                </lg>
+            </div>
+            <pb n="23" xml:id="VAB7200-023"/>
+            <div type="poem">
+                <head>Translated from Geibel.</head>
+                <lg type="verse_paragraph">
+                    <l><hi>O SAY</hi>, thou wild, thou oft deceived heart,</l>
+                    <l>What mean these noisy throbbings in my breast ?</l>
+                    <l>After thy long, unutterable woe</l>
+                    <l rend="ti-1">Wouldst thou not rest ?</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Fall’n from Life’s tree the sweet rose‐blossom lies,</l>
+                    <l>And fragrant youth has fled. What made to seem</l>
+                    <l>This earth as fair to thee as Paradise,</l>
+                    <l rend="ti-1">Was all a dream.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>The blossom fell, the thorn was left to me ;</l>
+                    <l>Deep from the wound the blood‐drops ever flow,</l>
+                    <l>All that I have are yearnings, wild desires,</l>
+                    <l rend="ti-1">And wrath and woe.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>They brought me Lethe’s water, saying, ‘Drink!‘</l>
+                    <l>‘Drink, for the draught is sweet,’ I heard them say,</l>
+                    <l>‘Shalt learn how soft a thing forgetting is.’</l>
+                    <l rend="ti-1">I answered : ‘Nay.’</l>
+                </lg>
+                <pb n="24" xml:id="VAB7200-024"/>
+                <lg type="verse_paragraph">
+                    <l>What tho’ indeed it were an idle cheat,</l>
+                    <l>Nathless to me ’twas very fair and blest :</l>
+                    <l>With every breath I draw I know that love</l>
+                    <l rend="ti-1">Reigns in my breast.</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <l>Let me go forth,—and thou, my heart, bleed on :</l>
+                    <l>A lonely spot I seek by night and day,</l>
+                    <l>That love and sorrow I may there breathe forth</l>
+                    <l rend="ti-1">In a last lay.</l>
+                </lg>
+            </div>
+            <pb n="25" xml:id="VAB7200-025"/>
+            <div type="poem">
+                <head>Run to Death.</head>
+                <head type="sub">A True Incident of Pre‐Revolutionary French History.</head>
+                <lg type="verse_paragraph">
+                    <l><hi>NOW</hi> the lovely autumn morning breathes its freshness in earth’s
+                        face,</l>
+                    <l>In the crowned castle courtyard the blithe horn proclaims the chase ;</l>
+                    <l>And the ladies on the terrace smile adieux with rosy lips</l>
+                    <l>To the huntsmen disappearing down the cedar‐shaded groves,</l>
+                    <l>Wafting delicate aromas from their scented finger tips,</l>
+                    <l>And the gallants wave in answer, with their gold‐embroidered gloves.</l>
+                    <l>On they rode, past bush and bramble, on they rode, past elm and oak ;</l>
+                    <l>And the hounds, with anxious nostril, sniffed the heather‐scented air,</l>
+                    <l>Till at last, within his stirrups, up Lord Gaston rose, and spoke—</l>
+                    <pb n="26" xml:id="VAB7200-026"/>
+                    <l>He, the boldest and the bravest of the wealthy nobles there :</l>
+                    <l>‘Friends,’ quoth he, ‘the time hangs heavy, for it is not as we thought,</l>
+                    <l>And these woods, tho’ fair and shady, will afford, I fear, no sport.</l>
+                    <l>Shall we hence, then, worthy kinsmen, and desert the hunter’s track</l>
+                    <l>For the chateau, where the wine cup and the dice cup tempt us back ?’</l>
+                    <l>‘Ay,’ the nobles shout in chorus ; ‘Ay,’ the powder’d lacquey cries ;</l>
+                    <l>Then they stop with eager movement, reining in quite suddenly ;</l>
+                    <l>Peering down with half contemptuous, half with wonder‐opened eyes</l>
+                    <l>At a ‘something’ which is crawling, with slow step, from tree to tree.</l>
+                    <l>Is’t some shadow phantom ghastly ? No, a woman and a child,</l>
+                    <l>Swarthy woman, with the ‘gipsy’ written clear upon her face ;</l>
+                    <l>Gazing round her with her wide eyes dark, and shadow‐fringed, and wild,</l>
+                    <pb n="27" xml:id="VAB7200-027"/>
+                    <l>With the cowed suspicious glances of a persecuted race.</l>
+                    <l>Then they all, with unasked question, in each other’s faces peer,</l>
+                    <l>For a common thought has struck them, one their lips dare scarcely say,—</l>
+                    <l>Till Lord Gaston cries, impatient, ‘Why regret the stately deer</l>
+                    <l>When such sport as yonder offers ? quick ! unleash the dogs—away !’</l>
+                    <l>Then they breath’d a shout of cheering, grey‐haired man and stripling
+                        boy,</l>
+                    <l>And the gipsy, roused to terror, stayed her step, and turned her head—</l>
+                    <l>Saw the faces of those huntsmen, lit with keenest cruel joy—</l>
+                    <l>Sent a cry of grief to Heaven, closer clasped her child, and fled !</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <head>* * * * * * *</head>
+                    <l>O ye nobles of the palace ! O ye gallant‐hearted lords !</l>
+                    <l>Who would stoop for Leila’s kerchief, or for Clementina’s gloves,</l>
+                    <l>Who would rise up all indignant, with your shining sheathless swords,</l>
+                    <pb n="28" xml:id="VAB7200-028"/>
+                    <l>At the breathing of dishonour to your languid lady loves !</l>
+                    <l>O, I tell you, daring nobles, with your beauty‐loving stare,</l>
+                    <l>Who ne’er long the coy coquetting of the courtly dames withstood,</l>
+                    <l>Tho’ a woman be the lowest, and the basest, and least fair,</l>
+                    <l>In your manliness forget not to respect her womanhood,</l>
+                    <l>And thou, gipsy, that hast often the pursuer fled before,</l>
+                    <l>That hast felt ere this the shadow of dark death upon thy brow,</l>
+                    <l>That hast hid among the mountains, that hast roamed the forest o’er,</l>
+                    <l>Bred to hiding, watching, fleeing, may thy speed avail thee now !</l>
+                </lg>
+                <lg type="verse_paragraph">
+                    <head>* * * * * * *</head>
+                    <l>Still she flees, and ever fiercer tear the hungry hounds behind,</l>
+                    <l>Still she flees, and ever faster follow there the huntsmen on,</l>
+                    <pb n="29" xml:id="VAB7200-029"/>
+                    <l>Still she flees, her black hair streaming in a fury to the wind,</l>
+                    <l>Still she flees, tho’ all the glimmer of a happy hope is gone.</l>
+                    <l>‘Eh ? what ? baffled by a woman ! Ah, <foreign xml:lang="ita" rend="i">sapristi</foreign> ! she can run !</l>
+                    <l>Should she ’scape us, it would crown us with dishonour and disgrace ;</l>
+                    <l>It is time’ (Lord Gaston shouted) ‘such a paltry chase were done !’</l>
+                    <l>And the fleeter grew her footsteps, so the hotter grew the chase—</l>
+                    <l>Ha ! at last ! the dogs are on her ! will she struggle ere she dies ?</l>
+                    <l>See ! she holds her child above her, all forgetful of <emph>her</emph>
+                        pain,</l>
+                    <l>While a hundred thousand curses shoot out darkly from her eyes,</l>
+                    <l>And a hundred thousand glances of the bitterest disdain.</l>
+                    <l>Ha ! the dogs are pressing closer ! they have flung her to the ground ;</l>
+                    <l>Yet her proud lips never open with the dying sinner’s cry—</l>
+                    <pb n="30" xml:id="VAB7200-030"/>
+                    <l>Till at last, unto the Heavens, just two fearful shrieks resound,</l>
+                    <l>When the soul is all forgotten in the body’s agony !</l>
+                    <l>Let them rest there, child and mother, in the shadow of the oak,</l>
+                    <l>On the tender mother‐bosom of that earth from which they came.</l>
+                    <l>As they slow rode back those huntsmen neither laughed, nor sang, nor
+                        spoke,</l>
+                    <l>Hap, there lurked unowned within them throbbings of a secret shame.</l>
+                    <l>But before the flow’ry terrace, where the ladies smiling sat,</l>
+                    <l>With their graceful nothings trifling all the weary time away,</l>
+                    <l>Low Lord Gaston bowed, and raising high his richly ’broider’d hat,</l>
+                    <l>‘Fairest ladies, give us welcome ! ’Twas a famous hunt to‐day.’</l>
+                </lg>
+                <trailer>
+                    <date>[1876]</date>
+                </trailer>
+            </div>
+        </body>
+    </text>
+</TEI>
