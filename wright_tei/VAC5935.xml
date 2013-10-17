@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd"
+     xml:id="VAC5935">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title >Amanda Willson, or, The Vicissitudes of Life </title>
+            <author >Buckley, Maria L.</author>
+            <respStmt>
+               <resp >General Editor</resp>
+               <name >Perry Willett</name>
+            </respStmt>
+            <respStmt>
+               <resp >Electronic Text Specialist</resp>
+               <name  xml:id="adamhoch">Adam Hochstetter</name>
+            </respStmt>
+            <respStmt>
+               <resp >General Editor</resp>
+               <name  xml:id="mdalmau">Michelle Dalmau</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher >Digital Library Program, Indiana University</publisher>
+            <pubPlace>Bloomington, IN</pubPlace>
+            <address >
+               <addrLine xmlns="http://www.tei-c.org/ns/1.0">1320 E. 10th St.</addrLine>
+               <addrLine xmlns="http://www.tei-c.org/ns/1.0">Bloomington, IN 47405</addrLine>
+            </address>
+            <idno >VAC5935</idno>
+            <availability  status="unknown">
+               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
+                    copyright only to original contributions made by the Victorian Women Writers
+                    Project participants and other members of the university community. Indiana
+                    University makes no claim of copyright to the original text. Permission is
+                    granted to download, transmit or otherwise reproduce, distribute or display the
+                    contributions to this work claimed by Indiana University for non-profit
+                    educational purposes, provided that this header is included in its entirety. For
+                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title  level="s" type="project">Wright American Fiction: An Electronic
+                    Collection</title>
+         </seriesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title >Amanda Willson, or, The vicissitudes of life</title>
+                  <author >Buckley, Maria L.</author>
+               </titleStmt>
+               <extent >40 p.</extent>
+               <publicationStmt>
+                  <publisher >M. Buckley</publisher>
+                  <pubPlace>[S.l.] </pubPlace>
+                  <date  when="1856">1856</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p >This text was created as part of a project by the Committee on Institutional
+                    Cooperation. Project description and participants are available at the project
+                    website at http://www.letrs.indiana.edu/wright.</p>
+         </projectDesc>
+         <editorialDecl>
+            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+                    has been encoding and edited using the recommendations for Level 4 of the TEI in
+                    Libraries Guidelines. Digital page images are linked to the text file.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language  ident="fra">French</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change  who="AEL Data" when="2003-02-13">Finished transcription and SGML encoding</change>
+         <change  who="Perry Willett, Indiana University" when="2003-02-19">Finished TEI conversion and final editing</change>
+         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text > 
+      <front> 
+         <div type="frontis"> 
+            <pb n="Illustration (TitlePage) " xml:id="VAC5935-00000001"/> 
+            <p>
+               <figure> 
+                  <p>Yours Respectfully, Maria L. Buckley</p> 
+               </figure>
+            </p> 
+         </div> 
+         <titlePage xmlns="http://www.tei-c.org/ns/1.0"> 
+            <pb  n=""/> 
+            <docTitle> 
+               <titlePart>AMANDA WILLSON;</titlePart> 
+               <titlePart type="sub">OR, THE VICISSITUDES OF LIFE.</titlePart> 
+            </docTitle> 
+            <byline >BY <docAuthor xmlns="http://www.tei-c.org/ns/1.0">MRS. MARIA L. BUCKLEY,</docAuthor> AUTHOR OF "The Glace," "Edith Merelon," Etc., Etc.</byline> 
+            <epigraph > 
+               <cit> 
+                  <q>
+                     <lg type="quotation"> 
+                        <l>I mean to show things as they really are,</l> 
+                        <l rend="ti-1">Not as they ought to be; for, I avow,</l> 
+                        <l>That till we see what's what in fact, we're far</l> 
+                        <l rend="ti-1">From such improvement.-</l> 
+                     </lg>
+                  </q> 
+                  <bibl>BYRON</bibl> 
+               </cit> 
+            </epigraph> 
+            <docImprint>
+               <publisher >PUBLISHED BY THE AUTHOR.</publisher> 
+               <pubPlace>NEW YORK:</pubPlace> 
+               <publisher >PRINTED BY URNER &amp; CO., NO. 10 SPRUCE ST.</publisher>
+            </docImprint> 
+            <docDate>1856.</docDate> 
+            <pb  n="iii" xml:id="VAC5935-00000002"/> 
+            <docEdition>Entered, according to Act of Congress, in the year 1856, by MRS. MARIA L. BUCKLEY, In the Clerk's Office of the District Court for the Southern District of New York.</docEdition> 
+         </titlePage> 
+         <div type="introduction"> 
+            <pb n=""/> 
+            <head>INTRODUCTION.</head> 
+            <epigraph> 
+               <cit> 
+                  <q>
+                     <lg type="quotation"> 
+                        <l>Man's inhumanity to man</l> 
+                        <l>Makes countless millions mourn.</l> 
+                     </lg>
+                  </q> 
+                  <bibl>Burns.</bibl> 
+               </cit> 
+            </epigraph> 
+            <p>ON no part of the habitable Globe, will the truth of the old adage, "one half of the world knows not how the other half lives," be better exemplified than in the city of New York. The affluence of wealth and all the concomitants flourish in one quarter of that popular City. A stranger visiting the gorgeous palaces of the up-town <emph>Aristocrats,</emph> sojourning at the no less princely and magnificent Hotels, or seated in the richly upholstered pew of a church dedicated to <emph>God,</emph> for the exclusive worship of his wealthy adorers, could scarcely realize that where such magnificence exists poverty would be <choice>
+                  <sic>permited</sic>
+                  <corr>permitted</corr>
+               </choice> to raise its piteous head.</p> 
+            <p>Let that Stranger follow us in our true story, and we will show him how futile are his conclusions. We will show him that what many of the rich contend for-"There must be poor as well as wealthy classes"-exists in this Metropolis, in as great a proportionate degree as in any of the large cities of the old world. But we think we hear that Stranger exclaim, "this is a land of plenty-there is work for all." This we readily admit, with a slight qualification. It is a land of plenty, and all, or nearly all, can find employment, many at remunerating wages. But there is one class who toil from "early dawn" till after "dewy eve," who cannot, in many instances, realize sufficient to keep soul and body together. We allude to the Sewing Girls of New York, Boston and other Cities. Is it, then, to be wondered at, that many of them are driven from the paths of virtue, to seek the means of obtaining showy dresses-their greatest bane of life. And whence, we ask, comes this love of dress? We answer, let one of these who are driven to their own resources, to earn a livelihood, apply to a Milliner, Dress-maker, Tailor or any of those who give employment to girls, and if she be meanly clad, she receives the unwelcome intelligence, "you must dress better, to suit us." At each place where she makes application, the same<pb n="iv-5" xml:id="VAC5935-00000003"/> response strikes upon her ear, "you must dress better, or we cannot employ you. Those who work in our establishment must look respectable and attractive." If the poor girl applies for work to carry home, she can get it, provided she gives security or leaves a deposit, equivalent to the value of the article she takes, be it a muslin shirt. Security she cannot give. She has no friends, and if, from her scanty wardrobe, she can; through the aid of the Pawn-broker, raise the required sum, she gets the work at, indeed, a low price. Yet low as the <choice>
+                  <sic>remumeration</sic>
+                  <corr>remuneration</corr>
+               </choice> may be, she is glad to get it. She, as yet, has no conception of earning a living by other than virtuous means. When her work is returned, in nine cases out of ten, the hard-hearted employer deducts ten, fifteen, and in many instances, twenty per cent from what the poor girl toiled early and late for, perhaps without nourishment or even fire, and the excuse is some imaginary defect in the work. A defect that the purchaser never sees, or is informed of, nor does he pay one cent less for the defective article.</p> 
+            <p>But, perhaps, our readers may say that our story is but a sermon on the wrongs of the Sewing Girls. Well, what better subject could we preach upon-what class of the laboring population are worse paid for their labor, and from what class do their employers derive their profit? We assure our readers we are not going to preach. We leave that to those whose business it is; but we thought it necessary thus to preface our story, and shall now, with the reader's kind permission, tell it, merely premising that it is no fiction.</p> 
+         </div> 
+      </front> 
+      <body>
+         <div type="book">
+            <head>Amanda Willson, or, The vicissitudes of life</head> 
+            <div type="part"> 
+               <pb n=""/> 
+               <head>AMANDA WILLSON; OR, THE VICISSITUDES OF LIFE.</head> 
+               <div type="chapter"> 
+                  <head>CHAPTER I.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>What numbers, 'once in fortune's lap high fed!</l> 
+                              <l rend="ti-1">Solicit the cold hand of charity,</l> 
+                              <l>To shock us more. solicited in vain,</l> 
+                           </lg>
+                        </q> 
+                        <bibl>Young's Night Thoughts.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>Hard is the lot of the infirm and the poor, and it was so with the Widow Willson, who occupied a garret-room in the vicinity of Frankfort street. Mrs. Willson was once in affluent circumstances. Her husband was formerly connected with a leading mercantile firm in the city; but the disastrous revulsions of 1836-7, were too much for him, to contend against. He failed under the pressure that brought so many to ruin. On Mrs. Willson, who was always delicate, the failure of her husband, and consequent deprivations of those delicacies which were essentially necessary to her enfeebled health, had, as may be supposed, a very serious effect. Two children, with which their union was blessed, were now, she considered, sent more as a scourge than a blessing. Young and without means to bring them up as the fond mother wished, she almost prayed that he who gave them might take them to himself ere the contaminating blight of the unfeeling world might sear their young hearts. But her prayers, if uttered, were not answered, and the younger, Amanda, lived to be the heroine of our tale.</p> 
+                  <p>Mr. Willson after struggling against the world for three years, and with a hope that he might be again enabled to engage in business, was about taking the benefit of an act passed by Congress about that time, when he suddenly paid all his worldly<pb n="6-7" xml:id="VAC5935-00000004"/> debts, by paying the great debt of nature. If the failure of the husband was such a severe blow, what must the sudden death of her protector and partner be to the poor widow? We leave all conjecture on the subject to the reader and those who have experienced the same unhappy lot. Now, indeed, she felt the bitter blight of poverty press heavy at her heart. Her eldest, her fond boy had been gone from her nearly a year; she knew not if she would ever see him again. A friend of her husband, a shipmaster, prevailed on the mother to send the boy to sea with him. Amanda, at the time of her father's death, was some twelve years of age; and without money, without friends were this helpless mother and innocent child left to the cold charity of the world. After the death of Mr. Willson, some benevolent individuals came forward and relieved her immediate wants, but in a short time she found that charity, unless given with a motive that makes it a virtue in the sight of Heaven, becomes satiated with giving, and the lonely widow at length found herself without food for herself or child; and being at the mercy of an unfeeling landlord, expected every day to be houseless. Driven to the last resource, Mrs. Willson made several applications for employment at her needle, a business that in her youthful years she was an adept in. In her present weak state she had little hopes of turning it to much account. Yet as a resort she took some plain sewing from an establishment in Nassau Street, and for a short time, with the assistance of Amanda, managed to provide sufficient to enable them to live. But incessant labor was too much for her weak state. The amount of work done gradually grew less every week, until the mother became totally unable any longer to toil. Worn with fatigue and bodily sufferings, she prayed for death for herself and child. She knew the world-she knew the temptations to which the virtuous poor are always exposed, and sooner than see her daughter brought to a life of shame, she would have rejoiced at her death. She made frequent applications to those who knew her in other and happier circumstances, but without avail-nothing was left her but to perish with her child. The thought was agonizing; it was dreadful.</p> 
+                  <p>Those to whom the widow applied for assistance, were noted in the world as kind, (?) charitable, (?) benevolent (?) people. Their names headed the list of every public charity, lest the world would not hear or know of their benevolent (?) actions. Was a mission meeting got up for the conversion of the <emph>Japanese, Chinese,</emph> or any other outlandish tribe, they would be the first to open the strings of their purse and head the subscribers with a liberal sum. After which they would repair to the sanctuary of God, and give mock thanks that they were enabled to do so.</p> 
+                  <pb n=""/> 
+                  <p>"Let not thy left hand know what they right doeth," was the injunction of the Saviour, but it is at the present day as obsolete as if it had never been imposed.</p> 
+                  <p>Amanda continued to labor at making plain shirts, and the little she earned at this calling, was almost wholly expended in relieving her sick mother. True, the sum total of her weekly earnings amounted to but a few shillings, yet cheerfully did the noble girl spend three-fourths of it, and would the whole on the invalid. Let such as are skeptical as to the truth of this part of our narrative, tell us "it is improbable" that "there are too many charitable Societies." We know instances of where persons, who, like the Widow Willson, were reduced from affluence to poverty, and stretched on a bed of sickness and suffering, made, in vain, applications to male and female directors of such Societies, but the flimsy excuse, "you do not belong to our Church or Society-you are not one of us," was all the relief they got. This is the charity of the world, but it is not the charity of God.</p> 
+                  <p>God knows no sectarianism, and as long as the world's charity is doled out to a favored sect, so long will the majority of the deserving poor have to linger in garrets and cellars-food for epidemics and all the diseases which flesh is heir to.</p> 
+               </div> 
+               <div type="chapter"> 
+                  <pb n="8-9" xml:id="VAC5935-00000005"/> 
+                  <head>CHAPTER II.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <l>Vaulting ambition o'erleaps itself.</l>
+                        </q> 
+                        <bibl>Shakspeare.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>Mr. Wm. Saunders was a master mechanic in the upper part of the city. He was what many called a shrewd man. He was considered a smart on by those who knew him best-he was like one of Pope's characters: <q>
+                        <lg type="stanza"> 
+                           <l>Religious, punctual, frugal and so forth,</l> 
+                           <l>His word would pass for more than he was worth.</l> 
+                        </lg>
+                        <lg type="stanza"> 
+                           <l>One single dish his week day meal affords,</l> 
+                           <l>An humble pudding graced it on the lords.</l> 
+                        </lg>
+                     </q>
+                  </p> 
+                  <p>But like Pope's Balaam, prosperity did not agree with him, his religion was too much of a matter of fact business. His abstemiousness at the week day meal was solely for the purpose of amassing wealth, that he might at some future time take a prominent position along side of those who now looked on his plebian origin, forgetting their own, in the possession of wealth-to his end his every effort was strained to the utmost. Wealth-no matter how obtained-would place him in a desired position; like the French Cardinal, he knew not the word fail in his vocabulary. His whole aim, his whole desire, was to be an Aristocrat, and would it not have been better for him to remain in the position that nature intended him for? As a master mechanic he was respected by all who had dealings with him, but his ambition caused him to forget the true principle that should guide his course through life, as it has done to others, and when wealth was accumulated and he moved in the society he so much coveted, he was as much out of his element as he was before in his proper place. Mr. Saunders was the owner of several houses down town, which he let out in rooms to poor families, at an exorbitant advance of the real value of the tenements,-among others the house that Mrs. Willson and her daughter resided in. Let us follow him from his richly furnished parlor and comfortable morning meal on his almost daily visit to his tenants in Rose Street. The block of houses which he owned there were inhabited by as diversified<pb n=""/> a set of tenants, as there is diversity in the population of New York. On this day the advance rent of some eight or ten of his tenantry became due, and woe to the poor family who were not prepared to pay; no mercy need they expect from him. No plea of sickness or disappointment would he listen to. He had plenty himself and cared not for the suffering of others. In fact, he thought it a crime in any person to be poor, especially if they owed him rent. On this morning he received five applications for time till next day; but not an hour's grace would he give. "If," said he, "the money is not paid by twelve o'clock, you must move." He was always, in this particular, as good as his word, remarking, "That those who could not pay to-day would not be able to do so to-morrow. They must leave and make room for those who would pay;" and he immediately put the threat in force, by the summary process which the law gives to land-lords.</p> 
+                  <p>Mrs. Willson's was the last room he visited, as it was the farthest from the street. Here he found matters as we left them at the end of the last chapter, and when, in answer to his demand for the advance rent that was due that day, he received the intelligence it was not forthcoming, he gave orders to his lackeys, who were always in attendance on such occasions, to "turn them out." Scarcely, however, had he given the order, when his eyes fell on Amanda, who sat sewing by the side of her sick mother, but who, poorly clad, and seen to disadvantage by the feeble light from a small dormer window, showed no small traces of beauty. She was now just ripening into womanhood, and could not fail to attract more than a passing glance from the iron-hearted landlord. He immediately countermanded the order to dispossess them, and approached the timid girl, saying:</p> 
+                  <p>"Your mother appears to be sick?"</p> 
+                  <p>"She is indeed, sir, and very sick," she replied as the tears started in her beautiful eyes.</p> 
+                  <p>"'Tis cold. Why do you not make a fire?"</p> 
+                  <p>"Alas, sir, we have no fuel."</p> 
+                  <p>"'Tis hard," said Saunders. "Have you no nourishment for her?"</p> 
+                  <p>"No, sir-but as soon as I get this shirt finished I will receive fourteen cents, which will buy some."</p> 
+                  <p>"There are many charitable societies in the city," said the Landlord, "why not apply to some of them for relief?"</p> 
+                  <p>"We have made such applications, sir, several times, and twice received some slight assistance, but there are so many applicants<pb n="10-11" xml:id="VAC5935-00000006"/> plicants that all cannot be served. We have therefore to await our turn again, though we perish before it comes."</p> 
+                  <p>"Well," said Saunders, "I will send you something," and he immediately left the house. Now let not the reader think the stern adamantine heart of the Landlord was touched by this scene of misery and destitution; no, far from it. He had seen too many such, and without the least feeling of compunction did he enforce his right to turn the sufferers into the street to live or die, he cared not which. The feeling that touched his heart, if he really had one, was of a totally different nature. He saw before him a beautiful girl, who in all probability would soon be an easy prey to his insatiable desire. This was the philanthropic motive that induced the Landlord to say he would send relief to his suffering tenants.</p> 
+               </div> 
+               <div type="chapter"> 
+                  <pb n=""/> 
+                  <head>CHAPTER III.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>An open foe may prove a curse,</l> 
+                              <l>But a pretended friend is worse.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>Guy's Fables.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>AS THE Landlord promised, he sent a small supply of provisions and fuel to the chamber of misery; other necessaries were wanting, which he was careful should not be forthcoming-medical attendance and medicine were needed more by the invalid than strong food; but Saunders well knew that if they were not furnished, the charms of Amanda, becoming an orphan, would be secured, nor did he count the chance wrong. Worn and emaciated by long suffering, Mrs. Willson's troubles were ended. A few hours-after the receipt of his bounty, she sunk calmly and apparently without pain to her rest. How long she had been dead her daughter knew not, and only discovered the fact when she went to administer some of the provisions she had just prepared. The wild shriek of Amanda brought some of the occupants to the garret where they found the mother a corpse on the miserable bed, and the daughter apparently the same on the floor. The death of Mrs. Willson had long been expected by the fellow tenants in Saunder's house, consequently they bestowed their first care in an endeavor to restore to consciousness the young girl, who was now what her landlord wished her to be, an orphan. The task which the poor people engaged in was greater than they imagined it, more perhaps from their limited experience in such matters than other cause. When Amanda awoke from her unconscious state, the dreadful reality of what had transpired caused a succession of fainting fits, which for some time gave her attendants great cause for alarm. Happily, how ever, for them, though perhaps otherwise for the poor girl, whose cup of misery was not yet full, she received to gaze on the dead body of her mother. Grief now choked her utterance; not a tear came to her relief as she gazed on that inanimate form that was now lost to her forever. <q>
+                        <lg type="quotation"> 
+                           <l>"Not one sigh did tell her story,</l> 
+                           <l>Not one tear her cheek did stain."</l> 
+                        </lg>
+                     </q>
+                  </p> 
+                  <pb n="12-13" xml:id="VAC5935-00000007"/> 
+                  <p>Perhaps at no time are the sympathies of the poorer classes more generally observant than in a case of death. At such times they feel their class in society more neglected by those whose better fortune places them in higher positions. Acting on this principle, the poor people paid every attention to Amanda, while some directed their attention to a proper laying out of the dead body of the widow, which they did as well as the meagre facilities of her scanty wardrobe afforded.</p> 
+                  <p>Mr. Saunders was duly notified of the death of his tenant, and, as soon as he could make it convenient, he repaired to the house of mourning, where he put on a show of sympathy if not of grief, <q>
+                        <lg type="quotation"> 
+                           <l>"Before his face his handkerchief he spread</l> 
+                           <l>To hide a flood of tears he did not shed,"</l> 
+                        </lg>
+                     </q> or rather to hide the joy that sparkled in his countenance at the change that threw the now orphan girl in his power. With an authority that was considered by his tenants as pure philanthropy, Mr. Saunders gave directions to an undertaker to inter the body and send the bill to him. This, as it was called by his tenants a generous act of the landlord, brought on him many blessings from the poor people, but they knew not his heart, they knew not what he was angling for. In addition to paying the funeral expenses of the mother, he charitably (?) took the daughter in charge, and proposed to send her to a friend of his to board. Again were the blessings of his poor tenants showered on the man who, with all his heart-hardness, had still, as they thought, some traits of generosity left.</p> 
+                  <p>Amanda scarcely heard the offered friendship of Saunders, and was removed by him in a carriage to her new home in Crosby street, where he had taken appartments for the orphan, at the house of a woman, named Young, who to all appearance was a "milliner" and "dressmaker," and who in prosecution of that calling, kept a number of apprentices, young girls, many of them, like our heroine, having been brought there for the basest uses. Some few of them, it must be confessed, resided at Mrs. Young's from choice; having previously become disgraced, they saw no chance of regaining in society the place they lost when they listened to the deceptive words of the wily seducer, and while they are thus driven from society, to become the inmates of some establishment which here shall be nameless, for once falling from virtue, their betrayers are received into that same society, with greater eclat than before. How weak-minded must the members of that society be who will applaud in one sex an act that brings everlasting disgrace and misery on one of the opposite, and that<pb n=""/> opposite, the weaker sex. She, because she loved as woman only loves, listened to the seductive notes of him whom her fond love considered the soul of honor; when, after the most positive declaration on his part, of the sincerity of his feelings and intentions, she yields, she is immediately banished from all connection with what is styled the "virtuous world," and the seducer is more honored than before-comment is unnecessary.</p> 
+               </div> 
+               <div type="chapter"> 
+                  <pb n="14-15" xml:id="VAC5935-00000008"/> 
+                  <head>CHAPTER IV.</head> 
+                  <p>MRS. YOUNG, to whose keeping Amanda was entrusted, was the last to whom such a tender flower should be given in charge but it would not suit the desires of Saunders to have her placed in other care. She had long been known to the landlord, and this was not the first time she undertook the care of a young, helpless and innocent girl, in consideration of his gold. Amanda, on arriving at the house, was pleased with the air of comfort that seemed to pervade what she considered the milliner and dressmaker's establishment, especially when contrasted with the squalid misery of the room in which she resided for months back. So careful was Mrs. Young that no knowledge of the true character of her house should in any way be discovered by her new lodgers, that she, as she expressed it, out of compassion for her late loss, did not wish her to be seen by the other girls until her natural grief had in some measure subsided, and proper wardrobe had been procured, which, she was careful to impress on the girl's mind, would in due time be provided by direction of and at the sole expense of the "kind and good Mr. Saunders." At every visit the old woman paid Amanda, the kind, generous, and benevolent Mr. Saunders was the text from which her conversation seemed to flow; she seemed more than eloquent in her eulogiums of her "employer," all of which the artless girl believed, and now began to view him, not as the iron-hearted landlord, but as the protector who snatched her from the brink of the grave, raised her from starvation to plenty, from penury to comfort, yet she knew not the price she was expected to pay for this, as she thought, benevolence.</p> 
+                  <p>Among the other lodgers in the house of Mrs. Young was one who will be no unimportant character in our tale, therefore we will introduce her to our readers.</p> 
+                  <p>Susan Archer was a native of the eastern part of Maine, but having, while yet an infant, lost both her parents, she was sent to New York, to the care of her maternal Aunt, who had married a mechanic, and was living in comfortable circumstances in the city. Mrs. Turner was the twin sister of Susan's mother, and cheerfully undertook the charge left her. She brought up her<pb n=""/> niece as her own child, and well did that child repay the attentions of her more than parent. But all "sublunary things are vain," and Mrs. Turner, whose husband, after a long and protracted illness, was called to "that bourne from whence no traveller returns," soon followed, leaving her alone in the world, but not as completely destitute as poor Amanda.</p> 
+                  <p>Susan, after the death of her aunt, was induced by interested persons to submit to a sale of the household furniture left her and go to boarding. One in particular, who urged her to this course, had been for some time paying her, as she considered, and as he declared, honorable addresses; but now when he found that she would only be possessed of a few hundred dollars worth of household furniture, he determined to seek elsewhere for a partner, and immediately changed his mind towards Susan. His object now was, through the aid of Mrs. Young, to get the girl in his power, to accomplish which he conducted her business, putting a large share of the products into his own pockets and giving her a small moiety. Susan had been but a short time in the house of Mrs. Young, before she discovered its character, but it was some time before she told Johnson, who frequently visited her, of her suspicions. He used all the rhetoric he was master of to convince her that she had no occasion to think that Mrs. Young's was not one of the most respectable Milliners and Dressmakers Establishments in New York. "If" said he "her apprentices, now and then show a little frivolity in their actions, it is only what young and untutored girls are expected to do; but believe me, dear Susan," continued the artful seducer, "Mrs. Young would not allow any conduct in her girls, or her house, that might not with impunity be enacted in the best regulated society." With such arguments did Johnson for a time silence the suspicions of Susan, and after bidding her adieu, repaired immediately to the parlour where he called a servant and sent word that he wished a private interview with Mrs. Young, who on receipt of the message attended to grant the private interview required. When the mistress of the house entered the parlour she found Johnson walking up and down in a "brown study," and when she demanded his business-or rather his private business with her, he took a seat and said "Mrs. Young, you have a traitor in the house!"</p> 
+                  <p>"A traitor!" replied she.</p> 
+                  <p>"A traitor; that girl suspects-"</p> 
+                  <p>"Suspects what?"</p> 
+                  <p>"The character of your house."</p> 
+                  <p>"Indeed!" was Mrs. Young's reply.</p> 
+                  <p>"You take it coolly," said Johnson.</p> 
+                  <p>"I see nothing to make me get out of temper."</p> 
+                  <pb n="16" xml:id="VAC5935-00000009"/> 
+                  <p>"You don't?"</p> 
+                  <p>"No."</p> 
+                  <p>"Did I not persuade Susan Archer to come and board here, and did I not pay you the difference between your charge and what she was willing to pay, besides a certain sum for certain services."</p> 
+                  <p>"You did."</p> 
+                  <p>"I did, and now when I tell you she more than suspects the character of your house, you insinuate that there is no cause for alarm. She is a virtuous and strong minded girl, and once suspecting, she will not rest till she makes her suspicions truth or falsehood."</p> 
+                  <p>"Hey day, Mr. Modesty, you are getting eloquent;" said the landlady. "Do you think that any strong minded girl, as you call her, could be in my house a fortnight and only have suspicions to work upon? Did you bring her here to keep her forever in ignorance of the fact that, now she was destitute, your former protestations of love were as the idle wind; that, having defrauded her of three-fourths of her little store, you wish to follow up your advantage and drive her at once to desperation and ruin? Was it to keep from her a knowledge of these things that you persuaded her to make my house her home? Did you as I asked you before, wish to keep her forever ignorant of these facts? Now, Mr. Johnson, you say that Susan Archer is a strong-minded woman, and that you will be foiled in your designs on her, I firmly believe. You know that I am steeped in infamy and crime of the most hideous cast, but never will I lend a willing consent to add to it by that girl's ruin-nay, you need not look astonished; there is a limit to all things. I was once innocent myself as that poor girl, but the wily and artful words of him, who promised in the presence of his God to love and cherish-I will not say seduced my fond heart-no, he betrayed, did not seduce. Depending on his word, his plighted word, I went as a lamb to the sacrifice. Desertion and unrequited love seared my heart to my race, and I determined to become its scourge. I have been so-ay, many times and often. But now I vow to be the protector of Susan Archer, and save her from ruin," saying which she left Johnson alone in the room that she had just vacated. Johnson could scarcely realize the fact, that Mrs. Young, who he knew from the course of her vicious life had become callous to all the finer feelings, would be the one to offer to frustrate his schemes. He therefore rang the bell violently, thinking it would again induce her to enter the drawing-room, whereby he might demand of her some apology for the tirade of abuse which he considered an unwarrantable liberty for such a woman to usurp over the<pb n="17" xml:id="VAC5935-00000010"/> character of a gentleman of his standing in society; after waiting some time longer and becoming impatient at her non-appearance he hurried out of the house.</p> 
+               </div> 
+               <div type="chapter"> 
+                  <head>CHAPTER V.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>Ah Brandy, Brandy, bane of life,</l> 
+                              <l>Spring of tumult, source of strife,</l> 
+                              <l>Could I but half thy curses tell,</l> 
+                              <l>The wise would wish thee safe in hell.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>C. F. Hoffman,</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>In the back parlour of Mrs. Young's mysterious house sat a young girl in elegant negleg which was furnished by her pretended protector. Her beautiful face was crimsoned with excitement; her eyes were red; she had evidently been weeping and her form seemed to quiver with agitation; she started at every sound which she heard, and seemed to be anxiously awaiting the appearance of some individual. Suddenly a step was heard ascending the stairs, the door flew open, he coolly entered,-Saunders stood before her-and, to all appearance, had been drinking. His face bore a flush, and his manners had too cordial a warmth.</p> 
+                  <p>He seated himself beside her on the rich damask sofa, and took her hand which was trembling with agitation; he pressed it to his lips, which she as quickly as possible resented, feeling an inward repugnance towards him, which she could not conquer. This action, however, did not escape the keen glance of her companion, who remarked, "Why treat me thus? You have no need, Amanda, to fear. I am your friend, your protector. Command whatever you will, and it is yours."</p> 
+                  <p>"Indeed, sir, it is true, you have been kind to me, and I thank you; and Mrs. Young is kind-too much so; she will not let me work, telling me I must not soil my hands. But oh, I cannot live thus! I cannot live on charity. No, no sir. I am greatly indebted both to you and her for your benevolence to me, an orphan."</p> 
+                  <p>"Well, my dear Amanda, let me beg of you not to allow the<pb n="18-19" xml:id="VAC5935-00000011"/> thought of what I may have done, or may do for the future, disturb you; and as to Mrs. Young, she has done nothing to require your gratitude, for she knows well I shall remunerate her for all the services she may render you."</p> 
+                  <p>Amanda made no answer but by heaving a deep sigh. A sarcastic smile fluttered around the lips of Saunders as he drew her to his embrace, which she endeavored to resist; he, however, arrested her purpose, by placing his hand softly and smilingly on her lips, as he whispered, "Stop, no resistance, no argument, no controversy, my love, for, by Jove I love you, and that to distraction."</p> 
+                  <cit> 
+                     <q>
+                        <lg type="quotation"> 
+                           <l>A <choice>
+                                 <sic>crimsom</sic>
+                                 <corr>crimson</corr>
+                              </choice> blush her beauteous face o'erspread.</l> 
+                           <l>Varying her checks by turns, to white and red,</l> 
+                           <l>The driving colors never at a stay,</l> 
+                           <l>Run here, and there, and flush and fade away.</l> 
+                        </lg>
+                     </q> 
+                     <bibl>Parnell.</bibl> 
+                  </cit> 
+                  <p>The young girl blushed deeply at this language, and frantically replied, "This is too much sir, and from a married man, too." "Much better, my child, than if I was a single man; for we married man know how to keep secrets." Amanda had listened to the rapid remarks of her now offensive visitor; she struggled to get out of his grasp, and while her cheek was yet red with excitement, and her eyes were flashing through her tears, she turned to leave the room. "Stay, my dear, you will soon get over this coyness-when shall I see you again."</p> 
+                  <p>Saunders endeavored to stop her by force from leaving, that he might accomplish his base purpose. In the anguish of her mind she cried, "Indeed I shall not, I cannot, I will not live so! Sooner far than live a life of infamy, I would at once spring into that unknown which the wicked dread, and even the righteous cannot gaze upon without terror!"</p> 
+                  <p>Amanda with one loud scream, rushed from the room. Mrs. Young being in the adjoining recess, hearing the noise, entered the apartment which Amanda had just left, and found Saunders sitting in a thoughtful mood. She interrupted him in his soliloquy by alluding to Amanda, he remarking, at the same time, that he had not been exercising any unlawful means towards the girl; assuring her such was the case, her visitor made his exit, promising soon to call again.</p> 
+                  <p>Amanda crept slowly up stairs, reached her own room, and threw herself upon her bed; her senses seemed whirling in a bewildered maze. The sound of the pouring rain became painfully distinct in the dead silence. The dinner hour arrived; when all was ready, the ladies were as usual summoned, Amanda not appearing, the servant was dispatched to call her, and quickly<pb n=""/> returned with the message, saying that Miss Willson is not very well, and begs to be excused. After the meal was over, Mrs. Young went up to Amanda's room, and inquired if she was ill.</p> 
+                  <p>Amanda was lying on the bed and weeping bitterly, with her hands pressed over her face.</p> 
+                  <p>Mrs. Young not wishing to disturb her, stood by the bed for some moments, then called to her:</p> 
+                  <p>"Miss Wilson."</p> 
+                  <p>She started, and shuddered.</p> 
+                  <p>"Are you really ill Amanda?"</p> 
+                  <p>A moan was her only reply.</p> 
+                  <p>"Can I do anything for you?"</p> 
+                  <p>She shook her head.</p> 
+                  <p>"Will you have anything? Speak."</p> 
+                  <p>"Nothing."</p> 
+                  <p>Mrs. Young went up to her, and drew her hands away from her face.</p> 
+                  <p>The hands were icy cold, the face death-like.</p> 
+                  <p>To avoid Mrs. Young's glance, she closed her eyes, while a tremor ran through her frame. Mrs. Young went into her own room, and poured out a glass of <emph>Madeira wine</emph> and brought it to her. She waved it off. After some further fruitless attempts to aid her, and after finding that all her efforts increased the girl's <emph>distress,</emph> remaining in utter astonishment, Mrs. Young abruptly asked, "has Mr. Saunders offended you? If so, own up, and I will this moment send a servant for him to come, and we will have a right understanding, for I can hardly imagine that a man so noble and <choice>
+                        <sic>charatable</sic>
+                        <corr>charitable</corr>
+                     </choice> as Mr. Saunders, would in any way injure a poor unprotected female;" although here Mrs. Young thought it better to put a guard on her utterance, believing that Amanda was as yet perfectly ignorant of the character of her house, or its inmates. After a few seconds of silence, Mrs. Young said, "Miss Willson, I think your mind is more diseased than your body; yet you have no cause to be unhappy, for Mr. Saunders told me that your wants were to be all supplied, and he intended to call upon you tomorrow, and then make all proper arrangement. The servant entered, and apprised Mrs. Young that a gentleman requested to see her, whereupon she made her exit. Amanda being left to her own reflections, traced back her short but eventful life. The failure of her father, his sudden demise, the departure of her only brother whom she had not seen since they parted in their childhood, yet fondly loved, and who in all probability, she might never see again. But more particularly did her diseased mind revert back to the memory of her departed <emph>mother,</emph>
+                     <pb n="20-21" xml:id="VAC5935-00000012"/> and bitter were the tears which she shed, as she thought of the endearment and solicitude which that mother manifested towards the future wellfare of her child, previous to her death; never did Amanda need a parent's counsel more than at this perilous moment, while having to struggle with a treacherous world.</p> 
+                  <p>While her mind was thus deeply absorbed in these sorrowful reflections, the door was softly opened, and Susan Archer entered, seating herself at the bed-side of the sick girl, who was indeed, looking quite pale; for the last few weeks of suffering had wrought considerable inroads on the health of Amanda, both physically, and mentally. Before proceeding any further with our true story, we will give an outline of the person of Susan Archer. Just entering her eighteenth year, which is the most brilliant epoch of woman's life, in stature she exceeded some what the medium height, symmetrically formed; a hand and arm that would have done justice for a sculptor to copy. Her complexion of dazzling brilliancy, with Roman features, and large languishing eyes of azure blue. These two young girls were quite opposite in their characters, for while Amanda was all gentleness and amiability, Susan was determined, generous, and high spirited. What a conflict of agonized thoughts rushed into the minds of those two young unprotected females, whose uncontaminated virtue caused them to shudder, in the fear of what they knew not, yet what might come upon them. They were both wretched and miserable as they stood on the verge of that precipice which seemed already to threaten them, where if once fallen, no earthly power could ever reinstate them in that Society.</p> 
+                  <cit> 
+                     <q>
+                        <lg type="quotation"> 
+                           <l>Which is ever ready to condemn.</l> 
+                           <l>And hell has no fury like a woman scorned.</l> 
+                        </lg>
+                     </q> 
+                     <bibl>Congreve.</bibl> 
+                  </cit> 
+                  <p>While the sterner sex, it matters not how degraded, may become more respected, more idolized, and applauded than before: such is life. <q>
+                        <lg type="quotation"> 
+                           <l>It is in man to he wild,</l> 
+                           <l>But woman must forever mind.</l> 
+                        </lg>
+                     </q>
+                  </p> 
+                  <p>The silence became broken by Susan offering an apology for her seeming intrusion, and she inquired in mild accents of the invalid if she was better; being answered in the affirmative, she expressed a desire to render her services in alleviating the sufferings of her sick friend.</p> 
+                  <p>Amanda looking up into the face of her visitor with a sorrowful and imploring expression, said.</p> 
+                  <pb n=""/> 
+                  <p>"Miss Susan, indeed I am glad to see you, but I am very ill".</p> 
+                  <p>"Can I do anything for you?" was the earnest inquiry.</p> 
+                  <p>"Oh, my dear girl, I fear not. Can I leave here? Is there some way?"</p> 
+                  <p>"What do you mean, my dear?"</p> 
+                  <p>"I mean that I have no one to love me. Oh, that bad man," said she, pressing her temples, "would he only leave me! I shall go <emph>mad.</emph> "Oh no, my poor sister of sorrow," said the kind hearted girl-whilst brushing away a tear which was stealing down her beautiful cheek, "you will soon get well, and we will leave this place, and I'll take care of you; he shall molest you no more." But Amanda no longer heeded her, mind was wandering, she was delirious, and continued so for several successive days. In her paroxysms she would rave of Saunders. One day after her fever had some what subsided, calling Susan to her bedside, taking both her hands in her own, she looked upwards, and while doing so, exclaimed, "Oh, how I wish God would take me from this earth, to my dear mother. She is looking down on her child now; see Susan, see, there she is, and my father too." Amanda was confined for several weeks, and Mrs. Young having extra company, seldom visited the sick-room; consequently the charge of the invalid devolved on Susan, and many were the hours which these orphans spent together, speaking of their present and future plans.</p> 
+                  <p>One evening after Amanda had become convalescent, the servant announced to Miss Willson that a gentleman wished to see her in the parlor; she hesitated in going until desired to do so by Mrs. Young. She found Mr. Saunders in the drawing-room, and a middle aged lady with him in deep mourning; Mr. Saunders introduced Mrs. Worthington to Amanda, as his sister-in-law, remarking at the same time that she had recently lost her husband at whose death she had become immensely rich, possessing a large amount of landed property, and hearing her brother speak in the highest terms of Miss Willson, became desirous of having an interview with her. Mrs. Worthington, therefore, concluded that Miss. Willson should immediately prepare for traveling, Mrs. Worthington being anxious to start by the first train. We will now leave the ladies to proceed on their journey.</p> 
+               </div> 
+               <div type="chapter"> 
+                  <pb n="22-23" xml:id="VAC5935-00000013"/> 
+                  <head>CHAPTER VI.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>Some play for gain, to pass time, others play</l> 
+                              <l>For nothing; both do play the fool I say,</l> 
+                              <l>Or time, or coin, I'll lose, or idly spend;</l> 
+                              <l>Who gets by play, proves loser in the end.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>Heath.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>SUSAN who had been out to take a drive which was really essential after being so closely confined in the sick-room, was much chagrined in learning on her return that Miss Willson had suddenly left to go she knew not whither. Long after the town-clock had chimed its midnight hour, Johnson called and requested an interview with Susan. We will here give a description of his person. He was a few years Susan Archer's senior, being what the ladies considered a handsome man, possessed of a commanding figure, well proportioned; his dark eyes of piercing brilliancy, and moustache of glossy silkness, dark as the raven's wing, displaying a line set of natural teeth which in smiling as he met the lady, he took particular pains in showing. His dress was at all times quite the <foreign xml:lang="FRA">beau-monde.</foreign> His parents dying whilst he was in his infancy, his training came under the guidance of an uncle, the brother of his mother, who was in reality a professed gambler; therefore it is not surprising that young Johnson should under such influence become contaminated. His father, when living, was extensively engaged in the gold regions of California, by which he amassed a very large fortune, which on his death descended to his only son. He now being entirely under his own control, surrounded with wealth, his first-step was, after leaving Cambridge College where, he had studied everything and learned nothing, to make, a tour to Europe, and on his return, he rushed headlong into the vortex of fashionable dissipation; his nights were spent in the underground saloons of S-- and Florence, and other recherche saloons of this commercial city.</p> 
+                  <p>Johnson was considered by all who knew him quite an adept at cards, being well versed in all its tricks and chances, and having from boyhood made it his study to become proficient in all the mysteries connected with the intricacies of gambling.</p> 
+                  <pb n=""/> 
+                  <p>In the city of New York one will not have to extend his peregrinations far without finding a gambling "hell," and no other name could be more appropriate to express the character of such places. In these dens of iniquity are to be seen all the passions that would go to make up Satan in all his hideousness. Portrayed in the physiognomies of the votaries of the cheating Goddess, you might here read the motives which induce all crime, all wrong, all evil. How often is it that one false step from virtue hurries us on to another lower down. There have been more young men ruined by this, than all other means. These gambling houses are great acquisitions to the liquor dealers; we may well say that they are in triple league with each other.</p> 
+                  <p>And it is a well known fact that these establishments keep the most choice wines and liquors for the access of their visitors gratuitously, <choice>
+                        <sic>oftenitmes</sic>
+                        <corr>oftentimes</corr>
+                     </choice> sumptuous suppers included; and the motive which induces the keepers of these sinks of perdition to adopt these measures is merely a bait to catch the unsuspecting; for, being tempted to partake of the sparkling goblet, his brains become bewildered, whereby he loses his equilibrium, which enables them to dupe and rob their victim with less trouble. And yet we are told that gambling is not allowed. True, laws have been enacted to suppress the evil, but there is one great error in America-many of the laws are not enforced. It is pretended that gambling is carried on secretly, that the officers of the law cannot find out their lurking places. This is all pretence, for there are an innumerable quantity of such dens in a variety of forms in this city, where citizens and strangers, old men and young men, may nightly meet to hold their midnight revels. And let no one who has these things in charge, say that this damnable vice is carried on secretly, and that the law cannot touch it. There are establishments carried on as openly and as well attended as any free seated Churches. And many of these establishments are of the most recherh costliness, out doing many of the richest domains of our wealthy nabobs. We hope our readers will pardon us in digressing so far from our subject.</p> 
+                  <p>Johnson had just emerged from one of these gilded castles, his brain heated with wine and excitement; he was therefore fully prepared to perpetrate any crime however foul, however black; having made his addresses towards Susan with greater assurance, he attempted to fold her within his arms, vowing "that night should seal their union," when Mrs. Young hearing the confusion, rushed into the room exclaiming at the same time, "Touch that girl sir, at your peril; I know your aim well."</p> 
+                  <p>"If you, must have the truth, I wish to make her my wife<pb n="24-25" xml:id="VAC5935-00000014"/> without committing the absurdity of matrimony according to the rules and forms prescribed by law. Do you understand me."</p> 
+                  <p>"Yes you wish to ruin her, to sink her into that fearful abyss, where so many have fallen! I think Mr. Johnson, you are already steeped sufficiently in infamy without sinking yourself deeper by contaminating this young and innocent girl, and surely you must have made victims enough-more than you wish to answer for already."</p> 
+                  <p>"Oh! don't commence moralizing"</p> 
+                  <p>"No" replied Mrs. Young, bitterly, "I know I am not the one to moralize. I know it, alas, but too well."</p> 
+                  <p>"But Johnson, this Susan Archer is an innocent girl for whose moral murder you are now laying a deliberate snare, and I have already sworn to endeavor to make some reparation for my own crimes by being the preserver of Susan Archer. After saying this she quitted the parlour, which Johnson as soon vacated. The next day two females were observed ascending the stoop of a mansion up town, the residence of a lady whose philanthropic acts are well known to most of our citizens, who was always foremost in lending her influence in promoting the welfare of her own sex. She had made all the <choice>
+                        <sic>neceseary</sic>
+                        <corr>necessary</corr>
+                     </choice> arrangements for shielding Susan under her own roof.</p> 
+               </div> 
+               <div type="chapter"> 
+                  <pb n=""/> 
+                  <head>CHAPTER VII.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>But see, the fading many colored woods.</l> 
+                              <l>Shade deep'ning over shade, the country round embrown.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>Thomson's Seasons.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>IT WAS towards the autumn. When the day was closing, the glimmering rays of the setting sun glanced across the green waters of the bay, and the lofty trees on the Battery, whose variegated foliage reflected in ruby light the days' departing glory. Three strangers, in travelling costume, were seen descending from one of the foreign steamers, and wending their way towards the city. One of the party was a Creole, of great beauty, over whose fair brow sixteen summers had scarcely passed. She had been recently united in the bonds of holy matrimony to the elder of the two gentlemen, who was no other than Walter Willson, the long absent brother of Amanda, the heroine of our true history, who by indefatigable industry and perseverance had amassed a very considerable fortune, and had now returned with the most sanguine expectations of meeting that mother and sister whom he had not seen for many long years. But, alas, how futile are the hopes of mortals! That mother who watched over his cradle of sleeping innocence had long since departed.</p> 
+                  <p>One of the gentlemen was holding converse with a fourth individual in a low tone; not so much so but the lady would occasionally chime in with them, in her silvery tone of voice. And this has all occurred during my long absence, and my angelic mother," clasping his hands to his feverish forehead.</p> 
+                  <p>"What do you suppose were my emotions as we sailed down the Bay this evening?" said Walter, turning to the brother of his young wife, for such was the relation of the gentlemen who accompanied them.</p> 
+                  <p>"Oh, I suppose you might be anticipating pleasure in meeting with those who are still left to greet your welcome?"</p> 
+                  <p>"Alas, no, for these several days past the most gloomy reflections had taken possession of my soul, and every mile when nearing my native land, added more anxiety to the burthen oppressing my heart, reflecting on the many dreadful changes that<pb n="26-27" xml:id="VAC5935-00000015"/> might have passed over those I loved, and these forbodings, I am now brought to realize."</p> 
+                  <cit> 
+                     <q>
+                        <lg type="quotation"> 
+                           <l>The joys of meeting pays the pangs of absences,</l> 
+                           <l>Else who could bear it.</l> 
+                        </lg>
+                     </q> 
+                     <bibl>Rowe's Tamerlane.</bibl> 
+                  </cit> 
+                  <p>Amanda and Mrs. Worthington, after some hours of tedious travel, arrived in the city of Boston. It seems our travelers arrival was announced, for Mrs. Worthington's carriage, drawn by a span of dappled grays, was at the station in waiting, which took them to the Window's splendid edifice, located in Baron Street. If our heroine was surprised at the establishment of Mrs. Young, which was something below mediocrity, how much more must she have been astonished when ushered into the richly furnished drawing-rooms of Mrs. Worthington. Paintings executed by Raphael and Vandyke and others graced the walls. Sculpture of artistic design was scattered hither and thither. The gorgeous chandeliers, throwing out their effulgence over the various objects of the rooms, one might have almost fancied it a scene in the Arabian Nights. The young girl being left alone to her own thoughts, was lost in wonder and amazement at the grand spectacle, until she was aroused from her reverie by the entrance of a man servant, decked in rich livery, to conduct her to the supper table, which was replenished with the choicest <choice>
+                        <sic>delicaces</sic>
+                        <corr>delicacies</corr>
+                     </choice> of the season. Miss Willson was introduced to four young ladies, with all the formality of etiquette. These the lady of the house represented as her own daughters, who were superbly dressed. After the supper was completed, Mrs. Worthington, with one of her most bland smiles, said that Miss Willson, like herself, must necessarily feel fatigued; she therefore commanded the servant to light Miss Willson to her room, already appropriated for her reception.</p> 
+                  <p>The young girl gladly assented.</p> 
+                  <p>Amanda, however, was much disturbed in her repose from the continual buz which vibrated throughout the vast building.</p> 
+                  <p>Sometimes she would hear strains of music-then again talking as of many voices.</p> 
+                  <p>After a few days that Amanda had been in the house, being ignorant of its repute, she was invited, by Mrs. Worthington to a promenade with her in Tremont Street, the fashionable resort of the exquisites of that celebrated city. Amanda being a stranger was the observed of all observers, which was exceedingly annoying, as she overheard the fulsome adulation of some of the senseless fops, who are in the daily habit of frequenting that thoroughfare.</p> 
+                  <pb n=""/> 
+                  <p>But there was one who stood aloof from this class of idlers, inveloped in a traveling cloak; its folds although ample could not disguise the manly form of the wearer, whilst many were the conflicts which were working in his breast. Regardless of the heedless passers, save one whom he was scrutinizing with earnest gaze, the far off Amanda, a torrent of thoughts rushed to his memory. Thus he soliloquized: Could it be her whom he was seeking?</p> 
+                  <p>Yes, sure enough, he had seen her before in years gone by.</p> 
+                  <p>He had seen her in the dreams of his youth.</p> 
+                  <p>He had seen her by the hill side.</p> 
+                  <p>He had stood by her side, watching the ripple of the brook.</p> 
+                  <p>Oh! how many agonized thoughts took possession of his mind in that little moment.</p> 
+                  <p>He saw before him the resemblance of his mother, that being whose prayers, although she had passed to another sphere, still lingered around him, awakening hope and confidence in life's darkest hours.</p> 
+                  <p>A mist came o'er him-his brain was whirling.</p> 
+                  <p>After a few moments he recovered, but the object of his attention had vanished.</p> 
+                  <p>Many days having elapsed without Walter again encountering the fair stranger, he had concluded to take his departure for New York, feeling assured that his efforts in finding her would prove abortive, when his attention was suddenly arrested, as a vehicle, with two restive horses, fled by him with the greatest velocity. The animals becoming more maddened, as the crowd rushed on in pursuit Being overheated, they at last made a dead halt, the carriage overturning; and the ladies were thrown out on the, pavement, dislocating the shoulder blade of the young lady, while the elder escaped unhurt, with the exception of a few slight bruises. Walter being an eye witness to the circumstances, hastened to the scene of disaster, and there to his <choice>
+                        <sic>estonishment</sic>
+                        <corr>astonishment</corr>
+                     </choice> recognized the two ladies he was in search of. Always ready to lend a helping hand when needed, he stepped forward and offered his services, which were expected by the ladies. After having <choice>
+                        <sic>adminstered</sic>
+                        <corr>administered</corr>
+                     </choice> the necessary restoratives, and seeing the ladies to their residence, he politely took his leave, not, however, without Mrs. Worthington giving him a pressing invitation in calling to see them, which he promised to do.</p> 
+                  <p>The following morning found our gallant wending his foot steps to Bacon Street. Having arrived and ringing the bell, which summons, after a few seconds, was attended to by the<pb n="28-29" xml:id="VAC5935-00000016"/> servant, who led him into the drawing-room, where announcing his visit by his card, Mrs. Worthington dispensing all formality, invited him into the presence of the object of his solicitude. The surgeon having been present at the time of our young ladies' catastrophe, no time was, therefore, lost in attending to her case. Consequently she was able to setup and converse with the gentleman who she thought was so kind in showing so much sympathy towards her. As they continued in their tete-a-tete, each one became more deeply interested in the other, until Walter was induced to ask the young lady her name, which he had not yet heard, when she replied, "Willson, sir." No sooner was the name uttered than the stranger, with one bound, clasped his arms around the form of the young girl, exclaiming, as he did so, "Amanda, the image of my mother, the sister of my child-hood! Is it thus we have met!"</p> 
+               </div> 
+               <div type="chapter"> 
+                  <pb n=""/> 
+                  <head>CHAPTER VIII.</head> 
+                  <epigraph> 
+                     <cit> 
+                        <q>
+                           <lg type="quotation"> 
+                              <l>When on thy bosom I recline,</l> 
+                              <l>Enraptured still to call thee mine-</l> 
+                              <l rend="ti-1">To call thee mine for life,</l> 
+                              <l>I glory in the sacred ties,</l> 
+                              <l>Which modern wits and fools despise.</l> 
+                              <l rend="ti-1">Of husband and of wife.</l> 
+                           </lg>
+                        </q> 
+                        <bibl>Lindley Murray.</bibl> 
+                     </cit> 
+                  </epigraph> 
+                  <p>A few months from the date of the above had passed away. In yonder granite structure, where we in our preceding chapters left Susan Archer, many glimmering lights were to be seen in full blaze between the heavy folds of drapery.</p> 
+                  <p>A large party had convened to celebrate the nuptials of two bridal parties. One was Amanda to Mr. Elliot the brother of Walter's wife; the other was Susan Archer to Mr. Anderson, the youngest son of her Benefactress, to whom Mrs. Young had left her in charge, to preserve her from the wiles of the seducer.</p> 
+                  <p>Some years after these occurrences, Mr. Eliot, although surrounded with wealth and distinction, was never known to turn a deaf ear from the sufferings of his fellow-men, was requested by a gentleman to attend to the wishes of a dying man. He readily consented, and Mrs. Eliot accompanied him. On entering the sick room the lady seated herself at the bedside of the dying man, who directly recognizing in her the person of Amanda, instantly recoiled, and a glance as fierce as lighting flashed from his protruding eye balls. With lips compressed and hands clenched; he turned first to Amanda, then to her husband without the power of uttering a word. At length he broke out with a convulsive effort and groaned, "Amanda-me the murderer of your mother, that I might complete the destruction of her daughter? Finding I could not complete my hellish purpose at Mrs. Young's, I made arrangements with Mrs. Worthington, by pretending you were my sister. Have you already come to condemn me?" and he pushed her violently away from him.</p> 
+                  <p>At the same moment tearing his hair from his head, the blood ran streaming down his pallid face-his voice became feeble-the sound of the death rattle was already in the throat of the<pb n="30-31" xml:id="VAC5935-00000017"/> dying man-his whole frame trembled from head to foot-he clasped his hands together and murmured, as if in inward agony, "Oh! God forgive me. It was I that murdered her mother by administering Poison in her food--"</p> 
+                  <p>He tried to say something more, but his voice entirely failed him-one more struggle and he was a corpse.</p> 
+                  <p>Reader if you are one who oppresses the widow and fatherless, there is a moral in this man's life and feelings, drawn for you. You have followed him through his career, watched him from his first step to the last. You may, like him, grind the poor, or tamper with the virtuous, and perchance do it with a cunning and address which will evade the detection of your fellow mortals. But depend upon it the All-seeing eye of Omnipotence is upon you, and every unlawful act is held in account against the day of retribution.</p> 
+                  <p>Mrs. Young came to the determination of forsaking a life of infamy, and being an English woman, by birth, she returned to that country, where retiring to a life of seclusion, she was only known by her pious devotions and benevolent acts for many miles around.</p> 
+                  <p>Johnson for some time kept up appearances, living in great extravagance, spending his nights in carousing at the various underground saloons of the commercial metropolis, still playing high. The consequence was he became deeply involved in debt, and then the trades people, who were continually <choice>
+                        <sic>duning</sic>
+                        <corr>dunning</corr>
+                     </choice> him, grew clamorous, which circumstance drove him to desperation. One morning he was found in his room, weltering in his own blood. He had died the <choice>
+                        <sic>ignomonious</sic>
+                        <corr>ignominious</corr>
+                     </choice> death of the suicide, by plunging the cold steel into his own heart.</p> 
+                  <p>Reader, our story is told. We have only related to you facts which came under our own immediate observation. We have given you fictitious names, but we have given you no fictitious story. Many of our readers will, we have no doubt, recognize, under the assumed names, the different characters we have given.</p> 
+               </div> 
+            </div> 
+            <div type="part"> 
+               <pb n=""/> 
+               <head>A SKETCH OF THE WORKING CLASSES OF NEW YORK; OR, THE SUFFERINGS OF THE SEWING GIRLS.</head> 
+               <p>Mrs. Talbot, who was reared in the lap of luxury and care, was happily married in early life, to the gentleman of her choice, whose name she bore.</p> 
+               <p>Mr. Talbot was extensively engaged in the mercantile business, and for many years succeeded in all he undertook. But, like too many others, was not satisfied in doing well, therefore launched further into matters of speculation, staking too much on the rise and fall of stocks; and whilst all eyes were upon him in his enterprises, reverses of fortune assailed him, and in one unlucky moment he was plunged into difficulties, from which, with all his ingenuity he could not extricate himself. Finding such was the case, he entirely gave himself up to despondency, and the consequence was, not being of a very robust constitution, consumption being hereditary, this fatal disease preyed on his system, which soon hurried him into a premature grave. Thus was Mr. Talbot left to the mercy of the unfeeling world, with four small children whose support devolved entirely on her own exertions. Being compelled to move from her former residence, she rented a small attic room in a dilapidated building in Pearl Street. For a while she scarcely knew what was best for her to turn her hands to do, in order to procedure an honest livelihood for herself and children. But remembering that she had often been complimented by those who had known her in more prosperous days, for the neat execution of her needle-work-she therefore <unclear>concluded</unclear> to make application to some of the up-town ladies to supply<pb n="32-33" xml:id="VAC5935-00000018"/> her with work, which would, as she hoped, enable her to maintain herself and those encumbent upon her, genteelly. Her intentions becoming known, a lady sent for her, whom we shall call Mrs. Lavensworth.</p> 
+               <p>After being ushered into the richly furnished drawing-room, and waiting an unnecessary length of time, which was in reality money itself to the poor woman; the lady at last entered the room, with as much formality as if she had been secretary of State.</p> 
+               <p>The following conversation ensued:</p> 
+               <p>"Can you do plain sewing, and that neatly?"</p> 
+               <p>"Yes, ma'am, I can."</p> 
+               <p>"What is your price for fine shirts?"</p> 
+               <p>"Well, ma'am, never having worked for any person, I know not what to charge."</p> 
+               <p>"But you must be aware, Mrs. Talbot, to obtain work, you will have to work a little below the usual prices."</p> 
+               <p>"Well, ma'am, I have four small children depending on me; I will therefore work as reasonably as possible."</p> 
+               <p>"I suppose you are willing to make fine shirts for my husband for fifty cents.</p> 
+               <p>"Yes, ma'am."</p> 
+               <p>"And calico wrappers for the same price?"</p> 
+               <p>"I suppose so," said the widow, with a sigh.</p> 
+               <p>Well, that's moderate.</p> 
+               <p>"Have you any objections to making sheets?"</p> 
+               <p>"No, ma'am."</p> 
+               <p>"Being no seam in the middle, you can therefore hem them at one cent a pair, finding sewing cotton of course."</p> 
+               <p>"Well, ma'am."</p> 
+               <p>"That is reasonable, and if you execute your work neatly, my having a very large circle of friends, I will recommend you-that is, if you continue to work cheap.</p> 
+               <p>"Come to-morrow morning, and I'll have some work in readiness for you."</p> 
+               <p>The poor widow departed.</p> 
+               <p>"Well, my dear," said Mr. Lavensworth, who had just returned from his elegant office in Wall street,</p> 
+               <p>"At what price will that woman work for you?"</p> 
+               <p>"One half less than Miss White charges."</p> 
+               <p>"Well, that's something like; you should always endeavor to get your sewing done at as cheap a rate as possible. By economizing thus, you will save a dollar a week, which during the year round, is something these hard times."</p> 
+               <pb n=""/> 
+               <p>After Mrs. Talbot had obtained the work from Mrs. Levensworth, and had, by many an hour's toil, by the miserable light of a candle, finished her task, she returned, when the following scene ensued.</p> 
+               <p>After scrutinizing every seam, every hem, and every line of stitching, Mrs. Levensworth very complacently announced that she was satisfied, the work being well done, and gave her three more shirts, and another calico wrapper, not however offering to pay her for what she had already done, after waiting some few, moments longer, Mrs. Talbot ventured to hint that she would like to have the pay for the work she had brought.</p> 
+               <p>Whereupon Mrs. Levensworth exclaimed, "Oh, dear me, I always make it the rule never to settle with my seamstresses until all the work for the season is done, and my bill amounts to some nine or ten dollars; it is ridiculous to expect a lady to condescend to pay such paltry sums." I, for one, despise paying such small bills. "Oh, no, you must wait until the account is nine dollars at least, then I'll pay you."</p> 
+               <p>Would the rich but reflect on the many disadvantages which the poor labor under, in having to wait from time to time for the payment of their just dues.</p> 
+               <p>In this case, how much greater amount of happiness would exist among the working classes, where there is now so much misery.</p> 
+               <p>Mrs. Levensworth, having lived the life of a spinster to rather an advanced age, through some freak of dame fortune, while carrying on in her own name a neat little milliners store in Division street, when Mr. Levensworth in <choice>
+                     <sic>his his</sic>
+                     <corr>his</corr>
+                  </choice> seventieth year, became enamoured, and married her, Mr. L. having amassed considerable wealth, enabled him to grant all the extravagance and style she desired. Being so indolently elevated from her former station, we may not wonder at her neglect to those who might come under her employ.</p> 
+               <p>Mrs. Talbot returned to her miserable abode in Pearl street; many were the conflicts which rushed into the bosom of the poor disconsolate widow, as she sat over her almost fireless stove, calling up to memory the scenes of her childhood, and early marriage, drawing the contrast from that time to her present forlorn and wretched condition.</p> 
+               <p>Wondering how she could obtain the means of supplying the wants of her now fatherless children. From this state of sadness she was roused by a knock at the door, a good natured looking lady in deep mourning entered with a bundle in her hand; after paying the compliments of the evening, she introduced herself as Mrs. Stevens, saying at the same time, that she had seen some<pb n="34-35" xml:id="VAC5935-00000019"/> of her work, and was much pleased with it, and had inquired for her residence.</p> 
+               <p>"And now, having found you, I want you to make some morning dresses for me, if you can do such work?"</p> 
+               <p>"I shall be glad to do it for you," said Mrs. T-encouraged by the kindness manifested towards her by the lady.</p> 
+               <p>"What will you charge," enquired Mrs. Stevens, "I wish to pay you a living price."</p> 
+               <p>Mrs. T-- hesitated a moment, and then said, "Mrs. A-- gives me seventy-five cents."</p> 
+               <p>The blush of indignation tinged the check of the lady, when she replied with some warmth. "Can it be possible that any lady possessed of the true feelings of benevolence towards her own sex, can demean herself so much in paying such a paltry sum."</p> 
+               <p>"And now let me assure you, said Mrs. Stevens, that I am governed by no idle curiosity, by inquiring if you are in need, but with the entire motive of rendering; you all the services I can".</p> 
+               <p>"Speak my dear madam, is there any thing I can do for you."</p> 
+               <p>For a moment Mrs. Talbot paused, but the sight of her four little ones caused her to shed tears, saying at the same time "Oh, dear, I have no supper to give them, and we have ate nothing since morning, and my very last cent is gone," with this the poor woman wept bitterly.</p> 
+               <p>A tear started in the eyes of Mrs. S--, silence reigned in that lowly home for some moments, neither could give utterance to their feelings.</p> 
+               <p>Mrs. Stevens having come in her carriage, which was still in waiting for her at the cottage door, 'excused herself to Mrs. T., telling her she would be back within a few moments. After having been absent about an hour, she returned with a plentiful supply of warm clothing for the bed, also an abundant supply of provisions for herself and children, with the promise she would call over in the morning, when she would make some other arrangements for them.</p> 
+               <p>Many were the blessings which the poor widow heaped on the head of her kind benefactress. Oh, would but the rich more generally attend to the necessities of the poor, how many a pillow would be softened, and many almost broken hearts healed.</p> 
+               <p>How many thousands of females are there in our large cities who commence their toil at early dawn, working until midnight, who earn, on an average, only from twenty to thirty-seven and<pb n=""/> a half cents per day, and even this privilege only continues for a few weeks at the commencement of the spring, then again in the autumn. The wages of milliners and dress-makers, varies from two dollars, twenty shillings, or three dollars a week, having to board themselves, who work from twelve to fifteen hours a day. There is no class of the community who are so oppressed as the female portions, and what many of them suffer is beyond the comprehension of many of our citizens.</p> 
+               <p>We again find Mrs. Stevens at the home of Mrs. T--, interesting herself in the best way she could for the relief of the widow and her little ones. Mrs. Stevens had recently lost her husband, but unlike Mrs. T--, was left with a competency, and having only one little boy, was enabled to relieve the distressed, of her less fortunate, sisters. And having a willing heart to do so, most of her time was directed in that channel; not desiring that her good acts should be published to the world-not letting her right hand know what her left hand did.</p> 
+               <p>Having several stores at her command, she opened one, and stocked it with saleable goods, and finding Mrs. Talbot very well educated, she placed her into it, charging her a very moderate rent. Not forgetting to put her children to school.</p> 
+               <p>Through proper attention to business, Mrs. T-- soon realized quite a snug little sum; regaining her former cheerfulness, and lived many years enjoying the happiness of seeing her children, well educated, and well situated in the world, some of them, filling high and honorable offices. Bringing in the old adage, "That all is well that ends well."</p> 
+               <closer>
+                  <signed>M. L. B.</signed>
+               </closer> 
+            </div> 
+            <div type="part"> 
+               <pb n="36-37" xml:id="VAC5935-00000020"/> 
+               <head>CONCLUSION.</head> 
+               <p>Should this little work come under the perusal of our devout and godly people, who are ever ready to assist the sun-burnt Hottentots, and the unchristened Africans, in sending missionaries at the enormous expense of millions of dollars for their conversion, let them not forget whilst extending their <choice>
+                     <sic>symphathies</sic>
+                     <corr>sympathies</corr>
+                  </choice> abroad, and see for themselves whether missionaries are not more needed in our own land, than in the for off lands in India or China.</p> 
+               <p>We mean no disrespect to the efforts of our missionary cause; no, our sympathies are with them, both in heart and hand. But still we do believe that much is left undone which might require our attention. We might have extended our pages to a greater length. But it being the intention of the authoress after some few months hence, to send forth the sequel of the present work, and believing in the quotation, that "brevity is the soul of wit," she would very respectfully take her leave of the reader for the present.</p> 
+               <closer>
+                  <signed>M. L. B.</signed>
+               </closer> 
+            </div> 
+            <div type="poem"> 
+               <pb n=""/> 
+               <head>SONG OF THE SHIRT</head> 
+               <lg type="stanza"> 
+                  <l>With fingers weary and worn,</l> 
+                  <l rend="ti-1">With eyelids heavy and red,</l> 
+                  <l>A woman sits, in womanly rags,</l> 
+                  <l rend="ti-1">Flying her needle and thread,</l> 
+                  <l>Stitch, stitch, stitch,</l> 
+                  <l rend="ti-1">In poverty, hunger and thirst;</l> 
+                  <l>And still with the voice of dolorous pitch,</l> 
+                  <l rend="ti-1">She sings the song of the shirt,</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Work, work, work;</l> 
+                  <l rend="ti-1">While the cock is crowing aloof,</l> 
+                  <l>And work, work, work,</l> 
+                  <l rend="ti-1">Till the stars shine through the roof.</l> 
+                  <l>Its oh, to be a slave,</l> 
+                  <l rend="ti-1">Along with the barbarous Turk,</l> 
+                  <l>Where woman has never a soul to save,</l> 
+                  <l rend="ti-1">If this is Christian work.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Work, work, work,</l> 
+                  <l rend="ti-1">Till the beam begins to swim,</l> 
+                  <l>Work, work, work,</l> 
+                  <l rend="ti-1">Till the eyes are heavy and dim,</l> 
+                  <l>Seam, and gusset and band,</l> 
+                  <l rend="ti-1">Band and gusset and seam,</l> 
+                  <l>Till over the buttons I fell asleep,</l> 
+                  <l rend="ti-1">And sew them on in my dream.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Oh, men with sisters dear,</l> 
+                  <l rend="ti-1">Oh, men with mothers and wives,</l> 
+                  <l>It is not linen you're wearing out,</l> 
+                  <l rend="ti-1">But human creature's lives;</l> 
+                  <l>Stitch, stitch, stitch,</l> 
+                  <l rend="ti-1">In poverty, hunger, and dirt,</l> 
+                  <l>Sewing at once with a double thread,</l> 
+                  <l rend="ti-1">A shroud as well as a shirt.</l> 
+               </lg> 
+               <pb n="38-39" xml:id="VAC5935-00000021"/> 
+               <lg type="stanza"> 
+                  <l>But why do I talk of death,</l> 
+                  <l rend="ti-1">That phantom of grizzly bone,</l> 
+                  <l>I hardly fear his terrible shape,</l> 
+                  <l rend="ti-1">It seems as like my own;</l> 
+                  <l>Because of the past I keep,</l> 
+                  <l rend="ti-1">Oh, God, that bread should be so dear,</l> 
+                  <l>And flesh and blood so cheap.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Work, work, work,</l> 
+                  <l rend="ti-1">My labor never flags,</l> 
+                  <l>And what are its wages? a bed of straw,</l> 
+                  <l rend="ti-1">A crust of bread and rags,</l> 
+                  <l>A shattered roof, and this naked floor,</l> 
+                  <l rend="ti-1">A table-a broken chair,</l> 
+                  <l>And a wall so blank, my shadow I thank,</l> 
+                  <l rend="ti-1">For sometimes falling there.</l> 
+               </lg> 
+               <closer>
+                  <signed>Hood.</signed>
+               </closer> 
+            </div> 
+            <div type="poem"> 
+               <pb n=""/> 
+               <head>CANADA ARTIZAN.</head> 
+               <head type="sub">SONG OF THE NEEDLE WOMEN.</head> 
+               <lg type="stanza"> 
+                  <l>By the midnight lamp we toil,</l> 
+                  <l rend="ti-1">With our eyes all dim and weary-</l> 
+                  <l>When the replenished oil</l> 
+                  <l rend="ti-1">Feeds the sickly flame and dreary,</l> 
+                  <l>Thus, when dreaming nature's sleeping,</l> 
+                  <l rend="ti-1">Ply we o'er the needle weeping.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Cast upon a world of care,</l> 
+                  <l rend="ti-1">From parental roof, all friendless,</l> 
+                  <l>Pride, contempt our destined share,</l> 
+                  <l rend="ti-1">Open to temptation endless,</l> 
+                  <l>These but half complete our story,</l> 
+                  <l rend="ti-1">Yet we hail Columbia's freedom.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Softly when fair twilight steals</l> 
+                  <l rend="ti-1">O'er the day's departing brightness,</l> 
+                  <l>When the enerved spirit feels,</l> 
+                  <l rend="ti-1">Craving for its wonted lightness,</l> 
+                  <l>Still from work, there's no seceding,</l> 
+                  <l rend="ti-1">For the lamp is quick succeeding.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>From night's deepness, bound in gloom,</l> 
+                  <l rend="ti-1">Musing o'er our lot of sorrow,</l> 
+                  <l>Constant labor is our doom,</l> 
+                  <l rend="ti-1">To the primal beam of morrow,</l> 
+                  <l>Task on task, doth follow ever,</l> 
+                  <l rend="ti-1">Which, alas, but death can sever.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>What heeds Mammon for the form,</l> 
+                  <l rend="ti-1">By the pangs of hunger wasted,</l> 
+                  <l>Where's the heart of Christians warm,</l> 
+                  <l rend="ti-1">Asketh when e'en bread we tasted;</l> 
+                  <l>Yet in misery without measure,</l> 
+                  <l rend="ti-1">Toil we for the rich one's treasure.</l> 
+               </lg> 
+               <pb n="40" xml:id="VAC5935-00000022"/> 
+               <lg type="stanza"> 
+                  <l>Oh, 'tis pitiful to see</l> 
+                  <l rend="ti-1">Wide distinction between classes,</l> 
+                  <l>When our gentry should be,</l> 
+                  <l rend="ti-1">Guardians of the humbler masses,</l> 
+                  <l>When humanity and feeling,</l> 
+                  <l rend="ti-1">Ever should check the sordid dealing.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Vain the glory and the pride,</l> 
+                  <l rend="ti-1">Doubly sinful of our patterns,</l> 
+                  <l>From the blooming youthful bride,</l> 
+                  <l rend="ti-1">To the more fantastic matrons,</l> 
+                  <l>Who but shine in slavery's dressing,</l> 
+                  <l rend="ti-1">Yet refuse the poor their blessing.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>In the blazoned equipage,</l> 
+                  <l rend="ti-1">With a sneer, and haughty bearing,</l> 
+                  <l>Tended by a pampered page,</l> 
+                  <l rend="ti-1">Gold and silver livery wearing,</l> 
+                  <l>Come they with incessant orders,</l> 
+                  <l rend="ti-1">Adding to our live's disorders.</l> 
+               </lg> 
+               <lg type="stanza"> 
+                  <l>Thus the steel and thread we ply,</l> 
+                  <l rend="ti-1">All the while consumption wasting,</l> 
+                  <l>Each wan feature, till we die,</l> 
+                  <l rend="ti-1">While the rich our fruits are tasting;</l> 
+                  <l>Thus toil ceases with our fingers,</l> 
+                  <l rend="ti-1">Life enslaved no longer fingers.</l> 
+               </lg> 
+            </div> 
+         </div>
+      </body> 
+   </text>
+</TEI>
