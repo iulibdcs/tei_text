@@ -1,0 +1,2335 @@
+<!-- ********************* -->
+<!-- TEI XML compatibility -->
+<!-- ********************* -->
+<!-- TEI P4 DTD. Generated 2004-07-15T16:23:42-04:00 by odd2dtd.xsl -->
+<!-- 24.8: File teishd2.dtd:  Auxiliary DTD for Independent Header-->
+<!--
+ ** Copyright 2004 TEI Consortium.
+ ** See the main DTD fragment 'tei2.dtd' or the file 'COPYING' for the
+ ** complete copyright notice.
+-->
+<!--Embed entities for TEI generic identifiers.-->
+<!--Embed entities for TEI keywords.-->
+<!-- TEI P4 DTD. Generated 2004-07-15T16:23:39-04:00 by odd2dtd.xsl -->
+<!-- 3.8.5: TEI Keywords-->
+<!--
+ ** Copyright 2004 TEI Consortium.
+ ** See the main DTD fragment 'tei2.dtd' or the file 'COPYING' for the
+ ** complete copyright notice.
+-->
+<!--I.  Declare TEI keywords for data types.-->
+<!--These parameter entities are used as keywords to express
+rules or constraints which cannot be fully expressed in attribute declarations; their
+expansions show the nearest available equivalent.-->
+<!--II.  Declare keywords for tag-set selection.-->
+<!--Declare all bases and additional tag sets as IGNORE.  The
+user can override this default by declaring the same entity with the
+replacement text INCLUDE, in the document's DTD
+subset.-->
+<!--Base tag sets first.-->
+<!--Now the mixed bases.-->
+<!--Now additional tag sets.-->
+<!--III. Declare TEI.XML and associated omissibility indicators-->
+<!-- end of 3.8.5-->
+<!--Define element classes for content models, shared
+attributes for element classes, and global attributes.  (This all
+happens within the file teiclas2.ent.)-->
+<!-- TEI P4 DTD. Generated 2004-07-15T16:23:30-04:00 by odd2dtd.xsl -->
+<!-- 3.7.3: Element classes for TEI DTDs-->
+<!--
+ ** Copyright 2004 TEI Consortium.
+ ** See the main DTD fragment 'tei2.dtd' or the file 'COPYING' for the
+ ** complete copyright notice.
+-->
+<!--First, we declare the 'low-level' core classes:
+these are classes of semantically and structurally similar elements
+declared as part of the core tag set, e.g. the classes 'data' or
+'edit'.-->
+<!-- 3.7.4: Low-level classes-->
+<!--Most of these elements are in the core tag set, but
+some may be from other tag sets.-->
+<!--Phrase-level classes-->
+<!--Inter-level classes-->
+<!-- end of 3.7.4-->
+<!-- 3.7.9: Misc. Element Class Models-->
+<!-- end of 3.7.9-->
+<!--Next, we declare the 'high-level' classes: these group
+together all phrase-level elements, all inter-level elements, and all
+chunk-level elements in the core, and identify the 'common' component
+elements (chunks and inter-level elements), as opposed to the
+tagset-specific components.-->
+<!-- 3.7.5: Common high-level classes-->
+<!--These are the three fundamental element classes.-->
+<!--This class isolates all the common
+component-level elements.-->
+<!-- end of 3.7.5-->
+<!--Next, we embed the portions of each base and additional tag
+set which declare relevant parameter entities. Only those files are
+embedded which have been selected by the user in the DTD subset. These
+files will declare parameter entities for their component-level
+elements, as well as for any global attributes they define.-->
+<!-- 3.7.6: Embedding tag-set-specific entity definitions-->
+<!-- end of 3.7.6-->
+<!--We can now declare the standard content models; one of these
+varies with the base selected.-->
+<!-- 3.7.7: Standard Content Models-->
+<!--Here we declare the parameter entities phrase, phrase.seq,
+component, component.seq, paraContent, and specialPara, for use in the
+content models of element declarations.  The entities phrase and
+phrase.seq are the same in all bases.  They may include elements
+specific to single tag sets; if the tag set is not selected, these
+elements are undefined and have no effect.-->
+<!--The entity component varies with the base.  The
+versions for the combined bases are declared first (so as to
+take precedence over the declarations in the individual
+bases).-->
+<!-- 3.7.8: Definition of components for combined bases-->
+<!--Default declarations for the 'mix.' entities used for mixed
+and general bases.-->
+<!-- end of 3.7.8-->
+<!--Default declaration.-->
+<!--The entity component.seq is always a starred sequence of
+component elements.  Its definition does not vary with the base (unless
+we are using the general base, in which case it has already been defined
+above), but the meaning of the definition does.-->
+<!--The following entities do not vary with the base.-->
+<!-- end of 3.7.7-->
+<!--Finally, we declare the attribute classes, including
+the global attributes.-->
+<!-- 3.7.1: Attribute classes-->
+<!-- end of 3.7.1-->
+<!-- 3.5: Global attributes-->
+<!--The global attributes are defined for every element in the TEI
+tag set; individual declarations may be overridden by local declarations
+for individual elements.-->
+<!--If the tag sets invoked by the user define extra global
+attributes (they do this in their .ent file), then they are inherited by
+GLOBAL; otherwise the parameter entities referred to expand to the empty
+string, as shown here.  -->
+<!--The TEIform attribute is also global, but is declared
+individually for each element, not in a parameter entity
+declaration.-->
+<!-- end of 3.5-->
+<!-- end of 3.7.3-->
+<!--Now declare the IHS element.-->
+
+<!ELEMENT ihs 
+	(teiHeader)+ >
+
+
+<!ATTLIST ihs 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "ihs" >
+
+<!--Finally, embed the TEI header and core tag sets.-->
+<!-- TEI P4 DTD. Generated 2004-07-15T16:23:39-04:00 by odd2dtd.xsl -->
+<!-- 5.1.1: The TEI Header-->
+<!--teihdr2.dtd  Tags for TEI Header.-->
+<!--
+ ** Copyright 2004 TEI Consortium.
+ ** See the main DTD fragment 'tei2.dtd' or the file 'COPYING' for the
+ ** complete copyright notice.
+-->
+
+<!ELEMENT teiHeader 
+	(fileDesc, encodingDesc*, profileDesc*, revisionDesc?) >
+
+
+<!ATTLIST teiHeader 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA "text"
+	creator CDATA #IMPLIED
+	status (new | update) "new"
+	date.created CDATA #IMPLIED
+	date.updated CDATA #IMPLIED
+	TEIform CDATA "teiHeader" >
+
+<!-- 5.1.1: -->
+<!-- 5.2: The file description-->
+
+<!ELEMENT fileDesc 
+	(titleStmt, editionStmt?, extent?, publicationStmt, seriesStmt?, 
+	notesStmt?, sourceDesc+) >
+
+
+<!ATTLIST fileDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "fileDesc" >
+
+<!-- 5.2.1: The title statement-->
+
+<!ELEMENT titleStmt 
+	(title+, (author | editor | sponsor | funder | principal 
+	| respStmt)*) >
+
+
+<!ATTLIST titleStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "titleStmt" >
+
+
+<!ELEMENT sponsor 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST sponsor 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "sponsor" >
+
+
+<!ELEMENT funder 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST funder 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "funder" >
+
+
+<!ELEMENT principal 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST principal 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "principal" >
+
+<!--The TITLE, AUTHOR, NAME, RESPSTMT, and RESP elements are
+declared in file teicore2.dtd, not here.-->
+<!-- end of 5.2.1-->
+<!-- 5.2.2: The edition statement-->
+
+<!ELEMENT editionStmt 
+	((edition, respStmt*) | p+) >
+
+
+<!ATTLIST editionStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "editionStmt" >
+
+
+<!ELEMENT edition 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST edition 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "edition" >
+
+<!-- end of 5.2.2-->
+<!-- 5.2.3: The extent statement-->
+
+<!ELEMENT extent 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST extent 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "extent" >
+
+<!-- end of 5.2.3-->
+<!-- 5.2.4: The publication statement-->
+
+<!ELEMENT publicationStmt 
+	((p, (gap | index | cb | lb | milestone | pb)*)+ | ((publisher 
+	| distributor | authority | pubPlace | address | idno | 
+	availability | date), (gap | index | cb | lb | milestone 
+	| pb)*)+) >
+
+
+<!ATTLIST publicationStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "publicationStmt" >
+
+
+<!ELEMENT distributor 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST distributor 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "distributor" >
+
+
+<!ELEMENT authority 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST authority 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "authority" >
+
+
+<!ELEMENT idno 
+	(#PCDATA) >
+
+
+<!ATTLIST idno 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "idno" >
+
+
+<!ELEMENT availability 
+	(p)+ >
+
+
+<!ATTLIST availability 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	status (free | unknown | restricted) "unknown"
+	TEIform CDATA "availability" >
+
+<!--The PUBLISHER, PUBPLACE, and ADDRESS elements
+are defined in file teicore2.dtd.-->
+<!-- end of 5.2.4-->
+<!-- 5.2.5: The series statement-->
+
+<!ELEMENT seriesStmt 
+	((title+, (idno | respStmt)*) | p+) >
+
+
+<!ATTLIST seriesStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "seriesStmt" >
+
+<!-- end of 5.2.5-->
+<!-- 5.2.6: The notes statement-->
+
+<!ELEMENT notesStmt 
+	(note)+ >
+
+
+<!ATTLIST notesStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "notesStmt" >
+
+<!--The NOTE element is defined with the core tags.-->
+<!-- end of 5.2.6-->
+<!-- end of 5.2-->
+<!-- 5.2.7: The source description-->
+
+<!ELEMENT sourceDesc 
+	(p | bibl | biblFull | biblStruct | listBibl | scriptStmt 
+	| recordingStmt)+ >
+
+
+<!ATTLIST sourceDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "sourceDesc" >
+
+<!-- 5.2.9: Script statement and recording statement-->
+
+<!ELEMENT scriptStmt 
+	(p+ | bibl | biblFull | biblStruct) >
+
+
+<!ATTLIST scriptStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "scriptStmt" >
+
+
+<!ELEMENT recordingStmt 
+	(p+ | recording+) >
+
+
+<!ATTLIST recordingStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "recordingStmt" >
+
+
+<!ELEMENT recording 
+	(p+ | (respStmt | equipment | broadcast | date)*) >
+
+
+<!ATTLIST recording 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	type (audio | video) "audio"
+	dur CDATA #IMPLIED
+	TEIform CDATA "recording" >
+
+
+<!ELEMENT equipment 
+	(p)+ >
+
+
+<!ATTLIST equipment 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "equipment" >
+
+
+<!ELEMENT broadcast 
+	(p+ | bibl | biblStruct | biblFull | recording) >
+
+
+<!ATTLIST broadcast 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "broadcast" >
+
+<!-- end of 5.2.9-->
+<!-- end of 5.2.7-->
+<!-- 5.3: The encoding description-->
+
+<!ELEMENT encodingDesc 
+	(projectDesc*, samplingDecl*, editorialDecl*, tagsDecl?, 
+	refsDecl*, classDecl*, metDecl*, fsdDecl*, variantEncoding*, 
+	p*) >
+
+
+<!ATTLIST encodingDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "encodingDesc" >
+
+<!-- 5.3.1: The project description-->
+
+<!ELEMENT projectDesc 
+	(p)+ >
+
+
+<!ATTLIST projectDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "projectDesc" >
+
+<!-- end of 5.3.1-->
+<!-- 5.3.2: The sampling declaration-->
+
+<!ELEMENT samplingDecl 
+	(p)+ >
+
+
+<!ATTLIST samplingDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "samplingDecl" >
+
+<!-- end of 5.3.2-->
+<!-- 5.3.3: The editorial practices declaration-->
+
+<!ELEMENT editorialDecl 
+	(p+ | ((correction | normalization | quotation | hyphenation 
+	| interpretation | segmentation | stdVals)+, p*)) >
+
+
+<!ATTLIST editorialDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "editorialDecl" >
+
+
+<!ELEMENT correction 
+	(p)+ >
+
+
+<!ATTLIST correction 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	status (high | medium | low | unknown) "unknown"
+	method (silent | tags) "silent"
+	TEIform CDATA "correction" >
+
+
+<!ELEMENT normalization 
+	(p)+ >
+
+
+<!ATTLIST normalization 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	source CDATA #IMPLIED
+	method (silent | tags) "silent"
+	TEIform CDATA "normalization" >
+
+
+<!ELEMENT quotation 
+	(p)+ >
+
+
+<!ATTLIST quotation 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	marks (none | some | all) "all"
+	form (data | rend | std | nonstd | unknown) "unknown"
+	TEIform CDATA "quotation" >
+
+
+<!ELEMENT hyphenation 
+	(p)+ >
+
+
+<!ATTLIST hyphenation 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	eol (all | some | hard | none) "some"
+	TEIform CDATA "hyphenation" >
+
+
+<!ELEMENT segmentation 
+	(p)+ >
+
+
+<!ATTLIST segmentation 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "segmentation" >
+
+
+<!ELEMENT stdVals 
+	(p)+ >
+
+
+<!ATTLIST stdVals 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "stdVals" >
+
+
+<!ELEMENT interpretation 
+	(p)+ >
+
+
+<!ATTLIST interpretation 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "interpretation" >
+
+<!-- end of 5.3.3-->
+<!-- 5.3.4: Tag usage and rendition declarations-->
+
+<!ELEMENT tagsDecl 
+	(rendition*, tagUsage*) >
+
+
+<!ATTLIST tagsDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "tagsDecl" >
+
+
+<!ELEMENT tagUsage 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST tagUsage 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	gi CDATA #REQUIRED
+	occurs CDATA #IMPLIED
+	ident CDATA #IMPLIED
+	render IDREF #IMPLIED
+	TEIform CDATA "tagUsage" >
+
+
+<!ELEMENT rendition 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST rendition 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "rendition" >
+
+<!-- end of 5.3.4-->
+<!-- 5.3.5.3: The reference scheme declaration-->
+
+<!ELEMENT refsDecl 
+	(p+ | step+ | state+) >
+
+
+<!ATTLIST refsDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	doctype CDATA "TEI.2"
+	TEIform CDATA "refsDecl" >
+
+
+<!ELEMENT step 
+	EMPTY >
+
+
+<!ATTLIST step 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	refunit CDATA #IMPLIED
+	length CDATA #IMPLIED
+	delim CDATA #IMPLIED
+	from CDATA #REQUIRED
+	to CDATA "DITTO"
+	TEIform CDATA "step" >
+
+
+<!ELEMENT state 
+	EMPTY >
+
+
+<!ATTLIST state 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	unit CDATA #REQUIRED
+	length CDATA #IMPLIED
+	delim CDATA #IMPLIED
+	TEIform CDATA "state" >
+
+<!-- end of 5.3.5.3-->
+<!-- 5.3.6: The classification declaration-->
+
+<!ELEMENT classDecl 
+	(taxonomy)+ >
+
+
+<!ATTLIST classDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "classDecl" >
+
+
+<!ELEMENT taxonomy 
+	(category+ | ((bibl | biblStruct | biblFull), category*)) >
+
+
+<!ATTLIST taxonomy 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "taxonomy" >
+
+
+<!ELEMENT category 
+	(catDesc, category*) >
+
+
+<!ATTLIST category 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "category" >
+
+
+<!ELEMENT catDesc 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref)* >
+
+
+<!ATTLIST catDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "catDesc" >
+
+<!-- end of 5.3.6-->
+<!-- 5.3.7: The FSD declaration-->
+
+<!ELEMENT fsdDecl 
+	EMPTY >
+
+
+<!ATTLIST fsdDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #REQUIRED
+	fsd ENTITY #REQUIRED
+	TEIform CDATA "fsdDecl" >
+
+<!-- end of 5.3.7-->
+<!-- 5.3.8: Metrical Notation Declaration-->
+
+<!ELEMENT metDecl 
+	(((gap | index | cb | lb | milestone | pb)*, ((bibl | biblFull 
+	| biblStruct | l | lg | p | sp | cit | q | quote | label 
+	| list | listBibl | note | stage), (gap | index | cb | lb 
+	| milestone | pb)*)*) | symbol+) >
+
+
+<!ATTLIST metDecl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	type CDATA "met real"
+	pattern CDATA #IMPLIED
+	TEIform CDATA "metDecl" >
+
+
+<!ELEMENT symbol 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST symbol 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	value CDATA #REQUIRED
+	terminal (Y | N) "Y"
+	TEIform CDATA "symbol" >
+
+<!-- end of 5.3.8-->
+<!-- 5.3.9: Variant-Encoding Declaration-->
+
+<!ELEMENT variantEncoding 
+	EMPTY >
+
+
+<!ATTLIST variantEncoding 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	method (location-referenced | double-end-point | parallel-segmentation) #REQUIRED
+	location (internal | external) #REQUIRED
+	TEIform CDATA "variantEncoding" >
+
+<!-- end of 5.3.9-->
+<!-- end of 5.3-->
+<!-- 5.4: The profile description-->
+
+<!ELEMENT profileDesc 
+	(creation?, langUsage*, textClass*) >
+
+
+<!ATTLIST profileDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "profileDesc" >
+
+<!-- 5.4.1: Creation-->
+
+<!ELEMENT creation 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST creation 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "creation" >
+
+<!-- end of 5.4.1-->
+<!-- 5.4.2: Language usage-->
+
+<!ELEMENT langUsage 
+	(p | language)+ >
+
+
+<!ATTLIST langUsage 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "langUsage" >
+
+
+<!ELEMENT language 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST language 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	wsd ENTITY #IMPLIED
+	usage NMTOKEN #IMPLIED
+	TEIform CDATA "language" >
+
+<!-- end of 5.4.2-->
+<!-- 5.4.3: Text Classification-->
+
+<!ELEMENT textClass 
+	(classCode | catRef | keywords)* >
+
+
+<!ATTLIST textClass 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "textClass" >
+
+
+<!ELEMENT keywords 
+	(term+ | list) >
+
+
+<!ATTLIST keywords 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	scheme IDREF #IMPLIED
+	TEIform CDATA "keywords" >
+
+
+<!ELEMENT classCode 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST classCode 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	scheme IDREF #IMPLIED
+	TEIform CDATA "classCode" >
+
+
+<!ELEMENT catRef 
+	EMPTY >
+
+
+<!ATTLIST catRef 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	target IDREFS #REQUIRED
+	scheme IDREF #IMPLIED
+	TEIform CDATA "catRef" >
+
+<!-- end of 5.4.3-->
+<!-- end of 5.4-->
+<!-- 5.5: The Revision Description-->
+
+<!ELEMENT revisionDesc 
+	(list | change+) >
+
+
+<!ATTLIST revisionDesc 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "revisionDesc" >
+
+
+<!ELEMENT change 
+	(date, respStmt+, item) >
+
+
+<!ATTLIST change 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "change" >
+
+<!--respStmt, item, and date are declared in teicore2.-->
+<!-- end of 5.5-->
+<!-- end of 5.1.1-->
+<!-- end of 5.1.1-->
+<!-- TEI P4 DTD. Generated 2004-07-15T16:23:33-04:00 by odd2dtd.xsl -->
+<!-- 6.12: Elements available in all forms of the TEI main DTD-->
+<!--
+ ** Copyright 2004 TEI Consortium.
+ ** See the main DTD fragment 'tei2.dtd' or the file 'COPYING' for the
+ ** complete copyright notice.
+-->
+<!--Definition of elements, sub-group by sub-group.-->
+<!-- 6.1: Paragraph-->
+
+<!ELEMENT p 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST p 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "p" >
+
+<!-- end of 6.1-->
+<!-- 6.3.2.1: Highlighted phrases-->
+
+<!ELEMENT foreign 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST foreign 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "foreign" >
+
+<!-- 6.3.2.2: -->
+
+<!ELEMENT emph 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST emph 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "emph" >
+
+
+<!ELEMENT hi 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST hi 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "hi" >
+
+<!-- end of 6.3.2.2-->
+<!-- 6.3.2.3: -->
+
+<!ELEMENT distinct 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST distinct 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	time CDATA #IMPLIED
+	space CDATA #IMPLIED
+	social CDATA #IMPLIED
+	TEIform CDATA "distinct" >
+
+<!-- end of 6.3.2.3-->
+<!-- 6.3.3: Quotation-->
+
+<!ELEMENT q 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST q 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	direct (y | n | unspecified) "unspecified"
+	who CDATA #IMPLIED
+	TEIform CDATA "q" >
+
+
+<!ELEMENT quote 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST quote 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "quote" >
+
+
+<!ELEMENT cit 
+	(q | quote | bibl | biblFull | biblStruct | ptr | ref | 
+	gap | index | cb | lb | milestone | pb)+ >
+
+
+<!ATTLIST cit 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "cit" >
+
+
+<!ELEMENT soCalled 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST soCalled 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "soCalled" >
+
+<!-- end of 6.3.3-->
+<!-- 6.3.4: Terms, glosses, etc.-->
+
+<!ELEMENT term 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST term 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "term" >
+
+
+<!ELEMENT mentioned 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST mentioned 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "mentioned" >
+
+
+<!ELEMENT gloss 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST gloss 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	target IDREF #IMPLIED
+	TEIform CDATA "gloss" >
+
+<!-- end of 6.3.4-->
+<!-- end of 6.3.2.1-->
+<!-- 6.4.1: Proper Nouns-->
+
+<!ELEMENT name 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST name 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	key CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "name" >
+
+
+<!ELEMENT rs 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST rs 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	key CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "rs" >
+
+<!-- end of 6.4.1-->
+<!-- 6.4.3: Numbers and measures-->
+
+<!ELEMENT num 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST num 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	value CDATA #IMPLIED
+	TEIform CDATA "num" >
+
+
+<!ELEMENT measure 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST measure 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	key CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "measure" >
+
+<!-- end of 6.4.3-->
+<!-- 6.4.4: Dates and times-->
+
+<!ELEMENT date 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST date 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	calendar CDATA #IMPLIED
+	value CDATA #IMPLIED
+	certainty CDATA #IMPLIED
+	TEIform CDATA "date" >
+
+
+<!ELEMENT dateRange 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST dateRange 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	calendar CDATA #IMPLIED
+	from CDATA #IMPLIED
+	to CDATA #IMPLIED
+	exact (to | from | both | none) #IMPLIED
+	TEIform CDATA "dateRange" >
+
+
+<!ELEMENT time 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST time 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	value CDATA #IMPLIED
+	type (am | pm | 24hour | descriptive) #IMPLIED
+	zone CDATA #IMPLIED
+	TEIform CDATA "time" >
+
+
+<!ELEMENT timeRange 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST timeRange 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	from CDATA #IMPLIED
+	to CDATA #IMPLIED
+	exact (to | from | both | none) #IMPLIED
+	TEIform CDATA "timeRange" >
+
+<!-- end of 6.4.4-->
+<!-- 6.4.5: Abbreviations-->
+
+<!ELEMENT abbr 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST abbr 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	expan CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	cert CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "abbr" >
+
+
+<!ELEMENT expan 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST expan 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	abbr CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	cert CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "expan" >
+
+<!-- end of 6.4.5-->
+<!-- 6.5.1: Editorial tags for correction-->
+
+<!ELEMENT sic 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST sic 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	corr CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	TEIform CDATA "sic" >
+
+
+<!ELEMENT corr 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST corr 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	sic CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	TEIform CDATA "corr" >
+
+<!-- end of 6.5.1-->
+<!-- 6.5.2: Editorial tags for regularization-->
+
+<!ELEMENT reg 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST reg 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	orig CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	TEIform CDATA "reg" >
+
+
+<!ELEMENT orig 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST orig 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	TEIform CDATA "orig" >
+
+<!-- end of 6.5.2-->
+<!-- 6.5.3: Other editorial tags-->
+
+<!ELEMENT gap 
+	EMPTY >
+
+
+<!ATTLIST gap 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	desc CDATA #IMPLIED
+	reason CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	hand IDREF #IMPLIED
+	agent CDATA #IMPLIED
+	extent CDATA #IMPLIED
+	TEIform CDATA "gap" >
+
+
+<!ELEMENT add 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST add 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	place CDATA #IMPLIED
+	resp IDREF #IMPLIED
+	cert CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	TEIform CDATA "add" >
+
+
+<!ELEMENT del 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST del 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	status CDATA "unremarkable"
+	resp IDREF #IMPLIED
+	cert CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	TEIform CDATA "del" >
+
+
+<!ELEMENT unclear 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST unclear 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	reason CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	cert CDATA #IMPLIED
+	hand IDREF #IMPLIED
+	agent CDATA #IMPLIED
+	TEIform CDATA "unclear" >
+
+<!-- end of 6.5.3-->
+<!-- 6.4.2: Addresses and their components-->
+
+<!ELEMENT address 
+	((gap | index | cb | lb | milestone | pb)*, ((addrLine, 
+	(gap | index | cb | lb | milestone | pb)*)+ | ((name | postBox 
+	| postCode | street), (gap | index | cb | lb | milestone 
+	| pb)*)*)) >
+
+
+<!ATTLIST address 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "address" >
+
+
+<!ELEMENT addrLine 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST addrLine 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "addrLine" >
+
+
+<!ELEMENT street 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST street 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "street" >
+
+
+<!ELEMENT postCode 
+	(#PCDATA) >
+
+
+<!ATTLIST postCode 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "postCode" >
+
+
+<!ELEMENT postBox 
+	(#PCDATA) >
+
+
+<!ATTLIST postBox 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "postBox" >
+
+<!--Other components of addresses should be represented
+using the general purpose NAME element-->
+<!-- end of 6.4.2-->
+<!-- 6.6: Simple cross references-->
+
+<!ELEMENT ptr 
+	EMPTY >
+
+
+<!ATTLIST ptr 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	targType CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	evaluate (all | one | none) #IMPLIED
+	target IDREFS #REQUIRED
+	TEIform CDATA "ptr" >
+
+
+<!ELEMENT ref 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST ref 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	crdate CDATA #IMPLIED
+	targType CDATA #IMPLIED
+	targOrder (Y | N | U) "U"
+	evaluate (all | one | none) #IMPLIED
+	target IDREFS #IMPLIED
+	TEIform CDATA "ref" >
+
+<!-- end of 6.6-->
+<!-- 6.7: Lists and List Items-->
+
+<!ELEMENT list 
+	((gap | index | cb | lb | milestone | pb)*, (head, (gap 
+	| index | cb | lb | milestone | pb)*)?, ((item, (gap | index 
+	| cb | lb | milestone | pb)*)* | ((headLabel, (gap | index 
+	| cb | lb | milestone | pb)*)?, (headItem, (gap | index 
+	| cb | lb | milestone | pb)*)?, (label, (gap | index | cb 
+	| lb | milestone | pb)*, item, (gap | index | cb | lb | 
+	milestone | pb)*)+))) >
+
+
+<!ATTLIST list 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA "simple"
+	TEIform CDATA "list" >
+
+
+<!ELEMENT item 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST item 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "item" >
+
+
+<!ELEMENT label 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST label 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "label" >
+
+
+<!ELEMENT head 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST head 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "head" >
+
+
+<!ELEMENT headLabel 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST headLabel 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "headLabel" >
+
+
+<!ELEMENT headItem 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST headItem 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "headItem" >
+
+<!-- end of 6.7-->
+<!-- 6.8.1: Annotation-->
+
+<!ELEMENT note 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST note 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	resp CDATA #IMPLIED
+	place CDATA "unspecified"
+	anchored (yes | no) "yes"
+	target IDREFS #IMPLIED
+	targetEnd IDREFS #IMPLIED
+	TEIform CDATA "note" >
+
+<!-- 6.8.2: Index Entries-->
+
+<!ELEMENT index 
+	EMPTY >
+
+
+<!ATTLIST index 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	index CDATA #IMPLIED
+	level1 CDATA #REQUIRED
+	level2 CDATA #IMPLIED
+	level3 CDATA #IMPLIED
+	level4 CDATA #IMPLIED
+	TEIform CDATA "index" >
+
+
+<!ELEMENT divGen 
+	EMPTY >
+
+
+<!ATTLIST divGen 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "divGen" >
+
+<!-- end of 6.8.2-->
+<!-- end of 6.8.1-->
+<!-- 6.9.3: Milestone tags-->
+
+<!ELEMENT milestone 
+	EMPTY >
+
+
+<!ATTLIST milestone 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	unit CDATA #REQUIRED
+	TEIform CDATA "milestone" >
+
+
+<!ELEMENT pb 
+	EMPTY >
+
+
+<!ATTLIST pb 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	TEIform CDATA "pb" >
+
+
+<!ELEMENT lb 
+	EMPTY >
+
+
+<!ATTLIST lb 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	TEIform CDATA "lb" >
+
+
+<!ELEMENT cb 
+	EMPTY >
+
+
+<!ATTLIST cb 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	ed CDATA #IMPLIED
+	TEIform CDATA "cb" >
+
+<!-- end of 6.9.3-->
+<!-- 6.10.1: Tags for Bibliographic References-->
+
+<!ELEMENT bibl 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | analytic | author | biblScope | edition | editor 
+	| extent | idno | imprint | monogr | note | pubPlace | publisher 
+	| respStmt | series | gap | index | cb | lb | milestone 
+	| pb)* >
+
+
+<!ATTLIST bibl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "bibl" >
+
+
+<!ELEMENT biblStruct 
+	((gap | index | cb | lb | milestone | pb)*, (analytic, (gap 
+	| index | cb | lb | milestone | pb)*)?, (monogr, (gap | 
+	index | cb | lb | milestone | pb)*, (series, (gap | index 
+	| cb | lb | milestone | pb)*)*)+, ((note, (gap | index | 
+	cb | lb | milestone | pb)*) | (idno, (gap | index | cb | 
+	lb | milestone | pb)*))*) >
+
+
+<!ATTLIST biblStruct 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "biblStruct" >
+
+
+<!ELEMENT biblFull 
+	((gap | index | cb | lb | milestone | pb)*, titleStmt, (gap 
+	| index | cb | lb | milestone | pb)*, (editionStmt, (gap 
+	| index | cb | lb | milestone | pb)*)?, (extent, (gap | 
+	index | cb | lb | milestone | pb)*)?, publicationStmt, (gap 
+	| index | cb | lb | milestone | pb)*, (seriesStmt, (gap 
+	| index | cb | lb | milestone | pb)*)?, (notesStmt, (gap 
+	| index | cb | lb | milestone | pb)*)?, (sourceDesc, (gap 
+	| index | cb | lb | milestone | pb)*)*) >
+
+
+<!ATTLIST biblFull 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "biblFull" >
+
+
+<!ELEMENT listBibl 
+	((gap | index | cb | lb | milestone | pb)*, (head, (gap 
+	| index | cb | lb | milestone | pb)*)?, (bibl | biblStruct 
+	| biblFull), (bibl | biblStruct | biblFull | gap | index 
+	| cb | lb | milestone | pb)*) >
+
+
+<!ATTLIST listBibl 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	default (YES | NO) "NO"
+	TEIform CDATA "listBibl" >
+
+<!-- 6.10.2.1: Levels of bibliographic information-->
+
+<!ELEMENT analytic 
+	(author | editor | respStmt | title | gap | index | cb | 
+	lb | milestone | pb)* >
+
+
+<!ATTLIST analytic 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "analytic" >
+
+
+<!ELEMENT monogr 
+	(((gap | index | cb | lb | milestone | pb)*, (((author | 
+	editor | respStmt), (author | editor | respStmt | gap | 
+	index | cb | lb | milestone | pb)*, (title, (gap | index 
+	| cb | lb | milestone | pb)*)+, ((editor | respStmt), (gap 
+	| index | cb | lb | milestone | pb)*)*) | ((title, (gap 
+	| index | cb | lb | milestone | pb)*)+, ((author | editor 
+	| respStmt), (gap | index | cb | lb | milestone | pb)*)*)))?, 
+	((note | meeting), (gap | index | cb | lb | milestone | 
+	pb)*)*, (edition, (editor | respStmt | gap | index | cb 
+	| lb | milestone | pb)*)*, imprint, (imprint | extent | 
+	biblScope | gap | index | cb | lb | milestone | pb)*) >
+
+
+<!ATTLIST monogr 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "monogr" >
+
+
+<!ELEMENT series 
+	(#PCDATA | title | editor | respStmt | biblScope | gap | 
+	index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST series 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "series" >
+
+<!-- end of 6.10.2.1-->
+<!-- 6.10.2.2: Author, title, etc.-->
+
+<!ELEMENT author 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST author 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "author" >
+
+
+<!ELEMENT editor 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST editor 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	role CDATA "editor"
+	TEIform CDATA "editor" >
+
+
+<!ELEMENT respStmt 
+	(resp | name | gap | index | cb | lb | milestone | pb)+ >
+
+
+<!ATTLIST respStmt 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "respStmt" >
+
+
+<!ELEMENT resp 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST resp 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "resp" >
+
+
+<!ELEMENT title 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST title 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	level (a | m | j | s | u) #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "title" >
+
+
+<!ELEMENT meeting 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST meeting 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "meeting" >
+
+<!-- end of 6.10.2.2-->
+<!-- 6.10.2.3: Bibliographic subelements-->
+
+<!ELEMENT imprint 
+	(pubPlace | publisher | date | biblScope | gap | index | 
+	cb | lb | milestone | pb)* >
+
+
+<!ATTLIST imprint 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "imprint" >
+
+
+<!ELEMENT publisher 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST publisher 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "publisher" >
+
+
+<!ELEMENT biblScope 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST biblScope 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "biblScope" >
+
+
+<!ELEMENT pubPlace 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST pubPlace 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	key CDATA #IMPLIED
+	reg CDATA #IMPLIED
+	TEIform CDATA "pubPlace" >
+
+<!--Note and date are defined elsewhere, as are extent, address,
+and idno.-->
+<!-- end of 6.10.2.3-->
+<!-- end of 6.10.1-->
+<!-- 6.11.1: Verse-->
+
+<!ELEMENT l 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | gap | index | cb 
+	| lb | milestone | pb)* >
+
+
+<!ATTLIST l 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	part (Y | N | I | M | F) "N"
+	TEIform CDATA "l" >
+
+
+<!ELEMENT lg 
+	((head | gap | index | cb | lb | milestone | pb)*, (l | 
+	lg), (l | lg | gap | index | cb | lb | milestone | pb)*) >
+
+
+<!ATTLIST lg 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	org (composite | uniform) "uniform"
+	sample (initial | medial | final | unknown | complete) "complete"
+	part (Y | N | I | M | F) "N"
+	TEIform CDATA "lg" >
+
+<!-- end of 6.11.1-->
+<!-- 6.11.2: Drama-->
+
+<!ELEMENT sp 
+	((gap | index | cb | lb | milestone | pb)*, (speaker, (gap 
+	| index | cb | lb | milestone | pb)*)?, ((p | l | lg | stage), 
+	(gap | index | cb | lb | milestone | pb)*)+) >
+
+
+<!ATTLIST sp 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	who IDREFS #IMPLIED
+	TEIform CDATA "sp" >
+
+
+<!ELEMENT speaker 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST speaker 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	TEIform CDATA "speaker" >
+
+
+<!ELEMENT stage 
+	(#PCDATA | abbr | address | date | dateRange | expan | measure 
+	| name | num | rs | time | timeRange | add | corr | del 
+	| orig | reg | sic | unclear | distinct | emph | foreign 
+	| gloss | hi | mentioned | soCalled | term | title | ptr 
+	| ref | bibl | biblFull | biblStruct | cit | q | quote | 
+	label | list | listBibl | note | stage | l | lg | p | sp 
+	| gap | index | cb | lb | milestone | pb)* >
+
+
+<!ATTLIST stage 
+	id ID #IMPLIED
+	n CDATA #IMPLIED
+	lang IDREF #IMPLIED
+	rend CDATA #IMPLIED
+	type CDATA #IMPLIED
+	TEIform CDATA "stage" >
+
+<!-- end of 6.11.2-->
+<!-- end of 6.12-->
+<!-- end of 24.8-->
