@@ -3,7 +3,7 @@
 
 <h2>Overview</h2>
 <p>Motivated by a recent mock keynote debate, "<a href="http://digitalcommons.unl.edu/englishfacpubs/106/">A Matter of Scale</a>," presented by Matt Jockers and Julia Flanders as part of the <a href="http://nulab.neu.edu/events/dhdays2013/">Boston Area Days of Digital Humanities Conference</a> and the imperative that librarians involved with many things "digital" learn not only how to build tools, in this case for textual analysis, but leverage existing tools to 
-support teaching and research endeavors rooted in the text, I present TEI (P4 & P5) and plain text files of several e-text collections published by the Indiana University (IU) Libraries.</p>  
+support teaching and research endeavors rooted in the text, I present TEI (P4 & P5) and plain text files of several e-text collections published by the Indiana University (IU) Libraries.  These files are made available for use under the Creative Commons Attribution-NonCommercial 3.0 (<a href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">CC BY-NC 3.0</a>) license.</p>  
 
 <p>Coming from the tool-building perspective and tradition, I seldom have time to explore existing tools for textual analysis.  This is partly because at IU we are so vested in textual markup following the TEI Guidelines for which few external tools exist that act on the markup (thus our focus on building). But as is the case with many academic libraries attempting to scale up digital production, we are not always in the position to build boutique interfaces, tools and functions for hand-crafted markup.  Further, often early research inquiries can be better defined if not answered by initially playing and experimenting with raw data sets before embarking on markup.  Finally, after many years of leading e-text initiatives and championing the TEI at my institution, I am eager to witness and document how these e-text collections fare in the wild.  What are the research motivations and inquiries that drive adaptation of the data and how are the data utilized and/or analyzed?  Are the TEI files we provide valuable to scholars, and if so, how?  What can we ascertain without/beyond the markup, and in turn, how does the markup aid researchers and research practices? </p>  
 
@@ -34,3 +34,6 @@ The following are a list of sample tools that can be used with the above data:
 * <a href="http://mallet.cs.umass.edu">Mallet</a> for topic-modeling (installation required) 
 * <a href="http://voyant-tools.org">Voyant</a> for textual analysis (web-based)
 * <a href="https://vue.tufts.edu/">VUE</a> for visualization and other analyses (registration and installation required)
+
+<h3>Terms of Use</h3>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.
