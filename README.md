@@ -11,7 +11,7 @@ support teaching and research endeavors rooted in the text, I present TEI (P4 & 
 
 <p>What started as a <a href="http://dayofdh2013.matrix.msu.edu/mdalmau/2013/04/08/oh-the-one-fun-thing/">musing</a>, is finally gelling (in github, no less).  I look forward to learning how you appropriate this data, and I ask that you share this call as widely as possible with your students (great for class projects!) and colleagues (not necessarily plugged into core DH communication channels, but plugged nevertheless).   With your help, I hope to determine how to best push versions of this data into the flow.</p>
 
-<p><b>So please FORK away!</b> And <b>POST</b> to this repository's <b><a href="https://github.iu.edu/dcs/tei_text/wiki">WIKI</a></b> with feedback, anecdotes of use, and links to this data in action so I can track your wizardry NSA-style.</p>
+<p><b>So please FORK away!</b> And <b>POST</b> to this repository's <b><a href="https://github.com/iulibdcs/tei_text/wiki">WIKI</a></b> with feedback, anecdotes of use, and links to this data in action so I can track your wizardry NSA-style.</p>
 
 <h2>Data Sets</h2>
 The following TEI/XML and plain text files are made available for good times:
