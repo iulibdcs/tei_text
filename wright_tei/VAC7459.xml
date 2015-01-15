@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7459">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7459">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Young Fisherman, or, The Cruiser of the English Channel </title>
-            <author >Barrington, F. Clinton</author>
+            <title>The Young Fisherman, or, The Cruiser of the English Channel </title>
+            <author>Barrington, F. Clinton</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7459</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7459</idno>
+            <idno type="wright2" n="previous">wright2-1913</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The young fisherman, or, The cruiser of the English Channel</title>
-                  <author >Barrington, F. Clinton</author>
+                  <title>The young fisherman, or, The cruiser of the English Channel</title>
+                  <author>Barrington, F. Clinton</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >F. Gleason</publisher>
+                  <publisher>F. Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The young fisherman, or, The cruiser of the English Channel</head> 
+            <head>The young fisherman, or, The cruiser of the English Channel</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7459-00000001"/>~z;&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7459-00000001"/>~z;&#xD;
 &#xD;
 f "f .',&#xD;
 T.HE~xkfrt549?~-ttv&#xD;
@@ -108,7 +113,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7459-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7459-00000002"/>&#xD;
 4&#xD;
 &#xD;
 PUBLISHER'S NOTE.-The following Novelette was originally published in the PITORIAL&#xD;
@@ -232,7 +237,7 @@ The glimmering sheed of the 'aualit channel is&#xD;
 &#xD;
 TUE TOUNO FISHERMAN.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7459-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7459-00000003"/>&#xD;
 8&#xD;
 &#xD;
 class of men, who subsisted by fishing in the&#xD;
@@ -429,7 +434,7 @@ e.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7459-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7459-00000004"/>&#xD;
 I&#xD;
 &#xD;
 1&#xD;
@@ -587,7 +592,7 @@ r        ,                          w&#xD;
 s               r       ,&#xD;
 ..        _'     .    N&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7459-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7459-00000005"/>&#xD;
 12     THE YOUNG FISHERMAN. ,R&#xD;
 &#xD;
 "'Dost thou know me, then ?' she asked,&#xD;
@@ -777,7 +782,7 @@ r,_     4&#xD;
 &#xD;
 f                       i «&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7459-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7459-00000006"/>&#xD;
 0&#xD;
 &#xD;
 CHAPTER III.&#xD;
@@ -963,7 +968,7 @@ her tot thyself, Guilford ? If, in. the innocence&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7459-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7459-00000007"/>&#xD;
 16                THE YOUNG FISHERMAN.&#xD;
 &#xD;
 and frankness of her nature, she has given her&#xD;
@@ -1070,7 +1075,7 @@ wa e&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7459-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7459-00000008"/>&#xD;
 18                          THE YONNG FISHERMAN.&#xD;
 "How can any one do otherwise ? All love ford,' she said, smiling in that captivating way&#xD;
 he wh  roach her; and alas, all rnay ap- which almost made me lose my senses.  Ia&#xD;
@@ -1244,7 +1249,7 @@ THE YOUNG FISHERMAN.&#xD;
 &#xD;
 .i&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7459-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7459-00000009"/>&#xD;
 4&#xD;
 &#xD;
 THE YOUNG FISHERMAN.&#xD;
@@ -1346,7 +1351,7 @@ k  ;r r,,'r ,&#xD;
 +, t  h&#xD;
 :7 t .&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7459-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7459-00000010"/>&#xD;
 22&#xD;
 &#xD;
 THE YOVNG FISHE1lMAK&#xD;
@@ -1526,7 +1531,7 @@ should be ed to 'see any piie *  r&#xD;
 &#xD;
 '4&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7459-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7459-00000011"/>&#xD;
 THE YOUNG FISHERMAN.&#xD;
 &#xD;
 He pressed her hand gratefully, and ascended&#xD;
@@ -1708,7 +1713,7 @@ i&#xD;
 1&#xD;
 I,&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7459-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7459-00000012"/>&#xD;
 THE YOUNG. FISHERMAN.&#xD;
 &#xD;
 But Anne, blushing and terrified, bounded&#xD;
@@ -1894,7 +1899,7 @@ i&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7459-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7459-00000013"/>&#xD;
 28                THE YOUNG FISHERMAN.&#xD;
 &#xD;
 the coast from one hamlet to the other. But as&#xD;
@@ -2119,7 +2124,7 @@ mile or so, and then we will look about us."&#xD;
 &#xD;
 THE YOUNG FISHERMAN.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7459-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7459-00000014"/>&#xD;
 A&#xD;
 &#xD;
 r&#xD;
@@ -2305,7 +2310,7 @@ and in their sanctimonious whine:&#xD;
 t&#xD;
 x&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7459-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7459-00000015"/>&#xD;
 THlE YONNG FISHElMAN.&#xD;
 &#xD;
 shalt abide and sup with us, an'd we will drink&#xD;
@@ -2474,7 +2479,7 @@ ii ,_&#xD;
 &#xD;
 L  ? °&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7459-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7459-00000016"/>&#xD;
 84                         Tfl l aGUNG&#xD;
 that officer, handing him a book. "You will&#xD;
 find in it that last-iigit we brought to a yacht,&#xD;
@@ -2707,7 +2712,7 @@ shouldst not g&amp;amp; unpunisl'$n j&#xD;
 " My lord,  ercy fo   brot s  1"&#xD;
 " Lady," said the earl,'dtai 'i&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7459-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7459-00000017"/>&#xD;
 THM .OU N1GISHERMAN.&#xD;
 &#xD;
 maiden by the hand, and leading her gently into&#xD;
@@ -2930,7 +2935,7 @@ i&#xD;
 ^ '.          3&#xD;
 a&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7459-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7459-00000018"/>&#xD;
 FISmRMAN.&#xD;
 &#xD;
 X88&#xD;
@@ -3060,7 +3065,7 @@ i1rtho&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7459-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7459-00000019"/>&#xD;
 AOw&#xD;
 Guilford then took a grateful leave of the for-&#xD;
 midable Red Hand, in whose dry presence he&#xD;
@@ -3292,7 +3297,7 @@ I.&#xD;
 .tr  ,,&#xD;
 :,, ,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7459-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7459-00000020"/>&#xD;
 -e                             THEM     iiMAN.&#xD;
 y~j "I have hardly formed a plan, dear Lady are true, and the prince is making his way to&#xD;
 Kate. I will, by to-morrow, decide. But my the south of England, hoping to'find a passage&#xD;
@@ -3398,7 +3403,7 @@ f&#xD;
 i."          N                                               _&#xD;
 1  '                                            _&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7459-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7459-00000021"/>&#xD;
 44&#xD;
 &#xD;
 THE YQ&#xD;
@@ -3607,7 +3612,7 @@ I&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7459-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7459-00000022"/>&#xD;
 .4A&#xD;
 &#xD;
 CHAPTER XIII.&#xD;
@@ -3761,7 +3766,7 @@ seen it in her eyes. She has loved you better&#xD;
 than cousin ought to love, Guilford."&#xD;
 "I was not aware of it. But now9,   oak&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7459-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7459-00000023"/>&#xD;
 4TH=' "O       F   IEIMAN.&#xD;
 &#xD;
 of it, I do recollect some things fhat make me&#xD;
@@ -3911,7 +3916,7 @@ fisherman ?"&#xD;
 &#xD;
 CHAPTER XIV.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7459-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7459-00000024"/>&#xD;
 50&#xD;
 &#xD;
 T..&#xD;
@@ -4142,7 +4147,7 @@ leaving Guilford with the troopers.&#xD;
 &#xD;
 ii&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7459-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7459-00000025"/>&#xD;
 4,&#xD;
 &#xD;
 CHAPTER XV.&#xD;
@@ -4334,7 +4339,7 @@ France "' was the ,exclamation of the wan  y&#xD;
 with clasped hands.-&#xD;
 "I think it is the boat L ordered to rad'&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7459-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7459-00000026"/>&#xD;
 54'              TIM rou~ro  sRa&#xD;
 &#xD;
 and meet us here," answered Guilford. " When&#xD;
@@ -4523,7 +4528,7 @@ r{G      .Y&#xD;
 &#xD;
 i'&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7459-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7459-00000027"/>&#xD;
 CHA PTER XV I&#xD;
 &#xD;
 }  c               r  '~W HNO  tHE  rUoivit '1t  'G'VP.&#xD;
@@ -4675,7 +4680,7 @@ lords ?" asked Guilford, changing color. " I&#xD;
 did not imagine danger save from the coast guard&#xD;
 on shore."&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7459-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7459-00000028"/>&#xD;
 58                   THE YOUNG FISHERMAN.&#xD;
 &#xD;
 " There is great danger yet," answered both j by ; "for in the highlands the shepherds on the&#xD;
@@ -4778,7 +4783,7 @@ When he spoke, rows of even teeth, as dewy and&#xD;
 translucent as pearl, were visible. His hands&#xD;
 were, as symmetrical as nature could :hae  *&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7459-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7459-00000029"/>&#xD;
 ETi YOUNG PISRERMAN.81&#xD;
 &#xD;
 moulded them, and his whole air and tone were&#xD;
@@ -5007,7 +5012,7 @@ A' r&#xD;
 &#xD;
 l t s&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7459-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7459-00000030"/>&#xD;
 THE YOUNG&#xD;
 " When the noble marquis, my father, was led&#xD;
 to the scaffold, I had a feeling that he would not-&#xD;
@@ -5234,7 +5239,7 @@ scope of that day, and then, having swept the&#xD;
 French coast near which he was sailing, he and-&#xD;
 denly gave orders to put about ; for up to that&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7459-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7459-00000031"/>&#xD;
 THE YOUNG ]JSHEBMAN.&#xD;
 &#xD;
 time, since Guilford had left her in the yacht&#xD;
@@ -5416,7 +5421,7 @@ ject which had turned the English tessel'from&#xD;
 her courseiwas now removed by her firing at&#xD;
 long shot at the escaping little craft.&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7459-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7459-00000032"/>&#xD;
 66                          THE YOUNG&#xD;
 rowd on e-li every yard of sail 1" shouted&#xD;
 the earl. "We .must cut the frigate off from&#xD;
@@ -5631,7 +5636,7 @@ the ship. Upon making known who she was,&#xD;
 &#xD;
 67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7459-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7459-00000033"/>&#xD;
 THE YOUNG FISHERMAN.               ' 69&#xD;
 &#xD;
 08                THE YOUNG FISHERMAN.&#xD;
@@ -5802,7 +5807,7 @@ the smack, which some of the sailors wereaiding&#xD;
 them in saving from sinking. He then called to&#xD;
 him to leave the boat and come en board.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7459-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7459-00000034"/>&#xD;
 WHEN Guilford, in obedience to the command&#xD;
 &#xD;
 of the prince, came over the ship's side, and the&#xD;
@@ -5999,7 +6004,7 @@ I&#xD;
 &#xD;
 ' ''&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7459-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7459-00000035"/>&#xD;
 72-                         THE YOUNG&#xD;
 Norman fisherman, who 'had all the while re-&#xD;
 garded with a sort of bewilderment this summary&#xD;
@@ -6218,7 +6223,7 @@ I&#xD;
 CHAPTER XX.&#xD;
 THE RINCEc's STAR IN THE ASCENDANT.&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7459-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7459-00000036"/>&#xD;
 74&#xD;
 &#xD;
 THE YOUNG FISHERMAN&#xD;
@@ -6451,7 +6456,7 @@ CHARLuS R."'&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7459-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7459-00000037"/>&#xD;
 A&#xD;
 &#xD;
 CHAPTER XXI.&#xD;
@@ -6646,7 +6651,7 @@ rF&#xD;
 }&#xD;
 i&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7459-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7459-00000038"/>&#xD;
 78  '  .               HE YQIJ1G&#xD;
 Smithfield; but if thou wilt wait an hour thou&#xD;
 wilt see him go by here to his house, near St.&#xD;
@@ -6884,7 +6889,7 @@ for.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7459-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7459-00000039"/>&#xD;
 THE YOUNG FISHERMAN.                81&#xD;
 &#xD;
 however, soon removed all speculations by read-&#xD;
@@ -7102,7 +7107,7 @@ Y&#xD;
 . '&#xD;
 ,s&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7459-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7459-00000040"/>&#xD;
 THE inhabitants of the little' fishing 'port of&#xD;
 Brighthelmstone were one morning thrown -into&#xD;
 no little emziterment bytlhe arrival of a. brigantine&#xD;
@@ -7279,7 +7284,7 @@ thither to banquet with the king and behold him&#xD;
 CJIPIER XIL-&#xD;
 BQR  VANE -AND LADt CATHARINE AT COURT.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7459-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7459-00000041"/>&#xD;
 84&#xD;
 &#xD;
 THE YOUNG FISHERMAN.&#xD;
@@ -7398,7 +7403,7 @@ t'/l&#xD;
 t                          s&#xD;
 7&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7459-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7459-00000042"/>&#xD;
 86                               PLEGGY I&#xD;
 Her form was delicate and fragile. She was&#xD;
 an orphan, and had for many years been so ;&#xD;
@@ -7635,7 +7640,7 @@ r&#xD;
 &#xD;
 ti&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7459-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7459-00000043"/>&#xD;
 88                     PEGGY DAW ON&#xD;
 &#xD;
 Presently the sharp crack of the coachman's&#xD;
@@ -7880,7 +7885,7 @@ it&#xD;
 4&#xD;
 C&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7459-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7459-00000044"/>&#xD;
 PEGGY DAWSON.                   9&#xD;
 &#xD;
 90             ,     PEGGY DAWSON.&#xD;
@@ -8125,7 +8130,7 @@ i;&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7459-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7459-00000045"/>&#xD;
 92                   PEGGY DAWSON.&#xD;
 &#xD;
 -gave way to a drenching flood of tears. And&#xD;
@@ -8240,7 +8245,7 @@ I&#xD;
 &#xD;
 {&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7459-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7459-00000046"/>&#xD;
 94                           THE TWIN:&#xD;
 "That's it, sir, exactly."&#xD;
 " Has he asy children ?"&#xD;
@@ -8482,7 +8487,7 @@ a&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7459-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7459-00000047"/>&#xD;
 I&#xD;
 &#xD;
 THE TWIN BROTHERS.&#xD;
@@ -8643,7 +8648,7 @@ h&#xD;
    y&#xD;
 .   ,&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7459-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7459-00000048"/>&#xD;
 98                 THE TWIN BROTHERS.&#xD;
 &#xD;
 What new trouble have you brought me to&#xD;
@@ -8883,7 +8888,7 @@ I&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="100" xml:id="VAC7459-00000049"/>&#xD;
+<pb n="100" xml:id="VAC7459-00000049"/>&#xD;
 f'  r-&#xD;
 &#xD;
 gerot; but I feels that the time has arrived wlen&#xD;
@@ -8987,8 +8992,8 @@ TIM -,Tvnx&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8354">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8354">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The First of the Maccabees </title>
-            <author >Wise, Isaac Mayer, (1819-1900)</author>
+            <title>The First of the Maccabees </title>
+            <author>Wise, Isaac Mayer, (1819-1900)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8354</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8354</idno>
+            <idno type="wright2" n="previous">wright2-2778</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The first of the Maccabees</title>
-                  <author >Wise, Isaac Mayer, (1819-1900)</author>
+                  <title>The first of the Maccabees</title>
+                  <author>Wise, Isaac Mayer, (1819-1900)</author>
                </titleStmt>
-               <extent >180 p.</extent>
+               <extent>180 p.</extent>
                <publicationStmt>
-                  <publisher >Bloch</publisher>
+                  <publisher>Bloch</publisher>
                   <pubPlace>Cincinnati Ohio </pubPlace>
-                  <date  when="1860">1860</date>
+                  <date when="1860">1860</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The first of the Maccabees</head> 
+            <head>The first of the Maccabees</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8354-00000001"/>THE FIRST&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8354-00000001"/>THE FIRST&#xD;
 OF&#xD;
 Te&#xD;
 THE' MACUABEES.&#xD;
@@ -99,7 +104,7 @@ CINGININATI, OHIO;&#xD;
 Published by BLoc &amp;amp; Co., OI'oe of The Israelite, No. 32 Sixth Street-&#xD;
 1.8_j t_.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8354-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8354-00000002"/>&#xD;
 l.'&#xD;
 &#xD;
 ,                                                                                 a&#xD;
@@ -223,7 +228,7 @@ _&#xD;
 &#xD;
 T, ff&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8354-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8354-00000003"/>&#xD;
 Truj FLRBT,OP&#xD;
 &#xD;
 T n       ",,wdOCANB$ E E'.&#xD;
@@ -403,7 +408,7 @@ erable igonies he    'up 'hisgtg l&#xD;
 'the banger otgLr.       t&#xD;
 doesthloodinot oial'in hkrle.a  kk&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8354-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8354-00000004"/>&#xD;
 0 7&#xD;
 &#xD;
 . ,be 1la.that the law of his God wa&#xD;
@@ -564,7 +569,7 @@ streg, $ 6 helb; if God inspires no ~fsweetestideal of creation te etrag  e&#xD;
 th  nlrhop dif' tiel,' thetangernepl tojletxagazse o 9~eetut   bt~&#xD;
 'A  J i p     ho55itrststie.sTo2       cttt~ae      ~.e'a    ers       n$&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8354-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8354-00000005"/>&#xD;
 .98&#xD;
 ottqz Oa l drowped qthedehigg of Jap Amra       .   l taveitthot'ewest thyproudTieion&#xD;
 6fne 1t i4zathy prsepnca bdygg on thaf- n Samaria adivest with U82 tdheyaouna&#xD;
@@ -728,7 +733,7 @@ V&#xD;
 y&#xD;
 0&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8354-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8354-00000006"/>&#xD;
 TUB  lI1IsT o&#xD;
 &#xD;
 8    i t4 fteds; tosfeMiatyatia, step aaiist tle patriot o w1e drIe  f oin&#xD;
@@ -879,7 +884,7 @@ yrians reso ned .froh&#xD;
 Andth'otsofas~i~jz' ~iti&#xD;
 R 8 .&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8354-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8354-00000007"/>&#xD;
 42                            T A1   Fi&#xD;
 " ,; " I de Are he is innocent," .he sta-&#xD;
 Stlr nyoiced ,Whateve-e say~s&#xD;
@@ -1038,7 +1043,7 @@ e'four initiarilettersof thsi nIo   t rs of' th e     go    g      s&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8354-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8354-00000008"/>&#xD;
 Tn    i   r o&#xD;
 gr fltteriig admirers, to the rich ard and golde  utehsileglared with dazzling&#xD;
 ^E~ax t~  h6fear eaito' euspcted as ra ys, apparently to increase th 1eet-&#xD;
@@ -1187,7 +1192,7 @@ d J, me, the man wih    l high giit&#xD;
 ndgpnsrencess your. frisdand' fo d '&#xD;
 crihe4 yon Je egbr eiseo    hnd&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8354-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8354-00000009"/>&#xD;
 prI   obey my will. Nonein this ietropb fore the servaits succeeded in opening the&#xD;
 "s dare discountenance  my wishs.   will doo&#xD;
 I. ,'uea ,o                              - "  l e  u  .cept,  "'as it come  far i thee, royal&#xD;
@@ -1299,7 +1304,7 @@ a4, was 'audi~lgeligejg~oye a~Wfre privstpgooml1nh forh deg&#xD;
 songs' n  i orusses. Jonathan imagined Glreek vestments of the ricest style.~~~&#xD;
 3&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8354-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8354-00000010"/>&#xD;
 18                   T   E. FIRtST    O F&#xD;
 T                       E, z.,.,TOFlrd,";ad  g."1 cranlibelieve,  ;&#xD;
 ,"          y  oord pertainlye       ergr to he sentinels In.a few ipoments,&#xD;
@@ -1447,7 +1452,7 @@ themselves ? How could 1 speak intelligibly curse andI clash ar ns," Amni sad' e
 if itlkthiirand persons a're'unintelligible? I t86kr m  ha and rna to see~eI4&#xD;
 The tliottatatinr@ae Oi ie, the 'rocks juinp dtineed, sunig, r ynied and j3ed 6 ut'i*&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8354-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8354-00000011"/>&#xD;
 Tzi FIR T o0&#xD;
 here   ,a oQne to listen, then heksa favor of me? And why4oes Jonu.&#xD;
 c ne men wi i ,words;and lanes; and away atl ny pity me?"&#xD;
@@ -1569,7 +1574,7 @@ feeeleaogntaiuern,' They may",sacrifice uswasihs reply            a&#xD;
 thesives. id theiriungoestjamilies  ith  ' iAd paricipateinthe rebe#1Hon?1Men-,&#xD;
 fsuea$i goal; but they eali efeet nothing.--. clagshfurther -asked.u nkad&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8354-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8354-00000012"/>&#xD;
 T v~  A%  ~~&#xD;
 &#xD;
 ' u c  ft '0?&#xD;
@@ -1658,7 +1663,7 @@ se nte r ed .  "Jonh  a-n +en  toati;the} e4ln~  M~h ove po; bithO 4;n$h&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8354-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8354-00000013"/>&#xD;
 (t tfld i li  ae    thet ,' itia ith oi ters, and&#xD;
 ietstel ;~i ik- bn lefi tdiet1 lb tli ofd1 a an 7 diI&#xD;
 Sd Miend redniand; without saying another 46g     On&#xD;
@@ -1804,7 +1809,7 @@ meian setdy~ QOur~tq*s~~i&#xD;
 &#xD;
 THE . =MACCA1i'1E5.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8354-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8354-00000014"/>&#xD;
 , $ 6                    ~  , T HE i&#xD;
 were  matter of ridicule to the witty and&#xD;
 enl ten d. Or, religious feelings were&#xD;
@@ -1971,7 +1976,7 @@ Wil htv  6et''goiti'"my 'ny bl oved NofVhs?~          oiis,~&#xD;
 N~'Ae~igWiky~ifennietiI love thee better wtoi       i   a    4&#xD;
 "the fool of my father informed me of' thy' f  iaedll? Fiptfi's speak W tdr-&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8354-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8354-00000015"/>&#xD;
 T8 Tg                                r_ E[RAsT  07&#xD;
 sa4theeright. For a world.I would not than," she said.  "My ,father, gwever,&#xD;
 a l~rsi tand hee."                said: expediency requires that we submit to&#xD;
@@ -2083,7 +2088,7 @@ anm,' Was the reply., "Whastare thyamate. eplglf shudder "gd&#xD;
 rials?"w*s ~ ge i;e3t 'i tjoi.&amp;amp;2nar. te#ibh.m   iyserb   (&#xD;
 stonegand eblonzg stone@,'Jonathan replieL raet'.s ede&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8354-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8354-00000016"/>&#xD;
 A n F&#xD;
 mieji~as mah as nmay be in my power.-&#xD;
 it is y will Alcymes,.;that faithful'and ela&#xD;
@@ -2248,7 +2253,7 @@ vin ed    was the answer "the .iaced was his doinah, and IkilliiizNht&#xD;
 law  en~ie~hera:$riinE~ ~ci   nonlangaa~e ow eliioi ian n m&#xD;
 an d~' nti~n4th 4~'         ~alt -zixh    miet~-Hp&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8354-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8354-00000017"/>&#xD;
 _ r   4Ehie, This iWinyinstruction. ,he e- ochus Epiphanes, kitig of ,al yria aid:eerm&#xD;
 fe1des ichd       su  ient, number;of aja, the favorite of°;the godslaud -especially&#xD;
 ,men ok  e evpy rebel#on .tl-buntaini ofMats nd i4enus.h'&#xD;
@@ -2363,7 +2368,7 @@ live'Wil t               aa~ero suber  n'the yeahed.  Jose could pio6 alk as fas
 em     fd    h'   sad Jos, shntl'guards, .and 'Alcynios nrged, 't'Godagte       -&#xD;
 Td' od. sinner;.time oeghe ferotoie4N&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8354-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8354-00000018"/>&#xD;
 ybitr G0d cau not.reach you; he is old and&#xD;
 st 4&#xD;
 4t   p t O&amp;amp;intitwo strong arms seized'thg&#xD;
@@ -2533,7 +2538,7 @@ to drive the Syrians i'rona theirtposition arnd 'I y o  he~i tha~~~n~&#xD;
 took litheitpdvisioni' sIn the sienee of  tt~tod"si'M~aIM&#xD;
 night esuirprisedtheni and $go  d'them  h  oredfhs~t         ~4v~~&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8354-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8354-00000019"/>&#xD;
 H   EE&#xD;
 ogJ    4 _#  Samaria; and alsothose coming&#xD;
 £zrthesther sideAof Jordan," said Simon.&#xD;
@@ -2742,7 +2747,7 @@ dekeddessafIife. M4eeasae~&#xD;
 &#xD;
 Tiii&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8354-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8354-00000020"/>&#xD;
 9      por mst a causebe if Matathia in the storm of misery? God must despise&#xD;
 r~a      n dead i nio better . the he9 such, a shadow ofhis .images To save ,the.&#xD;
 _ g       laus;d  j Is our,:God so capri- true ,manis? Oman's noblest duty,' and this 18&#xD;
@@ -2849,7 +2854,7 @@ uttered in 'wid awrnmotidn 'd  oft 'aveg  ven for ,eenge Gow       *ajai&#xD;
 cried assionately    ~ athia,' kaow thee and trust imd a&#xD;
 no mo to  art ri the ion  f ~oda "   Te &amp;amp;1rthrea     h,~~er ra&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8354-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8354-00000021"/>&#xD;
 4&#xD;
 &#xD;
 Hr  .is 'FRT  OF&#xD;
@@ -3002,7 +3007,7 @@ o     d to&#xD;
 919 gt  .secme" '~ .Rr 1 r 1V&#xD;
 bit   -        "   ts&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8354-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8354-00000022"/>&#xD;
 *&#xD;
 &#xD;
 ,' ItyV4  a ftuha  rih i ,ar  that hIF il.Ti  Iir' h is Lte present wvr  of {the&#xD;
@@ -3076,7 +3081,7 @@ y heusa!  d  [           i&#xD;
 &#xD;
 ,I &#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8354-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8354-00000023"/>&#xD;
 '.4,1J t' f', ''thcusa ~foId-'±dath t 'th   "°   many .men ar out' against me11"&#xD;
 e   s     vSo ter t,itfoes  o f myeo'- he inqiuired.,,&#xD;
 ,   __        nie 3&amp;amp;e -'i  h,b ines  Abte ffteeibuDudfired =was the' an-&#xD;
@@ -3153,7 +3158,7 @@ ci&#xD;
 awa&#xD;
 a ,ts .&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8354-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8354-00000024"/>&#xD;
 * ng L, *  *  *  esnd&#xD;
 ~true .d'us,,toy infornx&#xD;
 4h0  lKingarmy:, if. they&#xD;
@@ -3221,7 +3226,7 @@ tea  oft  \  tI zvcI., ; '.r, . ,,   rr  in s4 ae 1was1a; $#  4,;1";t&#xD;
 i .?  ,°  r fdI, )   lj  r  the  ,  \V'  $h  ~ to4  6W z i&amp;amp;Vdf e e  ?!  a e$  f"  he  v M~,'hi  "&#xD;
 1tI  *  }   V.'-' '(    , :'  't  i ,  rW oui7  Y   I ., . t ke n   i.," tial's ' .d ,  ..  p1i o&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8354-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8354-00000025"/>&#xD;
 aio~~fear4gwith.OI ~onetib       tghtri e trpsops tba he ie14ef acti1--&#xD;
 avit ry   gr  to te g e  th ; erg ttvithistanwg  the thundering  voice of&#xD;
 Satathiyhich igke the *id, sounded ev-&#xD;
@@ -3340,7 +3345,7 @@ vitey  i iteiiuytddl'0l6ein'Sifence ment, to inquire aft~ithfesse fheise.&#xD;
 th( g    ggf         iaigfo NW3fweaWd                                he&#xD;
 and.ff~lt tliOMie    nt'r   a1Af lAk oala 33' e"&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8354-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8354-00000026"/>&#xD;
 T   ,E  F. I R ST  O F&#xD;
 S " Qfebhadai I sing, thi prince 'of thy  Suddenly Amram stopped and looked on&#xD;
 eoleorse woho..hntei me.like a wild:beast," the highpriest with such an idiotic visage,&#xD;
@@ -3454,7 +3459,7 @@ thyspeak of the cities,  the fool 5aid.- ence~was notobserved bfre."    aW$&#xD;
 And the Jewelsle derided,            and thunlder, wih a thousand flery h4s&#xD;
 Let therpprple ecan;'  '            ike those in which ia dpe  heta&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8354-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8354-00000027"/>&#xD;
 TUE 1 RS Oh.&#xD;
 g"WUtyou   gatJy begienk  saucy fool!" thought, and gashed his, teeth with anger.&#xD;
 the ghpriest said.                        " I believe you, my friend Alcymos;but:&#xD;
@@ -3574,7 +3579,7 @@ I~i~,~iy  e ~e&amp;amp;~  egine,: Aspaisia eASee 'ajie  twei a   t e     e&#xD;
 cipedtA4'Mdido tphwiswrp4ratandubsi gaedand y$tp         i tKhi4&#xD;
 Y0#$dsadardy        a Yiuagrthe:shpse 'a4sdeating   nuiptta1 i   $~Q&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8354-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8354-00000028"/>&#xD;
 *                            ..T.°n" F 1.  ? ir'p.&#xD;
 huang frokiihis shoulders in graceful folds." deathbed',ursed'ydu', on aecounf ef the poi.&#xD;
 Amri took seat opposite Aspasia, 'his left son you administered to'him,' t be' the hair-&#xD;
@@ -3687,7 +3692,7 @@ entice Jinathanitiao your net y the agency har sl, 'after khe'atateeq p&#xD;
 of ,lik br~e #idhis honor, the Ipzeghnie ~ ~ blood zakindoaet ge/f&#xD;
 must l11   gdelhjir bo6 aaseedncien s4idiflyd                  wh$e&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8354-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8354-00000029"/>&#xD;
 °na r stitutedSher body, aned'shenes  'My die lady, name;bin, describe hi&#xD;
 danew   d    Sataid deslgs, 'deserves ndt the villain, and lie shall not escape us, "ao&#xD;
 th8 eshstresof a mother, ca' inot been of the Fguardians said&#xD;
@@ -3794,7 +3799,7 @@ vent~ie ro aryii' n t to the ie lesatisfy Mi distru t paiomis RThe'*as&#xD;
 '"~ e~ n9 even Apolioninu?$1mht sonadshda ioan patrp  t in s14 t&#xD;
 strange I' sW lymon  "It eppiirs, nilmteag4tUafa*the mtinfulgel&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8354-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8354-00000030"/>&#xD;
 - Ti     'I R54,  -F&#xD;
 eeuences fo rthe life of his daughter' the, dust and flatter with smooth tongue&#xD;
 aSdOi&amp;amp;tended to speak agaiato Apolloniu0s- long' as they mst; but their venom comes&#xD;
@@ -3956,7 +3961,7 @@ Ph larches  r       turned to te -g.r&#xD;
 nd ~dghu n an a         thdihr~t&#xD;
 e frends of the king;therefoee cam~ to&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8354-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8354-00000031"/>&#xD;
 "Philardhes'Is welcome to me, said the&#xD;
 sagthriest;  "butiwhat 'can  I 'do againt'.the&#xD;
 kin'es governor?""&#xD;
@@ -4122,7 +4127,7 @@ ee dfea "' that mourggge4s Jgggt~aui elgipydbe in 4n&#xD;
 ot~r~  he wpge rfight f     seonstA' arsin t9' b   ispaebrogiedig&#xD;
 ".  ou~  right and fair as thou art, my  Rebeeca embraced and fondly nated her&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8354-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8354-00000032"/>&#xD;
 TE,, EF TlT OF&#xD;
 ;x t  rs,.hreast.  " 1 , wl1complainp go hands Amiramnstod awhile, tlen heexclaim-&#xD;
 9re,.y bro    1ehe saig. 1at ed             yrany! tis is. female.tyranny, she&#xD;
@@ -4232,7 +4237,7 @@ braetleeiiitorl Wbeafthe galdatds' def mauet ci fd     &amp;amp;se     fMt8i&#xD
 Siggaian'nd aomsall l.@eathet P lagn1' fojitt  e eion   a&#xD;
 to'eery hesrtanduiite  fiagal oli's''ea','is noved byher wretchedniess, andiowe T"&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8354-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8354-00000033"/>&#xD;
 ted'' jonathaithought, "and I let her die riors, that the Lord had Inspired Jonathan-&#xD;
 because she rescued me." He could not bear as He didthe son of Saul to go into the catfp&#xD;
 th; iso- 'Tweptymtines heoexelaimed, ".I of'the enemy and chastise the Gentiles who&#xD;
@@ -4346,7 +4351,7 @@ our he4,the sea dsserts its old channel our glorious father,' sad S imn~  ho&#xD
 gndl giales us away, or the sun breaks from pointed Jndah Nacobee his suceso&#xD;
 9'&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8354-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8354-00000034"/>&#xD;
 6 - Tu H'FIus T 0?&#xD;
 uT    'ndth  ui   Israeel'hosts. indeed; thy 'Just is our cause, strong are 'our arnis,&#xD;
 lo±t, ,c6urag6 'end" confidence, is' supe- nigh is our God," 'was your-father's adage;&#xD;
@@ -4468,7 +4473,7 @@ the world,:thatruth inspires the heartarithr the audacitot deseeiate the mbilefo
 mighty valorgandethedlove ofdliberty 'i$ o  ainuiueruslinu  ieandi~hle  'wi ld.&#xD;
 afire from beaveip that impels drdsidMibly to vance slowly to tliedeserh Ido ndtb1lIaf&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8354-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8354-00000035"/>&#xD;
 TaE    FiRST     OF&#xD;
 ipyselfi' that the rebels 'will venture out of "Therefore I will crush the rebels before&#xD;
 t teswilderness; they dare not venture a their number is thus augmented," said&#xD;
@@ -4614,7 +4619,7 @@ unpleasant obligations, even hicfuwin&#xD;
 _&#xD;
 ?Y ,&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8354-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8354-00000036"/>&#xD;
 THE   FrR T .OF&#xD;
 you die. ;Yet, beloved, maiden, yet itis  "Away, serpentile woman," Iphegine&#xD;
 tint, to savetyour life; yet it might be in my cried, "and deprive menot of my hopes in&#xD;
@@ -4795,7 +4800,7 @@ ha.. XReywhere    phtserN.       9&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8354-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8354-00000037"/>&#xD;
 T HE.FIRST      oF&#xD;
 dieted the end of oppression. Signs were brother, and on returning he tarried -too&#xD;
 seen in heaven and expounded as the reveal- long at Engadi; there he was surprised with,&#xD;
@@ -4961,7 +4966,7 @@ hope,'tWhit he' till '~ightjiefft zil ~o&#xD;
 he iatriotsf and lOoe'd'ia   i~&#xD;
 his sincere wish.     .~     :&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8354-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8354-00000038"/>&#xD;
 74                           THE    F&#xD;
 CHAPTER X VII.'&#xD;
 CoNsTERNATIoT.&#xD;
@@ -5133,7 +5138,7 @@ g :13h             ..                     ,"&#xD;
 &#xD;
 t.  .&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8354-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8354-00000039"/>&#xD;
 76'                          TuB    FIRsr    O.&#xD;
 my horned hat, and made a Syrian, soldier " There is treason, foul treachery nt the bot-&#xD;
 of me. I was;send to Ashmadai'to Ziklag." tom. 0, my king, how art thou betrayed by&#xD;
@@ -5325,7 +5330,7 @@ In Orcus atrwin ghosts aiia shaes.&#xD;
 He drinks theblod of hearts ' ''&#xD;
 Which suffr pain, despair, remorse;' ,&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8354-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8354-00000040"/>&#xD;
 ,78'&#xD;
 &#xD;
 Tint FiRST OF&#xD;
@@ -5469,7 +5474,7 @@ olier, namung, the davisions and offeprs fore I request you to send its back to 
 wo charged with the task, "an4 let frieds".a&#xD;
 th~nmarc dy aund night to reach Jerupa- "said evr violated the rights qf he r~~&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8354-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8354-00000041"/>&#xD;
 '                         -   Ta      FiRST' O&#xD;
 "9Deceiuse'you never' tiorrht, 'that- words you mustha  e despised us, as you'despise&#xD;
 are fram  sounds," said Jonathan.  "Now aworthless cowards, had wepatiently'suffe-ed&#xD;
@@ -5591,7 +5596,7 @@ er 'Smon wag busy engaged in" conversa- an attagkfrQmi  .  WAu1      4  n&#xD;
 tion with the great chief.'           tion is directed. Two touad me     ~ aie&#xD;
 11&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8354-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8354-00000042"/>&#xD;
 82                           THE   F&#xD;
 t, aoetl~re already. This is our time;&#xD;
 let us improve!it."&#xD;
@@ -5806,7 +5811,7 @@ mi lfoktand teara,' eaid ipig~&#xD;
 &#xD;
 T H E MA OCABEIS.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8354-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8354-00000043"/>&#xD;
 son e : "tgue's seetes acenerie  which ofice of ;,igbpriestess x of. Venus;;tbut.o&#xD;
 96  E4LyI lpatpegwith Pny sope.had (learned the sinfulness oef ay,&#xD;
 ch1 lyearpig afterhome.    ooon, official position, than Ithrew-off the sacer-&#xD;
@@ -5977,7 +5982,7 @@ quietudc gf A  itina&#xD;
 ge4Jse, "Who instruetdA e&#xD;
 ap. Ipg    oc      Ap&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8354-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8354-00000044"/>&#xD;
 T8E F&#xD;
 per  Spea, gbo  father let me'know 'ev.e-&#xD;
 ryithiejgthiisheet to say.&#xD;
@@ -6149,7 +6154,7 @@ that they nesantly egne      lrfeehyugs le l; jpmxst ~o ypotet Ahe serpent an-&#
 lddtea  s p~ taoyr ~par~~               agh en o~ Xelaus!"all ex-&#xD;
 of s0                pt56j to~an~cai~e~wt                         ~W~     ru&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8354-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8354-00000045"/>&#xD;
 erllllll'em '6th!" diffem'en't parties 'fui&#xD;
 i   sly rieI:  "You 'shallt"nokill her 'as&#xD;
 'As"I live''+ theh'bo5*cied; interposin&#xD;
@@ -6294,7 +6299,7 @@ wllH leAodlate Thett      i fgr oi 4  l    vifed b  h  $A    n&#xD;
 otat'    chlbagabi'~ l%  fre' we cmile 1$ eady to enter upon izrw in, nd&#xD;
 esge  kheishei                                  of n1 ofdh  [ithilie ufsg&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8354-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8354-00000046"/>&#xD;
 a   ready I am to diminish it a&#xD;
 4    a'ffiemunble pawae.'"'&#xD;
 .   antie1!1Iea ba, Jtdh&#xD;
@@ -6453,7 +6458,7 @@ wh   old      Venus. Jonathan abandon= Peen is ugi eathepast ?     tothe ,,  e .
 (d in'ie Weloe and esteerkiue nre1 th      htN condeguis tiee not Ie~pe&#xD;
 lN''i tdrue    Ead $$ai', why didetter and heed no ther'             A it~i~&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8354-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8354-00000047"/>&#xD;
 THE     FIST    OF&#xD;
 wdarest thou despair of the goodness of steps and twill do whatsoever .thou sayest.&#xD;
 E49 wh    Md'   in.' d snghaie t6 iefies' 'May God forgiF iy fu her, may heQhield&#xD;
@@ -6565,7 +6570,7 @@ or crying bae4    or theor  se     o "   a    te ussd&#xD;
 Iam ot a  n of'    erdlgve             ,e     s&#xD;
 ~ ,,       m    o  gi                   AlAI   ad laughs toasobrany s~ks.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8354-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8354-00000048"/>&#xD;
 TiulE  rlR9T    OF'&#xD;
 might bheIe                       - sse 1thstt he  ot the gt of he&#xD;
 r atsQerta    the abode of Ipbegine.  e reached him a dry skull and bade him wpI&#xD;
@@ -6699,7 +6704,7 @@ this land, wilthen A spaia bemine?"&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8354-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8354-00000049"/>&#xD;
 the  biMde c ai't naot f~r ti.,polluted and&#xD;
 dl$oored." ile 'reltindt&amp;amp;tift houteido&#xD;
 rant as he left it and undecided what course&#xD;
@@ -6867,7 +6872,7 @@ t,&#xD;
 .&#xD;
 i                 i&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8354-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8354-00000050"/>&#xD;
 %  brothers were divided in .pinion  the violent emotions oQfher heart, - Jonathan&#xD;
 4eaandtJouathan;wished to take the on- grasped his sister'sa handto lead herawaye&#xD;
 my ~paprise/before he coolAdthik$f an when: Amrazin cried, passionately, 4Stay,&#xD;
@@ -6988,7 +6993,7 @@ cape the hands of vengeance. ol~gone~'  Mintgre   aok tWe Wodnldn'       zh~ta&#
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8354-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8354-00000051"/>&#xD;
 Turn FJUST.0&#xD;
 &#xD;
 ;?F             tse &amp;amp; 'j, Vise;theoto hav&#xD;
@@ -7152,7 +7157,7 @@ thehgleui~g vadiey, ayety of dolers###d saitt 66iir i&#xD;
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8354-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8354-00000052"/>&#xD;
 ~xrted fbO the right o s&#xD;
 Alitei~Coouant, saIseo 't&#xD;
 the r i t 11 h God i: ddrjes :mn&#xD;
@@ -7286,7 +7291,7 @@ ldoe  iW this, su He st toun lybooks: they-~w rO n tpwetbC -k~l pleMt&#xD;
 tea  h,.that -truth wiltriuz npb ap last .a  am~ong.thekiee ii&#xD;
 ;t'                      }    7!&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8354-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8354-00000053"/>&#xD;
 VNeii 4ndi whee id theyi kill idelar&#xD;
 M4?   # ' n    o :ini red r,  n  '&#xD;
 GM a they  illec di ts&#xD;
@@ -7461,7 +7466,7 @@ As~pt ffse 'osener      - n a  °&#xD;
 tics h i t of theory v sf qg&#xD;
 which the.pilos0 hers ;off  eebe1 o    td10&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8354-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8354-00000054"/>&#xD;
 1IPfrS!oF&#xD;
 &#xD;
 totit loflet thoeservints'&#xD;
@@ -7611,7 +7616,7 @@ t0  9la      iec44~es             oner  l~e~sM            e~&#xD;
 taeta sour to hi ~ho li    rgQnons best.--i&#xD;
 Th       M $ M!i                                            7Ft    4 *L . teelo*e*ti**t:&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8354-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8354-00000055"/>&#xD;
 us'n   FP   s    &amp;amp;r         -&#xD;
 ORi;fl   ~  etre andhespghtoi  die .Rs VilA           p    AE XK  IV&#xD;
 She i u ic eded iinseda  ni  baym of It 1wasthenfifteenth  r of the xoith of Ab,&#xD;
@@ -7759,7 +7764,7 @@ Jonathan-neither5 djdsheexpectsifsi.n p cGt&#xD;
 now Amr approached; and~  ersoee-&#xD;
 ,, Y t  , ~i...'. ", i- -i&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8354-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8354-00000056"/>&#xD;
 lieI3    Whatpi4Josht   tell te?   and speak! Not a ,word, not-asingle word of&#xD;
 .'oetns .otb eame knd were consolation did he senid re?"'&#xD;
 1'      Z-Adressedo       mram.   It      o   word," said,'Arn' mournfully&#xD;
@@ -7934,7 +7939,7 @@ i&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8354-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8354-00000057"/>&#xD;
 uTiin P  tRT  or&#xD;
 a  n; 'the'people'shouted''another,,priest in presence!"  Meanwhile the priests blew.&#xD;
 elgloth  ndsehes'up on.,his headl-cri d, their hundred cornets.  Tekizah and Tsak,&#xD;
@@ -8049,7 +8054,7 @@ dern    irr'ii t'tar  Aghis -hands 'ani d all of enthusiasm and glory.' Hndredsl
 of teo'irm e  i'the2graisejof lie Lr'd.-#thg edge 9fhtheOld piigarment whg was&#xD;
 And I geked wht 'is thid, 'There a~n tbshel is obha tjmyte rpoedde dygee&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8354-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8354-00000058"/>&#xD;
 T .THE                             F&#xD;
 #danced almost frantic with enthusiasm&#xD;
 Ot  ' 'epe;, jumped and clapped bads&#xD;
@@ -8276,7 +8281,7 @@ th inpvidib1  Gothe Areatoee(*no&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8354-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8354-00000059"/>&#xD;
 1TH10&#xD;
 ' '   p  4 e;toleny bhins theaost abom-&#xD;
 ' ittJofidieofoseienqeelW hQ.shlould&#xD;
@@ -8482,7 +8487,7 @@ judices of the Gentilesin be  6i it  I&#xD;
 This t dbst uridr e jli revalhignbreidum&#xD;
 stances to obtain advantngedi *eMrui6&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8354-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8354-00000060"/>&#xD;
 118                     THBE F&#xD;
 f'  Att;.  youshall be again 'the' prince of&#xD;
 5pnhedn,'    d saaid lymos".an&amp;amp;peace&#xD;
@@ -8699,7 +8704,7 @@ The center of all festivities at i~i&#xD;
 ereie~ as in Mizph "huaua~&#xD;
 ti i  r th  ir  &amp;amp;t       ote;te&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8354-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8354-00000061"/>&#xD;
 ep4hecorated wit the gay flowers and,&#xD;
 v rdan.folitge othe country presented'one&#xD;
 huete   ple 0f j. 'Strains of muSid and&#xD;
@@ -8878,7 +8883,7 @@ I'ed"t deandaIdnmission"'  'a"     dah, "ye advance tothr     f&#xD;
 ide eithelioise evhey:rse si    ltan, must' 'ex  ona an.&#xD;
 rly'nre  ter'    satps aid hn onehaers 'avringul&amp;amp;1 mena  of  Aherefrnd.&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8354-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8354-00000062"/>&#xD;
 "&#xD;
 &#xD;
 I12                          THE    FIRST    OF&#xD;
@@ -9000,7 +9005,7 @@ ifhope rets upon her, 6r. I will ascertain break 'the heart of a mother and pgea
 he inocenc beyond a doubt.' Go and res- that diabolic pleasure astehe expensido&#xD;
 ogn tem."                               your own life? Devils and furies nevia&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8354-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8354-00000063"/>&#xD;
 124                 -        "T WEFIRS       OF&#xD;
 vented so malicious a scheme; a man dies to Agait he tried the strength of his voice.. aIn&#xD;
 break theheart of a mother."         .rushed one of.the guards andcinquirei ter&#xD;
@@ -9112,7 +9117,7 @@ enketie di'guardians .ofdthe teiiugle' o "' informed hiof. oif drears P IO&#xD;
 ii r~saned~      ied' th'ed or what It is 'lmost ertailt Nihs :*  cai~~4&#xD;
 hid'dhenda    1hey niritdy'difrj$&amp;amp;sed the dityr'for threda@ if hyt~~~~&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8354-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8354-00000064"/>&#xD;
 THE  Fins ior&#xD;
 &#xD;
 foVde against it; still Ptolemy 'moves riot,&#xD;
@@ -9281,7 +9286,7 @@ pal#Nee buAsesi eame."    ,             M '' highp  f ejtait0  t~4~~&#xD;
 I 4#Ednot, understand this," said hewa        Medkef&#xD;
 Meneass'                              xepeatedeetptrsee okheglying4 il~ #&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8354-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8354-00000065"/>&#xD;
 THE    Fnst      Or'      -&#xD;
 IR                                          O     of Achshiif; and'rceinde d Menalaus of tied and gagged the old servant. When the&#xD;
 l his sins; whe 'suddenly -the door unher- morning dawned not.ai enemy' was visible&#xD;
@@ -9446,7 +9451,7 @@ Jan afted iaan repgated it nd dpar-&#xD;
 aed thog      ie dor     ftr0w0I4e&#xD;
 e t&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8354-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8354-00000066"/>&#xD;
 T      IE FIR'TS  OF&#xD;
 -blMatuck the stranger three- times on his 'the mountains of Judah. So Ptolena on&#xD;
 £eod edupon  i'which the stranger lifted up his part 'promised. Whereas Judah Mac-&#xD;
@@ -9612,7 +9617,7 @@ can take the comzaegde($ 4oth&amp;amp; be   ss '9pfRgbe~&#xD;
 of te Set ~  eg  uami waite- for!oasth~WaM&#xD;
 eteins~n4 the very hear$ the'ny&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8354-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8354-00000067"/>&#xD;
 THE' MACCAJBIEES.I!&#xD;
 &#xD;
 thoni and-promised to afford them other op-&#xD;
@@ -9836,7 +9841,7 @@ shy reps ed ,  i dly-ar g.&#xD;
 "er'Pove to ;J ath  r was so .coh uera-&#xD;
 ble tiat, not ithstanding the ,ccnrrepces of&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8354-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8354-00000068"/>&#xD;
 T{Hs    FlRtSrT   OF&#xD;
 &#xD;
 THE MA'CCAI3 ES.&#xD;
@@ -10047,7 +10052,7 @@ taedte f'1liin  cuuedan "6&#xD;
 &#xD;
 ,1&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8354-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8354-00000069"/>&#xD;
 Tna    F IUSi T  QF 2&#xD;
 + 3 d:dint ified-dth  at essan aiden,  WehRbe hee4 As gone Aspad-okiked&#xD;
 tA 40eM d t.ot.i te  nindigile wiri gabhntly fter her   "A   now J h e -&#xD;
@@ -10217,7 +10222,7 @@ diro  She nrst have wptyrygggzci gepp&#xD;
 Whopis hen cetpanienf agg4tIt&#xD;
 splendid purple nniform of aSyrisn tdaptpipi&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8354-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8354-00000070"/>&#xD;
 iSN                          TnA Pir$T oF&#xD;
 hip b  st'is decked with radiant stars and ger could prevent me from hurrying to your&#xD;
 06iig4oki oldnd diamonds, and his war- assistance, 'rescue you or die. I made my&#xD;
@@ -10361,7 +10366,7 @@ ist harene, 4h0 Napanrs rg: cjoe~ gaist pop9 W yon emgy a&#xD;
 -thmerited n(Eraiw # Pi4194yig and sner~ kavjk ga   ryggiwfg~ gs4       I At# r8&#xD;
 ing, ghisblind to hrpa1 aa1gey' ,     crime to love you, why lapg 49 [ t  ja&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8354-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8354-00000071"/>&#xD;
 a 'Iexilt , nre'than required by &amp;amp; lo ving,&#xD;
 Scredulau" " heai't, ' 'he' aid' "T066j1the&#xD;
 xa 'thy' deat Iyd Eyinghr6'Jonathan='tisk.&#xD;
@@ -10442,7 +10447,7 @@ i   er of rAmno , i the ,palace of .. pol private  onversa on.   natts ;V&#xD;
 &#xD;
 6&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8354-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8354-00000072"/>&#xD;
 40w$y  4j'w* Te        vahe qa T .y O of edhi- fi-tiond depotis  "d sglftwjlq ee&#xD;
 A.. r*:by       ore by tbewows ed: fate, thatbiud and.ion.o ge       pu-&#xD;
 yeh:    tog of 'tIoeQ reherke:,  gem preme ii Iieven A # a n ed tb gor 'ty&#xD;
@@ -10573,7 +10578,7 @@ r' ? k I   - -  m  .rI,. .y. jI&#xD;
 &#xD;
 140&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8354-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC8354-00000073"/>&#xD;
 .Ad    gsis'ahe g e1 ob;4ebis morning ,{.fher' we'..had jugt  ad ,up our&#xD;
 ew  rin    4  gayo r i;i4pegs inmind to retire to rest te foous genergla&#xD;
 theQ QpUjet g 'fa,;Antioeh, wa ain i ted, came in pd.inor ed.Ii pgjes  his&#xD;
@@ -10686,7 +10691,7 @@ ensf different wings of his aurmywgg h' aae it' i a the inorh gutifing~ (R #&#xD
 ~ ~  at       invo JtdasN wIt lhnd1httee&#xD;
 kisw~ho   ~ ny~                        brew warior   nbgat&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8354-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC8354-00000074"/>&#xD;
 TnE    FIst 1&#xD;
 Notwithstanding Ahe indigna-  " Aspasia, you say ?" Jonathan asked,&#xD;
 i op rmanifested in the camp, no David much surprised. "Did I not send her to&#xD;
@@ -10805,7 +10810,7 @@ exelaimned "~ 1 will rescue "her -from the ans ati:Achshaf, made good her escape
 cruel hands of her sed"- here he stopped scejteddin ceding some ofou~ .wariors&#xD;
 sbruptly. 'The word died on his lipsdand who led her to.ia, h&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8354-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC8354-00000075"/>&#xD;
 8                     Tiu     FLR$ST   0,?&#xD;
 Qie     cc rtin he               led oir ,parts under their feet, drank with&#xD;
 r     Ftd a  hertob      whi huc lc   w delight our reeking gore, disgrace our sia,&#xD;
@@ -10930,7 +10935,7 @@ imni tdji expose ,ear life,'slien:liar. en~4yy~t~s, ak vidsn)&#xD;
 yoiiebsefe en asionig esilve osneiso  alggpy4iht.r&#xD;
 gifwayonu  h inkigyowmelt Ijuhogiea Reheteba@J #&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8354-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC8354-00000076"/>&#xD;
 T~' FiiST    0oP&#xD;
 ' Tf ar i                       rra tF  r e "s ,9, s   tnew&#xD;
 fa     uteIphegine was isguised      ns ar take it, the boldest of the host contrived to&#xD;
@@ -11039,7 +11044,7 @@ saidtaiid   lbeli ve throughh the subiter to be~ avemige  yod~6.Alu~iii&#xD;
 "An  we~eieAlymo?  Jnathan su     o4    '~        l't&amp;amp;     ~    ~    t&#xD;
 4enskd&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8354-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC8354-00000077"/>&#xD;
 teetion .      g iq eg   ll ewith you. ;&#xD;
 e call Ac, ram and  requestedhim to es-&#xD;
 cort.uc ,n and her.cmpanins to Mizpah,&#xD;
@@ -11181,7 +11186,7 @@ era! weekslabor ere=h canoncentrate' bi f  ; RNid  te,,.'.i =&#xD;
 &#xD;
 t %&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8354-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC8354-00000078"/>&#xD;
 ti '.HH. -ai t. air&#xD;
 &#xD;
 ." Thanth W'x  aiu g'th  ,,aidsn;f the&#xD;
@@ -11275,7 +11280,7 @@ a" w e  p r o a e ' d   .- d i r e r e  O ,Pb   ° i  y . .  tF .ltl y   d;nd   
 proceeded to 1e         e'"I Wx4fs&#xD;
 es~f~ ~r&amp;amp;~wel~$ IThe ~a~t ~ his&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8354-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC8354-00000079"/>&#xD;
 EN1 Q Q$~f O y1i~eI1~Je~J               do;i ""-      "py,&#xD;
 '  .*       ti^f       "tt.   ;tymos had this rumor sred             {i&#xD;
 : 0006      i tey    t on th Lroa&amp;amp; Ixeabi  yo!  o~  arti y yo   Ia1Ifnd&#xD;
@@ -11325,7 +11330,7 @@ j  i&#xD;
 i&#xD;
 J&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8354-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC8354-00000080"/>&#xD;
 uiAfiY     aeefks    eel&#xD;
 tit bb ds OM r 22 C ation tudOrseI d-&#xD;
 tel  Zli tfrt  it Abhi1ne fil s h&#xD;
@@ -11399,7 +11404,7 @@ Ie ~ and noesoldierF,1t*a.c fi  d  ~t   ~       W~h&#xD;
 , f1 ; latw  "you-'. are u  S Lntyrian ,ni1Aeno   t s&amp;amp;e ,  i' i E dri ~ O11&#xD;
 sai T  hhe ies faher s f. otuelne an  'b,' uppse it.Th n rnis  o 'd 3&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8354-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC8354-00000081"/>&#xD;
 IW           ~TiiRr Frwor&#xD;
 to , f               ' to 4 4 w&amp;amp;  fnwo nibd&#xD;
 tt4:,to °;y  le   th* Let a evzyn  r b ire.  reay  ft t  o~w&#xD;
@@ -11447,7 +11452,7 @@ i,&#xD;
 &#xD;
 11,&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8354-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC8354-00000082"/>&#xD;
 ~ twas the e r"'*&#xD;
 !  '  .f       ,a tew w4ji&#xD;
 *e~~~fib wepereato&#xD;
@@ -11544,7 +11549,7 @@ rev'efe~ ~~~~I a"~ d~.~ ~sae'40MM&#xD;
 pt},wh .sek y' e  iht&#xD;
 andr   }iKe 4lgom         l&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8354-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC8354-00000083"/>&#xD;
 i  eh  sbu4 before ,he, could finish, M  n p   1  "   '    e ' rlrR(  cJ°&#xD;
 ~~ ~~ dotalti-re.. Menel;auschngd his  9f o&#xD;
 ~~~ c~q~e         rem iohap s ha d er , p~1ns  a&#xD;
@@ -11575,7 +11580,7 @@ feebleold ,' saWennaid ngsu&#xD;
 thinks : } iea o vhfanld aeih  " A pasia"  eey 44&#xD;
 her- i 'e boils  = #ic the : r  gedederwx ., n&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8354-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC8354-00000084"/>&#xD;
 ~tah" P* T ' F&#xD;
 , i j°tise eg S!aiD.  Are ow you  r '  t _&#xD;
 r  4  T ii  4  V i1A Ii'  h e 4&#xD;
@@ -11614,7 +11619,7 @@ ag 5sthe ene1fy, rs say lep  o  ,pjt p&#xD;
 &#xD;
 Tij M*4IAA~s.&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8354-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC8354-00000085"/>&#xD;
 ri 6d 'ofb idhyeit N6 Iif e40fW fde&#xD;
 t  ti t tby piracy-poison--yes, this is the igflpg&#xD;
 jeii  'i danipimy  t    ddis  e4dini ti igh-.&#xD;
@@ -11679,7 +11684,7 @@ t   ~ ~sstit     of popul~   n ueu        he    4   9   r M$ % 4h&#xD;
 ie/M       iso  nt ghe    ge   Pge' poeesd to ApI~&#xD;
 '* 22 -nuewihketh            nni~dt&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8354-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC8354-00000086"/>&#xD;
 4 1  Mf T '  4m t&#xD;
 'pIh a  ~l ';e 41Id$lah&#xD;
 &#xD;
@@ -11759,7 +11764,7 @@ at w Ihai&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8354-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC8354-00000087"/>&#xD;
 ' ~ be, oastjn  her gae on U6i ob-&#xD;
 'srwi t ,e PresenOe of  spasia. She ro$e,&#xD;
 antovaronting Aspasia, she eadin  comn-&#xD;
@@ -11923,7 +11928,7 @@ sia. "That is her    r wl6'ibo ft#hr&#xD;
 hubol d;"!he said.    t&#xD;
 hold 1 under   ' fhd        h w&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8354-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC8354-00000088"/>&#xD;
 ib  gghegasw   adgaadie~        noghe unhapyenlis    e   s $4#e4   he&#xD;
 * e  cl.da(ps#       da4   teit   iep4 way to the terriblessho,}fdat0do&#xD;
 ed         ~g es ~rgvged wriidlyc~iikeguimthie?  the,;giver 'orbe 2d e&#xD;
@@ -12032,7 +12037,7 @@ f i&#xD;
 &#xD;
 I-&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8354-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC8354-00000089"/>&#xD;
 .   i Y he    Mdt rihf&#xD;
 cdri %, i sed ,yJose',re=&#xD;
 . fathedisin4he ago;&#xD;
@@ -12158,7 +12163,7 @@ fit&#xD;
 &#xD;
 -Li&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8354-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC8354-00000090"/>&#xD;
 7                        TH&#xD;
 ar ,"a Jeghan, "Speak likea mor-&#xD;
 t~ i Mi  xat Iwo ship 'th e not.,"&#xD;
@@ -12310,7 +12315,7 @@ the frankincense, then he placed twelve .ernor, Jonathan Apphas, Simon Thassi an
 sh-wbreads on the golden table, and return- John Caddis, the sons of the glorio ts Mata&#xD;
 d to, less the people.     .thia, shall be the chief captains         f lsaaela'&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8354-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC8354-00000091"/>&#xD;
 ed iiit"i6~&#xD;
 then} W  AA&#xD;
 i~iwe" w   i~&#xD;
@@ -12350,8 +12355,8 @@ vu&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

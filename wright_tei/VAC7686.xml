@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7686">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7686">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Claudine Lavalle, or, The First Convict ; The Mormoness, or, The Trials of Mary Maverick </title>
-            <author >Russell, John.</author>
+            <title>Claudine Lavalle, or, The First Convict ; The Mormoness, or, The Trials of Mary Maverick </title>
+            <author>Russell, John.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7686</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7686</idno>
+            <idno type="wright2" n="previous">wright2-2142</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Claudine Lavalle, or, The first convict ; The Mormoness, or, The trials of Mary Maverick</title>
-                  <author >Russell, John.</author>
+                  <title>Claudine Lavalle, or, The first convict ; The Mormoness, or, The trials of Mary Maverick</title>
+                  <author>Russell, John.</author>
                </titleStmt>
-               <extent >89 p.</extent>
+               <extent>89 p.</extent>
                <publicationStmt>
-                  <publisher >Courier Stream Press</publisher>
+                  <publisher>Courier Stream Press</publisher>
                   <pubPlace>Alton [Ill.] </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-05">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-05">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Claudine Lavalle, or, The first convict ; The Mormoness, or, The trials of Mary Maverick</head> 
+            <head>Claudine Lavalle, or, The first convict ; The Mormoness, or, The trials of Mary Maverick</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7686-00000001"/>CLAUDINE LAVAJJ~E~&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7686-00000001"/>CLAUDINE LAVAJJ~E~&#xD;
 FIRST CONY]&#xD;
 * iHE MORMONE.SS;&#xD;
 OR,&#xD;
@@ -98,7 +103,7 @@ OOURI~R STEAM PRESS PiUWP..&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7686-00000002"/>&#xD;
+<pb n="" xml:id="VAC7686-00000002"/>&#xD;
 '44                                                                    "4'&#xD;
 '444'44.&#xD;
 &#xD;
@@ -163,7 +168,7 @@ I ~ ~&#xD;
 &#xD;
 ik&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC7686-00000003"/>&#xD;
+<pb n="2-3" xml:id="VAC7686-00000003"/>&#xD;
 2                    CLAU~INE LAVALIAE,&#xD;
 administraLion of justi~ but the summar~det~i-&#xD;
 styled, had known no                          their property were&#xD;
@@ -249,7 +254,7 @@ public mind, sensations similar to those a beast of prey may be suppo~ea'&#xD;
 to feel, who eees the victim upon which he is abont to feast, z~i dander&#xD;
 &amp;amp;f being torn from his grasp.&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7686-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC7686-00000004"/>&#xD;
 d~AVI~INBLAVAL~$~&#xD;
 4larmed by the reports in circulation$ h~he jailo~ refused admission to&#xD;
 ~he, who had wise~ft takenti jpreca~itioii to 'obtain&#xD;
@@ -337,7 +342,7 @@ that the only means by which his silence could be secured, was to unite&#xD;
 all their interests together.&#xD;
 Claudine heard this dastardly threat, ~vith far deeper anguish than&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7686-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7686-00000005"/>&#xD;
 CT4AUDLN1~ IAAYAtLE, OR&#xD;
 &#xD;
 she chose to betray, yet' calmly, firmly replied, that if Robertson actu-&#xD;
@@ -424,7 +429,7 @@ The 'gallows, if his sister exposed him~&#xD;
 ~Moved with compassion for her fallen brother, and influenced by his&#xD;
 as~ux~ae that Robertson was about to depart for Prairie Des Sioux,,&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7686-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC7686-00000006"/>&#xD;
 4&#xD;
 &#xD;
 8&#xD;
@@ -513,7 +518,7 @@ atreal cause of fear was there, after all, to aeter her from remaining&#xD;
 iii her own room? There was both a lock and a bolt to her door, either&#xD;
 .2&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7686-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7686-00000007"/>&#xD;
 10&#xD;
 &#xD;
 CLAUDINE LAVALLE, OR&#xD;
@@ -608,7 +613,7 @@ curtains, she saw,-with astonishment, several of the inhabitantf fthe&#xD;
 village: hurrying- rapidly across the yard. The' view ifrom the witidow&#xD;
 ~was toordimited to pertnit her to discover where they were going. M'ith&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7686-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7686-00000008"/>&#xD;
 12&#xD;
 &#xD;
 CIJAUDINR LAVAtLF~, OR&#xD;
@@ -712,7 +717,7 @@ Which high iayekiders1iniss~e~?&#xD;
 &#xD;
 ig&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7686-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7686-00000009"/>&#xD;
 14                   CLAUDINR LAVALLZ 'OR&#xD;
 priest had prolonged his accustomed visit to the prisoner, far beyond the&#xD;
 period usually assigned to his visits.. Thethfrd hour after midnight, when&#xD;
@@ -801,7 +806,7 @@ to my detection." As he uttered, this threat, he rais~1 his ann4 and the'&#xD;
 light of the la~rip gleamed on the br~gLt carrel of api~to1.&#xD;
 Fear and astonishn~ent, not unmingled with curiosity, kept her. silent..&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7686-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC7686-00000010"/>&#xD;
 CLAUDINE-LA~ALLFJ, OR&#xD;
 ~ ~I~e hastened to acquaint her with~th~ object efhis- secret-visit.- lie had.&#xD;
 ' entered -by a narrow door that h~d #rig~een unused,. the existence ~of&#xD;
@@ -889,7 +894,7 @@ joy at his return. The soft air of spring came over the wide prairies&#xD;
 of thc surrounding country, bearing upon its balmy wings the fragrance&#xD;
 .3&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7686-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7686-00000011"/>&#xD;
 CLAL'DINE~ LA~VALLE, t)K                                                'THE FIl~ST CONVICT.                   19&#xD;
 &#xD;
 of unnumbered wild lowerss, known onl'y to those iS~irnense plains o4&#xD;
@@ -977,7 +982,7 @@ CHAPT1~R IV.&#xD;
 If it should dome to that."-Basit.&#xD;
 The appearance of Claudino Lavalle at the bai' was calm, dignified,&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7686-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7686-00000012"/>&#xD;
 I"&#xD;
 &#xD;
 CLAIJ1)1NE LAVALL1~, Olt                                                                                                           #21&#xD;
@@ -1069,7 +1074,7 @@ ter, that h~' would believe 'her on her bare 'assertion, in 'e~ositj~ ~,&#xD;
 &#xD;
 R1&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7686-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7686-00000013"/>&#xD;
 ~OLAiIYIN'E bA'YA'L1A~, 'Ott&#xD;
 all the testimony' ~ that could he ~arrayed 'against' her. lie wotild have&#xD;
 said more, but was interrupted by the prosecuting attorney, who pro-&#xD;
@@ -1155,7 +1160,7 @@ zoning ~onc~ re to l~er aid ~he eier~y &amp;amp;f1er~ powe~'ful&#xD;
 After ru~ absence o~ less that) flftee~ imnutes~ the ji. r~ returned i.nt~&amp;amp;'&#xD;
 A"'&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7686-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7686-00000014"/>&#xD;
 ~AtDT~E LAVALIJE, OR&#xD;
 &#xD;
 court. The roll wus c~dlcd, and each answered to h~s name~ Thd&#xD;
@@ -1251,7 +1256,7 @@ c4eflplaix of his sparin~ the llt.of~&#xD;
 &#xD;
 e&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7686-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7686-00000015"/>&#xD;
 OLAIJDINE I&amp;amp;AVALLE, OR&#xD;
 within the next five years. To this stipulation F~tlier t~roche mad~&#xD;
 no objections, for it ~iccoraed fully with his plans in 'her behalf.&#xD;
@@ -1342,7 +1347,7 @@ gf Marie, sent to become her nurse, I could not tQ~vsee. fi4~ire events.&#xD;
 &#xD;
 ar&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7686-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7686-00000016"/>&#xD;
 CLAVDIN~ LAVALU~, c~t&#xD;
 my infamy, bra instead of extinguishing your affection at once, you be~&#xD;
 oat~e still more. devoted to the unfortunate 8irl, and wrun~ ti~om your&#xD;
@@ -1430,7 +1435,7 @@ valle lost every dollar of his money, and~ was left ~ penniless beggar.&#xD;
 The emotions of Pierre were but little ehort of freiizy. In this state&#xD;
 of mind Robertson seized the opportunity, while Martin was at a&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7686-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7686-00000017"/>&#xD;
 THE FIRST CONVICT.                31&#xD;
 &#xD;
 30                VLAUDINE LAVALLE, OR&#xD;
@@ -1521,7 +1526,7 @@ ing the floor, a plank of suiuible length was wanting, and saw-mills at&#xD;
 that ~early period being few and far between, the deficiency was sup-&#xD;
 plied by putting down a short piece~ at a place where the defect would&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7686-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC7686-00000018"/>&#xD;
 32                 CLAUDThTR LAVALLE, OR                                                  TE FIRST CONVICT.&#xD;
 &#xD;
 33&#xD;
@@ -1612,7 +1617,7 @@ innocence but her bare word, and that in opposition to a jury of twelve&#xD;
 men, who cm their oath declared her guilty.&#xD;
 ~ql~ D'Ibervjlle rejoiced in this happy event even more than his wife1&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7686-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7686-00000019"/>&#xD;
 B4                     GLAt~D~NB LAVALL~.&#xD;
 ~To nee~led no new proof to convince him that "Sister MarieH a~&#xD;
 delighted in calling her, was little less than perfect.&#xD;
@@ -1656,7 +1661,7 @@ f@rsakcn."&#xD;
 b&#xD;
 I&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7686-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7686-00000020"/>&#xD;
 *&#xD;
 474&#xD;
 THE&#xD;
@@ -1692,7 +1697,7 @@ an~&amp;amp; near, tlia~t a ~Lqrmon. had arrived at ~         t1eXxi~nt~ fr&#xD;
 ~ and ~*~iild peach~&#xD;
 in the school-house that night, at early candle li~it.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7686-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7686-00000021"/>&#xD;
 38                    ~EHE MOI~MOKESS; OR,&#xD;
 This intelligence excited the most intense interest all over the j~cp~&#xD;
 ulous settlement of Sixteen Mile Prairie~ for the Mormons were then&#xD;
@@ -1779,7 +1784,7 @@ I~1e 4l*~ a~ i~m~y~,4jat~ jt~ tJ~ele~s~ ha- confess~d t~aa~pq gl~ct&#xD;
 see~riw~ ~     i4~ti4sett~a-ot Sixtee~.Mila was mere v ~  ~&#xD;
 'AM alo4g its si4esdhe ~&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7686-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC7686-00000022"/>&#xD;
 /&#xD;
 &#xD;
 le0&#xD;
@@ -1872,7 +1877,7 @@ ence and humiJity to Mrs. Jones, begged her toa~omp~y )4u~ ~ixd&#xD;
 Mary. He led their visitor int~ &amp;amp;liefr little dairy~ wheto eveiyt~iing&#xD;
 waa~ perfectly neat rind in ~r~er, ~n4 showed Mrs. Jones the roWs ~f rich&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7686-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7686-00000023"/>&#xD;
 4L~'                   ~     M  MONESS; OT~,&#xD;
 cheesfthat adorned th&amp;amp;' shelires~. lie then conducted her to the cellar,&#xD;
 xvhere, in a COQI p~6e~ jars of butter:were packed, yell6w as gold.&#xD;
@@ -1961,7 +1966,7 @@ there. 'Mother," ~h5' always thinks of everythiri~ u~nii always'just at&#xD;
 &#xD;
 43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7686-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7686-00000024"/>&#xD;
 44                 TRE 'MORMOYI~S3; OR,                                      THE TRALS OP MA1~Y MAVERICK.&#xD;
 &#xD;
 right time, sild she knew that y(iur husband dould not be~ co~ixed te hty&#xD;
@@ -2049,7 +2054,7 @@ was a child, and it was natural that hhofpiett~r~ ~1~ss&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7686-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7686-00000025"/>&#xD;
 T*Z~ MQ@N~&amp;amp;; 911)&#xD;
 sefl~~US cast. In, this wish h~e was f~41y gratified, ~ii~ the evening was&#xD;
 one of rare enjoyniei4. to the h~ppy cl~jld. After havjn~ ~aughe~ ~nd&#xD;
@@ -2137,7 +2142,7 @@ A. cli*kIk&amp;amp;u1~1 e~poee twi4m4nf the Goldexi i'lateej ~&#xD;
 th~    ~      ~                t~tse freed froiu'thie ~i~ttre ~hiaw,~ 1i~"&#xD;
 SinitW'hltd ~aven arnitnd~him  "G~6dio the ~tmg            ~&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7686-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7686-00000026"/>&#xD;
 THE TRIALS OF' MARY MA'VR1tICK.&#xD;
 &#xD;
 the design. Wliy:tl~en should it thus ,disturh him? He would drive ,it&#xD;
@@ -2224,7 +2229,7 @@ aminiii~ ~the recorded of th&amp;amp;i~ou~y~ .si~Asixi'ilie 'V~lidit1yf his 4i~I
 The'regiorl through whicl Mi~v~ick~hi~d ~&amp;amp;tef ~ae ~tiil~thfrdV"&#xD;
 6&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7686-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC7686-00000027"/>&#xD;
 50.                       M~1~j ~.&#xD;
 ir.ihiM~&amp;amp;? an4 p9rgons of, j4 re~4~ n more1 "h i4'indj~a$~. op1y~ by.&#xD;
 ~ ~ h~ar4W 4is~er~dbla~on tb,~ prairies, a~d i~i ti~e~tig~be~ed k~nd&#xD;
@@ -2309,7 +2314,7 @@ prea4g~eev'#ral knightte ~tOre in 4hat 'settlement. t~let~tzz~ as vthis&#xD;
 arrangemen*v was4e the'Ma~erieka, they ~oIt t sel'ee~c~mipeMe&amp;amp;by a&#xD;
 sense of gncinale, and even ~eonrmon ~ivllity to~tlmeir 'guesr, to rn~ke 'no&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7686-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC7686-00000028"/>&#xD;
 52                    Tli~ MO~MON~55; "OB,&#xD;
 objections. Had it been otherwise, Maverick would.have made a de..&#xD;
 cided effort W prevent it.&#xD;
@@ -2393,7 +2398,7 @@ night~ for earlyy two ~weeks, the Mormon held 'forth at the schoeV.house&#xD;
 of that settlementt,, ;to'h~ge and still inoreasin~ dien'ee~; People came&#xD;
 there from a great distance around, to heat' the preaching. Much ex.-&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7686-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC7686-00000029"/>&#xD;
 54&#xD;
 &#xD;
 TIlE M01~MO~TT!SS; OIt~&#xD;
@@ -2483,7 +2488,7 @@ their wives and daughters insulted and abused, their windows brok-e1~&#xD;
 &#xD;
 "I&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7686-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC7686-00000030"/>&#xD;
 TEX XO~I~QNESS; OR,&#xD;
 in, and in UIQ~O tJ~a~zi Qne instance, their houses bi~rnt do .vn over their&#xD;
 heads, with perfect impunity. Few magistrates will risk the certain&#xD;
@@ -2571,7 +2576,7 @@ to suffer death-in all proba~~ility, the figment of the Golden Plates&#xD;
 would long since have been forgotten, and the very name ~f Joe smith&#xD;
 perished from the meniory~ of man. The, wildest an4 mOst.- absurd&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7686-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC7686-00000031"/>&#xD;
 :IHE MOILMONRM FOR,&#xD;
 doctrims iewnse rwpedaMe, #hen-~those ~ho p~ess~ thetn:seal their&#xD;
 Joe Siul;hl~y stafl4 firm- and ~izndisaxaypd amidst t~he~storrxr*f- per..&#xD;
@@ -2662,7 +2667,7 @@ conseious pt-everything but wretchedness, while tli~e sun-dediuiad low in&#xD;
 the west, andat last went doy~n. The shad~o of twili&amp;amp;1rt~spread iheir&#xD;
 4im curtain over hiin,2and the chilVdeivs.of i4ght had deaceuded, when&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7686-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC7686-00000032"/>&#xD;
 6&#xD;
 &#xD;
 T11D~ MOflMONflSS; Ott,&#xD;
@@ -2754,7 +2759,7 @@ required repoSe, when in turn they snatched a few hours of rest.&#xD;
 &#xD;
 * '&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7686-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC7686-00000033"/>&#xD;
 ~IIJfl MOflMG~ESS; O1~,&#xD;
 was instantly Last asleep. All was still throughout the house, a:'.d not a&#xD;
 sound was heard but The heavy breathing of the sick man. Suddenly he&#xD;
@@ -2844,7 +2849,7 @@ U&#xD;
 -I&#xD;
 I&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7686-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC7686-00000034"/>&#xD;
 TEE MORMO~E~S; OR,&#xD;
 and left her alone with her husband. Sh&amp;amp;Was anxious to remove from&#xD;
 his mind, ~s quickly ~s p~ssib1e, the feat that she~ould abandon him, if&#xD;
@@ -2927,7 +2932,7 @@ Ma1~k'~eiit' directly t6Ftench, ~ud told hinvahl that~ Tizd~ puzse4~&#xD;
 Mit  '        ' '  ~''                  i~t'is related.&#xD;
 that is said of French and Stanley occurred jueta5&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7686-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC7686-00000035"/>&#xD;
 (~3                   THE MO1~MONESS ~' OR,&#xD;
 The wily f~illow s~w that he' nn~st' play a bokigaine, or Mavetick would&#xD;
 escape from the Morrxions.. 'Numerous others *ould follow his example,&#xD;
@@ -3018,7 +3023,7 @@ devolve upon her. She arose Tronu~ her~knees, cahirand resigned,. and,&#xD;
 &#xD;
 $7&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7686-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC7686-00000036"/>&#xD;
 Ga                    TII~. MQIt~IQN~S$ OR,&#xD;
 reached the house of their neighbor before her .abs~ce had~been rio-&#xD;
 tired,       *            .*    :*       *      *&#xD;
@@ -3110,7 +3115,7 @@ Thero is nothing better calculated to unite people together, than the ex.&#xD;
 pectatioh df ~ouring out their blood as ~nartyrs in the same cause.&#xD;
 The Mormo'n village was fi~riously assaulted on ev~ry~id'e by an&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7686-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC7686-00000037"/>&#xD;
 THE TRIALS 01? MARY MAVERICK.&#xD;
 &#xD;
 70                     TIlE MOUM~ES8=j Ol~&#xD;
@@ -3200,7 +3205,7 @@ and invited these homeless outcasts~ to settle i~ that State, on the bank of&#xD
 the Mississippi, not far from the town of War~aw: ~PJ48 ~;is l'e foun-&#xD;
 dation of Nauvoo.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7686-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC7686-00000038"/>&#xD;
 Mrs. Maverick was everywhere received with the utmost kindness.&#xD;
 ~he tittered no coxhplaint~, atid 'never spoke either of her own wrongs&#xD;
 and sufferings, or those of the Mormons, ~rhen she 'could well avoid it.&#xD;
@@ -3286,7 +3291,7 @@ objeot'ot his affectioix.&#xD;
 s~d' ~ordialtlmougli less affeei~lng.&#xD;
 g&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7686-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC7686-00000039"/>&#xD;
 k T~en~teitI~ j~d 4by ~&amp;amp;t*l I 1*~MioId~ ~hat~n~aljuMen,&#xD;
 ~ ii~ houlahe m~de~in4~pr~ei eIXMa~y, to e~bj~ct&#xD;
 ~J~tJie yet ~ ~zqw~es&#xD;
@@ -3365,7 +3370,7 @@ She ~ay upon the ground, with nothing to protect her from the.;, p.&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7686-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC7686-00000040"/>&#xD;
 1~tita - Tw*little girls, iialf~'naked, cowered aii~und the.&#xD;
 ~d~coti@Ii of t~I~e inothe~ ~The equaws o~ the tieighboving tents&#xD;
 w~4 ~rn withotit ooxnpaasion1. but oould render little a~si~tsace4 8i~ch&#xD;
@@ -3456,7 +3461,7 @@ flictio~&#xD;
 &#xD;
 %&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7686-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC7686-00000041"/>&#xD;
 1 7&#xD;
 &#xD;
 At this ji~netar~, anew ~trd~awfuI'calai~iity assaikd the Thdia~s. The&#xD;
@@ -3546,7 +3551,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7686-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC7686-00000042"/>&#xD;
 ~,  ~       -&#xD;
 ?IIR MORMO~ES~; &amp;amp;I~,&#xD;
 to adoVt as their ".ftfedkine," or Jlfanito~ what was her a~-&#xD;
@@ -3635,7 +3640,7 @@ adjoining thick-ct, which she  cogniz~d1~   s~ant,~ as 4hat~of tb,&#xD;
 savage warrior. ".RI&amp;amp; ha, mceybg" waa uttere4, and 'tlwn-foIl~tved the&#xD;
 Indian war-.whoo~i, the yell of victory. lIe had- p~tid'*hat in his savage&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7686-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC7686-00000043"/>&#xD;
 rded ~e~d~bt dti~, t~hia. benefactress. JWbad Jaidf~h~&#xD;
 ~rostrte~izi~ d~ath~zt1d4 vitith ihe feeling#&amp;amp;t he~h~i d9ti~ ~&#xD;
 ~aiA~ d~edv~he pi~i4ed~ toj~itrhis~bandl ~1zes4y ot~ 4heiv~,&#xD;
@@ -3721,7 +3726,7 @@ for h$zn such .~itterabIe h~r d4eiou~~ ~ ~$er&#xD;
 &#xD;
 ~'1&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7686-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC7686-00000044"/>&#xD;
 *                          ~ ~OJ~T~; OZ&#xD;
 ~ frtiWae quirete&amp;amp; with the intensity of bet' otnotieris, li~t'1ilo6dlese&#xD;
 lips ~ed~ but no sund~aled, and. her hand wasin~rohint&amp;amp;tilY&#xD;
@@ -3811,7 +3816,7 @@ arose, and, in compliance with the previous arrangement yirhich he~4i&#xD;
 secretly made with his sister, left her alone with Vorne, ~His&#xD;
 -             departu~&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7686-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC7686-00000045"/>&#xD;
 TUE M0RM0NI~SS; OR,&#xD;
 from the house aflbrded the latter an opportunity most ardently desired,&#xD;
 of conversing with the wido alone.&#xD;
@@ -3906,7 +3911,7 @@ ed from sleep, and mechanically followed the 'Indian. WithQut?&#xD;
 1&#xD;
 C&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7686-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC7686-00000046"/>&#xD;
 TIlE MORMOY~SS OR,&#xD;
 ~* of bidding ftdieu, or of uttering a single word, he left, ,~orever, tho&#xD;
 %iouse, where, for a long period, he had received~~yx.~t1tentien in the&#xD;
@@ -3988,8 +3993,8 @@ ever.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

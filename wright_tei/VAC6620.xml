@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6620">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6620">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Orange Girl of Venice, or, The Secret Council of Ten </title>
-            <author >Hannigan, Dennis.</author>
+            <title>The Orange Girl of Venice, or, The Secret Council of Ten </title>
+            <author>Hannigan, Dennis.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6620</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6620</idno>
+            <idno type="wright2" n="previous">wright2-1094</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The orange girl of Venice, or, The Secret Council of Ten</title>
-                  <author >Hannigan, Dennis.</author>
+                  <title>The orange girl of Venice, or, The Secret Council of Ten</title>
+                  <author>Hannigan, Dennis.</author>
                </titleStmt>
-               <extent >89 p. </extent>
+               <extent>89 p. </extent>
                <publicationStmt>
-                  <publisher >Dick &amp; Fitzgerald</publisher>
+                  <publisher>Dick &amp; Fitzgerald</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1845">1845</date>
+                  <date when="1845">1845</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The orange girl of Venice, or, The Secret Council of Ten</head> 
+            <head>The orange girl of Venice, or, The Secret Council of Ten</head>
             <p>
-               <pb  n="0Illustration (TitlePage) " xml:id="VAC6620-00000001"/>0&#xD;
+               <pb n="0Illustration (TitlePage) " xml:id="VAC6620-00000001"/>0&#xD;
 &#xD;
 THE&#xD;
 ORANGE GIRL OF VENICE;&#xD;
@@ -99,7 +104,7 @@ NEW YORK:&#xD;
 DICK ANJD FITZGERALD; PUBLISHERS,&#xD;
 No. 18 ANN STREET.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6620-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6620-00000002"/>&#xD;
 Entered according to Act of Congress, in the year 1845, by&#xD;
 JOHN SLATER,&#xD;
 in the Clerk's Office of the Southern District of New York&#xD;
@@ -132,7 +137,7 @@ were more of the feminine than of the masculine cast, the&#xD;
 forehead being high and pale, the eye dark, lustrous, yet&#xD;
 soft and melting, the cheek pale, the eyebrow arching, the&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6620-00000003"/>&#xD;
+<pb n="6-7" xml:id="VAC6620-00000003"/>&#xD;
 6                     THE ORANGE GIRL 0? VENICE.&#xD;
 nose small, and with but a slight show of advancing toward the lamp and opening the&#xD;
 nostrils ; the lip slight; and the chin small, parchment.-&#xD;
@@ -337,7 +342,7 @@ men we can surely count on?'&#xD;
 &#xD;
 7&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6620-00000004"/>&#xD;
+<pb n="8-9" xml:id="VAC6620-00000004"/>&#xD;
 8                    TiIE ORANGE G&#xD;
 'And all determined?'&#xD;
 'Every one, my lord.'&#xD;
@@ -547,7 +552,7 @@ word for: "Thu art marked, and doomed- It was a night of beauty and ci' music, i
 &#xD;
 '~A~Ai~&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6620-00000005"/>&#xD;
+<pb n="10-11" xml:id="VAC6620-00000005"/>&#xD;
 gemmed with silver, ana crowned with 1,&#xD;
 al of fire. The housetops, the balconies,&#xD;
 the vestibules, the gardens, -streets and&#xD;
@@ -689,7 +694,7 @@ The servant bowed, anti withdrew, his inmprudence !' .ed the old nian, ' to warn
 'Ihall I remain here ' inquired ,e t The cheek of Isabel now turned ghastly communication with one to whom thou giv-&#xD;
 younger lady.                                 white ; her bosom panted with'emotion, and est too free licenbe wiih thine ear an lip&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6620-00000006"/>&#xD;
+<pb n="12-13" xml:id="VAC6620-00000006"/>&#xD;
 12             THE ORANGE GTl L OF VENICE.&#xD;
 &#xD;
 For shame on thee-! that one so highly&#xD;
@@ -902,7 +907,7 @@ boy, that thy barge was broken at the re-  'Thy conduct doth not show it, boy!'&
 gatta of Monday last. It would have been  - 'The hour hath not yet come father '&#xD;
 money in thy pouch, to-night--for, look   ' Dos; look for it, Paulo?'&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6620-00000007"/>&#xD;
+<pb n="14-15" xml:id="VAC6620-00000007"/>&#xD;
 14&#xD;
 &#xD;
 THE ORANGE G&#xD;
@@ -1119,7 +1124,7 @@ RL OF VENICE.&#xD;
 &#xD;
 15&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6620-00000008"/>&#xD;
+<pb n="16-17" xml:id="VAC6620-00000008"/>&#xD;
 16&#xD;
 &#xD;
 THE C RANGE GIRL OF VENICE.&#xD;
@@ -1327,7 +1332,7 @@ nmoanmg noise saluted the ears of Galliano   ringingg into the pillar; ;'they wi
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6620-00000009"/>&#xD;
+<pb n="18-19" xml:id="VAC6620-00000009"/>&#xD;
 18               .    THE ORANGE GIRL OF VENIQE.&#xD;
 be weapons enough to silence the clamors smote each other-respiration grew, evev&#xD;
 of any we may encounter ere our return. moment, more and more difficult, and he felt&#xD;
@@ -1468,7 +1473,7 @@ kne, h'is own sombre costume, the sound- No; we must trust to fortune for escape
 killing pave, and the darkness around, pre- 'The watchword!' cried a figure, se'd&#xD;
 Vented him from being seen or heard, and denly entering time&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6620-00000010"/>&#xD;
+<pb n="20-21" xml:id="VAC6620-00000010"/>&#xD;
 T11E ORANGE GIRL OF VENICE.&#xD;
 &#xD;
 whispered Galliano; ' we must be ghary of I&#xD;
@@ -1753,7 +1758,7 @@ this door to-night?'&#xD;
 &#xD;
 TllI ORAINIE GIRL OF VENICE.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6620-00000011"/>&#xD;
+<pb n="22-23" xml:id="VAC6620-00000011"/>&#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
 &#xD;
 'I he sentinel's face grew pale, and his&#xD;
@@ -1970,7 +1975,7 @@ As he spoke, the sentry touched a spring Tribunal sit only at night--and, as oth
 &#xD;
 i   -*.- , ,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6620-00000012"/>&#xD;
+<pb n="24-25" xml:id="VAC6620-00000012"/>&#xD;
 24&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -2254,7 +2259,7 @@ I&#xD;
 &#xD;
 "1&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6620-00000013"/>&#xD;
+<pb n="26-27" xml:id="VAC6620-00000013"/>&#xD;
 26&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -2471,7 +2476,7 @@ II&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6620-00000014"/>&#xD;
+<pb n="28-29" xml:id="VAC6620-00000014"/>&#xD;
 Ii~&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -2614,7 +2619,7 @@ laughingly resoonded- What if I obey not ?' to fikth. Shbrink they I&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6620-00000015"/>&#xD;
+<pb n="30-31" xml:id="VAC6620-00000015"/>&#xD;
 THE ORANGE GIRL OF VENICE.           31&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -2891,7 +2896,7 @@ k&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6620-00000016"/>&#xD;
+<pb n="32-33" xml:id="VAC6620-00000016"/>&#xD;
 need-creditors-impertinent varlets !-dog  which, resting in the earth, near a pile of&#xD;
 my heels at every step-my father's patience fresh dug earth, threw a broad and brilliant&#xD;
 and kindness are exhausted, and I must glare around the terrificscene. Standing in&#xD;
@@ -3033,7 +3038,7 @@ the hopeful youths had a full view of the  The fifth arch was opened, and then&#
 objects around them. In one corner, cold what a sight greeted his gaping eyes. On&#xD;
 and stiff, and gory -y the body of the usu- broad shelves, extendin  fonm side to sidD&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6620-00000017"/>&#xD;
+<pb n="34-35" xml:id="VAC6620-00000017"/>&#xD;
 THE ORANGE GIRL OF VENICE.         35&#xD;
 &#xD;
 34                    THE ORANGE GIRL OF VENICE.&#xD;
@@ -3240,7 +3245,7 @@ I&#xD;
 &#xD;
 ,I&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6620-00000018"/>&#xD;
+<pb n="36-37" xml:id="VAC6620-00000018"/>&#xD;
 government.   His features and  general&#xD;
 bearing bore the impress of one born to com-&#xD;
 mand, not those of one born to be led. At&#xD;
@@ -3462,7 +3467,7 @@ ldy Isabel; and this, from the Messer Gen-  She wore it in her days of innocence
 &#xD;
 I.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6620-00000019"/>&#xD;
+<pb n="38-39" xml:id="VAC6620-00000019"/>&#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
 &#xD;
 38                     THE ORANGE GIRL OF VENICE.&#xD;
@@ -3677,7 +3682,7 @@ LI&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6620-00000020"/>&#xD;
+<pb n="40-41" xml:id="VAC6620-00000020"/>&#xD;
 a&#xD;
 &#xD;
 THE ORANGE GI&#xD;
@@ -3899,7 +3904,7 @@ THE ORANGE GIRL OF VENICE.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6620-00000021"/>&#xD;
+<pb n="42-43" xml:id="VAC6620-00000021"/>&#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -4117,7 +4122,7 @@ I-&#xD;
 &#xD;
 .43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6620-00000022"/>&#xD;
+<pb n="44-45" xml:id="VAC6620-00000022"/>&#xD;
 THE ORANGE GI1RL OF VENICE.&#xD;
 &#xD;
 44&#xD;
@@ -4392,7 +4397,7 @@ lord.'&#xD;
 &#xD;
 45&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6620-00000023"/>&#xD;
+<pb n="46-47" xml:id="VAC6620-00000023"/>&#xD;
 46&#xD;
 &#xD;
 THE ORANGE ;TrL OF INCE.&#xD;
@@ -4678,7 +4683,7 @@ of that mighty throng. Grim andgaunt and&#xD;
 &#xD;
 it&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6620-00000024"/>&#xD;
+<pb n="48-49" xml:id="VAC6620-00000024"/>&#xD;
 48&#xD;
 &#xD;
 THE ORANGE MIRL OF VENICE.&#xD;
@@ -4964,7 +4969,7 @@ not give yourselves uneasiness, relative to&#xD;
 &#xD;
 Lx&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6620-00000025"/>&#xD;
+<pb n="50-51" xml:id="VAC6620-00000025"/>&#xD;
 I&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE           51&#xD;
@@ -5176,7 +5181,7 @@ fell back, just as unpropped earth gives way&#xD;
 before the press 6f dampness and approach-&#xD;
 ed the onetted door.  They disappeared&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6620-00000026"/>&#xD;
+<pb n="52-53" xml:id="VAC6620-00000026"/>&#xD;
 I&#xD;
 &#xD;
 52                    THE ORANGE GIRL OF V.ENICE.&#xD;
@@ -5390,7 +5395,7 @@ ed upon your wretched victims? Ho, there!&#xD;
 &#xD;
 'HE ORANGE GIRL OF VENICE.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6620-00000027"/>&#xD;
+<pb n="54-55" xml:id="VAC6620-00000027"/>&#xD;
 54&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -5669,7 +5674,7 @@ the orange girl fell back.&#xD;
 &#xD;
 N&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6620-00000028"/>&#xD;
+<pb n="56-57" xml:id="VAC6620-00000028"/>&#xD;
 636                   THE ORANGE GI&#xD;
 Shouts swelled in the Square, as the last&#xD;
 stroke of the executioner's axe fell on the&#xD;
@@ -5952,7 +5957,7 @@ to look anxiously around, as if in search of&#xD;
 &#xD;
 '4&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6620-00000029"/>&#xD;
+<pb n="58-59" xml:id="VAC6620-00000029"/>&#xD;
 58&#xD;
 &#xD;
 THE ORANGE GIRL OF VENICE.&#xD;
@@ -6175,7 +6180,7 @@ firm. A light tread caught her ear---the of Venice.&#xD;
 A&#xD;
 0&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6620-00000030"/>&#xD;
+<pb n="60-61" xml:id="VAC6620-00000030"/>&#xD;
 cj&#xD;
 &#xD;
 AGNES.&#xD;
@@ -6325,7 +6330,7 @@ AGNfS-&#xD;
 &#xD;
 61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6620-00000031"/>&#xD;
+<pb n="62-63" xml:id="VAC6620-00000031"/>&#xD;
 42&#xD;
 &#xD;
 AGNES.&#xD;
@@ -6498,7 +6503,7 @@ a parent; ird, falling on her knees, she sobbed conseiL&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6620-00000032"/>&#xD;
+<pb n="64-65" xml:id="VAC6620-00000032"/>&#xD;
 .64&#xD;
 &#xD;
 AGNES.&#xD;
@@ -6666,7 +6671,7 @@ A NESc&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6620-00000033"/>&#xD;
+<pb n="66-67" xml:id="VAC6620-00000033"/>&#xD;
 ko saying, she ran out of the bou'se;Mrs. As- early in order to prm- er. her depi rture, if he,&#xD;
 kew having overtaken her, followed by the noble- threatend resolution weeaytimgirehnth&#xD;
 man and the colonel, who, with the greatest con- frantic reessons of a disappointed woman. Be.&#xD;
@@ -6824,7 +6829,7 @@ startled glance into the obscuirity~ before her, she to her, " I han- escaped th
 &#xD;
 :&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6620-00000034"/>&#xD;
+<pb n="68-69" xml:id="VAC6620-00000034"/>&#xD;
 8            .        .AGNES.&#xD;
 I have escaped them " and then he jumped and which the darkness had hitherto prevented beh&#xD;
 clapped his hands for joy.                     from  distin' guishing; she however tried in vain, &amp;amp;&#xD;
@@ -6986,7 +6991,7 @@ to&#xD;
 &#xD;
 I I&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6620-00000035"/>&#xD;
+<pb n="70-71" xml:id="VAC6620-00000035"/>&#xD;
 -Il&#xD;
 -r&#xD;
 ~.1&#xD;
@@ -7240,7 +7245,7 @@ AONES.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6620-00000036"/>&#xD;
+<pb n="72-73" xml:id="VAC6620-00000036"/>&#xD;
 '12                               AGNES.&#xD;
 &#xD;
 I&#xD;
@@ -7470,7 +7475,7 @@ Willai a hi oken voice, delivered the message. feared that, if he took any notic
 &#xD;
 LI&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6620-00000037"/>&#xD;
+<pb n="74-75" xml:id="VAC6620-00000037"/>&#xD;
 AGNES.&#xD;
 Des, the ,old lady might conceive a prejudice " Here is a cl,air," added another. And Mr, Soy'&#xD;
 against him and her daughter-in-law. Added to mour, bowing as he did it, placed 'a -seat for her&#xD;
@@ -7633,7 +7638,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6620-00000038"/>&#xD;
+<pb n="76-77" xml:id="VAC6620-00000038"/>&#xD;
 I1&#xD;
 &#xD;
 enable her to understand this language, wa alarm-&#xD;
@@ -7874,7 +7879,7 @@ gret, even in the hoir of h - bridal splendor; but Agnes contrived to make her e
 &#xD;
 lI&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6620-00000039"/>&#xD;
+<pb n="78-79" xml:id="VAC6620-00000039"/>&#xD;
 '18                              AGNIVS.&#xD;
 &#xD;
 J4I&#xD;
@@ -8114,7 +8119,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6620-00000040"/>&#xD;
+<pb n="80-81" xml:id="VAC6620-00000040"/>&#xD;
 80                                    AGNES.&#xD;
 &#xD;
 7&#xD;
@@ -8280,7 +8285,7 @@ J&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6620-00000041"/>&#xD;
+<pb n="82-83" xml:id="VAC6620-00000041"/>&#xD;
 s imagination, he thought, with his son's rervait,&#xD;
 tliat be had better take the first opportunityof tell-&#xD;
 igClifford the truth, melancholy as it was. And&#xD;
@@ -8506,7 +8511,7 @@ Year your father will have been the allotted time probation. Thus did she try to
 nder the care of the medical attendants in your and unhappy fi-iend in the hour of her adversity&#xD;
 rt ef f t w   h  e ; and you are hoarding that you and degradtion. But Caroline ad given a t&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6620-00000042"/>&#xD;
+<pb n="84-85" xml:id="VAC6620-00000042"/>&#xD;
 greater proof of the sincerity of her friendship-  recovered a debt .f a Landred pounds, which had&#xD;
 she had never wou qded the feelings, or endeavored long been due t: him, and this -sum  they gene-&#xD;
 to mortify tile self love, of Agne in the hour of rously presented to Agnes, in order to further the-&#xD;
@@ -8670,7 +8675,7 @@ AGNES.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6620-00000043"/>&#xD;
+<pb n="86-87" xml:id="VAC6620-00000043"/>&#xD;
 s8&#xD;
 &#xD;
 A nUrLI4&#xD;
@@ -8832,7 +8837,7 @@ hildhood, unconsciouis tat he was the pitiable  Mr. Seymour .ipstantly,ordered p
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6620-00000044"/>&#xD;
+<pb n="88-89" xml:id="VAC6620-00000044"/>&#xD;
 s8                                   I   AGNES.&#xD;
 in about an hour after set off in pursuit of the kd- sir; from you, sir-flom you, as - as Aerfrie,4I&#xD;
 napper.                                        can bear anything."&#xD;
@@ -8928,7 +8933,7 @@ with fortitude the wreck of her own happinas. bk&#xD;
 &#xD;
 I I&#xD;
 &#xD;
-<pb  n="90 (Advertisement) -91 (Advertisement) " xml:id="VAC6620-00000045"/>&#xD;
+<pb n="90 (Advertisement) -91 (Advertisement) " xml:id="VAC6620-00000045"/>&#xD;
 DICE &amp;amp; FITZGERALD'S CATALOOcUjME.&#xD;
 X aroand's Fortune-Teller and          Chesterfield's Letter-Wtgr and Com&#xD;
 reame'a Dictionary.      ~Containing 'a p.late Book of Etiduette; or (onci&#xD;
@@ -9114,7 +9119,7 @@ h&#xD;
 ~ji&#xD;
 I&#xD;
 &#xD;
-<pb  n="92 (Advertisement) -93 (Advertisement) " xml:id="VAC6620-00000046"/>&#xD;
+<pb n="92 (Advertisement) -93 (Advertisement) " xml:id="VAC6620-00000046"/>&#xD;
 DICX K&amp;amp; FITZG E RALD' CATALOGUE-&#xD;
 Strange Stories of a Detective Officer;      The Parlor Magician; or One       andre&#xD;
 or, Curosities of Crime. By an ex-Detec-     Tricks for the Drawing-Room, containing an&#xD;
@@ -9383,7 +9388,7 @@ and backstamp. Price .-----------$1 50&#xD;
 &#xD;
 - - - -5- WL-&#xD;
 &#xD;
-<pb  n="94 (Advertisement) -95 (Advertisement) " xml:id="VAC6620-00000047"/>&#xD;
+<pb n="94 (Advertisement) -95 (Advertisement) " xml:id="VAC6620-00000047"/>&#xD;
 DICA &amp;amp; FITZGERALDS CATALOGUE.&#xD;
 fte Tinger-Pestbto Publio Business. Con-           The Ladies' Own'Pattern Mook; or, Treas-&#xD;
 taining tae mode of totmig and conducting Soci-   ures: in Needlework. Comparing instructions in&#xD;
@@ -9563,7 +9568,7 @@ of postage. Senad Ca4 orders to Dio&amp;amp;A Fitrzgerald, Publishers, N. Y.&#xD
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="96 (Advertisement) " xml:id="VAC6620-00000048"/>&#xD;
+<pb n="96 (Advertisement) " xml:id="VAC6620-00000048"/>&#xD;
 -UDiCK &amp;amp; F1TZERALD'S CATALOGUE.                                    'I&#xD;
 The Lady's MaAual of Fancy Work ; A complete&#xD;
 Instructor in every variety of Ornamental Npedle-Work ; including Applique, Bead-Work,&#xD;
@@ -9638,8 +9643,8 @@ of pstage.    Send Cash orders to Dick &amp;amp; Fitzgerald, Publishers, N. Y.&#
 &#xD;
 &#xD;
   &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

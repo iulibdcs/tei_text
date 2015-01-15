@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8382">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8382">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Corner Stall </title>
-            <author >Wright, Julia McNair, (1840-1903)</author>
+            <title>The Corner Stall </title>
+            <author>Wright, Julia McNair, (1840-1903)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8382</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8382</idno>
+            <idno type="wright2" n="previous">wright2-2805</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The corner stall</title>
-                  <author >Wright, Julia McNair, (1840-1903)</author>
+                  <title>The corner stall</title>
+                  <author>Wright, Julia McNair, (1840-1903)</author>
                </titleStmt>
-               <extent >257 p. </extent>
+               <extent>257 p. </extent>
                <publicationStmt>
-                  <publisher >Hoyt</publisher>
+                  <publisher>Hoyt</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1868">1868</date>
+                  <date when="1868">1868</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-14">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-14">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The corner stall</head> 
+            <head>The corner stall</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC8382-00000001"/>NEW YORK STORYk&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC8382-00000001"/>NEW YORK STORYk&#xD;
 a%-                                       ?&#xD;
 HET&#xD;
 N.MPS. JMNAIR WRIGHT.&#xD;
@@ -110,7 +115,7 @@ r  t  1.F.,  .".S~av, . td  . :jeu   "  i~...Wr.+:  e  ^' g 'v'''&#xD;
 ' '  ' a   ' '&#xD;
 .    '&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8382-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8382-00000002"/>&#xD;
 -SS -&#xD;
 I  # $&#xD;
 &#xD;
@@ -160,7 +165,7 @@ L'&#xD;
 &#xD;
 4n",&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8382-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8382-00000003"/>&#xD;
 LVH                                      CHAPTER 1    TA&#xD;
 TUOMAS TWIGO.&#xD;
 ALITdawn,thchlgrywtC&#xD;
@@ -177,7 +182,7 @@ oppositeachi4nacoe&#xD;
 "_            ,-      -   . _                         '"x" ""41         _s"°"°,. -    _, ~ ..t.:      _    -                      ._- - _           _  -,      .&#xD;
 Pon&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8382-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC8382-00000004"/>&#xD;
 r,       _ -  _.f f .M-  - l~tY" ~i :  Y' JlS&#xD;
 Erw =&#xD;
 &#xD;
@@ -231,7 +236,7 @@ i&#xD;
 a&#xD;
 TJ&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8382-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC8382-00000005"/>&#xD;
 a   cont sTALL&#xD;
 &#xD;
 nberation ;,he wsahmd&#xD;
@@ -280,7 +285,7 @@ of humanity, which fragment sobbed.&#xD;
 Wv, Mw" cried Thomar"oha&#xD;
 gone wrong'&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8382-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC8382-00000006"/>&#xD;
 S   ma&#xD;
 &#xD;
 Wtcold*andiseary      , and F&#xD;
@@ -331,7 +336,7 @@ spelling' book I an whatiitkr?"&#xD;
 &#xD;
 _&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8382-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC8382-00000007"/>&#xD;
 SA&#xD;
 Thomas looked abished, but when his part-&#xD;
 ner in business demanded anew, "What will&#xD;
@@ -381,7 +386,7 @@ takinguphis lot&#xD;
 &#xD;
 :^&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8382-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC8382-00000008"/>&#xD;
 h! Iid. Sorra teday that ye wouldn't&#xD;
 take good advisement."&#xD;
 "I take better," said Thomas. "Ill hang&#xD;
@@ -427,7 +432,7 @@ You know yourself that I rate her right&#xD;
 decent in the main.&#xD;
 " So yon do, better than many do their own&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8382-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC8382-00000009"/>&#xD;
 and blood, but I wouldn't he hard on her&#xD;
 for not earning much ; she's not six year old,&#xD;
 v-mn."&#xD;
@@ -472,7 +477,7 @@ Solomon, sitting in his house of cedar, '&#xD;
 troned on gold and ivory, builder of the&#xD;
 nest magnificent of temples, grand Magia&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8382-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC8382-00000010"/>&#xD;
 11    nRt- -&#xD;
 &#xD;
 'whbo bad evoked rb the rods of power and&#xD;
@@ -523,7 +528,7 @@ the ham,  iesLLC th    e&#xD;
 &#xD;
 zs  W .&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8382-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC8382-00000011"/>&#xD;
 411gtntheamper. Nexthetmndeafln&#xD;
 in each lite furnace, and put water to heat in&#xD;
 apot,and madecoffee in a kettle in a fashion&#xD;
@@ -569,7 +574,7 @@ Aidnit  witk a   eye  t     hen'an&#xD;
 to spell to himself and pronounce aloud, "God&#xD;
 nt - his -Son - to -save -lost - men."&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8382-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC8382-00000012"/>&#xD;
 1$&#xD;
 &#xD;
 ORN  lE  nx&#xD;
@@ -623,7 +628,7 @@ v I say, Herald, said the Tribune boy,&#xD;
 -What does you say to the speaker?&#xD;
 askedl Tribune, stuffingr his mouth with biscuit.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8382-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC8382-00000013"/>&#xD;
 "He's a brick," said Herald, eating a tough&#xD;
 doughnut.0&#xD;
 "Who's heb? whar    he talking tout?"&#xD;
@@ -679,7 +684,7 @@ r&#xD;
 J^&#xD;
 it&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8382-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC8382-00000014"/>&#xD;
 "Troth, but maybe he ain't the man for&#xD;
 other folks" said Mrs. Killigan.  "I'll keep&#xD;
 an eye on him, Thomas."&#xD;
@@ -727,7 +732,7 @@ can read at all at all?&#xD;
 &#xD;
 A)-&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8382-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC8382-00000015"/>&#xD;
 Mr. Allston drew a little black book fom&#xD;
 his coat pocket. "If you wil listen a mo-&#xD;
 ment, ma'am, I wdl read a few words that&#xD;
@@ -772,7 +777,7 @@ whlsere w1c can take e: ve r a inig of ale&#xD;
 saved up ; " and turning away, she was soon&#xD;
 lost in the crowd of passers by.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8382-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC8382-00000016"/>&#xD;
 m         STALL                                      STALL&#xD;
 &#xD;
 "She's right," said Mr. Twigg; "it's quite&#xD;
@@ -824,7 +829,7 @@ gue%, and folks says, 'here's this ten year old&#xD;
 &#xD;
 4        LL.&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8382-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC8382-00000017"/>&#xD;
 shaver, let's put him in the poor hus.' I were&#xD;
 a stubby little chap, but I had sperrit ; says I,&#xD;
 no poor hus for Thomas Twig'       SoI&#xD;
@@ -863,7 +868,7 @@ Sir, I says, says I this is just the tougher&#xD;
 bn of business ever you got into,Th     s&#xD;
 wi_ gg&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8382-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC8382-00000018"/>&#xD;
 THE comaALs&#xD;
 &#xD;
 CHAPTER IL&#xD;
@@ -912,7 +917,7 @@ hi childhood1 which had gone away like a&#xD;
 - These ain't all new things to me, sir," said&#xD;
 Thomas, his voice quieter than usual; "why,&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8382-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC8382-00000019"/>&#xD;
 m CO     SAL.&#xD;
 &#xD;
 4&#xD;
@@ -962,7 +967,7 @@ love of Jesus Christ."&#xD;
 &#xD;
 ;--        _&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8382-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC8382-00000020"/>&#xD;
 42&#xD;
 &#xD;
 ras coaEs STALL&#xD;
@@ -1016,7 +1021,7 @@ gone home,    h  sai,- I'll read a little to&#xD;
 . - "&#xD;
 ..&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8382-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC8382-00000021"/>&#xD;
 V~flvs TALLai                              WALL&#xD;
 &#xD;
 yOU Thomas,nd then you shall hre your&#xD;
@@ -1063,7 +1068,7 @@ round the Square and do the same."&#xD;
 "Tm afraid, folks look so sharp at me, sa&#xD;
 Maggie.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8382-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC8382-00000022"/>&#xD;
 4as com STALL&#xD;
 &#xD;
 "Come, now, you'll-never get on in trade&#xD;
@@ -1118,7 +1123,7 @@ Maggie hurried along toward the "The St.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8382-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC8382-00000023"/>&#xD;
 48&#xD;
 &#xD;
 Nicholas$" where she had fhquently sold picks&#xD;
@@ -1166,7 +1171,7 @@ How much is it?" she asked Maggie.&#xD;
 7RIW&#xD;
 TAX CONJMR STALL-&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8382-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC8382-00000024"/>&#xD;
 "Do coae on, Miss Mary," cried Jane,&#xD;
 if you want such a thing your pa 'Il get 'em&#xD;
 from the store; such beggars ain't fit for your&#xD;
@@ -1211,7 +1216,7 @@ taught it was his very self. About the face&#xD;
 hung shagy unkempt hair, and to be sure the&#xD;
 head was mounted on a body, and that body&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8382-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC8382-00000025"/>&#xD;
 was lank and loose jointed, and  eed cad in&#xD;
 a heterogeneous collection of old rags; here&#xD;
 looked out a sharp elbow, here a shoulder;&#xD;
@@ -1259,7 +1264,7 @@ puts it to you square."&#xD;
 .W No 'ta'r" said Jerry, ut he   Led&#xD;
 guilty, and began to edge away.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8382-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC8382-00000026"/>&#xD;
 m conssa ertat;&#xD;
 &#xD;
 "Hold on," said Thomas, "you're   ni&#xD;
@@ -1310,7 +1315,7 @@ the filkses was as hungry as I be," said Jedy.&#xD;
 &#xD;
 «.,. ter...  ~A yye&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8382-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC8382-00000027"/>&#xD;
 56&#xD;
 &#xD;
 TfE CnflnRm&#xD;
@@ -1376,7 +1381,7 @@ ww W-&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8382-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC8382-00000028"/>&#xD;
 as TWig's plafor thervender of pickshad&#xD;
 been effetual; as Mrs. Dodd bent over her&#xD;
 wah tab rubbing with might and main, she&#xD;
@@ -1425,7 +1430,7 @@ V Weli, well, nuh  up crying. I b'lieve ye.&#xD;
 &#xD;
 r-p&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8382-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC8382-00000029"/>&#xD;
 -s  N wrxt..&#xD;
 &#xD;
 TUE CO RE STALL..&#xD;
@@ -1482,7 +1487,7 @@ rags, and it made her look so gad. I wish I&#xD;
 &#xD;
 p,&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8382-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC8382-00000030"/>&#xD;
 Ta                                                                isaewmsraLw&#xD;
 &#xD;
 w who she was; can't your tell me, Mr.&#xD;
@@ -1532,7 +1537,7 @@ her and he kind to her."&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8382-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC8382-00000031"/>&#xD;
 Uk AKsna&#xD;
 &#xD;
 vim AoSS-sa,£&#xD;
@@ -1585,7 +1590,7 @@ of his servants. Tell me of some place where&#xD;
 I can go among the poor and teach and help&#xD;
 them."&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8382-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC8382-00000032"/>&#xD;
 'Tn x SAL&#xD;
 &#xD;
 Mr Allston thought a mnoent, then said,&#xD;
@@ -1629,7 +1634,7 @@ WAMW&#xD;
 &#xD;
 ,"&#xD;
 &#xD;
-<pb  n="68" xml:id="VAC8382-00000033"/>&#xD;
+<pb n="68" xml:id="VAC8382-00000033"/>&#xD;
 CHAPTER     III.&#xD;
 ALL Fox .JESUS.&#xD;
 T   r.    bn    n   service might&#xD;
@@ -1646,7 +1651,7 @@ and then, rubbing his hands, said to himnef&#xD;
 with a chuckle, "Its banking hours. I gues&#xD;
 68&#xD;
 &#xD;
-<pb  n="Illustration-69" xml:id="VAC8382-00000034"/>&#xD;
+<pb n="Illustration-69" xml:id="VAC8382-00000034"/>&#xD;
 L                _-     r             e-C :=S&#xD;
 r^w                                  m ° . .,&#xD;
 y          _-~&#xD;
@@ -1687,7 +1692,7 @@ of importance, and what wonder that he val-&#xD;
 ued it. He counted it over, dollar by dollar,&#xD;
 delighting in the clink of the pieces against&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8382-00000035"/>&#xD;
+<pb n="70-71" xml:id="VAC8382-00000035"/>&#xD;
 each other, for this was before currency times.&#xD;
 "Two hundred dollars, them's your finances,&#xD;
 Thomas Twi       - your a moneyed man von&#xD;
@@ -1746,7 +1751,7 @@ names,: but he could re and understand.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8382-00000036"/>&#xD;
+<pb n="72-73" xml:id="VAC8382-00000036"/>&#xD;
 Mr. Alston helped him, and explained to him&#xD;
 some, hut he had a more efficient teacher,&#xD;
 even the Holy Teacher, who dwells in the&#xD;
@@ -1801,7 +1806,7 @@ son and father. Jerry came nomore to Thom&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8382-00000037"/>&#xD;
+<pb n="74-75" xml:id="VAC8382-00000037"/>&#xD;
 IL&#xD;
 &#xD;
 T&#xD;
@@ -1870,7 +1875,7 @@ I  'i&#xD;
 &#xD;
 .1&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8382-00000038"/>&#xD;
+<pb n="76-77" xml:id="VAC8382-00000038"/>&#xD;
 S&#xD;
 &#xD;
 Tarconstt&#xD;
@@ -1931,7 +1936,7 @@ put yourseII to-get in u, Tunas.&#xD;
 &#xD;
 4:&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8382-00000039"/>&#xD;
+<pb n="78-79" xml:id="VAC8382-00000039"/>&#xD;
 Tao&#xD;
 &#xD;
 THE        STA&#xD;
@@ -1997,7 +2002,7 @@ A&#xD;
 &#xD;
 MM&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8382-00000040"/>&#xD;
+<pb n="80-81" xml:id="VAC8382-00000040"/>&#xD;
 she wanted very much 4i nd some special&#xD;
 object for her charity, and she had set her&#xD;
 heart on the little " pick girl."'&#xD;
@@ -2050,7 +2055,7 @@ kindly.&#xD;
 &#xD;
 VI&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8382-00000041"/>&#xD;
+<pb n="82-83" xml:id="VAC8382-00000041"/>&#xD;
 U     tatCeaNn eral&#xD;
 &#xD;
 4=&#xD;
@@ -2111,7 +2116,7 @@ tion, said,&#xD;
 ' oudd ye plase to walk in, my room's tidy if it&#xD;
 ain't fine."&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8382-00000042"/>&#xD;
+<pb n="84-85" xml:id="VAC8382-00000042"/>&#xD;
  kyou  said Mis Laura, "I would&#xD;
 ke to get a little advice from you. Coimen&#xD;
 y     Mar this little girl come in, too, Mrs.&#xD;
@@ -2170,7 +2175,7 @@ tinz and sghing.&#xD;
 &#xD;
 9 i&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8382-00000043"/>&#xD;
+<pb n="86-87" xml:id="VAC8382-00000043"/>&#xD;
 'St&#xD;
 &#xD;
 ie"nidlittle M            , "here's&#xD;
@@ -2244,7 +2249,7 @@ f       i.&#xD;
 &#xD;
 R,-&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8382-00000044"/>&#xD;
+<pb n="88-89" xml:id="VAC8382-00000044"/>&#xD;
 TxE STALL&#xD;
 If ye'T give me yer numbes Miss," said&#xD;
 the dame, "Ill step up that way an' walk&#xD;
@@ -2310,7 +2315,7 @@ r .,,&#xD;
 &#xD;
 ~ ,'a&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8382-00000045"/>&#xD;
+<pb n="90-91" xml:id="VAC8382-00000045"/>&#xD;
 M    CORNERL sm-&#xD;
 &#xD;
 "Thre for ye, I didn't; she's a jewel, ev-&#xD;
@@ -2369,7 +2374,7 @@ J t r&#xD;
 &#xD;
 IL -&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8382-00000046"/>&#xD;
+<pb n="92-93" xml:id="VAC8382-00000046"/>&#xD;
 TMl'  C'YZ' F a         U ITifl a  i  ,d r 6A&#xD;
 &#xD;
 £4 2  +r LE i  1 '" :.  a,. *_.I±  K.    ,'  '" . °   w4..&amp;amp; w  -: h .&#xD;
@@ -2395,7 +2400,7 @@ R.:2&#xD;
 &#xD;
 rin: eN:&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8382-00000047"/>&#xD;
+<pb n="94-95" xml:id="VAC8382-00000047"/>&#xD;
 I&#xD;
 &#xD;
 e're all better," said Mrs. Dodd; "how&#xD;
@@ -2434,7 +2439,7 @@ And thlen Thomas climbed up to his attic,&#xD;
 feeling as if indeed old things had&#xD;
 away and all had bene w&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8382-00000048"/>&#xD;
+<pb n="96-97" xml:id="VAC8382-00000048"/>&#xD;
 TaE co       STLL.&#xD;
 &#xD;
 dR             Rh&#xD;
@@ -2484,7 +2489,7 @@ sharper than any two edged sword.' I have&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8382-00000049"/>&#xD;
+<pb n="98-99" xml:id="VAC8382-00000049"/>&#xD;
 tar rl                        rncnt r t&#xD;
 &#xD;
 been reading the Bible to Mrs. Kflianand&#xD;
@@ -2541,7 +2546,7 @@ _                ? _h  ^' _&#xD;
 .&#xD;
 ,&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8382-00000050"/>&#xD;
+<pb n="100-101" xml:id="VAC8382-00000050"/>&#xD;
 9&#xD;
 &#xD;
 - I&#xD;
@@ -2600,7 +2605,7 @@ I&#xD;
 &#xD;
 t    4 i      Nr',&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8382-00000051"/>&#xD;
+<pb n="102-103" xml:id="VAC8382-00000051"/>&#xD;
 his heal over the wreck George had made,&#xD;
 but mind, neighbor, the Lord can abundantly&#xD;
 pardon, and he will heal all thy backslidings,&#xD;
@@ -2656,7 +2661,7 @@ lately lhe   otherr things; now as he washed&#xD;
 .k&#xD;
 gin&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8382-00000052"/>&#xD;
+<pb n="104-105" xml:id="VAC8382-00000052"/>&#xD;
 .;';&#xD;
 h&#xD;
 T&#xD;
@@ -2735,7 +2740,7 @@ ihy didn't you come here for a meal ?"&#xD;
 w _.&#xD;
 105&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8382-00000053"/>&#xD;
+<pb n="106-107" xml:id="VAC8382-00000053"/>&#xD;
 4&#xD;
 &#xD;
 "os" - leJrry&#xD;
@@ -2797,7 +2802,7 @@ Thomas hande d hian a good suppdy of meat&#xD;
 and bread, and a cup of water savin,"hee&#xD;
 make your meal and then str ch at, Jerry,&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8382-00000054"/>&#xD;
+<pb n="108-109" xml:id="VAC8382-00000054"/>&#xD;
 noew I: eel&#xD;
 &#xD;
 jV,&#xD;
@@ -2853,7 +2858,7 @@ die in ote corner of th entry, and went ff$&#xD;
 leaving Jerry splashing away in the water with&#xD;
 ae zt&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8382-00000055"/>&#xD;
+<pb n="110-111" xml:id="VAC8382-00000055"/>&#xD;
 110&#xD;
 &#xD;
 THE         WxLLL.&#xD;
@@ -2921,7 +2926,7 @@ u.~&#xD;
 77,&#xD;
 .&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8382-00000056"/>&#xD;
+<pb n="112-113" xml:id="VAC8382-00000056"/>&#xD;
 11,&#xD;
 &#xD;
 nrEEfcomek4 ,.---&#xD;
@@ -2984,7 +2989,7 @@ On,&#xD;
 iv'3i!  R  fi^P     '&#xD;
 171&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8382-00000057"/>&#xD;
+<pb n="114-115" xml:id="VAC8382-00000057"/>&#xD;
 rturnin.1g to his tzbtTi      a   Lur&#xD;
 wa  f"onhrav ~on Jerrr Lw sct r "&#xD;
 1  e  $, . G:  4  +. a.. aF.e j $' ~t4&#xD;
@@ -3023,7 +3028,7 @@ ac-i                *14-&#xD;
 X 4$ 2 .  A&amp;amp; , J U 4 xw - a: P ;  --&#xD;
 J i+      9y ' MM  4'ta           4 Y&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8382-00000058"/>&#xD;
+<pb n="116-117" xml:id="VAC8382-00000058"/>&#xD;
 What is the matter," said Thomas one&#xD;
 evening, as he found her sitting on the door-&#xD;
 sill, with her arms crossed on her knees, and&#xD;
@@ -3078,7 +3083,7 @@ i       Ti -.per ,   ^"   -'  '&#xD;
 &#xD;
 f _i  -&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8382-00000059"/>&#xD;
+<pb n="118-119" xml:id="VAC8382-00000059"/>&#xD;
 TM cn srw.&#xD;
 &#xD;
 A  a&#xD;
@@ -3144,7 +3149,7 @@ _[Z y&#xD;
 _  .&#xD;
 -.&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8382-00000060"/>&#xD;
+<pb n="120-121" xml:id="VAC8382-00000060"/>&#xD;
 =  _      __&#xD;
 &#xD;
 I was ashamed," murmured George.&#xD;
@@ -3195,7 +3200,7 @@ catching her breath quickly, but she held in&#xD;
 her arms the babe he had maimed, and for a&#xD;
 while she could not speak ;nally she said,&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8382-00000061"/>&#xD;
+<pb n="122-123" xml:id="VAC8382-00000061"/>&#xD;
 T ens    STALL,&#xD;
 &#xD;
 TU CO RSEt  $ LL&#xD;
@@ -3247,7 +3252,7 @@ ry s case, so now le did (eor'e D  ..u ; all&#xD;
 &#xD;
 J&amp;amp;P&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8382-00000062"/>&#xD;
+<pb n="124-125" xml:id="VAC8382-00000062"/>&#xD;
 1&amp;amp;4nna-  ~&#xD;
 &#xD;
 day long it had occupied his thoughts, but as&#xD;
@@ -3303,7 +3308,7 @@ F&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8382-00000063"/>&#xD;
+<pb n="126-127" xml:id="VAC8382-00000063"/>&#xD;
 they reached there Jerry was somewhat re-&#xD;
 vived after being " come down on," and&#xD;
 Thomas bade him make some lemonade.&#xD;
@@ -3353,7 +3358,7 @@ forgive vou to-night, wd'*1 both mean it?&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8382-00000064"/>&#xD;
+<pb n="128-129" xml:id="VAC8382-00000064"/>&#xD;
 That night, when Jerry and Thomas were&#xD;
 at home and ready for devotions, what an&#xD;
 earnest,'soulfull prayer the good man put Up&#xD;
@@ -3389,7 +3394,7 @@ to                Is                                         I I.,&#xD;
 _"&#xD;
 ._ ;&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8382-00000065"/>&#xD;
+<pb n="130-131" xml:id="VAC8382-00000065"/>&#xD;
 c coam STLL&#xD;
 &#xD;
 =cott  STALL.&#xD;
@@ -3453,7 +3458,7 @@ say if you do?"&#xD;
 _.     -&#xD;
 r&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8382-00000066"/>&#xD;
+<pb n="132-133" xml:id="VAC8382-00000066"/>&#xD;
 Tint.    :.-LL&#xD;
 &#xD;
 "Never fear," said Thomas; "George is&#xD;
@@ -3503,7 +3508,7 @@ do, why, Il take in all your stock to sect re&#xD;
 myself."&#xD;
 g - George, do it," cried his wife.&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8382-00000067"/>&#xD;
+<pb n="134-135" xml:id="VAC8382-00000067"/>&#xD;
 ":Il do itsMr. Twigg, and I hope you'll&#xD;
 hold on to me pretty tight ; hut when I do go&#xD;
 wrong, you know I warned you a-head of&#xD;
@@ -3554,7 +3559,7 @@ candy and mint sticks. "You'll have a shop&#xD;
 of your own, Jerry, one day," Thomas would&#xD;
 say encouragingly. Thomas meant to send&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8382-00000068"/>&#xD;
+<pb n="136-137" xml:id="VAC8382-00000068"/>&#xD;
 Jerry to night school as soon as it opened, and&#xD;
 to find some way of learning to write and&#xD;
 cipher himself. Suddenly it occurred to him&#xD;
@@ -3608,7 +3613,7 @@ drank.&#xD;
 "Another;" that went too.&#xD;
 "I've had enough," said George.&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8382-00000069"/>&#xD;
+<pb n="138-139" xml:id="VAC8382-00000069"/>&#xD;
 "Drink more," said Thomas, the inexorable.&#xD;
 George was growing meeker, he denied the&#xD;
 Cup again.&#xD;
@@ -3655,7 +3660,7 @@ out to hin right air and square, that he was&#xD;
 &#xD;
 It&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8382-00000070"/>&#xD;
+<pb n="140-141" xml:id="VAC8382-00000070"/>&#xD;
 pna        I'll do my duty, pardner, and let&#xD;
 the Lord take care of the rest"&#xD;
 Miss Stuyvesant came back, and was soon at&#xD;
@@ -3724,7 +3729,7 @@ v +&#xD;
 VYM1 ' :ffi' ' ^'i_&#xD;
 fie{ t&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8382-00000071"/>&#xD;
+<pb n="142-143" xml:id="VAC8382-00000071"/>&#xD;
 ie, and a few picture ards and te, and o&#xD;
 into the Alley, after Sanday school, and taking&#xD;
 possession of the door-step, read and talk, and&#xD;
@@ -3778,7 +3783,7 @@ o.&#xD;
 _&#xD;
 ;   ..&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8382-00000072"/>&#xD;
+<pb n="144-145" xml:id="VAC8382-00000072"/>&#xD;
 The echoesfthisc"            r       the&#xD;
 Police, and two or three blue coats ctain&amp;amp; tc&#xD;
 the rescue. Thomas, seeing entreaty and ex-.&#xD;
@@ -3827,7 +3832,7 @@ I4&#xD;
 &#xD;
 e R m&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8382-00000073"/>&#xD;
+<pb n="146-147" xml:id="VAC8382-00000073"/>&#xD;
 ma  mn nw r&#xD;
 &#xD;
 an angel to go to, to see Peter, and John and&#xD;
@@ -3885,7 +3890,7 @@ r&#xD;
 &#xD;
 F  \! Y-&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8382-00000074"/>&#xD;
+<pb n="148-149" xml:id="VAC8382-00000074"/>&#xD;
 40&#xD;
 &#xD;
 illa&#xD;
@@ -3950,7 +3955,7 @@ K iW-hiu               UiLr&#xD;
 °SS4'&#xD;
 '_   x&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8382-00000075"/>&#xD;
+<pb n="150-151" xml:id="VAC8382-00000075"/>&#xD;
 Tir CflgSTALL.&#xD;
 twat&#xD;
 can We do for Th&#xD;
@@ -4006,7 +4011,7 @@ Kingdom.&#xD;
 ip&#xD;
 °fxi&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8382-00000076"/>&#xD;
+<pb n="152-153" xml:id="VAC8382-00000076"/>&#xD;
 159&#xD;
 &#xD;
 Now Jerry had in himself so much of the&#xD;
@@ -4056,7 +4061,7 @@ F m&#xD;
 i&#xD;
 a            dip&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8382-00000077"/>&#xD;
+<pb n="154-155" xml:id="VAC8382-00000077"/>&#xD;
 154HEmC&#xD;
 &#xD;
 All this did not console poor Jerry, and&#xD;
@@ -4110,7 +4115,7 @@ Thomas took refuge in the little Bible that,&#xD;
 havin: been in Jerry's trousers pocket, had&#xD;
 not been  C4niieadby     ,. 1 Ju  Ally ritters.&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8382-00000078"/>&#xD;
+<pb n="156-157" xml:id="VAC8382-00000078"/>&#xD;
 the window as possible, for his sight was dim,&#xD;
 and his spectacles had been destroyed the day&#xD;
 bfore, when he cried out joyfully,&#xD;
@@ -4170,7 +4175,7 @@ and without hope in the world, which I leave&#xD;
 .T_.&#xD;
 ':&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8382-00000079"/>&#xD;
+<pb n="158-159" xml:id="VAC8382-00000079"/>&#xD;
 TEE CORNER StAL1&#xD;
 &#xD;
 to your.honor is a bad case for anymanto be&#xD;
@@ -4229,7 +4234,7 @@ Tim&#xD;
 ....&#xD;
 -         '  "'&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8382-00000080"/>&#xD;
+<pb n="160-161" xml:id="VAC8382-00000080"/>&#xD;
 #TU VeRER STLL&#xD;
 &#xD;
 Sympathizing with Thomas's mortification&#xD;
@@ -4285,7 +4290,7 @@ i1L lull. Irsr&#xD;
 &#xD;
 lam&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8382-00000081"/>&#xD;
+<pb n="162-163" xml:id="VAC8382-00000081"/>&#xD;
 YAte&#xD;
 &#xD;
 "Now, Jerry," said Thomas, "here's what&#xD;
@@ -4343,7 +4348,7 @@ a&#xD;
 :  ,&#xD;
 -   _.   r        -&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8382-00000082"/>&#xD;
+<pb n="164-165" xml:id="VAC8382-00000082"/>&#xD;
 isown earnest, queer, simple way, "just the&#xD;
 thing they wanted to know." So for Thomas&#xD;
 the light had coe  ut of the darkness&#xD;
@@ -4407,7 +4412,7 @@ _~ '1 i&#xD;
 &#xD;
 ;&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8382-00000083"/>&#xD;
+<pb n="166-167" xml:id="VAC8382-00000083"/>&#xD;
 1.1 coas0a SA             167&#xD;
 &#xD;
 "Troth, but you've hit it now. Thoia"&#xD;
@@ -4465,7 +4470,7 @@ Ull, 1 01&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8382-00000084"/>&#xD;
+<pb n="168-169" xml:id="VAC8382-00000084"/>&#xD;
 -H  - F" ttLL.m&#xD;
 &#xD;
 16          in ciltii&amp;amp;si irat&#xD;
@@ -4532,7 +4537,7 @@ K_&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8382-00000085"/>&#xD;
+<pb n="170-171" xml:id="VAC8382-00000085"/>&#xD;
 1M 0,  STALL&#xD;
 &#xD;
 tUEcora TAL.171&#xD;
@@ -4588,7 +4593,7 @@ T Ii     Mt I.a- .. El  el   It  wonduefu&#xD;
 11&#xD;
 "  L    a.&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8382-00000086"/>&#xD;
+<pb n="172-173" xml:id="VAC8382-00000086"/>&#xD;
 172&#xD;
 &#xD;
 Ta    tt i&#xD;
@@ -4614,7 +4619,7 @@ clean as poile, and looking  e    happy,&#xD;
 went to see Marv for an hour, and the little&#xD;
 1I3&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8382-00000087"/>&#xD;
+<pb n="174-175" xml:id="VAC8382-00000087"/>&#xD;
 4TEE COR tAL.&#xD;
 &#xD;
 patroness gave her small protege much wise&#xD;
@@ -4668,7 +4673,7 @@ was a firm friend also to Mrs. M-Glure, and&#xD;
 the two other families whom  Temas    ad&#xD;
 ished up from the depths of Jug Alley.&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8382-00000088"/>&#xD;
+<pb n="176-177" xml:id="VAC8382-00000088"/>&#xD;
 176&#xD;
 &#xD;
 T               L C==fl A&#xD;
@@ -4727,7 +4732,7 @@ K I&#xD;
 it&#xD;
 -4 1&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8382-00000089"/>&#xD;
+<pb n="178-179" xml:id="VAC8382-00000089"/>&#xD;
 178  Tn  rnr~~                     UN      fZL    ~   I&#xD;
 &#xD;
 "We'd do well enough," said the woman,&#xD;
@@ -4774,7 +4779,7 @@ U U.cps your nye hundred &amp;amp;oLars.&#xD;
 &#xD;
 179-            4DIONSM  wt.. .&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8382-00000090"/>&#xD;
+<pb n="180-181" xml:id="VAC8382-00000090"/>&#xD;
 a     mw2sZa rn-&#xD;
 &#xD;
 " Moses   m "id Mrs. Ki'li, collecting her&#xD;
@@ -4830,7 +4835,7 @@ MIAM&#xD;
 ALT&#xD;
 AW&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8382-00000091"/>&#xD;
+<pb n="182-183" xml:id="VAC8382-00000091"/>&#xD;
 -n&#xD;
 &#xD;
 _ _  - T-LL.&#xD;
@@ -4884,7 +4889,7 @@ p        L&#xD;
 lox&#xD;
 1             Sw&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8382-00000092"/>&#xD;
+<pb n="184-185" xml:id="VAC8382-00000092"/>&#xD;
 " Be quick about doing this business up,&#xD;
 Thomas," urged the cautious Becky.    "If&#xD;
 you're groinr to g:ive the money, itsn use let&#xD;
@@ -4935,7 +4940,7 @@ will think over the matter,aw  ee VOaai&#xD;
 aboutit.&#xD;
 Thomnas -hired the room, Mrs. Dodd and&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8382-00000093"/>&#xD;
+<pb n="186-187" xml:id="VAC8382-00000093"/>&#xD;
 -H  ORUfSt&#xD;
 &#xD;
 Becky Killigan cleaned and. whitewashed it,&#xD;
@@ -5007,7 +5012,7 @@ in don for  u-&#xD;
 &#xD;
 . ~_&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8382-00000094"/>&#xD;
+<pb n="188-189" xml:id="VAC8382-00000094"/>&#xD;
 188&#xD;
 &#xD;
 w c-a fAjz&#xD;
@@ -5065,7 +5070,7 @@ I  h&#xD;
 .k 4&#xD;
 bif&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8382-00000095"/>&#xD;
+<pb n="190-191" xml:id="VAC8382-00000095"/>&#xD;
 Tn    LL ?151&#xD;
 &#xD;
 CHAPTER VHI.&#xD;
@@ -5118,7 +5123,7 @@ t&#xD;
 &#xD;
 I91&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8382-00000096"/>&#xD;
+<pb n="192-193" xml:id="VAC8382-00000096"/>&#xD;
 '.&#xD;
 &#xD;
 I .                   -cii af&#xD;
@@ -5168,7 +5173,7 @@ fever, and had two small children who were&#xD;
 wandering the streets as beggars.&#xD;
 "It's full time, pardner. that von wer un&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8382-00000097"/>&#xD;
+<pb n="194-195" xml:id="VAC8382-00000097"/>&#xD;
 mnd doing for the Lord your Master,?' said&#xD;
 Those.&#xD;
 "And what can I do ?" asked Becky Killi.&#xD;
@@ -5214,7 +5219,7 @@ me how they did good to souls and bodies,&#xD;
 was fit to die that I couldn't do that goo&#xD;
 rk mer-4 It's neA the inonev, Thomas-&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8382-00000098"/>&#xD;
+<pb n="196-197" xml:id="VAC8382-00000098"/>&#xD;
 +Y&#xD;
 &#xD;
 77,&#xD;
@@ -5275,7 +5280,7 @@ they've got. Cheer 'em up, talk to 'em of&#xD;
 --&#xD;
 '              °-&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8382-00000099"/>&#xD;
+<pb n="198-199" xml:id="VAC8382-00000099"/>&#xD;
 Tu~zu tt&#xD;
 &#xD;
 Uw&#xD;
@@ -5331,7 +5336,7 @@ said Becky, ruefully.&#xD;
 3:&#xD;
 n7&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8382-00000100"/>&#xD;
+<pb n="200-201" xml:id="VAC8382-00000100"/>&#xD;
 _   4&#xD;
 &#xD;
 x         -   _      _&#xD;
@@ -5384,7 +5389,7 @@ In a dim corner of the vile shop, standing&#xD;
 cme to a smoky, foul lamp, a glass of gin in&#xD;
 ., big, shaking hand, was a coarse, bloated&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8382-00000101"/>&#xD;
+<pb n="202-203" xml:id="VAC8382-00000101"/>&#xD;
 7  y ry                   .&#xD;
 -,,,.          -&#xD;
 ,"                       ._&#xD;
@@ -5454,7 +5459,7 @@ her for two days, and ound her at last - but&#xD;
 where? drawn out of the river from amid&#xD;
 blocks of ice, her blue lips  uA  ad her e-yes&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8382-00000102"/>&#xD;
+<pb n="204-205" xml:id="VAC8382-00000102"/>&#xD;
 tH . wan__ __&#xD;
 &#xD;
 }"-  ,&#xD;
@@ -5517,7 +5522,7 @@ iWORIORK&#xD;
 &#xD;
 mmm&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8382-00000103"/>&#xD;
+<pb n="206-207" xml:id="VAC8382-00000103"/>&#xD;
 ThU    STALL&#xD;
 &#xD;
 l-&#xD;
@@ -5577,7 +5582,7 @@ pounded*'&#xD;
 vp                                    ,&#xD;
 w&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8382-00000104"/>&#xD;
+<pb n="208-209" xml:id="VAC8382-00000104"/>&#xD;
 A-&#xD;
 &#xD;
 208             C0   {  -40.a lt&#xD;
@@ -5642,7 +5647,7 @@ t3,&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC8382-00000105"/>&#xD;
+<pb n="210-211" xml:id="VAC8382-00000105"/>&#xD;
 InM&#xD;
 &#xD;
 It's all along of that good man, Mr.&#xD;
@@ -5724,7 +5729,7 @@ rl{&#xD;
 i r  '&#xD;
 . - i  .&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8382-00000106"/>&#xD;
+<pb n="212-213" xml:id="VAC8382-00000106"/>&#xD;
 'It    ~TMoam     a&#xD;
 &#xD;
 men promised. "No, Mr. Twigg, I'll go with&#xD;
@@ -5754,7 +5759,7 @@ on  -them te sign also.&#xD;
 Akio&#xD;
 mwo"w&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8382-00000107"/>&#xD;
+<pb n="214-215" xml:id="VAC8382-00000107"/>&#xD;
 r    ctULNE  STALL.&#xD;
 &#xD;
 214 R cof&#xD;
@@ -5826,7 +5831,7 @@ Y&#xD;
 +&#xD;
 F.:&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8382-00000108"/>&#xD;
+<pb n="216-217" xml:id="VAC8382-00000108"/>&#xD;
 tie&#xD;
 &#xD;
 ME :  w It&#xD;
@@ -5901,7 +5906,7 @@ Thomas ; "if you went on like the rest they'd&#xD;
 ut set on you, but what for a decent mar.&#xD;
 uld4.youL be ?-"&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8382-00000109"/>&#xD;
+<pb n="218-219" xml:id="VAC8382-00000109"/>&#xD;
 218&#xD;
 &#xD;
 '='    .&#xD;
@@ -5992,7 +5997,7 @@ tiA                                      -&#xD;
 N+      f&#xD;
 n  r;^ =r&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8382-00000110"/>&#xD;
+<pb n="220-221" xml:id="VAC8382-00000110"/>&#xD;
 ma cosrat mat.&#xD;
 &#xD;
 a'&#xD;
@@ -6054,7 +6059,7 @@ SentU&#xD;
 lBnt while we are thus discoursing and say&#xD;
 ing some things and leaving thers unsaid,tis&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC8382-00000111"/>&#xD;
+<pb n="222-223" xml:id="VAC8382-00000111"/>&#xD;
 r&#xD;
 &#xD;
 coaffMaSta-&#xD;
@@ -6113,7 +6118,7 @@ Yes she'ss feeble, is Mrs. Dodd" repid&#xD;
 &#xD;
 -n&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC8382-00000112"/>&#xD;
+<pb n="224-225" xml:id="VAC8382-00000112"/>&#xD;
 ca&#xD;
 &#xD;
 _-Sa  n T S&#xD;
@@ -6177,7 +6182,7 @@ _       ,  '&#xD;
 .i .:&#xD;
 _                          v&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC8382-00000113"/>&#xD;
+<pb n="226-227" xml:id="VAC8382-00000113"/>&#xD;
 As       41&#xD;
 &#xD;
 Tn  co-a r   ai&#xD;
@@ -6280,7 +6285,7 @@ r.&#xD;
 i&#xD;
 _ .&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC8382-00000114"/>&#xD;
+<pb n="228-229" xml:id="VAC8382-00000114"/>&#xD;
 ngloudly to reach her dulled sense, he&#xD;
 "Do you know you are soon to die?"&#xD;
 Well;"   e said, dowly, *I ain't sory for&#xD;
@@ -6332,7 +6337,7 @@ ITV&#xD;
 .1_&#xD;
 MK!&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC8382-00000115"/>&#xD;
+<pb n="230-231" xml:id="VAC8382-00000115"/>&#xD;
 Net came the zealots of Rome, who, hitherto,&#xD;
 had given the cold shoulder to Jug Alte&#xD;
 inasmuch as there was there absolutely north&#xD;
@@ -6395,7 +6400,7 @@ I_&#xD;
 ., ..&#xD;
 . .;.'&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC8382-00000116"/>&#xD;
+<pb n="232-233" xml:id="VAC8382-00000116"/>&#xD;
 n           ta corn     sno&#xD;
 stick. Faith, you aint, for Thomas read to&#xD;
 me that the Lord is 'able to kape what is&#xD;
@@ -6455,7 +6460,7 @@ sK   _                                      _&#xD;
 «hy                                 '&#xD;
 j  ifm&#xD;
 &#xD;
-<pb  n="234-235" xml:id="VAC8382-00000117"/>&#xD;
+<pb n="234-235" xml:id="VAC8382-00000117"/>&#xD;
 234&#xD;
 &#xD;
 at CORNE SALL&#xD;
@@ -6508,7 +6513,7 @@ It'n&#xD;
 &#xD;
 A71&#xD;
 &#xD;
-<pb  n="236-237" xml:id="VAC8382-00000118"/>&#xD;
+<pb n="236-237" xml:id="VAC8382-00000118"/>&#xD;
 TE COUR STLa&#xD;
 &#xD;
 The men gave one good cheer, and then,&#xD;
@@ -6558,7 +6563,7 @@ i        t"&#xD;
 _ "++yyyrg y     _&#xD;
 M-F&#xD;
 &#xD;
-<pb  n="238-239" xml:id="VAC8382-00000119"/>&#xD;
+<pb n="238-239" xml:id="VAC8382-00000119"/>&#xD;
 TE COMMSa STLL.&#xD;
 &#xD;
 23&#xD;
@@ -6631,7 +6636,7 @@ t'&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="240-241" xml:id="VAC8382-00000120"/>&#xD;
+<pb n="240-241" xml:id="VAC8382-00000120"/>&#xD;
 ,&#xD;
 &#xD;
 1.&#xD;
@@ -6706,7 +6711,7 @@ on the table and began to cry violently.&#xD;
 &#xD;
 , 7. --, - T-F&#xD;
 &#xD;
-<pb  n="242-243" xml:id="VAC8382-00000121"/>&#xD;
+<pb n="242-243" xml:id="VAC8382-00000121"/>&#xD;
 curears SALL&#xD;
 &#xD;
 4&#xD;
@@ -6780,7 +6785,7 @@ e&#xD;
 '1&#xD;
 US&#xD;
 &#xD;
-<pb  n="244-245" xml:id="VAC8382-00000122"/>&#xD;
+<pb n="244-245" xml:id="VAC8382-00000122"/>&#xD;
 240.&#xD;
 &#xD;
 SCOR e STALL.&#xD;
@@ -6848,7 +6853,7 @@ taken the Lord at his went the Lord said,&#xD;
 hm at his word an' gn   on for Jug Alley,&#xD;
 and here the help was coming.&#xD;
 &#xD;
-<pb  n="246-247" xml:id="VAC8382-00000123"/>&#xD;
+<pb n="246-247" xml:id="VAC8382-00000123"/>&#xD;
 b, r          Y:&#xD;
 e             y&#xD;
 tV&#xD;
@@ -6906,7 +6911,7 @@ business, Thomas heartily recomrnendA the&#xD;
 &#xD;
 ammm&#xD;
 &#xD;
-<pb  n="248-249" xml:id="VAC8382-00000124"/>&#xD;
+<pb n="248-249" xml:id="VAC8382-00000124"/>&#xD;
 248E'CORNER STALE.&#xD;
 Boy's Lodgig House," and, indeed, offered&#xD;
 to take him there as soon as Jerry got back.&#xD;
@@ -6957,7 +6962,7 @@ serving the Lord,&#xD;
 &#xD;
 , ,t%  ,&#xD;
 &#xD;
-<pb  n="250-251" xml:id="VAC8382-00000125"/>&#xD;
+<pb n="250-251" xml:id="VAC8382-00000125"/>&#xD;
 Thank you, kindly," said Mrs. McClure.-&#xD;
 Il go next week and look out a place,"&#xD;
 said the husband, decidedly.&#xD;
@@ -7024,7 +7029,7 @@ A&#xD;
 &#xD;
 ;P*&#xD;
 &#xD;
-<pb  n="252-253" xml:id="VAC8382-00000126"/>&#xD;
+<pb n="252-253" xml:id="VAC8382-00000126"/>&#xD;
 Killian, in whom nature continually warred.&#xD;
 evidently, with grace, ana often very nearly&#xD;
 got the upper hands.&#xD;
@@ -7081,7 +7086,7 @@ Thomas.&#xD;
 &#xD;
 I:&#xD;
 &#xD;
-<pb  n="254-255" xml:id="VAC8382-00000127"/>&#xD;
+<pb n="254-255" xml:id="VAC8382-00000127"/>&#xD;
 2t      it  o~~&#xD;
 &#xD;
 twatt-&#xD;
@@ -7135,7 +7140,7 @@ It may be that as the rears have passed,&#xD;
 friend Thomas Twigg is seen no more in the&#xD;
 Corner Stall on Union Square, perchance he&#xD;
 &#xD;
-<pb  n="256-257" xml:id="VAC8382-00000128"/>&#xD;
+<pb n="256-257" xml:id="VAC8382-00000128"/>&#xD;
 has prospered unto the attaining of a shop,&#xD;
 with Jerry for his confectioner; it may be he&#xD;
 bs gone where good men -Rest from their&#xD;
@@ -7188,8 +7193,8 @@ death, and cover a multitude of ins."&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

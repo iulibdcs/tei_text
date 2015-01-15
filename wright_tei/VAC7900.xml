@@ -1,95 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7900">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7900">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Haps and Mishaps of the Three Jolly Students </title>
-            <author >Stanton, Benjamin F.</author>
+            <title>The Haps and Mishaps of the Three Jolly Students </title>
+            <author>Stanton, Benjamin F.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7900</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7900</idno>
+            <idno type="wright2" n="previous">wright2-2347</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The haps and mishaps of the three jolly students</title>
-                  <author >Stanton, Benjamin F.</author>
+                  <title>The haps and mishaps of the three jolly students</title>
+                  <author>Stanton, Benjamin F.</author>
                </titleStmt>
-               <extent >12 p.</extent>
+               <extent>12 p.</extent>
                <publicationStmt>
-                  <publisher >Gaywell Webster &amp; Gabbles</publisher>
+                  <publisher>Gaywell Webster &amp; Gabbles</publisher>
                   <pubPlace>Manchester N.H. </pubPlace>
-                  <date  when="1866">1866</date>
+                  <date when="1866">1866</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-05-02">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-05-02">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The haps and mishaps of the three jolly students</head> 
+            <head>The haps and mishaps of the three jolly students</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7900-00000001"/>Vjub(4t at tie 3 equ5t of ~pt~~u  dns&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7900-00000001"/>Vjub(4t at tie 3 equ5t of ~pt~~u  dns&#xD;
 q/7/A ICTW             IZ,&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7900-00000002"/>&#xD;
+<pb n="" xml:id="VAC7900-00000002"/>&#xD;
 c  e  rxa 4!aj  tdt&#xD;
 &#xD;
 2o the past and present .Members&#xD;
@@ -128,7 +133,7 @@ rious were the comments made by curious bystanid-&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7900-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7900-00000003"/>&#xD;
 At&#xD;
 &#xD;
 4&#xD;
@@ -196,7 +201,7 @@ soared away. They saw him for full ten minutes af-&#xD;
 ter he was out of sight rising higher and higher and&#xD;
 wiukiug at them frst with one eye and then the otlh&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7900-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7900-00000004"/>&#xD;
 6&#xD;
 &#xD;
 7&#xD;
@@ -271,7 +276,7 @@ death. I have been chased by a er Ybe0, boysiby&#xD;
 &#xD;
 r.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7900-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7900-00000005"/>&#xD;
 !&#xD;
 ,&#xD;
 3&#xD;
@@ -358,7 +363,7 @@ A&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7900-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7900-00000006"/>&#xD;
 10&#xD;
 "For," said he, "such a cowardly looking set of rag-&#xD;
 rhuffins can do no harm. They may frighten the old&#xD;
@@ -436,7 +441,7 @@ Pompeii, why then there was no use in Lot being&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7900-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7900-00000007"/>&#xD;
 12&#xD;
 turned into a pillar of salt, a camel hung about his&#xD;
 neck and pitched into a whale where a sea swallowed&#xD;
@@ -457,8 +462,8 @@ AMANDA EMBBACED THE DOCTOR.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

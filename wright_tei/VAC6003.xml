@@ -1,375 +1,366 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
      xml:id="VAC6003">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Cassy, or, Early Trials </title>
-            <author >Anonymous</author>
+            <title>Cassy, or, Early Trials </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine xmlns="http://www.tei-c.org/ns/1.0">1320 E. 10th St.</addrLine>
-               <addrLine xmlns="http://www.tei-c.org/ns/1.0">Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6003</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
+            <idno type="wright">VAC6003</idno>
+            <idno type="wright2" n="previous">wright2-0475A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                    copyright only to original contributions made by the Wright American Fiction project 
+                    participants and other members of the university community. Indiana
                     University makes no claim of copyright to the original text. Permission is
                     granted to download, transmit or otherwise reproduce, distribute or display the
                     contributions to this work claimed by Indiana University for non-profit
                     educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+                    inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Cassy, or, Early trials</title>
-                  <author >Anonymous</author>
+                  <title>Cassy, or, Early trials</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >32 p. </extent>
+               <extent>32 p. </extent>
                <publicationStmt>
-                  <publisher >J.P. Jewett</publisher>
+                  <publisher>J.P. Jewett</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1855">1855</date>
+                  <date when="1855">1855</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <revisionDesc>
-         <change  who="AEL Data" when="2003-04-07">Finished transcription and SGML encoding</change>
-         <change  who="Perry Willett, Indiana University" when="2003-04-23">Finished TEI conversion</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+         <change who="AEL Data" when="2003-04-07">Finished transcription and SGML encoding</change>
+         <change who="Perry Willett, Indiana University" when="2003-04-23">Finished TEI conversion</change>
+         <change who="Siobhain Rivera" when="2014-04-22">Converted document from SGML to TEI P5.</change>
+         <change who="Siobhain Rivera" when="2014-04-22">Edited encoding to fix Table of Contents and title page.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
-      <front> 
-         <titlePage xmlns="http://www.tei-c.org/ns/1.0" type="cover"> 
-            <pb  n=" (Cover) " xml:id="VAC6003-00000001"/> 
-            <docTitle> 
-               <titlePart>CASSY,</titlePart> 
-               <titlePart type="sub">OR EARLY TRIALS.</titlePart> 
-            </docTitle> 
-            <docEdition>
-               <figure > </figure>
-            </docEdition> 
+   <text>
+      <front>
+         <pb n=" (Cover) " xml:id="VAC6003-00000001"/>
+         <div type="half_title">
+            
+            <bibl>
+               <title>CASSY,</title>
+               <title type="sub">OR EARLY TRIALS.</title>
+               <pubPlace>BOSTON:</pubPlace>
+               <publisher>PUBLISHED BY JOHN P. JEWETT AND COMPANY.</publisher>
+               <pubPlace>CLEVELAND, OHIO:</pubPlace>
+               <publisher>JEWETT, PROCTOR, AND WORTHINGTON.</publisher>
+               <pubPlace>NEW YORK:</pubPlace>
+               <publisher>SHELDON, LAMPORT, AND BLAKEMAN.</publisher>
+               <date>1855.</date>
+            </bibl>
+         </div>
+         <pb n=" (TitlePage) " xml:id="VAC6003-00000002"/>
+         <titlePage>
+            
+            <docTitle>
+               <titlePart>CASSY,</titlePart>
+               <titlePart type="sub">OR EARLY TRIALS.</titlePart>
+            </docTitle>
             <docImprint>
-               <pubPlace>BOSTON:</pubPlace> 
-               <publisher >PUBLISHED BY JOHN P. JEWETT AND COMPANY.</publisher> 
-               <pubPlace>CLEVELAND, OHIO:</pubPlace> 
-               <publisher >JEWETT, PROCTOR, AND WORTHINGTON.</publisher> 
-               <pubPlace>NEW YORK:</pubPlace> 
-               <publisher >SHELDON, LAMPORT, AND BLAKEMAN.</publisher>
-            </docImprint> 
-            <docDate>1855.</docDate> 
-         </titlePage> 
-         <titlePage xmlns="http://www.tei-c.org/ns/1.0"> 
-            <pb  n=" (TitlePage) " xml:id="VAC6003-00000002"/> 
-            <docTitle> 
-               <titlePart>CASSY,</titlePart> 
-               <titlePart type="sub">OR EARLY TRIALS.</titlePart> 
-            </docTitle> 
-            <docImprint>
-               <pubPlace>BOSTON:</pubPlace> 
-               <publisher >PUBLISHED BY JOHN P. JEWETT AND COMPANY.</publisher> 
-               <pubPlace>CLEVELAND, OHIO:</pubPlace> 
-               <publisher >JEWETT, PROCTOR, AND WORTHINGTON.</publisher> 
-               <pubPlace>NEW YORK:</pubPlace> 
-               <publisher >SHELDON, LAMPORT, AND BLAKEMAN.</publisher>
-            </docImprint> 
-            <docDate>1855.</docDate> 
-            <pb  n="(Illustration) -3" xml:id="VAC6003-00000003"/> 
+               <pubPlace>BOSTON:</pubPlace>
+               <publisher>PUBLISHED BY JOHN P. JEWETT AND COMPANY.</publisher>
+               <pubPlace>CLEVELAND, OHIO:</pubPlace>
+               <publisher>JEWETT, PROCTOR, AND WORTHINGTON.</publisher>
+               <pubPlace>NEW YORK:</pubPlace>
+               <publisher>SHELDON, LAMPORT, AND BLAKEMAN.</publisher>
+            </docImprint>
+            <docDate when="1855">1855.</docDate>
+            <pb n="(Illustration) -3" xml:id="VAC6003-00000003"/>
             <docEdition>
-               <figure > 
-                  <head>"This was a familiar place to the gaunt crane, the hissing serpent, and the frightful alligator."</head> 
+               <figure>
+                  <head>"This was a familiar place to the gaunt crane, the hissing serpent, and the frightful alligator."</head>
                </figure>
-            </docEdition> 
-            <docEdition>Entered, according to Act of Congress, in the year 1854, by JOHN P. JEWETT AND COMPANY, In the Clerk's Office of the District Court of the District of Massachusetts.</docEdition> 
-         </titlePage> 
-      </front> 
+            </docEdition>
+            <docEdition>Entered, according to Act of Congress, in the year 1854, by JOHN P. JEWETT AND COMPANY, In the Clerk's Office of the District Court of the District of Massachusetts.</docEdition>
+         </titlePage>
+      </front>
       <body>
          <div type="book">
-            <head>Cassy, or, Early trials</head> 
-             
-            <head>CASSY, OR EARLY TRIALS.</head> 
-            <div type="chapter"> 
-               <head>CHAPTER I.</head> 
-               <head type="sub">THE SWAMP.</head> 
-               <p>IT was a wild, gloomy evening! the wind blew in fitful gusts, and whistled round the corners of the mean tenements in which dwelt the slaves of a large landed proprietor in the State of Mississippi.</p> 
-               <p>Two women were seated on low stools. The elder one was hard-featured and stern looking; the other was thin and delicate. Her eyes were red with weeping, and a little child about five years old, almost naked, nestled in her bosom.</p> 
-               <p>"We are going to have a stormy night," said the latter; "but I will go! I can bear this no longer."</p> 
-               <p>"Julia," returned the other, "think better of it; you will go to certain death. How can you expect to reach a place of safety without money or friends? There will be thousands of miles to travel; there will be rivers to cross; there will be forests to wander through. O Julia! think again."</p> 
-               <p>"Better to trust to the woods and waters than trust to this hard taskmaster! My husband fled; where he is I know not; but I hope he is not far from the land of freedom. Master says he is hidden near here, and that if I do not discover his retreat, he will beat me; nay, worse than that, he says he will to-morrow sell my child from me."</p> 
-               <pb n="4-5" xml:id="VAC6003-00000004"/> 
-               <p>As the poor woman said this, she strained again and again her little one to her bosom. The storm within was so tumultuous, that she thought not of the storm without; she seized a little bundle of clothes which she had ready, and taking her child in her arms, she rushed out and fled towards the forest.</p> 
+            <head>Cassy, or, Early trials</head>
+            <head>CASSY, OR EARLY TRIALS.</head>
+            <div type="chapter">
+               <head>CHAPTER I.</head>
+               <head type="sub">THE SWAMP.</head>
+               <p>IT was a wild, gloomy evening! the wind blew in fitful gusts, and whistled round the corners of the mean tenements in which dwelt the slaves of a large landed proprietor in the State of Mississippi.</p>
+               <p>Two women were seated on low stools. The elder one was hard-featured and stern looking; the other was thin and delicate. Her eyes were red with weeping, and a little child about five years old, almost naked, nestled in her bosom.</p>
+               <p>"We are going to have a stormy night," said the latter; "but I will go! I can bear this no longer."</p>
+               <p>"Julia," returned the other, "think better of it; you will go to certain death. How can you expect to reach a place of safety without money or friends? There will be thousands of miles to travel; there will be rivers to cross; there will be forests to wander through. O Julia! think again."</p>
+               <p>"Better to trust to the woods and waters than trust to this hard taskmaster! My husband fled; where he is I know not; but I hope he is not far from the land of freedom. Master says he is hidden near here, and that if I do not discover his retreat, he will beat me; nay, worse than that, he says he will to-morrow sell my child from me."</p>
+               <pb n="4-5" xml:id="VAC6003-00000004"/>
+               <p>As the poor woman said this, she strained again and again her little one to her bosom. The storm within was so tumultuous, that she thought not of the storm without; she seized a little bundle of clothes which she had ready, and taking her child in her arms, she rushed out and fled towards the forest.</p>
                <p>
-                  <figure> 
-                     <head>Cassy's Master and Mistress.</head> 
+                  <figure>
+                     <head>Cassy's Master and Mistress.</head>
                   </figure>
-               </p> 
-               <p>Fear of pursuit lent her wings; she flew rather than ran, until she found herself in a part of the forest where the trees were so thick, and the ground so covered with brushwood, that her bleeding feet could carry her no farther without resting; nor did she notice, until then, how much the storm had increased since she left the plantation.</p> 
-               <p>"My child! my child! this is terrible!" exclaimed she, as a tall tree, at a little distance from the one under which she had stopped, was riven, with a loud crash, from top to bottom, by the lighting; while the thunder instantly broke over their heads with a deafening peal.</p> 
-               <p>Little Cassy hid herself in the scanty skirt of her mother's gown. She was terrified at the darkness, which was rendered still more frightful by the frequent flashes of lightning, which revealed, for the moment, the wild and trackless forest in which they had sought shelter.</p> 
-               <p>When morning dawned, the rays of the sun could scarcely penetrate through the thick foliage of the trees. The poor wanderers were weary, cold, and hungry; yet they could not stop; they could not waste their precious moments in seeking for food or rest. The knowledge that her absence from the plantation must soon be discovered, added to her terror, and seizing in her arms her child, with increased force she pushed her way through the brushwood, and went on, and on, until she came to the edge of a swamp, which she had heard spoken of as being many miles distant from the entrance of the forest.</p> 
-               <p>She paused to look around her. To what a wretched place was she come! The ground, as far as the eye could reach, was covered with stagnant water, from which proceeded a sickly smell; large trees were standing in the swamp, but the fetid water was fast destroying their trunks; soon they would fall, as well as the steeple-like fungi which grew beneath, and add to the general decay. From the boughs of the trees hung tangled masses of dank moss, showing the damp and unwholesome atmosphere. This was a familiar place to the gaunt crane, the hissing serpent, and the frightful alligator, whose faint, musky odor loaded the air. The poor mother thought but little of all this; she was free! O, happy word! free! She had taken the first step; she doubted not but that she would accomplish the rest. Alas! poor woman! how could she expect, with a child in her arms, to perform what so many others had failed in doing alone? She did not know the means that are taken to discover fugitives; she did not know the hatred a master bears towards his runaway slave.</p> 
-               <p>Julia, who knew it would be death to breathe for any length of time the noxious atmosphere of the swamp, ascended a little eminence, on which stood a grove of cypresses. She then gathered together a few boughs, and made a sort of little hut; for here she intended to remain for a few days, subsisting on roots and berries, until she supposed pursuit would be over, and then bend her steps to the river, trusting to the charity of some kind-hearted man to take her in his boat up the River Mississippi. She felt how deep were her wrongs, and she could not but believe that the relation of them would create interest and pity in the breasts of freemen.</p> 
-               <pb n="6-7" xml:id="VAC6003-00000005"/> 
-               <p>"Mammy, why do you stay here all day?" asked Cassy, again and again. "I am so hungry; do let us go back."</p> 
-               <p>"My child," returned the mother, "do you want to be taken from me? That bad man whom we called master said he would sell you, and that you should go and live among strangers. I should not be with you, my darling, to take care of you; you would be quite, quite alone! We have come here to be free; to-morrow we will set out on our journey to the country where there are no slaves. Do you see that little bird, hopping among the branches?" continued the mother, pointing upwards; "if we reach that happy land, we shall be free as that bird! Do you want to go back?"</p> 
-               <p>"No, mammy, no; but do let us go on. I don't like this dreadful place."</p> 
+               </p>
+               <p>Fear of pursuit lent her wings; she flew rather than ran, until she found herself in a part of the forest where the trees were so thick, and the ground so covered with brushwood, that her bleeding feet could carry her no farther without resting; nor did she notice, until then, how much the storm had increased since she left the plantation.</p>
+               <p>"My child! my child! this is terrible!" exclaimed she, as a tall tree, at a little distance from the one under which she had stopped, was riven, with a loud crash, from top to bottom, by the lighting; while the thunder instantly broke over their heads with a deafening peal.</p>
+               <p>Little Cassy hid herself in the scanty skirt of her mother's gown. She was terrified at the darkness, which was rendered still more frightful by the frequent flashes of lightning, which revealed, for the moment, the wild and trackless forest in which they had sought shelter.</p>
+               <p>When morning dawned, the rays of the sun could scarcely penetrate through the thick foliage of the trees. The poor wanderers were weary, cold, and hungry; yet they could not stop; they could not waste their precious moments in seeking for food or rest. The knowledge that her absence from the plantation must soon be discovered, added to her terror, and seizing in her arms her child, with increased force she pushed her way through the brushwood, and went on, and on, until she came to the edge of a swamp, which she had heard spoken of as being many miles distant from the entrance of the forest.</p>
+               <p>She paused to look around her. To what a wretched place was she come! The ground, as far as the eye could reach, was covered with stagnant water, from which proceeded a sickly smell; large trees were standing in the swamp, but the fetid water was fast destroying their trunks; soon they would fall, as well as the steeple-like fungi which grew beneath, and add to the general decay. From the boughs of the trees hung tangled masses of dank moss, showing the damp and unwholesome atmosphere. This was a familiar place to the gaunt crane, the hissing serpent, and the frightful alligator, whose faint, musky odor loaded the air. The poor mother thought but little of all this; she was free! O, happy word! free! She had taken the first step; she doubted not but that she would accomplish the rest. Alas! poor woman! how could she expect, with a child in her arms, to perform what so many others had failed in doing alone? She did not know the means that are taken to discover fugitives; she did not know the hatred a master bears towards his runaway slave.</p>
+               <p>Julia, who knew it would be death to breathe for any length of time the noxious atmosphere of the swamp, ascended a little eminence, on which stood a grove of cypresses. She then gathered together a few boughs, and made a sort of little hut; for here she intended to remain for a few days, subsisting on roots and berries, until she supposed pursuit would be over, and then bend her steps to the river, trusting to the charity of some kind-hearted man to take her in his boat up the River Mississippi. She felt how deep were her wrongs, and she could not but believe that the relation of them would create interest and pity in the breasts of freemen.</p>
+               <pb n="6-7" xml:id="VAC6003-00000005"/>
+               <p>"Mammy, why do you stay here all day?" asked Cassy, again and again. "I am so hungry; do let us go back."</p>
+               <p>"My child," returned the mother, "do you want to be taken from me? That bad man whom we called master said he would sell you, and that you should go and live among strangers. I should not be with you, my darling, to take care of you; you would be quite, quite alone! We have come here to be free; to-morrow we will set out on our journey to the country where there are no slaves. Do you see that little bird, hopping among the branches?" continued the mother, pointing upwards; "if we reach that happy land, we shall be free as that bird! Do you want to go back?"</p>
+               <p>"No, mammy, no; but do let us go on. I don't like this dreadful place."</p>
                <p>
-                  <figure> </figure>
-               </p> 
-            </div> 
-            <div type="chapter"> 
-                
-               <head>CHAPTER II.</head> 
-               <head type="sub">THE CAPTURE.</head> 
-               <p>MY little readers! I will not dwell upon the terrible incident that followed. Suffice it to say, that the mother one night was startled out of sleep by the deep baying of a dog, which had scented her footsteps through the brushwood. A yell of agony burst forth as the dog seized her, and she would have been torn limb from limb had not some men called him off.</p> 
-               <p>They were led back to the plantation, and the next day both mother and child were exposed for public sale in the market.</p> 
-               <p>They stood silent and dejected; they were unfettered, for there was no occasion to put chains on a poor woman whose feet were torn with briers, and whose shoulder was stiff and sore by the gripe she had received from a fierce bloodhound.</p> 
-               <p>Her head hung down. Her hands were clasped in agony; but a keen observer might have seen a restless wandering of the eye, the heaving bosom, and swelling nostrils, as a man of savage aspect stepped forward and examined Cassy, with an intention of bidding for her.</p> 
-               <p>The sound of wheels was heard approaching! Within a carriage was seated a lady of gentle mien, who was passing by, unconscious of the horrible scene that was being enacted.</p> 
-               <p>The mother forgot her pain and suffering in her anxiety to save her child; she ran to the carriage, and clinging to it, exclaimed,-</p> 
-               <p>"Pity! pity! good, kind lady!"</p> 
-               <p>"What do you want?" said Mrs. Hall,-for that was the lady's name.</p> 
-               <p>"Buy my child! buy my little Cassy!"</p> 
-               <p>Mrs. Hall was greatly affected at the poor woman's distress; but what could she do? She was going a journey of above a thousand<pb n="8-9" xml:id="VAC6003-00000006"/> miles; she was going to live in a free state, and would have no need of slaves.</p> 
-               <p>"The Lord will reward you," continued the woman, earnestly; "she is an active little child, and will wait on you hand and foot."</p> 
+                  <figure/>
+               </p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER II.</head>
+               <head type="sub">THE CAPTURE.</head>
+               <p>MY little readers! I will not dwell upon the terrible incident that followed. Suffice it to say, that the mother one night was startled out of sleep by the deep baying of a dog, which had scented her footsteps through the brushwood. A yell of agony burst forth as the dog seized her, and she would have been torn limb from limb had not some men called him off.</p>
+               <p>They were led back to the plantation, and the next day both mother and child were exposed for public sale in the market.</p>
+               <p>They stood silent and dejected; they were unfettered, for there was no occasion to put chains on a poor woman whose feet were torn with briers, and whose shoulder was stiff and sore by the gripe she had received from a fierce bloodhound.</p>
+               <p>Her head hung down. Her hands were clasped in agony; but a keen observer might have seen a restless wandering of the eye, the heaving bosom, and swelling nostrils, as a man of savage aspect stepped forward and examined Cassy, with an intention of bidding for her.</p>
+               <p>The sound of wheels was heard approaching! Within a carriage was seated a lady of gentle mien, who was passing by, unconscious of the horrible scene that was being enacted.</p>
+               <p>The mother forgot her pain and suffering in her anxiety to save her child; she ran to the carriage, and clinging to it, exclaimed,—</p>
+               <p>"Pity! pity! good, kind lady!"</p>
+               <p>"What do you want?" said Mrs. Hall,—for that was the lady's name.</p>
+               <p>"Buy my child! buy my little Cassy!"</p>
+               <p>Mrs. Hall was greatly affected at the poor woman's distress; but what could she do? She was going a journey of above a thousand<pb n="8-9" xml:id="VAC6003-00000006"/> miles; she was going to live in a free state, and would have no need of slaves.</p>
+               <p>"The Lord will reward you," continued the woman, earnestly; "she is an active little child, and will wait on you hand and foot."</p>
                <p>
-                  <figure> 
-                     <head>Discovered.</head> 
+                  <figure>
+                     <head>Discovered.</head>
                   </figure>
-               </p> 
-               <p>"But if I buy her, she will be separated from you. I cannot buy-"</p> 
-               <p>"No, lady, I know you cannot. I have but a short time to live; but I shall die happy, if I know she is with you. O! if you have children of your own, think of my feelings if my little one should fall into the hands of the man who is bidding for her."</p> 
-               <p>The woman had touched a tender chord in Mrs. Hall's heart. She had had a little daughter; a sweet, fair-haired child, who, within the last few months, had fallen a prey to the scarlet fever, which had ravaged the country. She said no more, but, descending from her carriage, followed the mother to the market, and, communicating privately with her master, she became the owner of little Cassy.</p> 
-               <p>The poor mother pressed her child to her breast; she kissed her again and again; she laughed and wept by turns; but her joy and love triumphed over every selfish feeling. She turned aside, and joined the group of wretched slaves, who, like so many cattle, were patiently waiting to be driven home by their new masters, to pursue their daily round of tasks.</p> 
-               <p>Mrs. Hall took Cassy's hand and led her to the carriage. The variety of the scene, the novelty of riding, the kind words and looks of Mrs. Hall soon turned her tears-which at first flowed abundantly-into smiles; and, though she was timid, and fearful lest she should do any thing to offend, she could not refrain from expressing her wonder and admiration at every thing she saw.</p> 
-               <p>Mrs. Hall's first object was to procure for her little companion suitable clothes; and then they set out upon their journey up the Mississippi. For though of late years Mrs. Hall's home had been in the neighborhood of Natchez, having lost her husband and only child, she had determined to return to the home of her youth, on the banks of the beautiful River Ohio.</p> 
-               <p>Cassy's mother found no purchaser; she returned to the plantation with the other unsold slaves; but she was a changed creature; she was quiet and docile, and seemed to have lost all energy and spirit. She did as she was required, and had no inclination to rebel. She cared not for herself; but she would have gone through fire and water to save her little one. Her child was free! It would be kindly treated; it would be taught, and would receive more care than she could have given it! O! how the poor mother loved her child! When she returned to her dwelling, how she missed its pretty prattle, which, though it cheered her on through life's stormy journey, had often cost her such pain and anguish when thinking that it might be torn from her, that she would have gladly seen it laid in the cold grave! How she cherished the one or two trifles that it had loved! nay, more than that; the poor mother sought for its little footprints in the damp mud, through which it had walked on the way to the market, and daily did she kneel down and press to them her trembling lips.<note xmlns="http://www.tei-c.org/ns/1.0" xml:id="WRIGHT2-0475A-NOTE001" n="*"
-                        place="foot">
-                     <p >A fact.</p>
+               </p>
+               <p>"But if I buy her, she will be separated from you. I cannot buy—"</p>
+               <p>"No, lady, I know you cannot. I have but a short time to live; but I shall die happy, if I know she is with you. O! if you have children of your own, think of my feelings if my little one should fall into the hands of the man who is bidding for her."</p>
+               <p>The woman had touched a tender chord in Mrs. Hall's heart. She had had a little daughter; a sweet, fair-haired child, who, within the last few months, had fallen a prey to the scarlet fever, which had ravaged the country. She said no more, but, descending from her carriage, followed the mother to the market, and, communicating privately with her master, she became the owner of little Cassy.</p>
+               <p>The poor mother pressed her child to her breast; she kissed her again and again; she laughed and wept by turns; but her joy and love triumphed over every selfish feeling. She turned aside, and joined the group of wretched slaves, who, like so many cattle, were patiently waiting to be driven home by their new masters, to pursue their daily round of tasks.</p>
+               <p>Mrs. Hall took Cassy's hand and led her to the carriage. The variety of the scene, the novelty of riding, the kind words and looks of Mrs. Hall soon turned her tears—which at first flowed abundantly—into smiles; and, though she was timid, and fearful lest she should do any thing to offend, she could not refrain from expressing her wonder and admiration at every thing she saw.</p>
+               <p>Mrs. Hall's first object was to procure for her little companion suitable clothes; and then they set out upon their journey up the Mississippi. For though of late years Mrs. Hall's home had been in the neighborhood of Natchez, having lost her husband and only child, she had determined to return to the home of her youth, on the banks of the beautiful River Ohio.</p>
+               <p>Cassy's mother found no purchaser; she returned to the plantation with the other unsold slaves; but she was a changed creature; she was quiet and docile, and seemed to have lost all energy and spirit. She did as she was required, and had no inclination to rebel. She cared not for herself; but she would have gone through fire and water to save her little one. Her child was free! It would be kindly treated; it would be taught, and would receive more care than she could have given it! O! how the poor mother loved her child! When she returned to her dwelling, how she missed its pretty prattle, which, though it cheered her on through life's stormy journey, had often cost her such pain and anguish when thinking that it might be torn from her, that she would have gladly seen it laid in the cold grave! How she cherished the one or two trifles that it had loved! nay, more than that; the poor mother sought for its little footprints in the damp mud, through which it had walked on the way to the market, and daily did she kneel down and press to them her trembling lips.<ref rend="super" target="#note_001" xml:id="return_001">*</ref>
+                  <note place="foot" xml:id="note_001">
+                     
+                     <p><ref target="#return_001">*</ref>A fact.</p>
                   </note>
-                  <pb n="10-11" xml:id="VAC6003-00000007"/> When heavy rain came and washed them away, she felt as if she had been robbed of the last trace of her little darling.</p> 
+                  <pb n="10-11" xml:id="VAC6003-00000007"/> When heavy rain came and washed them away, she felt as if she had been robbed of the last trace of her little darling.</p>
                <p>
-                  <figure> </figure>
-               </p> 
-            </div> 
-            <div type="chapter"> 
-                
-               <head>CHAPTER III.</head> 
-               <head type="sub">THE NEW HOME.</head> 
-               <p>LITTLE Cassy felt very happy when she found herself in her new home; and her surprise was very great when Mrs. Hall showed her a little room, which, she said, was to be her own. It was so pretty and comfortable, that Cassy said if she only had a gay macaw, like those, she said, her mother had seen in Africa, she should feel just like a little princess; for kings and queens could not have a prettier room than hers was. Mrs. Hall could not give her a macaw, but her father gave into Cassy's care an old favorite bird, which, he said, she was to call her own. It was not always kept in the cage, but was often allowed to fly about the room, for it was so tame that it had no wish to leave its home. He also gave her a pretty little dog, named Carlo.</p> 
-               <p>As soon as they were settled in their new abode, Mrs. Hall procured some books in order to instruct Cassy; and, that she might have the advantage of a companion, she offered to teach, with her, Mary Clay, a little girl from the village, whose parents, though very respectable, were poor, and unable to give her much education.</p> 
-               <p>At first Cassy was very slow in learning, for neither she nor her mother had ever had the least instruction; but she was so attentive, and tried so much to learn, that she made great progress. Besides teaching her to read and write, she taught her to sew and knit, and how to keep her room tidy; and every morning she fed the chickens and looked for the eggs, and made herself in other ways useful. She used to be very happy when Mrs. Hall would talk to her about the good God, who sent his only Son into the world to save sinners; and Mrs. Hall told her that God loved black children as well as white, and that he had prepared a beautiful place for all those who love him and keep his commandments.</p> 
-               <pb n="12-13" xml:id="VAC6003-00000008"/> 
-               <p>Cassy tried in every way to please Mrs. Hall. She would sit for hours together watching her, to be ready to get any thing for her directly she wanted it. Mrs. Hall, in her turn, loved her little black girl, and found her a great comfort in her lonely hours.</p> 
+                  <figure/>
+               </p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER III.</head>
+               <head type="sub">THE NEW HOME.</head>
+               <p>LITTLE Cassy felt very happy when she found herself in her new home; and her surprise was very great when Mrs. Hall showed her a little room, which, she said, was to be her own. It was so pretty and comfortable, that Cassy said if she only had a gay macaw, like those, she said, her mother had seen in Africa, she should feel just like a little princess; for kings and queens could not have a prettier room than hers was. Mrs. Hall could not give her a macaw, but her father gave into Cassy's care an old favorite bird, which, he said, she was to call her own. It was not always kept in the cage, but was often allowed to fly about the room, for it was so tame that it had no wish to leave its home. He also gave her a pretty little dog, named Carlo.</p>
+               <p>As soon as they were settled in their new abode, Mrs. Hall procured some books in order to instruct Cassy; and, that she might have the advantage of a companion, she offered to teach, with her, Mary Clay, a little girl from the village, whose parents, though very respectable, were poor, and unable to give her much education.</p>
+               <p>At first Cassy was very slow in learning, for neither she nor her mother had ever had the least instruction; but she was so attentive, and tried so much to learn, that she made great progress. Besides teaching her to read and write, she taught her to sew and knit, and how to keep her room tidy; and every morning she fed the chickens and looked for the eggs, and made herself in other ways useful. She used to be very happy when Mrs. Hall would talk to her about the good God, who sent his only Son into the world to save sinners; and Mrs. Hall told her that God loved black children as well as white, and that he had prepared a beautiful place for all those who love him and keep his commandments.</p>
+               <pb n="12-13" xml:id="VAC6003-00000008"/>
+               <p>Cassy tried in every way to please Mrs. Hall. She would sit for hours together watching her, to be ready to get any thing for her directly she wanted it. Mrs. Hall, in her turn, loved her little black girl, and found her a great comfort in her lonely hours.</p>
                <p>
-                  <figure> 
-                     <head>Cassy in her New Home with Mary Clay.</head> 
+                  <figure>
+                     <head>Cassy in her New Home with Mary Clay.</head>
                   </figure>
-               </p> 
-               <p>"Mother," said Cassy, (for so she was desired to call Mrs. Hall,) " how kind it was of you to buy me, and bring me here! How lucky it was for me that you were passing just then."</p> 
-               <p>"It was not luck, Cassy; nothing happens by chance. It was God's will that you should find a friend in me; and it was he who directed my steps towards the place where your poor mother saw me, and he put into my heart the feeling of pity which led me to buy you."</p> 
-                
-               <p>"How much happier I am than the poor slaves I left behind me-than my poor mother!" added Cassy, her eyes swimming in tears. I wish they had all good friends, like me!"</p> 
-               <p>"So do I, Cassy," replied Mrs. Hall; "but it is not so. You should pray for your poor countrymen, and ask God to give them kind masters, and to make them patient under their trials."</p> 
-               <p>"But would he hear me?" asked Cassy, anxiously. "I should not know what to say."</p> 
-               <p>"God is very willing to hear all who ask him," returned Mrs. Hall; "and a few words do quite as well as a great many."</p> 
-               <p>Mrs. Hall then taught her a short prayer, asking God to bless all the slaves, and particularly to watch over her poor mother. Cassy quickly learned it, and said she would say it every night and morning, for she hoped so much that God would comfort them and make them happy.</p> 
-               <p>One day Cassy ran to Mrs. Hall in great haste, saying, "O mother, mother, the air is full of feathers, and the ground is covered with them, enough to make ever so many beds and pillows."</p> 
-               <p>"Indeed!" said Mrs. Hall, smiling; "run and bring me some in your hand."</p> 
-               <p>Cassy ran out, and her astonishment was by no means diminished when the feathers, as she supposed them to be, disappeared upon the palm of her little black hand. It was snow! which is seldom or never seen so far south as the State of Mississippi.</p> 
-               <p>One evening Mrs. Hall invited a number of children to come to her house. It was Christmas time, and she liked every one to enjoy themselves at that happy season. It was so glorious for us that Christ came down upon earth to teach us what we ought to do. After supper Mrs. Hall took them! into a room where there was a beautiful little fir tree planted in a large flower pot, and lighted up by a great many little wax tapers which were placed about it. From the branches of the tree hung bonbons and presents for all the party. There was a purse for one, a pencil case for another, books for some, playthings for others. For Cassy there was a pretty workbox, fitted up with scissors, thimble, needles, pins, cotton, and a great many other useful things. The box was too heavy to hang from a branch; so it was placed on the flower pot, at the foot of the tree. Cassy was delighted with her Christmas gift, and thanked her dear friend again and again for giving her so pretty a present; and told her that she<pb n="14-15" xml:id="VAC6003-00000009"/> would try to sew very neatly, that she might make for herself all her own clothes.</p> 
+               </p>
+               <p>"Mother," said Cassy, (for so she was desired to call Mrs. Hall,) " how kind it was of you to buy me, and bring me here! How lucky it was for me that you were passing just then."</p>
+               <p>"It was not luck, Cassy; nothing happens by chance. It was God's will that you should find a friend in me; and it was he who directed my steps towards the place where your poor mother saw me, and he put into my heart the feeling of pity which led me to buy you."</p>
+               <p>"How much happier I am than the poor slaves I left behind me—than my poor mother!" added Cassy, her eyes swimming in tears. I wish they had all good friends, like me!"</p>
+               <p>"So do I, Cassy," replied Mrs. Hall; "but it is not so. You should pray for your poor countrymen, and ask God to give them kind masters, and to make them patient under their trials."</p>
+               <p>"But would he hear me?" asked Cassy, anxiously. "I should not know what to say."</p>
+               <p>"God is very willing to hear all who ask him," returned Mrs. Hall; "and a few words do quite as well as a great many."</p>
+               <p>Mrs. Hall then taught her a short prayer, asking God to bless all the slaves, and particularly to watch over her poor mother. Cassy quickly learned it, and said she would say it every night and morning, for she hoped so much that God would comfort them and make them happy.</p>
+               <p>One day Cassy ran to Mrs. Hall in great haste, saying, "O mother, mother, the air is full of feathers, and the ground is covered with them, enough to make ever so many beds and pillows."</p>
+               <p>"Indeed!" said Mrs. Hall, smiling; "run and bring me some in your hand."</p>
+               <p>Cassy ran out, and her astonishment was by no means diminished when the feathers, as she supposed them to be, disappeared upon the palm of her little black hand. It was snow! which is seldom or never seen so far south as the State of Mississippi.</p>
+               <p>One evening Mrs. Hall invited a number of children to come to her house. It was Christmas time, and she liked every one to enjoy themselves at that happy season. It was so glorious for us that Christ came down upon earth to teach us what we ought to do. After supper Mrs. Hall took them! into a room where there was a beautiful little fir tree planted in a large flower pot, and lighted up by a great many little wax tapers which were placed about it. From the branches of the tree hung bonbons and presents for all the party. There was a purse for one, a pencil case for another, books for some, playthings for others. For Cassy there was a pretty workbox, fitted up with scissors, thimble, needles, pins, cotton, and a great many other useful things. The box was too heavy to hang from a branch; so it was placed on the flower pot, at the foot of the tree. Cassy was delighted with her Christmas gift, and thanked her dear friend again and again for giving her so pretty a present; and told her that she<pb n="14-15" xml:id="VAC6003-00000009"/> would try to sew very neatly, that she might make for herself all her own clothes.</p>
                <p>
-                  <figure> </figure>
-               </p> 
-            </div> 
-            <div type="chapter"> 
-                
-               <head>CHAPTER IV.</head> 
-               <head type="sub">THE MISCHIEF MAKER.</head> 
-               <p>ALTHOUGH Mrs. Hall loved the little black girl, there were a great many people who did not like her. The servants were jealous of her, and Mary Clay took a great dislike to her. She used to call her names, and laugh at her black skin and woolly hair.</p> 
-               <p>"I wonder what you are come here for, you little ugly nigger," said she, one day; "we must take care how we leave our things about, for they say all black folks steal."</p> 
-               <p>"O Mary, indeed I would not steal," returned Cassy; "I never stole any thing in my life."</p> 
-               <p>"Don't tell me," said Mary; "if you have never stole, it is only because you could not find any thing to steal. You will be in prison before very long, I dare say; and then what will be the use of all your fine clothes, you mean little slave."</p> 
-               <p>Poor Cassy burst into tears, this treatment was so different from any she had ever before received. At dinner, Mrs. Hall noticed her red eyes, and inquired what was the matter. Cassy told her what had passed, and Mrs. Hall comforted her by saying she did not believe she would take any thing that did not belong to her; she desired her to repeat the sixth commandment, which she had learned in her catechism, "Thou shalt not steal;" and she explained to her how she would offend God by breaking it.</p> 
-               <p>Mrs. Hall afterwards spoke to Mary, and reproved her for behaving so cruelly. Mary told her she was sorry, and would not do so again; but instead of really feeling sorry, she was very angry with Cassy for telling of her, and determined to do all she could to injure her in Mrs. Hall's good opinion.</p> 
-               <p>Cassy was particularly fond of gay colors; and any little pieces of silk or velvet that were given to her she thought a great deal of, and<pb n="16-17" xml:id="VAC6003-00000010"/> in her leisure hours employed herself in making them into patchwork. One day, Mrs. Hall brought down stairs a bag, which she opened before Mary and Cassy. It was full of scraps of silk of all shapes and colors, and she gave each of them any they wished to have, <figure> 
-                     <head>"I dare say Cassy took them."</head> 
-                  </figure> excepting three or four pieces, which were of larger size than the others, and which Mrs. Hall said she would reserve for another time.</p> 
-               <p>Cassy admired the larger pieces exceedingly, they were so gay and bright, and kept them in her hand until Mrs. Hall had put all the others in the bag, when she rolled them together, and put them at the top. Mary had remarked how much Cassy admired them, and wondered within herself whether she was intending to take them, and determined to watch her, and then tell Mrs. Hall.</p> 
-               <p>Several days after this, Mary thought she would look into the bag to see if the pieces of silk were gone,-as she fully expected to find the case. Instead, therefore, of going straight home to her dinner, as usual, she went only a short distance, and then turned back; and after ascertaining that Mrs. Hall and Cassy were in the garden, she ran up stairs, and opened the bag; but, to her great disappointment, there lay the pieces of silk on the top, just as Cassy had put them in.</p> 
-               <p>It would have been well for Mary if she had closed the bag, and gone away to her dinner. But Satan, who is always ready to persuade us to do wrong, was at hand, and tempted her on and on. She had sinned in suspecting Cassy of stealing. Satan had thus found an entrance into her heart, and would not leave her without doing further mischief. She took out the scraps of silk, and closed the bag. With hurried steps and a fluttering heart she ran to Cassy's room, and concealed them under some linen in her clothes drawer. She then left the house, fearing and wondering whether any one had seen her. She thought not that God's eye was upon her; she thought only of being revenged on a poor little innocent child, in a strange country, and almost without friends.</p> 
-               <p>Mary fully expected that Mrs. Hall would go to Cassy's drawer, as she often did, and discover the pieces; but it so happened that either she did not go for some weeks, or else she went, but did not notice them. Mary, therefore, became very impatient, fearing that her scheme would fail; she did not know what to do to draw Mrs. Hall's attention to them, as she was anxious to do, as she was afraid of Cassy's finding them herself, and in her surprise showing them to Mrs. Hall.</p> 
-               <p>One day, when she and Mrs. Hall were alone in Cassy's room, Cassy having gone out on an errand for Mrs. Hall, Mary observed that Cassy's drawer was partly open; so she slipped to it when Mrs. Hall was engaged in writing, and pulled forward the pieces of silk.</p> 
-               <p>"O, how pretty!" said she, unrolling the little bundle, and going towards Mrs. Hall. "I wonder where Cassy got these from."</p> 
-               <p>Mrs. Hall instantly recognized the pieces of silk; for she had<pb n="18-19" xml:id="VAC6003-00000011"/> remarked Cassy's admiration of them. "Cassy," said she, as she entered the room, "where did you get these from?"</p> 
-               <p>"They are not mine, mother; they were in your bag."</p> 
-               <p>"But they were found in your drawer," continued Mrs. Hall.</p> 
-               <p>"In my drawer!" exclaimed the astonished child. "You did not give them to me."</p> 
-               <p>"No; I know I did not give them to you; therefore how did they come in your drawer?"</p> 
-               <p>"Indeed, mother," said Cassy, "I am sure I do not know. I am sure I did not put them there."</p> 
-               <p>"Cassy," said Mrs. Hall, sorrowfully, "are you speaking the truth?"</p> 
-               <p>"Mother," said the little girl, as the tears chased each other down her black cheeks, "I am sure I never will tell you a story-you, who are so very good and kind to me."</p> 
-               <p>Mrs. Hall now looked towards Mary, who was gazing through the window with a confused air.</p> 
-               <p>"Mary," said she, "have you seen these since the day I put them into the bag?"</p> 
-               <p>"No, ma'am," said she firmly, but without looking at Mrs. Hall.</p> 
-               <p>"How came you to find them?"</p> 
-               <p>"I was passing by the drawer, and saw them peeping out."</p> 
-               <p>"That could not be the case," returned Mrs. Hall, seriously; "I was close by just before you spoke, and noticed the open drawer; but there was nothing of the kind to be seen there."</p> 
-               <p>"O, yes, I am sure there was; indeed, there was! I know Cassy wanted them, and I dare say she took them."</p> 
-               <p>"I don't believe she did take them, Mary," said Mrs. Hall, who recollected what had passed between the two children a few weeks previously. "I hope you did not put them there; if you did, as I fear is the case, you have acted most cruelly towards this poor little girl. Mary, if you were in a strange country, with only one friend, would you like some one to try to make that one friend hate you? Supposing I had believed that Cassy had taken them, and I had sent her to prison, or sold her as a slave, should you have been glad? Would you not be sorry to see a fellow-creature suffer without deserving it? You have father, mother, and plenty of friends, yet you are jealous because Cassy has one. I am very sorry you should have such an unkind feeling in your heart."</p> 
-                
-               <p>"I don't care whether you love her or not," answered Mary, sullenly; "but I don't see what business niggers have among white people."</p> 
-               <p>"Mary," returned Mrs. Hall, quietly, "do you not know that God made us all of the same flesh and blood? Do you think that, because you happen to be white, God loves you better than Cassy, who is black? No, indeed! God loves those who are good! Who is the best, you or Cassy? You have told a story; you have tried to ruin Cassy in my estimation, that she might lose the only friend she has. I do not think that Cassy would tell a falsehood; and she tries to do what she knows is right. I assure you, Mary, at this moment God loves the black girl better than he does the white one."</p> 
-               <p>Mrs. Hall then told her, that as she considered herself too good to be with Cassy, she had better not come to school any more. Mary angrily left the room; she was very much annoyed at the turn the affair had taken, and would willingly have undone it all. She liked learning, and had really been very glad to be instructed with Cassy. She had studied with Mrs. Hall many things that were not taught in the village school; not only had she begun to play on the piano, but Mrs. Hall had promised to teach her to draw in the spring.</p> 
-               <p>On inquiry, Mrs. Hall discovered that for some time Mary had been in the habit of tormenting poor Cassy; and she had told the servants that had it not been for the learning she got, she would never come into the house again.</p> 
+                  <figure/>
+               </p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER IV.</head>
+               <head type="sub">THE MISCHIEF MAKER.</head>
+               <p>ALTHOUGH Mrs. Hall loved the little black girl, there were a great many people who did not like her. The servants were jealous of her, and Mary Clay took a great dislike to her. She used to call her names, and laugh at her black skin and woolly hair.</p>
+               <p>"I wonder what you are come here for, you little ugly nigger," said she, one day; "we must take care how we leave our things about, for they say all black folks steal."</p>
+               <p>"O Mary, indeed I would not steal," returned Cassy; "I never stole any thing in my life."</p>
+               <p>"Don't tell me," said Mary; "if you have never stole, it is only because you could not find any thing to steal. You will be in prison before very long, I dare say; and then what will be the use of all your fine clothes, you mean little slave."</p>
+               <p>Poor Cassy burst into tears, this treatment was so different from any she had ever before received. At dinner, Mrs. Hall noticed her red eyes, and inquired what was the matter. Cassy told her what had passed, and Mrs. Hall comforted her by saying she did not believe she would take any thing that did not belong to her; she desired her to repeat the sixth commandment, which she had learned in her catechism, "Thou shalt not steal;" and she explained to her how she would offend God by breaking it.</p>
+               <p>Mrs. Hall afterwards spoke to Mary, and reproved her for behaving so cruelly. Mary told her she was sorry, and would not do so again; but instead of really feeling sorry, she was very angry with Cassy for telling of her, and determined to do all she could to injure her in Mrs. Hall's good opinion.</p>
+               <p>Cassy was particularly fond of gay colors; and any little pieces of silk or velvet that were given to her she thought a great deal of, and<pb n="16-17" xml:id="VAC6003-00000010"/> in her leisure hours employed herself in making them into patchwork. One day, Mrs. Hall brought down stairs a bag, which she opened before Mary and Cassy. It was full of scraps of silk of all shapes and colors, and she gave each of them any they wished to have, <figure>
+                     <head>"I dare say Cassy took them."</head>
+                  </figure> excepting three or four pieces, which were of larger size than the others, and which Mrs. Hall said she would reserve for another time.</p>
+               <p>Cassy admired the larger pieces exceedingly, they were so gay and bright, and kept them in her hand until Mrs. Hall had put all the others in the bag, when she rolled them together, and put them at the top. Mary had remarked how much Cassy admired them, and wondered within herself whether she was intending to take them, and determined to watch her, and then tell Mrs. Hall.</p>
+               <p>Several days after this, Mary thought she would look into the bag to see if the pieces of silk were gone,—as she fully expected to find the case. Instead, therefore, of going straight home to her dinner, as usual, she went only a short distance, and then turned back; and after ascertaining that Mrs. Hall and Cassy were in the garden, she ran up stairs, and opened the bag; but, to her great disappointment, there lay the pieces of silk on the top, just as Cassy had put them in.</p>
+               <p>It would have been well for Mary if she had closed the bag, and gone away to her dinner. But Satan, who is always ready to persuade us to do wrong, was at hand, and tempted her on and on. She had sinned in suspecting Cassy of stealing. Satan had thus found an entrance into her heart, and would not leave her without doing further mischief. She took out the scraps of silk, and closed the bag. With hurried steps and a fluttering heart she ran to Cassy's room, and concealed them under some linen in her clothes drawer. She then left the house, fearing and wondering whether any one had seen her. She thought not that God's eye was upon her; she thought only of being revenged on a poor little innocent child, in a strange country, and almost without friends.</p>
+               <p>Mary fully expected that Mrs. Hall would go to Cassy's drawer, as she often did, and discover the pieces; but it so happened that either she did not go for some weeks, or else she went, but did not notice them. Mary, therefore, became very impatient, fearing that her scheme would fail; she did not know what to do to draw Mrs. Hall's attention to them, as she was anxious to do, as she was afraid of Cassy's finding them herself, and in her surprise showing them to Mrs. Hall.</p>
+               <p>One day, when she and Mrs. Hall were alone in Cassy's room, Cassy having gone out on an errand for Mrs. Hall, Mary observed that Cassy's drawer was partly open; so she slipped to it when Mrs. Hall was engaged in writing, and pulled forward the pieces of silk.</p>
+               <p>"O, how pretty!" said she, unrolling the little bundle, and going towards Mrs. Hall. "I wonder where Cassy got these from."</p>
+               <p>Mrs. Hall instantly recognized the pieces of silk; for she had<pb n="18-19" xml:id="VAC6003-00000011"/> remarked Cassy's admiration of them. "Cassy," said she, as she entered the room, "where did you get these from?"</p>
+               <p>"They are not mine, mother; they were in your bag."</p>
+               <p>"But they were found in your drawer," continued Mrs. Hall.</p>
+               <p>"In my drawer!" exclaimed the astonished child. "You did not give them to me."</p>
+               <p>"No; I know I did not give them to you; therefore how did they come in your drawer?"</p>
+               <p>"Indeed, mother," said Cassy, "I am sure I do not know. I am sure I did not put them there."</p>
+               <p>"Cassy," said Mrs. Hall, sorrowfully, "are you speaking the truth?"</p>
+               <p>"Mother," said the little girl, as the tears chased each other down her black cheeks, "I am sure I never will tell you a story—you, who are so very good and kind to me."</p>
+               <p>Mrs. Hall now looked towards Mary, who was gazing through the window with a confused air.</p>
+               <p>"Mary," said she, "have you seen these since the day I put them into the bag?"</p>
+               <p>"No, ma'am," said she firmly, but without looking at Mrs. Hall.</p>
+               <p>"How came you to find them?"</p>
+               <p>"I was passing by the drawer, and saw them peeping out."</p>
+               <p>"That could not be the case," returned Mrs. Hall, seriously; "I was close by just before you spoke, and noticed the open drawer; but there was nothing of the kind to be seen there."</p>
+               <p>"O, yes, I am sure there was; indeed, there was! I know Cassy wanted them, and I dare say she took them."</p>
+               <p>"I don't believe she did take them, Mary," said Mrs. Hall, who recollected what had passed between the two children a few weeks previously. "I hope you did not put them there; if you did, as I fear is the case, you have acted most cruelly towards this poor little girl. Mary, if you were in a strange country, with only one friend, would you like some one to try to make that one friend hate you? Supposing I had believed that Cassy had taken them, and I had sent her to prison, or sold her as a slave, should you have been glad? Would you not be sorry to see a fellow-creature suffer without deserving it? You have father, mother, and plenty of friends, yet you are jealous because Cassy has one. I am very sorry you should have such an unkind feeling in your heart."</p>
+               <p>"I don't care whether you love her or not," answered Mary, sullenly; "but I don't see what business niggers have among white people."</p>
+               <p>"Mary," returned Mrs. Hall, quietly, "do you not know that God made us all of the same flesh and blood? Do you think that, because you happen to be white, God loves you better than Cassy, who is black? No, indeed! God loves those who are good! Who is the best, you or Cassy? You have told a story; you have tried to ruin Cassy in my estimation, that she might lose the only friend she has. I do not think that Cassy would tell a falsehood; and she tries to do what she knows is right. I assure you, Mary, at this moment God loves the black girl better than he does the white one."</p>
+               <p>Mrs. Hall then told her, that as she considered herself too good to be with Cassy, she had better not come to school any more. Mary angrily left the room; she was very much annoyed at the turn the affair had taken, and would willingly have undone it all. She liked learning, and had really been very glad to be instructed with Cassy. She had studied with Mrs. Hall many things that were not taught in the village school; not only had she begun to play on the piano, but Mrs. Hall had promised to teach her to draw in the spring.</p>
+               <p>On inquiry, Mrs. Hall discovered that for some time Mary had been in the habit of tormenting poor Cassy; and she had told the servants that had it not been for the learning she got, she would never come into the house again.</p>
                <p>
-                  <figure> 
-                     <p>LOVE YOUR ENEMIES.</p> 
+                  <figure>
+                     <p>LOVE YOUR ENEMIES.</p>
                   </figure>
-               </p> 
-            </div> 
-            <div type="chapter"> 
-               <pb n="20-21" xml:id="VAC6003-00000012"/> 
-               <head>CHAPTER V.</head> 
-               <head type="sub">THE RUNAWAY SLAVE.</head> 
-               <p>MRS. HALL'S brother having business in the south, by Mrs. Hall's request he went to the plantation where Cassy's poor mother was, to make inquiries respecting her. With some difficulty he learned that she had died a few months after the departure of her child. As soon as her earthly care was provided for, she drooped into the grave.</p> 
-               <p>Cassy cried very much when she heard that her mother was dead, for she had indulged in a hope that she should see her again; indeed, she often talked of the means she would take to earn sufficient money to buy her. Mrs. Hall consoled her by telling her how much better off she was, for she would be sure to meet with love and mercy from her heavenly Master, if unable to do so from her earthly one.</p> 
-               <p>One evening, as Mrs. Hall and Cassy were strolling by the river side, they observed a negro approaching them. He had no hat on, but an old handkerchief tied round his head; his clothes were torn, and he had on neither shoes nor stockings. Still, though so forlorn in appearance, he was a pleasant looking man; his eye had a quick, intelligent glance, and the expression of his mouth showed he was a man of good disposition. As he drew near, for a moment fear and distrust were depicted on his countenance; but they vanished as he addressed Mrs. Hall.</p> 
-               <p>"Pardon me, madam," said he. "I am a poor man, sadly in want; I have not tasted any thing, excepting a crust of bread I begged, for twenty-four hours. Will you grant me food and shelter for a short time?"</p> 
-               <p>Mrs. Hall perceived that he was weak and weary, and desired him to go immediately to the house.</p> 
-               <p>"Madam," said he, "I observed your kindness to that little girl, which led me to hope you bear no ill will to my unfortunate race. If a runaway slave asked your protection, would you deliver him up to his enemies?"</p> 
-               <p>"Never!" returned Mrs. Hall, who instantly perceived she was addressed by one of those unhappy beings. "You may depend on me as a friend." As she spoke, she led the way through the garden, and entered the house by a door which opened on the veranda. She took him into Cassy's room, on account of its being the most retired, as she dared not trust all the servants with the information that a runaway slave was in her house. She then proceeded to the dining room, where dinner was already set, and sent, by Cassy, sufficient food for a good meal, and afterwards provided him with clean clothes.</p> 
-               <p>When all the servants had gone to bed, Mrs. Hall sent Cassy to tell the poor man that she wished to speak to him. Cassy returned, after being away some minutes, with tears of joy in her eyes, and her face radiant with smiles.</p> 
+               </p>
+            </div>
+            <div type="chapter">
+               <pb n="20-21" xml:id="VAC6003-00000012"/>
+               <head>CHAPTER V.</head>
+               <head type="sub">THE RUNAWAY SLAVE.</head>
+               <p>MRS. HALL'S brother having business in the south, by Mrs. Hall's request he went to the plantation where Cassy's poor mother was, to make inquiries respecting her. With some difficulty he learned that she had died a few months after the departure of her child. As soon as her earthly care was provided for, she drooped into the grave.</p>
+               <p>Cassy cried very much when she heard that her mother was dead, for she had indulged in a hope that she should see her again; indeed, she often talked of the means she would take to earn sufficient money to buy her. Mrs. Hall consoled her by telling her how much better off she was, for she would be sure to meet with love and mercy from her heavenly Master, if unable to do so from her earthly one.</p>
+               <p>One evening, as Mrs. Hall and Cassy were strolling by the river side, they observed a negro approaching them. He had no hat on, but an old handkerchief tied round his head; his clothes were torn, and he had on neither shoes nor stockings. Still, though so forlorn in appearance, he was a pleasant looking man; his eye had a quick, intelligent glance, and the expression of his mouth showed he was a man of good disposition. As he drew near, for a moment fear and distrust were depicted on his countenance; but they vanished as he addressed Mrs. Hall.</p>
+               <p>"Pardon me, madam," said he. "I am a poor man, sadly in want; I have not tasted any thing, excepting a crust of bread I begged, for twenty-four hours. Will you grant me food and shelter for a short time?"</p>
+               <p>Mrs. Hall perceived that he was weak and weary, and desired him to go immediately to the house.</p>
+               <p>"Madam," said he, "I observed your kindness to that little girl, which led me to hope you bear no ill will to my unfortunate race. If a runaway slave asked your protection, would you deliver him up to his enemies?"</p>
+               <p>"Never!" returned Mrs. Hall, who instantly perceived she was addressed by one of those unhappy beings. "You may depend on me as a friend." As she spoke, she led the way through the garden, and entered the house by a door which opened on the veranda. She took him into Cassy's room, on account of its being the most retired, as she dared not trust all the servants with the information that a runaway slave was in her house. She then proceeded to the dining room, where dinner was already set, and sent, by Cassy, sufficient food for a good meal, and afterwards provided him with clean clothes.</p>
+               <p>When all the servants had gone to bed, Mrs. Hall sent Cassy to tell the poor man that she wished to speak to him. Cassy returned, after being away some minutes, with tears of joy in her eyes, and her face radiant with smiles.</p>
                <p>
-                  <figure> 
-                     <head>The Slave.</head> 
+                  <figure>
+                     <head>The Slave.</head>
                   </figure>
-               </p> 
-               <p>"Mother! mother!" exclaimed she, "he says he is my father; he says he is sure he is; for I am very like his wife Julia, and that he had a little girl named Cassy; that he lived on a plantation near Natchez, and ran away three years ago! His name is Francis, and I remember quite well that was my father's name!" Then followed a great many explanations, for there was no doubt about Francis's being Cassy's father; and it was very pleasing to Mrs. Hall to see these poor creatures<pb n="22-23" xml:id="VAC6003-00000013"/> locked in each other's arms, talking over all they had done and suffered since they parted.</p> 
-               <p>Francis was much affected when he heard of the death of his wife. He said he had hoped long ago to reach Canada, and that it was his intention to devote the first money he earned to buying his wife and child. But adverse circumstances had detained him on the road this length of time. He had met with sickness, with dangers! And had it not been for the kindness of a gentleman who interfered, he would have been retaken and carried back to the plantation he came from.</p> 
-               <p>"They say, madam," continued Francis, turning to Mrs. Hall, "that we ought not to run away, but submit patiently to our lot, 'the lot in which God has placed us;' it is easy for free people to say so; but were they slaves, they would not submit to all we have done. They say we are well clothed and lodged-it may be so, but that is not all we want; the cattle at our masters' plantations are as well off as the slaves. We want to have homes of our own; we want to have our children educated; in short, we want to feel there is something to live for!"</p> 
-               <p>Francis said a great deal to Mrs. Hall about her kindness in taking Cassy; he said he never would forget it, and hoped he would one day be able to show his gratitude. At an early hour the next morning, the carriage was at the door. Mrs. Hall and Cassy entered it, and they drove away; but within a short distance from the house they overtook Cassy's father, who had been desired to walk slowly on, and taking him in, they drove to the railway depot. Here Mrs. Hall not only supplied him with money, but she spoke to the conductor of the train, whom she knew, and requested him to do what he could to advance his flight.</p> 
-               <p>That he did so, Mrs. Hall was made acquainted one morning by a letter bearing a Canadian postmark. It was not written by Francis, but the words were his, though he employed some one else to put them on paper, for he could himself neither read nor write. He thanked her for her great kindness, and prayed Heaven to bless the friend of the slave.</p> 
-            </div> 
-            <div type="chapter"> 
-                
-               <head>CHAPTER VI.</head> 
-               <head type="sub">THE STOLEN CHILD.</head> 
-               <p>A FEW months after the events related in the last chapter, there was a great excitement among the slaveholders; for, from some cause or other, many slaves, men, women, and children, had run away from their masters' plantations. The newspapers were filled with advertisements, and the walls in many places were covered with placards giving descriptions of the offenders, and offering rewards for their apprehension.</p> 
-               <p>Many people, whose business was not in a very prosperous condition, now turned slave hunters; and some were not particular whether the description exactly agreed or not, but seized on any unfortunate colored person whom they found defenceless, and bore him off to the supposed masters to receive the reward, or else to the slave market to be sold on their own account.</p> 
-               <p>One day, when Mrs. Hall was gone out to pay some visits, Cassy went into the fields as usual, watching the lambs skipping and running races, and feeling as happy and light-hearted as they did. She had every thing she wanted. She had the best friend in all the world; her father was safe in a free country; and her poor mother had no more pain or sorrow, but was in a better country still. Presently her attention was arrested by seeing a man on the other side of the fence; she wondered what he could be doing; but as he seemed to be picking up something, she took no more notice of him for a few minutes, when, looking the same way again and not seeing him, she thought she would go and look what he had been picking up. She had scarcely put her feet down on the other side of the fence, before the man started up from beneath it, where he lay concealed, and seizing hold of her, dragged her roughly across the field. Poor Cassy screamed with terror; but, alas! her cries were unheard by all, save the affrighted sheep, and a night owl, who left her nest in the hollow trunk of a tree, and screeching as she flapped her heavy wings, mingled her cries with those of the stolen child.</p> 
-               <p>It was some hours before Cassy's absence was remarked; and when it was observed, the servants took but little notice of it, until it was getting<pb n="24-25" xml:id="VAC6003-00000014"/> ting late, and they were expecting Mrs. Hall's return. They then sought for her; and great was Mrs. Hall's consternation to find that the child was missing.</p> 
-               <p>Poor little Cassy! Who can imagine her feelings? Dragged away from a happy home by a fierce, bad man, and with the dreadful prospect <figure> 
-                     <head>"He dragged her roughly across the field."</head> 
-                  </figure> before her of being sold as a slave! She begged, she implored, she entreated, but all was of no avail. A man who could steal human flesh and blood was not likely to be moved by tears. He roughly pulled off her shoes and stockings, and casting a look of disapprobation at her pretty frock, he rubbed his coarse hand over her neatly-combed hair; for her tidy appearance would have belied his assertion that she was his runaway slave. Cassy knew not what to do. She at length ceased to scream, but her tears flowed fast. They walked on a long way, until Cassy's wearied limbs and bruised feet refused to carry her any farther, when a man with an empty wagon passing them, Cassy's companion asked him to allow him to ride, as he had been so fortunate as to capture his runaway slave, and he wanted to get on a steamboat with her as soon as possible. The man lifted Cassy in, and took his seat by her side. The driver did not look unkind; and the child, observing a pitiful expression cross his features as he saw her bleeding feet, began to tell him her pitiful story, but was immediately stopped by the man at her elbow.</p> 
-               <p>"These little rogues make up such good stories for themselves that they sometimes almost deceive their masters; but it won't do with me, I assure you. They won't run away twice from me, I reckon!"</p> 
-               <p>"'Tis a pity they should ever try it," returned the other; "it is seldom they get clear off; and if they are taken, I guess they suffer for it."</p> 
-               <p>"I am not his slave; indeed, I am not!" interrupted Cassy, in spite of the hardhearted man's efforts to keep her quiet.</p> 
-               <p>"Pshaw!" said he, "you won't make the gentleman believe that. She is my property; and if my property leave me, I reckon I have a right to get it again if I can."</p> 
-               <p>"You have the law on your side, any way," returned the driver sorrowfully, descending from the wagon and lifting Cassy out, who clung to him with both arms, "and I guess I must not interfere with the laws."</p> 
+               </p>
+               <p>"Mother! mother!" exclaimed she, "he says he is my father; he says he is sure he is; for I am very like his wife Julia, and that he had a little girl named Cassy; that he lived on a plantation near Natchez, and ran away three years ago! His name is Francis, and I remember quite well that was my father's name!" Then followed a great many explanations, for there was no doubt about Francis's being Cassy's father; and it was very pleasing to Mrs. Hall to see these poor creatures<pb n="22-23" xml:id="VAC6003-00000013"/> locked in each other's arms, talking over all they had done and suffered since they parted.</p>
+               <p>Francis was much affected when he heard of the death of his wife. He said he had hoped long ago to reach Canada, and that it was his intention to devote the first money he earned to buying his wife and child. But adverse circumstances had detained him on the road this length of time. He had met with sickness, with dangers! And had it not been for the kindness of a gentleman who interfered, he would have been retaken and carried back to the plantation he came from.</p>
+               <p>"They say, madam," continued Francis, turning to Mrs. Hall, "that we ought not to run away, but submit patiently to our lot, 'the lot in which God has placed us;' it is easy for free people to say so; but were they slaves, they would not submit to all we have done. They say we are well clothed and lodged—it may be so, but that is not all we want; the cattle at our masters' plantations are as well off as the slaves. We want to have homes of our own; we want to have our children educated; in short, we want to feel there is something to live for!"</p>
+               <p>Francis said a great deal to Mrs. Hall about her kindness in taking Cassy; he said he never would forget it, and hoped he would one day be able to show his gratitude. At an early hour the next morning, the carriage was at the door. Mrs. Hall and Cassy entered it, and they drove away; but within a short distance from the house they overtook Cassy's father, who had been desired to walk slowly on, and taking him in, they drove to the railway depot. Here Mrs. Hall not only supplied him with money, but she spoke to the conductor of the train, whom she knew, and requested him to do what he could to advance his flight.</p>
+               <p>That he did so, Mrs. Hall was made acquainted one morning by a letter bearing a Canadian postmark. It was not written by Francis, but the words were his, though he employed some one else to put them on paper, for he could himself neither read nor write. He thanked her for her great kindness, and prayed Heaven to bless the friend of the slave.</p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER VI.</head>
+               <head type="sub">THE STOLEN CHILD.</head>
+               <p>A FEW months after the events related in the last chapter, there was a great excitement among the slaveholders; for, from some cause or other, many slaves, men, women, and children, had run away from their masters' plantations. The newspapers were filled with advertisements, and the walls in many places were covered with placards giving descriptions of the offenders, and offering rewards for their apprehension.</p>
+               <p>Many people, whose business was not in a very prosperous condition, now turned slave hunters; and some were not particular whether the description exactly agreed or not, but seized on any unfortunate colored person whom they found defenceless, and bore him off to the supposed masters to receive the reward, or else to the slave market to be sold on their own account.</p>
+               <p>One day, when Mrs. Hall was gone out to pay some visits, Cassy went into the fields as usual, watching the lambs skipping and running races, and feeling as happy and light-hearted as they did. She had every thing she wanted. She had the best friend in all the world; her father was safe in a free country; and her poor mother had no more pain or sorrow, but was in a better country still. Presently her attention was arrested by seeing a man on the other side of the fence; she wondered what he could be doing; but as he seemed to be picking up something, she took no more notice of him for a few minutes, when, looking the same way again and not seeing him, she thought she would go and look what he had been picking up. She had scarcely put her feet down on the other side of the fence, before the man started up from beneath it, where he lay concealed, and seizing hold of her, dragged her roughly across the field. Poor Cassy screamed with terror; but, alas! her cries were unheard by all, save the affrighted sheep, and a night owl, who left her nest in the hollow trunk of a tree, and screeching as she flapped her heavy wings, mingled her cries with those of the stolen child.</p>
+               <p>It was some hours before Cassy's absence was remarked; and when it was observed, the servants took but little notice of it, until it was getting<pb n="24-25" xml:id="VAC6003-00000014"/> ting late, and they were expecting Mrs. Hall's return. They then sought for her; and great was Mrs. Hall's consternation to find that the child was missing.</p>
+               <p>Poor little Cassy! Who can imagine her feelings? Dragged away from a happy home by a fierce, bad man, and with the dreadful prospect <figure>
+                     <head>"He dragged her roughly across the field."</head>
+                  </figure> before her of being sold as a slave! She begged, she implored, she entreated, but all was of no avail. A man who could steal human flesh and blood was not likely to be moved by tears. He roughly pulled off her shoes and stockings, and casting a look of disapprobation at her pretty frock, he rubbed his coarse hand over her neatly-combed hair; for her tidy appearance would have belied his assertion that she was his runaway slave. Cassy knew not what to do. She at length ceased to scream, but her tears flowed fast. They walked on a long way, until Cassy's wearied limbs and bruised feet refused to carry her any farther, when a man with an empty wagon passing them, Cassy's companion asked him to allow him to ride, as he had been so fortunate as to capture his runaway slave, and he wanted to get on a steamboat with her as soon as possible. The man lifted Cassy in, and took his seat by her side. The driver did not look unkind; and the child, observing a pitiful expression cross his features as he saw her bleeding feet, began to tell him her pitiful story, but was immediately stopped by the man at her elbow.</p>
+               <p>"These little rogues make up such good stories for themselves that they sometimes almost deceive their masters; but it won't do with me, I assure you. They won't run away twice from me, I reckon!"</p>
+               <p>"'Tis a pity they should ever try it," returned the other; "it is seldom they get clear off; and if they are taken, I guess they suffer for it."</p>
+               <p>"I am not his slave; indeed, I am not!" interrupted Cassy, in spite of the hardhearted man's efforts to keep her quiet.</p>
+               <p>"Pshaw!" said he, "you won't make the gentleman believe that. She is my property; and if my property leave me, I reckon I have a right to get it again if I can."</p>
+               <p>"You have the law on your side, any way," returned the driver sorrowfully, descending from the wagon and lifting Cassy out, who clung to him with both arms, "and I guess I must not interfere with the laws."</p>
                <p>
-                  <figure> </figure>
-               </p> 
-            </div> 
-            <div type="chapter"> 
-               <pb n="26-27" xml:id="VAC6003-00000015"/> 
-               <head>CHAPTER VII.</head> 
-               <head type="sub">THE ESCAPE.</head> 
-               <p>THEY were on the steamboat. Cassy looked around, but no friendly eye met hers. No one seemed to heed or care for the poor little girl. She did not address any one-she knew it would be useless; she had tact enough to see there was no one there who would listen to her story, or who would believe it if she told it. It was getting late, and the man pointed to some bags, which lay in a dark corner, and desired her to lie down. All hope was gone; for by morning, Cassy knew they would be many miles away from her dear home.</p> 
-               <p>Tears flowed abundantly down her swollen cheeks; suddenly they were arrested, and she fervently clasped her hands. "Mother said I must pray to God if ever I was in trouble, and that he would deliver me from it, or else comfort me and make me able to bear it. I never thought about that, and I am going to bed without saying my prayers," said she, as she rose, shocked at her forgetfulness. She knelt down, and said her usual short prayer, and added, "O God, let this cup pass from me." She had often talked to Mrs. Hall about those words; they were now the first that came into her mind, and she thought they would do as well as any others. Then she recollected that they were Christ's own words, when he was in trouble; and she was glad she had thought of them. "After all," said she to herself, "I am not so badly off as he was; there is no fear of my being put to death. I will work very hard for my master, and try to please God."</p> 
-               <p>As she thought this, sleep closed her eyelids, and she slept sweetly and soundly, until she was awakened by a man shaking her roughly. Cassy looked very much frightened. She could not think where she was, or how she came in such a strange place. She thought she had been at home, in her own little bed. By degrees the truth flashed upon her, and caused her tears again to flow. Then she thought of her prayer of the past night, and her determination to do as her new master told her; she followed him silently, for they were going to land, as the man intended hiring a wagon at this place to cross the country. As they stood on the wharf-the man engaged in earnest conversation with a friend he had accidentally met on the boat-Cassy was startled by the grasp of a strong hand on her arm. "Fellow," said a manly voice, "what business have you with that child?"</p> 
-               <p>"What's my business is none of yours, I reckon," returned the other, trying to force Cassy from his hold.</p> 
-               <p>"Help, help!" cried the gentleman, as he seized the man by the collar of his coat; "this man is a child stealer!"</p> 
+                  <figure/>
+               </p>
+            </div>
+            <div type="chapter">
+               <pb n="26-27" xml:id="VAC6003-00000015"/>
+               <head>CHAPTER VII.</head>
+               <head type="sub">THE ESCAPE.</head>
+               <p>THEY were on the steamboat. Cassy looked around, but no friendly eye met hers. No one seemed to heed or care for the poor little girl. She did not address any one—she knew it would be useless; she had tact enough to see there was no one there who would listen to her story, or who would believe it if she told it. It was getting late, and the man pointed to some bags, which lay in a dark corner, and desired her to lie down. All hope was gone; for by morning, Cassy knew they would be many miles away from her dear home.</p>
+               <p>Tears flowed abundantly down her swollen cheeks; suddenly they were arrested, and she fervently clasped her hands. "Mother said I must pray to God if ever I was in trouble, and that he would deliver me from it, or else comfort me and make me able to bear it. I never thought about that, and I am going to bed without saying my prayers," said she, as she rose, shocked at her forgetfulness. She knelt down, and said her usual short prayer, and added, "O God, let this cup pass from me." She had often talked to Mrs. Hall about those words; they were now the first that came into her mind, and she thought they would do as well as any others. Then she recollected that they were Christ's own words, when he was in trouble; and she was glad she had thought of them. "After all," said she to herself, "I am not so badly off as he was; there is no fear of my being put to death. I will work very hard for my master, and try to please God."</p>
+               <p>As she thought this, sleep closed her eyelids, and she slept sweetly and soundly, until she was awakened by a man shaking her roughly. Cassy looked very much frightened. She could not think where she was, or how she came in such a strange place. She thought she had been at home, in her own little bed. By degrees the truth flashed upon her, and caused her tears again to flow. Then she thought of her prayer of the past night, and her determination to do as her new master told her; she followed him silently, for they were going to land, as the man intended hiring a wagon at this place to cross the country. As they stood on the wharf—the man engaged in earnest conversation with a friend he had accidentally met on the boat—Cassy was startled by the grasp of a strong hand on her arm. "Fellow," said a manly voice, "what business have you with that child?"</p>
+               <p>"What's my business is none of yours, I reckon," returned the other, trying to force Cassy from his hold.</p>
+               <p>"Help, help!" cried the gentleman, as he seized the man by the collar of his coat; "this man is a child stealer!"</p>
                <p>
-                  <figure> 
-                     <head>Escape from Bondage.</head> 
+                  <figure>
+                     <head>Escape from Bondage.</head>
                   </figure>
-               </p> 
-               <p>But no help came; as is often the case when human help is wanted, none is at hand. And the man, seeing the turn the affair was likely to take, and being cowed by the unhesitating manner of the gentleman, twisted himself from his grasp, and fled down a narrow alley.</p> 
-               <p>The gentleman, whose interference was so well timed, was no other than Mrs. Hall's brother, who was unexpectedly returning from his journey in the south. He was standing, waiting for a boat, when he observed a man leading a crying child down the steps. "That is a poor little slave," thought he, "who has a hard master." He stepped back<pb n="28-29" xml:id="VAC6003-00000016"/> in the shade of some buildings to watch them more narrowly, when, to his great surprise, he recognized his sister's little favorite. Words cannot express the gratitude poor Cassy felt at this happy escape. She kissed her deliverer's hand again and again; she was so affected, she felt as if her little heart would burst.</p> 
-               <p>The expected boat soon came up, and they took their places in it. A lady, who was also a passenger, and had a little girl of about the same age as Cassy, supplied her with shoes and stockings, and a shawl, to protect her from the cold.</p> 
-               <p>Cassy thought they never would come to the end of their journey; she was so anxious to reach home, so anxious to tell her dear friend that she was safe and well.</p> 
-               <p>How pleasant it is to go home at any time! but doubly so, when danger has threatened us abroad, and we go home to peace and happiness. Who cannot imagine the feelings of Cassy as she recognized each familiar object? thought little of when within her reach, but cherished, O! so fondly, when believed to be gone forever.</p> 
-               <p>Cassy's little dog was the first to greet her. It was lying on the green turf in the garden; but Cassy's footsteps, ere her voice reached its ear, arrested its attention. It was by her side in a moment, leaping up and licking her hands and face, and howling in the very excess of joy and delight.</p> 
-               <p>Carlo's barking brought to the door Mrs. Hall and the servants. The former felt truly thankful that her prayers had been heard. She had done all in her power to recover the child; but she knew that it was the hand only of Providence that could lead the little wanderer home. The servants welcomed her back with real pleasure; for when she was gone, there was not one who did not regret her absence, she was always so cheerful and good natured.</p> 
-               <p>"Cassy," said Mrs. Hall, as she was preparing to go to bed, "have you thanked God for your wonderful deliverance?"</p> 
-               <p>"No, mother; but I will, mother," added she earnestly. "When in the boat, I remembered your words, and prayed to God to deliver me from my trouble. The next morning, when I did not expect it at all, help came. Don't you think God heard my prayer?"</p> 
-               <p>"Yes, Cassy, indeed I do," returned Mrs. Hall. "You see how powerful God is."</p> 
-            </div> 
-            <div type="chapter"> 
-                
-               <head>CHAPTER VIII.</head> 
-               <head type="sub">THE LAST.</head> 
-               <p>NEXT morning, when Cassy awoke, she was in a burning fever, occasioned by the violent excitement she had undergone. Her frame, always delicate, could not withstand the shock. Mrs. Hall watched tenderly by her bedside; she cooled her heated brow and moistened her parched lips, but the fever increased. She was delirious many days. At one time she would call loudly for help; and, in the most touching accents, would seem to entreat the passers-by to save her; then she would pray, and would say, "I will be patient; indeed, I will be good." And she would nestle down in the bedclothes for a few seconds; then, again, she would almost jump out of bed with terror and fright.</p> 
-               <p>Many days passed by. The fever abated, but left the poor child so weak and low that great fear was entertained for her recovery.</p> 
-               <p>The whole house was wrapped in great gloom. Even Carlo seemed to know that he must be gentle and still; for, instead of jumping on her bed, as he usually did, and frolicking about, he crept silently into the room, and looking at her as she lay motionless, and almost unconscious, he gave a low whine, and then curled himself up in a distant corner of the apartment. The bird, which hung in its usual place, seemed to partake of the general sadness. Its wings drooped, and its song was seldom heard. I do not say that it was aware of Cassy's illness; but, though fed every day, without doubt it was not so carefully tended as it would have been by its little black mistress.</p> 
-               <p>After long confinement to a sick room, how pleasant it is to leave it to breathe the sweet, pure air! how balmy does it feel, on a warm day in the month of April, after being long deprived of it! Cassy felt it so, as she was carried out into the garden and laid on the sofa. All nature seemed animated and cheerful at the return of spring. All seemed glad and joyful, excepting Mrs. Hall; and, with a sad heart, she watched by Cassy's side, for she saw plainly that a few more weeks would take from her her little favorite. She had a painful duty to perform. She did not think it right to see the child under the impression that she would<pb n="30-31" xml:id="VAC6003-00000017"/> get well, when the doctors had said that all human means had been tried, and that she was fast sinking into the grave.</p> 
-               <p>One day, when Cassy was rather better than usual, Mrs. Hall knelt by the sofa. "How is my little Cassy to-day?" asked she.</p> 
-               <p>"O, much better! I think directly the warm weather comes, I shall be quite well. O, I do so wish it was here, and that I could run about again!"</p> 
+               </p>
+               <p>But no help came; as is often the case when human help is wanted, none is at hand. And the man, seeing the turn the affair was likely to take, and being cowed by the unhesitating manner of the gentleman, twisted himself from his grasp, and fled down a narrow alley.</p>
+               <p>The gentleman, whose interference was so well timed, was no other than Mrs. Hall's brother, who was unexpectedly returning from his journey in the south. He was standing, waiting for a boat, when he observed a man leading a crying child down the steps. "That is a poor little slave," thought he, "who has a hard master." He stepped back<pb n="28-29" xml:id="VAC6003-00000016"/> in the shade of some buildings to watch them more narrowly, when, to his great surprise, he recognized his sister's little favorite. Words cannot express the gratitude poor Cassy felt at this happy escape. She kissed her deliverer's hand again and again; she was so affected, she felt as if her little heart would burst.</p>
+               <p>The expected boat soon came up, and they took their places in it. A lady, who was also a passenger, and had a little girl of about the same age as Cassy, supplied her with shoes and stockings, and a shawl, to protect her from the cold.</p>
+               <p>Cassy thought they never would come to the end of their journey; she was so anxious to reach home, so anxious to tell her dear friend that she was safe and well.</p>
+               <p>How pleasant it is to go home at any time! but doubly so, when danger has threatened us abroad, and we go home to peace and happiness. Who cannot imagine the feelings of Cassy as she recognized each familiar object? thought little of when within her reach, but cherished, O! so fondly, when believed to be gone forever.</p>
+               <p>Cassy's little dog was the first to greet her. It was lying on the green turf in the garden; but Cassy's footsteps, ere her voice reached its ear, arrested its attention. It was by her side in a moment, leaping up and licking her hands and face, and howling in the very excess of joy and delight.</p>
+               <p>Carlo's barking brought to the door Mrs. Hall and the servants. The former felt truly thankful that her prayers had been heard. She had done all in her power to recover the child; but she knew that it was the hand only of Providence that could lead the little wanderer home. The servants welcomed her back with real pleasure; for when she was gone, there was not one who did not regret her absence, she was always so cheerful and good natured.</p>
+               <p>"Cassy," said Mrs. Hall, as she was preparing to go to bed, "have you thanked God for your wonderful deliverance?"</p>
+               <p>"No, mother; but I will, mother," added she earnestly. "When in the boat, I remembered your words, and prayed to God to deliver me from my trouble. The next morning, when I did not expect it at all, help came. Don't you think God heard my prayer?"</p>
+               <p>"Yes, Cassy, indeed I do," returned Mrs. Hall. "You see how powerful God is."</p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER VIII.</head>
+               <head type="sub">THE LAST.</head>
+               <p>NEXT morning, when Cassy awoke, she was in a burning fever, occasioned by the violent excitement she had undergone. Her frame, always delicate, could not withstand the shock. Mrs. Hall watched tenderly by her bedside; she cooled her heated brow and moistened her parched lips, but the fever increased. She was delirious many days. At one time she would call loudly for help; and, in the most touching accents, would seem to entreat the passers-by to save her; then she would pray, and would say, "I will be patient; indeed, I will be good." And she would nestle down in the bedclothes for a few seconds; then, again, she would almost jump out of bed with terror and fright.</p>
+               <p>Many days passed by. The fever abated, but left the poor child so weak and low that great fear was entertained for her recovery.</p>
+               <p>The whole house was wrapped in great gloom. Even Carlo seemed to know that he must be gentle and still; for, instead of jumping on her bed, as he usually did, and frolicking about, he crept silently into the room, and looking at her as she lay motionless, and almost unconscious, he gave a low whine, and then curled himself up in a distant corner of the apartment. The bird, which hung in its usual place, seemed to partake of the general sadness. Its wings drooped, and its song was seldom heard. I do not say that it was aware of Cassy's illness; but, though fed every day, without doubt it was not so carefully tended as it would have been by its little black mistress.</p>
+               <p>After long confinement to a sick room, how pleasant it is to leave it to breathe the sweet, pure air! how balmy does it feel, on a warm day in the month of April, after being long deprived of it! Cassy felt it so, as she was carried out into the garden and laid on the sofa. All nature seemed animated and cheerful at the return of spring. All seemed glad and joyful, excepting Mrs. Hall; and, with a sad heart, she watched by Cassy's side, for she saw plainly that a few more weeks would take from her her little favorite. She had a painful duty to perform. She did not think it right to see the child under the impression that she would<pb n="30-31" xml:id="VAC6003-00000017"/> get well, when the doctors had said that all human means had been tried, and that she was fast sinking into the grave.</p>
+               <p>One day, when Cassy was rather better than usual, Mrs. Hall knelt by the sofa. "How is my little Cassy to-day?" asked she.</p>
+               <p>"O, much better! I think directly the warm weather comes, I shall be quite well. O, I do so wish it was here, and that I could run about again!"</p>
                <p>
-                  <figure> 
-                     <head>"Carlo looked at her and gave a low whine."</head> 
+                  <figure>
+                     <head>"Carlo looked at her and gave a low whine."</head>
                   </figure>
-               </p> 
-               <p>"But Cassy, it may be a long time before then," returned Mrs. Hall, sadly. "Summer may bring many changes."</p> 
-               <p>"Then, don't you think I am better?"</p> 
-                
-               <p>"Cassy, in your complaint people often feel nearly well, when they are really very ill indeed."</p> 
-               <p>"Am I going to die?" exclaimed the child, her eyes filling with tears, and clasping her hands as she bent forward to catch Mrs. Hall's answer.</p> 
-               <p>"My child," said Mrs. Hall, "it would not be kind in me to tell you you were better, when I thought differently. Nothing is impossible to God; he may see fit to restore you to health, or he may see fit to take you to heaven."</p> 
-               <p>During the next half hour, few words were spoken, but Cassy cried most bitterly. "Mother," said she, at last, "will you talk to me again? Tell me more about it."</p> 
-               <p>"If I were to say," said Mrs. Hall, "that I was going to take you to Africa, to the home of your mother, and that you would see her there, and birds and flowers more beautiful than any you have ever seen, you would be very happy. I know you would! Well, Cassy, you are going to a home more beautiful than Africa. In Africa you would feel heat, and thirst, and pain; but in heaven there is no pain, nor sorrow, nor sighing. The Bible tells us that God sits there on a white throne, surrounded by glorious angels, who, with harps in their hands, sing beautiful songs about God. You like singing, Cassy. In heaven you will hear sweeter singing than you ever did on earth!"</p> 
-               <p>Mrs. Hall's words comforted the poor child, and in a few days she became quite reconciled to the idea of death, and could speak quite cheerfully about going "home."</p> 
-               <p>"May Mary come to see me? I should like to see her once again," asked she. Mary came, but her manner was constrained and cold; she feared that Cassy would reproach her about the pieces of silk, but they were not mentioned; indeed, Cassy did not think of them; she thought only of loving every body.</p> 
-               <p>"Mother," said she, about a week after this, "do you think I shall die to-day? I have such a pain in my chest. Is it very dreadful to die?"</p> 
-               <p>"I trust, my child," returned Mrs. Hall, "you will suffer very little pain. You must think of Christ, whose agony was very great indeed, and that will help you to be patient. Cassy, dear, your pain cannot be worse than his; think how he hung on the cross! How dreadful it must have been to have nails pierced through his hands and feet; and then he had a spear run into his side, and a crown of thorns placed on his head. Besides this, he had not even water given to him when he was thirsty; but vinegar, made still more disagreeable by having bitter gall mixed with it."</p> 
-               <p>"O, no, mother! my pain is not nearly so great as that."</p> 
-               <p>"And it was not of only pain of body," continued Mrs. Hall, "that he suffered; but his anxiety of mind was worse than the pain of his body.<pb n="32-33" xml:id="VAC6003-00000018"/> He thought of the sins of the whole world; and how sad it must have made him to see so many wicked people about him! Yet he died willingly. His great love for us caused him to give up his life, that we might share in the eternal happiness of heaven."</p> 
-               <p>On a serene, beautiful morning in the month of May, a small funeral procession might be seen winding its way to the village churchyard; the light coffin was covered with a white pall. The solemn ceremony was performed-"Earth to earth, ashes to ashes, dust to dust." The little black girl, the despised negro, was consigned to the grave; but her soul had taken flight, to dwell for countless ages, through all eternity, in the mansions of the blessed!</p> 
+               </p>
+               <p>"But Cassy, it may be a long time before then," returned Mrs. Hall, sadly. "Summer may bring many changes."</p>
+               <p>"Then, don't you think I am better?"</p>
+               <p>"Cassy, in your complaint people often feel nearly well, when they are really very ill indeed."</p>
+               <p>"Am I going to die?" exclaimed the child, her eyes filling with tears, and clasping her hands as she bent forward to catch Mrs. Hall's answer.</p>
+               <p>"My child," said Mrs. Hall, "it would not be kind in me to tell you you were better, when I thought differently. Nothing is impossible to God; he may see fit to restore you to health, or he may see fit to take you to heaven."</p>
+               <p>During the next half hour, few words were spoken, but Cassy cried most bitterly. "Mother," said she, at last, "will you talk to me again? Tell me more about it."</p>
+               <p>"If I were to say," said Mrs. Hall, "that I was going to take you to Africa, to the home of your mother, and that you would see her there, and birds and flowers more beautiful than any you have ever seen, you would be very happy. I know you would! Well, Cassy, you are going to a home more beautiful than Africa. In Africa you would feel heat, and thirst, and pain; but in heaven there is no pain, nor sorrow, nor sighing. The Bible tells us that God sits there on a white throne, surrounded by glorious angels, who, with harps in their hands, sing beautiful songs about God. You like singing, Cassy. In heaven you will hear sweeter singing than you ever did on earth!"</p>
+               <p>Mrs. Hall's words comforted the poor child, and in a few days she became quite reconciled to the idea of death, and could speak quite cheerfully about going "home."</p>
+               <p>"May Mary come to see me? I should like to see her once again," asked she. Mary came, but her manner was constrained and cold; she feared that Cassy would reproach her about the pieces of silk, but they were not mentioned; indeed, Cassy did not think of them; she thought only of loving every body.</p>
+               <p>"Mother," said she, about a week after this, "do you think I shall die to-day? I have such a pain in my chest. Is it very dreadful to die?"</p>
+               <p>"I trust, my child," returned Mrs. Hall, "you will suffer very little pain. You must think of Christ, whose agony was very great indeed, and that will help you to be patient. Cassy, dear, your pain cannot be worse than his; think how he hung on the cross! How dreadful it must have been to have nails pierced through his hands and feet; and then he had a spear run into his side, and a crown of thorns placed on his head. Besides this, he had not even water given to him when he was thirsty; but vinegar, made still more disagreeable by having bitter gall mixed with it."</p>
+               <p>"O, no, mother! my pain is not nearly so great as that."</p>
+               <p>"And it was not of only pain of body," continued Mrs. Hall, "that he suffered; but his anxiety of mind was worse than the pain of his body.<pb n="32-33" xml:id="VAC6003-00000018"/> He thought of the sins of the whole world; and how sad it must have made him to see so many wicked people about him! Yet he died willingly. His great love for us caused him to give up his life, that we might share in the eternal happiness of heaven."</p>
+               <p>On a serene, beautiful morning in the month of May, a small funeral procession might be seen winding its way to the village churchyard; the light coffin was covered with a white pall. The solemn ceremony was performed—"Earth to earth, ashes to ashes, dust to dust." The little black girl, the despised negro, was consigned to the grave; but her soul had taken flight, to dwell for countless ages, through all eternity, in the mansions of the blessed!</p>
                <p>
-                  <figure> </figure>
-               </p> 
-            </div> 
+                  <figure/>
+               </p>
+            </div>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

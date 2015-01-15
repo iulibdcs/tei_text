@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7541">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7541">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Empress of the Isles, or, The Lake Bravo </title>
-            <author >Clewline, Charley.</author>
+            <title>The Empress of the Isles, or, The Lake Bravo </title>
+            <author>Clewline, Charley.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7541</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7541</idno>
+            <idno type="wright2" n="previous">wright2-1997</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The Empress of the Isles, or, The lake bravo</title>
-                  <author >Clewline, Charley.</author>
+                  <title>The Empress of the Isles, or, The lake bravo</title>
+                  <author>Clewline, Charley.</author>
                </titleStmt>
-               <extent >127 p. </extent>
+               <extent>127 p. </extent>
                <publicationStmt>
-                  <publisher >Stringer &amp; Townsend</publisher>
+                  <publisher>Stringer &amp; Townsend</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1853">[1853]</date>
+                  <date when="1853">[1853]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-01-30">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-01-30">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The Empress of the Isles, or, The lake bravo</head> 
+            <head>The Empress of the Isles, or, The lake bravo</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7541-00000001"/>..;;,&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7541-00000001"/>..;;,&#xD;
 i&#xD;
 &#xD;
 EMPRESS OF THE ISLES;&#xD;
@@ -106,7 +111,7 @@ It&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7541-00000002"/>&#xD;
+<pb n="" xml:id="VAC7541-00000002"/>&#xD;
 EMPRESS~ OF THE ISLES&#xD;
 "qR&#xD;
 HE LAKE BRAVO&#xD;
@@ -163,7 +168,7 @@ v-orest&#xD;
 ntailly&#xD;
 agCp*i&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7541-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7541-00000003"/>&#xD;
 THE EMPRESS OF THE ISLES; ;ON&#xD;
 &#xD;
 During the summer months, this cleared portion of the little islet is&#xD;
@@ -314,7 +319,7 @@ view in the narrow winding channel among the green islands below the&#xD;
 town-of Clayton.&#xD;
 As the solitary stranger is destined to play a prominent part in the&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7541-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7541-00000004"/>&#xD;
 ~i&#xD;
 1'&#xD;
 &#xD;
@@ -444,7 +449,7 @@ ii}&#xD;
 &#xD;
 {&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7541-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7541-00000005"/>&#xD;
 S       TE kEMPRItS 0V t ?1 15~t tS; OR,                                  fl   AC   fAO&#xD;
 &#xD;
 for th'e last, twenty years; but somehow they could never manage to&#xD;
@@ -555,7 +560,7 @@ WAR'- LAIR 'BRAVO. '&#xD;
 &#xD;
 g&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7541-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7541-00000006"/>&#xD;
 10            T'r pa M , F $S .01!   8THES .ES ; OR&#xD;
 Ere they reached the grassy mound, a mutual self-introduction took&#xD;
 plaoe between them. The maiden learned that he who had so nobly&#xD;
@@ -662,7 +667,7 @@ return at n early hour in the evening, and escortt her new friend to&#xD;
 her father's -house, as she -was anxious to introduce him to her parents.&#xD;
 ,What passed between yesng  tanly Morris and the aged minister&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7541-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7541-00000007"/>&#xD;
 12&#xD;
 &#xD;
 TIM ' E P1U5S O TUERISLES ; OR,&#xD;
@@ -777,7 +782,7 @@ upon hersmall fir, hand,;more thanehalfconcealedby the profusion&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7541-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7541-00000008"/>&#xD;
 1,f&#xD;
 ( fill5&#xD;
 {&#xD;
@@ -895,7 +900,7 @@ uiessly aboui him .  every direction until he had apparently satis-&#xD;
 &#xD;
 ti&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7541-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7541-00000009"/>&#xD;
 THE EMPRESS O9V'THE ISLES; OR,&#xD;
 efis himself that there were no liateners near, "so this is the way you&#xD;
 keep your faith with -thosa you .employ to-eater for you in the:article-&#xD;
@@ -1004,7 +1009,7 @@ beautiful cottage on the -shores of the bay, whern; for more than fou,&#xD;
 s&#xD;
 w  .N&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7541-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7541-00000010"/>&#xD;
 is&#xD;
 &#xD;
 THE E M PRES Off "THK  IS L S OR,&#xD;
@@ -1116,7 +1121,7 @@ in his hands. .For along time he remained there by the open casement.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7541-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7541-00000011"/>&#xD;
 THE H E  IEPitSB OFP THE ' IsLES  OR,&#xD;
 rith the rich- breezeetoying and tossing -his, auburn enrl'to and frAo&#xD;
 chile his very brain seemed. on 'fire with the rapid, confused whirl of&#xD;
@@ -1228,7 +1233,7 @@ u 7&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7541-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7541-00000012"/>&#xD;
 llf  I&#xD;
 , tf&#xD;
 t 4tit t&#xD;
@@ -1344,7 +1349,7 @@ you can find her," and as he ceased to  a  the Colonel reached for&#xD;
 &#xD;
 _  ,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7541-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7541-00000013"/>&#xD;
 TUE EMPRESWOF TnE wLxa; i,&#xD;
 tie boll. The next, instant his arm fell to his side' as if palsied ; th-&#xD;
 boodforsookhis fce,;andl'the-strong man quivered in every limb as&#xD;
@@ -1453,7 +1458,7 @@ F =+     Inthe first place, the stranger sailor informed him of the arrest of&#x
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7541-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7541-00000014"/>&#xD;
 IIF&#xD;
 Ip1IflI&#xD;
 &#xD;
@@ -1566,7 +1571,7 @@ Tjg LAKI BL&amp;amp;VO.&#xD;
 &#xD;
 ;,27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7541-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7541-00000015"/>&#xD;
 THIS hMPatR l 'o Tirn' SLES; OIL.&#xD;
 &#xD;
 CHAPT ER VI.&#xD;
@@ -1671,7 +1676,7 @@ his right foot restinag upon what appeared .to be a shapeless mass of&#xD;
 ,&#xD;
 Ali&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7541-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7541-00000016"/>&#xD;
 0&#xD;
 &#xD;
 80&#xD;
@@ -1782,7 +1787,7 @@ ledges and bare crags, where immense number o' the nan"cabrupt .&#xD;
 heads," and enormous rattle-snake  mak   thr' .oathsome  copper&#xD;
 place bears about it such an air of utter loneliness and desolation, that&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7541-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7541-00000017"/>&#xD;
 -32&#xD;
 &#xD;
 TUs ILES; O,&#xD;
@@ -1948,7 +1953,7 @@ t          ti&#xD;
 f } V11 i&#xD;
 ttis&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7541-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7541-00000018"/>&#xD;
 84&#xD;
 &#xD;
 THE EMPRfSS OF THE ISLES ; OR,&#xD;
@@ -2060,7 +2065,7 @@ nson proceeded to relate Edith's story, very nearly&#xD;
 i&#xD;
 %_ z1&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7541-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7541-00000019"/>&#xD;
 THE EMiPRESS O    TritE ISLES; OR,&#xD;
 as we know it, pausing here and there in his narrative to invoke a&#xD;
 curse or heap a malediction upon the libertine Colonel   ehad&#xD;
@@ -2167,7 +2172,7 @@ of shapes and angles, piled one upon another, as if nature, in her wild-&#xD;
 est mood, had walled in that gloomy cavern with her most unsightly&#xD;
 material, thereby forming the most striking contrast in the floor and&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7541-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7541-00000020"/>&#xD;
 88            THE EMIP$LESS OF THE ISLES ; OR,&#xD;
 walls, between order and chaos. The floor was nature's "art," the&#xD;
 walls nature herself.&#xD;
@@ -2275,7 +2280,7 @@ on the morning of the third, Johnson and Steve sailed for Frend&#xD;
 Creek,1n the yacht, promising to return as soon as Benjamin Le c&#xD;
 freed from prison.                                    netts was&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7541-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7541-00000021"/>&#xD;
 TH3E PRESS Or THE ISBLES O&amp;amp;R,&#xD;
 &#xD;
 CHAPTER IX.&#xD;
@@ -2377,7 +2382,7 @@ Benjamin Letts is a traitor to his country.&#xD;
 Papers and letters, bearing his name, and of treasonable import. each&#xD;
 one of which has been carefully written and signed by the arch villain,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7541-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7541-00000022"/>&#xD;
 42            THE EMPRESS OF THE ISLES' OR,&#xD;
 -Oliver Shephard, are produced in court, and read to the jury, who&#xD;
 already begin to frown, and several of them look the verdict which is&#xD;
@@ -2485,7 +2490,7 @@ back to his gloomy cell, where he was heavily ironed and chained to&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7541-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7541-00000023"/>&#xD;
 44            THE EMPRE-SS OF' THIN'ISLES; OR,&#xD;
 the wall, and thus situated, with two soldiers stationed in the corridor&#xD;
 4b guard his door, he was left to his reflections.&#xD;
@@ -2572,7 +2577,7 @@ M&#xD;
 &#xD;
 a-&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7541-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7541-00000024"/>&#xD;
 46-           THE EMPRESS OF ,THE ISLES; OR,&#xD;
 The military deputation which had bocok sent to investigate the&#xD;
 prison, found on their arrival, the two soldiers on guard, the door of&#xD;
@@ -2679,7 +2684,7 @@ stood gazing out into the street.&#xD;
 children of liberty, and the champions of human rights. The very&#xD;
 term 'American Liberty' is a gross libel upon the name of -humanity.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7541-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7541-00000025"/>&#xD;
 48            THE EMPRESS :09 TE' T  ISLES; OR,&#xD;
 here is -a just spe-imen of those United States Liberty braggarts; who&#xD;
 traffic in human fleh, and wh6 degrade their fellow man below The&#xD;
@@ -2792,7 +2797,7 @@ r   K 1,  _ THE:  V  KE BRAVO.       ,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7541-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7541-00000026"/>&#xD;
 5THE EMwPRESS o P-; ia' 't LEa; OR,&#xD;
 &#xD;
 be' the General's favorite rebrti abd h#usedate ped wholehodrsa a&#xD;
@@ -2911,7 +2916,7 @@ I&#xD;
 ' ,&#xD;
 t, ,&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7541-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7541-00000027"/>&#xD;
 52            THE EMPRESS OF THE ISLES ; OR,&#xD;
 CHAPTER XI.r&#xD;
 TNE COUNCIL AlND DECISION- A SHORT CRUISE--THE "I.LAD.i&#xD;
@@ -3027,7 +3032,7 @@ It is nearly the same hour as that on which I have, in the early part&#xD;
 A&#xD;
 1&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7541-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7541-00000028"/>&#xD;
 Ii&#xD;
 I! I&#xD;
 {{j,&#xD;
@@ -3157,7 +3162,7 @@ biI&#xD;
 7L.Ip'44&#xD;
 1 "Ii&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7541-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7541-00000029"/>&#xD;
 1v!  I&#xD;
 Vo&#xD;
 &#xD;
@@ -3274,7 +3279,7 @@ THE EMPligg OFf T0E 'ISLES ; OR,&#xD;
 &#xD;
 ST&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7541-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7541-00000030"/>&#xD;
 i1&#xD;
 &#xD;
 'HE E P   ; ~ ~ OF .  IS LES ; OR,&#xD;
@@ -3402,7 +3407,7 @@ i&#xD;
 r .&#xD;
 F"&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7541-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7541-00000031"/>&#xD;
 41MA&#xD;
 &#xD;
 THE. F?*F   0*j TflIK -ISLES; OR,&#xD;
@@ -3510,7 +3515,7 @@ Letts.                                                         -&#xD;
 "'That -scoundrel, :Shephard, passed 'here yesterday, with a small&#xD;
 vessel, bound. I dare 'say, on -acoe fresh errand of " nischieL - Buttny&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7541-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7541-00000032"/>&#xD;
 .   6 -'          THE EMPRESS :OF- THE -s!Es; OR,&#xD;
 fre  d  et m   nretyuto     be  more  cautious.  Don't htfus' expose:&#xD;
 yourif ,ina-the. streets, ,as you. are- liable, to be recognized at any no&#xD;
@@ -3617,7 +3622,7 @@ s steamer, in atteRptig eto entr the- bey';of Sandusky in the-&#xD;
 &#xD;
 Ii&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7541-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7541-00000033"/>&#xD;
 "III&#xD;
 I +&#xD;
 14&#xD;
@@ -3723,7 +3728,7 @@ had gone by, and not one word from the man she loved. Poor Kate I&#xD;
 &#xD;
 04&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7541-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7541-00000034"/>&#xD;
 66&#xD;
 &#xD;
 THE EMPRLS Of THE ISLES; OR,&#xD;
@@ -3837,7 +3842,7 @@ along the whole frontier on the American side, thousands were secretly&#xD;
 arming for the fray..&#xD;
 In all the towns and villages throughout northern Ohio meetings&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7541-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7541-00000035"/>&#xD;
 .j             THE EMPRESS :1 -THE ISLES ; OR,&#xD;
 were called, at which inflammatory speeches were made, arms and other&#xD;
 plies were voted, Canadian expeditions- planned, and sympathy for the.&#xD;
@@ -3944,7 +3949,7 @@ Nobody. That is my opinion.&#xD;
 &#xD;
 C9&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7541-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7541-00000036"/>&#xD;
 To     TE EM !REE OF JS~~Ls a             THE                        LAI8LF3J; OR,7&#xD;
 &#xD;
 V HA PT E 1 X V.&#xD;
@@ -4061,7 +4066,7 @@ Sliko a schooner ; and we know that the strange looking thing which we&#xD;
 have just seen skimming along over the frozen surface of the lake. is an&#xD;
 i bat.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7541-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7541-00000037"/>&#xD;
 THE EMPRESS OFTfl1 ISLES; OR,&#xD;
 I it were only "daylight we 'should disenver underneath that massive&#xD;
 frame, three immense skates; and it is these -that we have heard making&#xD;
@@ -4182,7 +4187,7 @@ r    {&#xD;
 i  1&#xD;
 11d&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7541-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7541-00000038"/>&#xD;
 T(          THE EMPR'g:O7F      tE isjES i OR,&#xD;
 aid happen what wouldd- I ould not *ell be less: he might be more&#xD;
 .-alrnthough the prospect-gave but faint prmnise' of any such result.&#xD;
@@ -4299,7 +4304,7 @@ t&#xD;
 F&#xD;
 "&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7541-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7541-00000039"/>&#xD;
 THE EMIPRESS$ O'H E ,ISLES; OR,&#xD;
 which now almost wholly enveloped, the deck in a fiery mantle, while&#xD;
 their wild, agonized screams went up to .heaven, and rang out on the&#xD;
@@ -4410,7 +4415,7 @@ ai  the solitary grave there under! the old willow is as lonely'as ever;&#xD;
 but for all that, Linda's Island is very much changed since we were&#xD;
 here last!&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7541-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7541-00000040"/>&#xD;
 THE EMPRESS OF TE ISLESI Ot,&#xD;
 Near the margin of the lakelet, on the opposite side from the grave,&#xD;
 is a beautiful white cottage finished in .4he very best style of modern&#xD;
@@ -4530,7 +4535,7 @@ r&#xD;
 r&#xD;
 ?&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7541-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7541-00000041"/>&#xD;
 THE EMPfRES 09 O     iE ILES; ORS,&#xD;
 'you or to the whole'dorld. Is love a thing to be ashamed of and deny&#xD;
 WihKate Johnson, nearer !"&#xD;
@@ -4650,7 +4655,7 @@ Ifis- the-month of August, -838, and for the present let us leave the&#xD;
 Island home, the borrowing, hoping.and almost despairing heroine, and&#xD;
 the wandering hero with the faithful sailor- still on his track.,&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7541-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7541-00000042"/>&#xD;
 82      THE EMPa.ESS GFv T11SISLES;# on,&#xD;
 &#xD;
 "Think of satan, and he is with you," exclaimed Col. Moody, sur-&#xD;
@@ -4767,7 +4772,7 @@ H ]k tAIT flfAV&amp;amp;,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7541-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7541-00000043"/>&#xD;
 TIE E1UPlL.E$SS QIF TU,.SL E3 01,&#xD;
 &#xD;
 p1k&#xD;
@@ -4886,7 +4891,7 @@ The Hermit (for so we must call him, having no other name) entered&#xD;
 the house at the invitation of the- farmer, and in the explanation that&#xD;
 ensued, he did not tell them that Edith was not his daughter ; but he&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7541-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7541-00000044"/>&#xD;
 I&#xD;
 I&#xD;
 .".&#xD;
@@ -5007,7 +5012,7 @@ good-sized bundles of wheat straw, the butts coining quite' up to his ,&#xD;
 &#xD;
 *0&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7541-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7541-00000045"/>&#xD;
 88&#xD;
 &#xD;
 TESL EMP FJSS OF. TE II ibRS ;01,&#xD;
@@ -5123,7 +5128,7 @@ found a home in his breast. And yet he was not at all perfect. His&#xD;
 impulsive nature prompted him to make the enemies of his friends his&#xD;
 own; and as he reflected upon the foul wrongs of his friend, his enmity&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7541-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7541-00000046"/>&#xD;
 1&#xD;
 1&#xD;
 ;&#xD;
@@ -5246,7 +5251,7 @@ THE EMPRESS OF THE ISLES; OR,&#xD;
 &#xD;
 90&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7541-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7541-00000047"/>&#xD;
 9k&#xD;
 &#xD;
 THE EMPRESS 'OF THE ISLES; OR,&#xD;
@@ -5358,7 +5363,7 @@ sullen despair, praying for death to end their tortures, while others&#xD;
 &#xD;
 v&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7541-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7541-00000048"/>&#xD;
 THE EMPRES OF PTHE ISLES; OR,&#xD;
 flung away their rides, and recklessly exposed themselves in the 'Open&#xD;
 Windows as targets for British muskets. Many talked of rushing forth,&#xD;
@@ -5456,7 +5461,7 @@ him, and then back to the picture again.&#xD;
 "It is my mother's picture," said Stanly, half bewildered by the&#xD;
 strange scene.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7541-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7541-00000049"/>&#xD;
 THE EMPRESS OF .THE I  LES.; OR,&#xD;
 " Your mother ! 0, tell me her name ?  Does she live? QuickI&#xD;
 quick ! before-I die !"&#xD;
@@ -5563,7 +5568,7 @@ in their red coats and bear-skin shakos, in which we may easily pass for-&#xD;
 British -soldiers..&#xD;
 7&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7541-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7541-00000050"/>&#xD;
 99&#xD;
 &#xD;
 'titE EMPRiES oP' THILfEtS ; Oft,&#xD;
@@ -5672,7 +5677,7 @@ from the northward.&#xD;
 "Steve,' he exclaims, in an agitated voice-and as the light streams&#xD;
 through the narrow ercevice, you recognize: the prisoner as our hero,&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7541-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7541-00000051"/>&#xD;
 :100&#xD;
 &#xD;
 THE EMPRESS OF THE ISLES; OR,&#xD;
@@ -5805,7 +5810,7 @@ IM&#xD;
 &#xD;
 THE LAKE BRAVO.&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7541-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7541-00000052"/>&#xD;
 1        THE EMPRtESS orV tI 'r SLET 01r&#xD;
 &#xD;
 The second-note was dated, and appeared to have been but just writ-&#xD;
@@ -5919,7 +5924,7 @@ return of the yacht, as, some twenty-five persons who had "sword in"&#xD;
 as members of the secret cutting out expedition were discussing the&#xD;
 matter at the home of the smuggler, the 'motion was put to vote, and&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7541-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7541-00000053"/>&#xD;
 104&#xD;
 &#xD;
 THE EMPfESS OF.- THE ISLES; OR,&#xD;
@@ -6032,7 +6037,7 @@ The engines were set in motion; off from the shore swung the boat,&#xD;
 to the-centre of the narrow passage, when' the wheels were stopped, both&#xD;
 anchors let go, and thirty men with brands of fire were hurrying to and&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7541-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7541-00000054"/>&#xD;
 106           THE EMPRESS OF THE ISLES ; OR,.&#xD;
 fro in the hold, on deck, and in the gorgeous cabins, while Kate and&#xD;
 Stanly, Letts and the crippled boy, stood there on the gangway in&#xD;
@@ -6137,7 +6142,7 @@ did not.&#xD;
 &#xD;
 W.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7541-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7541-00000055"/>&#xD;
 108.&#xD;
 &#xD;
 THE EMPRESS OF, THE ISLES ; OR,&#xD;
@@ -6241,7 +6246,7 @@ that skirt the shores of the tiny lakelet with their long, pendant boughs,&#xD;
 drooping like mighty plumes, till they kiss the mirrored surface of the&#xD;
 water the miniature wilderness of fruit, and ornamental 'trees planted&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7541-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7541-00000056"/>&#xD;
 1 10          THE EPASJS4 OF TH     SE LES; Ol,&#xD;
 by the hand of Kate Johnson herself there in the artistically-laid-putl&#xD;
 cottage grounds, the superb parterre with its delicate array of f-owers,&#xD;
@@ -6352,7 +6357,7 @@ THE LAKE..I3RAVV..&#xD;
 &#xD;
 - -&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7541-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7541-00000057"/>&#xD;
 12           THE EMPRESS OF T'Er ISLES ; OR,&#xD;
 refolds the "letter and return' it to Gen. Whitney. " Yes, we are all&#xD;
 ready here, General. I was notaware that you were the fist to propose&#xD;
@@ -6458,7 +6463,7 @@ in the bright, warm sunlight, a sparkling diamond.&#xD;
 We all recognize her: little need is there for any one to tell us that&#xD;
 8&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7541-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7541-00000058"/>&#xD;
 114           THE EMPRESS-OF THE ISLES ;&#xD;
 it is our heroine-Kate Johnson-that creature of superhuman beauty&#xD;
 there on the steamer's deck.&#xD;
@@ -6567,7 +6572,7 @@ GnrlBrock was: said to. have been one of the noblest 111011 that&#xD;
 &#xD;
 TE -LAKE BRIMV0&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7541-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7541-00000059"/>&#xD;
 a&#xD;
 &#xD;
 116&#xD;
@@ -6681,7 +6686,7 @@ less than half an hour he was on board a steamer bound for Rochester.&#xD;
 &#xD;
 p-&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7541-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7541-00000060"/>&#xD;
 iia         1THE EMPFtESS$ OF T1*E ISLtES sN&#xD;
 &#xD;
 CHAPTER XXVII.&#xD;
@@ -6791,7 +6796,7 @@ G&#xD;
 &#xD;
 TXLIE LAKE BRAVO.           119&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7541-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7541-00000061"/>&#xD;
 12           THE EMPRESS OF TIE. ISLES; OR,&#xD;
 It was scarcely sunrise when the steamer reached her wharf, some&#xD;
 four miles below Rochester, and in less than an hour thereafter, Oliver&#xD;
@@ -6893,7 +6898,7 @@ his brown, glossy wig, whiskers, and moustache, and the base miscreant,&#xD;
 Oliver Shephard, stood there in the presence of his most deadly enemy&#xD;
 -Ben Letus--THE LAKE BRAVO.&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7541-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7541-00000062"/>&#xD;
 THE EMPRESS OF THE ISLES; ORS&#xD;
 &#xD;
 CHAPTER XXVIII.&#xD;
@@ -7007,7 +7012,7 @@ Bound and closely guarded between two courageous men, they beheld:&#xD;
 &#xD;
 THE LAKE BRAVO,.&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7541-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7541-00000063"/>&#xD;
 THE EMPRESS OF. THE. ISLES;j OR,&#xD;
 &#xD;
 Linda's Island.--Steve Marvell, the disguised sailor whom he had met&#xD;
@@ -7117,7 +7122,7 @@ embark her for Toronto.&#xD;
 &#xD;
 195&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7541-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7541-00000064"/>&#xD;
 THE EMPRESS OF THE ISLES; OR,&#xD;
 &#xD;
 Cloaks, umbrellas and carriages seemed to be in special demand ;&#xD;
@@ -7230,7 +7235,7 @@ THE LAKE BRAVO.&#xD;
 &#xD;
 127&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7541-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7541-00000065"/>&#xD;
 THE EXPRESS OF TIDE ISLES; OR,&#xD;
 &#xD;
 .-HAPTER       XXC.&#xD;
@@ -7282,8 +7287,8 @@ THE ENDS&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

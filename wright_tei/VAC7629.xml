@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7629">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7629">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The White Rover, or, The Lovely Maid of Louisiana </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>The White Rover, or, The Lovely Maid of Louisiana </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7629</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7629</idno>
+            <idno type="wright2" n="previous">wright2-2087</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The white rover, or, The lovely maid of Louisiana</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>The white rover, or, The lovely maid of Louisiana</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >Gleason</publisher>
+                  <publisher>Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The white rover, or, The lovely maid of Louisiana</head> 
+            <head>The white rover, or, The lovely maid of Louisiana</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7629-00000001"/>THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7629-00000001"/>THE&#xD;
 &#xD;
 -ORo&#xD;
 &#xD;
@@ -110,7 +115,7 @@ z ,""   '4'   J    1&#xD;
 . r&#xD;
 _ s   .&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7629-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7629-00000002"/>&#xD;
 PimrIsHER's NTa.-The following Novelette' was originally }blished in the PITORILn&#xD;
 Dz~wiNGR-loosi qoMPANIr, and is but a specimen of the many deeply entertaining Tales,&#xD;
 pnd gemsof literal  merit, which grace the columns of that elegant and highly popular journal.&#xD;
@@ -230,7 +235,7 @@ ry   'F&#xD;
 &#xD;
 ROVE-RI,&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7629-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7629-00000003"/>&#xD;
 8  THE WHITE ROVER.&#xD;
 &#xD;
 nature from the period of its earliest develop-&#xD;
@@ -419,7 +424,7 @@ a&#xD;
 &#xD;
 THE WHITE RCVER.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7629-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7629-00000004"/>&#xD;
 A-&#xD;
 &#xD;
 CHAPTER U.&#xD;
@@ -577,7 +582,7 @@ r    x.&#xD;
 t   :         J   ,f ,&#xD;
 .          i&#xD;
 &#xD;
-<pb  n="12-13 (Illustration) " xml:id="VAC7629-00000005"/>&#xD;
+<pb n="12-13 (Illustration) " xml:id="VAC7629-00000005"/>&#xD;
 i  ii *mih ROVER&#xD;
 &#xD;
 " Spoken like a true man," said the hunter.&#xD;
@@ -637,7 +642,7 @@ sdge, de if a serpent had stung him.&#xD;
 &#xD;
 PIERRE MORAN BOUND POr EXECUTION.-See Chap. II, page 10&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7629-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7629-00000006"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 turning quite suddenly and looking steadily at&#xD;
@@ -715,7 +720,7 @@ S3 n       -&#xD;
 &#xD;
 t                                                       ' 'e (  f' F ' sl'i'""N 'R"1&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7629-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7629-00000007"/>&#xD;
 THE WYHF'&#xD;
 {Yomay leave off the Mademoiselle, Ade-&#xD;
 d 1ds for thanks, you neednot say aworl&#xD;
@@ -885,7 +890,7 @@ Adelaide saw how matters were progressing, "M41(you gat y&#xD;
 and hastily retreated-to her father's rates.  " Cirtainly not.&#xD;
 -,The happy lover drew the tearfa.1 ad blush- " Well, Helen?&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7629-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7629-00000008"/>&#xD;
 Ti~ WEJIE ROViER.&#xD;
 &#xD;
 tien, adidaccuedme of loving&#xD;
@@ -1020,7 +1025,7 @@ udo netlikeour red neighbors, captain ""When he devilquot  Sei'ptune men Shoul&#
 r  gied ie, looking searchingly atLetage. be on their  enrd",&#xD;
 I pla  guilty to the charge. I hate' the  "Ade Bienvihe, you are .scarcelywaeo&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7629-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7629-00000009"/>&#xD;
 20                   THE WHITE ROVER.&#xD;
 &#xD;
 the danger that threatens this devoted colony.&#xD;
@@ -1241,7 +1246,7 @@ i-ogant tone.&#xD;
 y    a   ty f his excellency, the&#xD;
 "I was orere to arrest you, and nott    -&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7629-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7629-00000010"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 questions, Monsieur Henri. Men, close,&#xD;
@@ -1464,7 +1469,7 @@ sideration. Send Dumont to me to-morrow."&#xD;
 " Yes, your excellency."&#xD;
 " And, stay ; do not forget to find two or&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7629-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7629-00000011"/>&#xD;
 THE WHITE OVE1.&#xD;
 &#xD;
 4lirie/faithfui messengers, that I.may Aend to there&#xD;
@@ -1580,7 +1585,7 @@ and Indian styles.&#xD;
 &#xD;
 _ -&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7629-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7629-00000012"/>&#xD;
 TUE WHI&#xD;
 Madame Mablois. "I can see the smoke of New&#xD;
 Orlean&amp;amp;"&#xD;
@@ -1811,7 +1816,7 @@ TE ROVER.&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7629-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7629-00000013"/>&#xD;
 TUB 4HITE IOVER.&#xD;
 &#xD;
 d 4ent uctionof innocent' babes, helpless ivo-&#xD;
@@ -1927,7 +1932,7 @@ yr, $ '.           .              '&#xD;
 §          f 'S       Z&#xD;
 ti!,i               -&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7629-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7629-00000014"/>&#xD;
 s0&#xD;
 &#xD;
 THE WHITE ROVER.&#xD;
@@ -2101,7 +2106,7 @@ name reached his ears.&#xD;
 " We did not part on the best of terms, Ona'&#xD;
 laska, -but if you have aught to say concerning&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7629-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7629-00000015"/>&#xD;
 TREW WHITE ROVER.&#xD;
 Henrielroix, Zamrea4 to hear you," replied when I saw you hurrying away. Meet me here.&#xD;
 or~ai: to-morrow night, and we will enter the Freich&#xD;
@@ -2263,7 +2268,7 @@ and the beatingsof its heart were hushedforever,&#xD;
 &#xD;
 ,I&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7629-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7629-00000016"/>&#xD;
 r4&#xD;
 &#xD;
 CIIAPTEII VII.&#xD;
@@ -2452,7 +2457,7 @@ madly with sjoy. Thoou givest- oeiara th*&#xD;
 &#xD;
 _e        c&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7629-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7629-00000017"/>&#xD;
 86.&#xD;
 &#xD;
 gogard ard ta4pst the strength from the limbs&#xD;
@@ -2661,7 +2666,7 @@ Il(MEDIATELif after the arrest of Henri, Fa- with emotion. "I do not well unders
 r ;&#xD;
 '  ..   _&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7629-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7629-00000018"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 THE WHITE ROVER.                 89&#xD;
@@ -2919,7 +2924,7 @@ the cheeks of Helen glowed with indignation.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7629-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7629-00000019"/>&#xD;
 THR WHITE ROVEB:&#xD;
 &#xD;
 ontrived," said Xelenwhen the priest had con- claimed Helen, "for it must not be. The gover-&#xD;
@@ -3017,7 +3022,7 @@ PpAr&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7629-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7629-00000020"/>&#xD;
 .2THE WHIG&#xD;
 St Ange to the Chevalier de Noyan, who sat&#xD;
 wear him.&#xD;
@@ -3251,7 +3256,7 @@ was placed again at the bar. The'ecrowd came&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7629-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7629-00000021"/>&#xD;
 THE WlEITE ROVER.&#xD;
 &#xD;
 ear the sentence. When order rivers and wide lakes, it is fitting that I should&#xD;
@@ -3376,7 +3381,7 @@ burns up bright in the skies."&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7629-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7629-00000022"/>&#xD;
 II&#xD;
 &#xD;
 THE WHITE ROVER.&#xD;
@@ -3607,7 +3612,7 @@ promptly, I will not answer for the episegen-&#xD;
 ces." And Moran looked signifiesudly ~t Zed-&#xD;
 Shoe.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7629-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7629-00000023"/>&#xD;
 48&#xD;
 &#xD;
 TRE WHITE ROVER.&#xD;
@@ -3770,7 +3775,7 @@ THE WHITE ROVER.&#xD;
 &#xD;
 aI&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7629-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7629-00000024"/>&#xD;
 CHAPTER X.&#xD;
 A DISSEMBLER'S AVOWAL OF LOVE.&#xD;
 &#xD;
@@ -3947,7 +3952,7 @@ the wickedness of Lesage."&#xD;
 &#xD;
 itI&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7629-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7629-00000025"/>&#xD;
 THE WHITE ROVER-&#xD;
 &#xD;
 "And Piere Moran speaks the truth," added&#xD;
@@ -4176,7 +4181,7 @@ Bienville, courteously recovering frm his stir.&#xD;
 &#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7629-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7629-00000026"/>&#xD;
 THE WHITE- ROVER.&#xD;
 &#xD;
 prise at the unexpected appearance of the prin-&#xD;
@@ -4328,7 +4333,7 @@ poeeding, m    satcherest," eoe  umary   I have thought of several scenes  buthe
 -    more intricate part of the plotting IshalI enrut&#xD;
 to you," answered Hubert, with a light laugh.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7629-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7629-00000027"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 "'f course we must not be known in the&#xD;
@@ -4531,7 +4536,7 @@ of thie running light," said Adelaiide.&#xD;
 ~ezes of heaven '"etus speak seiously, Adelaide.&#xD;
 gleesome birds " With all my heart, mademoiselle."&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7629-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7629-00000028"/>&#xD;
 58                 1 THE WHITE ROVER.&#xD;
 &#xD;
 ,"I W"Vill.seriously assure you, then, to begin&#xD;
@@ -4756,7 +4761,7 @@ awkwai-dly."&#xD;
 &#xD;
 THE WfTE ROVER.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7629-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7629-00000029"/>&#xD;
 TIm WHITE ROVER.&#xD;
 &#xD;
 "It is one they have stolen from our people,&#xD;
@@ -4921,7 +4926,7 @@ arrest, imprisonment, trial, condemnation, &amp;amp;. ?"&#xD;
 continued his excellency.&#xD;
 " I have," said Boisbriant, drily.&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7629-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7629-00000030"/>&#xD;
 62&#xD;
 &#xD;
 THE WHITE ROVER.&#xD;
@@ -5108,7 +5113,7 @@ were Pierre and Henri ?"&#xD;
 &#xD;
 R&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7629-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7629-00000031"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 Louis Iilelle ceased, overpowered by his em&#xD;
@@ -5348,7 +5353,7 @@ x&#xD;
 r&#xD;
 i&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7629-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7629-00000032"/>&#xD;
 happ ted to MademoiselleAdelaide?" cried&#xD;
 ge earnesy._&#xD;
 $ 6 8heha been seized by the Indians and car-&#xD;
@@ -5495,7 +5500,7 @@ SUCCESSFUL vILLANY-TO 'r RESCUE.&#xD;
 &#xD;
 W   T- # RO VI&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7629-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7629-00000033"/>&#xD;
 THE WHITE ROVER                   t9&#xD;
 &#xD;
 time when I can meet him face to face, and pun-&#xD;
@@ -5699,7 +5704,7 @@ pened towards the town.&#xD;
 &#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7629-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7629-00000034"/>&#xD;
 d1tx,"at leng  .abated his pace, and finally&#xD;
  n upon the trunk of a fallen birch. He&#xD;
 e    oishceely assunied that position when he was&#xD;
@@ -5879,7 +5884,7 @@ said Henri, With A smile.&#xD;
 CHAPTER XV.&#xD;
 A SnuRES OF UNXPECiTht INTERVIEWS.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7629-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7629-00000035"/>&#xD;
 THE WHITE ROVER.                 78&#xD;
 &#xD;
 fHow knew you, young' man, 'that he had a&#xD;
@@ -6111,7 +6116,7 @@ t&#xD;
 f&#xD;
 Y&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7629-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7629-00000036"/>&#xD;
 TEE WHITE ROVER.&#xD;
 &#xD;
 Mu wil recognize, Monsieur Ridelle. It has&#xD;
@@ -6250,7 +6255,7 @@ L&#xD;
 &#xD;
 ,, /&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7629-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7629-00000037"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 gert "A single word spoken above a whisper&#xD;
@@ -6488,7 +6493,7 @@ breathe gently--be courageon~-.-bear yourself&#xD;
 firmly-now-now I"&#xD;
 Helen had lifted the deerskins that covered&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7629-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7629-00000038"/>&#xD;
 78x                            THEWHI&#xD;
 the lodge door, and made one timid step for-&#xD;
 ward, when one ofbthe Camanche warriors turned&#xD;
@@ -6625,7 +6630,7 @@ when they.had encamped for the-night: Though&#xD;
 CHAPTER XVII.&#xD;
 JOURNEY RESUMED-THE UNKNOWN ONCE ,MORE, NOW BETTEn KNOWN.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7629-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7629-00000039"/>&#xD;
 80                             THE WHIT&#xD;
 both felt the need of rest, neither could sleep.&#xD;
 Innumerable wild conjectures and undefinable&#xD;
@@ -6857,7 +6862,7 @@ the ensuing night ; neither did het on the night&#xD;
 after ; which circumstance surprited the cap,&#xD;
 tives not a little, and was by no mans regretted.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7629-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7629-00000040"/>&#xD;
 I&#xD;
 &#xD;
 CAPITER XV II&#xD;
@@ -7035,7 +7040,7 @@ twenty years old on the day of our marriage Ir&#xD;
 &#xD;
 -        I     *-&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7629-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7629-00000041"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 was not at that period rich, but possessed of a&#xD;
@@ -7266,7 +7271,7 @@ like an Indian, follows them at a safe distance,&#xD;
 ,&#xD;
 I&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7629-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7629-00000042"/>&#xD;
 THE WHITE ROVER.&#xD;
 &#xD;
 p' estaking long detours to mislead those&#xD;
@@ -7394,7 +7399,7 @@ sword-be pale, but firm-- lea&amp;amp;he fair tblerp&#xD;
 &#xD;
 " ;&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7629-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7629-00000043"/>&#xD;
 $$                  THE WHITE ROVER.&#xD;
 &#xD;
 firth-walk over the savages as though they&#xD;
@@ -7619,7 +7624,7 @@ aim, and sent you out of my way forever l"&#xD;
 the bad blood in my heart is stirred up enough&#xD;
 already. Soon I shall not be able to control y&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7629-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7629-00000044"/>&#xD;
 3#mr&#xD;
 &#xD;
 THE WHITE ROVEIL&#xD;
@@ -7780,7 +7785,7 @@ he spoke.&#xD;
 &#xD;
 m&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7629-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7629-00000045"/>&#xD;
 THE WHITE ~ ROVER.&#xD;
 &#xD;
 Henri advanced a step, and de.Bienville has-&#xD;
@@ -8002,7 +8007,7 @@ his throat.&#xD;
 &#xD;
 THE ,WMTI&amp;amp; . ROVER.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7629-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7629-00000046"/>&#xD;
 94.THi                             WHIT&#xD;
 "It can't be done," he managed to articulate,&#xD;
 at length.&#xD;
@@ -8128,7 +8133,7 @@ young, and all of active life is before ine. The&#xD;
 steps which I take now will give color to my..&#xD;
 future, and be that future long "r short, it must&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7629-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7629-00000047"/>&#xD;
 96                THE UNFINISHED WILL.&#xD;
 &#xD;
 97&#xD;
@@ -8354,7 +8359,7 @@ her husband as he now plied his brush, she&#xD;
 dreamed not that the sweet flowers she 'hid&#xD;
 culled could be ariPed with thorns. In the in-&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7629-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7629-00000048"/>&#xD;
 Il&#xD;
 &#xD;
 98                           THE UIFJN&#xD;
@@ -8585,7 +8590,7 @@ if time were given, his uncle might relent.&#xD;
 &#xD;
 :&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7629-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7629-00000049"/>&#xD;
 00  THEI1 UITINISHED WILL.&#xD;
 &#xD;
 "Mr. Vanwick," continued the notary, seem-&#xD;
@@ -8742,8 +8747,8 @@ I::,&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

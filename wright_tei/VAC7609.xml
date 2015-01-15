@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7609">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7609">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Black Ralph, the Forest Fiend!, or, The Wanderers of the West </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>Black Ralph, the Forest Fiend!, or, The Wanderers of the West </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7609</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7609</idno>
+            <idno type="wright2" n="previous">wright2-2065</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Black Ralph, the forest fiend!, or, The wanderers of the West</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>Black Ralph, the forest fiend!, or, The wanderers of the West</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >97 p. </extent>
+               <extent>97 p. </extent>
                <publicationStmt>
-                  <publisher >National Publishing Co.</publisher>
+                  <publisher>National Publishing Co.</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1851">1851</date>
+                  <date when="1851">1851</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Black Ralph, the forest fiend!, or, The wanderers of the West</head> 
+            <head>Black Ralph, the forest fiend!, or, The wanderers of the West</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC7609-00000001"/>OR&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC7609-00000001"/>OR&#xD;
 &#xD;
 THE WANDERERS'&#xD;
 &#xD;
@@ -103,7 +108,7 @@ NATIONAL PUBLISHING COMPANY, 164 WA SHNGTON  u&#xD;
 &#xD;
 1 T    A /&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7609-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7609-00000002"/>&#xD;
 _,'y-1.  j&#xD;
 &#xD;
 lt Ubrary&#xD;
@@ -136,7 +141,7 @@ c                                                                        -±    
 &#xD;
 (,&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7609-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7609-00000003"/>&#xD;
 CHAPTER         I.&#xD;
 THE OSAGE.&#xD;
 STOOD leaning thoughtfully upon mytifle&#xD;
@@ -208,7 +213,7 @@ a&#xD;
 £\ ft                                1)          /i\               ; Ci 1&#xD;
 L       "  f    t                    .                                                 J        i /bf&#xD;
 &#xD;
-<pb  n="12-13 (Illustration) " xml:id="VAC7609-00000004"/>&#xD;
+<pb n="12-13 (Illustration) " xml:id="VAC7609-00000004"/>&#xD;
 BLACK RALPH&#xD;
 &#xD;
 our hours misspent come and stare us in the&#xD;
@@ -313,7 +318,7 @@ cross the Fork, and I can judge for myself.'&#xD;
 &#xD;
 12&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7609-00000005"/>&#xD;
+<pb n="14-15" xml:id="VAC7609-00000005"/>&#xD;
 THE FOREST FIEND.                15&#xD;
 &#xD;
 I','&#xD;
@@ -434,7 +439,7 @@ y of a red son of the&#xD;
 &#xD;
 '4,&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7609-00000006"/>&#xD;
+<pb n="16-17" xml:id="VAC7609-00000006"/>&#xD;
 IBLACKL RAL' -f II&#xD;
 &#xD;
 'What promptedyoyti friehditotleave a place&#xD;
@@ -577,7 +582,7 @@ be                 wek  i  she's  alive-but  doin'.  'All  to cd ee d agairi n  
 a  hardthing. fori a Gundred yards from its ihos  ad~dereent&#xD;
 kee itnu   f nil all  a1loein" yy; but suchia hie ta  en nd~  t~iz&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7609-00000007"/>&#xD;
+<pb n="18-19" xml:id="VAC7609-00000007"/>&#xD;
 18&#xD;
 &#xD;
 BLACK RALPH&#xD;
@@ -765,7 +770,7 @@ These deaths had been s#be&#xD;
 bravest of the braves grew indl RZeltQm te-&#xD;
 jected, and took council together in~i org. t44&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7609-00000008"/>&#xD;
+<pb n="20-21" xml:id="VAC7609-00000008"/>&#xD;
 TILE FOREST FIEND.                   21&#xD;
 &#xD;
 20                   BL CK RALPH&#xD;
@@ -961,7 +966,7 @@ among us. The hills, and woods, and streanie,&#xD;
 are pleasant to look upon, hut we cannot pos-&#xD;
 sess them in safety.'&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7609-00000009"/>&#xD;
+<pb n="22-23" xml:id="VAC7609-00000009"/>&#xD;
 22                   BLACK RALPH&#xD;
 &#xD;
 THE FOREST FIEND.               28&#xD;
@@ -1107,7 +1112,7 @@ most frightful ,yells to intimidate me, and his tion that my conquered foe shoul
 &#xD;
 23&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7609-00000010"/>&#xD;
+<pb n="24-25" xml:id="VAC7609-00000010"/>&#xD;
 24&#xD;
 &#xD;
 BLACK RALPH&#xD;
@@ -1261,7 +1266,7 @@ Thrmore I azed updx he featufes of Flra;&#xD;
 the more I' listened to' her voide fthe nrt I&#xD;
 studis~d the graces of herini; thme norfdel&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7609-00000011"/>&#xD;
+<pb n="26-27" xml:id="VAC7609-00000011"/>&#xD;
 26                                BLACK RALPH&#xD;
 within the pleasant light of her eyes, the more Flora. I feared she might read my thoughts,&#xD;
 deeply I became enamored. 4 Happy Arthur,'I behold in me the monster that I really was, and&#xD;
@@ -1371,7 +1376,7 @@ bent over him, raised him up; but he was dead&#xD;
 S   r   fkins from his chest anl thefl soea    u to i&#xD;
 mark ~t~ak Iph was indeed tliere.'.a hole of Floars dumb&#xD;
 &#xD;
-<pb  n="28-29 (Illustration) " xml:id="VAC7609-00000012"/>&#xD;
+<pb n="28-29 (Illustration) " xml:id="VAC7609-00000012"/>&#xD;
 'They have carried her away,' he said sternly, I I am  used to the critters, and I dont advise&#xD;
 'and I shall not rest till I find her. I will fol- you only for the best, because as I know the&#xD;
 low them to'the last-I will wash out! the inju- feelings of a father.'&#xD;
@@ -1429,7 +1434,7 @@ R I3LA K      EAiJi fl&#xD;
 &#xD;
 28&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7609-00000013"/>&#xD;
+<pb n="30-31" xml:id="VAC7609-00000013"/>&#xD;
 THE FORE&#xD;
 &#xD;
 I&#xD;
@@ -1535,7 +1540,7 @@ I felt loth to leave the spot at once, so I&#xD;
 paced back and forth a quarter of an hour long.&#xD;
 er; as near as I could judge of' time.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7609-00000014"/>&#xD;
+<pb n="32-33" xml:id="VAC7609-00000014"/>&#xD;
 32                   BLACK RALPH&#xD;
 &#xD;
 I will follow him,' I said, mentally, if it be I&#xD;
@@ -1730,7 +1735,7 @@ The air was rent with yelle, which fournds a&#xD;
 thousand distant echoes amid the surrondn&#xD;
 hills.                                 in&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7609-00000015"/>&#xD;
+<pb n="34-35" xml:id="VAC7609-00000015"/>&#xD;
 84                    BLACK RALPH&#xD;
 &#xD;
 The women and children caught up the bur-&#xD;
@@ -1902,7 +1907,7 @@ and get cool, and see if ypu x3n'# -feel stiff&#xD;
 in the joints. Rest to-nigtit, and you'll he able&#xD;
 to hold' out the ,Iodger; beee we  e w deday-&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7609-00000016"/>&#xD;
+<pb n="36-37" xml:id="VAC7609-00000016"/>&#xD;
 THE FOSIE FIEND.-&#xD;
 &#xD;
 light to fuller the trail, for I parceive that it up a piece of the choicest venison that I've seen&#xD;
@@ -2009,7 +2014,7 @@ BLACK " 1ALP;&#xD;
 &#xD;
 16&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7609-00000017"/>&#xD;
+<pb n="38-39" xml:id="VAC7609-00000017"/>&#xD;
 BLA  K RAif1&#xD;
 'You are not exetly right, stranger, nor yet to my nature. I knew full well that I should&#xD;
 exactly wong. I knew well wat I was about destroy them without mercy when circumstances&#xD;
@@ -2111,7 +2116,7 @@ and ran away with all possible speed, lookingre   t is neare; di wsom       ar u
 behind, like an animal really frightened.  ndred ards tot oafo ri case    h t&#xD;
 ' It is a noble beast,' I remarked,      wards it in order to return rottai&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7609-00000018"/>&#xD;
+<pb n="40-41" xml:id="VAC7609-00000018"/>&#xD;
 40&#xD;
 &#xD;
 THE - FOREST FIEpTD.                         41&#xD;
@@ -2307,7 +2312,7 @@ and hound, so fled the figure..&#xD;
 The ,distance shortened between u,&#xD;
 flying one heard my footsteps, an&amp;amp; without$t~&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7609-00000019"/>&#xD;
+<pb n="42-43" xml:id="VAC7609-00000019"/>&#xD;
 42                     -BLACR RALPII&#xD;
 &#xD;
 THE O1FS1'ID.&#xD;
@@ -2508,7 +2513,7 @@ l&#xD;
 &#xD;
 4 '&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7609-00000020"/>&#xD;
+<pb n="44-45" xml:id="VAC7609-00000020"/>&#xD;
 THE FOReEST FIEND.                    45&#xD;
 &#xD;
 me, but you may readily suppose I refused it.&#xD;
@@ -2710,7 +2715,7 @@ I&#xD;
 44                        BL4VK . ALPH&#xD;
 4                           t&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7609-00000021"/>&#xD;
+<pb n="46-47" xml:id="VAC7609-00000021"/>&#xD;
 46  BL          _C AL&#xD;
 &#xD;
 THE FOREST FIEND.                47&#xD;
@@ -2874,7 +2879,7 @@ egs up and two legs down !' ',for sich information.'&#xD;
 rapper.                                   woodsmen, I arose and left t     I stepped&#xD;
 'Not in the least ; it was a great benefit to into the open air, andfound the eight quiet and&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7609-00000022"/>&#xD;
+<pb n="48-49" xml:id="VAC7609-00000022"/>&#xD;
 THE'. FOREST FIEND.                 49&#xD;
 &#xD;
 beautiful. A gentle west wind was breathing&#xD;
@@ -3071,7 +3076,7 @@ heart of one so young and innoc5 ta&#xD;
 &#xD;
 48                     BLACK --RALPH&#xD;
 &#xD;
-<pb  n="50-51 (Illustration) " xml:id="VAC7609-00000023"/>&#xD;
+<pb n="50-51 (Illustration) " xml:id="VAC7609-00000023"/>&#xD;
 BLACK XALPI&#xD;
 &#xD;
 We remained silent for a short space of time&#xD;
@@ -3180,7 +3185,7 @@ k&#xD;
 &#xD;
 k&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7609-00000024"/>&#xD;
+<pb n="52-53" xml:id="VAC7609-00000024"/>&#xD;
 THE FOREST' FIEND.&#xD;
 &#xD;
 S&#xD;
@@ -3309,7 +3314,7 @@ That's about all T've got to say"&#xD;
 &#xD;
 53-&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7609-00000025"/>&#xD;
+<pb n="54-55" xml:id="VAC7609-00000025"/>&#xD;
 BSLCK RALPH&#xD;
 ise chained my tongue  in the world ; and the object of its thoughts was&#xD;
 F ha   lomed for al goodness of Flora and Osborne.&#xD;
@@ -3461,7 +3466,7 @@ o-night, but I dont care it' I try my handa t it&#xD;
 once: Come, Two Shooter, look at that blze.&#xD;
 The old trap r brought the 'hreich o&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7609-00000026"/>&#xD;
+<pb n="56-57" xml:id="VAC7609-00000026"/>&#xD;
 BL CK '1ALPU&#xD;
 &#xD;
 rifle to his shoulder, with the muzzle de-&#xD;
@@ -3659,7 +3664,7 @@ place.'&#xD;
 have remained firm.'&#xD;
 Flora overheard this conversatie, andI was&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7609-00000027"/>&#xD;
+<pb n="58-59" xml:id="VAC7609-00000027"/>&#xD;
 compelled tprelate all that had lapponed in re-&#xD;
 lation to the meeting with Osborne. She gave'&#xD;
 me a look of=gentlegpropch, aud said in a low&#xD;
@@ -3856,7 +3861,7 @@ cruels to leaves him. H~is lighting blood now&#xD;
 seemed to be getting aroused.&#xD;
 He began to walk around runakieg'the&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7609-00000028"/>&#xD;
+<pb n="60-61" xml:id="VAC7609-00000028"/>&#xD;
 THE .FOREST,FIEND.                    61&#xD;
 &#xD;
 60                    BLACK ALPB&#xD;
@@ -4078,7 +4083,7 @@ frame, and to all appeg.eshe was dead.'&#xD;
 ' You did'nt say wbethqi   ~ ,~4w   ut&#xD;
 o' the air again,' added Butoua&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7609-00000029"/>&#xD;
+<pb n="62-63" xml:id="VAC7609-00000029"/>&#xD;
 BLACK MLPII&#xD;
 'That was an oversight he did come down tiers have resolved to abandon this pa  of&#xD;
 and never leaped again. I looked earnestly country, and proceed towards the Great Salt&#xD;
@@ -4233,7 +4238,7 @@ ventures of those most intimately, conugeted&#xD;
 with me ;.therefore I shall not relate the his-&#xD;
 We have passed Mt. Rabn     th  'aiish&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7609-00000030"/>&#xD;
+<pb n="64-65" xml:id="VAC7609-00000030"/>&#xD;
 64                                BLACK&#xD;
 South Park, the Old Park, and the kind reader&#xD;
 will now find us comfortably encamped upon&#xD;
@@ -4453,7 +4458,7 @@ the pale faces. I had also applied myself to the&#xD;
 ~Pah-Outah language, andeconquered a portion of&#xD;
 ijts hard words ; so we could now get along to-&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7609-00000031"/>&#xD;
+<pb n="66-67" xml:id="VAC7609-00000031"/>&#xD;
 60                               BLACK&#xD;
 gether very well, in the way of conversation.&#xD;
 War-Path was, accompanied on this occasion by&#xD;
@@ -4652,7 +4657,7 @@ savages,' I observed, thoughtfully.&#xD;
 yet?&#xD;
 Not in the least. I do not. I&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7609-00000032"/>&#xD;
+<pb n="68-69" xml:id="VAC7609-00000032"/>&#xD;
 68                                    BLACK&#xD;
 'They are not to blame for having a red skin,&#xD;
 Seward.'&#xD;
@@ -4852,7 +4857,7 @@ During that day's journey not on9 pf cus, I&#xD;
 believe, could help thinking of the p4aordi&#xD;
 nary being called Black5Rlh.         K~&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7609-00000033"/>&#xD;
+<pb n="70-71" xml:id="VAC7609-00000033"/>&#xD;
 70                               BLACK RALPNT&#xD;
 I wish to talk with you,' said Arthur, after to ride. The motions of the horse made my,&#xD;
 all bad become quiet in the encampment.   head ache more bitterly, and I as conscious that&#xD;
@@ -5003,7 +5008,7 @@ ter. Tears came to my aid-the first I had shed&#xD;
 ;;&#xD;
 . - .&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7609-00000034"/>&#xD;
+<pb n="72-73" xml:id="VAC7609-00000034"/>&#xD;
 72                                   BLAC&#xD;
 'Bring water, stir your stumps !  Be lively,&#xD;
 tie poor boy is in an unhappy state.. His&#xD;
@@ -5232,7 +5237,7 @@ I&#xD;
 &#xD;
 73&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7609-00000035"/>&#xD;
+<pb n="74-75" xml:id="VAC7609-00000035"/>&#xD;
 '74                                BLACK:&#xD;
 ' Osborne !' exclaimed the trapper, with a&#xD;
 start of astonishment.  'I thought you'd fixedI&#xD;
@@ -5387,7 +5392,7 @@ have better luck.                          'had heerd people say that the planet
 &#xD;
 'A&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7609-00000036"/>&#xD;
+<pb n="76-77" xml:id="VAC7609-00000036"/>&#xD;
 BLACK  RALPH&#xD;
 &#xD;
 inhabited by some kind o' human nature ; but it&#xD;
@@ -5581,7 +5586,7 @@ s, unless he meets with terrible&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7609-00000037"/>&#xD;
+<pb n="78-79" xml:id="VAC7609-00000037"/>&#xD;
 Two forty carried me along way afore I con- B  ton, gravely. 'That, was her Ingin name.'&#xD;
 eluded to make any stop. I commenced tra     "hat's because she run away, Is'pose.'&#xD;
 ping again in the neighborhood of Saptin's, at  No;, she was allers called the Runin' Ivy.'&#xD;
@@ -5746,7 +5751,7 @@ Poor Arthhr!'&#xD;
 'He was a fine lad,' answeredBtn    ad&#xD;
 it will make sad the heart of oncommon Florry.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7609-00000038"/>&#xD;
+<pb n="80-81" xml:id="VAC7609-00000038"/>&#xD;
 BLACK RAL 1H&#xD;
 &#xD;
 'That Indian is still coming towards us.',&#xD;
@@ -5932,7 +5937,7 @@ r&#xD;
 J&#xD;
 s&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7609-00000039"/>&#xD;
+<pb n="82-83" xml:id="VAC7609-00000039"/>&#xD;
 82                               'BLACK&#xD;
 That he may still be living; I dreamed&#xD;
 ghat he was last night.'&#xD;
@@ -6150,7 +6155,7 @@ dle.&#xD;
 tryin' now, I wonder?' exclaimed the trapper.&#xD;
 'He won't never die in his 'IA.." JMt ee thi&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7609-00000040"/>&#xD;
+<pb n="84-85" xml:id="VAC7609-00000040"/>&#xD;
 -                                             3s                                THE    FORE&#xD;
 iF&#xD;
 84.                                BLACK     RALPH&#xD;
@@ -6256,7 +6261,7 @@ ST FIEND.&#xD;
 &#xD;
 85&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7609-00000041"/>&#xD;
+<pb n="86-87" xml:id="VAC7609-00000041"/>&#xD;
 86&#xD;
 &#xD;
 BLACK 1K(LPH&#xD;
@@ -6412,7 +6417,7 @@ Rather unwillingly the fellow got up and left went out. He did not  turn. Night 
 me. ~ad been gone but a short time before I felt very sick, but mtaan edl to get some sticks&#xD;
 he returned pale and trembling,            and made a fire.&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7609-00000042"/>&#xD;
+<pb n="88-89" xml:id="VAC7609-00000042"/>&#xD;
 88                                BLACK RALPH&#xD;
 The waters of Sandy River flowed on, within  It was- the body of the Frenchman. I re-&#xD;
 gun-shot of me.  I crawled down the bank and coiled with an exclamation of horror. I had&#xD;
@@ -6522,7 +6527,7 @@ ing two hundred yards up the mountain side.  Then turning to Gilmore :-&#xD;
 I wag careful during this time to keep out of the  'Hurry up, old Two Shooter; here's ,a.ance&#xD;
 range of the firing as much as possible ; but in for a sprinklin of death.'&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7609-00000043"/>&#xD;
+<pb n="90-91" xml:id="VAC7609-00000043"/>&#xD;
 THE FOREST FIEND.                     91&#xD;
 &#xD;
 'lEst!' whispered Gilmore.&#xD;
@@ -6721,7 +6726,7 @@ a man,' remarked my fair and brave companion.&#xD;
 &#xD;
 99                  BLACK RALPH&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7609-00000044"/>&#xD;
+<pb n="92-93" xml:id="VAC7609-00000044"/>&#xD;
 92&#xD;
 &#xD;
 BLACK&#xD;
@@ -6879,7 +6884,7 @@ When I joined the settlers, she had been    At that nioment the object of my soi
 &#xD;
 I  :  '&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7609-00000045"/>&#xD;
+<pb n="94-95" xml:id="VAC7609-00000045"/>&#xD;
 A&#xD;
 i&#xD;
 I&#xD;
@@ -7014,7 +7019,7 @@ hers, it was grim and terrible to our enemies as lightly from the back of Two Fo
 &#xD;
 Ii&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7609-00000046"/>&#xD;
+<pb n="96-97" xml:id="VAC7609-00000046"/>&#xD;
 96                 4 BLACK RALPH&#xD;
 &#xD;
 'If you could only find that dog with three cause. They would raise hhn, up.  A small&#xD;
@@ -7116,8 +7121,8 @@ safety,'where a triple wedding took place. if&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

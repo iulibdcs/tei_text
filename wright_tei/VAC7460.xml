@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7460">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7460">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >El Pirata </title>
-            <author >Anonymous</author>
+            <title>El Pirata </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7460</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7460</idno>
+            <idno type="wright2" n="previous">wright2-1914</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >El Pirata</title>
-                  <author >Anonymous</author>
+                  <title>El Pirata</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >56 p.</extent>
+               <extent>56 p.</extent>
                <publicationStmt>
-                  <publisher >s.n.</publisher>
+                  <publisher>s.n.</publisher>
                   <pubPlace>[S.l. </pubPlace>
-                  <date  from="1860" to="1869">186-?]</date>
+                  <date from="1860" to="1869">186-?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>El Pirata</head> 
+            <head>El Pirata</head>
             <p>
-               <pb  n="0" xml:id="VAC7460-00000001"/>E L               P IR A T A.&#xD;
+               <pb n="0" xml:id="VAC7460-00000001"/>E L               P IR A T A.&#xD;
 C H A P T E R    I.          carriage in silence and apparently buried in&#xD;
 his thoughts.&#xD;
 At the crossing of Rue Bienville they were&#xD;
@@ -132,7 +137,7 @@ season every license granted them from the is his majesty king Louis Phillippe e
 Court of Folly ; and so long-as his way was on the cask head on the right, who will hon-&#xD;
 not impeded, he remained seated back in his or you With listening to it: on the left is his&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC7460-00000002"/>&#xD;
+<pb n="2-3" xml:id="VAC7460-00000002"/>&#xD;
 2                             EL PIRATA.&#xD;
 majesty king Beelzebub, he, in brimstone were seen gendarmes in their blue uniform&#xD;
 breeches and flame-colored tunc who will and swords, endeavoring to keep within the&#xD;
@@ -328,7 +333,7 @@ purchase a bunch of paper cigars, we are&#xD;
 good men.'&#xD;
 t'hean ido you com off guard ? ased&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7460-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7460-00000003"/>&#xD;
 FI fIATA.&#xD;
 &#xD;
 WIMlfATAi&#xD;
@@ -586,7 +591,7 @@ a peculiar character. Rogues r are :said,;pro,&#xD;
 verbial, to select their handt v las to pins&#xD;
 bouxrhood of the Calaboose at 'the , times wE&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7460-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7460-00000004"/>&#xD;
 i EJRATh&#xD;
 &#xD;
 write of cabarets, cafes, pulperias, or Spanish a huge mask, which opinion a stringer" would&#xD;
@@ -804,7 +809,7 @@ communicating door ajr.&#xD;
 &#xD;
 lW'PERATE '&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7460-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7460-00000005"/>&#xD;
 EL1 ?IRATAi&#xD;
 &#xD;
 -Now, senor Don Rafael, what good news s&#xD;
@@ -1019,7 +1024,7 @@ nor playing, but conversing in ai low tone. can htide our time,. Senor Benito-!&
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7460-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7460-00000006"/>&#xD;
 11&#xD;
 &#xD;
 HL PM1tATA(~&#xD;
@@ -1296,7 +1301,7 @@ ad ' You shall' have' gold Nicole. What&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7460-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7460-00000007"/>&#xD;
 12&#xD;
 &#xD;
 gglIyATAg&#xD;
@@ -1442,7 +1447,7 @@ a deserted pile and scarcely less 'ruinous. Igaze, while the crash of music met 
 ' Can Don Rafael have taken the pretty IShe also -saw thergendarme' to whom she had&#xD;
 Louisette to his quarters first ? 1 am not to s poken an hour or two before, standing at his&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7460-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7460-00000008"/>&#xD;
 Ait&#xD;
 &#xD;
 post. nn the hope of rescue, she 'hreked&#xD;
@@ -1651,7 +1656,7 @@ to the grand gate, which was closed -A within its walls' a Iotel for families, a
 &#xD;
 Mfft&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7460-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7460-00000009"/>&#xD;
 EL FIRATA.                 L1&#xD;
 &#xD;
 16&#xD;
@@ -1936,7 +1941,7 @@ taking off his mask to get air provi i to, he a&#xD;
 very good-looking perruquier oif a neighbor-&#xD;
 ing street. ' He can't live long he is so im-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7460-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7460-00000010"/>&#xD;
 1$                 "      EL PitATA i&#xD;
 &#xD;
 1'&#xD;
@@ -2220,7 +2225,7 @@ I&#xD;
 &#xD;
 'kj''#AAtA.                 '19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7460-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7460-00000011"/>&#xD;
 EL, PIRATA.&#xD;
 &#xD;
 ~1 f&#xD;
@@ -2507,7 +2512,7 @@ now believed the handsome young Creolu&#xD;
 &#xD;
 ELI"PIkATA.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7460-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7460-00000012"/>&#xD;
 RATA.&#xD;
 &#xD;
 I&#xD;
@@ -2794,7 +2799,7 @@ d beammng with happiness.&#xD;
 is ' And whose slave are you to he, E'mme?'&#xD;
 d asked Georgime, admiringly gazing upon her.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7460-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7460-00000013"/>&#xD;
 'i&#xD;
 &#xD;
 EL IRATA.&#xD;
@@ -3080,7 +3085,7 @@ cold pavement and the damp air of the night&#xD;
 added to its dreary character. Save the pre-&#xD;
 sence of the lamp burning there were no signs&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7460-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7460-00000014"/>&#xD;
 26&#xD;
 &#xD;
 EL 'PIRATA.&#xD;
@@ -3313,7 +3318,7 @@ I'&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7460-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7460-00000015"/>&#xD;
 28&#xD;
 &#xD;
 EL PIRATA.&#xD;
@@ -3527,7 +3532,7 @@ the city who was once a priest of influence in-&#xD;
 Havana. ,On account of some crime he was *An onza, or ounce, is something less than sev-&#xD;
 forced to flee the Island and he came hithei-. enteen dollars.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7460-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7460-00000016"/>&#xD;
 EL PIKATA.&#xD;
 &#xD;
 F&#xD;
@@ -3817,7 +3822,7 @@ e enter society, under the pretence that sh had&#xD;
 1)  1 -  I '  #.,  -  55  1 1 1&#xD;
 'Ili PIRATA.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7460-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7460-00000017"/>&#xD;
 ,p9msone#~am4ine Noe.,urrendered herthe&#xD;
 tn al4 aXq t  ion Wul forever ,reove ,ai&#xD;
 wtps ofth egrae lieage o 1el c1ldren,&#xD;
@@ -4091,7 +4096,7 @@ sand, and expended two thousand more in se-&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7460-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7460-00000018"/>&#xD;
 34                 RA.&#xD;
 &#xD;
 Lid&#xD;
@@ -4377,7 +4382,7 @@ his way through 'the ,Rigolet to: thefsI&#xD;
 &#xD;
 IB.ATA.&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7460-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7460-00000019"/>&#xD;
 36  fIRAA.&#xD;
 &#xD;
 I I&#xD;
@@ -4602,7 +4607,7 @@ and turning from. the, portal she approached spectfully ; and greatly to the rel
 ther arme, Jerome JTaoot, whom the reader sette, - Don Rafaiel passed into the door lead-&#xD;
 alread. knows~                          ing up to the salon.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7460-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7460-00000020"/>&#xD;
 EL PIfATA.&#xD;
 &#xD;
 'Louisette 'did not have to waitlong. - Jaco&#xD;
@@ -4802,7 +4807,7 @@ laughter and loudly applauded.           multitude.o                  .&#xD;
 -'~ May it -please your Highness,l 'Ienter my :But Louis's atten4iou wes at that geoment#&#xD;
 protest against this decision,' said the cavalier, too intently engaggi to hear or hqee4,e .Jpig&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7460-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7460-00000021"/>&#xD;
 EE ,?PRATA.&#xD;
 &#xD;
 testimony born to, his sagacity. His eye had&#xD;
@@ -5081,7 +5086,7 @@ I&#xD;
 &#xD;
 ETIATA. "&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7460-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7460-00000022"/>&#xD;
 4W     fE             --PIRAW'&#xD;
 &#xD;
 EL PIRATE'                        43&#xD;
@@ -5362,7 +5367,7 @@ utes of eleven, when -those who choose tea&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7460-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7460-00000023"/>&#xD;
 ELI PIRATA: -A&#xD;
 &#xD;
 oroe ,thirtha s-and thus clear up the little'&#xD;
@@ -5569,7 +5574,7 @@ Sheisinctively obeyed.: Colonel War- fathomable to'ihis reisedch iiu51l this~i )
 &#xD;
 t'4&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7460-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7460-00000024"/>&#xD;
 w46                           A     PIRATA.&#xD;
 that was notthen the time nor the place for aful mystery wos hanging- over him and his&#xD;
 ydung mam of spiritburuing innder .a sense sister. Whshould unravel it.&#xD;
@@ -5772,7 +5777,7 @@ d of Felief severely.        U'       A&#xD;
 -IWhat-do-you know?what'havrru~&#xD;
 e asked Florence wihasarete&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7460-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7460-00000025"/>&#xD;
 , 8ILAPftATA.&#xD;
 &#xD;
 If&#xD;
@@ -6033,7 +6038,7 @@ lisit all wiennewit endkn ew it beforb-I?&#xD;
 &#xD;
 48S&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7460-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7460-00000026"/>&#xD;
 5(0                            ELp&#xD;
 fearful  sto y. Tat -lovely girl the oflppring&#xD;
 of iL qpia4rogune mother! The hKld of aslave!&#xD;
@@ -6231,7 +6236,7 @@ sfByechr4tyjebat4Is ~ b trequie  ~ 'kpp  4alan dogn', ,tt&#xD;
 99pu tniAth Iageg ugagg ea      dtht gith         ogh Id di5 onie 9~A  $,he&#xD;
 omagn9tyvery well carry git unless tamu'athf ejuohce .,, s ~n&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7460-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7460-00000027"/>&#xD;
 '52             ~~~PIRATA. O1I~T.5&#xD;
 &#xD;
 Condt-cted by a 'gentaifie' they jeil the&#xD;
@@ -6468,7 +6473,7 @@ ss&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7460-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7460-00000028"/>&#xD;
 54,                                 J :kfR   TA,&#xD;
 &#xD;
 verberated through the-doniaof the, vast ire&#xD;
@@ -6720,7 +6725,7 @@ to be transplanted wheie there iS perennial&#xD;
 spring; where flowers never fade' nor roses&#xD;
 wither!&#xD;
 &#xD;
-<pb  n="56" xml:id="VAC7460-00000029"/>&#xD;
+<pb n="56" xml:id="VAC7460-00000029"/>&#xD;
 56&#xD;
 &#xD;
 FIR#.?fl A  I'vio&#xD;
@@ -6736,8 +6741,8 @@ is now his private secretaryjnd ypung man              TE END.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

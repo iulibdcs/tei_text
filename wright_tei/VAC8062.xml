@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8062">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8062">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Lynde Weiss </title>
-            <author >Throop, George Higby, (1818-1896)</author>
+            <title>Lynde Weiss </title>
+            <author>Throop, George Higby, (1818-1896)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8062</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8062</idno>
+            <idno type="wright2" n="previous">wright2-2501</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Lynde Weiss</title>
-                  <author >Throop, George Higby, (1818-1896)</author>
+                  <title>Lynde Weiss</title>
+                  <author>Throop, George Higby, (1818-1896)</author>
                </titleStmt>
-               <extent >188 p. </extent>
+               <extent>188 p. </extent>
                <publicationStmt>
-                  <publisher >Lippincott Grambo</publisher>
+                  <publisher>Lippincott Grambo</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-06-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-06-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Lynde Weiss</head> 
+            <head>Lynde Weiss</head>
             <p>
-               <pb  n="0Illustration (TitlePage) " xml:id="VAC8062-00000001"/>03 more than blest that, all my wanderings through,&#xD;
+               <pb n="0Illustration (TitlePage) " xml:id="VAC8062-00000001"/>03 more than blest that, all my wanderings through,&#xD;
 My anchor falls where first my penigons flew."&#xD;
 . 0. W. hOLuES.&#xD;
 &#xD;
@@ -109,7 +114,7 @@ LI INOT T, GRPAMBO &amp;amp; c0.&#xD;
 &#xD;
 Rn Etobiogppj.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8062-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8062-00000002"/>&#xD;
 '1&#xD;
 4'&#xD;
 &#xD;
@@ -145,7 +150,7 @@ A&#xD;
 &#xD;
 '/&#xD;
 &#xD;
-<pb  n="0-5" xml:id="VAC8062-00000003"/>&#xD;
+<pb n="0-5" xml:id="VAC8062-00000003"/>&#xD;
 LYNDE WEISS..&#xD;
 OUAPTERL&#xD;
 LYNDfl WAGETH WAIl WITS THE HOU~EKEEPER-ANP IS&#xD;
@@ -198,7 +203,7 @@ w~a~l&#xD;
 ~ ~s&#xD;
 L4 ~Qr&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8062-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8062-00000004"/>&#xD;
 6                LYNDE WEI§S.&#xD;
 &#xD;
 which, personally, she could, by no possibility, ever&#xD;
@@ -288,7 +293,7 @@ hear it now.&#xD;
 ..:..4~. ,~&#xD;
 a wiuutt~.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8062-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8062-00000005"/>&#xD;
 S                 LYNDE~WEISS.                                              LYNDE WEISS.                9&#xD;
 &#xD;
 cheek. The words that begin this chapter were the&#xD;
@@ -371,7 +376,7 @@ given me a. few days before, and promising myself a&#xD;
 merry winter. Going down to the sitting-room, I raked&#xD;
 open the coals in the huge fireplace, (those were the&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8062-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8062-00000006"/>&#xD;
 10&#xD;
 &#xD;
 LYNDE WEISS.&#xD;
@@ -452,7 +457,7 @@ I&#xD;
 &#xD;
 D&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8062-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8062-00000007"/>&#xD;
 12               LYNDE WEISS.&#xD;
 &#xD;
 LYNDE WEISS.            *&#xD;
@@ -541,7 +546,7 @@ with you."&#xD;
 1'&#xD;
 I'&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8062-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8062-00000008"/>&#xD;
 14               LYNDE WEISS.                                         LYNDE WEISS.              15&#xD;
 &#xD;
 "Of course he does, Uncle George. Let him go.&#xD;
@@ -630,7 +635,7 @@ snow. The sleigh-bells were already heard in&#xD;
 &#xD;
 15&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8062-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8062-00000009"/>&#xD;
 LYNP~ WEIS$.                                                   LYNDE WJ~iSS.&#xD;
 &#xD;
 p~rtunity to stuff still fuller my already tolerably be-i&#xD;
@@ -711,7 +716,7 @@ Yes; and, by the powers! there's Charles coming to&#xD;
 meet us I"&#xD;
 2*&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8062-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8062-00000010"/>&#xD;
 18                 LYNDE WXI8S..&#xD;
 CHAPTER III.&#xD;
 THE WOODMAN'S HOME.&#xD;
@@ -787,7 +792,7 @@ sight of us, ~n'd set out at the pq~ de a~q~ towards&#xD;
 the intrudera. I1~e did" 'n~ot stop until within~, a fathom&#xD;
 of the head§ of our cattle, when it seemed', t~ oeeur. to&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8062-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8062-00000011"/>&#xD;
 20                 LYNIE WEISS.'&#xD;
 him that he might have mistaken the character of ~the&#xD;
 new-corners; and he therefore ~et both his fore..feet&#xD;
@@ -872,7 +877,7 @@ often' have I felt that there must be truth in the&#xD;
 doctrine of a sensible intercoinmunion of the spirits ef&#xD;
 those who love one another, though. leagues apart.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8062-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8062-00000012"/>&#xD;
 22               LYNDE WEISS.                                         LYNDE WE1~S.               2S.&#xD;
 &#xD;
 Life has been dark to you, but you have done what you&#xD;
@@ -956,7 +961,7 @@ and 'simple ate the annals of-dogs. Vale I "Ilium-&#xD;
 fuit !"&#xD;
 F&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8062-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8062-00000013"/>&#xD;
 24               LYNDfl WEISS.&#xD;
 &#xD;
 LflThI WtE~S$.&#xD;
@@ -1031,7 +1036,7 @@ a&#xD;
 ~ '4"&#xD;
 '~ ~\&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8062-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8062-00000014"/>&#xD;
 vnii~E W&#xD;
 tried to acquire, by evening study after the toils of.&#xD;
 the day, and by reckoning with a piece of chalk upon&#xD;
@@ -1114,7 +1119,7 @@ well as in~the manufacture of wrought iron and anchors~&#xD;
 and the sawing of logs-into boards, lath, and plank.-&#xD;
 The spars and square timber Were formd into small&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8062-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8062-00000015"/>&#xD;
 28         -      LThDE WEISS.                                           LYNDE WEI8S~               29&#xD;
 &#xD;
 rafts, eight or ten abreast, and floated over the rapids&#xD;
@@ -1187,7 +1192,7 @@ teristic of old age. It gave her- the a~pep~r.noe, of&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8062-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8062-00000016"/>&#xD;
 LY2WB W~18S~                 81&#xD;
 &#xD;
 thinking of scenes far distant. No doubt such was the&#xD;
@@ -1270,7 +1275,7 @@ laokA fr t-~eenfidenee in his children~ In teaching&#xD;
 rae~, it his ~nmstot~i t~ do a thing fo~r me, instead of&#xD;
 Buffeting ~te'~'to '~ it' mTyself. .~Md the; if~ I did flot&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8062-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8062-00000017"/>&#xD;
 LYNDE~ WEIS$.                                                 LYNDS WXIS$b&#xD;
 &#xD;
 comprehend readily-if I blundered, he was ~very. apt&#xD;
@@ -1351,7 +1356,7 @@ glistened,' as we jogged briskly along, with suoh ~uesinew&#xD;
 rio witchery as has held its~ sway over me through&#xD;
 every vicissitude of my somewhat eventful life..&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8062-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8062-00000018"/>&#xD;
 84&#xD;
 &#xD;
 ~YNDE wi~ass.&#xD;
@@ -1439,7 +1444,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8062-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8062-00000019"/>&#xD;
 9&#xD;
 &#xD;
 LYNDR WEI$~.&#xD;
@@ -1526,7 +1531,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8062-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8062-00000020"/>&#xD;
 U&#xD;
 &#xD;
 LYNP~ W331$$. -&#xD;
@@ -1609,7 +1614,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8062-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8062-00000021"/>&#xD;
 40               LYNDZ WEIS$.&#xD;
 &#xD;
 41&#xD;
@@ -1694,7 +1699,7 @@ H - -&#xD;
 &#xD;
 LY?~DE WEISS~&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8062-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8062-00000022"/>&#xD;
 42               LYXD~ WEISS.                                         LYNDE WEISS.              43&#xD;
 &#xD;
 and the heartless indiffereilce of another in the&#xD;
@@ -1775,7 +1780,7 @@ place where she ha4~ fallen.; but, befor~ I .c~nl4 ~eweJ~&#xD;
 the little hand that was ~tr~tche~d. imploringly t~war4s&#xD;
 pie; 'she~wk, and' ~he current ~ h~r V~p~i~ th~ ~e!&#xD;
 &#xD;
-<pb  n="44 (Illustration) " xml:id="VAC8062-00000023"/>&#xD;
+<pb n="44 (Illustration) " xml:id="VAC8062-00000023"/>&#xD;
 44                  1XND1~ WEIS$.&#xD;
 She floated slowly along,1~r form -*iAible 1eneath ~the&#xD;
 iee~*hui~ ~iu~ ~x ~ig~ny of 'terror,' I 1~ad not IYOIVe? to&#xD;
@@ -1824,7 +1829,7 @@ I,&#xD;
 I&#xD;
 (&#xD;
 &#xD;
-<pb  n="-45" xml:id="VAC8062-00000024"/>&#xD;
+<pb n="-45" xml:id="VAC8062-00000024"/>&#xD;
 LYNDE WEISS.&#xD;
 &#xD;
 V&#xD;
@@ -1876,7 +1881,7 @@ for a change of clothes; ~and my father, hearing~4~&#xD;
 unusual noise, entered the office j~t ~&#xD;
 out.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8062-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC8062-00000025"/>&#xD;
 *&#xD;
 &#xD;
 46&#xD;
@@ -1972,7 +1977,7 @@ I.&#xD;
 &#xD;
 it&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8062-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC8062-00000026"/>&#xD;
 ~LYNt?~ WEISS.&#xD;
 &#xD;
 LYNDE WEISS.&#xD;
@@ -2062,7 +2067,7 @@ N&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8062-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC8062-00000027"/>&#xD;
 I&#xD;
 &#xD;
 530&#xD;
@@ -2154,7 +2159,7 @@ the horizontal line. This I nailed beneath the' bench&#xD;
 where he usually ,sat. I then bored a very small hole,&#xD;
 through which I passed a large darning-needle, and&#xD;
 &#xD;
-<pb  n="52" xml:id="VAC8062-00000028"/>&#xD;
+<pb n="52" xml:id="VAC8062-00000028"/>&#xD;
 LThD1~ WEISS.&#xD;
 &#xD;
 tied the needle to the spring by passing a stout thread&#xD;
@@ -2198,7 +2203,7 @@ In reviewing the scenes of my school-days, IL look,&#xD;
 with a regret which I have no words to express, on the&#xD;
 4,&#xD;
 &#xD;
-<pb  n="Illustration-53" xml:id="VAC8062-00000029"/>&#xD;
+<pb n="Illustration-53" xml:id="VAC8062-00000029"/>&#xD;
 LLYNDE WEI$$.&#xD;
 &#xD;
 folly, and worse than folly, of which I was guilty, in&#xD;
@@ -2235,7 +2240,7 @@ them a good-morning and. drove on.&#xD;
 &#xD;
 5*&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8062-00000030"/>&#xD;
+<pb n="54-55" xml:id="VAC8062-00000030"/>&#xD;
 54               LYNDE WEIS$.                                             LYNDE WEIS$~&#xD;
 &#xD;
 CHAPTER IX.&#xD;
@@ -2312,7 +2317,7 @@ l~t sTbursd&amp;amp;y ?'~,&#xD;
 "Who wa~ it ?"&#xD;
 I made no reply..~.- ~.'&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8062-00000031"/>&#xD;
+<pb n="56-57" xml:id="VAC8062-00000031"/>&#xD;
 56&#xD;
 &#xD;
 LYNDE WSI$$.&#xD;
@@ -2398,7 +2403,7 @@ and my appetite for mischief returned. Several small&#xD;
 offences were insufficient to stake Mr. ~Winter's confi-&#xD;
 dence in my recenV reforinatiQn. Au accession of&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8062-00000032"/>&#xD;
+<pb n="58-59" xml:id="VAC8062-00000032"/>&#xD;
 LYNDE WJ~IS~.&#xD;
 &#xD;
 pupils came in one morning, and I was billeted upon&#xD;
@@ -2484,7 +2489,7 @@ stantly forget in 'the thousand other cares of the house&#xD;
 and school. The window was~ directly beneath a semi4~&#xD;
 circular window in the gable, and* in that also there&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8062-00000033"/>&#xD;
+<pb n="60-61" xml:id="VAC8062-00000033"/>&#xD;
 f&#xD;
 &#xD;
 0&#xD;
@@ -2576,7 +2581,7 @@ an air of serious, martyr-like patience, together with a&#xD;
 &#xD;
 j&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8062-00000034"/>&#xD;
+<pb n="62-63" xml:id="VAC8062-00000034"/>&#xD;
 LY~D~ W~I$S4                     63.&#xD;
 &#xD;
 LYNDfl W1~iS8.&#xD;
@@ -2649,7 +2654,7 @@ portions. He was a benevolent, large-hearted ~old gen~&#xD;
 tleman, full~ of good-hwxmour, and possessing, with an&#xD;
 inexhaustible fund of anecdotes, the very bigheei~ skill&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8062-00000035"/>&#xD;
+<pb n="64-65" xml:id="VAC8062-00000035"/>&#xD;
 64                LYND~ WEI$~.&#xD;
 and tact as a narrator. Simple he was as achuld;&#xD;
 and we all loved him. He had the rare power of adapt-&#xD;
@@ -2733,7 +2738,7 @@ shelter ~nd companionship.' I have gone there in the&#xD;
 dark. hours of life; when the blackness of darkness&#xD;
 6*&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8062-00000036"/>&#xD;
+<pb n="66-67" xml:id="VAC8062-00000036"/>&#xD;
 66                 LYNbE WEISS.&#xD;
 &#xD;
 hung over my pathway, and affliction, bereavement,&#xD;
@@ -2818,7 +2823,7 @@ make sail, now,: blast yer picters !" we. left ]~oylstQu.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8062-00000037"/>&#xD;
+<pb n="68-69" xml:id="VAC8062-00000037"/>&#xD;
 CHAPTER XI.&#xD;
 VOILE I~AYS.-~--LThPE WSETH HIS REOKO1~?I1~G.-~-EARtY UISI~W.-~--&#xD;
 A WALJ~ WITH BARNEV roc*o.&#xD;
@@ -2897,7 +2902,7 @@ Fogg.&#xD;
 &#xD;
 69&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8062-00000038"/>&#xD;
+<pb n="70-71" xml:id="VAC8062-00000038"/>&#xD;
 70                LYNDE WEISS.&#xD;
 down? . I've been here a week. Lord!. such a time as&#xD;
 I've had. You didn't expect to see me here, eh? I&#xD;
@@ -2986,7 +2991,7 @@ father; 'as early as one o'clock. The. bitt. in th~ cellii~'&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8062-00000039"/>&#xD;
+<pb n="72-73" xml:id="VAC8062-00000039"/>&#xD;
 72                 LYND~I WE~SS~~&#xD;
 were stored with delicious i~ppks; and eider was to, be&#xD;
 had ~for~ the drawing. The pantry was unlocked, and&#xD;
@@ -3062,7 +3067,7 @@ prophets! what a second Nile-like overflow!&#xD;
 "Now you see it, don't you,, Weiss ?."&#xD;
 7&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8062-00000040"/>&#xD;
+<pb n="74-75" xml:id="VAC8062-00000040"/>&#xD;
 ~T4.              LYNDE WEISS.&#xD;
 "Yes, sir, perfectly," said I, and left the recitation-&#xD;
 room ii~ utter fog, mystification, confusion, irritation-&#xD;
@@ -3145,7 +3150,7 @@ of eloquence. It bad (as did all my productions) a&#xD;
 spice of humour, and was very tolerably written.&#xD;
 The 'day came, With trembling knees and a quiver-&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8062-00000041"/>&#xD;
+<pb n="76-77" xml:id="VAC8062-00000041"/>&#xD;
 76                LYNDE WEI~5.&#xD;
 ing voice I ascended the platform. The chapel (for in&#xD;
 the chapel was the exhibition) was thronged. As. I&#xD;
@@ -3229,7 +3234,7 @@ and her the pain of a rejection; while, (and "my heart&#xD;
 leaped at the thought,) if she loved me, the year that was,&#xD;
 7*&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8062-00000042"/>&#xD;
+<pb n="78-79" xml:id="VAC8062-00000042"/>&#xD;
 'T8               LYNDE WEISS.&#xD;
 probably, to decide my father's fate, would not place&#xD;
 me ma less favourable position. To carry out my in~&#xD;
@@ -3311,7 +3316,7 @@ range some matters of~ bt~siness, I was absent several&#xD;
 &#xD;
 4'&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8062-00000043"/>&#xD;
+<pb n="80-81" xml:id="VAC8062-00000043"/>&#xD;
 81&#xD;
 &#xD;
 days, and when I returned, there were but four days&#xD;
@@ -3391,7 +3396,7 @@ I&#xD;
 &#xD;
 80&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8062-00000044"/>&#xD;
+<pb n="82-83" xml:id="VAC8062-00000044"/>&#xD;
 82               LYNDE WEISS..                                       LYNDE WEISS.              83&#xD;
 &#xD;
 CHAPTER XIII.&#xD;
@@ -3470,7 +3475,7 @@ tude did I feel in the midst &amp;amp;f that mighty throng~!&#xD;
 a single human heart, as I did on th~t' memorable.&#xD;
 morning. On, on, restlessly poured the human tide;&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8062-00000045"/>&#xD;
+<pb n="84-85" xml:id="VAC8062-00000045"/>&#xD;
 84               LYNDE WEISS.                                        LYNDE WEISS.              85&#xD;
 &#xD;
 and. the eye sought in vain for the kindly glance of&#xD;
@@ -3556,7 +3561,7 @@ pretty appearance. The walks were nicely gravelled,&#xD;
 &#xD;
 *1&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8062-00000046"/>&#xD;
+<pb n="86-87" xml:id="VAC8062-00000046"/>&#xD;
 86                LYNDE .4,WEISS.&#xD;
 and the shrubbery and flowers made the place far more&#xD;
 atjractive than is usual in the grounds of a. school.&#xD;
@@ -3639,7 +3644,7 @@ And dock the tail of Rhyme;&#xD;
 And crack the voice of Melody,&#xD;
 And break the legs of Time."&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8062-00000047"/>&#xD;
+<pb n="88-89" xml:id="VAC8062-00000047"/>&#xD;
 88               LYNDE WEISS.                                           LYNDE WEISS.&#xD;
 &#xD;
 If he be a farmer, his Durham is. the greatest of&#xD;
@@ -3720,7 +3725,7 @@ an enormous pine.&#xD;
 I recalled ~he scene, beneath the elm. Could I go&#xD;
 8*&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8062-00000048"/>&#xD;
+<pb n="90-91" xml:id="VAC8062-00000048"/>&#xD;
 90               LYNDIjI WEISS.                                            LYNDE WEISS.              91&#xD;
 &#xD;
 home? No. What object had life for me now? None.&#xD;
@@ -3803,7 +3808,7 @@ quaintances, .1 imagine, as he accosted one of them in&#xD;
 this wise:&#xD;
 "11ev y&amp;amp;u got any. corns ?"&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8062-00000049"/>&#xD;
+<pb n="92-93" xml:id="VAC8062-00000049"/>&#xD;
 OQ               LYNDE WEISS.                                          LYNDE WEJSS.              93&#xD;
 &#xD;
 "Yes; why?"&#xD;
@@ -3882,7 +3887,7 @@ eloquent Mr. Tubbs had so far deepened the impres-&#xD;
 sion; that, with a little p&amp;amp;rsuasion on my part, he con-&#xD;
 sented to sign the articles 'and go with me. We left&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8062-00000050"/>&#xD;
+<pb n="94-95" xml:id="VAC8062-00000050"/>&#xD;
 94                LYNDE WEISS.&#xD;
 Albany that very evening by one of the river-boats,&#xD;
 and, at sunrise the next morning, we were in the office&#xD;
@@ -3965,7 +3970,7 @@ three younger' women. There were, at least, a score&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8062-00000051"/>&#xD;
+<pb n="96-97" xml:id="VAC8062-00000051"/>&#xD;
 96                LYNDE WEISS.&#xD;
 of boarders, and such a medley I never saw. Divers&#xD;
 kindreds and tongues," a variety of size, and all&#xD;
@@ -4049,7 +4054,7 @@ A&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8062-00000052"/>&#xD;
+<pb n="98-99" xml:id="VAC8062-00000052"/>&#xD;
 4'&#xD;
 &#xD;
 'LYNDE WEISS.&#xD;
@@ -4134,7 +4139,7 @@ tested all schemes and plans. It 'is really a wonder&#xD;
 why I liked him '80 well. With all my warmth of feel-&#xD;
 'ing, I was never popular among my asso~iates.~ No one&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8062-00000053"/>&#xD;
+<pb n="100-101" xml:id="VAC8062-00000053"/>&#xD;
 I&#xD;
 I&#xD;
 &#xD;
@@ -4233,7 +4238,7 @@ LYNDE WEISS.&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8062-00000054"/>&#xD;
+<pb n="102-103" xml:id="VAC8062-00000054"/>&#xD;
 Dartmouth. You will' see no attefript at display; and&#xD;
 my friend C- will think quite as well, of you in&#xD;
 these as in the finest."&#xD;
@@ -4315,7 +4320,7 @@ tions, recommending 4Liue to stay at 'home an&amp;amp; dig&#xD;
 ditches, rather. th~~i. go to seas My answer was ready~&#xD;
 No; I had resolved to go at least one' voyage.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8062-00000055"/>&#xD;
+<pb n="104-105" xml:id="VAC8062-00000055"/>&#xD;
 104                LTNnE WEISS.&#xD;
 cordingly, when we were summoned one morliing to&#xD;
 have an interview with the captain, I went with several&#xD;
@@ -4393,7 +4398,7 @@ in any way. Your father's recent di~lieuhies bav~&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8062-00000056"/>&#xD;
+<pb n="106-107" xml:id="VAC8062-00000056"/>&#xD;
 106               LYNDE Wl~ISS.&#xD;
 affected his health and spirits; so much so, indeed, that&#xD;
 he felt unequal to a journey from Boylston to this city.&#xD;
@@ -4483,7 +4488,7 @@ I.&#xD;
 &#xD;
 107&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8062-00000057"/>&#xD;
+<pb n="108-109" xml:id="VAC8062-00000057"/>&#xD;
 I08              LYNDE WEISS.                                            LYNDE WEISS.&#xD;
 &#xD;
 the sound of voices. For one of them, I could have&#xD;
@@ -4559,7 +4564,7 @@ I&#xD;
 &#xD;
 108&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8062-00000058"/>&#xD;
+<pb n="110-111" xml:id="VAC8062-00000058"/>&#xD;
 110                LYNDE WEISS.&#xD;
 Such were some of the elements of the hubbub. We&#xD;
 anchored opposite the light-house on Clark's Point.&#xD;
@@ -4642,7 +4647,7 @@ the topsails! Two reefs there in the m izzen-topsail!&#xD;
 Do you hear .~"&#xD;
 "Ay, ay, sir!"&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8062-00000059"/>&#xD;
+<pb n="112-113" xml:id="VAC8062-00000059"/>&#xD;
 112               LYNJYE WEISS.                                             LYNDE WEISS.              118&#xD;
 &#xD;
 "Bear a hand there, now I"'&#xD;
@@ -4720,7 +4725,7 @@ heard, "B1vi~AKERs! UNDER1 TUE LEE !". stands as&#xD;
 &#xD;
 $1&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8062-00000060"/>&#xD;
+<pb n="114-115" xml:id="VAC8062-00000060"/>&#xD;
 114               LYNDE WEISS~&#xD;
 firmly as Atlas or Gibraltar .at his post, in the face of&#xD;
 almost certain death.&#xD;
@@ -4806,7 +4811,7 @@ tall, manly form of Captain Beverly. He threw 'calmly&#xD;
 &#xD;
 tt. j&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8062-00000061"/>&#xD;
+<pb n="116-117" xml:id="VAC8062-00000061"/>&#xD;
 116               LYNDE WEISS.&#xD;
 &#xD;
 LYNDE WEISS.&#xD;
@@ -4888,7 +4893,7 @@ again as I slept at sea                       ep&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8062-00000062"/>&#xD;
+<pb n="118-119" xml:id="VAC8062-00000062"/>&#xD;
 LYNDE WEISS.             119&#xD;
 &#xD;
 118                 LYNPE WEISS.&#xD;
@@ -4969,7 +4974,7 @@ I&#xD;
 .1&#xD;
 Ii&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8062-00000063"/>&#xD;
+<pb n="120-121" xml:id="VAC8062-00000063"/>&#xD;
 120              LYNDE WEISS.&#xD;
 &#xD;
 LYNDE WEISS.             121&#xD;
@@ -5061,7 +5066,7 @@ ii&#xD;
 I)&#xD;
 ,1&#xD;
 &#xD;
-<pb  n="122" xml:id="VAC8062-00000064"/>&#xD;
+<pb n="122" xml:id="VAC8062-00000064"/>&#xD;
 122               LYNDE WEISS.&#xD;
 broad-chested shoemaker, who stood six feet in ~his&#xD;
 stockings.&#xD;
@@ -5098,7 +5103,7 @@ forward."&#xD;
 There was no ni~re fighting on board the Whale-&#xD;
 hunter.&#xD;
 &#xD;
-<pb  n="Illustration-123" xml:id="VAC8062-00000065"/>&#xD;
+<pb n="Illustration-123" xml:id="VAC8062-00000065"/>&#xD;
 LYNDE WJ~I$$~&#xD;
 CHAPTI~R XX.&#xD;
 CRUISING.-HOME WARD BOUND,-LOOKING FOR EMPLOY&#xD;
@@ -5157,7 +5162,7 @@ in about&#xD;
 !ered the&#xD;
 the bow-&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8062-00000066"/>&#xD;
+<pb n="124-125" xml:id="VAC8062-00000066"/>&#xD;
 1~4'               LYND~ wi~ass.                                               LYND~ wxis~.&#xD;
 &#xD;
 125&#xD;
@@ -5245,7 +5250,7 @@ been ~o 6 "~d~scribed. The fires were soon kindled;&#xD;
 &#xD;
 124&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8062-00000067"/>&#xD;
+<pb n="126-127" xml:id="VAC8062-00000067"/>&#xD;
 126&#xD;
 &#xD;
 LYNDE WEISS.&#xD;
@@ -5346,7 +5351,7 @@ After breakfast, we walked. As we passed ray board~&#xD;
 &#xD;
 LYNDE WEISS.&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8062-00000068"/>&#xD;
+<pb n="128-129" xml:id="VAC8062-00000068"/>&#xD;
 128              LYNDE WEISS.                                           LYNDE WEISS.             12~&#xD;
 &#xD;
 ing-house, on our return, he again invited me to go on&#xD;
@@ -5431,7 +5436,7 @@ however, decided me at once. I went to my boarding-&#xD;
 house; sold my chest, hammock, and' every thing else&#xD;
 that I could spare, by which financial operation I pro'.&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8062-00000069"/>&#xD;
+<pb n="130-131" xml:id="VAC8062-00000069"/>&#xD;
 N&#xD;
 &#xD;
 130 .&#xD;
@@ -5517,7 +5522,7 @@ coin Vo the good housewife.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8062-00000070"/>&#xD;
+<pb n="132-133" xml:id="VAC8062-00000070"/>&#xD;
 182              LYNDE WEISS.                                       LYNDE WEISS.              133&#xD;
 &#xD;
 "No, sir! we don't take money for trifles like this.&#xD;
@@ -5608,7 +5613,7 @@ I&#xD;
 * b&#xD;
 I&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8062-00000071"/>&#xD;
+<pb n="134-135" xml:id="VAC8062-00000071"/>&#xD;
 134                I~YND~ WEISS.                                               LYND132 WEISS.              185&#xD;
 &#xD;
 And he threw his hat high into the air, in a somewhat&#xD;
@@ -5691,7 +5696,7 @@ She shook her head.&#xD;
 hardly of me."&#xD;
 "Think hardly of you? Do you still reject n~e?"&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8062-00000072"/>&#xD;
+<pb n="136-137" xml:id="VAC8062-00000072"/>&#xD;
 136              LYNDE WEI$$.&#xD;
 &#xD;
 "I must."&#xD;
@@ -5771,7 +5776,7 @@ On a light stand, b.y the bedside, were divers cups and&#xD;
 phials; and among them was an ancient-looking silver-&#xD;
 12*.&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8062-00000073"/>&#xD;
+<pb n="138-139" xml:id="VAC8062-00000073"/>&#xD;
 138              LYNDE WEISS.                                          LYNDE WEISS.             139&#xD;
 &#xD;
 bowed pair of spectacles, with a much-faded crimson-&#xD;
@@ -5854,7 +5859,7 @@ the garden and into the fields. On one occasion, as we&#xD;
 were passing Fogg &amp;amp; Gibson's store, Barney Fogg&#xD;
 rushed to my side.&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8062-00000074"/>&#xD;
+<pb n="140-141" xml:id="VAC8062-00000074"/>&#xD;
 140              LYNDE WEISS.                                          LYNDE WEISS.             141&#xD;
 &#xD;
 "Hallo! Lynde! Got out ag'in, eh? 'Pon my&#xD;
@@ -5937,7 +5942,7 @@ the greater alteration in the appearance of his sisters.&#xD;
 &#xD;
 141&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8062-00000075"/>&#xD;
+<pb n="142-143" xml:id="VAC8062-00000075"/>&#xD;
 142               LYNDE WEiSS.&#xD;
 Ruth was now twenty, and was, as I soon learned, soon&#xD;
 to be married. Mary and Judith were like their elder&#xD;
@@ -6018,7 +6023,7 @@ preparatory eeremonie~ of the buri~l-~-t~e gathering&#xD;
 of hundreds at the funeral---the falling of stern men's&#xD;
 t~ai~s-the preacher's -half~choked utterance-the~ part.&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8062-00000076"/>&#xD;
+<pb n="144-145" xml:id="VAC8062-00000076"/>&#xD;
 I&#xD;
 I&#xD;
 1~'&#xD;
@@ -6107,7 +6112,7 @@ mother; in assisting Oharles Warren in his somewhat&#xD;
 &#xD;
 144&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8062-00000077"/>&#xD;
+<pb n="146-147" xml:id="VAC8062-00000077"/>&#xD;
 LYNDE WEI$~.             14T&#xD;
 &#xD;
 146              LYNDE. WEISS.&#xD;
@@ -6192,7 +6197,7 @@ before in my life !"&#xD;
 A merry peal of laughter from Kate denoted full&#xD;
 acquiescence, and I obeyed the b~hest with what ~rac~&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8062-00000078"/>&#xD;
+<pb n="148-149" xml:id="VAC8062-00000078"/>&#xD;
 148               LYND~ WEISS.&#xD;
 I couhi. The bonnets and shawls were Boon adjusted,&#xD;
 and we set forth for the parsonage. We found Allan&#xD;
@@ -6271,7 +6276,7 @@ The timber for some fifty rafts lay upoz~ the banks ef&#xD;
 the Bouquet; ~nd the jolly old raftemen rubbed their&#xD;
 18*&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8062-00000079"/>&#xD;
+<pb n="150-151" xml:id="VAC8062-00000079"/>&#xD;
 i4t~Q             LYNDE WEISS.                                             LYNDF~ WEISS.              151&#xD;
 &#xD;
 1han4~ in genuine glee, as they recounted their exploits&#xD;
@@ -6362,7 +6367,7 @@ where I had left him. A sad sight aWaited me. . At&#xD;
 the foQt of a huge. pine,,, which 'he had nearly cut&#xD;
 through, lay the stalwaii~ lumberman, and from a small,~'&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8062-00000080"/>&#xD;
+<pb n="152-153" xml:id="VAC8062-00000080"/>&#xD;
 LYNDB WflIS$.&#xD;
 but unsightly wound in his' temple, the blood wa~&#xD;
 trickling down upon the snow. 2Re was stiR' warm,&#xD;
@@ -6447,7 +6452,7 @@ LYNDE WEISS.  N           16~&#xD;
 &#xD;
 158&#xD;
 &#xD;
-<pb  n="154 (Illustration) " xml:id="VAC8062-00000081"/>&#xD;
+<pb n="154 (Illustration) " xml:id="VAC8062-00000081"/>&#xD;
 LYNDE WEISS.&#xD;
 &#xD;
 "No man aims a lAow at Sam Saxton for nothing .&#xD;
@@ -6504,7 +6509,7 @@ I&#xD;
 I&#xD;
 13&#xD;
 &#xD;
-<pb  n="-155" xml:id="VAC8062-00000082"/>&#xD;
+<pb n="-155" xml:id="VAC8062-00000082"/>&#xD;
 LYNDB WEiS$.             166&#xD;
 &#xD;
 "You're choking him !" exclaimed Charles Warren.&#xD;
@@ -6550,7 +6555,7 @@ in the sleigh and wept.&#xD;
 &#xD;
 155&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8062-00000083"/>&#xD;
+<pb n="156-157" xml:id="VAC8062-00000083"/>&#xD;
 160               LYNDE WEI$~.&#xD;
 &#xD;
 CHAPTER XXV.&#xD;
@@ -6631,7 +6636,7 @@ reputation and liberty-perhaps the life-of the pri-&#xD;
 &#xD;
 'A&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8062-00000084"/>&#xD;
+<pb n="158-159" xml:id="VAC8062-00000084"/>&#xD;
 158                LYNDE WEI$~.                                               LY~DJ~ WEI~$.              169&#xD;
 &#xD;
 sorter. He reminded them that the court would in-&#xD;
@@ -6713,7 +6718,7 @@ guns, for a few hours' sport; that they found Farr and&#xD;
 the prisoner in an altercation. . - -&#xD;
 "Some hard words ?"&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8062-00000085"/>&#xD;
+<pb n="160-161" xml:id="VAC8062-00000085"/>&#xD;
 160                 LYNDE WEISS.                                                    LYND13~ WI~ISS.               161.&#xD;
 &#xD;
 "Not' very. ]?arr said, 'Don't get into a luncheon,&#xD;
@@ -6796,7 +6801,7 @@ of applause ran through the couI~t-room.&#xD;
 Were they so? .To the contrary, they seem; to me but&#xD;
 14*&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8062-00000086"/>&#xD;
+<pb n="162-163" xml:id="VAC8062-00000086"/>&#xD;
 162               LYNDE wi~ass.&#xD;
 &#xD;
 a boy's petulant reply. The circumstances which have&#xD;
@@ -6879,7 +6884,7 @@ came that pitcher there, gentlemen? Would Farr&#xD;
 throw away his ~own' pitcher? Well, the prisoner sue-&#xD;
 ceeds in gaining the eddy, and leaps ashore to go for&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8062-00000087"/>&#xD;
+<pb n="164-165" xml:id="VAC8062-00000087"/>&#xD;
 q&#xD;
 &#xD;
 164&#xD;
@@ -6969,7 +6974,7 @@ But mercy is above this sceptred sway,&#xD;
 It is enthroned in the keart~ of kings;&#xD;
 It is an attribute of Ood himself.'"&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8062-00000088"/>&#xD;
+<pb n="166-167" xml:id="VAC8062-00000088"/>&#xD;
 166               LYNDE WEISS.                                              LYNDE WEISS.               16 T&#xD;
 &#xD;
 He took his seat, and the district attorney rose in&#xD;
@@ -7050,7 +7055,7 @@ I was discharged!&#xD;
 &#xD;
 N.&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8062-00000089"/>&#xD;
+<pb n="168-169" xml:id="VAC8062-00000089"/>&#xD;
 '168              LYNPE WEI$~.&#xD;
 &#xD;
 CHAPTER XXVI.&#xD;
@@ -7125,7 +7130,7 @@ Very well, : sir," repliedd the innkeeper, ~ud h~&#xD;
 in a low tone, "whether or no one Nathau;'~maU liva~&#xD;
 hereabouts ?"&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8062-00000090"/>&#xD;
+<pb n="170-171" xml:id="VAC8062-00000090"/>&#xD;
 iTO               LYNPE WF~IS$.S&#xD;
 "Not to my knowledge," I replied. "DQ you know&#xD;
 any such person here ?" I added, addressing P~iul.&#xD;
@@ -7203,7 +7208,7 @@ you sure of it?"&#xD;
 "As sure as I 'am that I si~ here. I live in the towu&#xD;
 from which he ran away. Between you aud I, gentle..&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8062-00000091"/>&#xD;
+<pb n="172-173" xml:id="VAC8062-00000091"/>&#xD;
 172               LYNP2~ W~ISS.&#xD;
 xnen,;be owes me a good round suni, and I have come&#xD;
 to collect it."&#xD;
@@ -7286,7 +7291,7 @@ fully,. she.. walked, with~ a uoiseles~ step,' toward the&#xD;
 gate, where Dodge met her.&#xD;
 15*&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8062-00000092"/>&#xD;
+<pb n="174-175" xml:id="VAC8062-00000092"/>&#xD;
 3~YNJYE WEISS.                                                 LYNDE W1Us~.                 1T~&#xD;
 &#xD;
 "Shall we *a1k~?" he asked.&#xD;
@@ -7359,7 +7364,7 @@ hero ~ozne one called iJe~ry, a~iid, h~ di~appeaz~Qd..&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8062-00000093"/>&#xD;
+<pb n="176-177" xml:id="VAC8062-00000093"/>&#xD;
 I.&#xD;
 &#xD;
 LYND ~&#xD;
@@ -7447,7 +7452,7 @@ along the miniature bays aloiig the shore.~ 'I contrived&#xD;
 &#xD;
 '176&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8062-00000094"/>&#xD;
+<pb n="178-179" xml:id="VAC8062-00000094"/>&#xD;
 1T8                LYNDE WEISS.                                                LY~WE WEISS.                179~&#xD;
 &#xD;
 Ito separate the stranger from the rest, andwe crossed&#xD;
@@ -7530,7 +7535,7 @@ Jessie -and Judith Warren to" c~dl 'on. the. iJ~~!sif~&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8062-00000095"/>&#xD;
+<pb n="180-181" xml:id="VAC8062-00000095"/>&#xD;
 A&#xD;
 &#xD;
 180&#xD;
@@ -7622,7 +7627,7 @@ I&#xD;
 &#xD;
 181&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8062-00000096"/>&#xD;
+<pb n="182-183" xml:id="VAC8062-00000096"/>&#xD;
 LYNDE WHIS~.&#xD;
 &#xD;
 ~W4 left Kate "ftn~d Lucy at ~our oWn. door~ and&#xD;
@@ -7696,7 +7701,7 @@ saw but one vast sheet of ~snow~white. foam w~hirl94 az~d&#xD;
 tossed into thin and scarcely paipalAe sp~r~y. - ,,&#xD;
 At length the meeting adJou~rned. ~in~1iost. ol'&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8062-00000097"/>&#xD;
+<pb n="184-185" xml:id="VAC8062-00000097"/>&#xD;
 184              LYNDE WEISS.&#xD;
 &#xD;
 "The Washington Inn" had provided most bountifully&#xD;
@@ -7783,7 +7788,7 @@ lumbermer~ 'had '-raised thefr victim W the top of th~&#xD;
 &#xD;
 e.&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8062-00000098"/>&#xD;
+<pb n="186-187" xml:id="VAC8062-00000098"/>&#xD;
 186              LYND3~ WEISS.&#xD;
 &#xD;
 railing, axidwere in the act of throwing, him over, wh~v&#xD;
@@ -7856,7 +7861,7 @@ an old maid; and Ann West, who still restlessijy "sets&#xD;
 things to rights" for my household, will probably bear&#xD;
 her company in that regard. My aunt Caroline sur-&#xD;
 &#xD;
-<pb  n="188" xml:id="VAC8062-00000099"/>&#xD;
+<pb n="188" xml:id="VAC8062-00000099"/>&#xD;
 18$                  LYNDE WEISS.&#xD;
 vived my father something more than four years, 'and&#xD;
 was buried by his side.&#xD;
@@ -7887,8 +7892,8 @@ This is alone life, joy, empire-victory."&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

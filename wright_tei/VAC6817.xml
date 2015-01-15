@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6817">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6817">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >My Husband's Crime </title>
-            <author >Housekeeper, M. R., (b. 1838)</author>
+            <title>My Husband's Crime </title>
+            <author>Housekeeper, M. R., (b. 1838)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6817</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6817</idno>
+            <idno type="wright2" n="previous">wright2-1279</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >My husband's crime</title>
-                  <author >Housekeeper, M. R., (b. 1838)</author>
+                  <title>My husband's crime</title>
+                  <author>Housekeeper, M. R., (b. 1838)</author>
                </titleStmt>
-               <extent >1 p. l. [9]-115 p. plates </extent>
+               <extent>1 p. l. [9]-115 p. plates </extent>
                <publicationStmt>
-                  <publisher >Harper</publisher>
+                  <publisher>Harper</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1868">1868</date>
+                  <date when="1868">1868</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-08-04">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-08-04">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>My husband's crime</head> 
+            <head>My husband's crime</head>
             <p>
-               <pb  n="0 (Cover) " xml:id="VAC6817-00000001"/>-.-  - - - - - - -.r   '.. . . . . . .&#xD;
+               <pb n="0 (Cover) " xml:id="VAC6817-00000001"/>-.-  - - - - - - -.r   '.. . . . . . .&#xD;
 &#xD;
 B&#xD;
 f&#xD;
@@ -278,7 +283,7 @@ r&#xD;
 FRANKLIN SQUARE,&#xD;
 NEW YORK&#xD;
 &#xD;
-<pb  n="0Advertisement" xml:id="VAC6817-00000002"/>&#xD;
+<pb n="0Advertisement" xml:id="VAC6817-00000002"/>&#xD;
 N&#xD;
 &#xD;
 By WILKIE COLLINS.&#xD;
@@ -313,7 +318,7 @@ PUBLIsHED BY HARPER &amp;amp; BROTHERS, NEW YORK.&#xD;
 I ILARPER &amp;amp; BROT HE RS 70iII S~ud ti/c' (7boZ I' OTES bv MGId, postage p ;ypid, to aniypart&#xD;
 of the Un'ited States, onu receipt of thewprice.&#xD;
 &#xD;
-<pb  n="0Illustration" xml:id="VAC6817-00000003"/>&#xD;
+<pb n="0Illustration" xml:id="VAC6817-00000003"/>&#xD;
 "GUESS WHO IT IS ?"--PAGE 66.&#xD;
 &#xD;
 x&#xD;
@@ -323,7 +328,7 @@ _     }&#xD;
 j&#xD;
 S&#xD;
 &#xD;
-<pb  n="0 (TitlePage) " xml:id="VAC6817-00000004"/>&#xD;
+<pb n="0 (TitlePage) " xml:id="VAC6817-00000004"/>&#xD;
 HUS BAND'S&#xD;
 &#xD;
 CRIME.&#xD;
@@ -340,7 +345,7 @@ ERS,&#xD;
 &#xD;
 MY&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6817-00000005"/>&#xD;
+<pb n="0" xml:id="VAC6817-00000005"/>&#xD;
 Entered, according to Act of Congress, in the year one thousand eight hundred&#xD;
 and sixty-eight, by&#xD;
 HARPER &amp;amp; BROTHERS,&#xD;
@@ -439,7 +444,7 @@ K,   l =&#xD;
 &#xD;
 MYIEITISBANID'S CRIME.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6817-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6817-00000006"/>&#xD;
 A PURITAN FAMILY.                1&#xD;
 &#xD;
 that then and there occurred to me ; and then, have been his own near blood relation, for a&#xD;
@@ -620,7 +625,7 @@ r of their kindness.&#xD;
 &#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6817-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6817-00000007"/>&#xD;
 12                    MY HUSBAND'S CRIME.&#xD;
 &#xD;
 "My constitution has been much enfeebled&#xD;
@@ -823,7 +828,7 @@ happened that I received almost the unshared [think sustained him.  He toiled on
 &#xD;
 A PURITAN FAMILY.                1&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6817-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6817-00000008"/>&#xD;
 14                             MY HUSBAND'S CRIME.&#xD;
 that last winter of his life with a desperate en- parlor. I allowed her to start to school again&#xD;
 orgy that I and I only could understand. His as soon as possible, for I thought there was no&#xD;
@@ -1055,7 +1060,7 @@ which my father died possessed," I answered,&#xD;
 as anxious as himself that no farther misunder-&#xD;
 standings should exist, and feeling so gloriously&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6817-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC6817-00000009"/>&#xD;
 16                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 proud of the revelation I was about to make,&#xD;
@@ -1292,7 +1297,7 @@ less, inexperienced girl, inoet good for much, I&#xD;
 &#xD;
 LOOKING FOR WORK.               l7&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6817-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6817-00000010"/>&#xD;
 18                   MY HUSBAND'S CRIME.&#xD;
 &#xD;
 know, but I am young and healthy, have been&#xD;
@@ -1526,7 +1531,7 @@ leave the shawl-room except by my own request,&#xD;
 &#xD;
 THE CLOAK DEPARTMENT                19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6817-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6817-00000011"/>&#xD;
 20                    MY HUSBAND'S CRIME.&#xD;
 &#xD;
 you may depend upon being bothered with me&#xD;
@@ -1763,7 +1768,7 @@ known, I spoke to Miss Hlarrington about it,&#xD;
 &#xD;
 THE CLOAK DEPARTMENT.&#xD;
 &#xD;
-<pb  n="22 (Illustration) " xml:id="VAC6817-00000012"/>&#xD;
+<pb n="22 (Illustration) " xml:id="VAC6817-00000012"/>&#xD;
 22                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 and asked whether I had better not inform Mr.&#xD;
@@ -1885,7 +1890,7 @@ scattered drapery.&#xD;
 &#xD;
 "HE GAVE HIS CHAIR THE FINAL HITCH."-PAGE 22.&#xD;
 &#xD;
-<pb  n="-23" xml:id="VAC6817-00000013"/>&#xD;
+<pb n="-23" xml:id="VAC6817-00000013"/>&#xD;
 TIHE CLOAK DEPARTMENT.&#xD;
 &#xD;
 Just then "the governor" came along, and&#xD;
@@ -2006,7 +2011,7 @@ niere description of mine can do.-&#xD;
 &#xD;
 d&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6817-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC6817-00000014"/>&#xD;
 24                           MY HUSBAl&#xD;
 Mr. Harrington had been remonstrating with&#xD;
 Mr. Nettleby, senior, concerning some of his&#xD;
@@ -2187,7 +2192,7 @@ if I think of it, some acecounts handed in from ings was welcome to mue. On acco
 ' v   :&#xD;
 -_&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6817-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC6817-00000015"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 nes, it was better that Miss Ilarrington should&#xD;
@@ -2365,7 +2370,7 @@ ticed by our quiet "governor," that I forgot to re- me, quite forgetting to be p
 peat my thanks for his sympathy.           the grateful affection I was learning to feel for&#xD;
 " You like music, do you not ?" lie said, after Miss Jenny and her brother.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6817-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC6817-00000016"/>&#xD;
 28                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 The next evening, arrayed in the plain bla&#xD;
@@ -2540,7 +2545,7 @@ Mar velous indeed was the change wvhich the ernor' and I with one accord, and li
 kindness of these dear friends had succeeded in gravely, "You will not be able to come at all,&#xD;
 bth imnproved under their benign influence, an hey lef metandtI ran back to my wok and my&#xD;
 &#xD;
-<pb  n="30" xml:id="VAC6817-00000017"/>&#xD;
+<pb n="30" xml:id="VAC6817-00000017"/>&#xD;
 30                          MY HUSBAND'S CRIME.&#xD;
 customers, and was kept busily employed until worry yourself though about me; I can stay here&#xD;
 nearly dark.                              an hour or so later without any inconvenience,&#xD;
@@ -2674,7 +2679,7 @@ W ('&#xD;
 A'&#xD;
 A&#xD;
 &#xD;
-<pb  n="Illustration-31" xml:id="VAC6817-00000018"/>&#xD;
+<pb n="Illustration-31" xml:id="VAC6817-00000018"/>&#xD;
 "Miss Manvers, I beg your pardon; my according to the amount of filthy lucre the&#xD;
 &#xD;
 "YOU WOMEN ALWAYS LIKE TO LOOK AT PRETTY THINGS,"PAGE 3!,&#xD;
@@ -2811,7 +2816,7 @@ TT"+] " +k&#xD;
 ' V f&#xD;
 Y.1&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6817-00000019"/>&#xD;
+<pb n="32-33" xml:id="VAC6817-00000019"/>&#xD;
 32                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 A NIGHT IN THE SHAWL-ROOM.&#xD;
@@ -3051,7 +3056,7 @@ C&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6817-00000020"/>&#xD;
+<pb n="34-35" xml:id="VAC6817-00000020"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 mood.   That I sincerely hope your reply may&#xD;
@@ -3238,7 +3243,7 @@ now."                                      at parting, and holding it for a mome
 i&#xD;
 L&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6817-00000021"/>&#xD;
+<pb n="36-37" xml:id="VAC6817-00000021"/>&#xD;
 36                             MY HUSBAND'S CRIME.&#xD;
 heroine !" was her first salutation.  "1I fully was encountered by that individual himself, who&#xD;
 expected to have found you in bed this morn- sprang from his desk as he saw me, and walked&#xD;
@@ -3399,7 +3404,7 @@ jFf4&#xD;
 't&#xD;
 k  :&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6817-00000022"/>&#xD;
+<pb n="38-39" xml:id="VAC6817-00000022"/>&#xD;
 38                            MY HUSBA]&#xD;
 there ; but my transcript I must have, and I&#xD;
 must have it in Miss Manvers's handwriting.&#xD;
@@ -3602,7 +3607,7 @@ until the morrow, and came to the conclusion afraid, and I can just as well go h
 that my dear Miss Jenny must have been threat- self as not. Good-night !" and I started off the&#xD;
 cued with a fit of the blues,' which she was steps, half frightened at my own temerity.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6817-00000023"/>&#xD;
+<pb n="40-41" xml:id="VAC6817-00000023"/>&#xD;
 40                            MY HUSBAND'S CRIME.&#xD;
 Before I had gone half a dozen paces, how-.  As he gazed into mhy flushed face, and saw&#xD;
 ever, he was by my side. Catching my hand, my tearful eyes and quivering lips, his face re-&#xD;
@@ -3803,7 +3808,7 @@ form, was detained much later than usual. It have always called me a trifling, e
 was a dark, stormy evening, and the rain was fellow, but what little good there is in me you&#xD;
 descending in a perfect deluge when I started to have awakened and brought to life.  You have&#xD;
 &#xD;
-<pb  n="42 (Illustration) " xml:id="VAC6817-00000024"/>&#xD;
+<pb n="42 (Illustration) " xml:id="VAC6817-00000024"/>&#xD;
 42                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 kindled a passion in my careless breast which I&#xD;
@@ -3924,7 +3929,7 @@ your secret to him imn his death struggles."&#xD;
 &#xD;
 "HE STOPPED ABRUPTLY IN THE STREET."-PAGE 42.&#xD;
 &#xD;
-<pb  n="-43" xml:id="VAC6817-00000025"/>&#xD;
+<pb n="-43" xml:id="VAC6817-00000025"/>&#xD;
 "THE GOVERNOR&#xD;
 &#xD;
 will not hear you talk so even in jest," I cried.&#xD;
@@ -4044,7 +4049,7 @@ get them. I re-entered the building hy a side-&#xD;
 door ; it was nearly deserted ; all the girls had&#xD;
 left, and there were remaining only a fewv of the&#xD;
 &#xD;
-<pb  n="44 (Illustration) " xml:id="VAC6817-00000026"/>&#xD;
+<pb n="44 (Illustration) " xml:id="VAC6817-00000026"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 young men, hurrying through their concluding&#xD;
@@ -4167,7 +4172,7 @@ the past month ?"&#xD;
 &#xD;
 44&#xD;
 &#xD;
-<pb  n="-45" xml:id="VAC6817-00000027"/>&#xD;
+<pb n="-45" xml:id="VAC6817-00000027"/>&#xD;
 "THE GOVERNOR" ENLIGHTENED.        45&#xD;
 &#xD;
 the inelegant remark, you are a mile ahead&#xD;
@@ -4290,7 +4295,7 @@ D&#xD;
 &#xD;
 1'&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6817-00000028"/>&#xD;
+<pb n="46-47" xml:id="VAC6817-00000028"/>&#xD;
 46                             MY IIUSBAND'S CRIME.&#xD;
 eyes, and intrench herself within his fortified question. The conversation which I had &#xD;
 breast almost in spite of himself; and yet this heard had given me plenty of food for thought&#xD;
@@ -4474,7 +4479,7 @@ rY&#xD;
 YY&#xD;
 Y ' _&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6817-00000029"/>&#xD;
+<pb n="48-49" xml:id="VAC6817-00000029"/>&#xD;
 48                   MY HUSBAND'S CRIME.&#xD;
 &#xD;
 Indeed, he made no attempt to keep up the&#xD;
@@ -4682,7 +4687,7 @@ obscurity of the evening could conceal.&#xD;
 And all the answer that I could make was to&#xD;
 rest my glowing face upon his shoulde, and n-&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6817-00000030"/>&#xD;
+<pb n="50-51" xml:id="VAC6817-00000030"/>&#xD;
 50t                            MY HUSBAND'S CRIME.&#xD;
 circle with my arm the neck that was bowed so             CHAPTER VIII.&#xD;
 lovingly over me.  Lower, still lower drooped&#xD;
@@ -4820,7 +4825,7 @@ t'&#xD;
 l&#xD;
 I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6817-00000031"/>&#xD;
+<pb n="52-53" xml:id="VAC6817-00000031"/>&#xD;
 52                             MY HUSBAND'S CRIME.&#xD;
 himself and you.  And you must have nothing the store to a real, genuine, boia-fide home:&#xD;
 to do with your time but to make that home a to have some one to watch for u and to greet&#xD;
@@ -4952,7 +4957,7 @@ t,='&#xD;
 i&#xD;
 r&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6817-00000032"/>&#xD;
+<pb n="54-55" xml:id="VAC6817-00000032"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 I ofler you rather than sully your father's name restraint, all espionage ; the constant society of&#xD;
@@ -5082,7 +5087,7 @@ fir evermore unknown. A second babe was story.&#xD;
 orn to us within a year after the death of our--~~~&#xD;
 'ittle James, but this little angel lingered with us&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6817-00000033"/>&#xD;
+<pb n="56-57" xml:id="VAC6817-00000033"/>&#xD;
 56                             MY HUSBAND'S CRIME.&#xD;
 CHAPTER IX.                    heaven of-my home until all its glories were&#xD;
 shrouded in despairing blackness.&#xD;
@@ -5204,7 +5209,7 @@ y, I can tell yots that, if le has progressed in at me cd caught the look of bew
 me an opportunity to speak, 'yen are entirely tige of color forsaking lasi face, leaving even&#xD;
 -mnistaken in the man. Our-friend Mr. Harring- his lips bloodless, and there came into his eyes&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6817-00000034"/>&#xD;
+<pb n="58-59" xml:id="VAC6817-00000034"/>&#xD;
 58                            MY HUSBAND'S CRIME.&#xD;
 such a look of appealing terror as almost made with him. I found no little difficulty at first&#xD;
 my heart stop heating, from the horrible dread in drawing him out of the shy reserve behind&#xD;
@@ -5384,7 +5389,7 @@ made no attempt to conceal. lHe was miiuiout-&#xD;
 1 etly a talented nman, aind a thoroughly educated&#xD;
 pone, antI the kinowleidge that lie was principally&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6817-00000035"/>&#xD;
+<pb n="60-61" xml:id="VAC6817-00000035"/>&#xD;
 SHADOWS AND SUSPICIONS.                01&#xD;
 &#xD;
 self-taught, only added to the esteem and ad-!&#xD;
@@ -5628,7 +5633,7 @@ lay upon the sofa, and I in my low sewing-chair&#xD;
 by his side, sat facing lim as I had done during&#xD;
 the just finished lesson. I was so placed that hil&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6817-00000036"/>&#xD;
+<pb n="62-63" xml:id="VAC6817-00000036"/>&#xD;
 JEALOUS JOHN HARIRINGTON.&#xD;
 &#xD;
 strong an adjective should be applied to him. dissembler, who under the fair guise yf virtue&#xD;
@@ -5781,7 +5786,7 @@ MY HUSBAND'S CRIME.&#xD;
 &#xD;
 03&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6817-00000037"/>&#xD;
+<pb n="64-65" xml:id="VAC6817-00000037"/>&#xD;
 G4                 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 JEALOUS JOHN HARINGTON.&#xD;
@@ -6024,7 +6029,7 @@ x=&#xD;
 .&#xD;
 .'a&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6817-00000038"/>&#xD;
+<pb n="66-67" xml:id="VAC6817-00000038"/>&#xD;
 )                            1VL   L T JI~flA.1 U Vt  i'                                                                          JEALOU     JOHN     AR        N..&#xD;
 meat we spend here is that much gas-light room lightly andlaid my two hands ipon his&#xD;
 wasted there--so go get your bonnets on, like shoulders.&#xD;
@@ -6173,7 +6178,7 @@ E&#xD;
 l&#xD;
 Li&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6817-00000039"/>&#xD;
+<pb n="68-69" xml:id="VAC6817-00000039"/>&#xD;
 BASE COINAGE OF A SUSPICIOUS BRAIN.       69&#xD;
 &#xD;
 "If I answer at all, it will be candidly," he&#xD;
@@ -6406,7 +6411,7 @@ net expect tee much. There are pulenty of eld iiid expe-&#xD;
 &#xD;
 68                MY HUSBAND'S CRIME.&#xD;
 &#xD;
-<pb  n="70 (Illustration) " xml:id="VAC6817-00000040"/>&#xD;
+<pb n="70 (Illustration) " xml:id="VAC6817-00000040"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 iri eed hand' now searching for just such employment as&#xD;
@@ -6539,7 +6544,7 @@ c-s&#xD;
 &#xD;
 70O&#xD;
 &#xD;
-<pb  n="-71" xml:id="VAC6817-00000041"/>&#xD;
+<pb n="-71" xml:id="VAC6817-00000041"/>&#xD;
 LASE COINAGE OF A SUSPICIOUS BRAIN.&#xD;
 &#xD;
 "Supper's ready, Caro," she cried, "we are&#xD;
@@ -6666,7 +6671,7 @@ t,&#xD;
 ¢,&#xD;
 ,:,  ,&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6817-00000042"/>&#xD;
+<pb n="72-73" xml:id="VAC6817-00000042"/>&#xD;
 72                           MY HUSBAND'S CRIME.&#xD;
 thoughtlessly thrown both the coin and its fa-  "Certain. Any message for' Frank ?" and&#xD;
 tal envelope, when I had fled from the room. he turned to leave me,&#xD;
@@ -6801,7 +6806,7 @@ c&#xD;
 t'&#xD;
 r&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6817-00000043"/>&#xD;
+<pb n="74-75" xml:id="VAC6817-00000043"/>&#xD;
 74                           MY HUSBAND'S CRIME.&#xD;
 "No Agnes, again, to-day ?" he said, in a I again spoke.  At last, fearing that my&#xD;
 disappointed tone, as he entered the room; and   strength would desert me, I desperately com-&#xD;
@@ -7015,7 +7020,7 @@ them ?"&#xD;
 t&#xD;
 ,  r&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6817-00000044"/>&#xD;
+<pb n="76-77" xml:id="VAC6817-00000044"/>&#xD;
 76                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 " You are right, Eddie," I cried eagerly,&#xD;
@@ -7267,7 +7272,7 @@ Wesincely hope (hat time clemency of Mm'. Causey moi'y&#xD;
 &#xD;
 THE DREADED TRUTH UNFOLDED,         77&#xD;
 &#xD;
-<pb  n="78 (Illustration) " xml:id="VAC6817-00000045"/>&#xD;
+<pb n="78 (Illustration) " xml:id="VAC6817-00000045"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 lead to the reformation of the criminal, yet we sadly&#xD;
@@ -7420,7 +7425,7 @@ a&#xD;
 a&#xD;
 00&#xD;
 &#xD;
-<pb  n="-79" xml:id="VAC6817-00000046"/>&#xD;
+<pb n="-79" xml:id="VAC6817-00000046"/>&#xD;
 AN ATTEMPT AT FLIGHT.&#xD;
 My tone was quiet enough, and my hand lay edge that I left her rather under Miss Jenny's&#xD;
 cold and passive in his grasp, yet still he gazed protection than his. 1 was obliged to content&#xD;
@@ -7480,7 +7485,7 @@ To lensve her dependent uponm John Hlaring- ticipated the sorrow that thle morro
 ton's charity was galling enough to my pride, bring upon him. I must write to him too, for&#xD;
 and all that made it endurable was the knowl- Eddie's sake, for I hind miot forgotten the prom-&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6817-00000047"/>&#xD;
+<pb n="80-81" xml:id="VAC6817-00000047"/>&#xD;
 AN ATTEMPT AT FLIGhlT.               81&#xD;
 &#xD;
 ti&#xD;
@@ -7647,7 +7652,7 @@ cognizant of the time, and as it chimed out&#xD;
 each successive hour, I seemed to grow mt-&#xD;
 mentarily more wakeful, more watchful for the&#xD;
 &#xD;
-<pb  n="82 (Illustration) " xml:id="VAC6817-00000048"/>&#xD;
+<pb n="82 (Illustration) " xml:id="VAC6817-00000048"/>&#xD;
 82                           MY HUSBAND'S CRIME.&#xD;
 sound of my footsteps, and I was thus able to abouts. The clerk who sold me my ticket&#xD;
 descend the stairs and traverse the hall below gazed inquisitively at me, while he counted out&#xD;
@@ -7712,7 +7717,7 @@ I&#xD;
 &#xD;
 "I TURNED WITH A FAINT, STARTLED CRY."-PAGE 82.&#xD;
 &#xD;
-<pb  n="-83" xml:id="VAC6817-00000049"/>&#xD;
+<pb n="-83" xml:id="VAC6817-00000049"/>&#xD;
 AN ATTEMPT AT FLIGHT.&#xD;
 soon as I could command speech. "I am no length, turning toward me that stern, ireful&#xD;
 longer your wife, nor have you any right to con- visage, "I am ready to receive such explana-&#xD;
@@ -7810,7 +7815,7 @@ F&#xD;
 r&#xD;
 2&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6817-00000050"/>&#xD;
+<pb n="84-85" xml:id="VAC6817-00000050"/>&#xD;
 84                   MY HUSBAND'S CRIME.&#xD;
 &#xD;
 strength enough to draw my hand from his pas-&#xD;
@@ -8010,7 +8015,7 @@ i&#xD;
 r&#xD;
 t&#xD;
 &#xD;
-<pb  n="86" xml:id="VAC6817-00000051"/>&#xD;
+<pb n="86" xml:id="VAC6817-00000051"/>&#xD;
 MY IIUSBANI)'S CRIME.&#xD;
 &#xD;
 roused from the insensibility into which I had Many a day of sorrow would have been after-&#xD;
@@ -8110,7 +8115,7 @@ l r&#xD;
 gY&#xD;
 ;&#xD;
 &#xD;
-<pb  n="Illustration-87" xml:id="VAC6817-00000052"/>&#xD;
+<pb n="Illustration-87" xml:id="VAC6817-00000052"/>&#xD;
 A YEAR OF PAIN AND CHANGE.          87&#xD;
 &#xD;
 manner precisely contrary to what he would do&#xD;
@@ -8250,7 +8255,7 @@ I&#xD;
 "7&#xD;
 Yz&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6817-00000053"/>&#xD;
+<pb n="88-89" xml:id="VAC6817-00000053"/>&#xD;
 88                   MY HUSBAND'S CRIME.&#xD;
 &#xD;
 my hand, that he might not see the emotion I&#xD;
@@ -8477,7 +8482,7 @@ I&#xD;
 s&#xD;
 '&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6817-00000054"/>&#xD;
+<pb n="90-91" xml:id="VAC6817-00000054"/>&#xD;
 STARTLING REVELATIONS.&#xD;
 &#xD;
 whether there was no possibility of a reconcilia- that the estrangement between John and my-&#xD;
@@ -8631,7 +8636,7 @@ MY HUSBAND'S CRIME.&#xD;
 &#xD;
 91&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6817-00000055"/>&#xD;
+<pb n="92-93" xml:id="VAC6817-00000055"/>&#xD;
 STARTLING REVELATIONS.&#xD;
 &#xD;
 her "sick mind" could receive, I quite agreed&#xD;
@@ -8879,7 +8884,7 @@ find occupation there."&#xD;
 lie spoke very gesitly mand very kisndhy, b)ut&#xD;
 so resolutely that I sawv that Isis mind wams made&#xD;
 &#xD;
-<pb  n="94" xml:id="VAC6817-00000056"/>&#xD;
+<pb n="94" xml:id="VAC6817-00000056"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 up, and that the fact of his departure was with  "Nou could very easily receive benefits from&#xD;
@@ -9003,7 +9008,7 @@ i&#xD;
 Y&#xD;
 f&#xD;
 &#xD;
-<pb  n="Illustration-95" xml:id="VAC6817-00000057"/>&#xD;
+<pb n="Illustration-95" xml:id="VAC6817-00000057"/>&#xD;
 F'&#xD;
 i&#xD;
 ii&#xD;
@@ -9137,7 +9142,7 @@ she said in a voice in which contempjt, indigna-&#xD;
 tion, arnd amazement were curiously mingled.&#xD;
 " Eddie Harrington, indeed ! I never liked him&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6817-00000058"/>&#xD;
+<pb n="96-97" xml:id="VAC6817-00000058"/>&#xD;
 EDDIE HAERNGTON'S PASSION.            97&#xD;
 &#xD;
 much at the best of times, and since you were&#xD;
@@ -9433,7 +9438,7 @@ dhemeanomr.&#xD;
 &#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
-<pb  n="98 (Illustration) " xml:id="VAC6817-00000059"/>&#xD;
+<pb n="98 (Illustration) " xml:id="VAC6817-00000059"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 "You dare-you dare-to write to that man!"&#xD;
@@ -9576,7 +9581,7 @@ t&#xD;
 !'&#xD;
 r&#xD;
 &#xD;
-<pb  n="-99" xml:id="VAC6817-00000060"/>&#xD;
+<pb n="-99" xml:id="VAC6817-00000060"/>&#xD;
 EDDIE HARRINGTON'S PASSION.&#xD;
 &#xD;
 "How dare you !" I cried. "How dare you house, as I knew by the opening and shutting&#xD;
@@ -9639,7 +9644,7 @@ John, when he left me, had also left thme I forgot to notice the impropriety of 
 &#xD;
 99&#xD;
 &#xD;
-<pb  n="100" xml:id="VAC6817-00000061"/>&#xD;
+<pb n="100" xml:id="VAC6817-00000061"/>&#xD;
 MY HUSBAND'S CRIME.&#xD;
 &#xD;
 words and manner in the horrible idea they&#xD;
@@ -9760,7 +9765,7 @@ unthinking terror, I had laid my clasped hands&#xD;
 &#xD;
 100&#xD;
 &#xD;
-<pb  n="Illustration-101" xml:id="VAC6817-00000062"/>&#xD;
+<pb n="Illustration-101" xml:id="VAC6817-00000062"/>&#xD;
 "YOU SHALL NOT LEAVE ME !"--PAGE 101.&#xD;
 &#xD;
 E)DIE HARRINGTON'S PASSION.&#xD;
@@ -9835,7 +9840,7 @@ S&#xD;
 &#xD;
 101&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC6817-00000063"/>&#xD;
+<pb n="102-103" xml:id="VAC6817-00000063"/>&#xD;
 102                          MY HUSBAND'S CRIME.&#xD;
 bade me feel for his sufferings as if I too were express the indignation which your language&#xD;
 capable of experiencing the tortures of a guilty ought to excite in me. What might have been&#xD;
@@ -10010,7 +10015,7 @@ meal without him.&#xD;
 asked Agnes inidiffer-enitly, when informed bsy&#xD;
 Jenny of Eddie's departure.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC6817-00000064"/>&#xD;
+<pb n="104-105" xml:id="VAC6817-00000064"/>&#xD;
 rs&#xD;
 &#xD;
 104                          MY HUSBA:&#xD;
@@ -10212,7 +10217,7 @@ ly the disgraceful interview which hid termi- looked ten years younger than he h
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC6817-00000065"/>&#xD;
+<pb n="106-107" xml:id="VAC6817-00000065"/>&#xD;
 106                  MY HUSBAND'S CRIME.&#xD;
 &#xD;
 EDDIE HARRINGTON'S PASSION.           107&#xD;
@@ -10450,7 +10455,7 @@ not that ; you tell mec that you have never even&#xD;
 suspected my jealousy ; it Hleaveni's mnamne, what&#xD;
 is it then that eani so have altered you?"'&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC6817-00000066"/>&#xD;
+<pb n="108-109" xml:id="VAC6817-00000066"/>&#xD;
 STRANGE DEVELOPMENTS.             IO&#xD;
 &#xD;
 I hung my head mutely; not yet had come&#xD;
@@ -10682,7 +10687,7 @@ telling, in the course of the tale, the manner in  "It is your love I am jealous
 &#xD;
 1 08                      MY IIITSBAND's CRIME.&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC6817-00000067"/>&#xD;
+<pb n="110-111" xml:id="VAC6817-00000067"/>&#xD;
 110&#xD;
 &#xD;
 MY HUSBAND'S CRIME.&#xD;
@@ -10994,7 +10999,7 @@ yours trouble santd bsewsiiermssent teas at s-sie so nsaturalss&#xD;
 asnd pr'obabhe an occurrence, sisal I hasd siuite overlooked&#xD;
 [&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC6817-00000068"/>&#xD;
+<pb n="112-113" xml:id="VAC6817-00000068"/>&#xD;
 .&#xD;
 a&#xD;
 s&#xD;
@@ -11166,7 +11171,7 @@ another mndisidulal lilac huis exclusive self.&#xD;
 'Pile result as aciheved finally, but1 1 really feehl soo  l~llied fol' me at fearfuld inittrist. lBrlitlh-&#xD;
 ashamed of nmyseif lwhlen I roeebe 1101w mch~ lying as  essly  desouredl the peges,1 scamrc' comprIehendu-&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC6817-00000069"/>&#xD;
+<pb n="114-115" xml:id="VAC6817-00000069"/>&#xD;
 114                MY HUSBAND'S CRIME.&#xD;
 &#xD;
 ing their terrible import, until doubt was n&#xD;
@@ -11285,8 +11290,8 @@ TIIE END,&#xD;
 &#xD;
 &#xD;
                                                                       
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

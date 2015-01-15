@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7475">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7475">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Mameluke, or, The Sign of the Mystic Tie </title>
-            <author >Poore, Benjamin Perley, (1820-1887)</author>
+            <title>The Mameluke, or, The Sign of the Mystic Tie </title>
+            <author>Poore, Benjamin Perley, (1820-1887)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7475</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7475</idno>
+            <idno type="wright2" n="previous">wright2-1928</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The Mameluke, or, The sign of the mystic tie</title>
-                  <author >Poore, Benjamin Perley, (1820-1887)</author>
+                  <title>The Mameluke, or, The sign of the mystic tie</title>
+                  <author>Poore, Benjamin Perley, (1820-1887)</author>
                </titleStmt>
-               <extent >100 p. </extent>
+               <extent>100 p. </extent>
                <publicationStmt>
-                  <publisher >F. Gleason</publisher>
+                  <publisher>F. Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The Mameluke, or, The sign of the mystic tie</head> 
+            <head>The Mameluke, or, The sign of the mystic tie</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7475-00000001"/>IT                               TIE,&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7475-00000001"/>IT                               TIE,&#xD;
 IGN OF, THE ~STcLC IE&#xD;
 k~Y Bo PERLEY T 00L&#xD;
 -~      -    BOSTON:&#xD;
@@ -96,7 +101,7 @@ SIRJ     F   THE~I~D                IE.&#xD;
 Entered accrding to Act of CovzgresA, ;l er, .  C, *D8N~jnte  7~Ae  QIce  ~&#xD;
 -Thstct ourtof Mzw~i~t1&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7475-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7475-00000002"/>&#xD;
 'I&#xD;
 &#xD;
 m     ~4he          tt  wporiginwlly O    publ -Ia'Aed111-P~IA&#xD;
@@ -203,7 +208,7 @@ THE MYSTIC TIE.&#xD;
 &#xD;
 f 4&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7475-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7475-00000003"/>&#xD;
 I&#xD;
 &#xD;
 MELUKE.&#xD;
@@ -437,7 +442,7 @@ heart, that she felt ready to sacrifice her life,&#xD;
 rather than to suffer dishonor.&#xD;
 Osmanli, for he was the intruder, entered he&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7475-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7475-00000004"/>&#xD;
 I&#xD;
 &#xD;
 room, his prepo~sqsaipgexterior set off by his,&#xD;
@@ -585,7 +590,7 @@ THE MAMEUKE.&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7475-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7475-00000005"/>&#xD;
 THE MAMELUKE.&#xD;
 &#xD;
 discipline of the French was not to be shaken,&#xD;
@@ -813,7 +818,7 @@ I I&#xD;
 &#xD;
 THE, MAKELCKE.,&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7475-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7475-00000006"/>&#xD;
 14                    TME E )AI . KEH&#xD;
 &#xD;
 Enthusiastic shouts hailed this eloquent ha-&#xD;
@@ -928,7 +933,7 @@ i&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7475-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7475-00000007"/>&#xD;
 ,16                                THE MA&#xD;
 not have selected a more fitting tool, and the&#xD;
 commencement of his operations showed how&#xD;
@@ -1121,7 +1126,7 @@ by his nantical pride.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7475-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7475-00000008"/>&#xD;
 9&#xD;
 &#xD;
 CHAPTER IV.&#xD;
@@ -1282,7 +1287,7 @@ relapse into a rigid, icy coldness, that effectually&#xD;
 checked any declaation on the part of ier&#xD;
 admirer.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7475-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7475-00000009"/>&#xD;
 I&#xD;
 &#xD;
 THE- MAELtl&#xD;
@@ -1433,7 +1438,7 @@ flies danced erratically-over luxuriant parterres, companion answered only in mo
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7475-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7475-00000010"/>&#xD;
 THE MAMELUKE.&#xD;
 &#xD;
 the rapidity with which he passed from one topic&#xD;
@@ -1569,7 +1574,7 @@ senwunintlligble chif    paoh a long strip.  The magician repeated his inetation
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7475-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7475-00000011"/>&#xD;
 24                             , THE MA&#xD;
 the boy again prophesied. "Many years have&#xD;
 passed, and the warrior is dead. He breathes&#xD;
@@ -1728,7 +1733,7 @@ sides, he had become enamored with the ciVil-&#xD;
 ized manners of the French, and their superior&#xD;
 social condition.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7475-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7475-00000012"/>&#xD;
 THE MAMELUKE.&#xD;
 &#xD;
 CHAPTER VII.&#xD;
@@ -1878,7 +1883,7 @@ it&#xD;
 &#xD;
 27 '&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7475-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7475-00000013"/>&#xD;
 28                  THE MANELUEE.&#xD;
 &#xD;
 "Not as ip northern climes obscurely bright,&#xD;
@@ -2050,7 +2055,7 @@ to the courtyard, and Osmanli was informed at&#xD;
 those delectable re-unions for which Paris is so&#xD;
 renowned. Revolution, with its bloody tide,&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7475-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7475-00000014"/>&#xD;
 AVELUK.&#xD;
 &#xD;
 '31&#xD;
@@ -2271,7 +2276,7 @@ control our destiny. Impious is the hand :that&#xD;
 would raise the veil, and seek to enter the mys-&#xD;
 ,terious portals of omnipotence.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7475-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7475-00000015"/>&#xD;
 the strong arm of justice to the prison-some to&#xD;
 the scaffold.&#xD;
 Yet Madame de Valmont, with unconstrained&#xD;
@@ -2449,7 +2454,7 @@ time you have been in the haunts above ground."&#xD;
 h -   Ah, my dear count, you forget! Was it not&#xD;
 y a compact, that you hould never inquire how it&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7475-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7475-00000016"/>&#xD;
 I I&#xD;
 &#xD;
 happeide that Iwas recognized by the landlady&#xD;
@@ -2669,7 +2674,7 @@ I&#xD;
 &#xD;
 F&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7475-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7475-00000017"/>&#xD;
 86           TE Mf~L~~E.TIQ~)~AELIK.                                                               8&#xD;
 &#xD;
 to the  city-major'A to ascertain your address legation. Nor had he a spare half hour, that&#xD;
@@ -2792,7 +2797,7 @@ I&#xD;
 &#xD;
 THEIIMEUK.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7475-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7475-00000018"/>&#xD;
 38                               THE MAMELUKE.&#xD;
 reply, "interests me. But I must dress to re- I shady tries of the Tuileries, but his thoughts&#xD;
 ceive company, and so, gentlemen, adieu until were not of his new mission. Some secret im-&#xD;
@@ -2963,7 +2968,7 @@ ai4 in defending the vessel 1"&#xD;
 " Hush "' whispered the boy, "we are pris.&#xD;
 oners."&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7475-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7475-00000019"/>&#xD;
 40                     THE MAMELUKE.&#xD;
 &#xD;
 "Prisoners I" jaculated the cowardly Italian, steered boldly into Southampton roads. Often,&#xD;
@@ -3059,7 +3064,7 @@ sdo every morning found her \ victim in her classical face. And never was a snar
 boudoir. A fit retreat it was for one so fasci- niugly laid, than the half-toilet which was thus&#xD;
 nating and so bewitching. The sunlight, pass- exhibited.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7475-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7475-00000020"/>&#xD;
 i&#xD;
 &#xD;
 42                               THE MA&#xD;
@@ -3294,7 +3299,7 @@ hawk circling around its distant prey, contract-&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7475-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7475-00000021"/>&#xD;
 44                               THE MAMRLUXEA&#xD;
 ing its verge until it bore down to death in the ery of his own despair, he burst into a hysterical&#xD;
 depths below. All around was like his own laugh, which seemed answered from below. His&#xD;
@@ -3370,7 +3375,7 @@ Valmont, made a sign&#xD;
 aniimation to the death-&#xD;
 setic signal was returned,&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7475-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7475-00000022"/>&#xD;
 46                    THE MAMELUKE.&#xD;
 &#xD;
 and Osmanli, raising his head, again looked&#xD;
@@ -3508,7 +3513,7 @@ NAPOLEON IN FRANCE.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7475-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7475-00000023"/>&#xD;
 48&#xD;
 &#xD;
 tion, and the smoking wheels of his carriage&#xD;
@@ -3744,7 +3749,7 @@ Bonaparte's coming power. "Nevertheless, I&#xD;
 &#xD;
 49&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7475-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7475-00000024"/>&#xD;
 50                  TEE MALE9LUt.&#xD;
 &#xD;
 thought-that this Captain Osmanli came here on&#xD;
@@ -3843,7 +3848,7 @@ you into the city for rehearsal."&#xD;
 "And," interrupted. Bonaparte, "here come&#xD;
 the manager's carriage. -o run to yotat roOm&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7475-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7475-00000025"/>&#xD;
 THE MAMEUKE..&#xD;
 &#xD;
 and get ready. Should you feel timid on Mon-&#xD;
@@ -4070,7 +4075,7 @@ Her father was so lery kind, and when he had&#xD;
 learned all that Bonaparte had done, he ealed&#xD;
 to express his devoted'thanks%. Of Osmanli, toe,&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7475-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7475-00000026"/>&#xD;
 ggTHi MAMaIUHFL&#xD;
 hheard much that-aedforthhis gratitude.     " Thanks deatJosephine, and Ihavefolloyred&#xD;
 JI~dhh  *i, now  tinemse no  feged   ier you here., I am almost delrious. with joy, and&#xD;
@@ -4153,7 +4158,7 @@ deadlier passion. "Don'thideyour pretty eyeS,&#xD;
 CHAPTER XVI&#xD;
 THE MYS1C BnE'rHREtN.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7475-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7475-00000027"/>&#xD;
 THE MAMELUKE.&#xD;
 &#xD;
 ±5tnt xL .i&#xD;
@@ -4379,7 +4384,7 @@ rule must be sustained. At any rate, when you&#xD;
 wish to see me, come to No. 17 ruelle de Notre&#xD;
 Dame, and show this ring to the bar-maid." As&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7475-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7475-00000028"/>&#xD;
 0&#xD;
 &#xD;
 68&#xD;
@@ -4487,7 +4492,7 @@ of tetlfts grief. - Josephine fet. obliged to re-&#xD;
 &#xD;
 TAUAH&#xD;
 &#xD;
-<pb  n="60-61 (Illustration) " xml:id="VAC7475-00000029"/>&#xD;
+<pb n="60-61 (Illustration) " xml:id="VAC7475-00000029"/>&#xD;
 80                    THE MAMELUKE.&#xD;
 &#xD;
 tra, but Madame Wilmot, with several Israelit-&#xD;
@@ -4602,7 +4607,7 @@ im a soldie- a  &amp;amp;rnh soldier. 'I have&#xD;
 &#xD;
 OSMANLI, THE MAMELUKE&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7475-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7475-00000030"/>&#xD;
 /5-&#xD;
 &#xD;
 T~MAMELUE&#xD;
@@ -4727,7 +4732,7 @@ I&#xD;
 &#xD;
 '9&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7475-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7475-00000031"/>&#xD;
 64                                 J~&#xD;
 water.NOW lay down aia mattress andimdke&#xD;
 antil dayligtWhen the guard will be relieved;&#xD;
@@ -4830,7 +4835,7 @@ I -&#xD;
 &#xD;
 I    i&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7475-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7475-00000032"/>&#xD;
 r&#xD;
 &#xD;
 66&#xD;
@@ -5063,7 +5068,7 @@ after confessing a black catalogue of crimes, the&#xD;
 dying man exculpated Osmanli by avowing him-&#xD;
 self the murderer of Judith's father. He had&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7475-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7475-00000033"/>&#xD;
 THE MAMELUKE.&#xD;
 &#xD;
 iptoeded. to stab the youngMameluke, but tbe&#xD;
@@ -5271,7 +5276,7 @@ I I&#xD;
 &#xD;
 THE MAMUE.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7475-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7475-00000034"/>&#xD;
 THE MAMELUKE.&#xD;
 &#xD;
 1&#xD;
@@ -5434,7 +5439,7 @@ will1 decide my fae."&#xD;
 &#xD;
 THE MAMEKE.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7475-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7475-00000035"/>&#xD;
 S&#xD;
 &#xD;
 CH APTER* XX.&#xD;
@@ -5584,7 +5589,7 @@ quiet spectator f political events. His gratitude&#xD;
 for the service Osmanli had rendered him, was&#xD;
 wnbonnded, and he expressed strong hopes that&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7475-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7475-00000036"/>&#xD;
 THE MAMELUKE. 7'5&#xD;
 &#xD;
 atome time he would repay the debt. Accom-&#xD;
@@ -5771,7 +5776,7 @@ I I&#xD;
 &#xD;
 THE XOMMI&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7475-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7475-00000037"/>&#xD;
 MONTEBELo and Marengo I They were hard&#xD;
 fought fields, on each of which "bones crashed'&#xD;
 like hailstones against windows," as the French,&#xD;
@@ -5951,7 +5956,7 @@ my present condition ?"&#xD;
 &#xD;
 ft&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7475-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7475-00000038"/>&#xD;
 7 79 TIMF. NMELUKE:&#xD;
 &#xD;
 THE MAMELUKE.&#xD;
@@ -6108,7 +6113,7 @@ THE END.&#xD;
 &#xD;
 78&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7475-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7475-00000039"/>&#xD;
 TOM SMITM "could do anything." All his&#xD;
 friends and companions believed inhis universal&#xD;
 capacity, and he himself was satisfied of it; A&#xD;
@@ -6290,7 +6295,7 @@ no excuses presented themselves with which he&#xD;
 T-H E STO R Y 0 F A G E N IUS.&#xD;
 BY REV. H. HASTINGS WELD.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7475-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7475-00000040"/>&#xD;
 0&#xD;
 &#xD;
 THE STORY OF A GE14IUS.&#xD;
@@ -6479,7 +6484,7 @@ otherwise. Genius, unguided by abiding princi-&#xD;
 ple, and unaccomanied by industry, is a dan-&#xD;
 gerous gift.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7475-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7475-00000041"/>&#xD;
 [IfxROM GLEASON'S PICTORIAL DtAWINO-ooM COMPANqION.)&#xD;
 THE CROSSED DOLLAR:&#xD;
 -0 R gw,-a&#xD;
@@ -6659,7 +6664,7 @@ man, dould not but declare that the crossed dol-&#xD;
 lar had been received from him. Wilton could&#xD;
 not deny it; he had not noticed any particular&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7475-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7475-00000042"/>&#xD;
 THE CROSSED DOLLAR.                  87\&#xD;
 &#xD;
 marks upon the money he hid paid, and he could&#xD;
@@ -6892,7 +6897,7 @@ though God knows it would be a just one."&#xD;
 &#xD;
 THE CROSSED- DOLLAR.&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7475-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7475-00000043"/>&#xD;
 THE CROSSED DOLLAR.&#xD;
 &#xD;
 Shortly afterwards young Cunningham kissed&#xD;
@@ -7090,7 +7095,7 @@ a horse of him the second time, and he has sure-&#xD;
 ly lived to lappieciate the old adage : "He who&#xD;
 swims in small sins, will sink in greater sorrows."&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7475-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7475-00000044"/>&#xD;
 -THE HUMBLE&#xD;
 &#xD;
 *4&#xD;
@@ -7282,7 +7287,7 @@ ears caught the blended music of a piano, and&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7475-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7475-00000045"/>&#xD;
 92                 THE HUMBLED PHARISEE.&#xD;
 &#xD;
 children's happy-voices. From the front parlor,I&#xD;
@@ -7479,7 +7484,7 @@ THE HUMBLED PHARISEE. -            910,&#xD;
 &#xD;
 all&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7475-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7475-00000046"/>&#xD;
 [FROM GLEASON'S PICTORIAL, DRAWING-ROOM COMPANION-)&#xD;
 THE WALBEIDGE FAMILY.,&#xD;
 A THANKSGIVING STORY.&#xD;
@@ -7626,7 +7631,7 @@ THE WALBRIDGE FAMILY.&#xD;
 &#xD;
 95&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7475-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7475-00000047"/>&#xD;
 96       ,                  THE WALBR&#xD;
 many we are going to have to dine.Thanksgivitig&#xD;
 day, at this rate," said Jane.&#xD;
@@ -7858,7 +7863,7 @@ had, according to arrangement, receivedan early&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7475-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7475-00000048"/>&#xD;
 'I&#xD;
 &#xD;
 98&#xD;
@@ -8091,7 +8096,7 @@ became grave and silent.&#xD;
 It was with a strong effort thatMark Thorn.&#xD;
  to maintained an appearance of composure&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7475-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7475-00000049"/>&#xD;
 THE WALBRIDGE FAMILY.&#xD;
 &#xD;
 without turning his bead, when Mark abruptly' the superintendence of- the mistress of a hand-&#xD;
@@ -8161,8 +8166,8 @@ THE END.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

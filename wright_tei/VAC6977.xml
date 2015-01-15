@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6977">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6977">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Rattlesnake, or, The Rebel Privateer </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>The Rattlesnake, or, The Rebel Privateer </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6977</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6977</idno>
+            <idno type="wright2" n="previous">wright2-1442</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The rattlesnake, or, The rebel privateer</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>The rattlesnake, or, The rebel privateer</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >79 p. </extent>
+               <extent>79 p. </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1865">[1865]</date>
+                  <date when="1865">[1865]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-15">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-15">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The rattlesnake, or, The rebel privateer</head> 
+            <head>The rattlesnake, or, The rebel privateer</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC6977-00000001"/>MRUT ST0~&#xD;
+               <pb n=" (Cover) " xml:id="VAC6977-00000001"/>MRUT ST0~&#xD;
 %    ==:_THE--' R- "_- :'.aT°  - -'-;..TLE  ..:i."3.csy ..r-_--S  .+AEs,- r-wr.va:r _".w"_&#xD;
 &#xD;
 RBELP&#xD;
@@ -118,7 +123,7 @@ t&#xD;
 &#xD;
 - .,--&#xD;
 &#xD;
-<pb  n="0 (TitlePage) " xml:id="VAC6977-00000002"/>&#xD;
+<pb n="0 (TitlePage) " xml:id="VAC6977-00000002"/>&#xD;
 THE RATTLESNAKE:&#xD;
 OR,&#xD;
 he 5ehde1induvxeer.&#xD;
@@ -149,7 +154,7 @@ ThiE&#xD;
 &#xD;
 1qfA J&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6977-00000003"/>&#xD;
+<pb n="0" xml:id="VAC6977-00000003"/>&#xD;
 THE&#xD;
 &#xD;
 RATTLESNAKE;&#xD;
@@ -263,7 +268,7 @@ r -&#xD;
 &#xD;
 M  },&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6977-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC6977-00000004"/>&#xD;
 4&#xD;
 &#xD;
 THE RATTLESNAKE; OR, THE REBEL PRIVATEER&#xD;
@@ -470,7 +475,7 @@ I&#xD;
 &#xD;
 i;J&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6977-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC6977-00000005"/>&#xD;
 THE RATTLESNAKE ; OR, TIE R3EL PRIVATEER.    '&#xD;
 &#xD;
 6&#xD;
@@ -661,7 +666,7 @@ the best.                                      "Fool that I was to lose such a p
 One thousand and forty brave patriots, clad muttered. "Two weeks of dissimulation would&#xD;
 in suits of serviceable gray, whose bright swords, have won her and a dowry larger than all the&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC6977-00000006"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC6977-00000006"/>&#xD;
 8               THE RATTLESNAKE; OR, THE REBEL PRIVATEER.j:&#xD;
 wealth owned by my relatives, which will be I bullet-shaped head ; a pair of small gray eyes, so&#xD;
 wasted in this war as wood-wastes by fire. Now, keen and sharp in their expression that they&#xD;
@@ -733,7 +738,7 @@ He came in, hat in hand, revealing a bald, as to an offer I'm agoin' to make you
 &#xD;
 ///&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6977-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC6977-00000007"/>&#xD;
 r.&#xD;
 + t&#xD;
 , 4T&#xD;
@@ -892,7 +897,7 @@ Fr&#xD;
 &#xD;
 _&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6977-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC6977-00000008"/>&#xD;
 E&#xD;
 &#xD;
 Ashton    need aloft. Her taut lower-ma sr "Yes'r e" And theEthiop vanished.&#xD;
@@ -1042,7 +1047,7 @@ C13E RATTLESNAKE ; OR, THE REBEL PRIVATER.&#xD;
 &#xD;
 12&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6977-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC6977-00000009"/>&#xD;
 THE RATTLESNAKE OR, THE REBEL PRIVATEER.&#xD;
 &#xD;
 THE RATTLESNAKE ; OR, THE 'REBEL PRIVATEER.&#xD;
@@ -1192,7 +1197,7 @@ V&#xD;
 &#xD;
 Li&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC6977-00000010"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC6977-00000010"/>&#xD;
 THE RATTLESNAKE; OR, THE REBEL PRIVATEER.&#xD;
 &#xD;
 otie information and services in the unsuccessful&#xD;
@@ -1331,7 +1336,7 @@ r'&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6977-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC6977-00000011"/>&#xD;
 THE RATTLESNAKE; OR,]&#xD;
 &#xD;
 c&#xD;
@@ -1465,7 +1470,7 @@ In one of these, reclining on a blanket which is&#xD;
 spread upon the ground, with a good-sized water-&#xD;
 melon for a pillow, we find our friend Elmer&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6977-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC6977-00000012"/>&#xD;
 THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.&#xD;
 &#xD;
 20               THE RATTLESNAKE; OR,&#xD;
@@ -1730,7 +1735,7 @@ Is&#xD;
 &#xD;
 21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6977-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC6977-00000013"/>&#xD;
 THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.     2&#xD;
 &#xD;
 22               THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.&#xD;
@@ -1927,7 +1932,7 @@ military dignitaries.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC6977-00000014"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC6977-00000014"/>&#xD;
 THE RATTLESNAKE; OR, THE REEEL PRIVATEER.&#xD;
 &#xD;
 As the first of the latter approached, Elmer&#xD;
@@ -2071,7 +2076,7 @@ t&#xD;
 -i&#xD;
 d&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6977-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC6977-00000015"/>&#xD;
 I&#xD;
 &#xD;
 TIlE RATTLESNAKE; OR, THE REBEL PRIVATEER.&#xD;
@@ -2251,7 +2256,7 @@ t&#xD;
 t&#xD;
 ii&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6977-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC6977-00000016"/>&#xD;
 28               TIIE RATTLESNAKE; OR, THE REBEL PRIVATEER.&#xD;
 ters. So that he could not in that manner in- him, for he knew that his first dash must be&#xD;
 form her of the peril which was before her. made with the speed of lightning.&#xD;
@@ -2454,7 +2459,7 @@ So sudden had been Iris movement, and so&#xD;
 E&#xD;
 t&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6977-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC6977-00000017"/>&#xD;
 1&#xD;
 &#xD;
 30              THE RATTLESNAKE ; OR,&#xD;
@@ -2661,7 +2666,7 @@ i&#xD;
 &#xD;
 mr r r&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC6977-00000018"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC6977-00000018"/>&#xD;
 32              THE RATTLESNAKE ; OR, THE REBEL PRIVATEER&#xD;
 CHAPTER XVIII.                1 rowed a citizen's coat from father, to go across&#xD;
 Major Slaughter was the name of the cavalry the river in."&#xD;
@@ -2737,7 +2742,7 @@ J ///(/ /S4!&#xD;
 &#xD;
 .j&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6977-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC6977-00000019"/>&#xD;
 PIE RATTLESNAKE ; OR, THE REBEL PRIVATEER.,35&#xD;
 &#xD;
 ;&#xD;
@@ -2897,7 +2902,7 @@ present, until the Government consents, my lips&#xD;
 are sealed."&#xD;
 " Ah, yes ! I see-I see. The Government&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6977-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC6977-00000020"/>&#xD;
 36              THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.&#xD;
 s keeps me ousted in these matters; but I  " Perhaps it is difficult for him to get per-&#xD;
 have very often to keep back news until it is mission to write," said Fluta. "But I sent Johs&#xD;
@@ -3074,7 +3079,7 @@ f&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6977-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC6977-00000021"/>&#xD;
 THE RATTLESNAKE; OR, THE REBEL PRIVATEER.&#xD;
 &#xD;
 .x&#xD;
@@ -3284,7 +3289,7 @@ i&#xD;
 I&#xD;
 t&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC6977-00000022"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC6977-00000022"/>&#xD;
 JI}&#xD;
 .,&#xD;
 {&#xD;
@@ -3375,7 +3380,7 @@ w&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6977-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC6977-00000023"/>&#xD;
 THE RATTLESNAKE ; OR, THE REBEL PRIVATEER,    43&#xD;
 &#xD;
 stone. Hurrying-on his pantaloons, he lighted  "And where&#xD;
@@ -3506,7 +3511,7 @@ as a child, he wept like one.&#xD;
 sent for the regular physician&#xD;
 nced nurse ; and when they ar-&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6977-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC6977-00000024"/>&#xD;
 0&#xD;
 &#xD;
 X3'4&#xD;
@@ -3751,7 +3756,7 @@ f    t&#xD;
 p -(5 ,&#xD;
 ;&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6977-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC6977-00000025"/>&#xD;
 46&#xD;
 &#xD;
 TILE RATTLESNAKE ; OR, TIlE REBEL PRIVATEER.&#xD;
@@ -3978,7 +3983,7 @@ snaggy-in fact, the interior of his month looked&#xD;
 t&#xD;
 i&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6977-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC6977-00000026"/>&#xD;
 48&#xD;
 &#xD;
 THE RATTLESNAKE; OR, TIE REBEL PIVATI ER.&#xD;
@@ -4153,7 +4158,7 @@ x&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6977-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC6977-00000027"/>&#xD;
 50TH                   RATTLESNAKE; OR, TIIE 113EL PRIVATEEt.&#xD;
 ing short trips in her brother's yacht, also eon-1  " He weeps-he has a heart," she murmured&#xD;
 winced her of the same actE. Ehe saw that the " I will.hope."&#xD;
@@ -4314,7 +4319,7 @@ S&#xD;
 X&#xD;
 r&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6977-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC6977-00000028"/>&#xD;
 52&#xD;
 &#xD;
 THE RATTLESNAKE ; OR, TILE EBEL PRIVATEER,&#xD;
@@ -4472,7 +4477,7 @@ d&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6977-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC6977-00000029"/>&#xD;
 54&#xD;
 &#xD;
 THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.&#xD;
@@ -4615,7 +4620,7 @@ After a Imoment's hesitation, it was opened.  a doctor, prescribes medicine, as 
 "Is the vessel wrecked ?" asked the poor girl I will take it !"&#xD;
 before Frank could speak.                  '(" You take it ?"&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6977-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC6977-00000030"/>&#xD;
 THE RATTLESNAKE, OR, THE REBEL PRIVATEER.&#xD;
 " Yes, I will take it, and throw it overboard,  Motioning to the men to put dowii thair ooxes&#xD;
 where 1 am hard-hearted enough to wish he was. and retire, Frank said&#xD;
@@ -4765,7 +4770,7 @@ f i&#xD;
 1&#xD;
 1&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6977-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC6977-00000031"/>&#xD;
 58              THE RATTLESNAKE; OR,&#xD;
 whose red, juicy pulp she sliced up as a tempt- !&#xD;
 ing morsel for her guests.&#xD;
@@ -4986,7 +4991,7 @@ A&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6977-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC6977-00000032"/>&#xD;
 60&#xD;
 &#xD;
 TIE RATTLESNAKE ; OR, TIIE REBEL PRIVATEER.&#xD;
@@ -5200,7 +5205,7 @@ r                                                        .. ..      _      - a..
 " YOii&#xD;
 1                                                                                                                                                                            YA'&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6977-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC6977-00000033"/>&#xD;
 632&#xD;
 &#xD;
 TIIE RATTLESNAkE ; OR, TIIE REBEL PRIVATEER&#xD;
@@ -5349,7 +5354,7 @@ i&#xD;
 &#xD;
 e&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6977-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC6977-00000034"/>&#xD;
 64               TIE RATTLESNAKE ; OR, TIIE REBEL PRIVATEER.&#xD;
 and probably a great dal more contented. I   "I am so glad to see you back again Ir&#xD;
 haven't the cligitest idea that, the Poet meant  " And I am glad to ho back again, lady-bird,'&#xD;
@@ -5515,7 +5520,7 @@ S&#xD;
 I&#xD;
 8&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6977-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC6977-00000035"/>&#xD;
 66               THE RATTLESNAKE; OR, THE REBEL PRIVATEER.&#xD;
 been forced to run, and to reach the latitude of evidently endeavoring to close with the ship so&#xD;
 Boston as soon as possible.                 as to hoard her.&#xD;
@@ -5651,7 +5656,7 @@ Iner, And leaning on the strong arm of Mur- Dinsrore and his daughter Abeona as 
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6977-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC6977-00000036"/>&#xD;
 68               THE RATTLESNAKE ; OR, THE~ REBEL PRIVATEER.&#xD;
 to wom se wsgratl idebted fr kindness,- of Miss Fiuta's-a guest in the house wherein&#xD;
 potoihom ahe was 'gretyme eo.            lie served  He knew not what to do.&#xD;
@@ -5786,7 +5791,7 @@ maining  where-e was, amd left."            advised him to look after his inform
 &#xD;
 l1&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6977-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC6977-00000037"/>&#xD;
 THE RATTLESNAKE; OR, THE REBEL PRIVATEER.     71&#xD;
 &#xD;
 70&#xD;
@@ -5997,7 +6002,7 @@ c s&#xD;
 &#xD;
 Y&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6977-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC6977-00000038"/>&#xD;
 72         THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.&#xD;
 &#xD;
 me that we are over-matched, I shall haul off !&#xD;
@@ -6197,7 +6202,7 @@ topsaies tand hauled by the wind. -She flow thundeimn thwreprso iread ring.th&#x
 hoisted the Confederate flag, and seemed deter-  "There, reports on its rapid wingsna  e&#xD;
 do resist the steamship, which, from her last rattle " eraed Murdock      "Te was ne rir&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6977-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC6977-00000039"/>&#xD;
 ,a&#xD;
 }"&#xD;
 ? ':&#xD;
@@ -6345,7 +6350,7 @@ s&#xD;
 &#xD;
 k&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6977-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC6977-00000040"/>&#xD;
 76&#xD;
 &#xD;
 THE RATTLESNAKE ; OR, THE REBEL PRIVATEER.&#xD;
@@ -6483,7 +6488,7 @@ y&#xD;
 &#xD;
 77&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6977-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC6977-00000041"/>&#xD;
 dI&#xD;
 &#xD;
 78&#xD;
@@ -6583,7 +6588,7 @@ t:e u tter-deck rail than overboard he went. As for myself, I'm off for the war.
 Ioot out   ott as SOOn as I could ; but it wasye war.&#xD;
 fta, f r'ewe could find him , and                           [THE END.3&#xD;
 &#xD;
-<pb  n="80 (Advertisement) -81" xml:id="VAC6977-00000042"/>&#xD;
+<pb n="80 (Advertisement) -81" xml:id="VAC6977-00000042"/>&#xD;
 NEW BOOKS&#xD;
 JUST ISSUED BY&#xD;
 &#xD;
@@ -6734,7 +6739,7 @@ a&#xD;
 }y&#xD;
 ShrZ'&#xD;
 &#xD;
-<pb  n="82 (Advertisement) " xml:id="VAC6977-00000043"/>&#xD;
+<pb n="82 (Advertisement) " xml:id="VAC6977-00000043"/>&#xD;
 Brady's Publishing House, 24 Ann Street, New York.&#xD;
 FREDERIC A. BRADY,&#xD;
 (SUCCESSOR TO H. LONG &amp;amp; BROTHER,)&#xD;
@@ -6812,8 +6817,8 @@ l g&#xD;
 &#xD;
 &#xD;
                                             
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

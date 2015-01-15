@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC5911">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC5911">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >De histori ov Magnus Maha'rba and de Blak Dragun </title>
-            <author >Brown, Nathan, (1807-1886)</author>
+            <title>De histori ov Magnus Maha'rba and de Blak Dragun </title>
+            <author>Brown, Nathan, (1807-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC5911</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC5911</idno>
+            <idno type="wright2" n="previous">wright2-0384</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >[Backwards D]e histori ov Magnus Maha'rba and de Blak Dragun</title>
-                  <author >Brown, Nathan, (1807-1886)</author>
+                  <title>[Backwards D]e histori ov Magnus Maha'rba and de Blak Dragun</title>
+                  <author>Brown, Nathan, (1807-1886)</author>
                </titleStmt>
-               <extent >122 p.</extent>
+               <extent>122 p.</extent>
                <publicationStmt>
-                  <publisher >Printed for de Filolojikal Gemna</publisher>
+                  <publisher>Printed for de Filolojikal Gemna</publisher>
                   <pubPlace>Nu-York </pubPlace>
-                  <date  when="1866">1866</date>
+                  <date when="1866">1866</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>[Backwards D]e histori ov Magnus Maha'rba and de Blak Dragun</head> 
+            <head>[Backwards D]e histori ov Magnus Maha'rba and de Blak Dragun</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC5911-00000001"/>-  t&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC5911-00000001"/>-  t&#xD;
 . s&#xD;
 a&#xD;
 }&#xD;
@@ -116,7 +121,7 @@ Nil-YORK:&#xD;
 PRINTED FOR GlE FILOLOJIKAI GEMANA.&#xD;
 MtDC CCLXVI.t&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC5911-00000002"/>&#xD;
+<pb n="0" xml:id="VAC5911-00000002"/>&#xD;
 ~,1,- no&#xD;
 &#xD;
 41A&#xD;
@@ -153,7 +158,7 @@ A&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="iv-5" xml:id="VAC5911-00000003"/>&#xD;
+<pb n="iv-5" xml:id="VAC5911-00000003"/>&#xD;
 iv&#xD;
 &#xD;
 accenting of the vowels, a, e, i, o, u, to give them&#xD;
@@ -211,7 +216,7 @@ a klas ov monomdniaks, kbld jiolojists, iu spend&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC5911-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC5911-00000004"/>&#xD;
 6              Ena     STa4trhn.&#xD;
 ar laivz in digin up and asortin ad6z disgiabli&#xD;
 krieurz, and kalkaldtin ie piriudz ov antikwiti in&#xD;
@@ -283,7 +288,7 @@ L6.&#xD;
 l  R&#xD;
 lr&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC5911-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC5911-00000005"/>&#xD;
 8&#xD;
 &#xD;
 tabligin ar koloniz in e soua and&#xD;
@@ -352,7 +357,7 @@ fegunal klas, kold Ovurlukurz, hi mdd' aat studio&#xD;
 aer spegal biznez. Tu gratifai ibr pins ad invent-&#xD;
 ed meni karius enjinz for lasurdtin and mangling ae&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC5911-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC5911-00000006"/>&#xD;
 10&#xD;
 &#xD;
 ieg ov ae helots; and daivurz aimnris&#xD;
@@ -418,7 +423,7 @@ krnir    Y 4fiuIrn.&#xD;
 &#xD;
 CAPTURE II.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC5911-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC5911-00000007"/>&#xD;
 It woz several hundred   i&#xD;
 Kristofur aat a yun jaiant by re      tm o m&#xD;
 biant b       ydms naekai ae nim ov Samunkl&#xD;
@@ -494,7 +499,7 @@ hur sor. In ae kounsil aat 96d hru aiz onurz er&#xD;
 &#xD;
 ffupvs LlUvarbao&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC5911-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC5911-00000008"/>&#xD;
 14                            -&#xD;
 wer mesenjurz from Sunland, m  wr rT     .ai&#xD;
 but a    n      o    unn-d       er Drag'nianz,&#xD;
@@ -562,7 +567,7 @@ ov sait.&#xD;
 &#xD;
 gRagillys All-ItA ba.&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC5911-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC5911-00000009"/>&#xD;
 17&#xD;
 &#xD;
 CAPTUf RIII.&#xD;
@@ -628,7 +633,7 @@ deas; sumtaimz as wer konfaind in 16Dsum dun-&#xD;
 &#xD;
 AT1t nts mub rbnc.&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC5911-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC5911-00000010"/>&#xD;
 18&#xD;
 junz til as wasted aw'i -&#xD;
 ae fdvaitmddofd sa          ungur and diziz; but&#xD;
@@ -711,7 +716,7 @@ aat ce prinses must bi givn up, akordiu tu ac&#xD;
 bond ov bitroaal hwich htir f iaur had konfest aat&#xD;
 hi saind. It woz not 1o bif6r nnz kdm aat mies-&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC5911-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC5911-00000011"/>&#xD;
 20&#xD;
 enjurz from  e Blak Draginwer oeo.&#xD;
 tu sikur Fridima and konve hur tore     ard&#xD;
@@ -778,7 +783,7 @@ hunturz.&#xD;
 &#xD;
 1u9nlys Valporba.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC5911-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC5911-00000012"/>&#xD;
 23&#xD;
 &#xD;
 CAPTUI IV.&#xD;
@@ -841,7 +846,7 @@ ma n6tist a strdnj fair in hiz ai, and hiz ditermind&#xD;
 'R " OUT a g&#xD;
 C:P-l             , ab&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC5911-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC5911-00000013"/>&#xD;
 24             Wapms         b&#xD;
 luk olmdst fraitnd hur, ad gi n n from hiz aptrans&#xD;
 aat hi' woz medittin no hirm tu hur. Aftur bur-&#xD;
@@ -908,7 +913,7 @@ In ae furst pl6s ae abt it prizumcuus for a fu in-&#xD;
 divijualz tu get up a krussd agenst sue a venur-&#xD;
 abl antediluvian, hd woz ikwal and perhaps mdr&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC5911-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC5911-00000014"/>&#xD;
 aan ikwal in pour and prestij tu ae suvurin him-&#xD;
 self. Sekundli, if eni ain woz tu bi dun, it gud&#xD;
 bi dun bai ae kin ov ace kuntri; and az hi woz at&#xD;
@@ -978,7 +983,7 @@ ae koz, hi r6rd wia fari and. lagt hiz tel agenst&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC5911-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC5911-00000015"/>&#xD;
 28               na&#xD;
 ae pales wblz til as guk az if rer bad bin an era-&#xD;
 kwek. Oe aundur ov hiz rdrin ek6d ivn tu ie&#xD;
@@ -1048,7 +1053,7 @@ and ae yun men and wimin ov Korland bigan tu&#xD;
 &#xD;
 95 A&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC5911-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC5911-00000016"/>&#xD;
 30&#xD;
 &#xD;
 bria a fregor and pfirur er, and tu fil nu inpulsez,&#xD;
@@ -1092,7 +1097,7 @@ And hwen ae pipi had pikt acm up, and eg-&#xD;
 &#xD;
 Txiut  Thibx.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC5911-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC5911-00000017"/>&#xD;
 32&#xD;
 &#xD;
 ,mM  nv s11 aI r bm~&#xD;
@@ -1163,7 +1168,7 @@ and diklerd aat hi wud aksept ov  rain les aan&#xD;
 undivaided swd from 69un tu 69un strdt akros Ge&#xD;
 c&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC5911-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC5911-00000018"/>&#xD;
 kontinent, and from hwer ae noraurn laiun 94ks&#xD;
 hiz sndi men tu hwer ae suaurn aligtr sunz&#xD;
 himself on ae sandi 96r ov ae Grdt Bd sn. lie&#xD;
@@ -1230,7 +1235,7 @@ at God himself, if hi disaprdvd ov ac Dragunz&#xD;
 &#xD;
 r-&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC5911-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC5911-00000019"/>&#xD;
 36&#xD;
 &#xD;
 dtinz, wud send doun a aundurb6lt ti distroi him&#xD;
@@ -1292,7 +1297,7 @@ hiz artiluri, and ard upon it gelz and kombus-&#xD;
 &#xD;
 CTR  x b.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC5911-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC5911-00000020"/>&#xD;
 tiblz, setin it on fair, and filia it Wia sm6k and&#xD;
 fldmz. And hi drov out ae men aat wer set tu&#xD;
 gird it, and tdr doun Ge kinz banur and put in its&#xD;
@@ -1359,7 +1364,7 @@ ae ki1z flag t6rn doun, and ae s6ljurz ov Sam-&#xD;
 unkl faird upon and drivn out ov abr kasi, and&#xD;
 ae ratlsndks traiumfin 6vur its ruinz, aiz ari waiz&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC5911-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC5911-00000021"/>&#xD;
 jj&#xD;
 [  i&#xD;
 t f&#xD;
@@ -1459,7 +1464,7 @@ l1w&#xD;
 &#xD;
 Txtwt&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC5911-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC5911-00000022"/>&#xD;
 (VVvI&#xD;
 .nms v t~ta&#xD;
 &#xD;
@@ -1522,7 +1527,7 @@ awz, and let sum ov L'z andz hi konfiske'ted, and&#xD;
 &#xD;
 42&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC5911-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC5911-00000023"/>&#xD;
 44&#xD;
 &#xD;
 let az meni Kuganz az dir fdrst tu help him in hiz&#xD;
@@ -1599,7 +1604,7 @@ hi gud bi purmited tu mangyfakcur mum   out ov&#xD;
 hwotevur matfrialz hi abt m6st konvinyent, and&#xD;
 at eni substans stampt and koind in (Le trejur&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC5911-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC5911-00000024"/>&#xD;
 46                 Ma      alta&#xD;
 nilz 9ud bi kounted for ae trd koin and kurensi&#xD;
 ov ae reim. And Lord Grinfig multiplaid hiz&#xD;
@@ -1681,7 +1686,7 @@ F'  j&#xD;
 Ilys Lqathbao&#xD;
 4 , as,&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC5911-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC5911-00000025"/>&#xD;
 48              Tatnvs Tr axe&#xD;
 mait kronc and bi sikar. And as wer wel plizd&#xD;
 for a taim, but ae soil woz swompi, and aer haid.-&#xD;
@@ -1749,7 +1754,7 @@ rvur wer bif6r aem. And DhkM i 'n       ie on&#xD;
 horsbak r6d on bif6r ae rest, and r ci&#xD;
 furst, hi found abr a worb6t ov Samankl, n&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC5911-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC5911-00000026"/>&#xD;
 50&#xD;
 &#xD;
 hwic hi enturd and woz sdf. And uaur pips and&#xD;
@@ -1798,7 +1803,7 @@ i  i&#xD;
 &#xD;
 Lakolivs&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC5911-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC5911-00000027"/>&#xD;
 53&#xD;
 &#xD;
 52&#xD;
@@ -1873,7 +1878,7 @@ tht&#xD;
 &#xD;
 ,            l  rb .&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC5911-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC5911-00000028"/>&#xD;
 54&#xD;
 &#xD;
 frend9ip ov ae Kuganz. And hi went aws doun.&#xD;
@@ -1947,7 +1952,7 @@ ifat hi kerz for ue K~uganz oro diir te won-~&#xD;
 d erin  and   reed  F idi a,  wil s k rn s  an d&#xD;
 konst1rn him.  6 ao ngnz        k     u&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC5911-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC5911-00000029"/>&#xD;
 ae pip! ov Sunland wil traiumf dvur us and mo-k&#xD;
 ohir impotent, and gr6 boldur in fait aan bifdr.&#xD;
 Raaur let a3 kin wdt for a ndr ospiguz sizn; and&#xD;
@@ -2010,7 +2015,7 @@ a                           '&#xD;
 ,&#xD;
 ,&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC5911-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC5911-00000030"/>&#xD;
 abuv ae rest, s6 hi gdv him ae cif komand. But&#xD;
 Dik Pontif woz a yun woryur, and ae dldur cIfs&#xD;
 wer jelus, and displizd Gat a stripling gud bi phdst&#xD;
@@ -2098,7 +2103,7 @@ f-=   \ y;"=&#xD;
 ,rtL&#xD;
 Y,'r  '  - Y a&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC5911-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC5911-00000031"/>&#xD;
 60&#xD;
 &#xD;
 jTacrn  t jd~&#xD;
@@ -2175,7 +2180,7 @@ I&#xD;
 f      f  f'&#xD;
 E&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC5911-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC5911-00000032"/>&#xD;
 62&#xD;
 &#xD;
 o,&#xD;
@@ -2260,7 +2265,7 @@ I}li&#xD;
 &#xD;
 rrr Yi&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC5911-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC5911-00000033"/>&#xD;
 *&#xD;
 &#xD;
 64&#xD;
@@ -2346,7 +2351,7 @@ M: ariz Abliii,&#xD;
 &#xD;
 Tu nir            rb i.&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC5911-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC5911-00000034"/>&#xD;
 66         3, snAlbigrbr                                                                       6&#xD;
 &#xD;
 wia aem, and mai prezens gal nevur mdr bi a&#xD;
@@ -2423,7 +2428,7 @@ r&#xD;
 , v,, 0  W  R, a " axb-.,Yo&#xD;
 , Pt"  It    Q&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC5911-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC5911-00000035"/>&#xD;
 68&#xD;
 &#xD;
 Bluguinvz   2   jidrn.                                                                                                6&#xD;
@@ -2533,7 +2538,7 @@ iii i+ '&#xD;
 &#xD;
 ' ql&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC5911-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC5911-00000036"/>&#xD;
 70&#xD;
 &#xD;
 cenz, and had sat doun tu it and drink, and tu&#xD;
@@ -2594,7 +2599,7 @@ noizes wer herd, and hwisliiz in ae er, and a&#xD;
 &#xD;
 Thiw5 Utlatfirba.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC5911-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC5911-00000037"/>&#xD;
 72                   I3Th nv 0    l liirn.                                                                                                        7&#xD;
 &#xD;
 flapin ov winz, az ov dimonz enrijd bikoz er&#xD;
@@ -2671,7 +2676,7 @@ saind (1e dikri, hi and Lord  Siwordur, and ad&#xD;
 &#xD;
 rn&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC5911-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC5911-00000038"/>&#xD;
 74            (a~iuvs   JJritr.                                                                                      7&#xD;
 &#xD;
 slid it wia ae grdt sIl and sent it fora tu bi&#xD;
@@ -2762,7 +2767,7 @@ s    ,&#xD;
 ,F&#xD;
 r    I,&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC5911-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC5911-00000039"/>&#xD;
 77&#xD;
 &#xD;
 CAPTUR XII.&#xD;
@@ -2826,7 +2831,7 @@ enturd into aem, and pozest aem, and med aem&#xD;
 &#xD;
 Tg't                    -Tljirba*&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC5911-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC5911-00000040"/>&#xD;
 78&#xD;
 strong for bat]. And ad km tu Gem in drfmz o&#xD;
 ae nait, and infonzd intu em a p6rgun ov abr dn&#xD;
@@ -2900,7 +2905,7 @@ west, and tuk up hiz lain ov marc for ae Fiaur-&#xD;
 + t&#xD;
 .   ,&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC5911-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC5911-00000041"/>&#xD;
 80&#xD;
 &#xD;
 wotur. But hwen hi had krost ae Twinsf hi&#xD;
@@ -2975,7 +2980,7 @@ at Milkinpenz.                        divaiz na&#xD;
 Aftur ais fdlyur hk Granit bigan t    e aints&#xD;
 skimz for disloji. ae DIragonianz&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC5911-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC5911-00000042"/>&#xD;
 hwerin as trusted. And hi sent out hiz gips and&#xD;
 hiz pafaindurz tu penetrdet ae lks and somps&#xD;
 and Roundabout bdyuz on ae rait hand and on ae&#xD;
@@ -3066,7 +3071,7 @@ i  ! i&#xD;
 f''&#xD;
 't '&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC5911-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC5911-00000043"/>&#xD;
 84             B~p     Saah-&#xD;
 ov St6nijak, and fot til ae sun went doun, and&#xD;
 gcn ue batl went on bai munlait. And a silescal&#xD;
@@ -3136,7 +3141,7 @@ j ~&#xD;
 &#xD;
 f "&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC5911-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC5911-00000044"/>&#xD;
 ,r atx~  Thaj  xdbn.&#xD;
 &#xD;
 tuk up cer lain ov mire fbr ae kinz pales, but&#xD;
@@ -3215,7 +3220,7 @@ iit&#xD;
 &#xD;
 C   r r   C '    i "&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC5911-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC5911-00000045"/>&#xD;
 jurz b1 ae vairus ov hiz necur, and miglin wie&#xD;
 ac ranks hi brifrd upon an hiz poiznus and in..-&#xD;
 toadar nzbrea, until aer aiz glisnd laik dimunz&#xD;
@@ -3290,7 +3295,7 @@ Osamiz bodi laiz mn61durnin Qo grey',&#xD;
 R T&#xD;
 -laffUt'S A' Talifirba.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC5911-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC5911-00000046"/>&#xD;
 90&#xD;
 &#xD;
 form, wi a dim outlain, havi ai apiras ov a&#xD;
@@ -3351,7 +3356,7 @@ f&#xD;
 &#xD;
 N'Taglivs TP4,rho&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC5911-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC5911-00000047"/>&#xD;
 93&#xD;
 &#xD;
 t~ft bu&#xD;
@@ -3422,7 +3427,7 @@ i Gab  dsnon hwic  a skwd n ov&#xD;
 fiSpirits med caer disent about ae midov    o&#xD;
 I~l spn&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC5911-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC5911-00000048"/>&#xD;
 94&#xD;
 &#xD;
 ATITh J~ir.&#xD;
@@ -3531,7 +3536,7 @@ e&#xD;
 ,.&#xD;
 H&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC5911-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC5911-00000049"/>&#xD;
 00   t1fl jri f x&#xD;
 &#xD;
 ad mait pdr aer venum  upon Ge recez kongrigs-&#xD;
@@ -3603,7 +3608,7 @@ on"gr endnr Ger soroz, and ;,lat hi must in sum&#xD;
 w6 endevur tu mdk pis WiG     e Dragn  bf6r it&#xD;
 gud bi wurs wie aem aan it woz.        IGr&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC5911-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC5911-00000050"/>&#xD;
 98              &amp;amp;   m   W  sh.&#xD;
 advaizd ae ki a at bai wd ov 96in ae Dragun dr"&#xD;
 onor andnsekt  hgd b-1d'&#xD;
@@ -3669,7 +3674,7 @@ p reur, or 1tu&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC5911-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC5911-00000051"/>&#xD;
 CAPTURE. XV.&#xD;
 &#xD;
 101&#xD;
@@ -3734,7 +3739,7 @@ alone. e lain ov advans aat Dditwel and Miklmaki,&#xD;
 &#xD;
 im%  tttts Diz, ui tl"b&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC5911-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC5911-00000052"/>&#xD;
 102&#xD;
 &#xD;
 g         al 1otba.                           103&#xD;
@@ -3821,7 +3826,7 @@ i   .Cd&#xD;
 £   f&#xD;
 a:&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC5911-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC5911-00000053"/>&#xD;
 104&#xD;
 krestfbln, and left ae spdus phnz ov Goijusland&#xD;
 tu ae mersi ov ae konkurur. And hwen Dnk Qur-&#xD;
@@ -3893,7 +3898,7 @@ I.&#xD;
 &#xD;
 Kj&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC5911-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC5911-00000054"/>&#xD;
 10&#xD;
 &#xD;
 turned hiz fds tu e mountenz, but ae kavalri ov&#xD;
@@ -3961,7 +3966,7 @@ jurz wud lisn tu n6 entritiz, but i spait ov hur&#xD;
 struglz karid hut of tu Qer ofisurz, bai h o&#xD;
 durz gi woz lojd in a prizn.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC5911-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC5911-00000055"/>&#xD;
 CAPTUR XVI&#xD;
 &#xD;
 ae Dragdnian drmiz wer nou disban-&#xD;
@@ -4049,7 +4054,7 @@ P&#xD;
 6&#xD;
 fl1Y&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC5911-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC5911-00000056"/>&#xD;
 lit          lgrns R~hh.&#xD;
 9un.   Yet a dimd it cc hrja'&#xD;
 r6 pldst a stroll gird aroundareinjles hal  an&#xD;
@@ -4122,7 +4127,7 @@ enli drdpt in ge wfdz ov m6rnin ; and ae sun&#xD;
 &#xD;
 1tgituyai r 5tto&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC5911-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC5911-00000057"/>&#xD;
 112&#xD;
 &#xD;
 gr edark and ghmiz ; and ae wordurz ov e skai&#xD;
@@ -4213,7 +4218,7 @@ gi had riet ae plis, gi tuk from hur gurdi an ai-&#xD;
 &#xD;
 ,i cjn " 1&#xD;
 &#xD;
-<pb  n="114-115 (Index) " xml:id="VAC5911-00000058"/>&#xD;
+<pb n="114-115 (Index) " xml:id="VAC5911-00000058"/>&#xD;
 urn stail, and pdst hur hand on ae rok tu rait&#xD;
 just binia ae solitari ndm. And hwail ae multitnd&#xD;
 wer goutinp, and bifdr ac rok woz pfrst, Fridifma&#xD;
@@ -4323,7 +4328,7 @@ meni serpents aer,101.&#xD;
 &#xD;
 114                     t              I'n i r1J&#xD;
 &#xD;
-<pb  n="118 (Index) -119 (Index) " xml:id="VAC5911-00000059"/>&#xD;
+<pb n="118 (Index) -119 (Index) " xml:id="VAC5911-00000059"/>&#xD;
 18&#xD;
 &#xD;
 on ze Twns, 100.&#xD;
@@ -4528,7 +4533,7 @@ p&#xD;
 -r&#xD;
 3.&#xD;
 &#xD;
-<pb  n="120 (Index) -121 (Index) " xml:id="VAC5911-00000060"/>&#xD;
+<pb n="120 (Index) -121 (Index) " xml:id="VAC5911-00000060"/>&#xD;
 120&#xD;
 &#xD;
 L.Ingap, an 6 pin in cai Ai&#xD;
@@ -4720,7 +4725,7 @@ brij for ae Dragun, 97; iz&#xD;
 entaist intu Sndland, but&#xD;
 eskeps, 98.&#xD;
 &#xD;
-<pb  n="122 (Index) " xml:id="VAC5911-00000061"/>&#xD;
+<pb n="122 (Index) " xml:id="VAC5911-00000061"/>&#xD;
 Twinsi, a trim and provins Wikedburg, tc'kn bai Granit&#xD;
 in Sunland, 76.            on koroneun de, 91.&#xD;
 Wddenz d, f6ra de ov ae&#xD;
@@ -4767,8 +4772,8 @@ Unlks&#xD;
 &#xD;
 &#xD;
   &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

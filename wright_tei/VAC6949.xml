@@ -1,96 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6949">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6949">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Yankee Middy, or, The Two Frigates </title>
-            <author >Hazel, Harry, (1814-1889)</author>
+            <title>The Yankee Middy, or, The Two Frigates </title>
+            <author>Hazel, Harry, (1814-1889)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6949</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6949</idno>
+            <idno type="wright2" n="previous">wright2-1405</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The Yankee middy, or, The two frigates</title>
-                  <author >Hazel, Harry, (1814-1889)</author>
+                  <title>The Yankee middy, or, The two frigates</title>
+                  <author>Hazel, Harry, (1814-1889)</author>
                </titleStmt>
-               <extent >112 p. </extent>
+               <extent>112 p. </extent>
                <publicationStmt>
-                  <publisher >H. Long</publisher>
+                  <publisher>H. Long</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1853">[1853]</date>
+                  <date when="1853">[1853]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-09-02">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-09-02">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The Yankee middy, or, The two frigates</head> 
+            <head>The Yankee middy, or, The two frigates</head>
             <p>
-               <pb  n="Cover" xml:id="VAC6949-00000001"/>dp&#xD;
+               <pb n="Cover" xml:id="VAC6949-00000001"/>dp&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n=" (TitlePage) " xml:id="VAC6949-00000002"/>&#xD;
+<pb n=" (TitlePage) " xml:id="VAC6949-00000002"/>&#xD;
 THE YANKEE MIDDY;&#xD;
 OR,&#xD;
 THE TWO FRIGATES.&#xD;
@@ -120,7 +125,7 @@ r&#xD;
 7-&#xD;
 iE&#xD;
 &#xD;
-<pb  n="" xml:id="VAC6949-00000003"/>&#xD;
+<pb n="" xml:id="VAC6949-00000003"/>&#xD;
 ci a,)~ii/V&#xD;
 S15                      -,O&#xD;
 &#xD;
@@ -168,7 +173,7 @@ _- r&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6949-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6949-00000004"/>&#xD;
 THE YANKEE MIDDY; OR&#xD;
 &#xD;
 6&#xD;
@@ -233,7 +238,7 @@ S  °&#xD;
 &#xD;
 ,n&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6949-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC6949-00000005"/>&#xD;
 THE YANKEE MtDDY ioR,&#xD;
 &#xD;
 CHAPTER II.&#xD;
@@ -306,7 +311,7 @@ THE TWO FRIGATES.&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6949-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6949-00000006"/>&#xD;
 10              THE YANKEE MIDDY ' OR,&#xD;
 &#xD;
 t&#xD;
@@ -399,7 +404,7 @@ awakened by the noise of the old man's entrance.&#xD;
 &#xD;
 THE PWO FxIGATE.               11&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6949-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6949-00000007"/>&#xD;
 THB 'Two FRIGATES.&#xD;
 &#xD;
 12&#xD;
@@ -459,7 +464,7 @@ a&#xD;
 &#xD;
 -     1&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6949-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6949-00000008"/>&#xD;
 THE~ TWO  +KJ04TEB. I"&#xD;
 &#xD;
 M           THE1 YANIERE 1MW)DY  R&#xD;
@@ -545,7 +550,7 @@ n,&#xD;
 &#xD;
 ;5&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6949-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC6949-00000009"/>&#xD;
 16             THE YANKEE MIDDY ; OR,&#xD;
 &#xD;
 ing, but continued at his task as calmly as though no one was&#xD;
@@ -690,7 +695,7 @@ s&#xD;
 ,&#xD;
 r&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6949-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6949-00000010"/>&#xD;
 pleasing as it falls on the ear on a calm, still night; then sweep.&#xD;
 ing down again, it careened away over the face of the waves,&#xD;
 breaking their mirror-like expanse into countless fragments of&#xD;
@@ -790,7 +795,7 @@ bearing down toiu'them.&#xD;
 ,-&#xD;
 t&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6949-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6949-00000011"/>&#xD;
 7&#xD;
 &#xD;
 2Q&#xD;
@@ -913,7 +918,7 @@ Y&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6949-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6949-00000012"/>&#xD;
 it~&#xD;
 t  t&#xD;
 'IL#&#xD;
@@ -1006,7 +1011,7 @@ i   .&#xD;
 i tt .&#xD;
 3                "    -                                E  .&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6949-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC6949-00000013"/>&#xD;
 t&#xD;
 l'&#xD;
 -&#xD;
@@ -1116,7 +1121,7 @@ t'&#xD;
 t 1!{&#xD;
 y    S!&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6949-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6949-00000014"/>&#xD;
 t&#xD;
 ;&#xD;
 !'!&#xD;
@@ -1261,7 +1266,7 @@ e ^'&#xD;
 ,. r&#xD;
 a&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6949-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6949-00000015"/>&#xD;
 28&#xD;
 &#xD;
 THE YANk  hIlDYl'  'OR,&#xD;
@@ -1358,7 +1363,7 @@ t&#xD;
 &#xD;
 ''&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6949-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6949-00000016"/>&#xD;
 g3~&#xD;
 Ii ,&#xD;
 11&#xD;
@@ -1451,7 +1456,7 @@ i&#xD;
 6 {   "&#xD;
 ,&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC6949-00000017"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC6949-00000017"/>&#xD;
 32                TIHE YANKEE, MIDDY  OR,&#xD;
 feelings of love, was the youth who had been so singularly res.&#xD;
 cued from a watery grave.         ;&#xD;
@@ -1488,7 +1493,7 @@ neath a profusion of the clustering leaves, and star-like flowers&#xD;
 of the jasmine, ;the climbing clemati, .aid. the beautiful little&#xD;
 trumipet-ahaped, scarlet-hued ,convolvu4s---are seated a lady&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6949-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6949-00000018"/>&#xD;
 Ij4&#xD;
 T HE .TWO FRIGATEs. -'&#xD;
 and, gentleman; both young, both handsome,&#xD;
@@ -1558,7 +1563,7 @@ although it has&#xD;
 nd, how thank-&#xD;
 i coast. To&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6949-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6949-00000019"/>&#xD;
 ur  4&#xD;
 -'p4&#xD;
 &#xD;
@@ -1639,7 +1644,7 @@ F&#xD;
 R&#xD;
 4&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6949-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6949-00000020"/>&#xD;
 38       ~~THE 'YAitFAI 3M1Db; )E,THTWFEAlI.3&#xD;
 &#xD;
 CHAPTER 'VII..&#xD;
@@ -1785,7 +1790,7 @@ tF&#xD;
 &#xD;
 THE TWQ FRIGATES,              29&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6949-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC6949-00000021"/>&#xD;
 40             THE YANKEE MIDDY; eTR,&#xD;
 &#xD;
 big sea," said Juliet ; "and when you cum'd in widout making'&#xD;
@@ -1862,7 +1867,7 @@ pa t..&#xD;
 &#xD;
 THE TWO FRIGATES.              41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6949-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6949-00000022"/>&#xD;
 -THE YANKEE MIDDY; on,&#xD;
 &#xD;
 CHAPTER VIII.&#xD;
@@ -1939,7 +1944,7 @@ C11&#xD;
 &#xD;
 THE Two FRIGATES.              43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6949-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6949-00000023"/>&#xD;
 S&#xD;
 &#xD;
 i&#xD;
@@ -2034,7 +2039,7 @@ S&#xD;
 s&#xD;
 r&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6949-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6949-00000024"/>&#xD;
 4G)&#xD;
 &#xD;
 THE YANKEE MIDY OR,&#xD;
@@ -2120,7 +2125,7 @@ THE TWO FRIGATEs.&#xD;
 &#xD;
 4,'&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6949-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC6949-00000025"/>&#xD;
 48            'riE YANKEE MIDDY ; OR,&#xD;
 &#xD;
 .a TH1WO F LIGATIE5.            49&#xD;
@@ -2216,7 +2221,7 @@ i&#xD;
 "i xy&#xD;
 - t&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6949-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6949-00000026"/>&#xD;
 50      -        THE YANKIE MIDDY; OR,1*&#xD;
 He was not long in reaching the glade ; and the first objects&#xD;
 that met his view, when he entered it, were Markham Sinclair,&#xD;
@@ -2295,7 +2300,7 @@ your satisfaction.&#xD;
 Your uncle and guardian,&#xD;
 MARKHAM SINCLAIR.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6949-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6949-00000027"/>&#xD;
 62&#xD;
 &#xD;
 THE YANKEE MIDDY; Oa,&#xD;
@@ -2399,7 +2404,7 @@ Spencer, who had thus,, by a slight touch of the melo-&#xD;
 dtamatic, obtained his end, now clasped his deceived mistress&#xD;
 closely to his breast ; and, after she had somewhat recovered&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6949-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6949-00000028"/>&#xD;
 THE . TWO FRIGATES.&#xD;
 &#xD;
 54             THE YANKEE MIDDY ; OE,&#xD;
@@ -2460,7 +2465,7 @@ tourad readeresy aroede1,-'n&#xD;
 our        are already'aware how abortive was her a'itempt&#xD;
 to prevent the duel taking place.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6949-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC6949-00000029"/>&#xD;
 56                 THE YANKE    U1I'Yj UR,E&#xD;
 &#xD;
 Poor Agnes! the flight of the villain who had so serpent-like&#xD;
@@ -2514,7 +2519,7 @@ Boston.&#xD;
 &#xD;
 TIIE TWO FRIGATES.            57.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6949-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC6949-00000030"/>&#xD;
 I&#xD;
 &#xD;
 58&#xD;
@@ -2606,7 +2611,7 @@ ft&#xD;
 //&#xD;
 w 1&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6949-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6949-00000031"/>&#xD;
 6O-             THE VA1EE MIDD1 OR,&#xD;
 it being unlucky to sail on a Friday, whistle atsa; er for&#xD;
 landsman to be the first man:to go aloft after getting ot o&#xD;
@@ -2705,7 +2710,7 @@ H&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6949-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC6949-00000032"/>&#xD;
 THE TWO FRIGATEs.               3&#xD;
 &#xD;
 THE YANKEE MIDDY; OR,&#xD;
@@ -2761,7 +2766,7 @@ distinctly seen than when at first discovered.&#xD;
 Y e a          f                 -&#xD;
 S     t                st&#xD;
 &#xD;
-<pb  n="64-65 (Illustration) " xml:id="VAC6949-00000033"/>&#xD;
+<pb n="64-65 (Illustration) " xml:id="VAC6949-00000033"/>&#xD;
 04&#xD;
 &#xD;
 THE.YANKEE MIDD'' OR,&#xD;
@@ -2813,7 +2818,7 @@ THE ASSASSINATION.&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6949-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC6949-00000034"/>&#xD;
 4'     ax .;&#xD;
 lar4 r}  '°  ^ t"  'K&#xD;
 +  t  s[  j°i  i t  ~-  : k1-?  r.,. r&#xD;
@@ -2877,7 +2882,7 @@ F1 1 r TWO : 'R; Q A L ESQ&#xD;
 hk ti. pia _T-  xWa  ' aT. Y ..k&#xD;
 ~                 .J  ; .. 4.s ;t&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6949-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC6949-00000035"/>&#xD;
 THE YANKEE MIDDY 'OR,&#xD;
 &#xD;
 69&#xD;
@@ -2958,7 +2963,7 @@ mx  Two FIttc ATr .&#xD;
 &#xD;
 b&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6949-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC6949-00000036"/>&#xD;
 70              THE YANKEE MIDPY; .,&#xD;
 unable te work:his sails;. he had now .drifted so nigh to the&#xD;
 Invincible, that Captain Manly gave orders for the boarders&#xD;
@@ -3044,7 +3049,7 @@ At the motnent oui hero commenced' hid attack on Spencer,"&#xD;
 the gang of boarders,' which, under the command of Lieutenant&#xD;
 Phillips of the Invincible, had landed on the English frigate's''&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6949-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC6949-00000037"/>&#xD;
 72y             TnE YANKEE MIDDY; ;OR,&#xD;
 &#xD;
 forecastle, having at length compelled the.force.opposing ,them&#xD;
@@ -3101,7 +3106,7 @@ unarmed enemy."&#xD;
 &#xD;
 Th E.TWO IFRIGATES.&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6949-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC6949-00000038"/>&#xD;
 74             THE YA;N1ICE MIDDY ; OR,&#xD;
 &#xD;
 CHAPTER XV.&#xD;
@@ -3179,7 +3184,7 @@ And all went merry as a marriage bell."&#xD;
 ,&#xD;
 E&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6949-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC6949-00000039"/>&#xD;
 4&#xD;
 &#xD;
 7;'&#xD;
@@ -3261,7 +3266,7 @@ already suspected, was Marsto hSpe cdt,' alias Yiscount Sea.&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6949-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC6949-00000040"/>&#xD;
 78       ~~TIH~ tANKEE -MWDY4 . OS,Til0 'R(TE.7&#xD;
 &#xD;
 hm-" Yes,    certainn as.that the other rusge rose;bud,&#xD;
@@ -3352,7 +3357,7 @@ j&#xD;
 1&#xD;
 E&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6949-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC6949-00000041"/>&#xD;
 $jT~iE YAN~E MIDDY               OR,&#xD;
 ur       t   ri:."o  lit  siu nt ' 'teJof yours= and let dt see&#xD;
 what. metfe the paifhave in them."&#xD;
@@ -3450,7 +3455,7 @@ t&#xD;
 }}  ((  A                   4j  ir                         55&#xD;
 tdttf      iii        .e. Pf.k     'L.e          " 51+          Sc              }j "Y&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6949-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC6949-00000042"/>&#xD;
 82             THE YANKEE MIDDY ;OR,&#xD;
 &#xD;
 "Now Marc Antony," said Cesar, addressing his rival as&#xD;
@@ -3527,7 +3532,7 @@ bok   a ear, you riigg ,', 'said' Mard, "athe' sametime&#xD;
 shting' his 'sjthritenrly'in dos: proximty to''Cesar's&#xD;
 nose, «ef dis chile ketch you tryin' to buss Julet'agin 'dis 'fi&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6949-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC6949-00000043"/>&#xD;
 $4             THE YANKEE , MIDDY-;, OR,&#xD;
 &#xD;
 HIV&#xD;
@@ -3582,7 +3587,7 @@ no how."&#xD;
 &#xD;
 THE TWO FRI'GATES.i&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6949-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC6949-00000044"/>&#xD;
 THE Y NKEE MIDDY    OR,                                                                  W      G,&#xD;
 &#xD;
 87&#xD;
@@ -3680,7 +3685,7 @@ I&#xD;
 I&#xD;
 M&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6949-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC6949-00000045"/>&#xD;
 88&#xD;
 &#xD;
 THE YANKEE MIDDY; OR,&#xD;
@@ -3769,7 +3774,7 @@ _'&#xD;
 s&#xD;
 r _&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6949-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC6949-00000046"/>&#xD;
 90"            THB:-YAN1E MIDDY ;'OR,&#xD;
 &#xD;
 blessed shelter of HOME, for the sake'of that "vanity of 'vani-&#xD;
@@ -3864,7 +3869,7 @@ t&#xD;
 ="t&#xD;
 "f&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6949-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC6949-00000047"/>&#xD;
 THE YANKIE MIDDY; OR,&#xD;
 and it was not until after he' had made severe 'atempts, that&#xD;
 he did at last succeed in rising to his feet. '&#xD;
@@ -3934,7 +3939,7 @@ J'&#xD;
 1&#xD;
 1&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC6949-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC6949-00000048"/>&#xD;
 V .&#xD;
 &#xD;
 94&#xD;
@@ -4043,7 +4048,7 @@ last?" '&#xD;
 "Le t us retire further down the garden, love," said Spen-&#xD;
 cer, as with his arm around her waist he drew her gently&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6949-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC6949-00000049"/>&#xD;
 06             THE YANKEE MIDDY; ioR,&#xD;
 &#xD;
 forward ;-" your uncle may. perhaps overhear us where we&#xD;
@@ -4139,7 +4144,7 @@ eyeing the recluse.&#xD;
 in his hurried walk before the weeping Blanche ; "did I not&#xD;
 7&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC6949-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC6949-00000050"/>&#xD;
 98             THE YANKEE MIDDY ; OR,&#xD;
 &#xD;
 THE' TWO FRIGATES.&#xD;
@@ -4235,7 +4240,7 @@ other eyes than those of friendship. I loved her-purely,&#xD;
 &#xD;
 99&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC6949-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC6949-00000051"/>&#xD;
 100            THE YANKEE MIDDY . OR'&#xD;
 &#xD;
 deeply, and devotedly loved her; and I soon discovered, by&#xD;
@@ -4378,7 +4383,7 @@ A&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC6949-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC6949-00000052"/>&#xD;
 102              THE YANKEE MIDDY ; OR&#xD;
 "Marion was on the point of becoming a mother when the&#xD;
 duel took place ; and having, despite all efforts made to hinder,&#xD;
@@ -4516,7 +4521,7 @@ i&#xD;
 &#xD;
 THE' Two FRIGATES.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC6949-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC6949-00000053"/>&#xD;
 THE YANKEE MIDDY ; OR,&#xD;
 &#xD;
 CHAPTER XIX.&#xD;
@@ -4623,7 +4628,7 @@ N&#xD;
 j&#xD;
 M&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC6949-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC6949-00000054"/>&#xD;
 1o&#xD;
 &#xD;
 THE YANKEE MIDDY ; OR,&#xD;
@@ -4723,7 +4728,7 @@ S&#xD;
 Y       #&#xD;
 fey&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC6949-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC6949-00000055"/>&#xD;
 108             TIHE YANKEE MIDDY  OR,&#xD;
 enabled by its momentary glare :to .form a shrewd guess at&#xD;
 what was going ori, and immediately proceeded to act accord-&#xD;
@@ -4803,7 +4808,7 @@ i&#xD;
 t&#xD;
 1&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC6949-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC6949-00000056"/>&#xD;
 THE YANKEE MIDDY; OR,&#xD;
 &#xD;
 am very sorry to have kept you all waiting, but really I could&#xD;
@@ -4891,7 +4896,7 @@ THE TWO FRIGATES.&#xD;
 &#xD;
 1I"&#xD;
 &#xD;
-<pb  n="112-113 (Advertisement) " xml:id="VAC6949-00000057"/>&#xD;
+<pb n="112-113 (Advertisement) " xml:id="VAC6949-00000057"/>&#xD;
 GET TIIIS BOOK, AND READ IT!&#xD;
 THE SOLDIER'S WIFE; or, Scenes in Canteen and on th&#xD;
 SBY G. W. M. REYNOLDS.&#xD;
@@ -5010,7 +5015,7 @@ r- window so as to&#xD;
 &#xD;
 .3;&#xD;
 &#xD;
-<pb  n="114 (Advertisement) -115 (Advertisement) " xml:id="VAC6949-00000058"/>&#xD;
+<pb n="114 (Advertisement) -115 (Advertisement) " xml:id="VAC6949-00000058"/>&#xD;
 '.1&#xD;
 &#xD;
 4&#xD;
@@ -5163,7 +5168,7 @@ up at thie itue, speedily set them to rights upon take thn slightest notice of t
 thme subject and made thuem comprehend what that lie was thus the object of so much atten-&#xD;
 a sergeant really was,                     tion. Prim, rigid, iind sternly sedate, lie sat im-&#xD;
 &#xD;
-<pb  n="116 (Advertisement) -117 (Advertisement) " xml:id="VAC6949-00000059"/>&#xD;
+<pb n="116 (Advertisement) -117 (Advertisement) " xml:id="VAC6949-00000059"/>&#xD;
 THE SOLDIER'S WIFE.&#xD;
 &#xD;
 n&#xD;
@@ -5396,7 +5401,7 @@ watersthemselves, "Frederick-dear Frederick,&#xD;
 something line occurred I You ame unhappy I"&#xD;
 "'I cannot conceal it from you, be ved Lucy,n&#xD;
 &#xD;
-<pb  n="118 (Advertisement) -119 (Advertisement) " xml:id="VAC6949-00000060"/>&#xD;
+<pb n="118 (Advertisement) -119 (Advertisement) " xml:id="VAC6949-00000060"/>&#xD;
 THE SOLDIER'S WIFE.&#xD;
 &#xD;
 9&#xD;
@@ -5569,7 +5574,7 @@ THE SOLDIER'S WIFE.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="120 (Advertisement) -121 (Advertisement) " xml:id="VAC6949-00000061"/>&#xD;
+<pb n="120 (Advertisement) -121 (Advertisement) " xml:id="VAC6949-00000061"/>&#xD;
 10                  THE SOLDIER'S WIFE.&#xD;
 &#xD;
 embrace. At that instant an ejaculation ofI&#xD;
@@ -5781,7 +5786,7 @@ paid for. The soldier, gentlemen, is like the oncie when do yott get it. I think
 Itly'of the field : hue toils not, neither does hoe you will confess that I have made out a stritg&#xD;
 epiti As for his meals, lhe las then as regular case. We must hiear ino mre of the hardships&#xD;
 &#xD;
-<pb  n="122 (Advertisement) -123 (Advertisement) " xml:id="VAC6949-00000062"/>&#xD;
+<pb n="122 (Advertisement) -123 (Advertisement) " xml:id="VAC6949-00000062"/>&#xD;
 vz                     -       THE SOLDIER'S WIFE.&#xD;
 of atsoldier's life. Why, it's like sailing through why he doesn't blow himself out with any of&#xD;
 existence upon a river of rose-water, with only these'delicious fruitsI at which he will turn up&#xD;
@@ -5926,7 +5931,7 @@ ale-and luok sharp I" parted, and hoping that they should nteet again&#xD;
 :Therue was armound of applause at thus spirted ii the some conivvial manner' on tme following&#xD;
 ebehauvior on the part oif the sergeant; aind mld eventimng. - - - - p&#xD;
 &#xD;
-<pb  n="124 (Advertisement) -125 (Advertisement) " xml:id="VAC6949-00000063"/>&#xD;
+<pb n="124 (Advertisement) -125 (Advertisement) " xml:id="VAC6949-00000063"/>&#xD;
 14                    THE SOLDIER'S WIFE.&#xD;
 &#xD;
 CHAPTER IV.&#xD;
@@ -6142,7 +6147,7 @@ comienyung woman iin thme neighiboihuod; advantages nt possessed by amuy othar v
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="126 (Advertisement) -127 (Advertisement) " xml:id="VAC6949-00000064"/>&#xD;
+<pb n="126 (Advertisement) -127 (Advertisement) " xml:id="VAC6949-00000064"/>&#xD;
 16                            THE SOLDIER'S WIFE.&#xD;
 woman of the same rank in the whole neigh- drive them out of you. He at least is disposed&#xD;
 borhood-I might even say in the whole county ; of: he will get no work from any tenant of the&#xD;
@@ -6354,7 +6359,7 @@ some feelings and the deadening of others i tha&#xD;
 premature lecay of the whole being. -&#xD;
 Geraldl Redhuru wvan 'n--&#xD;
 &#xD;
-<pb  n="128 (Advertisement) -129" xml:id="VAC6949-00000065"/>&#xD;
+<pb n="128 (Advertisement) -129" xml:id="VAC6949-00000065"/>&#xD;
 wilt ifutaur&#xD;
 or th ai&#xD;
 ;heap L. r&#xD;
@@ -6506,8 +6511,8 @@ i   t&#xD;
 &#xD;
 &#xD;
                                                                   
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

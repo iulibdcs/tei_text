@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7723">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7723">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Secrets of a Young Girl in Words and Pictures </title>
-            <author >Anonymous</author>
+            <title>Secrets of a Young Girl in Words and Pictures </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7723</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7723</idno>
+            <idno type="wright2" n="previous">wright2-2176</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Secrets of a young girl in words and pictures</title>
-                  <author >Anonymous</author>
+                  <title>Secrets of a young girl in words and pictures</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >50 p.</extent>
+               <extent>50 p.</extent>
                <publicationStmt>
-                  <publisher >F. Kahlau</publisher>
+                  <publisher>F. Kahlau</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date >[n.d.]</date>
+                  <date>[n.d.]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-16">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-16">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Secrets of a young girl in words and pictures</head> 
+            <head>Secrets of a young girl in words and pictures</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7723-00000001"/>SF~CRFTS&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7723-00000001"/>SF~CRFTS&#xD;
 OF A&#xD;
 YOUNG GIRL&#xD;
 &#xD;
@@ -101,7 +106,7 @@ NEW YORK.&#xD;
 &#xD;
 n e&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7723-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7723-00000002"/>&#xD;
 1'&#xD;
 &#xD;
 In Words anc&#xD;
@@ -137,7 +142,7 @@ I&#xD;
 &#xD;
 SEOTRETS OF&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7723-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7723-00000003"/>&#xD;
 4               Secrets of a Young Girl.&#xD;
 script, pens, ink and paper, ef re which is seated a young man,&#xD;
 with a care-worn and anxious face. This is the prompter.&#xD;
@@ -253,7 +258,7 @@ Q.. 4&#xD;
 &#xD;
 Secrets of a Young Girl.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7723-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7723-00000004"/>&#xD;
 Secrets qf a Young Girl.            7&#xD;
 &#xD;
 6               S3cre~s of a Young Girl.&#xD;
@@ -360,7 +365,7 @@ to oblivion the troubles and anxieties of her worldly existence.&#xD;
 &#xD;
 6&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7723-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7723-00000005"/>&#xD;
 8&#xD;
 &#xD;
 Secrets of a Young Girl.&#xD;
@@ -481,7 +486,7 @@ Yes, dear reader, this is of every day occurrence, and yet many of&#xD;
 &#xD;
 1,&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7723-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7723-00000006"/>&#xD;
 10&#xD;
 &#xD;
 Secrets of a Young Gill.&#xD;
@@ -600,7 +605,7 @@ I&#xD;
 &#xD;
 '1&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7723-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7723-00000007"/>&#xD;
 I&#xD;
 .4&#xD;
 I&#xD;
@@ -721,7 +726,7 @@ There was a slight, nervous flutter about the manner of Madame&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7723-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7723-00000008"/>&#xD;
 14&#xD;
 &#xD;
 Secrets of a Young Girl.&#xD;
@@ -858,7 +863,7 @@ Secrets of a Young Girl.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7723-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7723-00000009"/>&#xD;
 I'                                                                                                                                                                                                                                                                                                                                                                                                    K&#xD;
 &#xD;
 16&#xD;
@@ -973,7 +978,7 @@ I&#xD;
 &#xD;
 17&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7723-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7723-00000010"/>&#xD;
 18&#xD;
 &#xD;
 Secrets of a Young Girl,&#xD;
@@ -1107,7 +1112,7 @@ R&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7723-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7723-00000011"/>&#xD;
 At length our heroine found a seat upon which only one person&#xD;
 was sleeping-it was a woman closely muffled up in a scanty shawl.&#xD;
 Marian could not see her features, and without disturbing her, sat&#xD;
@@ -1227,7 +1232,7 @@ K&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7723-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7723-00000012"/>&#xD;
 _______                -~                ~              ~&#xD;
 &#xD;
 22&#xD;
@@ -1348,7 +1353,7 @@ F!&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7723-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7723-00000013"/>&#xD;
 -~                                                                            L~. ~&#xD;
 &#xD;
 Secrets of a Young Girl.&#xD;
@@ -1465,7 +1470,7 @@ Marian's special mission at the Slap-Up Saloon was to temi~t the&#xD;
 &#xD;
 24&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7723-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7723-00000014"/>&#xD;
 ~7'~ ~&#xD;
 -~ ___&#xD;
 &#xD;
@@ -1584,7 +1589,7 @@ Our heroine had a new dress and a new song for the occasion of&#xD;
 &#xD;
 Secrets of a Young Girl,&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7723-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7723-00000015"/>&#xD;
 in&#xD;
 4"&#xD;
 1             28                 Secrets of a Young Girl.&#xD;
@@ -1706,7 +1711,7 @@ K&#xD;
 &#xD;
 4"&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7723-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7723-00000016"/>&#xD;
 I'&#xD;
 &#xD;
 CHAPTER X.&#xD;
@@ -1832,7 +1837,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7723-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7723-00000017"/>&#xD;
 .32              Secrets of a Young Girl.                                                              Searels of a Young Girl.                33&#xD;
 &#xD;
 CHAPTER XL&#xD;
@@ -1945,7 +1950,7 @@ Ralph nodded.&#xD;
 "For how long?&#xD;
 The question was asked with a shoulder.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7723-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7723-00000018"/>&#xD;
 Secrets of a Young Girl.&#xD;
 &#xD;
 "I don't know."&#xD;
@@ -2058,7 +2063,7 @@ Dozens and dozens of rats surroundecf her, nearer and nearer the&#xD;
 &#xD;
 35&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7723-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7723-00000019"/>&#xD;
 f -&#xD;
 23&#xD;
 r? r&#xD;
@@ -2187,7 +2192,7 @@ cruelly abducted from the Slap-up Saloon by the Marquis of West.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7723-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7723-00000020"/>&#xD;
 'I&#xD;
 I&#xD;
 &#xD;
@@ -2330,7 +2335,7 @@ Below it was a heap of rubbish scattered over the dry mould of&#xD;
 what might once have been a bed of flowers or shrubs.&#xD;
 Near this ]ay an iron gai~denLseat, covered with the rust of ages.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7723-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7723-00000021"/>&#xD;
 I&#xD;
 &#xD;
 p&#xD;
@@ -2470,7 +2475,7 @@ Secrets of a Young Girl.&#xD;
 0&#xD;
 AU&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7723-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7723-00000022"/>&#xD;
 'I&#xD;
 &#xD;
 '4'&#xD;
@@ -2592,7 +2597,7 @@ believe that she's had anything to do with the murder ; but it looks&#xD;
 &#xD;
 A3&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7723-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7723-00000023"/>&#xD;
 44         ~Secrets of a Youtng Girl,                                                       Sceso         on      il&#xD;
 &#xD;
 suspicious, and, if I didn't know something about her I should think&#xD;
@@ -2706,7 +2711,7 @@ tives came bounding on the stage. and seized hold of our heroine.&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7723-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7723-00000024"/>&#xD;
 "Yes," gasped our heroine, in a terror-stricken whisper.&#xD;
 "Then I charge you with the murder of the Marquis of West-&#xD;
 wood."&#xD;
@@ -2819,7 +2824,7 @@ hot rum.&#xD;
 "I want to know who were the men who did that job over yonder&#xD;
 the. other night," said Hawke qtiietly; "Oh don't look so innocent,&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7723-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7723-00000025"/>&#xD;
 48             &amp;amp;cre1~ of a Young Girl.&#xD;
 you know what I mean, the robbery and murder that was committed&#xD;
 at Black Ivies. Who were the men?&#xD;
@@ -2935,7 +2940,7 @@ cessive was the rack of mind and body.&#xD;
 But noxv her fair name was cleared of the foul charge of murder&#xD;
 her prison doors were thrown open and she was free to depart.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7723-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7723-00000026"/>&#xD;
 50              Secrels of a Young Ciri.&#xD;
 &#xD;
 44&#xD;
@@ -2984,7 +2989,7 @@ tion of her loving husband, effectually put an end to the trials and&#xD;
 temptations that beset the Adventures of a Ballet Girl.&#xD;
 *L4.&#xD;
 &#xD;
-<pb  n="52 (Advertisement) " xml:id="VAC7723-00000027"/>&#xD;
+<pb n="52 (Advertisement) " xml:id="VAC7723-00000027"/>&#xD;
 4&#xD;
 N&#xD;
 &#xD;
@@ -2992,8 +2997,8 @@ A h&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

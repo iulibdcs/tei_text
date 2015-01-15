@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6242">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6242">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Wetherel Affair </title>
-            <author >De Forest, John William, (1826-1906)</author>
+            <title>The Wetherel Affair </title>
+            <author>De Forest, John William, (1826-1906)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6242</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6242</idno>
+            <idno type="wright2" n="previous">wright2-0713</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The Wetherel affair</title>
-                  <author >De Forest, John William, (1826-1906)</author>
+                  <title>The Wetherel affair</title>
+                  <author>De Forest, John William, (1826-1906)</author>
                </titleStmt>
-               <extent >222 p.</extent>
+               <extent>222 p.</extent>
                <publicationStmt>
-                  <publisher >Sheldon</publisher>
+                  <publisher>Sheldon</publisher>
                   <pubPlace>New York</pubPlace>
-                  <date  when="1873">1873</date>
+                  <date when="1873">1873</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The Wetherel affair</head> 
+            <head>The Wetherel affair</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6242-00000001"/>I&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6242-00000001"/>I&#xD;
 &#xD;
 _,&#xD;
 &#xD;
@@ -103,7 +108,7 @@ J&#xD;
 SHELDON AND COMPANY,&#xD;
 1878.&#xD;
 &#xD;
-<pb  n="0Advertisement (Table of Contents) " xml:id="VAC6242-00000002"/>&#xD;
+<pb n="0Advertisement (Table of Contents) " xml:id="VAC6242-00000002"/>&#xD;
 i5          "&#xD;
 F=&#xD;
 "r&#xD;
@@ -247,7 +252,7 @@ I'&#xD;
 &#xD;
 CONTENTS.&#xD;
 &#xD;
-<pb  n="iv (Table of Contents) -5" xml:id="VAC6242-00000003"/>&#xD;
+<pb n="iv (Table of Contents) -5" xml:id="VAC6242-00000003"/>&#xD;
 CONTENTS.&#xD;
 &#xD;
 CHAP.&#xD;
@@ -365,7 +370,7 @@ natural or verbal, had ever been granted. The worshipfulness of beauty, how-&#xD
 &#xD;
 .6&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6242-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6242-00000004"/>&#xD;
 T                    THE WETHEREL AFFAIR.&#xD;
 ever, they could see plainly, and they were creditably sensitive, as it appeared,&#xD;
 to maidenly purity.&#xD;
@@ -474,7 +479,7 @@ agreeable; it ridded him of the confident smile and fatuous levity with which&#x
 r   no was wont to spoil the effect of his compliments; it enabled him to say his&#xD;
 pleasant thing with a sincere tone, which made it gracious and effective.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6242-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC6242-00000005"/>&#xD;
 /&#xD;
 &#xD;
 s'&#xD;
@@ -591,7 +596,7 @@ ing some remaining anchor of prudence, his heart was beginning to drift dan-&#xD
 gerously. We can understand now the prompt and serious sympathy which&#xD;
 he had accorded to Wolverton's tale of shipwrecked love.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6242-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6242-00000006"/>&#xD;
 10                   THE WETIHEREL AFFAIR.&#xD;
 "It is beautiful," replied Nestoria, her clear blue eyes looking down like&#xD;
 two little cloudless heavens upon the indigo wavelets. Then, with a pathetic'&#xD;
@@ -699,7 +704,7 @@ cle; and I ami sorry, very sorry to say it, but we are not on good terms."-&#xD;
 " Still, I will try to see you, if you permit it," he continued. " I venture to&#xD;
 hope that I shall, be able to meet you again somewhere."&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6242-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6242-00000007"/>&#xD;
 12                   THE WETHEREL AFFAIR.&#xD;
 "I shall be pleased," was her answer. Then she said no more on the sub&#xD;
 ject, being not quite'sure that she had not done wrong in saying even so much;&#xD;
@@ -803,7 +808,7 @@ that he had just come out of the wanderings of the children of Israel, and had&#
 got into the world 'of our time by mistake. I beat him on the name of the&#xD;
 villa. ,I dated all my letters from Sea Lodge, and I had a signboard put up&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6242-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6242-00000008"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 with Sea Lodge on it, and now everybody calls it Sea Lodge, and he can't help&#xD;
@@ -916,7 +921,7 @@ I'll,&#xD;
 &#xD;
 15&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6242-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC6242-00000009"/>&#xD;
 16                   THE WETHEREL AFFAIR.&#xD;
 all feel as if we had shared his labors and seen his .face. Come straight in.&#xD;
 James will attend to your baggage. Alice, run, tell Cousin Wetherel 1iat it is&#xD;
@@ -1025,7 +1030,7 @@ and gazed at her intently&#xD;
 &#xD;
 rI&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6242-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6242-00000010"/>&#xD;
 [8                   THE WETHpREL AFFAIR.&#xD;
 "I do not," said Nestoria. " My father says that I look as my mother did&#xD;
 at my age."&#xD;
@@ -1129,7 +1134,7 @@ Judge's express orders, put her mouth to the keyhole and said in a monoto-&#xD;
 6&#xD;
 F{&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6242-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6242-00000011"/>&#xD;
 20                    THE WETHEREL AFFAIR.&#xD;
 nous, official tone, " Go to the ant, thou sluggard; consider her ways and be&#xD;
 wise."&#xD;
@@ -1236,7 +1241,7 @@ profl~tab~le " and continued his readiing.&#xD;
 Sarah, obtusely conscious of approval, glanced cheerfully at her juniors in&#xD;
 domestic travail, and then, curbing her spiritual pride, bent her loose eyes&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6242-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6242-00000012"/>&#xD;
 22                  THE WETHEREL AFFAIR.&#xD;
 upon the floor. A sparkle of' amusement danced under Mrs. Dinneford's&#xD;
 lashes, and the r.attleheaded Alice barely prevented a smile. Nestoria, educated&#xD;
@@ -1339,7 +1344,7 @@ worth."&#xD;
 "Whien I have exhausted Solomon I will turn my attention to Tupper,''&#xD;
 answered the Judge with sedate scorn.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6242-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC6242-00000013"/>&#xD;
 24                   THE WETHEREL AFFAIR.&#xD;
 "Well, do give Nestoria another bit of chicken," put in Alice. "She has&#xD;
 nothing to eat."&#xD;
@@ -1446,7 +1451,7 @@ simply marvelling that uch luxury could feel discontent.&#xD;
 mustn't complain ; it is father ungrateful. I suppose uncle means to leave us&#xD;
 a gr at deal of money.'&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6242-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6242-00000014"/>&#xD;
 26                   THE WETIIEREL AFFAIR.&#xD;
 " And won't he leave anything to-?"  Nestoria began the sentence eager-&#xD;
 ly, but she did not finish it.&#xD;
@@ -1550,7 +1555,7 @@ cle, she found it impossible to believe that ie could be very bad, or so much as
 bad a little.&#xD;
 "Isppose he smokes still?" queried the Judge, in a tone which seemed to&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6242-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6242-00000015"/>&#xD;
 28                   THE WETHEREL AFFAIR.&#xD;
 declare that smoking leads to drinking,.and drinking to murder, and murder-&#xD;
 to the gallows, all three-doubtful statements in our day.&#xD;
@@ -1657,7 +1662,7 @@ kep, suc being the case, disturbances and evil adventures could not long be&#xD;
 &#xD;
 I      (&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6242-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6242-00000016"/>&#xD;
 30                   THE WETIIIREL AFFAIR.&#xD;
 CHAPTER VIII.&#xD;
 THE JOYS AND SNARES OF MOONLIGHT.&#xD;
@@ -1763,7 +1768,7 @@ woman, o, lihtsmano eder women, was much given to medical precepts.&#xD;
 &#xD;
 op&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6242-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC6242-00000017"/>&#xD;
 32                  THE WETHEREL AFFAIR.&#xD;
 "The moonlight is healthful, begging your pardon, Mrs.:Dinneford," in-&#xD;
 terposed the Judge. "The moonlight is but the reflection of the life-giving&#xD;
@@ -1844,7 +1849,7 @@ d, ome up here, Edward. And the Count may come, too."&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6242-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6242-00000018"/>&#xD;
 CHAPTER IX.&#xD;
 A WRONG-IIEADED HERO.&#xD;
 divulge what Edward Wetherel lhad to say to his cousin and&#xD;
@@ -1933,7 +1938,7 @@ moral philosophizings and spiritual insights, eduld see through his friend's sec
 ond-hand respect for religion in the form of a handsome girl, and smile at itsa&#xD;
 preposterous magnanimity.&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6242-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6242-00000019"/>&#xD;
 .36                 THE WETHEREL AFFAIR.&#xD;
 "Gracious youngster!" he grinned. "How much you c:an put up with&#xD;
 if it's only pleasant enough and pretty enough! Perhaps you could fancy St;&#xD;
@@ -2039,7 +2044,7 @@ the pride of his uncle, that he was descended from many recorded Wetherels.&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6242-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6242-00000020"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 "I suppose a count must be a gentleman in some one point of his character, if&#xD;
 you can only discover what that point is."&#xD;
@@ -2146,7 +2151,7 @@ there ;is fishing among the Thimble Islands. Come, old fellow ; say you wil.&#xD
 " Yes, say you will," echoed Poloski, catching at the phrase as a new one.&#xD;
 " Where there's a will there's a way. Say you will, and then go It."&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6242-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC6242-00000021"/>&#xD;
 40                  THE WETHEREL AFFAIR.&#xD;
 "While you're young," suggested Edward. " You are in the vein, Polos-&#xD;
 ki. Tell him to go it while he's young."&#xD;
@@ -2250,7 +2255,7 @@ with a graver air than she had worn hitherto, and -asked, " Where are you&#xD;
 staying, Cousin Edward? "&#xD;
 " At Brown's, on the other side of the bay," he said. " The Count and Mr&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6242-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6242-00000022"/>&#xD;
 42&#xD;
 &#xD;
 THE-WETIIEREL AFFAIR.&#xD;
@@ -2360,7 +2365,7 @@ desires to see completeness. It is a shame to fortune when 'a beauty cannot&#xD;
 dress beautifully. What did you say is her queer nameP"&#xD;
 "Nestoria."&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6242-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6242-00000023"/>&#xD;
 44.                  THE WETHEREL AFFAIR.&#xD;
 "There is a people called Nestorians," commented the omniscient Count.&#xD;
 "I wrote an Inquiry into the Origin of the Nestorians. I will give it to you&#xD;
@@ -2464,7 +2469,7 @@ If any one has inferred from Nestoria's simple ways and innocent air that&#xD;
 she was deficient in moral courage and energy, he has done her injustice.&#xD;
 Duty was a mighty force in hersoul, and at its call she could face much. Was&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6242-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6242-00000024"/>&#xD;
 46'                 THE WETHEREL AFFAIR&#xD;
 it her duty to examine this agreeable young gentleman auocut his misunder-&#xD;
 standing with his, good uncle and to urge him to bring it to a-close? That&#xD;
@@ -2571,7 +2576,7 @@ It was enough ; that gentle "mustn't " quelled him; it was mightier than a&#xD;
 box on the ear from some girls.&#xD;
 "It is an Oriental custom," she added, fearful that she had seemed un-&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6242-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC6242-00000025"/>&#xD;
 48                   THE WETHEREL AFFAIR.&#xD;
 friendly. " But I don't like it. It is the salute of an inferior to a superior, and&#xD;
 it seems to me degrading to humanity."&#xD;
@@ -2646,7 +2651,7 @@ eal-&#xD;
 iral&#xD;
 not&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6242-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6242-00000026"/>&#xD;
 50                   THE WETHEREL AFFAIR.&#xD;
 think at all harshly of him because of his wild ways. " He is as good, I dare&#xD;
 say, as young men average. What I mean is that he isn't of your sort."&#xD;
@@ -2753,7 +2758,7 @@ in Prosperity if it can also be continued irn godliness.. And you are the last&#
 Wetherel! How can I willingly be on ill terms with you?"&#xD;
 The young man bowed silently and with a seriousness which showed emo.-&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6242-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6242-00000027"/>&#xD;
 52                    THE WETHEREL AFFAIR.&#xD;
 Lion. He too, we know, was proud of the name, and his uncle's feeling on the&#xD;
 subject mcved him.&#xD;
@@ -2857,7 +2862,7 @@ apologize for it and to try to bring about a .parting on kindlier terms. But hie
 -did not give way to this impulse for the reason that, as he believed, the attempt&#xD;
 would degrade him, and would also be fruitless, li e cast an angry, sidelong&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6242-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6242-00000028"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 glance at his uncle, muttered to himself, "The stubborn, prejudiced old fool!"&#xD;
 bowed in silence, and departed.&#xD;
@@ -2964,7 +2969,7 @@ thing .of our own-do give him my share."&#xD;
 sought to be, he 'did not like to have his estate despised; and forrlt-moment he&#xD;
 was inclined to take his kinswoman's generous proposition as a personal affront.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6242-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC6242-00000029"/>&#xD;
 56                  THE WETHEREL AFFAIR.&#xD;
 In the next breath he admitted to himself that this feeling was wrong, and&#xD;
 added in a gentle voice, " My dear Cousin Dorothy, you honor our family.&#xD;
@@ -3068,7 +3073,7 @@ her thoughts.&#xD;
 " What makes you look so sad?'" he asked. "Because I don't care to&#xD;
 have my relations always 'in my lapP"&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6242-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC6242-00000030"/>&#xD;
 58                  THE WETHEREL: AFFAIR.&#xD;
 "It isn't that," she said. "Though that seems to me so-strange! I don't&#xD;
 know that.I ought to tell you what I was worrying about. I And yet-I will--&#xD;
@@ -3173,7 +3178,7 @@ him this at once."&#xD;
 In his heart lie added, with spine anxiety as well as with some triumph,&#xD;
 " How will he take it ?"&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6242-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6242-00000031"/>&#xD;
 60             THE WETHEREL AFFAIR.&#xD;
 &#xD;
 CHAPTER XVI.&#xD;
@@ -3281,7 +3286,7 @@ me? I. was willing and am willing to wait for you."&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6242-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC6242-00000032"/>&#xD;
 62                   THE WETHEREL AFFAIR.&#xD;
 The young man took her hand and bowed over it with the humble worship&#xD;
 of a lover who has no present chance to boast great things of himself, and who&#xD;
@@ -3362,7 +3367,7 @@ veracity and frankness.&#xD;
 himself, but the-gentle doubt was not lost upon the girl, and she left the room&#xD;
 almost happy, so cheering and deluding is love.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6242-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC6242-00000033"/>&#xD;
 CHAPTER XVII.&#xD;
 A COUNT'S PIIILOSOPHIZINGS.&#xD;
 - W   HO among us, that remembers distinctly his or her salad days, dare&#xD;
@@ -3451,7 +3456,7 @@ ever, on the Origins of Speech was not a myth; and fragments of it did event-&#x
 nally astonish and delude superficial pundits.&#xD;
 "Well, you are too deep for us," confessed Wolverton, with .lazy modesty~&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6242-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC6242-00000034"/>&#xD;
 66                  THE WETHEREL AFFAIR.&#xD;
 "I can't discuss philology with you. And here is Wetherel going uncom-&#xD;
 forted:."&#xD;
@@ -3554,7 +3559,7 @@ tive!"&#xD;
 she added, quite forgetting her own responsibility in the matter. " Here you&#xD;
 kew you venerable people, that Edward was a flibbertigibbet, and never told&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6242-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC6242-00000035"/>&#xD;
 68                  THE WETHEREL AFFAIR.&#xD;
 "Who could have guessed how things were going?" groaned the elder&#xD;
 woman. "The ways of Providence are dreadfully mysterious; too much so&#xD;
@@ -3661,7 +3666,7 @@ customed to denounce beauty as a (delusion and a snare, was spiritually be-&#xD;
 numbed to an amazinig extent by Nestorid's graces. It was mainly because&#xD;
 her sweet smile and golden hair reminded him of seraphs that lie could not&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6242-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC6242-00000036"/>&#xD;
 70                   THE WETHEREL AFFAIR.&#xD;
 warn her frankly that she had thrown her pearls of affection 'before the un-&#xD;
 clean, and command her strenuously to withdraw the precious offering. At&#xD;
@@ -3764,7 +3769,7 @@ fainting fit, or was it apoplexy? Forgetting all about Nestoria, she advanced&#x
 hastily to the old man and laid her hand upon his shoulder. In the next in--&#xD;
 dtant she snatched it away and shrieked withm all her strength, " Murder! "&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6242-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC6242-00000037"/>&#xD;
 72                   THE WETHEREL AFFAIR.&#xD;
 The terrible cry awakened or startled all tle members of the family,&#xD;
 and brought them one by one into the room, flurried, amazed, and staring.&#xD;
@@ -3874,7 +3879,7 @@ quence.&#xD;
 &#xD;
 k    0&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6242-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC6242-00000038"/>&#xD;
 74                  THE WETHEREL AFFAIR.&#xD;
 In her confusion of mind the good lady promptly stated that the property&#xD;
 was to be divided between herself, her daughter, Walter Lehming, and cer-&#xD;
@@ -3978,7 +3983,7 @@ ele dead in the house!"&#xD;
 "Yes, shocking coincidence, wasn't it?" mumbled Sweet, and withdrew&#xD;
 himself from her to meditate. He saw it all now: the young man and young&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6242-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC6242-00000039"/>&#xD;
 76                  THE WETHEREL AFFAIR.&#xD;
 woman had run away together; but first one or other of them had stolen. the&#xD;
 will and killed the old gentleman.&#xD;
@@ -4087,7 +4092,7 @@ brute and fool I had been."&#xD;
 Mrs. Dinneford lifted her eyes to heaven; here was a little comfort amid&#xD;
 S'a trouble; perhaps Edward would be better than lie had been.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6242-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC6242-00000040"/>&#xD;
 78                   THE WETHEREL AFFAIR.&#xD;
 "And poor Nestoria!" Alice babbled on. "Poor little Nestoria! What&#xD;
 has become of her? What do you think, Edward?"&#xD;
@@ -4146,7 +4151,7 @@ and amiable expression, which in" the end rendered it agreeable. ' The large&#xD
 gray eyes were patient, meditative, intelligent, and kind; the coarsely modelled&#xD;
 mouth had a smile of little less than divine sweetness. When he spoke, more-&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6242-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC6242-00000041"/>&#xD;
 80                  THE WETHEREL AFFAIR.&#xD;
 over, his low voice at once charmed the ear and touched the soul, so musical&#xD;
 was it, so cultured, and so sympathetic.&#xD;
@@ -4255,7 +4260,7 @@ fohe.&#xD;
 &#xD;
 81&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6242-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC6242-00000042"/>&#xD;
 82                  THE WETHEREL AFFAIR.&#xD;
 this calamity like firemen into. a burning house. But cheer up, my human&#xD;
 friends. Labor done with a will is sure to conquer. The will is in itself a&#xD;
@@ -4359,7 +4364,7 @@ such a situation as this otherwise than with sincriy nor the folly totrea&#xD;
 manhood, all the power to bear calamity that has bee grant callu Crimte&#xD;
 is not always discovered, but innocence always is. In the end the world ir&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6242-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC6242-00000043"/>&#xD;
 84                  THE WETHEREL AFFAIR.&#xD;
 charitable and disposed to believe the best. Little by little this accusation, or&#xD;
 rather this sufspicion, will die."&#xD;
@@ -4466,7 +4471,7 @@ do as we have done. But you-I do wish that you could have something."&#xD;
 " As long as there are schools to keep, I trust that I shall nut suffer," said&#xD;
 Lehming with his heavenly smile. " Let me revert to my subject,. For Ed-&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6242-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC6242-00000044"/>&#xD;
 86             '    THE WETHEREL AFFAIR.&#xD;
 ward's sake, and for the sake of our own dignity and our purity of soul, we&#xD;
 must be his firm friends. Is it agreed? "&#xD;
@@ -4570,7 +4575,7 @@ ward has to do, in order to win the world's respect and even its admiration,&#xD
 is to keep his uncle's estate, heap it up into millions, and become a powerful&#xD;
 capitalist, able to help or hinder others. Hospitality and generosity would&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6242-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC6242-00000045"/>&#xD;
 88                   THE WETHEREL AFFAIR.&#xD;
 give him popularity 'and surround him with sycophants. There, too, i§ pleas-&#xD;
 ure; he might enjoy it to the full, as of old; he might divert himself Nith in-&#xD;
@@ -4677,7 +4682,7 @@ I would have surrendered- all, if you had accepted. 'Well, now I must act.&#xD;
 Jon  owd ei' is ghite right in saying that I must give this pelf out of my own&#xD;
 -hand, and not wait for others to take it. I shall divide the estate according to&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6242-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC6242-00000046"/>&#xD;
 90                  THE WETHEREL AFFAIR.&#xD;
 the will, with one exception. Mrs. Dinneford and Alice and Lehming will&#xD;
 each receive what my uncle allotted to them. If .I do not owe this to you&#xD;
@@ -4781,7 +4786,7 @@ period of unconsciousness, or of stupor approaching to it. We know that un-&#xD;
 der overwhelming oppi-ession of fright or horror, conditions of spirit occur&#xD;
 -which may fairly be called waking nightmares. Men suddenly attacked by&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6242-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC6242-00000047"/>&#xD;
 92                   THE WETHEREL AFFAIR.&#xD;
 wild beasts or by Indians have been seen to stand paralyzed, staring at the&#xD;
 approaching death without striving to repel it or even uttering an exclama-&#xD;
@@ -4886,7 +4891,7 @@ has so often mocked, changing it into a shriek of despair. A tumult of fight..&#
 ing waves reeled into the boat, and in another moment the girl was struggling&#xD;
 for life.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC6242-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC6242-00000048"/>&#xD;
 94      -      THE WETHEREL AFFAIR.&#xD;
 &#xD;
 CHAPTER XXV.&#xD;
@@ -4988,7 +4993,7 @@ if the peril and escape had been the broadest joke possible.&#xD;
 night. " Where are you taking me to?" she presently inquired, not without&#xD;
 a hope that it might be to distant eastern lands.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6242-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC6242-00000049"/>&#xD;
 96                  THE WETHEREL AFFAIR.&#xD;
 "To New Yawk," said the negro. "We's done got thar now, I guess.&#xD;
 Don' ye hear 'em roundin' to? Capm is' gwine ter drop you.in New Yawk,&#xD;
@@ -5102,7 +5107,7 @@ i       r,  iit&#xD;
 t',:         "    t&#xD;
 a&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC6242-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC6242-00000050"/>&#xD;
 CHAPTER XXVI.&#xD;
 ROMANCE IN FACE OF REALITY.&#xD;
 ONE glance at the young woman who had so abruptly and cheerfully ad-&#xD;
@@ -5216,7 +5221,7 @@ THE WETHEREL4 AFFAIR.&#xD;
 &#xD;
 9g&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC6242-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC6242-00000051"/>&#xD;
 100                 THE WETHEREL AFFAIR.&#xD;
 ".I thought perhaps you were drawing a poniard," observed Imogen Eleo-&#xD;
 nore Jones, with a slight air of disappointment. f I was about to hold your&#xD;
@@ -5321,7 +5326,7 @@ shapely, hard-visaged, discolored edifices, they halted before a plain, dolefull
 plain doorway, a mere rectangular opening in am ungarnished front of cold&#xD;
 gi-ay stone.&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC6242-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC6242-00000052"/>&#xD;
 102                 THE WETHEREL AFFAIR.&#xD;
 "I have lodgings here," said Miss Imogen, with an air which seemed to&#xD;
 explain that it was only a temporary arrangement, and she should soon move&#xD;
@@ -5429,7 +5434,7 @@ way withl all air of secrecy which was equivalent to wearing an iron mask,&#xD;
 pursing her thin lips witil lofty firmness, and glancing neither to right nor left.&#xD;
 Nestoria, heCr face hidden by a green veil, and every nerve trembling with fear&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC6242-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC6242-00000053"/>&#xD;
 1O4                   THE WETHEREL AFFAIR.&#xD;
 :f discovery, followed close. They dined in one of the nutritive alcoves, keep.&#xD;
 ing the ragged curtains drawn upon the world. The waiter suspected nothing&#xD;
@@ -5533,7 +5538,7 @@ and her first name is Alisce, for I heard a gentleman call her so who was with&#
 her, and I think he xvas an admirer."&#xD;
 A haunting ghost, thie terror of discovery, suddenly slid close up to Nes-&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC6242-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC6242-00000054"/>&#xD;
 106                 THE WETHEREL AFFAIR.&#xD;
 toria, followed cy all those other menacing phantoms which belonged in its&#xD;
 train. She heard the feet of pursuers, and saw herself haled into halls of justice,&#xD;
@@ -5641,7 +5646,7 @@ cause you hide this man's guilt and shiel4l him from justice, therefore it must&
 be that you still love him; in some secret and evil recess of your heart there&#xD;
 is still an unholy remnant of affection."&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC6242-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC6242-00000055"/>&#xD;
 108                  'HE WETHEREL AFFAIR.&#xD;
 "No, no, no! " she protested in agony; and thereupon a pitiless voice an-&#xD;
 swered: " Expose him; surrender him to the gallows."  Nothing would an-&#xD;
@@ -5741,7 +5746,7 @@ meekly conscious of their deformity.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC6242-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC6242-00000056"/>&#xD;
 CHAPTER XXIX.&#xD;
 PERILOUS ACQUAINTANCES.&#xD;
 W HEN Imogen Eleonore returned home and was informed of the visit&#xD;
@@ -5847,7 +5852,7 @@ ii'&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC6242-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC6242-00000057"/>&#xD;
 112                  THE WETHEREL AFFAIR.&#xD;
 least conceived in their spirit. Like many men who long to be original, he&#xD;
 was instinctively and even to. a certain extent consciously an imitator, and&#xD;
@@ -5954,7 +5959,7 @@ her~ late seclusion impressed her, that it seemed to .her as if she were now for
 the first time entering human society. Moreover, there was tme terrible pos-&#xD;
 sibility that these men might guess her identity and surrender her to justice.&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC6242-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC6242-00000058"/>&#xD;
 Nevertheless, she could not help seeking their companionship, as a shipwrecked&#xD;
 pirate might draw toward navigators who should land upon his islet, though&#xD;
 fearful that they had come for his capture and punishment.&#xD;
@@ -6099,7 +6104,7 @@ seves.&#xD;
 at the Stacks and stacks of literature in my room."&#xD;
 "Te 'Spasmodic ' and the ' Turtle Dove!' " smiled Lehming. "I decline&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC6242-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC6242-00000059"/>&#xD;
 116&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
@@ -6209,7 +6214,7 @@ most crushed under that panth erishm thing Which a real romance almost always&#x
 is. But there is no need of philosophizing;r the situation is visible at the first&#xD;
 glance.&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC6242-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC6242-00000060"/>&#xD;
 118                   THE WETHEREL AFFAIR.&#xD;
 ",You must not speak in that way," replied Nestoria quietly, though with&#xD;
 an inward shudder. " God may some day take you at your word and grant&#xD;
@@ -6314,7 +6319,7 @@ previouslyT known her. Imogen Eleonore, returning- from a hasty twilight&#xD;
 shopping excursion, peeped into the sick-room to see how her patient fared,&#xD;
 and found her painting.&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC6242-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC6242-00000061"/>&#xD;
 120                  THE WETHEREL AFFAIR.&#xD;
 "I am so glad you have got well!" she exclaimed, moved by such honest&#xD;
 feeling that she spoke siipply..&#xD;
@@ -6424,7 +6429,7 @@ ryinig pilgrimage seemed to open before her, the vastness of the inhospitable&#x
 &#xD;
 121&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC6242-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC6242-00000062"/>&#xD;
 122&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
@@ -6539,7 +6544,7 @@ leaves or the scratching of a pen.&#xD;
 &#xD;
 128&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC6242-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC6242-00000063"/>&#xD;
 YIi&#xD;
 &#xD;
 124&#xD;
@@ -6662,7 +6667,7 @@ away with noble loathing. liHe was too meek to believe that his affection could&
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC6242-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC6242-00000064"/>&#xD;
 126                  THE WETIIEREL AFFAIR.&#xD;
 be worthy of complete acceptance, even at hands which pleaded for affection&#xD;
 as a charity; and to ask any woman whatever to receive him as a husband&#xD;
@@ -6735,7 +6740,7 @@ the gossip which forms so large a part of ordinary human converse.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC6242-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC6242-00000065"/>&#xD;
 128                  THE WETHEREL AFFAIR.&#xD;
 " Relatives are less to me than my own shadow," John Bowlder was accus-&#xD;
 tomed to boast, with some exaggeration. "My shadow is in a measure the&#xD;
@@ -6845,7 +6850,7 @@ relative were spared us for sepulture. But Sin and Death left their victim;&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC6242-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC6242-00000066"/>&#xD;
 10'      .           THE WETHEREL AFFAIR.&#xD;
 .yeonly took away their instrument. The iniquity of the righteous cannot&#xD;
 hid; but the iniquity of the wicked is covered. I cannot get over it.. My&#xD;
@@ -6956,7 +6961,7 @@ made him wonder at his blindness hitherto, the suspicion reached him that&#xD;
 the fugitive from Sea Lodge and Nettie Fulton might be the same person.&#xD;
 CHAPTER XXXIV.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC6242-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC6242-00000067"/>&#xD;
 132                 THE WETHEREL AFFAIR.&#xD;
 "1s it you, Cousin Walter?". she prattled, while her willowy figure so&#xD;
 swayed and her feathery head so tossed that she reminded him of a cypress in&#xD;
@@ -7063,7 +7068,7 @@ h- had put on the airs of a continental Tarveydrop. No turkeycock, gobbling&#xD;
 and strutting and ruffing his feathers among female turkeys, was ever a more&#xD;
 wonderful "model of deportment." Lebminug was unable to understand how&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC6242-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC6242-00000068"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 Alice could accord anysrespect or interest to such a grinning, polking, hyper-,&#xD;
@@ -7170,7 +7175,7 @@ Do you smile at all your troublesP"&#xD;
 " I have learned to do it," replied. Lehming. " Do you remember that&#xD;
 comic martyr, that model of patient endurance, in the '-Book of' Nonsense 'P&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC6242-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC6242-00000069"/>&#xD;
 130  .THE WETHEREL AFFAIR.&#xD;
 There was an old man who said, How&#xD;
 Shall I nee from this horrible cow?&#xD;
@@ -7278,7 +7283,7 @@ there ne ver~ was any torture like mines"&#xD;
 " How many innocent ones, since the foundation of the world, have suffered&#xD;
 likewise!" sighed Lehming. "It perplexes and pains one's spirit to think of&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC6242-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC6242-00000070"/>&#xD;
 A&#xD;
 &#xD;
 188                 TE WETHEREL AFFAIR.&#xD;
@@ -7385,7 +7390,7 @@ when the ice-fields under their feet 'slipped southward faster .than they could&
 toll northward. At th a end of a minute of tumultuous reflection his senti-&#xD;
 ments had drifted him far back from the deed to which his conscience suni-&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC6242-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC6242-00000071"/>&#xD;
 140                 THE WETHEREL AFFAIR.&#xD;
 moned him. It seemed to him as if untraversable spaces'had intruded be&#xD;
 tween him and that closet door; as if he could not reach it though he should&#xD;
@@ -7498,7 +7503,7 @@ I&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC6242-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC6242-00000072"/>&#xD;
 THE WETIIEREL AFFAIR.&#xD;
 &#xD;
 pale as a spectre of the gloomsome night, and she won't tell me where she has&#xD;
@@ -7572,7 +7577,7 @@ whisper.&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC6242-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC6242-00000073"/>&#xD;
 CHAPTER XXXVII.&#xD;
 PERSUASION AND EXPLANATION.&#xD;
 T HE flickering aurole of the waxen match which Lehming held between&#xD;
@@ -7670,7 +7675,7 @@ chance to judge your doubts? "&#xD;
 She looked at him with a dazed expression which might have meant that'&#xD;
 'ihe wanted to evade his question, or might have meant that she did not un-&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC6242-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC6242-00000074"/>&#xD;
 146&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
@@ -7785,7 +7790,7 @@ h     teav l   dMercy grant you sleep!" he 'responded. "My poor,&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC6242-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC6242-00000075"/>&#xD;
 148                 THE WETHEREL AFFAIR.&#xD;
 She passed out; she was as noiseless as a shadow; he listened in vain for&#xD;
 a sound which should indicate whither she had gone; after a while he extin-&#xD;
@@ -7889,7 +7894,7 @@ both night arid dawn, on her account. Lehming lelt only pleasure and hvon-&#xD;
 der, as if over a beneficent miracle.&#xD;
 " What health !" he marvelledl to himself. " What health of mind and&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC6242-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC6242-00000076"/>&#xD;
 f-&#xD;
 &#xD;
 150&#xD;
@@ -8003,7 +8008,7 @@ treason and draw my breath; indeed, it sometimes appears to me that I am not&#xD
 even changed. I have just been reading a description of the siege of Port&#xD;
 Hudson, telling how accustomed the artillerymen became to the bombard-&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC6242-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC6242-00000077"/>&#xD;
 152.&#xD;
 &#xD;
 IL&#xD;
@@ -8120,7 +8125,7 @@ Unabashed by his calamity, John Bowvlder picked himself up, briskly set&#xD;
 the chair on its clattering, noisy legs,. placed himself astraddle of it,, and com-.&#xD;
 nmeiiced singing some of his owyn verses:&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC6242-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC6242-00000078"/>&#xD;
 154                  THE WETHEREL' AFFAIR.&#xD;
 "All nature hath its clamorous joys ;&#xD;
 The hiding crickets make sharp noise,&#xD;
@@ -8228,7 +8233,7 @@ somewhat to the young man's advantage, but he could not be sure.&#xD;
 to man , he is leading a noble life. I hope that you will not be permitted to&#xD;
 turn himn from the way lie has taken."&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC6242-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC6242-00000079"/>&#xD;
 156                 THE WETIEREL AFFAIR.&#xD;
 "Nothing will turn him," said John Bowlder. " He is a chip of the old&#xD;
 gnarled Puritan oak. He is a Wetherel."&#xD;
@@ -8337,7 +8342,7 @@ gentlemen," he went on .with an earnestness unusual in him, he being com-&#xD;
 monly a talker of the elegantly languid type. " Came to-see Wetherel about&#xD;
 it, but glad to find you' both here. Don't you care anything about your rela-&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC6242-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC6242-00000080"/>&#xD;
 158                  THE WETIIEREL AFFAIR.&#xD;
 tive, Miss Dinneford? I do; not that I have the honor to know her nmuch,&#xD;
 but I hate to see a nice girl in danger of coming to grief-that is, when she's&#xD;
@@ -8444,7 +8449,7 @@ Jewish national faith, as we know it. Up to the captivity the Hlebrews had&#xD;
 no national faith. The school of the prophets, which was a patriotic sect, wor-&#xD;
 shipped the Baal o1: Lord of Israel, who, as German scholars have discovered&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC6242-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC6242-00000081"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 was a sun-god. The other Jews worshipped Moloch, who was the sun-god of&#xD;
@@ -8561,7 +8566,7 @@ THE WETHE REIN AFFAIR.&#xD;
 &#xD;
 161&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC6242-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC6242-00000082"/>&#xD;
 la2                  THE WETHEREL AFFAIR.&#xD;
 oy degrees how to perform their duties toward their employer, as well as to-&#xD;
 ward themselves," she said with a simple good faith which might have drawn&#xD;
@@ -8632,7 +8637,7 @@ Did.you not receive your invitation, my dear wetherel?"&#xD;
 and was sorry to increase it by publishing his own superior fashionableness,&#xD;
 "But I seldom go out of late. These crushes are uninteresting to me."&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC6242-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC6242-00000083"/>&#xD;
 1                   THE WETHEREL AFFAIR.&#xD;
 "You forget that Mr. Wetherel has suffered a bereavement lately," whis.&#xD;
 pered Mrs. Dinneford to Poloski.&#xD;
@@ -8739,7 +8744,7 @@ cruel. Mrs. Dinneford, as she looked at him through her tea's, thought of his&#x
 ." Be of good cheer," smiled Lehiming pitifully, as lie and Edward took their&#xD;
 departure. "I cannot believe that the Almighty Father in whom you have&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC6242-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC6242-00000084"/>&#xD;
 166                  THE WETHEREL AFFAIR.&#xD;
 trusted will.refuse you guidance and strength. If you want human help, send&#xD;
 for us immediately. I shall be here again to-morrow, and every day."&#xD;
@@ -8851,7 +8856,7 @@ lime and severe enough to b~e terrible.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC6242-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC6242-00000085"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 "I do believe," she said slowly and sadly, " that no woman ever let her&#xD;
@@ -8963,7 +8968,7 @@ THE WETHEREL AFFAIR.&#xD;
 &#xD;
 168&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC6242-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC6242-00000086"/>&#xD;
 170                  THE WETIIEREL AFFAIR.&#xD;
 does not follow the example of Alice Dinneford, prostrating itself before some&#xD;
 Poloski and saying, " Rule thou over us."&#xD;
@@ -9067,7 +9072,7 @@ softness of your heart and the hardness of your head. But money is a drug.&#xD;
 There is more where this comes from.. I haven't got to the bottom of my pile&#xD;
 by a long shut."&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC6242-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC6242-00000087"/>&#xD;
 TIlE WETHEREL AFFAIR.&#xD;
 &#xD;
 He quoted so many of our American "slangs," and he laughed so victori-&#xD;
@@ -9180,7 +9185,7 @@ general it worships all the more earnestly for winning. Alice was beginning&#xD;
 &#xD;
 178&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC6242-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC6242-00000088"/>&#xD;
 THE   ETHEREAFFAIR.THE WETHEREL AFFAIR.&#xD;
 &#xD;
 to be honestly and almost passionately and we must say admirably infatuated&#xD;
@@ -9290,7 +9295,7 @@ THE WETHEREL AFFAIR,&#xD;
 &#xD;
 175&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC6242-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC6242-00000089"/>&#xD;
 176                 TIE WETIIEREL AFFAIR.&#xD;
 them, but under a trusteeship, and I shall be the trustee. I decided upon that&#xD;
 step as soon as I heard of the engagement."&#xD;
@@ -9397,7 +9402,7 @@ been filing it, his eyes unusually bloodshot and one of them surrounded by a&#xD
 blish halo, and his knuckles " barked " in various degrees of rawness.&#xD;
 "Excuse my breath, gentlemen," he hoarsely apologized as he drew con.&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC6242-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC6242-00000090"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 fidentially close to Wolverton and Wetherel. " I've been taking a restorer&#xD;
@@ -9482,7 +9487,7 @@ splendidly&#xD;
 &#xD;
 THE WETIIEREr. AFFAIR.&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC6242-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC6242-00000091"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 "There are the ribbons," she laughed. "Why don't they answer that belP&#xD;
@@ -9597,7 +9602,7 @@ the last beau I shall have, unh'ss I pick up some old gentleman with a shiny&#xD
 top and gold spectacles. You'll see me marry Methusaleh, or.1the old original&#xD;
 Jacob Townsend, if you see me marry at all. But I want this Count to catch&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC6242-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC6242-00000092"/>&#xD;
 182&#xD;
 &#xD;
 THE, WETHEREL AFFAIR.&#xD;
@@ -9712,7 +9717,7 @@ smiles and gestures.&#xD;
 "Miss Dinneford!" in a tone of reproach. "My dear Miss Dinneford!"&#xD;
 in a tone of entreaty, "Aice !" in a tone of romantic sweetness. " Will yoc&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC6242-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC6242-00000093"/>&#xD;
 184                  THE WETHEREL ,AFFAIR.&#xD;
 not grant nie one word? One single moment alone? A chance to explain?'&#xD;
 A chance to reassure you? -Oh, for the sake of the vows we have inter-&#xD;
@@ -9819,7 +9824,7 @@ tnat, after 1piabolus was chased out of the city of Mansoul, h3e got in again.&#
 You must be monitor to the Dinnefords, and make thmem promise not to let Po.&#xD;
 loski into the house; for if he omnce gets a chance to lick them with his slimy&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC6242-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC6242-00000094"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 tongue, he is anaconda enough to swallow them. . Do you stay and warn.&#xD;
@@ -9932,7 +9937,7 @@ As may be supposed, JImogen Eleonore's fancied carriage did not appeal&#xD;
 &#xD;
 186&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC6242-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC6242-00000095"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 Immediately to convey hbr to a brown-stone front in Fifth avenue. On the&#xD;
@@ -10046,7 +10051,7 @@ with happiness perhaps as much as alarm.&#xD;
 &#xD;
 THE WETHEREL AFFAIR:-&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC6242-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC6242-00000096"/>&#xD;
 190&#xD;
 &#xD;
 THEWETHEREL AFFAIR.--&#xD;
@@ -10163,7 +10168,7 @@ of sorrow and sympathy."&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC6242-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC6242-00000097"/>&#xD;
 192                  THE WETHEREL AFFAIR.&#xD;
 The detective wanted to jump up on the stone seat and crow. It was three&#xD;
 months since Nestoria Bernard had vanished the description of her which he&#xD;
@@ -10272,7 +10277,7 @@ Ite quitted the tenement house by a back way, crossing a narrow yard full&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC6242-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC6242-00000098"/>&#xD;
 of rubbish and heaps of coal, forcing open with much difficulty the neglected&#xD;
 gate of a partition fence, stealing with the air of a thief through a low grocery&#xD;
 store, and tottering out upon a narrow and filthy alley.&#xD;
@@ -10342,7 +10347,7 @@ throbbed so painfully that he could not talk.&#xD;
 me like a providence. It comes at such a critical time that I cannot believe&#xD;
 it to be anything less than an: interposition of the Almighty finger. I trust&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC6242-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC6242-00000099"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 that it happens for good, and to give us prosperity in our adventure. It is my&#xD;
@@ -10459,7 +10464,7 @@ under the strong utterance of .the " star."&#xD;
 &#xD;
 THE WETIIEREL AFFAIR.&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC6242-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC6242-00000100"/>&#xD;
 "My friend," henow began again-"my official and much respected&#xD;
 friend, you are very right in the main. But allow me, my friend, a word of&#xD;
 explanation to my friend Lehming. I will tell you, Walter, how I came into&#xD;
@@ -10571,7 +10576,7 @@ to tap upon the fateful panel. He heard a chair scrape on the bare floor with-&#
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC6242-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC6242-00000101"/>&#xD;
 in, and knew that the little artist was rising from her work-table, and thought&#xD;
 with compunction how trustfully-she would open to him. Next there was the&#xD;
 sound of a bolt slipping back, and then Nestoria stepped briskly out with a&#xD;
@@ -10686,7 +10691,7 @@ liceman.&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC6242-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC6242-00000102"/>&#xD;
 202&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
@@ -10803,7 +10808,7 @@ and the bolt with the other, as if she really meant to shut out the law.&#xD;
 &#xD;
 THE WETIHEREL AFFAIR-&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC6242-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC6242-00000103"/>&#xD;
 paca skirt, and decked its puritanism with sash, ribbons, and other dashes of&#xD;
 relieving finery. At last they all sat down, wearied with their excitements,&#xD;
 and loved each other in quiet.&#xD;
@@ -10917,7 +10922,7 @@ THE WETHEREL AFFAIR.&#xD;
 &#xD;
 205&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC6242-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC6242-00000104"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 206&#xD;
@@ -11021,7 +11026,7 @@ idiots, or scoundrels brought me that has been worthy of attention."&#xD;
 you have suffered, I don't wonder. Any man in your situation would suspect&#xD;
 a thousand things   "&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC6242-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC6242-00000105"/>&#xD;
 208                  THE WETHElEL AFFAIR.&#xD;
 "Yes, I do speak strongly," interrupted Wetherel. "I am embittered and&#xD;
 enraged. I sometimes think that half our organization of justice, from the&#xD;
@@ -11128,7 +11133,7 @@ to him messages of gratitude and friendship, and which had sometimes lighted&#xD
 up- the dusky abysses of his humility with glimmers of trembling hope. He re-&#xD;
 called her various expressions, her thoughtful face, her sorrowful face, her&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC6242-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC6242-00000106"/>&#xD;
 21.0&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
@@ -11244,7 +11249,7 @@ doer. At all events a crisis had come, and he must do his best to help it for-&#
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC6242-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC6242-00000107"/>&#xD;
 :&#xD;
 - ; r&#xD;
 '&#xD;
@@ -11368,7 +11373,7 @@ he had recollected the will and he came running to save it. Terrible as such&#xD
 a struggle must have been to him, he seized the wounded man's quivering&#xD;
 hands and wrenched from them the bloody fragments.&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC6242-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC6242-00000108"/>&#xD;
 214                  THE WETHEREL AFFAIR.&#xD;
 I have-ruined you," whispered Poloski, with a ghastly grimace which&#xD;
 strove to be a smile. "You-and those cursed-Dinnefords. You-shall have&#xD;
@@ -11474,7 +11479,7 @@ surprise, she had spoken so promptly'n asrdy.&#xD;
 Wetherel. When I found that lhe was not Mr. Wether'el I felt sure that he&#xD;
 must be the murdererr"&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC6242-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC6242-00000109"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 "And you had believed Edward guilty? " asked Mrs. Dinneford.&#xD;
@@ -11585,7 +11590,7 @@ been. no mere verbal exaggeration, and no statement of monientary emotion,&#xD;
 but an honest overflow of deep remorse and penitence. His very tiesh shook&#xD;
 with pity for such trouble, and with longing to put an instant end to it. With-&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC6242-00000110"/>&#xD;
+<pb n="218-219" xml:id="VAC6242-00000110"/>&#xD;
 218                 THE WETHEREL AFFAIR.&#xD;
 out a word he advanced softly to her, knelt on one knee at her feet, took both&#xD;
 her hands in his and kissed them passionately.&#xD;
@@ -11693,7 +11698,7 @@ ciated monarch of their united life, at least so far as she should desire.&#xD;
 i&#xD;
 f&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC6242-00000111"/>&#xD;
+<pb n="220-221" xml:id="VAC6242-00000111"/>&#xD;
 220&#xD;
 &#xD;
 THE WETHEREL AFFAIR.&#xD;
@@ -11814,7 +11819,7 @@ So Nestoria was sent for, and Bowlder greeted her with affectionate uproar,&#xD;
 &#xD;
 IA&#xD;
 &#xD;
-<pb  n="222" xml:id="VAC6242-00000112"/>&#xD;
+<pb n="222" xml:id="VAC6242-00000112"/>&#xD;
 THE WETHEREL AFFAIR.&#xD;
 &#xD;
 driven to profess at least as much common humanity as that. You are one&#xD;
@@ -11845,8 +11850,8 @@ THE END.&#xD;
 &#xD;
 &#xD;
   &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8249">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8249">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Winter Lodge, or, Vow Fulfilled </title>
-            <author >Weir, James, (1821-)</author>
+            <title>The Winter Lodge, or, Vow Fulfilled </title>
+            <author>Weir, James, (1821-)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8249</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8249</idno>
+            <idno type="wright2" n="previous">wright2-2677</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The winter lodge, or, Vow fulfilled</title>
-                  <author >Weir, James, (1821-)</author>
+                  <title>The winter lodge, or, Vow fulfilled</title>
+                  <author>Weir, James, (1821-)</author>
                </titleStmt>
-               <extent >231 p. </extent>
+               <extent>231 p. </extent>
                <publicationStmt>
-                  <publisher >Lippincott Grambo</publisher>
+                  <publisher>Lippincott Grambo</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1854">1854</date>
+                  <date when="1854">1854</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-09-11">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-09-11">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The winter lodge, or, Vow fulfilled</head> 
+            <head>The winter lodge, or, Vow fulfilled</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8249-00000001"/>Tkf' s                  i .  r&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8249-00000001"/>Tkf' s                  i .  r&#xD;
 f(&#xD;
 iL&#xD;
 Y}&#xD;
@@ -143,7 +148,7 @@ t&#xD;
 -                                   ^iYx&#xD;
 r)&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8249-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8249-00000002"/>&#xD;
 4,z&#xD;
 &#xD;
 THE WINTER LODGE:&#xD;
@@ -187,7 +192,7 @@ ney has been ma de singly, in families, and in corp i  -&#xD;
 ,         r_   .x, II . Tt _'   7 .'. ..;y  'Y11flr" i~4   Y     'v&#xD;
 iIy' TT  'j   " -n&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8249-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8249-00000003"/>&#xD;
 4               THE WINTER LODGE;&#xD;
 on foot, on horseback, in wagons, and, still more incre-.&#xD;
 dible, in wheelbarrows. Now, to, go to California is an&#xD;
@@ -274,7 +279,7 @@ hill, and dae and valley, was kntwn and ofaste  heupon&#xD;
 their memories by some bloody contest. No wondIerathen,&#xD;
 1*&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8249-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8249-00000004"/>&#xD;
 OR, VOW FULFILLED.           7&#xD;
 &#xD;
 they loved it well, for it was enriched by their blood,&#xD;
@@ -359,7 +364,7 @@ two 'square pens, one story high, made of unh&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8249-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8249-00000005"/>&#xD;
 p.  .&#xD;
 &#xD;
 8&#xD;
@@ -454,7 +459,7 @@ He was novr in company with Bryan arid Coma, ing&#xD;
 &#xD;
 .,     ,y&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8249-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8249-00000006"/>&#xD;
 10&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -547,7 +552,7 @@ him; if we except his teeth, which were white  gh,&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8249-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8249-00000007"/>&#xD;
 12&#xD;
 &#xD;
 THE WINTER -LODGE;&#xD;
@@ -636,7 +641,7 @@ At the beck of his wife, Bryan, holding in his ha~d&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8249-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8249-00000008"/>&#xD;
 14            THE WINTER LODGE;&#xD;
 &#xD;
 candle made from the comb of the wild bee, led the way&#xD;
@@ -725,7 +730,7 @@ OR, VOW FULFILLED.         15&#xD;
 &#xD;
 . 1  " ''&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8249-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8249-00000009"/>&#xD;
 OR, VOW FULFILLED.          17&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -808,7 +813,7 @@ ing thrillingly of a joyous future:&#xD;
 Joy's baseless fabric."&#xD;
 2*&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8249-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8249-00000010"/>&#xD;
 OR, VOW FULFILLED.         1&#xD;
 &#xD;
 CHAPTER       II.&#xD;
@@ -889,7 +894,7 @@ to whom he may leave his vast possessions.&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8249-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8249-00000011"/>&#xD;
 20            THE WINTER LODGE;&#xD;
 &#xD;
 Some such thoughts as these had embittered, the last&#xD;
@@ -974,7 +979,7 @@ while a heavy frown gathered upon his brow. "You&#xD;
 would change your will, wottld you ?"&#xD;
 "I have done it ! there it is, Jean, on the table I" said&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8249-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8249-00000012"/>&#xD;
 OR, VOW FULFILLED.           23&#xD;
 &#xD;
 De Lacy, ,with a faint effort, at a smile, "but I have not&#xD;
@@ -1061,7 +1066,7 @@ what I expect," thought Montlack. But wishingto know&#xD;
 &#xD;
 22            THE WINTER LODGFE ;&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8249-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8249-00000013"/>&#xD;
 24            THE WINTER LODGE;&#xD;
 &#xD;
 the worst, and whether the former will, which he knew&#xD;
@@ -1151,7 +1156,7 @@ leaning down his 'head, heard his uncle faintly  rnmur&#xD;
 &#xD;
 OR, VOW PULFILLED.         5"&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8249-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8249-00000014"/>&#xD;
 OX, VOW FULFILLED. -27&#xD;
 &#xD;
 " Thank God, there is no curse of mine resting upon my&#xD;
@@ -1238,7 +1243,7 @@ With this consoling truism, spoken in a tone of chilling&#xD;
 &#xD;
 26            THE WINTER LODGE*&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8249-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8249-00000015"/>&#xD;
 28            THE WINTER LODGE;&#xD;
 &#xD;
 sarcasm, Montlack turned to the table, and taking up the&#xD;
@@ -1322,7 +1327,7 @@ knew the use of a compass, and seemed to derive some&#xD;
 &#xD;
 OR, VOW FULFILLED.         29&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8249-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8249-00000016"/>&#xD;
 OR, VOW FULFILLED.          31&#xD;
 &#xD;
 benefit from his knowledge, he could not be a surveyor,.&#xD;
@@ -1409,7 +1414,7 @@ relations? Sacre! I wishi it had been true, that:some of&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8249-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8249-00000017"/>&#xD;
 32            THE WINTER LODGE;&#xD;
 &#xD;
 those jolly redskins had thus freed me from my enemies!&#xD;
@@ -1496,7 +1501,7 @@ troubled with a kindly feeling of sympathy -or fellowship&#xD;
 &#xD;
 ORS VOW FULF-ILLTD.         B's&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8249-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8249-00000018"/>&#xD;
 34              THE WINTER LODGE;&#xD;
 for his own race, and withal shrewd, and cunning, and&#xD;
 avaricious. He saw at once that his ancient employer&#xD;
@@ -1582,7 +1587,7 @@ gade, "if I do not conclude to take her myself, you may&#xD;
 make her the squaw of one of your savages."&#xD;
 "You have some other motive besides hatred," said&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8249-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8249-00000019"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 Girty, with a cunning smile," to make you so anxious for&#xD;
@@ -1671,7 +1676,7 @@ bidding him to mount, one of the savages at his command&#xD;
 &#xD;
 "I&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8249-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8249-00000020"/>&#xD;
 OR, VOW FULFILLED.          39&#xD;
 &#xD;
 38            THE WINTER LODGE; \&#xD;
@@ -1760,7 +1765,7 @@ hesitating as to the trace, though the cunning Indians&#xD;
 &#xD;
 -0&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8249-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8249-00000021"/>&#xD;
 40            THE WINTER LODGE;&#xD;
 &#xD;
 had used every precaution to cover up and conceal all&#xD;
@@ -1847,7 +1852,7 @@ Some of our legislative bodies, when party megures&#xD;
 &#xD;
 OR, VOW FULFILLED.         41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8249-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8249-00000022"/>&#xD;
 42            THE WINTER LODGE;                                O&#xD;
 &#xD;
 are before them, might learn wisdom from the course of&#xD;
@@ -1929,7 +1934,7 @@ it was, and disclosed to his wondering gaze, by the tall&#xD;
 &#xD;
 ORS VOW FULFILLED.         43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8249-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8249-00000023"/>&#xD;
 44            THE WINTER LODGE;&#xD;
 &#xD;
 OR, VOW FULFIiLtb.          45&#xD;
@@ -2016,7 +2021,7 @@ At the appearance of Girty and his band, along&#xD;
 their pale-faced prisoner, the Indians within the chamb "&#xD;
 with the exception of their chief; sprang forwar wtt&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8249-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8249-00000024"/>&#xD;
 46             THE WINTER LODGE;O&#xD;
 &#xD;
 loud yells of welcome and savage exultation.. The chief~&#xD;
@@ -2103,7 +2108,7 @@ not alarm the buffalo when the tribes are gathering for &#xD;
 &#xD;
 OR, VOW FULFILLED.         47&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8249-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8249-00000025"/>&#xD;
 OR VOW FULFILLED.          49&#xD;
 &#xD;
 long hunt: My white brother will speak, for the ear of&#xD;
@@ -2191,7 +2196,7 @@ half dozen of the principal Indian braves.&#xD;
 _,&#xD;
 THE INTER LODGE;&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8249-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8249-00000026"/>&#xD;
 50            THE WINTER LODGE;&#xD;
 &#xD;
 of the savages, addressing Montlack, Girty acting a in-&#xD;
@@ -2280,7 +2285,7 @@ up their countless lodges where no wigwam of the re&#xD;
 &#xD;
 ORS VOW FULFILLED.         51&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8249-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8249-00000027"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 52            THE WINTER LODGE;&#xD;
@@ -2360,7 +2365,7 @@ prisoner alluded to in our last chapter shild be;b&#xD;
 or after this ceremony. The latter being deided on&#xD;
 5*&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8249-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8249-00000028"/>&#xD;
 OR, VOW FULFILLED.          55&#xD;
 &#xD;
 54            THE WINTER LODGE;&#xD;
@@ -2446,7 +2451,7 @@ and awe as they approached nearer and nearer th F&#xD;
 of their superstitious veneration, the chief again ma&#xD;
 tjem to halt, this time before an immense hanging ia&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8249-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8249-00000029"/>&#xD;
 THE WINTER, LODGE;&#xD;
 &#xD;
 OR, VOW FULFILLED.          57&#xD;
@@ -2534,7 +2539,7 @@ but the Great Chief is no child, and will not wep.&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8249-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8249-00000030"/>&#xD;
 68           TSB WINTER LODGE;&#xD;
 &#xD;
 "He will soon return to where his young warriors keep&#xD;
@@ -2620,7 +2625,7 @@ mentioned, were discovered a few years since in the cave.-CoLtina's is-&#xD;
 &#xD;
 OR1 VOW FULFILLED:&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8249-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8249-00000031"/>&#xD;
 OR, VOW FULFILLED.           61&#xD;
 &#xD;
 "My red brother speaks with the tongue of truth," re-&#xD;
@@ -2710,7 +2715,7 @@ holding aloft their torches, so as to fully illuminate a&#xD;
 &#xD;
 6  ,         THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8249-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8249-00000032"/>&#xD;
 OR, VOW FULFILLED.63&#xD;
 &#xD;
 m g~ificent room, several hundred feet in length, fifty or&#xD;
@@ -2799,7 +2804,7 @@ to the ceilirtg, the spectator seems to see the firmament- itself studded&#xD;
 &#xD;
 62            THE WINTER LODGE,&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8249-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8249-00000033"/>&#xD;
 THE WINTER LODGE&#xD;
 entered the magnificent apartment, "is standing in the&#xD;
 great council-chamber of the red man! Here the warriors&#xD;
@@ -2889,7 +2894,7 @@ to them the narrow bridge and deep pit brings xi error!i&#xD;
 C                       '        7  t t "1  'h  .Y   j  '&#xD;
 A&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8249-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8249-00000034"/>&#xD;
 OR, VOW FULFILLED.         67&#xD;
 &#xD;
 Urged on by Girty, who whispered him' that the In-'&#xD;
@@ -2976,7 +2981,7 @@ seen the body of the Great Prophetess of the redinan, and&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8249-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8249-00000035"/>&#xD;
 ORL, VOW FULFILLED,&#xD;
 &#xD;
 68&#xD;
@@ -3059,7 +3064,7 @@ of the Indian tribes were believers in his philosophy; and this wild tradi-&#xD;
 tion of-the chief was founded on the moyriads of bats fpunzd in one of the&#xD;
 rooms of the cave.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8249-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8249-00000036"/>&#xD;
 70            THE WINTER LODGE;&#xD;
 &#xD;
 duty (llotted them,; and had now for some time been anxi-&#xD;
@@ -3147,7 +3152,7 @@ I&#xD;
 &#xD;
 OR, VOW FULFILLED.         Ift&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8249-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8249-00000037"/>&#xD;
 THE WINTER LODGE;&#xD;
 ignorant, careless and' indifferent as to his fate. But no&#xD;
 sooner had his searching eye caught a glimpse of the&#xD;
@@ -3238,7 +3243,7 @@ gintleman !"&#xD;
 &#xD;
 1.&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8249-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8249-00000038"/>&#xD;
 74  TLE INTE LOGE;OR, VOW FULFILLED.                                               '75%&#xD;
 &#xD;
 from looking upon the face of' the Prophetess of the red&#xD;
@@ -3325,7 +3330,7 @@ his dark and, eager eye wandered over the sullen counte-&#xD;
 &#xD;
 "'I'&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8249-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8249-00000039"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 nance of the renegade, than a flash Qf fury gleamed out&#xD;
@@ -3414,7 +3419,7 @@ TIDE WINTER LODGE;&#xD;
 &#xD;
 t* S&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8249-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8249-00000040"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 bling in the wood around him, yet never for a moment&#xD;
@@ -3512,7 +3517,7 @@ Yfi¢  " ?'&#xD;
 , f }&#xD;
 .   r   f&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8249-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8249-00000041"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -3594,7 +3599,7 @@ fawn to receive the caresses of its mistress; and Coma,&#xD;
 nothing loth, folded the timid, but loving animal in her&#xD;
 arms, and with rany soft and-endearing words wou&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8249-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8249-00000042"/>&#xD;
 THE WINTER LODGE;&#xD;
 fin.. console it for the loss of mother, and liberty, and the&#xD;
 green forest. -Nor did she forget her cackling brood, for&#xD;
@@ -3690,7 +3695,7 @@ F  y&#xD;
 J X&#xD;
 ,.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8249-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8249-00000043"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 no thought either of fainting or screaming, nor did she&#xD;
@@ -3798,7 +3803,7 @@ pitying glance at her prostrate person, left her in happy&#xD;
 ignorance of their dangerous situation.&#xD;
 The Indians, hearing nothing from their' too eager&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8249-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8249-00000044"/>&#xD;
 OR, VOW FULFILLED.          87&#xD;
 &#xD;
 companion, and taking his death for granted, began now&#xD;
@@ -3886,7 +3891,7 @@ tion of the boy, "the child is in the other room!"&#xD;
 &#xD;
 yn'  86          THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8249-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8249-00000045"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 88&#xD;
@@ -3971,7 +3976,7 @@ the savages so snugly moored, but which was now empty,&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8249-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8249-00000046"/>&#xD;
 90            THE WINTER LODGE;&#xD;
 &#xD;
 and without a trace of canoe, or boat of any descrip-&#xD;
@@ -4060,7 +4065,7 @@ w&#xD;
 &#xD;
 OR, VOW FULFILLED.         91&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8249-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8249-00000047"/>&#xD;
 OR, VOW FULFILLED.          93&#xD;
 &#xD;
 92            THE WINTER LODGE;&#xD;
@@ -4147,7 +4152,7 @@ try, in the devil's name, let them go; We will pay them&#xD;
 up all old scores at some other time. Captain Bead," he&#xD;
 continued, turning to our hero, "you wil have to tall us&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8249-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8249-00000048"/>&#xD;
 94              THE WINTER LODGE;&#xD;
 the result of your scout; for I see that your leader, our&#xD;
 old friend Kenton, true to his hatred of the redskins, has&#xD;
@@ -4236,7 +4241,7 @@ Yw&#xD;
 y&#xD;
 i&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8249-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8249-00000049"/>&#xD;
 OR, VOW FULFILLED.       's      97&#xD;
 &#xD;
 teeted settlements, and tomahawking your wives and&#xD;
@@ -4325,7 +4330,7 @@ battle as if going to a wedding."&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8249-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8249-00000050"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 CIPTER      IX.&#xD;
@@ -4419,7 +4424,7 @@ zard before'hworm-then's my s0     ents!I"&#xD;
 " Don't you think we had better g  ' k ?" said a tall&#xD;
 fellow immediately behind Simon, at le . finding his&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8249-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8249-00000051"/>&#xD;
 100&#xD;
 &#xD;
 THE WINTER LoDGE;&#xD;
@@ -4513,7 +4518,7 @@ ee what the  rnal red devils haveeen at I sh uted&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8249-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8249-00000052"/>&#xD;
 THE WINTER LODGE;"&#xD;
 &#xD;
 i           b&#xD;
@@ -4612,7 +4617,7 @@ I&#xD;
 &#xD;
 N,&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8249-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8249-00000053"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 but our torches," said one, in a hopeless tone, "they&#xD;
@@ -4709,7 +4714,7 @@ take, I guess we'll not be troubled eie by Indian or&#xD;
 &#xD;
 .  ,_ _              L                                    a&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8249-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8249-00000054"/>&#xD;
 THE WINTER LODGE'&#xD;
 &#xD;
 ,artmt, and -it will only be a few days' starvin after"all,&#xD;
@@ -4805,7 +4810,7 @@ OR, VOW- FULFILLED.&#xD;
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8249-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8249-00000055"/>&#xD;
 108              THE WINTER LODGE;&#xD;
 bringing himself up with a pretty severe jolt against the&#xD;
 stake prepared for poor Connelly.&#xD;
@@ -4896,7 +4901,7 @@ and ain't the boy to make a present ef his scalp to a&#xD;
 thievin' Shawanee! Let them go 'IFaith 'tis but death&#xD;
 10&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8249-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8249-00000056"/>&#xD;
 . THE WINTER LODGE;&#xD;
 &#xD;
 at any rate, and starving ain't much worse than toma-&#xD;
@@ -4993,7 +4998,7 @@ ORS 'S'OW FULFILLED.&#xD;
 -    '%  _&#xD;
 iflribY    _&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8249-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8249-00000057"/>&#xD;
 112             THE WINTER LODGE;&#xD;
 this swate hole trying to save it; and by the powers, when&#xD;
 I heard[you passing but a moment ago, thinking you the&#xD;
@@ -5077,7 +5082,7 @@ right hand to be with you, and etmimber himself."&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8249-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8249-00000058"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 CHAPTER X.&#xD;
@@ -5164,7 +5169,7 @@ we went forth to drive back the savage enemy?  Wa&#xD;
 &#xD;
 ORS- VOW FULFILLED.&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8249-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8249-00000059"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 left her sadit is true; but full of life and hope, and sur-&#xD;
@@ -5265,7 +5270,7 @@ f yi r&#xD;
 k&#xD;
 Sy&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8249-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8249-00000060"/>&#xD;
 ins&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -5355,7 +5360,7 @@ Once beyond th~e limits of' that lite. room, ma  sa~&#xD;
 &#xD;
 'V&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8249-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8249-00000061"/>&#xD;
 f&#xD;
 &#xD;
 crod and holy in his estimation by the memory of his&#xD;
@@ -5448,7 +5453,7 @@ But the elated hopes of Bryan and Duffe, excited by&#xD;
 this slight trace of their lost wives, were doomed to be&#xD;
 'of but ,ort duration; for only a few hundred yards&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8249-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8249-00000062"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 r&#xD;
@@ -5543,7 +5548,7 @@ OR, VOW FULFILLED.&#xD;
 f  '!&#xD;
 123&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8249-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8249-00000063"/>&#xD;
 124&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -5640,7 +5645,7 @@ thing to do with our captivity, and bodes us nog&#xD;
 "If Miss Coma say so, him be bne dam raade' mut-&#xD;
 tered the black, making up his mind, if he o  rot&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8249-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8249-00000064"/>&#xD;
 126&#xD;
 &#xD;
 'TH.E WINTER LODGE;&#xD;
@@ -5733,7 +5738,7 @@ Madam Duffe, whose war spirit had not yet entirely&#xD;
 vanished, readily promised to execute this wish of Titus;&#xD;
 and the black, restless and uneasy under his bonds after&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8249-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8249-00000065"/>&#xD;
 128&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -5833,7 +5838,7 @@ complete victory, shad, in a -moment of thoughtlessness,&#xD;
 set one of the canoes adrift, after having first placed&#xD;
 therein the body oCf  a dead warrior, dressed out in a rag..&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8249-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8249-00000066"/>&#xD;
 1&#xD;
 &#xD;
 130           THE WINTER LODGE;&#xD;
@@ -5925,7 +5930,7 @@ brains of a fierce warrior!&#xD;
 ing to his side and driving the point of his tomahawk&#xD;
 deep into the sIkull of the young Shawanee chieftain!&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8249-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8249-00000067"/>&#xD;
 132&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -6021,7 +6026,7 @@ die of famine, or be eaten by the wolves."&#xD;
 "I wish he had his rifle," said-Dick, picking up thy&#xD;
 12&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8249-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8249-00000068"/>&#xD;
 14             THE WINTER LODGE;n&#xD;
 w  pon the young savage had thrown away, "he will&#xD;
 need it in his long journey through the wilderness."&#xD;
@@ -6104,7 +6109,7 @@ never more take the trail of his savage en  rhu&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8249-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8249-00000069"/>&#xD;
 I 1&#xD;
 &#xD;
 136&#xD;
@@ -6201,7 +6206,7 @@ vages myself; but, since you have named it, Iguess it was&#xD;
 rd4F f  S.                   ,           i&#xD;
 x4 r                      _ Z&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8249-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8249-00000070"/>&#xD;
 138&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -6294,7 +6299,7 @@ Bang having barked his acquiescene  ery much in&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8249-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8249-00000071"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 smaller fry politicians assent-to the will of their leaders,&#xD;
@@ -6386,7 +6391,7 @@ Y&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8249-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8249-00000072"/>&#xD;
 OR, VOW FULFILLED.         148&#xD;
 &#xD;
 the stake, Simon Girty only thought of saving an old&#xD;
@@ -6475,7 +6480,7 @@ me, as you have promised, or leave me to ny fate, for' it&#xD;
 &#xD;
 142           THE WINTER LODGE ;&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8249-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC8249-00000073"/>&#xD;
 144&#xD;
 &#xD;
 THE WINTER LODGE;&#xD;
@@ -6569,7 +6574,7 @@ Keaton .will 'have the satisfactipn.ofiding in thideath.&#xD;
 &#xD;
 .4&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8249-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC8249-00000074"/>&#xD;
 146             THE WINTER LODGE;&#xD;
 of orde who, at the risk of his own life,. saved him from&#xD;
 =miserably' perishing at the stake."&#xD;
@@ -6648,7 +6653,7 @@ word respecting her late danger and escape tho&#xD;
 are compelled i truth to say that she rec&#xD;
 very well satisfied air, the praises of Kenton, for I&amp;amp;&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8249-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC8249-00000075"/>&#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
 brave defense of the station, and the business-like man-&#xD;
@@ -6739,7 +6744,7 @@ countenance of her husband."&#xD;
 &#xD;
 THE, WIXTAR LODGE;&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8249-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC8249-00000076"/>&#xD;
 HE WINTER LODGE;&#xD;
 &#xD;
 The face is -a hard book to read, my little fairy," said&#xD;
@@ -6832,7 +6837,7 @@ linger in the country? These hypocrite sought my&#xD;
 &#xD;
 OR3 VOW FULFILLED.&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8249-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC8249-00000077"/>&#xD;
 152           TIE WINTER"LODGE;&#xD;
 &#xD;
 lost the one, but gained the other,; and what more does&#xD;
@@ -6921,7 +6926,7 @@ veins, as if the slimy form of a snake, 3vas the'passing&#xD;
 &#xD;
 Olt,, VOW rtTLrILLED.&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8249-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC8249-00000078"/>&#xD;
 OR, VOW FULFILLED.        '155&#xD;
 &#xD;
 over my heart, when his familiar voice, bringing back so&#xD;
@@ -7012,7 +7017,7 @@ I&#xD;
 &#xD;
 154           THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8249-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC8249-00000079"/>&#xD;
 OR, -VOW FULFILLED.&#xD;
 &#xD;
 {_and if Captain Jean has evil designs, he is an enemy&#xD;
@@ -7100,7 +7105,7 @@ I&#xD;
 &#xD;
 ,THE VVWTER LODGE;&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8249-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC8249-00000080"/>&#xD;
 THE WINTER LdCDGE;&#xD;
 &#xD;
 tepid was made to bless and torment full-blooded whites&#xD;
@@ -7193,7 +7198,7 @@ F       r'      s&#xD;
 til        s     R&#xD;
 .  Z&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8249-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC8249-00000081"/>&#xD;
 16Q             THE WINTER LODGE;&#xD;
 more anxiously in the cause of Sin, than many,&#xD;
 who call themselves Christians, labor on account of&#xD;
@@ -7278,7 +7283,7 @@ I&#xD;
 &#xD;
 _161&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8249-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC8249-00000082"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 of the age of which we are speaking. ,Men are but the&#xD;
@@ -7367,7 +7372,7 @@ which,'if not as chaste as it might e 9 is as true as the. best&#xD;
 &#xD;
 OR, VOW FULFILLED.&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8249-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC8249-00000083"/>&#xD;
 164           THE WINTER LODGE;&#xD;
 &#xD;
 authenticated history; nd proves, as well as a volume,&#xD;
@@ -7456,7 +7461,7 @@ I&#xD;
 &#xD;
 ORS VOW FULFILZEA        1$g,&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8249-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC8249-00000084"/>&#xD;
 OR, YOW FULFILLED.          16?I&#xD;
 &#xD;
 Dick, springing to his feet, grasped his hand, and the eyes&#xD;
@@ -7545,7 +7550,7 @@ tongue of his hypocritical friend 1"&#xD;
 IN&#xD;
 SHE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8249-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC8249-00000085"/>&#xD;
 168           THE WINTER LODGE;&#xD;
 &#xD;
 "And Simon Kenton is here present,". said the Scout,&#xD;
@@ -7641,7 +7646,7 @@ f                        ;&#xD;
 ~Y&#xD;
 '_'          ,:&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8249-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC8249-00000086"/>&#xD;
 OR, VOW FULFILLED.          171&#xD;
 &#xD;
 170           THE WINTER LODGE;&#xD;
@@ -7748,7 +7753,7 @@ Ic&#xD;
 S I&#xD;
 3&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8249-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC8249-00000087"/>&#xD;
 172-          THE WINTER LODGE;&#xD;
 &#xD;
 the handle of his knife; but, at this moment, he was in-&#xD;
@@ -7836,7 +7841,7 @@ offering him their hands, but all answerig his noisy sa-&#xD;
 &#xD;
 O1Z  VOW-' FULFILLED.      173&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8249-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC8249-00000088"/>&#xD;
 174           THE WINTER LODGE;&#xD;
 &#xD;
 lute good-humoredly, and bowing with distant politeness,&#xD;
@@ -7922,7 +7927,7 @@ by the battering-ram of Adkins, Holding hastened to&#xD;
 &#xD;
 ORS VOW FULFILLED.        175&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8249-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC8249-00000089"/>&#xD;
 176           THE WINTER LODGE;&#xD;
 &#xD;
 take advantage of the lull created by these occurrences,&#xD;
@@ -8008,7 +8013,7 @@ innocent man now and then; but that is a matter of small&#xD;
 consequence, if we are only right in a majority of cases."&#xD;
 Malden looked up as if by no means pleased with the&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8249-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC8249-00000090"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 179&#xD;
@@ -8096,7 +8101,7 @@ OR, VOW FULFILLED.&#xD;
 &#xD;
 178&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8249-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC8249-00000091"/>&#xD;
 180&#xD;
 &#xD;
 TIE WINTER LODGE;&#xD;
@@ -8194,7 +8199,7 @@ I-&#xD;
 &#xD;
 181&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8249-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC8249-00000092"/>&#xD;
 182           THE.WINTER LODGE;&#xD;
 &#xD;
 183&#xD;
@@ -8283,7 +8288,7 @@ Malden, exclaiming-&#xD;
 "I.doubt it not! I doubt it not ! He is a smooth-tongued,&#xD;
 plausible knave; but now that my eyes are open, he will&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8249-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC8249-00000093"/>&#xD;
 184           THE WINTER LODGE;&#xD;
 &#xD;
 OR, VOW FULFILLED.         185&#xD;
@@ -8374,7 +8379,7 @@ God or nature ever entered his breast. The good spirit&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8249-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC8249-00000094"/>&#xD;
 186           THE WINTER LODGE;&#xD;
 &#xD;
 had given place to evil, and was hushed and silent now&#xD;
@@ -8464,7 +8469,7 @@ the wiser."&#xD;
 &#xD;
 ORS VOW FULFILLED.        187&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8249-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC8249-00000095"/>&#xD;
 OR, VOW FULFILLED.         189&#xD;
 &#xD;
 "But you run a great frisk in remaining here, after&#xD;
@@ -8552,7 +8557,7 @@ assurance of the Scout's absence.&#xD;
 &#xD;
 188THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8249-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC8249-00000096"/>&#xD;
 OR, VOW FULFILLED.          19&#xD;
 &#xD;
 190&#xD;
@@ -8644,7 +8649,7 @@ complice; for in case of Girt'death, and this paper&#xD;
 &#xD;
 191&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8249-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC8249-00000097"/>&#xD;
 OR, VOW FULFILLED.        19$&#xD;
 &#xD;
 192           THE WINTER LODGE;&#xD;
@@ -8733,7 +8738,7 @@ old enemy."&#xD;
 &#xD;
 I' K f"&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8249-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC8249-00000098"/>&#xD;
 194           THE WINTER LODGE;&#xD;
 &#xD;
 hatred !" hissed the outlaw, "he shall never see or hear&#xD;
@@ -8812,7 +8817,7 @@ at the feet of Simon; but, greatly to the annoyance of&#xD;
 &#xD;
 OR, VOW FULFILLED.        1.95,&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8249-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC8249-00000099"/>&#xD;
 196             THE WINTER LODGE;&#xD;
 Titus, still kept his eye fastened sharply and knowingly&#xD;
 upon the face of his slanderer.&#xD;
@@ -8898,7 +8903,7 @@ Bang as I do, and ain't laid for hours and hours together&#xD;
 in the silent woods, watchin' him when it wer' his time&#xD;
 f7*&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8249-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC8249-00000100"/>&#xD;
 198            THE WINTER LODGE;O&#xD;
 &#xD;
 to stand guard, or you wouldn't say that.. He never yit&#xD;
@@ -8985,7 +8990,7 @@ and in the same cautious tone; " I've never yit been 011&#xD;
 &#xD;
 OR, VOW FULFILLED.         9  .&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8249-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC8249-00000101"/>&#xD;
 200           THE WINTER LODGE';&#xD;
 &#xD;
 OR, VOW FULFILLED.          201&#xD;
@@ -9072,7 +9077,7 @@ spirit and animation than he had yet spoken. "It's on&#xD;
 account of them I leave behind I'm troubled."&#xD;
 "Have no care for us," said Bryan, aroused from his&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8249-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC8249-00000102"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 listlessness by the generous and unselfish reply of the no-&#xD;
@@ -9168,7 +9173,7 @@ OR, VOW".FULFILLED.&#xD;
 , _ .&#xD;
 _ -&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8249-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC8249-00000103"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 OR, VOW FULFILLED.-&#xD;
@@ -9260,7 +9265,7 @@ and Titus (for the latter had rather a penchant for camp .&#xD;
 &#xD;
 204&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8249-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC8249-00000104"/>&#xD;
 20              HB WINTER LODGE;&#xD;
 ing out on a small scale), retired to the yard, where he&#xD;
 spent-the remainder ofthe night, sleeping upon the&#xD;
@@ -9346,7 +9351,7 @@ old saying; for a rascal is honest no longer than it is his&#xD;
 t 1. ry    IAY&#xD;
 r,&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8249-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC8249-00000105"/>&#xD;
 208           THE WINTER LODGE;&#xD;
 &#xD;
 interest to be so. At any rate, I'll trust the Captain's&#xD;
@@ -9434,7 +9439,7 @@ I&#xD;
 &#xD;
 ORS ''VOW FULFILLED.       209&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC8249-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC8249-00000106"/>&#xD;
 OR, VOW FULFILLED.         .211&#xD;
 &#xD;
 my plan be executed, so as not to fail, and secure me&#xD;
@@ -9521,7 +9526,7 @@ chuckle at his more truthful thaPolite asseveration.&#xD;
 &#xD;
 210           THE WINTER LODGE;&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8249-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC8249-00000107"/>&#xD;
 O4 VOW FULFILLED.         213&#xD;
 &#xD;
 212            THE WINTER LODGE&#xD;
@@ -9610,7 +9615,7 @@ Montlack nodded his head.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8249-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC8249-00000108"/>&#xD;
 p     p_   -&#xD;
 &#xD;
 214&#xD;
@@ -9707,7 +9712,7 @@ we've marked ot for him. The hunt has been a long&#xD;
 &#xD;
 "  ,&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8249-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC8249-00000109"/>&#xD;
 216           THE WINTER LODGE;&#xD;
 &#xD;
 one, batit is almost up now. Yet another sun, and death&#xD;
@@ -9789,7 +9794,7 @@ excellent counsellor in you, for- twice you've saved me&#xD;
 &#xD;
 OR, VOW FULFILLED.       21"T&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8249-00000110"/>&#xD;
+<pb n="218-219" xml:id="VAC8249-00000110"/>&#xD;
 218           THE WINTER LODGE;O&#xD;
 &#xD;
 from piling al1by my rashness; first, in wishing to&#xD;
@@ -9878,7 +9883,7 @@ j' "&#xD;
 &#xD;
 OR, VOW FULFILLED.        2-19&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8249-00000111"/>&#xD;
+<pb n="220-221" xml:id="VAC8249-00000111"/>&#xD;
 220           THE WINTER LODGE;&#xD;
 &#xD;
 wife, "if, instead of the Sergeant or -myself, you had had&#xD;
@@ -9966,7 +9971,7 @@ morning tide of life, go dwn t fthe grave; and even in&#xD;
 rrr&#xD;
 ORS VOW FULFILLED.              22.1&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC8249-00000112"/>&#xD;
+<pb n="222-223" xml:id="VAC8249-00000112"/>&#xD;
 OR, VOW FULFILLED.         23&#xD;
 &#xD;
 strong manhood, those that are left may wither before&#xD;
@@ -10053,7 +10058,7 @@ Duffe, again sinking back in bi iseat.&#xD;
 &#xD;
 THE. WINTER LODGE;&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC8249-00000113"/>&#xD;
+<pb n="224-225" xml:id="VAC8249-00000113"/>&#xD;
 224           THE WINTER LODGE;&#xD;
 &#xD;
 "I hear nothing but the sighing of the winds; but&#xD;
@@ -10140,7 +10145,7 @@ aim, passed through hied hearty  d the " bloody hand,7&#xD;
 &#xD;
 ORS VOW FULFILLED.       =22B&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC8249-00000114"/>&#xD;
+<pb n="226-227" xml:id="VAC8249-00000114"/>&#xD;
 OR, VOW FULFILLED2&#xD;
 &#xD;
 gaping upwards,.fell without a groan, across the body of&#xD;
@@ -10232,7 +10237,7 @@ s,&#xD;
 &#xD;
 5    X TEA LODGE;&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC8249-00000115"/>&#xD;
+<pb n="228-229" xml:id="VAC8249-00000115"/>&#xD;
 28E WINTER LODGE;&#xD;
 &#xD;
 OR, VOW FULFILLED.&#xD;
@@ -10334,7 +10339,7 @@ f&#xD;
 t~' ,Fl&#xD;
 u.                                j&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC8249-00000116"/>&#xD;
+<pb n="230-231" xml:id="VAC8249-00000116"/>&#xD;
 THE WINTER LODGE;&#xD;
 &#xD;
 d had been a silent witness of the meeting between her&#xD;
@@ -10413,7 +10418,7 @@ despair, we feel confident that you will not blame us~&#xD;
 when we assure you that ours is no fancy sketch, bud&#xD;
 ower true tale of" The Dark"and Bloody Ground."&#xD;
 &#xD;
-<pb  n="232-233 (Advertisement) " xml:id="VAC8249-00000117"/>&#xD;
+<pb n="232-233 (Advertisement) " xml:id="VAC8249-00000117"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 BOARDMAN'S BIBLE          IN'THE     FAMILY..j&#xD;
 (9 4  ViNIi   iu t   f juuiihiOR:,&#xD;
@@ -10452,7 +10457,7 @@ AUTHOR OF THE AM RIFL RANG TIE."&#xD;
 W   bi Noplete in One ume. Price Fifty ent.&#xD;
 A   1      A.D&#xD;
 &#xD;
-<pb  n="234 (Advertisement) -235 (Advertisement) " xml:id="VAC8249-00000118"/>&#xD;
+<pb n="234 (Advertisement) -235 (Advertisement) " xml:id="VAC8249-00000118"/>&#xD;
 LIPPINCOTT, GRAMBO  C0.'S PUBLICATIONS.&#xD;
 E G ONFESSig(S OF A LOUSEKEEpER.&#xD;
 BY MRS. JOHN SMITH.&#xD;
@@ -10540,7 +10545,7 @@ BY C. CAMPBELL COOPER.&#xD;
 UNITED STATES' PHARiMACQP(EIA,&#xD;
 Edition of 1851i. Published by authority of the National Medical Convention.  1 vol. fiv&#xD;
 &#xD;
-<pb  n="236 (Advertisement) -237 (Advertisement) " xml:id="VAC8249-00000119"/>&#xD;
+<pb n="236 (Advertisement) -237 (Advertisement) " xml:id="VAC8249-00000119"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 SOHOOLCRAFTS GREAT NATIONAL WORK ON THE&#xD;
 PART SECOND-QUARTO.&#xD;
@@ -10640,7 +10645,7 @@ B Y JA MES H . S IM P S ON, A. M,,&#xD;
 W IT H .SEIV E NT Y-F I V           COO L O U RD I LL U ST RA T IO fS,&#xD;
 One volume, octavo. Price, Three Dollars.&#xD;
 &#xD;
-<pb  n="238 (Advertisement) -239 (Advertisement) " xml:id="VAC8249-00000120"/>&#xD;
+<pb n="238 (Advertisement) -239 (Advertisement) " xml:id="VAC8249-00000120"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 TALES      OF   THE.SOUTHERN            BORDER.&#xD;
 BY C. W. WEBBER.&#xD;
@@ -10725,7 +10730,7 @@ AND TWO LARGE AND ACCURATE MAPS OF THAT REGION.&#xD;
 3ne volume, royal octave. Price Fi4Ua&#xD;
 81&#xD;
 &#xD;
-<pb  n="240 (Advertisement) -241 (Advertisement) " xml:id="VAC8249-00000121"/>&#xD;
+<pb n="240 (Advertisement) -241 (Advertisement) " xml:id="VAC8249-00000121"/>&#xD;
 LIPPiNCOTT, GRAMBO &amp;amp; CO'S PUBLICATIONS.&#xD;
 THE ABBOTSFORD EDITION&#xD;
 OF&#xD;
@@ -10796,7 +10801,7 @@ One volume, 18mo., Leather cover.. Price, gIO cents.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="242 (Advertisement) -243 (Advertisement) " xml:id="VAC8249-00000122"/>&#xD;
+<pb n="242 (Advertisement) -243 (Advertisement) " xml:id="VAC8249-00000122"/>&#xD;
 L1.yUOT  IAMO&amp;amp;COSJLIA1&#xD;
 &#xD;
 ARTHWJR'S&#xD;
@@ -10883,7 +10888,7 @@ f&#xD;
 &#xD;
 .o _,&#xD;
 &#xD;
-<pb  n="244 (Advertisement) -245" xml:id="VAC8249-00000123"/>&#xD;
+<pb n="244 (Advertisement) -245" xml:id="VAC8249-00000123"/>&#xD;
 'Yf w "   y c' y ;'   xi~'y,  g'r   'C   f   .r "t  ~  ytJ  7   p' iy&#xD;
 'r[ 7   + a "'    ~     %   ^r'td'#wru, '       ±{t 2 ,(+-* ' s',r,  ,f  vrF C   s  ,7'';&#xD;
 " ',    -  al'              ,t w,'', ' (dfM V k  + ''.a 4 i"'&#xD;
@@ -10924,8 +10929,8 @@ R7  4 'i                                       * '.-4' f r ,£A ,, ''~ _   + ,&#
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

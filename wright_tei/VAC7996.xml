@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7996">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7996">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Ten Years of Torture, or, Sutten's Death-bed Confession of How He Married Miss Martha Morton... </title>
-            <author >Anonymous</author>
+            <title>Ten Years of Torture, or, Sutten's Death-bed Confession of How He Married Miss Martha Morton... </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7996</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7996</idno>
+            <idno type="wright2" n="previous">wright2-2437</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Ten years of torture, or, Sutten's death-bed confession of how he married Miss Martha Morton, an accomplished young lady of Baltimore</title>
-                  <author >Anonymous</author>
+                  <title>Ten years of torture, or, Sutten's death-bed confession of how he married Miss Martha Morton, an accomplished young lady of Baltimore</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >76 p. plates </extent>
+               <extent>76 p. plates </extent>
                <publicationStmt>
-                  <publisher >C.W. Alexander</publisher>
+                  <publisher>C.W. Alexander</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1871">[1871]</date>
+                  <date when="1871">[1871]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-06-02">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-06-02">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Ten years of torture, or, Sutten's death-bed confession of how he married Miss Martha Morton, an accomplished young lady of Baltimore</head> 
+            <head>Ten years of torture, or, Sutten's death-bed confession of how he married Miss Martha Morton, an accomplished young lady of Baltimore</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC7996-00000001"/>TEN YEARS OF TORTURE:&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC7996-00000001"/>TEN YEARS OF TORTURE:&#xD;
 On~                               I&#xD;
 p&#xD;
 ~IJTTEN'S DEATH-BED CO]~FESSJOI&#xD;
@@ -112,7 +117,7 @@ PUBLISHED BY SPECIAL REQUEST OF THE AIJTHOR.&#xD;
 C. W. ALEXANDER, Publisher, No. 224 S. Third 5t'.et&#xD;
 PE~XX~Z~X.A., PA..&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7996-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7996-00000002"/>&#xD;
 /&#xD;
 &#xD;
 A&#xD;
@@ -156,7 +161,7 @@ a~itated with weakness or nervousness. It was written upon a #lip of&#xD;
 )1ue foolscap with a red crayon pppcil and ran as fohIow~:&#xD;
 "Revere~id and Dear Sir:&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7996-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7996-00000003"/>&#xD;
 4'&#xD;
 &#xD;
 TEN YEARS 01? TORTURE; OR&#xD;
@@ -249,7 +254,7 @@ of ir~zi, with  4t~nT~  .nk~ts~n                          stools 'd&#xD;
 ~r6tJi, and b~rl~y an4. 4t~oast w9t~r for hint tp drjnk.&#xD;
 Stdiwa~ ~VOFy 8i~k maa/and~W~s ~d~? l&amp;amp;~fyio&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7996-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7996-00000004"/>&#xD;
 e&#xD;
 &#xD;
 '~EN~ YEARS 'OF TORTt~R~;' OR&#xD;
@@ -353,7 +358,7 @@ ocean of a woef4l:eternal,, ~even"while the hi~n4 ~f R~ o~e~de~;bu~ evei~&#xD;
 niereiful God; might .,be ~reaching oi;t~ from~ 4~e ~lIr.at jWl~i~t~ Tj~r~ie to&#xD;
 save hum "Aroese yourself. Xt is never tQo 1.t. for ~aIyttio~, ,&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7996-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7996-00000005"/>&#xD;
 SWJT~W~ flX4VI~H 'B~R~ UOKF~U~ION.&#xD;
 &#xD;
 on my knee~s I will help 'you to wre~t1e'With (~'od even as did His servant&#xD;
@@ -449,7 +454,7 @@ W~4l, ~ ~pJiai1 th ~~h~y~M&amp;amp; enough to d~ t~Ew '4oo~ ~&#xD;
 4 e&#xD;
 a 1&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7996-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7996-00000006"/>&#xD;
 10               TEN YEARS. OF TORTURE; OR                                             ~fEN YEARS' OF TORTUEX; OIL            lx&#xD;
 &#xD;
 .poped they wpuld not trouble themselves about her~ When I found how&#xD;
@@ -548,7 +553,7 @@ s&#xD;
 &#xD;
 10&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7996-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7996-00000007"/>&#xD;
 TJ~N ~YR4~ OF ~Oi~URE; 4~R&#xD;
 &#xD;
 ~ot brea~fe~1~for ~e. I w~o~ildw~4ttUi jus~t, ~ wa,~gQiug out, when&#xD;
@@ -653,7 +658,7 @@ t'~an'b&amp;amp;fore '             about promises! "' I aA.~w'ei'ed 'more e,&#xD
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7996-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7996-00000008"/>&#xD;
 14                TE~1 YEARS OF TORTURE; OR&#xD;
 My wife said ~o more; but, sobbing all the while, she divested he~selt&#xD;
 of her out door clotheS, put 7pn t~hose she us~zally wope, about the house,&#xD;
@@ -709,7 +714,7 @@ I&#xD;
 &#xD;
 / 7&#xD;
 &#xD;
-<pb  n="16 (Illustration) -17" xml:id="VAC7996-00000009"/>&#xD;
+<pb n="16 (Illustration) -17" xml:id="VAC7996-00000009"/>&#xD;
 SUTTEN'S DEATh BED CONFEBBION.                 IT&#xD;
 thato come to ~ne. She did so pi~omptly, though I still noticed her ft~iu~&#xD;
 her gaze upon my ey~s~ ,&#xD;
@@ -759,7 +764,7 @@ B&#xD;
 &#xD;
 Disbop Williams was horrified yet fascinated by the dying Sutten's recitaL&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7996-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7996-00000010"/>&#xD;
 18                'TEN Y~EAII~ OF TOTURB; O~&#xD;
 t~ention to minutiae as you will see,. 'and as each part played along into&#xD;
 the next, just like the tooth of a perfectly calculated ~ogw'he&amp;amp;l works into&#xD;
@@ -852,7 +857,7 @@ off the oot at the' hed.Z'iiet'~' I    ,   7 placed them for the&#xD;
 &#xD;
 ft&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7996-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7996-00000011"/>&#xD;
 TEN YEARS OP TORTURE; OR                                            I BUTTEN'g DEATH BED OONrESeI6N.&#xD;
 &#xD;
 pti~pe~e.-~ gentlenia~'s kid gl6ve aad liandkerchief, ~both' marked A. H&#xD;
@@ -944,7 +949,7 @@ wicked desire to 'keep hei idiv~&amp;amp; that J might" tOrture bet',' prevented
 ~ next tried' i&amp;amp;b~1d 'my" hind oVer her iii~uth to'prot~n't 'her' fr~i* ~re~:&#xD;
 * 1~'a' me~.nt' ~he lhad my fin~ere betweeb;het; teeth' abd~bi~~h~ ~?'&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7996-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7996-00000012"/>&#xD;
 21&#xD;
 &#xD;
 -,     Y~Al~5e O~ T05~TUlt~;~ O~&#xD;
@@ -1038,7 +1043,7 @@ poor. Martha said i "I b~ve no friend on earLl~ nqw hut QQ&amp;amp; ~&#xD;
 the utter sadnei~s and despair of her tones had any effect upon n~eie*b~'.&#xD;
 than to intensify my batred~of hqr,~4. what to ~k~wr ~4~p ~~~rId&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7996-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7996-00000013"/>&#xD;
 TR~I YEARS OF TORTURE;' OR&#xD;
 appetite for giving her pain and torture. With an awful oath, that I&#xD;
 will not repeat' to you, Bishop, 1~ pushed my poor wife from 'me, causing&#xD;
@@ -1130,7 +1135,7 @@ several minutes, .ezcept'the old' twichin~~ of the lijm '&#xD;
 "Notv, then, Bishop," exclaimed. heM ls~t, recov~ing ap~n his' for-&#xD;
 mer strength,," time ,is short; dying is herd we 'and"wbezv the' inftue~&amp;amp;&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7996-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7996-00000014"/>&#xD;
 ~6.               tEN YEA~1S 9l~ TORTURE;, O~R&#xD;
 of that last pQtion has passed. off~ my death wiU be close at hand. I fear,&#xD;
 I cannot last long enough to tell you. all, mu~h less t~ pray for n~ercy.&#xD;
@@ -1227,7 +1232,7 @@ that of a~deinqn~              .      .     '   '              ,'. 'I.&#xD;
 &#xD;
 I J&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7996-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7996-00000015"/>&#xD;
 TEN YEARS ~W ~OR~URI~; OR'&#xD;
 "Well, never mind about the ravens," I laughed, "your old devil&#xD;
 bawk-ab, I mean your dear, devoted darling husband; will bring you&#xD;
@@ -1320,7 +1325,7 @@ be careful, not to turn on the Screw~ ~o tightly ~t any onetime. ' Sub~'q..&#xD;
 quently I used to keep Vhe brapk, on my wife for six and ~eve~i daya at: 4&#xD;
 tine.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7996-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7996-00000016"/>&#xD;
 PE~ YJ~ARS ~OF 'DOILTURII; OR&#xD;
 &#xD;
 After she had lain, insensible for about an ., slowly began&#xD;
@@ -1370,7 +1375,7 @@ wife the trick, I had played upon the 'outside ~~rld td ~cconnt for her&#xD;
 sudden disappearance-Martha' forgot her aWful feInt' of the monkey; hoc&#xD;
 eyes biazea with' anger, s~he clehehed bet' 'h~ls an4 '~i~e~k t'b~m atm..&#xD;
 &#xD;
-<pb  n="32 (Illustration) -33" xml:id="VAC7996-00000017"/>&#xD;
+<pb n="32 (Illustration) -33" xml:id="VAC7996-00000017"/>&#xD;
 Bishop Williams after ~utten's death, enters the large room, and finds the&#xD;
 eage, and at least twenty different instruments of torture.&#xD;
 &#xD;
@@ -1420,7 +1425,7 @@ to thus rob myself o(aU future delight by killlhg my wife so s~dd~nly.&#xD;
 Reinoving the brank with all haste, I now applied erery resWrative:~.L&#xD;
 C              '  '&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7996-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7996-00000018"/>&#xD;
 54                 T1~Z~I YEARS 01? ~TOUTURE; OR&#xD;
 &#xD;
 ~had'at tiny command; 'but not until I had enfled into requisition the most&#xD;
@@ -1510,7 +1515,7 @@ atedi' like that at thjs tin e~t~m'errotv.&#xD;
 ,1For tea days J kept up this cruel tQrtur of~~rvatiop, not ~i~v~'n~:smy&#xD;
 wife during-all ti '~ii~nethreepeu~ids off~od~, ~y the ,teptfrday, ~shp ~'&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7996-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7996-00000019"/>&#xD;
 .( ~ ~AI~ t~?7 TORTURE ~' eit&#xD;
 &#xD;
 SUTTBN'a. DE&amp;amp;TH 1'DXD 'CONPi~ION.&#xD;
@@ -1614,7 +1619,7 @@ t&amp;amp;4~~, t~ I~.#~th~ hi.~bd&amp;amp;*itIu1 ' liioii# t~i u~&amp;amp;cit pr
 &#xD;
 ~6&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7996-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7996-00000020"/>&#xD;
 SUTTEN'S DEATH BED CG~FES~IGN.&#xD;
 &#xD;
 TAN. YE4tII$ ~O~'TORTURU~ OW~&#xD;
@@ -1729,7 +1734,7 @@ time of day by watching .the1light of the suns as it igea4usily mude it&amp;amp;
 across tbe' fiQorof her room~ O#cliudy or. raznyAdlay!e 8 ~Ac~Uid noteve~i&#xD;
 do this. She knew, when it w~$. 8uz~morAAWia Wv, AF~1IA4~t Srin~ Liyit6.~&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7996-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7996-00000021"/>&#xD;
 SUTTEWS DEATH BED. COIfl~E88ION.            dl&#xD;
 &#xD;
 40              TEN. YEARS OF. TORTURE; OR&#xD;
@@ -1825,7 +1830,7 @@ ton chop rear-done. with.~ .snm~l'l giass; of'tn~u~cat Wine l~rorn day to day&#x
 I increased. thQ quantity of food tl)us gradually until 'I had h~ health&#xD;
 ~fctly- restore&amp;amp; Marthah4a~w~aderfully po~vett~al. 6~t~ki~4~&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7996-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7996-00000022"/>&#xD;
 TR~[ YL4RS~ O~ TQRTUR~: OR&#xD;
 &#xD;
 powerft4 indeed, that ~within one month after I had commenced to re&#xD;
@@ -1918,7 +1923,7 @@ ofher motioni and the intensity ~f~he~ terror, 1' ran 'into 'the cng'~nd s&amp;a
 cureditho monkey~'&#xD;
 My~ wir   nkdoWa ~upou'tbw ft~rj pa   and ~asping~ ?dt bt~eatb,~t*t&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7996-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7996-00000023"/>&#xD;
 4'               ~N Y&amp;amp;4R~OF TOiL~U1a~'; GA&#xD;
 &#xD;
 ~tbpreyes upon ~me, dreading, i~ 5UppQ~O, 4h~t' I ii4ended to throw the&#xD;
@@ -2011,7 +2016,7 @@ exolaimedi, bitterly disappointed no~ to find ~ny 'exhihi~o~ of t~~r~ror&#xD;
 As I spok~'.tI,~e~e sonud~l forth: the r4ttle w~.rrring of ~he~rppnjt, At&#xD;
 once Martha, with the old fear depicted ou every lineament of her face,.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7996-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7996-00000024"/>&#xD;
 48                 ~'1\~N Y1~AR~ OF TO1~TUU~; OR.&#xD;
 1e~p~d ~p aD4 sp~'ar~g, t~pon the ~ Tb e monkey b9~.lnded fro~u bls&#xD;
 a po~itiQu~.tthe ~op pf1t~e cage, a~d seen~ed this time to dis~i~y&#xD;
@@ -2062,7 +2067,7 @@ K                        K'&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="48 (Illustration) -49" xml:id="VAC7996-00000025"/>&#xD;
+<pb n="48 (Illustration) -49" xml:id="VAC7996-00000025"/>&#xD;
 BUTTZWS DEATU D~D CQN~E8~ION.         0&#xD;
 &#xD;
 eunid not prevent what g her such iumtte~able loathing an4 me~ts~&#xD;
@@ -2112,7 +2117,7 @@ Will to f~e~ ewe, un wquId.~dQ soand sill tbe power '~t ~tt~n ~ouYd not&#xD;
 prei~aul against it. I do ilot kno~v,~w~y lie is hidingXfls'fdce'(roh~ mo&#xD;
 P&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7996-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7996-00000026"/>&#xD;
 00               T1~N YEARS OF TORTURE; OR&#xD;
 &#xD;
 ix~w~. ~luf~ my' faith tells me, it is 'for some wiae~ purpose; He~chasteneth;&#xD;
@@ -2206,7 +2211,7 @@ th~ro W~a~ .np pt~. JIt~yg~tjt,~e4 t~be .~9r~uriz~g e~ae~; ~ I ~aj4~4~&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7996-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7996-00000027"/>&#xD;
 flU   N'S EII4.T~I ~fl  ~8~QN.                U.&#xD;
 &#xD;
 A'W ~A1~ 6? T&amp;amp;~LTt~X; O~&#xD;
@@ -2299,7 +2304,7 @@ J~ie~ w~ *eady ~e~i~4~g ~q,~w~i1 ~pi1 inflame froi~ the awful&#xD;
 tapa i&#xD;
 4t-&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7996-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7996-00000028"/>&#xD;
 5UTWI'~. fl~AT~I D~D CGI~W~S~ION.&#xD;
 &#xD;
 ~es~iire ~t~ie iroii'bc~dt~ ~F'6r~iv~ii~I di~y~s~ this ~~me ~i'grefttdI~(&#xD;
@@ -2388,7 +2393,7 @@ e 'Be a Chr~tfaa~.eh, you hiibhe~i#  4 ''&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7996-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7996-00000029"/>&#xD;
 TEN'YEAUS OF 1~O'RTT~RE; OZt                                             SUTTEN'$ DXATW 132D CONFESSiON.&#xD;
 &#xD;
 "~' .AM'right! in you go once more! 'says Jack.&#xD;
@@ -2486,7 +2491,7 @@ my arms          d,~toppe4% ~     ~     ~kqd her,, if ~  ~l r~c~&#xD;
 &#xD;
 57&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7996-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7996-00000030"/>&#xD;
 .58                '~B&amp;amp;~~FAMb8 ~Fi~l~TU1LH;. DR                                                                                      -              19&#xD;
 &#xD;
 ~ber piety. But though her' voic~w~s setting much ~weaker every minute&#xD;
@@ -2576,7 +2581,7 @@ suage the pain of her Ni~tere4 limb4 by pressing ~'piec0 of old'lueadkeu,&#xD;
 jokingly at my vieti,~,, 'fbow wo~l&amp;amp;you like4~,be cri*~ifiod? ~&#xD;
 'I~tig   ~W,4~~t~t'thio rev.l blo  bb~a   w4.n-~g put'4hem~ in&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7996-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7996-00000031"/>&#xD;
 '~W~ YR&amp;amp;RS OF YJ~OWNRR;                                            SUTThN'S DEATH~ l~Et~ C0NI~E5S!6N.          61&#xD;
 &#xD;
 your cag~,, ~nd yoi~r hands and fe~t~n~dled to. it, aud.be kept theretill your&#xD;
@@ -2670,7 +2675,7 @@ such a way that it was about three feet aboye the bac~. of&#xD;
 No~t~ I uic~ied m~ swab hole ~u ~Iio bottom o~f~e cap ~ipseited~j~ ita&#xD;
 splinter of wood, in such a way, that a drop of the water would fall every&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7996-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7996-00000032"/>&#xD;
 Ct             T       iTWFURF~; OIL.&#xD;
 &#xD;
 tw~ or~d~or~, ~1w~ys exa9tlyon the s~me spot, ~hich.w~s~ centre&#xD;
@@ -2720,7 +2725,7 @@ d~voringto're~d her bible. ' "&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="64 (Illustration) -65" xml:id="VAC7996-00000033"/>&#xD;
+<pb n="64 (Illustration) -65" xml:id="VAC7996-00000033"/>&#xD;
 T&#xD;
 &#xD;
 1&#xD;
@@ -2806,7 +2811,7 @@ ttanic~&#xD;
 rtha's&#xD;
 rork     *&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7996-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7996-00000034"/>&#xD;
 E6              TEN YEARS OF TORTURE; OR&#xD;
 &#xD;
 ~y design. But I did waver the moment Ii entered the room. Perhaps&#xD;
@@ -2900,7 +2905,7 @@ sins against the Creator ar~ forgiven."&#xD;
 'Nearly all of that day Martba and I spent in talking, much of ~hiisJt~&#xD;
 no doubt, to strange ears, would have sounded as foolish as the talk of&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7996-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7996-00000035"/>&#xD;
 TEN flAIls OF TOR~DUIU~ (~k&#xD;
 &#xD;
 8UTTEN'B DRAft ~D CO~PHSSiON.&#xD;
@@ -2995,7 +3000,7 @@ And I s~t do*t~elose ~ Mai~tha,' ~4o, fo? th'~'ne~t'two' bouu'a,' ~epe*ted&#xD;
 getber-ho'w itreinl3kd '~&amp;amp;I' vhtia,'1* the fitsVtim~ in t~ long, Witiked se-'&#xD;
 #ics of years, knelt before God's Throzi.' w'pr4 Ti wse like a&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7996-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7996-00000036"/>&#xD;
 TO                 TE]~ YEARS O~' TORTURE; .Oi~&#xD;
 &#xD;
 Heaven leading Satan to supplicatio~i. And whaixa touching; beautiful,&#xD;
@@ -3088,7 +3093,7 @@ As my wife said this, it~seemed like a signal to my conscience; to spring&#xD;
 upon me ~nd rend my vitals like the' Vulture of Mythology~ And I&#xD;
 groaned in spirit.. To go with her,. my sainted wife, "wonl4 be~the acm4&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7996-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7996-00000037"/>&#xD;
 TEN YEARS ~0F TORTURE; OR&#xD;
 &#xD;
 of felkity. As I thought of my crimes, I -felt certain that I would ne-va&#xD;
@@ -3181,7 +3186,7 @@ the child, "tb~ lady wb9 is hurled there wa~ gppd aed be~utifi~I, and her&#xD;
 name wap ju~st:wi~a# yourai~-4farth~. Rut t~fl ms~ how- you knaw' my&#xD;
 wife was~burie4 thera ?"' marked. 1. - - - -&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7996-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7996-00000038"/>&#xD;
 .74               TBZ~ YEARS OF' TORTURE; OR&#xD;
 "Oh; I knew that well enough," she answered, "because of the way&#xD;
 you behaved whenever I saw you at the grate. You '~vould ~ot have&#xD;
@@ -3271,7 +3276,7 @@ Sutten was evidently an intellectual human tiger; that is the only ex-&#xD;
 pression which will convey anything like an adequate idea of the man's&#xD;
 Organization. His moral part was perfectly dead. Bishop Williams, Ia&#xD;
 &#xD;
-<pb  n="76-77 (Advertisement) " xml:id="VAC7996-00000039"/>&#xD;
+<pb n="76-77 (Advertisement) " xml:id="VAC7996-00000039"/>&#xD;
 TEN YEAIW O~' TOItTURE; OR&#xD;
 ~onvej~sn~ al~out th* matter averred hi~ beliefthat Sutton was actually&#xD;
 poe~ssed of the Nyu.&#xD;
@@ -3339,7 +3344,7 @@ ehaJJenge competition. Call and see us, or send for a Price List~&#xD;
 M;J~. P4i~'~.&amp;amp;OO.,68O 8rot~dway, N~ Y.&#xD;
 *~leaonnaape this book wheu you write for PriCe List.~I&#xD;
 &#xD;
-<pb  n="78 (Advertisement) -79" xml:id="VAC7996-00000040"/>&#xD;
+<pb n="78 (Advertisement) -79" xml:id="VAC7996-00000040"/>&#xD;
 41&#xD;
 &#xD;
 THE FOLLOWING CHEAP, POPULAR BOOKS&#xD;
@@ -3389,7 +3394,7 @@ Philadelphia, Pa.&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="80 (Illustration) " xml:id="VAC7996-00000041"/>&#xD;
+<pb n="80 (Illustration) " xml:id="VAC7996-00000041"/>&#xD;
 ~AA4M~W~Z~&#xD;
 1~/~VYU~3~ /&#xD;
 &#xD;
@@ -3438,8 +3443,8 @@ A&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

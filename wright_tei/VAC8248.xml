@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8248">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8248">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Simon Kenton, or, The Scout's Revenge </title>
-            <author >Weir, James, (1821-)</author>
+            <title>Simon Kenton, or, The Scout's Revenge </title>
+            <author>Weir, James, (1821-)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8248</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8248</idno>
+            <idno type="wright2" n="previous">wright2-2676</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Simon Kenton, or, The scout's revenge</title>
-                  <author >Weir, James, (1821-)</author>
+                  <title>Simon Kenton, or, The scout's revenge</title>
+                  <author>Weir, James, (1821-)</author>
                </titleStmt>
-               <extent >195 p. plates </extent>
+               <extent>195 p. plates </extent>
                <publicationStmt>
-                  <publisher >Lippincott Grambo</publisher>
+                  <publisher>Lippincott Grambo</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-09-11">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-09-11">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Simon Kenton, or, The scout's revenge</head> 
+            <head>Simon Kenton, or, The scout's revenge</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC8248-00000001"/>INTERVIEW OF BRYAN ANDO-COM&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC8248-00000001"/>INTERVIEW OF BRYAN ANDO-COM&#xD;
 ?4    "&#xD;
 &#xD;
 i.&#xD;
@@ -130,7 +135,7 @@ rl ' y+r,   s&#xD;
 -               : ;  .&#xD;
 -__        :     =&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8248-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8248-00000002"/>&#xD;
 SIMON KENTON:&#xD;
 OR,&#xD;
 THE SCOUT'S REVENGE.&#xD;
@@ -175,7 +180,7 @@ b    i                     '&#xD;
 r         w   .    "                 n   iFb1        .y&#xD;
 A                           '}&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8248-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8248-00000003"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 and the peculiar situation of our country, at the time of which&#xD;
@@ -264,7 +269,7 @@ unknown and unheard, we commence our story.&#xD;
 &#xD;
 r_          r               1.        .&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8248-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8248-00000004"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 house looked very time-worn and dilapidated, although it was&#xD;
@@ -356,7 +361,7 @@ i&#xD;
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8248-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8248-00000005"/>&#xD;
 8                    SIMON KENTON;&#xD;
 whitest (for it was very unfashionably sunburnt), betokened&#xD;
 an Anglo-Saxon; whilst his dress and equipments went far to&#xD;
@@ -435,7 +440,7 @@ descriptions of western scenes and adventures, he woul4, aise&#xD;
 &#xD;
 see&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8248-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8248-00000006"/>&#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
 &#xD;
 his headband look intelligently at the narrator, and so wisely&#xD;
@@ -523,7 +528,7 @@ e&#xD;
 &#xD;
 SIMON KENTON;&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8248-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8248-00000007"/>&#xD;
 I ,&#xD;
 1'&#xD;
 &#xD;
@@ -626,7 +631,7 @@ M0&#xD;
 A&#xD;
 r&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8248-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8248-00000008"/>&#xD;
 OR, THE SCOUT'S REVENGE.        15&#xD;
 &#xD;
 (who lay more claims to politeness), without waiting for, or&#xD;
@@ -724,7 +729,7 @@ y         Y&#xD;
 SIMON RENTON '&#xD;
 y&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8248-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8248-00000009"/>&#xD;
 Y&#xD;
 t&#xD;
 t 0&#xD;
@@ -815,7 +820,7 @@ hind a log 'bout twenty yards off."&#xD;
 any longer, so I jist bawled out to him, in good English (for I&#xD;
 N                   2*&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8248-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8248-00000010"/>&#xD;
 OR, THE SCOUT'S REVENGE.        19&#xD;
 &#xD;
 -didn't know his tribe, or I'd have hailed him in his own gib-&#xD;
@@ -898,7 +903,7 @@ SI ON KENTON;&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8248-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8248-00000011"/>&#xD;
 20                SIMON KENTON;&#xD;
 &#xD;
 dians to make him as rich as Duffe's nearest neighbor, the&#xD;
@@ -976,7 +981,7 @@ in return.&#xD;
 this 'ere matter, the thing's explained, and a gal must be at-the&#xD;
 bottom of it. 'Taint that ar' nice little chick, the daughter of&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8248-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8248-00000012"/>&#xD;
 22                   SIMON KENTON*&#xD;
 Squire Lacy, I met the tother day?   Don't be squeamish,&#xD;
 Mister Bryan," added the borderer; "you are good enough for&#xD;
@@ -1052,7 +1057,7 @@ you and me."&#xD;
 &#xD;
 4.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8248-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8248-00000013"/>&#xD;
 OR, THE SCOUT'S REVENGE.        25&#xD;
 &#xD;
 CHAPTER       II.&#xD;
@@ -1141,7 +1146,7 @@ did so with a proviso, meaning thereby that all men, politically&#xD;
 &#xD;
 SIMON KENTON;&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8248-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8248-00000014"/>&#xD;
 26                   SIMON KENTON;&#xD;
 speaking, were free and equal; but personally, it was quite a&#xD;
 different matter, and be considered very few persons and very&#xD;
@@ -1217,7 +1222,7 @@ lieve were altogether ideal and false.&#xD;
 Seeing but few persons at her father's house, and constantly&#xD;
 dependent upon Montlack for amusement and entertainment,&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8248-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8248-00000015"/>&#xD;
 28                   SIMON KENTON;&#xD;
 accomplished as he was, and devoted as he pretended to be,&#xD;
 Coma was in a very fair way to surrender up her trusting&#xD;
@@ -1299,7 +1304,7 @@ true, and that your love was more than a cousinly affection!1"&#xD;
 '&#xD;
 ,y&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8248-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8248-00000016"/>&#xD;
 SIMON KENTON;&#xD;
 murmured Montlack, sadly; and bending still nearer his cousin,&#xD;
 he continued: "But even now, Coma, it seems to me that your&#xD;
@@ -1378,7 +1383,7 @@ herself by her harp, and sang a sweet, but sad. song, for her&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8248-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8248-00000017"/>&#xD;
 32                   SIMON KENTON;&#xD;
 heart was heavy; and Montlack, now that the burning Are&#xD;
 of jealousy had been excited in his bosom, quickly noticed, and&#xD;
@@ -1449,7 +1454,7 @@ bouquet of early spring flowers.&#xD;
 "I have gathered these little jewels of sunshine dew," he&#xD;
 exclaimed, "hoping that, as they are the first smiles of coming&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8248-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8248-00000018"/>&#xD;
 34-                 SIMON KENTON;&#xD;
 spring, Miss Coma would deign to accept them from the hand&#xD;
 of one that would willingly gather all the jewels of earth, and&#xD;
@@ -1528,7 +1533,7 @@ score, now that I am yours, I might as well tell you at once,&#xD;
 so that you may not be too vain of your eloquence, that the&#xD;
 decision I have just given was rendered last night, before you&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8248-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8248-00000019"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 were summoned to the dread tribunal, and before you had so&#xD;
@@ -1623,7 +1628,7 @@ R&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8248-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8248-00000020"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 prize held up before me, I could soon hew out a fortune in the&#xD;
@@ -1705,7 +1710,7 @@ F,&#xD;
 F i?; ±&#xD;
 f&#xD;
 &#xD;
-<pb  n="40" xml:id="VAC8248-00000021"/>&#xD;
+<pb n="40" xml:id="VAC8248-00000021"/>&#xD;
 40                  SIMON KENTON;&#xD;
 been too hasty in his suspicions, and, after all, that Coma's&#xD;
 coldness was nothing more than a maidenly whim. Consoled&#xD;
@@ -1746,7 +1751,7 @@ name of Simon Girty very often of late years, and not always&#xD;
 &#xD;
 7,&#xD;
 &#xD;
-<pb  n="Illustration-41" xml:id="VAC8248-00000022"/>&#xD;
+<pb n="Illustration-41" xml:id="VAC8248-00000022"/>&#xD;
 OR, THE SCOUT'S REVENGE.        41&#xD;
 &#xD;
 mentioned in the most honorable manner. As for the devil&#xD;
@@ -1796,7 +1801,7 @@ i&#xD;
 kv          tp&#xD;
 }&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8248-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC8248-00000023"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 now that I examine it more closely, I can see that the sun has&#xD;
@@ -1880,7 +1885,7 @@ laughing in your sleeve at the very thought of my having any&#xD;
 feeling in common with other men, I tell you that this same&#xD;
 memory of the patst, and longing to see my home, more than&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8248-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC8248-00000024"/>&#xD;
 45&#xD;
 &#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
@@ -1967,7 +1972,7 @@ I[0V!&#xD;
 94&#xD;
 4,&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8248-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC8248-00000025"/>&#xD;
 46SIMON KENTON;&#xD;
 &#xD;
 voring to put on a careless look, and thus, if possible, do away&#xD;
@@ -2053,7 +2058,7 @@ i.                           _.&#xD;
 4,&#xD;
 t&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8248-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC8248-00000026"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 Montlack made no reply, merely motioning him to go on.&#xD;
@@ -2139,7 +2144,7 @@ open-hearted, unsuspecting lover-no very difficult business, I&#xD;
 should think--a thousand dollars; and then, when the general&#xD;
 5&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8248-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC8248-00000027"/>&#xD;
 50               SIMON KENTON;&#xD;
 &#xD;
 has driven him away in disgrace, this sweet youth, the son of&#xD;
@@ -2217,7 +2222,7 @@ I'm always thinkin'. as how I knows him, but can't never&#xD;
 'zactly make him out. But never mind," he continued, shak-&#xD;
 ing his head wisely; " I've trailed that ar' rascal from the&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8248-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC8248-00000028"/>&#xD;
 52             ' - SIMON KENTON;&#xD;
 &#xD;
 corner of the Sargeant's house to that rum old cabin down by&#xD;
@@ -2290,7 +2295,7 @@ that Coma, affected, replied quickly, and with evident emo-&#xD;
 tion, "You deceive yourself, dear Jean, indeed you do; for I&#xD;
 5*&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8248-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC8248-00000029"/>&#xD;
 54                  SIMON KENTON;&#xD;
 have as much confidence in your kindness and affection now as&#xD;
 I ever did; and if I have said or done anything to wound your&#xD;
@@ -2368,7 +2373,7 @@ was met by myself, only knew of your love and engagement,&#xD;
 and was entirely ignorant of the name of your lover."&#xD;
 "Oh ho, Captain Jean !" laughed Coma, "in my simpli-&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8248-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC8248-00000030"/>&#xD;
 56                  SIMON KENTON;&#xD;
 city -I was about numbering you among the scouts or wizards&#xD;
 of the land; but discover that you have found out my secret in&#xD;
@@ -2445,7 +2450,7 @@ and equality, and the rights of man, "you are in a bad humor,&#xD;
 Jean, and determined to sneer down merit because it has strug-&#xD;
 gled up from the canaille."&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8248-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC8248-00000031"/>&#xD;
 58                  SIMON KENTON;&#xD;
 '- I am heartily pleased," retorted Montlack, with a mocking&#xD;
 smile, "that you have at length concluded to adopt the level-&#xD;
@@ -2524,7 +2529,7 @@ last lost your heart to some Adonis among our farmers or fish-&#xD;
 ermen. Which is it ?" he added, in a slightly ironical tone.&#xD;
 "Am I to have a plough and reaping-hook added to my leopard&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8248-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC8248-00000032"/>&#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -2598,7 +2603,7 @@ ing him intently in the face, said, sternly-&#xD;
 &#xD;
 60&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8248-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC8248-00000033"/>&#xD;
 62   'SIMON KENTON;&#xD;
 "See here, Mr. Bang; I don't want any of your loud talkin',&#xD;
 now, jist remember; if we are in this darned civilized country,&#xD;
@@ -2675,7 +2680,7 @@ his companion, and his attention being thus drawn to a parti-&#xD;
 cular lock, he again, for a moment, with staring eye, contem-&#xD;
 plated it; then turned his rolling orbs upon the undisturbed&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8248-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC8248-00000034"/>&#xD;
 SIMON.KENTON;&#xD;
 &#xD;
 countenance of its possessor, then upon old Betsy; and then,&#xD;
@@ -2756,7 +2761,7 @@ heard-of generosity and nobleness."&#xD;
 "I cannot accept your noble and generous offer," said the&#xD;
 6*&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8248-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC8248-00000035"/>&#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
 &#xD;
 -aptain, with assumed backwardness, at the same time gently&#xD;
@@ -2847,7 +2852,7 @@ Bryan, feelingly, "since his eavesdropping has been the cause&#xD;
 of my introduction to one so noble and generous as I have found&#xD;
 you.~"&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8248-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC8248-00000036"/>&#xD;
 68&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -2933,7 +2938,7 @@ ghosties."&#xD;
 "You say de ghosts don't trabel by daylight ?" inquired&#xD;
 Titus, throwing off his coat.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8248-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC8248-00000037"/>&#xD;
 70&#xD;
 &#xD;
 'SIMON KENTON;&#xD;
@@ -3018,7 +3023,7 @@ wer' de captain's very words."&#xD;
 "Him jist put de money in him's pocket, and laughed one&#xD;
 of dem same kind of laughs; and de captain telling him, now&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8248-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC8248-00000038"/>&#xD;
 72&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -3134,7 +3139,7 @@ he was very positive on this point-could show proper creden-&#xD;
 i&#xD;
 7&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8248-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC8248-00000039"/>&#xD;
 OR., TIE scoUT'S REVENGE.&#xD;
 &#xD;
 tials of his standing in society, and of the respectable name of&#xD;
@@ -3235,7 +3240,7 @@ fiant tone.&#xD;
 r:&#xD;
 f&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8248-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC8248-00000040"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 "Were you not the father of that fair girl, and were not your&#xD;
@@ -3327,7 +3332,7 @@ I&#xD;
 14&#xD;
 is ,&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8248-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC8248-00000041"/>&#xD;
 I&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -3416,7 +3421,7 @@ scribed, taunted Bryan with beggary, and mockingly offered to&#xD;
 loan him money; and the scheme of the plotting captain was&#xD;
 crowned with complete success, for, to his taunts and sneers,&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8248-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC8248-00000042"/>&#xD;
 80&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -3499,7 +3504,7 @@ go now, and let me see you no more; else my duty as a magis-&#xD;
 1&#xD;
 i&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8248-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC8248-00000043"/>&#xD;
 82&#xD;
 &#xD;
 trate may make me forget my pity as a man, and compel me to&#xD;
@@ -3612,7 +3617,7 @@ G&#xD;
 &#xD;
 Y,&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8248-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC8248-00000044"/>&#xD;
 he be found, and would venture his honest person within the&#xD;
 reach of justice."&#xD;
 "Farewell, Coma !" whispered the lover, springing to the&#xD;
@@ -3695,7 +3700,7 @@ f&#xD;
 t&#xD;
 R&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8248-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC8248-00000045"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 my gal. Cuss him ! I gin him a good lickin', anyhow, and&#xD;
@@ -3790,7 +3795,7 @@ his head quickly, and speaking with eager anxiety.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8248-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC8248-00000046"/>&#xD;
 88                   SIMON KENTON;.&#xD;
 look, as if he thought -old Titus was not so far wrong in his&#xD;
 suspicions, "'less he be prowlin' 'round the settlements with&#xD;
@@ -3885,7 +3890,7 @@ k&#xD;
 &#xD;
 frt&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8248-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC8248-00000047"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 the -envious and malicious," replied Duffe, contemptuously,&#xD;
@@ -3979,7 +3984,7 @@ very knotty case to unravel.'" There was a great lawyer lost&#xD;
 &#xD;
 k&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8248-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC8248-00000048"/>&#xD;
 92&#xD;
 &#xD;
 SIMON KENTO1&#xD;
@@ -4067,7 +4072,7 @@ big wigs dispute my. word."  -1" relied Bran, sadly,&#xD;
 "and, if this is my only dependence for safety, I fear my enemy&#xD;
 holds me completely at his mercy."&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8248-00000049"/>&#xD;
+<pb n="94-95" xml:id="VAC8248-00000049"/>&#xD;
 94&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -4152,7 +4157,7 @@ it on every Bible n Jerusalem!  W    s    .  i   y t&#xD;
 I wouldn't swear to anything Titus told me wehaar' w?'ll&#xD;
 swear it in all the courtoftecmowahitatr'il&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8248-00000050"/>&#xD;
+<pb n="96-97" xml:id="VAC8248-00000050"/>&#xD;
 6SIMON KENTON;&#xD;
 &#xD;
 satisfy you; and, what's more, will lift the scalp of any rascal&#xD;
@@ -4241,7 +4246,7 @@ ler Fenchman's scalp. Wil werahe Bang n,?"hi     kse'&#xD;
 for war, we will hold our peace.&#xD;
 9     '    -&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8248-00000051"/>&#xD;
+<pb n="98-99" xml:id="VAC8248-00000051"/>&#xD;
 98&#xD;
 &#xD;
 SIlbN KENTON;&#xD;
@@ -4320,7 +4325,7 @@ Sergeant Duffe, although not particularly blessed with the&#xD;
 goods of this world, was very favorably known throughout the&#xD;
 country, and on account of his honesty, and patriotism, and&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8248-00000052"/>&#xD;
+<pb n="100-101" xml:id="VAC8248-00000052"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 tried bravery, was, if not cordially and upon intimate terms,&#xD;
@@ -4407,7 +4412,7 @@ will consider them amply sufficient."&#xD;
 "I await your pleasure, for, if you continue to decline giving&#xD;
 my friend the satisfaction he claims of you as a gentleman,&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8248-00000053"/>&#xD;
+<pb n="102-103" xml:id="VAC8248-00000053"/>&#xD;
 ,r&#xD;
 &#xD;
 103&#xD;
@@ -4489,7 +4494,7 @@ steps.&#xD;
 gave Bryan and Kenton the result of his mission, adding, in&#xD;
 conclusion, that it was no use to make any further attempt,&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8248-00000054"/>&#xD;
+<pb n="104-105" xml:id="VAC8248-00000054"/>&#xD;
 OR) THE SCOUT'S REVENGE.&#xD;
 &#xD;
 for the captain, in addition to-being a knave, was in his opin-&#xD;
@@ -4571,7 +4576,7 @@ SIMON KENTON;&#xD;
 &#xD;
 105&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8248-00000055"/>&#xD;
+<pb n="106-107" xml:id="VAC8248-00000055"/>&#xD;
 106&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -4660,7 +4665,7 @@ his hand.&#xD;
 "It jist means nd more nor less than you must go over with&#xD;
 me and toe the mark with Mister Bryan? He wants a chance&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8248-00000056"/>&#xD;
+<pb n="108-109" xml:id="VAC8248-00000056"/>&#xD;
 108                 SIMON KENTON;&#xD;
 of boring a hole through you for them ar' insults you offered&#xD;
 him the tother night, when he couldn't thrash you because the&#xD;
@@ -4760,7 +4765,7 @@ for my Ingen's gettin' up, and I can't wait."&#xD;
 Seeing that. Kenton was 'determined upon a fight, and that&#xD;
 10&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8248-00000057"/>&#xD;
+<pb n="110-111" xml:id="VAC8248-00000057"/>&#xD;
 OR, THE SCOUT'11REVENGE.&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -4843,7 +4848,7 @@ and- firing when we see proper."&#xD;
 don you that ar' little accident, since it has fotched about this&#xD;
 ~'ere 'kind of fightin'. It will 'mind me of old times out in&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8248-00000058"/>&#xD;
+<pb n="112-113" xml:id="VAC8248-00000058"/>&#xD;
 SIMON 1RENTON;&#xD;
 &#xD;
 Kaintuck, and thatsyaller face .of your'n dodgin' around the&#xD;
@@ -4936,7 +4941,7 @@ r&#xD;
 ti&#xD;
 "V&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8248-00000059"/>&#xD;
+<pb n="114-115" xml:id="VAC8248-00000059"/>&#xD;
 114              SIMON KENTON;&#xD;
 &#xD;
 CHAPTER X.&#xD;
@@ -5016,7 +5021,7 @@ nP&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8248-00000060"/>&#xD;
+<pb n="116-117" xml:id="VAC8248-00000060"/>&#xD;
 116&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -5104,7 +5109,7 @@ ger from his malice and treachery ?"&#xD;
 f7&#xD;
 1&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8248-00000061"/>&#xD;
+<pb n="118-119" xml:id="VAC8248-00000061"/>&#xD;
 118&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -5222,7 +5227,7 @@ f     V;&#xD;
 '        i&#xD;
 t    i&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8248-00000062"/>&#xD;
+<pb n="120-121" xml:id="VAC8248-00000062"/>&#xD;
 120&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -5324,7 +5329,7 @@ G&#xD;
 _&#xD;
 3&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8248-00000063"/>&#xD;
+<pb n="122-123" xml:id="VAC8248-00000063"/>&#xD;
 OR, THE SCOUT'S REVENGE.        123&#xD;
 &#xD;
 4y(to seek a meeting with Jean. Go, now, and whenever I&#xD;
@@ -5397,7 +5402,7 @@ upon the head of the absent Bryan, filed his bill with due&#xD;
 &#xD;
 122                SIMON KENTON;&#xD;
 &#xD;
-<pb  n="124 (Illustration) " xml:id="VAC8248-00000064"/>&#xD;
+<pb n="124 (Illustration) " xml:id="VAC8248-00000064"/>&#xD;
 124                  SIMON KENTON;&#xD;
 ceremony by remarking ,that he had the commands of. her&#xD;
 father to press his suit, and trusted that she would receive this&#xD;
@@ -5437,7 +5442,7 @@ good, and vilify the characters of their betters I" replied Comah&#xD;
 &#xD;
 COMA.&#xD;
 &#xD;
-<pb  n="-125" xml:id="VAC8248-00000065"/>&#xD;
+<pb n="-125" xml:id="VAC8248-00000065"/>&#xD;
 but this is infatuation beyond my very dream&#xD;
 lack.&#xD;
 "1 am not at all surprised that my hones&#xD;
@@ -5510,7 +5515,7 @@ wordIs, -the veriest&#xD;
 &#xD;
 .; ~I&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8248-00000066"/>&#xD;
+<pb n="126-127" xml:id="VAC8248-00000066"/>&#xD;
 26                  SIMON KENTON;&#xD;
 scoundrel and cutthroat'in all the land would be as pure and&#xD;
 innocent as an angel."&#xD;
@@ -5604,7 +5609,7 @@ the witness to it, and the improbability of my borrowing money&#xD;
 from him, an almost entire stranger, will all go to pi-ove the&#xD;
 forgery and his guilt."&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8248-00000067"/>&#xD;
+<pb n="128-129" xml:id="VAC8248-00000067"/>&#xD;
 128&#xD;
 &#xD;
 li&#xD;
@@ -5694,7 +5699,7 @@ The general, although greatly astounded and enraged at the&#xD;
 information so abruptly given him by Montlack,. managed to&#xD;
 smother his anger sufficiently to hear him to the end; but&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8248-00000068"/>&#xD;
+<pb n="130-131" xml:id="VAC8248-00000068"/>&#xD;
 1 R                 SIMON-KENTON;&#xD;
 when the cunning captain had concluded his plausible story,&#xD;
 exclaimed--&#xD;
@@ -5807,7 +5812,7 @@ mony of Captain Kenton, thatMonsieur Montlack was in com-&#xD;
 pany with this renegade Girty, as he calls him, on the day&#xD;
 previous, and at the time this bond was executed; and he will&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8248-00000069"/>&#xD;
+<pb n="132-133" xml:id="VAC8248-00000069"/>&#xD;
 OR, THE SCOUT'S REVENGE.       183&#xD;
 &#xD;
 also prove, by the testimony of Sergeant Duffe and others, that&#xD;
@@ -5920,7 +5925,7 @@ f&#xD;
 &#xD;
 \  i&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8248-00000070"/>&#xD;
+<pb n="134-135" xml:id="VAC8248-00000070"/>&#xD;
 I&#xD;
 F i&#xD;
 t&#xD;
@@ -6029,7 +6034,7 @@ z&#xD;
 J&#xD;
 i&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8248-00000071"/>&#xD;
+<pb n="136-137" xml:id="VAC8248-00000071"/>&#xD;
 186              SIMON KENTON;&#xD;
 &#xD;
 CHAPTER        XII.&#xD;
@@ -6122,7 +6127,7 @@ OR, THE SCOUT'S REVENGE.&#xD;
 &#xD;
 187&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8248-00000072"/>&#xD;
+<pb n="138-139" xml:id="VAC8248-00000072"/>&#xD;
 OR, THE SCOUT'S REVENGE.       139&#xD;
 &#xD;
 follered her. When they wer' all once well outer the fort,&#xD;
@@ -6250,7 +6255,7 @@ lerin' on, like blind dogs on a fresh trail, stumbled into an&#xD;
 ambuscade, wer' defeated, and lost half our number. Blast&#xD;
 him! he wer' more than even with us at the Blue Licks."&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8248-00000073"/>&#xD;
+<pb n="140-141" xml:id="VAC8248-00000073"/>&#xD;
 140&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -6361,7 +6366,7 @@ fowler an old Ingen hunter's advice for once, and don't trust&#xD;
 yourself in them ar' courts-for blast me, if you do, if they&#xD;
 don't tumble you, like a nigger, into one of them dark dun-&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8248-00000074"/>&#xD;
+<pb n="142-143" xml:id="VAC8248-00000074"/>&#xD;
 .1&#xD;
 &#xD;
 142&#xD;
@@ -6492,7 +6497,7 @@ The courts are not such terrible bugaboos as you think, and dis-&#xD;
 pense justice far more frequently than they have the credit of&#xD;
 doing ;and are intended to right wrongs, punish the guilty, and&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8248-00000075"/>&#xD;
+<pb n="144-145" xml:id="VAC8248-00000075"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 protect the innocent ! Don't fear; I am confident Mr. Bryan&#xD;
@@ -6615,7 +6620,7 @@ do, because she was not thus blessed, for she felt that, although&#xD;
 she would be happy, too happy, to clasp to her bosom a bright&#xD;
 13&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8248-00000076"/>&#xD;
+<pb n="146-147" xml:id="VAC8248-00000076"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
@@ -6722,7 +6727,7 @@ claimed, with the wildyvehemence of his unrestrained nature-&#xD;
 I&#xD;
 4&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8248-00000077"/>&#xD;
+<pb n="148-149" xml:id="VAC8248-00000077"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 We will follow him into the presence of the two justices, and&#xD;
@@ -6817,7 +6822,7 @@ Conscious of innocence,.Bryan sat in the prisoner's box, sup-&#xD;
 ported by his friend and foster-father, the Sergeant; and so&#xD;
 13*&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8248-00000078"/>&#xD;
+<pb n="150-151" xml:id="VAC8248-00000078"/>&#xD;
 s&#xD;
 &#xD;
 150&#xD;
@@ -6909,7 +6914,7 @@ not ?"&#xD;
 &#xD;
 OR, THE ,SCOUT'S REVENGE.&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8248-00000079"/>&#xD;
+<pb n="152-153" xml:id="VAC8248-00000079"/>&#xD;
 0&#xD;
 &#xD;
 r&#xD;
@@ -7012,7 +7017,7 @@ a1 reckon you've the advantage of me thar, Mr. Lawyer,&#xD;
 for that ar' more than anybody ever 'spected of you," was&#xD;
 the cool rejoinder of the Scout.&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8248-00000080"/>&#xD;
+<pb n="154-155" xml:id="VAC8248-00000080"/>&#xD;
 154                  SIMON KENTON;&#xD;
 A roar of laughter met this keen retort of the backwoods-&#xD;
 man, and the justices r p themselves, enjoying- the discomfiture of&#xD;
@@ -7112,7 +7117,7 @@ s&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8248-00000081"/>&#xD;
+<pb n="156-157" xml:id="VAC8248-00000081"/>&#xD;
 SIMON KENTON;&#xD;
 &#xD;
 "If that's all," said Simon, falling back to his place, "Im&#xD;
@@ -7234,7 +7239,7 @@ cause of his seeming resignation, unless there was something&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8248-00000082"/>&#xD;
+<pb n="158-159" xml:id="VAC8248-00000082"/>&#xD;
 158                  SIMON KENTON;&#xD;
 still behind and untold, that would eventually prove his inno-&#xD;
 cence and insure acquittal.&#xD;
@@ -7333,7 +7338,7 @@ quested Bryan to accompany him to the prison, which, after a&#xD;
 sad parting with Dufe and Simon (the latter still insisting on&#xD;
 an appeal to force), he quietly did, waving his last adieu as the&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8248-00000083"/>&#xD;
+<pb n="160-161" xml:id="VAC8248-00000083"/>&#xD;
 160&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -7418,7 +7423,7 @@ not meeting their advances in a proper spirit, their friendship&#xD;
 was soon turned to hatred, and their malevolence began to show&#xD;
 14*&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8248-00000084"/>&#xD;
+<pb n="162-163" xml:id="VAC8248-00000084"/>&#xD;
 162                 SIMON KENTON;&#xD;
 itself in numerous petty annoyances and practical jokes, which&#xD;
 our hero meeting promptly in the very outset by coolly knock-&#xD;
@@ -7503,7 +7508,7 @@ coming of the black, when a heavy step was heard alongdoor&#xD;
 .passage, the bolts of his dungeon wrte firawst ck timed oorghi&#xD;
 swung open with a creak, and o   h   is  iedrn       i&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8248-00000085"/>&#xD;
+<pb n="164-165" xml:id="VAC8248-00000085"/>&#xD;
 164&#xD;
 SIMON KENTON;&#xD;
 imprisonment, Kenton stood within the contracted walls of hi&#xD;
@@ -7584,7 +7589,7 @@ across the gal; and what's more, when I did start the white&#xD;
 doe, I jist up and told her all 'bout the rascality of them&#xD;
 (      darned judges and of the gineral; but we won't say anything&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8248-00000086"/>&#xD;
+<pb n="166-167" xml:id="VAC8248-00000086"/>&#xD;
 166                 SIMON KENTON;&#xD;
 'bout him, for the gal says the old 'ristocrat's her daddy, though&#xD;
 b dn' 'zactly b'ieve it, and I told her so; and I told her all&#xD;
@@ -7660,7 +7665,7 @@ I can, and will, ere I consummate this unholy connection!I"&#xD;
 " There ist only one course left us, Bryan," she added, in ano-&#xD;
 thcr part of her letter, "and Captain Kenton presses me to&#xD;
 &#xD;
-<pb  n="168" xml:id="VAC8248-00000087"/>&#xD;
+<pb n="168" xml:id="VAC8248-00000087"/>&#xD;
 168                 SIMON KENTON*&#xD;
 pursue it; and though my face burns at the thought of mention-&#xD;
 ing it, still, as my father harshly refuses to listen to my pray-&#xD;
@@ -7704,7 +7709,7 @@ i&#xD;
 i&#xD;
 _.      _    .    '                                                                       ,&#xD;
 &#xD;
-<pb  n="Illustration-169" xml:id="VAC8248-00000088"/>&#xD;
+<pb n="Illustration-169" xml:id="VAC8248-00000088"/>&#xD;
 rIC&#xD;
 &#xD;
 F&#xD;
@@ -7768,7 +7773,7 @@ t&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8248-00000089"/>&#xD;
+<pb n="170-171" xml:id="VAC8248-00000089"/>&#xD;
 170                  SIMON KENTON;&#xD;
 since I've, been in the States. I'll never feel easy agin till I&#xD;
 forget thar's any sich a thing."&#xD;
@@ -7848,7 +7853,7 @@ down the hill and sprang over it.&#xD;
 "Lost !" exclaimed the same speaker, with an oath; but&#xD;
 struck with Bryan's graceful carriage and activity, he added, in&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8248-00000090"/>&#xD;
+<pb n="172-173" xml:id="VAC8248-00000090"/>&#xD;
 17~2                SIMON KENTON;&#xD;
 a more pleasant tone: "The boy is better stuff than I thought&#xD;
 him."&#xD;
@@ -7947,7 +7952,7 @@ will of Captain Montlack !" said Bryan, bitterly.&#xD;
 termination" sneered the captain; "but I would now in a man-&#xD;
 ner atone for my harshness and want of faith by set ng you at&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8248-00000091"/>&#xD;
+<pb n="174-175" xml:id="VAC8248-00000091"/>&#xD;
 174                  SIMON. KENTON;&#xD;
 liberty, did you but have a graib of reason or common sense&#xD;
 about you !"&#xD;
@@ -8025,7 +8030,7 @@ stance; and there is no trite adage of the world more groundless&#xD;
 or untenable than the one you have just mentioned."&#xD;
 "Well, we won't discuss this matter now," replied Montlack;&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8248-00000092"/>&#xD;
+<pb n="176-177" xml:id="VAC8248-00000092"/>&#xD;
 176                  SIMON KENTON;&#xD;
 "and as you are not disposed to give me credit for any feeling&#xD;
 other than selfishness, I will at once to the design and intent.&#xD;
@@ -8102,7 +8107,7 @@ naturally feel remorse at keeping an innocent man in prison,&#xD;
 when I had gained'my end? Besides," added Montlack, with&#xD;
 a quick glance at. the unmoved countenance of his rival, " Co-&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8248-00000093"/>&#xD;
+<pb n="178-179" xml:id="VAC8248-00000093"/>&#xD;
 w&#xD;
 &#xD;
 SIMON KENTON;&#xD;
@@ -8186,7 +8191,7 @@ But his hopes and wishes were destined alike to meet wit&#xD;
 &#xD;
 178&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8248-00000094"/>&#xD;
+<pb n="180-181" xml:id="VAC8248-00000094"/>&#xD;
 LOSIMON KENTON;&#xD;
 disappointment, for, at the word, Bryan bounded lightly for-&#xD;
 ward, and with a desperate effort cleared the rope!&#xD;
@@ -8266,7 +8271,7 @@ turned his eyes from the forest where the person of Bryan had&#xD;
 just vanished, to the countenance of his unlucky opponent.&#xD;
 16&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8248-00000095"/>&#xD;
+<pb n="182-183" xml:id="VAC8248-00000095"/>&#xD;
 182                 SIMON KENTON;      -&#xD;
 "Just drop me a line if you get it before I do," replied the&#xD;
 other, turning upon his heel and walking away..&#xD;
@@ -8339,7 +8344,7 @@ a passion."e-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8248-00000096"/>&#xD;
+<pb n="184-185" xml:id="VAC8248-00000096"/>&#xD;
 184                 SIMON KENTON;&#xD;
 eame time urging his horse a few paces nearer the unflinching&#xD;
 borderer; ."my course is in that direction, and I don't wish to&#xD;
@@ -8431,7 +8436,7 @@ equipped, as if for a long journey; but he was not allowed&#xD;
 much time for observation; for Kenton, aiding him to dismount,&#xD;
 16*~&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8248-00000097"/>&#xD;
+<pb n="186-187" xml:id="VAC8248-00000097"/>&#xD;
 SIMON KENTON,&#xD;
 &#xD;
 hurried him to the house, and, pushing in the door, exclaimed,&#xD;
@@ -8526,7 +8531,7 @@ r  ,&#xD;
 &#xD;
 186&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8248-00000098"/>&#xD;
+<pb n="188-189" xml:id="VAC8248-00000098"/>&#xD;
 188                 SIMON KENTON;&#xD;
 They were gone! Bryan sought a new home in the West;&#xD;
 and Coma, trusting in his love, deserted father and home, and&#xD;
@@ -8603,7 +8608,7 @@ for he discovered that Simon was somewhat touchy on this&#xD;
 point, and wished to aggravate him as much as possible. "She&#xD;
 will be highly delighted, I have no doubt, eating fat bear-meat,&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8248-00000099"/>&#xD;
+<pb n="190-191" xml:id="VAC8248-00000099"/>&#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
 &#xD;
 and sleeping on greasy bear-skins, and willnever think of linen&#xD;
@@ -8686,7 +8691,7 @@ commence cussin' and swearin' like mad, and down he'd drop&#xD;
 &#xD;
 191&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8248-00000100"/>&#xD;
+<pb n="192-193" xml:id="VAC8248-00000100"/>&#xD;
 192                  SIMON KENTON;&#xD;
 me into the water, and blast me, casting, if he didn't keep up&#xD;
 his dipping' and drippin' till I got as cool as a cucumber, had&#xD;
@@ -8765,7 +8770,7 @@ I          17&#xD;
 &#xD;
 m&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8248-00000101"/>&#xD;
+<pb n="194-195" xml:id="VAC8248-00000101"/>&#xD;
 195&#xD;
 &#xD;
 OR, THE SCOUT'S REVENGE.&#xD;
@@ -8843,7 +8848,7 @@ I&#xD;
 &#xD;
 SIMON KENTON;,&#xD;
 &#xD;
-<pb  n="196-197 (Advertisement) " xml:id="VAC8248-00000102"/>&#xD;
+<pb n="196-197 (Advertisement) " xml:id="VAC8248-00000102"/>&#xD;
 '    r&#xD;
 &#xD;
 -  'r4i'  "  Y'  ''  1  .   i.'F  t   yi{   r 7 tp k 3&#xD;
@@ -8890,7 +8895,7 @@ Including Supplernent, bound in cloth, sheep, calf, &amp;amp;c., varying in&#xD;
 The whole forming the most valuable as well as the cheapest Commentary&#xD;
 published i i the wn-I,&#xD;
 &#xD;
-<pb  n="198 (Advertisement) -199 (Advertisement) " xml:id="VAC8248-00000103"/>&#xD;
+<pb n="198 (Advertisement) -199 (Advertisement) " xml:id="VAC8248-00000103"/>&#xD;
 LIPPINCOTT,,GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 NOTICES AND RECOMMENDATIONS&#xD;
 OF THE&#xD;
@@ -9013,7 +9018,7 @@ I&#xD;
 t&#xD;
 i&#xD;
 &#xD;
-<pb  n="200 (Advertisement) -201 (Advertisement) " xml:id="VAC8248-00000104"/>&#xD;
+<pb n="200 (Advertisement) -201 (Advertisement) " xml:id="VAC8248-00000104"/>&#xD;
 LIPPINCOTT, GRAM3O &amp;amp; CO.'S PUBLICATIONS.&#xD;
 ILLUSTRATIONS OF THE HOLY SCRIPTURES,&#xD;
 ID one super-royal volume.&#xD;
@@ -9141,7 +9146,7 @@ plicity, yetoelegance of style, without adornment, will probably never find one 
 - M. Magaie.~&#xD;
 A * 5&#xD;
 &#xD;
-<pb  n="202 (Advertisement) -203 (Advertisement) " xml:id="VAC8248-00000105"/>&#xD;
+<pb n="202 (Advertisement) -203 (Advertisement) " xml:id="VAC8248-00000105"/>&#xD;
 LiPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 LIPPINCOTT'S EDITIONS OF&#xD;
 THE HOLY BIBLE,&#xD;
@@ -9261,7 +9266,7 @@ and Wotrd down to the tribunal of human reason, for condemnation and annihilatio
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="204 (Advertisement) -205 (Advertisement) " xml:id="VAC8248-00000106"/>&#xD;
+<pb n="204 (Advertisement) -205 (Advertisement) " xml:id="VAC8248-00000106"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 Q(Iit4ergg of .Amtra:&#xD;
 CONSISTING- OF&#xD;
@@ -9367,7 +9372,7 @@ exquisite taste."&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="206 (Advertisement) -207 (Advertisement) " xml:id="VAC8248-00000107"/>&#xD;
+<pb n="206 (Advertisement) -207 (Advertisement) " xml:id="VAC8248-00000107"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 THE POETICAL WORKS OF ROGERS, CAMPBELL, MONTGOMERY,&#xD;
 LAMB, AND KIRKE WHITE.&#xD;
@@ -9505,7 +9510,7 @@ f;&#xD;
 ,&#xD;
 ,&#xD;
 &#xD;
-<pb  n="208 (Advertisement) -209 (Advertisement) " xml:id="VAC8248-00000108"/>&#xD;
+<pb n="208 (Advertisement) -209 (Advertisement) " xml:id="VAC8248-00000108"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 THE POWER AND PROGRESS OF THE UNITED STATES.&#xD;
 T HE UNITED STA TES; Its Power and Progress.&#xD;
@@ -9636,7 +9641,7 @@ F&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="210 (Advertisement) -211 (Advertisement) " xml:id="VAC8248-00000109"/>&#xD;
+<pb n="210 (Advertisement) -211 (Advertisement) " xml:id="VAC8248-00000109"/>&#xD;
 LIPPINOOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 HINDS'S FARRIERY AND STUD-BOOK-.                                   NEW       EDITION.&#xD;
 FARRIERY,&#xD;
@@ -9755,7 +9760,7 @@ r.&#xD;
 .y&#xD;
 'x,&#xD;
 &#xD;
-<pb  n="212 (Advertisement) -213 (Advertisement) " xml:id="VAC8248-00000110"/>&#xD;
+<pb n="212 (Advertisement) -213 (Advertisement) " xml:id="VAC8248-00000110"/>&#xD;
 f&#xD;
 &#xD;
 SAY'S POLITICAL ECONOMY,&#xD;
@@ -9863,7 +9868,7 @@ CA LIFORNIA AND OREGON;"&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="214 (Advertisement) -215 (Advertisement) " xml:id="VAC8248-00000111"/>&#xD;
+<pb n="214 (Advertisement) -215 (Advertisement) " xml:id="VAC8248-00000111"/>&#xD;
 LPINCOTT, GRAMBQ &amp;amp; CO.'S PUBLICATIONS.&#xD;
 DO O  OS L.E CT U RES.,&#xD;
 DISCOURSES TO YOUNG MEN.&#xD;
@@ -9955,7 +9960,7 @@ BY JAMES-M'HENRY, M.D.&#xD;
 One volume, 18mo&#xD;
 19&#xD;
 &#xD;
-<pb  n="216 (Advertisement) -217 (Advertisement) " xml:id="VAC8248-00000112"/>&#xD;
+<pb n="216 (Advertisement) -217 (Advertisement) " xml:id="VAC8248-00000112"/>&#xD;
 . LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 Bennett's (Rev. John) Letters to a Young Lady,&#xD;
 ON A VARIETY OF SUBJECTS CALCULATED TO IMPROVE THE HERT,&#xD;
@@ -10049,7 +10054,7 @@ EDITED BY MINARD W. WILSON.&#xD;
 &#xD;
 .2&#xD;
 &#xD;
-<pb  n="218 (Advertisement) -219 (Advertisement) " xml:id="VAC8248-00000113"/>&#xD;
+<pb n="218 (Advertisement) -219 (Advertisement) " xml:id="VAC8248-00000113"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS&#xD;
 CA MP LIFE OF A VOLUNTEER&#xD;
 A Campaign in Mexico; Or, A Glimpse at Life in Camp&#xD;
@@ -10150,7 +10155,7 @@ FRIEN DSHIP, by MHenry. With a Memoir of each Author, prepared expressly&#xD;
 for this work.. 18mo&#xD;
 23&#xD;
 &#xD;
-<pb  n="220 (Advertisement) -221 (Advertisement) " xml:id="VAC8248-00000114"/>&#xD;
+<pb n="220 (Advertisement) -221 (Advertisement) " xml:id="VAC8248-00000114"/>&#xD;
 4.&#xD;
 1&#xD;
 &#xD;
@@ -10260,7 +10265,7 @@ I&#xD;
 f&#xD;
 ,,&#xD;
 &#xD;
-<pb  n="222 (Advertisement) -223 (Advertisement) " xml:id="VAC8248-00000115"/>&#xD;
+<pb n="222 (Advertisement) -223 (Advertisement) " xml:id="VAC8248-00000115"/>&#xD;
 LWPPINCOTT, GIRAMBO &amp;amp; CO.'S PUBLICATIONS&#xD;
 THE CONFESSIONS OF A HOUSEKEEPER.&#xD;
 BY MRS. JOHN SMITH.&#xD;
@@ -10353,7 +10358,7 @@ Uditlbn of,18M. Publishedl by authority of the National Medical Convenion. I vol
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="224 (Advertisement) -225 (Advertisement) " xml:id="VAC8248-00000116"/>&#xD;
+<pb n="224 (Advertisement) -225 (Advertisement) " xml:id="VAC8248-00000116"/>&#xD;
 IOAMQ &amp;amp; C.'S PUBLICATIONS.&#xD;
 SCHOOLCRAFTS GREAT NATIONAL WORK ON                  THE&#xD;
 PART SECOND--QUARTO&#xD;
@@ -10467,7 +10472,7 @@ of them.'-PRICE, ONE DOLLAR.&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="226 (Advertisement) -227 (Advertisement) " xml:id="VAC8248-00000117"/>&#xD;
+<pb n="226 (Advertisement) -227 (Advertisement) " xml:id="VAC8248-00000117"/>&#xD;
 .L,     &amp;amp;t CO.'S PUBLICATIONS.&#xD;
 TALES OF THE SOUTHERN BORDER.&#xD;
 BY C. W. W E B B E R.&#xD;
@@ -10555,7 +10560,7 @@ CAPTAIN 'TOPOGRAPHICAL ENGINEERS.&#xD;
 , +, s&#xD;
 v&#xD;
 &#xD;
-<pb  n="228 (Advertisement) -229 (Advertisement) " xml:id="VAC8248-00000118"/>&#xD;
+<pb n="228 (Advertisement) -229 (Advertisement) " xml:id="VAC8248-00000118"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 THE ABBOTSFORD EDITION&#xD;
 OF&#xD;
@@ -10632,7 +10637,7 @@ I.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="230 (Advertisement) -231 (Advertisement) " xml:id="VAC8248-00000119"/>&#xD;
+<pb n="230 (Advertisement) -231 (Advertisement) " xml:id="VAC8248-00000119"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 A RT HU R'S&#xD;
 BEAUTIFULLY ILLUSTRATED,&#xD;
@@ -10709,7 +10714,7 @@ I           44&#xD;
 4 *&#xD;
 .  es  __ *          .  .  .  ...*_  ._&#xD;
 &#xD;
-<pb  n="232 (Advertisement) -233" xml:id="VAC8248-00000120"/>&#xD;
+<pb n="232 (Advertisement) -233" xml:id="VAC8248-00000120"/>&#xD;
 LIPPINCOTT, GRAMBO &amp;amp; CO.'S PUBLICATIONS.&#xD;
 A  REVIE  -1&#xD;
 }  ~OF}&#xD;
@@ -10748,8 +10753,8 @@ yw&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

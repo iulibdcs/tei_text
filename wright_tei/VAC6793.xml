@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6793">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6793">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >A Home Scene, or, Mr. Aston's First Evening with Grover &amp; Baker's Celebrated Family Sewing Machine </title>
-            <author >Anonymous</author>
+            <title>A Home Scene, or, Mr. Aston's First Evening with Grover &amp; Baker's Celebrated Family Sewing Machine </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6793</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6793</idno>
+            <idno type="wright2" n="previous">wright2-1255A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >A Home scene, or, Mr. Aston's first evening with Grover &amp; Baker's celebrated family sewing machine</title>
-                  <author >Anonymous</author>
+                  <title>A Home scene, or, Mr. Aston's first evening with Grover &amp; Baker's celebrated family sewing machine</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >20 p.</extent>
+               <extent>20 p.</extent>
                <publicationStmt>
-                  <publisher >T. Holman printer</publisher>
+                  <publisher>T. Holman printer</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1861">1861</date>
+                  <date when="1861">1861</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-07-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-07-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>A Home scene, or, Mr. Aston's first evening with Grover &amp; Baker's celebrated family sewing machine</head> 
+            <head>A Home scene, or, Mr. Aston's first evening with Grover &amp; Baker's celebrated family sewing machine</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6793-00000001"/>&amp;amp;&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6793-00000001"/>&amp;amp;&#xD;
 &#xD;
 I)  rid.  L.  .   .il t&#xD;
 0~[&#xD;
@@ -96,7 +101,7 @@ I)  rid.  L.  .   .il t&#xD;
 4&#xD;
 .1                                                                                                                                    .&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6793-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6793-00000002"/>&#xD;
 Nx Ton, August 18 1i86 .&#xD;
 MRsRas. QRovga&amp;amp;BLK:--On page "13" of your little pamphlet&#xD;
 entitled "A Iome Scene,t' the question Is'asked 'k Whether ladies&#xD;
@@ -191,7 +196,7 @@ ing to destroy his happiness and render him uncomfortable, a change&#xD;
 &#xD;
 _         __   _va ..e.  _.   __                                                                 j3&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC6793-00000003"/>&#xD;
+<pb n="2-3" xml:id="VAC6793-00000003"/>&#xD;
 I&#xD;
 &#xD;
 atlfat passed over his countenance, as his eye rested on an adveatise-&#xD;
@@ -292,7 +297,7 @@ the forepart of the foot, wjthout raiing the toes'&#xD;
 &#xD;
 ,.&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6793-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC6793-00000004"/>&#xD;
 f                             4&#xD;
 "Very true," responded Mr. A.,"the motion, as well as the needle,&#xD;
 requires some thought at first. I did not think of that.  ,ow I have&#xD;
@@ -396,7 +401,7 @@ her huisbanld, "'You have sewed this eseum on the wrong-side ; a&#xD;
 stiesses. I -ill show you lio v to take it out : Begin from the end&#xD;
 where  -oiileit otf sewing ; pick up thr-ee stitches ons the upper&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6793-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC6793-00000005"/>&#xD;
 I&#xD;
 &#xD;
 '6&#xD;
@@ -501,7 +506,7 @@ j+J&#xD;
 i&#xD;
 4&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6793-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC6793-00000006"/>&#xD;
 8&#xD;
 &#xD;
 TO THREAD THE. CIRCULAR NEEDLE.&#xD;
@@ -594,7 +599,7 @@ I.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6793-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC6793-00000007"/>&#xD;
 10&#xD;
 NEEDLES.    -&#xD;
 The needles are numbered 0; 00, ai 1, 2; the 00 being finest, and&#xD;
@@ -681,7 +686,7 @@ I-&#xD;
 &#xD;
 +*  as=a..-..--_---       =.-.+ssr, +esck..ss.,"                         'Wiail Fi  ir'to+'+.as"'°&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6793-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC6793-00000008"/>&#xD;
 12&#xD;
 SECOND SAM.-To make the second seam of tie fell, open or&#xD;
 spread apart the two layers or thicknesses of the cloth, and stitch&#xD;
@@ -755,7 +760,7 @@ of fastening the threads, and when a new seam is to be commenced&#xD;
 the strip may be displaced by feeding the garment under the-clothL&#xD;
 presser in the same manner.&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6793-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC6793-00000009"/>&#xD;
 RELATIVE       MERITS&#xD;
 OF THE&#xD;
 SEWING MACHINE STITCHES.&#xD;
@@ -819,7 +824,7 @@ riably certain of, altering the tension ; when the seam, instead of&#xD;
 showin  "the s'titch alike on both sides," will, present the appear-&#xD;
 ance shpwn by Figure 5, with a straight thread on the under&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6793-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC6793-00000010"/>&#xD;
 surface of the fabric, which ritay easily be drawn out, leaving the&#xD;
 upper thread raveled. Thin fabrics show this imperfection in a&#xD;
 greater degree than heavier good, because they have not_ body&#xD;
@@ -906,7 +911,7 @@ _&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6793-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC6793-00000011"/>&#xD;
 18&#xD;
 &#xD;
 The peculiarity re erred to is this: that whenever it is required to&#xD;
@@ -998,7 +1003,7 @@ s&#xD;
 &#xD;
 N&#xD;
 &#xD;
-<pb  n="20 (Advertisement) -21 (Advertisement) " xml:id="VAC6793-00000012"/>&#xD;
+<pb n="20 (Advertisement) -21 (Advertisement) " xml:id="VAC6793-00000012"/>&#xD;
 20&#xD;
 the upper'spool, and the same number from the bobbin- -making&#xD;
 twelve inches waste at the beginning ; while at the end of each&#xD;
@@ -1087,7 +1092,7 @@ k&#xD;
 e°&#xD;
 K'&#xD;
 &#xD;
-<pb  n="22 (Advertisement) -23 (Advertisement) " xml:id="VAC6793-00000013"/>&#xD;
+<pb n="22 (Advertisement) -23 (Advertisement) " xml:id="VAC6793-00000013"/>&#xD;
 No. 23.&#xD;
 No. 22.&#xD;
 ,-1Price,                                                                                                       $  0.&#xD;
@@ -1101,7 +1106,7 @@ ________________________________________________________  i&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="24 (Advertisement) -25 (Advertisement) " xml:id="VAC6793-00000014"/>&#xD;
+<pb n="24 (Advertisement) -25 (Advertisement) " xml:id="VAC6793-00000014"/>&#xD;
 No. 25.&#xD;
 &#xD;
 ttC&#xD;
@@ -1156,7 +1161,7 @@ Price, $80.&#xD;
 _.. , ....   _  r  ...          T           -_.        ,        --_     , ..e._.._. ....., .,. _  _.  _._        ..e._-.         .,,,,.e.,,,,,.n,--- ._ Pm&#xD;
 .'aY w&#xD;
 &#xD;
-<pb  n="26 (Advertisement) -27 (Advertisement) " xml:id="VAC6793-00000015"/>&#xD;
+<pb n="26 (Advertisement) -27 (Advertisement) " xml:id="VAC6793-00000015"/>&#xD;
 No. 2 7.&#xD;
 &#xD;
 I&#xD;
@@ -1224,7 +1229,7 @@ Price, vviik   tsai ;ht 1'trd1     1(J5.&#xD;
 F&#xD;
 I&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6793-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC6793-00000016"/>&#xD;
 A FEW NAMES OF              1      SERLS&#xD;
 IN DIFFERENT SECTIONS OF TIIE COUN RY,O WIOI WE REFER :&#xD;
 NEW YORK AND VICINITY.&#xD;
@@ -1363,7 +1368,7 @@ l&#xD;
 r&#xD;
 t&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6793-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC6793-00000017"/>&#xD;
 NAMES OF PURCHASERS.&#xD;
 ALBANY AND VICINITY, CONTINUED.&#xD;
 Mrs. Relyea,         Win. B. Conant,      Wm iG(&#xD;
@@ -1521,7 +1526,7 @@ A. IEthridge,&#xD;
 &#xD;
 [e.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6793-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC6793-00000018"/>&#xD;
 I,                                    .&#xD;
 &#xD;
 .._ _________                                              5-..-a~ *nA"7 'tAI                                                 R&#xD;
@@ -1629,7 +1634,7 @@ i ,&#xD;
 + ,&#xD;
 _&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6793-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC6793-00000019"/>&#xD;
 INDIVIDUAL TESTIMONIALS.&#xD;
 "I hve used the Grover &amp;amp; Baker Sewing Machine which I pur-&#xD;
 chased six months since. I does allkinds of family aewing, and I cheer-&#xD;
@@ -1688,8 +1693,8 @@ Iu&#xD;
 &#xD;
 &#xD;
                     
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

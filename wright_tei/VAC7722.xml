@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7722">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7722">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >A Man in Search of a Wife, or, The Adventures of a Bachelor in New York </title>
-            <author >Seaton, Walter.</author>
+            <title>A Man in Search of a Wife, or, The Adventures of a Bachelor in New York </title>
+            <author>Seaton, Walter.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7722</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7722</idno>
+            <idno type="wright2" n="previous">wright2-2175</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >A man in search of a wife, or, The adventures of a bachelor in New York</title>
-                  <author >Seaton, Walter.</author>
+                  <title>A man in search of a wife, or, The adventures of a bachelor in New York</title>
+                  <author>Seaton, Walter.</author>
                </titleStmt>
-               <extent >100 p. </extent>
+               <extent>100 p. </extent>
                <publicationStmt>
-                  <publisher >DeWitt &amp; Davenport</publisher>
+                  <publisher>DeWitt &amp; Davenport</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1858">[1858]</date>
+                  <date when="1858">[1858]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-16">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-16">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>A man in search of a wife, or, The adventures of a bachelor in New York</head> 
+            <head>A man in search of a wife, or, The adventures of a bachelor in New York</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7722-00000001"/>I,&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7722-00000001"/>I,&#xD;
 &#xD;
 IAN IN SEARCH OF A WIFE;&#xD;
 &#xD;
@@ -106,7 +111,7 @@ NEW YORK:&#xD;
 ?DE WITT &amp;amp; DAVENPORT, PUBILISHERS,&#xD;
 180 &amp;amp; 162 NAssAU 8TRENT&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7722-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7722-00000002"/>&#xD;
 ; ~&#xD;
 &#xD;
 I&#xD;
@@ -166,7 +171,7 @@ N&#xD;
 &#xD;
 N&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7722-00000003"/>&#xD;
+<pb n="6-7" xml:id="VAC7722-00000003"/>&#xD;
 '6           3ONATHAN OLDI3UOK&#xD;
 &#xD;
 Mt Ol4buok was a man of about forty-nine years of age, btxt who&#xD;
@@ -269,7 +274,7 @@ Jonathan Oldbuck junior had, as we have before said, furnishoJ~'&#xD;
 &#xD;
 I1&#xD;
 &#xD;
-<pb  n="8-11" xml:id="VAC7722-00000004"/>&#xD;
+<pb n="8-11" xml:id="VAC7722-00000004"/>&#xD;
 3OIUATHAK~ OLDflUO~P                                                     IN)   41~9II ~Ff 4 ~WWE.              11&#xD;
 &#xD;
 untt~ist~keable ~proofs*~ th~ ~&#xD;
@@ -380,7 +385,7 @@ I'&#xD;
 &#xD;
 11,&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7722-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7722-00000005"/>&#xD;
 JONATHAN OL~)BUC~&#xD;
 '1(t~1retui~n ~ the chain and rings you 'gave me. I forgot to&#xD;
 you, that, the ,ox~e ~et in E~merald, the jeweller told me, was m~d~&#xD;
@@ -452,7 +457,7 @@ hat and thread-hare garments."&#xD;
 '~1Earriage again, mother!" and he took a candle and went to bed&#xD;
 N&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7722-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7722-00000006"/>&#xD;
 IN ~A~OO~!A~W1T4I.            1$&#xD;
 &#xD;
 2"&#xD;
@@ -561,7 +566,7 @@ I&#xD;
 &#xD;
 15&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7722-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7722-00000007"/>&#xD;
 JONATHAN OLDEUCK&#xD;
 th~w~ather duly descanted upor~, there was a dead silence, for none&#xD;
 seemed to be overburdened with the materials for conversation.&#xD;
@@ -661,7 +666,7 @@ pearance; he was thin, which Mr Oldbuok was not; he wore a bl&amp;amp;e&#xD;
 ~a peculiar manner of dangling his pocket-handkerchief, which give&#xD;
 him quite a distingue' air izi Miss Louisa's opinion.' In fact, he wa~&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7722-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7722-00000008"/>&#xD;
 TATHAN 4Ia~troic                                                      ~~4i ~t~X1~1H 6F A ~IFE~              19&#xD;
 &#xD;
 *n&amp;amp;xnoved. ft t~4so(gre1N~ ~xi~d'cjnietiy; ~&#xD;
@@ -754,7 +759,7 @@ I&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="20-23" xml:id="VAC7722-00000009"/>&#xD;
+<pb n="20-23" xml:id="VAC7722-00000009"/>&#xD;
 {     -                 3ONATHAN OLDBUC~&#xD;
 I&#xD;
 him on the previous evi~ that they wet~ gei~ to l~arz~nrn's.&#xD;
@@ -828,7 +833,7 @@ lateness of the hour, and departed on his way home.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7722-00000010"/>&#xD;
+<pb n="24-25" xml:id="VAC7722-00000010"/>&#xD;
 *14            JON4 THA~r, OLDBI3UK                                       IN SEARCH OF A WIFE.&#xD;
 &#xD;
 4&#xD;
@@ -926,7 +931,7 @@ is&#xD;
 &#xD;
 et&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7722-00000011"/>&#xD;
+<pb n="26-27" xml:id="VAC7722-00000011"/>&#xD;
 ~kA~ dL11~K&#xD;
 es ~rp:p~nte e~ui ~ Jf ~s~p~e&#xD;
 ~eimamdei of th~ time he&#xD;
@@ -1026,7 +1031,7 @@ alone virtuous, and all the rest of the world vicious. You se~~ this&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7722-00000012"/>&#xD;
+<pb n="28-29" xml:id="VAC7722-00000012"/>&#xD;
 28                JONATHAN OLDBUCK&#xD;
 ola~ in the wildest profusion, hanging about the precincts, of th~&#xD;
 Astor and the Irving, 'taking care not to wander too far from the&#xD;
@@ -1124,7 +1129,7 @@ when it is applied to water, makes the latter boil and effervesce,&#xD;
 until it becomes so inflammable, that it almost consumes the posses.&#xD;
 sor. So it was with Jonathan Oldbuck, but his dread of vice was&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7722-00000013"/>&#xD;
+<pb n="30-31" xml:id="VAC7722-00000013"/>&#xD;
 /&#xD;
 &#xD;
 I~~N~TRAN QLDBUO~&#xD;
@@ -1200,7 +1205,7 @@ Mr  ~heophilus Clements was in his private office, a sort of sa~c-&#xD;
 turn, which was, located on the second floor of his private house in.&#xD;
 University Place. He had enjoined the domestics not to disturb&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7722-00000014"/>&#xD;
+<pb n="32-33" xml:id="VAC7722-00000014"/>&#xD;
 32          JONATHAN OLDDlJC~&#xD;
 &#xD;
 * hie privacy on any.pretext whatsoever, but to send whoever might&#xD;
@@ -1299,7 +1304,7 @@ Oldbuck was going to reply, when Mr Clementa continued&#xD;
 to be a man of moderate means, but I may have been mistaken, and&#xD;
 possibly your fortune may be equal ~to mine. Excuse me, my dear&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7722-00000015"/>&#xD;
+<pb n="34-35" xml:id="VAC7722-00000015"/>&#xD;
 44           ZQ~fATKAK OWBUC~.&#xD;
 &#xD;
 .frie~d~ if I have ~be9n mi~taken. My daughter must marry a man,&#xD;
@@ -1375,7 +1380,7 @@ sifikie nsI~ln'6n ii '1~fth" ~ ~'lid2h~ '~afd '~vetal'&#xD;
 th~ house, and is rather attentive to her, I believe ~he's ~rl~tA&#xD;
 '~i~z~imtiion~, t~itz ~iMk*x~ns," Mr Th~c~hiln~'Cl~rrients rkii'slng&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7722-00000016"/>&#xD;
+<pb n="36-37" xml:id="VAC7722-00000016"/>&#xD;
 38          JONATHAN OLD~UOK.&#xD;
 &#xD;
 8tyle,~ and everything that could be thought of. As for Champagne,&#xD;
@@ -1465,7 +1470,7 @@ better part of valor," did not say it&#xD;
 Clernents.                    loud enough to be heard by Mr&#xD;
 He hurriedly returned home, and retired to test.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7722-00000017"/>&#xD;
+<pb n="38-39" xml:id="VAC7722-00000017"/>&#xD;
 -    .AJ.LLIA~kL~I.i ~&#xD;
 J~NATHAN OU~2BUCK&#xD;
 I&#xD;
@@ -1554,7 +1559,7 @@ she had received from her beloved'" Gus," he had been absenb~&#xD;
 valtied it more highly than -all' 'the- money the- ptwte'm iIfiI0 (t.&#xD;
 tamed.                -&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7722-00000018"/>&#xD;
+<pb n="40-41" xml:id="VAC7722-00000018"/>&#xD;
 40               'JONATHAN OLDBUOK&#xD;
 £ Jonathan was the first to speak, he said,'" I am really happy to&#xD;
 be the means of recovering such a precious testimonial of regard.&#xD;
@@ -1652,7 +1657,7 @@ himself what an ugly looking mortal 'this fellow is, and wondered&#xD;
 ho~ 'he had ~aptivated the heart of the engaging Mrs Shrewebtiry..&#xD;
 "The oonvqrsation was on various 'a~bjects, and very entertaining.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7722-00000019"/>&#xD;
+<pb n="42-43" xml:id="VAC7722-00000019"/>&#xD;
 1~AT1A~ OWBT~OK                                               N SEARCh OF A. Wf~E.&#xD;
 &#xD;
 Jonathan was intent On Mie~ Olari~sa~ di&amp;amp;~itation 6n the art of&#xD;
@@ -1750,7 +1755,7 @@ two hundred dollars, the fruits of severe toil and mueh hardship.&#xD;
 (herp Mrs Augustus Shtewsbury raised her pocket handkerchief to&#xD;
 her eyes, and ~with an ejaculation 'peor fellow!' continued,) here&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7722-00000020"/>&#xD;
+<pb n="44-45" xml:id="VAC7722-00000020"/>&#xD;
 44                 JONATHAN OLDBTJCK&#xD;
 tre to be seen lawyers turned into laborers, doctors into drivers,.&#xD;
 parsons into ploughmen, and a complete metamorphosis of all trades,.&#xD;
@@ -1818,7 +1823,7 @@ Clarissa observed, "we spent our time very pleasantly, also, Mr&#xD;
 'Oldbuok was prolific in his generosity, he gave me a cornz4.copia,&#xD;
 *&#xD;
 &#xD;
-<pb  n="46-49" xml:id="VAC7722-00000021"/>&#xD;
+<pb n="46-49" xml:id="VAC7722-00000021"/>&#xD;
 lN$EA.R(~H OF 4 WWE.            49&#xD;
 &#xD;
 ~4O            JONATHAN OLDBTJCK&#xD;
@@ -1919,7 +1924,7 @@ and their bretkren in Cincinnati were to keep up a jubilee on the&#xD;
 occtision with more than usual sp~rit.&#xD;
 The Programme had been published, a few day~s before. The&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7722-00000022"/>&#xD;
+<pb n="50-51" xml:id="VAC7722-00000022"/>&#xD;
 JONATHAN OLDBOCK&#xD;
 procession was to move ~from the corner of Broadway and sixth,&#xD;
 which was in the proximity of the quarter, inhabited by the colored&#xD;
@@ -2017,7 +2022,7 @@ Covington, Kentucky. There were but few traces left of A~frioan&#xD;
 origin in that girl; she had light hair and blue eyes, and her oem&#xD;
 plexion yielded not in whiteness to P~rian marble; her figure was~&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7722-00000023"/>&#xD;
+<pb n="52-53" xml:id="VAC7722-00000023"/>&#xD;
 IN ~WWfl OF ~A ~&#xD;
 &#xD;
 JONATIIMf OLDIUOK&#xD;
@@ -2118,7 +2123,7 @@ Mr Oldbuck did not approve of his friend Hammersley's philoso-.&#xD;
 pity, and seemed' to be in a state of doubt during the remainder or&#xD;
 the evening. His was a very susceptible nature, it was like wat&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7722-00000024"/>&#xD;
+<pb n="54-55" xml:id="VAC7722-00000024"/>&#xD;
 [I1~ BIIAROII OF A WIFE.               §5&#xD;
 &#xD;
 3~ONATHAN OLDBUOK&#xD;
@@ -2200,7 +2205,7 @@ to be,&#xD;
 with&#xD;
 loom.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7722-00000025"/>&#xD;
+<pb n="56-57" xml:id="VAC7722-00000025"/>&#xD;
 6s            JO~ATHAN OLDBTJ~K                                       IN SEARCH OF A WIFE.           57&#xD;
 &#xD;
 him back, he had been so long away! in fact the hours appeared so~&#xD;
@@ -2299,7 +2304,7 @@ ceeded with the search. He found no hidden springs, nor arty crack&#xD;
 or crevice to elucidate the mystery, for a mystery it was to' 'him,&#xD;
 how that tall creature, who was called a medium, could know bi~&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7722-00000026"/>&#xD;
+<pb n="58-59" xml:id="VAC7722-00000026"/>&#xD;
 )O~{ATHAN OLDBUOK.&#xD;
 &#xD;
 I&#xD;
@@ -2401,7 +2406,7 @@ the dinner," for the young girl was anxious to get away from her&#xD;
 lover.&#xD;
 I don't wish to detail you, at ~present, ~Miss, I shall&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7722-00000027"/>&#xD;
+<pb n="60-61" xml:id="VAC7722-00000027"/>&#xD;
 60&#xD;
 &#xD;
 JONATHAN OLDBTJCK&#xD;
@@ -2491,7 +2496,7 @@ posed. Hammer~ley was unremitting in his attentions, and the&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7722-00000028"/>&#xD;
+<pb n="62-63" xml:id="VAC7722-00000028"/>&#xD;
 ~O~A,~TflA~ OLD]3U0K&#xD;
 &#xD;
 I&#xD;
@@ -2583,7 +2588,7 @@ When strangers arrive in a foreign country, 'and are not ac-&#xD;
 quainted with the language, the first words they find it useful t~&#xD;
 know ~re those by which they asks for their food, but with Jonatham&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7722-00000029"/>&#xD;
+<pb n="64-65" xml:id="VAC7722-00000029"/>&#xD;
 64          JONATHAN OLDBUOK&#xD;
 &#xD;
 it ~was othei~wise, aud' h~ admired the perspicuity of the grammarian&#xD;
@@ -2686,7 +2691,7 @@ U&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7722-00000030"/>&#xD;
+<pb n="66-67" xml:id="VAC7722-00000030"/>&#xD;
 '60                JONATHAN OI~DRTJCI~&#xD;
 li~' with d~ll~ht to see how' his gene~esity was appreciated, and&#xD;
 I~ucie m~t quite understanding him, wh~ he should have se1e~ted&#xD;
@@ -2784,7 +2789,7 @@ visits the cottage and th~ palace alike, that shoots its arrows india.&#xD;
 cniminat.ely, caring not whether the fatal shaft may strike the bosom&#xD;
 of the unincess or the peasant, you never had a votary more persevering'&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7722-00000031"/>&#xD;
+<pb n="68-69" xml:id="VAC7722-00000031"/>&#xD;
 08                 JONATHAN OLDBUCK&#xD;
 in his devotions at your shrine than Jor~athan Oldbnck, who wor.&#xD;
 shipped'yon with a veneration, that; has never been equalled by any&#xD;
@@ -2864,7 +2869,7 @@ An old woman in a short gown, who had ~it least four handker..-&#xD;
 chiefs on her head, opened the door for Oldbuok, who asked her icr"&#xD;
 .M'adame Geri.ois, that lives hero with her two nieoes.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7722-00000032"/>&#xD;
+<pb n="70-71" xml:id="VAC7722-00000032"/>&#xD;
 3ONATH4~? Q~P~3UOK&#xD;
 "It's not here, Sir."&#xD;
 Jonathan did not understand her very well, but he knew they&#xD;
@@ -2962,7 +2967,7 @@ qb~t~ol~, SQ Jonathan made~ ~ppO14ti~1ents, IQl1Oit0d~)RtOXVi8*S, and&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7722-00000033"/>&#xD;
+<pb n="72-73" xml:id="VAC7722-00000033"/>&#xD;
 12                JONATHAN OLDBUCK&#xD;
 went on in his old way to the affections of his Parisian ac.&#xD;
 quaintanee. He did not remain long after the cousins left, but~&#xD;
@@ -3061,7 +3066,7 @@ such glowing terms, that~ Mr !Oldbijck ~&amp;amp;d&amp;amp;'~ b~itio~i~1~fr ~&#x
 ~ 'The~ *~n~a~i b~bii~d the '4ott~tet 'MVin~ ~6M~~&amp;amp;*l,&#xD;
 ~Ll~~" ~to'~taiii' the articlee ~r ~the &amp;amp;fr iai'it~ '~f ~&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7722-00000034"/>&#xD;
+<pb n="74-75" xml:id="VAC7722-00000034"/>&#xD;
 74                JONATJIANOLDBTJGI(.&#xD;
 asked twice as much for it~ as it was worth, and- the bargain was&#xD;
 concluded by Mr Oldbuck's paying down thirty dollars for the first&#xD;
@@ -3121,7 +3126,7 @@ amours with Marg'uerite&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7722-00000035"/>&#xD;
+<pb n="76-77" xml:id="VAC7722-00000035"/>&#xD;
 *Y~AT~lA~ OLD]ltJcK&#xD;
 &#xD;
 CHAPTER X.&#xD;
@@ -3223,7 +3228,7 @@ law, ccrnbining so many attractions of mind and person.&#xD;
 &#xD;
 IN SEARCH OF A WIFE.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7722-00000036"/>&#xD;
+<pb n="78-79" xml:id="VAC7722-00000036"/>&#xD;
 Oldbuck ran wild in his contemplation of the happiness, that was&#xD;
 in store for him.&#xD;
 Ris dreams that night were of a delightful grove in Arcadia,&#xD;
@@ -3328,7 +3333,7 @@ Jonathan~s face grew paler and paler, during the recital of this&#xD;
 &#xD;
 +g&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7722-00000037"/>&#xD;
+<pb n="80-81" xml:id="VAC7722-00000037"/>&#xD;
 so                 JON ATH4N OLDRUOK&#xD;
 story, but being not y4 convinced, said to Alphonse, "the proofs~&#xD;
 the proofs, J want !"&#xD;
@@ -3425,7 +3430,7 @@ Mr Oldbuck nothing, that his daughter Lucie was a couturier, who&#xD;
 was dependent for her livelihood on her needle, and that they had a&#xD;
 bill against Mr Oldbui~k, for his daughter's time, which he had&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7722-00000038"/>&#xD;
+<pb n="82-83" xml:id="VAC7722-00000038"/>&#xD;
 82                 JONIALTHAN AT.1fl~Irc'R'&#xD;
 &#xD;
 I&#xD;
@@ -3509,7 +3514,7 @@ te him.&#xD;
 part of&#xD;
 fleet oa~&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7722-00000039"/>&#xD;
+<pb n="84-85" xml:id="VAC7722-00000039"/>&#xD;
 JONATHAN OLDBTJOK&#xD;
 Wealth is like a load-stone, possessing powerful magnetic attrae.&#xD;
 tion, bvtt when it is combined with intelligence, old maids and&#xD;
@@ -3611,7 +3616,7 @@ I&#xD;
 &#xD;
 IN~~1t~'A O~ A' WTh~fl.&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7722-00000040"/>&#xD;
+<pb n="86-87" xml:id="VAC7722-00000040"/>&#xD;
 our intimacy and marriage. Charley remained in his employment~&#xD;
 for some months after, earning six dollars a week, a sum, which&#xD;
 was quite adequate to our expenses, but when our family increased,&#xD;
@@ -3709,7 +3714,7 @@ was thinking of the confidence of husbands, and the faithlesSness ~f&#xD;
 &#xD;
 JONAT~EAN OLJ~BUCK9                                     IN SEARCH OF A WIFE.           ST&#xD;
 &#xD;
-<pb  n="88-91" xml:id="VAC7722-00000041"/>&#xD;
+<pb n="88-91" xml:id="VAC7722-00000041"/>&#xD;
 I&#xD;
 &#xD;
 JGNAT~IA 4 OtIk~tJ&amp;amp;~K&#xD;
@@ -3780,7 +3785,7 @@ CHAPTER XII.&#xD;
 swrrzER .&amp;amp;GAIN-HITrY SPIoZa OHANGKD HER NAME-JONATHAN OLD-&#xD;
 BU0K~S )tA.RRIAGE.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7722-00000042"/>&#xD;
+<pb n="92-93" xml:id="VAC7722-00000042"/>&#xD;
 92,&#xD;
 &#xD;
 JOKATIALN OLD~U~K~&#xD;
@@ -3887,7 +3892,7 @@ lows up every noble impulse of virtue and honor."&#xD;
 During the conversation at the dinner table, -Jonathan appeared&#xD;
 wholly absorbed with what Hammnersley was telling him, he had&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7722-00000043"/>&#xD;
+<pb n="94-95" xml:id="VAC7722-00000043"/>&#xD;
 #&#xD;
 &#xD;
 JONATHAN OLDBUOK&#xD;
@@ -3994,7 +3999,7 @@ The wedding day at length arrived, and it was ushered in with&#xD;
 &#xD;
 IN SEARCH OF A WIFE.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7722-00000044"/>&#xD;
+<pb n="96-97" xml:id="VAC7722-00000044"/>&#xD;
 JON ATHAN OLIU~UCK&#xD;
 all due solemnities and forms. Carriages were sent to the residence&#xD;
 ot~M:rs Spicer, and the happy bride and bridegroom proceeded to&#xD;
@@ -4064,7 +4069,7 @@ few crocodile tears; "he's a br~ate," l6oki~g'~rp with her l&amp;amp;tgo&#xD;
 &#xD;
 IN SEARCH OF A WIFE.&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7722-00000045"/>&#xD;
+<pb n="98-99" xml:id="VAC7722-00000045"/>&#xD;
 98                JONATHAN OLDBUCK&#xD;
 * flaming eyes at Jonathan, which quite alarmed him, and almos*&#xD;
 made him lose his equilibrium. "He does every thing to annoy&#xD;
@@ -4170,7 +4175,7 @@ iN S1~ARCH OF A WIFE.&#xD;
 &#xD;
 99&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7722-00000046"/>&#xD;
+<pb n="100-101" xml:id="VAC7722-00000046"/>&#xD;
 '4&#xD;
 100&#xD;
 f~A1owlngday he&#xD;
@@ -4207,8 +4212,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

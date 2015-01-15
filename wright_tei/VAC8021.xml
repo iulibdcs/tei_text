@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8021">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8021">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >An Autobiography of William Russell </title>
-            <author >Thomas, Frederick W. (1806-1866)</author>
+            <title>An Autobiography of William Russell </title>
+            <author>Thomas, Frederick W. (1806-1866)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8021</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8021</idno>
+            <idno type="wright2" n="previous">wright2-2459</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >An autobiography of William Russell</title>
-                  <author >Thomas, Frederick W. (1806-1866)</author>
+                  <title>An autobiography of William Russell</title>
+                  <author>Thomas, Frederick W. (1806-1866)</author>
                </titleStmt>
-               <extent >4 [9]-119 p. </extent>
+               <extent>4 [9]-119 p. </extent>
                <publicationStmt>
-                  <publisher >Gobright Thorne</publisher>
+                  <publisher>Gobright Thorne</publisher>
                   <pubPlace>Baltimore </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>An autobiography of William Russell</head> 
+            <head>An autobiography of William Russell</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8021-00000001"/>4                                      AN&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8021-00000001"/>4                                      AN&#xD;
 AUTOBLOGRAPHI&#xD;
 Op&#xD;
 ii tlliaur 12155r.&#xD;
@@ -107,7 +112,7 @@ r&#xD;
 &#xD;
 -I,&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8021-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8021-00000002"/>&#xD;
 /&#xD;
 /&#xD;
 &#xD;
@@ -272,7 +277,7 @@ and the C~ptain-I go to Bed thQugh not Coolly.&#xD;
 &#xD;
 ~'1&#xD;
 &#xD;
-<pb  n="4 (Table of Contents) -9" xml:id="VAC8021-00000003"/>&#xD;
+<pb n="4 (Table of Contents) -9" xml:id="VAC8021-00000003"/>&#xD;
 ~&amp;amp; -~ -&#xD;
 ORAI'TZflL XX3I.-CoRlversation between Waiter&#xD;
 ~d J3oo* B1~ok, by w~xii~ti Z axx~ fl&amp;amp;hte~e&amp;amp;"-I&#xD;
@@ -445,7 +450,7 @@ W~LL~A RUSS~ELL~&#xD;
 &#xD;
 Y X .&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8021-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC8021-00000004"/>&#xD;
 10                        ~i'HE   AUTOB]&#xD;
 text itself. How I hive woi3d~ered over the confir-&#xD;
 sion it created in my brain; graver commentators&#xD;
@@ -634,7 +639,7 @@ We landed in Baltimore a feW days before the&#xD;
 &#xD;
 'WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8021-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC8021-00000005"/>&#xD;
 12                          THE AUTOBI&#xD;
 celebrated mob tore down the office of the Federal&#xD;
 Republican. A number of 4ie friends of Hanson and&#xD;
@@ -834,7 +839,7 @@ had a brick no more.&#xD;
 The boys at school had all envied me my big~&#xD;
 pins. 1 was now pushed to my wit's ends t~ ob&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8021-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC8021-00000006"/>&#xD;
 14&#xD;
 &#xD;
 lain them, for I had driven with them many pro-&#xD;
@@ -1037,7 +1042,7 @@ U&#xD;
 &#xD;
 WILLIAM RUSSELL.'&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8021-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC8021-00000007"/>&#xD;
 16                        THE ATJTOBI&#xD;
 in an insimmting tone, but with an eager eye glanc-&#xD;
 ing at his rod. Peter hesitated-.&#xD;
@@ -1239,7 +1244,7 @@ sore than once replenished their cups, "you agree&#xD;
 ow to forget and forgive."&#xD;
 "I must think of that, Master Booth. Person'&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8021-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC8021-00000008"/>&#xD;
 18                        THE AtFTOBI&#xD;
 ~lly, as I have said, when you called on me in my&#xD;
 academy, I do, but I think that the dignity of my&#xD;
@@ -1438,7 +1443,7 @@ see me, and the folks used to call her my sweet&#xD;
 heart. But I heard an old family female slave say,&#xD;
 "that it would not do no how-thQugh it was a&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8021-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC8021-00000009"/>&#xD;
 20&#xD;
 &#xD;
 pity there was such a dIfference in our stations,"&#xD;
@@ -1640,7 +1645,7 @@ TflE AUTOBIOGRAPHY OF&#xD;
 &#xD;
 WILLIAM RUSSELL..&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8021-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC8021-00000010"/>&#xD;
 22&#xD;
 &#xD;
 THE AUTOB~O~RAPUY OF&#xD;
@@ -1843,7 +1848,7 @@ I consumed a considerable quantity of tea, toast&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8021-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC8021-00000011"/>&#xD;
 24                            TEE AUTC&#xD;
 and cold ham that night. While the old ladies ges&#xD;
 siped away the hour, I laid myself at full length&#xD;
@@ -2048,7 +2053,7 @@ Grace, it dppears. was up stairs in her chamber, so&#xD;
 situated at the head of the stairs that she could&#xD;
 comn~an(l a vieW of the school-room. Hearing the&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8021-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC8021-00000012"/>&#xD;
 THF~ AUTOBIOGRAPHY OF&#xD;
 &#xD;
 buzz, the old lady reconnoitered the school.roon&#xD;
@@ -2202,7 +2207,7 @@ might be able to officiate in her academy, which But poor Jane Bennet. He showed
 is one of the best in the country. In her own a quiet preference in the school room. So earn-&#xD;
 school room, in a perfect state of health, JVIrs, estly leaned over her, gave her the catch word&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8021-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC8021-00000013"/>&#xD;
 THE AUTOBIOGRAPHY OF                              WILLIAM RUSSELL                29&#xD;
 &#xD;
 when she was faltering in her task, and such&#xD;
@@ -2400,7 +2405,7 @@ The old gentleman went to the desk with the note&#xD;
 &#xD;
 29&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8021-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC8021-00000014"/>&#xD;
 30                           THE AUTQ~OGRAPHY OF&#xD;
 in his hand, and comparing it with the paper on proper place to flog me in a book store, where&#xD;
 the desk, he found the identical sheet from which any one might look through from the public streets&#xD;
@@ -2551,7 +2556,7 @@ the bright benevolence of the old clerk's face as he&#xD;
 &#xD;
 WILLIAM RUS$EIIL.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8021-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC8021-00000015"/>&#xD;
 32&#xD;
 &#xD;
 THE AUTOBIOGRAPHY OF&#xD;
@@ -2660,7 +2665,7 @@ seen him look up with wonder at me, as I called ordering it, pretty certain that
 out to him from the very highest point of some old he know of the publication, and mQreever, flattering&#xD;
 5&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8021-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC8021-00000016"/>&#xD;
 34&#xD;
 &#xD;
 THE AhOBIOGRAPHY OF'&#xD;
@@ -2813,7 +2818,7 @@ ty?" she said, in an offended ton".&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8021-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC8021-00000017"/>&#xD;
 38&#xD;
 &#xD;
 "Well," said she, "Mr. Peterson will be witi&#xD;
@@ -3014,7 +3019,7 @@ THE AUTO~IOGRAPI1Y OF&#xD;
 &#xD;
 WILLIAM RUaSELL.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8021-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC8021-00000018"/>&#xD;
 38                            THE ATJTO&#xD;
 wish to comply with those directions aforesaid were&#xD;
 I in n~y friend's place," bowing to me, "and doubt-&#xD;
@@ -3203,7 +3208,7 @@ loafer."                                      eaten as much as you did it would 
 "Why, I trust not; I expect always to be i ~ Oh shade of temperance, you drank Scoteb ala&#xD;
 tleman in contradistinction to a ~            besides."&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8021-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC8021-00000019"/>&#xD;
 40&#xD;
 &#xD;
 THE AUTOBIOORAPIIY 011'&#xD;
@@ -3401,7 +3406,7 @@ see the play as you have adapted it, Mr. Russell.&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8021-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC8021-00000020"/>&#xD;
 42&#xD;
 &#xD;
 THE' AUTOBIOGRAPHY OF&#xD;
@@ -3605,7 +3610,7 @@ Spot from which mauy deer had been killed, when&#xD;
 thty were ku )wri in the neighborhood, we took a&#xD;
 seat ~nd gazed in silence over t~'ie beautiful glen~&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8021-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC8021-00000021"/>&#xD;
 44                         THF~ AUTOBI&#xD;
 with the thread of silver water gleaming through'&#xD;
 it. Only at this point could the glen be dis-&#xD;
@@ -3813,7 +3818,7 @@ inspired by the magnetism of hers. The soliloquy&#xD;
 of My rrha, which closes the first act, was given&#xD;
 with great effect, and as the curtain "ent down&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8021-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC8021-00000022"/>&#xD;
 we met in the green-room.&#xD;
 "How have I done?" said she, in a tremulou:&#xD;
 whisper, as she grasped my hand.&#xD;
@@ -4008,7 +4013,7 @@ inhirm you that the tragedy of Sardanapalns will&#xD;
 he repeated on Thursday evening next, for the&#xD;
 ~eco~'l and last time. The bill presented will be&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8021-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC8021-00000023"/>&#xD;
 "V.&#xD;
 'ED&#xD;
 TIU~ AU TUb&#xD;
@@ -4211,7 +4216,7 @@ most by the sale of his share of tickets, so the re-&#xD;
 friend. If you had not so well sustained me- I suIt was that many of them sold as high its llfteen&#xD;
 7&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8021-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC8021-00000024"/>&#xD;
 THE AUTOBIOGRAPHY OF&#xD;
 aild twenty 'dollars, and one gentleman, a merchant j looked at his neighbor to Bee the effect on him, and&#xD;
 &#xD;
@@ -4417,7 +4422,7 @@ ors in a changeable silk or ~n g rainbow, or like the&#xD;
 &#xD;
 WILLIAM ~IJSS~LL.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8021-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC8021-00000025"/>&#xD;
 THF~ ALY POJ3tOGRAPHY OF&#xD;
 &#xD;
 evanescent impression which the stone cast into&#xD;
@@ -4618,7 +4623,7 @@ have no idea of what a granny you made of your.&#xD;
 self in your last appearance. Why, man, you began&#xD;
 tight, and you got tighter, and you concluded tight'&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8021-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC8021-00000026"/>&#xD;
 54                          THE AUTO&#xD;
 eet~ Your last scene, where, according to the&#xD;
 stage directions, you 'draw out the weapon from&#xD;
@@ -4821,7 +4826,7 @@ spot."&#xD;
 "Kill mc on the spot! Sir, that would be&#xD;
 murder."&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8021-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC8021-00000027"/>&#xD;
 "I know it would, to look at it calmly, but I&#xD;
 tnean to kill you ht hot blood, and put in the plea&#xD;
 of insanity. By Jove, old fellow, I will walk&#xD;
@@ -5022,7 +5027,7 @@ ful and wicked above all things. But your word&#xD;
 &#xD;
 THII AUTOBIOGRAPHY OF&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8021-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC8021-00000028"/>&#xD;
 THE A1JTOBIO~4RAPHY OF&#xD;
 &#xD;
 is better than your bond. Miss Watson likes you;&#xD;
@@ -5209,7 +5214,7 @@ have Itmni miii lime t iplit iit)l)lt ml last,''                to mm aitd mIte 
 h4ei ole seetm1 al id t lie emapta tint, aft cm a aiteo, which Captain Meiiyinaatt Itad ordered, when that&#xD;
 ''let inc see, the atnitigememit is cite, two, mhireetirmm, genthemtiamt m'etmmz;rked:&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8021-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC8021-00000029"/>&#xD;
 TI4J~ APTOF&#xD;
 ~'I don't see why a gentleman should not train&#xD;
 for the duello just as boxers train for their vulgar&#xD;
@@ -5409,7 +5414,7 @@ crusts again.                                         got dmimmuk ott lemuonade?
 &#xD;
 WILLIAM RUSS~LL&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8021-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC8021-00000030"/>&#xD;
 62                             THE At~TO]~1OGRAPHY OF&#xD;
 your~re not more drunk than I am-you can't ar-                C IJAPTER    XXII.&#xD;
 tioulate the commonest English in the very acca-&#xD;
@@ -5588,7 +5593,7 @@ his heels directly in the fie eater's fiiee. tied lotte with utty petted to 1 lo
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8021-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC8021-00000031"/>&#xD;
 THE AUTO~3IO~RAPHY O~&#xD;
 &#xD;
 WILLIAM RUSSELL.                    65&#xD;
@@ -5786,7 +5791,7 @@ that Burr meant to kill hits, and he kind of pre&#xD;
 &#xD;
 65&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8021-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC8021-00000032"/>&#xD;
 66&#xD;
 &#xD;
 pared himself for it. He said duelling waswrong,&#xD;
@@ -5959,7 +5964,7 @@ think how much I had been mistaken in his charac-&#xD;
 ter in taking him, its I did, for a sedate personage.&#xD;
 "That was'nt all of it," he continued, after a&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8021-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC8021-00000033"/>&#xD;
 68&#xD;
 &#xD;
 pause. "The Frenchman, when he afterwards&#xD;
@@ -6144,7 +6149,7 @@ aside to the captain, to whom I felt somehow&#xD;
 as an old acAjuaintance, forgetting the position we&#xD;
 occupied towards each other. The old gentleman&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8021-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC8021-00000034"/>&#xD;
 10                           THE AtTTO]&#xD;
 "There's a mistake," exclaimed Wilson at last,&#xD;
 "this is not your son?"&#xD;
@@ -6349,7 +6354,7 @@ two with you myself~&#xD;
 "They'll have fleet steeds that follow quo~h young&#xD;
 Loehinvar."&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8021-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC8021-00000035"/>&#xD;
 72                         THE ATJTOB]&#xD;
 I felt like riding through Bladensburg as Dick&#xD;
 Turpin rode through the English village, with the&#xD;
@@ -6552,7 +6557,7 @@ ever, struck the banister in his fall, which broke&#xD;
 &#xD;
 71&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8021-00000036"/>&#xD;
+<pb n="72-73" xml:id="VAC8021-00000036"/>&#xD;
 THE AUTOBIOGRAPHY OF&#xD;
 &#xD;
 might say black. I stood at the head of the stairs&#xD;
@@ -6744,7 +6749,7 @@ take a "turn," as he was pleased to express it,&#xD;
 whereby my friend, had it proved fatal, would&#xD;
 have lost what was justly his inheritance, I propped&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8021-00000037"/>&#xD;
+<pb n="74-75" xml:id="VAC8021-00000037"/>&#xD;
 14                          THE AUTOJ&#xD;
 the patient up in his bed, and aided him in writing&#xD;
 an explicit order to his lawyer to burn the papers&#xD;
@@ -6937,7 +6942,7 @@ no matter how brilliantly the sunlight looked forth&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8021-00000038"/>&#xD;
+<pb n="76-77" xml:id="VAC8021-00000038"/>&#xD;
 16                       TIlE AUTOBIOGRAPHY OF&#xD;
 upon the eternal city. And it was a bright day I turn necessary for a man of my position and ox-.&#xD;
 to him when he thought himself a successful con- f pectancy."&#xD;
@@ -7135,7 +7140,7 @@ you. So you must to Baltimore and draw, not' alive your honor and yourself, but 
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8021-00000039"/>&#xD;
+<pb n="78-79" xml:id="VAC8021-00000039"/>&#xD;
 OGUAPHY OF&#xD;
 &#xD;
 18                         THE AUTOBI&#xD;
@@ -7335,7 +7340,7 @@ thought,) as he had every reason to believe it&#xD;
 would di~d in discomfiture, a defeat like the efforts&#xD;
 of my predecessors.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8021-00000040"/>&#xD;
+<pb n="80-81" xml:id="VAC8021-00000040"/>&#xD;
 80&#xD;
 &#xD;
 Now, what made me think that? Gentle read&#xD;
@@ -7531,7 +7536,7 @@ thought he had more than he really possessed, for,&#xD;
 there were few who failed to accept his invitations;&#xD;
 "The heartless parasites of present cheer."&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8021-00000041"/>&#xD;
+<pb n="82-83" xml:id="VAC8021-00000041"/>&#xD;
 His wife was from the State of New York. Sh&#xD;
 was devoted to her husband, and she tried in van&#xD;
 to check his lavish expenditure. With tl~e fre&#xD;
@@ -7735,7 +7740,7 @@ Miss Upton answered her own question-&#xD;
 "Oh! it's young Sangston." And then she pull-&#xD;
 ed the check string and said to me, "Please tell&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8021-00000042"/>&#xD;
+<pb n="84-85" xml:id="VAC8021-00000042"/>&#xD;
 TH1~ AUTOBI4&#xD;
 Duston (the coaohr~saa) to drive very slow. Am&#xD;
 so you men all admire Miss Singleton?"&#xD;
@@ -7926,7 +7931,7 @@ that I ~vould take rooms at Mrs. Sangston's.&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8021-00000043"/>&#xD;
+<pb n="86-87" xml:id="VAC8021-00000043"/>&#xD;
 86                         THE AUTOBI&#xD;
 S&#xD;
 CHAPTER XXX.&#xD;
@@ -8085,7 +8090,7 @@ of your hustury-which should be given to her office, for his mnother'.~ sake at 
 &#xD;
 12&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8021-00000044"/>&#xD;
+<pb n="88-89" xml:id="VAC8021-00000044"/>&#xD;
 $8&#xD;
 &#xD;
 THE AtYTO~1OGRAPHY OF&#xD;
@@ -8281,7 +8286,7 @@ the appointed hour I went.&#xD;
 What Miss Singleton had said to me about my&#xD;
 wasting my energies and talents in frivolities had&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8021-00000045"/>&#xD;
+<pb n="90-91" xml:id="VAC8021-00000045"/>&#xD;
 90&#xD;
 &#xD;
 made a deep impression on me. Every moment&#xD;
@@ -8486,7 +8491,7 @@ THE AUTOBIOGRAPHY OF&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8021-00000046"/>&#xD;
+<pb n="92-93" xml:id="VAC8021-00000046"/>&#xD;
 92          THE AUTOBIOGRAPHY OF&#xD;
 &#xD;
 knowing when you would return, I have speeded&#xD;
@@ -8689,7 +8694,7 @@ usual care upon it, and my hand was tremulous&#xD;
 with emotion as I arranged and re-arranged differ-&#xD;
 ent portions of my dress, and found particular fault&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8021-00000047"/>&#xD;
+<pb n="94-95" xml:id="VAC8021-00000047"/>&#xD;
 ~94&#xD;
 &#xD;
 the map, who, seated on his coach-box, was crack&#xD;
@@ -8888,7 +8893,7 @@ and said&#xD;
 "True, sir. A lady's favors are sometimes like&#xD;
 a child's gifts, given and taken back again."&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8021-00000048"/>&#xD;
+<pb n="96-97" xml:id="VAC8021-00000048"/>&#xD;
 98&#xD;
 &#xD;
 THE AUTOBIOGRAPHY OF&#xD;
@@ -9045,7 +9050,7 @@ without an object."&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8021-00000049"/>&#xD;
+<pb n="98-99" xml:id="VAC8021-00000049"/>&#xD;
 98                          TEE AUTO:&#xD;
 "Ii~ did, ha!" and I felt myself blush.&#xD;
 *      "He did--and that quick 'Carolina' girl, Mis&#xD;
@@ -9240,7 +9245,7 @@ K&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8021-00000050"/>&#xD;
+<pb n="100-101" xml:id="VAC8021-00000050"/>&#xD;
 THE AUTOBIOGRAPHY OF&#xD;
 &#xD;
 WILLIAM RUSSELL.              101&#xD;
@@ -9442,7 +9447,7 @@ her eye, but it drol)ped the monoent she met my&#xD;
 &#xD;
 101&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8021-00000051"/>&#xD;
+<pb n="102-103" xml:id="VAC8021-00000051"/>&#xD;
 102&#xD;
 &#xD;
 THE AUTC(&#xD;
@@ -9653,7 +9658,7 @@ forehead she observed:&#xD;
 "You have a very impudent way of lowung at&#xD;
 a lady at times which you should abolish; it is in&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8021-00000052"/>&#xD;
+<pb n="104-105" xml:id="VAC8021-00000052"/>&#xD;
 104&#xD;
 &#xD;
 THE AUTOBIOGRAPhY OF&#xD;
@@ -9811,7 +9816,7 @@ a it all the time-flow ~~y~nt you?"&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8021-00000053"/>&#xD;
+<pb n="106-107" xml:id="VAC8021-00000053"/>&#xD;
 '106&#xD;
 &#xD;
 "Alice, I am not indifferent to the fact that I&#xD;
@@ -10016,7 +10021,7 @@ THE AUTOBIOGRAPHY OF'&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8021-00000054"/>&#xD;
+<pb n="108-109" xml:id="VAC8021-00000054"/>&#xD;
 ii&#xD;
 &#xD;
 JOGRAPHY OF&#xD;
@@ -10216,7 +10221,7 @@ Darlington-or, to give him his full title in the&#xD;
 premises, in which he seemed to rejoice very much,&#xD;
 the Honorable Job Darlington. Keenness and&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8021-00000055"/>&#xD;
+<pb n="110-111" xml:id="VAC8021-00000055"/>&#xD;
 1&#xD;
 &#xD;
 110&#xD;
@@ -10426,7 +10431,7 @@ interfered, and Dr. Merrill, who was disposed to&#xD;
 adjust matters, said that his principal ought to be&#xD;
 satisfied, and so the parties shook hands; Darling-&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8021-00000056"/>&#xD;
+<pb n="112-113" xml:id="VAC8021-00000056"/>&#xD;
 112&#xD;
 &#xD;
 tori making us promise never to mention itand w&#xD;
@@ -10627,7 +10632,7 @@ CONCLTttION.&#xD;
 "Now address aid me," I exclain~ed, after a&#xD;
 restless night, starting from my pillow late in the&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8021-00000057"/>&#xD;
+<pb n="114-115" xml:id="VAC8021-00000057"/>&#xD;
 114&#xD;
 &#xD;
 I must accomplish two things," I said to myself;&#xD;
@@ -10785,7 +10790,7 @@ old fellow what I could get her to tell him, if it ought to see them togETher as
 would not fling th~ Secretary. Yes, sir, that Janet tells her mistress everything-&#xD;
 "You know it is seriously suspected, 1 said, that she'd die for hei rni~tress, I know-but take my&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8021-00000058"/>&#xD;
+<pb n="116-117" xml:id="VAC8021-00000058"/>&#xD;
 118                        THE AUTO:&#xD;
 great spec, the girls say. Where are you going?&#xD;
 "To call upon Miss Clare," I said.&#xD;
@@ -10990,7 +10995,7 @@ me that Sangeton could not possibly live.&#xD;
 &#xD;
 WILLIAM RUSSELL.&#xD;
 &#xD;
-<pb  n="118" xml:id="VAC8021-00000059"/>&#xD;
+<pb n="118" xml:id="VAC8021-00000059"/>&#xD;
 THE AUTOBIOGRAPHY OF&#xD;
 &#xD;
 toe boast die-I pity his' poor mother-I knew his&#xD;
@@ -11089,7 +11094,7 @@ iiiz.~ ~ne u~t..~ knew 1.i~ hrnirs were niimhered. and&#xD;
 I own that this was a most unkind and improper ~ve me but few; and as Ii seated myself on the bed&#xD;
 inquiry under the circumstances, but stung to the~~~de him, and todk this hand, as Dr. Lockwood,&#xD;
 &#xD;
-<pb  n="-119" xml:id="VAC8021-00000060"/>&#xD;
+<pb n="-119" xml:id="VAC8021-00000060"/>&#xD;
 WILLIAM KU~SJI1L.&#xD;
 &#xD;
 who seemed to have an instinct in such matters,&#xD;
@@ -11191,7 +11196,7 @@ recount them to you;-but until I can take up my&#xD;
 pen with less interruption than now, I must bid&#xD;
 you adieu.&#xD;
 &#xD;
-<pb  n="120 (Advertisement) " xml:id="VAC8021-00000061"/>&#xD;
+<pb n="120 (Advertisement) " xml:id="VAC8021-00000061"/>&#xD;
 GOBRIGHT, THORNE &amp;amp; 00.&#xD;
 Corner of Gay and Baltimore Streets ,~&#xD;
 W~f$3A~Z ~&#xD;
@@ -11219,8 +11224,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

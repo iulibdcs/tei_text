@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7853">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7853">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Curse of Clifton, Vol. 1 </title>
-            <author >Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
+            <title>The Curse of Clifton, Vol. 1 </title>
+            <author>Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7853</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7853</idno>
+            <idno type="wright2" n="previous">wright2-2301v1</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The curse of Clifton, vol. 1 </title>
-                  <author >Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
+                  <title>The curse of Clifton, vol. 1 </title>
+                  <author>Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
                </titleStmt>
-               <extent >2 v. (i.e. 234 248 p.)</extent>
+               <extent>2 v. (i.e. 234 248 p.)</extent>
                <publicationStmt>
-                  <publisher >A. Hart</publisher>
+                  <publisher>A. Hart</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-04-18">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-04-18">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The curse of Clifton, vol. 1 </head> 
+            <head>The curse of Clifton, vol. 1 </head>
             <p>
-               <pb  n="0 (Cover) " xml:id="VAC7853-00000001"/>C&#xD;
+               <pb n="0 (Cover) " xml:id="VAC7853-00000001"/>C&#xD;
 ~&#xD;
 &#xD;
 N'&#xD;
@@ -96,7 +101,7 @@ CURSE OF CLIFTON.&#xD;
 &#xD;
 1!&#xD;
 &#xD;
-<pb  n="0 (TitlePage) " xml:id="VAC7853-00000002"/>&#xD;
+<pb n="0 (TitlePage) " xml:id="VAC7853-00000002"/>&#xD;
 THE&#xD;
 CURSE OF CLIFTON:&#xD;
 A TALE OF&#xD;
@@ -116,7 +121,7 @@ A. HART, LATE CAREY &amp;amp; HART,&#xD;
 126 CHEST~UT STREET.&#xD;
 1858.&#xD;
 &#xD;
-<pb  n="0-5 (Table of Contents) " xml:id="VAC7853-00000003"/>&#xD;
+<pb n="0-5 (Table of Contents) " xml:id="VAC7853-00000003"/>&#xD;
 V&#xD;
 4                 U&#xD;
 &#xD;
@@ -155,7 +160,7 @@ I&#xD;
 &#xD;
 -    j,'&#xD;
 &#xD;
-<pb  n="6-17" xml:id="VAC7853-00000004"/>&#xD;
+<pb n="6-17" xml:id="VAC7853-00000004"/>&#xD;
 THE CURSE OF GLJFTON.&#xD;
 &#xD;
 CHAPTER I.&#xD;
@@ -194,7 +199,7 @@ I&#xD;
 tjt&#xD;
 I&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7853-00000005"/>&#xD;
+<pb n="18-19" xml:id="VAC7853-00000005"/>&#xD;
 18'&#xD;
 &#xD;
 TIIii~ CURSE OP CLIFTON.&#xD;
@@ -290,7 +295,7 @@ burst upon your astonished ears, as soon as ~7'had recovered&#xD;
 &#xD;
 19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7853-00000006"/>&#xD;
+<pb n="20-21" xml:id="VAC7853-00000006"/>&#xD;
 your senses, your highest note of admiration would be to&#xD;
 compare that universal diapason of divine harmony to Lady&#xD;
 Carolyn's silver laugh !"&#xD;
@@ -389,7 +394,7 @@ VOL. T.-2&#xD;
 &#xD;
 21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7853-00000007"/>&#xD;
+<pb n="22-23" xml:id="VAC7853-00000007"/>&#xD;
 22             THE CURSE OF CLIFTON.                                TlE CURSE OF CliFTON.          23&#xD;
 &#xD;
 through range after range of mountains, and so conquer their&#xD;
@@ -489,7 +494,7 @@ rarer distinctioiis, I am proud to say'?"&#xD;
 &#xD;
 22&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7853-00000008"/>&#xD;
+<pb n="24-25" xml:id="VAC7853-00000008"/>&#xD;
 24             THE CURSE OF CLIFTON.                                   THE CURSE OF CLiFTON4           25&#xD;
 &#xD;
 d&#xD;
@@ -589,7 +594,7 @@ Ladder, in the Alleghanies,' answers t'other. 'Poor crea-&#xD;
 &#xD;
 25&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7853-00000009"/>&#xD;
+<pb n="26-27" xml:id="VAC7853-00000009"/>&#xD;
 26             THE CURSE OF CLiFTON.                                   THE CURSE OF CLIFTON.           27&#xD;
 &#xD;
 lure! He was always a miserable-but where was he buried ~'&#xD;
@@ -682,7 +687,7 @@ rocks, and their the rain came down in a deluge. The dark.&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7853-00000010"/>&#xD;
+<pb n="28-29" xml:id="VAC7853-00000010"/>&#xD;
 28             THE OIIRSE OF CLIFTON.                                THE CURSE OF CLIFTON.          29&#xD;
 &#xD;
 ness was so dense now as to hide their way. The girl jumped&#xD;
@@ -775,7 +780,7 @@ glance.&#xD;
 &#xD;
 29&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7853-00000011"/>&#xD;
+<pb n="30-31" xml:id="VAC7853-00000011"/>&#xD;
 ao&#xD;
 &#xD;
 ~~IIE CURSE ~OF CLfli'TON.&#xD;
@@ -871,7 +876,7 @@ stairs has a fit of mania-a-potu upon him.&#xD;
 &#xD;
 74&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7853-00000012"/>&#xD;
+<pb n="32-33" xml:id="VAC7853-00000012"/>&#xD;
 32             TIlE CURSE OF CLIFTON.                                    TH~ OtTUSE OF CLIFTON.&#xD;
 &#xD;
 "What! and you stating here !~ I must go down and&#xD;
@@ -967,7 +972,7 @@ I&#xD;
 &#xD;
 82&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7853-00000013"/>&#xD;
+<pb n="34-35" xml:id="VAC7853-00000013"/>&#xD;
 34             THE CURSE OF CLIFTON.&#xD;
 &#xD;
 "Umph !" said the young man, dropping himself into the&#xD;
@@ -1059,7 +1064,7 @@ man, Carl, stoodup and asked a blessing, saying, afterwards,&#xD;
 &#xD;
 84&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7853-00000014"/>&#xD;
+<pb n="36-37" xml:id="VAC7853-00000014"/>&#xD;
 86                 TIJJ CURSE 0)' CLTh1TQN.&#xD;
 &#xD;
 OUflSE 0)' CLTh~T0N.&#xD;
@@ -1156,7 +1161,7 @@ horses a rub down and another feed.&#xD;
 &#xD;
 86&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7853-00000015"/>&#xD;
+<pb n="38-39" xml:id="VAC7853-00000015"/>&#xD;
 F&#xD;
 ~:&#xD;
 I&#xD;
@@ -1257,7 +1262,7 @@ suggested -rather-girl as she was-&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7853-00000016"/>&#xD;
+<pb n="40-41" xml:id="VAC7853-00000016"/>&#xD;
 Ii&#xD;
 ~   11&#xD;
 Ii&#xD;
@@ -1361,7 +1366,7 @@ up the glen, and took the road to WrnTE CLIFFs.&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7853-00000017"/>&#xD;
+<pb n="42-43" xml:id="VAC7853-00000017"/>&#xD;
 *&#xD;
 42                                                                                                      48&#xD;
 &#xD;
@@ -1466,7 +1471,7 @@ Woman's bright eyes and dazzling snowy ibroW~-.MooRE,&#xD;
 &#xD;
 43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7853-00000018"/>&#xD;
+<pb n="44-45" xml:id="VAC7853-00000018"/>&#xD;
 F&#xD;
 &#xD;
 H&#xD;
@@ -1577,7 +1582,7 @@ ft'.&#xD;
 &#xD;
 - ~ A'&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7853-00000019"/>&#xD;
+<pb n="46-47" xml:id="VAC7853-00000019"/>&#xD;
 II&#xD;
 &#xD;
 bright tendril-like curls around the back of her neck) lend-&#xD;
@@ -1684,7 +1689,7 @@ AlA&#xD;
 ?&#xD;
 5&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7853-00000020"/>&#xD;
+<pb n="48-49" xml:id="VAC7853-00000020"/>&#xD;
 A8             THE CURSE OF CLIFTON.                                   THE CURSE OF OLIFTON.           49&#xD;
 &#xD;
 j&#xD;
@@ -1784,7 +1789,7 @@ j4~&#xD;
 &#xD;
 48&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7853-00000021"/>&#xD;
+<pb n="50-51" xml:id="VAC7853-00000021"/>&#xD;
 II ~&#xD;
 11&#xD;
 '1&#xD;
@@ -1891,7 +1896,7 @@ I&#xD;
 &#xD;
 '.4&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7853-00000022"/>&#xD;
+<pb n="52-53" xml:id="VAC7853-00000022"/>&#xD;
 9&#xD;
 &#xD;
 52&#xD;
@@ -1959,7 +1964,7 @@ TH~ OUUS~ OF CLIFTON.&#xD;
 C--&#xD;
 4'&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7853-00000023"/>&#xD;
+<pb n="54-55" xml:id="VAC7853-00000023"/>&#xD;
 54             TIlE CURSE OF CLIFTON.                               THE CURSE OF CLIFTON.           55&#xD;
 &#xD;
 CHAPTER III.&#xD;
@@ -2041,7 +2046,7 @@ physiognoniist. And if there be any truth in my favGrite&#xD;
 &#xD;
 65&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7853-00000024"/>&#xD;
+<pb n="56-57" xml:id="VAC7853-00000024"/>&#xD;
 66               Tfl1~ OURSD~ OD' CLIFTON.                                   TR1~ OUR5~. OD' OLIFTON.            57&#xD;
 &#xD;
 Science, that mountain girl's face presented the most extra-&#xD;
@@ -2131,7 +2136,7 @@ VOL. I.-5"'&#xD;
 &#xD;
 56&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7853-00000025"/>&#xD;
+<pb n="58-59" xml:id="VAC7853-00000025"/>&#xD;
 58             THE CURSfl OF CLIFTON.                                  THE CURSE OF 0LIFTOI~.           59&#xD;
 &#xD;
 keep house and cook for them. She read books on agricul-&#xD;
@@ -2218,7 +2223,7 @@ was also to her persevering exertions, as well as to ~he late&#xD;
 military services of my deceased father, that I owed ~ny com-&#xD;
 mission in the army. They say that mi8fortun~s neve ~ p&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7853-00000026"/>&#xD;
+<pb n="60-61" xml:id="VAC7853-00000026"/>&#xD;
 60              TuB CURSE OF CLIFTON.                                   TIlE CURSE OF CLIFTON.            61.&#xD;
 &#xD;
 single. Good fortz~ne certainly never does, if I may judge&#xD;
@@ -2306,7 +2311,7 @@ worn uncovered. Indeed, cap or turban upon that noble&#xD;
 head would have looked impertinent. She advaneedi~to the&#xD;
 41&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7853-00000027"/>&#xD;
+<pb n="62-63" xml:id="VAC7853-00000027"/>&#xD;
 62             THE CURSE OF CLIFTON.                                 THE CURSE OF CLIFTONb            08&#xD;
 &#xD;
 room and greeted her son with affection, and welcomed Mr.&#xD;
@@ -2395,7 +2400,7 @@ of improving her condition afforded her, indeed, I promised&#xD;
 &#xD;
 68&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7853-00000028"/>&#xD;
+<pb n="64-65" xml:id="VAC7853-00000028"/>&#xD;
 64             THE CURSE OFCLIPTON.                                    2!HZ OU~8E OP OLIPTO~.           65&#xD;
 &#xD;
 last year. I formed a good opinion oZ him. If his sister is&#xD;
@@ -2481,7 +2486,7 @@ duty of charity, would be likely to content himself wi~th any&#xD;
 &#xD;
 ~J4&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7853-00000029"/>&#xD;
+<pb n="66-67" xml:id="VAC7853-00000029"/>&#xD;
 .1'&#xD;
 &#xD;
 THE CURSE O~' 0L1~'TON~.&#xD;
@@ -2578,7 +2583,7 @@ in the fields day after day, and all day long, throughout&#xD;
 A&#xD;
 '"4-&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7853-00000030"/>&#xD;
+<pb n="68-69" xml:id="VAC7853-00000030"/>&#xD;
 68              TILE CURSE OF CLIFTON.&#xD;
 this burning weather, begins to tell, even upon my constitu&#xD;
 tion."&#xD;
@@ -2675,7 +2680,7 @@ VOL. I.-6&#xD;
 &#xD;
 4'&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7853-00000031"/>&#xD;
+<pb n="70-71" xml:id="VAC7853-00000031"/>&#xD;
 Al&#xD;
 :1&#xD;
 3';&#xD;
@@ -2772,7 +2777,7 @@ parting, but when he offered' the same civility to Kate, she&#xD;
 &#xD;
 7&amp;amp;&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7853-00000032"/>&#xD;
+<pb n="72-73" xml:id="VAC7853-00000032"/>&#xD;
 C&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -2867,7 +2872,7 @@ so divinely fair, so radiant, so refined, so stately! How fit&#xD;
 j~&#xD;
 '4&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7853-00000033"/>&#xD;
+<pb n="74-75" xml:id="VAC7853-00000033"/>&#xD;
 I.&#xD;
 &#xD;
 a consort for the 'proud Archer Clifton! How hi~ heart&#xD;
@@ -2937,7 +2942,7 @@ I&#xD;
 &#xD;
 75&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7853-00000034"/>&#xD;
+<pb n="76-77" xml:id="VAC7853-00000034"/>&#xD;
 ,1&#xD;
 &amp;amp;&#xD;
 K&#xD;
@@ -3051,7 +3056,7 @@ I&#xD;
 &#xD;
 e.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7853-00000035"/>&#xD;
+<pb n="78-79" xml:id="VAC7853-00000035"/>&#xD;
 V&#xD;
 ~&#xD;
 ~~1 7&#xD;
@@ -3155,7 +3160,7 @@ wealth upon you-ay, wealth of gold, and wealth of affec-&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7853-00000036"/>&#xD;
+<pb n="80-81" xml:id="VAC7853-00000036"/>&#xD;
 :4;&#xD;
 ~&#xD;
 I)&#xD;
@@ -3253,7 +3258,7 @@ ingly, simply, into his benevolent face, muEmured, merely-&#xD;
 "I am so sorry, Mr. Clifton !"&#xD;
 VOL. I.-7&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7853-00000037"/>&#xD;
+<pb n="82-83" xml:id="VAC7853-00000037"/>&#xD;
 82             TIJE CURSE OF CLIFTON.&#xD;
 &#xD;
 "Never mind! never mind, my dear !" said the old gen-&#xD;
@@ -3319,7 +3324,7 @@ I&#xD;
 &#xD;
 82&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7853-00000038"/>&#xD;
+<pb n="84-85" xml:id="VAC7853-00000038"/>&#xD;
 84              THE cunsi~ OF CLIFTON.&#xD;
 &#xD;
 CHAPTER VI.&#xD;
@@ -3405,7 +3410,7 @@ place-and the whole neighborhood of R-~ County&#xD;
 were agog with gossip. And Captain Clifton and his pro-&#xD;
 Vt.&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7853-00000039"/>&#xD;
+<pb n="86-87" xml:id="VAC7853-00000039"/>&#xD;
 86             ~HE CURSE OF CLIFTON.                                     TUE CURSE OF CLIFTON.            87&#xD;
 &#xD;
 t6g6, were the subjects. So.me, right in the face of his well.&#xD;
@@ -3507,7 +3512,7 @@ I&#xD;
 ,j'~ v~.&#xD;
 '444&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7853-00000040"/>&#xD;
+<pb n="88-89" xml:id="VAC7853-00000040"/>&#xD;
 88             -~E CURSE OF CLIFTON.                                      TIlE CITRSE OF CLIFTON.          89&#xD;
 &#xD;
 +7&#xD;
@@ -3600,7 +3605,7 @@ If&#xD;
 I&#xD;
 ~ (&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7853-00000041"/>&#xD;
+<pb n="90-91" xml:id="VAC7853-00000041"/>&#xD;
 "Oh! now, don't be jealous! Don't be alarmed! Your&#xD;
 treasure is safe from me-though, by all the queens of chi~&#xD;
 vairy, hers is a noble face-a face to bleed and die for!&#xD;
@@ -3701,7 +3706,7 @@ I&#xD;
 ~ t&#xD;
 ~&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7853-00000042"/>&#xD;
+<pb n="92-93" xml:id="VAC7853-00000042"/>&#xD;
 92&#xD;
 &#xD;
 TILE CURSE OF CLIFTON.&#xD;
@@ -3799,7 +3804,7 @@ I&#xD;
 1~&#xD;
 i&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7853-00000043"/>&#xD;
+<pb n="94-95" xml:id="VAC7853-00000043"/>&#xD;
 94             THE CURSE OF CLIFTON.                                   THE OTJRSE OF CLIFTON.           95&#xD;
 &#xD;
 My own to use or~ abuse-to crown or kill, as I listed !"&#xD;
@@ -3890,7 +3895,7 @@ towards him, saying calmly-...&#xD;
 &#xD;
 94&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7853-00000044"/>&#xD;
+<pb n="96-97" xml:id="VAC7853-00000044"/>&#xD;
 THE CURSE OF CLIFTON.&#xD;
 Clifton smilingly took them, found the little vial of inde1i~&#xD;
 ble ink; and went to work-himself well pleased to have&#xD;
@@ -3993,7 +3998,7 @@ V&#xD;
 N.&#xD;
 '1&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7853-00000045"/>&#xD;
+<pb n="98-99" xml:id="VAC7853-00000045"/>&#xD;
 I"&#xD;
 (&#xD;
 A&#xD;
@@ -4100,7 +4105,7 @@ caught, and the magazine had blown tip, and her dark, beau-&#xD;
 &#xD;
 £1&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7853-00000046"/>&#xD;
+<pb n="100-101" xml:id="VAC7853-00000046"/>&#xD;
 ~7 r&#xD;
 ;&#xD;
 ~ (&#xD;
@@ -4194,7 +4199,7 @@ jJ~ii&#xD;
 &#xD;
 I ~&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7853-00000047"/>&#xD;
+<pb n="102-103" xml:id="VAC7853-00000047"/>&#xD;
 102&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -4296,7 +4301,7 @@ her father, exclaiming-&#xD;
 The old man, never indifferent to his children's cry-ever&#xD;
 ready in the midst of his own real cares, to hear and sympa'&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7853-00000048"/>&#xD;
+<pb n="104-105" xml:id="VAC7853-00000048"/>&#xD;
 104&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -4398,7 +4403,7 @@ up! It must be made up! Ah, doubtless he will be. over&#xD;
 to-morrow night! He~ feels as bad as you do, I'll warrant&#xD;
 VOL. I.-9&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7853-00000049"/>&#xD;
+<pb n="106-107" xml:id="VAC7853-00000049"/>&#xD;
 he does! I'll warrant he does! I ~iiusAd, I know, if 1&#xD;
 wore he !"&#xD;
 "Ah,'father! no he does not! ITo was in the right! [&#xD;
@@ -4488,7 +4493,7 @@ tiently--.-&#xD;
 &#xD;
 107&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7853-00000050"/>&#xD;
+<pb n="108-109" xml:id="VAC7853-00000050"/>&#xD;
 THE CURSE OF CLIFTON.&#xD;
 &#xD;
 * "Why do you always do that! Why do you always rise&#xD;
@@ -4586,7 +4591,7 @@ L.&#xD;
 &#xD;
 109&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7853-00000051"/>&#xD;
+<pb n="110-111" xml:id="VAC7853-00000051"/>&#xD;
 110&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -4683,7 +4688,7 @@ I&#xD;
 1~j~&#xD;
 :1&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7853-00000052"/>&#xD;
+<pb n="112-113" xml:id="VAC7853-00000052"/>&#xD;
 112&#xD;
 &#xD;
 THE CURSE OP CLIFTON.&#xD;
@@ -4785,7 +4790,7 @@ V&#xD;
 41" -&#xD;
 ii&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7853-00000053"/>&#xD;
+<pb n="114-115" xml:id="VAC7853-00000053"/>&#xD;
 114&#xD;
 &#xD;
 THE CURS]~ OF CLIFTON.&#xD;
@@ -4852,7 +4857,7 @@ Ii&#xD;
 &#xD;
 A~.&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7853-00000054"/>&#xD;
+<pb n="116-117" xml:id="VAC7853-00000054"/>&#xD;
 117&#xD;
 &#xD;
 LIAJ THE CURSE OF CLIFTON. THE CURSE OF CLIFTON.&#xD;
@@ -4953,7 +4958,7 @@ A&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7853-00000055"/>&#xD;
+<pb n="118-119" xml:id="VAC7853-00000055"/>&#xD;
 118&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -5057,7 +5062,7 @@ $1&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7853-00000056"/>&#xD;
+<pb n="120-121" xml:id="VAC7853-00000056"/>&#xD;
 9&#xD;
 120&#xD;
 &#xD;
@@ -5163,7 +5168,7 @@ every son (and daughter) whom He receiveth.' Then I think,&#xD;
 &#xD;
 PA&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7853-00000057"/>&#xD;
+<pb n="122-123" xml:id="VAC7853-00000057"/>&#xD;
 THE CURSE OF CLIFTON.&#xD;
 &#xD;
 (I do think, sometimes, young and volatile as I am,) 'I think&#xD;
@@ -5264,7 +5269,7 @@ K&#xD;
 &#xD;
 122&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7853-00000058"/>&#xD;
+<pb n="124-125" xml:id="VAC7853-00000058"/>&#xD;
 4?'&#xD;
 'I'&#xD;
 4&#xD;
@@ -5369,7 +5374,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7853-00000059"/>&#xD;
+<pb n="126-127" xml:id="VAC7853-00000059"/>&#xD;
 x&#xD;
 &#xD;
 TIlE CURSE OF CLIFTON.&#xD;
@@ -5469,7 +5474,7 @@ f 0&#xD;
 &#xD;
 127&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7853-00000060"/>&#xD;
+<pb n="128-129" xml:id="VAC7853-00000060"/>&#xD;
 'it&#xD;
 r&#xD;
 (&#xD;
@@ -5579,7 +5584,7 @@ y~, ~&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7853-00000061"/>&#xD;
+<pb n="130-131" xml:id="VAC7853-00000061"/>&#xD;
 130             THE CURSE OF CLIFTON.&#xD;
 - he should take his girl to Hardbargain, and leave her There&#xD;
 to return by dinner time.&#xD;
@@ -5668,7 +5673,7 @@ ride by your side so cheerfully, if I thought you were going&#xD;
 to marry that man, on whom your father no more wishes to&#xD;
 bestow you, than he wishes to send you to perdition ~ Listen,&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7853-00000062"/>&#xD;
+<pb n="132-133" xml:id="VAC7853-00000062"/>&#xD;
 132             2~~E CURSE OF CLIFT&amp;amp;K.&#xD;
 my darling girl! When your father told me what I have&#xD;
 repeated to you, he went on to say, that for certain family&#xD;
@@ -5755,7 +5760,7 @@ until you do consent !"&#xD;
 the whole story again, and added-" And Zuleime, have you&#xD;
 11*&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7853-00000063"/>&#xD;
+<pb n="134-135" xml:id="VAC7853-00000063"/>&#xD;
 ~T~E OUI~5~ OCLI~T9~.&#xD;
 no love, no pity left from your father to bestow upon the&#xD;
 poor soldier who loves you so, and who is going out to the&#xD;
@@ -5852,7 +5857,7 @@ V&#xD;
 4&#xD;
 V.&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7853-00000064"/>&#xD;
+<pb n="136-137" xml:id="VAC7853-00000064"/>&#xD;
 180&#xD;
 &#xD;
 T1U~ CURSfl or OLIFTON.&#xD;
@@ -5950,7 +5955,7 @@ AK&#xD;
 r&#xD;
 LI&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7853-00000065"/>&#xD;
+<pb n="138-139" xml:id="VAC7853-00000065"/>&#xD;
 18&#xD;
 &#xD;
 TILE CURSE OF CLIFTON.&#xD;
@@ -6051,7 +6056,7 @@ V&#xD;
 V&#xD;
 F&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7853-00000066"/>&#xD;
+<pb n="140-141" xml:id="VAC7853-00000066"/>&#xD;
 141&#xD;
 &#xD;
 140&#xD;
@@ -6132,7 +6137,7 @@ I&#xD;
 4&#xD;
 '4I&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7853-00000067"/>&#xD;
+<pb n="142-143" xml:id="VAC7853-00000067"/>&#xD;
 TILE CURSE OF CLIFTON.&#xD;
 &#xD;
 TILE CURSE OF CLIFTqN.&#xD;
@@ -6224,7 +6229,7 @@ h&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7853-00000068"/>&#xD;
+<pb n="144-145" xml:id="VAC7853-00000068"/>&#xD;
 144            THE CURSE OF CLIFTON.                                                                145&#xD;
 &#xD;
 THE CURSE OF CLIFTDN.&#xD;
@@ -6323,7 +6328,7 @@ I&#xD;
 &#xD;
 146&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7853-00000069"/>&#xD;
+<pb n="146-147" xml:id="VAC7853-00000069"/>&#xD;
 146&#xD;
 &#xD;
 TIlE CURSE OF CLIFTON.&#xD;
@@ -6416,7 +6421,7 @@ ately. "However," he added, "she has brought me to re-&#xD;
 flection, for which I thank her. And Mrs. Clifton, I feel&#xD;
 sorry and mortified that I have been betrayed into some vie-&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7853-00000070"/>&#xD;
+<pb n="148-149" xml:id="VAC7853-00000070"/>&#xD;
 t&#xD;
 K&#xD;
 ~4ii&#xD;
@@ -6521,7 +6526,7 @@ Clifton! you are the great~grand~daughter of Oliver Cromwell,&#xD;
 &#xD;
 148&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7853-00000071"/>&#xD;
+<pb n="150-151" xml:id="VAC7853-00000071"/>&#xD;
 II&#xD;
 */&#xD;
 4&#xD;
@@ -6618,7 +6623,7 @@ The old gentleman hastened thither. lie fonnd his daugh-&#xD;
 ter ready dressed, and quite alone. Her bridesmaids had&#xD;
 gone to make their own toilets.&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7853-00000072"/>&#xD;
+<pb n="152-153" xml:id="VAC7853-00000072"/>&#xD;
 A&#xD;
 .1&#xD;
 4&#xD;
@@ -6723,7 +6728,7 @@ N&#xD;
 &#xD;
 $&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7853-00000073"/>&#xD;
+<pb n="154-155" xml:id="VAC7853-00000073"/>&#xD;
 154           TIIECTJRsE OF CLIFTON.                                                          155&#xD;
 &#xD;
 TIlE CURSE OF CLIFTON.&#xD;
@@ -6790,7 +6795,7 @@ I&#xD;
 &#xD;
 155&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7853-00000074"/>&#xD;
+<pb n="156-157" xml:id="VAC7853-00000074"/>&#xD;
 156            THE CURSE OF CLIFTON.&#xD;
 &#xD;
 CHAPTER X.&#xD;
@@ -6873,7 +6878,7 @@ comparatively sien~t bustle. The servants, who had scarcely&#xD;
 retired the night previous, wete engaged in clearing away&#xD;
 i3~&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7853-00000075"/>&#xD;
+<pb n="158-159" xml:id="VAC7853-00000075"/>&#xD;
 '158&#xD;
 &#xD;
 TILE CURsE 01? CLIFTOY.&#xD;
@@ -6974,7 +6979,7 @@ V&#xD;
 U,,&#xD;
 .1,&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7853-00000076"/>&#xD;
+<pb n="160-161" xml:id="VAC7853-00000076"/>&#xD;
 too              THE co~ or CLIFTON.&#xD;
 sections of her pride, which argued, "It ~5 undignified, u~-&#xD;
 womanly, to make this overture." Then her love, her benevo..&#xD;
@@ -7050,7 +7055,7 @@ I&#xD;
 V&#xD;
 ~&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7853-00000077"/>&#xD;
+<pb n="162-163" xml:id="VAC7853-00000077"/>&#xD;
 162           TIlE CURs]~ OF CLIFTON.                                                         163&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -7149,7 +7154,7 @@ I'&#xD;
 &#xD;
 162&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7853-00000078"/>&#xD;
+<pb n="164-165" xml:id="VAC7853-00000078"/>&#xD;
 164&#xD;
 &#xD;
 TH~ CURSE OP CLIFTON.&#xD;
@@ -7247,7 +7252,7 @@ I"&#xD;
 '4&#xD;
 7)&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7853-00000079"/>&#xD;
+<pb n="166-167" xml:id="VAC7853-00000079"/>&#xD;
 (&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -7349,7 +7354,7 @@ I&#xD;
 )&#xD;
 t&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7853-00000080"/>&#xD;
+<pb n="168-169" xml:id="VAC7853-00000080"/>&#xD;
 '4&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -7405,7 +7410,7 @@ r&#xD;
 &#xD;
 il&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7853-00000081"/>&#xD;
+<pb n="170-171" xml:id="VAC7853-00000081"/>&#xD;
 r&#xD;
 I&#xD;
 F&#xD;
@@ -7512,7 +7517,7 @@ of satisfying him.&#xD;
 &#xD;
 2, A4&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7853-00000082"/>&#xD;
+<pb n="172-173" xml:id="VAC7853-00000082"/>&#xD;
 I&#xD;
 4&#xD;
 I&#xD;
@@ -7614,7 +7619,7 @@ entreaties for admission were answered by peals of uncon-&#xD;
 &#xD;
 TIlE CURSE OF CLIFTON.&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7853-00000083"/>&#xD;
+<pb n="174-175" xml:id="VAC7853-00000083"/>&#xD;
 "'p&#xD;
 4&#xD;
 4&#xD;
@@ -7698,7 +7703,7 @@ a&#xD;
 r ~&#xD;
 14&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7853-00000084"/>&#xD;
+<pb n="176-177" xml:id="VAC7853-00000084"/>&#xD;
 34, -&#xD;
 &#xD;
 TIfl~ CUItSi~ 01? CLIFTON.&#xD;
@@ -7794,7 +7799,7 @@ i~&#xD;
 r&#xD;
 I&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7853-00000085"/>&#xD;
+<pb n="178-179" xml:id="VAC7853-00000085"/>&#xD;
 178            THE CURSE OF CLIFTON.&#xD;
 &#xD;
 tive whisper. She offered up a silent prayer to God to for..&#xD;
@@ -7886,7 +7891,7 @@ countenance, suit your striking features very well. But I&#xD;
 am talking like a mediocre~ stage critic. Captain Clifton has&#xD;
 a very high opinion, Qf you, my Catherine. Pray try to&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7853-00000086"/>&#xD;
+<pb n="180-181" xml:id="VAC7853-00000086"/>&#xD;
 9&#xD;
 &#xD;
 180&#xD;
@@ -7982,7 +7987,7 @@ time. You see, she naturally began to grow better when&#xD;
 this other disease began to break out, II suppose. Indeed, I&#xD;
 15~&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC7853-00000087"/>&#xD;
+<pb n="182-183" xml:id="VAC7853-00000087"/>&#xD;
 182            ThE CURSE OF CLIFTON.                                                                183&#xD;
 &#xD;
 have no doubt it was the coming of the sm~ill-pox, that ar-&#xD;
@@ -8078,7 +8083,7 @@ competent person with Miss Clifton now, sir V'&#xD;
 &#xD;
 183&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC7853-00000088"/>&#xD;
+<pb n="184-185" xml:id="VAC7853-00000088"/>&#xD;
 184&#xD;
 &#xD;
 TIlE CtXRsn or CLIIj'TON.&#xD;
@@ -8144,7 +8149,7 @@ to hold that hand, whose flesh seemed as it~ it would drop off,&#xD;
 &#xD;
 44&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC7853-00000089"/>&#xD;
+<pb n="186-187" xml:id="VAC7853-00000089"/>&#xD;
 V&#xD;
 &#xD;
 TILE CURSE OF CLIFTON.&#xD;
@@ -8244,7 +8249,7 @@ p&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC7853-00000090"/>&#xD;
+<pb n="188-189" xml:id="VAC7853-00000090"/>&#xD;
 t&#xD;
 4''&#xD;
 ~ '4&#xD;
@@ -8358,7 +8363,7 @@ lb&#xD;
 &#xD;
 - 189&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC7853-00000091"/>&#xD;
+<pb n="190-191" xml:id="VAC7853-00000091"/>&#xD;
 4jj&#xD;
 &#xD;
 190&#xD;
@@ -8465,7 +8470,7 @@ I&#xD;
 4:&#xD;
 44444'&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC7853-00000092"/>&#xD;
+<pb n="192-193" xml:id="VAC7853-00000092"/>&#xD;
 4&#xD;
 g&#xD;
 S&#xD;
@@ -8571,7 +8576,7 @@ g&#xD;
 &#xD;
 198&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC7853-00000093"/>&#xD;
+<pb n="194-195" xml:id="VAC7853-00000093"/>&#xD;
 I&#xD;
 A&#xD;
 I i&#xD;
@@ -8656,7 +8661,7 @@ A A~A&#xD;
 { A&#xD;
 L&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC7853-00000094"/>&#xD;
+<pb n="196-197" xml:id="VAC7853-00000094"/>&#xD;
 Ii&#xD;
 I&#xD;
 i&#xD;
@@ -8760,7 +8765,7 @@ V&#xD;
 Q&#xD;
 I&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC7853-00000095"/>&#xD;
+<pb n="198-199" xml:id="VAC7853-00000095"/>&#xD;
 ji98             TILE CURSE OF CLIIi'TON.                                                                   199~&#xD;
 &#xD;
 warm, beating heart was cloven through-.the fair hair torn&#xD;
@@ -8858,7 +8863,7 @@ i&#xD;
 &#xD;
 199,&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC7853-00000096"/>&#xD;
+<pb n="200-201" xml:id="VAC7853-00000096"/>&#xD;
 200             TIlE CuRsE OF CLIFTON.&#xD;
 another child.-as the most likely being to rouse it," said&#xD;
 Mrs. Clifton.&#xD;
@@ -8947,7 +8952,7 @@ There, don't stop! Cry it all out on father's neck! Don't&#xD;
 dop! Catch your breath and begin again! That's right!&#xD;
 VOL. L-47&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC7853-00000097"/>&#xD;
+<pb n="202-203" xml:id="VAC7853-00000097"/>&#xD;
 202             THE CURSE OF CLIFTON.&#xD;
 That's a good girl! Oh, she'll cry a plenty this bout. Once&#xD;
 I couldn't bear to hear women cry! It was because I did&#xD;
@@ -9010,7 +9015,7 @@ to be broken off. lie wished to touch his heart, to excite&#xD;
 his sympathy, to awaken his generosity. He even hoped-&#xD;
 for people will have wild hopes in extremity-that Major&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC7853-00000098"/>&#xD;
+<pb n="204-205" xml:id="VAC7853-00000098"/>&#xD;
 204             TIlE CURSE OF CLIFTON.&#xD;
 Cabell might anticipate his wish, and resign his claims, lie&#xD;
 never was more mistaken in his life!&#xD;
@@ -9102,7 +9107,7 @@ away ?"&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC7853-00000099"/>&#xD;
+<pb n="206-207" xml:id="VAC7853-00000099"/>&#xD;
 I&#xD;
 &#xD;
 206&#xD;
@@ -9195,7 +9200,7 @@ tion.&#xD;
 &#xD;
 &amp;amp;&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC7853-00000100"/>&#xD;
+<pb n="208-209" xml:id="VAC7853-00000100"/>&#xD;
 208&#xD;
 &#xD;
 THE CURSE OF CLIFTON.&#xD;
@@ -9285,7 +9290,7 @@ moment, and then said-&#xD;
 "Zuleime, your father is suffering! Let's see if that will&#xD;
 rouse you !"&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC7853-00000101"/>&#xD;
+<pb n="210-211" xml:id="VAC7853-00000101"/>&#xD;
 TIlE CURSE OF CLIFTON.                                        THE CURSE OF CLIFTON.          2t1&#xD;
 &#xD;
 "My father? Oh, no, he mustn't. Tell him not to' mind&#xD;
@@ -9375,7 +9380,7 @@ And very soon Catherine entered.&#xD;
 tF&#xD;
 2&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC7853-00000102"/>&#xD;
+<pb n="212-213" xml:id="VAC7853-00000102"/>&#xD;
 212             ~run cui~s~ or CLIFTON.&#xD;
 and put on my crimson 'dress, and make me decent and pretty&#xD;
 to go down into the parlor to see Cousin Charles. It don't&#xD;
@@ -9466,7 +9471,7 @@ VOL. I.-18&#xD;
 &#xD;
 TH~ CURSE OF CLIFTON.          213&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC7853-00000103"/>&#xD;
+<pb n="214-215" xml:id="VAC7853-00000103"/>&#xD;
 214            TIlE CURSE OF CLIFTON.                                        THE CURSE OF 'CLIFTON.      21~&#xD;
 &#xD;
 ~to the heart of Catherine, but she shook her head gravely,&#xD;
@@ -9555,7 +9560,7 @@ The next 4ay, about noon, M~jor Cabell and Zuleinme met&#xD;
 in the saloon, and had an interview of nearly an hour's&#xD;
 length.&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC7853-00000104"/>&#xD;
+<pb n="216-217" xml:id="VAC7853-00000104"/>&#xD;
 THE CURSE OF CLIFTON.           217&#xD;
 &#xD;
 ~16            THE CURSE OF CLIFTON.&#xD;
@@ -9612,7 +9617,7 @@ Major Cabell was baffled and perplexed. "Jealousy is as&#xD;
 cruel as the grave," and so, also, is that base passion which&#xD;
 18~&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC7853-00000105"/>&#xD;
+<pb n="218-219" xml:id="VAC7853-00000105"/>&#xD;
 218         THE CURSE OF CLIFTON.                                               TH   US     FCITN                   1&#xD;
 &#xD;
 often goes by the holy name of Love. It had been under&#xD;
@@ -9705,7 +9710,7 @@ said-&#xD;
 &#xD;
 219&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC7853-00000106"/>&#xD;
+<pb n="220-221" xml:id="VAC7853-00000106"/>&#xD;
 220              ~irnE CURSE OF CLIFTON.&#xD;
 "My own. you can read music at sight. Can you not V'&#xD;
 "Yes," replied the girl.&#xD;
@@ -9793,7 +9798,7 @@ tion? Is it a crime to remember a dead friend ?"&#xD;
 "lit is a miserable, ruling weakness! a maudlin, mawkish,&#xD;
 driving, puling piece of unfaithfulness to duty-and leads&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC7853-00000107"/>&#xD;
+<pb n="222-223" xml:id="VAC7853-00000107"/>&#xD;
 '222   ,THE CURSE OF -CLIFTON.&#xD;
 &#xD;
 you into the exhibition of such scenes as that of last night !&#xD;
@@ -9884,7 +9889,7 @@ heart-feeding comfort, that Kate felt there would be no pos-&#xD;
 &#xD;
 THE CURSE OF CLIFTON.           223&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC7853-00000108"/>&#xD;
+<pb n="224-225" xml:id="VAC7853-00000108"/>&#xD;
 224             THE CURSE OF CLIFTON.&#xD;
 sibility of forgetting Archer Clifton, while thrown into daily&#xD;
 intercourse with his mother. Once when Mrs. Clifton had&#xD;
@@ -9973,7 +9978,7 @@ self-restrained frenzy.&#xD;
 They reached home at last. Georgia was handed out first;&#xD;
 VOL. I.-.19&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC7853-00000109"/>&#xD;
+<pb n="226-227" xml:id="VAC7853-00000109"/>&#xD;
 226            ~'HR CURSE OF CLIFTON.&#xD;
 &#xD;
 she waited for Zuleline, who followed. She wished to draw.&#xD;
@@ -10039,7 +10044,7 @@ TIlE CURSE OF CLIFTON.&#xD;
 &#xD;
 227&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC7853-00000110"/>&#xD;
+<pb n="228-229" xml:id="VAC7853-00000110"/>&#xD;
 228        THE CURSE OF CLIFTON.                                            T~ECI      FCITN                   2&#xD;
 &#xD;
 CHAPTERr XIX.&#xD;
@@ -10126,7 +10131,7 @@ girl, alone answered her.&#xD;
 " What will your father-what will your intended hus-.&#xD;
 19*&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC7853-00000111"/>&#xD;
+<pb n="230-231" xml:id="VAC7853-00000111"/>&#xD;
 F&#xD;
 I&#xD;
 &#xD;
@@ -10223,7 +10228,7 @@ THE CURSE OF CLIFTON.&#xD;
 &#xD;
 231I&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC7853-00000112"/>&#xD;
+<pb n="232-233" xml:id="VAC7853-00000112"/>&#xD;
 '282&#xD;
 &#xD;
 ~1IR ounsn o~' GtIF~Q~.&#xD;
@@ -10315,7 +10320,7 @@ death, which never could console him for your fall--time.&#xD;
 Besides, if you are supposed to be dead, it will not only save&#xD;
 us all from shame, but your father will be your heir, and&#xD;
 &#xD;
-<pb  n="234" xml:id="VAC7853-00000113"/>&#xD;
+<pb n="234" xml:id="VAC7853-00000113"/>&#xD;
 234             TIlE CURSE OF CLIFTON.&#xD;
 can appropriate that thirty thousand dollars to the payment&#xD;
 of his debts. Zuleime, it seems to me you owe us all this&#xD;
@@ -10356,8 +10361,8 @@ END OF VOL. I.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

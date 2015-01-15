@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8196">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8196">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Black Rolf, or, The Red Witch of Wissahickon </title>
-            <author >Warden, Harmer S.</author>
+            <title>Black Rolf, or, The Red Witch of Wissahickon </title>
+            <author>Warden, Harmer S.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8196</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8196</idno>
+            <idno type="wright2" n="previous">wright2-2633</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Black Rolf, or, The Red Witch of Wissahickon</title>
-                  <author >Warden, Harmer S.</author>
+                  <title>Black Rolf, or, The Red Witch of Wissahickon</title>
+                  <author>Warden, Harmer S.</author>
                </titleStmt>
-               <extent >96 p.</extent>
+               <extent>96 p.</extent>
                <publicationStmt>
-                  <publisher >A. Winch</publisher>
+                  <publisher>A. Winch</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1856">[1856]</date>
+                  <date when="1856">[1856]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Black Rolf, or, The Red Witch of Wissahickon</head> 
+            <head>Black Rolf, or, The Red Witch of Wissahickon</head>
             <p>
-               <pb  n=" (Advertisement) " xml:id="VAC8196-00000001"/>' 'THE CHILD OF THE WRECK.&#xD;
+               <pb n=" (Advertisement) " xml:id="VAC8196-00000001"/>' 'THE CHILD OF THE WRECK.&#xD;
 Very few novels have y~.t been written which combine more perfectly            )&#xD;
 than this does the exciting interest of a Sea Romance with the more&#xD;
 quiet and heart-touching incidents of Domestic Life. Althou~Ih&#xD;
@@ -142,7 +147,7 @@ PHILADELPHIA:&#xD;
 A. WINCW 505 CIIESTMJT ST.&#xD;
 ~ Uopi~ seiU &amp;amp;~i Mail, on ~ of Price.&#xD;
 &#xD;
-<pb  n="Advertisement (TitlePage) " xml:id="VAC8196-00000002"/>&#xD;
+<pb n="Advertisement (TitlePage) " xml:id="VAC8196-00000002"/>&#xD;
 JACK WAID, TH~ BURGLAR,&#xD;
 oat'&#xD;
 TIJIE COBBLER OF GOTIIAM.&#xD;
@@ -258,7 +263,7 @@ A. WJNCn~ 505 CHESTNUT STI~EET.&#xD;
 &#xD;
 5&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8196-00000003"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8196-00000003"/>&#xD;
 A /{~/4J~&#xD;
 &#xD;
 Ewuazo according to the Act of Congress, in the year 1856, by&#xD;
@@ -308,7 +313,7 @@ EXI'LANZED WOEDERFIJL D~k1OUEMEET, 89&#xD;
 7.7&#xD;
 NTS:&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8196-00000004"/>&#xD;
+<pb n="0" xml:id="VAC8196-00000004"/>&#xD;
 BLACK&#xD;
 &#xD;
 ROLE;&#xD;
@@ -356,7 +361,7 @@ them away, andlooking out upon the garden,&#xD;
 &#xD;
 O&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8196-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8196-00000005"/>&#xD;
 8                       THE BLU:&#xD;
 the fresh balmy air toyed with her silken&#xD;
 locks and fanned her lily-like forehead.&#xD;
@@ -574,7 +579,7 @@ i&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8196-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8196-00000006"/>&#xD;
 4&#xD;
 &#xD;
 10                      THE BLU:&#xD;
@@ -734,7 +739,7 @@ r&#xD;
 &#xD;
 11'&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8196-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8196-00000007"/>&#xD;
 12&#xD;
 &#xD;
 THE BLUE BEARDS&#xD;
@@ -893,7 +898,7 @@ ci-,&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8196-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8196-00000008"/>&#xD;
 THE BLUE BEARDS&#xD;
 &#xD;
 Walton, Thornton and Walsingham on that ary, and the ground was covered to the deptl~&#xD;
@@ -1052,7 +1057,7 @@ plete demolition of the ornamented panels our message," said one of the men.&#xD
 was fairly threatened~  At the same time, as  "Och; it's in a hurry ye tees I I faix, I&#xD;
 it' the Storm Fiend himself had joined in a tells ye, if ye av come on business of life&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8196-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8196-00000009"/>&#xD;
 LIT                     A&#xD;
 V&#xD;
 &#xD;
@@ -1211,7 +1216,7 @@ The'wom~,n t.eni',~eJ from head so foot,' beneath 'the shaggy eyebrows with arko
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8196-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8196-00000010"/>&#xD;
 18&#xD;
 &#xD;
 THE BLUE BEARDS&#xD;
@@ -1371,7 +1376,7 @@ nity for aequitts.l of all censure and blame&#xD;
 in the matter?&#xD;
 Whatever were the facts of the ease, as&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8196-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8196-00000011"/>&#xD;
 (&#xD;
 &#xD;
 I&#xD;
@@ -1490,7 +1495,7 @@ AND SCARLET I~IBBQN8.&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8196-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8196-00000012"/>&#xD;
 N V&#xD;
 &#xD;
 22&#xD;
@@ -1647,7 +1652,7 @@ the instant.&#xD;
 Possibly Sally had not deserved such im-&#xD;
 pertinent, not to say solucious attention.-&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC8196-00000013"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC8196-00000013"/>&#xD;
 24&#xD;
 &#xD;
 THE BLIJE BEARDS&#xD;
@@ -1762,7 +1767,7 @@ TilE LIBERTINE MEBCIIANT ARLINGTON.&#xD;
 &#xD;
 IN QUEST OF. NEW ADVENTURES&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8196-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8196-00000014"/>&#xD;
 )&#xD;
 &#xD;
 f&#xD;
@@ -1829,7 +1834,7 @@ he exception of an elderly woman, who offi- tocratie, among the, dingy red and b
 iated as his housekeeper, and a man-servant, brick tEnements that lined the street.&#xD;
 Person whom he-had s lected from the It was situated near the corner-of P'enn&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8196-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8196-00000015"/>&#xD;
 ~H1~ BLUE BEARDS&#xD;
 &#xD;
 and Pine streetS. The bells of St Peter's&#xD;
@@ -1945,7 +1950,7 @@ which flowed in her veins tinged her cheeks with ~ier daughters upon the fashion
 ~ith the rose's bloom, and tipped with the prome~iades of the city.&#xD;
 ti~heet Icarnie.                        Th~ means of support for the fatnily, os~&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8196-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8196-00000016"/>&#xD;
 80                      TIIE BLU&#xD;
 tensibly at least, was derived from an admir.&#xD;
 able taste and skill which the mother and&#xD;
@@ -2107,7 +2112,7 @@ V''/&#xD;
 I,&#xD;
 '1.4&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8196-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8196-00000017"/>&#xD;
 32&#xD;
 &#xD;
 THE BLUE BEARDS&#xD;
@@ -2302,7 +2307,7 @@ Tn~ vwo OLD FRIEND5.-~MY5TEESOU5.&#xD;
 1&#xD;
 si&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8196-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8196-00000018"/>&#xD;
 THE BLUE BEARDS&#xD;
 and origin. Some supposed her to be the arms, and paused a moment, till Mr. Swit~er&#xD;
 long missing Ida Walton; others that she who now leaned his back against the pail-&#xD;
@@ -2419,7 +2424,7 @@ it I"                                  the money. I did the little job for you, 
 &#xD;
 *1&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8196-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8196-00000019"/>&#xD;
 AND SCARLET RI13BOi~S.          .37&#xD;
 &#xD;
 THE BLUE EE~HD~&#xD;
@@ -2618,7 +2623,7 @@ master would be very angry with us if we&#xD;
 did. Be quiet, my pretty dear, and take a&#xD;
 bite of something to eat. A bit of cake and&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8196-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8196-00000020"/>&#xD;
 38              TilE BLUE 13E~RD5                                            AND SCARLET RIBBONS.           39~&#xD;
 &#xD;
 a glass of wine will i-efresh you, ano then ir~ep the flowers I have brought here to-day,&#xD;
@@ -2773,7 +2778,7 @@ and she was temporarily rared from the dia-&#xD;
 boflcal intent I Oh, termizole was the scene&#xD;
 which now occurred '&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8196-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8196-00000021"/>&#xD;
 40' .~      THE BLUE BEARDS&#xD;
 &#xD;
 CHAPTER Xe&#xD;
@@ -2917,7 +2922,7 @@ the rage of a villain detected in a revolt-I throat of the switched Arlington.&#
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8196-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8196-00000022"/>&#xD;
 THE BLUE BEARDS&#xD;
 &#xD;
 AND ~SCARLET RIBBONS.&#xD;
@@ -3111,7 +3116,7 @@ i 4*&#xD;
 &#xD;
 4;&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8196-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8196-00000023"/>&#xD;
 I&#xD;
 &#xD;
 AND~ SCARL~T RIBBONS.&#xD;
@@ -3211,7 +3216,7 @@ ward his home before the storm-spirit "Well, I m.ust say I have as good&#xD;
 arrested ha speed.                   eyes as most folks, but really as far down&#xD;
 The miii now fell in such torrents the lane as I can see, the girl la oertalnly&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8196-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8196-00000024"/>&#xD;
 48                    THE BLU&#xD;
 not in view. A few moments longer,&#xD;
 more or less, will make small difference,&#xD;
@@ -3351,7 +3356,7 @@ sgin~d not described. To have wit-I if all the fiends .of randemonilifli 1ts4&#x
 &#xD;
 47&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8196-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8196-00000025"/>&#xD;
 E9&#xD;
 &#xD;
 A8&#xD;
@@ -3486,7 +3491,7 @@ scarcely be without a host of admirers, of her actions to the bosom of~ her&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8196-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8196-00000026"/>&#xD;
 bO          THE BLUE BEARDS                                  AND SCARLET RIBBONS.        51&#xD;
 &#xD;
 liege 1oi~d. The absence of such token&#xD;
@@ -3625,7 +3630,7 @@ e-&#xD;
 l'&#xD;
 1&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8196-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8196-00000027"/>&#xD;
 AND SCARLET RIBBONS.       53&#xD;
 &#xD;
 THE BLUE BEARDS&#xD;
@@ -3812,7 +3817,7 @@ in the person of the young maiden Mm-&#xD;
 &#xD;
 I).&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8196-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8196-00000028"/>&#xD;
 64&#xD;
 &#xD;
 TILE RLUE BEARDS&#xD;
@@ -3914,7 +3919,7 @@ singham. Nevertheless, were I in your saw her, she was a far different looking&#
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8196-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8196-00000029"/>&#xD;
 THE BLUE BP~A'RDS&#xD;
 Woman from what she is now. In fact, my uncle's counting-house assistant,&#xD;
 she was a lady whose beauty and accom- Angustus Thornton, to have aroused the&#xD;
@@ -4056,7 +4061,7 @@ the port of New Yerk, eu a reti~rn&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8196-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8196-00000030"/>&#xD;
 ii&#xD;
 &#xD;
 53         THE BLUE BEARDS&#xD;
@@ -4206,7 +4211,7 @@ was the merest accidentthat I learned a&#xD;
 short time since, that my whilom pretty&#xD;
 'female-cabin-boy' had become so my~-&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8196-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8196-00000031"/>&#xD;
 60                   THE BLU&#xD;
 seriously metamorphosed into the lied&#xD;
 Witch of Wissahickon. This was the&#xD;
@@ -4391,7 +4396,7 @@ and use her craft to unravel, if possible,&#xD;
 &#xD;
 61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8196-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8196-00000032"/>&#xD;
 THE BLUE BEARDS&#xD;
 all these mysteries t1i~t are so dark and han the one who had plundered the'&#xD;
 impervious to our apprehensions at pre- \Valsingham estate, and by legal chica.&#xD;
@@ -4494,7 +4499,7 @@ be assured that such ~s the fact. I will! "By all the ghosts of the paupers an4&
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8196-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8196-00000033"/>&#xD;
 fl-b                  THE     BLUJ&#xD;
 murderers who have been buried here, I&#xD;
 am glad that this job is through with I&#xD;
@@ -4679,7 +4684,7 @@ I&#xD;
 &#xD;
 BEARDS&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8196-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8196-00000034"/>&#xD;
 '1&#xD;
 '1&#xD;
 K&#xD;
@@ -4836,7 +4841,7 @@ A&#xD;
 &#xD;
 O&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8196-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8196-00000035"/>&#xD;
 K (&#xD;
 &#xD;
 THE BLUE BEARDS&#xD;
@@ -4989,7 +4994,7 @@ The words had hardly esdaped his lips&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8196-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8196-00000036"/>&#xD;
 Ii&#xD;
 I'&#xD;
 r&#xD;
@@ -5103,7 +5108,7 @@ AND SCARLET RIBBONS.&#xD;
 &#xD;
 1/ ~&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8196-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8196-00000037"/>&#xD;
 1'1&#xD;
 ii!&#xD;
 j~1&#xD;
@@ -5302,7 +5307,7 @@ ft&#xD;
 &#xD;
 C-&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8196-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8196-00000038"/>&#xD;
 it&#xD;
 III&#xD;
 f I&#xD;
@@ -5457,7 +5462,7 @@ AND SCARLi~T RIBBONS&#xD;
 &#xD;
 T&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8196-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8196-00000039"/>&#xD;
 THE BLUE BEARDS&#xD;
 &#xD;
 in 'the house of Arlington, although she&#xD;
@@ -5600,7 +5605,7 @@ the other born in wedlock ?" and serenely up stairs, Armnand."&#xD;
 children were in no way related." lington himself bade mae and Wilkins go&#xD;
 ' No way related, Armand 1"      and fetch the midwife  that was your.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8196-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8196-00000040"/>&#xD;
 THE BLUE BEARDS&#xD;
 &#xD;
 AND SCARLE~P RIBBONS         79&#xD;
@@ -5782,7 +5787,7 @@ of his wife and that of his concubine' 'I&#xD;
 was aware that the ~child by Arlington's&#xD;
 wife died soon after you took it home, bttt&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8196-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8196-00000041"/>&#xD;
 80&#xD;
 &#xD;
 THI~ BLIJfl BEARDS                              4ND SCARLET RIBBONS.&#xD;
@@ -5937,7 +5942,7 @@ GF&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8196-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8196-00000042"/>&#xD;
 82                    THE BLUI&#xD;
 pose my crime-that I would surrender&#xD;
 him the entire treasure and hind myself&#xD;
@@ -6101,7 +6106,7 @@ pel same uneasiness V spit-its, which the&#xD;
 gloom of a half light d place naturally&#xD;
 inspires in a superstitious bosom.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8196-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8196-00000043"/>&#xD;
 THE BLUE BOARDS -~&#xD;
 &#xD;
 AND SCARLET RIBBO~8.&#xD;
@@ -6246,7 +6251,7 @@ gt&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8196-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8196-00000044"/>&#xD;
 'PHE BLUE B'EARDS&#xD;
 &#xD;
 saw the young clerk leav# the drawing-&#xD;
@@ -6435,7 +6440,7 @@ Thornton."    -.&#xD;
 ."Of course. Ida had scarcely seated&#xD;
 herself in the cosy retreat when. Thorn-&#xD;
 &#xD;
-<pb  n="88-89 (Illustration) " xml:id="VAC8196-00000045"/>&#xD;
+<pb n="88-89 (Illustration) " xml:id="VAC8196-00000045"/>&#xD;
 ton approached; whereupon she flung Seeing how matters were, I took up the&#xD;
 herself upon his neck -and breast. body of. Ida, and threw it down an old&#xD;
 Thornton was followed by Harvey Wal- well at thd foot of the garden, and then&#xD;
@@ -6496,7 +6501,7 @@ a&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8196-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8196-00000046"/>&#xD;
 (&#xD;
 &#xD;
 THE PLLIE BEARDS&#xD;
@@ -6596,7 +6601,7 @@ She sought the tavern known as the villains, concocted and carried on all&#xD;
 &#xD;
 1i&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8196-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8196-00000047"/>&#xD;
 92          TUE BLUE BEARDS                                 AND SCARLET RIBBONS.&#xD;
 &#xD;
 nates in such diablerie were not less villa, after informing him of Ninny s es.&#xD;
@@ -6737,7 +6742,7 @@ were to be found in a vault of the 'old&#xD;
 &#xD;
 . 42&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8196-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8196-00000048"/>&#xD;
 -94&#xD;
 &#xD;
 I&#xD;
@@ -6842,7 +6847,7 @@ who had been appoiat~d to settle\ the, ing dismissed from the Navy, became&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="96" xml:id="VAC8196-00000049"/>&#xD;
+<pb n="96" xml:id="VAC8196-00000049"/>&#xD;
 Tiili I3LUE BEARDS AND SCARLET RIBBONS.&#xD;
 ~Talsinghain~s clerk, while his brother father of a large portion of his wealth,&#xD;
 Gran aChe, (Mary's lover,) continued in and fled with his no less guilty paramour&#xD;
@@ -6888,8 +6893,8 @@ p)&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

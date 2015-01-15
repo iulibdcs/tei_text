@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7835">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7835">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Comic Lectures on Every Thing in General and Nothing in Particular </title>
-            <author >Snowball, Deacon.</author>
+            <title>Comic Lectures on Every Thing in General and Nothing in Particular </title>
+            <author>Snowball, Deacon.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7835</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7835</idno>
+            <idno type="wright2" n="previous">wright2-2282</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Comic lectures on every thing in general and nothing in particular</title>
-                  <author >Snowball, Deacon.</author>
+                  <title>Comic lectures on every thing in general and nothing in particular</title>
+                  <author>Snowball, Deacon.</author>
                </titleStmt>
-               <extent >216 p.</extent>
+               <extent>216 p.</extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York</pubPlace>
-                  <date >[n.d.]</date>
+                  <date>[n.d.]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-04-13">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-04-13">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Comic lectures on every thing in general and nothing in particular</head> 
+            <head>Comic lectures on every thing in general and nothing in particular</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC7835-00000001"/>.,  "..L~e 'Svp 9i !   'k -     !'«  !  UVZ"_ , , " 5n} y&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC7835-00000001"/>.,  "..L~e 'Svp 9i !   'k -     !'«  !  UVZ"_ , , " 5n} y&#xD;
 _  rT{_i  t;'~.  '  ;/}~i     l   N+ ,~;\A l   'ai. s"r.,4   4 ,t~  ' 4'.  e 4         ! ,  ' ,  " ,&#xD;
 .r a      .  j_  a ,  "+1Xr,, l  ', rM '    ', d~ f " : y T'  1  '4  '4"4 } t  i 4 ,t4  4l  S S 4  4.. +&#xD;
 ,  ' -Stt~   '  l, 'a "f R  A 'yy  , _  ,,4  ;,s . "i.  "4 n "' 4'   "  .-  +  J&#xD;
@@ -138,7 +143,7 @@ F,        yt k tt  r&#xD;
 &#xD;
 -F&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7835-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7835-00000002"/>&#xD;
 ,i   ' _F   '&#xD;
 &#xD;
 '           '."'&#xD;
@@ -191,7 +196,7 @@ casting sheep's eye at de elars in : TEryY&#xD;
 &#xD;
 {.                               -      -   '        "'          ''      x-... "n, - ,  -           ,rf           yea    + !'&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7835-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7835-00000003"/>&#xD;
 4 4              BE_,          "U.&#xD;
 r'   8p.?y d preacher 'qnest de gals to leaf him alone&#xD;
 educejnembers ob his church and ge&#xD;
@@ -269,7 +274,7 @@ bizness to behive what he tell yOu,. nd al ~~~ e st on;&#xD;
 you stiff-necked jineration ob wipers! D##a&#xD;
 mistake in do reckoning on 'count oh do year. It is a&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7835-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7835-00000004"/>&#xD;
 8&#xD;
 &#xD;
 COMIC LECTUR!f, &amp;amp;&#xD;
@@ -346,7 +351,7 @@ w~as their, Cozen Peter cum runinin' into the -honse with&#xD;
 his ize wide oden and hollerin' out a dreadful thing~ was&#xD;
 happened. He sed that about five hundred wild niggars&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7835-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7835-00000005"/>&#xD;
 V.&#xD;
 &#xD;
 QOI EOETtRES,0 &amp;amp;"&#xD;
@@ -424,7 +429,7 @@ sense and he telledher all 'about his wndrfUl dinaad&#xD;
 showed her a goold cote in 'which he 1y ed ontheee.&#xD;
 atur when he was a superIgumery as they call it.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7835-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7835-00000006"/>&#xD;
 10:&#xD;
 &#xD;
 COMIC LECTURES,  ie&#xD;
@@ -501,7 +506,7 @@ de banjo. .Arter dat =re hole company will sing a solo,&#xD;
 and your 'spected preacher willdink a bottle ob' cider&#xD;
 wid a geninan ob color from Long Island.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7835-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7835-00000007"/>&#xD;
 660 LECTURE9, &amp;amp;,&#xD;
 KwI      g.    tproc upon de hole, witch signify&#xD;
 befoe you jump on ebery 'casion. If&#xD;
@@ -574,7 +579,7 @@ soul ?&#xD;
 &#xD;
 V'&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7835-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7835-00000008"/>&#xD;
 COMIC LECTURES, &amp;amp;C.4,&#xD;
 &#xD;
 14&#xD;
@@ -654,7 +659,7 @@ the folks cum to rede it, they said it W08 on the rong&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7835-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7835-00000009"/>&#xD;
 om  LEC TRS, -&amp;amp;&amp;amp;&#xD;
 si hed , for i had agred to voat for the other party. So&#xD;
 i didn't get 'ected, and then when i seed1i wrnt likely to&#xD;
@@ -723,7 +728,7 @@ cause tey ish von toad: but I shall not like t;m }at fi"-1&#xD;
 shall rather have von goot sausage and von rdss boef tan&#xD;
 all to toads and 'frogs for intino diner.  ''-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7835-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7835-00000010"/>&#xD;
 COmI LETURES, &amp;amp;g,&#xD;
 Mynheer Slaughtenburgh shall pass round te plate, and&#xD;
 shall'call to mine house to-day and get some schnapps for&#xD;
@@ -787,7 +792,7 @@ Why is de hair ob Massa Fillips 'like Snowball's sar-&#xD;
 mant ?&#xD;
 Ans. Bekase it is aluways read. (red.)'&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7835-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7835-00000011"/>&#xD;
 V Q)IC LECTU1WR ~&#xD;
 pDeparty broke up at de hour ob leben, a  your 'spec&#xD;
 ted preachr :hob. de houor to wate .onr PhIll Jonsing t&#xD;
@@ -847,7 +852,7 @@ Daffore de text shitd hab beer trenslate-' Music hab&#xD;
 &#xD;
 '[                                       .,             '&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7835-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7835-00000012"/>&#xD;
 OQI C LECTURE , &amp;amp;04.&#xD;
 charm to sooth de savage, to open clam and spit a cracker.'&#xD;
 Music sarve to open grea many clam njde sullar, and&#xD;
@@ -921,7 +926,7 @@ Dish shall be von text of a young gal tat shall find she&#xD;
 have pad lucks. Very yell: shall teirpe nopiodyelse vat&#xD;
 shall have pad lucksf Yen I shall been inw mine own&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7835-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7835-00000013"/>&#xD;
 24&#xD;
 &#xD;
 ComicECTUIE, C-&#xD;
@@ -997,7 +1002,7 @@ So mother wanted, to appear delikit before. Joe, andshe&#xD;
 lookt round and got a bottle of sweet ileandhi&#xD;
 Jud's nose. So Judy lookt up, 'and seed Joe fnnig her&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7835-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7835-00000014"/>&#xD;
 ~OEKL X   'TR,&amp;amp;"r",&#xD;
 hogoa   t   in      ithire fo&#xD;
 with hisehat,. and then she fell right in love with him ; for&#xD;
@@ -1072,7 +1077,7 @@ that was called the peronical-when:i gt hum, sister ju-&#xD;
 dy run up torme and fainted away on my bodznm  mth-&#xD;
 er run round to the nabors to tell 'em all about.'my adyen-&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7835-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7835-00000015"/>&#xD;
 COMIC LECTURES, &amp;amp;C., }&#xD;
 28&#xD;
 tures whici she said were more wonderful than Robinson&#xD;
@@ -1149,7 +1154,7 @@ seendownthesullar any time between do hour oh two in&#xD;
 de morning and one o'clock inedo eerternoin&#xD;
 Now, I shall 'prove upon do 'hole. Dar am tree niggar&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7835-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7835-00000016"/>&#xD;
 4&#xD;
 &#xD;
 COMIC'LECTtJ1 s, &amp;amp;C.,&#xD;
@@ -1223,7 +1228,7 @@ te floor. I shall say tat I vash pop to questions  But&#xD;
 shall take de broom-stick and drive me out of the house&#xD;
 sure enough.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7835-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7835-00000017"/>&#xD;
 COMIC LECTURES, C.,   -&#xD;
 YANKEE LETTER.&#xD;
 MISTER YANKEE .-i am a feemail, and 1. wil stand up foi&#xD;
@@ -1298,7 +1303,7 @@ the house and Aloyrah telled me all this : and then her&#xD;
 husband cum in and 'quested me to stay athum in future.&#xD;
 Then i give it to him, and i telled him that he was a sas-&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7835-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7835-00000018"/>&#xD;
 COMIC LECTURES, &amp;amp;M&#xD;
 sy blaggudr and i sed everything i could lay my tongue&#xD;
 and i teller him i wood hav nothin' to do with him, and i&#xD;
@@ -1370,7 +1375,7 @@ preacher will leaf it to white fokes, and ey wil  ou&#xD;
 dat a niggar dat keeps herself respectful aud comb ou&#xD;
 his wool andl black he boot and~ grease he shoe, and put&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7835-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7835-00000019"/>&#xD;
 COMIC LECTURES, &amp;amp;C ,&#xD;
 pomatum on he head, is more 'spectable dan a niggar dat&#xD;
 goes round de docks and leans up agin a lasses hoxit till&#xD;
@@ -1443,7 +1448,7 @@ LAGERhBLATTER'8 LECTURE.&#xD;
 .Mne Goot Peoples : Your minster shall give you von&#xD;
 text dish day :---.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7835-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7835-00000020"/>&#xD;
 2OMIC LECTURES, &amp;amp;1 .&#xD;
 " COkimy eye 1"&#xD;
 text shall be von very true doctrine.- You ar de&#xD;
@@ -1517,7 +1522,7 @@ down and was dra tgd mote than half    a mild  Arter&#xD;
 that there cum a flock of swallers over, the fledadthey&#xD;
 so thick that they maid it all dark. Then sheeed a string&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7835-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7835-00000021"/>&#xD;
 N'4&#xD;
 &#xD;
 40&#xD;
@@ -1598,7 +1603,7 @@ no carackter-at all, i won't pay you at all&#xD;
 That stumped the. phrenologer, for he seed that their&#xD;
 was no way to please her. So he begun sto t~el agin and&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7835-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7835-00000022"/>&#xD;
 42&#xD;
 &#xD;
 COMBC LECTU1flS* .&#xD;
@@ -1674,7 +1679,7 @@ He hab ministered spiritual tiugs and 'he-w nt toreap&#xD;
 carnal tings. He hab seWed de good seed in yur hart&#xD;
 and 'spect a good crop oh mnoney in de hat.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7835-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7835-00000023"/>&#xD;
 .44&#xD;
 &#xD;
 COMIO:LJECTURES &amp;amp;C.,&#xD;
@@ -1761,7 +1766,7 @@ It&#xD;
 &#xD;
 : ''&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7835-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7835-00000024"/>&#xD;
 8  CO EITUW,&amp;amp;CAI&#xD;
 to see tem come. Vat use shall tey pe, te pad boys and}&#xD;
  gals to make von ipg noises, sure enough. I shall preal&#xD;
@@ -1834,7 +1839,7 @@ wuss before he dyed. _]1aol Jim wanted fartherto giv&#xD;
 him the corpe ar he 'could,-salt it down for the Bostown&#xD;
 ma1kkeght,,uarther sed he thort it his duty to give it'&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7835-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7835-00000025"/>&#xD;
 r.&#xD;
 &#xD;
 48        COMIC LECTOREB, 40.,&#xD;
@@ -1909,7 +1914,7 @@ to go to England for dar hW. Your 'spected preacher&#xD;
 tink it is time dat he went somewhar too in de same man-&#xD;
 ner. Darfore he propose to dis congregation oh color dat&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7835-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7835-00000026"/>&#xD;
 50             ,COMIC LCTUREB, &amp;amp;c.&#xD;
 his helf is rather dilikit, and he should like to be gwoine&#xD;
 off sumwhar to git good helf. He tink dat if he go up to&#xD;
@@ -1983,7 +1988,7 @@ It shall pe petter ven youish have to land and water both.&#xD;
 Toy teell ou strik te for your native land, But&#xD;
 toyshllno stik fr eir native land here-to Yankees&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7835-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7835-00000027"/>&#xD;
 52&#xD;
 &#xD;
 COMIC LECTURES, &amp;amp;C.,&#xD;
@@ -2060,7 +2065,7 @@ He heered Jim say to his wife, 'i'd-as live kiss a skunk&#xD;
 any day as to kiss you.&#xD;
 Then she sod--.'Oh, yes, but i saw you looking at the&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7835-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7835-00000028"/>&#xD;
 54              COMIC LECTURES, &amp;amp;O.,'&#xD;
 nasty good-for-othing Susan Burd all the time you was)&#xD;
 in church. r You'd like to kiss her with her long, black&#xD;
@@ -2134,7 +2139,7 @@ Babylon on Long Island, to convert a injin squaw dat libs&#xD;
 m dat worcinity, he shall take de follerin text:&#xD;
 'Oysters! oysters i here your weon tasted oysters 1'&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7835-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7835-00000029"/>&#xD;
 56               COMIC LECTURES, &amp;amp;C',&#xD;
 Dis is do 'pensive language ob dem 'possles dat cry&#xD;
 aloud and spare not ; dey lilf up dar voice in de 'treet,&#xD;
@@ -2209,7 +2214,7 @@ wdyou, and your preacher am poorer dan any oh you in&#xD;
 &#xD;
 4T&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7835-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7835-00000030"/>&#xD;
 COMIC LECTURES, &amp;amp;O.,&#xD;
 dis world's goods though he am richer dan all ob you&#xD;
 put togedder in speritual-tings. Darfore we take de fo-&#xD;
@@ -2283,7 +2288,7 @@ er. Darfore 'you see dat it amount to jest $500, which&#xD;
 agrees exackly wid do text, and prove dat do text 'hide&#xD;
 Daror   stehal reerupon do 'hole oh your 'spected&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7835-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7835-00000031"/>&#xD;
 60               COMIC LECTURES, &amp;amp;C.,&#xD;
 preacher. Do you think dat you make up dis 'sum by&#xD;
 droppin' a cent in de hat once in a while?. You better&#xD;
@@ -2349,7 +2354,7 @@ ed. Your minister is let aut all tem tings to tem ghen-&#xD;
 tilemen by to job for, ten dollars a year, and you shall pay&#xD;
 temn for teir trouble vot toy sholl charge. you. Tat shall&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7835-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7835-00000032"/>&#xD;
 COMIC LECTURES, &amp;amp;.,'&#xD;
 take to trouble off te hands of your minister, and he shall&#xD;
 have te monish in advance all at once from tem ghen-&#xD;
@@ -2422,7 +2427,7 @@ was Alpheus Hopkin's wife, the shewmaker, hoo use to&#xD;
 cry whenever she wanted a new- bonnit,- tho' her tother-&#xD;
 won 'was better than she desarved. At last he broke her&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7835-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7835-00000033"/>&#xD;
 64&#xD;
 &#xD;
 COMIC LECTURES, &amp;amp;C.,&#xD;
@@ -2497,7 +2502,7 @@ shall shall see von shop mit topacco and schnapps, 'and&#xD;
 shall go in their and sell your prayer-book for something&#xD;
 goot. Ten you go. yore you shall not expect to go von&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7835-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7835-00000034"/>&#xD;
 0 3&#xD;
 &#xD;
 ' COMIC LECTURES, &amp;amp;C.,&#xD;
@@ -2572,7 +2577,7 @@ So he went out with her and then she toked to him very&#xD;
 lane, and she axed him if he wasn't ashaged t6 use his&#xD;
 parts to captivate hier tender hart, and to pretend that he&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7835-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7835-00000035"/>&#xD;
 68&#xD;
 &#xD;
 COMIC LECTURES, &amp;amp;C.,&#xD;
@@ -2648,7 +2653,7 @@ de 'no storm, Darefore we 'peak to you about all desejn&#xD;
 de fust place, and den we descend to de 'no bird herself.&#xD;
 Do 'no ball am in de hand topelt fokes. Tony Ducklings&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7835-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7835-00000036"/>&#xD;
 hab made a big 'no balland hab rolled him up again his.&#xD;
 sellar door out ob charity for poor people to -set down on&#xD;
 when. dey ar tired ob wakin' wicham werry kind ob dat&#xD;
@@ -2722,7 +2727,7 @@ clouds ob color ! de wind rush threw de spacious walt ob&#xD;
 heben and do storm busted forth in all de furies ob abig&#xD;
 'no-torm. On dat 'ticklar 'casion de birds screamed threw&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7835-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7835-00000037"/>&#xD;
 COMIC LECTURES, &amp;amp;C.,&#xD;
 do air ade        wind howled, and clouds ob 'no as&#xD;
 cend fromdecfloudhien de tundeir rolled' threw de heb-&#xD;
@@ -2798,7 +2803,7 @@ seven dollars as ,loud as i could holler, but the ocktion&#xD;
 man kept sayin' 'going I going!' so farther was afeared&#xD;
 we shouldn't get the trowsers and he hollered out eight&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7835-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7835-00000038"/>&#xD;
 71  OmIC LT1RE, &amp;amp;C&#xD;
 dollar. So artel' a while they wos sold to us for eight&#xD;
 dollars, and we bmawt a number more thing bekase they&#xD;
@@ -2871,7 +2876,7 @@ like St. Poll and 'peak for himself in dose t'rtant words:&#xD;
 wid dose eyes dat is in  yhe. I  eber de yuefo&#xD;
 evanescence ob do olfactoy ossification dat ted d pas&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7835-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7835-00000039"/>&#xD;
 COMIC LECTURES, &amp;amp;C.,&#xD;
 16&#xD;
 ionoh ub in my-hart, rite away before I change my&#xD;
@@ -2948,7 +2953,7 @@ out for you, and if you think you'd like to hav her, i can&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7835-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7835-00000040"/>&#xD;
 COEC LEOTUREB, &amp;amp;C., "  .&#xD;
 bring her down to bostovi if you'll pay the expences.&#xD;
 Her name is Patience Hoxie. She's got but one eye, but&#xD;
@@ -3025,7 +3030,7 @@ sv~ai teed her if she wouk14det e dowh'i would&#xD;
 &#xD;
 4-&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7835-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7835-00000041"/>&#xD;
 80               COMIC LECTURES, a,&#xD;
 coat her rite off, and if she didn't i would sware the pieces&#xD;
 agin her, for i was nation mad. When she cheered that,&#xD;
@@ -3099,7 +3104,7 @@ on as if tey vash nailed to mine legs. Oh! tat shall pe&#xD;
 von mean furi, sure enough. Yen I shall watched tat&#xD;
 Dutchman, I shall show him vot shall pe mean fun.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7835-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7835-00000042"/>&#xD;
 COMIC LECTURES, &amp;amp;C',&#xD;
 &#xD;
 82&#xD;
@@ -3178,7 +3183,7 @@ and dey habn't changed color sense. Den de 'traight hair&#xD;
 &#xD;
 I,.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7835-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7835-00000043"/>&#xD;
 84&#xD;
 &#xD;
 COMIC LECTURES, &amp;amp;CO,&#xD;
@@ -3244,7 +3249,7 @@ ies. Arter he was gone, Cesar perceived dat he .had gin&#xD;
 him a, in fourpence. If dat niggar is in do ordinance ob&#xD;
 your preacher's woice, he is;'quested to cuip up and gib a&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7835-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7835-00000044"/>&#xD;
 808&#xD;
 &#xD;
 co~tp.lEtIU&amp;amp;C&#xD;
@@ -3321,7 +3326,7 @@ toe, and when they ehd him cum in,they kpte&#xD;
 their pork and dassent look up on no accdni' hiso-&#xD;
 ever.&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7835-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7835-00000045"/>&#xD;
 ONI C LECTURES, &amp;amp;Q.,&#xD;
 &#xD;
 So he sot and:he lookt fust at the one and then at the&#xD;
@@ -3400,7 +3405,7 @@ the people run out an  cotch Bill and held limast, for&#xD;
 fear thai the fellow would turn back and smash eyer~&#xD;
 bone in his boddy,&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7835-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7835-00000046"/>&#xD;
 90&#xD;
 &#xD;
 VOMJE 1OCTUBES,_&amp;amp;C:,&#xD;
@@ -3477,7 +3482,7 @@ gib haff a dollar for'it to Loue Stratton; tink ob dat, you&#xD;
 scoripins. You tink more'- ob presarving your 'plexion&#xD;
 from de sun dan you do of presarvinig your doie from de.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7835-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7835-00000047"/>&#xD;
 92               COMIC LE CTURE8, &amp;amp;O.,&#xD;
 fame ob fire. Whar do you'spect dat your 'spected prea-&#xD;
 cher will kgit his clam soup, his lobster, his root beer, his&#xD;
@@ -3555,7 +3560,7 @@ Island breed.&#xD;
 &#xD;
 r'&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7835-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7835-00000048"/>&#xD;
 Dar is a sassy niggar lives, up in Broome treee, caled&#xD;
 BillJumboand when dis child teled lIimdis comparison&#xD;
 how dbishop is de rudder to guide de church-he-tell&#xD;
@@ -3612,7 +3617,7 @@ it&#xD;
 -      _      .  ,.&#xD;
 W&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7835-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7835-00000049"/>&#xD;
 _ 5           C m aIC , L (1 UTU ,  &amp;amp; d el&#xD;
 &#xD;
 LAGERBLATTElWS LECTURE. -&#xD;
@@ -3681,7 +3686,7 @@ To"   PrinrAitaimyEn           t.-&#xD;
 thesetew meserahieesp     tha&#xD;
 the same bleii 1.Md&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7835-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7835-00000050"/>&#xD;
 98               CSC,    TIi &amp;amp;c.&#xD;
 in Bostown is ge ,ga rode m 4 over the ice from Bos&#xD;
 town to englandQ tht tbe steeboat ken go acrossand&#xD;
@@ -3758,7 +3763,7 @@ blubbered right out, and 'bawled out, so youmient have&#xD;
 &#xD;
 _.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7835-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7835-00000051"/>&#xD;
 100&#xD;
 &#xD;
 00)1IJ OrW, &amp;amp;O.,&#xD;
@@ -3831,7 +3836,7 @@ not ShPol   ire&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7835-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7835-00000052"/>&#xD;
 102&#xD;
 &#xD;
 COMIC LECTURE,&amp;amp;0.,&#xD;
@@ -3908,7 +3913,7 @@ ontyget hldo e ope noboys~l rn      en   ets&#xD;
 teyshal  e s bg.De   shallpe tolbellsvot nobbd&#xD;
 shall, ring.                              . .&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7835-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7835-00000053"/>&#xD;
 to ,eep pff to rains en you goes to chutcb.&#xD;
 s ish got porasola to keep off te&#xD;
 you shal neer please to womens. Venit&#xD;
@@ -3983,7 +3988,7 @@ is cuming hearto slay your  ee and    4,ook&#xD;
 _    _  ;&#xD;
 ~                 a'Y  .&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7835-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7835-00000054"/>&#xD;
 4&#xD;
 &#xD;
 i i= Fw. t ers ing-nife and their Thomas&#xD;
@@ -4039,7 +4044,7 @@ shalpe yenyota'ton'UICI\4A&#xD;
 &#xD;
 ..  ; ,'  -&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7835-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7835-00000055"/>&#xD;
 GOMIOs,                  4 shall a &amp;amp;lw&#xD;
 se     n yras         all aiwas pe. Te night of to gar"&#xD;
 ter is ye i.you     'e off- your garter to go to pod.&#xD;
@@ -4110,7 +4115,7 @@ toha gal atall.  " oheWsta~nh    ~&#xD;
 &#xD;
 ,  '&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7835-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7835-00000056"/>&#xD;
 *&#xD;
 &#xD;
 10&#xD;
@@ -4190,7 +4195,7 @@ exibbit it heer at the publick house, fod asixenape.&#xD;
 &#xD;
 ..&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7835-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7835-00000057"/>&#xD;
 4&#xD;
 &#xD;
 112&#xD;
@@ -4270,7 +4275,7 @@ derstand Wht heent.     Andgot 1t              Mher&#xD;
 sed he must hay adte f'l g h     woodu't      geldY.&#xD;
 mutch,&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7835-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7835-00000058"/>&#xD;
 COMIC LECTUREB, &amp;amp;C., - '&#xD;
 I wish you woed cm up heer'and, see the performances,&#xD;
 or it is the mYost wderful things that-ever. was. Muth-&#xD;
@@ -4347,7 +4352,7 @@ she.always tell you dat she had good laying tut=t but&#xD;
 arter she spraint her an'n kill she forgot all about it and&#xD;
 was laid up for a tortnit.&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7835-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7835-00000059"/>&#xD;
 16&#xD;
 &#xD;
 00MC LECTURES, &amp;amp;C.,&#xD;
@@ -4427,7 +4432,7 @@ York tat shall live in aicavein von rocks, andisli&#xD;
 ting 'at tall, only look at tobirds. Oh! Ishall tink oVt&#xD;
 mit sh~pe sent to prison alvays, pecause no man shall.&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7835-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7835-00000060"/>&#xD;
 118&#xD;
 &#xD;
 COMIo LECTtES, AO.,&#xD;
@@ -4504,7 +4509,7 @@ quick, or she would thr|Nn her out of the wind&#xD;
 So he oorkwe't got rite up, and sEl     up     i.&#xD;
 I&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7835-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7835-00000061"/>&#xD;
 *                C~O~IO L6O01t0, &amp;amp;,&#xD;
 bi6        stared 'at mother as imperdent as nothing;&#xD;
   'nd  y's  1b V'to father&#xD;
@@ -4585,7 +4590,7 @@ looke1est le' itgeh.0 We 'sung  d lito t&amp;amp;*   and&#xD;
 then weieaed out for hiula; and that~is thelas  we&#xD;
 hay' seen of the corkwet.&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7835-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7835-00000062"/>&#xD;
 I   '&#xD;
 &#xD;
 CQ~ZIZCT1~IAPOC&#xD;
@@ -4665,7 +4670,7 @@ maik kustards. You taik a little sira nd emnk and&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7835-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7835-00000063"/>&#xD;
 1U.   ~      Ogg     M~~U*s gO.,&#xD;
 then   in   h&amp;amp; aigs and micks it all up together and&#xD;
 oei    o lsritikkups, and then bake 'em. You mite&#xD;
@@ -4739,7 +4744,7 @@ mendoyour manner    r 'cerdin' to do 'eachrwd  . . Ex-&#xD;
 a-mpiebelong to4econgregationn4$rle       'g    to&#xD;
 do pasture.&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7835-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7835-00000064"/>&#xD;
 COMIC LECTURE &amp;amp;O.,&#xD;
 Your'spectea.reacher hab received de follerin' letter&#xD;
 from  -oung   ngenan ob color on Long Island, about a&#xD;
@@ -4814,7 +4819,7 @@ lis, and drives team to bdstown; J2i5b os at tns&#xD;
 &#xD;
 .-&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7835-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7835-00000065"/>&#xD;
 thill";Pete Smith;andold  John Hoxie. So they all&#xD;
 eahQi~se and farther took 'em. ito the best&#xD;
 "  f'oo i   gMuthe utoi hergcleen apui and own in too, she&#xD;
@@ -4885,7 +4890,7 @@ wanted to be put in the fust class; bit;he was8, tt&#xD;
 as thd big hoise. So i teok a stringad u    Mjte rund&#xD;
 hi wate to sees if ha was big aenuf to put ink tieust&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7835-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC7835-00000066"/>&#xD;
 '~4~e~kedid  pktan   and throwed   t  e then&#xD;
 t~1d im o ta~4 p a~be ferglled and he haw hawed&#xD;
 ,r't _1 -  y " bo  the he run hum.n  tolled the other&#xD;
@@ -4947,7 +4952,7 @@ othershianudcath t  ern ooToiat-e. e&#xD;
 tol rdi yevat     ees&#xD;
 a                   r dyen     ih  whs.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7835-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC7835-00000067"/>&#xD;
 .o to ,goose,:If to goose shall not fly quite&#xD;
 ss    Vti' a4yr te 'tutchmans shall catch every&#xD;
 al            asevon day. Teyehall run like te&#xD;
@@ -5016,7 +5021,7 @@ thetf our mpniser sall havvo U       ca&#xD;
 &#xD;
 =&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7835-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC7835-00000068"/>&#xD;
 "4~N&#xD;
 &#xD;
 PE4&amp;amp;CON SNWBALL'S LEC~TO1R&#xD;
@@ -5092,7 +5097,7 @@ head agin de head of your specterd rehern de ball&#xD;
 room, arid it knocked all densens rut Qb doh  itd-&#xD;
 der.&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7835-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC7835-00000069"/>&#xD;
 11991, WM 40&#xD;
 e wa  pve upon de hole. De 'hole haub in-&#xD;
 i     to  4 J     g and ?eter Wid    n who tolee a&#xD;
@@ -5164,7 +5169,7 @@ she ha  e;ver: hada   ee   o st sh&#xD;
 to gi4aplenty 'a rn w to m k u 4.ratt)p1 ; fo r&#xD;
 she didn't bleave but what be new pgone4fo&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7835-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC7835-00000070"/>&#xD;
 town wold ia plenty of others besides Job, jest as&#xD;
 yo  keh ats   ith a bit of toasted cheese. So arter Job&#xD;
 hAd   arted her up and sed al sorts of things to her, how&#xD;
@@ -5237,7 +5242,7 @@ dis 'ticklar Jcasionwid-de follerin' superfluous and carnif-&#xD;
 erous. words ob de 'possle -SimonMague&#xD;
 " Our sufferings is intolerable,"&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7835-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC7835-00000071"/>&#xD;
 QO -l9 MTVUR-, 4Qof&#xD;
 &#xD;
 140&#xD;
@@ -5315,7 +5320,7 @@ struction in righteousne s.&#xD;
 Your specterd preacher hab heeled roin his brudder&#xD;
 lately; dis birudder of his is a berrybig iggar -h'&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7835-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC7835-00000072"/>&#xD;
 ,wi4 e:4bi ~ as your 'spected Preacher and can lick two&#xD;
 Ui,7       I.n  etln.  Ho 'moved tofong Island to carry&#xD;
 f,       Ir   business. Dat consists of being round&#xD;
@@ -5387,7 +5392,7 @@ The fellers haves no objeckshue to coart her   e&#xD;
 doant keer much about-getting married t'jeras itke&#xD;
 a pleggid big shu for her fut, and the yaani foer ~&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7835-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC7835-00000073"/>&#xD;
 j4oiCO() LECTOins, d.,&#xD;
 ris  tld oa i6f   dependent fortin tue; You ort to&#xD;
 ; t    cht talk to maik hefa dress., When it is&#xD;
@@ -5466,7 +5471,7 @@ Soio'B  om&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7835-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC7835-00000074"/>&#xD;
 iONC LEO    ;,. LC.&#xD;
 LAGEE-BLATTER'8 LECTUBE.&#xD;
 Mine oot eples: Your ministry shall give you von&#xD;
@@ -5542,7 +5547,7 @@ t&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7835-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC7835-00000075"/>&#xD;
 148',        COMIC LEOTtf E, &amp;amp;C",&#xD;
 ji. r= , at   d y a wed de rogues'4at dey lied on lass sat.&#xD;
 te      it is a fortnight.&#xD;
@@ -5622,7 +5627,7 @@ hab got two ears, andu  lba  a. D        a&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7835-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC7835-00000076"/>&#xD;
 ] .              :COMIC LECTURES, &amp;amp;C.,r&#xD;
 nose, but de man's nose is flat, all cept wite cokes 'cause&#xD;
 dey isspurious in' of fokes; den a wite man habno heel,&#xD;
@@ -5697,7 +5702,7 @@ Arter we heered that 1%ech, we all declared rite off&#xD;
 r&#xD;
 _ :&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7835-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC7835-00000077"/>&#xD;
 :ta w    u4'n  here to havin' teekus nazation at no rate&#xD;
 t.a"l. iste i4dtience andruth Jonson hay' been form.&#xD;
 ssiety agin the naxaiion of teekus and they will&#xD;
@@ -5767,7 +5772,7 @@ times laugh at our   ian   r  e      h        don.&#xD;
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7835-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC7835-00000078"/>&#xD;
 COMIC. LECTURES &amp;amp;C.,&#xD;
 &#xD;
 4gshallpite yourminister very bad on te preaches, and&#xD;
@@ -5842,7 +5847,7 @@ eat up odder fokes. Darfore de speritual meamn' ob-fat&#xD;
 signify de natur ob do debbil. '&#xD;
 Now when your speedd preacher 'tand up in do pulpit&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7835-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC7835-00000079"/>&#xD;
 16              COMIC '   $E3J~, &amp;amp;o.,&#xD;
 1epnt     eba in.his frymg-pan, and d fat begins to&#xD;
 fry.W~~r'~ektd preacher preach much longer, he&#xD;
@@ -5911,7 +5916,7 @@ nigger  up to the Wiudet, and ithorttobsre, they'd&#xD;
 nog; but theylooked asmadvaared pee         d&#xD;
 thdt Snonbal was aman and abthe and awl hat ~Ore&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7835-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC7835-00000080"/>&#xD;
 ISO8'&#xD;
 &#xD;
 COMIC :LEcTURS; ,&amp;amp;a:;&#xD;
@@ -5988,7 +5993,7 @@ Then he axed me my name, and i telled limit h a&#xD;
 diah~tone;and sez he, " i nebbar heeredgohyrbe re&#xD;
 go 'way, white foke-when you cum into' esullar heab,&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7835-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC7835-00000081"/>&#xD;
 140           0COM LECTLtRMS ETC.&#xD;
 u mtt larato teet a gemman like a gerhman!" Then&#xD;
 hemarhed o to tother eend of' the sullar and he tucked&#xD;
@@ -6060,7 +6065,7 @@ D1ACON SNOWBA  S LRCTK l,=&#xD;
 1-_ _ # ed Bruddree "   Your 'speoted ireacher will :spoa-&#xD;
 tulaton dis jtdicious-sion upondo fllerinanage&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7835-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC7835-00000082"/>&#xD;
 2               COM0L    URES, &amp;amp;O"1&#xD;
 -"tSme say 4edebe's dead, and- buried in de harbor,&#xD;
 SQZ6i *O 8  he rose again, and 'prenticed to a barber. '&#xD;
@@ -6139,7 +6144,7 @@ like a lion to 'quire who wanted to be devoured. Darfore&#xD;
 &#xD;
 ,'&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7835-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC7835-00000083"/>&#xD;
 164              COMIO LECTURES, &amp;amp;C.,&#xD;
 you better mingyour eye, all you young niggar women&#xD;
 der in de'gallary, for fear de debble will cotch you by de&#xD;
@@ -6220,7 +6225,7 @@ I'&#xD;
 s&#xD;
 n&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7835-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC7835-00000084"/>&#xD;
 168             COMIC LECTURES, ETC.&#xD;
 s maid on.  So he goze and dressis in his best close,&#xD;
 and uock Oat the dore of the house. Abagal had seed be&#xD;
@@ -6294,7 +6299,7 @@ dat ish all tat vas done, sure enough.&#xD;
 Ten long years shall pe fled yen tey shall have long&#xD;
 legs; so tey can pe fled very fast, yen tey shall have te&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7835-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC7835-00000085"/>&#xD;
 P~ '.&#xD;
 &#xD;
 COMbIC LETUR,&amp;amp;,&#xD;
@@ -6372,7 +6377,7 @@ Pshea cum down to ougher house to se sister Cordiality&#xD;
 the uther nite, and she braught Purseveraie Wunder&#xD;
 with her; and tha both sot and sot till bed-time, and tha&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7835-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC7835-00000086"/>&#xD;
 }.? 0 T0fr  I $OTV  S, &amp;amp;O.,  +t&#xD;
 taegspectedne o a t  tpwith wun on 'em: or mebbe&#xD;
 tha thawt i wood opfar ter go bum with um; but 1 sid&#xD;
@@ -6447,7 +6452,7 @@ cote. Susannah Bush sed that she neuver heerqd ofastch&#xD;
 a fine feller in all her~ hull life, and das cumming up: to&#xD;
 our house to git akkuainted with sister Cordiality all on&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7835-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC7835-00000087"/>&#xD;
 COMIC LECTURES, ETC.&#xD;
 &#xD;
 my akkount, buti shaut hav'nottih'-to do with the gals&#xD;
@@ -6518,7 +6523,7 @@ architect and 'possle Dan'el Webster;&#xD;
 D havee stolen a pig!"&#xD;
 Pos tetbgiswd owrdharhbeaesu-             o&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7835-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC7835-00000088"/>&#xD;
 VT'&#xD;
 &#xD;
 COMIC LECTUS, &amp;amp;A.,&#xD;
@@ -6599,7 +6604,7 @@ tell you not to 'teal. What you tink will cumn ob you= if&#xD;
 you steal; dat is de question for you to tink about; and&#xD;
 now I am gwoine to Freshi Pond on de Fourf of July.&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7835-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC7835-00000089"/>&#xD;
 176&#xD;
 &#xD;
 COMIC LECTURES, &amp;amp;C.,&#xD;
@@ -6676,7 +6681,7 @@ along to sisterfConsideration bekase she lookt at himso&#xD;
 sharp, and he axed her to cum up Aand beept1to. sleep,&#xD;
 and she squeeled and run off and hid behind mother. He&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7835-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC7835-00000090"/>&#xD;
 118             COMIC LECTtRES, ETC..&#xD;
 chased her a good while, but couldn't ketch her. Then&#xD;
 he went arter Charity Whipple and she didn't run so fast&#xD;
@@ -6750,7 +6755,7 @@ work.. Berry few niggars hab ben washed white. Wool&#xD;
 ein be got off by using a little powdered limea; but it is&#xD;
 berry hard to 'traighten- it out.&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7835-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC7835-00000091"/>&#xD;
 180             COMIC LECTURES, &amp;amp;C.,&#xD;
 &#xD;
 Your ' pected preacher hab been 'quested to establishh&#xD;
@@ -6829,7 +6834,7 @@ shall be von young man, and teir ish von otter young man&#xD;
 &#xD;
 ^&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC7835-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC7835-00000092"/>&#xD;
 COMIC LECTURES, &amp;amp;O.,&#xD;
 Who  hi   a plenty of schnapps in his cellar, and I shall&#xD;
 think to get acqaiited mit tat young man sure enough.&#xD;
@@ -6907,7 +6912,7 @@ ry miuch." Den h laid his hatid on hfisBell*h Ai&#xD;
 &#xD;
 9    w&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC7835-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC7835-00000093"/>&#xD;
 COMIC LECTURES, &amp;amp;..'&#xD;
 heart;is, ob course, and he lookt at her so cinder sly dat&#xD;
 sheflier sofbosom all in a flame ob fir . Den he beg&#xD;
@@ -6980,7 +6985,7 @@ ed-fa'ther toby him to ploe&amp;amp;Vithbut Fhesedadt e&#xD;
 tua mutch for him.&#xD;
 SThere was anther cretur and it lookt like apeshi/big&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC7835-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC7835-00000094"/>&#xD;
 :=16COQI1C LECTURES, &amp;amp;O.,&#xD;
 goose aind they called it a graft.  I spouse it was bekase&#xD;
 the cretur-had ben grafted; -for his neck didident belong&#xD;
@@ -7059,7 +7064,7 @@ Dis text shall tell you apout te vickedness all ovr te&#xD;
 &#xD;
 1+&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC7835-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC7835-00000095"/>&#xD;
 1 188            COMIC LECTURES, C.,&#xD;
 world. Tat shall show you tat you shall vant plenty of&#xD;
 preacato put I4ya te vickedness.&#xD;
@@ -7133,7 +7138,7 @@ on.&#xD;
 Now it is berry strangedar should be so much differ-&#xD;
 ence teenn etwo. In de sullar ob Gesar you get clam&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC7835-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC7835-00000096"/>&#xD;
 * .OOIO LECTU~WS, &amp;amp;O. ''&#xD;
 soup for fop4'n~ and inthe. sullar ob Peter, yon. hab tc&#xD;
 pay F fourpend4po, but you get no cracker in de- soup.&#xD;
@@ -7208,7 +7213,7 @@ in's in this  brhd         e   eeeofa          kd&#xD;
 &#xD;
 A,4&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC7835-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC7835-00000097"/>&#xD;
 192&#xD;
 &#xD;
 OMIC LECTURES, &amp;amp;C.,&#xD;
@@ -7286,7 +7291,7 @@ sed he dien't bleeve that Missus Spooner wos a which,&#xD;
 but he told sister it ought to be a warning to her,and&#xD;
 teech her to consider her latter end.&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC7835-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC7835-00000098"/>&#xD;
 194&#xD;
 &#xD;
 COMIC tiCTURE S, &amp;amp;C.,&#xD;
@@ -7340,7 +7345,7 @@ ish park sure enough, pecause tey shall see te rags. Tey&#xD;
 &#xD;
 k  °&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC7835-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC7835-00000099"/>&#xD;
 r4 :&#xD;
 &#xD;
 ,&#xD;
@@ -7431,7 +7436,7 @@ Now    e shal ha  dish10 hrcIrite    g. t&amp;amp;    Ve&#xD;
 shall' haee t place itevashed pca    e     t&#xD;
 on te walhsAit teir  none"s, and their ish'  n '6t Si-&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC7835-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC7835-00000100"/>&#xD;
 d e rite oners offto walls as I never shall see. Ye&#xD;
 '4l1h0,6'.voAdmittees to see tolhouse gli cleaned up,&#xD;
 and. oiii hall puteon bottlee of good Rollads in te pub&#xD;
@@ -7506,7 +7511,7 @@ Ant Jane :as 'ogt4;yirold  A44tor b4&#xD;
 &#xD;
 l&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC7835-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC7835-00000101"/>&#xD;
 aer "ot up with noa fellers ii her life. So&#xD;
 th- is ;man a)ee               , w.&#xD;
 ,terPnch and he      as their aAnt&#xD;
@@ -7578,7 +7583,7 @@ So ht heldaher smad ingtbttl to hiu nosetEen.-&#xD;
 er i, and she was so ffsetioe tatbegggl i lov&#xD;
 with her, and they was published and married.&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC7835-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC7835-00000102"/>&#xD;
 4Atithy4iad been marie  d awilinthraud site&#xD;
 W{«a woke  ne."p "oz rnt    iii a   hurry ad teled  ji.a t&#xD;
 t + rkw as rntori, i~teyeod' f&#xD;
@@ -7615,7 +7620,7 @@ OA-         I                     f X,&#xD;
 "i"ct ;, .-              .111"       P  +'    _             .r&#xD;
 _-                 i  F'iy 1~.a^'  '1}la's{  *l"J'=J_ ':kiH '.  '  : :iiT" J ,dt  .l+&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC7835-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC7835-00000103"/>&#xD;
 Si&#xD;
 &#xD;
 , "}l=: o ' bdel alway; sacalledRuth the hansumest&#xD;
@@ -7685,7 +7690,7 @@ Vt'5'.&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC7835-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC7835-00000104"/>&#xD;
 ,F  "  re " , rt t .4   _ .  _'-K&#xD;
 k ii_ Fe    ,  r . '. "  l U:s 1e.t_'  -Yo'bL  I '11  heeij  ed  ob aJth&#xD;
 th1A IiNwd~ ~nidesm          h~~tra&#xD;
@@ -7742,7 +7747,7 @@ bTM,~~t  a ws       g~4n&#xD;
 &#xD;
 0.  K            .  A    ,;;;=&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC7835-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC7835-00000105"/>&#xD;
 Al&#xD;
 &#xD;
 a  s* t  afr' d mdt'sgottno.religion. When your prea&#xD;
@@ -7819,7 +7824,7 @@ t        "  r&#xD;
 ,ham     -';&#xD;
 L.      r  .      - s&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC7835-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC7835-00000106"/>&#xD;
 B. re :As yus'peefMd prefer habi&#xD;
 ld       l~ .ox eye o en todert&#xD;
 dU ,e  te~t-o  ~ d5want ge ob r de pop.&#xD;
@@ -7886,7 +7891,7 @@ aadttiiuo t ig. 'C batI4&#xD;
 __             i               -             j,       f&#xD;
 r ' !       ..., . 5.. ;    r  ... Wit" ~        i&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC7835-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC7835-00000107"/>&#xD;
 V                     Vt&#xD;
 &#xD;
 "krt olh isular whar d rs sum woodee&#xD;
@@ -7956,7 +7961,7 @@ hoge you ar 1ell, fandallyo'fMr- (&#xD;
 H' lookt           .us very sharp, an4 hedidd1entay nothing&#xD;
 atellyland. thhere w as azi  0hc~an hr  s krr  itee&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC7835-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC7835-00000108"/>&#xD;
 214             COMIC LECTURES, &amp;amp;O.,&#xD;
 &#xD;
 out, so i am glad their is a native party to put down the&#xD;
@@ -8031,7 +8036,7 @@ gone who shall vant to see him ten. Ven he shafl had no&#xD;
 more monish to pay for te schnapps who sh all vant to be&#xD;
 mit te man vat shall treat you no more? Vat ladies shall&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC7835-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC7835-00000109"/>&#xD;
 COMIC LECTURES, &amp;amp;C.&#xD;
 &#xD;
 vant to see te man ven he shall not buy tern no more ice-&#xD;
@@ -8068,8 +8073,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

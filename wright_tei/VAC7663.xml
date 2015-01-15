@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7663">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Regina of Gazeran Castle, or, The Countess and the Gamekeeper </title>
-            <author >Roe, Peter Quirk.</author>
+            <title>Regina of Gazeran Castle, or, The Countess and the Gamekeeper </title>
+            <author>Roe, Peter Quirk.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7663</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7663</idno>
+            <idno type="wright2" n="previous">wright2-2120A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Regina of Gazeran Castle, or, The countess and the gamekeeper</title>
-                  <author >Roe, Peter Quirk.</author>
+                  <title>Regina of Gazeran Castle, or, The countess and the gamekeeper</title>
+                  <author>Roe, Peter Quirk.</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >G.H. Williams</publisher>
+                  <publisher>G.H. Williams</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1852">[1852]</date>
+                  <date when="1852">[1852]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-18">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-18">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Regina of Gazeran Castle, or, The countess and the gamekeeper</head> 
+            <head>Regina of Gazeran Castle, or, The countess and the gamekeeper</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7663-00000001"/>0&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7663-00000001"/>0&#xD;
 [Entered according to Act of Congress, in the year 1852, by Geo. IL Williams, M~&#xD;
 Clerk's Office, in the District Court of the District of M~issachusetts]&#xD;
 &#xD;
@@ -110,7 +115,7 @@ N&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="-7" xml:id="VAC7663-00000002"/>&#xD;
+<pb n="-7" xml:id="VAC7663-00000002"/>&#xD;
 U&#xD;
 &#xD;
 V&#xD;
@@ -189,7 +194,7 @@ r&#xD;
 &#xD;
 REGINA.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7663-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7663-00000003"/>&#xD;
 8'&#xD;
 present manor called 'La Grange' had fidence he rejoined his company saying to&#xD;
 been laid under contribution; but as the j himself,-&#xD;
@@ -372,7 +377,7 @@ called after him,-&#xD;
 'Remember, if you speak to~ theoWi, ~r&#xD;
 rather, to the pretended owl, the wage~ 4k~&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7663-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7663-00000004"/>&#xD;
 / ~m~cWded and I win my leg ~mf'beeV&#xD;
 'Pierre Aubin made no reply bnt.wa!kedi&#xD;
 phtowards the place he' had designated.&#xD;
@@ -557,7 +562,7 @@ and replied,.-&#xD;
 / 'I may well say death I * It was attheeqn.,&#xD;
 elusion of a fete, also-.-n4y bridal fete1. Ypu&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7663-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7663-00000005"/>&#xD;
 Rfl~A.~                                                 REGINAI&#xD;
 &#xD;
 did noi.~knoW of it, father, for Pierre wished&#xD;
@@ -741,7 +746,7 @@ epaused, iniiis research, to wipe ht~moist#&#xD;
 &#xD;
 3 4&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7663-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7663-00000006"/>&#xD;
 14                             1~.W~lNA.                                                                                        1~l~emA~                              15&#xD;
 &#xD;
 AVthis iu~tant a puff of wind extingt~hing&#xD;
@@ -915,7 +920,7 @@ gg i,&#xD;
 &#xD;
 ig&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7663-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7663-00000007"/>&#xD;
 ps~yc'~ :50 many qitestious, but' he would try,&#xD;
 v,~ben, suddenly the noisp of several horses&#xD;
 was heazd cjpse at han~l.&#xD;
@@ -1104,7 +1109,7 @@ others. 2        '&#xD;
 passed, bitt instantly the torch was extinguish~&#xD;
 edthe'~arty quitted the beatenn tratAc,'~ iin4&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7663-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7663-00000008"/>&#xD;
 I8&#xD;
 &#xD;
 ARTMA-&#xD;
@@ -1311,7 +1316,7 @@ h~ottainty aridalarm. '. '. ...&#xD;
 &#xD;
 KEtiINA.                                      10&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7663-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7663-00000009"/>&#xD;
 I&#xD;
 &#xD;
 Fan&#xD;
@@ -1546,7 +1551,7 @@ turned to live on their estates, for the most&#xD;
 part in a pitiful condition. They were as&#xD;
 one may say, wedded to the past, and could&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7663-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7663-00000010"/>&#xD;
 not be brought to understand the changes&#xD;
 and revolutions that time had wrought in&#xD;
 social life and public opinion. Acting as&#xD;
@@ -1779,7 +1784,7 @@ Noble, - who had not calculated the eff~ts&#xD;
 &#xD;
 REGINA.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7663-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7663-00000011"/>&#xD;
 24                      RE&amp;amp;INA.&#xD;
 &#xD;
 of revolutions, saw himself on the point of&#xD;
@@ -2009,7 +2014,7 @@ lue to the numerous 'associates&#xD;
 at he proclaimed hi&amp;amp;"ldv~ 1f his tIItI~y~&#xD;
 id~ his readinesA t6 ~nt~er' ' iiet 's&amp;amp;v~ice "and'&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7663-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7663-00000012"/>&#xD;
 26                              REGINA.&#xD;
 p~riI his life, in it-he preserved silence patience with which her husband had endured&#xD;
 regarding those who were attempting to the matrimonial yoke which, weary of the&#xD;
@@ -2124,7 +2129,7 @@ dress me, sir. Do you not know that my 'I would not deprive my children of your&
 son, who was, expiated by death, full eighteen society and . affection, to which they so long&#xD;
 years ago, his treason to his King?' have been accustomed. I have not come tc&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7663-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7663-00000013"/>&#xD;
 - 28                          REGINA.                                                                            REGINA.                          29&#xD;
 &#xD;
 impose 'on you the penance of my sojourn&#xD;
@@ -2358,7 +2363,7 @@ heinous light that serious christians coil&#xD;
 sistently regard such improper occurrences ~&#xD;
 I'                                 .1,&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7663-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7663-00000014"/>&#xD;
 30&#xD;
 &#xD;
 REGINA.&#xD;
@@ -2540,7 +2545,7 @@ pliments, though his tones faltered as he yen-&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7663-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7663-00000015"/>&#xD;
 REGINA.                            33&#xD;
 &#xD;
 32&#xD;
@@ -2772,7 +2777,7 @@ in the language of youthful enthusiasm.&#xD;
 &#xD;
 33&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7663-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7663-00000016"/>&#xD;
 34&#xD;
 &#xD;
 REGINA.&#xD;
@@ -2950,7 +2955,7 @@ you had any late news from ,your mother?' that I' wisl~to speak to you alone, in
 &#xD;
 8&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7663-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7663-00000017"/>&#xD;
 36&#xD;
 &#xD;
 REGINA.&#xD;
@@ -3071,7 +3076,7 @@ Having Iooke~l out of the'window, t6 make be the ntediurn to effect it.&#xD;
 sur&amp;amp;of the' fact, the host hurtied his bew~l- Not~so with Aiuoine, the dwarf; wh~ ~-&#xD;
 dered~uest 'in a qiriset, which was con~- ~'ithstanding,'w~rs the favorite of the grarMi-&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7663-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7663-00000018"/>&#xD;
 tEgIN A.&#xD;
 &#xD;
 I~tJier. He, on thecontrary, was consumed&#xD;
@@ -3244,7 +3249,7 @@ demand the ~satisfaction of being surrounded enemy.' of de .urI.~tre,&#xD;
 by all my children.-Allmy ckikken!' re- . The'heart Etienne Ltbodif'&#xD;
 peatod he, imphatically.  .             that brave old soldier, rose. 'indignantly, and&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7663-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7663-00000019"/>&#xD;
 40                          REGINA.&#xD;
 &#xD;
 t6ar~ of wounded affection dimmed his eyes,&#xD;
@@ -3478,7 +3483,7 @@ have, probably, expected,' said Preiij~'.&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7663-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7663-00000020"/>&#xD;
 --   '~2                         '            IU3GINA.                                /&#xD;
 &#xD;
 ful of'his promise. 'No doubt you knew&#xD;
@@ -3661,7 +3666,7 @@ projected mairia'~e with ~uphrosi'nO struck to the heart of Pierre Aubin~wbea,&#
 'In a moment of anger to~vards'his aristo- for th~'.ir~tdti'iiie,.he:h~rd~ the watningi~ry,&#xD;
 critic and rebellious sons Ile'pr6rnised to do the sound of. evil or~en-in' theamidstiof~hs&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7663-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7663-00000021"/>&#xD;
 I'&#xD;
 &#xD;
 44&#xD;
@@ -3897,7 +3902,7 @@ likely-a whistle wil1-let'~oti know I require&#xD;
 &#xD;
 &amp;amp;&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7663-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7663-00000022"/>&#xD;
 £                     I       1ill~GTa~&#xD;
 &#xD;
 help, and you can, then, come t~ my assist-&#xD;
@@ -4126,7 +4131,7 @@ tery ~utttiioh~d to that' fatal diest' ,l&#xD;
 I OI{AI'TER VII.&#xD;
 TUE death of1 Prancoi~ at'su~h a tihf4 wtltd&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7663-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7663-00000023"/>&#xD;
 48&#xD;
 &#xD;
 ~RGINA.&#xD;
@@ -4360,7 +4365,7 @@ i'rom which Richard has been withdrawn.&#xD;
 'Mathien. .[t is of 'no consequence. I know&#xD;
 and can testify as to who and what y6u hte,&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7663-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7663-00000024"/>&#xD;
 I&#xD;
 REG~4~&#xD;
 ~9u will pe~ceive,~hat.1 have made n~ mis- placed tke chest in his clQset, and he said:&#xD;
@@ -4482,7 +4487,7 @@ lips covered with foam and his eyes wildly to organize the whole country, and r~
 from him.     " '      -          ..     be- kept up during the hours of' dark~e~s-.-. -&#xD;
 By degrees they brought him to his senses, I whilst even, during the day-time ~he sUi~~t&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7663-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7663-00000025"/>&#xD;
 vigilance W~s enjcdrfed on the p~rt of every&#xD;
 oi~.e to seek out a chic to the criminal agents&#xD;
 of~h~e universal desolatibnj and to be V~ay&#xD;
@@ -4710,7 +4715,7 @@ caii lay-hands on: them whan they ~r~i~0t to&#xD;
 &#xD;
 - 55 -&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7663-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7663-00000026"/>&#xD;
 ,I~T~G1NA.                                                                   -             RF~GINA.    -                       .&#xD;
 &#xD;
 be' f nlnd, and nobody knows who th~y are-&#xD;
@@ -4940,7 +4945,7 @@ distressing perplexmty~ to Mate i~aei4epts,~f&#xD;
 &#xD;
 FAIF A.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7663-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7663-00000027"/>&#xD;
 '56&#xD;
 &#xD;
 REGINA.&#xD;
@@ -5119,7 +5124,7 @@ the imagination of the bride at this 'myste~&#xD;
 rious midnight conference. Preset4~y sijeps&#xD;
 were heard, and the visitor exclaiuie4,-',Ah,&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7663-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7663-00000028"/>&#xD;
 I~tN~A.&#xD;
 &#xD;
 heye they come!'&#xD;
@@ -5354,7 +5359,7 @@ with f~nxeye~ 'ai'~a~dotieite~iWtti~&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7663-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7663-00000029"/>&#xD;
 R~GINA.&#xD;
 tered to himself-I am ~ure of it now-she' masonry of a circular corridor.&#xD;
 k~ves the cursed game-keeper of Brasseuse. Arrived at this spot, Regina had to press&#xD;
@@ -5470,7 +5475,7 @@ them by setting him free!' By' resz'oring steps of' the stone stair-case that le
 ~imat once to light and liberty!' secret prison-asylu~m, Regina 'uttered a&#xD;
 At intelligence so uncooked for Pierre cry of terror, and drew back as if' .alar~~V&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7663-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7663-00000030"/>&#xD;
 R1~IGT~A.                                                                                     REGINA.                             03&#xD;
 &#xD;
 are 'lost!~ Some one is. corni'ng!' she&#xD;
@@ -5696,7 +5701,7 @@ him'to give hepd,,to her,.woi4s.-for rxi~J~&#xD;
 slip said, it. c~ncprne4 theniboth.&#xD;
 'Nine days ago-Heaven punished oi~e of&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7663-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7663-00000031"/>&#xD;
 64                             REGINA.&#xD;
 your enemies, Pierre. Nine days ago the and you will calmly hearken to what I have&#xD;
 pavilion 'at Val.ganest caught fire, was burnt to say!'&#xD;
@@ -5811,7 +5816,7 @@ to. taunt me. I shall almost regret having nocturnal interview with Regina.&#xD;
 saved you!'            '               .   These, noble gentlemen proceeded~'at' a&#xD;
 'You saved me!' harshly cried 'Pierre. slow p,~ce, discussing the subject uppermost&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7663-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7663-00000032"/>&#xD;
 AG                               ~I~Q!~A. -&#xD;
 in their rninds,-'the. death of Pierre Aubip, tQ arrest the career of the frightened steed&#xD;
 which, they considered a settled question, the ajid its rider.&#xD;
@@ -5986,7 +5991,7 @@ which, ostensibly, she acquiesced.' AL~other,&#xD;
 ,that no one but Pierre could have beei~ ler~,&#xD;
 where he, doubtless,' knew he should find&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7663-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7663-00000033"/>&#xD;
 '88                           REdIl!~A.&#xD;
 &#xD;
 th~ treasure. No one, except Aiim ~nd its,&#xD;
@@ -6159,7 +6164,7 @@ to 'the secret 6~i~rjd6r thai led tb tli&amp;amp;- mm n~6~tid~ba~k and ~&#xD;
 ~ildiiuk~own r&amp;amp;i~at, - - -' -~ ~ f ti'~;lii~et&amp;amp;f6t' 'tlie~m~n~ 4 adiiii~i~ #&amp;amp; ~iw~&#xD;
 TlPs"p~issage being- o~e'n, Antbine'h~4 treuibtin~ iintiate~ 'Ofthe ceu~ ~' --"-&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7663-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7663-00000034"/>&#xD;
 7*                              IWAmiA~&#xD;
 &#xD;
 ~A Pi~rre!' sighed, RegiN1~ 7irt acce~its of&#xD;
@@ -6382,7 +6387,7 @@ run or eyeti w~k~aa~r, fl1iik p4i3~s4~J&#xD;
 ~he ~pk at~~he,~ ~t ,of a 4r~p~ in&#xD;
 thewoods which lie ba4 en aged~,~ ~&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7663-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7663-00000035"/>&#xD;
 I~A.                                          _____        REGINA.               -&#xD;
 &#xD;
 demson~ distance.'&#xD;
@@ -6595,7 +6600,7 @@ tingularly nilystenious'a fa4iio~n&#xD;
 is di5appeau~auic~. is'&#xD;
 las wa~1pps~ing ~h'e Aloor~f '1ii~&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7663-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7663-00000036"/>&#xD;
 dare Aay 'is able to g~ss. Say where is my&#xD;
 own Cecile ?~ ~ ~sk ' - '&#xD;
 'Opee again whence came you 'You&#xD;
@@ -6822,7 +6827,7 @@ ht~d not~a deta~h*&amp;amp;etit of mounted p~lioe~rttdh&#xD;
 tip; at' that ffl5Mtlt~n'dJ ptiitex~tdd~ hitx~froqa&#xD;
 the ~dpiila~)fb~3r.~)       -~&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7663-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7663-00000037"/>&#xD;
 Tfr                         Rlf~OINA                                                                          REGI1~A.&#xD;
 &#xD;
 uAt'aen* distance, standing onan eminence, attentive audience) the person of the suppos-&#xD;
@@ -6993,7 +6998,7 @@ her husband, Ceoile was escorted -for som&#xD;
 hours, by two hf the men, through ~o ~n~py&#xD;
 paths-ef-the forest that, even had she posses-&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7663-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7663-00000038"/>&#xD;
 R1~O~A.                         7tt&#xD;
 &#xD;
 sed all her faculties as fully as eVer, she could&#xD;
@@ -7220,7 +7225,7 @@ instead of returirin4 his cordiall g~ktiftg,'t~&#xD;
 indignant lookd and gestures shoWed th~be&#xD;
 ~*as by no means Welcome:&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7663-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7663-00000039"/>&#xD;
 RI~GINA.&#xD;
 &#xD;
 *    'Devilish strange this, gentlemen,' he grum- scrupulous brothers, and I think we shall be&#xD;
@@ -7390,7 +7395,7 @@ keeper of' the forest of Br~ssel~se, was' one&#xD;
 of the incendiaries, and had huen 'pree~M&#xD;
 with him, arid assisting on several occasinims.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7663-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7663-00000040"/>&#xD;
 at'                             R~GINA.                           ____&#xD;
 Iii fact, that he was the very worst of them idea suggested itself, unless Bartholomew&#xD;
 condemiwd                         himself, whose mother had been the nurse of&#xD;
@@ -7562,7 +7567,7 @@ and vengeatice.&#xD;
 When Decadi came at the appointed boar&#xD;
 to remove the whole party, he found enI~&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7663-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7663-00000041"/>&#xD;
 R~HG1NA.&#xD;
 &#xD;
 the' tmhappy C~cile, who was writhing in&#xD;
@@ -7733,7 +7738,7 @@ vent hi&amp;amp;holding conversation with any ~ne that I came here. 'I repeat it
 about the castle, witnessed 'his at'rest, ~t~d Wlio"ha~ stilled n~y ~hl1d.. Ijuatre slme~d~'~&#xD;
 were overjoyed at this turn of the ~'affair whi6l~ 'dared' her niune before them alliri ther6,'ali4&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7663-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7663-00000042"/>&#xD;
 86              ~~REGWNA-                                                    RIN.7&#xD;
 &#xD;
 J~was not believed; but you will credit me,&#xD;
@@ -7964,7 +7969,7 @@ SEGINA,&#xD;
 &#xD;
 27 -&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7663-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7663-00000043"/>&#xD;
 REGINA.&#xD;
 &#xD;
 RThiINAA&#xD;
@@ -8192,7 +8197,7 @@ ed to be present to-his tljougl~ts~.'&#xD;
 froni you, sir. You~ were awar~p$j~ ~&#xD;
 first accepted your hand. ~pM kzte~,k ~&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7663-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7663-00000044"/>&#xD;
 9                      '        R~GiNA.&#xD;
 yend&amp;amp;~ll doubt when, a week ag6, you came ed him f~om the idol of his love-yet the&#xD;
 again to-~olieit my promised hand, in Paris.' feeling acquired, by degrees, the gigantic&#xD;
@@ -8309,7 +8314,7 @@ To the wild and wicked imagination ,of The dwarf soon 'found, to his ~d1isiii~ay
 the dwarf, this visit of the bride, to the loath- this passage 'was ntmt ~ easy ~p penetit'~"~&#xD;
 some dungeon, appeared. an 'opportunity, when h~ had passed through it in Viir~uWbf&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7663-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7663-00000045"/>&#xD;
 I&#xD;
 &#xD;
 R~Gl~NA~&#xD;
@@ -8539,7 +8544,7 @@ Yes,;he has, the~spirit!'&#xD;
 'The phagom, the-phantom-!' was all tl~at~&#xD;
 could he extracted from the raving dwarf. -&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7663-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7663-00000046"/>&#xD;
 04                        .&#xD;
 &#xD;
 '~4Ail that the lady of Gazeran 'could make&#xD;
@@ -8773,7 +8778,7 @@ We l~rn fronA ~ur cor~e~pon~en~t ~&#xD;
 Jis, ~a §trange avid highly ~ntetes~n'g IneQ*~&#xD;
 of intelligence.'&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7663-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7663-00000047"/>&#xD;
 9%4&#xD;
 &#xD;
 A4sQNA.&#xD;
@@ -8950,7 +8955,7 @@ death they believed F'tancoi~ had infli~ted,&#xD;
 and to this, all 1istene~d with attention. '&#xD;
 'Ma foi,' said' the old soldier, we'behieY~'d&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7663-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7663-00000048"/>&#xD;
 I~G11~A.&#xD;
 &#xD;
 that you had repented ofyour resi~lve to. ac~&#xD;
@@ -9177,7 +9182,7 @@ Etienne, which he immediatelywetfl tose~k.&#xD;
 - Decadi, thereupon hurried to the riajfk.&#xD;
 trate, a~d laid before him the staterneuto~he&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7663-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7663-00000049"/>&#xD;
 V  ~&#xD;
 &#xD;
 4a9~his o~Vd ~A~flds ~ ~f~rii~ft~ the&#xD;
@@ -9294,8 +9299,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

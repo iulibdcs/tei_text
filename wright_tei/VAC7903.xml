@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7903">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7903">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Startling Confessions of Eleanor Burton </title>
-            <author >Anonymous</author>
+            <title>The Startling Confessions of Eleanor Burton </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7903</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7903</idno>
+            <idno type="wright2" n="previous">wright2-2350</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The startling confessions of Eleanor Burton</title>
-                  <author >Anonymous</author>
+                  <title>The startling confessions of Eleanor Burton</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >34 p.</extent>
+               <extent>34 p.</extent>
                <publicationStmt>
-                  <publisher >E.E. Barclay</publisher>
+                  <publisher>E.E. Barclay</publisher>
                   <pubPlace>Philadelphia</pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-05-03">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-05-03">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The startling confessions of Eleanor Burton</head> 
+            <head>The startling confessions of Eleanor Burton</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7903-00000001"/>923531A&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7903-00000001"/>923531A&#xD;
 &#xD;
 THE&#xD;
 &#xD;
@@ -132,7 +137,7 @@ e   {   t&#xD;
 r°  '&#xD;
 _  .ss   ,&#xD;
 &#xD;
-<pb  n="-9" xml:id="VAC7903-00000002"/>&#xD;
+<pb n="-9" xml:id="VAC7903-00000002"/>&#xD;
 .&#xD;
 &#xD;
 01,,r&#xD;
@@ -185,7 +190,7 @@ i&#xD;
 &#xD;
 I::&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7903-00000003"/>&#xD;
+<pb n="10-11" xml:id="VAC7903-00000003"/>&#xD;
 Co0NEsIoNS of1 R LAwOR BURTON.&#xD;
 that may well be called voluptuous, and a face (shaded by masses&#xD;
 of raven hair) which, with its clear brown complexion, large hazel&#xD;
@@ -280,7 +285,7 @@ My father did not reply.&#xD;
 beard me, "I have it in my power, either to relievey i1Ya 'r&#xD;
 from is financial embarrassments, or,"-he pause~an~u4~&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7903-00000004"/>&#xD;
+<pb n="12-13" xml:id="VAC7903-00000004"/>&#xD;
 12&#xD;
 &#xD;
 Go~*ssioiw O1PLA~tL  I*&#xD;
@@ -374,7 +379,7 @@ lifted absently to the moonlight sky. As I dropped my ve oAr&#xD;
 my face, and'gazed at him freely, myself unpereived, I felt my&#xD;
 limbs bend beneath me, and the blood rush in a teetoeyJ4&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7903-00000005"/>&#xD;
+<pb n="14-15" xml:id="VAC7903-00000005"/>&#xD;
 ESONB br.ELANOU B tuW0 0*&#xD;
 I;h4ad only strength to frame one word,.-." Eugene t" and fell&#xD;
 fainting on his heart.&#xD;
@@ -470,7 +475,7 @@ mansion, I wrote to him, begging A  interview. He called.in the&#xD;
 &#xD;
 -I'r, .&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7903-00000006"/>&#xD;
+<pb n="16-17" xml:id="VAC7903-00000006"/>&#xD;
 MELAJ8'  2  R gN&#xD;
 &#xD;
 a gloomy jarle t      6. * *as dressed in deep iourning sad ae&#xD;
@@ -561,7 +566,7 @@ fZded aRltomre,cnd who desired te zoier ta Jhjg'&#xD;
 'Aiy mother is not at honeiaNq4 Npogn       , ~    in&#xD;
 her absence I do not like to---"&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7903-00000007"/>&#xD;
+<pb n="18-19" xml:id="VAC7903-00000007"/>&#xD;
 1$&#xD;
 &#xD;
 eOa1~BszQN0 ion : -c    O1 R vToI!.&#xD;
@@ -618,7 +623,7 @@ r si }A                          j}&#xD;
 "                  i cf " 4'p +  «ry   j&#xD;
 +n                      r wry&#xD;
 &#xD;
-<pb  n="20 (Illustration) -21" xml:id="VAC7903-00000008"/>&#xD;
+<pb n="20 (Illustration) -21" xml:id="VAC7903-00000008"/>&#xD;
 0~Q~8  Q~' 4N~R UWEON9&#xD;
 &#xD;
 I tore him from her .arms, and laid him on the sofa; be +a&#xD;
@@ -665,7 +670,7 @@ of a fashionable congregation, every sabbath day. On one occasion&#xD;
 I occupied a seatanear the pulpit, and was much struck yhis&#xD;
 6 8&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7903-00000009"/>&#xD;
+<pb n="22-23" xml:id="VAC7903-00000009"/>&#xD;
 O", ESSION-OP E LEANOR BURTON.&#xD;
 4)s7&#xD;
 oi thfnl appearance, combined with eloquence so touching and&#xD;
@@ -777,7 +782,7 @@ f ..      r  ;ic'  ^&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7903-00000010"/>&#xD;
+<pb n="24-25" xml:id="VAC7903-00000010"/>&#xD;
 with a passionate warmth. I felt a strange interest in the beauti-&#xD;
 ful boy: a feeling compounded of pure love, of passion, of voluptu-&#xD;
 ousness, the most intense and refined.&#xD;
@@ -879,7 +884,7 @@ to see me, her manner manifested a conflict of confidence and sus-&#xD;
 picion. That this wounded me, that the absence of Herbert cut&#xD;
 me to the soul, will easily be imagined. I passed my time between&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7903-00000011"/>&#xD;
+<pb n="26-27" xml:id="VAC7903-00000011"/>&#xD;
 26           CONFESSIONS OF ELEANOR BURTON.&#xD;
 &#xD;
 alternations of hope and despair, now listening-and in vain-for&#xD;
@@ -972,7 +977,7 @@ Haskins, a"you shall pay for this with your blood !&#xD;
 &#xD;
 CONFESSIONS OF ELEANOR BURTON.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7903-00000012"/>&#xD;
+<pb n="28-29" xml:id="VAC7903-00000012"/>&#xD;
 CONFESSIONS OF ELEANOR BURTON.&#xD;
 &#xD;
 28           CONFESSIONS OF ELEANOR BURTON.&#xD;
@@ -1023,7 +1028,7 @@ cause of all-thou! But, Eugene, thy last look kills my soul!&#xD;
 Herbert, thy curse is on me ! And poor Mary ! Air ! Light !&#xD;
 It is so dark-dark-0, for one breath of prayer !&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7903-00000013"/>&#xD;
+<pb n="30-31" xml:id="VAC7903-00000013"/>&#xD;
 CONCLUSION.&#xD;
 THE preceding Confession, signed by the tremulous hand of the&#xD;
 poor suicide,, was found in her room with the senseless corse, by&#xD;
@@ -1092,7 +1097,7 @@ his poor victim, M- 5-, tenants the cell of an Asylum for&#xD;
 the Insane. Altogether this affair is one of the wildest exaggera-&#xD;
 tions, or one of the most painful tragedies, that ever fell to the lot&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7903-00000014"/>&#xD;
+<pb n="32-33" xml:id="VAC7903-00000014"/>&#xD;
 CONFESSIONS OF ELEANOR BURTON.          33&#xD;
 &#xD;
 CONFESSIONS OF ELEANOR BURTON.&#xD;
@@ -1182,7 +1187,7 @@ Herbert took the will from the visiter's hands.&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="34-35 (Illustration) " xml:id="VAC7903-00000015"/>&#xD;
+<pb n="34-35 (Illustration) " xml:id="VAC7903-00000015"/>&#xD;
 44            CONFESSIONS OF ELEANOR BURTON.&#xD;
 your hands. The will was made as a small atonement for the&#xD;
 injury she caused you."&#xD;
@@ -1201,7 +1206,7 @@ n&#xD;
 1&#xD;
 410&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7903-00000016"/>&#xD;
+<pb n="36-37" xml:id="VAC7903-00000016"/>&#xD;
 "t_,&#xD;
 o t#T r&#xD;
 t  .&#xD;
@@ -1215,7 +1220,7 @@ e S&#xD;
 Y&#xD;
 ,&#xD;
 &#xD;
-<pb  n="38 (Illustration) " xml:id="VAC7903-00000017"/>&#xD;
+<pb n="38 (Illustration) " xml:id="VAC7903-00000017"/>&#xD;
 .:    _                      -           :"-,:  ,:  .,.,.:    ,r     -?w 'r     u_       rts'f         ,-.s.,x~ ""  E.r:..  -.,,Yt ~               _. _1,:,"i          a.5e ?_.  r. _,%:.                                     sti&#xD;
 ...            . .. .._ _ - -r;                ..     , s z_ :  .... ;" tis , ..        ,:        "L::...,. ,x,:.   :-.{   r..._ -  -. wx.. _. ,     ..._.    -.,;r. ..  -        ",#.         t -                                                           ..                 ".Y     ,.:;'4 ' tr ty  - 4'- ,t1.Fr&#xD;
 .. _               r           -,. ,..  , _,x  ~_    _:        r ..:  ...   ,    .'fit       ,crL?.          _#                  :,,++ ~s.       "        x_.w                     7                            .r?4                                                                   -t'         s.'-   .,,s            x       _          -&#xD;
@@ -1390,8 +1395,8 @@ _,.. y :",,..:  - .. r.=                  _    F ..r..    t,       ,t e        _
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

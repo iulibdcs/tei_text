@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7624">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7624">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Royal Greens, or, The Scout of the Susquehanna </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>The Royal Greens, or, The Scout of the Susquehanna </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7624</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7624</idno>
+            <idno type="wright2" n="previous">wright2-2083</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The Royal Greens, or, The scout of the Susquehanna</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>The Royal Greens, or, The scout of the Susquehanna</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >S. French</publisher>
+                  <publisher>S. French</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date >[n.d.]</date>
+                  <date>[n.d.]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The Royal Greens, or, The scout of the Susquehanna</head> 
+            <head>The Royal Greens, or, The scout of the Susquehanna</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7624-00000001"/>TlfE n10AL GRS&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7624-00000001"/>TlfE n10AL GRS&#xD;
 -OR, TH-.&#xD;
 tii~tIJFD211fl1Ef4&#xD;
 &#xD;
@@ -139,7 +144,7 @@ I&#xD;
 "&#xD;
 . "&#xD;
 &#xD;
-<pb  n=" (Advertisement) " xml:id="VAC7624-00000002"/>&#xD;
+<pb n=" (Advertisement) " xml:id="VAC7624-00000002"/>&#xD;
 GLEASOIN'S PICT&#xD;
 D              THE BEAUTIFUL AND&#xD;
 -       ,                                                                           The object of this paper is to present, in te most elegant&#xD;
@@ -219,7 +224,7 @@ Streets, Cincinnati.&#xD;
 esnut Streets, St. Louis.&#xD;
 means.&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7624-00000003"/>&#xD;
+<pb n="" xml:id="VAC7624-00000003"/>&#xD;
 ,a ,&#xD;
 z&#xD;
 - ,&#xD;
@@ -295,7 +300,7 @@ I&#xD;
 &#xD;
 THE ROYAL GR3 939NS*&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7624-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7624-00000004"/>&#xD;
 THE ROYAL GIEK.&#xD;
 &#xD;
 I&#xD;
@@ -452,7 +457,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7624-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7624-00000005"/>&#xD;
 12                  THE ROYAL GREENS.&#xD;
 &#xD;
 ,&#xD;
@@ -645,7 +650,7 @@ rhi                                                             ..&#xD;
 V                                                                                                                                                                                                                                 e&#xD;
 '                       i&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7624-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7624-00000006"/>&#xD;
 0&#xD;
 &#xD;
 CiHA PThL     -II.&#xD;
@@ -759,7 +764,7 @@ t".&#xD;
 M&#xD;
 t&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7624-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7624-00000007"/>&#xD;
 ,&#xD;
 .#&#xD;
 .s&#xD;
@@ -1006,7 +1011,7 @@ s&#xD;
 ,,&#xD;
 A-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7624-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7624-00000008"/>&#xD;
 wV&#xD;
 &#xD;
 1&#xD;
@@ -1167,7 +1172,7 @@ g      yeu have said   "Small necessity is there that interviews ef&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7624-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7624-00000009"/>&#xD;
 20&#xD;
 &#xD;
 THE ROYAL GREENS.&#xD;
@@ -1305,7 +1310,7 @@ I&#xD;
 &#xD;
 fi       ,    ,' i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7624-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7624-00000010"/>&#xD;
 22               ll4LGW0&#xD;
 &#xD;
 ticularly -the object of this demonatration,'the,&#xD;
@@ -1432,7 +1437,7 @@ onu- lasten-  "Lookagin,     pd see if you can mk      -&#xD;
 &#xD;
 /y&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7624-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7624-00000011"/>&#xD;
 THE ROYAL GREENS.&#xD;
 &#xD;
 24                            THE ROYA&#xD;
@@ -1623,7 +1628,7 @@ ed Sergeant Norton.       -                see nothing more until within three y
 "Fire and after him, you stupid idiots ! give ragged front, when he discovered unbar's head&#xD;
 it to himi give it to him!"       .    .   thrustfrom a rift.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7624-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7624-00000012"/>&#xD;
 a  r+ Sr.l    RF~,    .4- sx-+~~c+ ",e:..  ,  :&#xD;
 &#xD;
 26                            TE ROYA&#xD;
@@ -1796,7 +1801,7 @@ x&#xD;
 &#xD;
 - 4&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7624-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7624-00000013"/>&#xD;
 CHAPTER V-,&#xD;
 &#xD;
 A NEW CHARATER.&#xD;
@@ -1893,7 +1898,7 @@ although the body had been removed." should be thankful for the same. I hate, be
 &#xD;
 fI&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7624-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7624-00000014"/>&#xD;
 8".&#xD;
 &#xD;
 THE ROYAL .GREENS.&#xD;
@@ -2089,7 +2094,7 @@ cr&#xD;
 &#xD;
 :..; Ttnvr&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7624-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7624-00000015"/>&#xD;
 THE ROYAJ GREENS.&#xD;
 know their ways. Can you tell about what num- "Do you remember that hunter's name V&#xD;
 her there were in the party, so we can make Montour'asked, in a subdued voice.&#xD;
@@ -2216,7 +2221,7 @@ I&#xD;
 &#xD;
 !       -&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7624-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7624-00000016"/>&#xD;
 84                  THE ROYAL GREENS.&#xD;
 &#xD;
 "Were there any papers found on the body " ed&#xD;
@@ -2421,7 +2426,7 @@ rev  ' A&#xD;
 . griF&#xD;
   .&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7624-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7624-00000017"/>&#xD;
 86                    'fl i notAL onIENS.&#xD;
 &#xD;
 we haksehitherto spoken of Elvira Hudson'in a&#xD;
@@ -2627,7 +2632,7 @@ all&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7624-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7624-00000018"/>&#xD;
 8    .    .         THE ROYAL GREENS.&#xD;
 &#xD;
 " Think so,if you will, you poor, misguided&#xD;
@@ -2743,7 +2748,7 @@ f     t   v   _                    d                         rs          +yjy  y
 A. rrw.Nww&#xD;
 V   c                               }                                                 _&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7624-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7624-00000019"/>&#xD;
 r&#xD;
 s&#xD;
 F&#xD;
@@ -2973,7 +2978,7 @@ go for nothin'. A poor woodsman should I be,&#xD;
 if I couldn't hear the click of a rifle or a pistol,&#xD;
 or the crackling of the smallest twig,", he .said,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7624-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7624-00000020"/>&#xD;
 tr&#xD;
 C a,&#xD;
 l.&#xD;
@@ -3116,7 +3121,7 @@ r'&#xD;
 fr'+ttFdip i:+ .atr.s.a:! 'es'xCtiY¢C . . .wiuH'wy.at5: u.. -. +'&#xD;
 _ ',3'.1G&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7624-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7624-00000021"/>&#xD;
 I     , -&#xD;
 &#xD;
 , S&#xD;
@@ -3364,7 +3369,7 @@ f rff  Y&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7624-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7624-00000022"/>&#xD;
 . THE ROYAL GREENS.&#xD;
 &#xD;
 On the ensuing night more time was taken of Roland, but a second glance dispelled that&#xD;
@@ -3483,7 +3488,7 @@ A RENCONTRE.&#xD;
 &#xD;
 46&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7624-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7624-00000023"/>&#xD;
 '7-"&#xD;
 &#xD;
 48                            THE ROYA&#xD;
@@ -3662,7 +3667,7 @@ I',&#xD;
 &#xD;
 T&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7624-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7624-00000024"/>&#xD;
 nP TI&#xD;
 t&#xD;
 f.&#xD;
@@ -3820,7 +3825,7 @@ n..: ;.a; 'xo W A.&#xD;
 &#xD;
 kl&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7624-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7624-00000025"/>&#xD;
 RXll1OYAL GREENS.&#xD;
 &#xD;
 77  7:PI w. &#xD;
@@ -3952,7 +3957,7 @@ I,&#xD;
 &#xD;
 416&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7624-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7624-00000026"/>&#xD;
 54                 'THE ROYAL GREENS.&#xD;
 &#xD;
 row all their soft, yet speaking eloquence, from&#xD;
@@ -4092,7 +4097,7 @@ preted by the lips.&#xD;
 &#xD;
 Iif&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7624-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7624-00000027"/>&#xD;
 TifE ROYAL GREENS.              57&#xD;
 &#xD;
 'inZ Q f ENE f.       ,&#xD;
@@ -4239,7 +4244,7 @@ covering her face with her bands.&#xD;
 &#xD;
 .-I&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7624-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7624-00000028"/>&#xD;
 59&#xD;
 &#xD;
 THE RYAGREJNS.THE ROYAL GREENS.&#xD;
@@ -4373,7 +4378,7 @@ tory.                                      supported her to a seat, where she sw
 k&#xD;
 '                                                       ate&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7624-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7624-00000029"/>&#xD;
 i&#xD;
 a&#xD;
 t&#xD;
@@ -4498,7 +4503,7 @@ L      -&#xD;
 ,'&#xD;
 h&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7624-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7624-00000030"/>&#xD;
 62                           THE ROYAL&#xD;
 dubious way. Two or, three of the party took&#xD;
 particular pains to encourage such feelings, and&#xD;
@@ -4736,7 +4741,7 @@ r&#xD;
 ,ti,&#xD;
 x&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7624-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7624-00000031"/>&#xD;
 9&#xD;
 &#xD;
 THE ROYAL GREENS.&#xD;
@@ -4858,7 +4863,7 @@ E&#xD;
 ,"&#xD;
 t&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7624-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7624-00000032"/>&#xD;
 .. .&#xD;
 '&#xD;
 r&#xD;
@@ -5096,7 +5101,7 @@ cJ&#xD;
 &#xD;
 67,&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7624-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7624-00000033"/>&#xD;
 where the shadow of the back-ground would&#xD;
 affect them less. After much effort, and run-&#xD;
 ning some risk of discovery by their movements,&#xD;
@@ -5293,7 +5298,7 @@ e                                     _&#xD;
 &#xD;
 1n RO AL G11   8.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7624-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7624-00000034"/>&#xD;
 i&#xD;
 6t&#xD;
 t       1.&#xD;
@@ -5560,7 +5565,7 @@ turned Zebulon Butler.&#xD;
 &#xD;
 tl,&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7624-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7624-00000035"/>&#xD;
 _ s&#xD;
 i             "&#xD;
 8&#xD;
@@ -5762,7 +5767,7 @@ i&#xD;
 &#xD;
 1 0&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7624-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7624-00000036"/>&#xD;
 It.Fe-? q                                                                                                                                                            "Ca'&#xD;
 &#xD;
 ;.&#xD;
@@ -5910,7 +5915,7 @@ a            r.             w many fight- follow, and proceeded to the place whe
 &#xD;
 THE ROYAL GREENS.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7624-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7624-00000037"/>&#xD;
 fl                         ;!&#xD;
 'i&#xD;
 ;R&#xD;
@@ -6124,7 +6129,7 @@ bright flaxen hair, lying beside the mutilated&#xD;
 corpse of an old man, whose head was white as&#xD;
 the snows of winter.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7624-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7624-00000038"/>&#xD;
 (&#xD;
 &#xD;
 1'&#xD;
@@ -6262,7 +6267,7 @@ k&#xD;
 " 1                            "&#xD;
 .M       i   'cr" -   '  lK&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7624-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7624-00000039"/>&#xD;
 i&#xD;
 1         r                    _&#xD;
 1         i&#xD;
@@ -6472,7 +6477,7 @@ t&#xD;
 R&#xD;
 i&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7624-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7624-00000040"/>&#xD;
 *&#xD;
 &#xD;
 14&#xD;
@@ -6759,7 +6764,7 @@ a&#xD;
 " t&#xD;
 .f&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7624-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7624-00000041"/>&#xD;
 84                  THE ROYAL GREENS.&#xD;
 &#xD;
 them, with the sure portents of sweeping them&#xD;
@@ -6873,7 +6878,7 @@ s&#xD;
 .&#xD;
 (               M&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7624-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7624-00000042"/>&#xD;
 86                             THE ROYA&#xD;
 Muchjmore than I have been willing to own)&#xD;
 have my thoughts been directed toward Ellen&#xD;
@@ -7121,7 +7126,7 @@ j         rp&#xD;
 j&#xD;
 tS ,t   ' ;&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7624-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7624-00000043"/>&#xD;
 88                               THE RO,&#xD;
 On a hill the parties, paused and gazed ba&#xD;
 upon the valley. It was agrand yet awful spc&#xD;
@@ -7363,7 +7368,7 @@ airthly naturas 'twere," answered  unbar.&#xD;
 "Death hap tedne before I was ready for it.&#xD;
 * see Stone's "lstoryofWyoming," page 219.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7624-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7624-00000044"/>&#xD;
 f&#xD;
 : ti&#xD;
 t'&#xD;
@@ -7591,7 +7596,7 @@ a&#xD;
 &#xD;
 . a&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7624-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7624-00000045"/>&#xD;
 i"tr&#xD;
 2   :'!  L 4&#xD;
 &#xD;
@@ -7787,7 +7792,7 @@ ta  ,&#xD;
 A&#xD;
 xL ai&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7624-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7624-00000046"/>&#xD;
 ' t&#xD;
 &#xD;
 1&#xD;
@@ -7983,7 +7988,7 @@ d&#xD;
 &#xD;
 tk            {&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7624-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7624-00000047"/>&#xD;
 "1&#xD;
 }!&#xD;
 - S&#xD;
@@ -8132,7 +8137,7 @@ THE CASTLE AND, CRUCIBLE.&#xD;
 ,&#xD;
 ' ,&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7624-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7624-00000048"/>&#xD;
 THE dASTLE A1cD' CRPCIBLE&#xD;
 &#xD;
 winding of a river' might be seen, flowing on&#xD;
@@ -8363,7 +8368,7 @@ THE CASTLE AND CRUCIBLE.&#xD;
 : k  e&#xD;
 Nt&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7624-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7624-00000049"/>&#xD;
 TM C ,T , .ND RTICIBLBF,&#xD;
 &#xD;
 those within the castle, he concluded to wait till&#xD;
@@ -8470,8 +8475,8 @@ THE FEND&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

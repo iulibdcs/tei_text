@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7512">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7512">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Story of Fort Hill </title>
-            <author >Prince, Frederic.</author>
+            <title>The Story of Fort Hill </title>
+            <author>Prince, Frederic.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7512</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7512</idno>
+            <idno type="wright2" n="previous">wright2-1965</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The story of Fort Hill</title>
-                  <author >Prince, Frederic.</author>
+                  <title>The story of Fort Hill</title>
+                  <author>Prince, Frederic.</author>
                </titleStmt>
-               <extent >50 p.</extent>
+               <extent>50 p.</extent>
                <publicationStmt>
-                  <publisher >P.J. Becker</publisher>
+                  <publisher>P.J. Becker</publisher>
                   <pubPlace>Auburn </pubPlace>
-                  <date  when="1859">1859</date>
+                  <date when="1859">1859</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-03">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-03">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The story of Fort Hill</head> 
+            <head>The story of Fort Hill</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7512-00000001"/>THE!&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7512-00000001"/>THE!&#xD;
 &#xD;
 OF&#xD;
 GIVING&#xD;
@@ -102,7 +107,7 @@ AUBttRN:&#xD;
 PUBLISHED BYP. S. BECEtat&#xD;
 1859.&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7512-00000002"/>&#xD;
+<pb n="" xml:id="VAC7512-00000002"/>&#xD;
 WITTEN~ BY FREDERIC SPRINCL.&#xD;
 &#xD;
 CHAPTER I.&#xD;
@@ -188,7 +193,7 @@ _                              d&#xD;
 r,                            1                                     s&#xD;
 4&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC7512-00000003"/>&#xD;
+<pb n="2-3" xml:id="VAC7512-00000003"/>&#xD;
 I&#xD;
 I&#xD;
 &#xD;
@@ -393,7 +398,7 @@ A TALE OF FORT ItILL.&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7512-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC7512-00000004"/>&#xD;
 A TALE OF FORT HILL.&#xD;
 &#xD;
 4:&#xD;
@@ -606,7 +611,7 @@ ted for, as he seldom left the settle,&#xD;
 &#xD;
 R&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7512-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7512-00000005"/>&#xD;
 6&#xD;
 &#xD;
 A TALE OF FORT HILL.&#xD;
@@ -796,7 +801,7 @@ look here, Master Bond, he's no sail-&#xD;
 or."&#xD;
 "No sailor !---yah ! yah ! yahW---&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7512-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC7512-00000006"/>&#xD;
 x&#xD;
 :&#xD;
 '&#xD;
@@ -975,7 +980,7 @@ ening winq, and the captain maintain- oftentimes are elicited trom a fountain&#x
 &#xD;
 J&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7512-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7512-00000007"/>&#xD;
 ,'&#xD;
 ,&#xD;
  ,&#xD;
@@ -1125,7 +1130,7 @@ cluster of branches above, where the tute for another leg in the earth.&#xD;
 nest of the eagle was, and discovered  "You are a fortunate dog," said&#xD;
 the captain trying to make his way Bond, raising him up:. 'tis not every&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7512-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7512-00000008"/>&#xD;
 jc&#xD;
 &#xD;
 12                 A TALE OF,&#xD;
@@ -1325,7 +1330,7 @@ I&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7512-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7512-00000009"/>&#xD;
 14&#xD;
 &#xD;
 A TALE OF FORT HILL.&#xD;
@@ -1494,7 +1499,7 @@ t&#xD;
 {4&#xD;
 S&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7512-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC7512-00000010"/>&#xD;
 Y&#xD;
 r&#xD;
 i&#xD;
@@ -1683,7 +1688,7 @@ that way, though it has done very&#xD;
 &#xD;
 ira&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7512-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7512-00000011"/>&#xD;
 ',&#xD;
 ,,&#xD;
 .&#xD;
@@ -1875,7 +1880,7 @@ ing, maimed curses of ten or twelve&#xD;
 human beings, who but a short time&#xD;
 before were possessed of life and ac-&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7512-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7512-00000012"/>&#xD;
 , I&#xD;
 {   It&#xD;
 it&#xD;
@@ -2045,7 +2050,7 @@ E&#xD;
 x&#xD;
 i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7512-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7512-00000013"/>&#xD;
 22                  A TALE OF' FORT H LL.,&#xD;
 "Shiver my, timbersl" exclaimed over with branches of the trees which&#xD;
 Walker, "but it is 'so Mpster Bord; lay scattered arounn1, aid preied"Tfor&#xD;
@@ -2205,7 +2210,7 @@ r&#xD;
 F&#xD;
 c&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7512-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7512-00000014"/>&#xD;
 e4&#xD;
 &#xD;
 t"&#xD;
@@ -2314,7 +2319,7 @@ Esse't"Eihb SAW his kdidag' efe lit "I stppose do,", drily r'eplied Wai-&#xD;
 u, tihd hiB ltiks V~hihg poffet ker, lotnking around for Ella ; "bt&#xD;
 where is the girl, Master Bond ?"&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7512-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7512-00000015"/>&#xD;
 ~26&#xD;
 &#xD;
 A TALE OF FORT HILL.&#xD;
@@ -2433,7 +2438,7 @@ f    if&#xD;
 {&#xD;
 N&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7512-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7512-00000016"/>&#xD;
 ffr&#xD;
 Iif&#xD;
 t&#xD;
@@ -2633,7 +2638,7 @@ i~&#xD;
 &#xD;
 ....- . r _-.  W..-. M w ._ -   __ _ r&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7512-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7512-00000017"/>&#xD;
 i&#xD;
 i&#xD;
 k&#xD;
@@ -2849,7 +2854,7 @@ lps&#xD;
 t&#xD;
 4&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7512-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC7512-00000018"/>&#xD;
 -4&#xD;
 &#xD;
 /&#xD;
@@ -3038,7 +3043,7 @@ x&#xD;
 ,&#xD;
 f,&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7512-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7512-00000019"/>&#xD;
 v s       A1  I'iOPR~~                   AE0'FOTHL&#xD;
 &#xD;
 showing it-to Walker, it Was recogtni&#xD;
@@ -3276,7 +3281,7 @@ A&#xD;
 &#xD;
 ! 13&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7512-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7512-00000020"/>&#xD;
 Iis&#xD;
 &#xD;
 A TALE OFO 1 'oW1 HILL.&#xD;
@@ -3502,7 +3507,7 @@ appeared vain, and he sifffered hinr elf&#xD;
 to be thrown, to the ground, *hak&#xD;
 his .hands were fastened.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7512-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7512-00000021"/>&#xD;
 A  VL     OF FORT     HILL.&#xD;
 tarir es nooks of.engener pic- grim death-old feller threaten b tacjt&#xD;
 tured in their countanenances.  The ee too many times, and no come, to&#xD;
@@ -3661,7 +3666,7 @@ broken English.             {  , "&#xD;
 Surprised at the ielligible sounds,&#xD;
 that struck 'upon her ear, slpe ras&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7512-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC7512-00000022"/>&#xD;
 A TALE'OF    FORP Hfl .&#xD;
 quilifyon her feet. '°What' would vietima," replied he. "And hav yon&#xD;
 you have f-me?": imploringly asked not the power ?" faintly articulated-&#xD;
@@ -3795,7 +3800,7 @@ i&#xD;
 r   '&#xD;
 t&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7512-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7512-00000023"/>&#xD;
 St&#xD;
 ,&#xD;
 .,&#xD;
@@ -4024,7 +4029,7 @@ pt&#xD;
 &#xD;
 6&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7512-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7512-00000024"/>&#xD;
 r' ;&#xD;
 i  ,&#xD;
 P&#xD;
@@ -4193,7 +4198,7 @@ i&#xD;
 }fir&#xD;
 4  y,&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7512-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7512-00000025"/>&#xD;
 A4 4t                         PA!     o     1U+/A#I~&#xD;
 tdt Wailted here," says he. and timved a loudly retorted the 4 cld   s lor.o Abo&#xD;
 {ew fet as if to depart.             her. sir. ofeevi   ie.pt the cathlhb tails&#xD;
@@ -4333,7 +4338,7 @@ ovet,fot the sharp Walker and the bleek/oitahd Ve5UthAe&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7512-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7512-00000026"/>&#xD;
 0A: TALMd                   4     FORT PQ  tP:IVtO&#xD;
 uftbtweeiL~a Villiam ltd. Tonq- eover of akinofqdgewI&#xD;
 c  lf - youx'wlat, snowtbalL." exclaimed had tinad:.4f1ar yobes of i le tce .  r y&#xD;
@@ -4462,7 +4467,7 @@ i&#xD;
 &#xD;
 II,&#xD;
 &#xD;
-<pb  n="50-51 (Advertisement) " xml:id="VAC7512-00000027"/>&#xD;
+<pb n="50-51 (Advertisement) " xml:id="VAC7512-00000027"/>&#xD;
 p&#xD;
 &#xD;
 A, TAL1 00 oi~ ~tP Hit.&#xD;
@@ -4644,8 +4649,8 @@ R&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

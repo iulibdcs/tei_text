@@ -1,241 +1,643 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd"
-     xml:id="VAC8040">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0"
+   xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+   xml:id="VAC8040">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Anna Mowbray, or, Tales of the Harem </title>
-            <author >Thompson, George, (d. 1893)</author>
+            <title>Anna Mowbray, or, Tales of the Harem </title>
+            <author>Thompson, George, (d. 1893)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine xmlns="http://www.tei-c.org/ns/1.0">1320 E. 10th St.</addrLine>
-               <addrLine xmlns="http://www.tei-c.org/ns/1.0">Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8040</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8040</idno>
+            <idno type="wright2" n="previous">wright2-2477</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                  copyright only to original contributions made by the Wright American Fiction
+                  project participants and other members of the university community. Indiana
+                  University makes no claim of copyright to the original text. Permission is granted
+                  to download, transmit or otherwise reproduce, distribute or display the
+                  contributions to this work claimed by Indiana University for non-profit
+                  educational purposes, provided that this header is included in its entirety. For
+                  inquiries about commercial uses, please contact the Indiana University
+                  Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
-                    Collection</title>
+            <title level="s" type="project">Wright American Fiction: An Electronic
+               Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Anna Mowbray, or, Tales of the harem</title>
-                  <author >Thompson, George, (d. 1893)</author>
+                  <title>Anna Mowbray, or, Tales of the harem</title>
+                  <author>Thompson, George, (d. 1893)</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >H.R.J. Barkley</publisher>
+                  <publisher>H.R.J. Barkley</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date type="unkown">[n.d.]</date>
+                  <date>[n.d.]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
-                    Cooperation. Project description and participants are available at the project
-                    website at http://www.letrs.indiana.edu/wright.</p>
+            <p>This text was created as part of a project by the Committee on Institutional
+               Cooperation. Project description and participants are available at the project
+               website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
-                    has been encoding and edited using the recommendations for Level 4 of the TEI in
-                    Libraries Guidelines. Digital page images are linked to the text file.</p>
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and has
+               been encoding and edited using the recommendations for Level 4 of the TEI in
+               Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="AEL Data" when="2003-06-12">Finished transcription and SGML encoding</change>
-         <change  who="Perry Willett, Indiana University" when="2003-08-15">Finished TEI conversion</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+         <change who="AEL Data" when="2003-06-12">Finished transcription and SGML encoding</change>
+         <change who="Perry Willett, Indiana University" when="2003-08-15">Finished TEI
+            conversion</change>
+         <change who="Siobhain Rivera" when="2014-09-09">Converted document from SGML to TEI
+            P5.</change>
+         <change who="Siobhain Rivera" when="2014-09-09">Edited encoding to fix Table of Contents
+            and title page.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
-      <front> 
-         <titlePage xmlns="http://www.tei-c.org/ns/1.0"> 
-            <pb  n=" (TitlePage) " xml:id="VAC8040-00000001"/> 
-            <docTitle> 
-               <titlePart>ANNA MOWBRAY;</titlePart> 
-               <titlePart type="sub">OR, TALES OF THE HAREM.</titlePart> 
-            </docTitle> 
-            <byline >By <docAuthor xmlns="http://www.tei-c.org/ns/1.0">Greenhorn.</docAuthor> Author of Venus in Boston, Gay Deceiver, Adventures of a Libertine, Julia King Kate Montrose &amp;c., &amp;c.</byline> 
+   <text>
+      <front>
+         <pb n=" (TitlePage) " xml:id="VAC8040-00000001"/>
+         <titlePage>
+            <docTitle>
+               <titlePart>ANNA MOWBRAY;</titlePart>
+               <titlePart type="sub">OR, TALES OF THE HAREM.</titlePart>
+            </docTitle>
+            <byline>By <docAuthor>Greenhorn.</docAuthor> Author of Venus in Boston, Gay Deceiver,
+               Adventures of a Libertine, Julia King Kate Montrose &amp;c., &amp;c.</byline>
             <docImprint>
-               <pubPlace>NEW YORK:</pubPlace> 
-               <publisher >HENRY R. J. BARKLEY.</publisher>
-            </docImprint> 
-         </titlePage> 
-      </front> 
+               <pubPlace>NEW YORK:</pubPlace>
+               <publisher>HENRY R. J. BARKLEY.</publisher>
+            </docImprint>
+         </titlePage>
+      </front>
       <body>
          <div type="book">
-            <head>Anna Mowbray, or, Tales of the harem</head> 
-            <pb n="7" xml:id="VAC8040-00000002"/> 
-            <head>ANNA MOWBRAY;</head> 
-            <head type="sub">OR, TALES OF THE HAREM.</head> 
-            <div type="chapter"> 
-               <head>INTRODUCTION.</head> 
-               <argument> 
-                  <p>In which the Author scrapes an acquaintance with the Reader.</p> 
-               </argument> 
-               <p>The writer of the following Tale has frequently had the honor of appearing before the public in former productions; and the general success that has attended these unpretending efforts, has induced him to add one more to the off-springs of his humble pen.</p> 
-               <p>Most of the incidents comprised in the romance of "The House Breaker" are strictly true. Some of the most exciting scenes herein depicted, may create a feeling of incredulity; and yet such scenes are far more replete with fact than with fancy. Indeed, <emph>imagination</emph> has had but very little to do in the composition of this work-a some-what extended knowledge of the world, and an intimate acquaintance with <emph>real life as it is,</emph> having enabled the author to produce a Tale of considerable interest, without any great departure from the actual truth.</p> 
-               <p>We have in this story endeavored to illustrate the position and delineate the character of a young man compelled, by the pressure of unjust circumstances, to adopt a course of life very repugnant to his principles and feelings. We have nothing to urge in extenuation of Henry Stuart's faults; but we cannot help pitying his misfortunes, and we must rejoice at his reformation-for, as soon as he recovers his rights, he abandons his dishonorable profession, and becomes an excellent and useful member of society. His admirable conduct with respect to Jane Carr-whom he rescues from the lowest depths of misery, and eventually places in a most elevated and brilliant sphere, without ever trying <unclear>to take</unclear> advantage of her unprotected situation-that noble conduct, we say, should entitle  Henry Stuart, the <emph>reformed House Breaker,</emph> to the forgiveness of that community which his transgressions had wronged. <q>
-                     <lg type="quotation"> 
-                        <l>"Though justice be thy plea, consider this-</l> 
-                        <l>That in the course of justice, none of us</l> 
-                        <l>Should see salvation: we do pray for mercy;</l> 
-                        <l>And that same prayer doth teach us all to render</l> 
-                        <l>The deeds of mercy."</l> 
+            <head>Anna Mowbray, or, Tales of the harem</head>
+            <pb n="7" xml:id="VAC8040-00000002"/>
+            <head>ANNA MOWBRAY;</head>
+            <head type="sub">OR, TALES OF THE HAREM.</head>
+            <div type="chapter">
+               <head>INTRODUCTION.</head>
+               <argument>
+                  <p>In which the Author scrapes an acquaintance with the Reader.</p>
+               </argument>
+               <p>The writer of the following Tale has frequently had the honor of appearing before
+                  the public in former productions; and the general success that has attended these
+                  unpretending efforts, has induced him to add one more to the off-springs of his
+                  humble pen.</p>
+               <p>Most of the incidents comprised in the romance of "The House Breaker" are strictly
+                  true. Some of the most exciting scenes herein depicted, may create a feeling of
+                  incredulity; and yet such scenes are far more replete with fact than with fancy.
+                  Indeed, <emph>imagination</emph> has had but very little to do in the composition
+                  of this work—a some-what extended knowledge of the world, and an intimate
+                  acquaintance with <emph>real life as it is,</emph> having enabled the author to
+                  produce a Tale of considerable interest, without any great departure from the
+                  actual truth.</p>
+               <p>We have in this story endeavored to illustrate the position and delineate the
+                  character of a young man compelled, by the pressure of unjust circumstances, to
+                  adopt a course of life very repugnant to his principles and feelings. We have
+                  nothing to urge in extenuation of Henry Stuart's faults; but we cannot help
+                  pitying his misfortunes, and we must rejoice at his reformation—for, as soon as he
+                  recovers his rights, he abandons his dishonorable profession, and becomes an
+                  excellent and useful member of society. His admirable conduct with respect to Jane
+                  Carr—whom he rescues from the lowest depths of misery, and eventually places in a
+                  most elevated and brilliant sphere, without ever trying <unclear>to take</unclear>
+                  advantage of her unprotected situation—that noble conduct, we say, should entitle
+                  Henry Stuart, the <emph>reformed House Breaker,</emph> to the forgiveness of that
+                  community which his transgressions had wronged. <q>
+                     <lg type="quotation">
+                        <l>"Though justice be thy plea, consider this—</l>
+                        <l>That in the course of justice, none of us</l>
+                        <l>Should see salvation: we do pray for mercy;</l>
+                        <l>And that same prayer doth teach us all to render</l>
+                        <l>The deeds of mercy."</l>
                      </lg>
                   </q>
-               </p> 
-               <p>With these preliminary remarks, we "ring up the curtain," and present the first scene in our little drama.</p> 
-            </div> 
-            <div type="chapter"> 
-               <head>CHAPTER I.</head> 
-               <argument> 
-                  <p>The Flash Crib-"Boy Jack"-a Motley Crew-the Cripple and his Daughter-a scene of horror, drawn from real life-Guinea Bill-the Rescue-the House Breakers and their spoils-the Surprise and Escape.</p> 
-               </argument> 
-               <p>"KEITH'S ALLEY" is the name of a long, narrow and dark passage that runs out of Ann street in the city of Boston. It leads to various old and crazy wooden buildings, rotten and<pb n="8-9" xml:id="VAC8040-00000003"/> crumbling with age and decay. These miserable houses are tenanted by myriads of wretched and starving poor, including Irish, negroes, and the lowest dregs of a vast city's population. Keith's Alley is also a lurking place for the votaries of crime, and it affords concealment to villains of the most desperate and abandoned character who find comparative security in its foul dens.</p> 
-               <p>In the garret of one of these houses, upon a dark and wintry night, many years ago, were assembled twenty or thirty persons, including both sexes, all colors, and almost every age. The garret was large, and was by no means uncomfortable being perfectly weather tight, well lighted by half a dozen tallow candles, and warmed by a huge, red-hot stove, that stood in the centre. In one corner was the bar, constructed of rough boards behind this, upon wooden shelves, was arranged a motly collection of bottles, decanters and glasses. The delicacies of the bar were dispensed by an Amazon, who responded to the gentle title of "Boy Jack;" this woman was possessed of extraordinary strength and courage-in the science of pugilism she was singularly expert, and it was her boast that she could "whip any man in Ann street!" She was rather a comely female, with a good form and regular features, but shockingly profane and obscene in her conversation. Standing behind the bar, with her arms folded, she awited the calls of her patrons, and contemplated the scene before her with an observing eye.</p> 
-               <p>And <emph>such</emph> a scene! Hogarth would have been in extacies, and Cruikshank gone wild with delight. Small deal tables were scattered about, surrounded by various groups:-at one, a huge negro was playing "penny bluff" with a small half-starved white boy, who was risking the few pennies he had gained by selling newspapers, in the hope of increasing his scanty store; at another, a bloated old prostitute, in a state of maudlin intoxication, was sipping vile gin from a gill measure, hysterically laughing and weeping by turns. At the same table, a miserable, half-naked man was ravenously devouring some cold victuals that he had carried in his hat; while upon a bench close by, lay a man, <emph>without legs or arms!</emph> This unfortunate person had been, all his life, a most desperate drunkard; and one winter's night he was so severely frozen, on his way home from a rum-shop, that all his limbs had to be amputated, to save his life, and he was left a miserable and helpless cripple. His poor wife was dead; but he had a daughter, who at the time we speak of, was fourteen years of age. The father, cripple as he was, still retained his appetite for strong drink. He gained a precarious subsistence by begging, being drawn through the streets by his daughter, in a little cart. Having no home, he and his poor child found an occasional shelter in the dens of Keith's Alley. Often, when the wretch of a father had spent his last penny for rum, they passed the long winter's night beneath some shed or out-house-the cripple lying in his cart in a state of drunken stupefaction, and the poor girl shivering in a corner of the desolate building!</p> 
-               <p>She had been often urged by benevolent people to suffer her father to be carried to the Alms House, in which case she could have secured a home in some respectable family, as a domestic. She would have embraced the kind offer with thankfulness, but her father would not consent to the arrangement; he cursed her fiercely for suggesting it, saying that he could get no rum at the Alms-House, and declaring that he would die sooner than go there! Poor Jane (such was the daughter's name,) would not permit him to be sent against his will; and she faithfully remained with him, through every hardship and peril, with a beauty of filial devotion as rare as it was touching.</p> 
-                
-               <p>The father was of course dependent upon her for everything; she placed the food in his mouth-she raised him, and laid him down. He was more helpless than a new-born babe; and yet more savage and vindictive than the worst ruffian in Ann street. When his anger was aroused against his child, he would curse her with fearful bitterness, and eye her with savage malignity-his teeth gnashing with impatience at the impotence of his wrath; at such times, it seemed that, had he but the power, he would have murdered his hapless child!</p> 
-               <p>Upon the night to which we referred at the opening of our present narrative, John Carr, (the cripple,) having begged a shilling or two during the day, had requested to be conveyed to Boy Jack's <emph>crib,</emph> (the name of a thieves' den,) where he soon drank himself insensible, in copious draughts of the poisonous liquor. He was then stretched upon the bench and left alone in his helpless misery. <emph>Alone,</emph> did we say? not so; for near him sat a pale and young girl, thinly clad; it was his daughter. She was pretty, and had a very meek and patient look; her dress consisted of an old, faded gown of calico, and a miserable straw bonnet. And there she sat, hour after hour, waiting for day to break, and her wretched parent to awaken from his beastly lethargy-then to commence their weary pilgrimage. Why did she remain there, in her purity and innocence, among that ghastly crew, whose touch was pollution, and whose every thought a crime? Why did she not fly from the accursed den, as from a charnel-house, and seek a refuge in the arms of virtuous benevolence? Because that bloated thing beside her was her <emph>father</emph>-a holy link that bound her to him through all the horrors of his loathsome career. She would not leave him.</p> 
-               <p>It was past midnight when the cripple awoke; he called to his daughter-</p> 
-               <p>"Jane, raise me up, and get me a gill of gin, for I'm d-ably dry!"</p> 
-               <p>Jane carefully and tenderly raised him up, and propped him against the wall,-and said, timidly-</p> 
-               <p>"The money is spent, father, and-"</p> 
-               <p>"The money spent, hussy? You lie! You have been <emph>eating,</emph> I know you have, and paying for it-curses on you!"</p> 
-               <p>"Father, there were but two pennies left, and I was faint and hungry, for you know I had no food to-day; so I ventured to buy two penny rolls. See, I have saved one for <emph>you,</emph> dear-do eat it!"</p> 
-               <p>She held it to his mouth, but he only frowned upon her savagely.</p> 
-               <p>"How dare you buy such trash, when the money would have bought me a gill! Come here-let me whisper to you."</p> 
-               <p>With some hesitation, she inclined her ear to his mouth. With a rapid jerk he caught the ear between his teeth, and bit it till the blood came! She screamed with pain, and said, piteously-</p> 
-               <p>"Father, how you have hurt me!"</p> 
-               <p>"I <emph>meant</emph> to, d- you!" growled the brute. And he laughed horribly.</p> 
-               <p>"You think, blast you, that because I am a cripple, you can do as you please, and stuff that maw of yours while I am dying for a drink. Yes, you join all the rest of the world in persecuting me! But, ha! ha! although I cannot <emph>beat</emph> you I can <emph>bite</emph> you! May eternal--"</p> 
-               <p>The ruffian here pronounced a dreadful curse upon his child, who answered not, but wept in silence.</p> 
-               <p>Meanwhile, the big negro had "broke" the little white boy, with whom he had been playing "penny bluff,"-that is, had won all his money from him. The boy, probably with good reason, accused the negro of cheating him; whereupon the latter seized him, and beat him cruelly, until Boy Jack rushed forward, and with a<pb n="10-11" xml:id="VAC8040-00000004"/> blow of her fist knocked the negro down. She then ordered the miserable white lad to quit the garret, saying-</p> 
-               <p>"Clear out, young fellow-if you've lost all your money, you've no business here."</p> 
-               <p>The boy sneaked out, and the negro ensured <emph>his</emph> welcome by immediately purchasing a gill, at the bar. Just as he had disposed of his cheap and agreeable refreshment, the attention of all present was attracted by the scream of poor Julia Carr, writhing under the pain of the injury inflicted by her brutal father. The negro went forward to ascertain the cause of the disturbance. Upon learning, from the lips of Carr himself the nature of the "offence" the daughter had been guilty of, the negro looked at her for a moment with a villainous grin, and whispered in the ear of her parent, for some time.</p> 
-               <p>The result of this conference was, that he (the negro) drew from his pocket several small pieces of silver, which he placed in the <emph>mouth</emph> of the cripple; he then procured half a pint of gin at the bar, which he carefully poured down the throat of Carr, who after draining the last drop, rolled over on the bench, and resumed his beastly lethargy-'twere profane to call it <emph>sleep.</emph> And now, Heaven help thee, Jane! the lamb, in the clutches of the ravenous wolf, has a better chance for mercy than thou, in the power of that black and hellish ruffian! He sits down beside her, and whispers in her ear words of hideous import; he throws his villain's arm around her shrinking and trembling form, and glues his vile lips to her's, in a villain's kiss! She struggles, and shrieks for help, and is answered by roars of laughter, and words of mockery, from the infernal throng that huddle around the tables! Boy Jack shook her fat sides with merriment; and pointing to a small room partitioned off from the garret, requested the negro to occupy it, with his intended victim. Guinea Bill, (the negro) lost no time in complying with this hint; taking Jane forcibly in his arms, he carried her into the room, and fastened the door. Shriek after shriek did the poor child utter, in the agony of her terror: but thank God! she is saved. The garret is entered by two athletic young men, who lose no time in kicking open the door of Guinea Bill's retreat. They are just in time-another moment, and they would have been too late!</p> 
-               <p>"Why, you infernal black viper!" exclaimed one of the young men, administering a well-directed blow upon the negro's countenance-"what are you here with this child for? Away with you, or by the gods I'll split that baboon skull of yours as I would a cocoa-nut!"</p> 
-               <p>The negro drew a rigger's knife from his belt, and aimed a vigorous blow at the heart of his opponent. He was immediately knocked down with a chair, by the other youth, who saw the movement in time. The strangers with little Jane, emerged into the garret, leaving Guinea Bill bleeding and insensible upon the floor of the room.</p> 
-               <p>Boy Jack now came forward, and appeared to recognize the strangers; she dropped a profound courtesy, and her manner towards them instantly became highly respectful.</p> 
-               <p>"You do me great honor, Captain, by entering my poor <emph>crib</emph>-both you and your friend are welcome," said she.</p> 
-               <p>"<emph>Slow it,</emph>" said the one she had called the Captain, in a whisper. "We have <emph>cracked a crib,</emph> and the <emph>pigs</emph> are after us, and these <emph>shyse coves</emph> must not <emph>spot</emph> us. Let us have a room, with some good <emph>lush,</emph> where we can <emph>ogle the boodle</emph> and <emph>reg up.</emph>"<note xmlns="http://www.tei-c.org/ns/1.0" xml:id="WRIGHT2-2477-NOTE001" n="*"
-                        place="foot">
-                     <p >These words (London "flash,") literally translated, signify very nearly as follows: "Be careful what you say; we have broken into a house, and the officers are after us, and these loafers must not betray us. Let us have a room, with some good liquor, where we can examine the booty, and divide the spoils."-Jonathan Wild was the originator of "flash," 150 years ago.</p>
+               </p>
+               <p>With these preliminary remarks, we "ring up the curtain," and present the first
+                  scene in our little drama.</p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER I.</head>
+               <argument>
+                  <p>The Flash Crib—"Boy Jack"—a Motley Crew—the Cripple and his Daughter—a scene of
+                     horror, drawn from real life—Guinea Bill—the Rescue—the House Breakers and
+                     their spoils—the Surprise and Escape.</p>
+               </argument>
+               <p>"KEITH'S ALLEY" is the name of a long, narrow and dark passage that runs out of
+                  Ann street in the city of Boston. It leads to various old and crazy wooden
+                  buildings, rotten and<pb n="8-9" xml:id="VAC8040-00000003"/> crumbling with age
+                  and decay. These miserable houses are tenanted by myriads of wretched and starving
+                  poor, including Irish, negroes, and the lowest dregs of a vast city's population.
+                  Keith's Alley is also a lurking place for the votaries of crime, and it affords
+                  concealment to villains of the most desperate and abandoned character who find
+                  comparative security in its foul dens.</p>
+               <p>In the garret of one of these houses, upon a dark and wintry night, many years
+                  ago, were assembled twenty or thirty persons, including both sexes, all colors,
+                  and almost every age. The garret was large, and was by no means uncomfortable
+                  being perfectly weather tight, well lighted by half a dozen tallow candles, and
+                  warmed by a huge, red-hot stove, that stood in the centre. In one corner was the
+                  bar, constructed of rough boards behind this, upon wooden shelves, was arranged a
+                  motly collection of bottles, decanters and glasses. The delicacies of the bar were
+                  dispensed by an Amazon, who responded to the gentle title of "Boy Jack;" this
+                  woman was possessed of extraordinary strength and courage—in the science of
+                  pugilism she was singularly expert, and it was her boast that she could "whip any
+                  man in Ann street!" She was rather a comely female, with a good form and regular
+                  features, but shockingly profane and obscene in her conversation. Standing behind
+                  the bar, with her arms folded, she awited the calls of her patrons, and
+                  contemplated the scene before her with an observing eye.</p>
+               <p>And <emph>such</emph> a scene! Hogarth would have been in extacies, and Cruikshank
+                  gone wild with delight. Small deal tables were scattered about, surrounded by
+                  various groups:—at one, a huge negro was playing "penny bluff" with a small
+                  half-starved white boy, who was risking the few pennies he had gained by selling
+                  newspapers, in the hope of increasing his scanty store; at another, a bloated old
+                  prostitute, in a state of maudlin intoxication, was sipping vile gin from a gill
+                  measure, hysterically laughing and weeping by turns. At the same table, a
+                  miserable, half-naked man was ravenously devouring some cold victuals that he had
+                  carried in his hat; while upon a bench close by, lay a man, <emph>without legs or
+                     arms!</emph> This unfortunate person had been, all his life, a most desperate
+                  drunkard; and one winter's night he was so severely frozen, on his way home from a
+                  rum-shop, that all his limbs had to be amputated, to save his life, and he was
+                  left a miserable and helpless cripple. His poor wife was dead; but he had a
+                  daughter, who at the time we speak of, was fourteen years of age. The father,
+                  cripple as he was, still retained his appetite for strong drink. He gained a
+                  precarious subsistence by begging, being drawn through the streets by his
+                  daughter, in a little cart. Having no home, he and his poor child found an
+                  occasional shelter in the dens of Keith's Alley. Often, when the wretch of a
+                  father had spent his last penny for rum, they passed the long winter's night
+                  beneath some shed or out-house—the cripple lying in his cart in a state of drunken
+                  stupefaction, and the poor girl shivering in a corner of the desolate
+                  building!</p>
+               <p>She had been often urged by benevolent people to suffer her father to be carried
+                  to the Alms House, in which case she could have secured a home in some respectable
+                  family, as a domestic. She would have embraced the kind offer with thankfulness,
+                  but her father would not consent to the arrangement; he cursed her fiercely for
+                  suggesting it, saying that he could get no rum at the Alms-House, and declaring
+                  that he would die sooner than go there! Poor Jane (such was the daughter's name,)
+                  would not permit him to be sent against his will; and she faithfully remained with
+                  him, through every hardship and peril, with a beauty of filial devotion as rare as
+                  it was touching.</p>
+               <p>The father was of course dependent upon her for everything; she placed the food in
+                  his mouth—she raised him, and laid him down. He was more helpless than a new-born
+                  babe; and yet more savage and vindictive than the worst ruffian in Ann street.
+                  When his anger was aroused against his child, he would curse her with fearful
+                  bitterness, and eye her with savage malignity—his teeth gnashing with impatience
+                  at the impotence of his wrath; at such times, it seemed that, had he but the
+                  power, he would have murdered his hapless child!</p>
+               <p>Upon the night to which we referred at the opening of our present narrative, John
+                  Carr, (the cripple,) having begged a shilling or two during the day, had requested
+                  to be conveyed to Boy Jack's <emph>crib,</emph> (the name of a thieves' den,)
+                  where he soon drank himself insensible, in copious draughts of the poisonous
+                  liquor. He was then stretched upon the bench and left alone in his helpless
+                  misery. <emph>Alone,</emph> did we say? not so; for near him sat a pale and young
+                  girl, thinly clad; it was his daughter. She was pretty, and had a very meek and
+                  patient look; her dress consisted of an old, faded gown of calico, and a miserable
+                  straw bonnet. And there she sat, hour after hour, waiting for day to break, and
+                  her wretched parent to awaken from his beastly lethargy—then to commence their
+                  weary pilgrimage. Why did she remain there, in her purity and innocence, among
+                  that ghastly crew, whose touch was pollution, and whose every thought a crime? Why
+                  did she not fly from the accursed den, as from a charnel-house, and seek a refuge
+                  in the arms of virtuous benevolence? Because that bloated thing beside her was her
+                     <emph>father</emph>—a holy link that bound her to him through all the horrors
+                  of his loathsome career. She would not leave him.</p>
+               <p>It was past midnight when the cripple awoke; he called to his daughter—</p>
+               <p>"Jane, raise me up, and get me a gill of gin, for I'm d—ably dry!"</p>
+               <p>Jane carefully and tenderly raised him up, and propped him against the wall,—and
+                  said, timidly—</p>
+               <p>"The money is spent, father, and—"</p>
+               <p>"The money spent, hussy? You lie! You have been <emph>eating,</emph> I know you
+                  have, and paying for it—curses on you!"</p>
+               <p>"Father, there were but two pennies left, and I was faint and hungry, for you know
+                  I had no food to-day; so I ventured to buy two penny rolls. See, I have saved one
+                  for <emph>you,</emph> dear—do eat it!"</p>
+               <p>She held it to his mouth, but he only frowned upon her savagely.</p>
+               <p>"How dare you buy such trash, when the money would have bought me a gill! Come
+                  here—let me whisper to you."</p>
+               <p>With some hesitation, she inclined her ear to his mouth. With a rapid jerk he
+                  caught the ear between his teeth, and bit it till the blood came! She screamed
+                  with pain, and said, piteously—</p>
+               <p>"Father, how you have hurt me!"</p>
+               <p>"I <emph>meant</emph> to, d— you!" growled the brute. And he laughed horribly.</p>
+               <p>"You think, blast you, that because I am a cripple, you can do as you please, and
+                  stuff that maw of yours while I am dying for a drink. Yes, you join all the rest
+                  of the world in persecuting me! But, ha! ha! although I cannot <emph>beat</emph>
+                  you I can <emph>bite</emph> you! May eternal——"</p>
+               <p>The ruffian here pronounced a dreadful curse upon his child, who answered not, but
+                  wept in silence.</p>
+               <p>Meanwhile, the big negro had "broke" the little white boy, with whom he had been
+                  playing "penny bluff,"—that is, had won all his money from him. The boy, probably
+                  with good reason, accused the negro of cheating him; whereupon the latter seized
+                  him, and beat him cruelly, until Boy Jack rushed forward, and with a<pb n="10-11"
+                     xml:id="VAC8040-00000004"/> blow of her fist knocked the negro down. She then
+                  ordered the miserable white lad to quit the garret, saying—</p>
+               <p>"Clear out, young fellow—if you've lost all your money, you've no business
+                  here."</p>
+               <p>The boy sneaked out, and the negro ensured <emph>his</emph> welcome by immediately
+                  purchasing a gill, at the bar. Just as he had disposed of his cheap and agreeable
+                  refreshment, the attention of all present was attracted by the scream of poor
+                  Julia Carr, writhing under the pain of the injury inflicted by her brutal father.
+                  The negro went forward to ascertain the cause of the disturbance. Upon learning,
+                  from the lips of Carr himself the nature of the "offence" the daughter had been
+                  guilty of, the negro looked at her for a moment with a villainous grin, and
+                  whispered in the ear of her parent, for some time.</p>
+               <p>The result of this conference was, that he (the negro) drew from his pocket
+                  several small pieces of silver, which he placed in the <emph>mouth</emph> of the
+                  cripple; he then procured half a pint of gin at the bar, which he carefully poured
+                  down the throat of Carr, who after draining the last drop, rolled over on the
+                  bench, and resumed his beastly lethargy—'twere profane to call it
+                     <emph>sleep.</emph> And now, Heaven help thee, Jane! the lamb, in the clutches
+                  of the ravenous wolf, has a better chance for mercy than thou, in the power of
+                  that black and hellish ruffian! He sits down beside her, and whispers in her ear
+                  words of hideous import; he throws his villain's arm around her shrinking and
+                  trembling form, and glues his vile lips to her's, in a villain's kiss! She
+                  struggles, and shrieks for help, and is answered by roars of laughter, and words
+                  of mockery, from the infernal throng that huddle around the tables! Boy Jack shook
+                  her fat sides with merriment; and pointing to a small room partitioned off from
+                  the garret, requested the negro to occupy it, with his intended victim. Guinea
+                  Bill, (the negro) lost no time in complying with this hint; taking Jane forcibly
+                  in his arms, he carried her into the room, and fastened the door. Shriek after
+                  shriek did the poor child utter, in the agony of her terror: but thank God! she is
+                  saved. The garret is entered by two athletic young men, who lose no time in
+                  kicking open the door of Guinea Bill's retreat. They are just in time—another
+                  moment, and they would have been too late!</p>
+               <p>"Why, you infernal black viper!" exclaimed one of the young men, administering a
+                  well-directed blow upon the negro's countenance—"what are you here with this child
+                  for? Away with you, or by the gods I'll split that baboon skull of yours as I
+                  would a cocoa-nut!"</p>
+               <p>The negro drew a rigger's knife from his belt, and aimed a vigorous blow at the
+                  heart of his opponent. He was immediately knocked down with a chair, by the other
+                  youth, who saw the movement in time. The strangers with little Jane, emerged into
+                  the garret, leaving Guinea Bill bleeding and insensible upon the floor of the
+                  room.</p>
+               <p>Boy Jack now came forward, and appeared to recognize the strangers; she dropped a
+                  profound courtesy, and her manner towards them instantly became highly
+                  respectful.</p>
+               <p>"You do me great honor, Captain, by entering my poor <emph>crib</emph>—both you
+                  and your friend are welcome," said she.</p>
+               <p>"<emph>Slow it,</emph>" said the one she had called the Captain, in a whisper. "We
+                  have <emph>cracked a crib,</emph> and the <emph>pigs</emph> are after us, and
+                  these <emph>shyse coves</emph> must not <emph>spot</emph> us. Let us have a room,
+                  with some good <emph>lush,</emph> where we can <emph>ogle the boodle</emph> and
+                     <emph>reg up.</emph>"<ref rend="super" target="#note_001" xml:id="return_001"
+                     >*</ref>
+                  
+               </p><note place="foot" xml:id="note_001">
+                     
+                     <p><ref target="#return_001">*</ref>These words (London "flash,") literally translated, signify very nearly as
+                        follows: "Be careful what you say; we have broken into a house, and the
+                        officers are after us, and these loafers must not betray us. Let us have a
+                        room, with some good liquor, where we can examine the booty, and divide the
+                        spoils."—Jonathan Wild was the originator of "flash," 150 years ago.</p>
                   </note>
-               </p> 
-                
-               <p>These cabalistic words were easily comprehended by the talented lady to whom they were addressed. She immediately conducted the two strangers to a room beneath, not badly furnished. Upon the table she placed a bottle of liquor, which she assured them was excellent. She then left them alone together, promising to have an eye to the safety of little Jane, and to see that she was not further molested by any one.</p> 
-               <p>The person whom she had called Captain, seated himself at the table, after throwing off his coarse overcoat. His other attire was rich and elegant, of the finest material, and fashionably made. He appeared to be about twenty-five years of age; he was of a tall figure, well-built, muscular and symmetrical. His features were decidedly handsome-not the less so for an expression of bold, reckless daring that pervaded them. His noble brow was indicative of intellectual powers of a high order; in short, his entire appearance was that of a gentleman.</p> 
-               <p>His companion was a short, thickset person, seemingly of about the same age. His dress was plain, and his features, though neither regular nor handsome, were rather prepossessing, and expressive of determination and courage. He treated the Captain with a degree of deference, evincing that whatever might be the nature of their pursuits, his position was inferior to that of the other. He deliberately drew forth from the pockets of his overcoat, and placed upon the table a brace of pistols; and then filled and drank off a glass of liquor, with evident satisfaction and relish.</p> 
-               <p>"Produce the booty, Tom," said the Captain, abandoning the <emph>flash,</emph> as unnecessary, when alone with his companion.</p> 
-               <p>"Ay, ay, sir," responded Tom; and he forthwith proceeded to bring forth from the depths of his capacious pockets, various articles of value: a superb gold repeater, with a massive chain attached; a gold locket, containing a miniature; a diamond pin, of prodigious value; numerous rings, bracelets necklaces, &amp;c. Last and greatest of all, Tom produced a purse stuffed full of gold coins, and a pocket-book equally corpulent with bank bills. The Captain regarded all this wealth with surprising indifference, excepting the miniature, which he examined very attentively. It was the portrait of a young lady, of surpassing beauty.</p> 
-               <p>"What a divine creature!" he said, half aloud-"and by all that's sacred. I will almost swear that I have seen the original of this picture somewhere! 'Tis very strange."*   *   *</p> 
-               <p>He sat for some time in abstracted contemplation of the portrait, while Tom busied himself in dividing the money into two equal shares. Suddenly, the door opened, and Boy Jack rushed in, her face pale with alarm saying-</p> 
-               <p>"Shoot the pit, lads-the hounds are out! Guinea Bill has betrayed you!"</p> 
-               <p>At that instant the noise of many feet was heard ascending the stairs; Tom instantly thrust the money and jewelry into his pocket, and grasping a pistol, rushed to the door and locked it. Boy Jack threw up a window, and the Captain, seizing the remaining weapon, prepared to make a desperate leap, followed by Tom. At a distance of fifteen feet beneath the window, was the roof of an adjoining building.-"Tom, follow me!" "Ay, ay, Captain!" They both leaped, and landed in safety upon the roof below, just as the officers had begun to break down the door. They rushed in, but too late-the birds had flown.</p> 
-            </div> 
-            <div type="chapter"> 
-               <pb n="12-13" xml:id="VAC8040-00000005"/> 
-               <head>CHAPTER II.</head> 
-               <argument> 
-                  <p>The Burglar's Home, and Mistress-A tale of Wrong-Death of the Cripple-the Saint and Sinner-the Burglary-a tom-cat's sagacity-and various other matters of interest to the reader.</p> 
-               </argument> 
-               <p>The Captain and Tom Maddox gained the street in safety. It was now near day-break; and they hastened towards their place of residence.-They entered a house of genteel appearance in Prince street, by means of a night-key-and separating in the hall, Tom sought his chamber below stairs, while the Captain ascended to his, in the second story. He paused before a door, and knocked softly; in a few moments, the door was cautiously opened, and he was admitted. A pair of soft white arms were thrown around him, and a voice murmured-</p> 
-               <p>"Dear Harry, how glad I am that you have returned in safety!"</p> 
-               <p>The chamber was luxuriously furnished, but contained a large number of very singular articles: upon the wall hung every implement used by house breakers in their lawless calling-false and skeleton keys, (in flash termed <emph>dubs,</emph>) dark lanterns, (<emph>glims,</emph>) small iron crow-bars, (<emph>London jimmies,</emph>) and various othor articles peculiar to the "profession." A profusion of fashionable female clothing lay about, with wigs, false hair, curls, &amp;c. The uses to which these things were put shall be hereafter explained.</p> 
-               <p>"Yes, dear Anna," said the Captain, returning her ardent embrace, and then beginning to draw off his boots-"I have not only returned in safety, but have come off with a splendid booty. Yet I am sick of this wretched life-and when I have accumulated money enough to be independent, I shall quit it forever! We will purchase some little cottage, Anna, far away from this accursed city, and pass the rest of our lives in peace, quiet, and repentance for the past."</p> 
-               <p>Anna was a woman of noble appearance, and great beauty. Her form was the most seductive, her bust the most distracting, and her eyes the most passionate, that ever graced woman. And both form and bust, could never have been viewed with greater advantage, than at the moment of her first introduction to the reader. A very slight <foreign xml:lang="FRA">dishabille</foreign> revealed, not concealed her beauties.</p> 
-               <p>The Captain was soon in the arms of Morpheus-but not until other arms had twined around him, in a more ardent embrace than the sleepy deity bestows.</p> 
-               <p>It is now time that we present our characters in due form. The Captain's real name was HENRY STUART. His parents had died, leaving a large fortune to be divided between Henry and a younger sister-their only children.-The property was placed in charge of a person, in whom Mr. Stuart had every confidence; yet this person had proved himself a villain-for by some trickery or other, he had seized upon the orphans' substance and had left them penniless! The little girl he placed in a respectable and wealthy family, who adopted her as a daughter; but Henry, whom he had always hated for his independence of spirit, he turned out of doors! In vain did the poor youth seek redress; in vain did he implore the villain who had wronged him to grant him the merest trifle to keep him from starving; he was driven with curses from the door. To add to his misfortunes, he knew not what had become of his sister; all his inquiries and searchings for her had been without avail. In the thickly populated city of Boston such a search was indeed hopeless, particularly as every precaution was taken by his villainous guardian, to keep all knowledge of his sister's residence, from him.</p> 
-               <p>Henry had sworn to be revenged on this wretch, (Roberts by name, a <emph>lawyer!</emph>) who had robbed him of his rights, and was then enjoying his wealth, and also his sister's. He waited patiently for the time to arrive, when he might consummate his vengeance.</p> 
-               <p>Five years had passed away, and Henry Stuart became the leader, or Captain, of a regularly organised band of house-breakers. The gang consisted of twenty, and Tom Maddox filled the station of a first lieutenant. They held their meetings at certain secure places, where they divided all the spoils, arranged plans for future depredations, and transacted all <emph>necessary business.</emph> We shall afford the reader an opportunity of being present, at one of these meetings, in due season.</p> 
-               <p>The woman whom we have introduced as Anna, had deserted a good home and attached herself to the fallen and desperate fortunes of Henry Stuart, out of one of those romantic attachments that often spring up under the most unfavorable circumstances. She ostensibly became his mistress; and being an accomplished and talented woman, not overburdened with scruples of conscience, she used to practice a very ingenious fraud upon jewelers and tradesmen which we shall describe hereafter.</p> 
-               <p>Having made these explanations, we take up the thread of our narrative.</p> 
-               <p>A few nights after the events lastalluded to, the Captain and Tom Maddox issued from the house in Prince street, about ten o'clock, evidently bound on some secret business. They were both disguised, and had the appearance of ordinary laboring men.-Turning into Hanover street, they perceived a small crowd collected on a corner; they stopped to inquire the reason, and learned that a man had been frozen to death. They made their way through the crowd, and found a girl weeping bitterly over something in a small waggon. It was poor Jane Carr, weeping over her dead father.</p> 
-               <p>It was just as might have been expected. It was fortunate for the poor child, too-for his fate might have been hers, had she lived that wretched life much longer. But oh! touching grief! faithful to the last, she is the only one that mourns for the dead!</p> 
-               <p>And now they take her forcibly away, and drag the waggon with its ghastly freight to the Dead House, to await the coroner's investigation. Some one took poor Jane by the arm, and suggested "that perhaps it would be as well to lodge her in the watch-house as a vagrant."</p> 
-               <p>The individual who made this benevolent proposition, was a holy man wearing broadcloth, and a white new cloth.</p> 
-               <p>"Sure, sir, ye wouldn't put the poor child in jail? I'm an honest man, and faith she shall stop with my children at home, till she can find a better one!"</p> 
-               <p>The person who made these last remarks, was a sinner, in cow-hide boots, and delapidated castor. He had, however, what the saint had not-A HEART.</p> 
-               <p>Harry Stuart stepped forward, asked the laborer where he lived, and squeezed a $5 gold piece into his hand, saying-</p> 
-               <p>"Take care of that young girl, good man, and I will see you in a day or two, and pay you well for your trouble."</p> 
-               <p>The man promised to do so, and led Jane to his humble but hospitable home. The Rev. saint strutted off, muttering something about the impudence of the lower orders. The crowd dispersed, and the Captain and Tom resumed their course up Hanover street.</p> 
-               <p>It was now eleven o'clock, and snowing violently. The streets were almost entirely deserted; yet a cheerful, ruddy light streamed from the windows of many an oyster saloon and bar-room on their way. They turned into Court street, and kept on until they were within a short distance of the Common.<pb n="14-15" xml:id="VAC8040-00000006"/> Here they paused, and the Captain, pointing to an elegant building opposite, whispered to his companion-</p> 
-               <p>"Tom, do you see that splendid pile over there, its door guarded by two lions, sculptured in granite? That house is MINE!-But go and read the silver door plate, and you will find engraved upon it the name of one ROBERTS; now should I knock there, and crave a lodging this stormy night-in my own house, mind you-that thrice damn'd villian would order his vilest menial to thrust me from the door. Oh, Tom!" he continued, bitterly, "you have often wondered that I, with my talents and education, should be a house breaker-but my wrongs have driven me to it! That saintly villain-for he is a <emph>church member,</emph> Tom!-who now reposes in yonder luxurious mansion, upon a couch of down, shall feel my vengeance-shall restore my sister-shall give back that stolen wealth. We must <emph>crack that crib</emph> to-night Tom."</p> 
-               <p>"Very good, sir," replied the other-"it looks like a good job."</p> 
-               <p>"Hark-the clock is striking twelve; it is time to begin work." Saying this, the Captain led the way to the rear of the house, where a stout oak door, set in a massive stone wall, of great height, communicated with the garden. This door was firmly locked and fastened. Tom produced a <emph>brace and bit</emph> from his pocket, and went to work in an expeditious and highly scientific manner; in two minutes he had bored a hole through the door, large enough to admit his hand;-by this means he removed the inside fastening, and in three minutes more he had adapted a skeleton key to the lock, and opened the door! Jack Sheppard himself, that prince of house breakers, could not have done it better. Entering the garden, they closed the door, and fastened it, and then advanced to the house. At this moment a huge bull-dog rushed upon them, with a savage growl; the Captain spoke one word, and the animal recognizing him, began to manifest the most extravagant delight, by jumping on him, licking his hand, &amp;c. The dog had belonged to Henry's father, and had not forgotten the young man, although several years had elapsed since he had seen him.-Ordering the animal to "go and lie down," which was instantly obeyed, our adventurous burglars gained an access into the kitchen of the house, by raising a window; and to their high satisfaction they found a fine fire glowing in an ample grate-for they were by this time quite chilled through.</p> 
-               <p>After warming themselves, Tom Maddox went to a closet, and finding a cold ham, some pastry and a bottle of wine, set these delicacies upon the table, and forwith commenced a vigorous attack upon them. The Captain also partook of the refreshments, and when they had concluded the repast, they proceeded to <emph>business.</emph> Tom lighted a dark lantern, and they both ascended the kitchen stairs and reached the hall above, where the Captain directed his follower to remain while he should explore the upper part of the house. Tom leisurely seated himself upon the carpet while the other having drawn off his boots, mounted the stairs, and, being well acquainted with the plan of the building, found no difficulty in making his way to the particular chamber that he sought.</p> 
-               <p>Mr. Maddox remained for ten minutes or so, in a state of peaceful contemplation of the profound darkness; then he began to think that "this waiting while another does the business, is confoundedly dull." Pretty soon he thought he might as well get up a little amusement on his own account; under this laudable impression, Tom stole softly up stairs, as noiselessly as a cat, and having mounted four flights, found himself prevented from ascending higher, by his head coming in contact with a door, producing rather a loud noise, and creating a considerable bump upon Tom's sagacious head-piece. At the noise, a female voice exclaimed-</p> 
-               <p>"Good gracious! what's that?"</p> 
-               <p>"<emph>Mow-ow!</emph>" said Tom, giving a very correct imitation of a cat.</p> 
-               <p>"It's only that blasted tom-cat!" said a man's voice-"s-c-a-t!"</p> 
-               <p>The <emph>Tom</emph>-cat retreated to the foot of the stairs, and paused to listen.</p> 
-               <p>"I must slip on my clothes and go down, Bridget," continued the same voice, and then followed a disrespectful allusion to a certain saline composition.</p> 
-               <p>The unhappy individual-who was no less a personage than Mr. Tubbs, butler of the establishment, the lady being, of course, his wife-having attired himself with a rapidity that denoted the urgency of the case, bolted precipitately down stairs, passing Tom on the landing, and narrowly escaping being pitched over by the crouched-up form of that humorous intruder. The butler made a hasty exit from the back door, when Tom, who had followed close at his heels, silently locked it, thus effectually shutting the unfortunate Mr. Tubbs out! Mr. Maddox then descended, and fastened the kitchen door-so that, should the butler get in at the window, he could not get out of the kitchen. After waiting for a few minutes, Tom deliberately mounted the stairs, entered the sleeping apartment of Mr. and Mrs. Tubbs, and earned for the butler a reputation for qualities which the last-named gentleman never enjoyed.</p> 
-               <p>We now follow the Captain in <emph>his</emph> adventure. On leaving Tom, he went up one flight of stairs, and traversing a long passage or gallery, felt his way to a door, before which he paused for full ten minutes, listening attentively to catch the faintest sound from within. All was silent, however; he attempted to open the door, but found it locked. Inserting a piece of wire in the keyhole, he ascertained that the key was in the lock, on the inside, and with a pair of <foreign xml:lang="LAT">forceps,</foreign> (a sort of pincers,) he turned the key, and entered the chamber. A lamp was burning dimly upon a table, casting an uncertain and flickering light upon the objects in the room. A luxurious bed occupied one corner, towards which the Captain directed his steps; he silently drew the curtain, and gazed long and fixedly upon the spectacle before him.</p> 
+               <p>These cabalistic words were easily comprehended by the talented lady to whom they
+                  were addressed. She immediately conducted the two strangers to a room beneath, not
+                  badly furnished. Upon the table she placed a bottle of liquor, which she assured
+                  them was excellent. She then left them alone together, promising to have an eye to
+                  the safety of little Jane, and to see that she was not further molested by any
+                  one.</p>
+               <p>The person whom she had called Captain, seated himself at the table, after
+                  throwing off his coarse overcoat. His other attire was rich and elegant, of the
+                  finest material, and fashionably made. He appeared to be about twenty-five years
+                  of age; he was of a tall figure, well-built, muscular and symmetrical. His
+                  features were decidedly handsome—not the less so for an expression of bold,
+                  reckless daring that pervaded them. His noble brow was indicative of intellectual
+                  powers of a high order; in short, his entire appearance was that of a
+                  gentleman.</p>
+               <p>His companion was a short, thickset person, seemingly of about the same age. His
+                  dress was plain, and his features, though neither regular nor handsome, were
+                  rather prepossessing, and expressive of determination and courage. He treated the
+                  Captain with a degree of deference, evincing that whatever might be the nature of
+                  their pursuits, his position was inferior to that of the other. He deliberately
+                  drew forth from the pockets of his overcoat, and placed upon the table a brace of
+                  pistols; and then filled and drank off a glass of liquor, with evident
+                  satisfaction and relish.</p>
+               <p>"Produce the booty, Tom," said the Captain, abandoning the <emph>flash,</emph> as
+                  unnecessary, when alone with his companion.</p>
+               <p>"Ay, ay, sir," responded Tom; and he forthwith proceeded to bring forth from the
+                  depths of his capacious pockets, various articles of value: a superb gold
+                  repeater, with a massive chain attached; a gold locket, containing a miniature; a
+                  diamond pin, of prodigious value; numerous rings, bracelets necklaces, &amp;c.
+                  Last and greatest of all, Tom produced a purse stuffed full of gold coins, and a
+                  pocket-book equally corpulent with bank bills. The Captain regarded all this
+                  wealth with surprising indifference, excepting the miniature, which he examined
+                  very attentively. It was the portrait of a young lady, of surpassing beauty.</p>
+               <p>"What a divine creature!" he said, half aloud—"and by all that's sacred. I will
+                  almost swear that I have seen the original of this picture somewhere! 'Tis very
+                  strange."* * *</p>
+               <p>He sat for some time in abstracted contemplation of the portrait, while Tom busied
+                  himself in dividing the money into two equal shares. Suddenly, the door opened,
+                  and Boy Jack rushed in, her face pale with alarm saying—</p>
+               <p>"Shoot the pit, lads—the hounds are out! Guinea Bill has betrayed you!"</p>
+               <p>At that instant the noise of many feet was heard ascending the stairs; Tom
+                  instantly thrust the money and jewelry into his pocket, and grasping a pistol,
+                  rushed to the door and locked it. Boy Jack threw up a window, and the Captain,
+                  seizing the remaining weapon, prepared to make a desperate leap, followed by Tom.
+                  At a distance of fifteen feet beneath the window, was the roof of an adjoining
+                  building.—"Tom, follow me!" "Ay, ay, Captain!" They both leaped, and landed in
+                  safety upon the roof below, just as the officers had begun to break down the door.
+                  They rushed in, but too late—the birds had flown.</p>
+            </div>
+            <div type="chapter">
+               <pb n="12-13" xml:id="VAC8040-00000005"/>
+               <head>CHAPTER II.</head>
+               <argument>
+                  <p>The Burglar's Home, and Mistress—A tale of Wrong—Death of the Cripple—the Saint
+                     and Sinner—the Burglary—a tom-cat's sagacity—and various other matters of
+                     interest to the reader.</p>
+               </argument>
+               <p>The Captain and Tom Maddox gained the street in safety. It was now near day-break;
+                  and they hastened towards their place of residence.—They entered a house of
+                  genteel appearance in Prince street, by means of a night-key—and separating in the
+                  hall, Tom sought his chamber below stairs, while the Captain ascended to his, in
+                  the second story. He paused before a door, and knocked softly; in a few moments,
+                  the door was cautiously opened, and he was admitted. A pair of soft white arms
+                  were thrown around him, and a voice murmured—</p>
+               <p>"Dear Harry, how glad I am that you have returned in safety!"</p>
+               <p>The chamber was luxuriously furnished, but contained a large number of very
+                  singular articles: upon the wall hung every implement used by house breakers in
+                  their lawless calling—false and skeleton keys, (in flash termed
+                  <emph>dubs,</emph>) dark lanterns, (<emph>glims,</emph>) small iron crow-bars,
+                     (<emph>London jimmies,</emph>) and various othor articles peculiar to the
+                  "profession." A profusion of fashionable female clothing lay about, with wigs,
+                  false hair, curls, &amp;c. The uses to which these things were put shall be
+                  hereafter explained.</p>
+               <p>"Yes, dear Anna," said the Captain, returning her ardent embrace, and then
+                  beginning to draw off his boots—"I have not only returned in safety, but have come
+                  off with a splendid booty. Yet I am sick of this wretched life—and when I have
+                  accumulated money enough to be independent, I shall quit it forever! We will
+                  purchase some little cottage, Anna, far away from this accursed city, and pass the
+                  rest of our lives in peace, quiet, and repentance for the past."</p>
+               <p>Anna was a woman of noble appearance, and great beauty. Her form was the most
+                  seductive, her bust the most distracting, and her eyes the most passionate, that
+                  ever graced woman. And both form and bust, could never have been viewed with
+                  greater advantage, than at the moment of her first introduction to the reader. A
+                  very slight <foreign xml:lang="FRA">dishabille</foreign> revealed, not concealed
+                  her beauties.</p>
+               <p>The Captain was soon in the arms of Morpheus—but not until other arms had twined
+                  around him, in a more ardent embrace than the sleepy deity bestows.</p>
+               <p>It is now time that we present our characters in due form. The Captain's real name
+                  was HENRY STUART. His parents had died, leaving a large fortune to be divided
+                  between Henry and a younger sister—their only children.—The property was placed in
+                  charge of a person, in whom Mr. Stuart had every confidence; yet this person had
+                  proved himself a villain—for by some trickery or other, he had seized upon the
+                  orphans' substance and had left them penniless! The little girl he placed in a
+                  respectable and wealthy family, who adopted her as a daughter; but Henry, whom he
+                  had always hated for his independence of spirit, he turned out of doors! In vain
+                  did the poor youth seek redress; in vain did he implore the villain who had
+                  wronged him to grant him the merest trifle to keep him from starving; he was
+                  driven with curses from the door. To add to his misfortunes, he knew not what had
+                  become of his sister; all his inquiries and searchings for her had been without
+                  avail. In the thickly populated city of Boston such a search was indeed hopeless,
+                  particularly as every precaution was taken by his villainous guardian, to keep all
+                  knowledge of his sister's residence, from him.</p>
+               <p>Henry had sworn to be revenged on this wretch, (Roberts by name, a
+                     <emph>lawyer!</emph>) who had robbed him of his rights, and was then enjoying
+                  his wealth, and also his sister's. He waited patiently for the time to arrive,
+                  when he might consummate his vengeance.</p>
+               <p>Five years had passed away, and Henry Stuart became the leader, or Captain, of a
+                  regularly organised band of house-breakers. The gang consisted of twenty, and Tom
+                  Maddox filled the station of a first lieutenant. They held their meetings at
+                  certain secure places, where they divided all the spoils, arranged plans for
+                  future depredations, and transacted all <emph>necessary business.</emph> We shall
+                  afford the reader an opportunity of being present, at one of these meetings, in
+                  due season.</p>
+               <p>The woman whom we have introduced as Anna, had deserted a good home and attached
+                  herself to the fallen and desperate fortunes of Henry Stuart, out of one of those
+                  romantic attachments that often spring up under the most unfavorable
+                  circumstances. She ostensibly became his mistress; and being an accomplished and
+                  talented woman, not overburdened with scruples of conscience, she used to practice
+                  a very ingenious fraud upon jewelers and tradesmen which we shall describe
+                  hereafter.</p>
+               <p>Having made these explanations, we take up the thread of our narrative.</p>
+               <p>A few nights after the events lastalluded to, the Captain and Tom Maddox issued
+                  from the house in Prince street, about ten o'clock, evidently bound on some secret
+                  business. They were both disguised, and had the appearance of ordinary laboring
+                  men.—Turning into Hanover street, they perceived a small crowd collected on a
+                  corner; they stopped to inquire the reason, and learned that a man had been frozen
+                  to death. They made their way through the crowd, and found a girl weeping bitterly
+                  over something in a small waggon. It was poor Jane Carr, weeping over her dead
+                  father.</p>
+               <p>It was just as might have been expected. It was fortunate for the poor child,
+                  too—for his fate might have been hers, had she lived that wretched life much
+                  longer. But oh! touching grief! faithful to the last, she is the only one that
+                  mourns for the dead!</p>
+               <p>And now they take her forcibly away, and drag the waggon with its ghastly freight
+                  to the Dead House, to await the coroner's investigation. Some one took poor Jane
+                  by the arm, and suggested "that perhaps it would be as well to lodge her in the
+                  watch-house as a vagrant."</p>
+               <p>The individual who made this benevolent proposition, was a holy man wearing
+                  broadcloth, and a white new cloth.</p>
+               <p>"Sure, sir, ye wouldn't put the poor child in jail? I'm an honest man, and faith
+                  she shall stop with my children at home, till she can find a better one!"</p>
+               <p>The person who made these last remarks, was a sinner, in cow-hide boots, and
+                  delapidated castor. He had, however, what the saint had not—A HEART.</p>
+               <p>Harry Stuart stepped forward, asked the laborer where he lived, and squeezed a $5
+                  gold piece into his hand, saying—</p>
+               <p>"Take care of that young girl, good man, and I will see you in a day or two, and
+                  pay you well for your trouble."</p>
+               <p>The man promised to do so, and led Jane to his humble but hospitable home. The
+                  Rev. saint strutted off, muttering something about the impudence of the lower
+                  orders. The crowd dispersed, and the Captain and Tom resumed their course up
+                  Hanover street.</p>
+               <p>It was now eleven o'clock, and snowing violently. The streets were almost entirely
+                  deserted; yet a cheerful, ruddy light streamed from the windows of many an oyster
+                  saloon and bar-room on their way. They turned into Court street, and kept on until
+                  they were within a short distance of the Common.<pb n="14-15"
+                     xml:id="VAC8040-00000006"/> Here they paused, and the Captain, pointing to an
+                  elegant building opposite, whispered to his companion—</p>
+               <p>"Tom, do you see that splendid pile over there, its door guarded by two lions,
+                  sculptured in granite? That house is MINE!—But go and read the silver door plate,
+                  and you will find engraved upon it the name of one ROBERTS; now should I knock
+                  there, and crave a lodging this stormy night—in my own house, mind you—that thrice
+                  damn'd villian would order his vilest menial to thrust me from the door. Oh, Tom!"
+                  he continued, bitterly, "you have often wondered that I, with my talents and
+                  education, should be a house breaker—but my wrongs have driven me to it! That
+                  saintly villain—for he is a <emph>church member,</emph> Tom!—who now reposes in
+                  yonder luxurious mansion, upon a couch of down, shall feel my vengeance—shall
+                  restore my sister—shall give back that stolen wealth. We must <emph>crack that
+                     crib</emph> to-night Tom."</p>
+               <p>"Very good, sir," replied the other—"it looks like a good job."</p>
+               <p>"Hark—the clock is striking twelve; it is time to begin work." Saying this, the
+                  Captain led the way to the rear of the house, where a stout oak door, set in a
+                  massive stone wall, of great height, communicated with the garden. This door was
+                  firmly locked and fastened. Tom produced a <emph>brace and bit</emph> from his
+                  pocket, and went to work in an expeditious and highly scientific manner; in two
+                  minutes he had bored a hole through the door, large enough to admit his hand;—by
+                  this means he removed the inside fastening, and in three minutes more he had
+                  adapted a skeleton key to the lock, and opened the door! Jack Sheppard himself,
+                  that prince of house breakers, could not have done it better. Entering the garden,
+                  they closed the door, and fastened it, and then advanced to the house. At this
+                  moment a huge bull-dog rushed upon them, with a savage growl; the Captain spoke
+                  one word, and the animal recognizing him, began to manifest the most extravagant
+                  delight, by jumping on him, licking his hand, &amp;c. The dog had belonged to
+                  Henry's father, and had not forgotten the young man, although several years had
+                  elapsed since he had seen him.—Ordering the animal to "go and lie down," which was
+                  instantly obeyed, our adventurous burglars gained an access into the kitchen of
+                  the house, by raising a window; and to their high satisfaction they found a fine
+                  fire glowing in an ample grate—for they were by this time quite chilled
+                  through.</p>
+               <p>After warming themselves, Tom Maddox went to a closet, and finding a cold ham,
+                  some pastry and a bottle of wine, set these delicacies upon the table, and forwith
+                  commenced a vigorous attack upon them. The Captain also partook of the
+                  refreshments, and when they had concluded the repast, they proceeded to
+                     <emph>business.</emph> Tom lighted a dark lantern, and they both ascended the
+                  kitchen stairs and reached the hall above, where the Captain directed his follower
+                  to remain while he should explore the upper part of the house. Tom leisurely
+                  seated himself upon the carpet while the other having drawn off his boots, mounted
+                  the stairs, and, being well acquainted with the plan of the building, found no
+                  difficulty in making his way to the particular chamber that he sought.</p>
+               <p>Mr. Maddox remained for ten minutes or so, in a state of peaceful contemplation of
+                  the profound darkness; then he began to think that "this waiting while another
+                  does the business, is confoundedly dull." Pretty soon he thought he might as well
+                  get up a little amusement on his own account; under this laudable impression, Tom
+                  stole softly up stairs, as noiselessly as a cat, and having mounted four flights,
+                  found himself prevented from ascending higher, by his head coming in contact with
+                  a door, producing rather a loud noise, and creating a considerable bump upon Tom's
+                  sagacious head-piece. At the noise, a female voice exclaimed—</p>
+               <p>"Good gracious! what's that?"</p>
+               <p>"<emph>Mow-ow!</emph>" said Tom, giving a very correct imitation of a cat.</p>
+               <p>"It's only that blasted tom-cat!" said a man's voice—"s-c-a-t!"</p>
+               <p>The <emph>Tom</emph>-cat retreated to the foot of the stairs, and paused to
+                  listen.</p>
+               <p>"I must slip on my clothes and go down, Bridget," continued the same voice, and
+                  then followed a disrespectful allusion to a certain saline composition.</p>
+               <p>The unhappy individual—who was no less a personage than Mr. Tubbs, butler of the
+                  establishment, the lady being, of course, his wife—having attired himself with a
+                  rapidity that denoted the urgency of the case, bolted precipitately down stairs,
+                  passing Tom on the landing, and narrowly escaping being pitched over by the
+                  crouched-up form of that humorous intruder. The butler made a hasty exit from the
+                  back door, when Tom, who had followed close at his heels, silently locked it, thus
+                  effectually shutting the unfortunate Mr. Tubbs out! Mr. Maddox then descended, and
+                  fastened the kitchen door—so that, should the butler get in at the window, he
+                  could not get out of the kitchen. After waiting for a few minutes, Tom
+                  deliberately mounted the stairs, entered the sleeping apartment of Mr. and Mrs.
+                  Tubbs, and earned for the butler a reputation for qualities which the last-named
+                  gentleman never enjoyed.</p>
+               <p>We now follow the Captain in <emph>his</emph> adventure. On leaving Tom, he went
+                  up one flight of stairs, and traversing a long passage or gallery, felt his way to
+                  a door, before which he paused for full ten minutes, listening attentively to
+                  catch the faintest sound from within. All was silent, however; he attempted to
+                  open the door, but found it locked. Inserting a piece of wire in the keyhole, he
+                  ascertained that the key was in the lock, on the inside, and with a pair of
+                     <foreign xml:lang="LAT">forceps,</foreign> (a sort of pincers,) he turned the
+                  key, and entered the chamber. A lamp was burning dimly upon a table, casting an
+                  uncertain and flickering light upon the objects in the room. A luxurious bed
+                  occupied one corner, towards which the Captain directed his steps; he silently
+                  drew the curtain, and gazed long and fixedly upon the spectacle before him.</p>
                <p>
-                  <emph>Two</emph> persons were sleeping there.-One of these was an elderly man, with gray hair, sharp features, and an expression of mingled duplicity and cunning-the other was a young female of about sixteen, exceedingly beautiful but pale, and with the traces of recent tears upon her cheeks. But the Captain started in astonishment, when he recognized in her the <emph>original</emph> of the portrait which so attracted his attention, while dividing the booty at the "crib" of Boy Jack!</p> 
-               <p>"Ah, villain," said Henry Stuart, gazing fiercely upon the old man, who was tossing about in uneasy slumber-"how easily could I take thy reptile life, and send thee to face thy Maker, with all thy sins upon thy hoary head! Whom hast thou there, at thy side-some hapless victim to thy lust, or one that thou hast forced or cheated into a mockery of marriage? By heavens, he wakes!"</p> 
-               <p>The Captain stepped to the foot of the bed, out of sight, just as the old man awoke, and started up in bed.</p> 
-               <p>"I have had a dream," he muttered, "a fearful dream. I thought that young Stuart stood over me, about to tear out my heart, for the wrongs I have done to him. But, pshaw! 'twas only a dream, after all. Yet I'm a villain-I know it; conscience tells me so. No matter-the world thinks me a saint, ha, ha!"</p> 
-               <p>He laughed so loud at the <emph>verdancy</emph> of the world in thinking him a saint, that the young female was awakened, and inquired the cause of his mirth.</p> 
-               <pb n="16" xml:id="VAC8040-00000007"/> 
-               <p>"I'll tell you," was the reply. "I was laughing to think how beautifully I got possession of the property belonging to <emph>your brother</emph> and yourself! then thrust him into the street, and married you on a false pretence. Girl, what were the conditions of our marriage?"</p> 
-               <p>"Why need I repeat them? They were, that you should seek out my poor brother and give him at teast a sufficient and comfortable maintenance;-and, also that I should be your wife only in name-that you should never claim the marital privilege-in short, that our marriage should never be <emph>consummated!</emph>"</p> 
-               <p>"You shall see how faithfully I keep my promises, pretty fool. Your brother should die like a dog on a dung-hill, before I'd give him a sixpence; and you shall be my wife, in more than <emph>name,</emph> this very night-this very instant!"</p> 
-               <p>And the lecherous old wretch would have been as good as his word, had not the spirited and determined resistance he encountered, produced a physical result that effectually disqualified him from the accomplishment of his purpose then.</p> 
-               <p>It may well be supposed that Henry Stuart was shocked and astounded at what he heard. That young girl his <emph>sister!</emph> and <emph>married</emph> to Roberts, his bitterest foe! And yet she had sacrificed herself to <emph>him</emph>-to secure, as she thought, <emph>his</emph> comfort and good. He admired the affectionate devotion of the generous girl, and respected her for her rigid adherence to the condition of the marriage. He could scarcely restrain himself from rushing forward, when the old scoundrel attempted to violate that condition, and wreaking summary vengeance on him. When he saw that the attempt was unsuccessful and not likely to be renewed soon, he determined not to reveal himself at that time, but to secure what money and articles of value he could, in the house, and depart, thankful that he had found his long-lost sister, and glad of an opportunity to regain from the clutches of his foe, a portion of his own property. Accordingly, he waited until the inmates of the bed slept again, and then proceeded to look about him with much interest and extreme caution.</p> 
-               <p>A mahogany writing-desk in one corner attracted his notice. He was convinced that it contained articles of value.</p> 
-            </div> 
-            <div type="chapter"> 
-               <head>CHAPTER III.</head> 
-               <argument> 
-                  <p>Meeting of the House Breakers-Speeches of the Captain and Cranky Dick-Crib of the Counterfeiters-a benevolent gentleman relieves a seedy cove, &amp;c., &amp;c.</p> 
-               </argument> 
-               <p>The Captain, finding the desk locked, applied a small knife, which opened it in a twinkling. He was astonished and delighted at the amount of wealth that met his view. A pile of bank-notes, and a large sum in gold, were soon transferred to his pockets.-He then opened a small drawer, and from it took a bundle of papers and a miniature. Satisfied with the amount of booty obtained, he now determined to decamp; and accordingly left the room and descended the stairs. He found Tom at his post in the hall; for that worthy, having enjoyed himself to the utmost, and afforded great satisfaction to the butler's spouse, had returned to his station to wait the orders of his captain.</p> 
-               <p>The burglars left the house by the way they had entered. In the garden they found the poor butler, half-dressed, and shivering with cold. Seeing them, he manifested the most ludicrous terror, and rushed past them into the house, exclaiming "Murder-thieves!" Tom related his adventure, and received a severe rebuke from his superior.</p> 
-               <p>"You have done very wrong, sir-let the offence never be repeated, or we travel together no more. In seeking for your own gratification, you endan<gap/>
-               </p> 
-            </div> 
+                  <emph>Two</emph> persons were sleeping there.—One of these was an elderly man,
+                  with gray hair, sharp features, and an expression of mingled duplicity and
+                  cunning—the other was a young female of about sixteen, exceedingly beautiful but
+                  pale, and with the traces of recent tears upon her cheeks. But the Captain started
+                  in astonishment, when he recognized in her the <emph>original</emph> of the
+                  portrait which so attracted his attention, while dividing the booty at the "crib"
+                  of Boy Jack!</p>
+               <p>"Ah, villain," said Henry Stuart, gazing fiercely upon the old man, who was
+                  tossing about in uneasy slumber—"how easily could I take thy reptile life, and
+                  send thee to face thy Maker, with all thy sins upon thy hoary head! Whom hast thou
+                  there, at thy side—some hapless victim to thy lust, or one that thou hast forced
+                  or cheated into a mockery of marriage? By heavens, he wakes!"</p>
+               <p>The Captain stepped to the foot of the bed, out of sight, just as the old man
+                  awoke, and started up in bed.</p>
+               <p>"I have had a dream," he muttered, "a fearful dream. I thought that young Stuart
+                  stood over me, about to tear out my heart, for the wrongs I have done to him. But,
+                  pshaw! 'twas only a dream, after all. Yet I'm a villain—I know it; conscience
+                  tells me so. No matter—the world thinks me a saint, ha, ha!"</p>
+               <p>He laughed so loud at the <emph>verdancy</emph> of the world in thinking him a
+                  saint, that the young female was awakened, and inquired the cause of his
+                  mirth.</p>
+               <pb n="16" xml:id="VAC8040-00000007"/>
+               <p>"I'll tell you," was the reply. "I was laughing to think how beautifully I got
+                  possession of the property belonging to <emph>your brother</emph> and yourself!
+                  then thrust him into the street, and married you on a false pretence. Girl, what
+                  were the conditions of our marriage?"</p>
+               <p>"Why need I repeat them? They were, that you should seek out my poor brother and
+                  give him at teast a sufficient and comfortable maintenance;—and, also that I
+                  should be your wife only in name—that you should never claim the marital
+                  privilege—in short, that our marriage should never be
+                  <emph>consummated!</emph>"</p>
+               <p>"You shall see how faithfully I keep my promises, pretty fool. Your brother should
+                  die like a dog on a dung-hill, before I'd give him a sixpence; and you shall be my
+                  wife, in more than <emph>name,</emph> this very night—this very instant!"</p>
+               <p>And the lecherous old wretch would have been as good as his word, had not the
+                  spirited and determined resistance he encountered, produced a physical result that
+                  effectually disqualified him from the accomplishment of his purpose then.</p>
+               <p>It may well be supposed that Henry Stuart was shocked and astounded at what he
+                  heard. That young girl his <emph>sister!</emph> and <emph>married</emph> to
+                  Roberts, his bitterest foe! And yet she had sacrificed herself to
+                  <emph>him</emph>—to secure, as she thought, <emph>his</emph> comfort and good. He
+                  admired the affectionate devotion of the generous girl, and respected her for her
+                  rigid adherence to the condition of the marriage. He could scarcely restrain
+                  himself from rushing forward, when the old scoundrel attempted to violate that
+                  condition, and wreaking summary vengeance on him. When he saw that the attempt was
+                  unsuccessful and not likely to be renewed soon, he determined not to reveal
+                  himself at that time, but to secure what money and articles of value he could, in
+                  the house, and depart, thankful that he had found his long-lost sister, and glad
+                  of an opportunity to regain from the clutches of his foe, a portion of his own
+                  property. Accordingly, he waited until the inmates of the bed slept again, and
+                  then proceeded to look about him with much interest and extreme caution.</p>
+               <p>A mahogany writing-desk in one corner attracted his notice. He was convinced that
+                  it contained articles of value.</p>
+            </div>
+            <div type="chapter">
+               <head>CHAPTER III.</head>
+               <argument>
+                  <p>Meeting of the House Breakers—Speeches of the Captain and Cranky Dick—Crib of
+                     the Counterfeiters—a benevolent gentleman relieves a seedy cove, &amp;c.,
+                     &amp;c.</p>
+               </argument>
+               <p>The Captain, finding the desk locked, applied a small knife, which opened it in a
+                  twinkling. He was astonished and delighted at the amount of wealth that met his
+                  view. A pile of bank-notes, and a large sum in gold, were soon transferred to his
+                  pockets.—He then opened a small drawer, and from it took a bundle of papers and a
+                  miniature. Satisfied with the amount of booty obtained, he now determined to
+                  decamp; and accordingly left the room and descended the stairs. He found Tom at
+                  his post in the hall; for that worthy, having enjoyed himself to the utmost, and
+                  afforded great satisfaction to the butler's spouse, had returned to his station to
+                  wait the orders of his captain.</p>
+               <p>The burglars left the house by the way they had entered. In the garden they found
+                  the poor butler, half-dressed, and shivering with cold. Seeing them, he manifested
+                  the most ludicrous terror, and rushed past them into the house, exclaiming
+                  "Murder—thieves!" Tom related his adventure, and received a severe rebuke from his
+                  superior.</p>
+               <p>"You have done very wrong, sir—let the offence never be repeated, or we travel
+                  together no more. In seeking for your own gratification, you endan</p>
+            </div>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

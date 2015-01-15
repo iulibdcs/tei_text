@@ -1,98 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8304">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8304">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Whole History of Adeline Fosbenner, a Wealthy and Accomplished Young Lady ... </title>
-            <author >Anonymous</author>
+            <title>The Whole History of Adeline Fosbenner, a Wealthy and Accomplished Young Lady ... </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8304</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8304</idno>
+            <idno type="wright2" n="previous">wright2-2727</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The whole history of Adeline Fosbenner, a wealthy and accomplished young lady ...</title>
-                  <author >Anonymous</author>
+                  <title>The whole history of Adeline Fosbenner, a wealthy and accomplished young lady ...</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >70 p.</extent>
+               <extent>70 p.</extent>
                <publicationStmt>
-                  <publisher >Barclay</publisher>
+                  <publisher>Barclay</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1873">[1873]</date>
+                  <date when="1873">[1873]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-09-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-09-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The whole history of Adeline Fosbenner, a wealthy and accomplished young lady ...</head> 
+            <head>The whole history of Adeline Fosbenner, a wealthy and accomplished young lady ...</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC8304-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
+               <pb n=" (Cover) " xml:id="VAC8304-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
 HENRY E. HUNTINGTON LIBRARY&#xD;
 FOR REFERENCE ONLY. NOT FOR REPRODUCTION&#xD;
 &#xD;
 t     t       fi            i S9'r~&#xD;
 &#xD;
-<pb  n="Illustration (TitlePage) " xml:id="VAC8304-00000002"/>&#xD;
+<pb n="Illustration (TitlePage) " xml:id="VAC8304-00000002"/>&#xD;
 I&#xD;
 &#xD;
 rf&#xD;
@@ -154,7 +159,7 @@ T&#xD;
 0&#xD;
 c     :&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8304-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8304-00000003"/>&#xD;
 \ "&#xD;
 s&#xD;
 i&#xD;
@@ -276,7 +281,7 @@ z&#xD;
 &#xD;
 ,.....- "+'°'"'"         _                        _ .                i  "C+ t=   °Y                ~                   :="x   ~'a i ,,               ,Z ¢ !    r 3  .!P"  "°; '~ . *,   ,       ,.FZd".    '        b   ; n#  j  ,.   }y .."^'q'; "..  "'u 1M' -  1    Jf'i&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8304-00000004"/>&#xD;
+<pb n="20-21" xml:id="VAC8304-00000004"/>&#xD;
 '    ? L"  r   $    m 4  ,  ,    ,     Y 4k' "4  ..  ,,   n  -u...- 4 y~i4"""  "-  j  +^,  4~a~t  '?w. 4"e,  e  wyp..r,,   ~  ?&#xD;
 &#xD;
 2Q&#xD;
@@ -478,7 +483,7 @@ t&#xD;
 &#xD;
 I.:&#xD;
 &#xD;
-<pb  n="22 (Illustration) -23" xml:id="VAC8304-00000005"/>&#xD;
+<pb n="22 (Illustration) -23" xml:id="VAC8304-00000005"/>&#xD;
 D,&#xD;
 &#xD;
 just left. -Hk made&#xD;
@@ -574,7 +579,7 @@ the handkerchief in the soe   hc    h.Ja&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8304-00000006"/>&#xD;
+<pb n="24-25" xml:id="VAC8304-00000006"/>&#xD;
 '14&#xD;
 &#xD;
 11&#xD;
@@ -724,7 +729,7 @@ shop.&#xD;
 1.eYf'.n^_"-..+[r*['gwx       Yi  ±        ^+7                     w,.f          ;                  iF                    'Sx            a'"  ,a fkN      . ,  Vi    i r  ft'd ,'  t it  r  " rklf^.7"'&#xD;
 . , .fx_...v,,,:a.w....r4 4lwr^. r         di                  '^ ' YC  A                  _' .i, i  t   il ^"^                                                  . ';,  '.. 1          ' 'x ....yw.y%.waa                               -             '&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8304-00000007"/>&#xD;
+<pb n="26-27" xml:id="VAC8304-00000007"/>&#xD;
 xit&#xD;
 Iii&#xD;
 '     y~f3y&#xD;
@@ -846,7 +851,7 @@ McFadden's humble abode, her alarm and sufferings having deprived&#xD;
 &#xD;
 l&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8304-00000008"/>&#xD;
+<pb n="28-29" xml:id="VAC8304-00000008"/>&#xD;
 'Y~  e  ,., q  t     4  r   "; T°   L S~i  - u  ',}r''--I  lr  -  :.  .  f     r :     r  _ -  _&#xD;
 r"'. t' , Y~?-  .  ,r"  ;  YY7F~n,.~q  ,  dV-~dk  ,   .;fwti.y~  ' 4'"  .ii      e l,     :s    t  ri, r)  _ _A&#xD;
 ^  .. r  t' :    .prg4f.  %d  .rGt-- '   , N°"t 1ax M l~w'$^ :  "  ; ,.y; ",'  .r  ,4'  il ' t  ry    _ r~i,   ,,"  ',  ,i&#xD;
@@ -1001,7 +1006,7 @@ jt&#xD;
 }&#xD;
 i&#xD;
 &#xD;
-<pb  n="32 (Illustration) -33" xml:id="VAC8304-00000009"/>&#xD;
+<pb n="32 (Illustration) -33" xml:id="VAC8304-00000009"/>&#xD;
 4 '.  'fI                                                                       I    '&#xD;
 o&#xD;
 -P 4&#xD;
@@ -1108,7 +1113,7 @@ r&#xD;
 &#xD;
 ,   9  ;arS, 7       rn2. r.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8304-00000010"/>&#xD;
+<pb n="34-35" xml:id="VAC8304-00000010"/>&#xD;
 4 ii&#xD;
 n r&#xD;
 1&#xD;
@@ -1292,7 +1297,7 @@ r.,&#xD;
 &#xD;
 M.Fosi~ixu pDDISMAYED&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8304-00000011"/>&#xD;
+<pb n="36-37" xml:id="VAC8304-00000011"/>&#xD;
 s,..ri       ie,".sw.: ,,,rte,                                    - "              i  ,                                                  .   '            , .                     _                           .          -              _    4. '.                                                  -                   -  _               i&#xD;
 L             .2.}n    -   iH ' /q V       JJ(i V        a  . A.Y-I {f   : i b' 4MT1 "      .1M Y    , Yht rt'6  )(df4    yyy4                            4 "           "               "                "     '       1           _ _        _                                              _                                 -&#xD;
 .   .a       -                 .ky' ,      .a5," r"_'^    .    ,.,{, ;i;  ' 's  '.  x-  ,  t'     vx':r:       .. ; (,        i!!t, t + t' 7 'rs ,                    s    .",.       .  , -'  °   ',  , ,     x           (                                                              -     -                                ' - .&#xD;
@@ -1530,7 +1535,7 @@ t&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8304-00000012"/>&#xD;
+<pb n="38-39" xml:id="VAC8304-00000012"/>&#xD;
 .  .,tYr1.  -  .tth s  4  vw44    _.                                     +/ -'   _                                                  (,        _                 1                 _                            7  "               '                                   _                   r               '                ,&#xD;
 I\=A7a' 3#". .1LsA 'ist,%. , i.r:trf             ' '; 1"1 :"f='n 1c       4'c' krX+3.iz:.i %ie:a. L;h ' °?X'taii=1# rRh' +Ft°"i ''q!p31 h° f  .      .f  W                       F   '-rte':=:i; "-  ; ~e ..n t7.e',ww                ,a   .'.,.. ;i  . ,k  _  11 ,          g.. - /                "1'{    ,    .' f$+yr&#xD;
 ,                                                                 f _        Try                                                                 S    r' x""' IIIX.'.  d   _ta5'"+',"" 4if'&#xD;
@@ -1704,7 +1709,7 @@ a&#xD;
 &#xD;
 LY            r-t          14     _'  Y^'A,  vrT *"^  ny     it  " M1' ,'  "                       i'4'Y1   1S :  yr J"~S.w.rJ(' , i&#xD;
 &#xD;
-<pb  n="40 (Illustration) -41" xml:id="VAC8304-00000013"/>&#xD;
+<pb n="40 (Illustration) -41" xml:id="VAC8304-00000013"/>&#xD;
 I&#xD;
 &#xD;
 U  f i&#xD;
@@ -1817,7 +1822,7 @@ d&#xD;
 .y&#xD;
 ,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8304-00000014"/>&#xD;
+<pb n="42-43" xml:id="VAC8304-00000014"/>&#xD;
 STRANGE COMPANY AND REFLECTION&#xD;
 &#xD;
 .      lei :..ra.                   'r ,awo..ro;-.   ' 'Ny~ wu""4. M } '                ''                                                y. tlw4" +hv 'i'..'"w, 7'hM MMw  eaaU..i              ....w+   eir"a+ +, .;.'      ..    . ... raiai dy .,e,,.a .          ......             ... .. .-.  ..._" .. «. ..  .t ,W ._a+..wa..w... .. ..  ,   .,._. "y.. ,w...&#xD;
@@ -2010,7 +2015,7 @@ L            1'    f&#xD;
 ,              ;F +   d&#xD;
 t{oljr    ^.SS  i   '&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8304-00000015"/>&#xD;
+<pb n="44-45" xml:id="VAC8304-00000015"/>&#xD;
 44&#xD;
 &#xD;
 TnE RmDsouiAfiE DELIVILER.&#xD;
@@ -2199,7 +2204,7 @@ _           t,&#xD;
 .                { i&#xD;
 4&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8304-00000016"/>&#xD;
+<pb n="46-47" xml:id="VAC8304-00000016"/>&#xD;
 Tj&#xD;
 }{i&#xD;
 ryt      tr&#xD;
@@ -2401,7 +2406,7 @@ i&#xD;
 {2&#xD;
 J&#xD;
 &#xD;
-<pb  n="52 (Illustration) -53" xml:id="VAC8304-00000017"/>&#xD;
+<pb n="52 (Illustration) -53" xml:id="VAC8304-00000017"/>&#xD;
 LEAvES RER flOMA&#xD;
 &#xD;
 V0!&#xD;
@@ -2539,7 +2544,7 @@ Ii 1t&#xD;
 _                                                                                                                    t!&#xD;
 "                                                                                                     6            i&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8304-00000018"/>&#xD;
+<pb n="54-55" xml:id="VAC8304-00000018"/>&#xD;
 N&#xD;
 &#xD;
 M&#xD;
@@ -2696,7 +2701,7 @@ I&#xD;
 ,s&#xD;
 1&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8304-00000019"/>&#xD;
+<pb n="56-57" xml:id="VAC8304-00000019"/>&#xD;
 - n 4&#xD;
 4&#xD;
 i&#xD;
@@ -2848,7 +2853,7 @@ t,&#xD;
 %i&#xD;
 i&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8304-00000020"/>&#xD;
+<pb n="58-59" xml:id="VAC8304-00000020"/>&#xD;
 ,                                                                                              "       i'  -  -        -* -74                             -&#xD;
 &#xD;
 113.--&#xD;
@@ -3024,7 +3029,7 @@ F&#xD;
 7&#xD;
 1&#xD;
 &#xD;
-<pb  n="62 (Illustration) -63" xml:id="VAC8304-00000021"/>&#xD;
+<pb n="62 (Illustration) -63" xml:id="VAC8304-00000021"/>&#xD;
 w           Q                                                  j                                    ' '  1'&#xD;
 THB Escam..&#xD;
 while extended at full length, ooninued to struggle&#xD;
@@ -3113,7 +3118,7 @@ y&#xD;
 iIN'    "&#xD;
 c a&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8304-00000022"/>&#xD;
+<pb n="64-65" xml:id="VAC8304-00000022"/>&#xD;
 L&#xD;
 &#xD;
 a&#xD;
@@ -3279,7 +3284,7 @@ I&#xD;
 &#xD;
 EIR-SkAR09&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8304-00000023"/>&#xD;
+<pb n="66-67" xml:id="VAC8304-00000023"/>&#xD;
 iY"  ,     lA  FWYiT°11%"W ..'i  ° ., '"  ' O' ,s-  (-  _}y{r'. b  '- "irt""  "', C'.e^s~r:   7&#xD;
 &#xD;
 6&#xD;
@@ -3463,7 +3468,7 @@ l&#xD;
 '&#xD;
 r-&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8304-00000024"/>&#xD;
+<pb n="68-69" xml:id="VAC8304-00000024"/>&#xD;
 i&#xD;
 i&#xD;
 o-&#xD;
@@ -3663,7 +3668,7 @@ ax  tw.. ,Y'.  u&#xD;
 +       w&#xD;
 ._ y&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8304-00000025"/>&#xD;
+<pb n="70-71" xml:id="VAC8304-00000025"/>&#xD;
 bribing th press to silence, his efforts were directed to having her re&#xD;
 noved to her home. My assistance was now required to effect this ob-&#xD;
 jet, which wa 'tended with some. difficulty, as murder, in general, is&#xD;
@@ -3718,7 +3723,7 @@ r&#xD;
 L ,H&#xD;
 i&#xD;
 &#xD;
-<pb  n="72 (Illustration) -73" xml:id="VAC8304-00000026"/>&#xD;
+<pb n="72 (Illustration) -73" xml:id="VAC8304-00000026"/>&#xD;
 0&#xD;
 &#xD;
 REPRODUCED FR Mb THE COPY IN THE&#xD;
@@ -3780,8 +3785,8 @@ ri&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

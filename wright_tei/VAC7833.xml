@@ -1,96 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7833">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7833">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Smuggler's Daughter and Other Tales </title>
-            <author >Anonymous</author>
+            <title>The Smuggler's Daughter and Other Tales </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7833</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7833</idno>
+            <idno type="wright2" n="previous">wright2-2280</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The smuggler's daughter</title>
-                  <author >Anonymous</author>
+                  <title>The smuggler's daughter</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >98 p.</extent>
+               <extent>98 p.</extent>
                <publicationStmt>
-                  <publisher >U.P. James</publisher>
+                  <publisher>U.P. James</publisher>
                   <pubPlace>Cincinnati</pubPlace>
-                  <date  when="1858">[1858?]</date>
+                  <date when="1858">[1858?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The smuggler's daughter</head> 
+            <head>The smuggler's daughter</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC7833-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
+               <pb n=" (Cover) " xml:id="VAC7833-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
 HENRY E. HUNTINGTON LIBRARY&#xD;
 FOR REFERENCE ONLY. NOT FOR REPRODUCTION&#xD;
 &#xD;
-<pb  n="Advertisement (TitlePage) " xml:id="VAC7833-00000002"/>&#xD;
+<pb n="Advertisement (TitlePage) " xml:id="VAC7833-00000002"/>&#xD;
 YALUA BLE B OKS&#xD;
 No. 167 Wialnut Street. Cincinnati&#xD;
 &#xD;
@@ -292,7 +297,7 @@ d&#xD;
 &#xD;
 dub (!)1jpr aIc.&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC7833-00000003"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC7833-00000003"/>&#xD;
 0 NTENTS.&#xD;
 The Smuggler's Daughter.  .............&#xD;
 The Faded Girl....."......   .......&#xD;
@@ -342,7 +347,7 @@ i&#xD;
 &#xD;
 ,'                                                             ,&#xD;
 &#xD;
-<pb  n="0-9" xml:id="VAC7833-00000004"/>&#xD;
+<pb n="0-9" xml:id="VAC7833-00000004"/>&#xD;
 /&#xD;
 &#xD;
 THE SMUGGLER'S DAUGHTER.&#xD;
@@ -496,7 +501,7 @@ i1&#xD;
 tp&#xD;
 k  J&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7833-00000005"/>&#xD;
+<pb n="10-11" xml:id="VAC7833-00000005"/>&#xD;
 10                    The Smuggler's .Daughter.&#xD;
 &#xD;
 cents had now a mournful and drear&#xD;
@@ -703,7 +708,7 @@ _                                                           -&#xD;
 &#xD;
 ;,yam ;?,-t kw&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7833-00000006"/>&#xD;
+<pb n="12-13" xml:id="VAC7833-00000006"/>&#xD;
 12&#xD;
 &#xD;
 prospect of calling Helen, the fair, th&#xD;
@@ -998,7 +1003,7 @@ times expressed lest&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7833-00000007"/>&#xD;
+<pb n="14-15" xml:id="VAC7833-00000007"/>&#xD;
 The Faded Girl.&#xD;
 &#xD;
 I KNEW Anna Delaney in her earl&#xD;
@@ -1234,7 +1239,7 @@ r         .          _       I    v'          .1a .rw"+ .. -y "-... ,,,,  _  ,  
 a" .s                                 -i.                      .ua 1. xE"~-I.,f....,a+n iv',.+++.i ' s . i',1  , .ar"4wVA r+'i:lAx Krdi'a'       }w'h' k      j               'agE'V'&#xD;
 .._                                                                                                                                                          -                                             t&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7833-00000008"/>&#xD;
+<pb n="16-17" xml:id="VAC7833-00000008"/>&#xD;
 The Last of the Line.                         17&#xD;
 &#xD;
 THE LAST OF THE LINE&#xD;
@@ -1417,7 +1422,7 @@ r&#xD;
 1     !  , "r          Nv        w. c  .u .   _            :.  , ..          aar +"avw.....       - P   .'^" _            +     '                                 " " ."+ Mi..'. ,               .-.a            .. _      ..&#xD;
 vim., ,. r  -   .,. .. ,-- r  .w ' ..". ..-,,,.w n«c~  .s..rr   .m...   w.vwrba+owtl sra.ru.,r.,,,.      -.....  .w. ., ...                           .t. .,a    :w t.aV. 9r's4! F "y   +YgFaae+i"&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7833-00000009"/>&#xD;
+<pb n="18-19" xml:id="VAC7833-00000009"/>&#xD;
 18                       The Last of the Line.&#xD;
 name. At ,Trinity he was considered exertions chose the least--c&#xD;
 more as an amiable gentlemanly young affairs, for twelve calendar m&#xD;
@@ -1603,7 +1608,7 @@ i ,r q-'r ;.4 ++at  rT+ rA+%   d .fX.,, - hc .                                  
 _...-«q,   r                                     "?"a       wx        +v     'Ag                                                   61&#xD;
 AiYd  4%dt.GAk'+i ICtA'a.'ti(iCq°pp", - {f 1%iN"T'  w+Y'4i1PwKa'  4      iw q   AIS     +M'  ar  pf4                    5lFEi'!M.' u19 {RYtii'1l A fKI°' ilqbV J'15' Sx 7 4 .++i" Wt+V.4 '   +{11    ;' .'' R" d'IIM   ! .1 aNNNIW                   V"?    . F "O A'E'Pti:?"4V:Rn..ov' '1 .:, 1y", + :h"rrr 1 .... L.Y._  .Y "s  .:.1&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7833-00000010"/>&#xD;
+<pb n="20-21" xml:id="VAC7833-00000010"/>&#xD;
 20                       The Last of the Line.&#xD;
 &#xD;
 289&#xD;
@@ -1867,7 +1872,7 @@ _&#xD;
 ;&#xD;
 f }&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7833-00000011"/>&#xD;
+<pb n="22-23" xml:id="VAC7833-00000011"/>&#xD;
 di&#xD;
 &#xD;
 .-'?&#xD;
@@ -2128,7 +2133,7 @@ t  .&#xD;
 y   AMR&#xD;
 ... . w   ?43-.s i yi'"'v",,, e '...  i" .Kk 1nfZ.; IE,     hW.. alj+"&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7833-00000012"/>&#xD;
+<pb n="24-25" xml:id="VAC7833-00000012"/>&#xD;
 24&#xD;
 &#xD;
 ter for them both, had she possessed the&#xD;
@@ -2382,7 +2387,7 @@ e r. ?; s1.r  t&#xD;
 r&#xD;
 44&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7833-00000013"/>&#xD;
+<pb n="26-27" xml:id="VAC7833-00000013"/>&#xD;
 26  Th Las of he Lne.        95      29                    TheLastof-te Lie.                      2&#xD;
 &#xD;
 t.    air&#xD;
@@ -2689,7 +2694,7 @@ The Last of the Line.&#xD;
 &#xD;
 296&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7833-00000014"/>&#xD;
+<pb n="28-29" xml:id="VAC7833-00000014"/>&#xD;
 297    298&#xD;
 &#xD;
 r            '&#xD;
@@ -2920,7 +2925,7 @@ a   -         ,v ':'              -                      -                      
 1           x? it hr                G° jtb&#xD;
 iWoe&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7833-00000015"/>&#xD;
+<pb n="30-31" xml:id="VAC7833-00000015"/>&#xD;
 w[:&#xD;
 &#xD;
 The Last of the Lzne.&#xD;
@@ -3201,7 +3206,7 @@ fie' .. ix, r , s  tn.  nar.  . vkM...  ,lf",R   ,r ""1'e 1, aAd.i  .r .n  .; -.
 !z                          V.iOM"'  jc' i "                          'h        .4,     ~y, ,    n,    '&#xD;
 'gy     t     .       ;                             ~, y-c            yr',       "g_,;          Ate   i      ,&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7833-00000016"/>&#xD;
+<pb n="32-33" xml:id="VAC7833-00000016"/>&#xD;
 v2 Th      ato  h  in.3140                    h  Ls  f h ie&#xD;
 &#xD;
 the lady; "let him and his gold vanish&#xD;
@@ -3469,7 +3474,7 @@ v v i yyi&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7833-00000017"/>&#xD;
+<pb n="34-35" xml:id="VAC7833-00000017"/>&#xD;
 w&#xD;
 e&#xD;
 a&#xD;
@@ -3721,7 +3726,7 @@ I'&#xD;
 'r&#xD;
 I&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7833-00000018"/>&#xD;
+<pb n="36-37" xml:id="VAC7833-00000018"/>&#xD;
 The TwQ Maidens.&#xD;
 &#xD;
 30b    306&#xD;
@@ -3974,7 +3979,7 @@ t&#xD;
 '  '&#xD;
 +1=try-nyjvq,.' -;.+s  ,+ 7n.1f... s  ,I::&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7833-00000019"/>&#xD;
+<pb n="38-39" xml:id="VAC7833-00000019"/>&#xD;
 ' I  «r&#xD;
 &#xD;
 307&#xD;
@@ -4237,7 +4242,7 @@ ti'&#xD;
 C&#xD;
 .' !&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7833-00000020"/>&#xD;
+<pb n="40-41" xml:id="VAC7833-00000020"/>&#xD;
 I    iP   g~${a&#xD;
 Kf&#xD;
 &#xD;
@@ -4462,7 +4467,7 @@ I7&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7833-00000021"/>&#xD;
+<pb n="42-43" xml:id="VAC7833-00000021"/>&#xD;
 42          Tre Scret                                 31         312The                                 ecre...&#xD;
 &#xD;
 " Not even to his wife ! I should like&#xD;
@@ -4730,7 +4735,7 @@ The Secret.&#xD;
 &#xD;
 311&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7833-00000022"/>&#xD;
+<pb n="44-45" xml:id="VAC7833-00000022"/>&#xD;
 4&#xD;
 &#xD;
 The Secret.&#xD;
@@ -4916,7 +4921,7 @@ rnk,            " f                                    Ari+wun, n+,Wpl1f'! l +2 
 . 3a       aa+.  .x  w  3.k.,  kr..i E3RiepN4tlL'  R% Y't  ( "+Ff   :.+w +-;4G   ?" t .,x.j,1 k'  iF4,..:1''r -&amp;amp; .. . ;. ."s;tig~vy'7,.ry*x;&#xD;
 , ,        t .&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7833-00000023"/>&#xD;
+<pb n="46-47" xml:id="VAC7833-00000023"/>&#xD;
 4v ThlgtdEn.TeBihe                                     n.4&#xD;
 &#xD;
 cred engagements: What need was there&#xD;
@@ -5146,7 +5151,7 @@ The Blighted One.&#xD;
 &#xD;
 y,&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7833-00000024"/>&#xD;
+<pb n="48-49" xml:id="VAC7833-00000024"/>&#xD;
 Q&#xD;
 t&#xD;
 ti&#xD;
@@ -5288,7 +5293,7 @@ P                                         F, ,&#xD;
 .&#xD;
 : ?&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7833-00000025"/>&#xD;
+<pb n="50-51" xml:id="VAC7833-00000025"/>&#xD;
 The Spanish Headsman.&#xD;
 &#xD;
 The Spanish Headsman.&#xD;
@@ -5440,7 +5445,7 @@ a+...iw .r..,+ri+                                                               
 i  _'&#xD;
 r&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7833-00000026"/>&#xD;
+<pb n="52-53" xml:id="VAC7833-00000026"/>&#xD;
 .R&#xD;
 *     I, 4&#xD;
 r -&#xD;
@@ -5669,7 +5674,7 @@ a&#xD;
 ' ;,        n k;  Y                                         r fr)5          ""t " dci.-yx      paa.  nmvists-&#xD;
 '   '.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7833-00000027"/>&#xD;
+<pb n="54-55" xml:id="VAC7833-00000027"/>&#xD;
 54                    The Spanish Headsman.&#xD;
 &#xD;
 t&#xD;
@@ -5921,7 +5926,7 @@ a&#xD;
 &#xD;
 '.,.yi..""a. as h  "+-".., r.,r ins-, s}aTF:.. ,+,,,,,    '' °" yr-,                         """ ° tk "        !!yrn,. ^tV  :r"+-...r,         +- .         ..,.u,&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7833-00000028"/>&#xD;
+<pb n="56-57" xml:id="VAC7833-00000028"/>&#xD;
 BRING FLOWERS.&#xD;
 &#xD;
 THE LEGEND OF -ROSE ROCHE.&#xD;
@@ -6085,7 +6090,7 @@ i&#xD;
 "      r r1  ?xi-0M            +i, ,S i ;    . r Yiw-   iFA' ar!    ,-iiSrn       .esr^.  "   :.n     M$ j ,.a  r  _'  a,  ,.       'r.          Y   P.Fi4 :,   )/  (      ,' "  'Ry jt}"4 aM1   tniV _              _,  ' r .. _ _       T  4' 7r, %R 7°               ' .J  :  .-                   "&#xD;
 '           i  k                                                          \: j.   .'_ V     p KfIt      Y}ll '4: 1y lY x'   1.    a44 ya  iM: :.,.M:dAG",      tVwf. G+tAvsM M 1  FY'i 4w 'l..t     b S i, wr r0.', J. As J. R' .r:+eix'.         .i&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7833-00000029"/>&#xD;
+<pb n="58-59" xml:id="VAC7833-00000029"/>&#xD;
 The Legend of Rose Roche.&#xD;
 &#xD;
 appeared among the cloisters.   In vai&#xD;
@@ -6374,7 +6379,7 @@ The Legend of Rose Roche.&#xD;
 &#xD;
 59&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7833-00000030"/>&#xD;
+<pb n="60-61" xml:id="VAC7833-00000030"/>&#xD;
 j r'&#xD;
 i ,&#xD;
 T                            4 l&#xD;
@@ -6638,7 +6643,7 @@ i&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7833-00000031"/>&#xD;
+<pb n="62-63" xml:id="VAC7833-00000031"/>&#xD;
 G&#xD;
 Y&#xD;
 5&#xD;
@@ -6920,7 +6925,7 @@ ref,&#xD;
 Y&#xD;
 TT:T&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7833-00000032"/>&#xD;
+<pb n="64-65" xml:id="VAC7833-00000032"/>&#xD;
 -&#xD;
 Q&#xD;
 .j&#xD;
@@ -7106,7 +7111,7 @@ lc                       v          ...+.    ...          ;x.. '+:.s4p' F"    i 
 t              s r&#xD;
 Aik&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7833-00000033"/>&#xD;
+<pb n="66-67" xml:id="VAC7833-00000033"/>&#xD;
 66B-br-&#xD;
 &#xD;
 ventured to think, that though in the first&#xD;
@@ -7312,7 +7317,7 @@ r          '&#xD;
 9&#xD;
 Y&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7833-00000034"/>&#xD;
+<pb n="68-69" xml:id="VAC7833-00000034"/>&#xD;
 b&#xD;
 a&#xD;
 t&#xD;
@@ -7532,7 +7537,7 @@ r&#xD;
 &#xD;
 .-..&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7833-00000035"/>&#xD;
+<pb n="70-71" xml:id="VAC7833-00000035"/>&#xD;
 ,&#xD;
 r '_             U"    "";       -          to    "  ., -     y-a ,&#xD;
 &#xD;
@@ -7774,7 +7779,7 @@ ti&#xD;
 r'&#xD;
 t&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7833-00000036"/>&#xD;
+<pb n="72-73" xml:id="VAC7833-00000036"/>&#xD;
 f&#xD;
 }yH&#xD;
 _.  '  A                ,acl        4"'lc '!                                  j      tt    ''            ,                      -            1  ' ','rih-'&#xD;
@@ -8027,7 +8032,7 @@ _                                                                               
 yy               n                    4,r   tl    i&#xD;
 ,     :.  _ ., 'r . ,:;te a    ?:       ;  \.      .i4+',^'iw s.#=,    pY  ,, F                       r        ~er    '       ;rq-&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7833-00000037"/>&#xD;
+<pb n="74-75" xml:id="VAC7833-00000037"/>&#xD;
 74  .~9 Sory of te Head.                                          d Storyof h    eat                     7&#xD;
 &#xD;
 of horror, yet, more eager than ever for  And now he wouldwrite to her, re-&#xD;
@@ -8237,7 +8242,7 @@ A Story of f' the Heart.&#xD;
 &#xD;
 k   ,   A"  F&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7833-00000038"/>&#xD;
+<pb n="76-77" xml:id="VAC7833-00000038"/>&#xD;
 }&#xD;
 rfr'a  Y : Fr    i"- ""!-Pa"',y  , ',fi'I'  .s e&#xD;
 h&#xD;
@@ -8435,7 +8440,7 @@ I&#xD;
 rT      &#xD;
 (   ,,             T                                    r; \         p ... 2,h       .,'                             °        y.       w  }  ...'SF              ' M _        4 /  ,     '   h'C                 'iRY"L';..'9 .LC,&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7833-00000039"/>&#xD;
+<pb n="78-79" xml:id="VAC7833-00000039"/>&#xD;
 78TeVcatCar.39                                     -Th  aat  hi.7&#xD;
 &#xD;
 mitted no spirits within his threshold,&#xD;
@@ -8698,7 +8703,7 @@ The Vacant Chair.&#xD;
 &#xD;
 0 o&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7833-00000040"/>&#xD;
+<pb n="80-81" xml:id="VAC7833-00000040"/>&#xD;
 .                                   .,- '~           . yf a'   fm.,y-F   ti;  1-&#xD;
 &#xD;
 The Vacant Chair.&#xD;
@@ -8971,7 +8976,7 @@ i&#xD;
 &#xD;
 r 3&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7833-00000041"/>&#xD;
+<pb n="82-83" xml:id="VAC7833-00000041"/>&#xD;
 82&#xD;
 the mirth or haj&#xD;
 ny.&#xD;
@@ -9268,7 +9273,7 @@ ti&#xD;
 &#xD;
 . ,       y            _           .n     ,                                                                w&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7833-00000042"/>&#xD;
+<pb n="84-85" xml:id="VAC7833-00000042"/>&#xD;
 2&#xD;
 -'I&#xD;
 /1f&#xD;
@@ -9469,7 +9474,7 @@ SjMj ,             H                     "  a                           :J      
 '3          __&#xD;
 Q  7  r   'C  -1&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7833-00000043"/>&#xD;
+<pb n="86-87" xml:id="VAC7833-00000043"/>&#xD;
 41~&#xD;
 86    'Phe Queen of the Meadow.&#xD;
 "on the side that's next the sun," were  Soon after the rejection of this most&#xD;
@@ -9637,7 +9642,7 @@ W t                         r }&#xD;
 &#xD;
 1-0&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7833-00000044"/>&#xD;
+<pb n="88-89" xml:id="VAC7833-00000044"/>&#xD;
 *       88                     The Queen of the .Meadow.&#xD;
 closer. There was an air of intelligence long wreath of the woodbine, and the&#xD;
 between them that might have puzzled briony, and the wild vetch, was, or pre-&#xD;
@@ -9763,7 +9768,7 @@ i°&#xD;
 &#xD;
 :  .&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7833-00000045"/>&#xD;
+<pb n="90-91" xml:id="VAC7833-00000045"/>&#xD;
 t  yl"y, wv M4. t4                                      4 4 Wry'f«..  . 't.,.. ,  v.  + r  +.(&#xD;
 1                             -,&#xD;
 90                         Pauline de Moulan.&#xD;
@@ -9902,7 +9907,7 @@ A.   '    _+&#xD;
 -            'k1 i                                                                   .&#xD;
 r "M1  ,   "i''T i      t              "tr '} ,' P j'P 1 Te      ""a      ,4   '     M1&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7833-00000046"/>&#xD;
+<pb n="92-93" xml:id="VAC7833-00000046"/>&#xD;
 92                   the Wine Merchant's Story.&#xD;
 &#xD;
 fi                                                n&#xD;
@@ -10197,7 +10202,7 @@ The Wine Merchant's Story.&#xD;
 &#xD;
 93&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7833-00000047"/>&#xD;
+<pb n="94-95" xml:id="VAC7833-00000047"/>&#xD;
 94  Te Wne Mrchnt' Stoy.                                          he  ine  erc~an's 5torp                  9&#xD;
 &#xD;
 was levelled more against my master&#xD;
@@ -10452,7 +10457,7 @@ I&#xD;
 &#xD;
 3r&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7833-00000048"/>&#xD;
+<pb n="96-97" xml:id="VAC7833-00000048"/>&#xD;
 96&#xD;
 &#xD;
 -any further molestation on the part of&#xD;
@@ -10718,7 +10723,7 @@ r&#xD;
 11.2&#xD;
 .emu&#xD;
 &#xD;
-<pb  n="98-99 (Advertisement) " xml:id="VAC7833-00000049"/>&#xD;
+<pb n="98-99 (Advertisement) " xml:id="VAC7833-00000049"/>&#xD;
 't~, Y..  ,hf",  '  . .t^~''  '~.°       ad.-!  -.L r'-  ,:x. 4';    r}  i  4s&#xD;
 &#xD;
 Jill&#xD;
@@ -10880,7 +10885,7 @@ s&#xD;
 -"&#xD;
 °'h: a.&#xD;
 &#xD;
-<pb  n="100 (Advertisement) -101 (Advertisement) " xml:id="VAC7833-00000050"/>&#xD;
+<pb n="100 (Advertisement) -101 (Advertisement) " xml:id="VAC7833-00000050"/>&#xD;
 Vahluabt.rBois, pu bished by U  P JAMES-ontinuedy&#xD;
 &#xD;
 .j&#xD;
@@ -11183,7 +11188,7 @@ d..&#xD;
 ,.  ;&#xD;
 ,, '&#xD;
 &#xD;
-<pb  n="102 (Advertisement) -103" xml:id="VAC7833-00000051"/>&#xD;
+<pb n="102 (Advertisement) -103" xml:id="VAC7833-00000051"/>&#xD;
 411&#xD;
 &#xD;
 : °au dAdventures of ane Arkausaw         Doctor,&#xD;
@@ -11439,8 +11444,8 @@ Ir&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

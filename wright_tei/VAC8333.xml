@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8333">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8333">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Dancing Star, or, The Smuggler of the Chesapeake </title>
-            <author >Willis, F. R.</author>
+            <title>The Dancing Star, or, The Smuggler of the Chesapeake </title>
+            <author>Willis, F. R.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8333</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8333</idno>
+            <idno type="wright2" n="previous">wright2-2757A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The dancing star, or, The smuggler of the Chesapeake</title>
-                  <author >Willis, F. R.</author>
+                  <title>The dancing star, or, The smuggler of the Chesapeake</title>
+                  <author>Willis, F. R.</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >F. Gleason</publisher>
+                  <publisher>F. Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1851">1851</date>
+                  <date when="1851">1851</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The dancing star, or, The smuggler of the Chesapeake</head> 
+            <head>The dancing star, or, The smuggler of the Chesapeake</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8333-00000001"/>L&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8333-00000001"/>L&#xD;
 &#xD;
 I)&#xD;
 &#xD;
@@ -167,7 +172,7 @@ DaI  O&#xD;
 &#xD;
 2 zfor8 of tje&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC8333-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC8333-00000002"/>&#xD;
 r&#xD;
 &#xD;
 PUBLIsHER's NoTE.-The following Novellette was originally published in TiHE FLAG or OUR&#xD;
@@ -288,7 +293,7 @@ it&#xD;
 &#xD;
 y           . +rc. a    .,  .,n., ,el: "If' E+IP "r    n"Me^'  .a h..          r  'wst"re w.a  s+ wl5tss.rL« , x '  r i°  f'af'^rlFt"'b  MV   ypdR  '#y'°e' 4 :.      ,r~ y , ,            x&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8333-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC8333-00000003"/>&#xD;
 THE DANCING STAR.                                          THE DANCING STAR.&#xD;
 &#xD;
 structed ; and the other was a ruin which was&#xD;
@@ -557,7 +562,7 @@ nub spC!i    i     dr% +     f j     4     i    i              b.          _    
 e&#xD;
 rt't"Y+ III t vh'r' k  ry?.   K iy4 # ri SwiNtll.sog+          '#_ LEVt#!  3 i ^'',? ti; y3 f   °p"q&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8333-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC8333-00000004"/>&#xD;
 I.&#xD;
 &#xD;
 THE DANCING STAR.&#xD;
@@ -773,7 +778,7 @@ Ranging word.&#xD;
 &#xD;
 . v.-6*i^, -.  ; .xw., .,e ,  ..sw.a C  #9, + A 4iA"7'         _              3"7 5' "/ x ci i " } (+   9 MRM' GM      ';"  3' "   '     '   3,trp     1++a4 a  j&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8333-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC8333-00000005"/>&#xD;
 THE DANCING STAR.&#xD;
 &#xD;
 i&#xD;
@@ -1015,7 +1020,7 @@ f&#xD;
 fi&#xD;
 k&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8333-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC8333-00000006"/>&#xD;
 I.&#xD;
 &#xD;
 14&#xD;
@@ -1167,7 +1172,7 @@ f&#xD;
 ,.      ?                '     * y 5  ; -'   ,.  t                 ,. -. .     -  ,q~ y...,.     . v s wPn y, -¢c o., , = a.,'vr ^ °e"a 'n-q :-"yr°.rw.w+H-            ,5, . h+rr*s vnyM ev,.5p, ,f.                 .                                                                J&#xD;
 ...,&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8333-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC8333-00000007"/>&#xD;
 I4 1&#xD;
 &#xD;
 THE DANCING STAR.&#xD;
@@ -1378,7 +1383,7 @@ i     P&#xD;
 &#xD;
 r,,,.    .....«.......... . .,-.. .,-,  .w.. uanw.,.,en.;.sw-,ne rCP'rtfi sr s+,. 1r".a..e;..,±,'wc. s"!t ' "q';t1 v*.YNT YFMt 4'6'4 iKP"+6yMl''1     !? ,        iYr&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8333-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC8333-00000008"/>&#xD;
 -Nb&#xD;
 &#xD;
 j ,&#xD;
@@ -1612,7 +1617,7 @@ i 'i5&#xD;
 ,i&#xD;
 }r '          I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8333-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC8333-00000009"/>&#xD;
 20&#xD;
 &#xD;
 -        I&#xD;
@@ -1854,7 +1859,7 @@ ski&#xD;
 '_t&#xD;
 +'&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8333-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC8333-00000010"/>&#xD;
 y&#xD;
 ti                            r&#xD;
 _&#xD;
@@ -2046,7 +2051,7 @@ a&#xD;
 r,; r&#xD;
 . -                                    ;        ' ;&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8333-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC8333-00000011"/>&#xD;
 THE DANCING STAR.&#xD;
 &#xD;
 I&#xD;
@@ -2249,7 +2254,7 @@ fII&#xD;
 t       Y      f               ,«   ,   ;   ts,.,                     ' _           e         i i4 i J           41..ri  "  y      - RE&#xD;
 r 7  " S                        s;; f   4; ,     r.                      _               M     Y1   f         l r                    y ,&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8333-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC8333-00000012"/>&#xD;
 THE DANCING STAR.&#xD;
 &#xD;
 -                                                                                                      _                                                                                                                                                                f      ,&#xD;
@@ -2533,7 +2538,7 @@ f"&#xD;
 r.&#xD;
 1&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8333-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC8333-00000013"/>&#xD;
 .C:     s,'  N~sy  M. vi~a~ ",wr~  v  5 '  ,f  ...r1 +W .M/&#xD;
 &#xD;
 T&#xD;
@@ -2776,7 +2781,7 @@ t      _ l          f&#xD;
 &#xD;
 29&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8333-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC8333-00000014"/>&#xD;
 4t&#xD;
 &#xD;
 30&#xD;
@@ -2960,7 +2965,7 @@ ing Star were standing upon the deck of their&#xD;
 vessel.&#xD;
 fiI&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8333-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC8333-00000015"/>&#xD;
 ..+.,,.};Sist~sr3"+'e .++., r,  ! ^= b          ..., ..4. }.:;. ...,I..~ ..&#xD;
 y  at'itrt                                    A&#xD;
 &#xD;
@@ -3088,7 +3093,7 @@ r"&#xD;
 &#xD;
 334&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8333-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC8333-00000016"/>&#xD;
 I&#xD;
 V  '   t,&#xD;
 &#xD;
@@ -3360,7 +3365,7 @@ i"c&#xD;
 r   '      s "1 i"         t °  .:.'           +J, . a. f  i .:.lY ;^" 't              J y'1_ .;1 a        'I t..J"  J rs  j y.   w '-  r;.               rii: L'fia      y -i5&#xD;
 _ rtw -,        i"'' -"C          1'.* ',j^.     "gyp;   '              -'-f            i  r y     r     .X'f~-"       r-t      _t   .,        .r;      7q,,,     d"   ,       _               y,    4P&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8333-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC8333-00000017"/>&#xD;
 _ 4    4fi&#xD;
 4      4 &#xD;
 44   t&#xD;
@@ -3588,7 +3593,7 @@ gon the bay returning, he '&#xD;
 time fishing and sailing-&#xD;
 weather attended only by a.4&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8333-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC8333-00000018"/>&#xD;
 38&#xD;
 &#xD;
 TIlE DANCING 'STAR.&#xD;
@@ -3726,7 +3731,7 @@ It'&#xD;
 I A}&#xD;
 -.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8333-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC8333-00000019"/>&#xD;
 4&#xD;
 &#xD;
 THE DANCE&#xD;
@@ -3901,7 +3906,7 @@ ance, and Alice gracefully wound it about hQ&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8333-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC8333-00000020"/>&#xD;
 I&#xD;
 &#xD;
 7 F,&#xD;
@@ -4115,7 +4120,7 @@ $','t'.' '                                                    '4 '4'4&#xD;
 ,.'     " rr-4  «oy, t , .'4 4" y.'4  4''4"4'"4's "4 r' ". 44r'dttp-'4'4'+'4 r ' *''  'y''AA'4   """°. 4'  A"4,+ , fT ~ xr+ ±r,,r' p4~4444"'4A41' 1r l' !,} '"a" 4 rgy.4s','W_"   "'""V'.''-.'.*'--..  +., ....w'..  .,  ^. +L.'*4''*44*4*44  4 "&#xD;
 .r ;'4P ,                               '    " :9  r   '-+'4"  -  t ar-"4 ;, -    ,  I''S  '   ,,. '    ,4 ff  .     '&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8333-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC8333-00000021"/>&#xD;
 ..Fe44                 T'HE  DANCING S&#xD;
 &#xD;
 j&#xD;
@@ -4370,7 +4375,7 @@ it'I&#xD;
 Its&#xD;
 tib&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8333-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC8333-00000022"/>&#xD;
 '&#xD;
 &#xD;
 31R^&#xD;
@@ -4607,7 +4612,7 @@ a&#xD;
 &#xD;
 '         ,                '           '       _   ,                       f                                                                      ..                   _                 _&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8333-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC8333-00000023"/>&#xD;
 CHAPTER&#xD;
 &#xD;
 A new comet at the mill.&#xD;
@@ -4806,7 +4811,7 @@ r1',&#xD;
 '      t&#xD;
 k _   i&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8333-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC8333-00000024"/>&#xD;
 iI&#xD;
 &#xD;
 50&#xD;
@@ -5036,7 +5041,7 @@ Iig&#xD;
 *1-&#xD;
 IY&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8333-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC8333-00000025"/>&#xD;
 52&#xD;
 &#xD;
 44rout4&#xD;
@@ -5260,7 +5265,7 @@ _   ;;    .= :&#xD;
 ''  .  :&#xD;
 _,j_&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8333-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC8333-00000026"/>&#xD;
 r  .&#xD;
 I&#xD;
 r.&#xD;
@@ -5435,7 +5440,7 @@ I&#xD;
 &#xD;
 ,-                                                      ,                 '&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8333-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC8333-00000027"/>&#xD;
 I                                                              I&#xD;
 j&#xD;
 &#xD;
@@ -5616,7 +5621,7 @@ _ "&#xD;
 .   1&#xD;
 7                         ;      $&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8333-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC8333-00000028"/>&#xD;
 THE DANCING 'STAR.&#xD;
 &#xD;
 \Aayou were Nevil Beachampe-that heuad&#xD;
@@ -5828,7 +5833,7 @@ THE DANCING STAR&#xD;
 &#xD;
 C&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8333-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC8333-00000029"/>&#xD;
 60&#xD;
 pale as marble, he whole figure di&#xD;
 were about to spring, all winged,&#xD;
@@ -6074,7 +6079,7 @@ t&#xD;
 &#xD;
 b&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8333-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC8333-00000030"/>&#xD;
 )&#xD;
 &#xD;
 I17&#xD;
@@ -6242,7 +6247,7 @@ r&#xD;
 &#xD;
 n            , rv  °°  - :w .-v---         ,..    r    .,r    _ ,_.+." . air  -  _.  -._    +la. ' P.iyy5"}...  a8. sss"w     -.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8333-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC8333-00000031"/>&#xD;
 r&#xD;
 S' ? '34  I&#xD;
 i hSt  F&#xD;
@@ -6505,7 +6510,7 @@ s&#xD;
 s&#xD;
 i&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8333-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC8333-00000032"/>&#xD;
 66&#xD;
 &#xD;
 THE DANCING STAR.&#xD;
@@ -6697,7 +6702,7 @@ T&#xD;
 iry&#xD;
 r&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8333-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC8333-00000033"/>&#xD;
 THE DANCING STAR.&#xD;
 &#xD;
 69&#xD;
@@ -6923,7 +6928,7 @@ j&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8333-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC8333-00000034"/>&#xD;
 670&#xD;
 &#xD;
 '4&#xD;
@@ -7148,7 +7153,7 @@ i&#xD;
 o&#xD;
 .   _     z      Y  P&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8333-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC8333-00000035"/>&#xD;
 2~~2THTE DANCINN SW&#xD;
 iost a t-re, lost his balance and tumbled board of her in command,-mugh as    ,despise&#xD;
 Iead first intthe sea., This accident compelled that man, and should wish to ee hi brought&#xD;
@@ -7338,7 +7343,7 @@ t,&#xD;
 i"&#xD;
 "; ,&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8333-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC8333-00000036"/>&#xD;
 17&#xD;
 4                            TESDANCING STAR.&#xD;
 d t quite, sir:. Iknew  he wac armed and get fonrmiles ahead, for I was in instant sus-&#xD;
@@ -7499,7 +7504,7 @@ been robbed.&#xD;
 &#xD;
 I It&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8333-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC8333-00000037"/>&#xD;
 TfEACiAN GGSTARp&#xD;
 &#xD;
 "What did Itell you, Captaiain  aiang'&#xD;
@@ -7723,7 +7728,7 @@ i&#xD;
 r'                             (+'r&#xD;
 i&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8333-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC8333-00000038"/>&#xD;
 . 5.r&#xD;
 &#xD;
 78&#xD;
@@ -7958,7 +7963,7 @@ feet myself."&#xD;
 i&#xD;
 }&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8333-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC8333-00000039"/>&#xD;
 T " ".&#xD;
 &#xD;
 so&#xD;
@@ -8203,7 +8208,7 @@ But we will leave the survivors to tell their&#xD;
 story and express their gratitude. The delay&#xD;
 caused by this act of humanity on the part of&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8333-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC8333-00000040"/>&#xD;
 2&#xD;
 vessel from Norfolk, bound to&#xD;
 at the request of the captain&#xD;
@@ -8455,7 +8460,7 @@ captain ?"&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8333-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC8333-00000041"/>&#xD;
 .3&#xD;
 t&#xD;
 i&#xD;
@@ -8630,7 +8635,7 @@ F&#xD;
 }}   f&#xD;
 [ wyY&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8333-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC8333-00000042"/>&#xD;
 'I&#xD;
 &#xD;
 IN   8 ,                           THE DAN(&#xD;
@@ -8817,7 +8822,7 @@ t&#xD;
 a&#xD;
 r&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8333-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC8333-00000043"/>&#xD;
 THE DANCING STAR&#xD;
 &#xD;
 'IT-&#xD;
@@ -9008,7 +9013,7 @@ r&#xD;
 F&#xD;
 i          f   F&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8333-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC8333-00000044"/>&#xD;
 Q&#xD;
 &#xD;
 ~90&#xD;
@@ -9227,7 +9232,7 @@ t&#xD;
 .'&#xD;
 ;&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8333-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC8333-00000045"/>&#xD;
 r.tc + _'i '.t  ' -  ;        'q.  r  :-    'i_      J, .k~"  3  -   -  r i ,  .    '  I&#xD;
 &#xD;
 THE DANCING STAR.&#xD;
@@ -9460,7 +9465,7 @@ ING STAR.&#xD;
 ^,i             _   '&#xD;
 r&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8333-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC8333-00000046"/>&#xD;
 9                               THE&#xD;
 his course up the inlet, with a descrij&#xD;
 which we opened our story. Drawing le&#xD;
@@ -9725,7 +9730,7 @@ S, {r'                r                            ~7"        vhh ,,r       M'  
 &#xD;
 R       "   _ ,rv            ., _       -,      .. .-    'd.          ..      ..      .fir&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8333-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC8333-00000047"/>&#xD;
 96&#xD;
 &#xD;
 THE DANCING STAR.&#xD;
@@ -9935,7 +9940,7 @@ mortal coldness about my heart ! I know it is&#xD;
 &#xD;
 THE DANCING SAR.&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8333-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC8333-00000048"/>&#xD;
 '     Koo"         r"  ::   Syr-     ,is            S.     F« ^                    f                e't   ,,&#xD;
 r;    d ,. ,y?'%" ;:'       r  - ' Y,;i' ;ni ..,''.i,              'r.. - r'(~            .,",      by                 a             :{,                                                                                   "__,.......&#xD;
 r , .w ,. .,.......tv nw -..+*rr.-r.-..+ +1..+ ""...&#xD;
@@ -10084,7 +10089,7 @@ J,                    I '&#xD;
 i&#xD;
 _&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8333-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC8333-00000049"/>&#xD;
 THE DANCING STAR.&#xD;
 &#xD;
 judge than Captain Ned Blouster. As for poor&#xD;
@@ -10144,8 +10149,8 @@ prvX&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

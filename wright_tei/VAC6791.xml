@@ -1,94 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     
-     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd"
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
      xml:id="VAC6791">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Home on a Furlough </title>
-            <author >Anonymous</author>
+            <title>Home on a Furlough </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6791</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6791</idno>
+            <idno type="wright2" n="previous">wright2-1254</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Home on a furlough</title>
-                  <author >Anonymous</author>
+                  <title>Home on a furlough</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >16 p.</extent>
+               <extent>16 p.</extent>
                <publicationStmt>
-                  <publisher >W.J. Holland</publisher>
+                  <publisher>W.J. Holland</publisher>
                   <pubPlace>Springfield Mass. </pubPlace>
-                  <date  when="1864">1864</date>
+                  <date when="1864">1864</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-07-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+         <change who="Perry Willett, Indiana University" when="2001-07-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5.</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text >
+   <text>
       <body>
          <div type="book">
             <head>Home on a furlough</head>
-            <p> 
+            <p>
                <pb n="0 (TitlePage) " xml:id="VAC6791-00000001"/>   HOME ON  A FURLOUGH, A SKETCH or REAL LIFE.  SPRINGFIELD, MASS.: PUBLISHED BY W. J. HOLLAND,     <pb n="0-3" xml:id="VAC6791-00000002"/> Entered according to Act of Congress, in the year 1864, by BRADLEY &amp; CO.; in the Clerk's Office of the District Court for tho Eastorn Ditrict of Pennsylvania. STEREOTYED BY WESTCOTT &amp; THOMSON.   HOME ON A FURLOUGH. CAMP SCE E. "JOSEPH  WHTTAKER! Joseph Whitta- ker!" shouted as kind and brave a captain as ever drew a sword, standing at the head of the neatest little street in the whole camp, on either side of which stood eight beautiful white tents, neatly arranged for the conveni- ence and comfort of his "excelsior company." The sound of his voice brought the order- ly sergeant into the street upon a bound. "Orderly! find Joe Whittaker and send him to my tent immediately,' said the captain. "Aye, aye sir,' replied the ser'geant, as he ran to the lower tent on the east side of the little avenue. Throwing open the door, the orderly ser- geant inquires with emphasis, "Is Whit-    <pb n="4-5" xml:id="VAC6791-00000003"/> 4    hiOMEAl ON A FURLOUGH. taker in?" "Yes he is." replies several at once, and pointing to a berth; "In there, asleep." "Halloo Joe!" says the sergeant, approaching the bed and shaking the sold- ier. "I say, Joe! the captain wants you." "All right;" says Whittaker, leaping from his couch and rubbing his eyes, and then making for the door in the .wake of the sergeant. "I'll bet a dollar your furlough's come," shouted a battle-scarred comrade. "I hope so," says Joe. "I guess it has," remarked the sergeant, (now half way up the street,) 'for I see the captain have some papers in his hand, ' and a  tig smile on liis face,' ha. ha, ha;" upon which Joseph Whitta- ker leaped for joy, and sprang like'a deer to the door of the captain's tent. Meeting his captain with a graceful salute, the soldier smiling remarked, "The orderly sergeant said you wanted me sir!" "Yes, my brave, your furlough has comer here it is," said the   HOME ON A FURLOUGH.     5 captain, (handing him the eagerly desired and long looked for paper) and now hasten home Mr. Whittaker and enjoy yourself for fifteen days, carry my best respects to your family and inquiring friends, and return in good time." "Thank you, sir," rep]lied the soldier, with a graceful bow, whose joy' was quite full], then bounding away to' his qluafters followed by many of his comrades who were anxiously inquiring; "going to-night, Joe?" "Yes sir 'ee! I'm off the first train." "Take a letter for me," says one and another; "and a little package for me," shouts a third. "Yes, yes, :get them ready in ' double quick.'" All were anxious, and ready to lend Joe a hand in making preparations, for he was going home. Xy THfE Cf'itS. At six o'clock he started for the railroad station, accompanied by several who had ob-    <pb n="6-7" xml:id="VAC6791-00000004"/> 6    H IOM E ON A FURLOUGH. tained permission to go with him to the cars. A hearty shake hands with the sabre-bruised veterans around him, and Joseph Whittaker leaped into the cars which had'just stopped before him, with a' light and joyous heart, and in three minutes' time he was whizzing away toward his earthly-heaven.. Through Washington, Baltimore, Philadelphia and New York, on he flies at railroad speed (paying but little attention to any thing around him) showing his papers (with a significant wink, ' going home") to the proper guard officers. On, up to, and through Albany and UtiCa, with his heart growing lighter and happier as he nears home. At a small station west of Ttica, he leaves the cars, secures: his bag- gage and takes the STAGE COACLU And mounting with the driver upon the out- side, (because the stage was fulD the soldier   HOME ON A F1UJRLOUG..    7 has a fine view of the country around. Scenes, all familiar to his eye, meet his gaze on either hand, for he was only four miles from the home of his- childhood. Only four miles be- tween him and the old homestead, where lived father and mother, brother and sister, and, above all, the wife of his bosom and darling children, all, yea all, were idols of his heart He had written to his family the wee) before, so they were somewhat expecting him  but still he intended to surprise them. It was a beautiful harvest;-day in the month of July, the road was clean and hard, and the weary horses trotting leisurely along, had just turned the corner from the woods out upon the turnpike, where the scene before them was most beautiful to behold. The silvery little lake just on the right, was like a mirror in the lap of earth;, On its further shore towered up the church steeple from among a cluster of neatly painted cottage    <pb n="8-9" xml:id="VAC6791-00000005"/> 8  .  HOME ON A FUIRLOUGII. dwellings, all familiar to the soldier. The old mill, the store, and the school-house were each pointed out to the driver, and then the hard smooth macadamized road, so straight for miles, with its milk-white fence on either side; and the moving golden fields of grail on the left, the green pasture where the kine'( were. feeding, and the snow-white sheep re- clining, was most enchanting to belold. Just here, the soldier spies a large grey- squirrel, bounding from the fence next to the grain field, to a large tree, with his mouth full of wheat-heads. "Just look a' there," ex- claimed Whittaker, "see, that villain makes me think of the 'rebs' he's made a raid on that wheat-field, now see him skedaddle." The reapers are approaching from just over the hill, bending to their work with their heavy cradles cutting down the golden grain. 'Ah!" says the soldier, "that puts me in mind of how we mowed ' 'c down,' (meaning   HOME ON A FUIRLOUGH.    9 the rebs) at Antietam." 1'One of the laborers, hearing the remark of the soldier, looked up, when Joseph Whittaker recognized his own brother-in-law. "Hallo-o Wilson, how are you!" '"Who's there?" answered the far- mer. "One of Uncle Sam's boys by the name of Joe Whittaker," replies the soldier, "home on a furlough." "My, my," exclaims the farmer, raising his hands, "can it be possible?" "No!" says the soldier, "'taint possible, I tell ye, it's me,' hurrah for our side,' and with a xvill, the five hard. laborers gave three cheers for the '"Union Soldier," upon which the stage-driver and passengers gave three more, and a hearty laugh followed, when the loud crack of the whip sent; the horses flying down the road. The soldier, standing erect, shouted to Wilson to Come down to-n iht; but Wilson had already dropped his cradle, and was running at his best speed up across the lots, t    <pb n="10-11" xml:id="VAC6791-00000006"/> 10    HOME ON A FURLOUGH. to tell his wife of the arrival of her own dear brother from the war. In the meantime, the stage had got away in the distance, and the soldier's countenance grew sad, for they approached the grave- yard where slept the iemains of his brother, who fell by his side in a severe engagement the summer before. "Stop here," said the soldier, and the driver reined up close to the stile leading to the village death-yard. As the weary soldier alighted, he remarked to the' driver: "My home is just over the hill, you know, beyond the cemetery, and I'll walk up across lots, after I visit my brother's grave, and go in the back way. Don't tell the folks, as you drive by, that I have come." The stage leaves him and hurries on, turn- ing the corner half a mile below, and jogs slowly up the long, winding hill. Approach- ing the summit, and just rounding over the top of the hill, the driver beholds a group of   HOME ON A FUIRLOUGH.    " persons in a beautiful little yard, just before a pretty, brown cottage, straining their eyes toward the coach, as it swept by them, the driver barely hearing the remark of the old gentleman who headed the group, as he ex- claimed, "No Joseph to-day!" The coach flies on, and we leave it and turn to the fa- mily in the door-yard. Old Mr. Whittaker, and his wife, and younger daughter of sixteenl summers were there, besides the daughter-in-law (Joseph's wife) with her little children, one a sweet babe of eleven months, who had never looked on his father's face. F'ather Whittaker turned tremblingly from the gate toward the house, as the coach disappeared from view, exclaiming, "Well, well:, disappointed again!" "Yes," replies the old lady, "such is life! Ah me! disappointment is the common lot of us all." And she sat down with a sigh upon the oaken settee beside her younger daugh- , ;0       .    .   ,    <pb n="12-13" xml:id="VAC6791-00000007"/> 12    HOME ON A FURLOUGH, ter, and resumed her work again, (winding yarn,) and the daughter-in-law wiped away the falling tear, and yet full of hope, ex- claims, Never mind, we'll see him to-mor- row, may-be.' "Hopeful creature! Bless her dear soul," mutters the old man, as if talking to himself; and then thinking of his dead son, who was sent home from the battle- field, embalmed in his country's flag, and in his countrymen's heart but a year ago, his mind turned toward the grave-yard, and one expression set the disappointed group to crying. But Helen (the daughter-in-law) arose, saying, "Oh come, it won't do to brood over disappointment. The Lord is better than all our fears. Let us go in to tea. But really I did expect Joseph to sup with us to-night." And the party arose to go in. "I wonder where 'Eddy' and 'Franky' are?" (her two older boys,) said Helen. ".They are down   HOME ON A FURLOUGH.    18 in the lot with uncle Charley, playing," said Gertrude, the young sister-in-law. (Charley was Mr. Whittaker's youngest boy.) "Well, it is time they were in ; won't you please go call them, Gertrude dear?" "Hark! what's that?" exclaims the young wife. "There again!'  "T-o-o-t! toot! toot! Father's come!" lan]d the two little urchins bounded through the back gate, with paper trumpet, lugging the soldier's knapsack. The party from the front yard sprang into and through the house, the wife, catching a glimpse of her battle-burnt; :husband, thanked God aloud, and rushed to his open arms with her two little ones, the old. lady close after her. The dog, being roused, came with his bow-wow of welcome, while the old gentleman was obliged totake it mnore leisurely, leaning on the arm of his daughter. The younger brother of the soldier, standing just on his right, has had his greeting, together with    <pb n="14-15" xml:id="VAC6791-00000008"/> "    HOME ON A FURLOUGH. the little urchins who have acted the part of heralds. A neighboring woman, with her little girl, stand by the bars. They have had no news from their father and husband for many long months. They are anxious for tidings. In the distance, the hired man is swinging his hat for joy, and even the neighbor's boy has sat down with the curry- comb in his hand to enjoy the scene, and really the old family horse seems to recognise his master. What a picture presented to our view! How striking! how full of real life and interest is HtOME ON A FULO'GTRX H The father seizes the little child from his joyous wife, kissing his bosom-companion most tenderly, then pressing the darling babe to his heart for the first time, (having never seen the child before.) The devoted wife leans her head upon the shoulder of Joseph, .   HOME ON A FURLOUGH.     15 'with her right arm around his waist, enjoying the praises lavishly bestowed upon the sweet babe, while the next one at her side is shout- ing lustily, "Takeme, pa! take me!" And the old lady, with hands outstretched, ex- claiming, "Heaven bless you, Joseph!" "Amen!" shouts the grey-headed sire, just emerging from the porch-door, leaning on the arm of Gertrude, whose countenance sihines with smiles of joy; and "T-o-o-t! toot! toot! Father's come!" again rings out from the paper trumpet. And what a picture! Ah! there is real joy in those hearts, expressed even in the looks, beyond what we are able to describe. The artist's work is most complete! An attractive picture indeed, only to be known by long study.  Another remark or two about the woman at the bars with her little girl, and we have done. Oh! what an anx- ious look! Poor soul! little does she dream the tidings for her are so soleere; yea, tidings    <pb n="16-17" xml:id="VAC6791-00000009"/> 1    HIOME ON A rFURLOUGH. which will pierce her heart to the quick, and mantle her and her fatherless girl in dark weeds of grief. Her husband has a furlough for life, and lias gone to heaven.  Yea, he fought till he fell, and fell where he fought, the bravest of the brave.  He had passed through seven severe conflicts, and was victorious in each. Ite was scarred all over, but finally fell to rise no more, until that day when loyal and disloyal shall stand before the Judge of quick and dead, to give an account for the deeds done in the body. The dying words of her heroic husband were uttered in form  of prayer, which were carefully penned down for his surviving loved ones, and should be graven on every loyal heart:  O God of our fathers, our freedom prolong, And tread down rebellion, oppression, and wrong. O land of earth's hope, on thy blood-reddened sod. I die for the Nation! the Union! and God! I am mustered out!    </p>
          </div>
       </body>

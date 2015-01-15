@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6987">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6987">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Wheel of Misfortune, or, The Victims of Lottery and Policy Dealers </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>The Wheel of Misfortune, or, The Victims of Lottery and Policy Dealers </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6987</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6987</idno>
+            <idno type="wright2" n="previous">wright2-1452</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The wheel of misfortune, or, The victims of lottery and policy dealers</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>The wheel of misfortune, or, The victims of lottery and policy dealers</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >1 p. l. [5]-100 p. </extent>
+               <extent>1 p. l. [5]-100 p. </extent>
                <publicationStmt>
-                  <publisher >Garrett</publisher>
+                  <publisher>Garrett</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1853">[1853]</date>
+                  <date when="1853">[1853]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-08">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-08">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The wheel of misfortune, or, The victims of lottery and policy dealers</head> 
+            <head>The wheel of misfortune, or, The victims of lottery and policy dealers</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC6987-00000001"/>TH&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC6987-00000001"/>TH&#xD;
 &#xD;
 -'OR,-&#xD;
 &#xD;
@@ -106,7 +111,7 @@ F&#xD;
 &#xD;
 WHL EDP' 1nISoRTIThm;&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6987-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6987-00000002"/>&#xD;
 THE WHEEL OF MISFORTUNE.&#xD;
 CHAPTER I.                   The two first were Mr. Brent, a wealthy&#xD;
 South st. merchant and his wife-the young&#xD;
@@ -139,7 +144,7 @@ was purely beautiful, and looked as if church, where the light fell cold through
 she had a soul ; it is not every man or wo- stained window glass, and questions and re-&#xD;
 man that does, by the way.              spouses echoed along the silent aisles and up&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6987-00000003"/>&#xD;
+<pb n="6-7" xml:id="VAC6987-00000003"/>&#xD;
 rnE wuEI 3o ?  SMiFO  'TUi  on,&#xD;
 toward the lofty roof, did that ceremony    Nor I, my own  CIarh. e . ptuel&#xD;
 -e~n   Who would dare to think that vows heaven to give us awtonhenletttill'hl&#xD;
@@ -247,7 +252,7 @@ speculations in the South !"           see there's a lady in love with me and Ib
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6987-00000004"/>&#xD;
+<pb n="8-9" xml:id="VAC6987-00000004"/>&#xD;
 8                       TIE WHEEL OF MISFFORTUNE* On,&#xD;
 ow from her occasionally-convenient isn't  "The doctor will come soon, Johnnyj,"she&#xD;
 said-"the M. P. said he'd go and get one&#xD;
@@ -371,7 +376,7 @@ laat drop.                             tomer, an' I'll do it for luck I"&#xD;
 &#xD;
 .r&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6987-00000005"/>&#xD;
+<pb n="10-11" xml:id="VAC6987-00000005"/>&#xD;
 I0                       Talgw wnimL OF MIsF ImTUNE ; Ot,&#xD;
 nian swallowed every drop of the thing made a feeble eib't to stretch out it&#xD;
 fell glass of Ltid poison which he poured thin arms toward its mother, opened wide&#xD;
@@ -531,7 +536,7 @@ turn the package to the drawer ?"&#xD;
 &#xD;
 1'&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6987-00000006"/>&#xD;
+<pb n="12-13" xml:id="VAC6987-00000006"/>&#xD;
 12                      TE WHEEL OF MISFORTUNE ;OR&#xD;
 try the fickle goddess once more-there is like to be garoted with such a iir cairns,&#xD;
 the money in gold Sir-very acceptable    Dear Pa        " (a kiss imprassd here-&#xD;
@@ -684,7 +689,7 @@ While she draws breath we'll glance at&#xD;
 Malvina. She is five years younger than&#xD;
 ramintha-and looks ten, at least. She&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6987-00000007"/>&#xD;
+<pb n="14-15" xml:id="VAC6987-00000007"/>&#xD;
 TIHES VICTIMS OF LOTTERY AN) POLICY DEALR:I .          1&#xD;
 &#xD;
 14                       Tur1 WuEEL OF MISFORTUNE ; OR,&#xD;
@@ -861,7 +866,7 @@ great spec. I shall clear at least eight&#xD;
 &#xD;
 i'&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6987-00000008"/>&#xD;
+<pb n="16-17" xml:id="VAC6987-00000008"/>&#xD;
 T&#xD;
 }&#xD;
 F&#xD;
@@ -1045,7 +1050,7 @@ E&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6987-00000009"/>&#xD;
+<pb n="18-19" xml:id="VAC6987-00000009"/>&#xD;
 TI11 WHEEL OF MT5FO; TUNE ? oii,&#xD;
 &#xD;
 rude, we'll leave them to rec-ive their vis-j&#xD;
@@ -1237,7 +1242,7 @@ which was mint fadler tongue     nol titue&#xD;
 &#xD;
 CIIAPTER X.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6987-00000010"/>&#xD;
+<pb n="20-21" xml:id="VAC6987-00000010"/>&#xD;
 _&#xD;
 4 "&#xD;
 .#&#xD;
@@ -1412,7 +1417,7 @@ _ ;&#xD;
 $i&#xD;
 4&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6987-00000011"/>&#xD;
+<pb n="22-23" xml:id="VAC6987-00000011"/>&#xD;
 d&#xD;
 i&#xD;
 3&#xD;
@@ -1607,7 +1612,7 @@ Your connection with the lottery business&#xD;
 &#xD;
 _ y&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6987-00000012"/>&#xD;
+<pb n="24-25" xml:id="VAC6987-00000012"/>&#xD;
 24&#xD;
 &#xD;
 TiE VICTIS OF LOTTERY AND POLICY DEALERS-&#xD;
@@ -1733,7 +1738,7 @@ But where's Mrs. Deborah all this time ? "1 like that Vanroy !"&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6987-00000013"/>&#xD;
+<pb n="26-27" xml:id="VAC6987-00000013"/>&#xD;
 TIE WHEEL OF MIsFORTUNE; On.&#xD;
 &#xD;
 "So do I, he's as smart as a steel-trap," just returned from the store to his cotta."'&#xD;
@@ -1924,7 +1929,7 @@ The very hogs which will eat the garbage&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6987-00000014"/>&#xD;
+<pb n="28-29" xml:id="VAC6987-00000014"/>&#xD;
 'r&#xD;
 1. I 1&#xD;
 &#xD;
@@ -2149,7 +2154,7 @@ After this he again cast himself on his&#xD;
 tI Lt&#xD;
 I&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6987-00000015"/>&#xD;
+<pb n="30-31" xml:id="VAC6987-00000015"/>&#xD;
 83)&#xD;
 rude pallet.&#xD;
 leave him.&#xD;
@@ -2358,7 +2363,7 @@ N.:rS&#xD;
 &#xD;
 CIIAPTER XVII.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6987-00000016"/>&#xD;
+<pb n="32-33" xml:id="VAC6987-00000016"/>&#xD;
 ac&#xD;
 t&#xD;
 A&#xD;
@@ -2566,7 +2571,7 @@ no doubt but that thousands of my readers&#xD;
 &#xD;
 3&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6987-00000017"/>&#xD;
+<pb n="34-35" xml:id="VAC6987-00000017"/>&#xD;
 =-&#xD;
 Y"&#xD;
 s&#xD;
@@ -2759,7 +2764,7 @@ t I,&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6987-00000018"/>&#xD;
+<pb n="36-37" xml:id="VAC6987-00000018"/>&#xD;
 s&#xD;
 s&#xD;
 t&#xD;
@@ -2984,7 +2989,7 @@ t&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6987-00000019"/>&#xD;
+<pb n="38-39" xml:id="VAC6987-00000019"/>&#xD;
 SeTII  WHEE~L OFN M3ORiT1N OR,&#xD;
 &#xD;
 "A woman Y" said Mr. Anthon in surprise.&#xD;
@@ -3187,7 +3192,7 @@ I&#xD;
 &#xD;
 38&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6987-00000020"/>&#xD;
+<pb n="40-41" xml:id="VAC6987-00000020"/>&#xD;
 TSB !4TfKS ! OW  I'ERY ANDa POLICY DSALISUS.&#xD;
 &#xD;
 wife in the eight of God. There in its little&#xD;
@@ -3344,7 +3349,7 @@ V&#xD;
 &#xD;
 E_&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6987-00000021"/>&#xD;
+<pb n="42-43" xml:id="VAC6987-00000021"/>&#xD;
 42&#xD;
 &#xD;
 TllE WlEEuIL OF MISPOWIUNE y On,&#xD;
@@ -3511,7 +3516,7 @@ I&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6987-00000022"/>&#xD;
+<pb n="44-45" xml:id="VAC6987-00000022"/>&#xD;
 TIE WHEEL OF MISFORTUNE ; On,&#xD;
 &#xD;
 and Jet me be present at it, if indeed one&#xD;
@@ -3715,7 +3720,7 @@ bargain. , They have the cash for the gems&#xD;
 &#xD;
 44&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6987-00000023"/>&#xD;
+<pb n="46-47" xml:id="VAC6987-00000023"/>&#xD;
 46                      TiE WHEEL of:&#xD;
 and will keep it. Now dearest, promise&#xD;
 me that you will wear them!1"&#xD;
@@ -3911,7 +3916,7 @@ that he should be unhappy!"&#xD;
 She hd not heard a noiseless step whtca&#xD;
 approached over the heavy Brussels car.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6987-00000024"/>&#xD;
+<pb n="48-49" xml:id="VAC6987-00000024"/>&#xD;
 TUE Vl1fM5 1SO LOTTER# ANtb POLIC DEALERS&#xD;
 &#xD;
 pt---she did not know that the words&#xD;
@@ -4166,7 +4171,7 @@ F&#xD;
 pi&#xD;
 i&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6987-00000025"/>&#xD;
+<pb n="50-51" xml:id="VAC6987-00000025"/>&#xD;
 5  n  W ELo  xruti;01' VICTIMS 4R                                                                  TTUT ANT) I')LTCY DEALERS.             b1&#xD;
 &#xD;
 situation of Laura, the poor cast-off mistress&#xD;
@@ -4379,7 +4384,7 @@ was not again broken till they reached the&#xD;
 &#xD;
 !T1i{I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6987-00000026"/>&#xD;
+<pb n="52-53" xml:id="VAC6987-00000026"/>&#xD;
 52                      THnE WrEEL OF ursroRruNn; on,&#xD;
 city where Vanroy handed the Jew the sec- on the threshold, and by his side appears&#xD;
 end payment of five hundred dollars.  the daughter I have described before.&#xD;
@@ -4547,7 +4552,7 @@ r&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6987-00000027"/>&#xD;
+<pb n="54-55" xml:id="VAC6987-00000027"/>&#xD;
 TUE VICTIMS OF LOTTERY AND 1OLIOY DEALERS.&#xD;
 &#xD;
 54                      TIE WEEL oF MTSFORTUNE ;OR&#xD;
@@ -4745,7 +4750,7 @@ heiress, some mate more worthy of you !"&#xD;
 &#xD;
 if&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6987-00000028"/>&#xD;
+<pb n="56-57" xml:id="VAC6987-00000028"/>&#xD;
 56                         THE WHEEL oF&#xD;
 tomb than look for another than thee I" he&#xD;
 replied.&#xD;
@@ -4894,7 +4899,7 @@ i&#xD;
 ~ ' -&#xD;
 ,&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6987-00000029"/>&#xD;
+<pb n="58-59" xml:id="VAC6987-00000029"/>&#xD;
 58                      TiSf    s WHEEL OF MrsFo'TUmE; OR&#xD;
 to cot ashore, but he didn't go to meeting with the garb assume the demeanor of a&#xD;
 that daiy !"                           parson ?"&#xD;
@@ -5010,7 +5015,7 @@ f.&#xD;
 &#xD;
 _&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6987-00000030"/>&#xD;
+<pb n="60-61" xml:id="VAC6987-00000030"/>&#xD;
 'THE WaEELJ OFl&#xD;
 calls folks and things by their right names!"&#xD;
 " That's the fault of his education. The&#xD;
@@ -5226,7 +5231,7 @@ Y   J&#xD;
 I&#xD;
 1(&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6987-00000031"/>&#xD;
+<pb n="62-63" xml:id="VAC6987-00000031"/>&#xD;
 '81    ~THE WHE~EL OF~ M&#xD;
 surrttunded by such a high wall, and spiked&#xD;
 too with sharp iron spears on top, Miriam?''&#xD;
@@ -5437,7 +5442,7 @@ I&#xD;
 t,&#xD;
 k1&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6987-00000032"/>&#xD;
+<pb n="64-65" xml:id="VAC6987-00000032"/>&#xD;
 '4                        THE WHEEL OF MfMwFonTUNE 1OR&#xD;
 which the law makes it necessary for weak ful and honorable as to leave regrets be-&#xD;
 man to utter to bind us together. Marriage, hind me when I go down into the grave&#xD;
@@ -5605,7 +5610,7 @@ S&#xD;
 l&#xD;
 j&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6987-00000033"/>&#xD;
+<pb n="66-67" xml:id="VAC6987-00000033"/>&#xD;
 Tnaw~tI  x  Iotew  tTUB VIOTI3 OT LOTTERY A£ND POLICY ])ItALEIIS.                                                         £7&#xD;
 &#xD;
 to obtain his latitude. Longitude was what&#xD;
@@ -5795,7 +5800,7 @@ her "pets" safely oft:.   '&#xD;
 bring youhome safe d" said she, after kis#&#xD;
 ing them her last good bye.&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6987-00000034"/>&#xD;
+<pb n="68-69" xml:id="VAC6987-00000034"/>&#xD;
 A thrilll whistle and the cars were ofl.&#xD;
 Va.rv was   latled, for Tshmael had told&#xD;
 i: n thit Lautra was embarked. She was,&#xD;
@@ -6004,7 +6009,7 @@ cent who suffer from the crimes of the gull-&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6987-00000035"/>&#xD;
+<pb n="70-71" xml:id="VAC6987-00000035"/>&#xD;
 70                       TIHE WHEEL OF MIsFOaTUNE ; OR,&#xD;
 ty . I have op m i- this war against t   newsboy without noticing his cry, for little&#xD;
 lit ry del-i -, oni b half of the thousands did he think there was news in it that&#xD;
@@ -6169,7 +6174,7 @@ but he did not heed it, did not seem to hear&#xD;
 it, for he passed on.&#xD;
 But the carriage stopped.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6987-00000036"/>&#xD;
+<pb n="72-73" xml:id="VAC6987-00000036"/>&#xD;
 72                       THE WHEEL OF MISFORTUNE ; OR,&#xD;
 The bridal party advanced to the altar.  She turned to look for him, but he had&#xD;
 Their steps echoed through that lofty build- tied. So it ever with guilt.&#xD;
@@ -6280,7 +6285,7 @@ whom   only at lucid intervals, when tears all confidence.&#xD;
 come to quench for a moment the maniac    Dennison was dumb. Had not Eugenia,&#xD;
 fire which like a furnace burn within her still confiding in his honor and his love&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6987-00000037"/>&#xD;
+<pb n="74-75" xml:id="VAC6987-00000037"/>&#xD;
 74                       'rr WrIEEL OF Mrst'oRTUNE ; 011,&#xD;
 clung to him, he would have been ashamnl  '. Shall I send for a minister ?'' he ask-&#xD;
 of his acIuaiintance with Vanrov; have left ed.&#xD;
@@ -6443,7 +6448,7 @@ P&#xD;
 &#xD;
 j:&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6987-00000038"/>&#xD;
+<pb n="76-77" xml:id="VAC6987-00000038"/>&#xD;
 'I&#xD;
 &#xD;
 TB1 WHEEL OP MISi'OhrUNv;i 01&#xD;
@@ -6631,7 +6636,7 @@ THES VICTIMS OI LOTTERY AND POLICY DrEL R.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6987-00000039"/>&#xD;
+<pb n="78-79" xml:id="VAC6987-00000039"/>&#xD;
 78                    THE WHEEL OF MISFORTUNE; OR,&#xD;
 &#xD;
 whispered to him that I was there, and&#xD;
@@ -6809,7 +6814,7 @@ k&#xD;
 t&#xD;
 E            I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6987-00000040"/>&#xD;
+<pb n="80-81" xml:id="VAC6987-00000040"/>&#xD;
 E0                       THE WHEEL OF MISFORTUNE; ORn&#xD;
 flushed, but it is the cursed hue of rum that  " Have we?  W'ell if it's drank we can't&#xD;
 stains it. His eyes are sunk beneath his get it back again, but I say M-Mary, I&#xD;
@@ -6964,7 +6969,7 @@ you! Go, sir, I scorn and defy you ! Do&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6987-00000041"/>&#xD;
+<pb n="82-83" xml:id="VAC6987-00000041"/>&#xD;
 '1&#xD;
 &#xD;
 82                       THE WHEL oF&#xD;
@@ -7120,7 +7125,7 @@ into the idea that you were a gentleman, or not keep that weapon pointed towards
 at least a man. Now I know you, and des- it might go ofi accidentally. I know you&#xD;
 pise you a&amp;amp; a lying cowardly wretch.  Yea, are only jesting with me I"&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6987-00000042"/>&#xD;
+<pb n="84-85" xml:id="VAC6987-00000042"/>&#xD;
 "Sir, I jest no more! Obey my oinrrsu&#xD;
 now, or abide by the consequence. I am&#xD;
 the emmrndr now, you have been in&#xD;
@@ -7321,7 +7326,7 @@ I will try!"&#xD;
 "Bless you my child. Do not let your&#xD;
 mother dream of this matter. God may yet&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6987-00000043"/>&#xD;
+<pb n="86-87" xml:id="VAC6987-00000043"/>&#xD;
 86                       THE WHEEL OP MsFORTUNE; o$&#xD;
 hlip us afely out of it. Let us go to the follow you. I have friends, powerful ones&#xD;
 tt ilg room:"                           -those who will obey me in every wish&#xD;
@@ -7479,7 +7484,7 @@ un bon gentilhoume, he 's great benefactor&#xD;
 to ze peoples to invent zat bath !"&#xD;
 "fHurry, and disrobe me !"&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6987-00000044"/>&#xD;
+<pb n="88-89" xml:id="VAC6987-00000044"/>&#xD;
 88                       THE WHEEL OF MISFOItTUNE ; OR&#xD;
 " Oui Messieur, I shall be quick as no softly in through curtains of pink, was sc&#xD;
 time !"                                 disposed as to give each figure the appear-&#xD;
@@ -7620,7 +7625,7 @@ art and skill of every painter of fame has owner little less that $1,00,O000.&#x
 &#xD;
 x&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6987-00000045"/>&#xD;
+<pb n="90-91" xml:id="VAC6987-00000045"/>&#xD;
 90l                    THEt  WHEEL OP MISFOITUNEi; OR,&#xD;
 disipation have left their marks upon him.  "Yes, the one I played parson for!\What&#xD;
 Now we wil st how he is made up. In of her ?has she conutitted suicide or any&#xD;
@@ -7764,7 +7769,7 @@ y&#xD;
 I&#xD;
 I&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6987-00000046"/>&#xD;
+<pb n="92-93" xml:id="VAC6987-00000046"/>&#xD;
 THE wuWnra 0MiRTXE ; olt,&#xD;
 &#xD;
 reatler? No! Why, you haven't seen half&#xD;
@@ -7979,7 +7984,7 @@ He has had some of my best friends ' nt&#xD;
 't&#xD;
 x  -&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC6987-00000047"/>&#xD;
+<pb n="94-95" xml:id="VAC6987-00000047"/>&#xD;
 f&#xD;
 f&#xD;
 f&#xD;
@@ -8143,7 +8148,7 @@ who entered.                           was all this done that De Gerneau could&#
 " Take a seat, sir," said he-" you must offer no resistance.&#xD;
 excuse me for being found in my shirt    The stranger now deliberately out the&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6987-00000048"/>&#xD;
+<pb n="96-97" xml:id="VAC6987-00000048"/>&#xD;
 96                  TIHE WHEEL OF MISFORTUNE  OR&#xD;
 shirt from De Gerneanu's back with his knife answer? Will not even sprak to me ?-&#xD;
 and then taking the cowhide in his hand Then I'll leave you, good evening my dear&#xD;
@@ -8289,7 +8294,7 @@ of the mortgaged cottage, read'rig a letter, seen by those who know her to be wh
 ti&#xD;
 'I&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC6987-00000049"/>&#xD;
+<pb n="98-99" xml:id="VAC6987-00000049"/>&#xD;
 38                        THE WHEEL OF MISFORTUNE ; OR&#xD;
 acknowledges herself to be, a poor lost and there ! Besides my dear brave brother Is&#xD;
 ruined grl. hown oble it is in her to try to coming home 1"&#xD;
@@ -8449,7 +8454,7 @@ ii&#xD;
 Ii&#xD;
 .1&#xD;
 &#xD;
-<pb  n="100-101 (Advertisement) " xml:id="VAC6987-00000050"/>&#xD;
+<pb n="100-101 (Advertisement) " xml:id="VAC6987-00000050"/>&#xD;
 100&#xD;
 &#xD;
 THE WHEEL OF MsFORTtTNE ; OR&#xD;
@@ -8534,7 +8539,7 @@ will then receive the work by return of mail, free of postage.&#xD;
 Published and for sale by&#xD;
 GARRETT &amp;amp; CO, 18 Ann-street, N. Y.&#xD;
 &#xD;
-<pb  n="102 (Advertisement) -103 (Advertisement) " xml:id="VAC6987-00000051"/>&#xD;
+<pb n="102 (Advertisement) -103 (Advertisement) " xml:id="VAC6987-00000051"/>&#xD;
 A NEW NOVEL, EQUAL TO CHARLES O'MALLEY&#xD;
 OR&#xD;
 THE RIVAL SUITORS.&#xD;
@@ -8643,7 +8648,7 @@ f&#xD;
 &#xD;
 ST&amp;amp;NJiEMi liLtil&#xD;
 &#xD;
-<pb  n="104 (Advertisement) -105 (Advertisement) " xml:id="VAC6987-00000052"/>&#xD;
+<pb n="104 (Advertisement) -105 (Advertisement) " xml:id="VAC6987-00000052"/>&#xD;
 NEW BOOKS NE                                  OOKSI&#xD;
 ANGELA WILDON&#xD;
 OR, TUE&#xD;
@@ -8715,7 +8720,7 @@ I&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="106 (Advertisement) -107 (Advertisement) " xml:id="VAC6987-00000053"/>&#xD;
+<pb n="106 (Advertisement) -107 (Advertisement) " xml:id="VAC6987-00000053"/>&#xD;
 P1RIC FIFTY CENTS, COMPLETE.&#xD;
 EUGENE SUE'S GREAT PROSCRIBED BOOK,&#xD;
 &#xD;
@@ -8809,7 +8814,7 @@ I&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="108 (Advertisement) -109 (Advertisement) " xml:id="VAC6987-00000054"/>&#xD;
+<pb n="108 (Advertisement) -109 (Advertisement) " xml:id="VAC6987-00000054"/>&#xD;
 "&#xD;
 &#xD;
 A THRILLING HISTORICAL ROMANCE&#xD;
@@ -8877,7 +8882,7 @@ A. ' NAVAL, PIRATICAL AND YACHTING ROMANCE !!!&#xD;
 BY NED BUNTLINE.'&#xD;
 PRICE 25 CENTS.&#xD;
 &#xD;
-<pb  n="110 (Advertisement) -111 (Advertisement) " xml:id="VAC6987-00000055"/>&#xD;
+<pb n="110 (Advertisement) -111 (Advertisement) " xml:id="VAC6987-00000055"/>&#xD;
 i       ltsw&#xD;
 &#xD;
 T If,&#xD;
@@ -8999,7 +9004,7 @@ t&#xD;
 f.&#xD;
 \&#xD;
 &#xD;
-<pb  n="112 (Advertisement) -113 (Advertisement) " xml:id="VAC6987-00000056"/>&#xD;
+<pb n="112 (Advertisement) -113 (Advertisement) " xml:id="VAC6987-00000056"/>&#xD;
 gibes of  Q tbrattb  Mim n.&#xD;
 LIFE AND ADVENTURES OF TOM KING,&#xD;
 T'HE HIGHWA'srMAiOT.&#xD;
@@ -9051,7 +9056,7 @@ I&#xD;
 BY HOWARD PAUL, ESQ.&#xD;
 afs&amp;amp; ,&#xD;
 &#xD;
-<pb  n="114 (Advertisement) -115" xml:id="VAC6987-00000057"/>&#xD;
+<pb n="114 (Advertisement) -115" xml:id="VAC6987-00000057"/>&#xD;
 LIFE AND ADVENTURES OF DISK CLINTON.&#xD;
 THE MASKED HIGHWAYM&amp;amp;N.&#xD;
 This is ta remarkable work, which fixes and enchalns the attention of the render, fromt the first page te&#xD;
@@ -9081,8 +9086,8 @@ I&#xD;
 &#xD;
 &#xD;
                                                           
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

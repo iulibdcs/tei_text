@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6624">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6624">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Standish </title>
-            <author >Hare, R., Mrs.</author>
+            <title>Standish </title>
+            <author>Hare, R., Mrs.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6624</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6624</idno>
+            <idno type="wright2" n="previous">wright2-1098</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Standish</title>
-                  <author >Hare, R., Mrs.</author>
+                  <title>Standish</title>
+                  <author>Hare, R., Mrs.</author>
                </titleStmt>
-               <extent >185 p.</extent>
+               <extent>185 p.</extent>
                <publicationStmt>
-                  <publisher >Loring</publisher>
+                  <publisher>Loring</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1865">1865</date>
+                  <date when="1865">1865</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Standish</head> 
+            <head>Standish</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC6624-00000001"/>STNDISHe&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC6624-00000001"/>STNDISHe&#xD;
 &#xD;
 ionof our Pa&#xD;
 &#xD;
@@ -115,7 +120,7 @@ Aj&#xD;
 &#xD;
 ,sill a&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6624-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6624-00000002"/>&#xD;
 Y&#xD;
 LJ'S&#xD;
 &#xD;
@@ -163,7 +168,7 @@ PREFACE.&#xD;
 &#xD;
 II&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6624-00000003"/>&#xD;
+<pb n="0" xml:id="VAC6624-00000003"/>&#xD;
 STANDISH.&#xD;
 A TALE OF OUR TIMES.&#xD;
 INTRODUCTORY CILUTER.&#xD;
@@ -208,7 +213,7 @@ a9&#xD;
 &#xD;
 0.&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6624-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC6624-00000004"/>&#xD;
 1qt&#xD;
 &#xD;
 STANDISH.&#xD;
@@ -330,7 +335,7 @@ v&#xD;
 &#xD;
 5&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6624-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC6624-00000005"/>&#xD;
 6&#xD;
 &#xD;
 STANDISH.&#xD;
@@ -429,7 +434,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6624-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC6624-00000006"/>&#xD;
 l4&#xD;
 &#xD;
 STANDISH.&#xD;
@@ -539,7 +544,7 @@ I&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6624-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC6624-00000007"/>&#xD;
 Sn&#xD;
 &#xD;
 I&#xD;
@@ -667,7 +672,7 @@ I have ofteu puzzled over, the difference between the actual and&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6624-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC6624-00000008"/>&#xD;
 . 12                         sr.vrsu.&#xD;
 the real. And it will please me so much, little woman, if vou will&#xD;
 see it too, and not call it stuff. A lifeless copy, or, as Vou called it&#xD;
@@ -777,7 +782,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6624-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC6624-00000009"/>&#xD;
 4a&#xD;
 &#xD;
 STANDISH.&#xD;
@@ -893,7 +898,7 @@ r&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6624-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC6624-00000010"/>&#xD;
 K&#xD;
 &#xD;
 16&#xD;
@@ -1011,7 +1016,7 @@ This yielding u:      thority to Horace did not suit Anna's&#xD;
 &#xD;
 CHAPTER IV.&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6624-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC6624-00000011"/>&#xD;
 STANDLSI I19L&#xD;
 &#xD;
 notions of female supremacy. and she angrily answered. "My dear'&#xD;
@@ -1127,7 +1132,7 @@ $TANDISH.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6624-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC6624-00000012"/>&#xD;
 20SDS  STANDIs.        2&#xD;
 &#xD;
 down those he held, but it was to catch her in his arms, and kiss&#xD;
@@ -1247,7 +1252,7 @@ W,&#xD;
 &#xD;
 STM  ISm&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6624-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC6624-00000013"/>&#xD;
 14&#xD;
 &#xD;
 22&#xD;
@@ -1364,7 +1369,7 @@ ght, anti he did not look as if hn hadl d''ne anything to be asare&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6624-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC6624-00000014"/>&#xD;
 24                 -     STADISH.&#xD;
 &#xD;
 of. Feeling the time had come when she must make Jnna see that&#xD;
@@ -1471,7 +1476,7 @@ I&#xD;
 &#xD;
 STANDISHO                     25&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6624-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC6624-00000015"/>&#xD;
 STANDISH.                      27&#xD;
 &#xD;
 hurry to marry me that you could not wait for a wedding-ring to be&#xD;
@@ -1585,7 +1590,7 @@ zt;                                               STANDISHO&#xD;
 &#xD;
 Y'41&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6624-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC6624-00000016"/>&#xD;
 29&#xD;
 &#xD;
 13&#xD;
@@ -1708,7 +1713,7 @@ STANDISH.*&#xD;
 &#xD;
 28"&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6624-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC6624-00000017"/>&#xD;
 30  SANDSH.STANDSH.                                                                       31&#xD;
 &#xD;
 4&#xD;
@@ -1816,7 +1821,7 @@ lookedi up--n her face, there was no judzincnt, no prudence here ;~&#xD;
 &#xD;
 STASMSH.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6624-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC6624-00000018"/>&#xD;
 32&#xD;
 &#xD;
 c&#xD;
@@ -1939,7 +1944,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6624-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC6624-00000019"/>&#xD;
 ME ASTANDISH.S&#xD;
 &#xD;
 the Countess's mother. She did not wish.her daughter to take the&#xD;
@@ -2061,7 +2066,7 @@ OMO&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6624-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC6624-00000020"/>&#xD;
 1S&#xD;
 &#xD;
 6&#xD;
@@ -2191,7 +2196,7 @@ I.&#xD;
 &#xD;
 - 46k&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6624-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC6624-00000021"/>&#xD;
 STAXNSH                  3&#xD;
 &#xD;
 wa" where he had thrown her. This sight seemed to increase his&#xD;
@@ -2304,7 +2309,7 @@ aft&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6624-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC6624-00000022"/>&#xD;
 STANDISH.&#xD;
 &#xD;
 I&#xD;
@@ -2430,7 +2435,7 @@ It tth Attn a andI Deborah f-iz remno nstrance; wre uwle~  Twr&#xD;
 sense of a terrible wrong had, for the Km mentt. swept away all the&#xD;
 *&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6624-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC6624-00000023"/>&#xD;
 TADMH.&#xD;
 &#xD;
 pliablity of her character its grace and softness gone, the strength&#xD;
@@ -2555,7 +2560,7 @@ AN aw&#xD;
 &#xD;
 STAo,-Isa.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6624-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC6624-00000024"/>&#xD;
 44&#xD;
 &#xD;
 STANDISR.&#xD;
@@ -2677,7 +2682,7 @@ rI&#xD;
 &#xD;
 0Ai&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6624-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC6624-00000025"/>&#xD;
 STANDIMs.&#xD;
 &#xD;
 SMAmDS.&#xD;
@@ -2794,7 +2799,7 @@ Astonishment deprived Mrs. Campbell of the power to say more.&#xD;
 &#xD;
 47&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6624-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC6624-00000026"/>&#xD;
 4rANDISH.&#xD;
 &#xD;
 TAsDIa.&#xD;
@@ -2913,7 +2918,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6624-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC6624-00000027"/>&#xD;
 STANDIMS.&#xD;
 &#xD;
 they would de less to prepare their hearts for that divine seed, that&#xD;
@@ -3014,7 +3019,7 @@ I&#xD;
 &#xD;
 S-rAmXDsu.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6624-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC6624-00000028"/>&#xD;
 52&#xD;
 &#xD;
 8TAors8H-&#xD;
@@ -3134,7 +3139,7 @@ N&#xD;
 &#xD;
 1*&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6624-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC6624-00000029"/>&#xD;
 TANDISH.&#xD;
 &#xD;
 54&#xD;
@@ -3261,7 +3266,7 @@ I&#xD;
 *1&#xD;
 jf&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6624-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC6624-00000030"/>&#xD;
 smADISH. H7&#xD;
 &#xD;
 great effort, I had conquered : it took a more subtle form, and I&#xD;
@@ -3382,7 +3387,7 @@ I&#xD;
 &#xD;
 STNaMu.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6624-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC6624-00000031"/>&#xD;
 STANSo.R a&#xD;
 &#xD;
 near the Bay, where the distant mountains, the ever changing&#xD;
@@ -3496,7 +3501,7 @@ I I&#xD;
 &#xD;
 SrANxmSH.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6624-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC6624-00000032"/>&#xD;
 BTrAsA6&#xD;
 &#xD;
 IMANrDUM .&#xD;
@@ -3614,7 +3619,7 @@ t;&#xD;
 &#xD;
 61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6624-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC6624-00000033"/>&#xD;
 STsH.                                                                                     3&#xD;
 &#xD;
 self-control of her sect, had driven her only son from his home.&#xD;
@@ -3724,7 +3729,7 @@ The p irty 't off'. Exhilarated by the bracing air ai brItioht sun-&#xD;
 &#xD;
 ST~ANiSe.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6624-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC6624-00000034"/>&#xD;
 64&#xD;
 &#xD;
 STA1DIS.&#xD;
@@ -3849,7 +3854,7 @@ t&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6624-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC6624-00000035"/>&#xD;
 66  ST~rDIH.                                                 rAnDa-                    6&#xD;
 &#xD;
 eurls, blooming cheeks, and roguish smiles, all mingled in rainbow-&#xD;
@@ -3968,7 +3973,7 @@ STANDIsa-&#xD;
 &#xD;
 67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6624-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC6624-00000036"/>&#xD;
 STANDS.&#xD;
 &#xD;
 had no bird to talk to. I said, no; she passes long hours alone,&#xD;
@@ -4080,7 +4085,7 @@ Iil&#xD;
 &#xD;
 BrANDIH.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6624-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC6624-00000037"/>&#xD;
 MA .&#xD;
 &#xD;
 70&#xD;
@@ -4192,7 +4197,7 @@ of rapturous delight. " Beautiful: beautiful beautiful,' cried&#xD;
 &#xD;
 rj&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6624-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC6624-00000038"/>&#xD;
 S7AND  0-&#xD;
 &#xD;
 73&#xD;
@@ -4309,7 +4314,7 @@ were his usual Sunday congregation. As the ringleader, a great&#xD;
 &#xD;
 STAUt)Uss.&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6624-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC6624-00000039"/>&#xD;
 74  ~TLDI~.                       TaN2          7&#xD;
 &#xD;
 burly fellow, caught sight of him, he shouted to those behind, "It's&#xD;
@@ -4429,7 +4434,7 @@ gether -&#xD;
 &#xD;
 SrAsNDsa.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6624-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC6624-00000040"/>&#xD;
 SnAN DL.&#xD;
 &#xD;
 - - w&#xD;
@@ -4544,7 +4549,7 @@ Lakewood was about the same: both messengers exerted themselves&#xD;
 to the utmost, and nearly a; the same time, the constable in a wagon&#xD;
 and the Lakewood carryall arrived.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6624-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC6624-00000041"/>&#xD;
 76&#xD;
 &#xD;
 qAnI.&#xD;
@@ -4652,7 +4657,7 @@ ing with her own hand his cnrlk, and dressing his corpse with&#xD;
 flowers.&#xD;
 We have all stood by the deathb. I of some friend, and gazed&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6624-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC6624-00000042"/>&#xD;
 0  tAIDISH.&#xD;
 &#xD;
 with awe and wo0'der upon the strange beauty we saw there :fee.&#xD;
@@ -4773,7 +4778,7 @@ ain&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6624-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC6624-00000043"/>&#xD;
 STANISH.&#xD;
 &#xD;
 and took Mr. Talbot, " to do the eloquetice for him," as he ex-&#xD;
@@ -4891,7 +4896,7 @@ STANDISH.&#xD;
 &#xD;
 a*&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6624-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC6624-00000044"/>&#xD;
 ISH.&#xD;
 &#xD;
 84&#xD;
@@ -5002,7 +5007,7 @@ I&#xD;
 &#xD;
 86&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6624-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC6624-00000045"/>&#xD;
 86&#xD;
 &#xD;
 STANDWSli.&#xD;
@@ -5060,7 +5065,7 @@ iii?&#xD;
 j&#xD;
 I&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6624-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC6624-00000046"/>&#xD;
 88&#xD;
 &#xD;
 STANDI$SHO&#xD;
@@ -5148,7 +5153,7 @@ Iva,'n&#xD;
 &#xD;
 U&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6624-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC6624-00000047"/>&#xD;
 90               8'r~AXDSII-8AS!SH.9&#xD;
 &#xD;
 "4Exactly so. A c. 'u.in. tall. datk-baired. handsome, - a queen to&#xD;
@@ -5233,7 +5238,7 @@ ill'.&#xD;
 &#xD;
 ffANDLSHO&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6624-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC6624-00000048"/>&#xD;
 0&#xD;
 &#xD;
 0&#xD;
@@ -5352,7 +5357,7 @@ I'&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC6624-00000049"/>&#xD;
+<pb n="94-95" xml:id="VAC6624-00000049"/>&#xD;
 say no0thingr in which I do not arewt     o;yucno           lm&#xD;
 mec as much as I blae mvselW'"&#xD;
 Campbell stowped suddenlly and faced Mr. Talbot. "flow can&#xD;
@@ -5451,7 +5456,7 @@ InSAN. 1) 1 S U -&#xD;
 &#xD;
 G E X i).k.    a rf - h 20.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6624-00000050"/>&#xD;
+<pb n="96-97" xml:id="VAC6624-00000050"/>&#xD;
 'Q9T1LSTANDu I.&#xD;
 &#xD;
 97&#xD;
@@ -5544,7 +5549,7 @@ l&#xD;
 ftl&amp;amp;&#xD;
 70&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC6624-00000051"/>&#xD;
+<pb n="98-99" xml:id="VAC6624-00000051"/>&#xD;
 96&#xD;
 &#xD;
 8TAZDSH-&#xD;
@@ -5661,7 +5666,7 @@ education, the example of their fathers, the kindly influences of&#xD;
 &#xD;
 1J&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC6624-00000052"/>&#xD;
+<pb n="100-101" xml:id="VAC6624-00000052"/>&#xD;
 sTArDISH-&#xD;
 &#xD;
 their mothers, wives, and sisters, as to bring such an accusation as&#xD;
@@ -5780,7 +5785,7 @@ SOh !uncle.'' saili Virini~a mf -rin y.~ -- do not love uis les, be&#xD;
 &#xD;
 SrADrS. &#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC6624-00000053"/>&#xD;
+<pb n="102-103" xml:id="VAC6624-00000053"/>&#xD;
 'p&#xD;
 es/f&#xD;
 &#xD;
@@ -5880,7 +5885,7 @@ Ct L&#xD;
 &#xD;
 All&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC6624-00000054"/>&#xD;
+<pb n="104-105" xml:id="VAC6624-00000054"/>&#xD;
 104&#xD;
 &#xD;
 STANDS.&#xD;
@@ -5997,7 +6002,7 @@ went st it zi : -&#xD;
 &#xD;
 -1&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC6624-00000055"/>&#xD;
+<pb n="106-107" xml:id="VAC6624-00000055"/>&#xD;
 106               8~~TA!V.DtgffTA*IS.                                                                               0&#xD;
 &#xD;
 "Socb&amp;amp;ThpmanijRsound your a.&#xD;
@@ -6100,7 +6105,7 @@ I&#xD;
 &#xD;
 BTA4TDtM*&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC6624-00000056"/>&#xD;
+<pb n="108-109" xml:id="VAC6624-00000056"/>&#xD;
 STANDIsH.&#xD;
 &#xD;
 S&#xD;
@@ -6224,7 +6229,7 @@ I&#xD;
 A,&#xD;
 lit&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC6624-00000057"/>&#xD;
+<pb n="110-111" xml:id="VAC6624-00000057"/>&#xD;
 110&#xD;
 &#xD;
 sANXImSH.&#xD;
@@ -6331,7 +6336,7 @@ tioned himself why his eyes so suddenly openedd toe these beauties :&#xD;
 but. as it was. he only said -&#xD;
 " It is a very pleasant afternoon, Miss Rosalie."'&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC6624-00000058"/>&#xD;
+<pb n="112-113" xml:id="VAC6624-00000058"/>&#xD;
 12TA I M&#xD;
 &#xD;
 CHAPTER XXVIII&#xD;
@@ -6443,7 +6448,7 @@ I!&#xD;
 &#xD;
 grANDIsm.&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC6624-00000059"/>&#xD;
+<pb n="114-115" xml:id="VAC6624-00000059"/>&#xD;
 STANDS.&#xD;
 &#xD;
 coning from a man of great sagacity and exactness, living in the&#xD;
@@ -6567,7 +6572,7 @@ STANSHOr.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC6624-00000060"/>&#xD;
+<pb n="116-117" xml:id="VAC6624-00000060"/>&#xD;
 116&#xD;
 &#xD;
 WTA -&#xD;
@@ -6685,7 +6690,7 @@ me al' 'ni it' they hal kntw aWc~m rn       i~l' Grub  . he ai1 t&#xD;
 "Ole ma- n               h       u '"te  Mrc for yungh misut&#xD;
 no massa o 'mine!.        il hnr                  - i  ~retfu  on  is&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC6624-00000061"/>&#xD;
+<pb n="118-119" xml:id="VAC6624-00000061"/>&#xD;
 118  8TADI8. TANDISHO11&#xD;
 &#xD;
 But I wra tell ii' you "bout old massa: he Is. for de Unii~n. iY Cd-t&#xD;
@@ -6746,7 +6751,7 @@ lit&#xD;
 &#xD;
 STANDISHO&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC6624-00000062"/>&#xD;
+<pb n="120-121" xml:id="VAC6624-00000062"/>&#xD;
 -p&#xD;
 &#xD;
 ffrA.SDISB .&#xD;
@@ -6838,7 +6843,7 @@ a-&#xD;
 'in' re niit',ni tr     "'..    i&#xD;
 "'-'t          at  t  J.1 In1 ''  '           7.' F&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC6624-00000063"/>&#xD;
+<pb n="122-123" xml:id="VAC6624-00000063"/>&#xD;
 122&#xD;
 &#xD;
 STALvDI8HAf&#xD;
@@ -6903,7 +6908,7 @@ ao ii  i  I t ' A-IAAj  A Tk r A'j A A  r' nl r z"  'u i tIAAAfR3t  '.&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC6624-00000064"/>&#xD;
+<pb n="124-125" xml:id="VAC6624-00000064"/>&#xD;
 124&#xD;
 &#xD;
 sADISM-&#xD;
@@ -7019,7 +7024,7 @@ and forlorn enough.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC6624-00000065"/>&#xD;
+<pb n="126-127" xml:id="VAC6624-00000065"/>&#xD;
 STAND   -&#xD;
 &#xD;
 But Hlorace's spirits rose in proportion as those of his companions&#xD;
@@ -7137,7 +7142,7 @@ STADMB-&#xD;
 &#xD;
 AN&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC6624-00000066"/>&#xD;
+<pb n="128-129" xml:id="VAC6624-00000066"/>&#xD;
 128&#xD;
 &#xD;
 STNsDMS-0&#xD;
@@ -7261,7 +7266,7 @@ I&#xD;
 &#xD;
 4L&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC6624-00000067"/>&#xD;
+<pb n="130-131" xml:id="VAC6624-00000067"/>&#xD;
 1A0NDISH.                                                                           3&#xD;
 &#xD;
 her hair, if she had any, was completely concealed, and beyond which&#xD;
@@ -7373,7 +7378,7 @@ are steewi'i aw~ 5Cy e'tcrefutly. wriila  .'. his Ici'.' re. Tht;,e are&#xD;
 &#xD;
 STMman.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC6624-00000068"/>&#xD;
+<pb n="132-133" xml:id="VAC6624-00000068"/>&#xD;
 1TADTIS.                                       8&#xD;
 &#xD;
 the contributions of the neighborhood. vowl see: I will pick out the&#xD;
@@ -7487,7 +7492,7 @@ anmorI.&#xD;
 &#xD;
 j&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC6624-00000069"/>&#xD;
+<pb n="134-135" xml:id="VAC6624-00000069"/>&#xD;
 and at the same moment caught her in his arms as unceremoniously&#xD;
 as if this were the usual mte of salutation. 'And, stranger still,&#xD;
 the lady. instead of making the remonstrance proper on such occa-&#xD;
@@ -7599,7 +7604,7 @@ aTANDIS.&#xD;
 &#xD;
 135&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC6624-00000070"/>&#xD;
+<pb n="136-137" xml:id="VAC6624-00000070"/>&#xD;
 '1&#xD;
 &#xD;
 13i&#xD;
@@ -7715,7 +7720,7 @@ they er- ingagedl. Ml~ow. H. at the same time. c'ns niv'1 'f the&#xD;
 importance ofholdin': the ground the Union tr'ps hal so rarely&#xD;
 18&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC6624-00000071"/>&#xD;
+<pb n="138-139" xml:id="VAC6624-00000071"/>&#xD;
 138&#xD;
 &#xD;
 STANDI&amp;amp;H.&#xD;
@@ -7813,7 +7818,7 @@ a&#xD;
 :&#xD;
 ; V&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC6624-00000072"/>&#xD;
+<pb n="140-141" xml:id="VAC6624-00000072"/>&#xD;
 140n a   n.&#xD;
 &#xD;
 nwrao.                  14&#xD;
@@ -7936,7 +7941,7 @@ groans with an oath, lest he should grieve his kind friend.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC6624-00000073"/>&#xD;
+<pb n="142-143" xml:id="VAC6624-00000073"/>&#xD;
 rTI SH.4&#xD;
 &#xD;
 starDIsu.&#xD;
@@ -8050,7 +8055,7 @@ told.  Bea * ard, too, wrote to her, expre'ssmig his sorrow for her&#xD;
 &#xD;
 142&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC6624-00000074"/>&#xD;
+<pb n="144-145" xml:id="VAC6624-00000074"/>&#xD;
 ST maND . O&#xD;
 &#xD;
 BTANDIM&#xD;
@@ -8172,7 +8177,7 @@ ig&#xD;
 &#xD;
 144&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC6624-00000075"/>&#xD;
+<pb n="146-147" xml:id="VAC6624-00000075"/>&#xD;
 147&#xD;
 &#xD;
 STANDISH.&#xD;
@@ -8286,7 +8291,7 @@ to&#xD;
 &#xD;
 LL--&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC6624-00000076"/>&#xD;
+<pb n="148-149" xml:id="VAC6624-00000076"/>&#xD;
 srANDISR.&#xD;
 &#xD;
 armAn Ifr.&#xD;
@@ -8400,7 +8405,7 @@ I1&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC6624-00000077"/>&#xD;
+<pb n="150-151" xml:id="VAC6624-00000077"/>&#xD;
 rADKSU.                                                                                              15&#xD;
 &#xD;
 rANr.&#xD;
@@ -8505,7 +8510,7 @@ I5 c&#xD;
 &#xD;
 151&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC6624-00000078"/>&#xD;
+<pb n="152-153" xml:id="VAC6624-00000078"/>&#xD;
 152&#xD;
 &#xD;
 153&#xD;
@@ -8615,7 +8620,7 @@ ct he began a paragraph with, Miss Rosalie came in before he could&#xD;
 &#xD;
 W,&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC6624-00000079"/>&#xD;
+<pb n="154-155" xml:id="VAC6624-00000079"/>&#xD;
 14AMsH.            1&#xD;
 &#xD;
 bring it toa clse; she wasboth the burden and the chormsofhis&#xD;
@@ -8726,7 +8731,7 @@ I1&#xD;
 &#xD;
 wrAn-s-.*&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC6624-00000080"/>&#xD;
+<pb n="156-157" xml:id="VAC6624-00000080"/>&#xD;
 Me is very si   .Old Ponto is dead; Fany has a      t, a per.&#xD;
 feet beaty, too; Aunt Peggy has grown so savage that no one&#xD;
 dares to cross her threshold; oar old speckled hen hatched out a&#xD;
@@ -8836,7 +8841,7 @@ Sra"m.&#xD;
 &#xD;
 156&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC6624-00000081"/>&#xD;
+<pb n="158-159" xml:id="VAC6624-00000081"/>&#xD;
 158&#xD;
 &#xD;
 STANDS.&#xD;
@@ -8946,7 +8951,7 @@ them pri.sone.r&#xD;
 &#xD;
 *1&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC6624-00000082"/>&#xD;
+<pb n="160-161" xml:id="VAC6624-00000082"/>&#xD;
 160                         Ammm-&#xD;
 CHAPTER XLII.&#xD;
 IT was   prettily furished Aitting-room, with a sunny exposure,&#xD;
@@ -9049,7 +9054,7 @@ she began to arrange her hair. :qnvtral styles were tried : at last one&#xD;
 proved satisfactory. She put on the bonnet, tied it, pulled out the&#xD;
 2t&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC6624-00000083"/>&#xD;
+<pb n="162-163" xml:id="VAC6624-00000083"/>&#xD;
 162&#xD;
 &#xD;
 STAxDLSIT.&#xD;
@@ -9149,7 +9154,7 @@ h a n   ' m  a ll                          h r    '  u  m&#xD;
 off andi twist it int a coerd to stri::ti emn.-f-  fthHopa,&#xD;
 The guard who patrolled ths' 5eeak in frus   h  Hstl&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC6624-00000084"/>&#xD;
+<pb n="164-165" xml:id="VAC6624-00000084"/>&#xD;
 164&#xD;
 &#xD;
 STAXrIs-&#xD;
@@ -9269,7 +9274,7 @@ friendly Ramisay ti p.-rfernm the cieee&#xD;
 "' The eblergvman muinit IN' a re4de lt ef ~ ruithebrderom&#xD;
 D.:etor Bri.'r here interpa -.~'l  'Pnt~erytelrec'or&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC6624-00000085"/>&#xD;
+<pb n="166-167" xml:id="VAC6624-00000085"/>&#xD;
 STWDWHs.&#xD;
 &#xD;
 he must not even have his face washed, and hair brushed. to-night,&#xD;
@@ -9378,7 +9383,7 @@ ness of the mnarna. ti". w-  "'ii&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC6624-00000086"/>&#xD;
+<pb n="168-169" xml:id="VAC6624-00000086"/>&#xD;
 r&#xD;
 &#xD;
 TANDIS.&#xD;
@@ -9493,7 +9498,7 @@ hang down lhke bells expecting one to advance and toll them: ethers&#xD;
 &#xD;
 168&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC6624-00000087"/>&#xD;
+<pb n="170-171" xml:id="VAC6624-00000087"/>&#xD;
 170                        STADISs.&#xD;
 present two fingers, and every kindly impulse freezes at their touch-&#xD;
 while a third class give a gripe indicting pain. without producing&#xD;
@@ -9597,7 +9602,7 @@ jt mountedl him. Ernest c pie"d his dIress frcem a bo'k of costumes&#xD;
 -' Talhout lent him ; but the ht rs''' leezs puzzledI him. ie said&#xD;
 man  tlte. f pa  wer on ~ly here. h "d d1' them for me-&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC6624-00000088"/>&#xD;
+<pb n="172-173" xml:id="VAC6624-00000088"/>&#xD;
 172                       STANDIM.&#xD;
 that I could not bear it, and sent him out to the stable to make a&#xD;
 sketch from nature."&#xD;
@@ -9707,7 +9712,7 @@ in a ce'll apipropiriatedl to convi 'tedI Iemsi . and wh i s ti  etre&#xD;
 in all r"'pcts ats if such conietd. and ti bie held f'r execution. in&#xD;
 the sxue manner as may bee adopted by the enemy for the executaanl&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC6624-00000089"/>&#xD;
+<pb n="174-175" xml:id="VAC6624-00000089"/>&#xD;
 BTADISH.1&#xD;
 &#xD;
 of the prisoner of war, Smith, recently condemned to death in Phil-&#xD;
@@ -9814,7 +9819,7 @@ I&#xD;
 &#xD;
 sTAN m. H&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC6624-00000090"/>&#xD;
+<pb n="176-177" xml:id="VAC6624-00000090"/>&#xD;
 0&#xD;
 &#xD;
 176                       rDMsa.&#xD;
@@ -9920,7 +9925,7 @@ bieca'usli a r hani. 'mw Colon.-] w U  n 1''&#xD;
 --a Nit a. nu4h :!kant tyli. I          'h 'ranzr&#xD;
 tried  ts 'p i, hI*r.&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC6624-00000091"/>&#xD;
+<pb n="178-179" xml:id="VAC6624-00000091"/>&#xD;
 178&#xD;
 &#xD;
 179&#xD;
@@ -10038,7 +10043,7 @@ Barclay. "Yes he shoul t.o, sh'i uth?&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC6624-00000092"/>&#xD;
+<pb n="180-181" xml:id="VAC6624-00000092"/>&#xD;
 180&#xD;
 &#xD;
 181&#xD;
@@ -10144,7 +10149,7 @@ n"i.wt  an *rt at conmpesur-. M1r.Tabiit came and stood before&#xD;
 her. a with f   'n, bl!Ii'r hy up      y iu: yeu hive tried to&#xD;
 avoid this mntA-r' igw, but there i., a my~tery whiieb yo~u must el*-ar up,&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC6624-00000093"/>&#xD;
+<pb n="182-183" xml:id="VAC6624-00000093"/>&#xD;
 1r&amp;amp;111SH. j1&#xD;
 &#xD;
 183&#xD;
@@ -10262,7 +10267,7 @@ bel' nt fe re ba i a fellow after all  Putting his arm round her&#xD;
 eant ht looked down upon her with a 'sweet, tender smile, as rare&#xD;
 as it was beautiful. upon his fae.&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC6624-00000094"/>&#xD;
+<pb n="184-185" xml:id="VAC6624-00000094"/>&#xD;
 184&#xD;
 &#xD;
 STANDIs.&#xD;
@@ -10356,8 +10361,8 @@ I&#xD;
 &#xD;
 &#xD;
   &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

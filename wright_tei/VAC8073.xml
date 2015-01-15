@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8073">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8073">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Valerie Aylmer </title>
-            <author >Reid, Christian, (1846-1920)</author>
+            <title>Valerie Aylmer </title>
+            <author>Reid, Christian, (1846-1920)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8073</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8073</idno>
+            <idno type="wright2" n="previous">wright2-2512</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Valerie Aylmer</title>
-                  <author >Reid, Christian, (1846-1920)</author>
+                  <title>Valerie Aylmer</title>
+                  <author>Reid, Christian, (1846-1920)</author>
                </titleStmt>
-               <extent >221 p.</extent>
+               <extent>221 p.</extent>
                <publicationStmt>
-                  <publisher >Appleton</publisher>
+                  <publisher>Appleton</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1870">1870</date>
+                  <date when="1870">1870</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Valerie Aylmer</head> 
+            <head>Valerie Aylmer</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8073-00000001"/>C H RIST T IAKN&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8073-00000001"/>C H RIST T IAKN&#xD;
 &#xD;
 R EI D.&#xD;
 &#xD;
@@ -104,7 +109,7 @@ NEW YORK:&#xD;
 A NOVEL.&#xD;
 BY .-&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8073-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8073-00000002"/>&#xD;
 I                                     A&#xD;
 &#xD;
 C O NT EXNTS.&#xD;
@@ -202,7 +207,7 @@ N&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8073-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8073-00000003"/>&#xD;
 VALERIE AYLMEIR.&#xD;
 -4**---.&#xD;
 BOOKL&#xD;
@@ -282,7 +287,7 @@ sources of power are almost afrays inyst~..&#xD;
 rious,'and If we'atte~npted to'an1y~e1~Jz0*-&#xD;
 which Heaven forbid we should~ 4~d~44s&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8073-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8073-00000004"/>&#xD;
 6                            VALERIE AYLMER.&#xD;
 should be apt to find ourselves sadly at a open in their hospitable welcome, and the&#xD;
 mm to nooonnt fov mnnv o1oviithin~ to n'r~.nt- old thlp of lifo hid to flow hank R~aiTL&#xD;
@@ -499,7 +504,7 @@ in proportion. Yet, nevertheless, there are&#xD;
 certain plain rules of art, which, if we&#xD;
 choose to call. them in, settle' the matter&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8073-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8073-00000005"/>&#xD;
 8                            VALEIIIE AYLM1~R.&#xD;
 very summarily. One of these rules-4he J over with sunny lights and soft languors&#xD;
 &#xD;
@@ -715,7 +720,7 @@ since he has been in Europe, have contrib-&#xD;
 uted in no slight degree to involve me so&#xD;
 deeply, that if I sold every acre of land I.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8073-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8073-00000006"/>&#xD;
 10                        VALERIE AYLMETh                                                             STRIKING THI~ FLAG.                      121&#xD;
 &#xD;
 possess-even the very soil around "-he&#xD;
@@ -936,7 +941,7 @@ would be going to protect your rights&#xD;
 &#xD;
 n&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8073-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8073-00000007"/>&#xD;
 12                        VALERIE AYLMER.                                                           A SON OF NEPTUNE.                      13&#xD;
 &#xD;
 against the schen~es of another person.&#xD;
@@ -1146,7 +1151,7 @@ young lady, who drew back as if she desired&#xD;
 to remained undiscovered. If such were the&#xD;
 case, she reckoned without her host, how-&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8073-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8073-00000008"/>&#xD;
 14                        VALERIE AYLMER.                                                            A SON OF NEPTUNE.                        15&#xD;
 &#xD;
 ever, for Sprite, as it chanced, was of an-&#xD;
@@ -1365,7 +1370,7 @@ breathlessly.&#xD;
 &#xD;
 14&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8073-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8073-00000009"/>&#xD;
 16                       VALERIE AYLMER.                                                   PUTTING IT TO TIlE TOUCH.                 17&#xD;
 &#xD;
 "Miss Valerie-" puff-" massa says "&#xD;
@@ -1576,7 +1581,7 @@ was, after all, only a kind of tar trdionis for~&#xD;
 his past trifling with other and more sus-~&#xD;
 ceptible hearts than his own weather-beaten&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8073-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8073-00000010"/>&#xD;
 PUTTING IT TO THE TOUCH.&#xD;
 &#xD;
 18                       VALERIE AYLMER.&#xD;
@@ -1795,7 +1800,7 @@ since supper, that you have made that in-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8073-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8073-00000011"/>&#xD;
 20                       VALERIE AYLMER&#xD;
 &#xD;
 spiriting ren~ark," said the gentleman, doing&#xD;
@@ -2012,7 +2017,7 @@ answered, leaning against the instrument,&#xD;
 but evidently with no intention oftouching&#xD;
 it. "Sorry as I am to be disobliging, I&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8073-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8073-00000012"/>&#xD;
 VALERIE AYLMER.&#xD;
 &#xD;
 ON THlE WING.&#xD;
@@ -2231,7 +2236,7 @@ three weeks that she was in travelling or-&#xD;
 der, and her father at once set the day of&#xD;
 departure.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8073-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8073-00000013"/>&#xD;
 24                      VALERIE AYLMER.                                                      ON THE WING.                      25&#xD;
 &#xD;
 On the eve of that day, Miss Aylrner&#xD;
@@ -2447,7 +2452,7 @@ amends for all my high crimes and misde-&#xD;
 meaners, by endin~ my days as-Mrs.&#xD;
 Charles Hautaine I"&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8073-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8073-00000014"/>&#xD;
 VALERIE AYLMER.                                                       ON THE WiNO.                        27&#xD;
 &#xD;
 "Valerie!-you must be jesting!"&#xD;
@@ -2665,7 +2670,7 @@ find a fairer one. I confess that I should&#xD;
 &#xD;
 VALERIE AYLMER.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8073-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8073-00000015"/>&#xD;
 28                       ~VALERIE AYLMER.&#xD;
 &#xD;
 like to fall in love, if onlyTor the novelty of&#xD;
@@ -2810,7 +2815,7 @@ BOOK II.&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8073-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8073-00000016"/>&#xD;
 "MY PRETTY PAGE2'                         31&#xD;
 &#xD;
 30                       VALERIE .&amp;amp;YLMER.&#xD;
@@ -3029,7 +3034,7 @@ at all where 'they should have been, but&#xD;
 rather on the dock beyond, where a private&#xD;
 carriage was drawn up, at the door 'of&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8073-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8073-00000017"/>&#xD;
 32                      VALERIE AYLMER.                                                  A FREE LANGE OF TO-DAY.&#xD;
 &#xD;
 which her grandfather's face looked eager-&#xD;
@@ -3241,7 +3246,7 @@ last, one evening, a sudden whim, or fit of&#xD;
 loneliness, seized her. She tossed the novel,~&#xD;
 over which she was yawning, clear across~&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8073-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8073-00000018"/>&#xD;
 34                      VALERIE AYLMER.                                                  A FIIEE LANCH OF TO-DAY.                35&#xD;
 &#xD;
 the room, rang her bell, made a toilet, and,&#xD;
@@ -3456,7 +3461,7 @@ How soon they leave the table!"&#xD;
 long," said Madame Vacquant, pausing in&#xD;
 her work to listen; "and JulianI know, has&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8073-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8073-00000019"/>&#xD;
 VALERIE AYLMER.                                                   A FREfl LANCE ~F TO-DAY.                 37&#xD;
 &#xD;
 /an engagement ±'or this evening. That is&#xD;
@@ -3670,7 +3675,7 @@ those whom he loved, with the supren~iegen-&#xD;
 tleness and tenderness that a'e born' of&#xD;
 strength. Nevertheless, let it not, be sup-&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8073-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8073-00000020"/>&#xD;
 38                       VALERIE AYLMER.                                                  A FREE LANCE OF TO-DAY.                   39&#xD;
 &#xD;
 posed that there was any thing of the Titan,&#xD;
@@ -3885,7 +3890,7 @@ Poor Julian was meanwhile leading his.&#xD;
 companion through one after the other of&#xD;
 -'the suite of reception-rooms, until they&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8073-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8073-00000021"/>&#xD;
 40                       VAL1~RIE AYLMER.                                                THE GENERAL GIVES A WARNING.       .       41&#xD;
 &#xD;
 found themselves at the entrance of the con-&#xD;
@@ -4097,7 +4102,7 @@ sion.&#xD;
 "I thought the evening went off very&#xD;
 well," he said; "but, then, I'm n~ver hard&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8073-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8073-00000022"/>&#xD;
 42                     VALERIE AYLMER.                                              TIlE GENERAL GIVES A WARNING.            43&#xD;
 &#xD;
 to please, you know. Julian certainly must&#xD;
@@ -4312,7 +4317,7 @@ business. You would only incommode him,&#xD;
 and tire yourself. I shall turn you over 'to&#xD;
 Julian for an hour or two, and as soon as I&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8073-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8073-00000023"/>&#xD;
 '   44                    VALERIE AYLMER.                                           TilE GENERAL GIVX~ A WARNING.&#xD;
 &#xD;
 give some directions to Pierre, I will be in&#xD;
@@ -4527,7 +4532,7 @@ gift themselves~-to linagine how she could&#xD;
 possibly adapt herself so readily to so many&#xD;
 diverse minds and diverse tastes; but the&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8073-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8073-00000024"/>&#xD;
 48                     VALERIE AYLMER.                                              THE GENERAL GIVES A WARNING.             4'7&#xD;
 &#xD;
 truth really was, that half of it was done un-&#xD;
@@ -4742,7 +4747,7 @@ Of course, I will promise. There's not the&#xD;
 least difficulty about it; for I never meant&#xD;
 any thing else than letting him alone. I al-&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8073-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8073-00000025"/>&#xD;
 48&#xD;
 most feel as if he were a child-quite as if I&#xD;
 should take undue advantage of his youth&#xD;
@@ -4957,7 +4962,7 @@ available x~iaterial f~r am~isement on hand?&#xD;
 She began to think so; and then she also&#xD;
 began to think that Romney belonged t~&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8073-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8073-00000026"/>&#xD;
 /&#xD;
 &#xD;
 50                           VALERIE&#xD;
@@ -5177,7 +5182,7 @@ horses behaved as they are likely to do."&#xD;
 Valerie turned and looked inquiringly at&#xD;
 Romney, who was carelessly sipping his cof-&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8073-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8073-00000027"/>&#xD;
 VAL~R~E AYL~ER.&#xD;
 &#xD;
 A WILFUL WOMAN.                       53'&#xD;
@@ -5394,7 +5399,7 @@ milan's sake, I hope it does ~.ot m~n&#xD;
 leaving him in the lurch?"&#xD;
 "I have been trying to persuade Miss&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8073-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8073-00000028"/>&#xD;
 54                       VALERIE AYLMRR.                                                       A WILPUI WOMAN.&#xD;
 &#xD;
 Ayhner that, for Julian's sake, as well as&#xD;
@@ -5608,7 +5613,7 @@ man might hate done-~.-a painful anxiety in..&#xD;
 the honest, bronze face before him. He re-~&#xD;
 membered how long the. ~ld servant had~&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8073-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8073-00000029"/>&#xD;
 VALERIJII AYLMER.                                                                DFIIIRThIO..DO.&#xD;
 &#xD;
 knp~n~and loved Valerie; and it was char-&#xD;
@@ -5817,7 +5822,7 @@ yours."&#xD;
 "I am sure you are doing a great deal,"&#xD;
 she said, cordially. "Captain Darcy 'would&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8073-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8073-00000030"/>&#xD;
 '58                          VALERIII~ AYLMER.                                                                  DIIIIIRING.DO.                         59&#xD;
 &#xD;
 ta~re yon to task.very severely for speaking&#xD;
@@ -6031,7 +6036,7 @@ and waited for the end.&#xD;
 l~Tow it chanced that the thorough-breds&#xD;
 having made better time than even he had&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8073-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8073-00000031"/>&#xD;
 DRRRINA-DO.                        61&#xD;
 &#xD;
 ~3O                            VAVIIRIII 'AThMER.&#xD;
@@ -6248,7 +6253,7 @@ back, gtill quite silently, while he went up&#xD;
 to the policeman, who held the thorou~h~&#xD;
 breds-now safely out of harness-.~.aud re-&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8073-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8073-00000032"/>&#xD;
 62                           VALERTh&#xD;
 turned his thanks both verbally and sub-&#xD;
 stantially. After a while he came back, and&#xD;
@@ -6460,7 +6465,7 @@ another. It Was a retribution-she felt&#xD;
 that-but she also felt that it was almost&#xD;
 more than she could bear.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8073-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8073-00000033"/>&#xD;
 64                       VAJ~E1UE AYLMER.                                               THOSE WHO DANCE MUST PAY THE PIPER.              65&#xD;
 &#xD;
 "Grandpapa, toll me about Julian," she'&#xD;
@@ -6675,7 +6680,7 @@ I-I cannot help wishing that it had been&#xD;
 any one else who chanced to stop the&#xD;
 horses."&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8073-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8073-00000034"/>&#xD;
 88                       VALERIE AYLMER.                                              THOSE WHO DANCE MUST PAY THE PIPER.             67&#xD;
 &#xD;
 The violet eyes opened again on her face&#xD;
@@ -6888,7 +6893,7 @@ rally, therefore, it turned Romney's. l~Tat-&#xD;
 urally, also, they grew to be very intimate&#xD;
 with one another, to exercise the right of&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8073-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8073-00000035"/>&#xD;
 THOSE WHO DANCE MUST FAY THE FIPER.              69&#xD;
 &#xD;
 68                       VALERIE AYLMER.&#xD;
@@ -7105,7 +7110,7 @@ do you ask?~~&#xD;
 "Only because I would like to disabuse&#xD;
 her of a false impression as far as I am con-&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8073-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8073-00000036"/>&#xD;
 'go                      VALERIE AYLMER.                                                     A DECLARATION-NOT OF LOVE.                  71&#xD;
 &#xD;
 earned," his nephew answered. "I would&#xD;
@@ -7318,7 +7323,7 @@ of he paper from a table near at hand, fold-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8073-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8073-00000037"/>&#xD;
 72                       VALERIE AYLMER.                                                  A DECLARATION-NOT OF LOVE.                 73&#xD;
 &#xD;
 ed down the sheet at a particular place, and,&#xD;
@@ -7533,7 +7538,7 @@ or the walk by a master-piece of Oorreggio&#xD;
 sear repaid by the inspection of my handi.-&#xD;
 york."&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8073-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8073-00000038"/>&#xD;
 74                      VALERIE AYLMER.                                                  A DECLARATION-NOT OF LOVE.                75&#xD;
 &#xD;
 "Don't you like it?"&#xD;
@@ -7750,7 +7755,7 @@ forest. Save f~r the want of sufficient depth&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8073-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8073-00000039"/>&#xD;
 VALERIE AYLMER.&#xD;
 &#xD;
 A DECLARATION-NOT OF LOVE.&#xD;
@@ -7972,7 +7977,7 @@ carelessly:&#xD;
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8073-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8073-00000040"/>&#xD;
 U'1&#xD;
 &#xD;
 VALERIE AYLMER.&#xD;
@@ -8195,7 +8200,7 @@ y78&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8073-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8073-00000041"/>&#xD;
 80                           VALERIE&#xD;
 as he had never done before, her singular&#xD;
 power of fascination. He only held the&#xD;
@@ -8333,7 +8338,7 @@ Aylmer~.-and I scarcely heard of anybody&#xD;
 else after I entered the Confederacy-I&#xD;
 6&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8073-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8073-00000042"/>&#xD;
 82                        VALERIE AYLMER.                                                                A TEST OF' POWElL                       83&#xD;
 &#xD;
 boys; for here's health and long life to La&#xD;
@@ -8552,7 +8557,7 @@ be off, for I have troublesome couple of'&#xD;
 &#xD;
 &amp;amp;&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8073-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8073-00000043"/>&#xD;
 84                         ~rALRUI~ AYLMEI~                                                                  A TEST OF P~WRR.                         85&#xD;
 &#xD;
 cousins on my hands.-Thornton, do you&#xD;
@@ -8765,7 +8770,7 @@ of her face~ and- every line of her tflgiwe,&#xD;
 was so subdued and harmonious, that,"un-&#xD;
 less attention were called to the fact, people&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8073-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8073-00000044"/>&#xD;
 A TEST OF POWER.&#xD;
 &#xD;
 86                       VALERIE AYLMER.&#xD;
@@ -8984,7 +8989,7 @@ character. ITo, no. I cannot think of it. Ii&#xD;
 am sure I should disgrace myself it' I e.vcn~&#xD;
 tried-"&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8073-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8073-00000045"/>&#xD;
 88                           VALERIE&#xD;
 She broke off here, for the box-door&#xD;
 opened at that n~oment, and two gentlemen&#xD;
@@ -9208,7 +9213,7 @@ perhapa sh~ was already growing tired of&#xD;
 her pretty toy. At least, she 'would' not&#xD;
 have spoken thus a week ago, and he felt&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8073-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8073-00000046"/>&#xD;
 00                       VALERIE AYLMER.                                                           OVERTURES OF PEACE.                     01&#xD;
 &#xD;
 it. lie grew very pale, and bit his lip al-&#xD;
@@ -9422,7 +9427,7 @@ I'&#xD;
 &#xD;
 90&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8073-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8073-00000047"/>&#xD;
 92                           VALERIE&#xD;
 that, in applying to M. Vacquant, Ihave to&#xD;
 assign some pretext for the demand ~"&#xD;
@@ -9647,7 +9652,7 @@ something about which I don't care to ar-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8073-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8073-00000048"/>&#xD;
 94                           VALERIE&#xD;
 gue; but, in resuming amicable relations,&#xD;
 we must understand one another. I have&#xD;
@@ -9872,7 +9877,7 @@ lI&#xD;
 &#xD;
 U&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8073-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8073-00000049"/>&#xD;
 Valerie whispered; as she found herself&#xD;
 claimed by that same Mr. Lawton, for the&#xD;
 appreciation of whose good things she had&#xD;
@@ -10094,7 +10099,7 @@ ton?"&#xD;
 &#xD;
 97&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8073-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8073-00000050"/>&#xD;
 98                     VALERIE AYLMER.                                                     THE DIAMOND OF' TIlE DESERT.&#xD;
 &#xD;
 Mr. Thornton answered; "be-&#xD;
@@ -10305,7 +10310,7 @@ they ever adorned prosperity. In many an&#xD;
 obscure spot, fallen forever from their high&#xD;
 1.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8073-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8073-00000051"/>&#xD;
 100                      VALERIE AYLMER.                                                        THE DIAMOND OF THE DESERT.               1(31&#xD;
 &#xD;
 estate, we meet, in poverty and grief, the&#xD;
@@ -10518,7 +10523,7 @@ smiled; and, taking up a piece ~finusic, be-&#xD;
 gan to ask questions about the all-important&#xD;
 d~1,ut. Alix answered them as candidly&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8073-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8073-00000052"/>&#xD;
 102&#xD;
 &#xD;
 and freely asif she had been talking to her&#xD;
@@ -10747,7 +10752,7 @@ But Valerie did not hear. She was~&#xD;
 looking at the picture, through her half-.&#xD;
 closed hand, and did not even notice that4~&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8073-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8073-00000053"/>&#xD;
 104                           YAI~F4UIE&#xD;
 the others tur~ied sway. When she did at&#xD;
 last wake, with a start, to a consciousness of&#xD;
@@ -10962,7 +10967,7 @@ AYLMER.&#xD;
 &#xD;
 105&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8073-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8073-00000054"/>&#xD;
 106                       VALERIE AYLMER.                                                                  ON THE HEIGhTS.                      107&#xD;
 &#xD;
 afraid-oh, lam terribly afraid! I feel as if&#xD;
@@ -11179,7 +11184,7 @@ harder one over yourself."&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8073-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8073-00000055"/>&#xD;
 108                           VALERIE&#xD;
 "God grant it!" said the mother's&#xD;
 solemn tones.             -&#xD;
@@ -11397,7 +11402,7 @@ passion began to be heard, together with&#xD;
 well-meant whispers of "Better take hey&#xD;
 off!"&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8073-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8073-00000056"/>&#xD;
 OUT OP THE DEPTHS.                     111&#xD;
 &#xD;
 110                     VALERIE AYLMER.&#xD;
@@ -11612,7 +11617,7 @@ dered if she were awake, as the carriage&#xD;
 rolled on over the paving-stones, as the pass-&#xD;
 ing gleams of the street-lamps fell across the&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8073-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8073-00000057"/>&#xD;
 112&#xD;
 &#xD;
 VALERIE AYLMER.&#xD;
@@ -11841,7 +11846,7 @@ the lovely and ineffable peace that reigned&#xD;
 in every line of it in contrast with her own&#xD;
 grief-tom heart, the poor child gave way in&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8073-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8073-00000058"/>&#xD;
 114                      VALERIE AYLMER.                                                         REAPING THE HARVEST.                   115&#xD;
 &#xD;
 one mighty rush of emotion, that east her&#xD;
@@ -12057,7 +12062,7 @@ going to say. I atn fully prepared to hear&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8073-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8073-00000059"/>&#xD;
 AYLMER.&#xD;
 &#xD;
 116                           VALERIR&#xD;
@@ -12276,7 +12281,7 @@ With those words-words the bitterness&#xD;
 ~f whichmade her shudder as if a cold hand&#xD;
 ~ad been laid upon her-he dropped the&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8073-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8073-00000060"/>&#xD;
 ~1! i&#xD;
 &#xD;
 IlE AYLMER-.&#xD;
@@ -12452,7 +12457,7 @@ stand-that is all."&#xD;
 She turned and walked slowly from the&#xD;
 room.&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8073-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8073-00000061"/>&#xD;
 F&#xD;
 &#xD;
 SIR ARTEGALL.&#xD;
@@ -12639,7 +12644,7 @@ ruptly. They were all three silent for&#xD;
 &#xD;
 BOOK ITT.&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8073-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8073-00000062"/>&#xD;
 122                       VALERIE AYLMER.&#xD;
 &#xD;
 SIR ARTEGALL.                         123&#xD;
@@ -12856,7 +12861,7 @@ Please urge him to return; and do it kindly,&#xD;
 Don't be hard on him."&#xD;
 "You think me likely to be so?"&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8073-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8073-00000063"/>&#xD;
 124                           VALERIE A.~LMER.&#xD;
 "Yes; you ~re like most strong people, as she entered Valerie's room while the din-&#xD;
 very intolerant of weakness." r ner-toilet of the latter was in progress.&#xD;
@@ -13021,7 +13026,7 @@ had not often entered this room during the&#xD;
 past month, and had been averse to doingso&#xD;
 even when it was necessary; but now mi-&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8073-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8073-00000064"/>&#xD;
 120                     VALERIE AYLMER.                                                              RADEGUNDE.                       12~&#xD;
 &#xD;
 patience mastered every other feeling, anc&#xD;
@@ -13229,7 +13234,7 @@ y the whole picture tempts me. I always&#xD;
 old you that I am as much soldier as artist&#xD;
 -and of late I really begin to think~ that&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8073-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8073-00000065"/>&#xD;
 128                     VALERIE AYLMER.                                                           RADEGUNDE.                      129&#xD;
 &#xD;
 the element of soldier predominates. It&#xD;
@@ -13444,7 +13449,7 @@ aware of his incivility."&#xD;
 "He deserves-."&#xD;
 "No matter what he deserves. If we&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8073-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8073-00000066"/>&#xD;
 130                     VALERIE AYLMER.&#xD;
 &#xD;
 RADEGUNDE.                      131&#xD;
@@ -13660,7 +13665,7 @@ It was not very long before Valerie&#xD;
 rallied, however-not long before she raised&#xD;
 her flushed face and shining eyes with a&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8073-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8073-00000067"/>&#xD;
 132                     VALERIE AYLMER.&#xD;
 &#xD;
 FETTERS OF ROSES.                       133&#xD;
@@ -13871,7 +13876,7 @@ fountain risen and fallen in its steady, z'nisi-&#xD;
 cal cadence, before there came a sound which&#xD;
 banished all the melody of waters from her&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8073-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8073-00000068"/>&#xD;
 134                      VALERIE AYLMER.&#xD;
 &#xD;
 ears-the echo of a distant voice, the soun&#xD;
@@ -14087,7 +14092,7 @@ tion that she had fallen into the snare of&#xD;
 the obnoxious "arrangement ;" that she was&#xD;
 on the eve of being forced to recant every&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8073-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8073-00000069"/>&#xD;
 156                        VALERIE AYLMER.                                                                  ]flITTERS OF ROSES.                      1 S'7&#xD;
 &#xD;
 declaration she had ever made concerning&#xD;
@@ -14302,7 +14307,7 @@ face, shining lil~e a star out of the heavy&#xD;
 &#xD;
 186&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8073-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8073-00000070"/>&#xD;
 138                     VALERIE AYLMER.&#xD;
 &#xD;
 masses of her unbound hair, a sudden, sharp&#xD;
@@ -14514,7 +14519,7 @@ proachful glance on Darcy.&#xD;
 &#xD;
 m1rD WDt'DDDrm nflnn&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8073-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8073-00000071"/>&#xD;
 THE F0R1~'EIT rLEPGE.                        141&#xD;
 &#xD;
 140                      VALERIE AYLMER.&#xD;
@@ -14731,7 +14736,7 @@ solemnly:&#xD;
 "Maurice Darcy, I owe your father's&#xD;
 memory a great debt. Pray for me that&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8073-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8073-00000072"/>&#xD;
 142                      VALERIE AYLMER.                                                          THE FORFEIT PLEDGE.                    143&#xD;
 &#xD;
 this may be received as some small pay&#xD;
@@ -14947,7 +14952,7 @@ planning fortifications. Then he told her&#xD;
 &#xD;
 143&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8073-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC8073-00000073"/>&#xD;
 144                      VALERIE AYLMER.&#xD;
 &#xD;
 something of his social triumphs, how the&#xD;
@@ -15165,7 +15170,7 @@ with a dark cloud that seenied like despair&#xD;
 ~thering over his face, as he said-&#xD;
 "You have learned thissiacewe parted? "&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8073-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC8073-00000074"/>&#xD;
 146                      VALERIE AYLMER.&#xD;
 &#xD;
 "Does it matter how I learned it, if it be&#xD;
@@ -15324,7 +15329,7 @@ you please, say what you please, remem- could have been imagined. Oharley held&#
 being this-that I shall not resent any out his hand, with a silent gesture~ of gri.!~&#xD;
 thing."                               tude, and a glance more eloquent than&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8073-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC8073-00000075"/>&#xD;
 FACE TO FACE.                          149&#xD;
 &#xD;
 148                      VALERIE AYLMER.&#xD;
@@ -15540,7 +15545,7 @@ opened, and once more Darcy stood on&#xD;
 the threshold.&#xD;
 He made ~no. pause this time, but ad-&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8073-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC8073-00000076"/>&#xD;
 150                          YALEIIII&#xD;
 vanced directly into the room, until he met&#xD;
 the woman whom he loved in exactly the&#xD;
@@ -15760,7 +15765,7 @@ turned against me .to take the part of the4&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8073-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC8073-00000077"/>&#xD;
 152                          VALERIE&#xD;
 man who has injured me beyond repair?&#xD;
 Have you forgotten all this? And does it&#xD;
@@ -15973,7 +15978,7 @@ he barber. I wish I could tell you how&#xD;
 lad I~m to see you again!"&#xD;
 "And I you," said Hautaine, sincerely;&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8073-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC8073-00000078"/>&#xD;
 154                      VALERIE AYLMER.                                                          PAYING 1115 DEBT.                   155&#xD;
 &#xD;
 *   enough, though ten minutes before he would&#xD;
@@ -16187,7 +16192,7 @@ At which the Signor Arie shrugged his&#xD;
 shoulders.&#xD;
 "Who can say, mes amie? Do you al-&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8073-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC8073-00000079"/>&#xD;
 158                      VALERIE AYLMER.                                                            PAYING HIS DEBT.                      15,T&#xD;
 &#xD;
 ways kilow what you intend to do, and why&#xD;
@@ -16406,7 +16411,7 @@ any one else-yourself for instance~-~wbo&#xD;
 &#xD;
 15*&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8073-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC8073-00000080"/>&#xD;
 158                      'Y~LERIE AThMER.                                                               TOUT EST PERDU.                       159&#xD;
 &#xD;
 has contributed to the amusement antI en-&#xD;
@@ -16619,7 +16624,7 @@ stretched before her! To-morrow, and to-&#xD;
 morrow, and to-morrow! They were all to&#xD;
 bear, all to suffer, all to live through-&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8073-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC8073-00000081"/>&#xD;
 160                        VAL1~RIE AYLMJIB.                                                            TOUT EST PERDU.                         161&#xD;
 &#xD;
 alone 1 This prospect, which is bitter some-&#xD;
@@ -16835,7 +16840,7 @@ forward-and came face to face with him in*&#xD;
 the door-way.&#xD;
 He was standing there with a knot of&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8073-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC8073-00000082"/>&#xD;
 162                           VALERIE&#xD;
 two or three gentlemen, all speaking low,&#xD;
 all looking as men only look when they have&#xD;
@@ -16970,7 +16975,7 @@ BOOK V.&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8073-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC8073-00000083"/>&#xD;
 164&#xD;
 &#xD;
 VALERIE AYLMER.&#xD;
@@ -17189,7 +17194,7 @@ I know of-the ease with which one can&#xD;
 make acquaintances."&#xD;
 "That is a merit with every thing, so far&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8073-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC8073-00000084"/>&#xD;
 166                       VALERIE AYLMER.                                                           LE BEAU CONF1~D~RIi.                   167&#xD;
 &#xD;
 as you are concerned, I believe," s4d the&#xD;
@@ -17404,7 +17409,7 @@ young man's half-careless, half-scornful face.&#xD;
 "I am sorry to see that you are becoming&#xD;
 narrow-minded in your sympatbie;" she:&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8073-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC8073-00000085"/>&#xD;
 168                       VALERIE AYLMER~                                                                SURSUM CORDA.                         169&#xD;
 &#xD;
 said. "A few years ago, you would have&#xD;
@@ -17614,7 +17619,7 @@ by the Chesapeake, or that more distant&#xD;
 and yet dearer one to the exile's yearning&#xD;
 heart, by the blue waves of the Mexic Sea!&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8073-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC8073-00000086"/>&#xD;
 170                       VALERIE AYLMER.                                                             SURSUM CORDA.                        171&#xD;
 &#xD;
 After she had finished her altar-prayer,&#xD;
@@ -17829,7 +17834,7 @@ fore speaking; 'then it was rather slowly:&#xD;
 "You are very kind, Miss Aylmer.&#xD;
 Ah !-" for Valerie started-" you see I&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8073-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC8073-00000087"/>&#xD;
 172                          VALERIE&#xD;
 know your name. I heard your servant&#xD;
 mention it before I saw you, though I think&#xD;
@@ -18044,7 +18049,7 @@ away from it, not outwardly, but inwardly,&#xD;
 which is, after all, the better and more com-&#xD;
 plete way. She devoted herself to Gaston&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8073-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC8073-00000088"/>&#xD;
 144  VAERIE AMER.THE SILVER LINING-                                                                            1~&#xD;
 &#xD;
 flarcy, for the sweet, subtle charm of his&#xD;
@@ -18265,7 +18270,7 @@ VALERIE AYLMER.&#xD;
 &#xD;
 175&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8073-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC8073-00000089"/>&#xD;
 176                           VALERIE&#xD;
 future rose before her. Alix and Eugene&#xD;
 would marry and settle here, the general&#xD;
@@ -18484,7 +18489,7 @@ Mexico."&#xD;
 wearily. "Did not I jend him there? If'&#xD;
 ho i~ killed, will' it not be ray work? Will&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8073-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC8073-00000090"/>&#xD;
 l'78                    VALERIE AYLMER.&#xD;
 &#xD;
 not his blood 1,~t on my head, as much as&#xD;
@@ -18699,7 +18704,7 @@ Charley !-what is the matter with your&#xD;
 arm?"&#xD;
 "A bullet is, or was, the matter with&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8073-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC8073-00000091"/>&#xD;
 180                     VALERIE AYLMER.                                                   THE HIDDEN SKELETON.                  181&#xD;
 &#xD;
 it," said Charley, laughing as people do&#xD;
@@ -18914,7 +18919,7 @@ light that they were almost trivial, brought&#xD;
 he quick tear, the ringing laugh. A word&#xD;
 r a tone was sufficient to summon up pic-&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8073-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC8073-00000092"/>&#xD;
 182                     VALERIE AYLMER.                                                     THE HIDDEN SKELETON.                  183&#xD;
 &#xD;
 tures on'whieh their eyes would never gaze&#xD;
@@ -19128,7 +19133,7 @@ deferred sugar-plums of existence of which&#xD;
 Guy Darrell talks. I longed for them when&#xD;
 I could not reach them-i panted for them&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8073-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC8073-00000093"/>&#xD;
 184                     VALERIE AYLMER.&#xD;
 &#xD;
 when they were afar off-and now that they&#xD;
@@ -19347,7 +19352,7 @@ as possible, I procured leave 'of absence, and&#xD;
 took up temporary quarters with Maurice,&#xD;
 then painting in Florence. I found with&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8073-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC8073-00000094"/>&#xD;
 188                          VALERIE&#xD;
 him (his father had died very shortly be-&#xD;
 fore) a younger brother-this Gaston-&#xD;
@@ -19567,7 +19572,7 @@ this, not God. How should you know what&#xD;
 it is to feel this agony of remorse, this knowl-&#xD;
 edge-"&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8073-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC8073-00000095"/>&#xD;
 188                      VALERIE AYLMER.&#xD;
 &#xD;
 lie stopped short, for even the moon-&#xD;
@@ -19782,7 +19787,7 @@ tention of giving up Charley.&#xD;
 "Humph!" Then, after a pause-" Is&#xD;
 that arm of his never going t~ get well?"&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8073-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC8073-00000096"/>&#xD;
 190                          VALERIE&#xD;
 "Doctor Fontaine says it is doing ex-&#xD;
 cellently; but that he must not use it&#xD;
@@ -20000,7 +20005,7 @@ occupied to notice them," said he, a little&#xD;
 "I am sure I don't know how I have&#xD;
 ecu more occupied than usual."&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8073-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC8073-00000097"/>&#xD;
 THE HERO 0]? SADOWA.                  198&#xD;
 &#xD;
 192                        VALI~IRIE AYLMER.&#xD;
@@ -20214,7 +20219,7 @@ they ever managed to do toitk you."&#xD;
 &#xD;
 192&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8073-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC8073-00000098"/>&#xD;
 19~                      VAtERIE AYLMER.&#xD;
 &#xD;
 CHAPTER VI.&#xD;
@@ -20429,7 +20434,7 @@ iirer, of whom, in truth, she stood consid-&#xD;
 rably in awe. There is no better philoso-&#xD;
 hy in the world than that of "gathering&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8073-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC8073-00000099"/>&#xD;
 196                           VALERIE&#xD;
 the roses while you may," and it was one&#xD;
 which both of these unconscious philosophers&#xD;
@@ -20652,7 +20657,7 @@ dreadful bulletins from the hamper, had&#xD;
 risen, and come forward to inspect matters&#xD;
 himself.&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8073-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC8073-00000100"/>&#xD;
 198                      VALERIE AYLMER.                                                         WHO LAUGHED LAST?                      199&#xD;
 &#xD;
 "The scamp!" said he, working himself&#xD;
@@ -20866,7 +20871,7 @@ A flash that blinded !-a roar that deaf-&#xD;
 hat tore down the mountain-side, crashihg&#xD;
 he forest-trees in its path.&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8073-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC8073-00000101"/>&#xD;
 200                      VALERIE AYLMER.&#xD;
 &#xD;
 The next thing Valerie knew, her muh&#xD;
@@ -21040,7 +21045,7 @@ hat were rushing and roaring around.     "M'sieur, I do not know," the latter&#x
 Meanwhile Charley and Allx had been answered, moving nearer, so as to make&#xD;
 inch less slow in discovering that change himself audible, "unless we tr.y to find my&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8073-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC8073-00000102"/>&#xD;
 202                          VALERIE&#xD;
 brother's hut, which is near here some-&#xD;
 where."&#xD;
@@ -21262,7 +21267,7 @@ charmed to see m'sieur," he added, h ospita-&#xD;
 bly.&#xD;
 But it may have been a foreboding which&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8073-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC8073-00000103"/>&#xD;
 I&#xD;
 &#xD;
 204                  .        VALERIE&#xD;
@@ -21405,7 +21410,7 @@ BO O K&#xD;
 CHAPTER I-.&#xD;
 THE SHADOW OF BLOOD.&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8073-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC8073-00000104"/>&#xD;
 THE SHADOW OF BLOOD.                   20'1&#xD;
 &#xD;
 206                      VALERIE AYLMER.&#xD;
@@ -21620,7 +21625,7 @@ not a woman's heart to ask, for her, of faith&#xD;
 and strength-strength to await that meet~&#xD;
 ing from which parting shall be no more!&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8073-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC8073-00000105"/>&#xD;
 (       (&#xD;
 20S                          VALERIE&#xD;
 When th~y were walking slowly home&#xD;
@@ -21837,7 +21842,7 @@ of air and scene. We need not say to any-&#xD;
 body why we go; and you may trust me&#xD;
 not to do any thing to forfeit my own self-&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC8073-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC8073-00000106"/>&#xD;
 ~21O                          VALERIE&#xD;
 4&#xD;
 respect, or lower your dignity. If I meet&#xD;
@@ -22058,7 +22063,7 @@ ship."&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8073-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC8073-00000107"/>&#xD;
 212                           VALEIUE&#xD;
 "And I have a,. better one yet," Han-&#xD;
 tame answered-" the right of reparation."&#xD;
@@ -22274,7 +22279,7 @@ ad heart-that voice, plaintive and pitiful&#xD;
 Only that-through long hours of Lever,&#xD;
 ever changing in word or cadence.&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8073-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC8073-00000108"/>&#xD;
 214&#xD;
 &#xD;
 VALERIE AYLMER.&#xD;
@@ -22496,7 +22501,7 @@ heard?"&#xD;
 "Not much - nothing directly about&#xD;
 him," answered the general, sorry now that~&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8073-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC8073-00000109"/>&#xD;
 216&#xD;
 &#xD;
 VALERIE AYLMER.&#xD;
@@ -22675,7 +22680,7 @@ She laid her hand gently down upon his. tion, as he saw Valerie's look of surpri
 "Gaston, dear Gaston, perhaps it would annoyance. "Don't blame anybody but&#xD;
 e wisest to do so."                   me."&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8073-00000110"/>&#xD;
+<pb n="218-219" xml:id="VAC8073-00000110"/>&#xD;
 218                      VALERIE AYLMER.&#xD;
 &#xD;
 "But I do blame papa. He ought not&#xD;
@@ -22891,7 +22896,7 @@ wung to an upright, sitting position.&#xD;
 "Quite sure "-she had flung herself on&#xD;
 ~r knees beside th&amp;amp;bed. "He is living-&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8073-00000111"/>&#xD;
+<pb n="220-221" xml:id="VAC8073-00000111"/>&#xD;
 220                          VALERIE&#xD;
 he is safe! Oh, what have we ever done to&#xD;
 deserve such a great blessing?"&#xD;
@@ -23023,7 +23028,7 @@ and stood before him-her face shining up- "Valerie I"&#xD;
 on him fair and pale as a star. Maurice After that, there was never any need of&#xD;
 recoiled a step in astonishment; for, though explanation.&#xD;
 &#xD;
-<pb  n="222-223 (Advertisement) " xml:id="VAC8073-00000112"/>&#xD;
+<pb n="222-223 (Advertisement) " xml:id="VAC8073-00000112"/>&#xD;
 I -&#xD;
 BOOKS RECENTLY PUBLISHED BY D~&#xD;
 ~ Any woric published by .D. Appleton d~ Co. u~ill be mailed, po&#xD;
@@ -23134,7 +23139,7 @@ ory. 2 vols., l2mo. VII. "The&#xD;
 .11&#xD;
 /&#xD;
 &#xD;
-<pb  n="224 (Advertisement) -225" xml:id="VAC8073-00000113"/>&#xD;
+<pb n="224 (Advertisement) -225" xml:id="VAC8073-00000113"/>&#xD;
 1'"&#xD;
 Boo/cs reccnl&amp;amp; ~publi&amp;amp;Iwd b~1 1). Appleton ~f' Cc.&#xD;
 APPLETONS' ANNLTAL CYCLOPEDIA FOR 1869. This book, as&#xD;
@@ -23201,8 +23206,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>
