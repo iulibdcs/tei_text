@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7063">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7063">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Seven Stories of the River Counties </title>
-            <author >St. Remy, Dirck.</author>
+            <title>Seven Stories of the River Counties </title>
+            <author>St. Remy, Dirck.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7063</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7063</idno>
+            <idno type="wright2" n="previous">wright2-1528</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Seven stories of the river counties</title>
-                  <author >St. Remy, Dirck.</author>
+                  <title>Seven stories of the river counties</title>
+                  <author>St. Remy, Dirck.</author>
                </titleStmt>
-               <extent >163 p.</extent>
+               <extent>163 p.</extent>
                <publicationStmt>
-                  <publisher >A.S. Baker</publisher>
+                  <publisher>A.S. Baker</publisher>
                   <pubPlace>Saratoga Springs </pubPlace>
-                  <date  when="1868">1868</date>
+                  <date when="1868">1868</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-09-30">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-09-30">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Seven stories of the river counties</head> 
+            <head>Seven stories of the river counties</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC7063-00000001"/>I    ,&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC7063-00000001"/>I    ,&#xD;
 &#xD;
 ,&#xD;
 A&#xD;
@@ -135,7 +140,7 @@ Y&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC7063-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC7063-00000002"/>&#xD;
 0&#xD;
 &#xD;
 FPJTJIT&#xD;
@@ -154,7 +159,7 @@ b&#xD;
 Lx;&#xD;
 hi&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7063-00000003"/>&#xD;
+<pb n="" xml:id="VAC7063-00000003"/>&#xD;
 ALES OF THE&#xD;
 'U12 MAdIAN'S 1)ATE.fl.&#xD;
 Amasis was the youngest of the&#xD;
@@ -170,7 +175,7 @@ stiiiled upon them, a~nd never again&#xD;
 would they make les grand obeisance.&#xD;
 At last, this unrest became a supernat-&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7063-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7063-00000004"/>&#xD;
 rural immIusion that sent them  apart&#xD;
 to .the ends of the earth, one to Eui&#xD;
 rope, one to Africa, and Animasis to tei&#xD;
@@ -230,7 +235,7 @@ Fx.       -       __&#xD;
 &#xD;
 ,p&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7063-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7063-00000005"/>&#xD;
 r4&#xD;
 i&#xD;
 f&#xD;
@@ -324,7 +329,7 @@ S^ f&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7063-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7063-00000006"/>&#xD;
 M&#xD;
 Ij&#xD;
 ~t&#xD;
@@ -405,7 +410,7 @@ t&#xD;
 Z&#xD;
 2&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7063-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7063-00000007"/>&#xD;
 K r&#xD;
 &#xD;
 ,1 3&#xD;
@@ -466,7 +471,7 @@ D&#xD;
 &#xD;
 '7&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7063-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7063-00000008"/>&#xD;
 R&#xD;
 i.&#xD;
 S&#xD;
@@ -567,7 +572,7 @@ r&#xD;
 ff&#xD;
 i             i&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7063-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7063-00000009"/>&#xD;
 II&#xD;
 &#xD;
 16&#xD;
@@ -623,7 +628,7 @@ ed the Most-High. And a bolt came&#xD;
 &#xD;
 . I&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7063-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7063-00000010"/>&#xD;
 4e&#xD;
 &#xD;
 19&#xD;
@@ -682,7 +687,7 @@ b&#xD;
 f&#xD;
 {&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7063-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7063-00000011"/>&#xD;
 I' f p&#xD;
 &#xD;
 N&#xD;
@@ -735,7 +740,7 @@ o           .       i,&#xD;
 -    :. r'}&#xD;
 .'-t&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7063-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7063-00000012"/>&#xD;
 I&#xD;
 &#xD;
 40&#xD;
@@ -795,7 +800,7 @@ A1oig the IeA e_*&#xD;
 &#xD;
 t.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7063-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7063-00000013"/>&#xD;
 I&#xD;
 &#xD;
 24&#xD;
@@ -861,7 +866,7 @@ Ty tiz&#xD;
 Ms"&#xD;
 t'   1&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7063-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7063-00000014"/>&#xD;
 . j&#xD;
 &#xD;
 whooul \  win.   ) i. n. road ani river,&#xD;
@@ -921,7 +926,7 @@ i       . )&#xD;
 'ter&#xD;
 i       . ,..&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7063-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7063-00000015"/>&#xD;
 out, and melts her coyness. And the&#xD;
 other resembles the same heart when&#xD;
 well you know."&#xD;
@@ -971,7 +976,7 @@ of the hells,&#xD;
 ;-&#xD;
 " ,&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7063-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7063-00000016"/>&#xD;
 30&#xD;
 Down the gravelly road along the&#xD;
 beach he watched them; then out on&#xD;
@@ -1029,7 +1034,7 @@ S'&#xD;
 1&#xD;
 2&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7063-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7063-00000017"/>&#xD;
 I&#xD;
 &#xD;
 33&#xD;
@@ -1086,7 +1091,7 @@ I&#xD;
 &#xD;
 -4&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7063-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7063-00000018"/>&#xD;
 Laid the Rector; "BErinkerhoffi! you&#xD;
 need all your horses speed to get do  &#xD;
 to some point where    yQu can go&#xD;
@@ -1137,7 +1142,7 @@ e&#xD;
 v&#xD;
 ,mow&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7063-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7063-00000019"/>&#xD;
 4--&#xD;
 &#xD;
 k&#xD;
@@ -1190,7 +1195,7 @@ it-was so small they could see the ire&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7063-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7063-00000020"/>&#xD;
 It&#xD;
 *1&#xD;
 z&#xD;
@@ -1280,7 +1285,7 @@ I&#xD;
 -          ,   t1&#xD;
 '       "       I&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7063-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7063-00000021"/>&#xD;
 45&#xD;
 t&#xD;
 3I&#xD;
@@ -1343,7 +1348,7 @@ with the traces out. Then you better&#xD;
 believe mass Irun, and the old woman&#xD;
 run and armed the neighbors, crying&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7063-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7063-00000022"/>&#xD;
 42&#xD;
 that herpretty PolyPell had done&#xD;
 goie and drowd   13o6Me went up&#xD;
@@ -1433,7 +1438,7 @@ a&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7063-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7063-00000023"/>&#xD;
 .&#xD;
 F&#xD;
 f&#xD;
@@ -1500,7 +1505,7 @@ meet to 'make .us' shudder, than old&#xD;
 &#xD;
 V.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7063-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7063-00000024"/>&#xD;
 f"&#xD;
 4&#xD;
 1&#xD;
@@ -1580,7 +1585,7 @@ V.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7063-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7063-00000025"/>&#xD;
 48&#xD;
 ber-the brightest of the bright, the&#xD;
 purest of the pure, Washington him-.&#xD;
@@ -1640,7 +1645,7 @@ i&#xD;
 l&#xD;
 . r&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7063-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7063-00000026"/>&#xD;
 50&#xD;
 usually fare so fortunately.&#xD;
 -           All this is wandering from the letter&#xD;
@@ -1727,7 +1732,7 @@ q 1s&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7063-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7063-00000027"/>&#xD;
 5~2&#xD;
 under her own Clinton; of the Har-&#xD;
 bor of New York in the war of 1812;&#xD;
@@ -1780,7 +1785,7 @@ to keep them  there. At- his ancestra&#xD;
 i&#xD;
 t1&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7063-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7063-00000028"/>&#xD;
 5z4&#xD;
 &#xD;
 pal; 3 at the hague, he -whiled away&#xD;
@@ -1842,7 +1847,7 @@ I&#xD;
 &#xD;
 Ile&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7063-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7063-00000029"/>&#xD;
 breath flushes his wrinkled face. On-&#xD;
 on he flies! He has almost reached&#xD;
 the Palace, he is at the gate ;-but,&#xD;
@@ -1895,7 +1900,7 @@ t,4A&#xD;
 I j&#xD;
 +LI'}&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7063-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7063-00000030"/>&#xD;
 S&#xD;
 &#xD;
 58&#xD;
@@ -1961,7 +1966,7 @@ F&#xD;
 _,'&#xD;
 ,'&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7063-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7063-00000031"/>&#xD;
 60&#xD;
 "Arctic," when     during the calm     of a&#xD;
 summer day, the stricken vessel slow-&#xD;
@@ -2025,7 +2030,7 @@ ee7 -&#xD;
 Yl@&#xD;
 (} w&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7063-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7063-00000032"/>&#xD;
 62&#xD;
 elm they sat, with only the gravelled&#xD;
 drive between them and the Button-&#xD;
@@ -2099,7 +2104,7 @@ t&#xD;
 1&#xD;
 _     ._an..a&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7063-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7063-00000033"/>&#xD;
 4&#xD;
 &#xD;
 64&#xD;
@@ -2164,7 +2169,7 @@ J&#xD;
 11&#xD;
 tIt&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7063-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7063-00000034"/>&#xD;
 s'  +&#xD;
 ~1it&#xD;
 1&#xD;
@@ -2264,7 +2269,7 @@ i&#xD;
 i&#xD;
 r%&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7063-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7063-00000035"/>&#xD;
 S4&#xD;
 &#xD;
 68&#xD;
@@ -2332,7 +2337,7 @@ i&#xD;
 t&#xD;
 i.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7063-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7063-00000036"/>&#xD;
 4&#xD;
 &#xD;
 i i&#xD;
@@ -2393,7 +2398,7 @@ me to-night !" said Vinia.&#xD;
 " Oh !" blundered Bute, "I thought&#xD;
 it was your sister"&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7063-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7063-00000037"/>&#xD;
 72 -&#xD;
 "Indeed! Your flattery is so general&#xD;
 then it means nothing in particular."&#xD;
@@ -2444,7 +2449,7 @@ woman's curiosity broke up each tete&#xD;
 mountain, on whose misshapen side&#xD;
 that strange irregularity was carved by&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7063-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7063-00000038"/>&#xD;
 A&#xD;
 &#xD;
 7KT4&#xD;
@@ -2493,7 +2498,7 @@ earry the day with Miss Vinia ?" asked&#xD;
 Bute, after they had pulled the play-&#xD;
 ers' costumes .to 'pieces.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7063-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7063-00000039"/>&#xD;
 76&#xD;
 " I should, had not St. Anthony&#xD;
 flanked us at the crisis," Cave replied,&#xD;
@@ -2547,7 +2552,7 @@ k&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7063-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7063-00000040"/>&#xD;
 darkness.   Iheir floating hone wag&#xD;
 shaking in the whirl of the teinpest.-"&#xD;
 Then a flash- from  the clouds showed&#xD;
@@ -2599,7 +2604,7 @@ K&#xD;
 &#xD;
 _&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7063-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7063-00000041"/>&#xD;
 A&#xD;
 &#xD;
 80&#xD;
@@ -2665,7 +2670,7 @@ i&#xD;
 i&#xD;
 ii&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7063-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7063-00000042"/>&#xD;
 IFL&#xD;
 Ii&#xD;
 &#xD;
@@ -2773,7 +2778,7 @@ t&#xD;
 t&#xD;
 #-_&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7063-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7063-00000043"/>&#xD;
 ill&#xD;
 &#xD;
 84&#xD;
@@ -2865,7 +2870,7 @@ ILi&#xD;
 &#xD;
 wh&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7063-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7063-00000044"/>&#xD;
 Famished, feverish, fainting, frozen, life was&#xD;
 one long agony;&#xD;
 And the only prayer they uttered was for death to&#xD;
@@ -2993,7 +2998,7 @@ s&#xD;
 -&#xD;
 1&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7063-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7063-00000045"/>&#xD;
 yi&#xD;
 i&#xD;
 I   t&#xD;
@@ -3078,7 +3083,7 @@ Where Dunvegan Castle lay.&#xD;
 &#xD;
 89&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7063-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7063-00000046"/>&#xD;
 Thro' the staring menial horde,&#xD;
 Past the lady of his lord,&#xD;
 Fiercely rushing Aleck Ban&#xD;
@@ -3140,7 +3145,7 @@ It&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7063-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7063-00000047"/>&#xD;
 92&#xD;
 by escapades, only pardoned to beauty&#xD;
 and eccentricities credited to genius.&#xD;
@@ -3189,7 +3194,7 @@ der panic ieied the rev llers.&#xD;
 &#xD;
 II&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7063-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7063-00000048"/>&#xD;
 94&#xD;
 Speaking never a *ord, with arms&#xD;
 akimbo, there she stood, the imperson,&#xD;
@@ -3240,7 +3245,7 @@ of her charms. by heralding their&#xD;
 H;&#xD;
 I&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7063-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7063-00000049"/>&#xD;
 N&#xD;
 &#xD;
 96&#xD;
@@ -3315,7 +3320,7 @@ I  'a&#xD;
 0r&#xD;
 il&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7063-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7063-00000050"/>&#xD;
 98&#xD;
 "Oh !'.' you have not changed as&#xD;
 much as I," replied Olly, while the&#xD;
@@ -3387,7 +3392,7 @@ iii&#xD;
 ;&#xD;
 {&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7063-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7063-00000051"/>&#xD;
 t&#xD;
 &#xD;
 100&#xD;
@@ -3464,7 +3469,7 @@ i&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7063-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7063-00000052"/>&#xD;
 i0 o&#xD;
 bight, and down the hill-roia  sh&#xD;
 sped like a waiting arrow, meot'.&#xD;
@@ -3531,7 +3536,7 @@ i&#xD;
 t&#xD;
 tt&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7063-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7063-00000053"/>&#xD;
 104&#xD;
 ness still surrounded thei,all the wind&#xD;
 died away, and there, without a light,&#xD;
@@ -3590,7 +3595,7 @@ death made him pause--it should have&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7063-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7063-00000054"/>&#xD;
 106&#xD;
 paralyzed his tongue ore he answered&#xD;
 as he did : " Now,. if my wife that is&#xD;
@@ -3642,7 +3647,7 @@ gaspedd over her brow to shut out some&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7063-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7063-00000055"/>&#xD;
 108&#xD;
 dreadful vision, and her arched neck&#xD;
 marked with the ,prints of ruthless&#xD;
@@ -3691,7 +3696,7 @@ proved traceless.&#xD;
 Then ,just before the burial, the&#xD;
 case took on a phase yt t more singuv&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7063-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7063-00000056"/>&#xD;
 110&#xD;
 1ar. A young woman, from some miles&#xD;
 away,positively identified the unknown&#xD;
@@ -3753,7 +3758,7 @@ f&#xD;
 &#xD;
 i"   .&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7063-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7063-00000057"/>&#xD;
 112&#xD;
 indisputable ; and though the rent it&#xD;
 made in that tissue of error, glibly&#xD;
@@ -3822,7 +3827,7 @@ t t&#xD;
 t4  t&#xD;
 t&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7063-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7063-00000058"/>&#xD;
 114&#xD;
 &#xD;
 4&#xD;
@@ -3922,7 +3927,7 @@ a'&#xD;
 r f   t&#xD;
 z!&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7063-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7063-00000059"/>&#xD;
 116&#xD;
 the mystery to be revealed in the light&#xD;
 of Eternity.&#xD;
@@ -3961,7 +3966,7 @@ but Lord Cornwallis, I fancy,. will soon&#xD;
 end it to the satisfaction of 'those who&#xD;
 sent him," replied George Blackburn,&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7063-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7063-00000060"/>&#xD;
 118&#xD;
 whose Tory fooling was so strong as to&#xD;
 make the course of his love run any-&#xD;
@@ -4037,7 +4042,7 @@ i&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7063-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7063-00000061"/>&#xD;
 120&#xD;
 all might be well. So thinking,Black-&#xD;
 burn leaped over on his bapk to loosen&#xD;
@@ -4123,7 +4128,7 @@ along thei udson.: Thesenist peaePin&#xD;
 ,                            ,&#xD;
 '                       ,' "r&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7063-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7063-00000062"/>&#xD;
 122&#xD;
 the picture, loveliness in the landscape&#xD;
 and ever there&#xD;
@@ -4197,7 +4202,7 @@ lip i&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7063-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7063-00000063"/>&#xD;
 124&#xD;
 but solacing himself with the thought&#xD;
 ]yron. had not, yet embalmed in verse,&#xD;
@@ -4289,7 +4294,7 @@ t&#xD;
 ;&#xD;
 .  ,   f&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7063-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7063-00000064"/>&#xD;
 126&#xD;
 There he reported to Gen. Jessup,&#xD;
 who -had been ordered to scour thg&#xD;
@@ -4363,7 +4368,7 @@ S&#xD;
 &#xD;
 G&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7063-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7063-00000065"/>&#xD;
 128&#xD;
 rise like the seatssof a Roman Ampi-&#xD;
 theatre, and inful sight of friends and&#xD;
@@ -4437,7 +4442,7 @@ akprk~gg        g    rggg&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7063-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC7063-00000066"/>&#xD;
 130&#xD;
 by every road, they came, and before&#xD;
 the. hour of service tle Green was cov-&#xD;
@@ -4487,7 +4492,7 @@ were to be, subsided into ordinary&#xD;
 &#xD;
 . 131&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7063-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC7063-00000067"/>&#xD;
 132&#xD;
 jpopLIggpga tipcss the events&#xD;
 "Xt was ke~  dop" said George&#xD;
@@ -4541,7 +4546,7 @@ This tries a man's purse,&#xD;
 And a 1lnely-strung mind,with its notes for all time&#xD;
 seems only a cnse.&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7063-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC7063-00000068"/>&#xD;
 134&#xD;
 Priest in lawn pra  and shrlie&#xD;
 Sinners for  "&#xD;
@@ -4598,7 +4603,7 @@ The Spirit of Gain&#xD;
 Hall crest the great heart of the nation at last,&#xD;
 And maddn its brain.&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7063-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC7063-00000069"/>&#xD;
 WARDEi3N O1f MAI0PAO.&#xD;
 Like the Lochs of Scotland forpic.&#xD;
 turesque beauty are the Lakes of&#xD;
@@ -4671,7 +4676,7 @@ S  "&#xD;
 lgg&#xD;
 4&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7063-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC7063-00000070"/>&#xD;
 f&#xD;
 rj&#xD;
 9&#xD;
@@ -4741,7 +4746,7 @@ homes of the settlers and push back&#xD;
 for a time the out-posts of civilization.&#xD;
 3ut gold and gMile, threats andyprom-&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7063-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC7063-00000071"/>&#xD;
 t&#xD;
 F&#xD;
 i&#xD;
@@ -4815,7 +4820,7 @@ With her old father, above where&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7063-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC7063-00000072"/>&#xD;
 g&#xD;
 the East and West branches fbem the&#xD;
 Oroton, dwelt the Fleet Deer, and it&#xD;
@@ -4882,7 +4887,7 @@ e&#xD;
 ,t&#xD;
 :;&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7063-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC7063-00000073"/>&#xD;
 aI&#xD;
 &#xD;
 144&#xD;
@@ -4953,7 +4958,7 @@ Y&#xD;
 (&#xD;
 _      ~      i&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7063-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC7063-00000074"/>&#xD;
 146&#xD;
 &#xD;
 for'this is the 'last to-n e she shall hear&#xD;
@@ -5038,7 +5043,7 @@ s&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7063-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC7063-00000075"/>&#xD;
 a&#xD;
 t'&#xD;
 r&#xD;
@@ -5142,7 +5147,7 @@ f&#xD;
 F&#xD;
 1&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7063-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC7063-00000076"/>&#xD;
 150&#xD;
 left the hunt when he noticed that&#xD;
 strange and abrupt departure, which&#xD;
@@ -5205,7 +5210,7 @@ It&#xD;
 e-&#xD;
 3&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7063-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC7063-00000077"/>&#xD;
 1 r)O&#xD;
 must be grappled with alone ; So let&#xD;
 it work itself out to the bitter end, un-&#xD;
@@ -5285,7 +5290,7 @@ h&#xD;
 "  5+&#xD;
 !5&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7063-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC7063-00000078"/>&#xD;
 154&#xD;
 &#xD;
 for her children, meet for warriors,with&#xD;
@@ -5346,7 +5351,7 @@ t"&#xD;
 &#xD;
 155&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7063-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC7063-00000079"/>&#xD;
 156&#xD;
 ed to desparation by news of the War-&#xD;
 den's summons. The plots were not&#xD;
@@ -5407,7 +5412,7 @@ F&#xD;
 s&#xD;
 }&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7063-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC7063-00000080"/>&#xD;
 158&#xD;
 knows whom he carries. Once more&#xD;
 noble Selim! and thy work is done.-&#xD;
@@ -5460,7 +5465,7 @@ parted, and so the  sailed to the Is-&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7063-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC7063-00000081"/>&#xD;
 160&#xD;
 land, where the chiefs wore deliberat-&#xD;
 ing in the Valley of Decision.&#xD;
@@ -5539,7 +5544,7 @@ wild and free.&#xD;
 In the Ocean lost forever So shall be your desti-&#xD;
 ny."&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7063-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC7063-00000082"/>&#xD;
 162&#xD;
 Then he turned hi o the maiden-worthy she to&#xD;
 be his Queen,&#xD;
@@ -5617,8 +5622,8 @@ Page 16, line 19, for "moan" read moaned.&#xD;
 &#xD;
 &#xD;
                                                                                    
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7600">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7600">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Road to Ruin, or, The Dangers of the Town </title>
-            <author >Roberts, E. F. (1819-1864)</author>
+            <title>The Road to Ruin, or, The Dangers of the Town </title>
+            <author>Roberts, E. F. (1819-1864)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7600</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7600</idno>
+            <idno type="wright2" n="previous">wright2-2056</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The road to ruin, or, The dangers of the town</title>
-                  <author >Roberts, E. F. (1819-1864)</author>
+                  <title>The road to ruin, or, The dangers of the town</title>
+                  <author>Roberts, E. F. (1819-1864)</author>
                </titleStmt>
-               <extent >107 p.</extent>
+               <extent>107 p.</extent>
                <publicationStmt>
-                  <publisher >U.P. James</publisher>
+                  <publisher>U.P. James</publisher>
                   <pubPlace>Cincinnati </pubPlace>
-                  <date >[1855 or later]</date>
+                  <date>[1855 or later]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The road to ruin, or, The dangers of the town</head> 
+            <head>The road to ruin, or, The dangers of the town</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7600-00000001"/>THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7600-00000001"/>THE&#xD;
 &#xD;
 ROAD TO RUIN;&#xD;
 Ca&#xD;
@@ -99,7 +104,7 @@ NO. 187 WALNUT STREET.&#xD;
 &#xD;
 !fly&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7600-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7600-00000002"/>&#xD;
 UT&#xD;
 &#xD;
 ri    0 1 k.i&#xD;
@@ -162,7 +167,7 @@ tit&#xD;
 #r&#xD;
 '&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7600-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7600-00000003"/>&#xD;
 4                -    THE ROAD TO RUIN, IN SIX STEPS.&#xD;
 Poplar, and from Camberwell Green to ing about and sparring upon the empty air,&#xD;
 Westminister Bridge,-the   finest place and amidst cries of "go it I" "hit 'im I"&#xD;
@@ -326,7 +331,7 @@ I4&#xD;
 &#xD;
 'tha  R6 1   'Tb ''$  t, IN bit, s1    .&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7600-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7600-00000004"/>&#xD;
 'IR94D 40 JtWK JI Tsi - 87T8.&#xD;
 ,urp       db       be ,f, h s a tolerAted, cuff op,-the dexter ear, he repeated, sternly&#xD;
 is.apendtw&amp;amp;  ould A   tQd t a things but " Take up;the bag."  -      a4&#xD;
@@ -488,7 +493,7 @@ _^&#xD;
 g&#xD;
 _ r, :-&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7600-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7600-00000005"/>&#xD;
 nRO &amp;amp;D 40 r,2Iff, Tt r SXt1V8TU.&#xD;
 &#xD;
 '4WR7*; '  'l1dsQot aouthber plaee,; zz4 a,&#xD;
@@ -678,7 +683,7 @@ f&#xD;
 ,&#xD;
 . 'I&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7600-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7600-00000006"/>&#xD;
 X~10&#xD;
 &#xD;
 RO PcAD 1TO MINI flI8lz SLX  TEPS.&#xD;
@@ -844,7 +849,7 @@ s&#xD;
 9&#xD;
 s&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7600-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7600-00000007"/>&#xD;
 "tay rIt,' id : Pranl4. intertu Ling. her.&#xD;
 omewhat serdl~y, '"sud igo at once. If I&#xD;
 .i     nlbt :twenty pounds tthismorning, ti:&#xD;
@@ -1011,7 +1016,7 @@ f&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7600-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7600-00000008"/>&#xD;
 1 4RnolD To aUIN, y( 1X STEP*.=&#xD;
 S     kFrank thed rejoined ibis; companions, Mon opponent, and isfnitely clever  t a V&#xD;
 taking Mudge back with him i. ;order to that at last Frank gave itrup, havng lost. A&#xD;
@@ -1139,7 +1144,7 @@ a&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7600-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7600-00000009"/>&#xD;
 1&#xD;
 &#xD;
 I   a''lwf'  e g bdd  s etd At'e&#xD;
@@ -1339,7 +1344,7 @@ Ieeathldg'like the iail ofrejmergg2so&#xD;
 id aud, so lman, tatb b.4p5lst M&#xD;
 h  kAu_ Oh theergsels    baIpieesabr&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7600-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7600-00000010"/>&#xD;
 : HE ROAD TO RUIN IN SIX STEPS.&#xD;
 &#xD;
 -a lament of the mourning women for the&#xD;
@@ -1496,7 +1501,7 @@ uch 'ifthi tid O  l'ioidii 1uhstrupirSd  %                    fr4mputbbha&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7600-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7600-00000011"/>&#xD;
 I1mf ROAD To RIT rIN ;"$T .ai,4a ODIo                                               l I±SJ&#xD;
 &#xD;
 e whisper and say, the less you talk about&#xD;
@@ -1730,7 +1735,7 @@ i&#xD;
 j.Y&#xD;
 . 1&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7600-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7600-00000012"/>&#xD;
 van BROAD TO 1UIN jEI Six STEM                                         !I lM   6IIJhlrSXSES&#xD;
 &#xD;
 t'&#xD;
@@ -1939,7 +1944,7 @@ o want or care, while I-worth.;them %ll,&#xD;
 y heaven I" added: the man, .striline the&#xD;
 il.le ; "as clever, for he who lives byhis&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7600-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7600-00000013"/>&#xD;
 k}      F&#xD;
 '&#xD;
 ti.&#xD;
@@ -2063,7 +2068,7 @@ great kiqdaeem, .,aye you a mind to dos and-thuasbetween misery and crime, betwe
 &#xD;
 All&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7600-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7600-00000014"/>&#xD;
 I E 'ROAD TO RUIN, IN SIX ST M.&#xD;
 debauchery and ganger, still the years and lodging, and money may be ohdined.&#xD;
 rolled away.                           Charity; then, becomes a kind of bank, or&#xD;
@@ -2174,7 +2179,7 @@ tutaber of playing datda fell Out of it, sad wife, "J have not. . Neither X nor 
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7600-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7600-00000015"/>&#xD;
 '               TAI- BiOLD '1O RUIN, IN SIX sSBhJS.&#xD;
 &#xD;
 i}&#xD;
@@ -2301,7 +2306,7 @@ r&#xD;
 &#xD;
 1 0&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7600-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7600-00000016"/>&#xD;
 TE ROAD TO RUIN, IN SIX STEPS&#xD;
 &#xD;
 If&#xD;
@@ -2469,7 +2474,7 @@ JR.&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7600-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7600-00000017"/>&#xD;
 8I             THZ ROAD TO SIX' RUIN, IN STE1S$&#xD;
 &#xD;
 you hadn't thought of. Well," he added,&#xD;
@@ -2647,7 +2652,7 @@ y  j(F y   t fend   pie nil %ddiiatiou," Adsde fid'Itr~tis "b dado '  f&#xD;
 eblidii'df'~ e; ashe edcdludedgw . " 8° iiohn  b   " t riki'  "tde Na&#xD;
 3&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7600-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7600-00000018"/>&#xD;
 '1f&#xD;
 &#xD;
 THE ROAD TO RUIN, IN. SIX STEPS;&#xD;
@@ -2800,7 +2805,7 @@ atthenyo'Jsee I'n' obligel   o   vp g&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7600-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7600-00000019"/>&#xD;
 0.&#xD;
 e ef&#xD;
 ICI&#xD;
@@ -2980,7 +2985,7 @@ I:1&#xD;
 .&#xD;
 _x&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7600-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7600-00000020"/>&#xD;
 .THE ROAD TO RULE, IN SIX- STEPS.&#xD;
 &#xD;
 do so. I wish. yo  .good :night ;" and he&#xD;
@@ -3137,7 +3142,7 @@ his associates ; and the remarks he had The next day depositions were made befor
 made on entering the house had blinded the the magistrates, their lodgings were search-&#xD;
 sagacious porter. There was a dreadful ed, traces of the robbery in the shape of a&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7600-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7600-00000021"/>&#xD;
 .WEH ROAD TO RUIN4I SM STRM'&#xD;
 &#xD;
 bl et, were. found ,-ohe traces lea4 ig&#xD;
@@ -3286,7 +3291,7 @@ t          ,  e  t    '    "&#xD;
 &#xD;
 {&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7600-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7600-00000022"/>&#xD;
 42&#xD;
 &#xD;
 THIE ROAD TO HAPPINESS, IN SIX STE~PS.&#xD;
@@ -3455,7 +3460,7 @@ R&#xD;
 ' i&#xD;
 3&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7600-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7600-00000023"/>&#xD;
 THE ROAD, TO HAPPINESS, IN SIX STEPS.,&#xD;
 eyes'danced, his e ashmas beaying. an4 the yout'rea goodindustrious lad,; but'"--&#xD;
 silken hair,--sueh, as his rpother's had beet and Andrey here cast doin i  eyes.'&#xD;
@@ -3585,7 +3590,7 @@ Iz&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7600-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7600-00000024"/>&#xD;
 . ?i; #t4j) TO,1APi.NF$S , SIX STgM&#xD;
 wiad n        ' i',w1 eel ,qr jp4j aua ftire depart nt of the.,fourndry.:Cnri4TaiV"&#xD;
 ;beani-$ivots an eared cech~e ; uioreove , Qndw, a.clevr; but Andrew  play d&#xD;
@@ -3723,7 +3728,7 @@ Weo rportathw a s disa r m  w 41sst'tly,Haviwtngla bs manfier  l41te~t t&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7600-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7600-00000025"/>&#xD;
 i8&#xD;
 &#xD;
 ?IIS -ROADT)1O ITAPINESS, IN SIX .SIT"P.&#xD;
@@ -3836,7 +3841,7 @@ hatt suj~~mt po i ttfirst"t att w i +ba prgy  u'peltni  ,i  tpay'te  it ff~&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7600-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7600-00000026"/>&#xD;
 mm- RoA1) To EA7P'1'l SS, Ir  XTSTh7Re.&#xD;
 ~ sr mdfor4'ws ei founded -be w*  scale lshouid, be :beanatand joarrl 'oft' .t&#xD;
 astonished:' it was almost incredihle,iand once.   -      _&#xD;
@@ -3983,7 +3988,7 @@ a                b 40  JrQ'a gol u  up&#xD;
 &#xD;
 (,&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7600-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7600-00000027"/>&#xD;
 as&#xD;
 &#xD;
 i'k 'BOAR TO -HAI'PrNgs, IN'- sI* sTrgl'&#xD;
@@ -4194,7 +4199,7 @@ wiltalk{hi- -,----And .ti'"a dde&amp;amp;hih,&#xD;
 &#xD;
 {I&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7600-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7600-00000028"/>&#xD;
 ? 4              T   '(AD TO    APP1NES, I   91 1   9.&#xD;
 alitling, and Idsiid not iistit-fbr' the missing it. I iWould n'ot part wtttfilit for&#xD;
 itwbilda             m   -       "      any sum of money.'-&#xD;
@@ -4379,7 +4384,7 @@ F&#xD;
 .3&#xD;
 ,i&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7600-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7600-00000029"/>&#xD;
 ME,~ RlOAD TO I1APPflNESS,. IN SIX STEPS:&#xD;
 &#xD;
 fesion'of love, end Witnessed tie proof'of&#xD;
@@ -4618,7 +4623,7 @@ i&#xD;
 &#xD;
 1:&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7600-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7600-00000030"/>&#xD;
 ."M"ROlA B TO ITAPPfT 139, cUS ST I.&#xD;
 &#xD;
 5f&#xD;
@@ -4860,7 +4865,7 @@ b&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7600-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7600-00000031"/>&#xD;
 TX "ROAD TO: -EA:'PPJNri,.- lN SI .STEPS.,&#xD;
 &#xD;
 It was a"'gala&amp;amp;alight, =anid, the 9goUntles5odee.taelf, before it was too late, or he&#xD;
@@ -5008,7 +5013,7 @@ the good Olin lady meat hiisriears, the young  iiv   4n  ';,,re, 'sp "rt  .h'ht 
 i&#xD;
 .  !&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7600-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7600-00000032"/>&#xD;
 o   m&#xD;
 &#xD;
 TiAODToG VFI    fl(.U.S ; ST&#xD;
@@ -5166,7 +5171,7 @@ m 1I1&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7600-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7600-00000033"/>&#xD;
 Pil 1&#xD;
 &#xD;
 64                  TtIu -ROAD TO HAPPI&#xD;
@@ -5418,7 +5423,7 @@ Il. u&#xD;
 (&#xD;
 t&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7600-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7600-00000034"/>&#xD;
 3&#xD;
 &#xD;
 TIE ROAD TO HAPPINESS; IN 'SIX STEPS.&#xD;
@@ -5605,7 +5610,7 @@ i&#xD;
  &#xD;
 t&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7600-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7600-00000035"/>&#xD;
 'BlE ROAD TO HAPPINESS, IN I% IXSTEtPS.&#xD;
 &#xD;
 'a soldier; but that he' would turnihis ener-&#xD;
@@ -5775,7 +5780,7 @@ e&#xD;
 ,'Y&#xD;
 t , ti&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7600-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7600-00000036"/>&#xD;
 THE GAMt1STER'S PROGRESS.&#xD;
 BOOK III&#xD;
 &#xD;
@@ -5912,7 +5917,7 @@ Pt&#xD;
 &#xD;
 Iy&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7600-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7600-00000037"/>&#xD;
 T~uGAIgSTR! PRGRES ~TE "G:AMESTIIR'S -PRO+RTIS$i&#xD;
 &#xD;
 themind wonderflly;,refines the intellect.&#xD;
@@ -6123,7 +6128,7 @@ dlt&#xD;
 &#xD;
 TRE GAbf *STERS PR RESS&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7600-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7600-00000038"/>&#xD;
 U14&#xD;
 &#xD;
 T99' t AMlS1!~tiW PROGRESS.&#xD;
@@ -6269,7 +6274,7 @@ f&#xD;
 :&#xD;
 lay&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7600-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7600-00000039"/>&#xD;
 THE'GAMESTER&#xD;
 konge,"weere some of those fearful scenes&#xD;
 &#xD;
@@ -6480,7 +6485,7 @@ face became purple.&#xD;
 tho hread 'to the feet-fall of this, Ifernal as-&#xD;
 sion-I know what it Is, because It -has&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7600-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7600-00000040"/>&#xD;
 78&#xD;
 &#xD;
 !IfE'GAWSTE~t'S PROGRESS.&#xD;
@@ -6674,7 +6679,7 @@ t&#xD;
 i       (&#xD;
 }&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7600-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7600-00000041"/>&#xD;
 S.tE -GAMEBTER'S BOPGRESS.&#xD;
 but life,'sanctfoned by theaauthorities in. a bumperq,and'among.theta Was the young&#xD;
 city ikethis."  .                      student.&#xD;
@@ -6781,7 +6786,7 @@ back on the tray with such doinee t ai 1kboIl'*t ake oi ' mte dfob&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7600-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7600-00000042"/>&#xD;
 $2                       nixQfl~&#xD;
 fu"ar to our sgounetlon if _ you  *  4%M  to explain them in detail to me this after.&#xD;
 noon.' toeGdncinofyu49     9d rnini ' "and~aek left hinm&#xD;
@@ -6947,7 +6952,7 @@ W)119   /  7°heglldp   app Ajbgg pgg}  t I&#xD;
 *aourprie itsppp4) yqt.      1&#xD;
 "'and your surprise is sogb~egpg&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7600-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7600-00000043"/>&#xD;
 mI ixMESTEN&#xD;
 'Well, then, to the point. It appears that&#xD;
 is plundering this young man, who has so&#xD;
@@ -7108,7 +7113,7 @@ while cold drops coursed down his forehead hid claims bad been exatnlned,'proved
 " Bow therefore," continued 'the -punti heritage; and then there followed a poetic&#xD;
 " to that force of; circumstance oer] ich allauso 'theasudde oaurzless and resr'&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7600-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7600-00000044"/>&#xD;
 86 1~,         m~.AwsI.1Mudn&#xD;
 &#xD;
 dffdrifnne. #pon this hint, C ount Adolphe&#xD;
@@ -7315,7 +7320,7 @@ tion bounded-on their springy tet and&#xD;
 sKgQots nd tossed Shefr heads'ip wli le&#xD;
 ever., deicte ye en shweuti&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7600-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7600-00000045"/>&#xD;
 elpidret thete ;t 'and se the crowd tan to&#xD;
 their'jplsaea, the word was given, and off&#xD;
 they started.&#xD;
@@ -7474,7 +7479,7 @@ well, and there'was con equentl no one tO  "Do you snppose,'Iretorted Jack,,." t
 keep them under restraint by hiS pf'sehe. I'aVn mad enough to-permit : you and apar.&#xD;
 Hazard uttered a cry of fear, and would cel of such seoundrels as you to loki me in&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7600-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7600-00000046"/>&#xD;
 IgGAMEST R'8 PnRf Rl ..            0k AnT'Sftdg&#xD;
 &#xD;
 fonds as the slave of your will? ,  ou are&#xD;
@@ -7668,7 +7673,7 @@ se&#xD;
 &#xD;
 1704AMMOTtieg                -&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7600-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7600-00000047"/>&#xD;
 Tii 'AIESTEA!&#xD;
 Waiddowahnd died. It was the curse aris-&#xD;
 ing from a his want of education, that he&#xD;
@@ -7851,7 +7856,7 @@ to avoid any. He drank wlth'ibdiinplayed&#xD;
 with them, gud'a teredinto their plans' as&#xD;
 if he were only begikgh" il thtdviat ; bit&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7600-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7600-00000048"/>&#xD;
 4bs w bcrtanydid startle bimim9et&#xD;
 Ofs sIg  f. o this From nate n--D!ggq ,&#xD;
 $$ttjpg, the pend of. thn table, lpparelt4&#xD;
@@ -7977,7 +7982,7 @@ seemed to be a part of tJe*    pa pp stdo e~p  1  e; p  ~l,,tray: $  d,'G  f , t
 1r4   4bAt 0447" 4.9r. in chair he ~a~d gccu k,  t 0e,4rul1.t men e&#xD;
 time, Hazard was never , q   4 #$     ' ; !  tom, 4oz  ve4pp  t   a ot4 it. P&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7600-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7600-00000049"/>&#xD;
 6-                       TitAiMSTEl' toS itGotN&#xD;
 the floor would precipitate them into' a these fools will get us into unnecessary&#xD;
 sewer beydnd all chance of recovery.    trouble,'I fear from  their agitation ;" and&#xD;
@@ -8103,7 +8108,7 @@ t&#xD;
 4&#xD;
 i&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7600-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7600-00000050"/>&#xD;
 49                       rfaits" ta~t'Snt anss&#xD;
 este rbf&amp;amp;tk      -$helt s. to mea?  re- 'iated ; t4i*ae reason-4o dreadiI4fesrt;and&#xD;
 peated Laura, while an unkiiown fea r4odk 'unless*t is absolutelytneceysry-for Me.0&#xD;
@@ -8228,7 +8233,7 @@ K&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7600-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7600-00000051"/>&#xD;
 .100                        MVU  GE  is*R  " 'PROGIESS.&#xD;
 I "We,"answered  Laurain -a tone,6f- an4 watcher and, 'a listener to:tlis'confaiee.&#xD;
 $guishiA for the Jove'of;heaien keep Mhe no On that very day Hazard: had ridden over&#xD;
@@ -8335,7 +8340,7 @@ manded"Addiphe thiowing oie'auteuritr  Digges stared A mos :° , ° i  ;_&#xD;
 td bkt it , edons.oath. batnothing 20M4l eve ie.t*&#xD;
 14o'"anatdered the-other, with-a laugh ''asterythe sharper'. aya  4  "&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7600-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7600-00000052"/>&#xD;
 lei&#xD;
 &#xD;
 ?Ht1f AlU10E1?flO@PRE$&#xD;
@@ -8443,7 +8448,7 @@ trle that amount,' was the c661 dher.  *11erhaps-yod -hatiee 'a mh     td&#xD;
 g ,,ilro ~ 6 terg or 6ve 9 6 m y  ned  lo ng  'i ti  tbe d  ablyv hte em  Of   th eiyoupg&#xD;
 enoughh" demanded 1Ratfalhite" hlb intat'i io htddenb*1#52ne thedMestraet&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7600-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7600-00000053"/>&#xD;
 ii&#xD;
 I&#xD;
 &#xD;
@@ -8604,7 +8609,7 @@ home.        '' r   ''  'I" s -     i&#xD;
 lie put his trembling hand in bib pooket.&#xD;
 to-take cats.the keypbatei the fagetwereu&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7600-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7600-00000054"/>&#xD;
 106&#xD;
 &#xD;
 28E GAMWa '  4sRt&#xD;
@@ -8734,7 +8739,7 @@ arrested, and convicted of manslaughter,&#xD;
 and is now serving the remainder of hig&#xD;
 natural life in chains in a penal colon.&#xD;
 &#xD;
-<pb  n="108-109 (Advertisement) " xml:id="VAC7600-00000055"/>&#xD;
+<pb n="108-109 (Advertisement) " xml:id="VAC7600-00000055"/>&#xD;
 1&#xD;
 BLUE LAWNOF C1NETICT&#xD;
 THE CODE OF 1650;&#xD;
@@ -8755,7 +8760,7 @@ BLUE LAWS.&#xD;
 4O                 N&#xD;
 4,042, WA!L I1V7 /iT s$EjE T.4&#xD;
 &#xD;
-<pb  n="110 (Advertisement) -111 (Advertisement) " xml:id="VAC7600-00000056"/>&#xD;
+<pb n="110 (Advertisement) -111 (Advertisement) " xml:id="VAC7600-00000056"/>&#xD;
 PRIOR T W5NTY-FI'V E  TR?.&#xD;
 &#xD;
 MCESLEU&#xD;
@@ -8804,7 +8809,7 @@ L&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="112 (Advertisement) " xml:id="VAC7600-00000057"/>&#xD;
+<pb n="112 (Advertisement) " xml:id="VAC7600-00000057"/>&#xD;
 GO ODBO QKS.&#xD;
 -ameys    River Guide, con-    How to be Happy       or, t1&#xD;
 ining descriptions of all the Cities, Laws of Life, Health, and Happire&#xD;
@@ -8863,8 +8868,8 @@ end      i  s  '  t e  Y   d r uwe&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

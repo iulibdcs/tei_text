@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7716">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7716">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Sketches </title>
-            <author >Earnest, Elsie.</author>
+            <title>Sketches </title>
+            <author>Earnest, Elsie.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7716</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7716</idno>
+            <idno type="wright2" n="previous">wright2-2169A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Sketches</title>
-                  <author >Earnest, Elsie.</author>
+                  <title>Sketches</title>
+                  <author>Earnest, Elsie.</author>
                </titleStmt>
-               <extent >181 p.</extent>
+               <extent>181 p.</extent>
                <publicationStmt>
-                  <publisher >Turnbull Brothers</publisher>
+                  <publisher>Turnbull Brothers</publisher>
                   <pubPlace>Baltimore </pubPlace>
-                  <date  when="1874">1874</date>
+                  <date when="1874">1874</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-15">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-15">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Sketches</head> 
+            <head>Sketches</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7716-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7716-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
 HENRY E. HUNTINGTON LIBRARY&#xD;
 FOR REFERENCE ONLY. NOT FOR REPRODUCTION&#xD;
 &#xD;
@@ -115,7 +120,7 @@ F&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7716-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7716-00000002"/>&#xD;
 Entered, according to Act of Congress, in the year 1874&#xD;
 BY TURNBULL BI OTHERS,&#xD;
 In the Office of the Librarian of Congress, at Washington.&#xD;
@@ -137,7 +142,7 @@ BY&#xD;
 THEIR DAUGHTER.&#xD;
 "                              J              Fr&#xD;
 &#xD;
-<pb  n="0 (Table of Contents) " xml:id="VAC7716-00000003"/>&#xD;
+<pb n="0 (Table of Contents) " xml:id="VAC7716-00000003"/>&#xD;
 CONTENTS.&#xD;
 P A GE&#xD;
 W here  is  U topia  ?..................... ................................... .....  9&#xD;
@@ -161,7 +166,7 @@ ill&#xD;
 &#xD;
 J J&#xD;
 &#xD;
-<pb  n="8 (Table of Contents) -9" xml:id="VAC7716-00000004"/>&#xD;
+<pb n="8 (Table of Contents) -9" xml:id="VAC7716-00000004"/>&#xD;
 CON TEN TS.&#xD;
 &#xD;
 PAGE.&#xD;
@@ -232,7 +237,7 @@ t&#xD;
 &#xD;
 it&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7716-00000005"/>&#xD;
+<pb n="10-11" xml:id="VAC7716-00000005"/>&#xD;
 10&#xD;
 &#xD;
  WHERE IS      UTOPIA?&#xD;
@@ -351,7 +356,7 @@ v .&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7716-00000006"/>&#xD;
+<pb n="12-13" xml:id="VAC7716-00000006"/>&#xD;
 WHERE IS UTOPIA?&#xD;
 &#xD;
 So calming after ocean's roar,&#xD;
@@ -448,7 +453,7 @@ t ,&#xD;
 . ;&#xD;
 tA&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7716-00000007"/>&#xD;
+<pb n="14-15" xml:id="VAC7716-00000007"/>&#xD;
 I:&#xD;
 &#xD;
 'Ii&#xD;
@@ -537,7 +542,7 @@ ci&#xD;
 l&#xD;
 S&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7716-00000008"/>&#xD;
+<pb n="16-17" xml:id="VAC7716-00000008"/>&#xD;
 WAd&#xD;
 &#xD;
 16&#xD;
@@ -612,7 +617,7 @@ II&#xD;
 &#xD;
 mqF   i5mi,&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7716-00000009"/>&#xD;
+<pb n="18-19" xml:id="VAC7716-00000009"/>&#xD;
 18&#xD;
 &#xD;
 MY BIRTHDAY.&#xD;
@@ -693,7 +698,7 @@ v&#xD;
 &#xD;
 ;&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7716-00000010"/>&#xD;
+<pb n="20-21" xml:id="VAC7716-00000010"/>&#xD;
 Ni&#xD;
 &#xD;
 20&#xD;
@@ -786,7 +791,7 @@ f&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7716-00000011"/>&#xD;
+<pb n="22-23" xml:id="VAC7716-00000011"/>&#xD;
 22&#xD;
 &#xD;
 I LOVE THEE.&#xD;
@@ -855,7 +860,7 @@ Life will lose its gloom.&#xD;
 Hope, the mind's best offspring, dancing&#xD;
 Bright before my eyes,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7716-00000012"/>&#xD;
+<pb n="24-25" xml:id="VAC7716-00000012"/>&#xD;
 24        A DREAM.&#xD;
 &#xD;
 Says, " Earth's sorrows but enhancing&#xD;
@@ -936,7 +941,7 @@ A -LOVING HEART.   95&#xD;
 '&#xD;
 4&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7716-00000013"/>&#xD;
+<pb n="26-27" xml:id="VAC7716-00000013"/>&#xD;
 26            EDUCATE THE CHILDREN.&#xD;
 Written for and read before the Teachers' Institute at Buckingham Court House,&#xD;
 Virginia, August, 172.&#xD;
@@ -1010,7 +1015,7 @@ Distributes to each one of knowledge a share. -&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7716-00000014"/>&#xD;
+<pb n="28-29" xml:id="VAC7716-00000014"/>&#xD;
 f&#xD;
 &#xD;
 28           EDUCATE     THE   CHILDREN.&#xD;
@@ -1099,7 +1104,7 @@ t'&#xD;
 '&#xD;
 ;&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7716-00000015"/>&#xD;
+<pb n="30-31" xml:id="VAC7716-00000015"/>&#xD;
 30&#xD;
 &#xD;
 A REPLY.&#xD;
@@ -1192,7 +1197,7 @@ v&#xD;
 {&#xD;
 .i&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7716-00000016"/>&#xD;
+<pb n="32-33" xml:id="VAC7716-00000016"/>&#xD;
 32  THEY TELL ME FAME IS BUT A BUBBLE.&#xD;
 &#xD;
 THEY TELL ME FAME IS BUT. A BUBBLE.&#xD;
@@ -1285,7 +1290,7 @@ I&#xD;
 &#xD;
 .. ,&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7716-00000017"/>&#xD;
+<pb n="34-35" xml:id="VAC7716-00000017"/>&#xD;
 ADVERTISING FOR A WIFE.&#xD;
 &#xD;
 his advertisement. There is a mischievous twinkle in his eye, and&#xD;
@@ -1409,7 +1414,7 @@ t&#xD;
 r&#xD;
 }&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7716-00000018"/>&#xD;
+<pb n="36-37" xml:id="VAC7716-00000018"/>&#xD;
 I.&#xD;
 &#xD;
 3&#xD;
@@ -1531,7 +1536,7 @@ a&#xD;
 &#xD;
 37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7716-00000019"/>&#xD;
+<pb n="38-39" xml:id="VAC7716-00000019"/>&#xD;
 ii&#xD;
 1i&#xD;
 &#xD;
@@ -1685,7 +1690,7 @@ j&#xD;
 ..emu,&#xD;
 ....w.w.r.  .&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7716-00000020"/>&#xD;
+<pb n="40-41" xml:id="VAC7716-00000020"/>&#xD;
 40&#xD;
 &#xD;
 i) I&#xD;
@@ -1791,7 +1796,7 @@ r r&#xD;
 &#xD;
 .f&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7716-00000021"/>&#xD;
+<pb n="42-43" xml:id="VAC7716-00000021"/>&#xD;
 ADVERTISING FOR A WIFE.&#xD;
 &#xD;
 ADVERTISING FOR A WIFE.&#xD;
@@ -1896,7 +1901,7 @@ P&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7716-00000022"/>&#xD;
+<pb n="44-45" xml:id="VAC7716-00000022"/>&#xD;
 '                                                                                                                               E&#xD;
 r.                                                                                                                                ,&#xD;
 v..skf.                                       .....,..t...     -. .- -.+ . ++ .w..., ....&#xD;
@@ -2000,7 +2005,7 @@ t&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7716-00000023"/>&#xD;
+<pb n="46-47" xml:id="VAC7716-00000023"/>&#xD;
 I .&#xD;
 &#xD;
 46&#xD;
@@ -2102,7 +2107,7 @@ ii- *"ruii"                            11 ft&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7716-00000024"/>&#xD;
+<pb n="48-49" xml:id="VAC7716-00000024"/>&#xD;
 AD VER TISING FOR A WIFE.&#xD;
 &#xD;
 AD VER TISING FOR A WIFE.&#xD;
@@ -2191,7 +2196,7 @@ a&#xD;
 &#xD;
 Ag'&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7716-00000025"/>&#xD;
+<pb n="50-51" xml:id="VAC7716-00000025"/>&#xD;
 j&#xD;
 &#xD;
 ril&#xD;
@@ -2297,7 +2302,7 @@ S&#xD;
 ,'&#xD;
 -                                             #&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7716-00000026"/>&#xD;
+<pb n="52-53" xml:id="VAC7716-00000026"/>&#xD;
 41i&#xD;
 &#xD;
 AD VEILTISING FOR .A WIFE.&#xD;
@@ -2423,7 +2428,7 @@ v        #&#xD;
 tCt{&#xD;
 ,fb   t&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7716-00000027"/>&#xD;
+<pb n="54-55" xml:id="VAC7716-00000027"/>&#xD;
 CIRCUMSTANTIAL EVIDENCE.&#xD;
 &#xD;
 E V I D E N C E.&#xD;
@@ -2518,7 +2523,7 @@ L&#xD;
 &#xD;
 CJis&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7716-00000028"/>&#xD;
+<pb n="56-57" xml:id="VAC7716-00000028"/>&#xD;
 56&#xD;
 &#xD;
 CIRCUMSTANTIAL EVIDENCE.&#xD;
@@ -2626,7 +2631,7 @@ f't&#xD;
 'V&#xD;
 5 t&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7716-00000029"/>&#xD;
+<pb n="58-59" xml:id="VAC7716-00000029"/>&#xD;
 58&#xD;
 &#xD;
 CIRCUMSTANTIAL EVID ENCE.1&#xD;
@@ -2739,7 +2744,7 @@ j    4fC&#xD;
 k       t&#xD;
 t       "   _&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7716-00000030"/>&#xD;
+<pb n="60-61" xml:id="VAC7716-00000030"/>&#xD;
 c~±~~i&#xD;
 &#xD;
 60'&#xD;
@@ -2863,7 +2868,7 @@ MAMA&#xD;
 t&#xD;
 "                H 4&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7716-00000031"/>&#xD;
+<pb n="62-63" xml:id="VAC7716-00000031"/>&#xD;
 CIRCUMSTA NTIAL EVIDENCE.&#xD;
 &#xD;
 CIRC UMIST ANTI L EVIDENCE.&#xD;
@@ -2975,7 +2980,7 @@ deeply wronged to seek a reconciliation, and both as miserable as&#xD;
 they could well be. Nine months ago I met with a party at a&#xD;
 hotel in our city, en route for the springs. They were from a&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7716-00000032"/>&#xD;
+<pb n="64-65" xml:id="VAC7716-00000032"/>&#xD;
 1.&#xD;
 &#xD;
 434&#xD;
@@ -3077,7 +3082,7 @@ Y&#xD;
 &#xD;
 II&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7716-00000033"/>&#xD;
+<pb n="66-67" xml:id="VAC7716-00000033"/>&#xD;
 (6&#xD;
 &#xD;
 CIRCU3ISTANTIAL EVIDENCE.&#xD;
@@ -3202,7 +3207,7 @@ had better retire; if anything was needed he would have me&#xD;
 awakened. I retired to my room, but could not sleep. I did not&#xD;
 undress. I felt too restless. About ten o'clock I went to my&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7716-00000034"/>&#xD;
+<pb n="68-69" xml:id="VAC7716-00000034"/>&#xD;
 A9&#xD;
 &#xD;
 (IRCUMJSTANTIAL -EVIDENCE.&#xD;
@@ -3336,7 +3341,7 @@ had never been heard went up from that court-room. Order was&#xD;
 --&#xD;
 -                  #&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7716-00000035"/>&#xD;
+<pb n="70-71" xml:id="VAC7716-00000035"/>&#xD;
 CIRCUMSTANTIAL E VIDENCE.&#xD;
 &#xD;
 tI iji   i:1~&#xD;
@@ -3423,7 +3428,7 @@ i                                7&#xD;
 &#xD;
 70,&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7716-00000036"/>&#xD;
+<pb n="72-73" xml:id="VAC7716-00000036"/>&#xD;
 72       VIRGINIA A     D SOUTII CAROLINA.&#xD;
 And we honor Hampton's cavalry, who did such noble service&#xD;
 in our Old Dominion. From that intrepid band we select a&#xD;
@@ -3525,7 +3530,7 @@ I see the lords of human kind pass by."&#xD;
 &#xD;
 mr&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7716-00000037"/>&#xD;
+<pb n="74-75" xml:id="VAC7716-00000037"/>&#xD;
 74     VIRGINIA AND SOUTH CAROLINA.&#xD;
 &#xD;
 ,&#xD;
@@ -3659,7 +3664,7 @@ and no one coming forward and proving property, she .consulted&#xD;
 &#xD;
 ..ji, I&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7716-00000038"/>&#xD;
+<pb n="76-77" xml:id="VAC7716-00000038"/>&#xD;
 ib&#xD;
 t  I;t .&#xD;
 1  j t i' ,4&#xD;
@@ -3771,7 +3776,7 @@ _                                                                               
 t&#xD;
 a&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7716-00000039"/>&#xD;
+<pb n="78-79" xml:id="VAC7716-00000039"/>&#xD;
 *4&#xD;
 &#xD;
 2&#xD;
@@ -3898,7 +3903,7 @@ r -&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7716-00000040"/>&#xD;
+<pb n="80-81" xml:id="VAC7716-00000040"/>&#xD;
 80&#xD;
 &#xD;
 VIRGINIA AND SOUTH CAROLINA.&#xD;
@@ -4041,7 +4046,7 @@ Y&#xD;
 &#xD;
 81&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7716-00000041"/>&#xD;
+<pb n="82-83" xml:id="VAC7716-00000041"/>&#xD;
 VIRGINIA AND SOUTH CAROLINA.,&#xD;
 &#xD;
 f Ii&#xD;
@@ -4166,7 +4171,7 @@ y&#xD;
 J&#xD;
 i&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7716-00000042"/>&#xD;
+<pb n="84-85" xml:id="VAC7716-00000042"/>&#xD;
 84       VIRGINIA    AND SOUTfi CAROLINA.&#xD;
 While Ella and her father saw no "rebel " soldiers, they were&#xD;
 not so fortunate with regard to the Yankees, and Mr. Morrison&#xD;
@@ -4272,7 +4277,7 @@ i&#xD;
 3&#xD;
 3&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7716-00000043"/>&#xD;
+<pb n="86-87" xml:id="VAC7716-00000043"/>&#xD;
 I&#xD;
 &#xD;
 86&#xD;
@@ -4470,7 +4475,7 @@ r&#xD;
 u&#xD;
 '&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7716-00000044"/>&#xD;
+<pb n="88-89" xml:id="VAC7716-00000044"/>&#xD;
 88       VIRGINIA AND SOUTH CAROLINA.&#xD;
 what could make her dear friend so pensive, and she questioned&#xD;
 Nora on the subject, who feeling bound to keep the secret, said&#xD;
@@ -4629,7 +4634,7 @@ r&#xD;
 #&#xD;
 $,&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7716-00000045"/>&#xD;
+<pb n="90-91" xml:id="VAC7716-00000045"/>&#xD;
 Y&#xD;
 IV&#xD;
 &#xD;
@@ -4742,7 +4747,7 @@ E  I F&#xD;
 Z&#xD;
 I&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7716-00000046"/>&#xD;
+<pb n="92-93" xml:id="VAC7716-00000046"/>&#xD;
 ty-VTRG1YA AX]) So UTH (CARWInrA&#xD;
 CH13AP'TER VL.&#xD;
 To hope, tillm oe ceten e's,&#xD;
@@ -4884,7 +4889,7 @@ I&#xD;
 &#xD;
 m.inmimm..mm.mumu.'m.si&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7716-00000047"/>&#xD;
+<pb n="94-95" xml:id="VAC7716-00000047"/>&#xD;
 y :&#xD;
 &#xD;
 '7A  1.1 A A3 7) SOUTH CA R1IJXA.&#xD;
@@ -4995,7 +5000,7 @@ i -"    n    ..      - .&#xD;
 .&#xD;
 ,}&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7716-00000048"/>&#xD;
+<pb n="96-97" xml:id="VAC7716-00000048"/>&#xD;
 VIRGINIA AND SOUTH CAROL.NtA.&#xD;
 &#xD;
 her too much agitated for self-support, I suppose, as he placed a&#xD;
@@ -5109,7 +5114,7 @@ _f&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7716-00000049"/>&#xD;
+<pb n="98-99" xml:id="VAC7716-00000049"/>&#xD;
 THE WIFE'S TEMPTATION.&#xD;
 &#xD;
 ;,  {{&#xD;
@@ -5262,7 +5267,7 @@ r .&#xD;
 fi&#xD;
 "t&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7716-00000050"/>&#xD;
+<pb n="100-101" xml:id="VAC7716-00000050"/>&#xD;
 I'&#xD;
 &#xD;
 100&#xD;
@@ -5463,7 +5468,7 @@ P&#xD;
 i&#xD;
 s&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7716-00000051"/>&#xD;
+<pb n="102-103" xml:id="VAC7716-00000051"/>&#xD;
 ,     F"    ur         ,&#xD;
 lip&#xD;
 r , i.          t S.&#xD;
@@ -5571,7 +5576,7 @@ Y&#xD;
 =;&#xD;
 _&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7716-00000052"/>&#xD;
+<pb n="104-105" xml:id="VAC7716-00000052"/>&#xD;
 begging him for the sake of this good name to desist. He seemed&#xD;
 penitent and promised reformation ; told her he had been drink-&#xD;
 ing a long time, that'was what made him so- cross, but she was&#xD;
@@ -5698,7 +5703,7 @@ rr&#xD;
 f c&#xD;
 S&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7716-00000053"/>&#xD;
+<pb n="106-107" xml:id="VAC7716-00000053"/>&#xD;
 TUf/C WIEI 's TEMP'MITA TION.&#xD;
 &#xD;
 T R R 11'1 FE'$ T Fi TA TJO  A .17&#xD;
@@ -5831,7 +5836,7 @@ OM&#xD;
 &#xD;
 "1 ti'i&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7716-00000054"/>&#xD;
+<pb n="108-109" xml:id="VAC7716-00000054"/>&#xD;
 108          THE WIFE 'STEXPTA TION.&#xD;
 house? You tell me you are the wife of my friend: you. are his&#xD;
 slave, no more respected than you would be were you the vilest&#xD;
@@ -5941,7 +5946,7 @@ _,   ..&#xD;
 &#xD;
 - " -                               1 1IN                --.  lulL&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7716-00000055"/>&#xD;
+<pb n="110-111" xml:id="VAC7716-00000055"/>&#xD;
 I.&#xD;
 &#xD;
 q' AYf&#xD;
@@ -6057,7 +6062,7 @@ friend was Robert Armistead, an intelligent and wealthy young&#xD;
 law-student, who had halted between two opinions for some time,&#xD;
 almost persuaded to become a.Christian, and whom Mr. Wilson&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7716-00000056"/>&#xD;
+<pb n="112-113" xml:id="VAC7716-00000056"/>&#xD;
 112&#xD;
 &#xD;
 WILL IT PAY?&#xD;
@@ -6155,7 +6160,7 @@ u,.. .,.        r  MJI l          I1-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7716-00000057"/>&#xD;
+<pb n="114-115" xml:id="VAC7716-00000057"/>&#xD;
 WILL IT PAY?&#xD;
 &#xD;
 I .i&#xD;
@@ -6278,7 +6283,7 @@ WILL 17' PA Y&#xD;
 &#xD;
 115&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7716-00000058"/>&#xD;
+<pb n="116-117" xml:id="VAC7716-00000058"/>&#xD;
 t&#xD;
 &#xD;
 faI           rt'{si'I&#xD;
@@ -6386,7 +6391,7 @@ selection of a school for them. So their heads were filled with a&#xD;
 certain number of dead and~ modern languages, it mattered not&#xD;
 10&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7716-00000059"/>&#xD;
+<pb n="118-119" xml:id="VAC7716-00000059"/>&#xD;
 118     MORAL HEROISM.&#xD;
 &#xD;
 ,&#xD;
@@ -6482,7 +6487,7 @@ favorite with the young ladies. As time passed he met with one,&#xD;
 a beautiful milliner girl, who possessed some of his wild fancies&#xD;
 and strange ideas of life, though her mind had not been culti-&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7716-00000060"/>&#xD;
+<pb n="120-121" xml:id="VAC7716-00000060"/>&#xD;
 MORAL HEROS11.&#xD;
 &#xD;
 u&#xD;
@@ -6576,7 +6581,7 @@ Yours, with respect,&#xD;
 &#xD;
 .s .&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7716-00000061"/>&#xD;
+<pb n="122-123" xml:id="VAC7716-00000061"/>&#xD;
 ;r7&#xD;
 P   r&#xD;
 ?.lit&#xD;
@@ -6676,7 +6681,7 @@ I_______&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7716-00000062"/>&#xD;
+<pb n="124-125" xml:id="VAC7716-00000062"/>&#xD;
 124  WH AT NOVEL READING DTD FOR ME.&#xD;
 &#xD;
 WIA ' NOVEL BEADING DID FOR ME.&#xD;
@@ -6808,7 +6813,7 @@ z+&#xD;
 j              !±    '&#xD;
 y t   ' -  'y ~ '&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7716-00000063"/>&#xD;
+<pb n="126-127" xml:id="VAC7716-00000063"/>&#xD;
 i.&#xD;
 &#xD;
 4&#xD;
@@ -6893,7 +6898,7 @@ qq _p&#xD;
 &#xD;
  IISMATCHE D.&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7716-00000064"/>&#xD;
+<pb n="128-129" xml:id="VAC7716-00000064"/>&#xD;
 aq:128                              IMfIS M AAT CIIED&#xD;
 home had departed. Then her true disposition was revealed.&#xD;
 Her husband found that his purse was his chief attraction in the&#xD;
@@ -6946,7 +6951,7 @@ least consideration.&#xD;
 &#xD;
 .fr---sti&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7716-00000065"/>&#xD;
+<pb n="130-131" xml:id="VAC7716-00000065"/>&#xD;
 i{t&#xD;
 4 d&#xD;
 I&#xD;
@@ -7062,7 +7067,7 @@ until she could find employment, knowing that she would find a&#xD;
 welcome there. Her aunt had two little daughters old enough to&#xD;
 be at school; she would insure a welcome by teaching them.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7716-00000066"/>&#xD;
+<pb n="132-133" xml:id="VAC7716-00000066"/>&#xD;
 I&#xD;
 t7  t&#xD;
 f  J&#xD;
@@ -7202,7 +7207,7 @@ t&#xD;
 ,&#xD;
 s&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7716-00000067"/>&#xD;
+<pb n="134-135" xml:id="VAC7716-00000067"/>&#xD;
 f'&#xD;
 &#xD;
 134&#xD;
@@ -7294,7 +7299,7 @@ arrival of Harry Page on the morrow. Mr. Berkley and his little&#xD;
 k&#xD;
 f&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7716-00000068"/>&#xD;
+<pb n="136-137" xml:id="VAC7716-00000068"/>&#xD;
 i.&#xD;
 &#xD;
 1'&#xD;
@@ -7397,7 +7402,7 @@ II&#xD;
 &#xD;
 ,.&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7716-00000069"/>&#xD;
+<pb n="138-139" xml:id="VAC7716-00000069"/>&#xD;
 if I ,&#xD;
 logo&#xD;
 A t&#xD;
@@ -7521,7 +7526,7 @@ k&#xD;
 ty&#xD;
 ~w&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7716-00000070"/>&#xD;
+<pb n="140-141" xml:id="VAC7716-00000070"/>&#xD;
 ii H&#xD;
 &#xD;
 140&#xD;
@@ -7660,7 +7665,7 @@ yu&#xD;
 5 ";t&#xD;
 -S&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7716-00000071"/>&#xD;
+<pb n="142-143" xml:id="VAC7716-00000071"/>&#xD;
 142               IN  THE  COUNTRY.&#xD;
 Mr. Conrad loaded her with costly presents, and Mrs. Conrad&#xD;
 was particularly affectionate and hearty in her congratulations;&#xD;
@@ -7734,7 +7739,7 @@ of sound judgment. lIt took him but&#xD;
 ' 1&#xD;
 t&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7716-00000072"/>&#xD;
+<pb n="144-145" xml:id="VAC7716-00000072"/>&#xD;
 , ,  . ,&#xD;
 ;&#xD;
 :;    ;&#xD;
@@ -7888,7 +7893,7 @@ IMP"&#xD;
 &#xD;
 ALL .[' OR THE BEST.&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7716-00000073"/>&#xD;
+<pb n="146-147" xml:id="VAC7716-00000073"/>&#xD;
 146             ALL   FOR   TIlE  BEST.&#xD;
 you to listen to me now. I will not tell you that you shall not&#xD;
 accept his love, but 1 beg you to refuse him." " o, father, it is&#xD;
@@ -7996,7 +8001,7 @@ f '.&#xD;
 :.&#xD;
 -&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7716-00000074"/>&#xD;
+<pb n="148-149" xml:id="VAC7716-00000074"/>&#xD;
 ;.&#xD;
 &#xD;
 148&#xD;
@@ -8122,7 +8127,7 @@ M      J&#xD;
 y+'?4k            ,.       6&#xD;
 F(&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7716-00000075"/>&#xD;
+<pb n="150-151" xml:id="VAC7716-00000075"/>&#xD;
 r   Jt     li,   1'ri&#xD;
 ;vl i7&#xD;
 }  1       iflt  ,&#xD;
@@ -8248,7 +8253,7 @@ i i&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7716-00000076"/>&#xD;
+<pb n="152-153" xml:id="VAC7716-00000076"/>&#xD;
 152         ALL FOR THE BEST.,&#xD;
 &#xD;
 and said, "I have heard the story of your early love, and thought&#xD;
@@ -8346,7 +8351,7 @@ yourself to come so far to undeceive me ; but am sorry on your&#xD;
 &#xD;
 ALL FOR TILE BEST.          153&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7716-00000077"/>&#xD;
+<pb n="154-155" xml:id="VAC7716-00000077"/>&#xD;
 tf {    'L. r"' !,t&#xD;
 ) r&#xD;
 j.r            r     r&#xD;
@@ -8420,7 +8425,7 @@ A Ll POR TH E BEST.&#xD;
 &#xD;
 154A&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7716-00000078"/>&#xD;
+<pb n="156-157" xml:id="VAC7716-00000078"/>&#xD;
 little girl, for he had never known of the contract between their&#xD;
 parents, and always thought of her as a child who would brighten&#xD;
 his home when he returned,. His mortiflcation' and grief were&#xD;
@@ -8528,7 +8533,7 @@ I&#xD;
 &#xD;
 IA-&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7716-00000079"/>&#xD;
+<pb n="158-159" xml:id="VAC7716-00000079"/>&#xD;
 THAT. OLD, OLD STORY.&#xD;
 &#xD;
 are to me. I have never known what love was until I met you. I&#xD;
@@ -8651,7 +8656,7 @@ THAT OLD, OLD STORY.&#xD;
 'x&#xD;
 a&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7716-00000080"/>&#xD;
+<pb n="160-161" xml:id="VAC7716-00000080"/>&#xD;
 }:&#xD;
 &#xD;
 ANNIE ARMISTEAD.&#xD;
@@ -8736,7 +8741,7 @@ t  rr&#xD;
 ,&#xD;
 y&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7716-00000081"/>&#xD;
+<pb n="162-163" xml:id="VAC7716-00000081"/>&#xD;
 I.&#xD;
 &#xD;
 162&#xD;
@@ -8837,7 +8842,7 @@ t&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7716-00000082"/>&#xD;
+<pb n="164-165" xml:id="VAC7716-00000082"/>&#xD;
 fil&#xD;
 py&#xD;
 f  I        ,&#xD;
@@ -8943,7 +8948,7 @@ fLC&#xD;
 &#xD;
 ri&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7716-00000083"/>&#xD;
+<pb n="166-167" xml:id="VAC7716-00000083"/>&#xD;
 .I'&#xD;
 &#xD;
 V S, t  f&#xD;
@@ -9010,7 +9015,7 @@ Erwin, permit me to present to you my friend, Mr.'Carrington.&#xD;
 (I  V&#xD;
 I ;r&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7716-00000084"/>&#xD;
+<pb n="168-169" xml:id="VAC7716-00000084"/>&#xD;
 LOVE AND HATE&#xD;
 &#xD;
 tC&#xD;
@@ -9151,7 +9156,7 @@ speaks harshly of any one. When I told him of meeting Miss&#xD;
 &#xD;
 LOVE AND HATE.&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7716-00000085"/>&#xD;
+<pb n="170-171" xml:id="VAC7716-00000085"/>&#xD;
 LOVE AND HATE.&#xD;
 &#xD;
 "        r  rts (r&#xD;
@@ -9267,7 +9272,7 @@ LOVE AND h A T.E.&#xD;
 &#xD;
 =        ,'   .&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7716-00000086"/>&#xD;
+<pb n="172-173" xml:id="VAC7716-00000086"/>&#xD;
 in&#xD;
 &#xD;
 172&#xD;
@@ -9375,7 +9380,7 @@ r:&#xD;
 fir~ hr"&#xD;
 .tf1            ;k.&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7716-00000087"/>&#xD;
+<pb n="174-175" xml:id="VAC7716-00000087"/>&#xD;
 i&#xD;
 &#xD;
 174&#xD;
@@ -9492,7 +9497,7 @@ I&#xD;
 &#xD;
 x&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7716-00000088"/>&#xD;
+<pb n="176-177" xml:id="VAC7716-00000088"/>&#xD;
 176              LOVE )A      IfATA.&#xD;
 The water was rising rapidly, and before they reached higher&#xD;
 ground, had wetted their feet. The servants had left the house&#xD;
@@ -9548,7 +9553,7 @@ and  ll ormr totOwsere forgotten in the happiness of' true&#xD;
 &#xD;
 /!&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7716-00000089"/>&#xD;
+<pb n="178-179" xml:id="VAC7716-00000089"/>&#xD;
 (&#xD;
 &#xD;
 rn-I&#xD;
@@ -9641,7 +9646,7 @@ to man any superiority wiithin our sphere, and we look down&#xD;
 with sovereign contempt upon such as would .contest our rights&#xD;
 within that sphere. A woman who attempts to place herself upon&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7716-00000090"/>&#xD;
+<pb n="180-181" xml:id="VAC7716-00000090"/>&#xD;
 ErikI{  ;rk&#xD;
 Off;I&#xD;
 441&#xD;
@@ -9760,8 +9765,8 @@ M&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

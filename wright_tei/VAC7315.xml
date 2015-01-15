@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7315">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7315">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Mysteries and Miseries of San Francisco </title>
-            <author >Anonymous</author>
+            <title>The Mysteries and Miseries of San Francisco </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7315</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7315</idno>
+            <idno type="wright2" n="previous">wright2-1776</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The mysteries and miseries of San Francisco</title>
-                  <author >Anonymous</author>
+                  <title>The mysteries and miseries of San Francisco</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >208 p.</extent>
+               <extent>208 p.</extent>
                <publicationStmt>
-                  <publisher >Garrett</publisher>
+                  <publisher>Garrett</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The mysteries and miseries of San Francisco</head> 
+            <head>The mysteries and miseries of San Francisco</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7315-00000001"/>i'&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7315-00000001"/>i'&#xD;
 &#xD;
 SAN FRANCISCO.&#xD;
 BY A OAL'ORNIAN.&#xD;
@@ -143,7 +148,7 @@ S&#xD;
 .     , , z      '      +,k&#xD;
 ,.        M .&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7315-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7315-00000002"/>&#xD;
 I&#xD;
 &#xD;
 33&#xD;
@@ -222,7 +227,7 @@ I&#xD;
 -   ,&#xD;
 .&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7315-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7315-00000003"/>&#xD;
 8                     MYSTERIES .A&#xD;
 and far-famed Senor de Castro, an old,&#xD;
 resident of the country, and one of the&#xD;
@@ -411,7 +416,7 @@ vince the spectators that the father of&#xD;
 the imperrilled girl was rushing to her&#xD;
 rescue. His hat was gone, and his dark&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7315-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7315-00000004"/>&#xD;
 10                    MYSTERIES AND MISERIES&#xD;
 but silvered leeks floated on the breeze, way up the ladder. All eyes were now&#xD;
 the sweat stood in beads upon his broad fixed on the adventurer. For a moment&#xD;
@@ -552,7 +557,7 @@ every theiving den had poured out its&#xD;
 crowds upon the streets of San Francis&#xD;
 co, and a vast proportion of the inhab-&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7315-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7315-00000005"/>&#xD;
 12&#xD;
 &#xD;
 j&#xD;
@@ -743,7 +748,7 @@ i&#xD;
 ri&#xD;
 ,&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7315-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7315-00000006"/>&#xD;
 Ii&#xD;
 III&#xD;
 ftt&#xD;
@@ -928,7 +933,7 @@ might have led a casual spectator to&#xD;
 &#xD;
 15&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7315-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7315-00000007"/>&#xD;
 16              MYSTERIES AND MISERIES&#xD;
 &#xD;
 suppose that the coroner was required&#xD;
@@ -1067,7 +1072,7 @@ occasioned me the most poignant dis- them, I should never feel sure of my&#xD;
 tress. and I shall tale care of her as legs and arms one moment, while he&#xD;
 if sh" was my own child.'           was in the house-ha! ha ! ha!'&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7315-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7315-00000008"/>&#xD;
 18                     MYSTERIES AND      MISERIES&#xD;
 ' However that may be,' said the hills and through the valleys towards&#xD;
 other, 'if I were a young swain like the town of San Francisco.&#xD;
@@ -1166,7 +1171,7 @@ der.' -                             I&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7315-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7315-00000009"/>&#xD;
 20               MYSTERIES AND MISERIES&#xD;
 &#xD;
 CHAPTER III.&#xD;
@@ -1307,7 +1312,7 @@ rang jist when I was booming down-, ear a bit and he lighted down in the bot-&#x
 of Montgomery that they're shying water.'&#xD;
 around this way, I'm thinking; but they  'Bad nok o the likes of him, Janie,&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7315-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7315-00000010"/>&#xD;
 22                MYSTERIES AND MISERIES&#xD;
 &#xD;
 the unspakable murtheriog scoundrel !&#xD;
@@ -1450,7 +1455,7 @@ question-                            escape of a felon.&#xD;
 for me. to-night?'                   teney of Blodget's conduct, and when, a&#xD;
 Without waiting for an answer he moment afnrwards, Minteagle thrust his&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7315-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7315-00000011"/>&#xD;
 24                   MYSTERIES AND MISERIES&#xD;
 head into the open window and hailed cried Blodget with a great show of vir-&#xD;
 Blodget by name, the Engineer cast a tuousindignation--' that is-except you&#xD;
@@ -1548,7 +1553,7 @@ cious music float through the apartment, as some men have done while going to&#x
 the harmonies of Bellhii and Mendel- ' the scaffold.&#xD;
 sobn contrasting  strange ly with the  Tfhat sight would have been sufficient&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7315-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7315-00000012"/>&#xD;
 26                   MYSTERIES AND       MISERIES&#xD;
 of itself to have inspired Monteagle with ing lost part of his gold, he seemed des-&#xD;
 a horror of gambling; but he was des- perately bent upon winning it back or&#xD;
@@ -1687,7 +1692,7 @@ moment, disposed to interpret every&#xD;
 thing in the most favorable mnnmer, and&#xD;
 fancied that he saw in Blodget's hesita-&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7315-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7315-00000013"/>&#xD;
 28               MYSTERIES AND MISERIES&#xD;
 &#xD;
 tion a generous endeavor to conceal the&#xD;
@@ -1830,7 +1835,7 @@ of the neck. as he was about to make a&#xD;
 &#xD;
 S i&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7315-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7315-00000014"/>&#xD;
 OF SAN FRANCISCO.                 81&#xD;
 &#xD;
 hasty retreat. and giving him three or ple threw up their windows to see what&#xD;
@@ -1970,7 +1975,7 @@ I&#xD;
 &#xD;
 80              MYSTERIES AND MISERIES&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7315-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7315-00000015"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 take the fellow-did he hurt you much?'&#xD;
@@ -2134,7 +2139,7 @@ fortune, you know-    '&#xD;
 &#xD;
 to&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7315-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7315-00000016"/>&#xD;
 MYSTERIES AND, MISERIES&#xD;
 &#xD;
 term's fortune ?' cried the youth surpris- cumstance at least. Monteagle followed&#xD;
@@ -2233,7 +2238,7 @@ would have required had not his fair return together to Scotia's shores,"and&#xD
 friends been accustomed to impromptu live near the highland cot in which you&#xD;
 friends and acquaintances,           were born and reared.'&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7315-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7315-00000017"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 'With a Monteith! with a Monteith, made to believe that she had moved in a&#xD;
@@ -2375,7 +2380,7 @@ entrance, while she seemed to be an at-&#xD;
 tentive observer of all that passed. The&#xD;
 French girls were wondering who she&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7315-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7315-00000018"/>&#xD;
 OF SAN FRANGISCO.                    39&#xD;
 &#xD;
 was.   Their observations were piquant f&#xD;
@@ -2554,7 +2559,7 @@ equally re-s ceniable in appearance, was&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7315-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7315-00000019"/>&#xD;
 40               MYSTERIES AND MISERIES&#xD;
 &#xD;
 kneeling on his breast, with a revolver in I&#xD;
@@ -2739,7 +2744,7 @@ dewater, in her father's garden, in pleas-&#xD;
 &#xD;
 OF SAN FRANCISCO.                41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7315-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7315-00000020"/>&#xD;
 42                     MYSTERIES AND MISERIES&#xD;
 ant conversation, when suddenly the the atmosphere was filled with the most&#xD;
 heavens became overcast and the thun- delightful odors, and he finally sank into&#xD;
@@ -2878,7 +2883,7 @@ to banter Julia about her conquest was&#xD;
 &#xD;
 OF SAN FRANCISCO.                    43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7315-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7315-00000021"/>&#xD;
 44                     MYSTERIES AND MISERIES&#xD;
 ridiculous enough: but then the unfor-  At the breakfast table, the liveliness&#xD;
 tunate girl who had suffered herself to of Julia, and her merry laugh, drew the&#xD;
@@ -3016,7 +3021,7 @@ the night of the robbery was altogether&#xD;
 aeidental-that he had blundered in&#xD;
 while drunk and got asleep. Neverthe-&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7315-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7315-00000022"/>&#xD;
 f&#xD;
 &#xD;
 46                 MYSTERIES AND MISERIES&#xD;
@@ -3203,7 +3208,7 @@ On that evening, Blodget called upon&#xD;
 &#xD;
 OF S 4.N FRANCISCO.                47&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7315-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7315-00000023"/>&#xD;
 48                   MYSTERIES A&#xD;
 Monteagle, and appeared to be more af-&#xD;
 fable than ever, talked with him about&#xD;
@@ -3392,7 +3397,7 @@ She mourned long and bitterly for the&#xD;
 loss of her lover ; but her passionate na-&#xD;
 ture again prevailed, and she accepted&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7315-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7315-00000024"/>&#xD;
 50           -         MYSTERIES AN&#xD;
 the offers of a native Count, who was&#xD;
 soon-killed in a quarrel.&#xD;
@@ -3577,7 +3582,7 @@ note-'&#xD;
 &#xD;
 OF   A N  ' A ITFTCi&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7315-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7315-00000025"/>&#xD;
 52                MYSTERIES AND MISERIES&#xD;
 &#xD;
 though it must have been written two or&#xD;
@@ -3762,7 +3767,7 @@ a lady, and that Maria was charged not&#xD;
 &#xD;
 OF SAN FRANCISCO.             5 3&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7315-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7315-00000026"/>&#xD;
 54             ~       MYSTERIES AND      MISERIES&#xD;
 to tell that fact unless she should discov- The man who had heretofore held him&#xD;
 er that my heart was disengaged, and in his iron gripe, in spite of his determin-&#xD;
@@ -3914,7 +3919,7 @@ Monteagle was placed upon a horse,&#xD;
 &#xD;
 /,&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7315-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7315-00000027"/>&#xD;
 56                MYSTERIES AND MISERIES&#xD;
 &#xD;
 and with a mounted man on each side, of ing his rider through the hollows and&#xD;
@@ -4054,7 +4059,7 @@ money was placed in your safe-'&#xD;
 ' Silence, and listen ! When we open-&#xD;
 ed the safe, it only held a few thousands&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7315-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7315-00000028"/>&#xD;
 58               MYSTERIES AND MISERIES&#xD;
 &#xD;
 belonging to the firm. You know where the vice a turn.  Still the brave youth&#xD;
@@ -4192,7 +4197,7 @@ the Mission.&#xD;
 &#xD;
 OF SAN FRANCISCO.              59&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7315-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7315-00000029"/>&#xD;
 60                    MYSTERIES AND MISERIES&#xD;
 CHAPTER      IX.           lady desired to meet him instantly, at her&#xD;
 father's residence.&#xD;
@@ -4340,7 +4345,7 @@ Blodget.&#xD;
 They surely can't be a pleasure party,'&#xD;
 n pled Jimmy     For the hunstman of&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7315-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7315-00000030"/>&#xD;
 62               MYSTERIES AND'MISERIES&#xD;
 &#xD;
 Howth, that followed a hare to h-i,&#xD;
@@ -4468,7 +4473,7 @@ know how thankful I am that your skil- the base of the high and jgged rek,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7315-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7315-00000031"/>&#xD;
 64                     MYSTERIES AND MISERIES&#xD;
 ' This that you fear will ruin us, will sudden and powerful jerk turned his&#xD;
 prove our safety,' said Maretzo. 'I head in the direction of the shore they&#xD;
@@ -4563,7 +4568,7 @@ sions' asked Blodget.-                verberating.&#xD;
 cave,' said Maretzo.                  light,' said Maretzo, and dismounting, ho&#xD;
 ' Come, come, old boss,-none of that groped about until his hand rested upon&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7315-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7315-00000032"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 a box of candles, part of the cargo of the&#xD;
@@ -4744,7 +4749,7 @@ which stood the store, they proceeded&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7315-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7315-00000033"/>&#xD;
 OF SAN FRANCISCO.                  69&#xD;
 &#xD;
 68              MYSTERIES AND MISERIES&#xD;
@@ -4928,7 +4933,7 @@ ing evidences of Monteagle's complicity&#xD;
 in the robbery. Not giving the youth&#xD;
 time to recover from his confusion, he&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7315-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7315-00000034"/>&#xD;
 70   '                MYSTERIES AND      MISERIES&#xD;
 waved him out of his office with a cool, riding over.  He was gifted by nature&#xD;
 haughty gesture, which roused Montea- with a muscular form, and was reputed to&#xD;
@@ -5070,7 +5075,7 @@ Tearing his black locks he flung him-&#xD;
 self on his knees by her side, and tende,-&#xD;
 ly raising her, he pressed her to his heart&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7315-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7315-00000035"/>&#xD;
 72&#xD;
 &#xD;
 MYSTERIES AsTD MISERIES&#xD;
@@ -5218,7 +5223,7 @@ wasnowby issuden nd  nepece&#xD;
 &#xD;
 OF SAN FRANCISCO.&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7315-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7315-00000036"/>&#xD;
 74                     MYSTERIES AND      MISERIES&#xD;
 loss of employment thrown entirely des- pers were rapidly disappearing in sup-&#xD;
 titute on the world.                 plying the clamorous demands of the ea-&#xD;
@@ -5365,7 +5370,7 @@ he at last cane to the determination of&#xD;
 going for a few nights on the highway,&#xD;
 and thus trying his fortune. Tf in adop-&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7315-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7315-00000037"/>&#xD;
 76               MYSTERIES AND MISERIES&#xD;
 &#xD;
 ting this guilty resolution, the villain&#xD;
@@ -5550,7 +5555,7 @@ him, if I can avoid it! I do not want&#xD;
 &#xD;
 OF SAN FRANCISCO.              77&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7315-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7315-00000038"/>&#xD;
 78               MYSTERIES AND MISERIES&#xD;
 &#xD;
 his blood, but his money, it will be his&#xD;
@@ -5736,7 +5741,7 @@ ognized the tones.&#xD;
 &#xD;
 OF SAN FRANCISCO.              79&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7315-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7315-00000039"/>&#xD;
 80&#xD;
 &#xD;
 MYSTERIES AND MISERIES.&#xD;
@@ -5895,7 +5900,7 @@ corner, to rest herself for a few minutes,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7315-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7315-00000040"/>&#xD;
 82&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -6086,7 +6091,7 @@ she listened to it,&#xD;
 the last spade-full of earth on the grave&#xD;
 of their murdered victim, 'that job's fin-&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7315-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7315-00000041"/>&#xD;
 $,4                  MYSTERIES AND MISERIES&#xD;
 ished, and a long and sound rest to the ings of our heroine, as the ruffian, Kay,&#xD;
 old drover. The business has been per- approaches e , do, adtid.&#xD;
@@ -6179,7 +6184,7 @@ ed remains of the poor old man, whom ive action of tying the Postmaster up in&#x
 the monsters had buried,             one of his mail bags, and dumping him&#xD;
 Inez, trembling in every limb, left the&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7315-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7315-00000042"/>&#xD;
 MYSTERIES AND      MISERIES&#xD;
 where be had deposited their letters- complete counterpart of her t e husband,&#xD;
 in th Bay.and never were two beings better form&#xD;
@@ -6334,7 +6339,7 @@ pe '&#xD;
 t i&#xD;
 5&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7315-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7315-00000043"/>&#xD;
 88&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -6441,7 +6446,7 @@ I&#xD;
 &#xD;
 OF SAN FRANCISCO.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7315-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7315-00000044"/>&#xD;
 90&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -6585,7 +6590,7 @@ nd which described the pleasures of&#xD;
 &#xD;
 OF SAN FRANCISCO.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7315-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7315-00000045"/>&#xD;
 92                   MYSTERIES AND     MISERIES&#xD;
 home in simple yet forcible language, ease is made more wretched by the&#xD;
 and as it now came fresh upon my recol- splendor which laughs in awful mockery,&#xD;
@@ -6738,7 +6743,7 @@ and my eyes became rivetted upon it I my flowers, my young companions,--&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7315-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7315-00000046"/>&#xD;
 94              MYSTERIES AND MISERIES&#xD;
 &#xD;
 all seemed to have a livelier look, and&#xD;
@@ -6923,7 +6928,7 @@ self.'&#xD;
 &#xD;
 OF SAN FRANCISCO.                  95&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7315-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7315-00000047"/>&#xD;
 96               ,   MYSTERIES AND MISERIES&#xD;
 senses,' cried I deliriously,-and clasping my pride is now'my disgust; 'tis past!&#xD;
 my temples; 'he could not-no, no, I know myself deceived, but, thank&#xD;
@@ -7051,7 +7056,7 @@ distant country could be seen far beyond.&#xD;
 Outside was a balcony overhanging the&#xD;
 road. I undrew the curtains softly, and&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7315-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7315-00000048"/>&#xD;
 98&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -7242,7 +7247,7 @@ f befallen the village.'&#xD;
 ,' rupt retort; ' if you or I had gone, in-&#xD;
 r deed, it might have afflicted them; now,&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7315-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7315-00000049"/>&#xD;
 100&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -7435,7 +7440,7 @@ will go into the inner apartment. Go,&#xD;
 and I will take the breakfast things for&#xD;
 you.'&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7315-00000050"/>&#xD;
+<pb n="102-103" xml:id="VAC7315-00000050"/>&#xD;
 102                  MYSTERIES Al&#xD;
 'Well, well, as you please,' said my&#xD;
 father, ' where is Edwin?'&#xD;
@@ -7620,7 +7625,7 @@ mother urged me into the summer-house,&#xD;
 and the next moment my father and the&#xD;
 father of Ele1n came from the house.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7315-00000051"/>&#xD;
+<pb n="104-105" xml:id="VAC7315-00000051"/>&#xD;
 104                 MYSTEI t1ES AN&#xD;
 They were in conversation, and by the.&#xD;
 words which I overheard, it seemed that&#xD;
@@ -7808,7 +7813,7 @@ curse-'&#xD;
 forward in excessive agitation; 'in mer-&#xD;
 cy, oh, no more.'&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7315-00000052"/>&#xD;
+<pb n="106-107" xml:id="VAC7315-00000052"/>&#xD;
 106                  MYSTERIES AN&#xD;
 ' Ha!' groaned my father, as he recog-&#xD;
 nised me and retreated from me, 'away!&#xD;
@@ -8001,7 +8006,7 @@ OF SAN FRANCISCO.&#xD;
 &#xD;
 107&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7315-00000053"/>&#xD;
+<pb n="108-109" xml:id="VAC7315-00000053"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 ed so many days of virtue and happiness,&#xD;
@@ -8142,7 +8147,7 @@ OF SAN FRANCISCO.&#xD;
 &#xD;
 109&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7315-00000054"/>&#xD;
+<pb n="110-111" xml:id="VAC7315-00000054"/>&#xD;
 110                  MYSTERIES Al&#xD;
 years I had slept, and gazed upon eve-&#xD;
 ry well known object, which had under-&#xD;
@@ -8332,7 +8337,7 @@ brother had not yielded to my advice,&#xD;
 &#xD;
 OF SAN FRANCISCO.&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7315-00000055"/>&#xD;
+<pb n="112-113" xml:id="VAC7315-00000055"/>&#xD;
 r&#xD;
 &#xD;
 112,&#xD;
@@ -8478,7 +8483,7 @@ Fearful, from all they had 'observed, veins with the most indescribable sensa-&#
 that murder had been committed, they tion of horror. Alas! who shall say&#xD;
 now ran with all their speed in the di- I that my sufferings have not indeed been&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7315-00000056"/>&#xD;
+<pb n="114-115" xml:id="VAC7315-00000056"/>&#xD;
 114&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -8667,7 +8672,7 @@ feeling.&#xD;
 I know not how it was, but I felt a&#xD;
 degree of firmness on that awful occasion&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7315-00000057"/>&#xD;
+<pb n="116-117" xml:id="VAC7315-00000057"/>&#xD;
 116&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -8860,7 +8865,7 @@ ately released from the dock,-while, the&#xD;
 real assassin was placed at the bar.&#xD;
 But misfortune and I had still got to&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7315-00000058"/>&#xD;
+<pb n="118-119" xml:id="VAC7315-00000058"/>&#xD;
 118              MYSTERIES AND MISERIES&#xD;
 &#xD;
 be longer acquainted; and too soon her&#xD;
@@ -9020,7 +9025,7 @@ ing in the harbor. There was nothing&#xD;
 &#xD;
 OF SAN FRANCISCO.                110&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7315-00000059"/>&#xD;
+<pb n="120-121" xml:id="VAC7315-00000059"/>&#xD;
 120              MYSTERIES AND MISERIES&#xD;
 &#xD;
 to interest him in the words themselves,&#xD;
@@ -9201,7 +9206,7 @@ was, so as to assure himself that no sen-&#xD;
 &#xD;
 OF SAN FRANCISCO.               121&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7315-00000060"/>&#xD;
+<pb n="122-123" xml:id="VAC7315-00000060"/>&#xD;
 122                  MYSTERIES A&#xD;
 tiuel was close at hand, and then he bold-&#xD;
 lv flung up the cords to which the hooks&#xD;
@@ -9388,7 +9393,7 @@ dence of unexampled audacity came&#xD;
 across the mind of the unscrupulous il-&#xD;
 lian, and for a moment he hesitated.&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7315-00000061"/>&#xD;
+<pb n="124-125" xml:id="VAC7315-00000061"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 It struck him that, after all, such an would be out.# the question, was Blod&#xD;
@@ -9534,7 +9539,7 @@ OF SAN FRANCISCO,&#xD;
 &#xD;
 125&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7315-00000062"/>&#xD;
+<pb n="126-127" xml:id="VAC7315-00000062"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 the fact is that I am in danger here,&#xD;
@@ -9720,7 +9725,7 @@ OF SAN FRANCISCO.&#xD;
 &#xD;
 127&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7315-00000063"/>&#xD;
+<pb n="128-129" xml:id="VAC7315-00000063"/>&#xD;
 128               MYSTERIES AND MISERIES&#xD;
 &#xD;
 implements used in the art or profession&#xD;
@@ -9904,7 +9909,7 @@ get.&#xD;
 A          E&#xD;
 OF SAN FRANCISC 0.                129&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7315-00000064"/>&#xD;
+<pb n="130-131" xml:id="VAC7315-00000064"/>&#xD;
 130             -     MYSTERIES A&#xD;
 one of the windows of the house opposite&#xD;
 rather more earnestly than they ought&#xD;
@@ -10090,7 +10095,7 @@ One of the thieves-it was the one&#xD;
 whose appointed duty it was to go up&#xD;
 stairs with Blodget- lit a loco foco&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7315-00000065"/>&#xD;
+<pb n="132-133" xml:id="VAC7315-00000065"/>&#xD;
 132              MYSTERIES AND MISERIES&#xD;
 &#xD;
 match, and then as it burned up they all&#xD;
@@ -10275,7 +10280,7 @@ Ben started, and turning his head, the&#xD;
 &#xD;
 ''&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7315-00000066"/>&#xD;
+<pb n="134-135" xml:id="VAC7315-00000066"/>&#xD;
 134              MYSTERIES AND MISERIES&#xD;
 &#xD;
 drat thing he saw was the black mask,'s&#xD;
@@ -10459,7 +10464,7 @@ you place it as an obstacle in the way,&#xD;
 &#xD;
 OF SAN FRANCISCO.              13 5&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7315-00000067"/>&#xD;
+<pb n="136-137" xml:id="VAC7315-00000067"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 -  1-36&#xD;
@@ -10603,7 +10608,7 @@ at that moment to think that self-preser-&#xD;
 &#xD;
 OF SAN FRANCISCO.&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7315-00000068"/>&#xD;
+<pb n="138-139" xml:id="VAC7315-00000068"/>&#xD;
 138                  MYSTERIES Al&#xD;
 nation was indeed the very first law of&#xD;
 nature, even if it was taken in its most&#xD;
@@ -10788,7 +10793,7 @@ to you as well as to myself ? Come on I&#xD;
 &#xD;
 139&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7315-00000069"/>&#xD;
+<pb n="140-141" xml:id="VAC7315-00000069"/>&#xD;
 140&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -10976,7 +10981,7 @@ If you will go out with me this evening&#xD;
 I will introduce you to a banker who is&#xD;
 sure to be delighted with you. Ie is&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7315-00000070"/>&#xD;
+<pb n="142-143" xml:id="VAC7315-00000070"/>&#xD;
 142               MYSTERIES AND MISERIES&#xD;
 &#xD;
 very liberal, and I know he admires your&#xD;
@@ -11161,7 +11166,7 @@ ter intonation, and hot tears gathered in&#xD;
 &#xD;
 OF SAN FRANCISCO.              143&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7315-00000071"/>&#xD;
+<pb n="144-145" xml:id="VAC7315-00000071"/>&#xD;
 144             .MYSTEIlIES AND MISERIES&#xD;
 &#xD;
 OF SAN FRANCISCO.                     145&#xD;
@@ -11303,7 +11308,7 @@ wine with me? Nay, if you like it bet- libertine, who thought that if the young&
 ter, for once I will stop here.'     girl suffered him to hold her in his em-&#xD;
 'Never again, Blodget, will I press the brace lie should be able to win her to a&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7315-00000072"/>&#xD;
+<pb n="146-147" xml:id="VAC7315-00000072"/>&#xD;
 146 -             MYSTERIES AND MISERIES&#xD;
 &#xD;
 more agreeable termination to their in- of that crushed violet of the pavement,&#xD;
@@ -11443,7 +11448,7 @@ he, endeavoring to steady his voice,&#xD;
 &#xD;
 OF SAN FRANCISC 0.             147&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7315-00000073"/>&#xD;
+<pb n="148-149" xml:id="VAC7315-00000073"/>&#xD;
 148      .MYSTERIES,&#xD;
 though it was low and tremulous, and&#xD;
 his lips quivered as he spoke.&#xD;
@@ -11627,7 +11632,7 @@ then sank into insensibility.&#xD;
 &#xD;
 149&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7315-00000074"/>&#xD;
+<pb n="150-151" xml:id="VAC7315-00000074"/>&#xD;
 OF SAN FRANCISCO.&#xD;
 &#xD;
 How long Inez lay-it that state of erlessness to evade her impending doom.&#xD;
@@ -11772,7 +11777,7 @@ h borne the preceding night.&#xD;
 &#xD;
 161&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7315-00000075"/>&#xD;
+<pb n="152-153" xml:id="VAC7315-00000075"/>&#xD;
 152         MYSTERIES AND MISERIES&#xD;
 &#xD;
 . She hesitated for a moment, and then&#xD;
@@ -11959,7 +11964,7 @@ soon as Monteagle could extricate him-&#xD;
 &#xD;
 OF SAN FRANCISCO.             153&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7315-00000076"/>&#xD;
+<pb n="154-155" xml:id="VAC7315-00000076"/>&#xD;
 154               MYSTERIES AND       MISERIES.&#xD;
 self from his dead horse, he rushed after over the smooth faces of bare brown&#xD;
 him, calling loudly on his friends. Two rocks, polished by atmospheric influen-&#xD;
@@ -12119,7 +12124,7 @@ the dark and lonely hill.&#xD;
 bated breath.&#xD;
 'Poor fellow,' ejaculated the other,&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7315-00000077"/>&#xD;
+<pb n="156-157" xml:id="VAC7315-00000077"/>&#xD;
 156           MYSTERIES AND MISERIES&#xD;
 &#xD;
 with a shudder. 'If it has fallen on&#xD;
@@ -12298,7 +12303,7 @@ OF SAN FRANCISCO.               157&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7315-00000078"/>&#xD;
+<pb n="158-159" xml:id="VAC7315-00000078"/>&#xD;
 158                    MYSTERIES A&#xD;
 tarily to their feet, placed their hands&#xD;
 upon their revolvers, and prepared 'for&#xD;
@@ -12468,7 +12473,7 @@ undertake the sanguinary deed.&#xD;
 ' Who among ye is willing to earn&#xD;
 this rewardV' he asked.&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7315-00000079"/>&#xD;
+<pb n="160-161" xml:id="VAC7315-00000079"/>&#xD;
 OF SAN FRANCISCO.                -    161&#xD;
 &#xD;
 100              MYSTERIES AND MISERIES&#xD;
@@ -12653,7 +12658,7 @@ larity, and the villain Blodget being sat-&#xD;
 &#xD;
 i,&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7315-00000080"/>&#xD;
+<pb n="162-163" xml:id="VAC7315-00000080"/>&#xD;
 OF SAN FRANCISCO.                  163&#xD;
 &#xD;
 162                  MYSTERIES AND MISERIES&#xD;
@@ -12792,7 +12797,7 @@ brutal designs of the libertine and the&#xD;
 miscreant ! Yes, I will put my trust in&#xD;
 Heaven, and prepare to meet my heavy&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7315-00000081"/>&#xD;
+<pb n="164-165" xml:id="VAC7315-00000081"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 trials with a firmness and resolution'be-c&#xD;
@@ -12975,7 +12980,7 @@ powerless to do further harm?'&#xD;
 Inez shuddered with horror at the&#xD;
 words of the wretch ; who, however,&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7315-00000082"/>&#xD;
+<pb n="166-167" xml:id="VAC7315-00000082"/>&#xD;
 166              MYSTERIES AND MISERIES&#xD;
 &#xD;
 presently altered his tone, and once more&#xD;
@@ -13114,7 +13119,7 @@ see him no more.'                      ' Beauteous Inez,' returned the wretch;&#
 The courage of Inez completely failed 'this is madness, and a silly waste of&#xD;
 her, tears gushed to her eyes, and, sink- time. Think you, then, that after all the&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7315-00000083"/>&#xD;
+<pb n="168-169" xml:id="VAC7315-00000083"/>&#xD;
 18             MYSTERIES AND MISERIES&#xD;
 &#xD;
 trouble I have taken, the risks I have&#xD;
@@ -13296,7 +13301,7 @@ pointed that she did not answer her, she&#xD;
 determined to follow them up.&#xD;
 'It seems that you have lost your&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7315-00000084"/>&#xD;
+<pb n="170-171" xml:id="VAC7315-00000084"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 V&#xD;
@@ -13455,7 +13460,7 @@ grief experienced at her mysterious dis-&#xD;
 appearance. The idea of the deplorable&#xD;
 condition of Monteagle was maddening&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7315-00000085"/>&#xD;
+<pb n="172-173" xml:id="VAC7315-00000085"/>&#xD;
 172              MYSTERIES AND MISERIES&#xD;
 &#xD;
 baste Blodget broke the seal, and glanced&#xD;
@@ -13639,7 +13644,7 @@ this brief colloquy, the two worthies sep-&#xD;
 &#xD;
 OF SAN FRANCISCO.              178&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7315-00000086"/>&#xD;
+<pb n="174-175" xml:id="VAC7315-00000086"/>&#xD;
 174              MYSTERIES AND MISERIES&#xD;
 &#xD;
 arated, and Blodget bent his way to th&#xD;
@@ -13822,7 +13827,7 @@ p&#xD;
 &#xD;
 OF SAN FRANCISCO,              175&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7315-00000087"/>&#xD;
+<pb n="176-177" xml:id="VAC7315-00000087"/>&#xD;
 178              MYSTERIES AND MISERIES&#xD;
 &#xD;
 man rolled about in the chair apparently&#xD;
@@ -14009,7 +14014,7 @@ OF SAN FRANCISCO.                17't&#xD;
 &#xD;
 I 'f&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7315-00000088"/>&#xD;
+<pb n="178-179" xml:id="VAC7315-00000088"/>&#xD;
 178              MYSTERIES AND MISERIES&#xD;
 &#xD;
 me to escape. - Believe me, you shall be-&#xD;
@@ -14194,7 +14199,7 @@ old woman had thrown out to her iin the&#xD;
 morning, and again were her utmost ap-&#xD;
 prehensions of some fresh misery excited,&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7315-00000089"/>&#xD;
+<pb n="180-181" xml:id="VAC7315-00000089"/>&#xD;
 .80              MYSTERIES AND MISERIES&#xD;
 &#xD;
 pospetime she continued in this manner,&#xD;
@@ -14334,7 +14339,7 @@ which our heroine addressed him.    selves in existence.'&#xD;
 &#xD;
 11 OF SAN FRANCISCO.  181&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC7315-00000090"/>&#xD;
+<pb n="182-183" xml:id="VAC7315-00000090"/>&#xD;
 182                    MYSTERIES A&#xD;
 Inez shuddered with horror at the cool-&#xD;
 ness and effrontery with which the liber-&#xD;
@@ -14525,7 +14530,7 @@ AND MISERIES&#xD;
 &#xD;
 18&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC7315-00000091"/>&#xD;
+<pb n="184-185" xml:id="VAC7315-00000091"/>&#xD;
 185&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -14671,7 +14676,7 @@ Virgin, I call upon thee for thy protec-&#xD;
 tion !-Oh, save me ! save me !'&#xD;
 As the distracted and terrified lady&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC7315-00000092"/>&#xD;
+<pb n="186-187" xml:id="VAC7315-00000092"/>&#xD;
 186              MYSTERIES AND MISERIES&#xD;
 &#xD;
 thus screamed, she struggled violently&#xD;
@@ -14856,7 +14861,7 @@ am I then placed in the power of every&#xD;
 &#xD;
 OF SAN FRANCISCO.               187&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC7315-00000093"/>&#xD;
+<pb n="188-189" xml:id="VAC7315-00000093"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 wretch?$ Oh, Jenkins ! Jenkins ! for this,&#xD;
@@ -15047,7 +15052,7 @@ OF SAN FRANCISCO.&#xD;
 &#xD;
 189&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC7315-00000094"/>&#xD;
+<pb n="190-191" xml:id="VAC7315-00000094"/>&#xD;
 191&#xD;
 &#xD;
 MYST&amp;amp; IES AND MISERIES&#xD;
@@ -15191,7 +15196,7 @@ that he was only justly punished for the the excess of his fears ; 'you will not
 part he had played towards the unfortu- surely do as you say?-You will not&#xD;
 nate Inez and her friends,           deliver me up to justice ?-Consign me&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC7315-00000095"/>&#xD;
+<pb n="192-193" xml:id="VAC7315-00000095"/>&#xD;
 102                   MYSTERIES AND MISERIES         -&#xD;
 to an ignominious and violent death ! soon after he had entc&#xD;
 Pause ere you do so !-My death will ter quitted the place&#xD;
@@ -15364,7 +15369,7 @@ loud snore of the most hoggish descrip-&#xD;
 tion.&#xD;
 The proprietor of the hotel had seve-&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC7315-00000096"/>&#xD;
+<pb n="194-195" xml:id="VAC7315-00000096"/>&#xD;
 194             MYSTERIES AND MISERIES&#xD;
 &#xD;
 ral times requested the party to break up,&#xD;
@@ -15548,7 +15553,7 @@ hesitate to attempt the life of the father,&#xD;
 &#xD;
 OF SAN FRANCISCO.               195&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC7315-00000097"/>&#xD;
+<pb n="196-197" xml:id="VAC7315-00000097"/>&#xD;
 196&#xD;
 &#xD;
 I&#xD;
@@ -15739,7 +15744,7 @@ tion ?' inquired Kay.&#xD;
 'Matrimony              -&#xD;
 ' Ay, sober wedlock,' answered Maret-&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC7315-00000098"/>&#xD;
+<pb n="198-199" xml:id="VAC7315-00000098"/>&#xD;
 198&#xD;
 &#xD;
 MYSTERIES AND MISERIES&#xD;
@@ -15925,7 +15930,7 @@ lips, her cheeks, her teinples, and laugh-&#xD;
 ed and wept like a child, by turns!--&#xD;
 Then he threw himself upon his knees'&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC7315-00000099"/>&#xD;
+<pb n="200-201" xml:id="VAC7315-00000099"/>&#xD;
 200                   MYSTERIES AT&#xD;
 clasps his hands vehemently together,&#xD;
 and poured forth an eloquent prayer to-&#xD;
@@ -16111,7 +16116,7 @@ passionately kissing her cheek, ' I will&#xD;
 endeavor to do so ; still you surely will&#xD;
 not blame me for not placing too much&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC7315-00000100"/>&#xD;
+<pb n="202-203" xml:id="VAC7315-00000100"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 confidence in our security, which might&#xD;
@@ -16253,7 +16258,7 @@ OF SAN FRANCISCO.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC7315-00000101"/>&#xD;
+<pb n="204-205" xml:id="VAC7315-00000101"/>&#xD;
 MYSTERIES AlND MISERIES&#xD;
 &#xD;
 They sat down, and Blodget threw&#xD;
@@ -16379,7 +16384,7 @@ OF SAN FRANCISCO.&#xD;
 &#xD;
 205&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC7315-00000102"/>&#xD;
+<pb n="206-207" xml:id="VAC7315-00000102"/>&#xD;
 MYSTERIES AND MISERIES&#xD;
 &#xD;
 CARTER XX.&#xD;
@@ -16532,7 +16537,7 @@ L. ,OL J36 i {y Lya p + aif+W Vaa47 A&amp;amp;&amp;amp; vva rs r vvvs v v.&#xD;
 &#xD;
 weep ins tears of joy upvu uCr uvnviu&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC7315-00000103"/>&#xD;
+<pb n="208-209" xml:id="VAC7315-00000103"/>&#xD;
 208&#xD;
 &#xD;
 MYSTERIES AND MISERIES OF SAN FRANCISCO.&#xD;
@@ -16588,8 +16593,8 @@ lU&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

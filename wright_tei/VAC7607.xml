@@ -1,98 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7607">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7607">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Alethe; or, The Child of the Cord </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>Alethe; or, The Child of the Cord </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7607</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7607</idno>
+            <idno type="wright2" n="previous">wright2-2063</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Alethe; or, The child of the cord</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>Alethe; or, The child of the cord</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >75 p.</extent>
+               <extent>75 p.</extent>
                <publicationStmt>
-                  <publisher >F. A. Brady</publisher>
+                  <publisher>F. A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1864">[1864]</date>
+                  <date when="1864">[1864]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-02-18">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-02-18">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Alethe; or, The child of the cord</head> 
+            <head>Alethe; or, The child of the cord</head>
             <p>
-               <pb  n="0 (Cover) " xml:id="VAC7607-00000001"/>I-&#xD;
+               <pb n="0 (Cover) " xml:id="VAC7607-00000001"/>I-&#xD;
 &#xD;
 1l&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="0 (TitlePage) " xml:id="VAC7607-00000002"/>&#xD;
+<pb n="0 (TitlePage) " xml:id="VAC7607-00000002"/>&#xD;
 r                 4&#xD;
 KA:&#xD;
 2    _': - '&#xD;
@@ -143,7 +148,7 @@ tit&#xD;
 , .  ..,  _.&#xD;
 -  ,5-&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7607-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7607-00000003"/>&#xD;
 a      Ia&#xD;
 &#xD;
 lNERznD according to Act of Congress, in the year 1864,&#xD;
@@ -290,7 +295,7 @@ t&#xD;
 w #&#xD;
 rv r&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7607-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC7607-00000004"/>&#xD;
 ALETRE.; OR, THE CHILD OF THE CORD.&#xD;
 &#xD;
 uosixere--.it had fa'J - ns Delt ; it&#xD;
@@ -390,7 +395,7 @@ f -&#xD;
 1&#xD;
 'Y&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7607-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7607-00000005"/>&#xD;
 r&#xD;
 &#xD;
 N'&#xD;
@@ -536,7 +541,7 @@ K  tv :il,).v.:""' ,3 t&#xD;
 &#xD;
 _                                                                                                                                                                                                                                                                                                      -    3,&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC7607-00000006"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC7607-00000006"/>&#xD;
 8                ALETHE; OR, THE CHILD OF THE CORD.&#xD;
 ture which had preceded his coning, and and Ida Macgregor is fair! What a good&#xD;
 which Ida Macgregor did not now desire to thing logic is it&#xD;
@@ -615,7 +620,7 @@ J_&#xD;
 -- - "&#xD;
 ..          C/ "&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7607-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7607-00000007"/>&#xD;
 4~&#xD;
 &#xD;
 ALETHE; OR, THE CHILD OF THE CORD.&#xD;
@@ -693,7 +698,7 @@ r&#xD;
 +&#xD;
 1   w&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7607-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7607-00000008"/>&#xD;
 I&#xD;
 Ij&#xD;
 -It&#xD;
@@ -903,7 +908,7 @@ v   .&#xD;
 .                             " ,VA: i ' ,  'r 1r  fi 7 vcy 1 "my "+r   {      fA'i 4SX-i&#xD;
 1 ..     1    f  ((  1t"y 1  '   X    a  y''   .R. 'f   . a                        y&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7607-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7607-00000009"/>&#xD;
 Ek t&#xD;
 i j  t&#xD;
 I&#xD;
@@ -1048,7 +1053,7 @@ k&#xD;
 E&#xD;
 t&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC7607-00000010"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC7607-00000010"/>&#xD;
 16               ALETHE; OR, THE CHILD OF THE CORD.&#xD;
 Never were the fiercer and darker elements this girdle was thrust a creese, with a handle&#xD;
 of his nature so aroused.               of mother-of-pearl, surmounted by a moon-&#xD;
@@ -1116,7 +1121,7 @@ buckled in front with a silver buckle.. In disappears, who is the wiser for it ?
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7607-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7607-00000011"/>&#xD;
 ALETHE; OR, :r      H CI  OF THE CORD.                "19&#xD;
 . The cotintenance of Hydrabad underwent given channel, and the stopping of the pulsa-&#xD;
 a change sudden and startling. For an iu- tons of a large red muscle, are to me things&#xD;
@@ -1196,7 +1201,7 @@ Q  t                          SNi     i&#xD;
 &#xD;
 ...                     t      i~&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7607-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7607-00000012"/>&#xD;
 20®               AkLBTII; OR,- TN CHILD 'THE. CORD.&#xD;
 his breastlooked moodi.y toWard the river, it not well y e&#xD;
 whose'. nurmgring waters could be:heard. be judge whethe:I do it well  ou&#xD;
@@ -1331,7 +1336,7 @@ joad ufry, it i  eetr~ht   hud~red, that we are on a business of life and&#xD;
 hast, that my absene shallnt hermaed    "ou sl hn      it    r ow  w&#xD;
 by any. My erand nis most impriit    dnd edHutninte est.-fhor;and&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7607-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7607-00000013"/>&#xD;
 22          ,     ALTHE ; 011 THE CHILD) OF.TIE CORI).&#xD;
 speaking to, the. beast in those' tones'which. thinking of 'the pretty creature near him,&#xD;
 long companionship Lad rendered him' fa- His heart kept titu inpg agait his ribs In&#xD;
@@ -1440,7 +1445,7 @@ res     he girl         ive    e thewallet,child&#xD;
 ~i$  rsmethe  gitrlf:hehae    there is 'no more of the'fecions~&#xD;
 tell  e thetlatre of thev'vewalk. It     'e: girl;&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7607-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7607-00000014"/>&#xD;
 24. ALETHE ; OR, THE CHILD OF THE CORD.&#xD;
 "One,younand brave," she replied.a    through the opening appeared Barnabas and&#xD;
 . IheaEngsha    "akdteIahth           trk01teeehn.Tefrmer&#xD;
@@ -1517,7 +1522,7 @@ S a cyis  t"" sheissig " H e  is  very  +&#xD;
 h     of il1y ' b * ,hild I" . 'i -&#xD;
 19Wt      ,o pq erpe&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7607-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7607-00000015"/>&#xD;
 ALETHE; QR, THE CWILI) OF THE CORD.&#xD;
 &#xD;
 that the Sahib is in great danger, answers&#xD;
@@ -1715,7 +1720,7 @@ whichshe acceptediesoe        a  Alethe  whih he was the pritneunover and athor,
 in her liquid. tones.  Wen   watch hima tHee-stretched  he beneath a tamarindr&#xD;
 bad not Bracegirdleenr this roa)m.",,tipe setvrants, 7moni itrlly' expecting te- see&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7607-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7607-00000016"/>&#xD;
 I&#xD;
 &#xD;
 ALEiTB;-OR,' THE GILDT) OBI THl 0U.&#xD;
@@ -1869,7 +1874,7 @@ r&#xD;
 i&#xD;
 '&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7607-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7607-00000017"/>&#xD;
 rt&#xD;
 I&#xD;
 &#xD;
@@ -2018,7 +2023,7 @@ h&#xD;
 ,&#xD;
 ii&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC7607-00000018"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC7607-00000018"/>&#xD;
 82            AtEPHEI; O  THE VaILD O? THE CORD-&#xD;
 paused'before hii and- 'loed up It6 IEI -6ld, nihave aright to'e4tct different-t eat.&#xD;
 face. " a'Leave neshe-l4ned  aId -go to inent."&#xD;
@@ -2098,7 +2103,7 @@ _   y&#xD;
 j'II&#xD;
 1&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7607-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7607-00000019"/>&#xD;
 ALETHE; OR, THE CHILD OF THE CORD.&#xD;
 &#xD;
 49&#xD;
@@ -2259,7 +2264,7 @@ _.                                                      ,t&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7607-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7607-00000020"/>&#xD;
 86               ALETHE; OR, THE CHILD         OF THE CORD.&#xD;
 "In this tree, which is hollow. Here-is the and immolate s&#xD;
 entrance. There may ytb      ier-steadimlt omebody. He wished all h&#xD;
@@ -2410,7 +2415,7 @@ s&#xD;
 ,&#xD;
 .&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7607-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7607-00000021"/>&#xD;
 38                ALETHE ; OR; THE CHILD OF THE CORD.&#xD;
 mile kingdoms iwerun down on theway;"Eyes,'mind yel" He glanced at Alethe aw&#xD;
 'twixt a hundred waginloads, probably.'' unusual  significance. -"'Thee was Cn  o  esngaltl  atr -M.eanl  otsra  n y wsaliers&#xD;
@@ -2544,7 +2549,7 @@ disguising his sap cion-oor" 'his cheek, "you're                  Snlurl Si ' me
 Closu lbesieged" replied he who had  ou, my hearty    a i    gsh e&#xD;
 spoken.dw                                                    d&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC7607-00000022"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC7607-00000022"/>&#xD;
 40                ALETHE ; OR, THE CHILD OF THE CORD.&#xD;
 and-chop for you, as long as I can move a intimation of danger ; an  announcement&#xD;
 muscle! And not for you only,-but for them, which was received: without visible emo.&#xD;
@@ -2610,7 +2615,7 @@ Maor Rainbold, witita few:English ends eddicated Iadies. Eddicated Hadies has th
 who had anived watafrew;ngisreld seeepatonge,.Ilethe, yet Barnabas dies has the&#xD;
 ia the buglow, ready; to start up at the firsthear&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7607-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7607-00000023"/>&#xD;
  1&#xD;
 &#xD;
 I&#xD;
@@ -2686,7 +2691,7 @@ true, as I said; but I shan't tell you on't; I Never! Few know it, though; very 
 shall keep it to mydelf,hnigh about. But I'll know it, and none realize it.&#xD;
 tell ye what I can" do; I can fight for you  Barnabas went his rounds again, carrying&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7607-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7607-00000024"/>&#xD;
 ALETHE; OR, TE ChILD OF T CR&#xD;
 iffOerenF ,.CORD.&#xD;
 &#xD;
@@ -2757,7 +2762,7 @@ m  child than you wot of."  '          tenant m the British Army; although, _if&
 &#xD;
 44&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7607-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7607-00000025"/>&#xD;
 ALETH;OR, THE CHILD;OF THE COg&#xD;
 &#xD;
 I&#xD;
@@ -2874,7 +2879,7 @@ to&#xD;
 C&#xD;
 7&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7607-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7607-00000026"/>&#xD;
 &amp;amp;1*~U ;AR~WTU onw _]jpop' THl CRD1&#xD;
 &#xD;
 OR, T1itL ORILaD OF T OOHI~&#xD;
@@ -2904,7 +2909,7 @@ both, r&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7607-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC7607-00000027"/>&#xD;
 , 50 .            ALETHE; (OlR, THE OHILD'OI'THE TCORI ,&#xD;
 ing eyes, while it arose. on its hinder feet to chee, made hi&#xD;
 .receive the carsses'of its nister. k'i gnade th t tnthink of Alethe. It was&#xD;
@@ -2989,7 +2994,7 @@ Sow; IfHahe pulls you,&#xD;
 life !k lon' ee1e':the&#xD;
 'No. Ws, couideaup11.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7607-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC7607-00000028"/>&#xD;
 52~    ALETH       fp&#xD;
 &#xD;
 I.          -'&#xD;
@@ -3057,7 +3062,7 @@ hex ojr: li] ;,;Q ,:her QX for£auSybpdy. If youI countetinee more K  g  pl   le
 &#xD;
 Ij&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7607-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC7607-00000029"/>&#xD;
 I&#xD;
 &#xD;
 91%T1 ceg   OWE4E QORD                              . AL1THE; OZ TB CR ImD OF THE CORD.&#xD;
@@ -3096,7 +3101,7 @@ vthe tigessthe&#xD;
 nuivein, aend' hisf-&#xD;
 ro  om for here&#xD;
 &#xD;
-<pb  n="56-57 (Illustration) " xml:id="VAC7607-00000030"/>&#xD;
+<pb n="56-57 (Illustration) " xml:id="VAC7607-00000030"/>&#xD;
 §8;4,LTE ;0B ,R,,THE :CEILDP'QM PT~ iCOIEf.&#xD;
 &#xD;
 "As neither the. treasures:of4eolconda nor&#xD;
@@ -3232,7 +3237,7 @@ minute found out about it. We're-goin'-to d&#xD;
 i&#xD;
 F/&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7607-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC7607-00000031"/>&#xD;
 '7&#xD;
 S    t,'/f  t ,&#xD;
 4      Y  "t  e 'i  t ~~f  i4   "':  .,4j -A  ,.&#xD;
@@ -3391,7 +3396,7 @@ gregotrin'accents.deeper andhmorethrilling.&#xD;
 t,&#xD;
 1             i .a&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7607-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC7607-00000032"/>&#xD;
 -QQ~et.athe  Struck by s 'aldshoe, ~elicent&#xD;
 ' f  t  #  ,  / i   4 V as ed" tw ,..  1'i:'t  i r°yet' -' -.sY&#xD;
 .j   1 - go ]  _ ?   pe .  -c  " r ! _  W enLC   Y&#xD;
@@ -3405,7 +3410,7 @@ oX, 'VERM&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7607-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC7607-00000033"/>&#xD;
 62           AlETHE; CSI , ThE' E ~lDor TZG&#xD;
 CHAPTEMR XX1.       l~j~  ilac attsedand"h~bo  r&#xD;
 « i'li~  t'hee, ia;j' el cd      vt   oi . ,THE CHILD OF THE CORD.  f tel  h tbrown tiie  us&#xD;
@@ -3415,7 +3420,7 @@ diot ride fad. _ The wound - tr will  ~ A vs aciat,"Ld wSth epn&#xD;
 &#xD;
 ALjBTH ; TC;-TMtE HILD O-P THE 1 WORD.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7607-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC7607-00000034"/>&#xD;
 A                                                  LTREUT3gOR,, TUB CILD 0? TUE CO1RD'&#xD;
 was  ,?   1o  ,  t e  dcons ,,n t 4o foy'qmin,.They outgrowed  tno  s teWhere is mr-wheretisy  ir  t  her'&#xD;
 i7o ene b o d e  sw " ote  t  ,yeare agg  f a.Yankee has. a  She topped and strayed her starry  es O, traye&#xD;
@@ -3554,7 +3559,7 @@ ty donorig     apr-&#xD;
 Lom., .pas-was govern&#xD;
 I her w  iu&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7607-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC7607-00000035"/>&#xD;
 06              ALETHE;'OR, THE CHILD O4F THE CORD.&#xD;
 .Barnabas IHttion witn'essed thi"&#xD;
 with wonder but adniration.t  is, noney aware of it till he saw her standing on the&#xD;
@@ -3690,7 +3695,7 @@ he trbn to              B        o   naheb, I have been   iered I&#xD;
 ae te id ty#5s.The'smore whitee eponded the maanon the ground, in a hollo&#xD;
 in her than there is of 'tother. :10w, Major" tone.&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7607-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC7607-00000036"/>&#xD;
 8.A ETHE; OR, THE CHILD OF THE CORD.&#xD;
 "You're more fortinit thansome," said Bar-  Ida shuddered.&#xD;
 nabas. "As generall thing,, 6  pe ~as is,."Be calm, 'uj.da  isM~rgr a&#xD;
@@ -3825,7 +3830,7 @@ waier'ss," resumed the old man; ''regards pees."&#xD;
 A A Pit&#xD;
 +'IV A&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7607-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC7607-00000037"/>&#xD;
 70               ALETHE; OR T    E CHJ5LD'  TO~I   CORD.&#xD;
 "You would_ deprive me," answered the   Each retired forest the ensuing nightsit&#xD;
 bedevoe"o the mrt fagoo    ci    You feelings of safety and gna4 de that were the&#xD;
@@ -3952,7 +3957,7 @@ great fore on oy hr  us toothhe, girl, rte aishe h dnineesbhld&#xD;
 "   !   .    ",       f       7JIIF'i                     . 461 -1i. '         ,                  v+e' 3  M    Yilh ^ :     !    r      s            l'                                  ''                                                                 .&#xD;
 -               '  '             "    9 1''   ';   .Ides"'  '" -    r   ' + 1 w...'t '   ''                                                                                                                                  -           ; a'&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7607-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC7607-00000038"/>&#xD;
 72"     '         ALETHE'; OR,'THE CHI=.D OF THE CORD.&#xD;
 only Upas. But there were pools of blood on I "Well,tht was' the'hway I looked  at it.&#xD;
 with a moonstone in the hadle and near one  Yes Mister Barnabas, bt n t say m chas&#xD;
@@ -4085,7 +4090,7 @@ eratelyato Huttonugit ws an old  n    come along."&#xD;
 &#xD;
 -v  '  Oi 5'y .   t«   =   a,.. ,  R--rdaua,&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7607-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC7607-00000039"/>&#xD;
 74     ,         ALETHE; OR; THE:CHILD OF;THE CORD.&#xD;
 Meerab, not being able to jumpup andcome -qreature,;I stand here) tonight, safe and un-&#xD;
 along,-Barnabas seized-him.by the shoulder harmed;, but your.soi Hydabad is torn and&#xD;
@@ -4207,7 +4212,7 @@ w&#xD;
 &#xD;
 -- -   - ^-     ,._. ,   !h'          t" _        i    -f.l    -  +%'i. h ,,, ,  . .b'r       ..«.:.3-   '   ° .. 1""     . - C  .'r. ar.                                    ,"t&#xD;
 &#xD;
-<pb  n="76 (Advertisement) -77 (Advertisement) " xml:id="VAC7607-00000040"/>&#xD;
+<pb n="76 (Advertisement) -77 (Advertisement) " xml:id="VAC7607-00000040"/>&#xD;
 FREDEBIC A. BRADY'S CATALOGUE.                                       Ii&#xD;
 The Young Duchess;nor Memoirs of a Erzufnie : nor the Gypsy's Vow. By Cons.,&#xD;
 Lady-of Quality.' By GW. M.; Reynolds. This  in MayCarleton.' (Miss Agnes Earlie.) "This is&#xD;
@@ -4361,7 +4366,7 @@ wa:.ei e.r o''e'-,t.  r&#xD;
 &#xD;
 ,.i r i+ . rF . y,.;4r'  C.:.':. s" 'f 1"' ,  *d "     «- ,, a i:'i,1 . #.r. - 1   .    e" . ,''r,. "        , 1&#xD;
 &#xD;
-<pb  n="78 (Advertisement) -79 (Advertisement) " xml:id="VAC7607-00000041"/>&#xD;
+<pb n="78 (Advertisement) -79 (Advertisement) " xml:id="VAC7607-00000041"/>&#xD;
 FREDEBIC A. BRADY'S CATALOGUE&#xD;
 &#xD;
 War Letters of a disbanded Yolufth&#xD;
@@ -4602,7 +4607,7 @@ l&#xD;
 Y&#xD;
 +S&#xD;
 &#xD;
-<pb  n="80 (Advertisement) -81" xml:id="VAC7607-00000042"/>&#xD;
+<pb n="80 (Advertisement) -81" xml:id="VAC7607-00000042"/>&#xD;
 FREDERIC A. BRADY&#xD;
 Pub~s1er &amp;amp; Bookseller,&#xD;
 -No 2 ANN'STREET, New-York,&#xD;
@@ -4627,8 +4632,8 @@ W- Send Cash Orders to&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

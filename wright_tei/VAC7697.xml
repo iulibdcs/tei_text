@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7697">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7697">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Some Passages in the Life of Geoffrey Clinker, Esq. [pseud.] : </title>
-            <author >Sands, Alexander H. (1828-1887)</author>
+            <title>Some Passages in the Life of Geoffrey Clinker, Esq. [pseud.] : </title>
+            <author>Sands, Alexander H. (1828-1887)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7697</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7697</idno>
+            <idno type="wright2" n="previous">wright2-2152</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Some passages in the life of Geoffrey Clinker, Esq. [pseud.] :</title>
-                  <author >Sands, Alexander H. (1828-1887)</author>
+                  <title>Some passages in the life of Geoffrey Clinker, Esq. [pseud.] :</title>
+                  <author>Sands, Alexander H. (1828-1887)</author>
                </titleStmt>
-               <extent >34 p.</extent>
+               <extent>34 p.</extent>
                <publicationStmt>
-                  <publisher >MacFarlane &amp; Fergusson</publisher>
+                  <publisher>MacFarlane &amp; Fergusson</publisher>
                   <pubPlace>Richmond </pubPlace>
-                  <date  when="1854">1854</date>
+                  <date when="1854">1854</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-16">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-16">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Some passages in the life of Geoffrey Clinker, Esq. [pseud.] :</head> 
+            <head>Some passages in the life of Geoffrey Clinker, Esq. [pseud.] :</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7697-00000001"/>/&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7697-00000001"/>/&#xD;
 &#xD;
 r&#xD;
 REPRODUCED FROM THE COPY IN THE&#xD;
@@ -112,7 +117,7 @@ I,&#xD;
 &#xD;
 '1'&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7697-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7697-00000002"/>&#xD;
 *   J~ ~                     -~&#xD;
 &#xD;
 -p&#xD;
@@ -156,7 +161,7 @@ It will be observed that the current of his life seems to have run in very&#xD;
 nearly the same channel with ours of the present day.&#xD;
 I. W.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7697-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7697-00000003"/>&#xD;
 9 ~ ~&#xD;
 &#xD;
 I&#xD;
@@ -200,7 +205,7 @@ I&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7697-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7697-00000004"/>&#xD;
 I'&#xD;
 47&#xD;
 &#xD;
@@ -269,7 +274,7 @@ strictly enjoined to abandon it from that day forward. And,&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7697-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7697-00000005"/>&#xD;
 8           /S'ome Passages. in the Life of&#xD;
 strange te say, this command was obeyed to the letter.&#xD;
 treaties of                               already&#xD;
@@ -338,7 +343,7 @@ summer's sun has burnt and destroyed its vitality, before it&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7697-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7697-00000006"/>&#xD;
 10         8ome Pas8ages in the ]9~fe of&#xD;
 clings to the protecting oak? So neither should the heart of&#xD;
 the child, my boy, if it find a fitting object on which to lavish&#xD;
@@ -406,7 +411,7 @@ date, a part of which has retained the ascendancy until&#xD;
 &#xD;
 ~&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7697-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7697-00000007"/>&#xD;
 'A&#xD;
 &#xD;
 12          Some Pas8age8 in the Life of&#xD;
@@ -480,7 +485,7 @@ II&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7697-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7697-00000008"/>&#xD;
 14          Some Passages in the Life of&#xD;
 Early one morning-I had just breakfasted-Robert met me&#xD;
 at the door of my father's house, and taking me by the arm,&#xD;
@@ -554,7 +559,7 @@ f I&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7697-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7697-00000009"/>&#xD;
 2.2&#xD;
 &#xD;
 lii         Some Passages in tite Life of&#xD;
@@ -639,7 +644,7 @@ I,&#xD;
 14&#xD;
 1~'&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7697-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7697-00000010"/>&#xD;
 K'            ""&#xD;
 &#xD;
 ~5~~&#xD;
@@ -723,7 +728,7 @@ F&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7697-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7697-00000011"/>&#xD;
 U&#xD;
 V )1&#xD;
 &#xD;
@@ -790,7 +795,7 @@ them, as if I had known them all my life.&#xD;
 &#xD;
 'A&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7697-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7697-00000012"/>&#xD;
 I ~&#xD;
 ii'.&#xD;
 &#xD;
@@ -862,7 +867,7 @@ A&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7697-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7697-00000013"/>&#xD;
 ~1&#xD;
 I&#xD;
 ~&#xD;
@@ -937,7 +942,7 @@ the venue, as a lawyer would say, in time and place, from the;.&#xD;
 3&#xD;
 i&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7697-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7697-00000014"/>&#xD;
 K                                                                                                                -~                                                                 4'-&#xD;
 &#xD;
 'V&#xD;
@@ -1024,7 +1029,7 @@ I&#xD;
 4&#xD;
 L.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7697-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7697-00000015"/>&#xD;
 /&#xD;
 &#xD;
 I&#xD;
@@ -1113,7 +1118,7 @@ and in this manner lie succeeded for a series of months in&#xD;
 keeping those charmers in the delightful state of' anxiety and&#xD;
 humor incident to such occasions. Thus far Jim had been&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7697-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7697-00000016"/>&#xD;
 11&#xD;
 is&#xD;
 ii&#xD;
@@ -1189,7 +1194,7 @@ We were now on the best possible terms with each other.&#xD;
 * Just here I have eliminated a series of chapters not necessary to the&#xD;
 detail of Mr. Clinker's life.                 r. xv.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7697-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7697-00000017"/>&#xD;
 {&#xD;
 &#xD;
 32          Surne Pa.~ages in the L~j~ of&#xD;
@@ -1258,7 +1263,7 @@ which he had been confined on a charge of felony. Poor Betty&#xD;
 returned to her old abode with a broken heart, just as I had&#xD;
 3&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7697-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7697-00000018"/>&#xD;
 Y&#xD;
 &#xD;
 34 Some Passages ~ ~he Life of aeoffrey Clinker.&#xD;
@@ -1313,8 +1318,8 @@ r&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

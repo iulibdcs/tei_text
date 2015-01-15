@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8143">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Juliette Moore, or, Passion and Reality </title>
-            <author >Van Namee, J. William</author>
+            <title>Juliette Moore, or, Passion and Reality </title>
+            <author>Van Namee, J. William</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8143</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8143</idno>
+            <idno type="wright2" n="previous">wright2-2580</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Juliette Moore, or, Passion and reality</title>
-                  <author >Van Namee, J. William</author>
+                  <title>Juliette Moore, or, Passion and reality</title>
+                  <author>Van Namee, J. William</author>
                </titleStmt>
-               <extent >54 p.</extent>
+               <extent>54 p.</extent>
                <publicationStmt>
-                  <publisher >Marsh Dewey</publisher>
+                  <publisher>Marsh Dewey</publisher>
                   <pubPlace>Franklin Mills Ohio </pubPlace>
-                  <date  when="1861">1861</date>
+                  <date when="1861">1861</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-26">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-26">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Juliette Moore, or, Passion and reality</head> 
+            <head>Juliette Moore, or, Passion and reality</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC8143-00000001"/>/&#xD;
+               <pb n=" (Cover) " xml:id="VAC8143-00000001"/>/&#xD;
 &#xD;
 t S&#xD;
 K&#xD;
@@ -113,7 +118,7 @@ IS tUS?&amp;amp;&#xD;
 I&#xD;
 p/i&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC8143-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC8143-00000002"/>&#xD;
 N&#xD;
 &#xD;
 This iutntlugLitenry Monthly is stored with Polite Literatureeoasisting of&#xD;
@@ -151,7 +156,7 @@ V                                    t'i~~&amp;amp;&amp;amp;, Franklin Mills, Oh
 &#xD;
 ,         4'&#xD;
 &#xD;
-<pb  n=" (TitlePage) " xml:id="VAC8143-00000003"/>&#xD;
+<pb n=" (TitlePage) " xml:id="VAC8143-00000003"/>&#xD;
 ~7&#xD;
 I&#xD;
 'I&#xD;
@@ -171,7 +176,7 @@ PUBLISHF~I) AT TIIE~&#xD;
 Office of "Tim  LITERAllY CABEnT," Franklin   ~Ie~&#xD;
 ~7;-~ ~&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8143-00000004"/>&#xD;
+<pb n="0" xml:id="VAC8143-00000004"/>&#xD;
 ~4iA $~&#xD;
 &#xD;
 Entered according to Act of Congress, in the year 1s6o,&#xD;
@@ -191,7 +196,7 @@ NEW HAVEN, CONN.&#xD;
 ~1&#xD;
 ~        /1&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8143-00000005"/>&#xD;
+<pb n="0" xml:id="VAC8143-00000005"/>&#xD;
 0&#xD;
 iO T     EADE1~.&#xD;
 &#xD;
@@ -240,7 +245,7 @@ B&#xD;
 &#xD;
 -I&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8143-00000006"/>&#xD;
+<pb n="0" xml:id="VAC8143-00000006"/>&#xD;
 OIIAPTER L&#xD;
 The Arrival and Death bed Scene.&#xD;
 "Oar God requireth the whole heart or none,&#xD;
@@ -335,7 +340,7 @@ and that little Juliette would some day&#xD;
 &#xD;
 / j&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8143-00000007"/>&#xD;
+<pb n="8-9" xml:id="VAC8143-00000007"/>&#xD;
 J&#xD;
 I'&#xD;
 &#xD;
@@ -433,7 +438,7 @@ you to premise these things before I an unsuccessfi4 effort to apcak, raised&#xD
 die."                              her eyes imploringly towards Heaven,&#xD;
 ej pron~ise," responded the stricken and sank back upon the pillow lifeless.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8143-00000008"/>&#xD;
+<pb n="10-11" xml:id="VAC8143-00000008"/>&#xD;
 u&#xD;
 &#xD;
 ~i.&#xD;
@@ -538,7 +543,7 @@ corner, stood a work stand, the drawer J their masters."&#xD;
 of' which was filled with materials for "Well, well, bress my soul, if dora&#xD;
 sewing, and an elegant dressing case 1narrund folks don't beatali possessed.~~,~~&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8143-00000009"/>&#xD;
+<pb n="12-13" xml:id="VAC8143-00000009"/>&#xD;
 12                    5 LETTER MOORE.&#xD;
 Why missy, ebbery niggar on dis ere holder or not,&#xD;
 plantations is just as happy as he can of conduct. I&#xD;
@@ -722,7 +727,7 @@ incidents. Juliette possessed a violent&#xD;
 &#xD;
 ii&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8143-00000010"/>&#xD;
+<pb n="14-15" xml:id="VAC8143-00000010"/>&#xD;
 14                   JULIETTE MOORE.&#xD;
 temperthoughwhile her mother lived, much of mature dignity of manners, and&#xD;
 few occasions had witnessed an oat whose thoughts and ideas are worthy&#xD;
@@ -821,7 +826,7 @@ nor elegant, but the dwc~ling itself was his home. I know it is adelicate1isin~&
 a Jew, humble looking white cottage.- to ask a stranger to receive one of your'&#xD;
 Atitoss thefrentawidepiuzzastretched, family as guest; and yet Mrs.Grah&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8143-00000011"/>&#xD;
+<pb n="16-17" xml:id="VAC8143-00000011"/>&#xD;
 16'.&#xD;
 &#xD;
 JULIETTE MOORE.&#xD;
@@ -972,7 +977,7 @@ to the girls."&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8143-00000012"/>&#xD;
+<pb n="18-19" xml:id="VAC8143-00000012"/>&#xD;
 18&#xD;
 &#xD;
 3ULIETTI~ MOOUE.&#xD;
@@ -1127,7 +1132,7 @@ i&#xD;
 i&#xD;
 l'&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8143-00000013"/>&#xD;
+<pb n="20-21" xml:id="VAC8143-00000013"/>&#xD;
 20&#xD;
 &#xD;
 JULIETTIE MOORE.&#xD;
@@ -1274,7 +1279,7 @@ widow.&#xD;
 S&#xD;
 some weeks and are      one to yeaoh&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8143-00000014"/>&#xD;
+<pb n="22-23" xml:id="VAC8143-00000014"/>&#xD;
 22                    JUL1IETTJ~ MOORE.&#xD;
 home as soon as possible-they will de- school room, and requested her to do ho,'&#xD;
 lay but little along the way." she threw herself upon the bed and&#xD;
@@ -1378,7 +1383,7 @@ slier desire."                                       ver-apokgise&#xD;
 "What will become of us,'if be does even you, I will-ne      to Mio-&#xD;
 anarry ~ior ~"                      Morriss for what treuispisied this after.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8143-00000015"/>&#xD;
+<pb n="24-25" xml:id="VAC8143-00000015"/>&#xD;
 3ULTETTE MOORE.&#xD;
 &#xD;
 noon. No human power can compel&#xD;
@@ -1473,7 +1478,7 @@ it is best that I go, my uncle supposes&#xD;
 &#xD;
 2A&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8143-00000016"/>&#xD;
+<pb n="26-27" xml:id="VAC8143-00000016"/>&#xD;
 7~LB~T1i1' MO6RK'&#xD;
 seating hoiv powerful glad I ~n to sea you."&#xD;
 ?e~an~e. ~'Yois are ag~o&amp;amp;girl, C~ra. you have'&#xD;
@@ -1550,7 +1555,7 @@ Then add asingMrJ~&amp;amp;oorebe eontii~u hygar, d'~se," au4 Corn ~sat a'spit&a
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8143-00000017"/>&#xD;
+<pb n="28-29" xml:id="VAC8143-00000017"/>&#xD;
 I&#xD;
 &#xD;
 jtjtdAttt ~MOORE.&#xD;
@@ -1617,7 +1622,7 @@ STinw1bitbihda~tthrAb~a~~s4a&#xD;
 attender tells ins that ~s evel( ~ei&#xD;
 twa.":&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8143-00000018"/>&#xD;
+<pb n="30-31" xml:id="VAC8143-00000018"/>&#xD;
 ~flJL1ETTE MOO1Ui~.&#xD;
 nt one end, bex~t over her and closely cx- accompanied by a note of explanation.&#xD;
 mi~iaed her features, and rnuttcre~l~ t~ . 8irn~ris had called at Ashly hail&#xD;
@@ -1701,7 +1706,7 @@ er~z~g herein              here ba~~~dy&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8143-00000019"/>&#xD;
+<pb n="32-33" xml:id="VAC8143-00000019"/>&#xD;
 JUU~TTE QO~F.   _______&#xD;
 &#xD;
 tures, As night uppronehed en noise.&#xD;
@@ -1797,7 +1802,7 @@ her wind bud been poisoned by perni-&#xD;
 cious reading, and she deemed herself&#xD;
 neglected~ and inisutiderateed b~ ail&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8143-00000020"/>&#xD;
+<pb n="34-35" xml:id="VAC8143-00000020"/>&#xD;
 JUL1~1TT1E MOORE.&#xD;
 &#xD;
 sro~nd her. A new and brightei~future grief lingers buta short timeand makes&#xD;
@@ -1941,7 +1946,7 @@ F&#xD;
 i&#xD;
 4&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8143-00000021"/>&#xD;
+<pb n="36-37" xml:id="VAC8143-00000021"/>&#xD;
 ~8                     JULIETq?~Mo~R~,&#xD;
 Iv-&#xD;
 Al) this grandeur of glare and glitter ha~ ifa  I~ in the first place, it seems to&#xD;
@@ -2111,7 +2116,7 @@ ly spol~e Juhiette.&#xD;
 times lift the veil frbin before tb~fisf~it~,&#xD;
 and point out the destiny of tlio~e wI*&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8143-00000022"/>&#xD;
+<pb n="38-39" xml:id="VAC8143-00000022"/>&#xD;
 38.                   JULIEVJ&#xD;
 consult me. give me your han], an&#xD;
 I wi~j toil you what the future has ii&#xD;
@@ -2299,7 +2304,7 @@ their families had rom~nticly elopnd&#xD;
 with their tutors, 'and at last reached&#xD;
 the highest pinacle of happiness' usid&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8143-00000023"/>&#xD;
+<pb n="40-41" xml:id="VAC8143-00000023"/>&#xD;
 ____ JULIETT&#xD;
 worldly success. 8he felt sure that these&#xD;
 b~oks were placed in the hands of Ian-&#xD;
@@ -2445,7 +2450,7 @@ hat runny an enpressioiief endearment. sashes. claraSimOlir, nccerdingt~'&#xD;
 ge(~%ebZ~ mother's taste was dresser1 like a~dan&#xD;
 1doll, in silk, laces, nudlinWatS, hat'~hO&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8143-00000024"/>&#xD;
+<pb n="42-43" xml:id="VAC8143-00000024"/>&#xD;
 JULIETTE MOORI~&#xD;
 4anecd and romped, not caring wheth~ you; I am nqt the cold, the heartless&#xD;
 r she dfsarranged her toilet.oi' not, and being I have seemed. Our new mother&#xD;
@@ -2557,7 +2562,7 @@ aged every overture I ave made~ you ~Ir.~Mocre took ~benote ~nd r~djit~&#xD;
 know it, you feSl it.' tTis true, your his brow contracted and b~~diugitt~~&#xD;
 father would object, for money is, with Juliette, Ito turned and left tIre roeta.-~~&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8143-00000025"/>&#xD;
+<pb n="44-45" xml:id="VAC8143-00000025"/>&#xD;
 MOORE.&#xD;
 'O~neinghastuy over the note, she said: j Henry Graham left the room snJ&#xD;
 even worse than I feared." sought the presence of Mr. M~ore, tcr&#xD;
@@ -2661,7 +2666,7 @@ Aepeudent upon his own ererticils at learniJ~gt~oftni5hhereducahon. It w~o&#xD;
 The north; There were rejoicings and arr~ged that while Walter was in Mit-&#xD;
 £~ptvt~~ at the quarters that night.- for~l~~Olle~Os he shouki board with&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8143-00000026"/>&#xD;
+<pb n="46-47" xml:id="VAC8143-00000026"/>&#xD;
 Mrs. Graham, and ~Ienry and herself ful promenade. The grounds around&#xD;
 wotzl4 accompany him North. Though the building are beautifully laid out.-&#xD;
 E~e felt reluctant to part with her moth.. Winding paths leading to shaded re-&#xD;
@@ -2760,7 +2765,7 @@ I ~&#xD;
 when she heard agentle rap at her door. '&#xD;
 She stepped across the room and open-J "Time is ever on the wing.."&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8143-00000027"/>&#xD;
+<pb n="48-49" xml:id="VAC8143-00000027"/>&#xD;
 48          JIJLIETTE MQGRE.&#xD;
 &#xD;
 Two years qf mingled joy and sorrc&#xD;
@@ -2899,7 +2904,7 @@ hqersniorerdieI~e~e, played 0.AsWy flaP," arid in t~m m~nntbim n&#xD;
 ~weet ~e,~itd then,~rn.~ friendW ~pen ne~we~te be kept&#xD;
 jalBLA# all avaunA liar, she entered: ~ ~ there r4lz&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8143-00000028"/>&#xD;
+<pb n="50-51" xml:id="VAC8143-00000028"/>&#xD;
 ____ &amp;amp;1UL1I~TTB MOOU~.&#xD;
 ~to love one another ~sritIx even a deeper, women with less heart and revereueef4sr&#xD;
 more coafiding affection than nanally truth than brains, I was led to sn~&#xD;
@@ -3076,7 +3081,7 @@ whIch guided that pen is now cold and&#xD;
 &#xD;
 Y&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8143-00000029"/>&#xD;
+<pb n="52-53" xml:id="VAC8143-00000029"/>&#xD;
 JULIETT~ MOORE.&#xD;
 lifeless, and do not curse the one who Tarrowdale-and settled upon me osuna&#xD;
 gavey~tz birth. Your erring mother's sufficient to suppOrt myself atiti ohild&#xD;
@@ -3209,7 +3214,7 @@ I medical attendance was summoned, but&#xD;
 &#xD;
 l 9.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8143-00000030"/>&#xD;
+<pb n="54-55" xml:id="VAC8143-00000030"/>&#xD;
 JULIETTKMOoUE~._ _&#xD;
 Iermiod had so longbeen its clouded the fair, famous state, the rose which&#xD;
 stat~ t~t the pliysioitna gave no hope the South and the West wears on their&#xD;
@@ -3258,7 +3263,7 @@ uj~iis unholyrebelliou; but Keuts~ekjv, and happiness dwells peseefully there.&#
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="56-57 (Advertisement) " xml:id="VAC8143-00000031"/>&#xD;
+<pb n="56-57 (Advertisement) " xml:id="VAC8143-00000031"/>&#xD;
 V                                 ou THE&#xD;
 A O(~LEOT1ON OFTALE~ SKETCHES uad POEMS. By Wn~u ~Wsuu.&#xD;
 Price of itook. $t.oO. 3. Challen &amp;amp; Son, Publishers' Philadelphia, Peun.&#xD;
@@ -3341,7 +3346,7 @@ It is full of delightful fragments of leisure&#xD;
 reading, all of a high toned moral seati-&#xD;
 meat.&#xD;
 &#xD;
-<pb  n="58 (Advertisement) " xml:id="VAC8143-00000032"/>&#xD;
+<pb n="58 (Advertisement) " xml:id="VAC8143-00000032"/>&#xD;
 ha the Fk'ttI ~&#xD;
 &#xD;
 181!? 0?; LffgRAT VR~ F&#xD;
@@ -3360,8 +3365,8 @@ r -&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

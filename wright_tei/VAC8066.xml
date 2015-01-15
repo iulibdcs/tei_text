@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8066">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8066">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >A Daughter of Bohemia </title>
-            <author >Reid, Christian, (1846-1920)</author>
+            <title>A Daughter of Bohemia </title>
+            <author>Reid, Christian, (1846-1920)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8066</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8066</idno>
+            <idno type="wright2" n="previous">wright2-2505</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >A daughter of Bohemia</title>
-                  <author >Reid, Christian, (1846-1920)</author>
+                  <title>A daughter of Bohemia</title>
+                  <author>Reid, Christian, (1846-1920)</author>
                </titleStmt>
-               <extent >222 p. plates </extent>
+               <extent>222 p. plates </extent>
                <publicationStmt>
-                  <publisher >D. Appleton</publisher>
+                  <publisher>D. Appleton</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1874">1874</date>
+                  <date when="1874">1874</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>A daughter of Bohemia</head> 
+            <head>A daughter of Bohemia</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC8066-00000001"/>A&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC8066-00000001"/>A&#xD;
 &#xD;
 .~ '~&#xD;
 Ii ~&#xD;
@@ -116,7 +121,7 @@ D. APPLETON{ AND COMPANY,&#xD;
 549 &amp;amp; 551 BROADWAy.&#xD;
 18'74.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8066-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8066-00000002"/>&#xD;
 A&#xD;
 &#xD;
 DAUGHTER&#xD;
@@ -204,7 +209,7 @@ a friendly countenance to the' em~t~ table,&#xD;
 &#xD;
 T4+44&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8066-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8066-00000003"/>&#xD;
 4                        A UAU~.tL1±J~An 'I&#xD;
 Robert having been right in saying that he&#xD;
 was a sociable man, who did not like to take r&#xD;
@@ -434,7 +439,7 @@ been a very fair and picasant thing to Leslie&#xD;
 Grahame-ahe had not, strictly speaking, been&#xD;
 born to the gifts of fortune which she had&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8066-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8066-00000004"/>&#xD;
 6                        A 'VAUIJfl1~d~&#xD;
 enjoyed. Her eyes had first opened upon a&#xD;
 very different - prospect indeed - the more&#xD;
@@ -667,7 +672,7 @@ doesn't mean to take possession ofyon at once,&#xD;
 &#xD;
 VE DVIIGELLA.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8066-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8066-00000005"/>&#xD;
 8                 A DAUGHTER OF ~OHEMIA.                                               ARTHUR TYNDALE.                   9&#xD;
 &#xD;
 Leslie. He'll spare you to us for some time&#xD;
@@ -894,7 +899,7 @@ itude of birds were singing, while children&#xD;
 )layed and nurses gossiped along the shaded&#xD;
 vaiks, and a stream of pedestrians passed&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8066-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8066-00000006"/>&#xD;
 THE PHOTOGRAPH.                   11&#xD;
 &#xD;
 10                A DAUGHTER OF BOHEMIA.&#xD;
@@ -1124,7 +1129,7 @@ gilt.&#xD;
 "I think the truth is, that you are terribly&#xD;
 bored," she said, after the maid was gone.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8066-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8066-00000007"/>&#xD;
 LESLIE'S SISTER.                    13&#xD;
 &#xD;
 12                A DAUGHTER OF BOHEMIA.&#xD;
@@ -1353,7 +1358,7 @@ you fully and entirely," she interrupted, with&#xD;
 a sincerity which made him wince. But ybu&#xD;
 think of me, Arthur, while I think of Norah&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8066-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8066-00000008"/>&#xD;
 CAPTAIN TYNDALE AND 1115 COUSIN.         15&#xD;
 &#xD;
 14                A DAUGHTER OF BOHEMIAN.&#xD;
@@ -1583,7 +1588,7 @@ you have said-and more besides!"&#xD;
 "Well, acknowledging all this, ask yourself&#xD;
 N&#xD;
 &#xD;
-<pb  n="16 (Illustration) " xml:id="VAC8066-00000009"/>&#xD;
+<pb n="16 (Illustration) " xml:id="VAC8066-00000009"/>&#xD;
 16                A DAUGHTER OF BOHEMIAN.&#xD;
 &#xD;
 ii&#xD;
@@ -1703,7 +1708,7 @@ It had been enough to draw them togeth.&#xD;
 &#xD;
 16&#xD;
 &#xD;
-<pb  n="-17" xml:id="VAC8066-00000010"/>&#xD;
+<pb n="-17" xml:id="VAC8066-00000010"/>&#xD;
 A SERIOUS DIFFICULTY.                    17&#xD;
 &#xD;
 er very warmly when they had met a few&#xD;
@@ -1821,7 +1826,7 @@ here!"&#xD;
 &#xD;
 17&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8066-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC8066-00000011"/>&#xD;
 PROPOSED VISIT TO ROSLAND.               19&#xD;
 &#xD;
 1$                A DAUGhTER OF BOHEMIA.&#xD;
@@ -2047,7 +2052,7 @@ pany us if we were traveling."&#xD;
 Middleton, slowly. She had not thought of&#xD;
 Miss Desmond in connection with their sum-&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8066-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC8066-00000012"/>&#xD;
 MRS. SANDFORD.                        21&#xD;
 &#xD;
 20                A DAUGHTER OF BOHEMIAN.&#xD;
@@ -2278,7 +2283,7 @@ stant to him. "By Jove!" he went on,&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8066-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC8066-00000013"/>&#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
 &#xD;
 A PRETTY PICTURE.&#xD;
@@ -2513,7 +2518,7 @@ S&#xD;
 &#xD;
 23&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8066-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC8066-00000014"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 ARRIVAL OF NORAH DESMOND.&#xD;
@@ -2746,7 +2751,7 @@ e&#xD;
 &#xD;
 25&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8066-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC8066-00000015"/>&#xD;
 26                 A DAUGHTER OF BOHEMIAN.                                               ON THE WAY TO ROSLAND.                 27&#xD;
 &#xD;
 and linen-coated men looked out, with that&#xD;
@@ -2977,7 +2982,7 @@ Bohemians feel. I forgot,~ also, that Kate's&#xD;
 &#xD;
 26&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8066-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC8066-00000016"/>&#xD;
 28                   A DAUGll ~ER OF BOHEMIA.                                                  MRS. MIDDLETON'S SUSPICIONS.                 29&#xD;
 &#xD;
 you. 'Remember that you arc going among&#xD;
@@ -3203,7 +3208,7 @@ sun sent a flood of golden light across the&#xD;
 close-shaven lawn ~o the thick-set hedge be-&#xD;
 yond.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8066-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC8066-00000017"/>&#xD;
 A DAUGHTER OF BOHEMiA.                                             A FAMILY GATHERING.                31&#xD;
 &#xD;
 Leslie reined up Romulus and Remus be.&#xD;
@@ -3428,7 +3433,7 @@ of that fact; and, in the second, that the&#xD;
 habit of years cannot be laid aside in a mo-&#xD;
 ment. I will wager any thing you please,&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8066-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC8066-00000018"/>&#xD;
 32                       A DAUGHTER&#xD;
 however, that her manner will be changed&#xD;
 entirely whcn she comes down to dinner.&#xD;
@@ -3659,7 +3664,7 @@ a general way, on one side or the other, and&#xD;
 unprofitable excitement is bad for digestion.&#xD;
 -..My sympathies are all with the walls of your&#xD;
 &#xD;
-<pb  n="34 (Illustration) " xml:id="VAC8066-00000019"/>&#xD;
+<pb n="34 (Illustration) " xml:id="VAC8066-00000019"/>&#xD;
 34                  A DAUGPLTEII OF BOHEMIA.&#xD;
 &#xD;
 convent, Miss Desmond, and, if Carl becomes&#xD;
@@ -3796,7 +3801,7 @@ p&#xD;
 &#xD;
 34&#xD;
 &#xD;
-<pb  n="-35" xml:id="VAC8066-00000020"/>&#xD;
+<pb n="-35" xml:id="VAC8066-00000020"/>&#xD;
 CARL MIDDLETON.                  3&#xD;
 &#xD;
 that is too weak a word! She is the most&#xD;
@@ -3913,7 +3918,7 @@ ought to have stayed."&#xD;
 &#xD;
 35&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8066-00000021"/>&#xD;
+<pb n="36-37" xml:id="VAC8066-00000021"/>&#xD;
 MISS DESMOND'S MUSICAL TALENT.              37&#xD;
 &#xD;
 86                A DAUGHTER OF BOHEMIAN.&#xD;
@@ -4140,7 +4145,7 @@ leer 1',&#xD;
 after the fashion of a melodramatic heroine?"&#xD;
 "Don't be a fool, Max!"&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8066-00000022"/>&#xD;
+<pb n="38-39" xml:id="VAC8066-00000022"/>&#xD;
 38                A DAUGHTER OF BOHEMIAN.                                                AN AWKWA&#xD;
 &#xD;
 "Then, in the name of common-sense,&#xD;
@@ -4371,7 +4376,7 @@ of his first love. How much aghast he would&#xD;
 be if sentenced to pass his lif'e with the wom-&#xD;
 an lie loved at twenty I-and I am afraid I&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8066-00000023"/>&#xD;
+<pb n="40-41" xml:id="VAC8066-00000023"/>&#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
 &#xD;
 FIRST IMPRESSIONS.&#xD;
@@ -4606,7 +4611,7 @@ to think of him at all."&#xD;
 &#xD;
 41)&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8066-00000024"/>&#xD;
+<pb n="42-43" xml:id="VAC8066-00000024"/>&#xD;
 42&#xD;
 &#xD;
 A DAUGHTER OF BOIIIIMIA.&#xD;
@@ -4838,7 +4843,7 @@ you long." different rejoinder.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="44 (Illustration) " xml:id="VAC8066-00000025"/>&#xD;
+<pb n="44 (Illustration) " xml:id="VAC8066-00000025"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 "I doubt if you understand me at all," he&#xD;
@@ -4985,7 +4990,7 @@ a.'&#xD;
 e&#xD;
 0&#xD;
 &#xD;
-<pb  n="-45" xml:id="VAC8066-00000026"/>&#xD;
+<pb n="-45" xml:id="VAC8066-00000026"/>&#xD;
 I&#xD;
 &#xD;
 moment ; " as strangers ever hereafter we&#xD;
@@ -5104,7 +5109,7 @@ AN INOPPORTUNE APPEARANCE.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8066-00000027"/>&#xD;
+<pb n="46-47" xml:id="VAC8066-00000027"/>&#xD;
 46                A DAUGHTER OF BOHEMIAN.                                           CARL MIDDLETON'S PROPOSAL.             47&#xD;
 &#xD;
 was awfully thoughtless of me not to have&#xD;
@@ -5333,7 +5338,7 @@ fore. The straight lines between his brows&#xD;
 &#xD;
 46&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8066-00000028"/>&#xD;
+<pb n="48-49" xml:id="VAC8066-00000028"/>&#xD;
 48                A DAUGhTER OF BOHEMIA.                                              A DISCOURAGED SUITOR.&#xD;
 &#xD;
 had deepened; the volatile, laughter-loving&#xD;
@@ -5561,7 +5566,7 @@ pride with her, indeed, that she had a very&#xD;
 effective way of dissipating any thing like&#xD;
 constraint when she chose to do so. With&#xD;
 &#xD;
-<pb  n="50" xml:id="VAC8066-00000029"/>&#xD;
+<pb n="50" xml:id="VAC8066-00000029"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 Middleton she did choose, and, before they&#xD;
@@ -5676,7 +5681,7 @@ very hard on the poor fellow! Why couldn't&#xD;
 his father have stayed at home, or else gone&#xD;
 to Germany?"&#xD;
 &#xD;
-<pb  n="Illustration-51" xml:id="VAC8066-00000030"/>&#xD;
+<pb n="Illustration-51" xml:id="VAC8066-00000030"/>&#xD;
 ARTIItTR'S ELAN OF DECEPTION.&#xD;
 &#xD;
 "I am afraid we shall have another France-&#xD;
@@ -5791,7 +5796,7 @@ that you were the man-and, somehow, I&#xD;
 &#xD;
 51&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8066-00000031"/>&#xD;
+<pb n="52-53" xml:id="VAC8066-00000031"/>&#xD;
 TIlE CAPTAIN'S OPINION.                   53&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
@@ -6020,7 +6025,7 @@ I.do not feel inclined to remind him of the&#xD;
 fact that there is any number of other wom-&#xD;
 en in the world, multitudes of whom are pret-&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8066-00000032"/>&#xD;
+<pb n="54-55" xml:id="VAC8066-00000032"/>&#xD;
 54               A DAUGHTER OF BOHEMIA.                                      NORAR'S SURPRISE AND INDIGNATION.      56&#xD;
 &#xD;
 tier, and cleverer, and more desirable in every&#xD;
@@ -6243,7 +6248,7 @@ I saw it first. Poetically it does very well&#xD;
 indeed."&#xD;
 "Young Germany, you see, quite excludes&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8066-00000033"/>&#xD;
+<pb n="56-57" xml:id="VAC8066-00000033"/>&#xD;
 56                       A DAUGHTER&#xD;
 the idea of God (save in poetry) from the af-&#xD;
 fairs of nations," said Leslie.&#xD;
@@ -6473,7 +6478,7 @@ to go no further than that. "You are play-&#xD;
 ing a bolder game than I thought, monsieur,"&#xD;
 she said, then, contemptuously. "You will&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8066-00000034"/>&#xD;
+<pb n="58-59" xml:id="VAC8066-00000034"/>&#xD;
 A HOPELESS EMISSION&#xD;
 &#xD;
 68                 A DAUGHTER OF BOHEMIAN~&#xD;
@@ -6701,7 +6706,7 @@ nantly~&#xD;
 thought it."&#xD;
 "Pardon me, I have done nothing of the&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8066-00000035"/>&#xD;
+<pb n="60-61" xml:id="VAC8066-00000035"/>&#xD;
 60                 A DAUGHTER OF BOHEMIA.                                          NORAH ON HER BEST BEHAVIOR              61&#xD;
 &#xD;
 kind. On the contrary, I think there is no&#xD;
@@ -6919,7 +6924,7 @@ you of that fact yesterday, and you may be&#xD;
 sure that I should not have done so if it had&#xD;
 not been true. Polite fiction is a branchof&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8066-00000036"/>&#xD;
+<pb n="62-63" xml:id="VAC8066-00000036"/>&#xD;
 A DAUGBTBR OF BOHEMIA.&#xD;
 &#xD;
 AT BREAKFAST.&#xD;
@@ -7155,7 +7160,7 @@ I&#xD;
 &#xD;
 63&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8066-00000037"/>&#xD;
+<pb n="64-65" xml:id="VAC8066-00000037"/>&#xD;
 04                A DAUGHTER OF BOHEMIA.                                                A. TROPICAL STORM.                 65&#xD;
 &#xD;
 Then, as the two girls returned to the&#xD;
@@ -7384,7 +7389,7 @@ stant a flash of lightning, like a solid sheet&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="66 (Illustration) " xml:id="VAC8066-00000038"/>&#xD;
+<pb n="66 (Illustration) " xml:id="VAC8066-00000038"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 of flame, seemed to fill the room, paling into&#xD;
@@ -7523,7 +7528,7 @@ C&#xD;
 S&#xD;
 'a&#xD;
 &#xD;
-<pb  n="-67" xml:id="VAC8066-00000039"/>&#xD;
+<pb n="-67" xml:id="VAC8066-00000039"/>&#xD;
 NORAH'S LETTER TO KATE.&#xD;
 &#xD;
 07&#xD;
@@ -7646,7 +7651,7 @@ parent diplomatist, however, and I do not&#xD;
 think will be likely to discover very much.&#xD;
 In a small way, he is something of a puzzle&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8066-00000040"/>&#xD;
+<pb n="68-69" xml:id="VAC8066-00000040"/>&#xD;
 68                A DAUGHTER OF BOHEMIAN.                                                IN THE SUMMER-HOUSE.                 09&#xD;
 &#xD;
 to me. Yesterday evening I changed my&#xD;
@@ -7872,7 +7877,7 @@ Oh! I have an idea! You intend 'to sit&#xD;
 down, I imagine. Well, suppose you sit on&#xD;
 tkal? It will help to.keep it firm."&#xD;
 &#xD;
-<pb  n="70" xml:id="VAC8066-00000041"/>&#xD;
+<pb n="70" xml:id="VAC8066-00000041"/>&#xD;
 ~70&#xD;
 &#xD;
 A DATJOHTER OF BOHEMIA.&#xD;
@@ -7993,7 +7998,7 @@ I&#xD;
 &#xD;
 1-&#xD;
 &#xD;
-<pb  n="Illustration-71" xml:id="VAC8066-00000042"/>&#xD;
+<pb n="Illustration-71" xml:id="VAC8066-00000042"/>&#xD;
 MAX TYNDALE'S MOTIVES.&#xD;
 &#xD;
 .1&#xD;
@@ -8122,7 +8127,7 @@ things are not the same, you knew, and many&#xD;
 men who arethe ~rst are not the last."&#xD;
 "Thanks," said he, sailing "I consider&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8066-00000043"/>&#xD;
+<pb n="72-73" xml:id="VAC8066-00000043"/>&#xD;
 72                A DAUGHTER OF BOHEMIAN.                                       MRS. SANDEORD'S ADMiRATION OF NORAH.       73&#xD;
 &#xD;
 that as an aniende honorable for being called&#xD;
@@ -8349,7 +8354,7 @@ changed the subject-paying and receiving&#xD;
 compliments being very little to her taste.&#xD;
 "Come and tell me if you do not think this&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8066-00000044"/>&#xD;
+<pb n="74-75" xml:id="VAC8066-00000044"/>&#xD;
 74                 A DAUC~HTER OF~ BOHEMIA.                                              THE TYNDALES' HOME.&#xD;
 &#xD;
 vase iS well arranged," she said, "and look&#xD;
@@ -8578,7 +8583,7 @@ where Mrs. Sandford went into a rapture of&#xD;
 &#xD;
 b&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8066-00000045"/>&#xD;
+<pb n="76-77" xml:id="VAC8066-00000045"/>&#xD;
 A FISHING EXCURSION .&#xD;
 &#xD;
 76                A DAUGHTER OF BOHEMIAN.&#xD;
@@ -8807,7 +8812,7 @@ asked she, haughtily. "But, then, people-&#xD;
 who soliloquize in the open air must expect&#xD;
 eavesdroppers, I suppose. It seems to me,&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8066-00000046"/>&#xD;
+<pb n="78-79" xml:id="VAC8066-00000046"/>&#xD;
 A DAUGHTIIIR O1~' BOHEMIA.                                              ON THE LAKE.                     79&#xD;
 &#xD;
 Captaitt Tyndale," she added, in a different&#xD;
@@ -9034,7 +9039,7 @@ the perfection of ib-.---to float dreamily along&#xD;
 us a boat is even more suggestive of repose&#xD;
 on such a day and under such a sky as this,&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8066-00000047"/>&#xD;
+<pb n="80-81" xml:id="VAC8066-00000047"/>&#xD;
 A DAUGHTER OF BOHEMIAN.                                            A MANY-SIDED CHARACTER.              81&#xD;
 &#xD;
 than to lie on the grass under the shadow&#xD;
@@ -9264,7 +9269,7 @@ or seeming to play, a part which degrades me!"&#xD;
 &#xD;
 p.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8066-00000048"/>&#xD;
+<pb n="82-83" xml:id="VAC8066-00000048"/>&#xD;
 4&#xD;
 &#xD;
 82                       A DAUGHTER&#xD;
@@ -9496,7 +9501,7 @@ that she is engaged to Arthur Tyndale simply&#xD;
 because she loves him; and I, who came here&#xD;
 ,with a heart as hard against her as the nether&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8066-00000049"/>&#xD;
+<pb n="84-85" xml:id="VAC8066-00000049"/>&#xD;
 84               A DAUGHTER OF BOHEMIAN.                                           MRS. SANDFORD'S INDIGNATION.          85&#xD;
 &#xD;
 millstone, have learned already to hesitate&#xD;
@@ -9722,7 +9727,7 @@ know that women can see through them I"&#xD;
 amiability and kind judgment they can expect&#xD;
 from women!" said Carl, with a flash, net of&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8066-00000050"/>&#xD;
+<pb n="86-87" xml:id="VAC8066-00000050"/>&#xD;
 86                 A DAUGHTER OF BOHEMIA.                                               CARL IN A JEALOUS HUMOR.               87&#xD;
 &#xD;
 laughter, in his eyes) while his brow knitted&#xD;
@@ -9950,7 +9955,7 @@ ure," he said, "but really I was not prepared&#xD;
 &#xD;
 87&#xD;
 &#xD;
-<pb  n="88" xml:id="VAC8066-00000051"/>&#xD;
+<pb n="88" xml:id="VAC8066-00000051"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 for such an unmitigated bore as it has "Now, that life always had the greatest pea.&#xD;
@@ -10066,7 +10071,7 @@ a flower-garden?" said he, with a thrill of&#xD;
 &#xD;
 88&#xD;
 &#xD;
-<pb  n="Illustration-89" xml:id="VAC8066-00000052"/>&#xD;
+<pb n="Illustration-89" xml:id="VAC8066-00000052"/>&#xD;
 A PRIVATE INTERVIEW.&#xD;
 &#xD;
 K&#xD;
@@ -10204,7 +10209,7 @@ hind them-if they had glanced around, they&#xD;
 might have seen a shadow which advanced,&#xD;
 hesitated, then quickly retreated&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8066-00000053"/>&#xD;
+<pb n="90-91" xml:id="VAC8066-00000053"/>&#xD;
 90                A DAUGHTER OF BOHEMIAN.                                         ARTHUR'S UNHAPPY POSITION.             91&#xD;
 &#xD;
 "Again I say that you must tell me ex-&#xD;
@@ -10428,7 +10433,7 @@ ba4 not appeared.&#xD;
 Arthur thought, impatiently.&#xD;
 Just then a fresher breeze than 4ny which,&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8066-00000054"/>&#xD;
+<pb n="92-93" xml:id="VAC8066-00000054"/>&#xD;
 92                 A DAUGHTER OF BOHEMIAN.                                              THE CAPTAIN'S REPORT.               93&#xD;
 &#xD;
 had gone before swept into the room, waving&#xD;
@@ -10655,7 +10660,7 @@ to remain entirelrat her mercy?"&#xD;
 "I am afraid it is not ~pfuch more than&#xD;
 that," said Captain Tyndale, gravely.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8066-00000055"/>&#xD;
+<pb n="94-95" xml:id="VAC8066-00000055"/>&#xD;
 j~4                A DAUGHTER OF BOHEMIA.                                            SUSPICIONS OF TREACHERY.             95&#xD;
 &#xD;
 "By Heaven, I will not endure it 1" said&#xD;
@@ -10879,7 +10884,7 @@ laughing-~-.he showed his French breeding in&#xD;
 always saying "madame," instead of our&#xD;
 curt English '~ madam" ~"that a soldier&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8066-00000056"/>&#xD;
+<pb n="96-97" xml:id="VAC8066-00000056"/>&#xD;
 96                 A DAUGHTER OF BOHEMIAN.                                                  THE LOST BRACELET.                   97&#xD;
 &#xD;
 never carries an umbrella. He would rather&#xD;
@@ -11106,7 +11111,7 @@ should go in search of it.&#xD;
 that I did not find it; I am sure that I never&#xD;
 laid a wager0 that I did not win it, nor sat&#xD;
 &#xD;
-<pb  n="98 (Illustration) " xml:id="VAC8066-00000057"/>&#xD;
+<pb n="98 (Illustration) " xml:id="VAC8066-00000057"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 down to a gaming-table without rising suc-&#xD;
@@ -11253,7 +11258,7 @@ I&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="-99" xml:id="VAC8066-00000058"/>&#xD;
+<pb n="-99" xml:id="VAC8066-00000058"/>&#xD;
 I&#xD;
 &#xD;
 99&#xD;
@@ -11376,7 +11381,7 @@ little !" said Max, bitterly.&#xD;
 &#xD;
 EAVESDROPPING.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8066-00000059"/>&#xD;
+<pb n="100-101" xml:id="VAC8066-00000059"/>&#xD;
 100                 A DAUGhTER OF BOHEMIAN.                                                       A CROQUET-PARTY:                    101&#xD;
 &#xD;
 "But, of course, Leslie world not feel&#xD;
@@ -11603,7 +11608,7 @@ merit of novelty to me," said Carl. "1 have&#xD;
 heard of the game very often, but I have never&#xD;
 seen it."&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8066-00000060"/>&#xD;
+<pb n="102-103" xml:id="VAC8066-00000060"/>&#xD;
 102                A IPAUGHTER OF BOHEMIA.                                                     MISCHIEF-MAKING.                   103&#xD;
 &#xD;
 "Never seen it!"&#xD;
@@ -11829,7 +11834,7 @@ plainly!" But she was a woman of sufficient&#xD;
 worldly experience to know that such an im-&#xD;
 pulse was not a wise one. To bid some pee-&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8066-00000061"/>&#xD;
+<pb n="104-105" xml:id="VAC8066-00000061"/>&#xD;
 104                      A DAI~TGHTER&#xD;
 ple speak plainly is simply to offer them a&#xD;
 premium for further innuendo and mystery.&#xD;
@@ -11996,7 +12001,7 @@ that absolutely startled her, and made her lana in it.&#xD;
 cry "Eureka!" to herself. With Lealie-they "How stupid we are!" said Mrs. Sand.&#xD;
 deepened the vague sense of suspicion which ford after a while, with a candid yawn. "Can't&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8066-00000062"/>&#xD;
+<pb n="106-107" xml:id="VAC8066-00000062"/>&#xD;
 AN UNFORTUNATE ACCIDENT.             107&#xD;
 &#xD;
 106               A DAUGHTER OF BOHEMIA.&#xD;
@@ -12225,7 +12230,7 @@ ford. His repentance would have been still&#xD;
 deeper if he had known that Leslie was stand-&#xD;
 ing at his elbow when he uttered them.&#xD;
 &#xD;
-<pb  n="108" xml:id="VAC8066-00000063"/>&#xD;
+<pb n="108" xml:id="VAC8066-00000063"/>&#xD;
 108               A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 Let no one condemn Carl for absolute want&#xD;
@@ -12342,7 +12347,7 @@ meditation) that little scene at the piano-all&#xD;
 &#xD;
 108&#xD;
 &#xD;
-<pb  n="Illustration-109" xml:id="VAC8066-00000064"/>&#xD;
+<pb n="Illustration-109" xml:id="VAC8066-00000064"/>&#xD;
 EARLY RISING.&#xD;
 &#xD;
 night he had taken an active part, as counsel&#xD;
@@ -12464,7 +12469,7 @@ KU&#xD;
 &#xD;
 I'&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8066-00000065"/>&#xD;
+<pb n="110-111" xml:id="VAC8066-00000065"/>&#xD;
 110                 A DAUCLITER OF BOHEMIA.                                              A BUSINESS APPOINTMENT.                111&#xD;
 &#xD;
 Just then, probably, he was a particularly&#xD;
@@ -12690,7 +12695,7 @@ of relaxation, the smoother of his pillow of&#xD;
 &#xD;
 111&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8066-00000066"/>&#xD;
+<pb n="112-113" xml:id="VAC8066-00000066"/>&#xD;
 112               A DAUGHTJIR OF BOHEMIAN.                                            ARTHUR'S INCONSTANCY.              113&#xD;
 &#xD;
 cares, has regarded him with steady, level&#xD;
@@ -12918,7 +12923,7 @@ contrast to the passionate eagerness of his-&#xD;
 "since you are not likely to possess the&#xD;
 option of being miserable with me! I fear,&#xD;
 &#xD;
-<pb  n="114" xml:id="VAC8066-00000067"/>&#xD;
+<pb n="114" xml:id="VAC8066-00000067"/>&#xD;
 A DAUGHTER 01? BOHEMIA.&#xD;
 &#xD;
 on the contrary, that yon will find yourself&#xD;
@@ -13035,7 +13040,7 @@ he felt more thoroughly puzzled how to&#xD;
 &#xD;
 114&#xD;
 &#xD;
-<pb  n="Illustration-115" xml:id="VAC8066-00000068"/>&#xD;
+<pb n="Illustration-115" xml:id="VAC8066-00000068"/>&#xD;
 A PROPOSED ELOPEMENT.                   115&#xD;
 &#xD;
 ~' take" her. Was she in earnest, or was&#xD;
@@ -13161,7 +13166,7 @@ I-&#xD;
 &#xD;
 115&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8066-00000069"/>&#xD;
+<pb n="116-117" xml:id="VAC8066-00000069"/>&#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
 &#xD;
 vants had arisen in the interval of her ab-&#xD;
@@ -13389,7 +13394,7 @@ hand imperatively, as he attempted to speak&#xD;
 -" hear me out. We may serve each other's&#xD;
 interests better than you think-at least I&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8066-00000070"/>&#xD;
+<pb n="118-119" xml:id="VAC8066-00000070"/>&#xD;
 118                      A DAUGIITEIl&#xD;
 may serve your interests. What wilJ you&#xD;
 give i~e, for example, to accept an offer of&#xD;
@@ -13619,7 +13624,7 @@ lar quandary," she said. "One could not put&#xD;
 up one's bars, on account of the mosqultoies,&#xD;
 nor keep them down on account of the heat.&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8066-00000071"/>&#xD;
+<pb n="120-121" xml:id="VAC8066-00000071"/>&#xD;
 120&#xD;
 &#xD;
 A DAU~IHTER OF BOHEMIA.&#xD;
@@ -13851,7 +13856,7 @@ did not say, as he had done once before, that&#xD;
 he knew she was. Besides being desperate&#xD;
 and passionate, his eyes were just then full&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8066-00000072"/>&#xD;
+<pb n="122-123" xml:id="VAC8066-00000072"/>&#xD;
 122&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
@@ -14080,7 +14085,7 @@ rah's supreme self-possession too well to deny&#xD;
 this telling point.&#xD;
 "Besides," said Mrs. Middleton, "I&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8066-00000073"/>&#xD;
+<pb n="124-125" xml:id="VAC8066-00000073"/>&#xD;
 124:               A DAUGHTER OF BOHEMIA.                                                     THE TWO SISTERS.                   125&#xD;
 &#xD;
 asked Robert, whom I met a moment later,&#xD;
@@ -14307,7 +14312,7 @@ effort to the contrary any one ever made-ex-&#xD;
 cept Kate-Kate, who has been an augel ever&#xD;
 since she was born! That is a queer thing&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8066-00000074"/>&#xD;
+<pb n="126-127" xml:id="VAC8066-00000074"/>&#xD;
 126                      A DAUGHTER&#xD;
 to say of the daughter of a Bohemian adven-&#xD;
 turer, is it Dot? But, then, she comes of&#xD;
@@ -14539,7 +14544,7 @@ If-if you kmiow any thing which I ought to&#xD;
 hear, for Heaven's sate tell me what it&#xD;
 is!"&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8066-00000075"/>&#xD;
+<pb n="128-129" xml:id="VAC8066-00000075"/>&#xD;
 But Norab had already said more than&#xD;
 she intended, and now-bound in the fetters&#xD;
 of her promise to Max-she found herself in-&#xD;
@@ -14771,7 +14776,7 @@ put into her pocket. "It may serve to com-&#xD;
 pare with some of her writing," she thought,&#xD;
 from which it will be perceived that Mrs.&#xD;
 &#xD;
-<pb  n="130 (Illustration) " xml:id="VAC8066-00000076"/>&#xD;
+<pb n="130 (Illustration) " xml:id="VAC8066-00000076"/>&#xD;
 130                  A DAUGHTER OF BOH1~ML~~.&#xD;
 &#xD;
 Sandford was in training for a very excellent&#xD;
@@ -14896,7 +14901,7 @@ I-&#xD;
 &#xD;
 130&#xD;
 &#xD;
-<pb  n="-131" xml:id="VAC8066-00000077"/>&#xD;
+<pb n="-131" xml:id="VAC8066-00000077"/>&#xD;
 NORIAH AND THE WIDOW-               13&#xD;
 &#xD;
 U&#xD;
@@ -14963,7 +14968,7 @@ r when he would be back, the servants re- lute tenderness over the recollection 
 borted. Questioned respecting the time which lie's wasted love and abused faith.&#xD;
 iad elapsed since he left, they agreed in af- The latter consideration brought his mind&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8066-00000078"/>&#xD;
+<pb n="132-133" xml:id="VAC8066-00000078"/>&#xD;
 132                A DAUGHTER OF BOHEMIAN.&#xD;
 &#xD;
 back to Norah's recommendation of the morn-&#xD;
@@ -15195,7 +15200,7 @@ whole life. Arthur's impressions are so&#xD;
 evanescent that, when Miss Desmond goes&#xD;
 away, he will most likely return to his alle.&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8066-00000079"/>&#xD;
+<pb n="134-135" xml:id="VAC8066-00000079"/>&#xD;
 I&#xD;
 &#xD;
 134&#xD;
@@ -15432,7 +15437,7 @@ He looked restless instead of dull, and Max&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8066-00000080"/>&#xD;
+<pb n="136-137" xml:id="VAC8066-00000080"/>&#xD;
 136                 '    A 'DAUGHTER&#xD;
 encountered more than one glance expressive&#xD;
 of any thing but amiability leveled at him-&#xD;
@@ -15662,7 +15667,7 @@ LESLIE. AND CAPTAIN TYNDALE.&#xD;
 &#xD;
 137&#xD;
 &#xD;
-<pb  n="138" xml:id="VAC8066-00000081"/>&#xD;
+<pb n="138" xml:id="VAC8066-00000081"/>&#xD;
 r&#xD;
 &#xD;
 138               A DAUGHTER OF BOHE~IIA.                      I&#xD;
@@ -15779,7 +15784,7 @@ and most generous person in the world to&#xD;
 talkac!"&#xD;
 "I really do not see what my appreciation&#xD;
 &#xD;
-<pb  n="Illustration-139" xml:id="VAC8066-00000082"/>&#xD;
+<pb n="Illustration-139" xml:id="VAC8066-00000082"/>&#xD;
 N&#xD;
 &#xD;
 17nrFffl~rllrrn~&#xD;
@@ -15921,7 +15926,7 @@ long before you will be sorry for not having&#xD;
 listened to me, Leslie!"&#xD;
 "I shall never be sorry for not having&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8066-00000083"/>&#xD;
+<pb n="140-141" xml:id="VAC8066-00000083"/>&#xD;
 140                A DAUGHTER OF BOHEMIAN.                                                    MORAL COWARDICE.                  141&#xD;
 &#xD;
 listened to anybody who dares not, or will&#xD;
@@ -16151,7 +16156,7 @@ either tell Leslie the truth, in order that she&#xD;
 may be able to take the initiative step in&#xD;
 breaking the engagement, or I must comply&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8066-00000084"/>&#xD;
+<pb n="142-143" xml:id="VAC8066-00000084"/>&#xD;
 142&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
@@ -16388,7 +16393,7 @@ tions.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8066-00000085"/>&#xD;
+<pb n="144-145" xml:id="VAC8066-00000085"/>&#xD;
 144                      A DAUGHTER&#xD;
 "I am often very absent - minded," said&#xD;
 Max, who saw the suspicion, but had sense&#xD;
@@ -16622,7 +16627,7 @@ day that she 'adored' Owen Meredith. I&#xD;
 took it for granted that she meant his po-&#xD;
 etry."&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8066-00000086"/>&#xD;
+<pb n="146-147" xml:id="VAC8066-00000086"/>&#xD;
 .146                      A DAUGHTER&#xD;
 Qbserving the precept of charity after&#xD;
 this admirable fashion, their conversation&#xD;
@@ -16854,7 +16859,7 @@ here ranch langar."&#xD;
 glancing at his watch.. "I can certainly drir.&#xD;
 to Wexford in forty minutes."&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8066-00000087"/>&#xD;
+<pb n="148-149" xml:id="VAC8066-00000087"/>&#xD;
 148&#xD;
 &#xD;
 A DAUGItTER OF BOHEMIA.&#xD;
@@ -17088,7 +17093,7 @@ ness as he could aSsume. "I don't think he&#xD;
 has been exactly-very well to-day."&#xD;
 "Has he not?" asked Leslie. Her eyes&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8066-00000088"/>&#xD;
+<pb n="150-151" xml:id="VAC8066-00000088"/>&#xD;
 \jy$&#xD;
 &#xD;
 150~&#xD;
@@ -17321,7 +17326,7 @@ sister unbroken, and-"&#xD;
 "And what' else? '~ asked Arthur, break-&#xD;
 ing in suddenly with a derisive langh "Pray,&#xD;
 &#xD;
-<pb  n="152 (Illustration) " xml:id="VAC8066-00000089"/>&#xD;
+<pb n="152 (Illustration) " xml:id="VAC8066-00000089"/>&#xD;
 152               A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 what power does Miss Desmond imagine that&#xD;
@@ -17450,7 +17455,7 @@ N&#xD;
 -l&#xD;
 U&#xD;
 &#xD;
-<pb  n="-153" xml:id="VAC8066-00000090"/>&#xD;
+<pb n="-153" xml:id="VAC8066-00000090"/>&#xD;
 ARTHUR INSULTED.                    163&#xD;
 &#xD;
 It is likely that he feared summary ejection;&#xD;
@@ -17566,7 +17571,7 @@ a truculent, drunkeil air to. the tall, flaring&#xD;
 &#xD;
 153&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8066-00000091"/>&#xD;
+<pb n="154-155" xml:id="VAC8066-00000091"/>&#xD;
 154&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
@@ -17797,7 +17802,7 @@ white throat, as the flower-like head was&#xD;
 threwxi baeh. A floecir shawl was dza~ed&#xD;
 around her shouldeni, but its effect only&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8066-00000092"/>&#xD;
+<pb n="156-157" xml:id="VAC8066-00000092"/>&#xD;
 156                      A DAUGhTER&#xD;
 heightened her loveliness. The young man&#xD;
 caught his breath, Impassive though he was,&#xD;
@@ -18029,7 +18034,7 @@ Miss Desmond, I will soon see-"&#xD;
 &#xD;
 OF BOHEMIA.&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8066-00000093"/>&#xD;
+<pb n="158-159" xml:id="VAC8066-00000093"/>&#xD;
 158&#xD;
 &#xD;
 A DAUGHTER OF BOHEMiA.&#xD;
@@ -18260,7 +18265,7 @@ llgureund passed so lightly and swiftly across&#xD;
 the mootilit award that he saw in a mo~nent&#xD;
 it was hopeless to follow her.&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8066-00000094"/>&#xD;
+<pb n="160-161" xml:id="VAC8066-00000094"/>&#xD;
 100                      A DAUGHTER&#xD;
 CHAPTER XXVII.&#xD;
 "There are sorrows&#xD;
@@ -18491,7 +18496,7 @@ I knew they might deny every thing. Last&#xD;
 &#xD;
 OF BOHEMIA.&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8066-00000095"/>&#xD;
+<pb n="162-163" xml:id="VAC8066-00000095"/>&#xD;
 w&#xD;
 162                      A DAUGHTER&#xD;
 night I SSW Mr. Tyndale give Miss Dearnond a&#xD;
@@ -18728,7 +18733,7 @@ rab's meeting with Arthur, Arthur's pretend-&#xD;
 &#xD;
 i'~6'~ ,~ I&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8066-00000096"/>&#xD;
+<pb n="164-165" xml:id="VAC8066-00000096"/>&#xD;
 164&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
@@ -18960,7 +18965,7 @@ years ago."&#xD;
 passionate indigpation-but here her voice&#xD;
 choked and broke down.&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8066-00000097"/>&#xD;
+<pb n="166-167" xml:id="VAC8066-00000097"/>&#xD;
 166                      A DA~IGflTEIl&#xD;
 After all, some things are too great for&#xD;
 speech. Her agony of ruined love and slat-&#xD;
@@ -19193,7 +19198,7 @@ OF BOHEMIA-&#xD;
 &#xD;
 167&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8066-00000098"/>&#xD;
+<pb n="168-169" xml:id="VAC8066-00000098"/>&#xD;
 168                      A DAUGHTER&#xD;
 and who was willing to throw a little of his&#xD;
 sunshine on the lives of those around him.&#xD;
@@ -19427,7 +19432,7 @@ you can, and tell Robert that you want to see&#xD;
 &#xD;
 169&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8066-00000099"/>&#xD;
+<pb n="170-171" xml:id="VAC8066-00000099"/>&#xD;
 170               A DAUGHTER OF BOflEMIA.&#xD;
 &#xD;
 Mr. Middleton-say that you have a message&#xD;
@@ -19658,7 +19663,7 @@ A PROBABLE MURDER.                   171&#xD;
 &#xD;
 171&#xD;
 &#xD;
-<pb  n="172 (Illustration) " xml:id="VAC8066-00000100"/>&#xD;
+<pb n="172 (Illustration) " xml:id="VAC8066-00000100"/>&#xD;
 172&#xD;
 &#xD;
 A DAUGHTEI~ OF BOHEMIAN.&#xD;
@@ -19789,7 +19794,7 @@ A&#xD;
 0&#xD;
 U&#xD;
 &#xD;
-<pb  n="-173" xml:id="VAC8066-00000101"/>&#xD;
+<pb n="-173" xml:id="VAC8066-00000101"/>&#xD;
 t&#xD;
 &#xD;
 A BEARER 0]&#xD;
@@ -19909,7 +19914,7 @@ more clearly, able to understand all that it&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8066-00000102"/>&#xD;
+<pb n="174-175" xml:id="VAC8066-00000102"/>&#xD;
 1741:             A DAUGHTER OF BOHEMIA.                                            A WEARY NIGHT.                  1~5&#xD;
 &#xD;
 isrroived~ and all that must. flow from it-es-&#xD;
@@ -20140,7 +20145,7 @@ pass. As she stood before her mirror, lan-&#xD;
 &#xD;
 174&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8066-00000103"/>&#xD;
+<pb n="176-177" xml:id="VAC8066-00000103"/>&#xD;
 17~6&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
@@ -20377,7 +20382,7 @@ felt what those words implied.&#xD;
 as that? Great Heaven, girl! do you mean to&#xD;
 tell me that Ehere is no doubt?"&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8066-00000104"/>&#xD;
+<pb n="178-179" xml:id="VAC8066-00000104"/>&#xD;
 178                      A DAUGHTER&#xD;
 "I don't think there's any doubt, miss,"&#xD;
 answered Maria-awed and almost frightened&#xD;
@@ -20611,7 +20616,7 @@ after all that' she (Mrs. Sandford) had told&#xD;
 her the night before, was inexplicable. "Shall&#xD;
 I go at once?" Norah added, turning and&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8066-00000105"/>&#xD;
+<pb n="180-181" xml:id="VAC8066-00000105"/>&#xD;
 180                       A DAUGhTER&#xD;
 placing one foot on the lower step of the&#xD;
 staircase.&#xD;
@@ -20840,7 +20845,7 @@ OF BOHEMIA.&#xD;
 &#xD;
 181&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8066-00000106"/>&#xD;
+<pb n="182-183" xml:id="VAC8066-00000106"/>&#xD;
 182               A DAUGHTER OF BOHEMIA.                                                     THE VERDICT.                   183&#xD;
 &#xD;
 Leslie, simply. "I onlythought that, if you&#xD;
@@ -21071,7 +21076,7 @@ THE VERDICT.&#xD;
 &#xD;
 183&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8066-00000107"/>&#xD;
+<pb n="184-185" xml:id="VAC8066-00000107"/>&#xD;
 184                      A DAUGHTER&#xD;
 aetly prudent. Iii fact, he was not only&#xD;
 wretched-..full of a grief which can scarcely&#xD;
@@ -21303,7 +21308,7 @@ OF BOHEMIA.                                                    A SENSE OF DUTY. 
 &#xD;
 , OF BOBEMIA.&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8066-00000108"/>&#xD;
+<pb n="186-187" xml:id="VAC8066-00000108"/>&#xD;
 186                      A DAUGHTER&#xD;
 acting upon it is my affair No one could&#xD;
 have better, reason for desiring to discover&#xD;
@@ -21534,7 +21539,7 @@ if he had not chanced early in life upon the&#xD;
 misfortune ofmarrying an heiress. That fact&#xD;
 had crushed all active manhood out of, him,&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8066-00000109"/>&#xD;
+<pb n="188-189" xml:id="VAC8066-00000109"/>&#xD;
 188                A DAUGHTER OF BOHEMIA.                                                 THE CAPTAIN'S ARREST.               189&#xD;
 &#xD;
 as it has crushed it out of many another&#xD;
@@ -21759,7 +21764,7 @@ bottom of the whole affair."&#xD;
 he stood for a minute apparently lost in&#xD;
 thought. "I mean I am not surprised that&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8066-00000110"/>&#xD;
+<pb n="190-191" xml:id="VAC8066-00000110"/>&#xD;
 A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 MAX'S DEFENSE.&#xD;
@@ -21996,7 +22001,7 @@ V&#xD;
 &#xD;
 191&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8066-00000111"/>&#xD;
+<pb n="192-193" xml:id="VAC8066-00000111"/>&#xD;
 192 -&#xD;
 &#xD;
 A DAUGHTER OF BOH'~MIA.&#xD;
@@ -22232,7 +22237,7 @@ gotten what I said to you in the hall on Satur-&#xD;
 day night, just before I went out?" he in-&#xD;
 quired.&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8066-00000112"/>&#xD;
+<pb n="194-195" xml:id="VAC8066-00000112"/>&#xD;
 194                     A DAUGHTER&#xD;
 "No, sir," answered Giles; "I remem-&#xD;
 ber very well what you said. You ordered&#xD;
@@ -22412,7 +22417,7 @@ which men are so readi1~ beguiled, and by the whether, by any chance, anybody ha
 natural and excusable desire to see Colville Max the night before, though Max was un-&#xD;
 *&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8066-00000113"/>&#xD;
+<pb n="196-197" xml:id="VAC8066-00000113"/>&#xD;
 196                      A DAUGHTER&#xD;
 able to say whether or not he ha~I seen any&#xD;
 one else. "You say Miss Desmond is in the&#xD;
@@ -22645,7 +22650,7 @@ the pistol, which was found near Arthur Tyn.&#xD;
 dale's body."&#xD;
 "God bless my soul! "said Mr. Middleton.&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8066-00000114"/>&#xD;
+<pb n="198-199" xml:id="VAC8066-00000114"/>&#xD;
 198                      A DAUGHTER&#xD;
 Yin was so astounded that he sat down again&#xD;
 in the chair from which he had risen. "Is it&#xD;
@@ -22879,7 +22884,7 @@ K&#xD;
 &#xD;
 OP BOHEMIA.&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8066-00000115"/>&#xD;
+<pb n="200-201" xml:id="VAC8066-00000115"/>&#xD;
 200              A DAUGHTER OF BOHEMIAN.                                            MRS. MIDDLETON'S INDIGNATION.        201&#xD;
 &#xD;
 to pay heavy penalties sometimes for appoint-&#xD;
@@ -23108,7 +23113,7 @@ cing breathed upon; but, even for my repu-&#xD;
 &#xD;
 201&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8066-00000116"/>&#xD;
+<pb n="202-203" xml:id="VAC8066-00000116"/>&#xD;
 202                       A DAUGHTER&#xD;
 station's shke, I have no right~to hold back&#xD;
 and be silent when the truth will clear an in-&#xD;
@@ -23338,7 +23343,7 @@ was always her governing impulse, ~med to&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8066-00000117"/>&#xD;
+<pb n="204-205" xml:id="VAC8066-00000117"/>&#xD;
 take irresistible possession of her. Before&#xD;
 she was scarcely aware of what she meant to&#xD;
 do~ she hadstepped from the carriage, crossed&#xD;
@@ -23571,7 +23576,7 @@ and discussed it at some length. Afterwar?&#xD;
 &#xD;
 'I.&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8066-00000118"/>&#xD;
+<pb n="206-207" xml:id="VAC8066-00000118"/>&#xD;
 THE WHOLE TRUTH.                   207&#xD;
 &#xD;
 206               A DAUGHTER OF BOHEMIAN.&#xD;
@@ -23802,7 +23807,7 @@ and the mute appeal of her 'glance was too&#xD;
 much for the young man, who had momently&#xD;
 felt the leash in which he held himself slipping&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8066-00000119"/>&#xD;
+<pb n="208-209" xml:id="VAC8066-00000119"/>&#xD;
 208                A DAUGHTER OF BOHEMIA.                                                    THE WRONG MAN.                    209&#xD;
 &#xD;
 from ha grasp. He sprang to his feet with&#xD;
@@ -24031,7 +24036,7 @@ ten-o'clock train at night which puzzled me.&#xD;
 &#xD;
 Y~&#xD;
 &#xD;
-<pb  n="210 (Illustration) " xml:id="VAC8066-00000120"/>&#xD;
+<pb n="210 (Illustration) " xml:id="VAC8066-00000120"/>&#xD;
 210               A DAUGHTER OF BOHEMIA.&#xD;
 &#xD;
 When I learned the news of Mr. Tyndale's&#xD;
@@ -24149,7 +24154,7 @@ there-and I waited for a minute that seemed&#xD;
 &#xD;
 210&#xD;
 &#xD;
-<pb  n="-211" xml:id="VAC8066-00000121"/>&#xD;
+<pb n="-211" xml:id="VAC8066-00000121"/>&#xD;
 A STRAIGHTFORWARD STORY.               211.&#xD;
 &#xD;
 to me an hour, to see if he would move or&#xD;
@@ -24270,7 +24275,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8066-00000122"/>&#xD;
+<pb n="212-213" xml:id="VAC8066-00000122"/>&#xD;
 212                      A DAUGHTER&#xD;
 to myself I must ~state the truth-.~-.in which&#xD;
 Captains Tyndale will bear me witness."&#xD;
@@ -24497,7 +24502,7 @@ which usually comes with waking to those in&#xD;
 grief.&#xD;
 "Are you back, Norah?" she said, spring-&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8066-00000123"/>&#xD;
+<pb n="214-215" xml:id="VAC8066-00000123"/>&#xD;
 214                      A DAUGHTER~&#xD;
 ing to a sitting posture. "Has Captain Tyn.&#xD;
 dale been disoharg~d? Is it all over?"&#xD;
@@ -24730,7 +24735,7 @@ stopped. 1 wish to Heaven she had never&#xD;
 come, but since she Ace come, it would be the&#xD;
 source of endless scandal for her to leave&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8066-00000124"/>&#xD;
+<pb n="216-217" xml:id="VAC8066-00000124"/>&#xD;
 2168&#xD;
 &#xD;
 A DAUGHTER OF BOHEM4.&#xD;
@@ -24964,7 +24969,7 @@ was not likely to forget; that his cousin's&#xD;
 death made him pwner of Strafford, and much&#xD;
 more besides-elevating him from a fair sub-&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8066-00000125"/>&#xD;
+<pb n="218-219" xml:id="VAC8066-00000125"/>&#xD;
 '218&#xD;
 &#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
@@ -25195,7 +25200,7 @@ past ?-what is the sense of 4jining about&#xD;
 that which is to come? The day is bright,&#xD;
 and th~ sea is smooth, and I well, I an~&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8066-00000126"/>&#xD;
+<pb n="220-221" xml:id="VAC8066-00000126"/>&#xD;
 220                A DAUGHTER OF BOHEMiA.&#xD;
 &#xD;
 young. When one has youth, one has-or&#xD;
@@ -25427,7 +25432,7 @@ desire to end it at once. But it was not ended&#xD;
 as far as any word from Norah Desmond was&#xD;
 concerned. She turned her face from him&#xD;
 &#xD;
-<pb  n="222-223 (Advertisement) " xml:id="VAC8066-00000127"/>&#xD;
+<pb n="222-223 (Advertisement) " xml:id="VAC8066-00000127"/>&#xD;
 A DAUGHTER OF BOHEMIAN.&#xD;
 &#xD;
 quickly-almost abruptly-and gazed seaward&#xD;
@@ -25617,7 +25622,7 @@ Reid.&#xD;
 &#xD;
 T HE E ND.&#xD;
 &#xD;
-<pb  n="224 (Advertisement) -225" xml:id="VAC8066-00000128"/>&#xD;
+<pb n="224 (Advertisement) -225" xml:id="VAC8066-00000128"/>&#xD;
 2            Works of Fiction published by D. Appleton &amp;amp; Co.&#xD;
 Grace Aguilar.&#xD;
 New uniform edition, in I2mo volumes, bound in extra cloth. Price, per vol., $i.oo.&#xD;
@@ -25683,8 +25688,8 @@ $4.00; sheep, $s.oo; half morocco, $6.~o.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

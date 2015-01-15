@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6974">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6974">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Mysteries and Miseries of New Orleans </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>The Mysteries and Miseries of New Orleans </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6974</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6974</idno>
+            <idno type="wright2" n="previous">wright2-1438</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The mysteries and miseries of New Orleans</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>The mysteries and miseries of New Orleans</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >104 p.</extent>
+               <extent>104 p.</extent>
                <publicationStmt>
-                  <publisher >Akarman and Ormsby</publisher>
+                  <publisher>Akarman and Ormsby</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1851">[1851]</date>
+                  <date when="1851">[1851]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-14">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-14">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The mysteries and miseries of New Orleans</head> 
+            <head>The mysteries and miseries of New Orleans</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6974-00000001"/>THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6974-00000001"/>THE&#xD;
 &#xD;
 OF&#xD;
 &#xD;
@@ -105,7 +110,7 @@ f                  ,   .'&#xD;
 &#xD;
 ER]&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6974-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6974-00000002"/>&#xD;
 fi        ;,.     -c,     '    e_   ?°&#xD;
 &#xD;
 i.&#xD;
@@ -192,7 +197,7 @@ the eve itself, they gazed up into the quiet&#xD;
 &#xD;
 F&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6974-00000003"/>&#xD;
+<pb n="10-11" xml:id="VAC6974-00000003"/>&#xD;
 OF NEW ORLEANS.               , 11&#xD;
 &#xD;
 sky, where the stars could he dimly seen as&#xD;
@@ -373,7 +378,7 @@ lncns, globes, tdescr'ps a-in fact wit a large&#xD;
 &#xD;
 '           PIIE MYSTERIES AND MISERIES&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6974-00000004"/>&#xD;
+<pb n="12-13" xml:id="VAC6974-00000004"/>&#xD;
 OF NE1h OiUIEAN&#xD;
 &#xD;
 variety of scientific parraphenalia. The walls!&#xD;
@@ -552,7 +557,7 @@ ii&#xD;
 &#xD;
 TJJI, ]IiTEli1Es AMJ IJ1EJll.Es&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6974-00000005"/>&#xD;
+<pb n="14-15" xml:id="VAC6974-00000005"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 01? NEW ORLEANS.&#xD;
@@ -721,7 +726,7 @@ was all t"&#xD;
 &#xD;
 14&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6974-00000006"/>&#xD;
+<pb n="16-17" xml:id="VAC6974-00000006"/>&#xD;
 18               THE, M YSTE EIJES ANT) MISERIES&#xD;
 &#xD;
 "Didn-t you borrow son ni n y irom hn?"  " Then lund me and Mr. O'Casey half, aid&#xD;
@@ -890,7 +895,7 @@ OF NEW ORLEANS:&#xD;
 &#xD;
 17&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6974-00000007"/>&#xD;
+<pb n="18-19" xml:id="VAC6974-00000007"/>&#xD;
 18           TILE MYSTERIES AND MISERIES&#xD;
 &#xD;
 humanity; men who, nobly forgetful of the&#xD;
@@ -1072,7 +1077,7 @@ Malpin.&#xD;
 &#xD;
 OF NEW OR L E A (S&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6974-00000008"/>&#xD;
+<pb n="20-21" xml:id="VAC6974-00000008"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 It 20&#xD;
@@ -1265,7 +1270,7 @@ OF NEW OILS ANS.&#xD;
 &#xD;
 0-&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6974-00000009"/>&#xD;
+<pb n="22-23" xml:id="VAC6974-00000009"/>&#xD;
 22               THE MYSTERIES ANT) MISERIES&#xD;
 &#xD;
 h       She immediately hurried to the chAmib. r&#xD;
@@ -1443,7 +1448,7 @@ garden-not for this work-a-day world of&#xD;
 &#xD;
 O NEW ORL1 ANS                23&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6974-00000010"/>&#xD;
+<pb n="24-25" xml:id="VAC6974-00000010"/>&#xD;
 OF NEW ORLEANS.&#xD;
 &#xD;
 THE MYSTERIES AND MISERIES&#xD;
@@ -1639,7 +1644,7 @@ wheeling in rapid circles-their feet keep,&#xD;
 &#xD;
 9,&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6974-00000011"/>&#xD;
+<pb n="26-27" xml:id="VAC6974-00000011"/>&#xD;
 Ii&#xD;
 -E&#xD;
 Fto&#xD;
@@ -1793,7 +1798,7 @@ was some relief to Adalie, who hurrying to&#xD;
 her chamber, locked herself in to avoid the&#xD;
 storm of wrath she had reason to expect.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6974-00000012"/>&#xD;
+<pb n="28-29" xml:id="VAC6974-00000012"/>&#xD;
 Y P;                    TIE MYSTERIES AND MISERIES&#xD;
 h             CHAPTER VIIi.               hear an individual interlarding his talk with&#xD;
 oaths and ribald jests, I know that the pot.&#xD;
@@ -1887,7 +1892,7 @@ again."                                  hardly stand, and as the door opened, l
 but little left to play with, I'm sure ! I tell caught him in her arms.&#xD;
 you again, Bird, that I'm ruined-ruined, "Charles, what is the matter ?" she cried.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6974-00000013"/>&#xD;
+<pb n="30-31" xml:id="VAC6974-00000013"/>&#xD;
 80                   THE MYSTERIES&#xD;
 "I'm-hie, only a little tight, Fanny&#xD;
 That's all-hic-love !"&#xD;
@@ -2072,7 +2077,7 @@ of love, or even felt its power."&#xD;
 shall I add to it ?"&#xD;
 "Why yer name to be sure Sir, and then&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6974-00000014"/>&#xD;
+<pb n="32-33" xml:id="VAC6974-00000014"/>&#xD;
 a&#xD;
 hfi&#xD;
 i1&#xD;
@@ -2272,7 +2277,7 @@ OF NEW ORLEANS.&#xD;
 &#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6974-00000015"/>&#xD;
+<pb n="34-35" xml:id="VAC6974-00000015"/>&#xD;
 34&#xD;
 &#xD;
 Ii  a&#xD;
@@ -2470,7 +2475,7 @@ were horrified to find that she did not rise, now thai the danger was past, they
 &#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6974-00000016"/>&#xD;
+<pb n="36-37" xml:id="VAC6974-00000016"/>&#xD;
 38           THE MYSTERIES AND MISERI ES&#xD;
 &#xD;
 OF NEW ORLEANS.                37&#xD;
@@ -2687,7 +2692,7 @@ t&#xD;
 t F&#xD;
 k&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6974-00000017"/>&#xD;
+<pb n="38-39" xml:id="VAC6974-00000017"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 "Adalie, do not keep that terrible weapon. There is an antidote to the poison, and she&#xD;
 Some accident may happen. You do not has sleeping potions."&#xD;
@@ -2838,7 +2843,7 @@ I&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6974-00000018"/>&#xD;
+<pb n="40-41" xml:id="VAC6974-00000018"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 OF N W ORLEANS.&#xD;
@@ -3033,7 +3038,7 @@ f-&#xD;
 &#xD;
 40&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6974-00000019"/>&#xD;
+<pb n="42-43" xml:id="VAC6974-00000019"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 OF NEW ORLEANS.&#xD;
@@ -3226,7 +3231,7 @@ i'1&#xD;
 &#xD;
 43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6974-00000020"/>&#xD;
+<pb n="44-45" xml:id="VAC6974-00000020"/>&#xD;
 r   t&#xD;
 '  '&#xD;
 ;&#xD;
@@ -3381,7 +3386,7 @@ THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 45&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6974-00000021"/>&#xD;
+<pb n="46-47" xml:id="VAC6974-00000021"/>&#xD;
 'f4#&#xD;
 k' t&#xD;
 tt  '+&#xD;
@@ -3513,7 +3518,7 @@ to-night !" said her mother.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6974-00000022"/>&#xD;
+<pb n="48-49" xml:id="VAC6974-00000022"/>&#xD;
 It!;&#xD;
   j r&#xD;
 tI&#xD;
@@ -3717,7 +3722,7 @@ f ",&#xD;
 ;'&#xD;
 f&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6974-00000023"/>&#xD;
+<pb n="50-51" xml:id="VAC6974-00000023"/>&#xD;
 ?L'K&#xD;
 ,Etr~&#xD;
 &#xD;
@@ -3858,7 +3863,7 @@ e saloon, and called for their liquor.&#xD;
 &#xD;
 TiE MYSTERIES AND MISERIES&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6974-00000024"/>&#xD;
+<pb n="52-53" xml:id="VAC6974-00000024"/>&#xD;
 52&#xD;
 &#xD;
 " To the bide !" sold Bird, with a iiie, as&#xD;
@@ -4044,7 +4049,7 @@ a&#xD;
 &#xD;
 OF NEW ORLEANS.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6974-00000025"/>&#xD;
+<pb n="54-55" xml:id="VAC6974-00000025"/>&#xD;
 t 4'&#xD;
 &#xD;
 OF NEW 4&#xD;
@@ -4252,7 +4257,7 @@ y&#xD;
 , n&#xD;
 ==&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6974-00000026"/>&#xD;
+<pb n="56-57" xml:id="VAC6974-00000026"/>&#xD;
 !t6                    THE MYSTERIES AND           MISERIES&#xD;
 HLoping he will succeed in his lofty aspira-  "No--I know you are brave, but he might&#xD;
 &#xD;
@@ -4470,7 +4475,7 @@ fat    r   _&#xD;
 &#xD;
 z&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6974-00000027"/>&#xD;
+<pb n="58-59" xml:id="VAC6974-00000027"/>&#xD;
 I&#xD;
 &#xD;
 fit;&#xD;
@@ -4675,7 +4680,7 @@ completed.  The Orleans Ball Room    hat&#xD;
 &#xD;
 59&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6974-00000028"/>&#xD;
+<pb n="60-61" xml:id="VAC6974-00000028"/>&#xD;
 60&#xD;
 &#xD;
 THE MYSTERIES AND MISERIES&#xD;
@@ -4872,7 +4877,7 @@ She said no more. Like a trembling cul-&#xD;
 prit as he was, he stood and heard her words.&#xD;
 - n4&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6974-00000029"/>&#xD;
+<pb n="62-63" xml:id="VAC6974-00000029"/>&#xD;
 TIE MYSTERIES AND MISERIES&#xD;
 &#xD;
 She oe-r left the body of por Bird until&#xD;
@@ -5081,7 +5086,7 @@ _&#xD;
 ,&#xD;
 ,:&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6974-00000030"/>&#xD;
+<pb n="64-65" xml:id="VAC6974-00000030"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 gathered headway and started ofIftlose-hauled&#xD;
@@ -5276,7 +5281,7 @@ _&#xD;
 &#xD;
 I? NEW ORLEANS.&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6974-00000031"/>&#xD;
+<pb n="66-67" xml:id="VAC6974-00000031"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 It was an hour before sunrise when Gard&#xD;
@@ -5494,7 +5499,7 @@ j# r     =&#xD;
 &#xD;
 NEW ORLEANS.&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6974-00000032"/>&#xD;
+<pb n="68-69" xml:id="VAC6974-00000032"/>&#xD;
 OF NEW ORLEANS.              69&#xD;
 &#xD;
 pere -ived, she ors-ed o-ye of the gav h-&#xD;
@@ -5682,7 +5687,7 @@ TIE MYSTERIES AND MISERIES&#xD;
 &#xD;
 :&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6974-00000033"/>&#xD;
+<pb n="70-71" xml:id="VAC6974-00000033"/>&#xD;
 70                       :THE MYSTERIES AND MISERIES&#xD;
 " Now, let me reflect," began the fugitive. Principe, with five hundred l)rave men, each&#xD;
 1 I :t here without a friend, and with two one capable of whipping twenty of Concha's&#xD;
@@ -5795,7 +5800,7 @@ added, rising and approaching the Captain  youri price."&#xD;
 f&#xD;
 f'4&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6974-00000034"/>&#xD;
+<pb n="72-73" xml:id="VAC6974-00000034"/>&#xD;
 72&#xD;
 &#xD;
 THE MYSTERIES AND MISERIES&#xD;
@@ -5986,7 +5991,7 @@ S'Then all is lost !" he exclaimed.  "For&#xD;
 there treason riots in triumph, despite of my&#xD;
 best e..rts to subdue. it!  There my best&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6974-00000035"/>&#xD;
+<pb n="74-75" xml:id="VAC6974-00000035"/>&#xD;
 74            THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 troops are slaughtered by the Creole rebels-&#xD;
@@ -6157,7 +6162,7 @@ y&#xD;
 &#xD;
 OF NEW ORLEANS.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6974-00000036"/>&#xD;
+<pb n="76-77" xml:id="VAC6974-00000036"/>&#xD;
 76            TILE MYSTERIES AND MISERIES&#xD;
 &#xD;
 will contest the point noloriger. If you insi.&#xD;
@@ -6301,7 +6306,7 @@ Moriilo the next adjoining port, and a few " I will never retreat !"&#xD;
 t&#xD;
 ;&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6974-00000037"/>&#xD;
+<pb n="78-79" xml:id="VAC6974-00000037"/>&#xD;
 T8                     THE MYSTERIES AND MISERIES'&#xD;
 "1s that your reply, Gnural'"        up the road at an eay march, and in two&#xD;
 " It is sir !"                         hours reached Las Posas.&#xD;
@@ -6439,7 +6444,7 @@ t&#xD;
 -r&#xD;
 ;).&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6974-00000038"/>&#xD;
+<pb n="80-81" xml:id="VAC6974-00000038"/>&#xD;
 80           THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 Fired with enthusiasm at their victory over&#xD;
@@ -6628,7 +6633,7 @@ I,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6974-00000039"/>&#xD;
+<pb n="82-83" xml:id="VAC6974-00000039"/>&#xD;
 TilE MYSTERIES ANI MISERIES&#xD;
 &#xD;
 panion, and compelled thorn to retreat hastily'r&#xD;
@@ -6819,7 +6824,7 @@ t&#xD;
 &#xD;
 8       r&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6974-00000040"/>&#xD;
+<pb n="84-85" xml:id="VAC6974-00000040"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 and turnirg his head, he beheld an armed  Crittenden and his brave companions heard&#xD;
@@ -6986,7 +6991,7 @@ OF NEW ORLEANS.&#xD;
 &#xD;
 85&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6974-00000041"/>&#xD;
+<pb n="86-87" xml:id="VAC6974-00000041"/>&#xD;
 as God is my witness P' replied the Creole,&#xD;
 in a voice quivering with terror&#xD;
 " How comes it," continued Lo .peZ, " that&#xD;
@@ -7112,7 +7117,7 @@ you   ave been telling me, is    "Rise, sir," said Lopez  respectfully.&#xD;
 fals- !"           "That is  not a  position  for  a  man, su h as&#xD;
 CJS~ZUI  A  m  n n,. ,t.  _ 0&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6974-00000042"/>&#xD;
+<pb n="88-89" xml:id="VAC6974-00000042"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 y h v p d y u e . i e sir,   a ' d  and  out  off  every  chance  of  escap p.  XW ell,&#xD;
 your have provd falyourself.  Rise,sa      if they take me, they will have to pay the&#xD;
@@ -7211,7 +7216,7 @@ Ihey catered the large, open gate of the I them laugh  at wn ay say agamst    e 
 beh1ld the proprietor stretched ur'on a cane cofee planterr a eaftion thetraherous&#xD;
 :Jtee on th pzz  leisurely smokinga cigar.! book, and scraledoi ea folm     or&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6974-00000043"/>&#xD;
+<pb n="90-91" xml:id="VAC6974-00000043"/>&#xD;
 00                     THE MYSTERIES AND MISERIES&#xD;
 "The traitor Lopez ad six of his fellow take us at once where we shall be free from&#xD;
 pirates are at my hacienda, whither they the presence of this reptile !" c&#xD;
@@ -7313,7 +7318,7 @@ an iron collar is then clasped around his neck, my death will not change the des
 &#xD;
 ..&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6974-00000044"/>&#xD;
+<pb n="92-93" xml:id="VAC6974-00000044"/>&#xD;
 TiE MYSTERIES AND MISERIES&#xD;
 auba! Freedom will yet be hers. Adieu!   As the execution closed and the  multitude&#xD;
 ,y beloved Cuba."                      bean to move, Fanny Gardner pulled a small&#xD;
@@ -7423,7 +7428,7 @@ to send his instructions to the deputy, who  " Yes."&#xD;
 will in turn have to give his instructions to  "To save you the trouble and annoyance&#xD;
 the executioner, who wvill in his turn have to of calling for it, I will have one made out&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC6974-00000045"/>&#xD;
+<pb n="94-95" xml:id="VAC6974-00000045"/>&#xD;
 S4            .     TILE MYSTEI1 ES AND MISEIES&#xD;
 yd sent to your lodgings, where you ui find\ himself to the dungeon where the object of&#xD;
 t on your return from the prison."       her hatred lay chained to the wal    t&#xD;
@@ -7563,7 +7568,7 @@ upon you. Your presence is worse than that&#xD;
 of' a scorpion !"&#xD;
 " You will not be troubled with me long !&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6974-00000046"/>&#xD;
+<pb n="96-97" xml:id="VAC6974-00000046"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 And yet you will wi-h it longer !" sai bis'IThen encircliong his neek with the iron heel&#xD;
 tometeIr, fsea-zingly.hnt', the peon g atsrpIlt telti han dite of the wheel ,&#xD;
@@ -7712,7 +7717,7 @@ teeth, "you are not a sim'pleton--you are a&#xD;
 {&#xD;
 S&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC6974-00000047"/>&#xD;
+<pb n="98-99" xml:id="VAC6974-00000047"/>&#xD;
 98            TIIE MYSTERIES AND MISERIES&#xD;
 &#xD;
 r&#xD;
@@ -7844,7 +7849,7 @@ Fool! idiot ! Why did you force the angel&#xD;
 from out my heart, and arouse othe demon ?&#xD;
 Why did you wilfully banish the calm' that&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC6974-00000048"/>&#xD;
+<pb n="100-101" xml:id="VAC6974-00000048"/>&#xD;
 TiE MYSTERIES AND MISERIES&#xD;
 &#xD;
 100&#xD;
@@ -8030,7 +8035,7 @@ difi reduce. That she cannot pardon. To do&#xD;
 hi, csh must be more -than a wonan-she&#xD;
 msot he  m ae l, i{ long as she fecls that&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC6974-00000049"/>&#xD;
+<pb n="102-103" xml:id="VAC6974-00000049"/>&#xD;
 102                    TiE MYSTERIES AND MISERIES&#xD;
 she can say to herself, "I, loves me," all i.='her trust, h r confidence in herself, in man,&#xD;
 safe-she will endure hunger, even blows. and almost in God ! are gone, to return no&#xD;
@@ -8158,7 +8163,7 @@ promise, and getting which she is happy, and piness-is worth more than dollars! 
 &#xD;
 v                                        1   7&#xD;
 &#xD;
-<pb  n="104" xml:id="VAC6974-00000050"/>&#xD;
+<pb n="104" xml:id="VAC6974-00000050"/>&#xD;
 THE MYSTERIES AND MISERIES&#xD;
 &#xD;
 he who breaks and drives it into crime and&#xD;
@@ -8205,8 +8210,8 @@ tBE END,&#xD;
 &#xD;
 &#xD;
                                                    
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

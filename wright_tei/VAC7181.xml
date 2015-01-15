@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7181">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7181">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Legends of Holy Mary </title>
-            <author >MacLeod, Xavier Donald, (1821-1865)</author>
+            <title>Legends of Holy Mary </title>
+            <author>MacLeod, Xavier Donald, (1821-1865)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7181</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7181</idno>
+            <idno type="wright2" n="previous">wright2-1644</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Legends of Holy Mary</title>
-                  <author >MacLeod, Xavier Donald, (1821-1865)</author>
+                  <title>Legends of Holy Mary</title>
+                  <author>MacLeod, Xavier Donald, (1821-1865)</author>
                </titleStmt>
-               <extent >71 p.</extent>
+               <extent>71 p.</extent>
                <publicationStmt>
-                  <publisher >J.P. Walsh</publisher>
+                  <publisher>J.P. Walsh</publisher>
                   <pubPlace>Cincinnati</pubPlace>
-                  <date  from="1850" to="1859">[185-?]</date>
+                  <date from="1850" to="1859">[185-?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Legends of Holy Mary</head> 
+            <head>Legends of Holy Mary</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7181-00000001"/>LEGENDS&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7181-00000001"/>LEGENDS&#xD;
 &#xD;
 or&#xD;
 &#xD;
@@ -95,7 +100,7 @@ Mal eoc Xve  0ttl&#xD;
 &#xD;
 190 Sycamore    .k&#xD;
 &#xD;
-<pb  n="iii" xml:id="VAC7181-00000002"/>&#xD;
+<pb n="iii" xml:id="VAC7181-00000002"/>&#xD;
 LEGENDS OF HOLY MARY.&#xD;
 &#xD;
 VI'&#xD;
@@ -126,7 +131,7 @@ big 4anoiug      aft 'd    "     hv&#xD;
 por iited   = " faitff6               r&#xD;
 gathe it iand            i-o4u ; "az;&#xD;
 &#xD;
-<pb  n="iv-v" xml:id="VAC7181-00000003"/>&#xD;
+<pb n="iv-v" xml:id="VAC7181-00000003"/>&#xD;
 PREFACE.&#xD;
 &#xD;
 There was no philosophical nor educated sense of&#xD;
@@ -178,7 +183,7 @@ Pgggg&#xD;
 &#xD;
 IT&#xD;
 &#xD;
-<pb  n="vi-vii (Table of Contents) " xml:id="VAC7181-00000004"/>&#xD;
+<pb n="vi-vii (Table of Contents) " xml:id="VAC7181-00000004"/>&#xD;
 Pd" ()A w t-iatIdfn Ii dflbuiii pt  ,&#xD;
 F O 'teb gAt miPi4s6 -0o h dud t   r&#xD;
 ~a -dfieow i 'mouldy o Ioth .,x 1 , ...&#xD;
@@ -202,7 +207,7 @@ ST. AGATH ... ...'...........................568&#xD;
 '&#xD;
 . "&#xD;
 &#xD;
-<pb  n="viii-9" xml:id="VAC7181-00000005"/>&#xD;
+<pb n="viii-9" xml:id="VAC7181-00000005"/>&#xD;
 I /&#xD;
 &#xD;
 "  "}  s f  "  e    I " . j " f rp     7 }}  . j 1't) f  k1 j)r&#xD;
@@ -229,7 +234,7 @@ I -OW.&#xD;
 &#xD;
 o "                           4                          3 1&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7181-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7181-00000006"/>&#xD;
 10           LEGENDS OF HOLY MARY.&#xD;
 But his young wife, then about to give birth to her&#xD;
 first child, was deeply afflicted at her husband's reso-&#xD;
@@ -274,7 +279,7 @@ R  l swa°t =oi          VbMdegoodtwilla s '  bot ele ad si bg an c&#xD;
 &#xD;
 .4&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7181-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7181-00000007"/>&#xD;
 L   OR'119AY, MOY.&#xD;
 v            T *eb. r p    F* !his k#iiirhe&#xD;
 he himsef was pierced. with woun4~ t ,la bt~wlch&#xD;
@@ -300,7 +305,7 @@ tic                  9=WY~&amp;amp; ~~ 6Oi&#xD;
 &#xD;
 Sr  4 BI DE lC    "'&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7181-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7181-00000008"/>&#xD;
 14&#xD;
 &#xD;
 t  }  94 ),  r  f i    he th  ;&#xD;
@@ -320,7 +325,7 @@ MlylKo.:sI D              CQIu&#xD;
 hef-              -T 0,              , I&#xD;
 odg had given him. binothed haope, wh&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7181-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7181-00000009"/>&#xD;
 bread, and fiat, .sun-heated water rethj4l&#xD;
 spend, making in at t}i1l6&#xD;
 thoupla&#xD;
@@ -359,7 +364,7 @@ a u'foe -17am, awutte~t1'afgJ? , . I-tb  0uAtY&#xD;
 &#xD;
 .a&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7181-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7181-00000010"/>&#xD;
 LuGMN a  OmiuOL MARY.&#xD;
 &#xD;
 rd'ssald the        ttei; "is the&amp;amp; forest-of:.&#xD;
@@ -414,7 +419,7 @@ upon him. See here, my half of our bridal ring,&#xD;
 broken and shared between us when we parted. I&#xD;
 bring pledgeof faith kept loyally, back to you now."&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7181-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7181-00000011"/>&#xD;
 !A$d the* with bey"h *ellhkiwtt   t 1he&#xD;
 l [of - O  uy  E f  tthee azis1s  f 4r  rla -lc~&#xD;
 but u l frgot ae$  L S rdXg}&#xD;
@@ -456,7 +461,7 @@ pair .ied wiI, an  agd ualt= pbuntlen  i&#xD;
 devoted t&amp;amp;4hei r religion.  a1very :St dida . heda&#xD;
 21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7181-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7181-00000012"/>&#xD;
 22           LEGENDS OF HOLY MARY.&#xD;
 of May's Mass, Juan walked to the capital to assist&#xD;
 at the holy Sacrifice and to pray before the altar of&#xD;
@@ -513,7 +518,7 @@ dian, full of joy, hastened and' fulfdlliisimission with&#xD;
 simplicity.and- evident tiethfulness.  Nevertheless,&#xD;
 thecommunication was of such great importance,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7181-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7181-00000013"/>&#xD;
 Wk&#xD;
 &#xD;
 .JOUDB OR UGLY M A Yk&#xD;
@@ -559,7 +564,7 @@ Goo to the bill top of Tepejajac yonde riI'oth&amp;amp;&#xD;
 _ tm*a i  t ~prhwesai  up&amp;amp;Iad  thA&#xD;
 Y  3&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7181-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7181-00000014"/>&#xD;
 ter          ',o 0  10 1 'F   tra  1 nfl&#xD;
 #fdst 50oJilinroLbtgp~W~sntfaLD&#xD;
 e            Mar.abeith tt ircdf&#xD;
@@ -589,7 +594,7 @@ c              ad&#xD;
 DIa I,      ny.d n     k   m2To qid"nd'm&#xD;
 0'io      m    i2   07C £Vw arm Idf no ':suP&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7181-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7181-00000015"/>&#xD;
 Tii winter that ushered in the eighteenth century&#xD;
 was unusually turbulent; stormy and disastrous; a&#xD;
 foreshudder of nature; piophetio as it were of the&#xD;
@@ -624,7 +629,7 @@ thAt ceuflt Y 'Aoderw'  8the3[ ' W ixe j4sjd t&#xD;
 no one knew what had become of t odd a i&#xD;
 6f' Rei -tOp                    Th   __-&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7181-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7181-00000016"/>&#xD;
 LEGENDB~O? HR0141ARY+&#xD;
 &#xD;
 *mdtheiupo r~r   ho. tiihnaa pig gait&#xD;
@@ -653,7 +658,7 @@ quiv Ired and seemed to be   {&#xD;
 not. Let us pray 4,0:' J* tr  . 'l'   ( ~~  t3&#xD;
 .4&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7181-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7181-00000017"/>&#xD;
 'I&#xD;
 &#xD;
 LDQ  ' '' MARY.&#xD;
@@ -690,7 +695,7 @@ t  i  j  /Y {  1   : i i }r  ,   J  i 17 y&#xD;
 t {,"       .I' Cf j i? "., L .. yr1'.  '  4i.,t~  eif.?&#xD;
 '  f  Fi'  S .    f   "d     s  f S t   .  li   tj Mr j P:&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7181-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7181-00000018"/>&#xD;
 .V 8ISTBR BEAfiI,.ol-&#xD;
 &#xD;
 J#awob  Nur .ka 14  we ud a ayuo '1 2  5: t i udT.&#xD;
@@ -744,7 +749,7 @@ a di l    dtygitoW d thegyrinl i rbfij hb;&#xD;
 pit alityH  I;sfuydurseda dbegandMJ&#xD;
 recover, but alas, he used the lingering hours of his&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7181-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7181-00000019"/>&#xD;
 LKGl OWM  O LY MARY.&#xD;
 con        '#t , fluk th #mido the toungJ;etrloey&#xD;
 with *   es re  oiafo e {g1oie~indba~y oU&#xD;
@@ -786,7 +791,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7181-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7181-00000020"/>&#xD;
 16&#xD;
 &#xD;
 LEGEWS'' t' Y8LMARY.&#xD;
@@ -826,7 +831,7 @@ Then forcing, a little strength, she sAid :' : t , j5ag&#xD;
 - i'esisteriedtked atfheJfrn$i o~i ale&#xD;
 "Do not tremble and grow so Ohe-iii the ad&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7181-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7181-00000021"/>&#xD;
 40&#xD;
 &#xD;
 flEGW46' ot u1MARY.&#xD;
@@ -888,7 +893,7 @@ her written confession; and by her confessor's&#xD;
 advice kept secret till her death. Then, according&#xD;
 4&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7181-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7181-00000022"/>&#xD;
 ;               vz       press of te~&#xD;
 1IAS  .  (&amp;amp;  t  Murs Sol': :' b~&#xD;
 - ~d nt a jd"yixi.ms's 5a'.t/  a  /  ',9i 1 "'dh&#xD;
@@ -920,7 +925,7 @@ and subz~ieiene tert1*'' rs &amp;amp;  ngt oyof&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7181-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7181-00000023"/>&#xD;
 /1&#xD;
 &#xD;
 44&#xD;
@@ -984,7 +989,7 @@ manor-house."    'd&#xD;
 hidesperatersitua on.  .'  .       t  r'&#xD;
 "Whoever you, maybe ' hesaid atast aft a&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7181-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7181-00000024"/>&#xD;
 441&#xD;
 &#xD;
 .;L E iENJ7 . O  MOLE: M " i.i&#xD;
@@ -1040,7 +1045,7 @@ proposed.   a;.; ,j         ; rs  }3  .  ..  ip&#xD;
 wife hero =lone wok Uru without ,having twae her&#xD;
 of ourezontract. The ts'iyen~~&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7181-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7181-00000025"/>&#xD;
 N  ^&#xD;
 crc5p&#xD;
 .  _  #&#xD;
@@ -1099,7 +1104,7 @@ gathering them up,=withoutadendidge any one&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7181-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7181-00000026"/>&#xD;
 : tG'tD 'OF HOLY= MAIW.&#xD;
 &#xD;
 fnYky wh4c4 lhd  di ade them' his ownre4&#xD;
@@ -1157,7 +1162,7 @@ pure nd pions,-could 'it be that heaven'would&#xD;
 abandon her in her need ?&#xD;
 When the fatal day'wasfcome, he called hi to&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7181-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7181-00000027"/>&#xD;
 THE KNIGHT OF1 OHAMPHEI RY.      53&#xD;
 &#xD;
 , hi, -and said:.. We have a jomey to take to-&#xD;
@@ -1218,7 +1223,7 @@ deep sentiment' ,of veneration, such -as we pay to&#xD;
 &#xD;
 ''+   s :OF 'EOLY ,  Y.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7181-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7181-00000028"/>&#xD;
 54          .ENDSO HOLY MARY.&#xD;
 tb' saints in heaven, absorbed .very other.. He&#xD;
 dared. no{longer even look toward. her, but spurred&#xD;
@@ -1274,7 +1279,7 @@ a0womana ho trssjn mt 'Will thy nisemrbe&#xD;
 pride be neeragu Z:it: eom  nt  abaptisee.e&#xD;
 nor to aggravate thy pains; but I come to lift up&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7181-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7181-00000029"/>&#xD;
 . E D   VOLtKAtY ot&#xD;
 tiae!&amp;amp;]DianraiLpsastasyg and to iiithra&#xD;
 from thy h anotheuilt premse which thou didw#&#xD;
@@ -1318,7 +1323,7 @@ l '         l&#xD;
 )&#xD;
 i                            "               '     i          ..                  .   i-&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7181-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7181-00000030"/>&#xD;
 '.'&#xD;
 &#xD;
 r                                                   )&#xD;
@@ -1378,7 +1383,7 @@ withoutspeaking a word until he ha&amp;amp; ished the&#xD;
 scroll.&#xD;
 "The commagns of the emperor shall be obeyed&amp;amp;&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7181-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7181-00000031"/>&#xD;
 4'&#xD;
 &#xD;
 60&#xD;
@@ -1443,7 +1448,7 @@ to see her sosad."&#xD;
 Decius," answered Lucia, "Yet why should she?"&#xD;
 Hark!   'Tis the tramp ,ofhorse inthe ,streets&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7181-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7181-00000032"/>&#xD;
 0a&#xD;
 &#xD;
 TRENDS "OF HOLY M R.&#xD;
@@ -1507,7 +1512,7 @@ troops of slaves, balmy odors, delicious viands, soft&#xD;
 iftaic idravoltptdbd4Adeliglfaadilek    hin n-&#xD;
 itablarinif}  e j queny-set.     pal     hro-&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7181-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7181-00000033"/>&#xD;
 1&#xD;
 &#xD;
 64&#xD;
@@ -1571,7 +1576,7 @@ notherin the lact  Bleeding andfainting but with&#xD;
 a spirit uboken and a faith unflterifg, she was&#xD;
 led lack to prison,&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7181-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7181-00000034"/>&#xD;
 Val,&#xD;
 &#xD;
 LUGEMD O HOLY MARY.'&#xD;
@@ -1633,7 +1638,7 @@ nearer .to her, wwas a thronehigh. over albeside  this&#xD;
 ineffble iamr, on which sat in majesty thelOtOmI-&#xD;
 PRmIEI na. Lower still, and next to Him,)sat&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7181-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7181-00000035"/>&#xD;
 68&#xD;
 &#xD;
 LEGENDS .OF IROLL U RY.&#xD;
@@ -1698,7 +1703,7 @@ a wild commotion in Jthe street!. The jar' of the&#xD;
 earthquake, the' crash of falling walls and roofs, the&#xD;
 shrieks of rmaimed victims!  "It is over," said&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7181-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7181-00000036"/>&#xD;
 70 e&#xD;
 &#xD;
 LEGENDS OF HOLY MARYO&#xD;
@@ -1767,8 +1772,8 @@ Ys&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

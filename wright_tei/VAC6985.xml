@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6985">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6985">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Stella Delorme, or, The Comanche's Dream </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>Stella Delorme, or, The Comanche's Dream </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6985</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6985</idno>
+            <idno type="wright2" n="previous">wright2-1450</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Stella Delorme, or, The Comanche's dream</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>Stella Delorme, or, The Comanche's dream</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >71 p. incl. illus. plates </extent>
+               <extent>71 p. incl. illus. plates </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1860">[1860]</date>
+                  <date when="1860">[1860]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-14">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-14">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Stella Delorme, or, The Comanche's dream</head> 
+            <head>Stella Delorme, or, The Comanche's dream</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6985-00000001"/>0%&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6985-00000001"/>0%&#xD;
 &#xD;
 A, WILD AM) FANCIFUL STORY OP SAVAGE CILIVA LRY&#xD;
 BY&#xD;
@@ -104,7 +109,7 @@ S TELIAA&#xD;
 &#xD;
 BE tO HME:&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6985-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6985-00000002"/>&#xD;
 STELLA DELORME;&#xD;
 OR,&#xD;
 Ehe  mmh ' @m.&#xD;
@@ -167,7 +172,7 @@ A_&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6985-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC6985-00000003"/>&#xD;
 STELLA DELORME ; OR,&#xD;
 " lothing evil comes from the Ureat Spirit!" foam which fleew fronn its bitted month, anel&#xD;
 said La 'ona, quietly, lot tirmly. "1HE led  leading another, blacker than the clouds of&#xD;
@@ -399,7 +404,7 @@ ing his hand,whichthe young chiefdid not take&#xD;
 Ranger, 1 suppose,' said he, noticing this.&#xD;
 "The hands of the Rangers are red with&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6985-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6985-00000004"/>&#xD;
 THE COMANCHE'S DREAM.&#xD;
 &#xD;
 STELLA DELORME; OR,&#xD;
@@ -611,7 +616,7 @@ scornfully.&#xD;
 &#xD;
 g&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC6985-00000005"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC6985-00000005"/>&#xD;
 C    K&#xD;
 &#xD;
 8                            STELLA DELORME ; Ol,&#xD;
@@ -681,7 +686,7 @@ is red nit Ii tie blood of the Liprans. Ilis belt aIerm  hter'lstni ti, ani in t
 is full of their scalps. 'Their ainomen motrnoi ganigs of slaves were at vork. Yet lovely as&#xD;
 for Pekito, their young chief, for Lagona killed ws thi s  no. giranl as wais the instrnion, gloomo&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6985-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6985-00000006"/>&#xD;
 THE COMANCHE'S DREAM.                11&#xD;
 &#xD;
 sat upon ever face wi In its walls, except&#xD;
@@ -818,7 +823,7 @@ thing but prepossessing, who, accompanied by&#xD;
 Paul Malerson, had followed Mr. Delorme into&#xD;
 the room, though till then unobserved by him.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6985-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6985-00000007"/>&#xD;
 THE COMANCHE'S DREAM.               13&#xD;
 &#xD;
 The sound of that mania s vo ce siemmied to&#xD;
@@ -1083,7 +1088,7 @@ Lagona was to lead the expedition, and to&#xD;
 take a chosen band of picked lwarriors, of both&#xD;
 tribes, numbering five hundred or more.&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6985-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6985-00000008"/>&#xD;
 it&#xD;
 &#xD;
 r&#xD;
@@ -1291,7 +1296,7 @@ sir; but the skull was too thick for penetra-&#xD;
 tion. Some of the rest scared from  lack t&#xD;
 mulatto, at' that's all."&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC6985-00000009"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC6985-00000009"/>&#xD;
 V  iI'-y' o  Fs.' ia W'U try ari erd. i ) m1UChIIn adVaUC( Of twe, Cty Ii' tG  Her.&#xD;
 1'    t.. e  nt 1' °to 111  1 ''00 Cate w1li  the  phoxlioiso  fair  that ai  oI   h  t "  aid tnr&#xD;
 iy11 ' (1'111 IiIi  't  ie  out could  bea seon allitol ti. ni  t' Ipi ' .f  t  chr&#xD;
@@ -1331,7 +1336,7 @@ n1.  ,  i 'O ,, t i t  ii l 'l,;_ iiui i  or va t it r  t: it ",x e   13.'i  ot 
 ;i'Va b,1  tt        '  t    i l " n ha'iis ici' tini t ,I ir  l '  It''I1t;t ll ii&#xD;
 }+                           rng1t1 iit  ri  Co e  it  h   ye  ith  such  "&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6985-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6985-00000010"/>&#xD;
 THE COMANCHE'S DREAM.&#xD;
 &#xD;
 a beseecliing look, that his bold gaze softened&#xD;
@@ -1463,7 +1468,7 @@ lii, who thinks the world and all of me."&#xD;
 'Yes-like my naweake of Tarss- Pra&#xD;
 given that way."&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6985-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6985-00000011"/>&#xD;
 STELLA DELQ~tME ; On,&#xD;
 &#xD;
 a  tal hI avi   thI'at, 1k a haimn, yoiu' I r- Ji3 holdl hiaaandle  to Conem haer', i bi  he  ma)31&#xD;
@@ -1686,7 +1691,7 @@ was thinking of your interest, dye see ? 1&#xD;
 lou't want to see you tangle yourself in any&#xD;
 cbains but goldsn ones. A man is a fool if he&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6985-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6985-00000012"/>&#xD;
 1!&#xD;
 &#xD;
 STELLA DELOIME; OTR,&#xD;
@@ -1954,7 +1959,7 @@ Lp P&#xD;
 &#xD;
 TIlE OOMACH1S DP1T&amp;amp;M.&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC6985-00000013"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC6985-00000013"/>&#xD;
 I i&#xD;
 1&#xD;
 24                     STELLA DELORML'; Ol,&#xD;
@@ -1993,7 +1998,7 @@ P1&#xD;
 rit&#xD;
 z'&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6985-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6985-00000014"/>&#xD;
 ii&#xD;
 ii&#xD;
 I&#xD;
@@ -2137,7 +2142,7 @@ a&#xD;
 &#xD;
 ":&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6985-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6985-00000015"/>&#xD;
 23                  STELLA DELORME ; OL,&#xD;
 &#xD;
 Srmt's 1plac  to  carry' the girl off, anid ts&#xD;
@@ -2309,7 +2314,7 @@ e&#xD;
 I&#xD;
 °9&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6985-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6985-00000016"/>&#xD;
 _&#xD;
 -.&#xD;
 3&#xD;
@@ -2545,7 +2550,7 @@ i&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC6985-00000017"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC6985-00000017"/>&#xD;
 "  2             S~TELL    LLOR MB; 011[&#xD;
 I             'gfl   o  tcrue  o  ii f  n  ;1L" r  i1  Mr. D 11)I'oI1  ;"   t lye  ci e&#xD;
 1         t      ii' a      1  ' :  0 lrout   be  I'il  o  y  intl  1 "a allls( , e  iCiil los&#xD;
@@ -2573,7 +2578,7 @@ jl   it  j  t:  : 't l  - i  V ' A'.l  (. "'A t~ t it  i'     t  t '  "    t  ol
 F'*t                in                Alat'1tll lox'  rooc&#xD;
 (   r~    '+ itiii I I 't i tiii"tlto lP iut:1"+)1 f  1tu " e,  ijic  ueroi; li'  xhsnt&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6985-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6985-00000018"/>&#xD;
 TIlE COMANCIIE'S DREAM.&#xD;
 &#xD;
 t&#xD;
@@ -2737,7 +2742,7 @@ t'&#xD;
 &#xD;
 -_&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6985-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6985-00000019"/>&#xD;
 TELL A DELORME ; OIL,&#xD;
 thin I dii oyr or brother. The ol cove her bed, not to Bleep, 1ut to weep the night&#xD;
 -  anlt + 1 ot b bhrandy and igars like a gem- away.&#xD;
@@ -2880,7 +2885,7 @@ f&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6985-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6985-00000020"/>&#xD;
 .&#xD;
 °z   =&#xD;
 ;#&#xD;
@@ -3032,7 +3037,7 @@ If&#xD;
 &#xD;
 1'&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6985-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC6985-00000021"/>&#xD;
 1"&#xD;
 &#xD;
 it,&#xD;
@@ -3255,7 +3260,7 @@ t&#xD;
 ii g&#xD;
 gI,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6985-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6985-00000022"/>&#xD;
 yi&#xD;
 ri&#xD;
 -i Ia&#xD;
@@ -3444,7 +3449,7 @@ I]&#xD;
 &#xD;
 ja&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6985-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6985-00000023"/>&#xD;
 STELLA DEL ORME; OR,&#xD;
 iP, unksF La "nmu  dii it hpiisgIf.  Ill Iswar MeAlpin, upon one almost as good, nid fat&#xD;
 th i    bai i  iCalm ped here-thre isn't a  lhislisbuv) miIirltICd. (in, mliig al (if the&#xD;
@@ -3664,7 +3669,7 @@ I&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6985-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6985-00000024"/>&#xD;
 4t0                    STELLA DELO11E ; OR,&#xD;
 s---&#xD;
 sometimes the grc'ate t haste go-s the least ! any from the start, as far as I can see ; but their&#xD;
@@ -3872,7 +3877,7 @@ En&#xD;
 &#xD;
 /1&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6985-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC6985-00000025"/>&#xD;
 TELLA P ET OT ME ; ORZ,&#xD;
 &#xD;
 48&#xD;
@@ -4058,7 +4063,7 @@ t&#xD;
 4&#xD;
 s&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6985-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6985-00000026"/>&#xD;
 STELLA l)ELOIRMi; Ol,&#xD;
 &#xD;
 A0&#xD;
@@ -4194,7 +4199,7 @@ Weil.l~e lotiketi the diend, inided, all over. Lagona felt badly. His hearti was
 &#xD;
 °-&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6985-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6985-00000027"/>&#xD;
 THE COMANCHE'S DREAM.&#xD;
 &#xD;
 i.:.                       STELLA i)LLORME      OR,&#xD;
@@ -4396,7 +4401,7 @@ nor as Lagona take our tr (it. lIe probabl&#xD;
 has by this time seen tine lasso wnii helped&#xD;
 n e down the mountain, and found tio a fo&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6985-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6985-00000028"/>&#xD;
 STELLA DELORME ; OR,&#xD;
 &#xD;
 which I dropped when I cut his horse loose&#xD;
@@ -4597,7 +4602,7 @@ eamell  hekl tas xi lit. I council '11e  I I iwon- been re trained from slaying 
 ier' whlts eiiiile of Miss Ala ? If shie's'ivitlhi the influence of a single cief, who might be&#xD;
 the Comianchs that are after the Rangers, she  killed when the Rtan'ers were overtaken ; and&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6985-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC6985-00000029"/>&#xD;
 STIELLA DELC RME ; OR,&#xD;
 &#xD;
 ti of their arms anl ananrnition had been &#xD;
@@ -4791,7 +4796,7 @@ nitler lman or beiast.  Only by exeedilg Cau-. eye, and they proved indeed to be
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6985-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC6985-00000030"/>&#xD;
 58                           ETELLA DELORME; OR,&#xD;
 bane. Thir hofs had become efficiently  Delorme, to see what effect her o:d  ,1do&#xD;
 rbnes to enable them to move along at a fir have on him.&#xD;
@@ -5001,7 +5006,7 @@ Si&#xD;
 &#xD;
 't;&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6985-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6985-00000031"/>&#xD;
 Go&#xD;
 &#xD;
 STELLA DLLOI.ME ; ORi,&#xD;
@@ -5136,7 +5141,7 @@ u&#xD;
 _&#xD;
 3.&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6985-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC6985-00000032"/>&#xD;
 G2&#xD;
 &#xD;
 STELLA DELORME; OR,&#xD;
@@ -5369,7 +5374,7 @@ i&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="64-65 (Illustration) " xml:id="VAC6985-00000033"/>&#xD;
+<pb n="64-65 (Illustration) " xml:id="VAC6985-00000033"/>&#xD;
 and went out. So~on o ter, gr&#xD;
 tolile # cr teri d, beir nlfol of&#xD;
 kutid-i-bleats, hi ri t, lisiilti, aid1&#xD;
@@ -5433,7 +5438,7 @@ i&#xD;
 t&#xD;
 t&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6985-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC6985-00000034"/>&#xD;
 G5                         THE COMANCHE'S DREAM.&#xD;
 in the thick, husky tone which always indi- hear yonu !" said the villain, growing sobi&#xD;
 eates itoxiention. "You see I'm a goin' off wtlh fear.&#xD;
@@ -5501,7 +5506,7 @@ o 1V!"                                         "I do not believe that Ada Mc Alp
 " G'o ! Do you hear mc ? Go !" she cried. -icognizant of the foo 's intend visit here 1"&#xD;
 "ion't nke so munch noise, or they will i said the major, is le prepared t retire to rest&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6985-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC6985-00000035"/>&#xD;
 STELLA DELOPRME; OR,&#xD;
 &#xD;
 .agam ; " nt I will fin I out before she receives&#xD;
@@ -5757,7 +5762,7 @@ cairn when he spoke to them; but his pale&#xD;
 }&#xD;
 f&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6985-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC6985-00000036"/>&#xD;
 a It&#xD;
 &#xD;
 ?hB OMA tCIU'S DR1tAMi.&#xD;
@@ -6036,7 +6041,7 @@ i&#xD;
 r&#xD;
 '  .&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6985-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC6985-00000037"/>&#xD;
 r&#xD;
 &#xD;
 I&#xD;
@@ -6283,7 +6288,7 @@ II&#xD;
 &#xD;
 :1&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6985-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC6985-00000038"/>&#xD;
 CHAPTER      1.&#xD;
 The Foot Traveller and his Dog&#xD;
 Fr was at the close of one of those gor -&#xD;
@@ -6381,7 +6386,7 @@ TIE FLYING CLOUD:&#xD;
 &#xD;
 8&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6985-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC6985-00000039"/>&#xD;
 THE FLYING CLOUD.&#xD;
 &#xD;
 I&#xD;
@@ -6581,7 +6586,7 @@ s&#xD;
 z&#xD;
 L&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6985-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC6985-00000040"/>&#xD;
 THE FLYING CLOUD.&#xD;
 &#xD;
 I.&#xD;
@@ -6728,7 +6733,7 @@ herself, but with a tone of contempt in&#xD;
 reference to Charles Winder.&#xD;
 'Ho looks like a very intelleotua:&#xD;
 &#xD;
-<pb  n="80" xml:id="VAC6985-00000041"/>&#xD;
+<pb n="80" xml:id="VAC6985-00000041"/>&#xD;
 THE FLYING CLOUD.&#xD;
 &#xD;
 young man. I think from his appear- that General Leflingwell, whose aristoe-&#xD;
@@ -6783,8 +6788,8 @@ I&#xD;
 &#xD;
 &#xD;
                                           
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

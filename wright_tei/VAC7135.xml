@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7135">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7135">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Hester Somerset </title>
-            <author >N. M.</author>
+            <title>Hester Somerset </title>
+            <author>N. M.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7135</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7135</idno>
+            <idno type="wright2" n="previous">wright2-1599</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Hester Somerset</title>
-                  <author >N. M.</author>
+                  <title>Hester Somerset</title>
+                  <author>N. M.</author>
                </titleStmt>
-               <extent >191 p.</extent>
+               <extent>191 p.</extent>
                <publicationStmt>
-                  <publisher >A. Hart</publisher>
+                  <publisher>A. Hart</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-31">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-31">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Hester Somerset</head> 
+            <head>Hester Somerset</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7135-00000001"/>8o3&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7135-00000001"/>8o3&#xD;
 &#xD;
 IIESTER SOIMERSET:&#xD;
 &#xD;
@@ -139,7 +144,7 @@ COPLETE IN ONE VOLUME.&#xD;
 &#xD;
 N******* M****.&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC7135-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC7135-00000002"/>&#xD;
 f&#xD;
 b&#xD;
 t&#xD;
@@ -215,7 +220,8 @@ _ '            ;.:,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="iv (Table of Contents) -v (Table of Contents) " xml:id="VAC7135-00000003"/>&#xD;
+<pb n="iv (Table of Contents) -v (Table of Contents) "
+                   xml:id="VAC7135-00000003"/>&#xD;
 iv                       CONTENTS.&#xD;
 CHAPTER XIII.&#xD;
 Love's first lesson..................-----..- ..    . .....38&#xD;
@@ -300,7 +306,8 @@ t&#xD;
 &#xD;
 . -&#xD;
 &#xD;
-<pb  n="vi (Table of Contents) -vii (Table of Contents) " xml:id="VAC7135-00000004"/>&#xD;
+<pb n="vi (Table of Contents) -vii (Table of Contents) "
+                   xml:id="VAC7135-00000004"/>&#xD;
 _4S&#xD;
 &#xD;
 4&#xD;
@@ -422,7 +429,7 @@ _        _   _     Jr _                ^_  ii _.                 y  L&#xD;
 y -&#xD;
 x_                    ka            ._ .. v.&#xD;
 &#xD;
-<pb  n="viii (Table of Contents) -9" xml:id="VAC7135-00000005"/>&#xD;
+<pb n="viii (Table of Contents) -9" xml:id="VAC7135-00000005"/>&#xD;
 4x&#xD;
 &#xD;
 a&#xD;
@@ -599,7 +606,7 @@ JI.&#xD;
 _ _   _              !,. -  _      1 !y  i       1.&#xD;
 l&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7135-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7135-00000006"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -757,7 +764,7 @@ r'&#xD;
 &#xD;
 -fit&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7135-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7135-00000007"/>&#xD;
 12&#xD;
 &#xD;
 HESTER, SOMERSET'&#xD;
@@ -975,7 +982,7 @@ F&#xD;
 &#xD;
 t   t&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7135-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7135-00000008"/>&#xD;
 p.?,&#xD;
 &#xD;
 -t&#xD;
@@ -1189,7 +1196,7 @@ r +   +   F        f&#xD;
 &#xD;
 ,.C                                                                                        _                 -s...           -&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7135-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7135-00000009"/>&#xD;
 U&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -1417,7 +1424,7 @@ lit&#xD;
 '&#xD;
 ,&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7135-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7135-00000010"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -1706,7 +1713,7 @@ t  ,&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7135-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7135-00000011"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER.SOMERSET.&#xD;
@@ -1971,7 +1978,7 @@ i     1&#xD;
 .;_              _       _    _      _ =r       _&#xD;
 a&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7135-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7135-00000012"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -2252,7 +2259,7 @@ f&#xD;
 f&#xD;
 F ,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7135-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7135-00000013"/>&#xD;
 .24&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -2477,7 +2484,7 @@ K&#xD;
 &#xD;
 __         -        _  - k&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7135-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7135-00000014"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -2743,7 +2750,7 @@ r" +&#xD;
 &#xD;
 I, :d:&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7135-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7135-00000015"/>&#xD;
 i4&#xD;
 &#xD;
 I&#xD;
@@ -2973,7 +2980,7 @@ r+a+~&#xD;
 "-1&#xD;
 +  F&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7135-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7135-00000016"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.       $1&#xD;
@@ -3232,7 +3239,7 @@ The process of loading commenced;&#xD;
 &#xD;
 CHAPTER X.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7135-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7135-00000017"/>&#xD;
 K&#xD;
 &#xD;
 0&#xD;
@@ -3522,7 +3529,7 @@ i .&#xD;
 &#xD;
 *                                1 :. i. w .t                                            o&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7135-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7135-00000018"/>&#xD;
 HESTER SOMERSET.~'r&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -3726,7 +3733,7 @@ _                   _                _ .&#xD;
 -      - ,-            - '                y-i c    t&#xD;
 .-            -           .i ,       _&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7135-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7135-00000019"/>&#xD;
 86         HESTER SOMERS'ET.''r&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -3943,7 +3950,7 @@ STtm ~S'R131S94 3&#xD;
 : ::  'q:&#xD;
 ',yr_ .&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7135-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7135-00000020"/>&#xD;
 0&#xD;
 &#xD;
 K&#xD;
@@ -4207,7 +4214,7 @@ _                               _                                 d&#xD;
 . .&#xD;
 A ilri a.ls,] Sl                          rasea&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7135-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7135-00000021"/>&#xD;
 (N&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -4422,7 +4429,7 @@ ii&#xD;
 &#xD;
 :; . ,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7135-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7135-00000022"/>&#xD;
 HES.TER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -4614,7 +4621,7 @@ fiowets planted. The real Lo&amp;amp;id'one'r be'less gorgeous than the parteire
 &#xD;
 48&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7135-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7135-00000023"/>&#xD;
 44&#xD;
 &#xD;
 H.EST'ER SOMERSET.&#xD;
@@ -4856,7 +4863,7 @@ Yr  t7&#xD;
 . .&#xD;
 r&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7135-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7135-00000024"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -5116,7 +5123,7 @@ f,&#xD;
 J&#xD;
 r&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7135-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7135-00000025"/>&#xD;
 48&#xD;
 &#xD;
 RESTER SOMERSET.&#xD;
@@ -5271,7 +5278,7 @@ N,' ,,-.,-&#xD;
 &#xD;
 c-&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7135-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7135-00000026"/>&#xD;
 4.&#xD;
 &#xD;
 )&#xD;
@@ -5506,7 +5513,7 @@ s&#xD;
 &#xD;
 :h,.     -&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7135-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7135-00000027"/>&#xD;
 . 4&#xD;
 &#xD;
 i&#xD;
@@ -5649,7 +5656,7 @@ more pale and more excited ; his hand me to raise, any argument against the&#xD;
 trembled; and when he spoke it was justness of your views. Indeed, the&#xD;
 in a husky and. almost inaudible voice. objects of your company seem to me&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7135-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7135-00000028"/>&#xD;
 54&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -5850,7 +5857,7 @@ Y&#xD;
 _ eq&#xD;
 5&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7135-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7135-00000029"/>&#xD;
 56&#xD;
 &#xD;
 HESTER SOMERSET-&#xD;
@@ -6109,7 +6116,7 @@ for years, he intended to crush., Gall&#xD;
 "     +{'&#xD;
 _   i " _&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7135-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7135-00000030"/>&#xD;
 58&#xD;
 &#xD;
 HESTER SOMERSET-&#xD;
@@ -6375,7 +6382,7 @@ CHAPTER XXL&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7135-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7135-00000031"/>&#xD;
 60&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -6633,7 +6640,7 @@ the ' Great Diamond Company of Brazil&#xD;
 &#xD;
 ,      --    -_,.e   ,.&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7135-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7135-00000032"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 and Gold-Dust Association of Sout]&#xD;
@@ -6827,7 +6834,7 @@ HESTER SOMERSET.&#xD;
 &#xD;
 iC&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7135-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7135-00000033"/>&#xD;
 64&#xD;
 &#xD;
 HESTER SOMERSET..&#xD;
@@ -7034,7 +7041,7 @@ _              ,     j',.&#xD;
 _''&#xD;
 ;&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7135-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7135-00000034"/>&#xD;
 66&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -7228,7 +7235,7 @@ cannot sigh-which cannot weep.&#xD;
 .. '.&#xD;
 "_,&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7135-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7135-00000035"/>&#xD;
 68&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -7491,7 +7498,7 @@ I&#xD;
 f&#xD;
 f&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7135-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7135-00000036"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -7674,7 +7681,7 @@ Aw&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7135-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7135-00000037"/>&#xD;
 72&#xD;
 &#xD;
 H E ST E R-- SOM E'SET-&#xD;
@@ -7868,7 +7875,7 @@ heart, yet carry with them apleasure he with joyous light.&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7135-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7135-00000038"/>&#xD;
 'HESTER SMER     T           TER SOMERSET&#xD;
 &#xD;
 But the daughter was now to act the&#xD;
@@ -8040,7 +8047,7 @@ ing. But it was different now: the spread Hester's countenance?   Th:&#xD;
 &#xD;
 HESTER SOMERSET;,&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7135-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7135-00000039"/>&#xD;
 76&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -8240,7 +8247,7 @@ u4'{&#xD;
 e;&#xD;
 i&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7135-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7135-00000040"/>&#xD;
 HESTER SOMERS"ET.&#xD;
 &#xD;
 Her agitation, caused by uncertainty&#xD;
@@ -8505,7 +8512,7 @@ voice, and did not conceal the truth.&#xD;
 &#xD;
 -1&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7135-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7135-00000041"/>&#xD;
 -, ,&#xD;
 &#xD;
 80&#xD;
@@ -8700,7 +8707,7 @@ Her h     .eart is not in her labor; it still  So the poor consumptive girl, wo&
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7135-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7135-00000042"/>&#xD;
 82&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -8898,7 +8905,7 @@ A",                                      _&#xD;
 &#xD;
 1-&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7135-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7135-00000043"/>&#xD;
 HESTER SOMERSET.&#xD;
 &#xD;
 by its Protean spell, had changed hit&#xD;
@@ -9158,7 +9165,7 @@ asss ck.a-,+s-f  a n&#xD;
 &#xD;
 -e&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7135-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7135-00000044"/>&#xD;
 86&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -9412,7 +9419,7 @@ conceal himself.  Meantime Hester&#xD;
 ;"--&#xD;
 ,.&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7135-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7135-00000045"/>&#xD;
 88 p&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -9673,7 +9680,7 @@ f4: tn7': i{ +&#xD;
 . ,   } ^&#xD;
 -.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7135-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7135-00000046"/>&#xD;
 ' ± 4&#xD;
 &#xD;
 KN"&#xD;
@@ -9960,7 +9967,7 @@ ments. He hunted among them, and&#xD;
 suddenly starting, exclaimed,&#xD;
 " Surprising! gentlemen; -I am&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7135-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7135-00000047"/>&#xD;
 92                    ESTER      SOMERSET.&#xD;
 thunderstruck: I am overwhelmed with durating nature of his office, he pos-&#xD;
 regret and sorrow. Here's my purse, sessed a warm and feeling heart. She&#xD;
@@ -10094,7 +10101,7 @@ women of mature years, usually sus- a rosy glow.   Her deep-blue eyes&#xD;
 &#xD;
 ,.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7135-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7135-00000048"/>&#xD;
 94&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -10232,7 +10239,7 @@ G-S"4---    -- ----      - -    sy.                                     s       
 &#xD;
 oh&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7135-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7135-00000049"/>&#xD;
 96&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -10498,7 +10505,7 @@ i       ZM"        j   v&#xD;
 ,,  °&#xD;
 '.                                 .,                 ..&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7135-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7135-00000050"/>&#xD;
 .4&#xD;
 &#xD;
 4&#xD;
@@ -10697,7 +10704,7 @@ brain." -&#xD;
 &#xD;
 Now, 'Ar.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7135-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7135-00000051"/>&#xD;
 ,'&#xD;
 &#xD;
 100&#xD;
@@ -10970,7 +10977,7 @@ pA&#xD;
 g6Y&#xD;
 ,i&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7135-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7135-00000052"/>&#xD;
 HESTER SPMERSET.&#xD;
 &#xD;
 102&#xD;
@@ -11274,7 +11281,7 @@ i&#xD;
 4&#xD;
 .&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7135-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7135-00000053"/>&#xD;
 104&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -11535,7 +11542,7 @@ K  r..               r&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7135-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7135-00000054"/>&#xD;
 16&#xD;
 &#xD;
 HESTER S OMERS-E=T.&#xD;
@@ -11805,7 +11812,7 @@ i&#xD;
 1&#xD;
 }&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7135-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7135-00000055"/>&#xD;
 'a.&#xD;
 &#xD;
 &amp;amp;f&#xD;
@@ -12101,7 +12108,7 @@ Nature! with all thy running skill,&#xD;
 &#xD;
 ':&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7135-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7135-00000056"/>&#xD;
 110,&#xD;
 &#xD;
 HES'TER SOMERS ET.&#xD;
@@ -12363,7 +12370,7 @@ r .                                                                             
 . -   -&#xD;
 _                                           ,.     _ _ .&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7135-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7135-00000057"/>&#xD;
 112&#xD;
 &#xD;
 H E S T ER SOMERSET.&#xD;
@@ -12620,7 +12627,7 @@ d                                        .k  ,'lC' 4&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7135-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7135-00000058"/>&#xD;
 114                 HESYTE R      S&#xD;
 and the languages. These girlspbeing&#xD;
 once installed in houses, take all they&#xD;
@@ -12874,7 +12881,7 @@ this is a -part of the system, as the&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7135-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7135-00000059"/>&#xD;
 L._&#xD;
 &#xD;
 116&#xD;
@@ -13078,7 +13085,7 @@ k&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7135-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7135-00000060"/>&#xD;
 118&#xD;
 &#xD;
 RES T;ER 8 OME:R SRT;&#xD;
@@ -13365,7 +13372,7 @@ t.&#xD;
 &#xD;
 _                 -vim=&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7135-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7135-00000061"/>&#xD;
 0&#xD;
 &#xD;
 120&#xD;
@@ -13627,7 +13634,7 @@ o admit of-the approach of the bagm&#xD;
 stilling angel of sleep., Thoughts&#xD;
 themes, hopes, fears, horrible ideas&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7135-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7135-00000062"/>&#xD;
 122&#xD;
 &#xD;
 HESTE-R SOMERSET.&#xD;
@@ -13890,7 +13897,7 @@ CHAPTER XXII.&#xD;
 +                                                                                         -                , - .&#xD;
 . ,.                         _&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7135-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7135-00000063"/>&#xD;
 124&#xD;
 &#xD;
 HESTER SOMERSE-T.&#xD;
@@ -14153,7 +14160,7 @@ M7,M4 .7-7-&#xD;
 ?=&#xD;
 -.&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7135-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7135-00000064"/>&#xD;
 126&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -14415,7 +14422,7 @@ F'  2&#xD;
 &#xD;
 ,L&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7135-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7135-00000065"/>&#xD;
 128&#xD;
 &#xD;
 HE'S-TER SOMERSET.&#xD;
@@ -14686,7 +14693,7 @@ I&#xD;
 :a,.,&#xD;
 :,:&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7135-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC7135-00000066"/>&#xD;
 ,                      , .         r                         _,       _,,,     ,                                                ",   .              ,"                          ,te  r                                  -.&#xD;
 ""l' ;f c      . r            ,F1 ..i , t  -          _y'      ,i  '          n .    ,                      ,  "u',a5 %fi i-   {         , ,,.,                  w         .! r,,lt ,;x:        a                                                        1.&#xD;
 .                     +&#xD;
@@ -14863,7 +14870,7 @@ HESTER SOMERSET.&#xD;
 &#xD;
 BOOK     III.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7135-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC7135-00000067"/>&#xD;
 132&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -15124,7 +15131,7 @@ P i                                                                             
 +^rF' '" , -           r  +            -l.r'   i          \,1t                   '4    :,  ;  y^y4 , a         r      r  r   I r                                           ,&#xD;
 SAW. to                                       yj&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7135-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC7135-00000068"/>&#xD;
 184&#xD;
 &#xD;
 HESTER SO MERSET &#xD;
@@ -15391,7 +15398,7 @@ v_ 1:&#xD;
 [              { w&#xD;
 ''   *+&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7135-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC7135-00000069"/>&#xD;
 H16 ESTE R SOMERSE T.&#xD;
 &#xD;
 were breathing " airs of heaven," there so the sound of that sweet beloved voice&#xD;
@@ -15530,7 +15537,7 @@ F'E'S'T'ER SO M'ERSET.6,&#xD;
 &#xD;
 186&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7135-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC7135-00000070"/>&#xD;
 188&#xD;
 &#xD;
 OHESTER S OMERSET.&#xD;
@@ -15811,7 +15818,7 @@ I N&#xD;
 F&#xD;
 i'&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7135-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC7135-00000071"/>&#xD;
 140&#xD;
 &#xD;
 HESTER SOMERSE T.&#xD;
@@ -16021,7 +16028,7 @@ it is remarkablyabundant in children; of love I there is no phase, however&#xD;
 they are seen in every corner, every barren and dark, in this our -changeful&#xD;
 alley, and almost every doorway. The existence, but ye have the power to&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7135-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC7135-00000072"/>&#xD;
 HESTER S&#xD;
 brighten. Ye can'render poverty en-&#xD;
 durable;- ye can remove the crushing&#xD;
@@ -16220,7 +16227,7 @@ of Isabella by one of the nurses.~ His lioness ? A corpse under the power of&#xD
 subdued demeanor, and apparent sym- the galvanized's art, mimicking life.&#xD;
 pathy with the scene around him, to- "'She is not mine now," 'thought&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7135-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC7135-00000073"/>&#xD;
 S&#xD;
 &#xD;
 144&#xD;
@@ -16493,7 +16500,7 @@ CA&#xD;
 F}&#xD;
 5&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7135-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC7135-00000074"/>&#xD;
 146&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -16753,7 +16760,7 @@ rPe&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7135-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC7135-00000075"/>&#xD;
 A               7J-- R&#xD;
 &#xD;
 U"&#xD;
@@ -17047,7 +17054,7 @@ S&#xD;
 '                                        S' r:&#xD;
 ~1:&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7135-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC7135-00000076"/>&#xD;
 k:&#xD;
 &#xD;
 U&#xD;
@@ -17326,7 +17333,7 @@ J&#xD;
 r   '&#xD;
 +d&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7135-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC7135-00000077"/>&#xD;
 m&#xD;
 &#xD;
 152&#xD;
@@ -17639,7 +17646,7 @@ z&#xD;
 4&#xD;
 tt&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7135-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC7135-00000078"/>&#xD;
 HESTEE R S'OMERSET. EO1&#xD;
 &#xD;
 " What do you mean? Please e4-&#xD;
@@ -17902,7 +17909,7 @@ i&#xD;
 9&#xD;
 C&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7135-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC7135-00000079"/>&#xD;
 HESTER SOMERSET'&#xD;
 &#xD;
 T&#xD;
@@ -18110,7 +18117,7 @@ mayy&#xD;
 S'  r&#xD;
 rk°&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7135-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC7135-00000080"/>&#xD;
 158&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -18376,7 +18383,7 @@ ve                                                                            v-
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7135-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC7135-00000081"/>&#xD;
 16Q&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -18638,7 +18645,7 @@ w    ea&#xD;
 &#xD;
 ' t-ti&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7135-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC7135-00000082"/>&#xD;
 - s.-'&#xD;
 &#xD;
 A&#xD;
@@ -18848,7 +18855,7 @@ Mn&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7135-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC7135-00000083"/>&#xD;
 164&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -19056,7 +19063,7 @@ i~&#xD;
 &#xD;
 l&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7135-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC7135-00000084"/>&#xD;
 HESTER "SOMERSET.&#xD;
 &#xD;
 HESTER SOMEfRSE T.&#xD;
@@ -19269,7 +19276,7 @@ I'&#xD;
 &#xD;
 " =  ," '&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7135-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC7135-00000085"/>&#xD;
 168&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -19535,7 +19542,7 @@ z+.&#xD;
 &#xD;
 ,,-.&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7135-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC7135-00000086"/>&#xD;
 i1TV&#xD;
 &#xD;
 HESTER SO- ME.RS ET.&#xD;
@@ -19752,7 +19759,7 @@ I&#xD;
 E&#xD;
 ,&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7135-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC7135-00000087"/>&#xD;
 172&#xD;
 &#xD;
 HESTER SOMERSE T.&#xD;
@@ -20012,7 +20019,7 @@ I&#xD;
 &#xD;
 REST-BR. SOMERSET.&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7135-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC7135-00000088"/>&#xD;
 174&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -20242,7 +20249,7 @@ y . L&#xD;
 "   F.! y   _&#xD;
 w'( Tom'&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7135-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC7135-00000089"/>&#xD;
 176&#xD;
 &#xD;
 HESTER SOMERSE.T.&#xD;
@@ -20516,7 +20523,7 @@ LJ   r  +&#xD;
 &#xD;
 CHAPTER XXI.&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7135-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC7135-00000090"/>&#xD;
 S&#xD;
 &#xD;
 j7g&#xD;
@@ -20728,7 +20735,7 @@ y&#xD;
 d&#xD;
 }&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7135-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC7135-00000091"/>&#xD;
 180&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -20996,7 +21003,7 @@ un&#xD;
 &#xD;
 m&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC7135-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC7135-00000092"/>&#xD;
 182&#xD;
 &#xD;
 HE S T ER &amp;amp; S OMERSET. S&#xD;
@@ -21137,7 +21144,7 @@ HESTER, S 0 MERSE.T.&#xD;
 &#xD;
 N           Ml&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC7135-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC7135-00000093"/>&#xD;
 m&#xD;
 &#xD;
 184,&#xD;
@@ -21391,7 +21398,7 @@ L    T , TI  I&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC7135-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC7135-00000094"/>&#xD;
 186&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -21727,7 +21734,7 @@ B&#xD;
 &#xD;
 Jll .&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC7135-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC7135-00000095"/>&#xD;
 188&#xD;
 &#xD;
 HESTER SOMERSET.&#xD;
@@ -21893,7 +21900,7 @@ V^+:&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC7135-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC7135-00000096"/>&#xD;
 4M -7       ;&#xD;
 &#xD;
 190&#xD;
@@ -22068,8 +22075,8 @@ _'             s   __&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

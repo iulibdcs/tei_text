@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7944">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7944">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Choisy </title>
-            <author >Story, James P.</author>
+            <title>Choisy </title>
+            <author>Story, James P.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7944</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7944</idno>
+            <idno type="wright2" n="previous">wright2-2388</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Choisy</title>
-                  <author >Story, James P.</author>
+                  <title>Choisy</title>
+                  <author>Story, James P.</author>
                </titleStmt>
-               <extent >131 p. </extent>
+               <extent>131 p. </extent>
                <publicationStmt>
-                  <publisher >J.R. Osgood</publisher>
+                  <publisher>J.R. Osgood</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1872">1872</date>
+                  <date when="1872">1872</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Choisy</head> 
+            <head>Choisy</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7944-00000001"/>I&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7944-00000001"/>I&#xD;
 &#xD;
 .4&#xD;
 &#xD;
@@ -110,7 +115,7 @@ FIELDS, OsGooD, &amp;amp; .0&#xD;
 " Judge her love by her life."&#xD;
 LUCILE.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7944-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7944-00000002"/>&#xD;
 '~   ~   ) '-I?&#xD;
 &#xD;
 I&#xD;
@@ -231,7 +236,7 @@ C rf,&#xD;
 CHOISY.&#xD;
 -4-----&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7944-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7944-00000003"/>&#xD;
 CHOISY.                                                        KI~AVES AND ACES.                 5&#xD;
 &#xD;
 in a mild capacity a part of each day. Of&#xD;
@@ -505,7 +510,7 @@ I,&#xD;
 &#xD;
 CHOISY.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7944-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7944-00000004"/>&#xD;
 KNAVES AND ACES.&#xD;
 &#xD;
 harley, hesitating on the threshold, as if the the dinner down town; but Huntley delib-&#xD;
@@ -714,7 +719,7 @@ CHOISY.&#xD;
 &#xD;
 7&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7944-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7944-00000005"/>&#xD;
 CHOISY.                                                   KNAVES AND ACES.                 9&#xD;
 &#xD;
 Il&#xD;
@@ -993,7 +998,7 @@ his momentary respite from the excitement&#xD;
 )f actual play. "Loan me some chips," he&#xD;
 Aded, stretching out his~hand imperiously&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7944-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7944-00000006"/>&#xD;
 10                          CHOISY.&#xD;
 &#xD;
 as he spoke. Huntley smiled, and pushed&#xD;
@@ -1197,7 +1202,7 @@ at Delmonico's, and only there in the world. who glared back at him with sullen 
 &#xD;
 lii&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7944-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7944-00000007"/>&#xD;
 12                                CHOISY.&#xD;
 and angrily reiterated his demand. The sir. Gentlemen, the game is closed!" And&#xD;
 gambler took up the paper, gave it a mo- the tally-box rattled sharply, as the weary&#xD;
@@ -1337,7 +1342,7 @@ hills, like yours and mine, reader, in the at the table. She glanced furtively a
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7944-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7944-00000008"/>&#xD;
 CHISY.CAST OUT.&#xD;
 &#xD;
 several times, as she busied herself with the&#xD;
@@ -1548,7 +1553,7 @@ client at once, as he will desire to protect stowed a remarkably cheerful salute
 his interest with his usual promptness." the old cashier, who looked up over his spec-&#xD;
 Mr. Knarles rose as he spoke, and extend- tackles at the unwanted visitor, and won-&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7944-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7944-00000009"/>&#xD;
 16&#xD;
 &#xD;
 CAS'&#xD;
@@ -1823,7 +1828,7 @@ Yours,&#xD;
 &#xD;
 FIFTH AVENUE HOTEL, December 18th.&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7944-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7944-00000010"/>&#xD;
 18                          CHOISY.&#xD;
 &#xD;
 him by their salutations; then he went into&#xD;
@@ -2025,7 +2030,7 @@ and his soul rebelled against it, as he stood truest and tenderest of home influ
 Over the dead woman in her coffin; but he from a wise guidance and careful combina-&#xD;
 could only bow in a dumb, uncomnprehend. tion of task and play derived a store of&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7944-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7944-00000011"/>&#xD;
 20                                CHOISY.&#xD;
 mental wealth, gathering fruits of knowledge his boyhood's friend was more than that&#xD;
 in paths of roses. His aunt, Mrs. Howland, of a brother, and something like that of a&#xD;
@@ -2227,7 +2232,7 @@ Charhey came in later in the morning, and&#xD;
 met his cousin on his way up stairs. She&#xD;
 seemed to have been watching for him, but&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7944-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7944-00000012"/>&#xD;
 22                                0110&#xD;
 he only addressed her with his ordinary&#xD;
 salute, and went hurriedly to his room.&#xD;
@@ -2499,7 +2504,7 @@ strained face, so like the Ellen Wales of&#xD;
 &#xD;
 ISY.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7944-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7944-00000013"/>&#xD;
 24                               CHOISY.&#xD;
 long ago, and said to himself as l~.e rolled extraction, and it was said that he was an&#xD;
 away, "Thank God, she died before this Englishman; but I, who enjoyed a nodding&#xD;
@@ -2704,7 +2709,7 @@ of reminiscences dealing with other lands&#xD;
 &#xD;
 )&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7944-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7944-00000014"/>&#xD;
 26                        CHOISY.                                                      THE SUCCESSFUL MAN.                  27&#xD;
 &#xD;
 and the great and small people thereof, and&#xD;
@@ -2971,7 +2976,7 @@ him so long as Chancy remained on the&#xD;
 scene, and everything hung on the removal&#xD;
 or the destruction of the obstacle. No&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7944-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7944-00000015"/>&#xD;
 5,&#xD;
 A&#xD;
 &#xD;
@@ -3183,7 +3188,7 @@ all write me often. I shall wish to know dreaded to do it, and neglectedit persi
 &#xD;
 29&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7944-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7944-00000016"/>&#xD;
 CHOISY.&#xD;
 &#xD;
 until that last moment, when he had reached&#xD;
@@ -3386,7 +3391,7 @@ old office. I wish I - I wish we were dress that way. Mr. Huntley says 'Punch's'
 both with him. I am teasing mamma ever pictures are the English fashion-plates, and&#xD;
 minute to go, and she says maybe we shall nobody ever drew for 'Punch' as Charley&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7944-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7944-00000017"/>&#xD;
 32                        CHOISY.                                                      BENT TO THE TASK.                    33&#xD;
 &#xD;
 Wales draws. Just fancy his fashion-pic-&#xD;
@@ -3654,7 +3659,7 @@ than I wish I was, and I have to thank you&#xD;
 for the most of it. I have n't a spare dollar&#xD;
 outside of my need now, and what I kt you&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7944-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7944-00000018"/>&#xD;
 34                         CHOISY.&#xD;
 &#xD;
 BENT TO THE TASK.&#xD;
@@ -3924,7 +3929,7 @@ of a sentiment stronger than himself. Would&#xD;
 he win the game, this clever, undaunted&#xD;
 player, schooled of the world, - this bold,&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7944-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7944-00000019"/>&#xD;
 CHOISY.                                                      ASHORE ON ZEA~A.&#xD;
 &#xD;
 strong, far-sighted, silent genius of self,&#xD;
@@ -4135,7 +4140,7 @@ it'&#xD;
 &#xD;
 CHOISY.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7944-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7944-00000020"/>&#xD;
 38                         dilOlsy.                                                          ASHORE ON A~A.                       39&#xD;
 &#xD;
 dingy, unchanging, and untidy mother of so&#xD;
@@ -4354,7 +4359,7 @@ me to put you night in Paris life. I am a ble cockney. You will accept the anend
 pretty thorough Parisian; par consequent, I "lt was not necessary. I can ~ee the jus-&#xD;
 am an egotist, but I am also an artist." tice of all you say."&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7944-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7944-00000021"/>&#xD;
 40                      CHOISY.                                                    ASHORE ON 3~U~A.&#xD;
 &#xD;
 ii&#xD;
@@ -4576,7 +4581,7 @@ and happy young men, even to an occasion- to set up here on a scale of splendor 
 &#xD;
 CHOISY.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7944-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7944-00000022"/>&#xD;
 42  ClOIY.                          SHOE O  EEA.43&#xD;
 &#xD;
 4&#xD;
@@ -4860,7 +4865,7 @@ dinner and company could imot possibly have&#xD;
 &#xD;
 CIIOISY.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7944-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7944-00000023"/>&#xD;
 LAUGHING LUTETIA.&#xD;
 &#xD;
 CHOISY-.&#xD;
@@ -5147,7 +5152,7 @@ hiosophy. They excel this at Sceaux,&#xD;
 &#xD;
 ill&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7944-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7944-00000024"/>&#xD;
 LAUGhING LUTETIA.&#xD;
 &#xD;
 I:&#xD;
@@ -5359,7 +5364,7 @@ patches of shrubbery and flowery mounds, time, but, tempted by the coolness. and
 with a thousand shaded paths winding in beauty of the night, pursued their course&#xD;
 and out among them; the millions of flash- onward by the avenue, which was full of&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7944-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7944-00000025"/>&#xD;
 CHOISY.                                               LAUGHING LUTETIA.&#xD;
 &#xD;
 I)&#xD;
@@ -5580,7 +5585,7 @@ I&#xD;
 &#xD;
 CHOISY.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7944-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7944-00000026"/>&#xD;
 i"TCTQ&#xD;
 &#xD;
 50                               ,.dIi~J&#xD;
@@ -5848,7 +5853,7 @@ vents in the daily revolution of a Parisian&#xD;
 rhich make it necessary to consult a time-&#xD;
 dece,-~-his dinner and the rendezvous."&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7944-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7944-00000027"/>&#xD;
 52                        CHOISY.                                                         SMILES AND EYES.&#xD;
 &#xD;
 The speaker brought himself to a sitting&#xD;
@@ -6123,7 +6128,7 @@ rescue.&#xD;
 4&#xD;
 e&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7944-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7944-00000028"/>&#xD;
 54                          CHOISY.                                                              SMILES AND EYES.                      55&#xD;
 &#xD;
 "Ali! madame, permit me to shelter the&#xD;
@@ -6390,7 +6395,7 @@ ess of the afternoon in her box, though I&#xD;
 promise you not without a struggle. She&#xD;
 shares with Diva the homage of the house."&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7944-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7944-00000029"/>&#xD;
 56                        CHOISY.                                                        SMILES AKD EYES.                   57&#xD;
 &#xD;
 Charley heard the proposition with a&#xD;
@@ -6659,7 +6664,7 @@ a thirst is mine I&#xD;
 &#xD;
 ii&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7944-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7944-00000030"/>&#xD;
 58&#xD;
 &#xD;
 CHOISY-.&#xD;
@@ -6871,7 +6876,7 @@ craNe sour to solitary meditations. His he carried his gay career need not be in
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7944-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7944-00000031"/>&#xD;
 60&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -7162,7 +7167,7 @@ rnny, while the man, who of all men in&#xD;
 B'aris at that moment was the best satisfied&#xD;
 vith himself, remained at the window and&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7944-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7944-00000032"/>&#xD;
 62                           CI4OISY.&#xD;
 &#xD;
 smiled on the vernal scene without. It may&#xD;
@@ -7366,7 +7371,7 @@ The salon was a tumult of richly dressed lip tightly across his teeth, and gave 
 people, and Chancy felt rather overpow- peculiarly savage aspect. Cliarley expeni-.&#xD;
 ered by his surroundings. Indeed, after enced a convulsive desire to laugh as he&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7944-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7944-00000033"/>&#xD;
 64&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -7573,7 +7578,7 @@ the morning; the early world of peripatetic "I have a line from Vasour," he said
 commerce was abroad in the streets in full Chancy, when, somewhat later, he appeared&#xD;
 9&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7944-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7944-00000034"/>&#xD;
 66                                 CHOISY.&#xD;
 in street dress, "begging us to breakfast&#xD;
 with him at Carroza's. You are agreeable,&#xD;
@@ -7783,7 +7788,7 @@ serene ; the second, he smiled; the third -" rage! Sit again, vile! Je vous en c
 "Oh! the nymph had got well again,     He sat down silently again, but with a&#xD;
 and would n't see him."               ruffled brow. She waited till she caught&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7944-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7944-00000035"/>&#xD;
 duolsy.&#xD;
 &#xD;
 his eye, and then held it like a magnet with&#xD;
@@ -8061,7 +8066,7 @@ and with an almost hysterical tenderness,&#xD;
 and turning he saw her risen from her seat&#xD;
 upon her trembling limbs, with arms out-&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7944-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7944-00000036"/>&#xD;
 70&#xD;
 &#xD;
 CHTOISY.&#xD;
@@ -8260,7 +8265,7 @@ in his hand a letter received that morn- relieved him from action in the matter;
 ing by foreign mail; it is a letter of congrat- but he had originally accepted the commis-&#xD;
 ulation, of commendation, I may say ap- sion, and rejoiced now in payment for the&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7944-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7944-00000037"/>&#xD;
 72                          CHOISY.&#xD;
 &#xD;
 same. In all this he found matter for much&#xD;
@@ -8464,7 +8469,7 @@ be the argument? Me, I am very stupid, decimals; beat. him a head, and the place
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7944-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7944-00000038"/>&#xD;
 74&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -8736,7 +8741,7 @@ do you not, dear?" asked Mrs. Jennings,&#xD;
 after a circumspect approach to the sub-&#xD;
 ject.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7944-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7944-00000039"/>&#xD;
 y( 7&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -8940,7 +8945,7 @@ position. Her mother was delicate? Ah! before him! And what was this diplomatic&
 I should have surmised as much. There woman "up to"? Of the very few people&#xD;
 are indications of mental depression, and in the world the man really feared, Mrs.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7944-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7944-00000040"/>&#xD;
 A GAIN OF GROUND.&#xD;
 &#xD;
 Jennings was perhaps the most formidable&#xD;
@@ -9146,7 +9151,7 @@ has not reached her." sudden fatigue, a circumstance of frequent&#xD;
 The lady felt it impossible to question the occurrence 'iatterly. She returned to the&#xD;
 sincerity of his troubled face; she even felt cottage, and he accompanied her, of course;.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7944-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7944-00000041"/>&#xD;
 80                          CHOISY.&#xD;
 &#xD;
 he could not do less; and she could not&#xD;
@@ -9349,7 +9354,7 @@ gentleman to himself, as deep in the deli- once, of Huntley.&#xD;
 cious memory, and curled up in his seat, he "If you can arrange your affairs to that&#xD;
 11&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7944-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7944-00000042"/>&#xD;
 82&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -9489,7 +9494,7 @@ attentively received that he gathered much soire'es, and flirted desperately but
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7944-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7944-00000043"/>&#xD;
 THE LAST STRAND.                  85&#xD;
 &#xD;
 84                        CHOISY.&#xD;
@@ -9758,7 +9763,7 @@ ion."&#xD;
 "Yes - ah - you have their address?"&#xD;
 "Nice, I believe; or no, Mentone.&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7944-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7944-00000044"/>&#xD;
 86                        CHOISY.                                                     THE LAST STRAND.                    87&#xD;
 &#xD;
 Bi'iggs, what is the address of Mrs. Jennings&#xD;
@@ -10024,7 +10029,7 @@ mble; an eq~uipage which typified lux-&#xD;
 'y; a collocation of animate and inanimate&#xD;
 incrs, forming an intelligent and respon-&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7944-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7944-00000045"/>&#xD;
 88                       CHOISY.                                                     THE "WHOLE PACE."       *           89&#xD;
 &#xD;
 sive whole, governed by the mistress-will.&#xD;
@@ -10290,7 +10295,7 @@ lying with laughter!"&#xD;
 [did not see her."&#xD;
 "Studying for the masque, sans doute,&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7944-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7944-00000046"/>&#xD;
 90&#xD;
 &#xD;
 which was celebrated at the Hotel Choisy a&#xD;
@@ -10497,7 +10502,7 @@ CHOISY.                                               THE "WHOLE PACE."&#xD;
 &#xD;
 CHOIST-&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7944-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7944-00000047"/>&#xD;
 92                      CHOISY.                                                     THE "WHOLE PACE."                 93&#xD;
 &#xD;
 it any the better for having foreseen it;&#xD;
@@ -10764,7 +10769,7 @@ and-twenty years of life, was still the gentle-&#xD;
 hearted, motherless boy to whom the better&#xD;
 memories of the past were the only treas-&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7944-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7944-00000048"/>&#xD;
 ON THE MOUNTAIN-SIDE.           95&#xD;
 &#xD;
 94                                cIJOISY.&#xD;
@@ -10974,7 +10979,7 @@ merits of the menu, and becoming exalted ing of the orange-flower and fragrant h
 in his great content with that particular, as gay with blossoms, and chirping birds, and&#xD;
 well as with the general results of the morn- warm with summer heat; while full before&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7944-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7944-00000049"/>&#xD;
 ON THE MOIYNTAIN-SIDE.&#xD;
 &#xD;
 it the azure ocean shimmers in the sunlight,&#xD;
@@ -11182,7 +11187,7 @@ CHOISY.&#xD;
 &#xD;
 97&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7944-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7944-00000050"/>&#xD;
 ON THE MOUNTAIN-SIDE.&#xD;
 &#xD;
 he caught at that happy token and no&#xD;
@@ -11456,7 +11461,7 @@ perhaps - Mrs. Jennings -"&#xD;
 ery glad of it, Mr. Huntley. I hope he&#xD;
 nIl be very happy; do you not also? There&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7944-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7944-00000051"/>&#xD;
 ON THE MOUNTAIN-SIDE.               101&#xD;
 &#xD;
 100                        CHOISY.&#xD;
@@ -11659,7 +11664,7 @@ tique Goth than a simple Cockney, and I more to himself than to Somers. "The cri
 thought I was pulling down the Capitol. at home raved about him. I never quite&#xD;
 He was nearly killed, poor devil, and I al- believed him an angel in disguise, and I&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7944-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7944-00000052"/>&#xD;
 FREEDOM- SHACKLES.                 103&#xD;
 &#xD;
 102                        CHOISY.&#xD;
@@ -11859,7 +11864,7 @@ he did see. Intent as he ever was now With a dim purpose of ending at. a blow&#x
 upon maintaining the guard upon himself; the unendurable connection, he made his&#xD;
 he noted nothing of the delicate prelude; appearance at the Hotel after some days of&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7944-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7944-00000053"/>&#xD;
 104&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -12132,7 +12137,7 @@ s he held the note before him, twelve&#xD;
 ours later, "that it might have stopped&#xD;
 Chancy dozed feverishly in the train up&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7944-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7944-00000054"/>&#xD;
 106                    CHOISY.                                                FREEDOM - SHACKLES.&#xD;
 &#xD;
 to Calais; he felt badly, but attributed his&#xD;
@@ -12334,7 +12339,7 @@ the blushing girl was only too glad of "the and, lingering a week in Switzerland
 mamma's" sheltering bosom when he re- wards, did not arrive at Paris until June,&#xD;
 leased her.                           where their stay was made brief, in order&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7944-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7944-00000055"/>&#xD;
 108                               CH(&#xD;
 that th6y might avail themselves of the&#xD;
 smooth Atlantic of early summer. Hunt-&#xD;
@@ -12602,7 +12607,7 @@ have so little to do, especially as flither was&#xD;
 absent a great deal of the time at Ports-&#xD;
 mouth], assisting my eldest brother in busi-&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7944-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7944-00000056"/>&#xD;
 110                        CHOISY.&#xD;
 &#xD;
 ness; so, though we did not need to do it,&#xD;
@@ -12804,7 +12809,7 @@ you might - 0 Mr. Wales, if you should He looked at his watch; there was a&#xD;
 ever see him! I brought this to show you; train up to London in an hour. Luckily&#xD;
 will you try and remember it? It was his preparations were all made; he had&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7944-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7944-00000057"/>&#xD;
 112&#xD;
 &#xD;
 CHLOISY.&#xD;
@@ -13077,7 +13082,7 @@ ly up and down the room.&#xD;
 sifair in which you and Dick Iluntley have&#xD;
 figured in some secret connection has been&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7944-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7944-00000058"/>&#xD;
 114&#xD;
 &#xD;
 CHOISY.&#xD;
@@ -13349,7 +13354,7 @@ moked endless cigars and walked the decks&#xD;
 thoughtfully for hours together. Our hero,&#xD;
 ecure in his disguise, watched the man&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7944-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7944-00000059"/>&#xD;
 116                   CHOISY.                                              IN THE HOLLOW HAND.&#xD;
 &#xD;
 with a strange interest, and marvelled at&#xD;
@@ -13556,7 +13561,7 @@ CHOISY.&#xD;
 &#xD;
 116&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7944-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7944-00000060"/>&#xD;
 118                         CHOISY.&#xD;
 &#xD;
 "Not so bad to-night," said the broker&#xD;
@@ -13760,7 +13765,7 @@ binnacle; I see they are letting her fall off, an unpretentious bit of tin in th
 We can talk there."                    signs and symbols on the door-post~ below,&#xD;
 Charley walked unsteadily, and was glad on which, "Ego, Attorney at Law," met the&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7944-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7944-00000061"/>&#xD;
 EXIT HUNTLEY.                     121&#xD;
 &#xD;
 120                        CHOISY.&#xD;
@@ -14029,7 +14034,7 @@ covered with a witticism the bruise on his&#xD;
 temple that the "boom" had given him.&#xD;
 Then in a round of business calls, reports&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7944-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7944-00000062"/>&#xD;
 122                         CHOISY.&#xD;
 &#xD;
 of his successful transactions abroad to&#xD;
@@ -14230,7 +14235,7 @@ accessory to the unlawful use of a draft  Curtis moved uneasily in his chair, an
 which you knew him to have in his posses- hastened to speak.&#xD;
 sion"                                    "There is an end Vo patience; accept or&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7944-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7944-00000063"/>&#xD;
 124                       CHOISY.                                                    A ROSE IS CRUSHED.                  125&#xD;
 &#xD;
 refuse. We are wasting time and grace on&#xD;
@@ -14494,7 +14499,7 @@ second clause the banker wrinkled his brows,&#xD;
 and Charley, watching him covertly, was&#xD;
 glad to see some evidence of feeling.&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7944-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7944-00000064"/>&#xD;
 126                        CIIOISY.&#xD;
 &#xD;
 "You know this to he true?" he asked&#xD;
@@ -14762,7 +14767,7 @@ mentary terror; but the smiling eyes checked&#xD;
 er first dreadful thought and left her in&#xD;
 painful bewilderment.&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7944-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7944-00000065"/>&#xD;
 128                               CHOISY.&#xD;
 "0 mamma! what a question! I can't and now my occupation 's gone. We shall&#xD;
 think what you mean!" all be very happy now, and must never&#xD;
@@ -14966,7 +14971,7 @@ constant kindness; of Miss lowland, whom&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7944-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC7944-00000066"/>&#xD;
 130                'CHOISY.&#xD;
 &#xD;
 to know was to worship with almost re-&#xD;
@@ -15149,8 +15154,8 @@ goodness, and remember only evil.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

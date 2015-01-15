@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7594">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7594">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Great Original and Entrancing Romance, the Fireman's Bride, or, Beautiful Myria, the Mad Actress </title>
-            <author >Ritner, William D.</author>
+            <title>The Great Original and Entrancing Romance, the Fireman's Bride, or, Beautiful Myria, the Mad Actress </title>
+            <author>Ritner, William D.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7594</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7594</idno>
+            <idno type="wright2" n="previous">wright2-2050</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The great original and entrancing romance, the fireman's bride, or, Beautiful Myria, the mad actress</title>
-                  <author >Ritner, William D.</author>
+                  <title>The great original and entrancing romance, the fireman's bride, or, Beautiful Myria, the mad actress</title>
+                  <author>Ritner, William D.</author>
                </titleStmt>
-               <extent >1 p. l. [9]-86 p. </extent>
+               <extent>1 p. l. [9]-86 p. </extent>
                <publicationStmt>
-                  <publisher >M.A. Milliette</publisher>
+                  <publisher>M.A. Milliette</publisher>
                   <pubPlace>New York [etc.] </pubPlace>
-                  <date  when="1858">1858</date>
+                  <date when="1858">1858</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-02-13">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-02-13">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The great original and entrancing romance, the fireman's bride, or, Beautiful Myria, the mad actress</head> 
+            <head>The great original and entrancing romance, the fireman's bride, or, Beautiful Myria, the mad actress</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7594-00000001"/>' J  +1ee. ,THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7594-00000001"/>' J  +1ee. ,THE&#xD;
 UiIEATQULG 1IIINAL&#xD;
 ENW{CIjNG ItBOMANCE&#xD;
 F~hEAN S BRIDE&#xD;
@@ -102,7 +107,7 @@ PUJBLISHED D YMX As IILLIETTE,&#xD;
 320 CHESTNUT STREET,&#xD;
 Li          Also New-York, Baltimore, Buffalo and Chidago&#xD;
 &#xD;
-<pb  n="Illustration" xml:id="VAC7594-00000002"/>&#xD;
+<pb n="Illustration" xml:id="VAC7594-00000002"/>&#xD;
 r&#xD;
 &#xD;
 KA~&#xD;
@@ -148,7 +153,7 @@ i&#xD;
 r&#xD;
 r ,&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7594-00000003"/>&#xD;
+<pb n="10-11" xml:id="VAC7594-00000003"/>&#xD;
 10                 TItZ F1B~ZIANS 13l !DD&#xD;
 &#xD;
 the purpose of maturing come gigantic schene- or plot, by which&#xD;
@@ -218,7 +223,7 @@ esJu4Q1gbyge r~h jagdr1h spybuiontheYate O&amp;amp;ua eso:eMFts&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7594-00000004"/>&#xD;
+<pb n="12-13" xml:id="VAC7594-00000004"/>&#xD;
 12         TUN.JiX~'  1V&#xD;
 &#xD;
 OHAPT    e It.r&#xD;
@@ -297,7 +302,7 @@ quietlyqtriethe door -which yielded to his presre, it was un.&#xD;
 leked4 ho.entered and found the man sound asleep, pas&#xD;
 the light before his eyes but the sleeper moved not. The&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7594-00000005"/>&#xD;
+<pb n="14-15" xml:id="VAC7594-00000005"/>&#xD;
 cloeu Jew drewhis dirk, then placing 'the: light on fltuetable&#xD;
 eomrtuenied'leakliircg forthe ihdi of  ressu. 1lve Iaiines&#xD;
 perhaps elapsed and he was now unable to find it. drgN&#xD;
@@ -371,7 +376,7 @@ him alone with his own gloomy reflections.&#xD;
 &#xD;
 I I I&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7594-00000006"/>&#xD;
+<pb n="16-17" xml:id="VAC7594-00000006"/>&#xD;
 ti  ,..R M  z',1.&#xD;
 &#xD;
 rnd he possesses that feairful secret -which I fondly dreamed was&#xD;
@@ -448,7 +453,7 @@ r&#xD;
 &#xD;
 __     +                                           _            -                 i                        y&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7594-00000007"/>&#xD;
+<pb n="18-19" xml:id="VAC7594-00000007"/>&#xD;
 Is&#xD;
 &#xD;
 tf~'pIRIC I UIDE.&#xD;
@@ -538,7 +543,7 @@ F+&#xD;
 &#xD;
 fr -&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7594-00000008"/>&#xD;
+<pb n="20-21" xml:id="VAC7594-00000008"/>&#xD;
 m tn~s~~.&#xD;
 &#xD;
 TIMB PIk:MAN'0 Dr. .&#xD;
@@ -669,7 +674,7 @@ b&#xD;
 4&#xD;
 i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7594-00000009"/>&#xD;
+<pb n="22-23" xml:id="VAC7594-00000009"/>&#xD;
 22&#xD;
 &#xD;
 THIE FIREMAN S_.RD&#xD;
@@ -755,7 +760,7 @@ nor at least o tnim hith'id mark him for life.&#xD;
 &#xD;
 x #&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7594-00000010"/>&#xD;
+<pb n="24-25" xml:id="VAC7594-00000010"/>&#xD;
 aTH  REMAN's BRIDE.&#xD;
 &#xD;
 25&#xD;
@@ -832,7 +837,7 @@ knock aroused him. tie arose, and admitted a young mans ofa&#xD;
 handsome delicate countenance, his person clad in a suit of dark&#xD;
 apparel quite shabby. He was an entire stranger toGrimps.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7594-00000011"/>&#xD;
+<pb n="26-27" xml:id="VAC7594-00000011"/>&#xD;
 THu PIEMAN'S RID.               27&#xD;
 &#xD;
 HTHE nPIREMAN'S BRIDE.&#xD;
@@ -921,7 +926,7 @@ he was alone.&#xD;
 &#xD;
 2w6&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7594-00000012"/>&#xD;
+<pb n="28-29" xml:id="VAC7594-00000012"/>&#xD;
 TIN PR I'&amp;amp;  B RIDI.&#xD;
 &#xD;
 CHAPTJiRi YVL&#xD;
@@ -1018,7 +1023,7 @@ rI&#xD;
 t&#xD;
 z #.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7594-00000013"/>&#xD;
+<pb n="30-31" xml:id="VAC7594-00000013"/>&#xD;
 30               'Ta  FIREMAN'S- BRIDE.&#xD;
 but she was now making sure and rapid strides up the hill of dra-&#xD;
 matic fame, and'by herstirring eloquence wearing laurel wreaths&#xD;
@@ -1111,7 +1116,7 @@ Myria even though a maniacs ,  wasan        n&#xD;
 gle, and she sank with a subdued cry of despair beneath the power&#xD;
 of her .betrayer and the dead.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7594-00000014"/>&#xD;
+<pb n="32-33" xml:id="VAC7594-00000014"/>&#xD;
 82                TIlE FIREMAN'S BRIDE.&#xD;
 Ana now Sefton began to look about for- some way of egress&#xD;
 from the damp grave. He did not fancy being buried thus alive,&#xD;
@@ -1204,7 +1209,7 @@ grave, her hair all matted and blowing around her!head in knot-&#xD;
 ed masses, her face ghastly and pale as the lilly. At sight of&#xD;
 her, all save Ringgold, fled fromu theplace in frenzied fright, and&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7594-00000015"/>&#xD;
+<pb n="34-35" xml:id="VAC7594-00000015"/>&#xD;
 THE FIREMAN'S BRIDEs&#xD;
 l .e aih the nad atessrandin the place of graves&#xD;
 he wa mt loo  ani  a ling position truly.  The bloodin&#xD;
@@ -1300,7 +1305,7 @@ me. _So annyyears. since, and .yet the horrid phantom haunts&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7594-00000016"/>&#xD;
+<pb n="36-37" xml:id="VAC7594-00000016"/>&#xD;
 38                 Tf IREMA 1f'S aDLE'&#xD;
 The remainder of the morning was passed by the relenting and&#xD;
 troubled Jew in repentance and ;prayer. At the conclusion of&#xD;
@@ -1393,7 +1398,7 @@ we must hasten to give a scone occuring at the same moment in&#xD;
 another part of the city.&#xD;
 Myria Blakely sat in her home on Beach street. She was&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7594-00000017"/>&#xD;
+<pb n="38-39" xml:id="VAC7594-00000017"/>&#xD;
 THE PIREXAI'S BRIDE.              89&#xD;
 &#xD;
 88                 THE, FInzugS BRIDE-&#xD;
@@ -1485,7 +1490,7 @@ of that before&#xD;
 'Iwould not trust him. Though the fact is Myria, I believe&#xD;
 he knows more of our parents, than would be safe for him to i-&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7594-00000018"/>&#xD;
+<pb n="40-41" xml:id="VAC7594-00000018"/>&#xD;
 mu    .. j0 ~it~&#xD;
 &#xD;
 f~u ~ ':ff~~&#xD;
@@ -1570,7 +1575,7 @@ r .&#xD;
 &#xD;
 HAT)&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7594-00000019"/>&#xD;
+<pb n="42-43" xml:id="VAC7594-00000019"/>&#xD;
 I&#xD;
 &#xD;
 42&#xD;
@@ -1675,7 +1680,7 @@ that he ought to search the spring and the earth and-the 'rockE&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7594-00000020"/>&#xD;
+<pb n="44-45" xml:id="VAC7594-00000020"/>&#xD;
 'i*a Wt      -, r+ iy . - mz: 1 Ae9 ey ~~ie -'.h4q&#xD;
 o l adghoat :ther aeriotit o k {.Aje(:4ol e4n '=~&#xD;
 fir  'oA ~e. e' 'e ' -The w er ! vl g~~fi ;  fe 'e,h e at&#xD;
@@ -1749,7 +1754,7 @@ night.:' Stabling and dwelling were burned to'the ground, not-&#xD;
 withstanding; we, fith other companies, used every endeavor to&#xD;
 Save at least' the house, but the weather 'was against'us, antl we&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7594-00000021"/>&#xD;
+<pb n="46-47" xml:id="VAC7594-00000021"/>&#xD;
 46&#xD;
 &#xD;
 THJU FI BM ALABU lR D&#xD;
@@ -1847,7 +1852,7 @@ About one oa'loci she came slowlyRand evenly along, as&#xD;
 on the very edge,9of the side walk. This 'night it was nioonlight,&#xD;
 and ohe being alln  whiteso dazzled their vision that theyco&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7594-00000022"/>&#xD;
+<pb n="48-49" xml:id="VAC7594-00000022"/>&#xD;
 TE. FIREMAN'S' BRIDE.:&#xD;
 scarcely:looIksteadily on her. But, they had -determined to imako&#xD;
 a clbareport of what they saw, so they continued to watch, and&#xD;
@@ -1941,7 +1946,7 @@ them to face, no hazard too daring for them to bravo.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7594-00000023"/>&#xD;
+<pb n="50-51" xml:id="VAC7594-00000023"/>&#xD;
 STHiS PIREM.   5  iIB&#xD;
 &#xD;
 CHAPT$R X.&#xD;
@@ -2029,7 +2034,7 @@ Rif old approached Orson and said,&#xD;
 also with deep pleasure grasp your hand, though I have not&#xD;
 seen you since that eventful ay we parted.'&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7594-00000024"/>&#xD;
+<pb n="52-53" xml:id="VAC7594-00000024"/>&#xD;
 TE  PIRIMAN'S BRIDZ.&#xD;
 &#xD;
 'My dear ir, 'tis to you Iwe mry life, 'replied Ilakely deeply&#xD;
@@ -2112,7 +2117,7 @@ thi covesatonherequested to' be shown to rest.   '9  e nCf.&#xD;
 &#xD;
 40&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7594-00000025"/>&#xD;
+<pb n="54-55" xml:id="VAC7594-00000025"/>&#xD;
 lusted him to his sleeping apartment, and soon after returned&#xD;
 -lone. I heard him mutter,"Ah, I-scarcely expected"ho had&#xD;
 tni- wealth with him--I must have it."&#xD;
@@ -2212,7 +2217,7 @@ uI1 ,k'IWtE L es DRYD7 "&#xD;
 &#xD;
 TIE - FIREMAN'S BR.DR.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7594-00000026"/>&#xD;
+<pb n="56-57" xml:id="VAC7594-00000026"/>&#xD;
 .Tgi R 1  MAN' wBID&#xD;
 bosom.  'It was your father who suffered thus; but listed ntil&#xD;
 my-preserver has.concluded.V'&#xD;
@@ -2301,7 +2306,7 @@ ern:. _ir theli ht f he;i   y hr,~~..&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7594-00000027"/>&#xD;
+<pb n="58-59" xml:id="VAC7594-00000027"/>&#xD;
 1-                 '1:e FIREMAN'S IFw.&#xD;
 bers from both lawless bands increased, and reinforced each&#xD;
 other until the entire strength of both clubs became hotly ei-&#xD;
@@ -2389,7 +2394,7 @@ f&#xD;
 &#xD;
 -i ^&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7594-00000028"/>&#xD;
+<pb n="60-61" xml:id="VAC7594-00000028"/>&#xD;
 ~o*~-di     n judn4#W# spdixo Jaok i at bafd~oo&#xD;
 et front the efect of the had blew.&#xD;
 '$Strg  ye What ere orankCerd Road,; have-yer beem&#xD;
@@ -2476,7 +2481,7 @@ ed him on every hand.                yr a the actress, greet:&#xD;
 &#xD;
 61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7594-00000029"/>&#xD;
+<pb n="62-63" xml:id="VAC7594-00000029"/>&#xD;
 TUE    uWMp' .IDM.&#xD;
 'Ho! why Jack, what's the matter with the coat' asked several&#xD;
 in a breath.&#xD;
@@ -2562,7 +2567,7 @@ port of true talent and genuine merit, filled the theatre to oversp&#xD;
 &#xD;
 Aft&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7594-00000030"/>&#xD;
+<pb n="64-65" xml:id="VAC7594-00000030"/>&#xD;
 64                TiIE FIREMAN'S BRIDE.&#xD;
 Ing  An"again lyria, burning with the eloquence and spirit of&#xD;
 her task, appeared triumphant amid applause almost unbounded.&#xD;
@@ -2645,7 +2650,7 @@ he had misjudged the minutesnature of the spell which ws ai&#xD;
 her. The giddinessof the chase only added vigor to the apeed&#xD;
 -irth-which she kept upathe pursuit,' and lost to all -Sese of dan-&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7594-00000031"/>&#xD;
+<pb n="66-67" xml:id="VAC7594-00000031"/>&#xD;
 er she dashed upon the libertine in a very frenzy of revenge&#xD;
 and rage. Hotter and hotter grew the chase, closer and closer&#xD;
 the xi  ,neared the libertine's heel&#xD;
@@ -2733,7 +2738,7 @@ THE FI MS'S BRIDE.&#xD;
 &#xD;
 67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7594-00000032"/>&#xD;
+<pb n="68-69" xml:id="VAC7594-00000032"/>&#xD;
 68&#xD;
 &#xD;
 iRi~ i rEAx'8 BRXID .-&#xD;
@@ -2805,7 +2810,7 @@ THE FIREMAN'S BRIDE.&#xD;
 &#xD;
 69&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7594-00000033"/>&#xD;
+<pb n="70-71" xml:id="VAC7594-00000033"/>&#xD;
 TO&#xD;
 &#xD;
 THE FIREMAN'S BRIDE.&#xD;
@@ -2908,7 +2913,7 @@ f&#xD;
 &#xD;
 THE FIREMAN'S BRIDE.            71&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7594-00000034"/>&#xD;
+<pb n="72-73" xml:id="VAC7594-00000034"/>&#xD;
 72&#xD;
 &#xD;
 THE FIREMAN'S BRIDE.&#xD;
@@ -3002,7 +3007,7 @@ s"&#xD;
 F&#xD;
 5 {{&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7594-00000035"/>&#xD;
+<pb n="74-75" xml:id="VAC7594-00000035"/>&#xD;
 74                 THE FIREMAN'S BRIDE.&#xD;
 over large in stature, but he was solid and sinewy. When he&#xD;
 struck a man he never failed to make an impression. Nor was&#xD;
@@ -3084,7 +3089,7 @@ of the prisoners. 'But,' he urged, ' he should have a hearing.&#xD;
 fi&#xD;
 }&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7594-00000036"/>&#xD;
+<pb n="76-77" xml:id="VAC7594-00000036"/>&#xD;
 76                THE FIREMAN'S BRIDE,&#xD;
 Again he was reminded of the Mayor's ' especial orders' being&#xD;
 to ' allow none of the prisoners arrested that night a hearing, but&#xD;
@@ -3166,7 +3171,7 @@ doubt not, there are those who can testify that they were given&#xD;
 with a full heart and hearty will, when his legal ability and&#xD;
 matchless eloquence set the 'Buck Darts' free.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7594-00000037"/>&#xD;
+<pb n="78-79" xml:id="VAC7594-00000037"/>&#xD;
 78                THE 1 FIREMAN'S BRIDE.&#xD;
 &#xD;
 CHAPTER XV.&#xD;
@@ -3241,7 +3246,7 @@ lent change, which the disposition and character, aye, and senti&#xD;
 ments and lauguage, too, of the daring Ringgold has undergone.&#xD;
 Not that the nobility of his soul has been lost, but many of the&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7594-00000038"/>&#xD;
+<pb n="80-81" xml:id="VAC7594-00000038"/>&#xD;
 80&#xD;
 &#xD;
 THE FIREMAN'S BRIDE.&#xD;
@@ -3340,7 +3345,7 @@ gY&#xD;
 &#xD;
 81&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7594-00000039"/>&#xD;
+<pb n="82-83" xml:id="VAC7594-00000039"/>&#xD;
 82               THE FIREMAN'S BtIDE.&#xD;
 &#xD;
 ' I-I, ask-beg yer pardon sir. I believe I've made some&#xD;
@@ -3439,7 +3444,7 @@ been a father,' said old Job Clawson, as he dashed away a teal&#xD;
 of joy,.and smiled with delight as Clarence Clinton approached&#xD;
 with his lovely betrothed.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7594-00000040"/>&#xD;
+<pb n="84-85" xml:id="VAC7594-00000040"/>&#xD;
 84               THE, FIREMAN'S BRIDE.&#xD;
 And as they stood before the minister, the. youthful Emily&#xD;
 Hope, though happy in her choice, rested her gloved hand in his,&#xD;
@@ -3539,7 +3544,7 @@ of carriage bells, calling their members together, and the hurry-&#xD;
 ing to and fro of spectators, many fall to work digging out the&#xD;
 unfortunate man from the burning ruins.&#xD;
 &#xD;
-<pb  n="86" xml:id="VAC7594-00000041"/>&#xD;
+<pb n="86" xml:id="VAC7594-00000041"/>&#xD;
 THE FIREMAN'S BRIDE.&#xD;
 &#xD;
 Bricks and rubbish fly in every direction before the active hu-&#xD;
@@ -3590,8 +3595,8 @@ THE END.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

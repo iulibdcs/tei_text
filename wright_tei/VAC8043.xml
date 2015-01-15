@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8043">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8043">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Jack Harold, or, The Criminal's Career </title>
-            <author >Thompson, George, (d. 1893)</author>
+            <title>Jack Harold, or, The Criminal's Career </title>
+            <author>Thompson, George, (d. 1893)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8043</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8043</idno>
+            <idno type="wright2" n="previous">wright2-2481</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Jack Harold, or, The criminal's career</title>
-                  <author >Thompson, George, (d. 1893)</author>
+                  <title>Jack Harold, or, The criminal's career</title>
+                  <author>Thompson, George, (d. 1893)</author>
                </titleStmt>
-               <extent >108 p. </extent>
+               <extent>108 p. </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1851">[1851]</date>
+                  <date when="1851">[1851]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-06-21">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-06-21">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Jack Harold, or, The criminal's career</head> 
+            <head>Jack Harold, or, The criminal's career</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC8043-00000001"/>-"4"&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC8043-00000001"/>-"4"&#xD;
 &#xD;
 "  t .&#xD;
 &#xD;
@@ -141,7 +146,7 @@ c                       .,""             '&#xD;
 tb&#xD;
 iN'&#xD;
 &#xD;
-<pb  n="0Advertisement" xml:id="VAC8043-00000002"/>&#xD;
+<pb n="0Advertisement" xml:id="VAC8043-00000002"/>&#xD;
 i&#xD;
 &#xD;
 (4&#xD;
@@ -376,7 +381,7 @@ yt&#xD;
 &#xD;
 j"ACE,&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8043-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC8043-00000003"/>&#xD;
 ORAN&#xD;
 &#xD;
 es&#xD;
@@ -570,7 +575,7 @@ I;&#xD;
 &#xD;
 1'&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8043-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC8043-00000004"/>&#xD;
 4f&#xD;
 &#xD;
 Tr"&#xD;
@@ -744,7 +749,7 @@ t&#xD;
 t&#xD;
 t&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8043-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC8043-00000005"/>&#xD;
 9                        !&#xD;
 'gy                "&#xD;
 &#xD;
@@ -998,7 +1003,7 @@ F   ,&#xD;
 !ri         ijfr&#xD;
 H&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8043-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC8043-00000006"/>&#xD;
 k i&#xD;
 &#xD;
 p&#xD;
@@ -1182,7 +1187,7 @@ r.,.&#xD;
 &#xD;
 m&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8043-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC8043-00000007"/>&#xD;
 Y 4   ~ f&#xD;
 &#xD;
 naturall si aeies. ' Per-&#xD;
@@ -1313,7 +1318,7 @@ i+ s&#xD;
 &#xD;
 fi'&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8043-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC8043-00000008"/>&#xD;
 S'&#xD;
 &#xD;
 .i np  dt t hbis basinpiringeotil&amp;amp;'ntT help tlinking  that i iid&#xD;
@@ -1469,7 +1474,7 @@ laid, gently-.                  aid--&#xD;
 V     - V&#xD;
 ;1.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8043-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC8043-00000009"/>&#xD;
 "That is Of no consep ence to&#xD;
 -you,"-and :a frown of ,tspkesut'e&#xD;
 agered upon the y;4niatd's brbw&#xD;
@@ -1620,7 +1625,7 @@ V.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8043-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC8043-00000010"/>&#xD;
 distinguish  himself by .'m    old'apply thatlofty tile t the captain of&#xD;
 deed, whiehshouldttstais b  igh inithe gang, as a means of- propitiating&#xD;
 the estimation of ,hisoeonlpions.- his favor.&#xD;
@@ -1774,7 +1779,7 @@ flK&#xD;
 &#xD;
 i            .;ii r&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8043-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC8043-00000011"/>&#xD;
 Vr[ s&#xD;
 &#xD;
 :24&#xD;
@@ -1986,7 +1991,7 @@ By this time the entire company "Bravo, lieutenant'!" shouted the&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8043-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC8043-00000012"/>&#xD;
 r''  F yF } .&#xD;
 , y.  - .&#xD;
 G;j i&#xD;
@@ -2179,7 +2184,7 @@ f&#xD;
 &#xD;
 on,%r % &amp;amp;  TWRW  ww4kvvv4o wv&amp;amp;ou     4ORtnaulm    via(M&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8043-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC8043-00000013"/>&#xD;
 48&#xD;
 &#xD;
 r, "iKCKHARO4&#xD;
@@ -2402,7 +2407,7 @@ V'&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8043-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC8043-00000014"/>&#xD;
 30                        1J  PK HAROLD&#xD;
 Dars prior to the opening, dato ofj  "No-what was it, Tom.y?" re&#xD;
 these auther;tic chronicles, he had sponded Cooper Nose, as he compla-&#xD;
@@ -2595,7 +2600,7 @@ l .1 1 (&#xD;
 y&#xD;
 M-, S&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8043-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC8043-00000015"/>&#xD;
 f&#xD;
 &#xD;
 JACE HAROLD.&#xD;
@@ -2786,7 +2791,7 @@ ated his hand under -Ler pillow, and night-clothes, and b  "in his left&#xD;
 began to feel for the key he was in hand a lightedlau n    e his right&#xD;
 search of.                        grasped a pistol.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8043-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC8043-00000016"/>&#xD;
 34   )AUOD                                                                      AC  IHAROLD.                       Sb&#xD;
 &#xD;
 .or&#xD;
@@ -3025,7 +3030,7 @@ S {3 ,,1IAfOT4D.&#xD;
 &#xD;
 34&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8043-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC8043-00000017"/>&#xD;
 .w&#xD;
 &#xD;
 4a&#xD;
@@ -3239,7 +3244,7 @@ y  4i     tr&#xD;
 -  'N&#xD;
 .  -  .&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8043-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC8043-00000018"/>&#xD;
 ,.             f              /   pi  /&#xD;
 t      ,                                                                                        '&#xD;
 ,r'' 1f  .  t ,                          ,{R&#xD;
@@ -3424,7 +3429,7 @@ TF&#xD;
 &#xD;
 Y  t    Lt&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8043-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC8043-00000019"/>&#xD;
 1  a1  v/l  \ w +&#xD;
 &#xD;
 SACS UApOL.&#xD;
@@ -3697,7 +3702,7 @@ i&#xD;
 /  X t&#xD;
 }  "r'&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8043-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC8043-00000020"/>&#xD;
 JA C&amp;amp;-C  aInOi~n..&#xD;
 &#xD;
 NJihetpettp started up, grabbed li&#xD;
@@ -3915,7 +3920,7 @@ j , '&#xD;
 &#xD;
 iA  t'- itolsk ,&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8043-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC8043-00000021"/>&#xD;
 iiA&#xD;
 &#xD;
 A                                       ^,      ft7&#xD;
@@ -4003,7 +4008,7 @@ nest, so thought Jack, who had not I The old gentleman, arrayed in- the&#xD;
 &#xD;
  °   '   i  A&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8043-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC8043-00000022"/>&#xD;
 yY                /1&#xD;
 I(&#xD;
 &#xD;
@@ -4169,7 +4174,7 @@ p                               '&#xD;
 'l11                                     i&#xD;
 {&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8043-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC8043-00000023"/>&#xD;
 A 1&#xD;
 "4~&#xD;
 &#xD;
@@ -4399,7 +4404,7 @@ tk                       n '\&#xD;
 wr                  , +&#xD;
 t&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8043-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC8043-00000024"/>&#xD;
 YPt&#xD;
 &#xD;
 pears  h bet~14' 'sreek: an top&#xD;
@@ -4591,7 +4596,7 @@ them a half-burnt 'old shoe, which the, ground,,Aniupstanstiy, lher&#xD;
 emitted an odor rather iore peouhias appeared at'thy window the fgureef&#xD;
 than agreeable  It fu as  nova thatI a man, who' eaped into the chamber&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8043-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC8043-00000025"/>&#xD;
 ':&#xD;
 &#xD;
 r&#xD;
@@ -4735,7 +4740,7 @@ E~',7&#xD;
 ,  .   A&#xD;
 s          '           cry  "'e h 1; {.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8043-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC8043-00000026"/>&#xD;
 54   t: ,F    rJAC              UASLO.&#xD;
 Tr   princee w to was severely  t preobalbL:. thbe captutea. in whieb&#xD;
 not seruiesl injured, s(ttnoicvere; irose;Jtijllobe' returhedlto the Rtsfge,&#xD;
@@ -4842,7 +4847,7 @@ nerohadynadergona ao great a clioge atstgsipt, to warmjiim Mate ,oetg&#xD;
 Ihi .teli worse, ta at ' " Oge Arm'dlike his forniyer ar4ge, she lnmr4ingi4&#xD;
 Bili," .n  admitting .him .and the tears.  '            T      a  i&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8043-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC8043-00000027"/>&#xD;
 . V   s&#xD;
 &#xD;
 -          IkeC  HAJOLD&#xD;
@@ -5099,7 +5104,7 @@ was firaterate besittes.."&#xD;
 &#xD;
 ffi&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8043-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC8043-00000028"/>&#xD;
 r  L     -&#xD;
 &#xD;
 ya               ; tpitat'Md,?er dhe, madden.&#xD;
@@ -5283,7 +5288,7 @@ S&#xD;
 :'   k}&#xD;
 fyiy&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8043-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC8043-00000029"/>&#xD;
 60&#xD;
 &#xD;
 theeKiev.  1r. fitt&#xD;
@@ -5522,7 +5527,7 @@ i&#xD;
 ,   '      v                 }.   , i '   4&#xD;
 ,y,. *.       -&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8043-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC8043-00000030"/>&#xD;
 JAK 1--13 LD.&#xD;
 m;y, pbit e. to fectt  y d'st hec  , " ,Wot  hel's the m an 'd nti nd'&#xD;
 tion. Eis brat.        { ;    otst ok' e il, as ue rub  d hises&#xD;
@@ -5638,7 +5643,7 @@ y&#xD;
 .  '"                1                                         R&#xD;
 a                        .                          Y   4&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8043-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC8043-00000031"/>&#xD;
 64                         JACK hlitter.&#xD;
 1   the tegula track, while pursuing our =, *i o, no, Kate, I Isoatt  ist OM&#xD;
 erratiO jotu ney throtghthe realms-ofi go with you Yoeu Wh o not  hat&#xD;
@@ -5808,7 +5813,7 @@ N 1&#xD;
 get;&#xD;
 ,s  _' .&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8043-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC8043-00000032"/>&#xD;
 1'&#xD;
 &#xD;
 0&#xD;
@@ -6026,7 +6031,7 @@ y         #V~&#xD;
 &#xD;
 H taamp&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8043-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC8043-00000033"/>&#xD;
 I&#xD;
 &#xD;
 Q&#xD;
@@ -6176,7 +6181,7 @@ _.t  very 19ia-tlth:ret' hers., rd&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8043-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC8043-00000034"/>&#xD;
 ft&#xD;
 &#xD;
 JACt   ARbLD&#xD;
@@ -6359,7 +6364,7 @@ i&#xD;
 ,&#xD;
 .  if.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8043-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC8043-00000035"/>&#xD;
 T                   $JACK N2A$OLbO&#xD;
 all the Lrand  and 'backky-and be " 'caps maitth&amp;amp;d .ae ratu&#xD;
 d d  toht mlt'                       A  couhn  are aily repat. in at h&#xD;
@@ -6535,7 +6540,7 @@ a lodk of mingled stdrnnessiand' pity t&#xD;
 &#xD;
 .'.&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8043-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC8043-00000036"/>&#xD;
 ift&#xD;
 &#xD;
 e ine.is greater than'ype think.  Tei-  he took goud care to  i   er:&#xD;
@@ -6699,7 +6704,7 @@ Cot save i. guilty mother from the&#xD;
 &#xD;
 jl&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8043-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC8043-00000037"/>&#xD;
 .&#xD;
 L-; .&#xD;
 1&#xD;
@@ -6887,7 +6892,7 @@ prehension.                       held' the o ce elegantgay and hand&#xD;
 5&#xD;
 ,7r&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8043-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC8043-00000038"/>&#xD;
 1 '   t  ' Y&#xD;
 &#xD;
 Val&#xD;
@@ -7064,7 +7069,7 @@ With which 'e:; cormnon-lase- hesel"&#xD;
 ,.n&#xD;
 . ;s :&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8043-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC8043-00000039"/>&#xD;
 11t 1111101.0&#xD;
 MCt ftlftoLe,"&#xD;
 had by that tIme felt in the bed, they point theit' gash&#xD;
@@ -7185,7 +7190,7 @@ hin eyes, sparkled with pleasure; fur not deserchbim Thaerefo e, mutating&#xD;
 F  "I",&#xD;
 /4"V SiT4&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8043-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC8043-00000040"/>&#xD;
 Ann~d ~l~a $rud' and drowsy the bed, whet &amp;amp;&amp;amp;       w   ha@&#xD;
 Iapthin             "8shal ifi     tli db old sillaih '#&#xD;
  ' Whi     evil -are ye doi g nce?" Jack pientally iked'hi ss1f'&#xD;
@@ -7304,7 +7309,7 @@ q, , ,ice&#xD;
 &#xD;
 Q.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8043-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC8043-00000041"/>&#xD;
 1-54&#xD;
 &#xD;
 14&#xD;
@@ -7451,7 +7456,7 @@ L&#xD;
 , r     .&#xD;
 .'&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8043-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC8043-00000042"/>&#xD;
 .)Op&#xD;
 &#xD;
 6                          SACK HAROLD.&#xD;
@@ -7721,7 +7726,7 @@ r&#xD;
 &#xD;
 ' ; i 1} Fi 'S ,&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8043-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC8043-00000043"/>&#xD;
 S&#xD;
 &#xD;
 JA CE&#xD;
@@ -7885,7 +7890,7 @@ touable hotel 'I asked- Ja k, astthe' Zor young edveniturerswere~~usher&#xD;
 &#xD;
 '!&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8043-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC8043-00000044"/>&#xD;
 ed into a ;handsome parlor, furnished&#xD;
 with elegance .an4 taste.--In a few&#xD;
 minuteihe door opened, and a lady&#xD;
@@ -8097,7 +8102,7 @@ the gardener, .,who, stood, at a little&#xD;
 &#xD;
 /,&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8043-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC8043-00000045"/>&#xD;
 Ssf~tdeg g d adinily upon her.     n  t and creep  4ie  Lopes&#xD;
 -h  grad#Iy tpprbached  itr ghlumd tb*  i! it, ,d said, softly....&#xD;
 *Wd t.ihdt bfood of iust air'en ltedi  "D'des'nottiWadam' feel  tle heat of&#xD;
@@ -8225,7 +8230,7 @@ r,,              "r&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8043-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC8043-00000046"/>&#xD;
 *1&#xD;
 &#xD;
 ii 1&#xD;
@@ -8400,7 +8405,7 @@ r   ,&#xD;
 &#xD;
 . ix t,&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8043-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC8043-00000047"/>&#xD;
 tR&#xD;
 &#xD;
 fln  , powder_&#xD;
@@ -8553,7 +8558,7 @@ lII                                       1&#xD;
 I                                 SSA'&#xD;
 -{ ,p Y  e ~&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8043-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC8043-00000048"/>&#xD;
 98&#xD;
 &#xD;
 tiveo rnet&amp;amp;-Mar''&#xD;
@@ -8786,7 +8791,7 @@ d&#xD;
 it&#xD;
 t|&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8043-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC8043-00000049"/>&#xD;
 ./1&#xD;
 &#xD;
 IN&#xD;
@@ -8935,7 +8940,7 @@ t.&#xD;
 \\\111"'-'&#xD;
 Y,,                    F&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8043-00000050"/>&#xD;
+<pb n="102-103" xml:id="VAC8043-00000050"/>&#xD;
 F                       '1&#xD;
 Cj r  r 4'      [  /                         t     y&#xD;
 1          tr rr{I 1(                               i&#xD;
@@ -9152,7 +9157,7 @@ L !.&#xD;
 &#xD;
 en 4e&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8043-00000051"/>&#xD;
+<pb n="104-105" xml:id="VAC8043-00000051"/>&#xD;
 \L.&#xD;
 &#xD;
 y&#xD;
@@ -9369,7 +9374,7 @@ F  , t,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8043-00000052"/>&#xD;
+<pb n="106-107" xml:id="VAC8043-00000052"/>&#xD;
 I. r&#xD;
 &#xD;
 106&#xD;
@@ -9551,7 +9556,7 @@ tw pistols were hed o his hue.-&#xD;
 &#xD;
 :;&#xD;
 &#xD;
-<pb  n="108" xml:id="VAC8043-00000053"/>&#xD;
+<pb n="108" xml:id="VAC8043-00000053"/>&#xD;
 !'&#xD;
 &#xD;
 w"&#xD;
@@ -9681,8 +9686,8 @@ i&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

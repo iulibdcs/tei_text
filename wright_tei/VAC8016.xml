@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8016">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8016">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Le Vieux Salomon, ou, Une Famille D'Esclaves au XIXe Sicle </title>
-            <author >Testut, Charles, (1819-1892)</author>
+            <title>Le Vieux Salomon, ou, Une Famille D'Esclaves au XIXe Sicle </title>
+            <author>Testut, Charles, (1819-1892)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8016</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8016</idno>
+            <idno type="wright2" n="previous">wright2-2454A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Le vieux Salomon, ou, Une famille d'esclaves au XIXe sicle</title>
-                  <author >Testut, Charles, (1819-1892)</author>
+                  <title>Le vieux Salomon, ou, Une famille d'esclaves au XIXe sicle</title>
+                  <author>Testut, Charles, (1819-1892)</author>
                </titleStmt>
-               <extent >176 p. </extent>
+               <extent>176 p. </extent>
                <publicationStmt>
-                  <publisher >[s.n.]</publisher>
+                  <publisher>[s.n.]</publisher>
                   <pubPlace>Nouvelle-Orlans </pubPlace>
-                  <date  when="1872">1872</date>
+                  <date when="1872">1872</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Le vieux Salomon, ou, Une famille d'esclaves au XIXe sicle</head> 
+            <head>Le vieux Salomon, ou, Une famille d'esclaves au XIXe sicle</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8016-00000001"/>V&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8016-00000001"/>V&#xD;
 &#xD;
 ~1I&#xD;
 ~ii ~&#xD;
@@ -138,7 +143,7 @@ VIEUX&#xD;
 &#xD;
 LE&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8016-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8016-00000002"/>&#xD;
 3&#xD;
 &#xD;
 CC) NF Ti] E N C Th&#xD;
@@ -204,7 +209,7 @@ Qu'ost-ce quo lhi~ 'IPO, ~iHO11 it ]uil'OlC dii p1556&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8016-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8016-00000003"/>&#xD;
 ~PLENDEURS&#xD;
 &#xD;
 I.&#xD;
@@ -301,7 +306,7 @@ b;&#xD;
 &#xD;
 I.&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8016-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC8016-00000004"/>&#xD;
 tj&#xD;
 &#xD;
 4                                                  LE YJEIX ~ALOMOY                                                                                                                                                                        [Al YIELXI ~XLOMON.&#xD;
@@ -440,7 +445,7 @@ II&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8016-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC8016-00000005"/>&#xD;
 74.&#xD;
 '1&#xD;
 I'&#xD;
@@ -694,7 +699,7 @@ nait do 1-ni appnrtor dm15 Soli lit- iine petiiet lasso&#xD;
 &#xD;
 4;&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8016-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC8016-00000006"/>&#xD;
 I&#xD;
 &#xD;
 :I' \ I IIYYC '-'~AL( )M(YN.&#xD;
@@ -938,7 +943,7 @@ di&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8016-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC8016-00000007"/>&#xD;
 J0&#xD;
 &#xD;
 LE VIEUX SALOI\l ON.&#xD;
@@ -1189,7 +1194,7 @@ tub qu'elIe aiiue, et Li tin man par une Ibuimo&#xD;
 qu'il ebEnit, c'est un signal auquel en ob6it vite et&#xD;
 bien,&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8016-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC8016-00000008"/>&#xD;
 Fl2&#xD;
 &#xD;
 F--&#xD;
@@ -1446,7 +1451,7 @@ Courage! fr~res. - -. continua-t.il, commo s'il&#xD;
 s'adrossait aux pariahs do la 1civilisation, courage I..&#xD;
 mao ~heure doiV sonner qui nuns refera homes,&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8016-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC8016-00000009"/>&#xD;
 It&#xD;
 I,&#xD;
 ii&#xD;
@@ -1695,7 +1700,7 @@ I&#xD;
 &#xD;
 2&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8016-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC8016-00000010"/>&#xD;
 11&#xD;
 I I&#xD;
 'I,&#xD;
@@ -1956,7 +1961,7 @@ quot. ]~s qn'il n~e vit, ii m'apostropha' rudement:&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8016-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC8016-00000011"/>&#xD;
 18&#xD;
 &#xD;
 LE VIBUX SALOMON.&#xD;
@@ -2227,7 +2232,7 @@ Amnivoils totit do suite A In. i;oiae quo I'habitaiit&#xD;
 itifiuroti, SOIlS 1111 prdtoxte quolcoiiqtte; A In bollo&#xD;
 I iiorvat~to. Ii Ia fit. cureriiier dan~ till des cachots do&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8016-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC8016-00000012"/>&#xD;
 LE VIBUX SALOMOK.&#xD;
 &#xD;
 II&#xD;
@@ -2492,7 +2497,7 @@ co, comme ii y en a antour do chaque enceinte,&#xD;
 - solides; sun mon ordne, on a -conp&amp;amp; cos -cordes,* et&#xD;
 lea arbres sont tomb6s avec le fracas quo tii as on-&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8016-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC8016-00000013"/>&#xD;
 'I'&#xD;
 lii"&#xD;
 h&#xD;
@@ -2765,7 +2770,7 @@ quelqucs pas, pour mottre une table entro ole et&#xD;
 lii.&#xD;
 Thermidor so trouva alor.s pi ~s do la fe~tre,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8016-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC8016-00000014"/>&#xD;
 4&#xD;
 &#xD;
 LE VIBUX SALOMO~&#xD;
@@ -3043,7 +3048,7 @@ toujours suivie et toujours service comme uno fid~1o&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8016-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC8016-00000015"/>&#xD;
 F&#xD;
 .7&#xD;
 It&#xD;
@@ -3314,7 +3319,7 @@ tnib~i, pri~s tie Ia Guin6e, A PAge do vingt-cinq&#xD;
 ~poque, des naviros tie toutes los nations vonsient&#xD;
 dana nos parages pour ~changen buns objets d'in-&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8016-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC8016-00000016"/>&#xD;
 1~I11I1&#xD;
 !V ~&#xD;
 !~ ~&#xD;
@@ -3584,7 +3589,7 @@ minis voici ce qno7j'avais vii Li cinq heures: Le ca-&#xD;
 pitaine s'6tait taut apporter, snin lo pont, un grand&#xD;
 pot d'cau douce in616 d'envirou iii quart do vi",&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8016-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC8016-00000017"/>&#xD;
 30&#xD;
 &#xD;
 ~EdL]Fr~&#xD;
@@ -3866,7 +3871,7 @@ i~.&#xD;
 &#xD;
 31&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8016-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC8016-00000018"/>&#xD;
 LE VIBUX SALOMON.                                                                LE VIETJX SALOMOK.&#xD;
 &#xD;
 33&#xD;
@@ -4131,7 +4136,7 @@ t-il A sos deux visiteurs.&#xD;
 &#xD;
 id&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8016-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC8016-00000019"/>&#xD;
 L~ VIEUX SALOMOIY.&#xD;
 &#xD;
 4 t~&#xD;
@@ -4399,7 +4404,7 @@ avait ari-os6 lear tiny ails claque goatte (10 i~ui-&#xD;
 sang l'avait consacr6&#xD;
 Et II y a des ~tres qig croiraient quo do teller&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8016-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC8016-00000020"/>&#xD;
 LB VIE12~X SA.LOMOYP&#xD;
 &#xD;
 lit&#xD;
@@ -4661,7 +4666,7 @@ Comme un gt~ant, a succomb~,&#xD;
 &#xD;
 37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8016-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC8016-00000021"/>&#xD;
 8&#xD;
 &#xD;
 ~It~II~&#xD;
@@ -4837,7 +4842,7 @@ tro, et us se disaieut quo, si c'~la ponvait contixiuer&#xD;
 - ~t ~-&#xD;
 L'ESCLAVAGE BANS LES PAYS LIBRES.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8016-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC8016-00000022"/>&#xD;
 LE VLEUX SALOMON.                                                                    LI~ VIEUX SALOMOI~~&#xD;
 &#xD;
 41&#xD;
@@ -5097,7 +5102,7 @@ s&#xD;
 &#xD;
 4M&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8016-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC8016-00000023"/>&#xD;
 42                     Lb VIEUX SALOMON.&#xD;
 &#xD;
 I!&#xD;
@@ -5356,7 +5361,7 @@ vens son centre, ot obscure A sos oxtr6mit~s, los&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8016-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC8016-00000024"/>&#xD;
 AA4&#xD;
 &#xD;
 LE VIBUX SALOMON.&#xD;
@@ -5611,7 +5616,7 @@ g43ii6, qn'il en sonifrait evudenunuent. A hi Liii, ii&#xD;
 Sc d6cida du moms mal qu'~ put.&#xD;
 - Comment VouS appele~-vous~ domanda-t-J.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8016-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC8016-00000025"/>&#xD;
 46&#xD;
 &#xD;
 III&#xD;
@@ -5877,7 +5882,7 @@ I. ~&#xD;
 &#xD;
 47&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8016-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC8016-00000026"/>&#xD;
 i~F V1EU~ SALOMO~.                                                                                 LE VTh~IIX ~ALOMOK.&#xD;
 &#xD;
 49&#xD;
@@ -6120,7 +6125,7 @@ ii&#xD;
 *1&#xD;
 K&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8016-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC8016-00000027"/>&#xD;
 50                       LB VIBUX SALOMOI~.&#xD;
 &#xD;
 LB VLEUX SALOMOK.&#xD;
@@ -6378,7 +6383,7 @@ I-&#xD;
 &#xD;
 50&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8016-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC8016-00000028"/>&#xD;
 LE YIEUX SALOMON.                                                                 LE VIEUX SALOMOK.                     53&#xD;
 &#xD;
 6~ait en cc' moment chcz nuc paronto, et n'avait pas&#xD;
@@ -6637,7 +6642,7 @@ voir- certaines dtoiles dans son pavilion.&#xD;
 &#xD;
 53&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8016-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC8016-00000029"/>&#xD;
 Z~4                            LIE YIEtT~ SI&amp;amp;LOMO~T.                                                                                   LE VIEUX ~ALOMOK.                                55&#xD;
 &#xD;
 - Libre ~ vous. Eli hen, combica vcidviez&#xD;
@@ -6897,7 +6902,7 @@ message consolateur, sun Los fronts courb6s.. --&#xD;
 qui so nel~voimt pen a pen, en roconnaissant qu'elle&#xD;
 s'appelle l'Esp~irauce.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8016-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC8016-00000030"/>&#xD;
 LE 'VIEUX SALOMOK.                                                                                                                  57&#xD;
 &#xD;
 Ii&#xD;
@@ -7163,7 +7168,7 @@ itIi&#xD;
 &#xD;
 57&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8016-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC8016-00000031"/>&#xD;
 LB .VIEUX ~ALOMON.&#xD;
 &#xD;
 LE YIEU1~ SALOi~'iOK.&#xD;
@@ -7418,7 +7423,7 @@ F&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8016-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC8016-00000032"/>&#xD;
 60                          LE VIBUX SALOMQI~.                                                                     liE ~IETJX SALOMO~.                        61&#xD;
 &#xD;
 !II~&#xD;
@@ -7676,7 +7681,7 @@ II-&#xD;
 &#xD;
 60&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8016-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC8016-00000033"/>&#xD;
 02                                LB VTBIZ7X    LciMON.&#xD;
 &#xD;
 ft&#xD;
@@ -7862,7 +7867,7 @@ own donue par lo vicil aveuigbo. Et c'6tait bien le bonchuno (in Mississippi - q
 &#xD;
 62&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8016-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC8016-00000034"/>&#xD;
 04                                                                                                                  L~ VIETJYI SALOMOTh&#xD;
 LE VIEUX SALOMOISr.&#xD;
 &#xD;
@@ -8141,7 +8146,7 @@ SA&#xD;
 &#xD;
 '5&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8016-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC8016-00000035"/>&#xD;
 Ij&#xD;
 I     I&#xD;
 .1&#xD;
@@ -8399,7 +8404,7 @@ liomme.&#xD;
 &#xD;
 . a 1. u allois&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8016-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC8016-00000036"/>&#xD;
 1-&#xD;
 &#xD;
 Ii&#xD;
@@ -8661,7 +8666,7 @@ dOrifl4LiCiit ou pronaictit le scm, et ~ipres quc lleiiry&#xD;
 et LoYsa invent couches, Casitnir lit hi lecture des&#xD;
 pa~es dnvoyces par ~aiomoii.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8016-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC8016-00000037"/>&#xD;
 7"&#xD;
 ~&#xD;
 *1&#xD;
@@ -8927,7 +8932,7 @@ gros~tw.&#xD;
 7!&#xD;
 .3&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8016-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC8016-00000038"/>&#xD;
 LB YTEITX SALOMOIN.&#xD;
 &#xD;
 '-A&#xD;
@@ -9200,7 +9205,7 @@ vous no pourrez pus vons. faire laide!&#xD;
 &#xD;
 E&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8016-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC8016-00000039"/>&#xD;
 LE VIEU~ ~AIiOMOTh                                                                  LE VIBUX SALOMOX.&#xD;
 &#xD;
 75&#xD;
@@ -9449,7 +9454,7 @@ Son monologue, commenc6 CL voix basso, s'~tait&#xD;
 61ev6 pen CL pen jnsqn'CL Faccent non contend do La&#xD;
 coh~re.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8016-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC8016-00000040"/>&#xD;
 LE YIEUX SALOMO~T.&#xD;
 &#xD;
 E VI I~UX SALOMO~ T.&#xD;
@@ -9701,7 +9706,7 @@ ntis ; le tout portant lino pioclie et un petit vase&#xD;
 do for blanc; qucIques uns un sabre Li cannes... -&#xD;
 en totality environ doax cents sujets so rondant&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8016-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC8016-00000041"/>&#xD;
 LE VTEUX SALOMON.                                                                   LE VIEUX ~ALOMOI%.&#xD;
 &#xD;
 chacuil dans sa case, pour seupor ou so roposer, Ia&#xD;
@@ -9957,7 +9962,7 @@ dons, une hacliotte, ot quciques bouts do planclies. -&#xD;
 II venait aider aux r6parations ot ~ l'embeW8sernent&#xD;
 - do La triste eabane do son nouveau fr~re.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8016-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC8016-00000042"/>&#xD;
 80&#xD;
 &#xD;
 LE FIEUX SALOMOTh&#xD;
@@ -10218,7 +10223,7 @@ pen Li pen les v(~teunents (10 sa feurumne, Ct arrival Li&#xD;
 une euflure tongue (31. droite, conroaspofl(lallt exac-&#xD;
 it&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8016-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC8016-00000043"/>&#xD;
 LE FIEUX SALOMOTh                                                                   LE VIEUX SALO1\IOK.&#xD;
 &#xD;
 82&#xD;
@@ -10474,7 +10479,7 @@ I,'&#xD;
 4 4&#xD;
 -l&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8016-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC8016-00000044"/>&#xD;
 LE VTETJX SALOMON.                                                                    LE VIEUX SALOMOK.&#xD;
 &#xD;
 84&#xD;
@@ -10744,7 +10749,7 @@ I&#xD;
 'I&#xD;
 I&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8016-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC8016-00000045"/>&#xD;
 I                                                            Li"&#xD;
 &#xD;
 'VIE r~x SALOMON.&#xD;
@@ -11003,7 +11008,7 @@ cola ~ to m6nit~-je?&#xD;
 &#xD;
 LE VIFUX SALO~OTh&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8016-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC8016-00000046"/>&#xD;
 8&#xD;
 &#xD;
 4&#xD;
@@ -11266,7 +11271,7 @@ ha lihent6 ot de qnoi vivre. J'ai jet6 pour cola Ie~&#xD;
 &#xD;
 89&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8016-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC8016-00000047"/>&#xD;
 90&#xD;
 &#xD;
 LE YIEUX SALOMO1~.                                                              LE YIEUX SALOMON.&#xD;
@@ -11527,7 +11532,7 @@ sa cabane, apr~s ane jounn6e do rude labour 1 J~I1o&#xD;
 ici, mi lC~! s6par6s par qusiques pas, et no pouvant -&#xD;
 Sc voir! Resins, qn'on lul avait apport~,-donz~ib..&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8016-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC8016-00000048"/>&#xD;
 92                        LE MIEL~ SALOMO~                                                                      LE- VIEUX SAILOMOX.                       93&#xD;
 &#xD;
 paisiblenierit aprcs a'-oir Jiris ~ ~I~* LeuThnt, (4UC&#xD;
@@ -11772,7 +11777,7 @@ Casizuir, dit Silitne, preuds bien garde! tu ne&#xD;
 &#xD;
 93&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8016-00000049"/>&#xD;
+<pb n="94-95" xml:id="VAC8016-00000049"/>&#xD;
 LE VIEUX SALOMON.&#xD;
 &#xD;
 94&#xD;
@@ -12054,7 +12059,7 @@ du genre limninin.&#xD;
 "Au bout do tonte th6orie, ii hint bien croire Lb&#xD;
 hi -I~uissnnce et Lb Ia, Justice do Dien - .. et, avec&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8016-00000050"/>&#xD;
+<pb n="96-97" xml:id="VAC8016-00000050"/>&#xD;
 ~! J&#xD;
 1~.&#xD;
 if&#xD;
@@ -12328,7 +12333,7 @@ mais gui, pour cc qui touche son bonheur intime,&#xD;
 est, je. crois, capable do tout.... ~iuais do tout!&#xD;
 eomprenez-vous ~ .l'ni d~jLl appnis quelgue chose&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8016-00000051"/>&#xD;
+<pb n="98-99" xml:id="VAC8016-00000051"/>&#xD;
 LE VIFUX SALOMON.&#xD;
 LB YIEITX SALOMOTh                                                                                                     99&#xD;
 &#xD;
@@ -12605,7 +12610,7 @@ pour tin ?... VoilLi, en une ligue, la parties mat6-&#xD;
 ride surabondamment pourvue.&#xD;
 "Maintenant, voyez pour Jo c~ur, pour l'~me,&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8016-00000052"/>&#xD;
+<pb n="100-101" xml:id="VAC8016-00000052"/>&#xD;
 1&#xD;
 &#xD;
 I,&#xD;
@@ -12869,7 +12874,7 @@ Otre A moi avec bonno volont6, nonobstaimt los&#xD;
 moy&amp;amp;ns ~u'il me plains. d'employen pour voims ~~voir&#xD;
 quand m~mne d'ici JA; ~ am bout do trois jours,&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8016-00000053"/>&#xD;
+<pb n="102-103" xml:id="VAC8016-00000053"/>&#xD;
 102&#xD;
 &#xD;
 LE VIEUX SALOMOX.&#xD;
@@ -13155,7 +13160,7 @@ sieur!..&#xD;
 EV il so pr6cipita sir hi main do l'6cononie, qu'il&#xD;
 embrassa en lilOUi'ant do reconnaissance.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8016-00000054"/>&#xD;
+<pb n="104-105" xml:id="VAC8016-00000054"/>&#xD;
 1ra&#xD;
 &#xD;
 I:&#xD;
@@ -13433,7 +13438,7 @@ I&#xD;
 14&#xD;
 'U&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8016-00000055"/>&#xD;
+<pb n="106-107" xml:id="VAC8016-00000055"/>&#xD;
 *1'&#xD;
 'U&#xD;
 It&#xD;
@@ -13693,7 +13698,7 @@ tants utipararatit , et do (X~ qni uivait (~t~ I'aj)port4~&#xD;
 vinor quel pel-soiluage ehut ILi et [)oiui-qiioi ii y 6tait.&#xD;
 Abors II colaprit hi danger, et aussi hi puissazice&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8016-00000056"/>&#xD;
+<pb n="108-109" xml:id="VAC8016-00000056"/>&#xD;
 - -- - -. -r~ L TX&amp;amp;"'(*&#xD;
 &#xD;
 LIE VIEtTI SALOMO~.&#xD;
@@ -13949,7 +13954,7 @@ IMIS esp&amp;amp;er. JO 80115 quo j'ai re~.u un coup ~-&#xD;
 freux ; Jo me sons houteitseethnmili6e..., Si vons&#xD;
 saviez!              -&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8016-00000057"/>&#xD;
+<pb n="110-111" xml:id="VAC8016-00000057"/>&#xD;
 110E&#xD;
 &#xD;
 LE VIiE~X Sx1~9MC)~.&#xD;
@@ -14218,7 +14223,7 @@ i&#xD;
 &#xD;
 111&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8016-00000058"/>&#xD;
+<pb n="112-113" xml:id="VAC8016-00000058"/>&#xD;
 112                         LE VIBUX SALOMOIN.                                                                                                                 113&#xD;
 &#xD;
 J~E YIEUX SALOMO T.&#xD;
@@ -14480,7 +14485,7 @@ comme rossuscito 1. jeune mulfitresse, (10 l'esp~ice&#xD;
 d'agonie niorabe qui J'avait frapp~e depnis 1'lienro&#xD;
 do sa fi.iite. ~on jugement, naturellonient droit et&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8016-00000059"/>&#xD;
+<pb n="114-115" xml:id="VAC8016-00000059"/>&#xD;
 t&#xD;
 a&#xD;
 :1&#xD;
@@ -14749,7 +14754,7 @@ Allons, tn as i~aisou; ma-is du disable si je~cou-&#xD;
 &#xD;
 7&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8016-00000060"/>&#xD;
+<pb n="116-117" xml:id="VAC8016-00000060"/>&#xD;
 1% 4&#xD;
 !?i ~&#xD;
 I&#xD;
@@ -15004,7 +15009,7 @@ temps ~ aulne, ii re~oit tine hettre do Rose, leitre&#xD;
 &#xD;
 117&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8016-00000061"/>&#xD;
+<pb n="118-119" xml:id="VAC8016-00000061"/>&#xD;
 LE VIEtX ~ALOMO~.&#xD;
 &#xD;
 1 1S&#xD;
@@ -15276,7 +15281,7 @@ II&#xD;
 'Iii&#xD;
 'I&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8016-00000062"/>&#xD;
+<pb n="120-121" xml:id="VAC8016-00000062"/>&#xD;
 jr~&#xD;
 ~  II&#xD;
 I&#xD;
@@ -15486,7 +15491,7 @@ LA TERRE ET. LE CIEL.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8016-00000063"/>&#xD;
+<pb n="122-123" xml:id="VAC8016-00000063"/>&#xD;
 I ~22                      LE YIEL7~ ~LOMON.                                                                       LE VIEUX $ALOMOY.                          12~&#xD;
 &#xD;
 ~1&#xD;
@@ -15733,7 +15738,7 @@ gent! Si ~ons saviez coin inc j'aimc Ic comptant!&#xD;
 &#xD;
 122&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8016-00000064"/>&#xD;
+<pb n="124-125" xml:id="VAC8016-00000064"/>&#xD;
 Ll~ VIEUX SALOMO2~.                                                                          LE VIETJX SALOMOX.&#xD;
 &#xD;
 11&#xD;
@@ -15967,7 +15972,7 @@ ct-re. La 1iiulLitro~sc (Tilt voL un s'.-colt~s tin dci,&#xD;
 dai~s cc miracle du loup devenu aaiieau, et ellese&#xD;
 jeta aux ~nenou~ do cot liounme:&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8016-00000065"/>&#xD;
+<pb n="126-127" xml:id="VAC8016-00000065"/>&#xD;
 12~                           ~-LE YIEtTX ~ALOMO~ .                                                                                  LE VIEu:c    U~OMo~&#xD;
 ~Ij&#xD;
 &#xD;
@@ -16246,7 +16251,7 @@ j&#xD;
 &#xD;
 126&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8016-00000066"/>&#xD;
+<pb n="128-129" xml:id="VAC8016-00000066"/>&#xD;
 123                       LE Y1EUX SALO~M ON.&#xD;
 &#xD;
 I~, vClut pi'otidi"~ leurs plaisirs an lac Pontehiar-&#xD;
@@ -16503,7 +16508,7 @@ yeux. 1~uuis die so let-a raPj~1omneit, ouvl'it&#xD;
 Ia Porte (to h~ cabliuc ot soitit, en proic Li ummo pro-&#xD;
 ~Qll(IC (JZIiotioui - . . . onbi iaiit sa fille ~tu~u Jo lit (lii ion-&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8016-00000067"/>&#xD;
+<pb n="130-131" xml:id="VAC8016-00000067"/>&#xD;
 4'&#xD;
 &#xD;
 44444&#xD;
@@ -16763,7 +16768,7 @@ j'approclie dos hoax oCt ii g6mit; soyoz g~n6reux&#xD;
 jusqu'au bout. . -. quo je vous estime toujours, Ob&#xD;
 n'aie pas honte on regret do ce qnej'ai fait!&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8016-00000068"/>&#xD;
+<pb n="132-133" xml:id="VAC8016-00000068"/>&#xD;
 LE VIETT~ SALQMO2~.&#xD;
 &#xD;
 132&#xD;
@@ -17027,7 +17032,7 @@ I ~i&#xD;
 I&#xD;
 i A&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8016-00000069"/>&#xD;
+<pb n="134-135" xml:id="VAC8016-00000069"/>&#xD;
 134                         LE V1E1~X ~XLOMO .&#xD;
 &#xD;
 ii, 41&#xD;
@@ -17288,7 +17293,7 @@ rection d'uV9is (pais.&#xD;
 Alorsles fngitifs mont~rent Je vigonroux cheval,&#xD;
 et, piqnant4 Yer8 tin petit sentier pen frequent,&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8016-00000070"/>&#xD;
+<pb n="136-137" xml:id="VAC8016-00000070"/>&#xD;
 13G                       LE YIEt~X SALOMON~&#xD;
 &#xD;
 ii ~4&#xD;
@@ -17536,7 +17541,7 @@ dovoir, bion dorix ! do soconrir, antant quo je Ic&#xD;
 puis, cotix cliii sonifrent i'~jnstemcnt, ot certain&#xD;
 18&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8016-00000071"/>&#xD;
+<pb n="138-139" xml:id="VAC8016-00000071"/>&#xD;
 LE VIEUX SALOMON.&#xD;
 &#xD;
 LB V'L~U~ SALOMO~&#xD;
@@ -17817,7 +17822,7 @@ Or, le nouveau maitre provisoiro n'6tait non moms&#xD;
 quo l'arui dut d~funt, et coinnie los deux fugitifs no&#xD;
 figurent quo corume absent dans l'actif g6n4ral, le&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8016-00000072"/>&#xD;
+<pb n="140-141" xml:id="VAC8016-00000072"/>&#xD;
 140)&#xD;
 &#xD;
 4    1&#xD;
@@ -18011,7 +18016,7 @@ lo soil', une fois par senusine, ella quittnuut avant&#xD;
 le jour; mais le pays no me soinbic pas valoir&#xD;
 muetix..&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8016-00000073"/>&#xD;
+<pb n="142-143" xml:id="VAC8016-00000073"/>&#xD;
 tE&#xD;
 - Y aVOz*Y0115 done vii que~que sc~no attris.&#xD;
 tkUItO T&#xD;
@@ -18257,7 +18262,7 @@ eufin e'6tait adroitement grini~, bien qn'il no fI~t&#xD;
 conun de pers~rnne. - " IJue precaution no peiu pas&#xD;
 nuire, " s'6tait-il dit. Le jour venait ra~idemont.&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8016-00000074"/>&#xD;
+<pb n="144-145" xml:id="VAC8016-00000074"/>&#xD;
 tEVIEO'X SAtOM~.                                                            Li~ YIEUX SALOMOX.&#xD;
 &#xD;
 144&#xD;
@@ -18520,7 +18525,7 @@ lo paradise; nous l)onsorions plut6t, A vrai dire, qu'il&#xD;
 ro~ardait los nusgos pour augiiren dn temp8. -&#xD;
 19&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8016-00000075"/>&#xD;
+<pb n="146-147" xml:id="VAC8016-00000075"/>&#xD;
 LE VIEITX SALOMON.&#xD;
 &#xD;
 LE VIEUX SALO~IOI~.&#xD;
@@ -18769,7 +18774,7 @@ ii&#xD;
 &#xD;
 it&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8016-00000076"/>&#xD;
+<pb n="148-149" xml:id="VAC8016-00000076"/>&#xD;
 148                       LE YIE~ ~ALQMO~                                                                        LE YIEtrX ~ALO~I:O~L                      14~&#xD;
 &#xD;
 pilot - W~yCZ.VOU~ le doigt &amp;amp;e Ia P~o~ideude? ce&#xD;
@@ -19002,7 +19007,7 @@ I rend 1'opdration tiuifhloile c-u longuc.&#xD;
 - Yoyons, Ros-Ino-to tielidmas-tu tin nqiiillo?&#xD;
 L~ In un. Si hi vies pas sage, je to remettrai ta vi-&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8016-00000077"/>&#xD;
+<pb n="150-151" xml:id="VAC8016-00000077"/>&#xD;
 130                       LE ~VIETX SALOMOY~&#xD;
 &#xD;
 lame robe, et indnsieiir Miehaud te trouvera laide!&#xD;
@@ -19239,7 +19244,7 @@ rest6e gnav~c dans mon c~nr. J'ai vii Ia Guade-&#xD;
 loupe; j'ai vu Salomon couch6 ot entour6 do mon.&#xD;
 le~ II anI~ong~it 1'iu pen~&amp;amp;tw~ I~ nos tr~res~&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8016-00000078"/>&#xD;
+<pb n="152-153" xml:id="VAC8016-00000078"/>&#xD;
 14E VILUX SALOMOY.                                                                                   LJ~ VI1~I~'X ~ALOMON.&#xD;
 &#xD;
 J'ai vu cela counme Jo vans vois, toi et notre Pa.&#xD;
@@ -19476,7 +19481,7 @@ doon~ le bonheur, malgr~ lee homess. et Jo suis-&#xD;
 pr~t - an D4part, quand eli comme 11 plafra i~. Diou'&#xD;
 1~ous le prions- pour vous, mon fr~re, sans rem.&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8016-00000079"/>&#xD;
+<pb n="154-155" xml:id="VAC8016-00000079"/>&#xD;
 I&#xD;
 &#xD;
 154&#xD;
@@ -19720,7 +19725,7 @@ Ufle peune iii 111) iiialhciur til sais quo 110115 ne uloflit&#xD;
 &#xD;
 Ii&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8016-00000080"/>&#xD;
+<pb n="156-157" xml:id="VAC8016-00000080"/>&#xD;
 LX YTEUX  L1O~.'&#xD;
 &#xD;
 L~ vxi&amp;amp;crx ~&#xD;
@@ -19963,7 +19968,7 @@ I&#xD;
 4&#xD;
 I!&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8016-00000081"/>&#xD;
+<pb n="158-159" xml:id="VAC8016-00000081"/>&#xD;
 LB YTETJX SALOMQ:~-.&#xD;
 &#xD;
 A.uglhi:ilz s~- :ivr;~ ~t rougir (3(- 1Ia1~iu . Sn a~~iui1r-&#xD;
@@ -20194,7 +20199,7 @@ I&#xD;
 I&#xD;
 '13&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8016-00000082"/>&#xD;
+<pb n="160-161" xml:id="VAC8016-00000082"/>&#xD;
 bE YIEUX SALOi~1Ox.&#xD;
 &#xD;
 de la main gauche, et qu~iit Ii- (-a'teli;i-. 1.05 tiOls&#xD;
@@ -20449,7 +20454,7 @@ i&#xD;
 iLj&#xD;
 111&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8016-00000083"/>&#xD;
+<pb n="162-163" xml:id="VAC8016-00000083"/>&#xD;
 I 62                       LE VIE~X S~OMOi~.                                                                    LB VIEUX SALOMOX.&#xD;
 &#xD;
 "11 faut vous dire que, le matin ni~me, un billet 1&#xD;
@@ -20700,7 +20705,7 @@ l's9-&#xD;
 ii'.&#xD;
 i~i&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8016-00000084"/>&#xD;
+<pb n="164-165" xml:id="VAC8016-00000084"/>&#xD;
 LE ~JE~X SALOMOY.&#xD;
 &#xD;
 LE '~I~3~ 5MiODIO~&#xD;
@@ -20957,7 +20962,7 @@ lB&#xD;
 I ~2'&#xD;
 1 2t&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8016-00000085"/>&#xD;
+<pb n="166-167" xml:id="VAC8016-00000085"/>&#xD;
 106                           LE VIEUX ~ALO~tOK~&#xD;
 &#xD;
 Mainteuflnt - ~i an regard do hi Providence&#xD;
@@ -21207,7 +21212,7 @@ i~,i&#xD;
 U&#xD;
 if&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8016-00000086"/>&#xD;
+<pb n="168-169" xml:id="VAC8016-00000086"/>&#xD;
 -Li    '-L'I~'&#xD;
 &#xD;
 141~ VIBUX ~ALOMO L&#xD;
@@ -21461,7 +21466,7 @@ Ii&#xD;
 Li;&#xD;
 I&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8016-00000087"/>&#xD;
+<pb n="170-171" xml:id="VAC8016-00000087"/>&#xD;
 170                                  .UIi~ VU2~UA&#xD;
 oreilles 6taient SUSpOIidU'35 CL sa voix;" totta ~con-&#xD;
 taient halelants, curioux; ici i'espiraut CL l'aiee, ICL&#xD;
@@ -21714,7 +21719,7 @@ I&#xD;
 I&#xD;
 P&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8016-00000088"/>&#xD;
+<pb n="172-173" xml:id="VAC8016-00000088"/>&#xD;
 172&#xD;
 &#xD;
 LB YIEUX SALOMO1~.&#xD;
@@ -21952,7 +21957,7 @@ que~e retour snbittde Ia lumi~re d~ns sec yeux&#xD;
 6temtsdepuis trente aim, ~tait tour liii le signal&#xD;
 de sa dt~Iivrailco d6fiuitive.&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8016-00000089"/>&#xD;
+<pb n="174-175" xml:id="VAC8016-00000089"/>&#xD;
 174&#xD;
 &#xD;
 - 2K~. ajouta-t-il Li quciquec-uns, coniwo iii lie&#xD;
@@ -22201,7 +22206,7 @@ I-I.&#xD;
 C       4&#xD;
 K-&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8016-00000090"/>&#xD;
+<pb n="176-177" xml:id="VAC8016-00000090"/>&#xD;
 LB VIBUX SALOMOi~T.&#xD;
 &#xD;
 Les pleurs conlajent en silence de tons 1es~yeux.&#xD;
@@ -22252,8 +22257,8 @@ J&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

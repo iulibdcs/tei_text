@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8019">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8019">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Thirteen Good Stories From Old and New </title>
-            <author >Anonymous</author>
+            <title>Thirteen Good Stories From Old and New </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8019</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8019</idno>
+            <idno type="wright2" n="previous">wright2-2457</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Thirteen good stories from Old and new</title>
-                  <author >Anonymous</author>
+                  <title>Thirteen good stories from Old and new</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >94 p.</extent>
+               <extent>94 p.</extent>
                <publicationStmt>
-                  <publisher >Old and New Offices</publisher>
+                  <publisher>Old and New Offices</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1873">[1873?]</date>
+                  <date when="1873">[1873?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Thirteen good stories from Old and new</head> 
+            <head>Thirteen good stories from Old and new</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8019-00000001"/>[OLD AND N~w SERIES, No. I.J&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8019-00000001"/>[OLD AND N~w SERIES, No. I.J&#xD;
 &#xD;
 p&#xD;
 THIRTEEN GOOD STORIES&#xD;
@@ -115,7 +120,7 @@ OLD AND NEW OFFICE,&#xD;
 &#xD;
 I'..&#xD;
 &#xD;
-<pb  n="Advertisement-3" xml:id="VAC8019-00000002"/>&#xD;
+<pb n="Advertisement-3" xml:id="VAC8019-00000002"/>&#xD;
 WHITE'S SPECIALTY&#xD;
 ~\.&#xD;
 &#xD;
@@ -264,7 +269,7 @@ conceit as immovable as the BassRock,&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8019-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8019-00000003"/>&#xD;
 4                 ~~~~Devil-P uzzlerse.                                                            Dei-uze8&#xD;
 &#xD;
 just as other folks sometimes are, bu&#xD;
@@ -471,7 +476,7 @@ A&#xD;
 &#xD;
 Devil-Puzzlers.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8019-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8019-00000004"/>&#xD;
 6                        Devit&#xD;
 experimented up to the existing lbs&#xD;
 its of knowledge on the question o:&#xD;
@@ -668,7 +673,7 @@ perfect and quiet style.&#xD;
 The doctor arose,- and greeted his&#xD;
 visitor with a degree of steadiness&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8019-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8019-00000005"/>&#xD;
 8         ~~~~Devil-Puzzlers-                             DvZTzle89&#xD;
 &#xD;
 and politeness that did him the great-&#xD;
@@ -868,7 +873,7 @@ him, and spoke.&#xD;
 &#xD;
 Devil-Puzzlers.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8019-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8019-00000006"/>&#xD;
 to                       Devil-a&#xD;
 "You know they're every once in&#xD;
 differences know; but it seems to me&#xD;
@@ -1070,7 +1075,7 @@ of three questions; and he hiss beaten&#xD;
 &#xD;
 .Devil-Puzzlers.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8019-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8019-00000007"/>&#xD;
 12                        Devil-.&#xD;
 me in two of them already. I've but&#xD;
 one more&#xD;
@@ -1263,7 +1268,7 @@ This remedy has been used in thousands of the worst cases with astonishing and u
 success, and is offered to the public with full conf'denc~ in its merits. It contains no poi.&#xD;
 sonous or injurioa~ properties wbatevcr~ and an in~ ~nt ina~ t~kq ~t ~ifli, ~er~ct s~Iit~~.&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8019-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8019-00000008"/>&#xD;
 I&#xD;
 &#xD;
 THE POLE'S STOI~Y.&#xD;
@@ -1468,7 +1473,7 @@ Grand-duke of Lithuania, Jageilon, who obtained&#xD;
 ~he Polish crown by marriage and election in 1586.&#xD;
 ills dynasty b~~gie extinct ~n 1572.- Translestor.&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8019-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8019-00000009"/>&#xD;
 16&#xD;
 &#xD;
 The Pole 's Story.&#xD;
@@ -1623,7 +1628,7 @@ his own body.&#xD;
 "But there remained a thirdtask for&#xD;
 him to propose to the Devil. Seeing&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8019-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8019-00000010"/>&#xD;
 1' q&#xD;
 p&#xD;
 11&#xD;
@@ -1828,7 +1833,7 @@ Ritee, rallee, rellay."&#xD;
 &#xD;
 19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8019-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8019-00000011"/>&#xD;
 20               The Improvisator&#xD;
 This opening verse was evidently a&#xD;
 formula. The real work of improvi-&#xD;
@@ -2029,7 +2034,7 @@ words apply to me, Professor?"&#xD;
 growled Prof. Walters.&#xD;
 "I will tell you what I shall do,"&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8019-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8019-00000012"/>&#xD;
 22            The Improvisatol&#xD;
 replied Mr. Bangs. "Heeler, you're&#xD;
 wanted!"&#xD;
@@ -2232,7 +2237,7 @@ it, they gets to be sort of beasts, I&#xD;
 think, sir.&#xD;
 "Ah," said the doctor, pleased ~t&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8019-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8019-00000013"/>&#xD;
 24                      The La&#xD;
 this gleam of intelligence, "if you&#xD;
 realize that you're a beast, you are in&#xD;
@@ -2412,7 +2417,7 @@ him, and chipped off the rough bark&#xD;
 from his shield, and said, "You paint&#xD;
 so well, now paint my water-rat for&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8019-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8019-00000014"/>&#xD;
 26                       The Two&#xD;
 me." "Nor said Ladislaus, though&#xD;
 he was very good-natured, "I cannot&#xD;
@@ -2617,7 +2622,7 @@ cever saw the pestilence with their eyes.&#xD;
 Lad rested upon the cities of Bohe-&#xD;
 nia.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8019-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8019-00000015"/>&#xD;
 28&#xD;
 &#xD;
 V.&#xD;
@@ -2829,7 +2834,7 @@ so far. We choose to look up; to draw&#xD;
 &#xD;
 ,o Princes.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8019-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8019-00000016"/>&#xD;
 30                    New England Shaken.&#xD;
 nearer God; and where He leads we spread for Bela; and that every day&#xD;
 follow." his breakfast and his dinner and his&#xD;
@@ -2927,7 +2932,7 @@ ladies seated herself in all her amupli- the hubbub and cOnfusion which pre-&#xD
 tude in the place thus vacated, occupy- vails in a waiting-room, had, as it hap-&#xD;
 ing the space which ought to have pened, an attentive spectator.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8019-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8019-00000017"/>&#xD;
 82                    IntheWi&#xD;
 At the opposite side of the room&#xD;
 sat a man, who, to judge by appear-&#xD;
@@ -3128,7 +3133,7 @@ aid the first Frenchman.&#xD;
 "And as for the theory,~~ said the&#xD;
 ther, "that a people who are op.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8019-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8019-00000018"/>&#xD;
 84                    I~t the Wi~&#xD;
 pressed are not worthy any thing bet-&#xD;
 ter, it is one of those truths where an&#xD;
@@ -3329,7 +3334,7 @@ on her side, perceived that her travel-&#xD;
 ling companion had a far greater&#xD;
 acquaintance with Finland than i&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8019-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8019-00000019"/>&#xD;
 I&#xD;
 &#xD;
 86                   intheWi&#xD;
@@ -3532,7 +3537,7 @@ arched through all the lists of ar- -&#xD;
 vals, both official and non-official,&#xD;
 the Fianish papers di~ring the au-&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8019-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8019-00000020"/>&#xD;
 38          -           Re~ecce9&#xD;
 tumn in question, but have failed to&#xD;
 find the name of Gertrude Sji~ding;&#xD;
@@ -3713,7 +3718,7 @@ tile existence of the outside world, and&#xD;
 do not notice my presence, absorbed&#xD;
 as they ate in the ideg~L"&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8019-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8019-00000021"/>&#xD;
 40                        Rebecc&#xD;
 It was at this moment that the&#xD;
 doorkeeper touched me, and said, -&#xD;
@@ -3914,7 +3919,7 @@ the thousand little niceties of a the-&#xD;
 atrical wardrobe. Only once did she&#xD;
 lose her temper while she was in the&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8019-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8019-00000022"/>&#xD;
 42                        Rebee&#xD;
 theatre. The good lady ~vore a fals&#xD;
 front and a cap. A clumsy sceae~&#xD;
@@ -4120,7 +4125,7 @@ cheers to herself, and indulging in a&#xD;
 sort of war-dance. Then she went&#xD;
 back, and heard George Builington&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8019-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8019-00000023"/>&#xD;
 What happened to the Kkan.&#xD;
 &#xD;
 tell how he worked his way around&#xD;
@@ -4253,7 +4258,7 @@ Rebecca's .Ma.&#xD;
 &#xD;
 46&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8019-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8019-00000024"/>&#xD;
 46               What h~ppene&#xD;
 the entire nation betook themselves&#xD;
 to attend him, weeping and wailing,&#xD;
@@ -4457,7 +4462,7 @@ more perfumed wood. With the cry,&#xD;
 "Tok! tok 1"it alighted upon a very&#xD;
 fine stone slab on the palace-roof;&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8019-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8019-00000025"/>&#xD;
 48                What happene&#xD;
 and out of the bird stepped forth&#xD;
 the charming god's son, Cuklaketu,&#xD;
@@ -4634,7 +4639,7 @@ formly successful."-THEonoaz METCALF, Druggist, Tremont Street, Boston,&#xD;
 &#xD;
 What happened to Ike Akaaz.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8019-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8019-00000026"/>&#xD;
 The Companion of Paradise.&#xD;
 THE COMPANION OF PARADISE.&#xD;
 BY IIENiSY A. MILES.&#xD;
@@ -4832,7 +4837,7 @@ lie beheld before him a vast palace&#xD;
 f splendid magnificence, even exter-&#xD;
 ially. In a spacious court-yard were&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8019-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8019-00000027"/>&#xD;
 52               The C'ompanio&#xD;
 sumptuous equipages, which had&#xD;
 brought affluent and noble guests.&#xD;
@@ -5033,7 +5038,7 @@ eyes with both hands. He remained&#xD;
 for some time in a silence which no&#xD;
 one dared to interrupt.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8019-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8019-00000028"/>&#xD;
 The Com~panion of Paradise.&#xD;
 &#xD;
 A Tartar Fairyi Tale literally Iranslated.&#xD;
@@ -5216,7 +5221,7 @@ others by the tail, by the thick of the&#xD;
 fore leg, and by thme hinderpart, to pre-.&#xD;
 vent the possibility of its escape.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8019-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8019-00000029"/>&#xD;
 A  Tartar Pairii Tale lileragy ~ran8lated.          57&#xD;
 &#xD;
 66            A  Tartar .l~zir&amp;amp;i Tale lilerallj translated.&#xD;
@@ -5423,7 +5428,7 @@ his grey-headed wife, who asked him: -&#xD;
 "Young man, whence comes thou?&#xD;
 and whither wilt thou go?"&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8019-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8019-00000030"/>&#xD;
 58           A   Tartar Thiry Tale literally lran8lated.&#xD;
 &#xD;
 A Tartar Faiq,' Thie lz~teraIe~y tran8lated.&#xD;
@@ -5632,7 +5637,7 @@ uda. The woman has been recovered&#xD;
 only because a beautiful aspect was&#xD;
 given itby the handling of my various&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8019-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8019-00000031"/>&#xD;
 60                     T4e Queen&#xD;
 colors. To keep the woman is my&#xD;
 due."&#xD;
@@ -5832,7 +5837,7 @@ demonstrative and wholesale "spark-&#xD;
 ing" by moonlight which shocked&#xD;
 them still more; these, and the inev-&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8019-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8019-00000032"/>&#xD;
 62                   Spoons in&#xD;
 itable youth bobbing for eels, moored&#xD;
 in the same spot daily, as though he&#xD;
@@ -6034,7 +6039,7 @@ very casual rencontre in the fields&#xD;
 with Mr. Midsummer pire, a few&#xD;
 civil interchanges, - "Harvard Col-&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8019-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8019-00000033"/>&#xD;
 64                   Spoons rn&#xD;
 lege? Oh! -my wife and daughter,&#xD;
 gentlemen,~~ - and the Gordian knot&#xD;
@@ -6232,7 +6237,7 @@ This was delivered with a well-&#xD;
 assumed gravity, which disarmed the&#xD;
 suspicions raised by the novelty of&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8019-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8019-00000034"/>&#xD;
 I&#xD;
 &#xD;
 Spoons in a Wherry.&#xD;
@@ -6437,7 +6442,7 @@ folk from the hotel. Rustic swains,&#xD;
 effulgent with red flannel, pt-opelled&#xD;
 sturdily hither and thither their&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8019-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8019-00000035"/>&#xD;
 08                     Spoons in&#xD;
 blushing sweethearts, while the&#xD;
 double-scull of our friends was&#xD;
@@ -6593,7 +6598,7 @@ increase their distance from their fair to her relief! Beat bravely, faithful&#x
 &#xD;
 69&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8019-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8019-00000036"/>&#xD;
 q&#xD;
 &#xD;
 70                     Spoons in&#xD;
@@ -6775,7 +6780,7 @@ FOR COOKING PURPOSES&#xD;
 "We find them the best."-Southern Hotel, St. Louis.&#xD;
 "We find them excellent."-.-Occidental flotel, San Franeiseqq&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8019-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8019-00000037"/>&#xD;
 72             Waveline, The Little Mermaid.&#xD;
 WAYELINE, THE LITTLE MERMAID.&#xD;
 A STORY FOR ChILDREN.&#xD;
@@ -6967,7 +6972,7 @@ one thing he disliked more than an-&#xD;
 other, it was playing truant.&#xD;
 So he was obliged to have a serious&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8019-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8019-00000038"/>&#xD;
 74              Waveline, The.&#xD;
 talk with his daughter, the result of&#xD;
 which was, that she ivent back to&#xD;
@@ -7168,7 +7173,7 @@ Since I left my native shore,&#xD;
 For to sail upon the sea,&#xD;
 Where the winds do blow, -&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8019-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8019-00000039"/>&#xD;
 76                 Wavelin&#xD;
 Seven long and weary year&#xD;
 And now, with many fears,&#xD;
@@ -7342,7 +7347,7 @@ bosom-friend, Ethan Grey, is dead?&#xD;
 He died suddenly last night," cried&#xD;
 Jack Allain, rushing unceremoniously&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8019-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8019-00000040"/>&#xD;
 78                      ANiqId&#xD;
 eleven last night, in as good health as&#xD;
 ever."&#xD;
@@ -7551,7 +7556,7 @@ corpse, expecting each nioment to hear&#xD;
 its voice break the dreadful silence.&#xD;
 It did not move; ghastly pale m&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8019-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8019-00000041"/>&#xD;
 A A7i~gIit of Terror.&#xD;
 &#xD;
 the dim lamplight it lay, wearing yet Pacing backwards and forwards 1&#xD;
@@ -7701,7 +7706,7 @@ an extravagance," she continued has-  JJ11~&#xD;
 tily, as her uncle glanced at her deli-&#xD;
 cate white hand. "If the alternative&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8019-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8019-00000042"/>&#xD;
 82                 The ifousek&#xD;
 was offered me, I would not hesitate.&#xD;
 I would be cook or housemaid gladly&#xD;
@@ -7901,7 +7906,7 @@ housekeeper advised, 'learn to&#xD;
 wink."'&#xD;
 "Wink! why, I have shut my eyes&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8019-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8019-00000043"/>&#xD;
 84:                 The Houselce&#xD;
 tight; but I can't shut my~nose, and&#xD;
 you won't shut" -&#xD;
@@ -8101,7 +8106,7 @@ pointed, and she decided that a good&#xD;
 tea would do her as much good as&#xD;
 any thing so she tied on a brown&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8019-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8019-00000044"/>&#xD;
 86                  The llousek&#xD;
 apron (her trunk was already in the&#xD;
 little room up stairs), and ~~'ent into&#xD;
@@ -8302,7 +8307,7 @@ was little dirt to scrub up. Old Ju-&#xD;
 dith came once a week, and gave pots&#xD;
 and pans an ez±ra scouring. Illvery&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8019-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8019-00000045"/>&#xD;
 88                  The Ilouseke&#xD;
 thing was delicately clean, and Kate&#xD;
 was as much an ornament as the blue-&#xD;
@@ -8503,7 +8508,7 @@ whose keen glance Mrs. Austin even&#xD;
 mw c~uake4 a little, but before which&#xD;
 iL b~-~one attempts she had inward-&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8019-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8019-00000046"/>&#xD;
 90                  The Housek~&#xD;
 ly groaned with horror. There was&#xD;
 nothing now to find fault with; ex-&#xD;
@@ -8702,7 +8707,7 @@ aeir experience was often sufficiently&#xD;
 melanclaoly.&#xD;
 As Kate moved to and fro, always&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8019-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8019-00000047"/>&#xD;
 f         92                 The&#xD;
 watchful, always quiet, apparently&#xD;
 absorbed in her business, and doing&#xD;
@@ -8903,7 +8908,7 @@ could not have done better herself.&#xD;
 And when the little maiden had gone,&#xD;
 she said,-&#xD;
 &#xD;
-<pb  n="94 (Advertisement) -95" xml:id="VAC8019-00000048"/>&#xD;
+<pb n="94 (Advertisement) -95" xml:id="VAC8019-00000048"/>&#xD;
 9A~&#xD;
 &#xD;
 Tke Housekeeper's Story.&#xD;
@@ -8957,8 +8962,8 @@ BALLET, DAVIS &amp;amp; Co.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

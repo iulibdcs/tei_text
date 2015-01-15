@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8306">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8306">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Violet </title>
-            <author >Wilbor, Mary H.</author>
+            <title>Violet </title>
+            <author>Wilbor, Mary H.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8306</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8306</idno>
+            <idno type="wright2" n="previous">wright2-2729</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Violet</title>
-                  <author >Wilbor, Mary H.</author>
+                  <title>Violet</title>
+                  <author>Wilbor, Mary H.</author>
                </titleStmt>
-               <extent >251 p.</extent>
+               <extent>251 p.</extent>
                <publicationStmt>
-                  <publisher >G.H. Whitney</publisher>
+                  <publisher>G.H. Whitney</publisher>
                   <pubPlace>Providence </pubPlace>
-                  <date  when="1861">1861</date>
+                  <date when="1861">1861</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-09-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-09-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Violet</head> 
+            <head>Violet</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8306-00000001"/>7                                                 I&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8306-00000001"/>7                                                 I&#xD;
 f: r&#xD;
 r             H                                         1&#xD;
 &#xD;
@@ -120,7 +125,7 @@ I  ,&#xD;
 &#xD;
 VIOLET;&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8306-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8306-00000002"/>&#xD;
 ;Iz  /2o.~c&#xD;
 &#xD;
 "i&#xD;
@@ -176,7 +181,7 @@ I,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8306-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8306-00000003"/>&#xD;
 VIOLET:&#xD;
 &#xD;
 face, as she smilingly bent down toward me for my&#xD;
@@ -248,7 +253,7 @@ wrong actions, I hall have little else to talk about.&#xD;
 Then how silly it seems, to talk of one'eself all the&#xD;
 time. I told fath r of it yesterday, expecting at least&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8306-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8306-00000004"/>&#xD;
 ID                  VIOLET   .&#xD;
 he would say he was sorry, and would c&#xD;
 an effort to speak to the teacher abo&#xD;
@@ -378,7 +383,7 @@ hbetter-my books.&#xD;
 shall ever learn to be goodI&#xD;
 ossible.  I am doing wrongsocn&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8306-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8306-00000005"/>&#xD;
 8&#xD;
 &#xD;
 VIOLET:,&#xD;
@@ -491,7 +496,7 @@ A-&#xD;
 &#xD;
 ,,&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8306-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8306-00000006"/>&#xD;
 j '4                                               r              '&#xD;
 2i        f                                                          I&#xD;
 k&#xD;
@@ -609,7 +614,7 @@ U&#xD;
 &#xD;
 VIOLET;&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8306-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8306-00000007"/>&#xD;
 12&#xD;
 &#xD;
 VIOLET.&#xD;
@@ -736,7 +741,7 @@ I&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8306-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8306-00000008"/>&#xD;
 14                  VIOLET:&#xD;
 don't believe I was ever still a moment in my life.&#xD;
 Didn't we have a nice time, though,at the break-&#xD;
@@ -821,7 +826,7 @@ L         t&#xD;
 f     . -&#xD;
 ;;,' '&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8306-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8306-00000009"/>&#xD;
 16&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -1006,7 +1011,7 @@ e sure to find it out; and&#xD;
 or he lets us sit on the&#xD;
 tells us stories. Some-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8306-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8306-00000010"/>&#xD;
 VIOLET:&#xD;
 times he permits us to comb his hair, and dress him&#xD;
 up with leaves and flowers.. He come into the house,&#xD;
@@ -1152,7 +1157,7 @@ advanced with. the' rest of&#xD;
 &#xD;
 A TRUt STORY.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8306-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8306-00000011"/>&#xD;
 A TRUI STORY.&#xD;
 &#xD;
 21-&#xD;
@@ -1340,7 +1345,7 @@ II&#xD;
 &#xD;
 VIOLET I&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8306-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8306-00000012"/>&#xD;
 22&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -1494,7 +1499,7 @@ t is . so pleasant to look in the street; every&#xD;
 &#xD;
 'K&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8306-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8306-00000013"/>&#xD;
 A TRUE STORY.&#xD;
 &#xD;
 body looks so funny, so small, just like the fairies I&#xD;
@@ -1666,7 +1671,7 @@ _                         :&#xD;
 &#xD;
 VIOLET :&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8306-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8306-00000014"/>&#xD;
 better than one half of the boys. I enjoy life exceed-&#xD;
 ingly; every day is new to me. I have one of the&#xD;
 pleasantest homes a child ever had, and the best and&#xD;
@@ -1791,7 +1796,7 @@ gle of "'Them Lines would sartainly spile" me&#xD;
 not ielp it any more than a bird could, when&#xD;
 this song of the&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8306-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8306-00000015"/>&#xD;
 A TiUE STORY.&#xD;
 &#xD;
 28&#xD;
@@ -1930,7 +1935,7 @@ y got tired, and gave up the search. I&#xD;
 &#xD;
 29&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8306-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8306-00000016"/>&#xD;
 A TRUE STORY.&#xD;
 &#xD;
 wanted to work on my drawings, but staid so long&#xD;
@@ -2043,7 +2048,7 @@ VIOLET&#xD;
 &#xD;
 31'&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8306-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8306-00000017"/>&#xD;
 )&#xD;
 &#xD;
 32&#xD;
@@ -2186,7 +2191,7 @@ a'&#xD;
 &#xD;
 3&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8306-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8306-00000018"/>&#xD;
 84&#xD;
 &#xD;
 vrIOLET!&#xD;
@@ -2282,7 +2287,7 @@ Q&#xD;
              ;&#xD;
 _         ,_         .. ".  ;&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8306-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8306-00000019"/>&#xD;
 A TRiUE STORY.&#xD;
 &#xD;
 Miss M nton gave us an excellent lectures&#xD;
@@ -2424,7 +2429,7 @@ IB&#xD;
 &#xD;
 VIOLET y&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8306-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8306-00000020"/>&#xD;
 38                  VIOLET:&#xD;
 visit. She told mother she had lcst a little&#xD;
 resemble~ Ella very much, and who was of&#xD;
@@ -2557,7 +2562,7 @@ t&#xD;
 ,&#xD;
 fi&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8306-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8306-00000021"/>&#xD;
 CHAPTER       N&#xD;
 The ministers have come; and o&#xD;
 tbacco smoke. Why, when we e&#xD;
@@ -2714,7 +2719,7 @@ I1&#xD;
 &#xD;
 IPIOLET&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8306-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8306-00000022"/>&#xD;
 be more lije the lark, and sing fort&#xD;
 Heavenly Father."&#xD;
 "Here 9arrie told him she did 1&#xD;
@@ -2858,7 +2863,7 @@ I ,&#xD;
 &#xD;
 oWrTnT Tm&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8306-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8306-00000023"/>&#xD;
 44&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -2970,7 +2975,7 @@ testimony is this to the value of learning! Young&#xD;
 gentlemen and ladies do not fail to lend their pre-&#xD;
 :sence, and thus increase the interest, by their atten-&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8306-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8306-00000024"/>&#xD;
 4'6                 VIOLET:&#xD;
 tion and'srvices. Many visitors cz&#xD;
 and express themselves highly de&#xD;
@@ -3072,7 +3077,7 @@ a Church. There was singing after each speech,&#xD;
 the services concluding with a short touching appeal.&#xD;
 to all hearts, and a prayer.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8306-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8306-00000025"/>&#xD;
 48                  VIOLET:&#xD;
 The 1as of this week we are to&#xD;
 tion in scl ool. The paint around c&#xD;
@@ -3178,7 +3183,7 @@ r&#xD;
 ti&#xD;
 ,_. .&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8306-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8306-00000026"/>&#xD;
 ." A fe  minutes before you d&#xD;
 answered.&#xD;
 " Mary, id you have the unkindn&#xD;
@@ -3286,7 +3291,7 @@ room, raised their hands. Among them was Winnie&#xD;
 &#xD;
 VIOLET:&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8306-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8306-00000027"/>&#xD;
 52                  VIOLET:&#xD;
 Wright, one to Lwhom I always ip ol'u  in my little&#xD;
 troubles and d fficulties. Said she, "Miss Freeman,&#xD;
@@ -3360,7 +3365,7 @@ door. She called me toward her, and asked me if I&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8306-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8306-00000028"/>&#xD;
 54                  VIOLET:&#xD;
 had anything to say. I told her no I ad not. She&#xD;
 then gave me a note, requesting me to ive it to my&#xD;
@@ -3422,7 +3427,7 @@ came in to whisper pleasant little words oof consola-&#xD;
 tion, bringing with her some warm drink., Dear old&#xD;
 lady ! how warmly my heart goes out toward her.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8306-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8306-00000029"/>&#xD;
 A', TRUE STORY.&#xD;
 &#xD;
 CHAPTER        VI.&#xD;
@@ -3498,7 +3503,7 @@ VIOLET :&#xD;
 &#xD;
 ,/&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8306-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8306-00000030"/>&#xD;
 A TRUE STORY.               59&#xD;
 &#xD;
 once the approaching darkness reminded me of the&#xD;
@@ -3578,7 +3583,7 @@ s&#xD;
 '&#xD;
 i s     '4 z&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8306-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8306-00000031"/>&#xD;
 VIOLET:&#xD;
 &#xD;
 I&#xD;
@@ -3656,7 +3661,7 @@ their bags for her, or any one; for they were full of~&#xD;
 &#xD;
 E&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8306-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8306-00000032"/>&#xD;
 62                  VIOLET:&#xD;
 soot. At last, as she listened to my hilosop&#xD;
 became quite composed.&#xD;
@@ -3740,7 +3745,7 @@ I,&#xD;
 {,&#xD;
 i&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8306-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8306-00000033"/>&#xD;
 }&#xD;
 K&#xD;
 J&#xD;
@@ -3843,7 +3848,7 @@ wont, and dim&#xD;
 south. R4volu-.&#xD;
 aling the vivid&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8306-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8306-00000034"/>&#xD;
 A TRUE STORY.&#xD;
 &#xD;
 and pressed unmercifully upon those&#xD;
@@ -3952,7 +3957,7 @@ d$&#xD;
 &#xD;
 VlOtt? i&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8306-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8306-00000035"/>&#xD;
 68                  VIOLET:&#xD;
 our boatman by a Frenchman, who had witnessed our&#xD;
 misfortune and thus relieved us.&#xD;
@@ -4024,7 +4029,7 @@ raisins."&#xD;
 rect her betters."&#xD;
 Election' morning, such a hubbub there is, such&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8306-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8306-00000036"/>&#xD;
 running to and fro, from one room to another such&#xD;
 a looking at our clothes, which are spread upon tie&#xD;
 great-chamber bed!  Then we try o   our sho s,&#xD;
@@ -4108,7 +4113,7 @@ wood are full of studies; and there are no tire&#xD;
 )Me exa ples in arithmetic to do of a warm lovely&#xD;
 ay, while perched upoix high-backed hard seats&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8306-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8306-00000037"/>&#xD;
 72                  VIOLET:&#xD;
 when one is wishing to get a snuff of fhe pine trees.&#xD;
 How lovely it is to enjoy such freedom, with no rules&#xD;
@@ -4228,7 +4233,7 @@ TH IROOK.&#xD;
 &#xD;
 i11&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8306-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8306-00000038"/>&#xD;
 11&#xD;
 &#xD;
 TIEESTORY&#xD;
@@ -4360,7 +4365,7 @@ ly. They are to stay with us out here until&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8306-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8306-00000039"/>&#xD;
 76                vIoLET:&#xD;
 &#xD;
 September. It did seem very good to see my parents&#xD;
@@ -4493,7 +4498,7 @@ terrupted in that manner. I don't believe he&#xD;
 &#xD;
 A TRUE aTORY.             77&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8306-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8306-00000040"/>&#xD;
 78               vIoLEm:&#xD;
 &#xD;
 ever sailed off in such good care, and such style be-&#xD;
@@ -4619,7 +4624,7 @@ tudy in; around the sides of the house, on the&#xD;
 &#xD;
 A TRUE, STORY.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8306-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8306-00000041"/>&#xD;
 banks, many kinds of owers have been set out, and&#xD;
 the yard is neatly gr4velled.  Miss Manton has re-&#xD;
 ceived, during my abs nce, a number of new pupils;&#xD;
@@ -4737,7 +4742,7 @@ A TRUE STORY.              81&#xD;
 i&#xD;
 ,&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8306-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8306-00000042"/>&#xD;
 the cake, with the great plums, hid the spelling-lessonr&#xD;
 entirely from our minds. At night, previous to retir-&#xD;
 ing, we thought we must have one more peep at the&#xD;
@@ -4857,7 +4862,7 @@ gh I could scarcely swallow it. After we had&#xD;
 ng. She said she was much grieved, that we&#xD;
 ld wilfully disobey her; she had hoped she could&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8306-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8306-00000043"/>&#xD;
 84                  VIOLET:&#xD;
 place more confidence in us, but that we should steal&#xD;
 from  her, or any one, was to  er a most painful&#xD;
@@ -4941,7 +4946,7 @@ you wish for comfort? There is an ear ever*&#xD;
 1&#xD;
 Y   '   r."      1'&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8306-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8306-00000044"/>&#xD;
 86         viomt&#xD;
 &#xD;
 sympathize with you ! He has a&#xD;
@@ -5092,7 +5097,7 @@ is ev ning and mother asked me to read them&#xD;
 &#xD;
 86&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8306-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8306-00000045"/>&#xD;
 88                         VIOLET:&#xD;
 aloud. When I had concluded,&#xD;
 wiped her glasses several times, t&#xD;
@@ -5182,7 +5187,7 @@ father's permission to ride with him, Polly sang out,&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8306-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8306-00000046"/>&#xD;
 90&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -5319,7 +5324,7 @@ He Wished us, while our hearts were young and&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8306-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8306-00000047"/>&#xD;
 92                  VIOLET:&#xD;
 fresh, while they were yet warmed by the&#xD;
 hope, to secure Christ's precious counsel, and v&#xD;
@@ -5420,7 +5425,7 @@ I have many other m mentos of friendship, such as&#xD;
 &#xD;
 Q&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8306-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8306-00000048"/>&#xD;
 94                         VIOLET&#xD;
 letters, pencilings, remembrances brc&#xD;
 shores, butthe dearest thing       I ha&#xD;
@@ -5551,7 +5556,7 @@ ght,&#xD;
 weary&#xD;
 s apt night.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8306-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8306-00000049"/>&#xD;
 96&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -5676,7 +5681,7 @@ converse, and meet at the same point, though we take&#xD;
 different roads.&#xD;
 9'&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8306-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8306-00000050"/>&#xD;
 81          !      VIOLET:&#xD;
 CHAPTER       X.&#xD;
 This morning, on going to school,&#xD;
@@ -5771,7 +5776,7 @@ on one cheek.&#xD;
 &#xD;
 l&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8306-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8306-00000051"/>&#xD;
 r&#xD;
 &#xD;
 100                 VIOLET:&#xD;
@@ -5878,7 +5883,7 @@ it&#xD;
 &#xD;
 101&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8306-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8306-00000052"/>&#xD;
 102                 vioLET:&#xD;
 everything was safe to leave, and would repeatedly,&#xD;
 inquire if we remembered his orders. Then he would-&#xD;
@@ -5954,7 +5959,7 @@ i&#xD;
 .   .      ; .&#xD;
 . .      , .           . .&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8306-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8306-00000053"/>&#xD;
 104&#xD;
 &#xD;
 A TRUE STORY.&#xD;
@@ -6072,7 +6077,7 @@ mothers are all tuck red out with earning, mending,&#xD;
 &#xD;
 105'&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8306-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8306-00000054"/>&#xD;
 VIOLET&#xD;
 &#xD;
 and watching the baby. Laws a me !,&#xD;
@@ -6181,7 +6186,7 @@ I&#xD;
 &#xD;
 A TRUE STORY.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8306-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8306-00000055"/>&#xD;
 108                VIOLET *&#xD;
 &#xD;
 CHAPTER X]&#xD;
@@ -6291,7 +6296,7 @@ A. TRUE STORY.&#xD;
 &#xD;
 .0&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8306-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8306-00000056"/>&#xD;
 4&#xD;
 &#xD;
 110&#xD;
@@ -6403,7 +6408,7 @@ wrong in them, and I am so impe-&#xD;
 &#xD;
 Y'II&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8306-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8306-00000057"/>&#xD;
 112                  VIOLET&#xD;
 ceive things calmly. I fear this affair will spoil me&#xD;
 for the church. I have hitherto had such a great&#xD;
@@ -6525,7 +6530,7 @@ r&#xD;
 &#xD;
 C&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8306-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8306-00000058"/>&#xD;
 least, my pride was touched rather rudely. It seemed&#xD;
 quite a Mortification to be pointed out to the passer&#xD;
 by. We all looked quite sober as the stroke of the&#xD;
@@ -6633,7 +6638,7 @@ i&#xD;
 &#xD;
 A TRUE STORY.&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8306-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8306-00000059"/>&#xD;
 VIOLET:&#xD;
 &#xD;
 CHAPTER       XII.&#xD;
@@ -6702,7 +6707,7 @@ dear Journal, have to bear all my burdens upon your&#xD;
 white pages. .I wonder if you never weary hearing&#xD;
 of such common details-affairs like every one's&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8306-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8306-00000060"/>&#xD;
 118                 VIOLET&#xD;
 else? If I do trouble you, you have never revealed&#xD;
 it to me; and your covers are ever open like the&#xD;
@@ -6772,7 +6777,7 @@ mother's soft hand to rest upon his brow with :gentle&#xD;
 words, and a fat er's earnest, well-timed, counsel.&#xD;
 Perhaps he wouli then quite enjoy a little teazing&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8306-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8306-00000061"/>&#xD;
 A TRUE STORY.&#xD;
 &#xD;
 from his sisters. At all events, I kno&#xD;
@@ -6878,7 +6883,7 @@ home has not made any change in us; and why you,,&#xD;
 &#xD;
 VIOLET :&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8306-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8306-00000062"/>&#xD;
 1 2               VIOLET:&#xD;
 &#xD;
 who have professed so much friendship&#xD;
@@ -6979,7 +6984,7 @@ I hould hink the fact of our losing our home would&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8306-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8306-00000063"/>&#xD;
 124                 VIOLET:&#xD;
 create sympathy and draw us nearer to them; but, on&#xD;
 the contrary, they who have fed at our own table&#xD;
@@ -7084,7 +7089,7 @@ you will yet bd able to pass- by them whe6&#xD;
 nhines again. -O , what is better, to do thern&#xD;
 11*&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8306-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8306-00000064"/>&#xD;
 126                 VIOLET:&#xD;
 good for the wrong they have don   you. In the&#xD;
 meantime, don't forget to whisper your trials.to the&#xD;
@@ -7233,7 +7238,7 @@ very thankfully. I was, not&#xD;
 i{.'                                '              '      i                                                                                                                                N    I                                                                                                                                       _                                        '              _&#xD;
 t                                                                                                                                                                                 i                                                                                                                              '                                                                                          -&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8306-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8306-00000065"/>&#xD;
 128                 VIOLET:&#xD;
 aware till now I had so much pride i' my heart. I&#xD;
 believe it is my besetting vin. At ti es these trials&#xD;
@@ -7407,7 +7412,7 @@ vn, and the villages, the&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8306-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8306-00000066"/>&#xD;
 VIOLET :&#xD;
 &#xD;
 A TRtI srO1Y.                     t&#xD;
@@ -7562,7 +7567,7 @@ however, shall interfere with my studies;&#xD;
 &#xD;
 iii&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8306-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8306-00000067"/>&#xD;
 132&#xD;
 &#xD;
 'VIOLET:&#xD;
@@ -7718,7 +7723,7 @@ t, but on reflection I felt ,a tinge of false:&#xD;
 eating over 'my face and dishonoring. .eyr&#xD;
 12&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8306-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8306-00000068"/>&#xD;
 r"n&#xD;
 5                  '&#xD;
 {&#xD;
@@ -7926,7 +7931,7 @@ t so intently upon it.&#xD;
 ay Mrs,. T. had company.to dine with her,&#xD;
 I'did not wish nor expect to go down with the&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8306-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8306-00000069"/>&#xD;
 I.&#xD;
 &#xD;
 186                 VIOLET&#xD;
@@ -8051,7 +8056,7 @@ homes , which they were unable to find amid the&#xD;
 al up ar. With what terrible distinctness the&#xD;
 eep, oarse murmur of distress fell upoia the&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8306-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8306-00000070"/>&#xD;
 las&#xD;
 ear, surging over I&#xD;
 What mean ti&#xD;
@@ -8213,7 +8218,7 @@ ay of escape, he is so frightened; I sup:&#xD;
 &#xD;
 ,        1,        t«i  "1&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8306-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8306-00000071"/>&#xD;
 141&#xD;
 &#xD;
 pose he was startled out from his nest that he built in&#xD;
@@ -8328,7 +8333,7 @@ VIOLET:&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8306-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8306-00000072"/>&#xD;
 142                  VIOLET:&#xD;
 remaining-property, to protect it; while oth&#xD;
 were bereft eve of that poor comfort, we&#xD;
@@ -8424,7 +8429,7 @@ j&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8306-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC8306-00000073"/>&#xD;
 A  r1TEE STORY.&#xD;
 &#xD;
 VIOLET&#xD;
@@ -8598,7 +8603,7 @@ old seat-mate ?d  Th&amp;amp;history&#xD;
 &#xD;
 ..&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8306-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC8306-00000074"/>&#xD;
 };&#xD;
 I             '&#xD;
 ,&#xD;
@@ -8746,7 +8751,7 @@ _                L&#xD;
 ;'                   .&#xD;
 f       _       ,&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8306-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC8306-00000075"/>&#xD;
 A ' RUE STOR~Y.                  4&#xD;
 &#xD;
 Discipline,"  I suppose the word&#xD;
@@ -8917,7 +8922,7 @@ express,&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8306-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC8306-00000076"/>&#xD;
 150&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -9052,7 +9057,7 @@ efcem We felt blest that we were alloed- even a&#xD;
 &#xD;
 C&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8306-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC8306-00000077"/>&#xD;
 152                 VIoLET:&#xD;
 glimpse of a spirit lit up with so much beauty and&#xD;
 truth, so mu h serenity and love.&#xD;
@@ -9127,7 +9132,7 @@ A TRUE STORY.&#xD;
 I&#xD;
 1                                                                                                                                                                                                                                                                  r-&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8306-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC8306-00000078"/>&#xD;
 154&#xD;
 &#xD;
 VIOLET':&#xD;
@@ -9204,7 +9209,7 @@ said, it maay-lead to something more advantageous:.&#xD;
 since her convalesence, when to her .great surprise;&#xD;
 one day, as she was. feeling almost friendless, she re-&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8306-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC8306-00000079"/>&#xD;
 I&#xD;
 i&#xD;
 &#xD;
@@ -9284,7 +9289,7 @@ A TRUE STORY.&#xD;
 &#xD;
 VIOLET:&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8306-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC8306-00000080"/>&#xD;
 158&#xD;
 &#xD;
 VIOL ET&#xD;
@@ -9380,7 +9385,7 @@ never in the least regretted having dons so. It is a&#xD;
 &#xD;
 III&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8306-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC8306-00000081"/>&#xD;
 VIOLET:&#xD;
 &#xD;
 e&#xD;
@@ -9487,7 +9492,7 @@ ha I hbpe filled ay wh&amp;amp;oleberg:&#xD;
 &#xD;
 . TRIM STORY.&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8306-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC8306-00000082"/>&#xD;
 '12                 VIOLET:&#xD;
 There" have been many changes in our family.&#xD;
 Willie, Annie, and Carrie, are all ma ried, happily, I&#xD;
@@ -9561,7 +9566,7 @@ wheels make as they roll in the water, and puzzling.&#xD;
 &#xD;
 13&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8306-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC8306-00000083"/>&#xD;
 my brain, with her thousand-and-one questions,which&#xD;
 a philosopher could scarcely answer. At present she&#xD;
 is sitting in the lap of an elderly gentleman, whose&#xD;
@@ -9636,7 +9641,7 @@ our, grandmother was takes."&#xD;
 &#xD;
 ilI&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8306-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC8306-00000084"/>&#xD;
 I              'I&#xD;
 &#xD;
 s6s&#xD;
@@ -9717,7 +9722,7 @@ i&#xD;
 '&#xD;
 I&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8306-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC8306-00000085"/>&#xD;
 168&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -9836,7 +9841,7 @@ heir witchery.&#xD;
 . ''  'i&#xD;
 ;:; .&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8306-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC8306-00000086"/>&#xD;
 170'&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -9930,7 +9935,7 @@ I-&#xD;
 ii&#xD;
 .: d  '.M&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8306-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC8306-00000087"/>&#xD;
 172&#xD;
 &#xD;
 VIOLE'I'!&#xD;
@@ -10041,7 +10046,7 @@ him.&#xD;
 4&#xD;
 i,7&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8306-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC8306-00000088"/>&#xD;
 4&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -10107,7 +10112,7 @@ A TRUE STORY.&#xD;
 &#xD;
 !"&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8306-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC8306-00000089"/>&#xD;
 176                 VIOLET:&#xD;
 dreaming of the tender past or hopeful future, while&#xD;
 the smoke slowly arising from their pipes is wreath-&#xD;
@@ -10179,7 +10184,7 @@ were given to me by old and revered friends, as they&#xD;
 were given to them by those who had gone before.&#xD;
 ow often have I, in company with my young&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8306-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC8306-00000090"/>&#xD;
 ,1&#xD;
 &#xD;
 friends, with hushed breath and wildly throbbing&#xD;
@@ -10278,7 +10283,7 @@ t .&#xD;
 &#xD;
 --&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8306-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC8306-00000091"/>&#xD;
 A TRUE STORY.      .181&#xD;
 &#xD;
 remains of a fire-place ; and there is a slight appear-&#xD;
@@ -10390,7 +10395,7 @@ iet conversations, much to the anr4g~ance of&#xD;
 :&#xD;
 i&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8306-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC8306-00000092"/>&#xD;
 Ii&#xD;
 &#xD;
 pleasure-seekers, I doubt not, or at least they looked&#xD;
@@ -10532,7 +10537,7 @@ VIOLET :&#xD;
 &#xD;
 t'&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8306-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC8306-00000093"/>&#xD;
 184&#xD;
 &#xD;
 VIOLET&#xD;
@@ -10701,7 +10706,7 @@ t&#xD;
 ,,&#xD;
 I&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8306-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC8306-00000094"/>&#xD;
 186&#xD;
 &#xD;
 VIOLS-:&#xD;
@@ -10791,7 +10796,7 @@ J&#xD;
 &#xD;
 I.&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8306-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC8306-00000095"/>&#xD;
 (&#xD;
 &#xD;
 188&#xD;
@@ -10907,7 +10912,7 @@ A TRUE STORY.&#xD;
 ,&#xD;
 to&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8306-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC8306-00000096"/>&#xD;
 1VU                 VIOLET&#xD;
 an additional cloth upon it, rever,&#xD;
 benevolence and firmne s, whicl&#xD;
@@ -11090,7 +11095,7 @@ I&#xD;
 &#xD;
 {}&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8306-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC8306-00000097"/>&#xD;
 ,                 _   ,&#xD;
 P&#xD;
 &#xD;
@@ -11223,7 +11228,7 @@ A1O3&#xD;
 &#xD;
 VIOLETi&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8306-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC8306-00000098"/>&#xD;
 194&#xD;
 &#xD;
 Again are my feet making prints in&#xD;
@@ -11337,7 +11342,7 @@ And leading it forth to a holier shrine,&#xD;
 &#xD;
 yes,.&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8306-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC8306-00000099"/>&#xD;
 i&#xD;
 &#xD;
 From Paradise we went to Purgatory, wh&#xD;
@@ -11441,7 +11446,7 @@ also of many who   ave crossed the cold river of&#xD;
 'death; and ere I was aware' of the time. the clock&#xD;
 struck }en.&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8306-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC8306-00000100"/>&#xD;
 i'98         VIOLET:&#xD;
 &#xD;
 II&#xD;
@@ -11583,7 +11588,7 @@ eyes as I mentioned Lene'sname, and she begged&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8306-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC8306-00000101"/>&#xD;
 2IOLET 18&#xD;
 &#xD;
 A. T~1WE.STORY.2eI&#xD;
@@ -11728,7 +11733,7 @@ l&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8306-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC8306-00000102"/>&#xD;
 TRUE STORY.             203&#xD;
 &#xD;
 CHAPTER XVIIL.&#xD;
@@ -11855,7 +11860,7 @@ A&#xD;
 &#xD;
 V IOLET:.&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8306-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC8306-00000103"/>&#xD;
 II&#xD;
 i&#xD;
 &#xD;
@@ -12035,7 +12040,7 @@ A + TRUE STORY.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8306-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC8306-00000104"/>&#xD;
 206                 V1SLET:'&#xD;
 &#xD;
 the bough of a tree, which is bendi g prettily to the&#xD;
@@ -12143,7 +12148,7 @@ A, TRUE 'STORY.&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8306-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC8306-00000105"/>&#xD;
 '°&#xD;
 r'&#xD;
 ,;,&#xD;
@@ -12296,7 +12301,7 @@ Intly we enjoyed&#xD;
 twilight?"&#xD;
 iting us occasion&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC8306-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC8306-00000106"/>&#xD;
 It&#xD;
 Ii&#xD;
 &#xD;
@@ -12403,7 +12408,7 @@ l1 as some of my&#xD;
 it! That is queer !&#xD;
 if one is not com-&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8306-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC8306-00000107"/>&#xD;
 A TRUE STORY.             213&#xD;
 &#xD;
 " Well, I am obliged to," answered&#xD;
@@ -12509,7 +12514,7 @@ I&#xD;
 &#xD;
 VIOLET :&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8306-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC8306-00000108"/>&#xD;
 A TRUE STORY.              215&#xD;
 &#xD;
 not beneath her dignity to lounge about in her beau-&#xD;
@@ -12580,7 +12585,7 @@ is as much as I- can do, and all I require, to go out&#xD;
 &#xD;
 214                FIOLET:&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8306-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC8306-00000109"/>&#xD;
 216&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -12658,7 +12663,7 @@ t&#xD;
 1&#xD;
 I&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8306-00000110"/>&#xD;
+<pb n="218-219" xml:id="VAC8306-00000110"/>&#xD;
 A TRUE STORY.             219&#xD;
 &#xD;
 Before we could put on our shoes and stockings,&#xD;
@@ -12729,7 +12734,7 @@ good to eat, she also had her share.&#xD;
 &#xD;
 218                VIOLET:&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8306-00000111"/>&#xD;
+<pb n="220-221" xml:id="VAC8306-00000111"/>&#xD;
 220VIoLET:                -    .&#xD;
 "liHow I should like to have just such a offe' wVhisx&#xD;
 pered Luella; ".and she should sleep in my little crib&#xD;
@@ -12802,7 +12807,7 @@ tion, her uncommon, reasoningpowers;,and her soft,.&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC8306-00000112"/>&#xD;
+<pb n="222-223" xml:id="VAC8306-00000112"/>&#xD;
 A TRUE STORY.             223&#xD;
 &#xD;
 persuasive, musical purr. How bitte:&#xD;
@@ -12905,7 +12910,7 @@ noble procession, and at one o'clock, escorted by the&#xD;
 I&#xD;
 f&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC8306-00000113"/>&#xD;
+<pb n="224-225" xml:id="VAC8306-00000113"/>&#xD;
 VIOLET:&#xD;
 &#xD;
 band and several societies, proceeded to the Tent,&#xD;
@@ -12978,7 +12983,7 @@ billows of love willpour.&#xD;
 A ti of feeling, all tender and strong,.&#xD;
 That blest us in days of yore.&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC8306-00000114"/>&#xD;
+<pb n="226-227" xml:id="VAC8306-00000114"/>&#xD;
 226&#xD;
 &#xD;
 VIOLET :&#xD;
@@ -13070,7 +13075,7 @@ f&#xD;
 &#xD;
 i             '&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC8306-00000115"/>&#xD;
+<pb n="228-229" xml:id="VAC8306-00000115"/>&#xD;
 228                 VIOLET:&#xD;
 that she answers to: the name of gr&#xD;
 all the connections far and near.&#xD;
@@ -13174,7 +13179,7 @@ f&#xD;
 i&#xD;
 ,.       .   .&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC8306-00000116"/>&#xD;
+<pb n="230-231" xml:id="VAC8306-00000116"/>&#xD;
 A TRUE STORY. .             23t&#xD;
 &#xD;
 nicer than his, but we'll see i&#xD;
@@ -13272,7 +13277,7 @@ sometime , for on Christmas days I've seen ever so&#xD;
 &#xD;
 3O               VIOLET*&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC8306-00000117"/>&#xD;
+<pb n="232-233" xml:id="VAC8306-00000117"/>&#xD;
 A TRUE STORY.             203%&#xD;
 &#xD;
 many children with hardly any clothes on but rags.&#xD;
@@ -13395,7 +13400,7 @@ ey sa there is nothing lost by fit; and, be-&#xD;
 &#xD;
 VIOLET,!&#xD;
 &#xD;
-<pb  n="234-235" xml:id="VAC8306-00000118"/>&#xD;
+<pb n="234-235" xml:id="VAC8306-00000118"/>&#xD;
 234                 VIOLET:&#xD;
 sides, it will be one little thing to ass&#xD;
 vating that patience which you so ml&#xD;
@@ -13548,7 +13553,7 @@ rightest red, and fastened to the knee by a&#xD;
 let band, or ribbon, tied in large bows. The&#xD;
 gracefully and with a vivid contrast over&#xD;
 &#xD;
-<pb  n="236-237" xml:id="VAC8306-00000119"/>&#xD;
+<pb n="236-237" xml:id="VAC8306-00000119"/>&#xD;
 236                 VIOLET                                              A&#xD;
 &#xD;
 the long, white stockings. On his feet were slippers,&#xD;
@@ -13696,7 +13701,7 @@ he best he could to entertain and instruct&#xD;
 &#xD;
 A TRUE STORY,&#xD;
 &#xD;
-<pb  n="238-239" xml:id="VAC8306-00000120"/>&#xD;
+<pb n="238-239" xml:id="VAC8306-00000120"/>&#xD;
 2$8&#xD;
 &#xD;
 VIOLET:&#xD;
@@ -13774,7 +13779,7 @@ rolong the happy cheer,&#xD;
 An in your own sweet spirits&#xD;
 eep Christmas ALL THE YEAR'&#xD;
 &#xD;
-<pb  n="240-241" xml:id="VAC8306-00000121"/>&#xD;
+<pb n="240-241" xml:id="VAC8306-00000121"/>&#xD;
 VIOLET:&#xD;
 &#xD;
 241&#xD;
@@ -13864,7 +13869,7 @@ excl nations, such as these : "How did she -get&#xD;
 ,.i&#xD;
 "i&#xD;
 &#xD;
-<pb  n="242-243" xml:id="VAC8306-00000122"/>&#xD;
+<pb n="242-243" xml:id="VAC8306-00000122"/>&#xD;
 A TRUE STORY.              243&#xD;
 &#xD;
 away ?" How could she dress so quickly ?' "How&#xD;
@@ -13961,7 +13966,7 @@ afte  all, we found it difficult to keep them with.&#xD;
 2A-42                      a&#xD;
 VIOLET&#xD;
 &#xD;
-<pb  n="244-245" xml:id="VAC8306-00000123"/>&#xD;
+<pb n="244-245" xml:id="VAC8306-00000123"/>&#xD;
 A TRUE STORY.&#xD;
 &#xD;
 in bounds, by any force or pers&#xD;
@@ -14095,7 +14100,7 @@ f&#xD;
 &#xD;
 VIOLET':&#xD;
 &#xD;
-<pb  n="246-247" xml:id="VAC8306-00000124"/>&#xD;
+<pb n="246-247" xml:id="VAC8306-00000124"/>&#xD;
 A TIdJE STORY. A&#xD;
 &#xD;
 adventures. So, also, we kindle &#xD;
@@ -14248,7 +14253,7 @@ V10LM i&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="248-249" xml:id="VAC8306-00000125"/>&#xD;
+<pb n="248-249" xml:id="VAC8306-00000125"/>&#xD;
 248                V102:&#xD;
 gratitude, as they knelt down by&#xD;
 while he thanked the loving Fa&#xD;
@@ -14418,7 +14423,7 @@ ity. Tell him not to shrink from the trials of life,&#xD;
 to meet them bravely, for his experienceswill&#xD;
 g to lim lessons of lasting benefit; and when his&#xD;
 &#xD;
-<pb  n="250-251" xml:id="VAC8306-00000126"/>&#xD;
+<pb n="250-251" xml:id="VAC8306-00000126"/>&#xD;
 faint heart is pleading for love, tel&#xD;
 from  a source which will never fa&#xD;
 of need.    Tell him   that those who&#xD;
@@ -14493,8 +14498,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7627">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7627">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Silver Bell, or, The Heir of Motcombe Manor </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>The Silver Bell, or, The Heir of Motcombe Manor </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7627</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7627</idno>
+            <idno type="wright2" n="previous">wright2-2085</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The silver bell, or, The heir of Motcombe Manor</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>The silver bell, or, The heir of Motcombe Manor</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >100 p. </extent>
+               <extent>100 p. </extent>
                <publicationStmt>
-                  <publisher >Gleason</publisher>
+                  <publisher>Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The silver bell, or, The heir of Motcombe Manor</head> 
+            <head>The silver bell, or, The heir of Motcombe Manor</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7627-00000001"/>' ;rs . -    r  -      ,    -   -  -OR,  TH EU--,&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7627-00000001"/>' ;rs . -    r  -      ,    -   -  -OR,  TH EU--,&#xD;
 H EIR OF MOT COMBE MANOR.&#xD;
 a44&#xD;
 A ' '  aam  Pr.,1&#xD;
@@ -113,7 +118,7 @@ GLEASON'S. PUBLIrf N  gALL&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7627-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7627-00000002"/>&#xD;
 u  Ngg  N     T following   oeUlette wys w igins   ti published in Tu iAG O $-%A&#xD;
 ~d ist but ol  a    g       any deepy interesting prddhetions entanating:from that sor e  Th   MG&#xD;
 lfas a sin$'o a fep la      'unrivalle1n ned*rpapet, loratu h; its contrlfntors for a corpsi f the if est&#xD;
@@ -243,7 +248,7 @@ I,&#xD;
 I'&#xD;
 k&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7627-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7627-00000003"/>&#xD;
 8                     THE SILVER BELL.&#xD;
 &#xD;
 "Indeed! you do me too much honor !" re-&#xD;
@@ -396,7 +401,7 @@ r           ,&#xD;
 &#xD;
 1.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7627-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7627-00000004"/>&#xD;
 f'Y'   r      ,&#xD;
 t&#xD;
 Li         "_&#xD;
@@ -540,7 +545,7 @@ y.&#xD;
 &#xD;
 THE SILVER BELL.&#xD;
 &#xD;
-<pb  n="12-13 (Illustration) " xml:id="VAC7627-00000005"/>&#xD;
+<pb n="12-13 (Illustration) " xml:id="VAC7627-00000005"/>&#xD;
 l   .&#xD;
 &#xD;
 P&#xD;
@@ -642,7 +647,7 @@ t'&#xD;
 ..             n3&#xD;
 'Al&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7627-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7627-00000006"/>&#xD;
 t&#xD;
 &#xD;
 1,,&#xD;
@@ -756,7 +761,7 @@ answered strolling Willie.&#xD;
 "There is some wisdom in that observation,"&#xD;
 said Casside.&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7627-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7627-00000007"/>&#xD;
 .ff}'x _&#xD;
 .; ,&#xD;
 1-&#xD;
@@ -966,7 +971,7 @@ THE SILVER BELL.&#xD;
 .,,&#xD;
 r"i '&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7627-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7627-00000008"/>&#xD;
 f&#xD;
 d"&#xD;
 r                ,"j&#xD;
@@ -1156,7 +1161,7 @@ S&#xD;
 i&#xD;
 R&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7627-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7627-00000009"/>&#xD;
 THE SILVER BEEL.&#xD;
 &#xD;
 er, and grasped his arm, awed by the strange will wish you were at rest beneath the turf of&#xD;
@@ -1283,7 +1288,7 @@ ti&#xD;
 '    {"  ' ,&#xD;
 W&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7627-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7627-00000010"/>&#xD;
 22                               THEI 8IIA&#xD;
 " Alaswhat can ISay ! I fear-these ild&#xD;
 hopes of ours willnxever be realized. I{amhbt&#xD;
@@ -1413,7 +1418,7 @@ a courteous knight," added Albert..&#xD;
 &#xD;
 ' :.-,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7627-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7627-00000011"/>&#xD;
 THE SILVER BELL.&#xD;
 &#xD;
 c&#xD;
@@ -1621,7 +1626,7 @@ i' ,}&#xD;
 r&#xD;
 r '&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7627-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7627-00000012"/>&#xD;
 "You are, at pier, wt eedy admire."&#xD;
 ~ aide a     i     aedet together , and his&#xD;
 *ew  dartedfiery gances at Denis Wetze!; who'&#xD;
@@ -1789,7 +1794,7 @@ i&#xD;
 &#xD;
 Tom-   t      ;&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7627-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7627-00000013"/>&#xD;
 28                    THE SILVER BELL.&#xD;
 &#xD;
 While making this remark, Casside turned&#xD;
@@ -1986,7 +1991,7 @@ young -maiden1 Moreove~riwhy should hoidis.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7627-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7627-00000014"/>&#xD;
 THE SILVER BELL. '81&#xD;
 &#xD;
 -asM puritys other eatieug or thie &#xD;
@@ -2140,7 +2145,7 @@ i   _  .                     y&#xD;
 .'           -&#xD;
 r .                   ,   .:&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7627-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7627-00000015"/>&#xD;
 Mo~~rt~A  , -                 A&#xD;
 A-,Af ~i w   E    'A"  :+.i'3 c,   L  l  , '  'A&#xD;
 -                 A ,&#xD;
@@ -2315,7 +2320,7 @@ _,&#xD;
 &#xD;
 S     Ei        ,  ,.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7627-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7627-00000016"/>&#xD;
 i'&#xD;
 a&#xD;
 '&#xD;
@@ -2463,7 +2468,7 @@ The neophyte stepped over the unconscious&#xD;
 individual, and proceeded along the great'na-&#xD;
 tural corridor, which led he knew not Wither.&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7627-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7627-00000017"/>&#xD;
 'IIIJI'E   NlL                  7&#xD;
 &#xD;
 4&#xD;
@@ -2692,7 +2697,7 @@ A&#xD;
 y&#xD;
 1!&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7627-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7627-00000018"/>&#xD;
 It&#xD;
 &#xD;
 THE SILVER BL&#xD;
@@ -2903,7 +2908,7 @@ SS:&#xD;
 tFtu&#xD;
 n       i                         [+rw ! '1&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7627-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7627-00000019"/>&#xD;
 THE SILVER ]31LL.&#xD;
 &#xD;
 a sort of awe at our hero. His temerity ap- the lovely maiden was consigned to other hands.&#xD;
@@ -2992,7 +2997,7 @@ to remove the irons upon his limbs.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7627-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7627-00000020"/>&#xD;
 42                     THE SILVER BELL.&#xD;
 &#xD;
 " This is an unexpected favor," resumed&#xD;
@@ -3204,7 +3209,7 @@ wt&#xD;
 &#xD;
 FIVER BJ2LL&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7627-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7627-00000021"/>&#xD;
 I S , R ,EL&#xD;
 &#xD;
 tuitwil taid lofty conage which has distin-&#xD;
@@ -3375,7 +3380,7 @@ of what he beheld.&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7627-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7627-00000022"/>&#xD;
 46'                            THE SILV&#xD;
 They appeared to be weary and dispirited ;&#xD;
 soon they fell down and seemed to expire by&#xD;
@@ -3597,7 +3602,7 @@ at, the bottom."&#xD;
 .v&#xD;
 ;&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7627-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7627-00000023"/>&#xD;
 bis eyes over the scroll, j  The o                    ar   Donhead&#xD;
 snded his n  neas he had been bid- addressed the neophyte as follows:&#xD;
 den with a redIdid, Which but a few seconds  " Young man, you are now enrolled among&#xD;
@@ -3713,7 +3718,7 @@ THE SECRET WAY.&#xD;
 i&#xD;
 r                                    e&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7627-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7627-00000024"/>&#xD;
 60                    THE SILVER BELL.&#xD;
 &#xD;
 plot thickens as you proceed.  The unexpected&#xD;
@@ -3911,7 +3916,7 @@ it will go hard with you. Since you have been&#xD;
 &#xD;
 THE : 'SILVER BELL.                        bI&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7627-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7627-00000025"/>&#xD;
 :~"&#xD;
 &#xD;
 iAy squire, I°fano  you have not found aie a&#xD;
@@ -4060,7 +4065,7 @@ ti,&#xD;
 &#xD;
 /        E4IivE    Et1&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7627-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7627-00000026"/>&#xD;
 I&#xD;
 &#xD;
 '1f&#xD;
@@ -4286,7 +4291,7 @@ f&#xD;
 &#xD;
 *4404&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7627-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7627-00000027"/>&#xD;
 56                  TESILVER BELL.&#xD;
 &#xD;
 I:&#xD;
@@ -4406,7 +4411,7 @@ his appearance.&#xD;
 &#xD;
 CHAPTER XII.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7627-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7627-00000028"/>&#xD;
 t&#xD;
 BI&#xD;
 &#xD;
@@ -4559,7 +4564,7 @@ midnight and morning, when we will devise&#xD;
 &#xD;
 THE SILVER BELL.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7627-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7627-00000029"/>&#xD;
 Go&#xD;
 &#xD;
 O~E'IL,,VIMR Bu.&#xD;
@@ -4700,7 +4705,7 @@ you expected ?"&#xD;
 various'causes," returned Ridenger.  "But to&#xD;
 tell the truth, I was anxious to learn the ter-&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7627-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7627-00000030"/>&#xD;
 62                     THE SILVER BELL.&#xD;
 &#xD;
 TH~E SILVi ER BIL.63&#xD;
@@ -4903,7 +4908,7 @@ we hear any one approaching. And, by the&#xD;
 &#xD;
 .'&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7627-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7627-00000031"/>&#xD;
 SAVER BELL.&#xD;
 &#xD;
 f&#xD;
@@ -5024,7 +5029,7 @@ ing look.&#xD;
 man left the room since I parted from you an&#xD;
 hour ago?"&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7627-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7627-00000032"/>&#xD;
 I&#xD;
 &#xD;
 r&#xD;
@@ -5157,7 +5162,7 @@ die ; and completed his singular toilet by plae-  Louis Vidal was keeping watch 
 &#xD;
 T1E SILVER B11LL.&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7627-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7627-00000033"/>&#xD;
 rT r&#xD;
 '    r&#xD;
 t&#xD;
@@ -5373,7 +5378,7 @@ I&#xD;
 &#xD;
 T  i+3R BELL.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7627-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7627-00000034"/>&#xD;
 !       w   .&#xD;
 1          !&#xD;
 r&#xD;
@@ -5524,7 +5529,7 @@ r&#xD;
 &#xD;
 ,,&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7627-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7627-00000035"/>&#xD;
 .A_ b'&#xD;
 A         rY   .&#xD;
 S&#xD;
@@ -5765,7 +5770,7 @@ with prying looks, and obviously desired to&#xD;
 &#xD;
 78&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7627-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7627-00000036"/>&#xD;
 THE SILVER BELL.                 75&#xD;
 &#xD;
 t&#xD;
@@ -5943,7 +5948,7 @@ person.&#xD;
 &#xD;
 * SILVM, SELL. I.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7627-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7627-00000037"/>&#xD;
 t&#xD;
 t&#xD;
 s&#xD;
@@ -6148,7 +6153,7 @@ While the worthy pair were imparting these&#xD;
 useful hints and practical admonitions, Albert&#xD;
 could not but observe that Mark was watching&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7627-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7627-00000038"/>&#xD;
 ,F   , '&#xD;
 ;s,: o   ,  y   T&#xD;
 .4&#xD;
@@ -6365,7 +6370,7 @@ cavern:; weha-e dotsenough'for one day.P&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7627-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7627-00000039"/>&#xD;
 THE SILVER BELL. S&#xD;
 &#xD;
 I&#xD;
@@ -6523,7 +6528,7 @@ proper, although ,Iniay not be fully able 'to tne&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7627-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7627-00000040"/>&#xD;
 rte&#xD;
 r-+        M"&#xD;
 . '&#xD;
@@ -6724,7 +6729,7 @@ r&#xD;
 F&#xD;
 ,i&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7627-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7627-00000041"/>&#xD;
 i&#xD;
 I A&#xD;
 f:&#xD;
@@ -6916,7 +6921,7 @@ i&#xD;
 st&#xD;
 .&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7627-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7627-00000042"/>&#xD;
 I&#xD;
 I&#xD;
 &#xD;
@@ -7109,7 +7114,7 @@ nized as Denis Wetzel.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7627-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7627-00000043"/>&#xD;
 ~11&#xD;
 r&#xD;
 I&#xD;
@@ -7282,7 +7287,7 @@ P,&#xD;
 CHAPTER XIX.&#xD;
 TRE BRIDAL.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7627-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7627-00000044"/>&#xD;
 4es; 1%p  payeglyconsiderably gpaei ed&#xD;
 eg   y 4helartio&#xD;
 tus. atae  at once to the cottage of&#xD;
@@ -7489,7 +7494,7 @@ nasal-twang.                           M --  - . i-  - &#xD;
 " infernal--hyfoeri t!"  elaimdd -&#xD;
 foaming attheiaouth; ,and there-being -mthing&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7627-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7627-00000045"/>&#xD;
 r92&#xD;
 &#xD;
 TEI SILVER BELL-&#xD;
@@ -7640,7 +7645,7 @@ L&#xD;
 &#xD;
 TH- SILVER BELL.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7627-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7627-00000046"/>&#xD;
 U&#xD;
 &#xD;
 '0&#xD;
@@ -7801,7 +7806,7 @@ S&#xD;
 &#xD;
 .    SUY     RIiaL.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7627-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7627-00000047"/>&#xD;
 THE SILVER BE.&#xD;
 &#xD;
 /&#xD;
@@ -7988,7 +7993,7 @@ and Louis to thiir rights, and to bring Don-&#xD;
 head and- his fellows to speedy justice, in the&#xD;
 disguise of Strolling Willie, I first met th&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7627-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7627-00000048"/>&#xD;
 t&#xD;
 i&#xD;
 &#xD;
@@ -8177,7 +8182,7 @@ I ask that his life may be spared.".- and that there was no way of escape, concl
 wad fpawied hestatd a moment, and to follow the example of their leader, and to&#xD;
 wake ipaietl aros heroom.           seek under his command more 'honorable dis-&#xD;
 &#xD;
-<pb  n="100" xml:id="VAC7627-00000049"/>&#xD;
+<pb n="100" xml:id="VAC7627-00000049"/>&#xD;
 ~Fr -r&#xD;
 fi .4&#xD;
 &#xD;
@@ -8264,8 +8269,8 @@ i    -              i.          _&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

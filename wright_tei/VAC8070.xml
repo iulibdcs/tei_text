@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8070">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8070">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Morton House </title>
-            <author >Reid, Christian, (1846-1920)</author>
+            <title>Morton House </title>
+            <author>Reid, Christian, (1846-1920)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8070</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8070</idno>
+            <idno type="wright2" n="previous">wright2-2509</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Morton House</title>
-                  <author >Reid, Christian, (1846-1920)</author>
+                  <title>Morton House</title>
+                  <author>Reid, Christian, (1846-1920)</author>
                </titleStmt>
-               <extent >266 p. </extent>
+               <extent>266 p. </extent>
                <publicationStmt>
-                  <publisher >Appleton</publisher>
+                  <publisher>Appleton</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1872">1872</date>
+                  <date when="1872">1872</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Morton House</head> 
+            <head>Morton House</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC8070-00000001"/>K!I&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC8070-00000001"/>K!I&#xD;
 &#xD;
 #111&#xD;
 &#xD;
@@ -119,7 +124,7 @@ D. APPLETON AND COMPANY,&#xD;
 &#xD;
 luonthaplhe.&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8070-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8070-00000002"/>&#xD;
 E1MElRED, according to ACt of Congress, In the year 1871, by&#xD;
 D. APPLETON &amp;amp; CO.,&#xD;
 In the OIlce of the Librarian of' Congress, at Washington.&#xD;
@@ -238,7 +243,7 @@ PAGU&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="0-1" xml:id="VAC8070-00000003"/>&#xD;
+<pb n="0-1" xml:id="VAC8070-00000003"/>&#xD;
 MORTON HOUSE.&#xD;
 -.4.---&#xD;
 &#xD;
@@ -318,7 +323,7 @@ be, the unusual squareness of the kihii~ gave a&#xD;
 &#xD;
 4'' -&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC8070-00000004"/>&#xD;
+<pb n="2-3" xml:id="VAC8070-00000004"/>&#xD;
 2                         MORTON HOUSE.                                                             OUT OF THE DUSK*                       3&#xD;
 &#xD;
 finish to the face that was far from adding to its&#xD;
@@ -545,7 +550,7 @@ work-day lives, and make our twilight seem more&#xD;
 dun by contrast with their own radiant sunshine.&#xD;
 "Yes, I have been very fortunate all my life,"&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8070-00000005"/>&#xD;
+<pb n="4-5" xml:id="VAC8070-00000005"/>&#xD;
 4                        MORTON HOUSE.                                                            OT OF THll DUSK.                    5&#xD;
 &#xD;
 he answered, more gravely than Katharine's gay&#xD;
@@ -771,7 +776,7 @@ so inadmissible as what he asked; but simply.&#xD;
 bee~use she was touched by the desire to give&#xD;
 her pleasure, which was so delicately veiled.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8070-00000006"/>&#xD;
+<pb n="6-7" xml:id="VAC8070-00000006"/>&#xD;
 0                        MORTON HOUSE.                                                            MR. WARWICK'S GHOST.                    7&#xD;
 &#xD;
 "How kind he is!" she thought, "and yet, poor&#xD;
@@ -994,7 +999,7 @@ social elevation. Yet social elevation of a cer-&#xD;
 tain sort came with time-as it comes to all men&#xD;
 who trust less to fortune than to their own en-&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8070-00000007"/>&#xD;
+<pb n="8-9" xml:id="VAC8070-00000007"/>&#xD;
 8                          MORTON ROUSE.                                                              MR. WARWICK'S GHOST.                    9&#xD;
 &#xD;
 deavor. To his diligence and energy, and to the&#xD;
@@ -1221,7 +1226,7 @@ Miss Katharine smiled slightly, but without&#xD;
 the least tincture of embarrassment. "How&#xD;
 could I possibly know about them I"' she&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8070-00000008"/>&#xD;
+<pb n="10-11" xml:id="VAC8070-00000008"/>&#xD;
 MORTON HOUSE.&#xD;
 &#xD;
 PAULINE MORTON.&#xD;
@@ -1452,7 +1457,7 @@ I&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8070-00000009"/>&#xD;
+<pb n="12-13" xml:id="VAC8070-00000009"/>&#xD;
 PAULLNE MORTON.&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -1695,7 +1700,7 @@ I&#xD;
 &#xD;
 13&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8070-00000010"/>&#xD;
+<pb n="14-15" xml:id="VAC8070-00000010"/>&#xD;
 MORTON HOUSE.&#xD;
 &#xD;
 WHAT MRS. ANNESLEY DID.&#xD;
@@ -1922,7 +1927,7 @@ intensely indolent, pleasure-loving when the pur-&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="16" xml:id="VAC8070-00000011"/>&#xD;
+<pb n="16" xml:id="VAC8070-00000011"/>&#xD;
 16                        MORTON HOUSE.&#xD;
 &#xD;
 suit of pleasure did not involve too much trouble,&#xD;
@@ -2041,7 +2046,7 @@ obtuse; they understood the matter pert~eetIy,&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="Illustration-17" xml:id="VAC8070-00000012"/>&#xD;
+<pb n="Illustration-17" xml:id="VAC8070-00000012"/>&#xD;
 WHAT MRS. ANNESLEY DID.&#xD;
 &#xD;
 and told each other when they went out that it&#xD;
@@ -2163,7 +2168,7 @@ more about his disagreeable relations in Mobile.&#xD;
 Morton could marry Irene Vernon, and live in'&#xD;
 that tumble-down old barn that you have such&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8070-00000013"/>&#xD;
+<pb n="18-19" xml:id="VAC8070-00000013"/>&#xD;
 18                        MORTON HOUSE.                                                            AFTER TWENTY YEARS.                     19&#xD;
 &#xD;
 a fancy for; and you could have your rooms at&#xD;
@@ -2387,7 +2392,7 @@ which .she had entered; and none the less dreary&#xD;
 because showing evident signs of much by-gone&#xD;
 beauty and care-dreary with a forsaken air&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8070-00000014"/>&#xD;
+<pb n="20-21" xml:id="VAC8070-00000014"/>&#xD;
 20                        MORTON HOUSE.&#xD;
 &#xD;
 of neglect under the soft November sky, at&#xD;
@@ -2616,7 +2621,7 @@ feign it. They did not break into any noisy&#xD;
 greetings, or take refuge in the commoiiplaces&#xD;
 of ordinary welcome; they did not even shake&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8070-00000015"/>&#xD;
+<pb n="22-23" xml:id="VAC8070-00000015"/>&#xD;
 22                        MORTON HOUSE.                                                           AFTER TWENTY YEARS.                     23&#xD;
 &#xD;
 hands-they only stood and looked at the faces&#xD;
@@ -2841,7 +2846,7 @@ but a la~-flgure, an automaton of her own crea-&#xD;
 tion, which' had moved, breathed, trembled, yield-&#xD;
 ed, as her own inclination pulled the wires upon&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8070-00000016"/>&#xD;
+<pb n="24-25" xml:id="VAC8070-00000016"/>&#xD;
 24                        MORTON HOUSE.                                                          AFTER TWENTY YEARS.                     25&#xD;
 &#xD;
 which she had suspended it. The Pauline be-&#xD;
@@ -3069,7 +3074,7 @@ raising position I am placed in. Pray, recon-&#xD;
 sider your rcsolutioii 1"&#xD;
 "My dear Elinor, I cannot do that," answered&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8070-00000017"/>&#xD;
+<pb n="26-27" xml:id="VAC8070-00000017"/>&#xD;
 26                       MORTON HOUSE.                                                          WHAT MORTON SAID.                     27&#xD;
 &#xD;
 her cousin. "I came here, as I told you, to seek&#xD;
@@ -3298,7 +3303,7 @@ MORTON HOUSE.&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8070-00000018"/>&#xD;
+<pb n="28-29" xml:id="VAC8070-00000018"/>&#xD;
 28                        MORTON HOUSE.                                                            WHAT MORTON SAID.                      29&#xD;
 &#xD;
 "No," answered he. "Is she not a Mor-&#xD;
@@ -3528,7 +3533,7 @@ broke in with a tone half-warning, half-reproach-&#xD;
 ful.&#xD;
 "Well, mamma," w~is the saucy reply, "you&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8070-00000019"/>&#xD;
+<pb n="30-31" xml:id="VAC8070-00000019"/>&#xD;
 30                  MORTON HOUSE.&#xD;
 &#xD;
 HOW A PALADIN STORMED A CASTLE.                31&#xD;
@@ -3759,7 +3764,7 @@ self. But I must confess that my ideas of&#xD;
 &#xD;
 31&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8070-00000020"/>&#xD;
+<pb n="32-33" xml:id="VAC8070-00000020"/>&#xD;
 32                                MORT&#xD;
 'jesting' do not agree with those of Mrs. Th&#xD;
 nor."&#xD;
@@ -3991,7 +3996,7 @@ paused. Then, with extreme care, he descended&#xD;
 from limb to limb until he reached the one im-&#xD;
 mediately above the boy. There he seated him-&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8070-00000021"/>&#xD;
+<pb n="34-35" xml:id="VAC8070-00000021"/>&#xD;
 34                         MORTON HOUSE.                                                    HOW A PALADIN STORMED A CASTLE.                35&#xD;
 &#xD;
 self~ and finding it secure spoke for the fin&#xD;
@@ -4218,7 +4223,7 @@ The boy shrugged his shoulders. "She wiir&#xD;
 think of this,?' he said, touching his arm.&#xD;
 bette will scold about the clothes."'&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8070-00000022"/>&#xD;
+<pb n="36-37" xml:id="VAC8070-00000022"/>&#xD;
 86                        MORTON HOUSE.&#xD;
 &#xD;
 THE ADELAIDE.                     37&#xD;
@@ -4448,7 +4453,7 @@ V&#xD;
 &#xD;
 M s&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8070-00000023"/>&#xD;
+<pb n="38-39" xml:id="VAC8070-00000023"/>&#xD;
 ii&#xD;
 f&#xD;
 £&#xD;
@@ -4631,7 +4636,7 @@ that the most sensitive person could not have&#xD;
 found a shade of patronage to resent. He proved&#xD;
 4&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8070-00000024"/>&#xD;
+<pb n="40-41" xml:id="VAC8070-00000024"/>&#xD;
 40                                MORTON HOUSE.&#xD;
 so entertaining that even Mr. Marks lingered over the passage and entered that gloomy solitude&#xD;
 the meal, which was usually a very business-like known in the Marks household as "the par.&#xD;
@@ -4802,7 +4807,7 @@ but most fastidious gentleman the great maxim&#xD;
 of the world, "Distrust secrecy.~~&#xD;
 So, when Mrs. Marks bustled in a few mm-&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8070-00000025"/>&#xD;
+<pb n="42-43" xml:id="VAC8070-00000025"/>&#xD;
 42                        MORTON HOUSE.                                                    M. WARWICK MAKES AN OFFER.                 43&#xD;
 &#xD;
 utes later, her advent was a relief to him as ii&#xD;
@@ -5031,7 +5036,7 @@ nation.&#xD;
 "Why, unky! I thought you never came to&#xD;
 dinner."&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8070-00000026"/>&#xD;
+<pb n="44-45" xml:id="VAC8070-00000026"/>&#xD;
 44                                MORTON HOUSE.&#xD;
 "I have come to-day, at any rate," said he. dinner-table," said Katharine; "but the poor&#xD;
 "Do you mean to say you are not glad to see bushes are melancholy sights now. Did you&#xD;
@@ -5204,7 +5209,7 @@ wick could not help feeling that many a man&#xD;
 might have envied him his position, and that&#xD;
 there l~iid seldom been a lighter form or a&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8070-00000027"/>&#xD;
+<pb n="46-47" xml:id="VAC8070-00000027"/>&#xD;
 46&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -5385,7 +5390,7 @@ Will you promise to come to me if you ever stand'&#xD;
 &#xD;
 MTh WARWICIC MARES AN OFFETh&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8070-00000028"/>&#xD;
+<pb n="48-49" xml:id="VAC8070-00000028"/>&#xD;
 48                                MORTON HOUSE.&#xD;
 in greater need than you do at present of service bright shawls were laid over the roots of trees&#xD;
 or advice?" to form impromptu easy-chairs, gay, scarfs and&#xD;
@@ -5553,7 +5558,7 @@ of such an indiscretion?"&#xD;
 "You have worn a pair of skates, Mr. Wae.&#xD;
 wick; for t heard Mrs. Raynor say this morning&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8070-00000029"/>&#xD;
+<pb n="50-51" xml:id="VAC8070-00000029"/>&#xD;
 THE GORDON PLAID.                    51&#xD;
 &#xD;
 50                               MORTON HOUSE.&#xD;
@@ -5726,7 +5731,7 @@ in the disappointed captor's hands.&#xD;
 "Well done, indeed i" cried Mips Vernon,&#xD;
 with a ringing laugh of enjoyment. "I am so&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8070-00000030"/>&#xD;
+<pb n="52-53" xml:id="VAC8070-00000030"/>&#xD;
 52                        MORTON HOUSE.                                                          AT MORTON HOUSE.                       58&#xD;
 &#xD;
 glad he got away. I should be so sorry if&#xD;
@@ -5948,7 +5953,7 @@ do.&#xD;
 Katharine, meanwhile, left alone in the large&#xD;
 empty drawing-room, began to revolve the awk-&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8070-00000031"/>&#xD;
+<pb n="54-55" xml:id="VAC8070-00000031"/>&#xD;
 54;                       MORTON HOUSE.                                                           AT MORTON RoUSE.                       55&#xD;
 &#xD;
 warduess of her position. She was sorry noiv&#xD;
@@ -6174,7 +6179,7 @@ it, and, of course, it does not interest you."&#xD;
 "On the contrary, if you will pardon me, it&#xD;
 interests me very much. Do you "-she leaned&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8070-00000032"/>&#xD;
+<pb n="56-57" xml:id="VAC8070-00000032"/>&#xD;
 55                                MORTON HOUSE.&#xD;
 forward with an eagerness which startled Kath&amp;amp;. Gordon, smiling-..." you seem so little like a gov.&#xD;
 rifle-" do you ever hear from them-the Don- erness. What a disagreeable life you must find&#xD;
@@ -6346,7 +6351,7 @@ sense of honor, and the power of being shamed,&#xD;
 is born. But you don't speak of, you don't&#xD;
 know, the blood that child has in his veins. I&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8070-00000033"/>&#xD;
+<pb n="58-59" xml:id="VAC8070-00000033"/>&#xD;
 58                        MORTON HOUSE.                                                           THE TUG OF WAR.                       59&#xD;
 &#xD;
 know-and, believe me, I can best deal with&#xD;
@@ -6570,7 +6575,7 @@ thing to be talked about as people wilt talk&#xD;
 in ~these country places; and of course I never&#xD;
 supposed you were in earnest about the girl.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8070-00000034"/>&#xD;
+<pb n="60-61" xml:id="VAC8070-00000034"/>&#xD;
 THE TUG OF WALl.                       61&#xD;
 &#xD;
 60                       MOIITON HOUSE.&#xD;
@@ -6802,7 +6807,7 @@ came in one word-&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8070-00000035"/>&#xD;
+<pb n="62-63" xml:id="VAC8070-00000035"/>&#xD;
 62                  MORTON HOUSE.&#xD;
 &#xD;
 "Nothing!" his mother echoed, in a ton&#xD;
@@ -7027,7 +7032,7 @@ scending the staircase.&#xD;
 &#xD;
 62&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8070-00000036"/>&#xD;
+<pb n="64-65" xml:id="VAC8070-00000036"/>&#xD;
 64                        MORTON HOUSE.                                                    MISS TRESHAM ASKS ADVICE.&#xD;
 &#xD;
 She would scarcely have been a woman, how-&#xD;
@@ -7258,7 +7263,7 @@ her embarrassment, and came to her relief.&#xD;
 &#xD;
 MORTON HOUSE&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8070-00000037"/>&#xD;
+<pb n="66-67" xml:id="VAC8070-00000037"/>&#xD;
 66                          MORTON hOUSE.                                                          MISS TRESLIAM ASKS ADVICE.                     67&#xD;
 &#xD;
 you in this way, Miss Tresham; but I am reall;&#xD;
@@ -7485,7 +7490,7 @@ haps a little more. I have lived a long, time in&#xD;
 the hottest fever of the world," she went on,&#xD;
 "and this stagnant life is almost too much for&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8070-00000038"/>&#xD;
+<pb n="68-69" xml:id="VAC8070-00000038"/>&#xD;
 68                          MORTON HOUSE.                                                                     R. G.                             69&#xD;
 &#xD;
 me. In a measure, it was pure selfishness which&#xD;
@@ -7709,7 +7714,7 @@ ward and greeted her guests with effusion.&#xD;
 How kind of you to come!" etc., etc.-" Maria,&#xD;
 how well you are looking ! - Fanny, has your.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8070-00000039"/>&#xD;
+<pb n="70-71" xml:id="VAC8070-00000039"/>&#xD;
 70                         MORTON HOUSE.                                                                     R G.                              71&#xD;
 &#xD;
 neuralgia quite gone ?-Augusta, I need not as]&#xD;
@@ -7936,7 +7941,7 @@ refrain from' paying her any marked attention,&#xD;
 that you will not give people any opportunity to&#xD;
 couple your name and hers together."&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8070-00000040"/>&#xD;
+<pb n="72-73" xml:id="VAC8070-00000040"/>&#xD;
 72                         MORTON HOUSE.                                                                    R. G.                             73&#xD;
 &#xD;
 Morton's brow contracted a little. He&#xD;
@@ -8155,7 +8160,7 @@ ment at all, puzzles me."&#xD;
 else would," said Adela, too lazy to do battle for&#xD;
 her own "nice-person" theory. "Well, main-&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8070-00000041"/>&#xD;
+<pb n="74-75" xml:id="VAC8070-00000041"/>&#xD;
 74                        MORTON HOUSE.                                                           MERRY CHRISTMAS!                      75&#xD;
 &#xD;
 ma, when do you expect to hear something&#xD;
@@ -8373,7 +8378,7 @@ thing that met her eye was the greeting-&#xD;
 MERRY CHRISTMAS!&#xD;
 in enormous letters of evergreen fronting the en.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8070-00000042"/>&#xD;
+<pb n="76-77" xml:id="VAC8070-00000042"/>&#xD;
 76                        MORTON HOUSE.                                                            MERRY CHRISTMAS!                       77&#xD;
 &#xD;
 trance, and running along the gallery that was&#xD;
@@ -8601,7 +8606,7 @@ you ?-and oh, isn't he nice?"&#xD;
 "I know Mr. Annesley, and I think him very&#xD;
 pleasant."&#xD;
 &#xD;
-<pb  n="78" xml:id="VAC8070-00000043"/>&#xD;
+<pb n="78" xml:id="VAC8070-00000043"/>&#xD;
 78                        MORTON HOUSE.&#xD;
 &#xD;
 "He's delightful, that's what he is" said&#xD;
@@ -8718,7 +8723,7 @@ why she should have been invited to loin the&#xD;
 &#xD;
 78&#xD;
 &#xD;
-<pb  n="Illustration-79" xml:id="VAC8070-00000044"/>&#xD;
+<pb n="Illustration-79" xml:id="VAC8070-00000044"/>&#xD;
 RE STOOD QUITE SILEFJ', WATCHING THE GRACEFUL FIGURE AND FAIR FACE.&#xD;
 Cx~r. XV~&#xD;
 &#xD;
@@ -8841,7 +8846,7 @@ own roof, in his own especial room-that the&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8070-00000045"/>&#xD;
+<pb n="80-81" xml:id="VAC8070-00000045"/>&#xD;
 81&#xD;
 &#xD;
 80                  ~~MORTON HOUSE.                                                                 S.CILA&#xD;
@@ -9071,7 +9076,7 @@ ST. CECILIA.&#xD;
 &#xD;
 80&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8070-00000046"/>&#xD;
+<pb n="82-83" xml:id="VAC8070-00000046"/>&#xD;
 82                  ~~~MORTON HOUSE..                                                          STEII.8&#xD;
 &#xD;
 ~1&#xD;
@@ -9271,7 +9276,7 @@ I&#xD;
 &#xD;
 ST. CECILIA.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8070-00000047"/>&#xD;
+<pb n="84-85" xml:id="VAC8070-00000047"/>&#xD;
 84                                MORTO]&#xD;
 perspective. Gazing from the darkened toom,&#xD;
 the full glory of the abounding radiance seemed&#xD;
@@ -9503,7 +9508,7 @@ Im&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8070-00000048"/>&#xD;
+<pb n="86-87" xml:id="VAC8070-00000048"/>&#xD;
 86                                MORTON&#xD;
 "Certainly you do. But it is different here.&#xD;
 This is a rougher country, and we may have to&#xD;
@@ -9680,7 +9685,7 @@ any thing about her family, either; and I hear me a great deal about the West in
 &#xD;
 ]&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8070-00000049"/>&#xD;
+<pb n="88-89" xml:id="VAC8070-00000049"/>&#xD;
 88&#xD;
 &#xD;
 MORTON ROUSE'.&#xD;
@@ -9916,7 +9921,7 @@ Little, and found them quite ready to afford&#xD;
 10 any information regarding Mr. Henry St.&#xD;
 ohn. He is known to them as the friend and&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8070-00000050"/>&#xD;
+<pb n="90-91" xml:id="VAC8070-00000050"/>&#xD;
 90&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -10146,7 +10151,7 @@ tience.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8070-00000051"/>&#xD;
+<pb n="92-93" xml:id="VAC8070-00000051"/>&#xD;
 92&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -10382,7 +10387,7 @@ Icy and myself to each other?"&#xD;
 &#xD;
 Ii&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8070-00000052"/>&#xD;
+<pb n="94-95" xml:id="VAC8070-00000052"/>&#xD;
 94                                 MORT(&#xD;
 'thisunexpected question. "Yes, I have heard&#xD;
 something of the kind."&#xD;
@@ -10614,7 +10619,7 @@ DN HOUSE-&#xD;
 &#xD;
 95&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8070-00000053"/>&#xD;
+<pb n="96-97" xml:id="VAC8070-00000053"/>&#xD;
 96                        MORTON HOUSE.&#xD;
 &#xD;
 YOU CANNOT LET ME HELP YOU?                 97&#xD;
@@ -10840,7 +10845,7 @@ after Irene Vernon had first gone on alone, he&#xD;
 and she entered the shrubbery together. I&#xD;
 thought it singular; but nothing more, until I&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8070-00000054"/>&#xD;
+<pb n="98-99" xml:id="VAC8070-00000054"/>&#xD;
 went down-stairs, and, after a while, Irene came warned you. Since you will not heed the warn-&#xD;
 in-still alone. I asked her what had become ing, you must pay the penalty of your obstinacy&#xD;
 of Miss Tresham, and ~he evaded the question. and folly, but my heart sinks when I consider&#xD;
@@ -11017,7 +11022,7 @@ NeIly's and mine."-" Stop there, George, step&#xD;
 &#xD;
 MORTON HOUSK&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8070-00000055"/>&#xD;
+<pb n="100-101" xml:id="VAC8070-00000055"/>&#xD;
 100                               MORTON&#xD;
 "A polka, did you say, Mr. Anderson? I never&#xD;
 dance the round dances."&#xD;
@@ -11249,7 +11254,7 @@ sent you m6re love than I could carry-Katy&#xD;
 and Sara did not go to their aunt's, and Nelly's&#xD;
 cough iS quite well, I believe."&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8070-00000056"/>&#xD;
+<pb n="102-103" xml:id="VAC8070-00000056"/>&#xD;
 102                       MORTON HOUSE.&#xD;
 &#xD;
 "Has nothing happened since I went away?&#xD;
@@ -11475,7 +11480,7 @@ sideration of the muddy state of the roads,&#xD;
 &#xD;
 MR. WARWICK'S NEW CLIENT.                  103&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8070-00000057"/>&#xD;
+<pb n="104-105" xml:id="VAC8070-00000057"/>&#xD;
 104                       MORTON HOUSE.&#xD;
 &#xD;
 mounted a pair of sabots, and in them she went&#xD;
@@ -11704,7 +11709,7 @@ broke into a voluble history of her encounter,&#xD;
 and of all that had been said on both sides. By&#xD;
 the time she finished, she had worked herself Into&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8070-00000058"/>&#xD;
+<pb n="106-107" xml:id="VAC8070-00000058"/>&#xD;
 106&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -11942,7 +11947,7 @@ of this estate, Mrs. Gordon had absolutely re-&#xD;
 &#xD;
 ]&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8070-00000059"/>&#xD;
+<pb n="108-109" xml:id="VAC8070-00000059"/>&#xD;
 108                       MORTON HOUSE.&#xD;
 &#xD;
 109&#xD;
@@ -12176,7 +12181,7 @@ the matter."&#xD;
 mediate haste. I do not knowbow near:slsy hus-&#xD;
 band may be. Probably he is in America."~&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8070-00000060"/>&#xD;
+<pb n="110-111" xml:id="VAC8070-00000060"/>&#xD;
 ~.IO                        MORTON HOUSE.                                                         MISS TRESHAM KEEPS HEll WORD.               iii&#xD;
 &#xD;
 "This St. John cannot himself molest you?1&#xD;
@@ -12400,7 +12405,7 @@ to be curious about your affairs. I really beg&#xD;
 your pardon, if I said any thing to make you&#xD;
 think so."&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8070-00000061"/>&#xD;
+<pb n="112-113" xml:id="VAC8070-00000061"/>&#xD;
 112                       MORTON HOUSE.&#xD;
 &#xD;
 "You did not say any thing," answered Katl&#xD;
@@ -12633,7 +12638,7 @@ he said. "Or else they pay like princes here."&#xD;
 &#xD;
 MISS TRESHAM KEEPS HER WORD.                   113&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8070-00000062"/>&#xD;
+<pb n="114-115" xml:id="VAC8070-00000062"/>&#xD;
 have not spent much. I have had no need to I&#xD;
 so.,,&#xD;
 "What is the amount?"&#xD;
@@ -12874,7 +12879,7 @@ cipal portion of the party were assembled. A&#xD;
 lively examination of engravings, and discussion&#xD;
 of costumes, was going on here, and a great deal&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8070-00000063"/>&#xD;
+<pb n="116-117" xml:id="VAC8070-00000063"/>&#xD;
 116                MORTON HOUSE.&#xD;
 &#xD;
 of interest and excitement was afloat; for, thirty&#xD;
@@ -13108,7 +13113,7 @@ Annesley will be kind enough tc~ show you the&#xD;
 way out of the grounds."&#xD;
 "Certainly," said Mr. Annesley, with a grave,&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8070-00000064"/>&#xD;
+<pb n="118-119" xml:id="VAC8070-00000064"/>&#xD;
 118                               MORTO~&#xD;
 bow, "unless y6~u will permit me to suggest the&#xD;
 amendment that you introduce me to your friend,&#xD;
@@ -13344,7 +13349,7 @@ uid came back.&#xD;
 nothingg I can do for yourself?"&#xD;
 She knew what be meant. She kne~v that he&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8070-00000065"/>&#xD;
+<pb n="120-121" xml:id="VAC8070-00000065"/>&#xD;
 120&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -13585,7 +13590,7 @@ deeds, not words; what Morton felt burst forth&#xD;
 in eager 'language, though it would have been&#xD;
 equally ready to prove itself by acts. The dif-&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8070-00000066"/>&#xD;
+<pb n="122-123" xml:id="VAC8070-00000066"/>&#xD;
 122&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -13816,7 +13821,7 @@ thought of Mr. Warwick and the note he had&#xD;
 left behind. "What did he mean~?" she asked&#xD;
 herself, and, receiving no satisfactory reply, wae&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8070-00000067"/>&#xD;
+<pb n="124-125" xml:id="VAC8070-00000067"/>&#xD;
 124:                               MORTON&#xD;
 still askIng~ when the door opened and Katy&#xD;
 &#xD;
@@ -14052,7 +14057,7 @@ less to try to deceive me-I should think you&#xD;
 would have discovered that long before~this time.&#xD;
 Who was the gentleman that waskind enough to&#xD;
 &#xD;
-<pb  n="126" xml:id="VAC8070-00000068"/>&#xD;
+<pb n="126" xml:id="VAC8070-00000068"/>&#xD;
 i2~                       MORTON .HOUSE~&#xD;
 &#xD;
 show me out of the grounds of the house where&#xD;
@@ -14164,7 +14169,7 @@ would be beneficial for madame to go herself, that&#xD;
 a breath of the outer air would revive her, and&#xD;
 the sight of the outer world be good fo~ her. In&#xD;
 &#xD;
-<pb  n="Illustration-127" xml:id="VAC8070-00000069"/>&#xD;
+<pb n="Illustration-127" xml:id="VAC8070-00000069"/>&#xD;
 I&#xD;
 &#xD;
 OLD FOES.&#xD;
@@ -14287,7 +14292,7 @@ The door was still open, and Jack and Letty&#xD;
 z&#xD;
 0&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8070-00000070"/>&#xD;
+<pb n="128-129" xml:id="VAC8070-00000070"/>&#xD;
 128                       MORTON HOUSE.&#xD;
 &#xD;
 OLD FOES.                           129&#xD;
@@ -14516,7 +14521,7 @@ Warwick, with the same honest face. Will you&#xD;
 take me somewhere-anywhere-so that I sian&#xD;
 speak to you alone?" she went on, much to Mrs.&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8070-00000071"/>&#xD;
+<pb n="130-131" xml:id="VAC8070-00000071"/>&#xD;
 130                       MORTON HOUSE.                                                                  OLD FOES.&#xD;
 &#xD;
 131&#xD;
@@ -14752,7 +14757,7 @@ ing, we shall be very glad to see him."&#xD;
 "Thank you, madam," said Mr. St. John,&#xD;
 speaking for himself. "I am very grateful for&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8070-00000072"/>&#xD;
+<pb n="132-133" xml:id="VAC8070-00000072"/>&#xD;
 132                       MORTON ROUSE.                                                               MORTON'S CHOICE.                     133&#xD;
 &#xD;
 your kind invitation, but I regret to say that I am&#xD;
@@ -14978,7 +14983,7 @@ MORTON'S CHOICE-&#xD;
 &#xD;
 133&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8070-00000073"/>&#xD;
+<pb n="134-135" xml:id="VAC8070-00000073"/>&#xD;
 ~34                              MORTOI&#xD;
 in his cloister, the philosopher in his study, the&#xD;
 great minds and hearts that solitude has nurtured&#xD;
@@ -15209,7 +15214,7 @@ rary, I thank you. I should certainly hear all&#xD;
 fiat is said-if only that I may be abl&amp;amp; to ~n-&#xD;
 wer it. You must forgive me that' I i~annot&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8070-00000074"/>&#xD;
+<pb n="136-137" xml:id="VAC8070-00000074"/>&#xD;
 MORTON'S CHOJOB.                     137&#xD;
 &#xD;
 136                       MORTON HOUSE.&#xD;
@@ -15438,7 +15443,7 @@ which covered her face.&#xD;
 Half an hour later, Babette opened the door,&#xD;
 and brought in a card.&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8070-00000075"/>&#xD;
+<pb n="138-139" xml:id="VAC8070-00000075"/>&#xD;
 138                       MORTON liOUSE.&#xD;
 &#xD;
 "The lady is in the drawing-room, and insists&#xD;
@@ -15668,7 +15673,7 @@ People less clear.sighted thanMt~ M~srks ~ti4&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8070-00000076"/>&#xD;
+<pb n="140-141" xml:id="VAC8070-00000076"/>&#xD;
 MR. MARKS ASSERTS HIMSELF.                  141&#xD;
 &#xD;
 140                       MORTON HOUSE.&#xD;
@@ -15899,7 +15904,7 @@ month or so."&#xD;
 "May I ask if she has any acquaintances&#xD;
 there?"&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8070-00000077"/>&#xD;
+<pb n="142-143" xml:id="VAC8070-00000077"/>&#xD;
 142                       MORTON HOUSE.&#xD;
 &#xD;
 "She goes, I believe, to see a Catholic priest,"&#xD;
@@ -16122,7 +16127,7 @@ regard to my wishes. ~11ow could I prevent&#xD;
 him, if I tried, from doing so?"&#xD;
 11cr cousin came over to~ h.er,~nd, stran~l~&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8070-00000078"/>&#xD;
+<pb n="144-145" xml:id="VAC8070-00000078"/>&#xD;
 144                        MORTON HOUSE.                                                       MRS. GORDON'S SUGGESTION.               145&#xD;
 &#xD;
 enough, sat down by her, laying one hand on&#xD;
@@ -16349,7 +16354,7 @@ so."&#xD;
 "Thank you," said Mrs. Annesley, impulsive.&#xD;
 ly. ~fhen she added, with more ~of'.her usual&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8070-00000079"/>&#xD;
+<pb n="146-147" xml:id="VAC8070-00000079"/>&#xD;
 146                        MOETON HOUSE.                                                                                                     147&#xD;
 MRS. GORDON'S SUGGESTION.&#xD;
 &#xD;
@@ -16580,7 +16585,7 @@ Mrs. Annesley knew this before, but none the&#xD;
 &#xD;
 MORToN HoUsE&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8070-00000080"/>&#xD;
+<pb n="148-149" xml:id="VAC8070-00000080"/>&#xD;
 148                                MORTON&#xD;
 less did she think it necessary to look as much&#xD;
 shocked as if' she heard the statement for the&#xD;
@@ -16807,7 +16812,7 @@ Marks's garden. I am sorry that I cannot tell&#xD;
 -you any thing about the perennial."&#xD;
 "You have no idea where it ~&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8070-00000081"/>&#xD;
+<pb n="150-151" xml:id="VAC8070-00000081"/>&#xD;
 150                  MORTON HOUSE.                                                                      ONGAD                                 5&#xD;
 &#xD;
 "I have not the least idea where it is."&#xD;
@@ -17039,7 +17044,7 @@ ON GUARD.&#xD;
 &#xD;
 150&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8070-00000082"/>&#xD;
+<pb n="152-153" xml:id="VAC8070-00000082"/>&#xD;
 152&#xD;
 &#xD;
 THE SIC&#xD;
@@ -17268,7 +17273,7 @@ pressing her own opinion, vanished.&#xD;
 Mr. Crump gave a low whistle, expressive,&#xD;
 apparently, of his own view on the subject, rn~d,'&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8070-00000083"/>&#xD;
+<pb n="154-155" xml:id="VAC8070-00000083"/>&#xD;
 THE SICK LADY.                       155&#xD;
 &#xD;
 154                       MORTON HOUSE.&#xD;
@@ -17497,7 +17502,7 @@ thought it extremely doubtful whether he&#xD;
 ~poken by any means encouragingly. "I 4pi't~&#xD;
 hink he's got much idea that she'll live,"'s~i4&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8070-00000084"/>&#xD;
+<pb n="156-157" xml:id="VAC8070-00000084"/>&#xD;
 156                      MORTON HOUSE.                                                          THE SICK LADY.                     157&#xD;
 &#xD;
 Mrs. Crump. "He told me I'd better try my&#xD;
@@ -17726,7 +17731,7 @@ if this were indeed Katharine Tresham. After a&#xD;
 minute spcnt~ in closh and attentive observatinn,&#xD;
 he walked to the door, and beckoned the dbefor&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8070-00000085"/>&#xD;
+<pb n="158-159" xml:id="VAC8070-00000085"/>&#xD;
 158                         MORTON HOUSE.                                                                  THI3I SICK LADY.                       159&#xD;
 &#xD;
 to follow him. Once outside, he stopped and&#xD;
@@ -17952,7 +17957,7 @@ failing utterly to do so~ In the range of kin pro."'&#xD;
 fessional experience, many sad pages of' human&#xD;
 life had come under his eye-.--as they come under&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8070-00000086"/>&#xD;
+<pb n="160-161" xml:id="VAC8070-00000086"/>&#xD;
 160                        MORTON HOUSE.                                                          AN OLD FRIEND.                     181&#xD;
 &#xD;
 - the eye of all men of al professions, and of all&#xD;
@@ -18177,7 +18182,7 @@ far too good to be true. She could n~t believe&#xD;
 it-she absolutely declined to believe It. Some&#xD;
 plot was at the bottom of it, she felt sure-some.~&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8070-00000087"/>&#xD;
+<pb n="162-163" xml:id="VAC8070-00000087"/>&#xD;
 162                       MORTON HOuSE.                                                              AN OLD FRIEND.                      163&#xD;
 &#xD;
 thing that would ~end by complicating matters&#xD;
@@ -18404,7 +18409,7 @@ cordingly; while Charley, who was young and&#xD;
 foolish, backed into a fence - corner, as the&#xD;
 heavily-laden coach, with its six horses, itS nine.&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8070-00000088"/>&#xD;
+<pb n="164-165" xml:id="VAC8070-00000088"/>&#xD;
 164:                        MORTON HOUSE.                                                                 AN OLD FRIEND.                          165&#xD;
 &#xD;
 inside passengers, end one fortunate outsider,&#xD;
@@ -18631,7 +18636,7 @@ thing like recognition was plainly to be seen in&#xD;
 his face-was evidently struggling to assert itself&#xD;
 La his mind. As the stranger held Ma candle to&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8070-00000089"/>&#xD;
+<pb n="166-167" xml:id="VAC8070-00000089"/>&#xD;
 AN OLD FRIEND.                     16&#xD;
 &#xD;
 166                               MORTON HOUSE.&#xD;
@@ -18865,7 +18870,7 @@ MORTON ,HOUSE.&#xD;
 &#xD;
 166&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8070-00000090"/>&#xD;
+<pb n="168-169" xml:id="VAC8070-00000090"/>&#xD;
 MORTON HOUSE.&#xD;
 &#xD;
 FATHER MARTIN.                      169&#xD;
@@ -19093,7 +19098,7 @@ Annesley looked helplessly at hhn. lie ilid&#xD;
 9&#xD;
 168&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8070-00000091"/>&#xD;
+<pb n="170-171" xml:id="VAC8070-00000091"/>&#xD;
 140                       MO1~TON HOtTSE.                                                         ~'ATHER MARTIN.&#xD;
 &#xD;
 1'71&#xD;
@@ -19327,7 +19332,7 @@ They left their sheltered nook and turned Into&#xD;
 &#xD;
 MORTON HOUSE&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8070-00000092"/>&#xD;
+<pb n="172-173" xml:id="VAC8070-00000092"/>&#xD;
 172                      MORTON HOUSE.                                                       LIFE AND DEATH.                    173&#xD;
 &#xD;
 a walk that led directly to the house; but,&#xD;
@@ -19549,7 +19554,7 @@ stairs."&#xD;
 &#xD;
 t'&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8070-00000093"/>&#xD;
+<pb n="174-175" xml:id="VAC8070-00000093"/>&#xD;
 1~i4                      MORTON HOUSE.                                                              LIFE AND DEATH~                      175&#xD;
 &#xD;
 yor&#xD;
@@ -19771,7 +19776,7 @@ Annesley shrank. Alas! who does not shrink&#xD;
 &#xD;
 ?&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8070-00000094"/>&#xD;
+<pb n="176-177" xml:id="VAC8070-00000094"/>&#xD;
 176                                MORTOI~&#xD;
 wheu that terrible word is spoken with the cold,&#xD;
 calm deliberation of scientific certainty in regard&#xD;
@@ -20004,7 +20009,7 @@ a strange position, certainly. To decide, at the&#xD;
 bidding of another man, whether th~ woman he&#xD;
 loved, loved him in return; to count 'ovei~ her&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8070-00000095"/>&#xD;
+<pb n="178-179" xml:id="VAC8070-00000095"/>&#xD;
 LIFE AND DEATH.                    179&#xD;
 &#xD;
 178                       MORTON HOUSE.&#xD;
@@ -20232,7 +20237,7 @@ and felt the pulse-his facewatched by the others&#xD;
 with breathless anxiety.&#xD;
 "There is a little change," he said, guard.&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8070-00000096"/>&#xD;
+<pb n="180-181" xml:id="VAC8070-00000096"/>&#xD;
 MORTON HOUSE.&#xD;
 &#xD;
 T&#xD;
@@ -20462,7 +20467,7 @@ they say."&#xD;
 "It's a fact, sir. The excitement about it In&#xD;
 town is tremendous. You might a' knocked me&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8070-00000097"/>&#xD;
+<pb n="182-183" xml:id="VAC8070-00000097"/>&#xD;
 down with a feather when I heard the news my-&#xD;
 self; and, as for Mr. Marks, he was as white as a&#xD;
 sheet when I saw him this morning. They say&#xD;
@@ -20641,7 +20646,7 @@ was good, and the chance of detection not great, time, even if I had inclination
 I don't believe he would have hesitated a mo- have not inclination at present), to tell you.&#xD;
 meut." '                                    May I rely on your promise?"&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8070-00000098"/>&#xD;
+<pb n="184-185" xml:id="VAC8070-00000098"/>&#xD;
 A&#xD;
 &#xD;
 184                               MORTON&#xD;
@@ -20875,7 +20880,7 @@ ute. And there hadn't been the slightest noise-&#xD;
 and I couldn't tell, to save my life, what was&#xD;
 th~e matter with me. I just jumped up as if I had&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8070-00000099"/>&#xD;
+<pb n="186-187" xml:id="VAC8070-00000099"/>&#xD;
 186&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -21112,7 +21117,7 @@ And I can't believe that he did not know better&#xD;
 than he pretended about the bill. I think he&#xD;
 made that an excuse to get in and take a look at&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8070-00000100"/>&#xD;
+<pb n="188-189" xml:id="VAC8070-00000100"/>&#xD;
 the bank, and find out all he could. I saw him&#xD;
 looking very hard at the door of the vault there.&#xD;
 And he shut the room-door when he went out,&#xD;
@@ -21340,7 +21345,7 @@ thorough examination. You were all excited&#xD;
 this morning, of course, and may have overlooked&#xD;
 some little matter-there is somebody coming in,&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8070-00000101"/>&#xD;
+<pb n="190-191" xml:id="VAC8070-00000101"/>&#xD;
 190                              MORT(&#xD;
 I think~ Had you not better go and see, Rid&#xD;
 ard? I will be up presently."&#xD;
@@ -21572,7 +21577,7 @@ this house."&#xD;
 "All this sort of talk is nonsense, Bessie,"'&#xD;
 said Mr. Warwick. "Marks is very much out ot~&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8070-00000102"/>&#xD;
+<pb n="192-193" xml:id="VAC8070-00000102"/>&#xD;
 192&#xD;
 &#xD;
 MORTON ROUSE.&#xD;
@@ -21809,7 +21814,7 @@ was so much shrewd interest and curiosity in it;&#xD;
 and yet not vulgar curiosity, either, for the boy&#xD;
 restrained it the moment he perceived that it&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8070-00000103"/>&#xD;
+<pb n="194-195" xml:id="VAC8070-00000103"/>&#xD;
 104                              MORTO&#xD;
 was observed, replying with modest brevity V&#xD;
 the questions as to the price of the knives, whici&#xD;
@@ -22043,7 +22048,7 @@ eyes."&#xD;
 "Mebbe so. Anyhow, he didn't answer to&#xD;
 the descriptions.&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8070-00000104"/>&#xD;
+<pb n="196-197" xml:id="VAC8070-00000104"/>&#xD;
 "How far did he go with you?"&#xD;
 "He' stopped a little this side of Chessel-&#xD;
 ton."&#xD;
@@ -22254,7 +22259,7 @@ you mean! I haven't been punishing them."&#xD;
 &#xD;
 197&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8070-00000105"/>&#xD;
+<pb n="198-199" xml:id="VAC8070-00000105"/>&#xD;
 198                              MORTO~&#xD;
 "Yes, you have, and in the worst possible&#xD;
 way-by cloudy looks and unmerited reproof. I&#xD;
@@ -22487,7 +22492,7 @@ then Mr. Warwick, pleading haste, went on his&#xD;
 way. But he had taken theopportunity during&#xD;
 the moment in which he was stationary almost&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8070-00000106"/>&#xD;
+<pb n="200-201" xml:id="VAC8070-00000106"/>&#xD;
 200                              MORTON&#xD;
 directly in front of St. John-for he had not&#xD;
 stopped the buggy until it passed a few feet be-&#xD;
@@ -22722,7 +22727,7 @@ the forest shade once more, and stood in the&#xD;
 &#xD;
 . - /&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8070-00000107"/>&#xD;
+<pb n="202-203" xml:id="VAC8070-00000107"/>&#xD;
 202                       MORTON ROUSE.                                                                CHECKMATED.                       203&#xD;
 &#xD;
 full light of the setting sun, a voice at his side&#xD;
@@ -22946,7 +22951,7 @@ dition I impose by coming back into the State,&#xD;
 he will be coming to immediate arrest and prose-&#xD;
 cution."&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8070-00000108"/>&#xD;
+<pb n="204-205" xml:id="VAC8070-00000108"/>&#xD;
 204&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -23186,7 +23191,7 @@ ing like himself once more. '.' John, I .donet&#xD;
 know how to thank you!" He started up and&#xD;
 began shaking Mr. Warwick's hand so hard that&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8070-00000109"/>&#xD;
+<pb n="206-207" xml:id="VAC8070-00000109"/>&#xD;
 206&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -23417,7 +23422,7 @@ natural also. Miss Tresham was startled: when&#xD;
 at last she glanced at the clock and saw how&#xD;
 long she had been talking to him.&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8070-00000110"/>&#xD;
+<pb n="208-209" xml:id="VAC8070-00000110"/>&#xD;
 208&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -23656,7 +23661,7 @@ both her hands in his warm, eager clasp. "You&#xD;
 are very good to-to look so glad," she added,&#xD;
 with a little laugh. "Everybody is so good to&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC8070-00000111"/>&#xD;
+<pb n="210-211" xml:id="VAC8070-00000111"/>&#xD;
 210&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -23890,7 +23895,7 @@ kind and tell it at once."&#xD;
 ever lived!" cried Annesley, out of patience 3vith&#xD;
 himself. "This is the third time I have stai~tled&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8070-00000112"/>&#xD;
+<pb n="212-213" xml:id="VAC8070-00000112"/>&#xD;
 MORTON HOU$E.                                                             MEA CUI4PA.                       213&#xD;
 &#xD;
 you withQut any earthly reason for it. Please&#xD;
@@ -24113,7 +24118,7 @@ tempt, and greater self-reproach. Why had she&#xD;
 been so foolish ?-why had she been so unde-&#xD;
 cided ?-why had she let herself be swayed from&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8070-00000113"/>&#xD;
+<pb n="214-215" xml:id="VAC8070-00000113"/>&#xD;
 214                        MORTON HOUSE.                                                                  MBA CTJLPA.                         215&#xD;
 &#xD;
 what she knew was right ?-why had she let him&#xD;
@@ -24342,7 +24347,7 @@ ble! I am very grateful to you! They tefl me&#xD;
 &#xD;
 . 1&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8070-00000114"/>&#xD;
+<pb n="216-217" xml:id="VAC8070-00000114"/>&#xD;
 216                              MORTON&#xD;
 I should have died, if you had not found me. I&#xD;
 should not like 1o die, and-and I am so grate-&#xD;
@@ -24575,7 +24580,7 @@ rnd the face one loved best in the world. What&#xD;
 us life was in Europe, meanwhile, I cannot even&#xD;
 ~retend to say; I cannot bear to think. There&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8070-00000115"/>&#xD;
+<pb n="218-219" xml:id="VAC8070-00000115"/>&#xD;
 218                               MOR~O~&#xD;
 was a man named Fraser, who seemed his special&#xD;
 comrade; or, rather, I -should say, his leader in&#xD;
@@ -24751,7 +24756,7 @@ r HOUSE.&#xD;
 &#xD;
 219&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8070-00000116"/>&#xD;
+<pb n="220-221" xml:id="VAC8070-00000116"/>&#xD;
 220                        MORTON HOUSE.                                                            MISS TRESHAM'S REPLY.                   221&#xD;
 &#xD;
 I tell you something else that made me speak&#xD;
@@ -24981,7 +24986,7 @@ p&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC8070-00000117"/>&#xD;
+<pb n="222-223" xml:id="VAC8070-00000117"/>&#xD;
 222&#xD;
 &#xD;
 MOnTON HOUSE-.&#xD;
@@ -25216,7 +25221,7 @@ m~o return to them."&#xD;
 For the second time during the coujue of~ this&#xD;
 interview Mr. Warwick's face betrayed him. The&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC8070-00000118"/>&#xD;
+<pb n="224-225" xml:id="VAC8070-00000118"/>&#xD;
 .224                        MORTON HOUSE.                                                           MISS TRESITAM'S REPLY.                   225&#xD;
 &#xD;
 climax to her speech came so suddenly, that he&#xD;
@@ -25446,7 +25451,7 @@ doubt, by the kindest care, she took the road back&#xD;
 to Lagrange-that road that was leading slowly&#xD;
 but surely to the end.&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC8070-00000119"/>&#xD;
+<pb n="226-227" xml:id="VAC8070-00000119"/>&#xD;
 226                              MOIITOI&#xD;
 It was determined that they would leave the&#xD;
 *iext morning. Miss Vernon, on her own (that&#xD;
@@ -25676,7 +25681,7 @@ ing its stately terraces, had vanished from sight,&#xD;
 Katharine could scarcely restrain her tears. She&#xD;
 felt as if she were bidding adieu to peace, as if&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC8070-00000120"/>&#xD;
+<pb n="228-229" xml:id="VAC8070-00000120"/>&#xD;
 GOOD SAMARITANS.                    229&#xD;
 &#xD;
 228                       MORTON HOUSE.&#xD;
@@ -25907,7 +25912,7 @@ quite a fancy to her. As Mr. Raynor had once&#xD;
 &#xD;
 b&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC8070-00000121"/>&#xD;
+<pb n="230-231" xml:id="VAC8070-00000121"/>&#xD;
 230                       MORTON HOUSE.&#xD;
 &#xD;
 remarked, Irene did not often take fancies, espe-&#xD;
@@ -26138,7 +26143,7 @@ and Mr. Warwick was shown into the room.&#xD;
 They greeted him cordially; and, aftet' the first&#xD;
 salutations were over, he turned to Katharine.&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC8070-00000122"/>&#xD;
+<pb n="232-233" xml:id="VAC8070-00000122"/>&#xD;
 232                               MORTON&#xD;
 "I see you are getting quite well," he said.&#xD;
 "Are you almost ready for work?"&#xD;
@@ -26372,7 +26377,7 @@ was with difficulty that he finally banished the&#xD;
 intrusive recollections.&#xD;
 "I have been a fool once," he thought,&#xD;
 &#xD;
-<pb  n="234-235" xml:id="VAC8070-00000123"/>&#xD;
+<pb n="234-235" xml:id="VAC8070-00000123"/>&#xD;
 234                        MORTON ROUSE.                                                                THE LAST DEFIANCE.                    .235&#xD;
 &#xD;
 "Nothing shall induce me to make a fool of&#xD;
@@ -26597,7 +26602,7 @@ mw near the window, and a man, pushing back&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="236-237" xml:id="VAC8070-00000124"/>&#xD;
+<pb n="236-237" xml:id="VAC8070-00000124"/>&#xD;
 236                             'MORTON&#xD;
 the gently-swaying curtains, stepped into the&#xD;
 room.&#xD;
@@ -26776,7 +26781,7 @@ come, that she might pour out her hate and she was sure, she was perfectly secur
 scorn, rushed over her. She gathered all her' the child was placed beyond his reach.&#xD;
 16&#xD;
 &#xD;
-<pb  n="238-239" xml:id="VAC8070-00000125"/>&#xD;
+<pb n="238-239" xml:id="VAC8070-00000125"/>&#xD;
 ft&#xD;
 MORTON HOUSE.&#xD;
 &#xD;
@@ -27012,7 +27017,7 @@ munication between the different islands of the&#xD;
 West Indies, and there was nobody to followor&#xD;
 inalte disagreeable iurjuirics. Her Lathe; who&#xD;
 &#xD;
-<pb  n="240-241" xml:id="VAC8070-00000126"/>&#xD;
+<pb n="240-241" xml:id="VAC8070-00000126"/>&#xD;
 240                       MORTON HOUSE.&#xD;
 &#xD;
 was infirm, died ,almost immediately after Ii&#xD;
@@ -27239,7 +27244,7 @@ last been rewarded for long and impatient wait-&#xD;
 &#xD;
 ON THE THRESHOLD OF MORTON HOUSE.              241&#xD;
 &#xD;
-<pb  n="242-243" xml:id="VAC8070-00000127"/>&#xD;
+<pb n="242-243" xml:id="VAC8070-00000127"/>&#xD;
 242&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -27420,7 +27425,7 @@ The lawyer started a little.&#xD;
 coolly; "but it is not at all probable~ Why do&#xD;
 you ask?"&#xD;
 &#xD;
-<pb  n="244-245" xml:id="VAC8070-00000128"/>&#xD;
+<pb n="244-245" xml:id="VAC8070-00000128"/>&#xD;
 244&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -27654,7 +27659,7 @@ has recovered consciousness, and I think his sis-&#xD;
 ter ought to be summoned Morton you must&#xD;
 go for her."&#xD;
 &#xD;
-<pb  n="246-247" xml:id="VAC8070-00000129"/>&#xD;
+<pb n="246-247" xml:id="VAC8070-00000129"/>&#xD;
 /&#xD;
 &#xD;
 246&#xD;
@@ -27886,7 +27891,7 @@ test, she insisted upon making him eit as well as&#xD;
 drink, and she was so full of this important&#xD;
 matter, that she did not find time to ask anotli-&#xD;
 &#xD;
-<pb  n="248-249" xml:id="VAC8070-00000130"/>&#xD;
+<pb n="248-249" xml:id="VAC8070-00000130"/>&#xD;
 er question, before Miss Vernon and Katharine&#xD;
 came back, the latter equipped and ready to&#xD;
 start.&#xD;
@@ -28122,7 +28127,7 @@ two or three hours-possibly even through the&#xD;
 &#xD;
 I'&#xD;
 &#xD;
-<pb  n="250-251" xml:id="VAC8070-00000131"/>&#xD;
+<pb n="250-251" xml:id="VAC8070-00000131"/>&#xD;
 250&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -28362,7 +28367,7 @@ might-perhaps-do a little better, if it were to&#xD;
 live over again. It is too late now for any thing&#xD;
 of that sort; but-I am sorry."&#xD;
 &#xD;
-<pb  n="252-253" xml:id="VAC8070-00000132"/>&#xD;
+<pb n="252-253" xml:id="VAC8070-00000132"/>&#xD;
 252&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -28543,7 +28548,7 @@ say:&#xD;
 &#xD;
 &amp;amp;&#xD;
 &#xD;
-<pb  n="254-255" xml:id="VAC8070-00000133"/>&#xD;
+<pb n="254-255" xml:id="VAC8070-00000133"/>&#xD;
 254                  ~~~MORTON HOUSE.                                                                     NTH    DA   .25&#xD;
 &#xD;
 "Was it yesterday afternoon that you were whom were lying dead under the roof of Morton&#xD;
@@ -28722,7 +28727,7 @@ A&#xD;
 &#xD;
 IN THE DAWN.&#xD;
 &#xD;
-<pb  n="256-257" xml:id="VAC8070-00000134"/>&#xD;
+<pb n="256-257" xml:id="VAC8070-00000134"/>&#xD;
 256                              MORTO~&#xD;
 To Annesley's surprise, Mr. Warwick turned&#xD;
 and walked into the room thus indicated..&#xD;
@@ -28954,7 +28959,7 @@ almOSt sternly.&#xD;
 "Tell her."&#xD;
 "Yes, tell me!" cried Katharine, clutching&#xD;
 &#xD;
-<pb  n="258-259" xml:id="VAC8070-00000135"/>&#xD;
+<pb n="258-259" xml:id="VAC8070-00000135"/>&#xD;
 258&#xD;
 &#xD;
 MORTON HOUSE.&#xD;
@@ -29131,7 +29136,7 @@ said Annesley, smiling a little. "Will not that&#xD;
 console you ? Ah I you don't know all that she&#xD;
 has passed through I"&#xD;
 &#xD;
-<pb  n="260-261" xml:id="VAC8070-00000136"/>&#xD;
+<pb n="260-261" xml:id="VAC8070-00000136"/>&#xD;
 260                        MORTON HOUSE.                                                          A TURN OF FORTUNE'S WHEEL                  261&#xD;
 &#xD;
 "She I Do you mean Mrs. Gordon, or Mi&#xD;
@@ -29357,7 +29362,7 @@ thought you would be more kind-more just."&#xD;
 "Indeed, I am glad, heartily glad; that I am able&#xD;
 to change sympathy to respect. You must&#xD;
 &#xD;
-<pb  n="262-263" xml:id="VAC8070-00000137"/>&#xD;
+<pb n="262-263" xml:id="VAC8070-00000137"/>&#xD;
 262                       MORTON HOUSE.                                                        A TURN OF FORTUNE'S WHEEL.                263&#xD;
 &#xD;
 not think otherwise. I should be very sorry&#xD;
@@ -29583,7 +29588,7 @@ but deplorably conscious, meanwhile, of a very&#xD;
 heavy heart, and asking herself~ in puzzled hon-&#xD;
 esty, what it possibly meant.&#xD;
 &#xD;
-<pb  n="264-265" xml:id="VAC8070-00000138"/>&#xD;
+<pb n="264-265" xml:id="VAC8070-00000138"/>&#xD;
 MORTON HOUSE.                                                         A TURN OF FORTUNE'S WHEEL.               265&#xD;
 &#xD;
 At last the day of departure drew near&#xD;
@@ -29812,7 +29817,7 @@ such as his. Still he would ask it. He could do&#xD;
 no harm, at least; arid a strange, wild hope--&#xD;
 which he sternly tried to 'repress-rushed over&#xD;
 &#xD;
-<pb  n="266-267 (Advertisement) " xml:id="VAC8070-00000139"/>&#xD;
+<pb n="266-267 (Advertisement) " xml:id="VAC8070-00000139"/>&#xD;
 266                              M4&#xD;
 him unaccountably, and without a mo&#xD;
 warning~i The struggle with himself oc&#xD;
@@ -29908,7 +29913,7 @@ z&#xD;
 0.&#xD;
 fl-I&#xD;
 &#xD;
-<pb  n="268 (Advertisement) -269" xml:id="VAC8070-00000140"/>&#xD;
+<pb n="268 (Advertisement) -269" xml:id="VAC8070-00000140"/>&#xD;
 LOTHAIR..&#xD;
 A Novel.&#xD;
 By the Right Hono~rab1e BENJAMIN DISRAELI,&#xD;
@@ -29963,8 +29968,8 @@ D. APPLETON &amp;amp; CQ~, PubIisher~,&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

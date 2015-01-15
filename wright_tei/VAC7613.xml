@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7613">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7613">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Lone Star, or, The Texan Bravo </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>The Lone Star, or, The Texan Bravo </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7613</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7613</idno>
+            <idno type="wright2" n="previous">wright2-2071</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The lone star, or, The Texan bravo</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>The lone star, or, The Texan bravo</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >1 p. l. [7]-100 p. (incl. pl. </extent>
+               <extent>1 p. l. [7]-100 p. (incl. pl. </extent>
                <publicationStmt>
-                  <publisher >Gleason</publisher>
+                  <publisher>Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The lone star, or, The Texan bravo</head> 
+            <head>The lone star, or, The Texan bravo</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7613-00000001"/>V&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7613-00000001"/>V&#xD;
 &#xD;
 ---OR,--&#xD;
 TEE 1113             i iy&#xD;
@@ -160,7 +165,7 @@ l1 ,°&#xD;
 .f   t tf--  ter   s' }Say '. _           y j       .&#xD;
 'XrEi'             it                 7     -      ,&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7613-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7613-00000002"/>&#xD;
 d ty -Y ,1    -YL  -       iAr B   '  ;. #  .            '*  :   a       x&#xD;
 PudrsHua    V    -a    following hove itte Wa or'gl ally publihed in Tu           oa Umon,&#xD;
 d ig ut k hojg r°mary deeply interesng proftctons emanating from that so ee. The FLAG&#xD;
@@ -253,7 +258,7 @@ t;  Yn  ry   ',&#xD;
 &#xD;
 RANDa&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7613-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7613-00000003"/>&#xD;
 8                              THE TEXAN B LAVO.&#xD;
 itened anxiously for the signal,but with no bet- the horsemanand dashing a tear rom his eye.&#xD;
 tersuccess. While thusengaged other sounds " Peace to their souls in that land where there,&#xD;
@@ -400,7 +405,7 @@ must be spoken with respect.".&#xD;
 " She'll be dar death oh dis niggr" ,id&#xD;
 Felix, with a sigh. " If it hadn't bee for hr,&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7613-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7613-00000004"/>&#xD;
 to&#xD;
 &#xD;
 THE TEXAN'BRAVO.&#xD;
@@ -510,7 +515,7 @@ RIDGLEY--OLD KENTUCK--THE SCOUTING PARTY--A SKIRMISH.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="12-13 (Illustration) " xml:id="VAC7613-00000005"/>&#xD;
+<pb n="12-13 (Illustration) " xml:id="VAC7613-00000005"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 thickest of the fight. Without farther de-&#xD;
@@ -613,7 +618,7 @@ WALTER ETHINoTON, THE TEXAN BRAVO.--SEE CHAPTER I. WAGE 9.&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7613-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7613-00000006"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 So are all men; but I have ceased to fear&#xD;
@@ -714,7 +719,7 @@ coveries. This monotonous employment -soon&#xD;
 &#xD;
 15°&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7613-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7613-00000007"/>&#xD;
 16                             THE TEXAN BRAVO.&#xD;
 1k ,01keffect upon him; the lids fell slowly over  " How many does your company number'?"&#xD;
 RP_                                                 twety&#xD;
@@ -869,7 +874,7 @@ greatly elated at the prospect of a hard fight. '&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7613-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7613-00000008"/>&#xD;
 18                 THE TEXAN BRAVO.&#xD;
 &#xD;
 "But first, let us see if we.can get the horses&#xD;
@@ -999,7 +1004,7 @@ shtotin bravely, and spered a t flteir who felt anxious for his own safety as we
 last position out of rifle range, as they flattered his master's, consequently the idea was aban-&#xD;
 themselve..  The balls showere- harmlessly doned.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7613-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7613-00000009"/>&#xD;
 .a&#xD;
 .&#xD;
 -      ;&#xD;
@@ -1164,7 +1169,7 @@ THE TEXAN BRAO.1&#xD;
 &#xD;
 21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7613-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7613-00000010"/>&#xD;
 22&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -1323,7 +1328,7 @@ meal without butter or salt," observed the cap-&#xD;
 tain of the Rangers.&#xD;
 " Promulgate-go 'yer death,' masda Ken~&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7613-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7613-00000011"/>&#xD;
 TR   TEAN BRAVO.&#xD;
 d Foua-? F fx "llowyour idees to be- only field pieces with which h Texans had been&#xD;
 supplied), which succeeded in turning the M&#xD;
@@ -1401,7 +1406,7 @@ of the hostile troops. The steady tread of. the&#xD;
 p:               r&#xD;
 '  2&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7613-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7613-00000012"/>&#xD;
 26                              THE TEXAN BRAVO.&#xD;
 Ethington turned sharply towards the in- fight ! I should always reget it,&#xD;
 Cruyergre'i, I assure you.&#xD;
@@ -1510,7 +1515,7 @@ Have made up my mind to: cross Vince's a ,gardiente,anwhni\wsfrsedte&#xD;
 &#xD;
 Y" 'J&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7613-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7613-00000013"/>&#xD;
 'HE ITf&amp;amp;A~ BRAiVO.&#xD;
 ;;,,;tythenist ja          drssdof the They sprang up, drew their daggers, and made&#xD;
 r        unself cara a cara (fa e to face) a iurious attack upon their host.  Their first&#xD;
@@ -1628,7 +1633,7 @@ ton noticed that the two exchanged glances Marianna was much agitated, and looke
 which were anything but friendly ; apd it was ploringy at Ethington.            men&#xD;
 quickly apparent to him, thata i athe  persoae swillhave no uarreinggentleme,&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7613-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7613-00000014"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 ture from the latter, Marianna arose and left would be sorry, and Marianna Lee wouldn't&#xD;
@@ -1691,7 +1696,7 @@ asked Wilson, somewhat sarcastically, as he willing to fight the enemy on  his o
 ,since they evinced no disposition to leaveta&#xD;
 Ba       Smith heeded him not ; for there   Considerable time had elapsed in these d ,&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7613-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7613-00000015"/>&#xD;
 -06i&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -1849,7 +1854,7 @@ thrilled like electricity through the heart of&#xD;
 every man who heard it. Once when the en.&#xD;
 sign who bore the banner-a star on a red&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7613-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7613-00000016"/>&#xD;
 84,                            THE TEXAN BRAVO.&#xD;
 round---was wounded and fell, ,he  uh&#xD;
 the    ne and with  '        ,  e rushed to here to fight," answered the stranger,&#xD;
@@ -1964,7 +1969,7 @@ Wikoff did not make his appearanceana&#xD;
 CHAPTER VI.&#xD;
 THE DUEL--AUGUSTUS HENRIE.&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7613-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7613-00000017"/>&#xD;
 86                             THE TEXA&#xD;
 Ethington paced slowly up and down awaiting&#xD;
 him, while Wilson seated himself beneath an oak,.&#xD;
@@ -2161,7 +2166,7 @@ Augustus now withdrew, and Walter was&#xD;
 &#xD;
 'HE TEXAN BRAVO.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7613-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7613-00000018"/>&#xD;
 TER- TEXAN: -RAVO.&#xD;
 &#xD;
 to-be alone again-with, his fair nurse. He&#xD;
@@ -2284,7 +2289,7 @@ squinting rather comically.'&#xD;
 CHAPTER VII.&#xD;
 WIKoFF AND CoGsWELL.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7613-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7613-00000019"/>&#xD;
 0                THE TEXAN BRAVO.&#xD;
 &#xD;
 lyikoff smiled, and asked if he had been long&#xD;
@@ -2480,7 +2485,7 @@ is the captain of the Rangers. He is as hateful&#xD;
 to my sight as the 'Texan Bravo' can',. to&#xD;
 yours. He bears upon his person a  oudof&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7613-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7613-00000020"/>&#xD;
 .0j."ing; niay the second one prove .more&#xD;
 des   d diadly.. And then---"&#xD;
 The 'most difficult part of the business re-&#xD;
@@ -2617,7 +2622,7 @@ Mr. Ridgley's establishmeht.  Both wer0 a&#xD;
 CHAPTER VIII.&#xD;
 ANDREA ST. AhBERT-THIE RING.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7613-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7613-00000021"/>&#xD;
 4&#xD;
 &#xD;
 THE TEXA&#xD;
@@ -2820,7 +2825,7 @@ there. She communicated the fact to Rosalia,&#xD;
 remarking that it was the only article in her&#xD;
 possession which had belonged to Ethington.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7613-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7613-00000022"/>&#xD;
 46                             THE TEXA&#xD;
 " Wikoff took your left hand," said Iosalia.&#xD;
 "And he has taken the ring," replied An-&#xD;
@@ -2945,7 +2950,7 @@ AN UNEXPECTED EVENT-OUR HERO A PRISONER.&#xD;
 &#xD;
 All&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7613-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7613-00000023"/>&#xD;
 THE TEX&#xD;
 &#xD;
 " You mean well, Captain Wilson," answered&#xD;
@@ -3113,7 +3118,7 @@ e fnger of this man? Was the&#xD;
 ~d~ionv~1ichcrossed the track of his&#xD;
 thought.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7613-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7613-00000024"/>&#xD;
 THE 'TPlXA'N BRAVO.                              51&#xD;
 &#xD;
 TI TFX    1,AVO.&#xD;
@@ -3305,7 +3310,7 @@ rors of death."&#xD;
 I&#xD;
 E&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7613-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7613-00000025"/>&#xD;
 5v                            THE TEXAN 1RAYO.&#xD;
 ha  approached and stood contemplating our appeared and spoke a few words to Wikoff, and&#xD;
 her with a triumphant expression.           the latter conversed with Garcia in a low voice.&#xD;
@@ -3379,7 +3384,7 @@ s ,   : ;&#xD;
 &#xD;
 j&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7613-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7613-00000026"/>&#xD;
 THE TEXAN BRAVO.              55&#xD;
 &#xD;
 54               THE TEXAN BRAVO.&#xD;
@@ -3574,7 +3579,7 @@ luminaries. Yah, yah !"&#xD;
 With a good-natured laugh the honest Ken-&#xD;
 tuckian repeated his injunctions and walked on;-&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7613-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7613-00000027"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 in a fewinutes he found'himself blushing be-&#xD;
@@ -3772,7 +3777,7 @@ with those ugly chaps ?"&#xD;
 " Do you think he will do it ?" asked the&#xD;
 ranger, significantly.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7613-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7613-00000028"/>&#xD;
 58                              THE TEXA&#xD;
 "If he does, he'll have to carry off several&#xD;
 of us,or settle up our earthly accounts for us,"&#xD;
@@ -3962,7 +3967,7 @@ routed, and the bold Texans had the pleasure of&#xD;
 receiving the heartfelt thanks of the people of&#xD;
 Bexar, whose homes they had defended.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7613-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7613-00000029"/>&#xD;
 PON the following morning Felix was seen&#xD;
 A y wandering: about with a melancholy and&#xD;
 dgjeeted iair. ,His master could not be 'found,&#xD;
@@ -4127,7 +4132,7 @@ misunderstanding,'the nature of which I do not&#xD;
 tiR+i '&#xD;
 :'.&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7613-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7613-00000030"/>&#xD;
 62'                 THE TEXAN BRAVO.&#xD;
 &#xD;
 exactly know, and never could find out," ob-&#xD;
@@ -4324,7 +4329,7 @@ ly paralyzed and ,stupefied before in my life.&#xD;
 The power of thought seemed the only power&#xD;
 left me, and that was stimulated to an unnatu-&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7613-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7613-00000031"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 ral degree. The past, present and future were&#xD;
@@ -4472,7 +4477,7 @@ CHAPTER&#xD;
 &#xD;
 64&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7613-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7613-00000032"/>&#xD;
 66                THE TEXAN BRAVO.&#xD;
 &#xD;
 to one or more of them, they began to ride&#xD;
@@ -4668,7 +4673,7 @@ mit of, Ridgley suddenly appeared among them,&#xD;
 &#xD;
 THE TEXAN -BRAVO.              67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7613-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7613-00000033"/>&#xD;
 '1&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -4867,7 +4872,7 @@ solved to move forward in the morning, if no&#xD;
 &#xD;
 69&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7613-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7613-00000034"/>&#xD;
 /1&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -4956,7 +4961,7 @@ name (among his enemies) of the " Texan&#xD;
 Bravo ;" an appellation which, though not en-i&#xD;
 tirely deserved, could very well be applied to&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7613-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7613-00000035"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 ; for the Texan soldiery was considered by "Do you know why I have come to you in&#xD;
 he Mexicans as little better than organized this cartel ?"ty&#xD;
@@ -5109,7 +5114,7 @@ wvas practised-Mier Expedition.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7613-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7613-00000036"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 worker jin iron left the carcel-to come back&#xD;
@@ -5269,7 +5274,7 @@ That goodness is no name, and happiness no'dream."&#xD;
 . ,&#xD;
 _&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7613-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7613-00000037"/>&#xD;
 THE TEXAN BRAVO.                '7&#xD;
 &#xD;
 HE life of a prisoner is a dreary one un-&#xD;
@@ -5422,7 +5427,7 @@ get a better view, the latter perceived elian,&#xD;
 CHAPTER XIV.&#xD;
 THE "RASCALLY WORLD "-rE EsCAPE FROM        THE CARTEL.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7613-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7613-00000038"/>&#xD;
 I&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -5522,7 +5527,7 @@ fast as possible.&#xD;
 &#xD;
 40&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7613-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7613-00000039"/>&#xD;
 I         THE TEXAN BRAVO.                                   81&#xD;
 "That is no doubt their intention," replied their companions, that their ammunition had not&#xD;
 Cameron.                                 been wasted.&#xD;
@@ -5675,7 +5680,7 @@ fire was indeed spreading.&#xD;
 observed, while a painful shade of anxiety crps&#xD;
 ed his face.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7613-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7613-00000040"/>&#xD;
 Green wood makes the hottest lire wh&#xD;
 fairly started," said the lieutenant. "Th&#xD;
 have kindled it with dry sticks and bark."&#xD;
@@ -5879,7 +5884,7 @@ But little was now done on either side, and&#xD;
 the assailants waited patiently for. hunger to&#xD;
 perform what mere force of arms couldunot.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7613-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7613-00000041"/>&#xD;
 84                              THE TEXA&#xD;
 The Rangers saw with feelings of the deep-&#xD;
 est solicitude their little stock of provisions&#xD;
@@ -6078,7 +6083,7 @@ Felix.&#xD;
 - Wilson. "Thank God, boys, we are saved&#xD;
 - ".Does ye hear dat ?" added Felix, joyfull&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7613-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7613-00000042"/>&#xD;
 THE TEXAN RAVO.&#xD;
 - volley after volley was heard   from  he   ,"He's here," said a voice, and Cameron h'&#xD;
 Rangers."Dat's what does de good." self pressed forward and grasped the outstretch-&#xD;
@@ -6179,7 +6184,7 @@ S       r       .i          d&#xD;
 +L&#xD;
 7&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7613-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7613-00000043"/>&#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
 While she was speaking, the smith appeared,&#xD;
@@ -6377,7 +6382,7 @@ long interview with Cameron, in which the nai&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7613-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7613-00000044"/>&#xD;
 91&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -6578,7 +6583,7 @@ v&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7613-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7613-00000045"/>&#xD;
 92&#xD;
 &#xD;
 THE TEXAN BRAVO.&#xD;
@@ -6643,7 +6648,7 @@ ps a skip, jump, or perfect run was always pre-&#xD;
 .        t    I         2&#xD;
 t&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7613-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7613-00000046"/>&#xD;
 9                            SWEETBRIE&#xD;
 ferred by her to a steady walk ; she was a&#xD;
 merry-hearted, sportive), fawn-like creature-but&#xD;
@@ -6842,7 +6847,7 @@ oui- youth, and' being so situated, I was soon as happy and as&#xD;
 &#xD;
 'r.. M*&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7613-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7613-00000047"/>&#xD;
 96                SWEETBRIER COTTAGE.&#xD;
 &#xD;
 much at home as in our own cottage.. The time&#xD;
@@ -6967,7 +6972,7 @@ rifice of my own peace of mind.&#xD;
 sanctuary, a changed being--I seemed to have&#xD;
 lived years of sorrow in that brief hour, but the&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7613-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7613-00000048"/>&#xD;
 98                           SWEETBRIER&#xD;
 greatest fury of the storm was passed, and a&#xD;
 momentary calm had in a measure succeeded.&#xD;
@@ -7167,7 +7172,7 @@ from the blue expanse, gleamed from the road-&#xD;
 ide thicket and hedge.&#xD;
 It was the last time that undivided grup mt&#xD;
 &#xD;
-<pb  n="100" xml:id="VAC7613-00000049"/>&#xD;
+<pb n="100" xml:id="VAC7613-00000049"/>&#xD;
 4r&#xD;
 ?.x,00&#xD;
 &#xD;
@@ -7205,8 +7210,8 @@ SWEETBRIER COTTAGE.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

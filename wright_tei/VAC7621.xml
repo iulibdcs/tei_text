@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7621">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7621">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Redpath, or, The Western Trail </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>Redpath, or, The Western Trail </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7621</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7621</idno>
+            <idno type="wright2" n="previous">wright2-2080</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Redpath, or, The Western trail</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>Redpath, or, The Western trail</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >84 p.</extent>
+               <extent>84 p.</extent>
                <publicationStmt>
-                  <publisher >S. French</publisher>
+                  <publisher>S. French</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date >[185-]</date>
+                  <date>[185-]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Redpath, or, The Western trail</head> 
+            <head>Redpath, or, The Western trail</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7621-00000001"/>REDPATH&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7621-00000001"/>REDPATH&#xD;
 &#xD;
 iv  mN     nst&#xD;
 &#xD;
@@ -100,7 +105,7 @@ I&#xD;
 &#xD;
 of, 'Aronflor&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7621-00000002"/>&#xD;
+<pb n="" xml:id="VAC7621-00000002"/>&#xD;
 ,.  "t Y{'4n I  45 4, ft z . Y     -f ~ '&#xD;
 &#xD;
 4    A"'&#xD;
@@ -217,7 +222,7 @@ R&#xD;
 &#xD;
 i"&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7621-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7621-00000003"/>&#xD;
 REIAH.&#xD;
 &#xD;
 8&#xD;
@@ -441,7 +446,7 @@ a&#xD;
 2&#xD;
 r .&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7621-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7621-00000004"/>&#xD;
 10                                   1EDI&#xD;
 discovery. He returned to his camp fire thought-&#xD;
 ful. Buckeye was 'sleeping, and "Flash," his&#xD;
@@ -688,7 +693,7 @@ a&#xD;
 t&#xD;
 S&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7621-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7621-00000005"/>&#xD;
 e' I&#xD;
 &#xD;
 AI Atit.&#xD;
@@ -873,7 +878,7 @@ i&#xD;
 .s&#xD;
 -   tl&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7621-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7621-00000006"/>&#xD;
 1EDPATH.                                                                                 1&#xD;
 &#xD;
 y #5&#xD;
@@ -1123,7 +1128,7 @@ The, latter colored' and appeared- disposed to&#xD;
 evade thenoe qtestion, afraid either of being&#xD;
 accused'of'weaknees, or shrinking, from speaking.&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7621-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7621-00000007"/>&#xD;
 Ar&#xD;
 f'&#xD;
 t&#xD;
@@ -1360,7 +1365,7 @@ IntM-ATHY.&#xD;
 &#xD;
 16 as s JLJL.&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7621-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7621-00000008"/>&#xD;
 i&#xD;
 Als&#xD;
 ii&#xD;
@@ -1596,7 +1601,7 @@ RED#AITH.&#xD;
 &#xD;
 19,&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7621-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7621-00000009"/>&#xD;
 4'&#xD;
 S f&#xD;
 1'&#xD;
@@ -1830,7 +1835,7 @@ REDPATHP&#xD;
 &#xD;
 REDPA.  T~ .;&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7621-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7621-00000010"/>&#xD;
 I it&#xD;
 rI&#xD;
 ti&#xD;
@@ -2057,7 +2062,7 @@ the man that could delih'b'rally plan theesla eab&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7621-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7621-00000011"/>&#xD;
 REDPATH.                         25&#xD;
 &#xD;
 24"&#xD;
@@ -2284,7 +2289,7 @@ white man, and another to the red; they talk&#xD;
 &#xD;
 * 4&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7621-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7621-00000012"/>&#xD;
 MF5P4T.&#xD;
 &#xD;
 with one tongue to the pale facet and with the&#xD;
@@ -2507,7 +2512,7 @@ when and under what circumstances he had met&#xD;
 rhim.before; for it seemed to him that this was&#xD;
 not their first meeting. Having described oth-&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7621-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7621-00000013"/>&#xD;
 2HBDPATIL                        29&#xD;
 &#xD;
 'Ii&#xD;
@@ -2736,7 +2741,7 @@ The Missourian sat motionless in his saddle.&#xD;
 &#xD;
 nEDPATg.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7621-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7621-00000014"/>&#xD;
 s4            RWAE.                                                   3&#xD;
 &#xD;
 "You claim some knowledge of surgery. -Do&#xD;
@@ -2964,7 +2969,7 @@ months, if things go 4n in thisway, there wont&#xD;
 1&#xD;
 i"&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7621-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7621-00000015"/>&#xD;
 82                        REDPATH.&#xD;
 &#xD;
 be many of them left. Each one says, 'I, too,&#xD;
@@ -3190,7 +3195,7 @@ employee?"&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7621-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7621-00000016"/>&#xD;
 B t PATH.                            85&#xD;
 &#xD;
 RiiMA'fD.&#xD;
@@ -3413,7 +3418,7 @@ he received! T Woultheynot call his courage&#xD;
 dt perspiea lty1n question, when it was kaown&#xD;
 'that'Itheir enterprise was' iii danger of total fail-&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7621-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7621-00000017"/>&#xD;
 REDPATH.                           37&#xD;
 &#xD;
 36                      R~prATH.&#xD;
@@ -3642,7 +3647,7 @@ me with two horses."&#xD;
 s°&#xD;
 1&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7621-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7621-00000018"/>&#xD;
 .REDPATH.&#xD;
 &#xD;
 After farther conversation, Pierre Mariot lef&#xD;
@@ -3871,7 +3876,7 @@ REDPATH.&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7621-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7621-00000019"/>&#xD;
 40                       BEDPAT.&#xD;
 &#xD;
 " 0, you are there !"&#xD;
@@ -4098,7 +4103,7 @@ way as favorable to her as the case would pos-&#xD;
 sibly admit. Of his passion' for her he said&#xD;
 nothing ; indeed, he was not willing to acknowl-&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7621-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7621-00000020"/>&#xD;
 42&#xD;
 &#xD;
 REDPATH.&#xD;
@@ -4330,7 +4335,7 @@ e-ft&#xD;
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7621-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7621-00000021"/>&#xD;
 44                      BEDPATH.&#xD;
 &#xD;
 er part of its strength and vigor. I am willing,&#xD;
@@ -4556,7 +4561,7 @@ By a skilful manoeuvre, Mignon evaded the&#xD;
 &#xD;
 REDPATH.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7621-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7621-00000022"/>&#xD;
 46                      REDFATH.&#xD;
 &#xD;
 vigilance of Callard, after the two bands had&#xD;
@@ -4781,7 +4786,7 @@ was startled and nervous. There followed her&#xD;
 also an unpleasant remembrance of what had&#xD;
 occurred that night directly before her, as well&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7621-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7621-00000023"/>&#xD;
 REDPATH.  549&#xD;
 &#xD;
 48&#xD;
@@ -5008,7 +5013,7 @@ tained in the foregoing pages.&#xD;
 "A curse is upon your nation," said Raven-&#xD;
 claw. " That curse is the love of yellow dust ;&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7621-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7621-00000024"/>&#xD;
 50                                   REDPATH.&#xD;
 it turns them into greedy wolves ; they howl and  " You do well to weep, daughter of a doomed&#xD;
 tear each other, and are never at rest. They die people ; even warriors have dropped tears like&#xD;
@@ -5143,7 +5148,7 @@ Ravenclaw relinquished Mignon's hand, re-   BaRON's camp was astir very early in
 peating in a voice of deepest melancholy, "We morning. The hunt was to be resumed, and the&#xD;
 met-we part !"                              hunters wished to be seasonably in the saddle.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7621-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7621-00000025"/>&#xD;
 .I&#xD;
 &#xD;
 REPATIL&#xD;
@@ -5375,7 +5380,7 @@ coldd eltisheya'    c&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7621-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7621-00000026"/>&#xD;
 e          n rnresin. Put on the ion&#xD;
 a~hp .;4  hge I gin gels are. smazin fond&#xD;
 of hors   p rip.",&#xD;
@@ -5544,7 +5549,7 @@ to     ."                                       I  fer to  a  special  h ' i," r
 "e Was acquainted with those d egs, it blushing, which willgua         r sume    ghon&#xD;
 danger.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7621-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7621-00000027"/>&#xD;
 IDPATH.&#xD;
 &#xD;
 "For me there's no charm like your beauty,&#xD;
@@ -5762,7 +5767,7 @@ were vibrfting beneath his huiing flocktthe&#xD;
 &#xD;
 RItDPA'L.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7621-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7621-00000028"/>&#xD;
 -53&#xD;
 &#xD;
 BEDP4Wg&#xD;
@@ -5991,7 +5996,7 @@ pleasure !" heasked.  '&#xD;
 &#xD;
 REEDPAT.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7621-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7621-00000029"/>&#xD;
 0&#xD;
 &#xD;
 BED AT.&#xD;
@@ -6220,7 +6225,7 @@ at the chief and demanded in a voice quite free&#xD;
 from agitation, "What is the manner of my&#xD;
 death ?"&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7621-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7621-00000030"/>&#xD;
 62                       RDPA'T.&#xD;
 &#xD;
 "It is quick and easy ; an arrow will pierce&#xD;
@@ -6452,7 +6457,7 @@ t&#xD;
 r&#xD;
 t&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7621-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7621-00000031"/>&#xD;
 .EDPAT.&#xD;
 &#xD;
 meant was over, felt the need of attention, and&#xD;
@@ -6681,7 +6686,7 @@ the tedium of the returning trail. .By the .mid-&#xD;
 &#xD;
 As l&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7621-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7621-00000032"/>&#xD;
 . REDPATH.&#xD;
 &#xD;
 die of the afternoon they were within a few miles&#xD;
@@ -6868,7 +6873,7 @@ _~ .- ..&#xD;
 (a&#xD;
 .&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7621-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7621-00000033"/>&#xD;
 and in a manner at variance' with your interest&#xD;
 and wishes."                               d&#xD;
 Callard-rode away in bad humor, followed by&#xD;
@@ -7046,7 +7051,7 @@ sohandsome as then to  Migeon,'&#xD;
 &#xD;
 REDPATH.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7621-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7621-00000034"/>&#xD;
 9                                                I&#xD;
 &#xD;
 70'&#xD;
@@ -7173,7 +7178,7 @@ the: Blackfeet. warriors (whose minds he had in  "Come/said Brion, "s ypu have n
 &#xD;
 REPPATE&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7621-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7621-00000035"/>&#xD;
 SPAT}.7&#xD;
 &#xD;
 fasted, you niust-test the skilfulness of an ld&#xD;
@@ -7426,7 +7431,7 @@ e&#xD;
 i&#xD;
 7;;&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7621-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7621-00000036"/>&#xD;
 REDPATH.                       75&#xD;
 &#xD;
 74&#xD;
@@ -7653,7 +7658,7 @@ in adversity.-&#xD;
 &#xD;
 it&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7621-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7621-00000037"/>&#xD;
 76&#xD;
 &#xD;
 CHAPTER XII.&#xD;
@@ -7894,7 +7899,7 @@ N#,&#xD;
 &#xD;
 2-4&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7621-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7621-00000038"/>&#xD;
 RED1ATB.&#xD;
 &#xD;
 79&#xD;
@@ -8163,7 +8168,7 @@ it1&#xD;
 &#xD;
 "v-&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7621-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7621-00000039"/>&#xD;
 80                  RpAH.&#xD;
 &#xD;
 C0"I.TER XIY.&#xD;
@@ -8411,7 +8416,7 @@ $j1&#xD;
 &#xD;
 BWPATK                      Q1&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7621-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7621-00000040"/>&#xD;
 ;,ai.&#xD;
 &#xD;
 0&#xD;
@@ -8688,7 +8693,7 @@ i'H&#xD;
 r&#xD;
 I&#xD;
 &#xD;
-<pb  n="84" xml:id="VAC7621-00000041"/>&#xD;
+<pb n="84" xml:id="VAC7621-00000041"/>&#xD;
 . F&#xD;
 &#xD;
 PAT~n.&#xD;
@@ -8807,8 +8812,8 @@ A .w... ..,  . _ .&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

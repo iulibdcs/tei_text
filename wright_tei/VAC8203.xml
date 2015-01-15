@@ -1,94 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8203">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8203">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Romance of the Green Seal </title>
-            <author >Warfield, Catherine Ann (1816-1877)</author>
+            <title>The Romance of the Green Seal </title>
+            <author>Warfield, Catherine Ann (1816-1877)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8203</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8203</idno>
+            <idno type="wright2" n="previous">wright2-2639</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The romance of the green seal</title>
-                  <author >Warfield, Catherine Ann (1816-1877)</author>
+                  <title>The romance of the green seal</title>
+                  <author>Warfield, Catherine Ann (1816-1877)</author>
                </titleStmt>
-               <extent >73 p. </extent>
+               <extent>73 p. </extent>
                <publicationStmt>
-                  <publisher >Beadle</publisher>
+                  <publisher>Beadle</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1866">[1866]</date>
+                  <date when="1866">[1866]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text >
-        
+   <text>
       <body>
          <div type="book">
             <head>The romance of the green seal</head>
-            
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC8203-00000001"/>THE ROMANCE&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC8203-00000001"/>THE ROMANCE&#xD;
 OF THE&#xD;
 GREEN SEAL.&#xD;
 &#xD;
@@ -114,7 +117,7 @@ fr&#xD;
 E.,&#xD;
 . S&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8203-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8203-00000002"/>&#xD;
 THE&#xD;
 "ROMANCE OFTIE GREEN SEAL."&#xD;
 THE QUADROON'S STORY.&#xD;
@@ -261,7 +264,7 @@ t&#xD;
 nt&#xD;
 .&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8203-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8203-00000003"/>&#xD;
 4         THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 THE "ROMANCE OF THE GREEN SEAL."        5&#xD;
@@ -493,7 +496,7 @@ comparison, yet suffered it to pass un-&#xD;
 challenged, hoping that she might there-&#xD;
 after proceed with less digression. I&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8203-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8203-00000004"/>&#xD;
 THE "RO1JANCE OF THE GREEN SEAL."         7'&#xD;
 &#xD;
 6           THE1 )     CE.- OF THE GREEN SEAL." .&#xD;
@@ -722,7 +725,7 @@ sparkling wine, there was so much life&#xD;
 &#xD;
 o&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8203-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8203-00000005"/>&#xD;
 8         THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 in her. And my master admired all&#xD;
@@ -916,7 +919,7 @@ ery thing he admired in her--this fine sucht stripes as these would have hurt&#x
 nid fearless spirit that gave her leave to that poor, sickly woman, if one p~aius mue&#xD;
 e happy, even in am tyrant's presence- so, who am comparatively strong and&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8203-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8203-00000006"/>&#xD;
 10       THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 healthy. Besides, this teaches me how&#xD;
@@ -1141,7 +1144,7 @@ Yet he often treated Master Richard&#xD;
 &#xD;
 THE " RO MANCE OF THE GREEN: ,,SEAL.''  1 l&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8203-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8203-00000007"/>&#xD;
 THE ROMANCEE OF THE GREEN SEAL."E OF THE GREEN SEAL."&#xD;
 &#xD;
 very coldly, as, indeed, he did all visitors,&#xD;
@@ -1372,7 +1375,7 @@ THE 11 ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8203-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8203-00000008"/>&#xD;
 THE "ROMANCE OF THE GREEN SEAL."      15&#xD;
 &#xD;
 learn to love Monsieur Maurepas when&#xD;
@@ -1625,7 +1628,7 @@ ed outright-her merry, bird-like laugh I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8203-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8203-00000009"/>&#xD;
 iI&#xD;
 a&#xD;
 i&#xD;
@@ -1842,7 +1845,7 @@ She was the first to break silence. " This is an amendment, Richard, and&#xD;
 " How could you be so imprudent, so care- I mean to take advantage of it."&#xD;
 less of my feelings, Richard," I heard her " In order to do so, Aglae, your&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8203-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8203-00000010"/>&#xD;
 18        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 cherished secrecy will have to be compro-&#xD;
@@ -2073,7 +2076,7 @@ WI&#xD;
 &#xD;
 .k-&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8203-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8203-00000011"/>&#xD;
 .,&#xD;
 "&#xD;
 .&#xD;
@@ -2309,7 +2312,7 @@ THE ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 20&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8203-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8203-00000012"/>&#xD;
 THE " ROMANCE OF THE GREEN SEAL."      23&#xD;
 &#xD;
 .,&#xD;
@@ -2544,7 +2547,7 @@ have no other to give ; and let the un.-&#xD;
 pleasant subject drop."&#xD;
 " You are an insolent fool, mattarii&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8203-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8203-00000013"/>&#xD;
 24        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 he muttered ; "and you, Richard Zavier,&#xD;
@@ -2771,7 +2774,7 @@ No man shall transgress my orders, nor&#xD;
 &#xD;
 THE ROMANCE OF THE GREEN SEAL."        25&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8203-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8203-00000014"/>&#xD;
 26        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 0&#xD;
@@ -2977,7 +2980,7 @@ spoken of it as his own property. Even -he sent to my mistress, and she always&#
 &#xD;
 1i&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8203-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8203-00000015"/>&#xD;
 28             THE "ROMANCE OF THE GREEN SEAL."&#xD;
 them as though they had been ever so  and smiling, and stammering, as was his&#xD;
 rare and beautiful, for she would say to way whenever moved in any unusual&#xD;
@@ -3107,7 +3110,7 @@ us this, and. He knew all things." the whole, as if glittering steel was&#xD;
 I never shall forget the look she gave running zig-zag like lightning through&#xD;
 me. Even in the shadow I saw her the shower of blood-clots. Then came&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8203-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8203-00000016"/>&#xD;
 30             THE "ROMANCE OF THE GREEN SEAL."&#xD;
 a clash as of swords meeting-(I knew  He understands this arrangement. Can&#xD;
 this, somehow, thoughtI had never heard  you undertake this office of carrier?"&#xD;
@@ -3275,7 +3278,7 @@ she is drifting, and your duty is plain&#xD;
 .before you.&#xD;
 I hesitated for one .moment only.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8203-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8203-00000017"/>&#xD;
 32        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 " Master Richard," I said, firmly, "you&#xD;
@@ -3505,7 +3508,7 @@ s&#xD;
 i&#xD;
 t&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8203-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8203-00000018"/>&#xD;
 34        THE " ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 I understand it all; the more the pity,&#xD;
@@ -3750,7 +3753,7 @@ high her hand, in which was clinched&#xD;
 &#xD;
 THE " ROMANCE OF THE GREEN SEAL."      35&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8203-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8203-00000019"/>&#xD;
 36        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 that small, sharp dagger she often wore.&#xD;
@@ -3975,7 +3978,7 @@ Aglite Maurepas, come to your post-office,&#xD;
 &#xD;
 THE 11 ROMANCE OF THE GREEN SEAL."    37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8203-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8203-00000020"/>&#xD;
 38        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 or do they not?  Be careful how you&#xD;
@@ -4225,7 +4228,7 @@ I&#xD;
 &#xD;
 TIDE 11 ROMANCE OF THE GREEN SEAL."  39&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8203-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8203-00000021"/>&#xD;
 THE "ROMANCE OF THE GREEN SEAL."       41&#xD;
 &#xD;
 to the lake, and begged her on his knees&#xD;
@@ -4450,7 +4453,7 @@ you can expect me to codperate with you&#xD;
 in asking this or any other favor of&#xD;
 Richard Zavier."&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8203-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8203-00000022"/>&#xD;
 42        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 " My magnanimity is surprising, even&#xD;
@@ -4674,7 +4677,7 @@ f&#xD;
 THE "ROMANCE OF THE GREEN SEAL."      43&#xD;
 IP&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8203-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8203-00000023"/>&#xD;
 44         THE "ROMANC  OF THE GREEN SEAL."&#xD;
 &#xD;
 THE "ROMANCE OF THE GREEN SEAL."       45&#xD;
@@ -4918,7 +4921,7 @@ to burst out crying all the time, and&#xD;
 trembling like a leaf.&#xD;
 " How tragical we all are to-night,&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8203-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8203-00000024"/>&#xD;
 -THE " ROMANCE OF THE GREEN SEAL."     47&#xD;
 &#xD;
 4 6       THE "ROMANCE OF THE GREEN SEAL."&#xD;
@@ -5131,7 +5134,7 @@ c        -&#xD;
 3 t,?&#xD;
 ,?,&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8203-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8203-00000025"/>&#xD;
 48        THE "ROMANCE OF THE GREEN SEAL."T&#xD;
 &#xD;
 49&#xD;
@@ -5358,7 +5361,7 @@ was soon made comfortable, though so&#xD;
 &#xD;
 THE " ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8203-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8203-00000026"/>&#xD;
 50        THE " ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 weak that he did not leave his bed for&#xD;
@@ -5592,7 +5595,7 @@ dren to live for.; he had no right to die&#xD;
 for one he had nevei' seen except in&#xD;
 dreams--except in dreams!", shaking&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8203-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8203-00000027"/>&#xD;
 THE "ROMANCE OF THE GREEN SEAL."      53&#xD;
 &#xD;
 52       THE "ROMANCE OF THE GREEN SEAL.&#xD;
@@ -5816,7 +5819,7 @@ as a coward so long as I am not 6ue."&#xD;
 " It will be a street fight, then, Dr.&#xD;
 Zavier, and he will have the advantage~&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8203-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8203-00000028"/>&#xD;
 54THE ROMANCEE OF THE GREEN SEAL."&#xD;
 &#xD;
 of you. You know what a practiced shot&#xD;
@@ -6047,7 +6050,7 @@ THE "ROMANCE OF THE GREEN SEAL" _    55&#xD;
 for the sak of euphony and the style of the&#xD;
 narrative.--AUTHOR.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8203-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8203-00000029"/>&#xD;
 THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 " It is all very incomprehensible to&#xD;
@@ -6279,7 +6282,7 @@ Madam, my mistress was ignorant&#xD;
 &#xD;
 THE 11 ROMANCE OF THE GREEN SEAL."    5 7&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8203-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8203-00000030"/>&#xD;
 58        THE "ROMANCE OF THE GREEN SEAL."                          THE "ROMANCE OF THE GREEN SEAL."     59&#xD;
 &#xD;
 the law. In Louisiana, marriage is a&#xD;
@@ -6516,7 +6519,7 @@ mere necessities to the well-bred and&#xD;
 &#xD;
 59&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8203-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8203-00000031"/>&#xD;
 60        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 luxuries to the vulgar. It was plain to&#xD;
@@ -6742,7 +6745,7 @@ knocked at the door, coming to talk&#xD;
 with her an hour before administering&#xD;
 the sacrament which she was to take&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8203-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8203-00000032"/>&#xD;
 62        THE "ROMANCE OF THE GREEN SEAL."  .&#xD;
 &#xD;
 the next day at the cathedral. I sat&#xD;
@@ -6983,7 +6986,7 @@ book, suddenly.&#xD;
 &#xD;
 THE "ROMANCE OF THE GREEN SEAL"       63&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8203-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8203-00000033"/>&#xD;
 64        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 comb I held, and clasping my hands as&#xD;
@@ -7212,7 +7215,7 @@ THE "ROMANCE OF THE GREEN SEAL."         65&#xD;
 J7Jj'&#xD;
 9&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8203-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8203-00000034"/>&#xD;
 66        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 THE " ROMANCE OF THE GREEN SEAL."      6&#xD;
@@ -7439,7 +7442,7 @@ ed would have, after a season, forgiven&#xD;
 &#xD;
 . *&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8203-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8203-00000035"/>&#xD;
 68        THE "ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 THE "ROMANCE OF THE GREEN SEAL."       69&#xD;
@@ -7670,7 +7673,7 @@ mistress, with wonderful firmness. " I&#xD;
 think she was the most deplorable fool&#xD;
 I ever heard of in my life."&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8203-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8203-00000036"/>&#xD;
 THE " ROMANCE OF THE GREEN SEAL."'71&#xD;
 &#xD;
 " I knew that you would think so,&#xD;
@@ -7895,7 +7898,7 @@ ed. The rest can be but of little moment,&#xD;
 &#xD;
 0     70 -     THE 11 ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8203-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8203-00000037"/>&#xD;
 72        THE " ROMANCE OF THE GREEN SEAL."&#xD;
 &#xD;
 as far as you 'are to be considered.&#xD;
@@ -8090,9 +8093,7 @@ O          ';&#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
             </p>
-        
          </div>
       </body>
-    
    </text>
 </TEI>

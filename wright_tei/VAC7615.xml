@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7615">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7615">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Marion's Brigade, or, The Light Dragoons </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>Marion's Brigade, or, The Light Dragoons </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7615</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7615</idno>
+            <idno type="wright2" n="previous">wright2-2073</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Marion's Brigade, or, The light dragoons</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>Marion's Brigade, or, The light dragoons</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >1 p. l. [7]-100 p. (incl. pl.) </extent>
+               <extent>1 p. l. [7]-100 p. (incl. pl.) </extent>
                <publicationStmt>
-                  <publisher >Gleason</publisher>
+                  <publisher>Gleason</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Marion's Brigade, or, The light dragoons</head> 
+            <head>Marion's Brigade, or, The light dragoons</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7615-00000001"/>r {&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7615-00000001"/>r {&#xD;
 &#xD;
 -'-o,--&#xD;
 BY DR. J. H. ROBINSON.&#xD;
@@ -112,7 +117,7 @@ w&#xD;
 ,,&#xD;
 .t&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7615-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7615-00000002"/>&#xD;
 K&#xD;
 &#xD;
 r 4/~" ~c9 t.&#xD;
@@ -222,7 +227,7 @@ THE  BRIGADE.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7615-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7615-00000003"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 brilliant, and whose well-earned laurels will re-&#xD;
@@ -419,7 +424,7 @@ dictate.",;&#xD;
 &#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7615-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7615-00000004"/>&#xD;
 -'-&#xD;
 I,&#xD;
 &#xD;
@@ -570,7 +575,7 @@ as a woman's in their expression,, and a wondrous&#xD;
 serenity seemed~writtga in the singular repose of&#xD;
 every feature.&#xD;
 &#xD;
-<pb  n="12-13 (Illustration) " xml:id="VAC7615-00000005"/>&#xD;
+<pb n="12-13 (Illustration) " xml:id="VAC7615-00000005"/>&#xD;
 4&#xD;
 &#xD;
 CHAPTER II.&#xD;
@@ -638,7 +643,7 @@ _ f&#xD;
 ,1.  ; F;&#xD;
 '   r&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7615-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7615-00000006"/>&#xD;
 MARION'S BRIGADE.                15&#xD;
 &#xD;
 ruffianly followers were encamped at Britton's&#xD;
@@ -744,7 +749,7 @@ were the terror of the counti'y.-Avmerican Revolution.&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7615-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7615-00000007"/>&#xD;
 -  MARION'S BRNGADE.&#xD;
 &#xD;
 speech," returned Gainey.  "With some stern&#xD;
@@ -885,7 +890,7 @@ MARION'S BR-MA }E.&#xD;
 &#xD;
 17&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7615-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7615-00000008"/>&#xD;
 MARION'S BIGADFE.                  19.,&#xD;
 &#xD;
 CHAPTER III.&#xD;
@@ -1013,7 +1018,7 @@ g He referred ti"m to the many wrongs they had&#xD;
 suffered, and the wanton cruelties practised by&#xD;
 d the loyalist' generally. He spoke of innocent&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7615-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7615-00000009"/>&#xD;
 r" ,&#xD;
 Y    J  'u&#xD;
 t  " ,  }&#xD;
@@ -1179,7 +1184,7 @@ g&#xD;
 f&#xD;
 ,&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7615-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7615-00000010"/>&#xD;
 E&#xD;
 &#xD;
 MARION'S BRIGADE.&#xD;
@@ -1283,7 +1288,7 @@ the man who had brought the news.         'em  pegickerler death. Or, in other w
 what do you feel disposed to do, fljht, or run"/" streaks of greased lightnin', and as -many claps&#xD;
 asked Captain Nick.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7615-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7615-00000011"/>&#xD;
 41 RING'S BRIGA E.-                                        MARION'S BRIGADE.&#xD;
 &#xD;
 of everlastin' thunder. I've jest earn that&#xD;
@@ -1484,7 +1489,7 @@ faced for the settlement, and marched away.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7615-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7615-00000012"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 II&#xD;
@@ -1654,7 +1659,7 @@ t PF&#xD;
 &#xD;
 0 '&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7615-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7615-00000013"/>&#xD;
 MARION'S BRIGADE.                      29&#xD;
 &#xD;
 ister was truly a manuf,sense and courage whose&#xD;
@@ -1854,7 +1859,7 @@ MARION'S BRIGADE.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7615-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7615-00000014"/>&#xD;
 30                     MARION'S BRIGADE.&#xD;
 &#xD;
 " He wont do that," rejoined the sergeant.&#xD;
@@ -1971,7 +1976,7 @@ Though dignity, in A_ maiden, often chills the  "Indeed, Mr. Forstall, I express
 hopes of her admirer, it must be remembered and imperfectly the joy which this unexpected&#xD;
 that it also secures his respect, and shields her event has produced among-us. I am sure that&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7615-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7615-00000015"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 MARION'S .BRIGADE.&#xD;
@@ -2073,7 +2078,7 @@ Frank, with considerable warmth.&#xD;
 "You shall have my constant prayers for&#xD;
 your safety and success," added Iuth, timidly.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7615-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7615-00000016"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 "If your lips pray for me, Ruth, I shall in- river. So far as I am able to judge from vague&#xD;
@@ -2178,7 +2183,7 @@ CAPTAIR tHAWES $OINS MARION'S BRIGADni.&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7615-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7615-00000017"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 MARION'S BRIGADE.&#xD;
@@ -2378,7 +2383,7 @@ Adair, who had been released from his danger-&#xD;
 &#xD;
 N&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7615-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7615-00000018"/>&#xD;
 88                              MARION'S&#xD;
 6oUS position at Britton's Neck, had joined the&#xD;
 briAde:; and as' Dawson had been the most ac-&#xD;
@@ -2492,7 +2497,7 @@ best of care to disguise his true character, and&#xD;
 to appear to 1Martin's eyes like one who hon-&#xD;
 estly and conscientiously differed with, him in&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7615-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7615-00000019"/>&#xD;
 40                   MARION'S BRIGADE.&#xD;
 &#xD;
 opinion. While he seemed to sustain this as-&#xD;
@@ -2691,7 +2696,7 @@ rejoinder.&#xD;
 &#xD;
 MARION'S BRIGADE.              41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7615-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7615-00000020"/>&#xD;
 MARION'S BRIGADE.-                   43&#xD;
 &#xD;
 "Answer me one more question, sir, and I&#xD;
@@ -2894,7 +2899,7 @@ F&#xD;
 &#xD;
 MARION'S BRIUADH*'&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7615-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7615-00000021"/>&#xD;
 *&#xD;
 &#xD;
 44                              MARION'S BRIGADE-&#xD;
@@ -3047,7 +3052,7 @@ you to go with'me."&#xD;
 &#xD;
 IP&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7615-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7615-00000022"/>&#xD;
 46                             MARION'S BRIGADE.&#xD;
 "You'an't help yourself; I'm  bound- to   Kate's heart beat a little faster than usual,&#xD;
 stick to you like shoemaker's wax, come what but she kept on as if she felt there was no rea-&#xD;
@@ -3215,7 +3220,7 @@ y w  .&#xD;
 41 -'&#xD;
 t;,:''-&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7615-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7615-00000023"/>&#xD;
 48                             MARION'S BRIGADE.&#xD;
 cause I struck, the villain, Cunningham; but  Sawyer caught Kate's horse by the bridle,&#xD;
 in regard to you, Queen Kate, it's not so cer- and hurried him from the road towards a small&#xD;
@@ -3327,7 +3332,7 @@ warded; just keep your eye on me.&#xD;
 &#xD;
 4.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7615-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7615-00000024"/>&#xD;
 50 ,1R ON'S BRIGADE.&#xD;
 pulling off his coat, "I have come to do a duty  Frank and Henderson lifted up Ben Rowan ;&#xD;
 which I owe to my country."               he, opened his eyes, and in a few seconds ap-&#xD;
@@ -3510,7 +3515,7 @@ neither explain, nor account for."&#xD;
 "Common report assures me that he admired&#xD;
 your person not a little," replied Ruth ; " and&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7615-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7615-00000025"/>&#xD;
 52                            .MARION'S&#xD;
 did not take any pains to conceal' his sentiments.&#xD;
 You have spoken of his escape, but I can tell&#xD;
@@ -3737,7 +3742,7 @@ evidently expressed.&#xD;
 It was some time after the tories had passed,&#xD;
 before Mary could gain courage to look after&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7615-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7615-00000026"/>&#xD;
 54                  MARION'S BRIGADE.&#xD;
 &#xD;
 Hawthrone, to see if he had fallen; when she&#xD;
@@ -3844,7 +3849,7 @@ L&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7615-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7615-00000027"/>&#xD;
 MARION'S BRIADE.MARION'S BRIGADE.&#xD;
 &#xD;
 he urged his horse forward. To gain time,     When a few yards beyond Forstall's hidihg-&#xD;
@@ -3999,7 +4004,7 @@ der?" asked Forstall, in a voice still calm.&#xD;
 ningham.   "Think  about your' mother, and&#xD;
 your prayers."&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7615-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7615-00000028"/>&#xD;
 T MARION'8 BRIGADE.&#xD;
 &#xD;
 ' Unfeeling man I dare you speak a mother's  "Inexorable as death!" said Gainey.&#xD;
@@ -4123,7 +4128,7 @@ inquired Captain Hawes.&#xD;
 &#xD;
 .58&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7615-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7615-00000029"/>&#xD;
 1M&#xD;
 &#xD;
 I.&#xD;
@@ -4276,7 +4281,7 @@ Forstall was instantly freed from his perilous&#xD;
 position ; the sharp sabre of Captain Nick cut&#xD;
 his bands, and seizing a weapon, he joined in&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7615-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7615-00000030"/>&#xD;
 62                             MARION'c&#xD;
 the pursuit of the flying dragoons. A sense of&#xD;
 the outrage which had been offered him, nerved&#xD;
@@ -4365,7 +4370,7 @@ recent style," said the colonel.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7615-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7615-00000031"/>&#xD;
 64&#xD;
 &#xD;
 MRION'S BRIGADE.&#xD;
@@ -4530,7 +4535,7 @@ lated the substance of his last interview with her&#xD;
 e and her father. When Dix mentioned the pas-&#xD;
 - tor's name, Ferguson remarked that he was a&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7615-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7615-00000032"/>&#xD;
 66                                M4JXQ'$ JB       IGe-&#xD;
 dangerous man, and unless he became more eau. in the whig cause and       h&#xD;
 tious about disseminating his rebellious ntin most dner        that's           the cn&#xD;
@@ -4615,7 +4620,7 @@ n&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7615-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7615-00000033"/>&#xD;
 I&#xD;
 &#xD;
 1'&#xD;
@@ -4819,7 +4824,7 @@ awkwardly embarrassing.&#xD;
 up all thoughts of deliverance from the unfor-&#xD;
 tunate and ignominious position in which I was&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7615-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7615-00000034"/>&#xD;
 70                   MARION'S BRIGADE.&#xD;
 &#xD;
 placed," he replied, with considerable hesita-&#xD;
@@ -4924,7 +4929,7 @@ you're blushin' up about it now."          tin called her his " brave girl," and
 You can say 'nonsense, Joe,' as much as proved so faithful a servant, was suitably cared&#xD;
 you please, but that wont convince me that for.&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7615-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7615-00000035"/>&#xD;
 72                              MARION'S&#xD;
 Kate related the story of her adventures to&#xD;
 attentive auditors, partook of refreshments, and&#xD;
@@ -5079,7 +5084,7 @@ first, my brave lads," proposed a fourth.  been foolin' long enough. Set old Mar
 &#xD;
 73&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7615-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7615-00000036"/>&#xD;
 74                             MARION'.&#xD;
 horseback, and let us be off, or we shall catch it,&#xD;
 and no mistake !"&#xD;
@@ -5184,7 +5189,7 @@ A sCENE AT THEF TORY 'unENDEZvoUs.&#xD;
 &#xD;
 6&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7615-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7615-00000037"/>&#xD;
 76                   MARION'S BRIGADE.&#xD;
 &#xD;
 the thing comes off, the better ; so come on, on&#xD;
@@ -5331,7 +5336,7 @@ and to see that the arms of every man were in observe a tent with a guad station
 readiness for use. When everything had been '"There are prisoners in the tent, perhaps,"&#xD;
 arranged according to the wishes of the celebra- said Frank.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7615-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7615-00000038"/>&#xD;
 78                   MARION'S BRIGADE.&#xD;
 &#xD;
 " Hush !" whispered his companion, pressing&#xD;
@@ -5468,7 +5473,7 @@ der '?"wiprdHgistCatiNck&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7615-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7615-00000039"/>&#xD;
 80                MARION'S BRIGADE.&#xD;
 &#xD;
 " He means to disgrace himself," said th&#xD;
@@ -5631,7 +5636,7 @@ Ben Rowan, considerably bruised by his fall, the ground.&#xD;
 &#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7615-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7615-00000040"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 " The tumult of life has passed, and I hope&#xD;
@@ -5717,7 +5722,7 @@ port of the conversation they had heard between " Marion has made a sweep at us,
 CHAPTER XVIII.&#xD;
 DIX OBTAINS KATE'S OPINION.-MARY VIDEAU.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7615-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7615-00000041"/>&#xD;
 MARION'S BRIGADE.&#xD;
 &#xD;
 ed and withered our fellows like autumn&#xD;
@@ -5935,7 +5940,7 @@ f&#xD;
 i&#xD;
 ti&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7615-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7615-00000042"/>&#xD;
 86&#xD;
 &#xD;
 MAX ION'S BRIGADE.&#xD;
@@ -6145,7 +6150,7 @@ E"&#xD;
 r                                              ,&#xD;
 ,T&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7615-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7615-00000043"/>&#xD;
 88                   MARION'S BRIGADE.&#xD;
 &#xD;
 "Are you going to leave us ?" asked James&#xD;
@@ -6295,7 +6300,7 @@ lation to the movements of the different preda- ty'?" said Henderson.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7615-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7615-00000044"/>&#xD;
 90&#xD;
 &#xD;
 MARION'S.- BRIGADE.&#xD;
@@ -6405,7 +6410,7 @@ shall soon be numbered by hundreds instead of Cunningham by the arm, Gainey turn
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7615-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7615-00000045"/>&#xD;
 MARIO8N'S 3RIG+ADE.&#xD;
 &#xD;
 the group of men that were staring at Eldad and shrieking, and fainting ,when the maidens&#xD;
@@ -6551,7 +6556,7 @@ S&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7615-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7615-00000046"/>&#xD;
 94&#xD;
 &#xD;
 4 XARIGW8 ,BRIGADE.&#xD;
@@ -6762,7 +6767,7 @@ LI!&#xD;
 &#xD;
 :s&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7615-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7615-00000047"/>&#xD;
 96              '-.MARIONHS&#xD;
 "I believe it's Marion, by   .  To arms,&#xD;
 men, to arms !" cried the royal officer, while&#xD;
@@ -6987,7 +6992,7 @@ i&#xD;
 &#xD;
 d&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7615-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7615-00000048"/>&#xD;
 I'A&#xD;
 &#xD;
 99,&#xD;
@@ -7119,7 +7124,7 @@ Id&#xD;
 &#xD;
 "4&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7615-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7615-00000049"/>&#xD;
 100&#xD;
 &#xD;
 MAION'S BRIGADE.&#xD;
@@ -7172,8 +7177,8 @@ Y&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

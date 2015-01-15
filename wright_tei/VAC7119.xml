@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7119">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7119">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Under the Evergreens, or, A Night with St. Nicholas </title>
-            <author >Lorimer, George C. (1838-1904)</author>
+            <title>Under the Evergreens, or, A Night with St. Nicholas </title>
+            <author>Lorimer, George C. (1838-1904)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7119</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7119</idno>
+            <idno type="wright2" n="previous">wright2-1583</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Under the evergreens, or, A night with St. Nicholas</title>
-                  <author >Lorimer, George C. (1838-1904)</author>
+                  <title>Under the evergreens, or, A night with St. Nicholas</title>
+                  <author>Lorimer, George C. (1838-1904)</author>
                </titleStmt>
-               <extent >234 p. </extent>
+               <extent>234 p. </extent>
                <publicationStmt>
-                  <publisher >Shepard and Gill</publisher>
+                  <publisher>Shepard and Gill</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1874">1874</date>
+                  <date when="1874">1874</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-26">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-26">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Under the evergreens, or, A night with St. Nicholas</head> 
+            <head>Under the evergreens, or, A night with St. Nicholas</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7119-00000001"/>UNDER THE Ev GREENS;&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7119-00000001"/>UNDER THE Ev GREENS;&#xD;
 &#xD;
 A NIGHT WITH. ST. NICHOLAS.&#xD;
 &#xD;
@@ -104,7 +109,7 @@ N                                                                               
 &#xD;
 '.&#xD;
 &#xD;
-<pb  n="0 (Table of Contents) " xml:id="VAC7119-00000002"/>&#xD;
+<pb n="0 (Table of Contents) " xml:id="VAC7119-00000002"/>&#xD;
 0 TV  T&#xD;
 &#xD;
 ttc% ' m l&amp;amp; a: XrRotr A  reMSS :bgy az :$c. i~&#xD;
@@ -139,7 +144,7 @@ r. ;   ^&#xD;
 w      -                ,: f.&#xD;
 -&#xD;
 &#xD;
-<pb  n="0 (Illustration) " xml:id="VAC7119-00000003"/>&#xD;
+<pb n="0 (Illustration) " xml:id="VAC7119-00000003"/>&#xD;
 Tssrr       Thn1pl tr  S  eayb'vratidn nf anOld ie&#xD;
 soQtJw    :    1r .QTI I: -'a 4 t.  I&#xD;
 w t W   . .  " : yk r   , i  na ; s- v  z gt «r a    t '  " . ,w l   . - ',1 'y '  v y  2    , i ix.    a "  i&#xD;
@@ -171,7 +176,7 @@ j&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="0-5" xml:id="VAC7119-00000004"/>&#xD;
+<pb n="0-5" xml:id="VAC7119-00000004"/>&#xD;
 A NIGHTXIHS.NC&#xD;
 4Kpp&#xD;
 44       4&#xD;
@@ -180,7 +185,7 @@ L AS&#xD;
 tc&#xD;
 Yet r.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7119-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7119-00000005"/>&#xD;
 A XXGa       ST-7 ST. MCA t&amp;amp;C&#xD;
 &#xD;
 Uezeklah Jonah -not because he was real in&#xD;
@@ -235,7 +240,7 @@ C S   s R&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7119-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC7119-00000006"/>&#xD;
 A SGHT Fl h T M XIJ0L4S&#xD;
 &#xD;
 JiezeiliJowl bWds, It Puitzn inrelu O" I&#xD;
@@ -285,7 +290,7 @@ d;  '&#xD;
 h .&#xD;
 q&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7119-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7119-00000007"/>&#xD;
 A A N&amp;amp;hT WITH ST. XICSlOLA45&#xD;
 &#xD;
 ante :fl~dlt l~o~ant hri1iuswofthe Christ&#xD;
@@ -313,7 +318,7 @@ j    N'e            t           L 4 l, q !6a .Q&#xD;
 &#xD;
 .it&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7119-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7119-00000008"/>&#xD;
 -I4&#xD;
 &#xD;
 U~~             T S011  17TIhST. SICIW LxS&#xD;
@@ -340,7 +345,7 @@ th              er 4w.4-44r4  .  s&#xD;
 &#xD;
 '  I"&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7119-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7119-00000009"/>&#xD;
 4  SIG T      STS. SC HOL S.&#xD;
 &#xD;
 t,5&#xD;
@@ -414,7 +419,7 @@ J     _&#xD;
 kr&#xD;
 , ,J&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7119-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC7119-00000010"/>&#xD;
 faiiu4 ~ta  llzuiahwih  i j Tmu iffi-,rt trnd&#xD;
 1~i ':  p -,14k WE1, we vtti.   vacv'&#xD;
 1 1''  ,+                     4a ,    . laiy  14.4' _  2  g&#xD;
@@ -443,7 +448,7 @@ the ," 4dtheasern 'nttatt aTe le&#xD;
 viol&#xD;
 .1         "VFS&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7119-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7119-00000011"/>&#xD;
 S.WRT WIra sT NicoLs.&#xD;
 &#xD;
 Stubbs has proen that the customs associated&#xD;
@@ -498,7 +503,7 @@ a1&#xD;
 &#xD;
 19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7119-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7119-00000012"/>&#xD;
 20    ASIC FI lTIR ST- SICEOLAS.&#xD;
 sAdw-elebrt&amp;amp;alofnrciry&#xD;
 .u"  4  °k'&#xD;
@@ -530,7 +535,7 @@ Y.oh  ~t -s~  ce  u   it .ad.uv&#xD;
 -oKy&#xD;
 r ' ,          i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7119-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7119-00000013"/>&#xD;
 SNIGU W   STwr . PC;I"LAS.&#xD;
 &#xD;
 fancy, has -somehow constantly assured me that&#xD;
@@ -584,7 +589,7 @@ a tned towards theM, hut having snerey on&#xD;
 their Weakness, went up into the nmount,and was&#xD;
 transfh'gred before them, that upon their sight&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7119-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7119-00000014"/>&#xD;
 mizbt lash te rays of his Uleratd ad eer&#xD;
 The La be~  alkx~r wh1~thus&#xD;
 witSh~}~r h       ~mvUa       a ~trnt&#xD;
@@ -617,7 +622,7 @@ WspP lae4udtv '3t~~&amp;amp;tz&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7119-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7119-00000015"/>&#xD;
 2 4XIr Wrgr at xzca&#xD;
 &#xD;
 deer and she held in her hand, as frmly as&#xD;
@@ -673,7 +678,7 @@ CAM&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7119-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7119-00000016"/>&#xD;
 -a&#xD;
 &#xD;
 2'      4 SIGHT WITH s   YICHOLs.&amp;amp;&#xD;
@@ -716,7 +721,7 @@ Yet he- was  lie gave away a great deal of&#xD;
 r,4&#xD;
 -;'  IT&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7119-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7119-00000017"/>&#xD;
 30&#xD;
 &#xD;
 A NIGH   WTTm ST NICOLAS.&#xD;
@@ -773,7 +778,7 @@ k&#xD;
 u       ' 4R&#xD;
 1-F      + tbI T~ ..il&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7119-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC7119-00000018"/>&#xD;
 A Xrp r7T0 ST. NeWIIOLtS.&#xD;
 &#xD;
 the floor one night, and I payvs 'em the pen-,&#xD;
@@ -839,7 +844,7 @@ Ar&#xD;
 &#xD;
 as&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7119-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7119-00000019"/>&#xD;
 at&#xD;
 &#xD;
 A NIGHT     ST N7CW1OS&#xD;
@@ -891,7 +896,7 @@ I    t&#xD;
 &#xD;
 a  r (t&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7119-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7119-00000020"/>&#xD;
 as&#xD;
 &#xD;
 girl playingrand ma*be dolly would get them&#xD;
@@ -944,7 +949,7 @@ L-                 tir&#xD;
 rw&#xD;
 "am    , "  r U        n  + r  w[~r  Jr  1&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7119-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7119-00000021"/>&#xD;
 3s&#xD;
 &#xD;
 4A SNIT WITH SSTXCIIOL{.&#xD;
@@ -980,7 +985,7 @@ ai rrh l'awJ he only   zmiiwrico- nre.rc&#xD;
 34i, b -~  0&#xD;
 "JO&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7119-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC7119-00000022"/>&#xD;
 A NIGHTIf T St NIHcLS.&#xD;
 &#xD;
 THE orcast&#xD;
@@ -1018,7 +1023,7 @@ at. ^'4  "&#xD;
 &#xD;
 40.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7119-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7119-00000023"/>&#xD;
 UNER THE   GREENS&#xD;
 &#xD;
 CHAPTER mT&#xD;
@@ -1062,7 +1067,7 @@ A&#xD;
 IN Y&#xD;
 ;a&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7119-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7119-00000024"/>&#xD;
 A NIGHT WIT H ST. NICHOLA.&#xD;
 &#xD;
 a sweet comeliness about her face and person&#xD;
@@ -1116,7 +1121,7 @@ A44&#xD;
 &#xD;
 M "'DER Tim-   E,'RG.IMZ 7V,&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7119-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7119-00000025"/>&#xD;
 46&#xD;
 &#xD;
 44IH  ~H$T  ~HLS&#xD;
@@ -1168,7 +1173,7 @@ r  }1l&#xD;
 &#xD;
 'AL&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7119-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7119-00000026"/>&#xD;
 k&#xD;
 &#xD;
 4b&#xD;
@@ -1216,7 +1221,7 @@ f&#xD;
 &#xD;
 4$&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7119-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC7119-00000027"/>&#xD;
 A  ;HT ri ITT. CI! Li&#xD;
 &#xD;
 vette'e ;s  a eStuhsb  honib-oly&#xD;
@@ -1266,7 +1271,7 @@ v A   {  }y    t SSr               J a  v'!&#xD;
 ,    e!-                     ,&#xD;
 " _ ire                    ' ^   i&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7119-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC7119-00000028"/>&#xD;
 A TIRT .77 ST. SWHOLAs&#xD;
 &#xD;
 his infant meditation the yer sage conclusion&#xD;
@@ -1306,7 +1311,7 @@ t n ot e   nd d uz t x   U   hw ~ ~   il   l c t&#xD;
 ;x- _ '&#xD;
 _&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7119-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC7119-00000029"/>&#xD;
 64&#xD;
 &#xD;
 4 x-IGnrtTrrI ST. WCIILAS&#xD;
@@ -1347,7 +1352,7 @@ VA12"&#xD;
 ,                ~         +  d&#xD;
 _,     };                                         ,&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7119-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC7119-00000030"/>&#xD;
 A MWHIT WITH? StNJCIJDA&#xD;
 &#xD;
 UNDER THE EE R0REENS.,&#xD;
@@ -1383,7 +1388,7 @@ LIP&#xD;
 PIZZA&#xD;
 _    ,.Y  YrG&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7119-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC7119-00000031"/>&#xD;
 JUA S~l W~ T. NICHOLAS.&#xD;
 &#xD;
 frm  i tr  t  ~ic,4he nure.'whoxse&#xD;
@@ -1425,7 +1430,7 @@ rrA"L  '&#xD;
 '&#xD;
 -  :&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7119-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC7119-00000032"/>&#xD;
 Z'" , : THlE EVERGREEXS.        E&#xD;
 &#xD;
 64~AG 3WJT 7Th      XFWQLAS.&#xD;
@@ -1461,7 +1466,7 @@ IG    ~   - ,~&#xD;
 &#xD;
 60,&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7119-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC7119-00000033"/>&#xD;
 A ZIJT ITh Sit 'TCSOLAS,               xti it FIGLV&#xD;
 &#xD;
 "x ar&#xD;
@@ -1536,7 +1541,7 @@ y.;14: i    '      e       J 1.&#xD;
 p      t}  '      .i aT4-&#xD;
 h.              14    J&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7119-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC7119-00000034"/>&#xD;
 $1 ASW_ WTuT4NCH  S.tDR TILE E  fldnEys',&#xD;
 &#xD;
 G  b ihtrivigoate he'prt for its siou&#xD;
@@ -1571,7 +1576,7 @@ NICHOLAS*,&#xD;
 &#xD;
 ;&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7119-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC7119-00000035"/>&#xD;
 w lot&#xD;
 WWI:.&#xD;
 n   ,&#xD;
@@ -1600,7 +1605,7 @@ $p          -                      ^ fao~ t4&#xD;
 44  ""  '   """'  P  X~I2&#xD;
 4al'                14-I~ ~   p   iti   o h&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7119-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC7119-00000036"/>&#xD;
 8&#xD;
 &#xD;
 4n NIGHT WI T TNI CHOLS.&#xD;
@@ -1637,7 +1642,7 @@ w 4  Fy R.&#xD;
 rf; '4    '4&#xD;
 4 '  te  .%- 4&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7119-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC7119-00000037"/>&#xD;
 10&#xD;
 &#xD;
 A NGUI' 07TH SF;-XCLWL&#xD;
@@ -1671,7 +1676,7 @@ f_&#xD;
 &#xD;
 ,_"y i&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7119-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC7119-00000038"/>&#xD;
 42-&#xD;
 &#xD;
 A VIGHT WITH ST NCf1OA"S.&#xD;
@@ -1717,7 +1722,7 @@ strn ordea, cvuntenanned the festal jy of the&#xD;
 l;    ,a&#xD;
 4&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7119-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC7119-00000039"/>&#xD;
 .5.&#xD;
 :;,&#xD;
 &#xD;
@@ -1749,7 +1754,7 @@ a'1 h  t '          . "f .w  i. fi f i' w kn w s to  i r  up v.&#xD;
 bta tte off:ih zsxAlt! lit!,e adpis could&#xD;
 .,il  he raked  ..tof hibIwr4an dt'1 a hr -hter&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7119-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC7119-00000040"/>&#xD;
 T  yz'.'ssTi&#xD;
 &#xD;
 S  NICUOAS&#xD;
@@ -1786,7 +1791,7 @@ Inv. for wi cke dy"'eatchrwa uamone o 0U -t1U&#xD;
 &#xD;
 d=am r&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7119-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC7119-00000041"/>&#xD;
 7$     A N1Cffl'WIT!! Kt.YLCRzmAS.&#xD;
 &#xD;
 Si SCiOLAS.&#xD;
@@ -1834,7 +1839,7 @@ N_&#xD;
 A&#xD;
 S        i&#xD;
 &#xD;
-<pb  n="80 (Illustration) " xml:id="VAC7119-00000042"/>&#xD;
+<pb n="80 (Illustration) " xml:id="VAC7119-00000042"/>&#xD;
 A XIGHT WITH sT. xCHOLA&#xD;
 &#xD;
 dicated that these adults desired to revive for&#xD;
@@ -1861,7 +1866,7 @@ e'ming, they hecame more distinct to the&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="-81" xml:id="VAC7119-00000043"/>&#xD;
+<pb n="-81" xml:id="VAC7119-00000043"/>&#xD;
 4-4&#xD;
 44'&#xD;
 tf  i   , w&#xD;
@@ -1875,7 +1880,7 @@ I Cr v&#xD;
 M"&#xD;
 v SdL&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7119-00000044"/>&#xD;
+<pb n="82-83" xml:id="VAC7119-00000044"/>&#xD;
 82      A SIGHI T!rttST.NICHOLAS.&#xD;
 &#xD;
 almz    eh.   s ftheeere e ns-cmanz&#xD;
@@ -1907,7 +1912,7 @@ i w'&#xD;
 W&#xD;
 !.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7119-00000045"/>&#xD;
+<pb n="84-85" xml:id="VAC7119-00000045"/>&#xD;
 b4   A NIGHT WITH T. XIHOLI&#xD;
 &#xD;
 }4   .       p~r&#xD;
@@ -1938,7 +1943,7 @@ m .t      , :2.   .'U z&#xD;
 ic A&#xD;
 cm&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7119-00000046"/>&#xD;
+<pb n="86-87" xml:id="VAC7119-00000046"/>&#xD;
 I+&#xD;
 &#xD;
 ,Yf&#xD;
@@ -1977,7 +1982,7 @@ N  .       _&#xD;
 " K; a +&#xD;
 r=1~  ,'&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7119-00000047"/>&#xD;
+<pb n="88-89" xml:id="VAC7119-00000047"/>&#xD;
 4 S1ifT WIT  S CIIOLIS4&#xD;
 &#xD;
 sr    c110LIS4&#xD;
@@ -2025,7 +2030,7 @@ is&#xD;
 &#xD;
 --89-&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7119-00000048"/>&#xD;
+<pb n="90-91" xml:id="VAC7119-00000048"/>&#xD;
 title tome, you ca  callme bysornt, of my&#xD;
 othersnaiue44 &amp;amp; (Ws C'inzlor S;raaClaus"&#xD;
 gate l                          xa, VU  it&#xD;
@@ -2058,7 +2063,7 @@ Ii&#xD;
 &#xD;
 "       f y r         1 I&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7119-00000049"/>&#xD;
+<pb n="92-93" xml:id="VAC7119-00000049"/>&#xD;
 oft&#xD;
 V  Not&#xD;
 i'&#xD;
@@ -2086,7 +2091,7 @@ adc1   t 'i~- 3w."e , k a  l  ' ' gy p "1  xr  4  i#  kr,  tor&#xD;
 4  1'                -4 4&#xD;
 ~-b~      iixthe  P    7~It    (&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7119-00000050"/>&#xD;
+<pb n="94-95" xml:id="VAC7119-00000050"/>&#xD;
 ST S,« i  is&#xD;
 &#xD;
 A IURT WIT      . A z aLA&#xD;
@@ -2120,7 +2125,7 @@ I,&#xD;
 &#xD;
 47&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7119-00000051"/>&#xD;
+<pb n="96-97" xml:id="VAC7119-00000051"/>&#xD;
 9P&#xD;
 &#xD;
 A I S -OT  ITS STr.4 SJU LS-&#xD;
@@ -2152,7 +2157,7 @@ n -&#xD;
 .4-'1I'4F   4&#xD;
 4.44              ILs44L, ,; '4X 4  .44W&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7119-00000052"/>&#xD;
+<pb n="98-99" xml:id="VAC7119-00000052"/>&#xD;
 A NIGHT 'IM- ST. NICHOLAS.ST                               COLs&#xD;
 &#xD;
 '~\f -Iw ant you!,   hto    atsol&#xD;
@@ -2188,7 +2193,7 @@ si     roL&#xD;
 , a&#xD;
 ; ; '&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7119-00000053"/>&#xD;
+<pb n="100-101" xml:id="VAC7119-00000053"/>&#xD;
 to    A NXIHTWITH! T NICUCLAS.&#xD;
 &#xD;
 'S&#xD;
@@ -2225,7 +2230,7 @@ r " " U.   tt s,  ' ,  i-  ,   aa   a.  c a   'A 't i , e  widm "° u t,  ei&#xD
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7119-00000054"/>&#xD;
+<pb n="102-103" xml:id="VAC7119-00000054"/>&#xD;
 102     A NIOGIT WIITS ST. JICHOLAS.&#xD;
 &#xD;
 which shall it be?   I decide in favor of&#xD;
@@ -2257,7 +2262,7 @@ lik  to  .hx'r it.' '&#xD;
 &#xD;
 -ST.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7119-00000055"/>&#xD;
+<pb n="104-105" xml:id="VAC7119-00000055"/>&#xD;
 ST1Liii C NI.ANY.&#xD;
 w M  " r r- I          - ,  ~iyain .4',,i'  s. '... 'r  a 'rr c pa.r'&#xD;
 444",.a3 w'   3  -44t.44        .4h  -  j   (' %    -.   .,     c',  m " '  ^    ' '4.3  -C"  i x&#xD;
@@ -2291,7 +2296,7 @@ I ml b spend thedyitLia 2   il&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7119-00000056"/>&#xD;
+<pb n="106-107" xml:id="VAC7119-00000056"/>&#xD;
   .  SWIr Wtr s. XNIGQLS.      sras&#xD;
 &#xD;
 . .1&#xD;
@@ -2336,7 +2341,7 @@ mnlve and c-ontributectowards each others'&#xD;
 sucs andt3 30 renovn&#xD;
 "tMr Past promised to enrich r. Present&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7119-00000057"/>&#xD;
+<pb n="108-109" xml:id="VAC7119-00000057"/>&#xD;
 ant],I M 4 Future with his wisd om, and tey eons,&#xD;
 senate to recognize the genrosity of the do0nor&#xD;
 hr ~iins ifll -credit fuor the tentfit he&#xD;
@@ -2365,7 +2370,7 @@ f hll  t flk i 1&#xD;
 V dAl4 .t b 1 1 "S  i 01 Yin' r -tiel. ifar&#xD;
 pow r4     4  'j-Iha. n 4 stirT&#xD;
 &#xD;
-<pb  n="110 (Illustration) " xml:id="VAC7119-00000058"/>&#xD;
+<pb n="110 (Illustration) " xml:id="VAC7119-00000058"/>&#xD;
 A NIGHT WITH ST NICHOL A&#xD;
 &#xD;
 tried to do so, for the impresson  arvividr&#xD;
@@ -2390,7 +2395,7 @@ that night. My presents were am xd    n&#xD;
 &#xD;
 110&#xD;
 &#xD;
-<pb  n="-111" xml:id="VAC7119-00000059"/>&#xD;
+<pb n="-111" xml:id="VAC7119-00000059"/>&#xD;
 their distribution was equally so  I uniformly&#xD;
 zare doi to the boys, and whips, trumpets,&#xD;
 and drUns to the girL   I left a gentiuman'&#xD;
@@ -2415,7 +2420,7 @@ ST,  GR CO&#xD;
 &#xD;
 IiI&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7119-00000060"/>&#xD;
+<pb n="112-113" xml:id="VAC7119-00000060"/>&#xD;
 A 4 NIGHT       r li"l rST. XIcH OrAS&#xD;
 &#xD;
 STRANGE COMAy.&#xD;
@@ -2460,7 +2465,7 @@ Lardness    hold my palce, ad.&#xD;
 &#xD;
 113&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7119-00000061"/>&#xD;
+<pb n="114-115" xml:id="VAC7119-00000061"/>&#xD;
 114      A NIGHT wTrSTra . NICHOLAS -&#xD;
 dom: They are one. What is the glory upon&#xD;
 the fields4 the trees, the hills, the stream?  It&#xD;
@@ -2506,7 +2511,7 @@ y. T&#xD;
 &#xD;
 115&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7119-00000062"/>&#xD;
+<pb n="116-117" xml:id="VAC7119-00000062"/>&#xD;
 6.      A NIGHTV7T. S. NICHOLAS.&#xD;
 understand why, if you really were reformed,&#xD;
 you never visited my house before"&#xD;
@@ -2553,7 +2558,7 @@ i eZu-mod can you do them'? Ofwhat use eou&#xD;
 co Nchols was nothing abashed by this&#xD;
 at bkhut riidg "in the chair until he stood&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7119-00000063"/>&#xD;
+<pb n="118-119" xml:id="VAC7119-00000063"/>&#xD;
 ns     A Ff0r WrT S. N1CHOLAS.&#xD;
 &#xD;
 erect in it, as though to imr importance to&#xD;
@@ -2601,7 +2606,7 @@ r*1&#xD;
 &#xD;
 Iii&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7119-00000064"/>&#xD;
+<pb n="120-121" xml:id="VAC7119-00000064"/>&#xD;
 STRAct' C&amp;amp;ovPr4. .&#xD;
 &#xD;
 The Puritan felt the penetration of his glance,&#xD;
@@ -2648,7 +2653,7 @@ any one could seethat Cinderella, Beauty and&#xD;
 &#xD;
 A VrGBr OM- 'ST-'.N7CHOL6.4&amp;amp;-&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7119-00000065"/>&#xD;
+<pb n="122-123" xml:id="VAC7119-00000065"/>&#xD;
 A N SI   rTH ST. XNOLAs-&#xD;
 &#xD;
 the Beast, the Wise Men of Gotham, and the&#xD;
@@ -2694,7 +2699,7 @@ a volume of flame, while sheets of light flhed&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7119-00000066"/>&#xD;
+<pb n="124-125" xml:id="VAC7119-00000066"/>&#xD;
 m 4      A YIGHT WITH2 ST XICHOLA&amp;amp;.&#xD;
 iponTe foors and walls. The excitement in-&#xD;
 creased, and the crowds of strange beings&#xD;
@@ -2740,7 +2745,7 @@ pimy, vieird, old n. 'e had a crown of&#xD;
 :istletoe upon his brow, and his robes were&#xD;
 wte as the newly-allen snow. His face was&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7119-00000067"/>&#xD;
+<pb n="126-127" xml:id="VAC7119-00000067"/>&#xD;
 AH TAses  Cw NT.&#xD;
 &#xD;
 wrinkled, and his hairs heards and eyebrows&#xD;
@@ -2786,7 +2791,7 @@ the night, and that seen by their invisible eyes,&#xD;
 &#xD;
 =      0 T. m. !CH L-&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7119-00000068"/>&#xD;
+<pb n="128-129" xml:id="VAC7119-00000068"/>&#xD;
 4 SLB? JTX'$S.NICOASl$TeYGgQSPN&#xD;
 &#xD;
 be was         -fte~ the object ofter rd iculee paused,&#xD;
@@ -2824,7 +2829,7 @@ ThA Nth copsa&#xD;
 &#xD;
 .   i&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7119-00000069"/>&#xD;
+<pb n="130-131" xml:id="VAC7119-00000069"/>&#xD;
 CHAPTER VL&#xD;
 TRlE 3UPXIHT JOUEXET.&#xD;
 "uMery crit     ya&#xD;
@@ -2866,7 +2871,7 @@ tag and his only relief was in spe akin; to&#xD;
 m and whispered -he thought he shoted&#xD;
 hut i ta immensity cthey were trarering it&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7119-00000070"/>&#xD;
+<pb n="132-133" xml:id="VAC7119-00000070"/>&#xD;
 132       AW IfTTUU       T SICHOfLAS.&#xD;
 was less di' n ti  than the trumbpet-rob-e of the&#xD;
 mariner i the temp     t,-&#xD;
@@ -2905,7 +2910,7 @@ P  Y1ot2Am.ntx    lh:~  nt i&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7119-00000071"/>&#xD;
+<pb n="134-135" xml:id="VAC7119-00000071"/>&#xD;
 134      A    TN16  WI  St YS.IC*OLA&amp;amp;&#xD;
 t was unknown or unrecognized, he saw sights&#xD;
 the most revolting, and deeds the mast hor&#xD;
@@ -2949,7 +2954,7 @@ of the question&#xD;
 he conversation had not chged the rate of&#xD;
 their progress,  d as it closed, they were driv-&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7119-00000072"/>&#xD;
+<pb n="136-137" xml:id="VAC7119-00000072"/>&#xD;
 136-   A NIGHT  IT  T. _S;IC!)O01S.&#xD;
 jg ttj hqa and pt over the    reets o&#xD;
 B-os-to n. The rdndhr Jsenethi&#xD;
@@ -2987,7 +2992,7 @@ r&#xD;
 &#xD;
 Y G   URXE .&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7119-00000073"/>&#xD;
+<pb n="138-139" xml:id="VAC7119-00000073"/>&#xD;
 IN    AtGH     1T SINICHOLAS&#xD;
 "here we have to alight, for there arethings in&#xD;
 amble dwelling which you should wit&#xD;
@@ -3032,7 +3037,7 @@ men and women      at  out their chaacers&#xD;
 under conditions which now exist, which might&#xD;
 have existed, or which may exist in the ftu&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7119-00000074"/>&#xD;
+<pb n="140-141" xml:id="VAC7119-00000074"/>&#xD;
 HO      4 SIHT    rS. SICHOLA&#xD;
 &#xD;
 TaE JraDtwar .Orxa-&#xD;
@@ -3079,7 +3084,7 @@ i-&#xD;
 &#xD;
 14&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7119-00000075"/>&#xD;
+<pb n="142-143" xml:id="VAC7119-00000075"/>&#xD;
 1o    4 Sr Srt IHOLATt                             L&#xD;
 &#xD;
 lost whatever of fairness once pertand to them,&#xD;
@@ -3126,7 +3131,7 @@ Stand   in her home en the outskirts of a&#xD;
 &#xD;
 TIM YQ&#xD;
 &#xD;
-<pb  n="144" xml:id="VAC7119-00000076"/>&#xD;
+<pb n="144" xml:id="VAC7119-00000076"/>&#xD;
 great prgrssie city1 Withi thity. ammri&#xD;
 with the seehig        tha' t -wrer;4zinz&#xD;
 madly, forward tonc~       iT~ xr&#xD;
@@ -3143,7 +3148,7 @@ IL     a 2.R   " 4. ~.444  S , M + kw  ;a. r  At, 1&#xD;
 r j   1k&#xD;
 t Is&#xD;
 &#xD;
-<pb  n="Illustration-145" xml:id="VAC7119-00000077"/>&#xD;
+<pb n="Illustration-145" xml:id="VAC7119-00000077"/>&#xD;
 *  TE)101T JOCRYEtV        14&#xD;
 found-upo their knees; but y fowlsek&#xD;
 th eir  r n.tA slth ough  ist's  '1  day  .  w'.+a~  Vf r o r  ofkxu&#xD;
@@ -3156,7 +3161,7 @@ Av -&#xD;
 &#xD;
 ,-j&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7119-00000078"/>&#xD;
+<pb n="146-147" xml:id="VAC7119-00000078"/>&#xD;
 I&#xD;
 &#xD;
 U    A icGRT !FE St MCH0L4S&#xD;
@@ -3207,7 +3212,7 @@ TILE               O&#xD;
 &#xD;
 117&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7119-00000079"/>&#xD;
+<pb n="148-149" xml:id="VAC7119-00000079"/>&#xD;
 A4 4.NGHT 0TH $7T. YICHQLA&amp;amp;S&#xD;
 gone, he seemto he t pace; and, yet the&#xD;
 face snnotothers, hut Ins OwnU   1HoW I&#xD;
@@ -3245,7 +3250,7 @@ fist            :&#xD;
 XI£~A~II i uth iButtht ~ ~l&#xD;
 A eW     in %    QIL~&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7119-00000080"/>&#xD;
+<pb n="150-151" xml:id="VAC7119-00000080"/>&#xD;
 N9       A SIGHT W   T sT. NIrCHLAS.&#xD;
 no right to die while a dollar of it was in, his&#xD;
 possession. Some kind friends insist that he&#xD;
@@ -3287,7 +3292,7 @@ brother  I ihae ntl a high opinion  f your&#xD;
 Chi~aity-endd-" retorted Jt h"What&#xD;
 h charity to do with it ? And what right had&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7119-00000081"/>&#xD;
+<pb n="152-153" xml:id="VAC7119-00000081"/>&#xD;
 1St   4a,~ IGHT     St ,YICHLS.&#xD;
 he to die with accounts   ttled Y His sister&#xD;
 says he had none "&#xD;
@@ -3331,7 +3336,7 @@ sailor youth stood at the threshold o the door.&#xD;
 ie looked round the room, evidently surprised&#xD;
 t what he saw, tho 4it did not include the&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7119-00000082"/>&#xD;
+<pb n="154-155" xml:id="VAC7119-00000082"/>&#xD;
 visitors, as they were invisible to hima The&#xD;
 old lay's back was toward him, so he had am-&#xD;
 pie pporunit surveying the scene.&#xD;
@@ -3379,7 +3384,7 @@ happy"&#xD;
 &#xD;
 -4&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7119-00000083"/>&#xD;
+<pb n="156-157" xml:id="VAC7119-00000083"/>&#xD;
 . 510a7    rST. NTOLAS.&#xD;
 &#xD;
 The puritan was startled, hSit Nicholas was&#xD;
@@ -3423,7 +3428,7 @@ roster ?"&#xD;
 "Don't kwQ&#xD;
 ly God! my God " cried the youth,clas-&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7119-00000084"/>&#xD;
+<pb n="158-159" xml:id="VAC7119-00000084"/>&#xD;
 1*s     A SGHTa     mrS. XICHQLA$.&#xD;
 ig his hands in mental agony. "Is ths dreary&#xD;
 scene 'all that is to welcome me? Is this the'&#xD;
@@ -3471,7 +3476,7 @@ angr.F , ,   N a a  f 1  i yy    tiaa&#xD;
 &#xD;
 ti.&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7119-00000085"/>&#xD;
+<pb n="160-161" xml:id="VAC7119-00000085"/>&#xD;
 Don't4 don't," said she. "I have been&#xD;
 tempted to curse them  too. I had to strug-'&#xD;
 gle against the desire, to pray God to help me.&#xD;
@@ -3514,7 +3519,7 @@ the room,-&#xD;
 Lath oTTveume evil with good.&#xD;
 iW&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7119-00000086"/>&#xD;
+<pb n="162-163" xml:id="VAC7119-00000086"/>&#xD;
 Aa     A NGHT   rSt xICHOLA&amp;amp;&#xD;
 &#xD;
 TEE *IDyxoNT tOURzy.&#xD;
@@ -3553,7 +3558,7 @@ t&#xD;
 &#xD;
 -Um&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7119-00000087"/>&#xD;
+<pb n="164-165" xml:id="VAC7119-00000087"/>&#xD;
 'ADOW A0 fL LGT.&#xD;
 &#xD;
 CHAPTER VI&#xD;
@@ -3593,7 +3598,7 @@ I&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="166 (Illustration) " xml:id="VAC7119-00000088"/>&#xD;
+<pb n="166 (Illustration) " xml:id="VAC7119-00000088"/>&#xD;
 IS     aS NIGHT  TSTr . XoCHLAS.&#xD;
 &#xD;
 Chris     carol en the hob, the furniture&#xD;
@@ -3620,7 +3625,7 @@ $he called hiam Tim1 he called her Nell.&#xD;
 &#xD;
 ;,  .&#xD;
 &#xD;
-<pb  n="-167" xml:id="VAC7119-00000089"/>&#xD;
+<pb n="-167" xml:id="VAC7119-00000089"/>&#xD;
 There were little stockings hung up near the&#xD;
 lre, and lying all around were 'hnp, humbde1&#xD;
 but highly-olorea toys. Evidently, she had&#xD;
@@ -3643,7 +3648,7 @@ SAt4jDOW A  vp ror&#xD;
 &#xD;
 18r&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7119-00000090"/>&#xD;
+<pb n="168-169" xml:id="VAC7119-00000090"/>&#xD;
 1-A 4    IGT  Sm t  NICOLAS.H&#xD;
 &#xD;
 "The old story, Nelly; she was caugh&#xD;
@@ -3686,7 +3691,7 @@ IICeman told me that- an old gent wanted to&#xD;
 &#xD;
 S A.   A       LIB&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7119-00000091"/>&#xD;
+<pb n="170-171" xml:id="VAC7119-00000091"/>&#xD;
 xmarirraer,rcor me-.&#xD;
 take her home, and adoptt her, or something of&#xD;
 that sort, if possible to save her; but a rank,&#xD;
@@ -3731,7 +3736,7 @@ Tim, Tim   you  buaderer: how often I&#xD;
 '' '&#xD;
 _ . _L&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7119-00000092"/>&#xD;
+<pb n="172-173" xml:id="VAC7119-00000092"/>&#xD;
 1m7    A xIC r     ST. NICHOLAS.&#xD;
 &#xD;
 have told yu that you had more sense in&#xD;
@@ -3779,7 +3784,7 @@ Rut he could not more -he was glued to&#xD;
 &#xD;
 ,. i&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7119-00000093"/>&#xD;
+<pb n="174-175" xml:id="VAC7119-00000093"/>&#xD;
 YJGLIT WIT  . ST yWIIOLAS&#xD;
 &#xD;
 FE SHADOW AND THE LJGWC&#xD;
@@ -3829,7 +3834,7 @@ it&#xD;
 &#xD;
 A~,&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7119-00000094"/>&#xD;
+<pb n="176-177" xml:id="VAC7119-00000094"/>&#xD;
 176    4 NIGTrr ST, NICHOZ.&#xD;
 &#xD;
 itto mehbackagain? You'regood-so good&#xD;
@@ -3871,7 +3876,7 @@ hre&#xD;
 Twre wt  n eruitant and triumphant look&#xD;
 er ey, asthouhish  had discovered in&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7119-00000095"/>&#xD;
+<pb n="178-179" xml:id="VAC7119-00000095"/>&#xD;
 I&#xD;
 &#xD;
 178      4 SIGHT WTH ST. NCHOLAS-.&#xD;
@@ -3916,7 +3921,7 @@ a prayer into atri iphat and grateful mecas&#xD;
 &#xD;
 2&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7119-00000096"/>&#xD;
+<pb n="180-181" xml:id="VAC7119-00000096"/>&#xD;
 IC&#xD;
 &#xD;
 1-.8&#xD;
@@ -3968,7 +3973,7 @@ quiet unpretentious refinement, which can only&#xD;
 &#xD;
 rI&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC7119-00000097"/>&#xD;
+<pb n="182-183" xml:id="VAC7119-00000097"/>&#xD;
 s sayr wrm st szcaoa.&#xD;
 he the result of affluence long enjoy  anof&#xD;
 thoroughly cultivated tastes, -,de a palace&#xD;
@@ -4012,7 +4017,7 @@ ret a j    ur loe La been to me thu&#xD;
 a L these yars. What would have' becme of&#xD;
 me, an infirm old man, when my dear wife&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC7119-00000098"/>&#xD;
+<pb n="184-185" xml:id="VAC7119-00000098"/>&#xD;
 154     4 - NIGT WITH sr. NICHOLAS&#xD;
 died, leaving me without kin or child, if kind&#xD;
 iProvidence had not sent you to me on that&#xD;
@@ -4058,7 +4063,7 @@ simple words,&#xD;
 &#xD;
 THE ZArJ W'AN        : JG  .&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC7119-00000099"/>&#xD;
+<pb n="186-187" xml:id="VAC7119-00000099"/>&#xD;
 A . SIGHT m S. YCIOLS.&#xD;
 1o4 uspon katnad&#xD;
 but how different was the rendering. Her&#xD;
@@ -4106,7 +4111,7 @@ the really dead?"&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC7119-00000100"/>&#xD;
+<pb n="188-189" xml:id="VAC7119-00000100"/>&#xD;
 188     2 NIGHT 7r7 si NICHrAS.T&#xD;
 &#xD;
 "That's none of your business, you know,"&#xD;
@@ -4136,7 +4141,7 @@ h1&#xD;
 &#xD;
 'THE -'15HAD 0 W A.N D THE -LIGBY.&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC7119-00000101"/>&#xD;
+<pb n="190-191" xml:id="VAC7119-00000101"/>&#xD;
 THE EAD OF THE RLDEWE~     191&#xD;
 &#xD;
 CHAPTER fl.&#xD;
@@ -4174,7 +4179,7 @@ quv U bu w hth zrand ;reat tizure or divers&#xD;
 Tony zazed upon t with complacent pride.&#xD;
 It was exactly to his taste, and he laughed to&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC7119-00000102"/>&#xD;
+<pb n="192-193" xml:id="VAC7119-00000102"/>&#xD;
 in  A NIGHT WIT ST. S~d0LS~TEDO                    H   IE&#xD;
 &#xD;
 ma&#xD;
@@ -4206,7 +4211,7 @@ woat uew  tchtfMstey ly.wLperia  h&#xD;
 &#xD;
 192&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC7119-00000103"/>&#xD;
+<pb n="194-195" xml:id="VAC7119-00000103"/>&#xD;
 1S(  4 NGHT WIT! St XWOL&amp;amp;  ~E  D O            H   E&#xD;
 &#xD;
 hours away. Thee, fwe fear, were the  vch.&#xD;
@@ -4237,7 +4242,7 @@ ytidtheiukVg..ajjOh&#xD;
 &#xD;
 19        A VIG&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC7119-00000104"/>&#xD;
+<pb n="196-197" xml:id="VAC7119-00000104"/>&#xD;
 41&#xD;
 &#xD;
 1%&#xD;
@@ -4276,7 +4281,7 @@ paethey r rO t hirfK.,_ fe ct ad rule nhro&#xD;
 &#xD;
 -,=:'^&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC7119-00000105"/>&#xD;
+<pb n="198-199" xml:id="VAC7119-00000105"/>&#xD;
 A9 ASIGHT $7771ST. NICHOLAS.&#xD;
 "MryChristms," they shouted, while the&#xD;
 smack of lip  j  l-ie  that the wih wa&#xD;
@@ -4307,7 +4312,7 @@ remmbe ritrht that ou aeivst omra&#xD;
 AU  '&#xD;
 A  tA -&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC7119-00000106"/>&#xD;
+<pb n="200-201" xml:id="VAC7119-00000106"/>&#xD;
 TO END OF rurRI ,E.&#xD;
 &#xD;
 A NIGHT 14177?ST sJCHOLAS4&#xD;
@@ -4335,7 +4340,7 @@ b  r y 4 d~~s J! -    ma . 4 ~v f' l U 1&#xD;
 V4 ~    ~      ~      i an5f  "*ahmUe n ~xil r u&#xD;
 tt4Ettt'14'1, 23dio*I I t rthais h eerben&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC7119-00000107"/>&#xD;
+<pb n="202-203" xml:id="VAC7119-00000107"/>&#xD;
  A SiRT [r7TH  XZCUOras.&#xD;
 &#xD;
 THE £.D OP THE EWE.&#xD;
@@ -4383,7 +4388,7 @@ seIf, as he should be at the lose of life  Ques-&#xD;
 &#xD;
 'til  L. t   4~    rN'f" i         .&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC7119-00000108"/>&#xD;
+<pb n="204-205" xml:id="VAC7119-00000108"/>&#xD;
 A NIUT wrrh ST. CLTOus.&#xD;
 &#xD;
 ilt E X OF THE RID&#xD;
@@ -4422,7 +4427,7 @@ express the thoughts that are passing through&#xD;
 &#xD;
 -J&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC7119-00000109"/>&#xD;
+<pb n="206-207" xml:id="VAC7119-00000109"/>&#xD;
 A I T  SX   O  Tal  RDE.  - 97&#xD;
 &#xD;
 my mind. As they assume shape in words, I-&#xD;
@@ -4466,7 +4471,7 @@ wildly and despairngly&#xD;
 &#xD;
 r   ST.   C  4 $$&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC7119-00000110"/>&#xD;
+<pb n="208-209" xml:id="VAC7119-00000110"/>&#xD;
 A NIGHT HT S. NICS&#xD;
 &#xD;
 rlE END OF THE R/DE,&#xD;
@@ -4508,7 +4513,7 @@ harQh voiee&#xD;
 &#xD;
 a :k^^- a&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC7119-00000111"/>&#xD;
+<pb n="210-211" xml:id="VAC7119-00000111"/>&#xD;
 210     A NIGHT  ITI1 ST ICRIOLAS..&#xD;
 "Repent, repent  O repntbefore it is too&#xD;
 late&#xD;
@@ -4548,7 +4553,7 @@ Ib_  T a .&#xD;
 &#xD;
 gfl&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC7119-00000112"/>&#xD;
+<pb n="212-213" xml:id="VAC7119-00000112"/>&#xD;
 CIIAPTEIILX&#xD;
 THE            r o&#xD;
 a.t.r, -A- . a  V'*y   tt tsp -  .ax d&#xD;
@@ -4574,7 +4579,7 @@ erk ~i ' 4Q0, t~:4U U i'3 4  ii'iz~hot&#xD;
 *cliv  ewVvx LOA  TB0tomhoe is&#xD;
 jst U wasa teet igt, at&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC7119-00000113"/>&#xD;
+<pb n="214-215" xml:id="VAC7119-00000113"/>&#xD;
 di~nret  Wet e as:anicflBut, then&#xD;
 how ,riu    whaI    w   adwh      shl&#xD;
 vv i; I w&#xD;
@@ -4609,7 +4614,7 @@ rCy1             ...V'\&#xD;
 &#xD;
 2"&#xD;
 &#xD;
-<pb  n="216 (Illustration) " xml:id="VAC7119-00000114"/>&#xD;
+<pb n="216 (Illustration) " xml:id="VAC7119-00000114"/>&#xD;
 118   ANIGET FVTJ T, YICBOLA&amp;amp;&#xD;
 &#xD;
 cu ld lo  adsome? Itdoes seem i'inr&#xD;
@@ -4627,7 +4632,7 @@ Q. -I+an ii   w    .  -J .. a  .+x    4  . a Y"M  tj  fl  44 2  '.-  1Y i"$&#xD;
 '+A  s  s x    5A d b c A  +i,' U  C"   nL ,br_  . -p s: "15  f, a.i  ., t, 30aw - tvu&#xD;
 -~~~~~~~~~~1 adY u ~  aav  n  gitol.We&#xD;
 &#xD;
-<pb  n="-217" xml:id="VAC7119-00000115"/>&#xD;
+<pb n="-217" xml:id="VAC7119-00000115"/>&#xD;
 they were dark and ugly, I did not conceal&#xD;
 them! Shall 1 be less honest now ? I was not&#xD;
 ashamed of my unl0Veline~s, dhal I blush' to&#xD;
@@ -4653,7 +4658,7 @@ Aftw-ap&#xD;
 &#xD;
 2r7&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC7119-00000116"/>&#xD;
+<pb n="218-219" xml:id="VAC7119-00000116"/>&#xD;
 2S       A KIGHT WITH ST. NICUOLAS*&#xD;
 &#xD;
 joy they all experienced- how Ethel expressed&#xD;
@@ -4695,7 +4700,7 @@ iiferent feehin ftm a;hose with wbi4 h thu&#xD;
 suppet   Whena tin~hed, the ~ mrnin rnv&#xD;
 was breathedI. The father read that potrtiu of&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC7119-00000117"/>&#xD;
+<pb n="220-221" xml:id="VAC7119-00000117"/>&#xD;
 A NIGHT 017TH ST. NICI1ULAS~&#xD;
 God',s holy word that sublimely t I  how-He,&#xD;
 wh-ozu:;deUthe:worldW-w hornn of w omn4nand&#xD;
@@ -4723,7 +4728,7 @@ oilI}tI&amp;amp;&#xD;
 v           I.%418       1j&#xD;
 4rz.  ~ ~   re j 1 cml*Ji-1&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC7119-00000118"/>&#xD;
+<pb n="222-223" xml:id="VAC7119-00000118"/>&#xD;
 A NIGHT WITH ST. NICHOLAS.&#xD;
 &#xD;
 Bnueigt  it 'who axuld-he ter eefc&#xD;
@@ -4761,7 +4766,7 @@ th   o   4 &amp;amp; z u I   our  f r a   artne, A&#xD;
 .«_&#xD;
 ; ;.&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC7119-00000119"/>&#xD;
+<pb n="224-225" xml:id="VAC7119-00000119"/>&#xD;
 2M    4 NIGHT W2ST NWCHOLA&amp;amp;.&#xD;
 he thus prefaced his narrativelooks of intelli&#xD;
 gent meaning passed between the .oder members&#xD;
@@ -4804,7 +4809,7 @@ n17&#xD;
 &#xD;
 .        '+]sk~' o-'m  'e9  Mfa. r.-f~y   $~"  J'fMt T'w"t,&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC7119-00000120"/>&#xD;
+<pb n="226-227" xml:id="VAC7119-00000120"/>&#xD;
 22 A NIGHT WITH ST. X1CHRt4AS&#xD;
 frm, he visited many phees, had conference&#xD;
 with many people, and at last perceived the&#xD;
@@ -4849,7 +4854,7 @@ th'mAwere er  he&#xD;
 did  re byides and loved their rovi  life a&#xD;
 the   sn o my mastr. ButIhadanot&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC7119-00000121"/>&#xD;
+<pb n="228-229" xml:id="VAC7119-00000121"/>&#xD;
 m28     A  ;SIGHiT 10St SICHOL&amp;amp;&#xD;
 forgotten home, and often-times at night, when&#xD;
 keeping watch, I'd think ± my-own dear father-&#xD;
@@ -4897,7 +4902,7 @@ elating the value of the certidate in my pocket&#xD;
 &#xD;
 R   MOLx'a-&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC7119-00000122"/>&#xD;
+<pb n="230-231" xml:id="VAC7119-00000122"/>&#xD;
 ,xGA IH     ST. NICOOLA&amp;amp;&#xD;
 &#xD;
 and not knowing howtoproceedor who to&#xD;
@@ -4952,7 +4957,7 @@ message that I bring, and why I intrude upon&#xD;
 your hospitality on this Christmas day. More.&#xD;
 than     this wealth is yours, and I restore it&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC7119-00000123"/>&#xD;
+<pb n="232-233" xml:id="VAC7119-00000123"/>&#xD;
 *aE MGoaXO&#xD;
 &#xD;
 4  NIGHT Wra E ST. YICHOLA&amp;amp;&#xD;
@@ -4999,7 +5004,7 @@ afer she 4too  before the altar, Waiter's&#xD;
 bride  And i: need not be told how Ethel's&#xD;
 children gloried in bacheor Uncle Bb, and&#xD;
 &#xD;
-<pb  n="234-235" xml:id="VAC7119-00000124"/>&#xD;
+<pb n="234-235" xml:id="VAC7119-00000124"/>&#xD;
 thought AuntMillyan                    No;&#xD;
 these things need not he written&#xD;
 Let it suffice that all were happy, and ever, as&#xD;
@@ -5023,8 +5028,8 @@ your homes, and rich blessings follow you&#xD;
 &#xD;
 &#xD;
                                                                                                                              
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

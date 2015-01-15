@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8118">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8118">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The True Narrative of the Five Years Suffering and Perilous Adventures... </title>
-            <author >Anonymous</author>
+            <title>The True Narrative of the Five Years Suffering and Perilous Adventures... </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8118</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8118</idno>
+            <idno type="wright2" n="previous">wright2-2556</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The true narrative of the five years suffering and perilous adventures</title>
-                  <author >Anonymous</author>
+                  <title>The true narrative of the five years suffering and perilous adventures</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >108 p.</extent>
+               <extent>108 p.</extent>
                <publicationStmt>
-                  <publisher >Barclay</publisher>
+                  <publisher>Barclay</publisher>
                   <pubPlace>Philadelphia</pubPlace>
-                  <date  when="1872">[1872]</date>
+                  <date when="1872">[1872]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-08-04">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-08-04">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The true narrative of the five years suffering and perilous adventures</head> 
+            <head>The true narrative of the five years suffering and perilous adventures</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC8118-00000001"/>Tm~ TRUE NARRATIVE&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC8118-00000001"/>Tm~ TRUE NARRATIVE&#xD;
 OF THE&#xD;
 Fm~ YEARS' SUFFERING &amp;amp;PERILOUS ADVENTURES~&#xD;
 13 Y&#xD;
@@ -110,7 +115,7 @@ No.21 Nou~s ~F.VRNT5 SsuBsr.&#xD;
 4'&#xD;
 .4            x&#xD;
 &#xD;
-<pb  n="0-19" xml:id="VAC8118-00000002"/>&#xD;
+<pb n="0-19" xml:id="VAC8118-00000002"/>&#xD;
 64~&#xD;
 V&#xD;
 &#xD;
@@ -155,7 +160,7 @@ t 'K&#xD;
 &#xD;
 }&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8118-00000003"/>&#xD;
+<pb n="20-21" xml:id="VAC8118-00000003"/>&#xD;
 MISS BARBER'S NARRATIVE                                          M~fS~L BA1~B]~R'~ ~AR~A E1V~.         21&#xD;
 &#xD;
 I regret to say that my marriage at Washington, ID. 0., in 1867,&#xD;
@@ -218,7 +223,7 @@ step I did, aud n~et~Ynen4tly th~e1ine~ti&amp;amp;~ild nev~ hti~4~ 8e0fl print4&
 Th~rW~ts LA g~oin~ nong~ a1pen~le, thea gt~e~t&amp;amp; portion ~f&#xD;
 ~rhom ~ixId not; u~nd~&amp;amp;stand me, for th~ 1pui~poae ~ 0onvi~rting&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8118-00000004"/>&#xD;
+<pb n="22-23" xml:id="VAC8118-00000004"/>&#xD;
 AM~ 2BMI~BJ~R'S :U~ATW~X&#xD;
 &#xD;
 them to Oh tlanityAand ,le~vitig behind a m~rerpromising fi~ld ot&#xD;
@@ -306,7 +311,7 @@ AA'A&#xD;
 t&#xD;
 1&#xD;
 &#xD;
-<pb  n="24 (Illustration) -25" xml:id="VAC8118-00000005"/>&#xD;
+<pb n="24 (Illustration) -25" xml:id="VAC8118-00000005"/>&#xD;
 mindthat the ~ b ~i~bfd~i~&amp;amp; ~W't;ffliV ~the&#xD;
 ~, ( ~f&#xD;
 squaw" is forced, in most cases, to do all tTib r~tehiaIiUlYoY isia&#xD;
@@ -334,7 +339,7 @@ th~1n1Qn~ ~ ~A~11~ VS~b~2~ ~&amp;amp;'I~W'~ forget&#xD;
 XY XAWAGE TO "SQUATTING BEAR," THE iNDIAN CHIEF, AT WASHINGTON, D.C9&#xD;
 ~Relne Jed~eiratf.naItA mit .,~octettir," bern inbiauifc4e;~ t~iin$Un~, in ~A3ajt)iIigtou, ~). (~.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8118-00000006"/>&#xD;
+<pb n="26-27" xml:id="VAC8118-00000006"/>&#xD;
 NARRATJY~&#xD;
 the a~etQ~ up~ ~ ThQ hor~e soon~IMhed by u~, disolq.&#xD;
 ing~n I~le!~~ 1~u~lle (Llil~e that name, h~tt9i~ thaw" squat.&#xD;
@@ -386,7 +391,7 @@ I,&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8118-00000007"/>&#xD;
+<pb n="28-29" xml:id="VAC8118-00000007"/>&#xD;
 I&#xD;
 &#xD;
 4  ~',  V\;                  4f1j  V44&#xD;
@@ -459,7 +464,7 @@ subject8~ of coiivetgatio~u as~ ini~enera1 to baffle rdeseri~tion..&#xD;
 or~icr A~oeomprehend them firllyit is necessary toiuziderst~nd~ thei~&#xD;
 i4loros and habitsr                           ~   H&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8118-00000008"/>&#xD;
+<pb n="30-31" xml:id="VAC8118-00000008"/>&#xD;
 MISS i~A1~EWS ~ARI~tATIV~&#xD;
 &#xD;
 4,&#xD;
@@ -520,7 +525,7 @@ i&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="32 (Illustration) -33" xml:id="VAC8118-00000009"/>&#xD;
+<pb n="32 (Illustration) -33" xml:id="VAC8118-00000009"/>&#xD;
 MISS BARBEWB.&#xD;
 tour Bible ~eW~of~rth'&amp;amp; formation, ~tid4hbatory4E:A~h&amp;amp;and Eve&#xD;
 j~ the "H~spy lAnd of P~dj~e~?' axed ~wil tlftbr&amp;amp;' a sllbjectf for&#xD;
@@ -560,7 +565,7 @@ MY DOMESTIC DUTIES PRACTICED UNDER DIFFICULTY JEALOUSY OF&#xD;
 ME EM-O-LE.&#xD;
 9~?eiue (duO[(d)en  ~f[idjten ain'cr ~4rneri~cit aIi~,3~iibt. ~ifer~ud~t bon ~1Re.em.o4e.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8118-00000010"/>&#xD;
+<pb n="34-35" xml:id="VAC8118-00000010"/>&#xD;
 :~IS8 UA~1~EW8: 1~ARJ~A UYE.&#xD;
 &#xD;
 diftbront. ~ooaei~ns~: 8hortly~~r a council of wareyery individual&#xD;
@@ -612,7 +617,7 @@ fully to me. She was ~ rare beautycompai~4 wjth, jier companions,&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8118-00000011"/>&#xD;
+<pb n="36-37" xml:id="VAC8118-00000011"/>&#xD;
 86&#xD;
 &#xD;
 MISS BARBER'S NARRATIVE.&#xD;
@@ -695,7 +700,7 @@ dead, when with one last, almost superhuman effort, he sprang&#xD;
 towards the Indian woman, seized her in his arms, and with a won.&#xD;
 derful leap learned the edge of the abyss. The shoat of Wanx~otee,&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8118-00000012"/>&#xD;
+<pb n="38-39" xml:id="VAC8118-00000012"/>&#xD;
 88'        MISS I~AR]~R'S ~ARRATfl~.&#xD;
 &#xD;
 a,~ t~' .,AIlino' ~ereain ~ gK~eet&amp;amp;1 Sumst~mot, a trashing&#xD;
@@ -745,7 +750,7 @@ A&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="40 (Illustration) -41" xml:id="VAC8118-00000013"/>&#xD;
+<pb n="40 (Illustration) -41" xml:id="VAC8118-00000013"/>&#xD;
 MISS BARBER'S NARRATIVE.&#xD;
 "White squaw do to look at sometime; when me want her work,&#xD;
 me tell her so. Let the other two work f~r yoti2'&#xD;
@@ -783,7 +788,7 @@ man whom he had heard of, and Whe~e name was Fly Jones, but&#xD;
 he had gained from the Indians the appellation of "Indiamo Apes"'&#xD;
 (Indian killerV&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8118-00000014"/>&#xD;
+<pb n="42-43" xml:id="VAC8118-00000014"/>&#xD;
 MISS BARBER'S NARRATIVE.     48&#xD;
 &#xD;
 42        MISS* BARBER'S NARRATtVE.&#xD;
@@ -842,7 +847,7 @@ I propose making a separate chapter.&#xD;
 &#xD;
 A2&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8118-00000015"/>&#xD;
+<pb n="44-45" xml:id="VAC8118-00000015"/>&#xD;
 CHAPTER IV.&#xD;
 &#xD;
 IN WNIQH WAANATA4 FJLATEB HIS STORY OF STRA~4t ATh DAR-&#xD;
@@ -918,7 +923,7 @@ toward my home.&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8118-00000016"/>&#xD;
+<pb n="46-47" xml:id="VAC8118-00000016"/>&#xD;
 46&#xD;
 &#xD;
 MISS I~ARBER'S NARRATIY~.&#xD;
@@ -1006,7 +1011,7 @@ Ii&#xD;
 'T$~&#xD;
 4          4'        4&#xD;
 &#xD;
-<pb  n="48 (Illustration) -49" xml:id="VAC8118-00000017"/>&#xD;
+<pb n="48 (Illustration) -49" xml:id="VAC8118-00000017"/>&#xD;
 -- *&#xD;
 &#xD;
 d1r4~, ~, h~a~~gry ~92~4~&#xD;
@@ -1059,7 +1064,7 @@ io~'4~~,aMear&#xD;
 ) flue P1 1 la&#xD;
 x&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8118-00000018"/>&#xD;
+<pb n="50-51" xml:id="VAC8118-00000018"/>&#xD;
 11&#xD;
 4&#xD;
 &#xD;
@@ -1125,7 +1130,7 @@ eircumve~it my Qppressors, wh~had ~e~ly ~ pop~pwaey&#xD;
 to nun n~e; whieh purDQnI~ed~ that I~iy~lf h~d 99~pired~a~4J!~t&#xD;
 a~ own people, l~avin~ '~ the~asserse4, ~ei~ome ~ien4tq~4~&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8118-00000019"/>&#xD;
+<pb n="52-53" xml:id="VAC8118-00000019"/>&#xD;
 MISS '~ARBER~S~ NA1U~ATIV1~          58&#xD;
 &#xD;
 flA1fl3~R'S&#xD;
@@ -1198,7 +1203,7 @@ bespoke a suppressed rage at the outburst of applause at$bll4itv&#xD;
 )&#xD;
 I&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8118-00000020"/>&#xD;
+<pb n="54-55" xml:id="VAC8118-00000020"/>&#xD;
 j&#xD;
 &#xD;
 A     ;. ~z1 /A~~:i/j~  ~&#xD;
@@ -1245,7 +1250,7 @@ T'~  ~u    F U~   (~! ~.        ~    ' 1fdA   ~       P ~:        ~AP L     ~T  
 &#xD;
 J&#xD;
 &#xD;
-<pb  n="56 (Illustration) -57" xml:id="VAC8118-00000021"/>&#xD;
+<pb n="56 (Illustration) -57" xml:id="VAC8118-00000021"/>&#xD;
 MISS BARBER'S A~ftA~PIV~.&#xD;
 &#xD;
 TERRIBLE EIICouwrmi EZ'rwrm~ THE INDIAN CHIEF AND THE HUNT~I,&#xD;
@@ -1288,7 +1293,7 @@ y6ur stake V 1 ~ix~ the g#a~d-daught~r '6~I~ Le~eL tIdThAi~h~4t'&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8118-00000022"/>&#xD;
+<pb n="58-59" xml:id="VAC8118-00000022"/>&#xD;
 J~4R]*ER'~ NAR~AT1VE.&#xD;
 &#xD;
 )&#xD;
@@ -1372,7 +1377,7 @@ Ii~&#xD;
 4&#xD;
 if&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8118-00000023"/>&#xD;
+<pb n="60-61" xml:id="VAC8118-00000023"/>&#xD;
 00 "      MISS BARBER'S NARRATIVE.&#xD;
 &#xD;
 Sioux have been traitors 'toyou, and 'that they are WOrse fthan~ihe&#xD;
@@ -1448,7 +1453,7 @@ and I therefore e±hibitcd thesarne apparent indifference~ '1&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8118-00000024"/>&#xD;
+<pb n="62-63" xml:id="VAC8118-00000024"/>&#xD;
 62        M~S ~A~B)~R'5 ~AR~TWR~&#xD;
 &#xD;
 The 4cou~ncihdanee .laeted akout one hour, during w~bi~h I&#xD;
@@ -1499,7 +1504,7 @@ b&#xD;
 1&#xD;
 6&#xD;
 &#xD;
-<pb  n="64 (Illustration) -65" xml:id="VAC8118-00000025"/>&#xD;
+<pb n="64 (Illustration) -65" xml:id="VAC8118-00000025"/>&#xD;
 ~(         ij  ~  ~                    L&#xD;
 Many suija l4iid come arA gone siucetthe departure of&#xD;
 ',c4nrades, &amp;amp;1{64A1 s~wI{# d~                  mo~~ins&#xD;
@@ -1580,7 +1585,7 @@ vol'&#xD;
 nearly&#xD;
 4&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8118-00000026"/>&#xD;
+<pb n="66-67" xml:id="VAC8118-00000026"/>&#xD;
 (~6           MISS BARBER'S NA~~A~~IVE.&#xD;
 her o~ice lovel features brightened 'th&#xD;
 wi a smile: which in it&amp;amp;very&#xD;
@@ -1658,7 +1663,7 @@ ire a race of beings, altogether unknown; I h~ve. however known&#xD;
 Early marriages are more frequent in tribes bordering on the white&#xD;
 settlements than n those which are more remotely situated; and the.&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8118-00000027"/>&#xD;
+<pb n="68-69" xml:id="VAC8118-00000027"/>&#xD;
 4$       MISS BARBER'S NARRATIVE.&#xD;
 &#xD;
 practice is encouraged by th~ old men, who however say that when&#xD;
@@ -1730,7 +1735,7 @@ V&#xD;
 &#xD;
 49&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8118-00000028"/>&#xD;
+<pb n="70-71" xml:id="VAC8118-00000028"/>&#xD;
 TO            MISS BARBER'S NARRATIVE&#xD;
 forward he reached the rattlesnake, with one blow of tomahawk&#xD;
 severed its head from its body, and quickly commented skinning&#xD;
@@ -1769,7 +1774,7 @@ u~d after"trading every available arti~lc in his ~O~5eSSiofl, excepting&#xD;
 &#xD;
 I',&#xD;
 &#xD;
-<pb  n="72 (Illustration) -73" xml:id="VAC8118-00000029"/>&#xD;
+<pb n="72 (Illustration) -73" xml:id="VAC8118-00000029"/>&#xD;
 MISS BARRFR'S NARRATIVE.     78&#xD;
 &#xD;
 hi~ gun and munitionso, he ~red it off to their intense delight, and&#xD;
@@ -1812,7 +1817,7 @@ s~srnwa~, I am sorry to. say, without its intended effect. He cer-&#xD;
 &#xD;
 94&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8118-00000030"/>&#xD;
+<pb n="74-75" xml:id="VAC8118-00000030"/>&#xD;
 -J&#xD;
 &#xD;
 74&#xD;
@@ -1895,7 +1900,7 @@ peculiai construction." Upon' our arrival, 1~here appealed at' the&#xD;
 &#xD;
 MISS BARBER'S NARRATIVE.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8118-00000031"/>&#xD;
+<pb n="76-77" xml:id="VAC8118-00000031"/>&#xD;
 MSS flM~B~R'~ ~AURATIViII.&#xD;
 &#xD;
 door, gzui iu h~d,~# ~trsnge looking creature, whom one could&#xD;
@@ -1969,7 +1974,7 @@ stood hig up6~ ~ ~ ti~ure~ Mud fully i'e.&#xD;
 * solved, that in case of pursuit~ I woiildjunip~llrtb th~1~aain beUeMtk&#xD;
 'h~lt' ~zid' se~t up ~ prayer to (tod, wud th~re upon' my' knees. I&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8118-00000032"/>&#xD;
+<pb n="78-79" xml:id="VAC8118-00000032"/>&#xD;
 '78&#xD;
 &#xD;
 MISS BAR~13ER'S NARRATIVl~&#xD;
@@ -2013,7 +2018,7 @@ II&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="80 (Illustration) -81" xml:id="VAC8118-00000033"/>&#xD;
+<pb n="80 (Illustration) -81" xml:id="VAC8118-00000033"/>&#xD;
 k     MISS ~A~U3ERS N4R~$A!tIYE.                   81&#xD;
 lonad her ~t~nding i~p, 4y~he~ ~he      j~n     bQgg~jt~     qR'&#xD;
 hut, direc~4 by a kind, ~u~d ahl-&amp;amp;9eing yi~y~4~1~OD&#xD;
@@ -2043,7 +2048,7 @@ Qh$sti~u ~#be~r ee~ 2Ma~r~ t~ 4r~tler~I~ad ~ qule tity~ ~f ~he&#xD;
 6&#xD;
 /&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8118-00000034"/>&#xD;
+<pb n="82-83" xml:id="VAC8118-00000034"/>&#xD;
 *2        M~ ~A4tflER'S ~A~A~4VE.                             MISS BARBER'S NARRATIVE.       83&#xD;
 &#xD;
 wi~rst~ ~rIi~i*key ever" distilled, itix4 nearly all the Indians partook&#xD;
@@ -2109,7 +2114,7 @@ ou~ any fixed plan to accomplish it,' were again running through my&#xD;
 mu i, and-well, the next chapter will let you into several secret.,&#xD;
 md' nfor'm you as to several adventures of mine.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8118-00000035"/>&#xD;
+<pb n="84-85" xml:id="VAC8118-00000035"/>&#xD;
 MISS B BARBER'S NARRATIVE.&#xD;
 &#xD;
 CHAPTER VI.&#xD;
@@ -2188,7 +2193,7 @@ women; ~have m&amp;amp;r~y; hkv~e mercy!"&#xD;
 No so'mnd, save the i~oise occasio~fed ~by1 the running water&#xD;
 greecod 'us. lie is waiting to spring upon us! Re would am~so&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8118-00000036"/>&#xD;
+<pb n="86-87" xml:id="VAC8118-00000036"/>&#xD;
 80          MISS~ BARBER'S 1~TARRATIVE.&#xD;
 &#xD;
 hiruseif at our fright! ~Sooti he will rend uslimb from limb!&#xD;
@@ -2239,7 +2244,7 @@ K     I.&#xD;
 0&#xD;
 9&#xD;
 &#xD;
-<pb  n="88 (Illustration) -89" xml:id="VAC8118-00000037"/>&#xD;
+<pb n="88 (Illustration) -89" xml:id="VAC8118-00000037"/>&#xD;
 r&#xD;
 &#xD;
 MISS4BARBER'S NARRATIVE.&#xD;
@@ -2282,7 +2287,7 @@ probability, engageithem in battle under~sonie pretence, and rob&#xD;
 them of everything. They were pleased to learn that I was the wife&#xD;
 of Temulle (or Squatting Bear as they called him), told the they&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8118-00000038"/>&#xD;
+<pb n="90-91" xml:id="VAC8118-00000038"/>&#xD;
 MISS BARBER'S NARR~PIVE.&#xD;
 wera on their way, with supplies, to Fort Berthaid, and wished to&#xD;
 stop ~t the Th'ule village. I did not like to own that I was then&#xD;
@@ -2356,7 +2361,7 @@ days w~ travelled, and I, the "noble Indian's wife," was obliged to&#xD;
 &#xD;
 MIS$ ~ARBER'S NARRATIVE.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8118-00000039"/>&#xD;
+<pb n="92-93" xml:id="VAC8118-00000039"/>&#xD;
 MISS BARBER'S NARflATIVE.&#xD;
 I~ar rny paok with the other squ.~ws. t At le~igth we arrived' afMina&#xD;
 Wakan ~&#xD;
@@ -2437,7 +2442,7 @@ y :dear life,. My fir~ e~ortyas t~, seize her right wrist~ ~l~ch&#xD;
 f~r ~premnacy. Locked in each otjier's argis, we neither of u~ eQuid&#xD;
 ~i~e the knife. At last with a~ etlbrt I threw my ant~ouist, , ?~nd&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8118-00000040"/>&#xD;
+<pb n="94-95" xml:id="VAC8118-00000040"/>&#xD;
 MISS BARBER'S NARRATIYE.&#xD;
 she.' tell ~he pulled me with her, leavii~g me however "on top~"&#xD;
 Several indians now stePped forward and separated us, and we were&#xD;
@@ -2474,7 +2479,7 @@ me, for in another attempt I succeed in gi~asping Meeinole's wrist,&#xD;
 and quick as thought, dealt her a cut across the stomach, which&#xD;
 thoroughly unnerved her, and ehi victory was mine I&#xD;
 &#xD;
-<pb  n="96 (Illustration) -97" xml:id="VAC8118-00000041"/>&#xD;
+<pb n="96 (Illustration) -97" xml:id="VAC8118-00000041"/>&#xD;
 MISS BARBEWS NARRATIVEE,&#xD;
 Weak fr9m 1ps~pf blood, ~nd u~nnarve&amp;amp; ~hro~gh *i~eit&#xD;
 was carried, by ~a~t~agtQ, mylodge, the ]~ndians makin~&#xD;
@@ -2542,7 +2547,7 @@ Indians,&#xD;
 heyenne&#xD;
 which I&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8118-00000042"/>&#xD;
+<pb n="98-99" xml:id="VAC8118-00000042"/>&#xD;
 I&#xD;
 &#xD;
 98            MIS,~ RyLBER'S NcAIW~LArflvx.&#xD;
@@ -2620,7 +2625,7 @@ from ~aoh,' With a-great struggle Leroy succeeded in shaking off,&#xD;
 his intagonist, and in a moment was on his feet4 But uot before she&#xD;
 tn a, who was UI ~ud ready so meet him again. rPht~y elinohed~&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8118-00000043"/>&#xD;
+<pb n="100-101" xml:id="VAC8118-00000043"/>&#xD;
 I&#xD;
 &#xD;
 100&#xD;
@@ -2674,7 +2679,7 @@ in its perusal some silly girl may change her mind regarding"the&#xD;
 noble red men and: relinquished all thoughts of going among "thom&#xD;
 fo/ any purpose whatever, theu ~ni I fully satisfied.&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8118-00000044"/>&#xD;
+<pb n="102-103" xml:id="VAC8118-00000044"/>&#xD;
 CHAPTER VII.&#xD;
 Q~S~V4TI~f5 QI~ INDIAN PRACTiCE OF MEDICINE-MANNER OF&#xD;
 TM~T~-'-INPIAN REUBS, ETC., WITH T~AN5LATIONS-RJCCEIPTS&#xD;
@@ -2740,7 +2745,7 @@ Th~ above reeeip~ is u~efQl i~ &amp;amp;i~a~es of: the liver, dyspepsia,&#xD;
 obstruct~d~'ne~se$, cP~psy, i*~ vencreald-iseases, and inevery' taint&#xD;
 'f the system.&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8118-00000045"/>&#xD;
+<pb n="104-105" xml:id="VAC8118-00000045"/>&#xD;
 104       ~MiS~ BARBER'S NARRATIkXTE.                                                                       105&#xD;
 &#xD;
 OA1~ARRH. (S~iuff po~der.)-4l6n.kos.ka (high laurel), 1 ounce;&#xD;
@@ -2827,7 +2832,7 @@ For kidney complaint an excellent tea can be made of Tat-ta-loo&#xD;
 &#xD;
 04&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8118-00000046"/>&#xD;
+<pb n="106-107" xml:id="VAC8118-00000046"/>&#xD;
 106      MISS BARBER'S NARRATIVE.&#xD;
 &#xD;
 'Fot weak htags, coughs~ pain in the breast, loss of appetite, dys.&#xD;
@@ -2905,7 +2910,7 @@ qu~intity as given by me, and make use of the Engli8h name, only,&#xD;
 as very 'few druggists have any knowledge of the Indian languages.&#xD;
 he Indians have great faith in the healing qualities of tobacco,&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8118-00000047"/>&#xD;
+<pb n="108-109" xml:id="VAC8118-00000047"/>&#xD;
 '108          MISS BARBER'S NARRATIVIL&#xD;
 and I have seen many cures by its use~ such ~i stings of bees, bites&#xD;
 of insects, etc.&#xD;
@@ -2922,8 +2927,8 @@ k&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

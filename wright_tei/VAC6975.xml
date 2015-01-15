@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6975">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6975">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Our Mess, or, The Pirate-hunters of the Gulf </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>Our Mess, or, The Pirate-hunters of the Gulf </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6975</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6975</idno>
+            <idno type="wright2" n="previous">wright2-1440</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Our mess, or, The pirate-hunters of the Gulf</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>Our mess, or, The pirate-hunters of the Gulf</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >71 p. </extent>
+               <extent>71 p. </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1859">[1859]</date>
+                  <date when="1859">[1859]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-09-30">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-09-30">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Our mess, or, The pirate-hunters of the Gulf</head> 
+            <head>Our mess, or, The pirate-hunters of the Gulf</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC6975-00000001"/>OUIR&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC6975-00000001"/>OUIR&#xD;
 eh vcte jut&#xD;
 &#xD;
 M0ESS&#xD;
@@ -104,7 +109,7 @@ NQ. 24 ANN fRLET.&#xD;
 &#xD;
 I"&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6975-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6975-00000002"/>&#xD;
 _&#xD;
 &#xD;
 ENTEaED according to Act of Congress, in the year 1859,&#xD;
@@ -206,7 +211,7 @@ OUR MESS;&#xD;
 OR,&#xD;
 i ivt-uu®~~   the  if.&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6975-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC6975-00000003"/>&#xD;
 I/&#xD;
 &#xD;
 4                                 OUR ME&#xD;
@@ -499,7 +504,7 @@ i&#xD;
 i&#xD;
 1&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6975-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6975-00000004"/>&#xD;
 6 0UR M]&#xD;
 have to pull for the nager I'll have the capstan&#xD;
 mannedl I've exhausted myself entirely, P1l1&#xD;
@@ -804,7 +809,7 @@ ci&#xD;
 I&#xD;
 _&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC6975-00000005"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC6975-00000005"/>&#xD;
 i&#xD;
 I&#xD;
 S'&#xD;
@@ -988,7 +993,7 @@ i.&#xD;
 &#xD;
 /,&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6975-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6975-00000006"/>&#xD;
 0    7'&#xD;
 5l-&#xD;
 &#xD;
@@ -1143,7 +1148,7 @@ j!&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6975-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6975-00000007"/>&#xD;
 /                                     -&#xD;
 /&#xD;
 &#xD;
@@ -1432,7 +1437,7 @@ i&#xD;
 ;&#xD;
 ;&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6975-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6975-00000008"/>&#xD;
 4x&#xD;
 &#xD;
 I&#xD;
@@ -1734,7 +1739,7 @@ i&#xD;
 t,&#xD;
 N&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC6975-00000009"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC6975-00000009"/>&#xD;
 OUR MESS; OR,&#xD;
 &#xD;
 pirate-hunting  squadron, Colcefrinas takes&#xD;
@@ -1871,7 +1876,7 @@ a friendly smile.&#xD;
 in:&#xD;
 tis&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6975-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6975-00000010"/>&#xD;
 r  f.,            TI E   .ATD-IIU4Ta&#xD;
 be  c eason -for weapons to be used before&#xD;
 -.Truly, so do "! It is some time since I&#xD;
@@ -2007,7 +2012,7 @@ You are idolized by all who know you-every&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6975-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6975-00000011"/>&#xD;
 OUR1 MES ; OR,&#xD;
 AX ilr conr     mnd  -y o  possess  "G rieat  H eC ve   r   y ou   are m d  to . P&#xD;
 lean l  rt'no' '           lo)his iamie  i:: Cu E';  t  ? hnt i~ iL hist''&#xD;
@@ -2144,7 +2149,7 @@ TU1J PIRATE-HUNTERS OF THE GULFS&#xD;
 &#xD;
 21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6975-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6975-00000012"/>&#xD;
 22                      OUR MESS ; OR,&#xD;
 &#xD;
 find proof that he was matched, if not over-&#xD;
@@ -2355,7 +2360,7 @@ i&#xD;
 ip&#xD;
 i&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC6975-00000013"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC6975-00000013"/>&#xD;
 OUR MESS ; OR,&#xD;
 &#xD;
 vice, and ordered the sails taken in, and drop-&#xD;
@@ -2494,7 +2499,7 @@ I.&#xD;
 &#xD;
 P&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6975-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6975-00000014"/>&#xD;
 THE PIRATE-HUNTERS OF TUE GULF.&#xD;
 &#xD;
 -J&#xD;
@@ -2666,7 +2671,7 @@ t&#xD;
 .:&#xD;
 f&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6975-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6975-00000015"/>&#xD;
 f&#xD;
 e&#xD;
 "t _&#xD;
@@ -2833,7 +2838,7 @@ I&#xD;
 4t&#xD;
 4&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6975-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6975-00000016"/>&#xD;
 30&#xD;
 &#xD;
 OUIR MESS; OR,&#xD;
@@ -3037,7 +3042,7 @@ who had just been sounding the puitips.&#xD;
 &#xD;
 nr&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC6975-00000017"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC6975-00000017"/>&#xD;
 OU R MESS; OR,&#xD;
 &#xD;
 ''5&#xD;
@@ -3205,7 +3210,7 @@ rr j&#xD;
 _&#xD;
 : 1&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6975-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6975-00000018"/>&#xD;
 THE PIRATE-HUNTERS OF THE GULF.&#xD;
 &#xD;
 4;&#xD;
@@ -3359,7 +3364,7 @@ ini   oir friend, Qui.' r,. w:ii 'traitor who&#xD;
 aidedthei pirate-i i iii hl.. i  s"&#xD;
 Wi     tics to cal Quith n ra a traitor ?'&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6975-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6975-00000019"/>&#xD;
 -I&#xD;
 &#xD;
 TIl E PHIATE-IIUNTEIIS OF THlE(GULlF.               37&#xD;
@@ -3530,7 +3535,7 @@ z;&#xD;
 &#xD;
 f i&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6975-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6975-00000020"/>&#xD;
 -s&#xD;
 i&#xD;
 Act&#xD;
@@ -3760,7 +3765,7 @@ the vessels, with one execution, were moored&#xD;
 &#xD;
 :&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC6975-00000021"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC6975-00000021"/>&#xD;
 OUR MESS ; OR,&#xD;
 &#xD;
 a o ana stern, in a matmer to bring thiiir&#xD;
@@ -3908,7 +3913,7 @@ gsI&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6975-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6975-00000022"/>&#xD;
 THF PIRATE-HUNTERS OF&#xD;
 o the extraneous gas within him, or else Allen, po&#xD;
 bust."                                   amber fi&#xD;
@@ -4040,7 +4045,7 @@ d ho !" shouted the look-out from the&#xD;
 d of the Alligator about 3 o'clock on&#xD;
 noon of her second day out from Ma-&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6975-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6975-00000023"/>&#xD;
 THl  uE PATE-1i TEIS O0F TlE GULF.    41&#xD;
 &#xD;
 OUR MESS; OR,&#xD;
@@ -4312,7 +4317,7 @@ On, on she sped, for perclance half an hour,&#xD;
 im  i&#xD;
 ^&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6975-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6975-00000024"/>&#xD;
 OUR MESS; OR,&#xD;
 &#xD;
 THE PIRATE-HUNTERS OF THE GULF.&#xD;
@@ -4619,7 +4624,7 @@ Y333333t1*  #&#xD;
 a&#xD;
 gi&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6975-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC6975-00000025"/>&#xD;
 THE PIRATE-HUNTERS OF TUE GULF,&#xD;
 &#xD;
 44&#xD;
@@ -4918,7 +4923,7 @@ Y&#xD;
 t&#xD;
 s&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6975-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6975-00000026"/>&#xD;
 OUI MESS; OR,&#xD;
 &#xD;
 TIHE PIRATE-IUNTERS OF THE GULF.&#xD;
@@ -5197,7 +5202,7 @@ S,&#xD;
 ,4&#xD;
 -;  ..&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6975-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6975-00000027"/>&#xD;
 OUR MESS; OR,&#xD;
 &#xD;
 " I did not come here to answer questions,&#xD;
@@ -5495,7 +5500,7 @@ t" a;&#xD;
 kL'1'&#xD;
 y.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6975-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6975-00000028"/>&#xD;
 THE PIRATE-HUNTERS OF THE GULF.&#xD;
 &#xD;
 had elapsed, and he had not returned, though  better judgment prevailed. She knew that a&#xD;
@@ -5754,7 +5759,7 @@ OUR MESS ; OR,&#xD;
 &#xD;
 ' t&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6975-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC6975-00000029"/>&#xD;
 TIE PIRATE-HUNTERS OF THE GULF.&#xD;
 &#xD;
 less delicate about introducing her to his offi-&#xD;
@@ -6036,7 +6041,7 @@ L'&#xD;
 &#xD;
 OUR MESS ; OR,&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6975-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC6975-00000030"/>&#xD;
 5-&#xD;
 &#xD;
 OUR MESS; OR,&#xD;
@@ -6313,7 +6318,7 @@ THE PIRATE-HiUNTERS OF THE OUIF.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6975-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6975-00000031"/>&#xD;
 00&#xD;
 &#xD;
 OUR MESS; OR,&#xD;
@@ -6607,7 +6612,7 @@ f&#xD;
 J&#xD;
 7&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6975-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC6975-00000032"/>&#xD;
 62                                OUR ME&#xD;
 must not spoil our appetites : to breakfast,&#xD;
 fair lady mine-to breakfast!"&#xD;
@@ -6809,7 +6814,7 @@ contented to send out his boat with Allen's  "You do me only justice in saying s
 sailing-master to pilot the Medusa into an an- sponded the English captain. "And since you&#xD;
 ehorage in the bay, that he might stay and en- insist upon going, you shall have a full chance&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6975-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC6975-00000033"/>&#xD;
 for the credit of the thing. I shall place my-&#xD;
 self and men under your command, and let&#xD;
 you control the expedition.'&#xD;
@@ -7090,7 +7095,7 @@ F&#xD;
 &#xD;
 : l&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6975-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC6975-00000034"/>&#xD;
 OUR MESS; f,&#xD;
 &#xD;
 come to-night, they will meet a roost fervent&#xD;
@@ -7307,7 +7312,7 @@ mid disr 'ezt m   +im1t.i,_t_, m 1  w  tIe ly  diven by Seymanuir's dashing aft 
 e lor riu lians tr  e   i r  eo      tt     eddl'glimisouerird   to  umliw&#xD;
 4 f.=1():v Cia-emciii and thlrough,"' said the noble-  with their deadly conatents. Leavinlgbts tofE&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6975-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC6975-00000035"/>&#xD;
 TH J  s I Al IINr~  FT1 E GULF.          ;&#xD;
 &#xD;
   OUR MESS; OR,&#xD;
@@ -7519,7 +7524,7 @@ f.&#xD;
 F&#xD;
 e&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6975-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC6975-00000036"/>&#xD;
 TIlE PIRATE-IIUNTERS OF TIlE GULF.&#xD;
 &#xD;
 She hid to be watched constantly, lest she&#xD;
@@ -7768,8 +7773,8 @@ OUR MESS ; OR,&#xD;
 &#xD;
 &#xD;
                                      
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6969">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6969">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Luona Prescott, or, The Curse Fulfilled </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>Luona Prescott, or, The Curse Fulfilled </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6969</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6969</idno>
+            <idno type="wright2" n="previous">wright2-1433</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Luona Prescott, or, The curse fulfilled</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>Luona Prescott, or, The curse fulfilled</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >64 p. </extent>
+               <extent>64 p. </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1858">[1858]</date>
+                  <date when="1858">[1858]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-09-29">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-09-29">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Luona Prescott, or, The curse fulfilled</head> 
+            <head>Luona Prescott, or, The curse fulfilled</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6969-00000001"/>LUONA     PRESCOTT:&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6969-00000001"/>LUONA     PRESCOTT:&#xD;
 on,&#xD;
 i 4nut 4guiUed.&#xD;
 &#xD;
@@ -103,7 +108,7 @@ NO. 24 ANN STREET.&#xD;
 I&#xD;
 t&#xD;
 &#xD;
-<pb  n="" xml:id="VAC6969-00000002"/>&#xD;
+<pb n="" xml:id="VAC6969-00000002"/>&#xD;
 ti.&#xD;
 &#xD;
 /"                                                                         r&#xD;
@@ -221,7 +226,7 @@ r    ;:               F,&#xD;
 . ~ 4'     , f'.r  ,.s&#xD;
 _ -s  _   ,i4-     Lt's.  ~ U~&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6969-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC6969-00000003"/>&#xD;
 4&#xD;
 &#xD;
 until, knowing not my crime, I fell-fell from&#xD;
@@ -495,7 +500,7 @@ quaintance ; but her mother, stern and cold to&#xD;
 all the world but her, had kept too close a watch&#xD;
 for that.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6969-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6969-00000004"/>&#xD;
 8&#xD;
 &#xD;
 LUONA PRESCOTT'; OR,&#xD;
@@ -774,7 +779,7 @@ gar you tre."&#xD;
 -I'd smite you."&#xD;
 "Do it if you dare, Jim Everett, I licked&#xD;
 &#xD;
-<pb  n="8 (Illustration) " xml:id="VAC6969-00000005"/>&#xD;
+<pb n="8 (Illustration) " xml:id="VAC6969-00000005"/>&#xD;
 LUONA PRESCOT; OR,&#xD;
 &#xD;
 you when you were a school-boy, and I can do&#xD;
@@ -911,7 +916,7 @@ rustle of her dress he turned and bowel low,&#xD;
 &#xD;
 8&#xD;
 &#xD;
-<pb  n="-9" xml:id="VAC6969-00000006"/>&#xD;
+<pb n="-9" xml:id="VAC6969-00000006"/>&#xD;
 A&#xD;
 s&#xD;
 .g&#xD;
@@ -992,7 +997,7 @@ THE CURSE FULFILLED.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6969-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC6969-00000007"/>&#xD;
 I&#xD;
 &#xD;
 10                             LUONA PRESCOTT ; OR,&#xD;
@@ -1134,7 +1139,7 @@ k ~&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6969-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC6969-00000008"/>&#xD;
 12                            LUONA PRESCOTT; 01,&#xD;
 order, and halted before the door, formed in leave to the capable and gallant captain of this&#xD;
 line, in two ranks; while the stranger came out well-drilled company the tsk of recruitingI"&#xD;
@@ -1283,7 +1288,7 @@ I V&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="14 (Illustration) " xml:id="VAC6969-00000009"/>&#xD;
+<pb n="14 (Illustration) " xml:id="VAC6969-00000009"/>&#xD;
 14                             LUONA PRESCOTT; OR,&#xD;
 right, observe another, which seems to waver in daddy fit in the French and Injun war; and&#xD;
 its light-now bright, now dim. It betokens a there never was a Goodrich yet that hadn't grit&#xD;
@@ -1402,7 +1407,7 @@ i&#xD;
 't&#xD;
 "                           i&#xD;
 &#xD;
-<pb  n="-15" xml:id="VAC6969-00000010"/>&#xD;
+<pb n="-15" xml:id="VAC6969-00000010"/>&#xD;
 TILE CURSE FULFILLED.&#xD;
 ished scenes from the mind of the recruit, and  "Cass you, did you do that?" yelled&#xD;
 keeps him insensible to them until it is useless  som, fairly dancing a miserere from pain.&#xD;
@@ -1528,7 +1533,7 @@ IsOVO-&#xD;
 &#xD;
 *   .                               "&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6969-00000011"/>&#xD;
+<pb n="16-17" xml:id="VAC6969-00000011"/>&#xD;
 LUONA PR)&#xD;
 ral other ladies, had been mysteriously busy all&#xD;
 the day before, and also from the dawn of that&#xD;
@@ -1794,7 +1799,7 @@ insulted by such treatment.&#xD;
 &#xD;
 - Y&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6969-00000012"/>&#xD;
+<pb n="18-19" xml:id="VAC6969-00000012"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 After gstting through with the "boys," as&#xD;
@@ -2001,7 +2006,7 @@ r'I9&#xD;
 &#xD;
 TIIE CURSE FULFILLED.&#xD;
 &#xD;
-<pb  n="20 (Illustration) " xml:id="VAC6969-00000013"/>&#xD;
+<pb n="20 (Illustration) " xml:id="VAC6969-00000013"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 eventually to be sustained in his position, not&#xD;
@@ -2144,7 +2149,7 @@ a&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="-21" xml:id="VAC6969-00000014"/>&#xD;
+<pb n="-21" xml:id="VAC6969-00000014"/>&#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
 his star was not in the ascendant. The repre-&#xD;
@@ -2295,7 +2300,7 @@ I&#xD;
 r&#xD;
 i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6969-00000015"/>&#xD;
+<pb n="22-23" xml:id="VAC6969-00000015"/>&#xD;
 *&#xD;
 &#xD;
 f&#xD;
@@ -2470,7 +2475,7 @@ n&#xD;
 &#xD;
 t   a&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6969-00000016"/>&#xD;
+<pb n="24-25" xml:id="VAC6969-00000016"/>&#xD;
 V&#xD;
 &#xD;
 LUONA PRESCOTT ; OR,&#xD;
@@ -2697,7 +2702,7 @@ s&#xD;
 i&#xD;
 k&#xD;
 &#xD;
-<pb  n="26 (Illustration) " xml:id="VAC6969-00000017"/>&#xD;
+<pb n="26 (Illustration) " xml:id="VAC6969-00000017"/>&#xD;
 t&#xD;
 t&#xD;
 &#xD;
@@ -2860,7 +2865,7 @@ i&#xD;
 t&#xD;
 .d&#xD;
 &#xD;
-<pb  n="-27" xml:id="VAC6969-00000018"/>&#xD;
+<pb n="-27" xml:id="VAC6969-00000018"/>&#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
 "I shall never refuse to see General Arnold&#xD;
@@ -3010,7 +3015,7 @@ Z       c&#xD;
 &#xD;
 y         ,     f       ,4  "  '  '&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6969-00000019"/>&#xD;
+<pb n="28-29" xml:id="VAC6969-00000019"/>&#xD;
 28&#xD;
 &#xD;
 LUONA PRESCOTT ; OR,&#xD;
@@ -3233,7 +3238,7 @@ THE CURSE FULFILLED.&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6969-00000020"/>&#xD;
+<pb n="30-31" xml:id="VAC6969-00000020"/>&#xD;
 843&#xD;
 &#xD;
 LUONA PRi&#xD;
@@ -3512,7 +3517,7 @@ days after Arnold's arrival at home. The" idea"&#xD;
 of the immortal Blossom had been carried out&#xD;
 bythe skillful hand of Tim Glazier, the painter,&#xD;
 &#xD;
-<pb  n="32 (Illustration) " xml:id="VAC6969-00000021"/>&#xD;
+<pb n="32 (Illustration) " xml:id="VAC6969-00000021"/>&#xD;
 4&#xD;
 &#xD;
 r~&#xD;
@@ -3654,7 +3659,7 @@ Vi&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="-33" xml:id="VAC6969-00000022"/>&#xD;
+<pb n="-33" xml:id="VAC6969-00000022"/>&#xD;
 THE ~CUTRSE~ FULFILLE~D.               88&#xD;
 &#xD;
 especially in the track of Tryon, Tarleton, and&#xD;
@@ -3796,7 +3801,7 @@ British had carried off no prisoners. Upon in-&#xD;
 quiring at Ridgefield, he at last foundwhere a&#xD;
 man lay at a farm-house answering his de.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6969-00000023"/>&#xD;
+<pb n="34-35" xml:id="VAC6969-00000023"/>&#xD;
 S4LUONA PRESCOTT; OR,&#xD;
 E4 ription' and uponOseeking therefound to his no man except the commander-in chief was&#xD;
 lkaus tebravetherellou,         dearer to the people than he was  for the&#xD;
@@ -4012,7 +4017,7 @@ t&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6969-00000024"/>&#xD;
+<pb n="36-37" xml:id="VAC6969-00000024"/>&#xD;
 " Yes, I will testify to that!  In that large&#xD;
 on the Hessian dragoons I saw you un'iorsel&#xD;
 one of their finest officers&#xD;
@@ -4288,7 +4293,7 @@ sty veins ; now I know ishct it imeitv's w/fi',h I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="38 (Illustration) " xml:id="VAC6969-00000025"/>&#xD;
+<pb n="38 (Illustration) " xml:id="VAC6969-00000025"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 fe' lie must have a commission ; he will&#xD;
@@ -4471,7 +4476,7 @@ s'   v&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="-39" xml:id="VAC6969-00000026"/>&#xD;
+<pb n="-39" xml:id="VAC6969-00000026"/>&#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
 hero ; and speed away on the wings of our ro-&#xD;
@@ -4641,7 +4646,7 @@ r&#xD;
 &#xD;
 r }:&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6969-00000027"/>&#xD;
+<pb n="40-41" xml:id="VAC6969-00000027"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 of rank and money if he wi:l leave his own and            CHAPTER XXV.&#xD;
@@ -4877,7 +4882,7 @@ r&#xD;
 &#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6969-00000028"/>&#xD;
+<pb n="42-43" xml:id="VAC6969-00000028"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 is West Point, an important fortress, a trusty&#xD;
@@ -5162,7 +5167,7 @@ TAE CURSE FULFILLED.&#xD;
 x&#xD;
 }&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6969-00000029"/>&#xD;
+<pb n="44-45" xml:id="VAC6969-00000029"/>&#xD;
 44                   LUONA PRESCOTT; OR,&#xD;
 &#xD;
 THE CURSE FULFILLED.                   45&#xD;
@@ -5431,7 +5436,7 @@ let us think of this business. Some conafde4-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6969-00000030"/>&#xD;
+<pb n="46-47" xml:id="VAC6969-00000030"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 teal flierr of yours, empowered to act, must&#xD;
@@ -5700,7 +5705,7 @@ young officer, sitting.&#xD;
 &#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6969-00000031"/>&#xD;
+<pb n="48-49" xml:id="VAC6969-00000031"/>&#xD;
 v&#xD;
 &#xD;
 48&#xD;
@@ -5980,7 +5985,7 @@ i&#xD;
 .'&#xD;
 t&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6969-00000032"/>&#xD;
+<pb n="50-51" xml:id="VAC6969-00000032"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 50&#xD;
@@ -6215,7 +6220,7 @@ P&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6969-00000033"/>&#xD;
+<pb n="52-53" xml:id="VAC6969-00000033"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 " I have no choice, I must do it.  I never  HiM who rules all destiny cried: " hold, the evil&#xD;
@@ -6449,7 +6454,7 @@ i   i&#xD;
 &#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6969-00000034"/>&#xD;
+<pb n="54-55" xml:id="VAC6969-00000034"/>&#xD;
 f&#xD;
 &#xD;
 in nyi true character !" said Andre, with a suave&#xD;
@@ -6720,7 +6725,7 @@ Arnolud hastily sct-tited the ladller which had&#xD;
 bet'n l,a.rehl over thte side. anti was met ity the&#xD;
 British commander at the gangway ; for' his&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6969-00000035"/>&#xD;
+<pb n="56-57" xml:id="VAC6969-00000035"/>&#xD;
 rank, indicated by his uniform, had been ob-&#xD;
 served as he approached.&#xD;
 "Whom    have I the honor to address ?" said&#xD;
@@ -6998,7 +7003,7 @@ LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 67 '&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6969-00000036"/>&#xD;
+<pb n="58-59" xml:id="VAC6969-00000036"/>&#xD;
 58                           LUONA PRESCOTT, OR,&#xD;
 rest of MajcrAndre  alone disconcerted the plan  nor ever near so jnstly. Because Napoleon&#xD;
 of acio~ which would surely have given on  was htviali of huouiu life: in his amhiii is aims&#xD;
@@ -7202,7 +7207,7 @@ himself rather than suier so. But there are&#xD;
 mren who lack the courage to lie by their owna&#xD;
 hand, who would leap laughing: into death's&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6969-00000037"/>&#xD;
+<pb n="60-61" xml:id="VAC6969-00000037"/>&#xD;
 I&#xD;
 &#xD;
 60&#xD;
@@ -7481,7 +7486,7 @@ to see if the devil would protect his own1"&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6969-00000038"/>&#xD;
+<pb n="62-63" xml:id="VAC6969-00000038"/>&#xD;
 LUONA PRESCOTT ; OR,&#xD;
 &#xD;
 '&#xD;
@@ -7696,7 +7701,7 @@ ii&#xD;
 &#xD;
 THE CURSE FULFILLED.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6969-00000039"/>&#xD;
+<pb n="64-65" xml:id="VAC6969-00000039"/>&#xD;
 = }}}{{{&#xD;
 :*&#xD;
 {j&#xD;
@@ -7844,7 +7849,7 @@ Heather, who was accidentally killed by the un- way of an anchorage.&#xD;
 THE&#xD;
 MAN-O'-WAR'S-MAN'S GRUDGE.&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6969-00000040"/>&#xD;
+<pb n="66-67" xml:id="VAC6969-00000040"/>&#xD;
 I&#xD;
 &#xD;
 TIIE MAN-O'-WAR'S-MAN'S GRUDGE.&#xD;
@@ -8017,7 +8022,7 @@ I&#xD;
 f&#xD;
 '&#xD;
 &#xD;
-<pb  n="68" xml:id="VAC6969-00000041"/>&#xD;
+<pb n="68" xml:id="VAC6969-00000041"/>&#xD;
 TUE XAN.O'-WAR'S-MANfS GRUDGE.&#xD;
 &#xD;
 CHAPTER IIL&#xD;
@@ -8145,8 +8150,8 @@ i&#xD;
 &#xD;
 &#xD;
                                           
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

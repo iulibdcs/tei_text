@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8302">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8302">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Herbert Hamilton, or, The Bas Bleu </title>
-            <author >Whittlesey, Sarah J. C. (1825-1896)</author>
+            <title>Herbert Hamilton, or, The Bas Bleu </title>
+            <author>Whittlesey, Sarah J. C. (1825-1896)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8302</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8302</idno>
+            <idno type="wright2" n="previous">wright2-2725</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Herbert Hamilton, or, The Bas Bleu</title>
-                  <author >Whittlesey, Sarah J. C. (1825-1896)</author>
+                  <title>Herbert Hamilton, or, The Bas Bleu</title>
+                  <author>Whittlesey, Sarah J. C. (1825-1896)</author>
                </titleStmt>
-               <extent >123 p. </extent>
+               <extent>123 p. </extent>
                <publicationStmt>
-                  <publisher >State Journal Job Printing Office</publisher>
+                  <publisher>State Journal Job Printing Office</publisher>
                   <pubPlace>Alexandria Va. </pubPlace>
-                  <date  when="1868">1868</date>
+                  <date when="1868">1868</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Herbert Hamilton, or, The Bas Bleu</head> 
+            <head>Herbert Hamilton, or, The Bas Bleu</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8302-00000001"/>.'&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8302-00000001"/>.'&#xD;
 &#xD;
 r&#xD;
 &#xD;
@@ -103,7 +108,7 @@ i&#xD;
 i&#xD;
 I&#xD;
 &#xD;
-<pb  n="1" xml:id="VAC8302-00000002"/>&#xD;
+<pb n="1" xml:id="VAC8302-00000002"/>&#xD;
 r&#xD;
 &#xD;
 Entered according to tt of Congress in the .yu ISfi8, 1&#xD;
@@ -209,7 +214,7 @@ k&#xD;
 &#xD;
 f i&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC8302-00000003"/>&#xD;
+<pb n="2-3" xml:id="VAC8302-00000003"/>&#xD;
 2              HERBERT HAMILTON;&#xD;
 &#xD;
 I&#xD;
@@ -426,7 +431,7 @@ cency."&#xD;
 &#xD;
 3&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8302-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC8302-00000004"/>&#xD;
 9q&#xD;
 J,&#xD;
 d&#xD;
@@ -625,7 +630,7 @@ s     P&#xD;
 l&#xD;
 i&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8302-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC8302-00000005"/>&#xD;
 i&#xD;
 ti g&#xD;
 ,r41&#xD;
@@ -785,7 +790,7 @@ HERBERT HAMILTON; -&#xD;
 &#xD;
 7&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8302-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC8302-00000006"/>&#xD;
 I&#xD;
 ,&#xD;
 ' Uzi{v,&#xD;
@@ -958,7 +963,7 @@ Vered around the firmly set mouth.   knob; and she stood still a moment to&#xD;
 Black as my head, m'm,"-'-and the strong will. She succeed d in calming&#xD;
 2&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8302-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC8302-00000007"/>&#xD;
 O1, THE BAS .BLEU.             I&#xD;
 &#xD;
 her purturbation aid deliberately turn-&#xD;
@@ -1158,7 +1163,7 @@ HERBERT HAMILTON ;&#xD;
 &#xD;
 I b&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8302-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC8302-00000008"/>&#xD;
 OR, THE BAS BLEU.   .         h&#xD;
 &#xD;
 " Frankly, Mr. Hamilton, I was an-&#xD;
@@ -1359,7 +1364,7 @@ HERBERTHAMIL ON ;&#xD;
 &#xD;
 12&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8302-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC8302-00000009"/>&#xD;
 OR, THE BASBLEI.             15&#xD;
 &#xD;
 14               HE1~BERT HAMILTON;&#xD;
@@ -1561,7 +1566,7 @@ HERBBRT : HAMILTON&#xD;
 &#xD;
 14&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8302-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC8302-00000010"/>&#xD;
 OR, THE BES BLEU.              17&#xD;
 &#xD;
 I&#xD;
@@ -1764,7 +1769,7 @@ a savage, when your temper is up, Net-&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8302-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC8302-00000011"/>&#xD;
 I$&#xD;
 &#xD;
 HERBERT HAMILTON ;&#xD;
@@ -1966,7 +1971,7 @@ vretch- was at once the centre of attraction.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8302-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC8302-00000012"/>&#xD;
 (OR. THE BAS BLEUI.                    21&#xD;
 &#xD;
 HERBERT HAMILTON;&#xD;
@@ -2171,7 +2176,7 @@ i&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8302-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC8302-00000013"/>&#xD;
 HERBERT HAMILTON;&#xD;
 &#xD;
 ly have to sacrifice our wishes to the&#xD;
@@ -2326,7 +2331,7 @@ position for seclusion."&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8302-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC8302-00000014"/>&#xD;
 21&#xD;
 &#xD;
 HER3ERT HAMILTON;&#xD;
@@ -2476,7 +2481,7 @@ moment i silence. Myrelda kept her -sign. True, they had not been intimate&#xD;
 face firmly set, as though unconscious of for years ; since adversity swept away&#xD;
 his 'presence.                                           -          4&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8302-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC8302-00000015"/>&#xD;
 BEBBRT AMILTON;&#xD;
 &#xD;
 the, glitter and glare of wealth, and the'&#xD;
@@ -2626,7 +2631,7 @@ now smiling face.                    of motives. He had scrupglouly avoid-&#xD;
 &#xD;
 [&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8302-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC8302-00000016"/>&#xD;
 HERBENRT HAMILTON;&#xD;
 &#xD;
 edt since his marriage with ore whose&#xD;
@@ -2775,7 +2780,7 @@ my words, for which I will apologise by cheeks to burn..&#xD;
 saying I respect your sensibility too  He regarded her a moment, and ak-&#xD;
 highly to wound it wittingly; and if my ed, very quietly,&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8302-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC8302-00000017"/>&#xD;
 30       HERBERT HAMILTON;O                 EU&#xD;
 &#xD;
 What have you been doing during.&#xD;
@@ -2971,7 +2976,7 @@ directly in their route, among which&#xD;
 Myrelda distinguished one denomiinMtd&#xD;
 by the citizens, "day Jm."&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8302-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC8302-00000018"/>&#xD;
 g  1,R3EWf HAMILTON;&#xD;
 &#xD;
 Said Joe ,was a fat, stoutly-built speci-&#xD;
@@ -3125,7 +3130,7 @@ will: -&#xD;
 &#xD;
 I.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8302-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC8302-00000019"/>&#xD;
 )BEeT  HAMILTON;&#xD;
 ot-atic in bearing to wed with one I Myrelda perceived, by the dimensions&#xD;
 so low and awkard," she had said to of her well-spread skirts, that she could&#xD;
@@ -3224,7 +3229,7 @@ $trcak o' lightnin', dog mer I"     their liquid depths.&#xD;
 Hamilton now rose, and a deep hush.  Herbert Haiilton, ordiga  .&#xD;
 pervaded the large audience. Joe for- not ,a handsome m4n  There;&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8302-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC8302-00000020"/>&#xD;
 6 HERBERT HAMILTON;&#xD;
 &#xD;
 it~inhess in the dark, colorless fgoe,&#xD;
@@ -3373,7 +3378,7 @@ OBT, THE BAS BLEU.&#xD;
 &#xD;
 37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8302-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC8302-00000021"/>&#xD;
 N1EIlBERT HAMILTON; -&#xD;
 &#xD;
 I&#xD;
@@ -3575,7 +3580,7 @@ It was the frst tie e 1efr&#xD;
 &#xD;
 M&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8302-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC8302-00000022"/>&#xD;
 H~EI HRLTQ&#xD;
 &#xD;
 meeting, that lhe had presumed upon,&#xD;
@@ -3759,7 +3764,7 @@ ill at ease.&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8302-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC8302-00000023"/>&#xD;
 4&#xD;
 &#xD;
 HERBERT HAMILTON;&#xD;
@@ -3961,7 +3966,7 @@ she faced him at the door.&#xD;
 &#xD;
 +&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8302-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC8302-00000024"/>&#xD;
 44            ITERBERT HAMILTON&#xD;
 &#xD;
 "You are mistaken; I saw her hur&#xD;
@@ -4110,7 +4115,7 @@ soon be; alone in the wide, cold world, confined him to his couch ; consequent.-
 with none to love and protect her from  ly, she did not, for Aime, spprehend.a&#xD;
 its merciless shafts. Misfortunes had fatal termination of his present illness.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8302-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC8302-00000025"/>&#xD;
 46             NERBIERT HAMILTON;&#xD;
 &#xD;
 long days and nights she watched him&#xD;
@@ -4306,7 +4311,7 @@ a fainting fit,&#xD;
 &#xD;
 OR; THE BAS 113LU.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8302-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC8302-00000026"/>&#xD;
 48&#xD;
 &#xD;
 HERBERT HAMILTON;&#xD;
@@ -4473,7 +4478,7 @@ defender, with a smile and outstretched past few hours. He half resolved to&#xD;
 hand.                              'wreak his vengeance upon him by whom&#xD;
 7&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8302-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC8302-00000027"/>&#xD;
 50             HRBERT'HAMILTON;&#xD;
 &#xD;
 he had been so deeply humiliated, by&#xD;
@@ -4626,7 +4631,7 @@ we've tried it--don't sacrifice your life! of fire into the chamber under the yi
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8302-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC8302-00000028"/>&#xD;
 .52                    HERBERT HAMILTON;&#xD;
 ing door. She started at the sight with crammed it through the wide lattice,&#xD;
 a shudder.                           and seizing the pitcher, dashed its con-&#xD;
@@ -4730,7 +4735,7 @@ Oereans of descent were now&#xD;
 ." Huzza!" yelled a little bald-headed borne up by boisterous andtired towns-&#xD;
 Frenehman. "S&amp;amp; memoir serra im- men ; but the lovers would have thee&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8302-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC8302-00000029"/>&#xD;
 *BH LOR, THE BAS BLEU:&#xD;
 &#xD;
 been in the spirit-w'orld, but for Joe's&#xD;
@@ -4926,7 +4931,7 @@ HERBERT HAMILWN&#xD;
 &#xD;
 54&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8302-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC8302-00000030"/>&#xD;
 N&#xD;
 &#xD;
 56"&#xD;
@@ -5127,7 +5132,7 @@ never be sufficiently grateful to the&#xD;
 merciful Providenee that thwarted my&#xD;
 8&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8302-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC8302-00000031"/>&#xD;
 H ERBERT HAMILTON;&#xD;
 &#xD;
 girlish 'heairthopes, even bygathering&#xD;
@@ -5322,7 +5327,7 @@ exertion and, literal want.&#xD;
 &#xD;
 OR, THB BAS, BL I I3.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8302-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC8302-00000032"/>&#xD;
 Ka~f '1 ~iaT ,HAMILTON ;&#xD;
 consumtive form, and under 't was I that :has hung a millstone around the&#xD;
 ixied ali-thesoftness 'ofmy soi  I neck of memory, and strangled it in the&#xD;
@@ -5421,7 +5426,7 @@ er, and wrecked our peaceful home.  gy, and unconscious fierceness, that em-&#xD
 "He did not recognize me, and receiv- torted a low cry of pain.&#xD;
 ed me as the chosen of his child. She&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8302-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC8302-00000033"/>&#xD;
 OR, THE BAS BLEU.&#xD;
 &#xD;
 CHAPTER XX.&#xD;
@@ -5620,7 +5625,7 @@ seemed reproaching me from the skies;&#xD;
 &#xD;
 t'! BB11 P °HAMILTON;&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8302-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC8302-00000034"/>&#xD;
 OR, THE BAS BLEU.            65&#xD;
 &#xD;
 for disregarding her early teachings of&#xD;
@@ -5819,7 +5824,7 @@ securely, too, with all your slyness and&#xD;
 wisdom."&#xD;
 " Now don't boast, if you have rea-&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8302-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC8302-00000035"/>&#xD;
 66             HERBERT HAMILTON;&#xD;
 &#xD;
 son to, I have more,. for mine was a&#xD;
@@ -5967,7 +5972,7 @@ of success. There was a softer turn to stance, Myrelda?"&#xD;
 even your sarcastic thrusts, that only one  " Yes, indeed, Sir! I never could&#xD;
 who looked and longed for such an evi- comprehend that."&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8302-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC8302-00000036"/>&#xD;
 68                      HERBERT HAMILTON;&#xD;
 " As I thought. I loved you more You lost nothing in my estimation when&#xD;
 and more from association, Myrelda, I recalled it to memory, for I saw that&#xD;
@@ -6115,7 +6120,7 @@ of the event."&#xD;
 and forgive her solely for the love she&#xD;
 bears you.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8302-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC8302-00000037"/>&#xD;
 OR, THE 3AS BLEU.               '   *&#xD;
 &#xD;
 "I should have returned again that&#xD;
@@ -6310,7 +6315,7 @@ ent occasion, and the fortl1den word&#xD;
 &#xD;
 HERBERT HAMILTON;&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8302-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC8302-00000038"/>&#xD;
 72 .                    HERBERT HAMILTON;&#xD;
 slipped out unawares. He remembered of delight, on finding the casement&#xD;
 it the next Sunday, however, as he stood again closed-.-she was yet alive, evident-&#xD;
@@ -6422,7 +6427,7 @@ abjured.this decision, and proposed to bors. Ignorant of Hamilton's pecunia-&#xD
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8302-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC8302-00000039"/>&#xD;
 74            HERBERT HAMILTON;&#xD;
 &#xD;
 I&#xD;
@@ -6627,7 +6632,7 @@ Hamilton's face reddened and radiated-&#xD;
 &#xD;
 OR, THE BAS BLETT.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8302-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC8302-00000040"/>&#xD;
 76&#xD;
 &#xD;
 HERBERT HAMILTON;&#xD;
@@ -6835,7 +6840,7 @@ s&#xD;
 &#xD;
 -          -  ---&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8302-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC8302-00000041"/>&#xD;
 OR, THE BAS BLEU.               79&#xD;
 &#xD;
 78- HERBERT HAMILTON;&#xD;
@@ -7032,7 +7037,7 @@ foot slid silently to the floor. The su-&#xD;
 percilious, self-complacent air of the&#xD;
 bigot and fop, was superceded by the&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8302-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC8302-00000042"/>&#xD;
 80                      HE.RBERT HAMILTON;&#xD;
 quiet, respectful appearance of a man.  The peculiar tone in which this was&#xD;
 It was the calm, stern, inherent dig- uttered, turned Smith's eyes, involun-&#xD;
@@ -7133,7 +7138,7 @@ Smith dropped into a chair like a him, suffciently long, to rid the world&#xD;
 shot ; the thought of his position loos- of such a myth of manhood, by send-&#xD;
 I1.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8302-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC8302-00000043"/>&#xD;
 62                      HERBERT I&#xD;
 apga ball through his ipfan ous person&#xD;
 in an 'affair of honor,' as such as he&#xD;
@@ -7287,7 +7292,7 @@ ton, and the result accruing from the&#xD;
 eep humiliation of that attack ; and'&#xD;
 ow that the- dread of a meeting was&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8302-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC8302-00000044"/>&#xD;
 84&#xD;
 &#xD;
 HERBERT HAMILTON;&#xD;
@@ -7457,7 +7462,7 @@ Ivertised for sale, and would pA ia nto viOus to hi usagge, was - wit.;for&#xD;
 &#xD;
 E&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8302-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC8302-00000045"/>&#xD;
 84             HERBIRT - HAMILTON&#xD;
 &#xD;
 the hand of my aflianeed ,wife-that&#xD;
@@ -7625,7 +7630,7 @@ nobody can beat ze Yankee-be gar;"&#xD;
 Gerald became more excited by this&#xD;
 expressed belief of the foreign gentle-&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8302-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC8302-00000046"/>&#xD;
 n t  E t   HAMILTON;&#xD;
 &#xD;
 nrah;  diAhduted ' ondly: "Six thou-&#xD;
@@ -7802,7 +7807,7 @@ Olt, THE BAS BLEU.&#xD;
 t&#xD;
 s&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8302-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC8302-00000047"/>&#xD;
 90            HERBERT HAMILTON;&#xD;
 &#xD;
 " Ten thousand," cried Smith as the&#xD;
@@ -7994,7 +7999,7 @@ Not exactly. Guess again."&#xD;
 &#xD;
 OR, TIITT3ASJLEt1.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8302-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC8302-00000048"/>&#xD;
 ing residence, as you promised ?" in-&#xD;
 quired Lora, in a tone of peevish dis-&#xD;
 appointment, dropping upon afanteuil,&#xD;
@@ -8190,7 +8195,7 @@ nestling away down in the nunnery of&#xD;
 that pure young heart that none but&#xD;
 Charles Montford had ever suspected.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8302-00000049"/>&#xD;
+<pb n="94-95" xml:id="VAC8302-00000049"/>&#xD;
 OR, THE BAS BLU   .    .         9&#xD;
 &#xD;
 IIEI3IiERTF AMILTON&#xD;
@@ -8388,7 +8393,7 @@ He had gracefully slipped from the&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8302-00000050"/>&#xD;
+<pb n="96-97" xml:id="VAC8302-00000050"/>&#xD;
 96            .HERBERT HAMILTON;&#xD;
 &#xD;
 sofa to a kneeling posture, and drawn&#xD;
@@ -8537,7 +8542,7 @@ I&#xD;
 &#xD;
 OR, THE BAS BLEU.           97&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8302-00000051"/>&#xD;
+<pb n="98-99" xml:id="VAC8302-00000051"/>&#xD;
 98               HER  AT, HAMILTON;&#xD;
 &#xD;
 better then his father," returned Ger-&#xD;
@@ -8733,7 +8738,7 @@ love to Him who had broughther through&#xD;
 &#xD;
 OR, THE BAS BLEU.            99&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8302-00000052"/>&#xD;
+<pb n="100-101" xml:id="VAC8302-00000052"/>&#xD;
 100                HERBETT HAMILTON;&#xD;
 &#xD;
 the dark shadows, of adversity, into the&#xD;
@@ -8903,7 +8908,7 @@ rs 'H. H.,' 'pon that pair of pistols, gray !  Look-a-here, old feller, don'&#xD
 ou know-hurraw !" and Tom gave a talk till -you gits better eyes in your&#xD;
 own head than them ere !&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8302-00000053"/>&#xD;
+<pb n="102-103" xml:id="VAC8302-00000053"/>&#xD;
 102                     HERBERT HAMILTON&#xD;
 'lit laid his head back, and haw= stately and firm, strong in the belief of&#xD;
 hawed, to his partner's confusion; who an acquittal.&#xD;
@@ -9002,7 +9007,7 @@ thin face, when Joahn Lynch bore tests-  "I wish I'd stuck to it, .'e had blue&#
 niony to her lover's guilt.  John had eyes-.confound mae if I don'ti!- He&#xD;
 distrusted the faithfulness of his own looks deuced, like 'im, but .a villain&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8302-00000054"/>&#xD;
+<pb n="104-105" xml:id="VAC8302-00000054"/>&#xD;
 104              HERBERT IAMILTON;&#xD;
 &#xD;
 couldn't shoot as clear as them black&#xD;
@@ -9182,7 +9187,7 @@ the incomprehensible witness, upon drank in the rich flood poured from&#xD;
 &#xD;
 OR, Trn BASIBL U4&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8302-00000055"/>&#xD;
+<pb n="106-107" xml:id="VAC8302-00000055"/>&#xD;
 1o6&#xD;
 &#xD;
 HERBERt HAMILTON;&#xD;
@@ -9341,7 +9346,7 @@ Uly&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8302-00000056"/>&#xD;
+<pb n="108-109" xml:id="VAC8302-00000056"/>&#xD;
 Og             HERBERT HAMILTON;&#xD;
 &#xD;
 Bit 'murder would out,' and he upon&#xD;
@@ -9489,7 +9494,7 @@ heihad often triumphed in by-gone days, be was condemned, was :the uniterul&#xD;
 with, the sentence'of death upon him, belief in. Arlingford ; setting aieathe&#xD;
 for another's criine, and went back to relatives of the 'deceased -:r. (Gsald,&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8302-00000057"/>&#xD;
+<pb n="110-111" xml:id="VAC8302-00000057"/>&#xD;
 OR, THE BAS B h   'U&#xD;
 &#xD;
 ad higher grewthe exditeme'nt in the  ltlanilton calmly -dispose&amp;amp; of all his&#xD;
@@ -9640,7 +9645,7 @@ uffering and-destitute,,with the1we&#xD;
 hat 1 have-left you, and the happiness&#xD;
 f doing good will be yours."&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8302-00000058"/>&#xD;
+<pb n="112-113" xml:id="VAC8302-00000058"/>&#xD;
 Myr da   closed  her tearless,&#xD;
 brillianpeyes, and lifted'them tohis.--&#xD;
 Shre atsexnted to speak but no sound&#xD;
@@ -9835,7 +9840,7 @@ eral hours, and it would be too Ate now,&#xD;
 even if the patient revived, and cold&#xD;
 be induced to'make a revelation! 'ti&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8302-00000059"/>&#xD;
+<pb n="114-115" xml:id="VAC8302-00000059"/>&#xD;
 114                    HERBRT HAMILTON;&#xD;
 turned, white as death, to the astonished anti his noble charger had not entirely&#xD;
 mother.                            recovered from his late race. Dr. El-&#xD;
@@ -9938,7 +9943,7 @@ renewed hope, as he caught the first damn him !"&#xD;
 &#xD;
 115&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8302-00000060"/>&#xD;
+<pb n="116-117" xml:id="VAC8302-00000060"/>&#xD;
 OR, THE BAS BLEU.&#xD;
 &#xD;
 HERBE-RT HAMILTON;&#xD;
@@ -10139,7 +10144,7 @@ them.&#xD;
 &#xD;
 116&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8302-00000061"/>&#xD;
+<pb n="118-119" xml:id="VAC8302-00000061"/>&#xD;
 118                     HIRE1RT HAMILTON&#xD;
 A Mild, piercing, despairing scream,  Myrelda'trembled like a wind-swept&#xD;
 such as once echoed through the court- leaf; she readP the whole truth in the&#xD;
@@ -10285,7 +10290,7 @@ the fact.&#xD;
 Henry Greenwood would not have&#xD;
 perpetrated cold blooded murder; but&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8302-00000062"/>&#xD;
+<pb n="120-121" xml:id="VAC8302-00000062"/>&#xD;
 OR, THE BAS BLEU.             121&#xD;
 &#xD;
 120              HIERBERT HAMILTON;&#xD;
@@ -10480,7 +10485,7 @@ sanction of that proud father, who con-&#xD;
 fesses he would never have suffered&#xD;
 pecuniary circumstances, alone, fb im-&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8302-00000063"/>&#xD;
+<pb n="122-123" xml:id="VAC8302-00000063"/>&#xD;
 122           HERBERT HAMILTON;&#xD;
 &#xD;
 pose a barrier to his child's happiness.&#xD;
@@ -10592,8 +10597,8 @@ Two years from her first meeting with them.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

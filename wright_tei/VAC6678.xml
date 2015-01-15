@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6678">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6678">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Heads and Hearts, or, My Brother the Colonel </title>
-            <author >Anonymous</author>
+            <title>Heads and Hearts, or, My Brother the Colonel </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6678</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6678</idno>
+            <idno type="wright2" n="previous">wright2-1149</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Heads and hearts, or, My brother the colonel</title>
-                  <author >Anonymous</author>
+                  <title>Heads and hearts, or, My brother the colonel</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >200 p. </extent>
+               <extent>200 p. </extent>
                <publicationStmt>
-                  <publisher >DeWitt &amp; Davenport</publisher>
+                  <publisher>DeWitt &amp; Davenport</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  from="1800" to="1899">[18--?]</date>
+                  <date from="1800" to="1899">[18--?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Heads and hearts, or, My brother the colonel</head> 
+            <head>Heads and hearts, or, My brother the colonel</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6678-00000001"/>HEADS AND HEARTS;&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6678-00000001"/>HEADS AND HEARTS;&#xD;
 &#xD;
 OR,~&#xD;
 MY BROTHER, THE COLONEL&#xD;
@@ -103,7 +108,7 @@ NEW YORK:&#xD;
 DEWITT &amp;amp; DAVENPORT, PUBLISHERS,&#xD;
 TRIBUNE BUILDINGS.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6678-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6678-00000002"/>&#xD;
 f- s&#xD;
 F&#xD;
 F&#xD;
@@ -206,7 +211,7 @@ _&#xD;
 &#xD;
 ~ ...... +........     +--+-                                   -    --   - . rrrrpWit tYli iiNiMn1II W1 1iN' 1                     _       _ _&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6678-00000003"/>&#xD;
+<pb n="12-13" xml:id="VAC6678-00000003"/>&#xD;
 12&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -362,7 +367,7 @@ f      5&#xD;
 t&#xD;
 x&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6678-00000004"/>&#xD;
+<pb n="14-15" xml:id="VAC6678-00000004"/>&#xD;
 I;&#xD;
 &#xD;
 14                  HEADS AND HEARTS; ORy&#xD;
@@ -492,7 +497,7 @@ I&#xD;
 &#xD;
 4   ..4-mow'&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6678-00000005"/>&#xD;
+<pb n="16-17" xml:id="VAC6678-00000005"/>&#xD;
 '5&#xD;
 &#xD;
 "&#xD;
@@ -647,7 +652,7 @@ r'&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6678-00000006"/>&#xD;
+<pb n="18-19" xml:id="VAC6678-00000006"/>&#xD;
 18                   HEADS AND HEARTS, OR,&#xD;
 "Oh, yes," said Emma, "and so should I."&#xD;
 "We all love him," said Lady Morton, "and that is why even his writing&#xD;
@@ -790,7 +795,7 @@ i f&#xD;
 4t&#xD;
 1I[.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6678-00000007"/>&#xD;
+<pb n="20-21" xml:id="VAC6678-00000007"/>&#xD;
 MY BROTHER, THE COLONEL.&#xD;
 &#xD;
 "He isn't here."&#xD;
@@ -943,7 +948,7 @@ hx&#xD;
 k&#xD;
 _ 6f&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6678-00000008"/>&#xD;
+<pb n="22-23" xml:id="VAC6678-00000008"/>&#xD;
 HEADS AND HEARTS; OR,&#xD;
 "Sir, sir," said Rowley to Abel, as he helped him on with his coat. "Sir,&#xD;
 if y on please-"&#xD;
@@ -1073,7 +1078,7 @@ f&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6678-00000009"/>&#xD;
+<pb n="24-25" xml:id="VAC6678-00000009"/>&#xD;
 "I am ready," cried Morton ; but the tone in which he spoke was rather a&#xD;
 strange and abstracted one.&#xD;
 "And I," yawned Lord Rokeley. "Dear me, I'm afraid we shall find the&#xD;
@@ -1208,7 +1213,7 @@ tj&#xD;
 &#xD;
 26&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6678-00000010"/>&#xD;
+<pb n="26-27" xml:id="VAC6678-00000010"/>&#xD;
 26&#xD;
 &#xD;
 HEADS AND HEARTS; OR&#xD;
@@ -1353,7 +1358,7 @@ s&#xD;
 &#xD;
 l&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6678-00000011"/>&#xD;
+<pb n="28-29" xml:id="VAC6678-00000011"/>&#xD;
 2&#xD;
 &#xD;
 HEADS AND HEARTS; OR&#xD;
@@ -1487,7 +1492,7 @@ a&#xD;
 r&#xD;
 z&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6678-00000012"/>&#xD;
+<pb n="30-31" xml:id="VAC6678-00000012"/>&#xD;
 MY BROTHER THE COLONEL.&#xD;
 &#xD;
 HEADS AND HEARTS; O,0&#xD;
@@ -1610,7 +1615,7 @@ at a rate that was rather alarming. The vehicle drew up at a fashionWe&#xD;
 &#xD;
 80&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6678-00000013"/>&#xD;
+<pb n="32-33" xml:id="VAC6678-00000013"/>&#xD;
 11&#xD;
 X1I&#xD;
 f&#xD;
@@ -1757,7 +1762,7 @@ l Y   r&#xD;
 : L3     S&#xD;
 i   { 'ia    &#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6678-00000014"/>&#xD;
+<pb n="34-35" xml:id="VAC6678-00000014"/>&#xD;
 84&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -1920,7 +1925,7 @@ f&#xD;
 i&#xD;
 f&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6678-00000015"/>&#xD;
+<pb n="36-37" xml:id="VAC6678-00000015"/>&#xD;
 36&#xD;
 &#xD;
 hEADS AND hEARTS; OR,&#xD;
@@ -2075,7 +2080,7 @@ f&#xD;
 _&#xD;
 ,.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6678-00000016"/>&#xD;
+<pb n="38-39" xml:id="VAC6678-00000016"/>&#xD;
 88&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -2223,7 +2228,7 @@ i&#xD;
 }&#xD;
 z&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6678-00000017"/>&#xD;
+<pb n="40-41" xml:id="VAC6678-00000017"/>&#xD;
 MY BROTHER, THE COLONEL.          41&#xD;
 &#xD;
 as Emma had not seen yet, since she had known him, upon his face. His very&#xD;
@@ -2328,7 +2333,7 @@ HEADS AND HEARTS; OR&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6678-00000018"/>&#xD;
+<pb n="42-43" xml:id="VAC6678-00000018"/>&#xD;
 :&#xD;
 }&#xD;
 &#xD;
@@ -2491,7 +2496,7 @@ from my heart forgive him."&#xD;
 &#xD;
 MY BROTHER, THE COLONEL.           43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6678-00000019"/>&#xD;
+<pb n="44-45" xml:id="VAC6678-00000019"/>&#xD;
 44&#xD;
 &#xD;
 t&#xD;
@@ -2671,7 +2676,7 @@ f&#xD;
 _                     }f&#xD;
 f&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6678-00000020"/>&#xD;
+<pb n="46-47" xml:id="VAC6678-00000020"/>&#xD;
 {&#xD;
 {q j&#xD;
 S&#xD;
@@ -2834,7 +2839,7 @@ _F                                                                              
 4                ,&#xD;
 ";=;-,.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6678-00000021"/>&#xD;
+<pb n="48-49" xml:id="VAC6678-00000021"/>&#xD;
 E&#xD;
 t&#xD;
 ss&#xD;
@@ -2975,7 +2980,7 @@ mna's cries soon brought the attendants; but Abel did not come !&#xD;
 &#xD;
 F .&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6678-00000022"/>&#xD;
+<pb n="50-51" xml:id="VAC6678-00000022"/>&#xD;
 a&#xD;
 x&#xD;
 .&#xD;
@@ -3064,7 +3069,7 @@ t                 ,&#xD;
 r&#xD;
 .5&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6678-00000023"/>&#xD;
+<pb n="52-53" xml:id="VAC6678-00000023"/>&#xD;
 MY BROTHER, THE COLONEL.                 -     0&#xD;
 "The colonel ?"&#xD;
 "Ay. Mind me, Morton, I do not say that I know anything specifically&#xD;
@@ -3131,7 +3136,7 @@ s                  ":&#xD;
 y               i&#xD;
 "                  ' ' j&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6678-00000024"/>&#xD;
+<pb n="54-55" xml:id="VAC6678-00000024"/>&#xD;
 HEADS AND HEARTS; OR,&#xD;
 "Yes, sir. Left late last night, sir."&#xD;
 "And the young lady ?"&#xD;
@@ -3305,7 +3310,7 @@ It was quite evident that the young girl did-no  erve that any one was&#xD;
 in the room, for she spoke as she slowly advanced. .&#xD;
 "A weary time," she said. "A weary time. Oh, what will become of&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6678-00000025"/>&#xD;
+<pb n="56-57" xml:id="VAC6678-00000025"/>&#xD;
 56&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -3441,7 +3446,7 @@ t&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6678-00000026"/>&#xD;
+<pb n="58-59" xml:id="VAC6678-00000026"/>&#xD;
 58&#xD;
 &#xD;
 HEADS AND HEARTS; OR7&#xD;
@@ -3579,7 +3584,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6678-00000027"/>&#xD;
+<pb n="60-61" xml:id="VAC6678-00000027"/>&#xD;
 HEADS AND HEARTS; OR,&#xD;
 &#xD;
 them of their all. Tell him that the colonel carries on a vast amount of busi-&#xD;
@@ -3708,7 +3713,7 @@ r, w  Y&#xD;
 &#xD;
 61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6678-00000028"/>&#xD;
+<pb n="62-63" xml:id="VAC6678-00000028"/>&#xD;
 MY BROTHER, THE COLONEL.                        63&#xD;
 'd without disturbing her by any attempt to reach it through the little sitting-&#xD;
 room that has before been alluded to.&#xD;
@@ -3772,7 +3777,7 @@ in the chamber-in yonder chamber. Oh, sir, was it manly to seek to unmerve&#xD;
 &#xD;
 _______________________________________________&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC6678-00000029"/>&#xD;
+<pb n="64-65" xml:id="VAC6678-00000029"/>&#xD;
 64&#xD;
 &#xD;
 HEADS AND HEARTS;i OR,&#xD;
@@ -3905,7 +3910,7 @@ Ii&#xD;
 &#xD;
 qi&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6678-00000030"/>&#xD;
+<pb n="66-67" xml:id="VAC6678-00000030"/>&#xD;
 MY BROTHER, THE COLONEL.&#xD;
 &#xD;
 "Do you think it possible that the dead may be permitted to visit this world&#xD;
@@ -4068,7 +4073,7 @@ HEADS AND HEARTS; OR,&#xD;
 &#xD;
 67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6678-00000031"/>&#xD;
+<pb n="68-69" xml:id="VAC6678-00000031"/>&#xD;
 -N-    --JJ*S~r IN1&#xD;
 &#xD;
 MY BROTHER' THE COLONEL.                       ta&#xD;
@@ -4132,7 +4137,7 @@ close to the panel, and I rather take it, sir, they come about the little bill t
 was due last week on account of the goods and chattels, you know, sir."&#xD;
 "Oh, ah-yes, I did give a bill, and-and-"&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6678-00000032"/>&#xD;
+<pb n="70-71" xml:id="VAC6678-00000032"/>&#xD;
 MY BROTHERS THE COLONEL.&#xD;
 &#xD;
 71&#xD;
@@ -4197,7 +4202,7 @@ are all anxious about, nothing else in the world, sir."&#xD;
 &#xD;
 r,....&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6678-00000033"/>&#xD;
+<pb n="72-73" xml:id="VAC6678-00000033"/>&#xD;
 MY BROTHER, 1HE COLONEL.&#xD;
 &#xD;
 78&#xD;
@@ -4230,7 +4235,7 @@ home?"~&#xD;
 &#xD;
 iii$ipuuum&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6678-00000034"/>&#xD;
+<pb n="74-75" xml:id="VAC6678-00000034"/>&#xD;
 MY BROTHEt      THE COLONEL.                  75&#xD;
 n I will.&#xD;
 "A thousand thanks, Abel, Mind, I shall expect you to the minute; for&#xD;
@@ -4294,7 +4299,7 @@ k= _° ,&#xD;
 w - :,; ,&#xD;
 i&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6678-00000035"/>&#xD;
+<pb n="76-77" xml:id="VAC6678-00000035"/>&#xD;
 r&#xD;
 &#xD;
 MY BROTHER, THE COLONEL.                      77&#xD;
@@ -4358,7 +4363,7 @@ there. I will forgive you now, all the past, if you will start fair again."&#xD;
 &#xD;
 -.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6678-00000036"/>&#xD;
+<pb n="78-79" xml:id="VAC6678-00000036"/>&#xD;
 i4&#xD;
 &#xD;
 MY BROTHER, THE COLONEL.                       79&#xD;
@@ -4424,7 +4429,7 @@ to resent such a liberty."&#xD;
 _                              -                      -                                  ' '&#xD;
 ° ..&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6678-00000037"/>&#xD;
+<pb n="80-81" xml:id="VAC6678-00000037"/>&#xD;
 MY   fltOTtER, TerE COBDNEL.&#xD;
 Abel, and he fainted and slipped off the seat of the cab downsto the floor of&#xD;
 it, and there lay, dead to all the world and its gossips.&#xD;
@@ -4489,7 +4494,7 @@ w&#xD;
 &#xD;
 rir.r                     ,_~__&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6678-00000038"/>&#xD;
+<pb n="82-83" xml:id="VAC6678-00000038"/>&#xD;
 HEADS AND HEARTS; OR,&#xD;
 Oh, what a demoniac smile crossed his lips for a moment ere he spoke&#xD;
 again.&#xD;
@@ -4622,7 +4627,7 @@ J.&#xD;
 k            4&#xD;
 1&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6678-00000039"/>&#xD;
+<pb n="84-85" xml:id="VAC6678-00000039"/>&#xD;
 84,&#xD;
 &#xD;
 uEADS AND HEARTS ; OR,&#xD;
@@ -4765,7 +4770,7 @@ t&#xD;
 -                                       t&#xD;
 ms           =s- +ie.                                            -   '. .r+a .*a.q'R^""'4'v+.t.,enw,....w..+,.^r1 e.v                                                                                     ...M.,w-.t-u ..,..i           -                               _&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6678-00000040"/>&#xD;
+<pb n="86-87" xml:id="VAC6678-00000040"/>&#xD;
 IR.&#xD;
 &#xD;
 86&#xD;
@@ -4902,7 +4907,7 @@ iP&#xD;
 &#xD;
 30 -&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC6678-00000041"/>&#xD;
+<pb n="88-89" xml:id="VAC6678-00000041"/>&#xD;
 MY 33OTliEU, IE COILONj.&#xD;
 &#xD;
 89&#xD;
@@ -4936,7 +4941,7 @@ _,&#xD;
 &#xD;
 "  '&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC6678-00000042"/>&#xD;
+<pb n="90-91" xml:id="VAC6678-00000042"/>&#xD;
 ~-~- ~-t-~.&#xD;
 &#xD;
 HEAUS AND        A TST   U                                                             MY BROTHE&#xD;
@@ -5042,7 +5047,7 @@ have spoken before.&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC6678-00000043"/>&#xD;
+<pb n="92-93" xml:id="VAC6678-00000043"/>&#xD;
 92&#xD;
 &#xD;
 HEADS AND HEARTS ; OR,&#xD;
@@ -5172,7 +5177,7 @@ i&#xD;
 ,i,,,,.,  ...,.,....._ -.  ._..w..,.   ..,.,. ..._w   r ,    ..  ,.,.._....,_ _.    _. ... .. ..._.... _                                                  ..,.s.. ,...     -   -                                                                      - -&#xD;
 .-t          .-               .,,                               ., v         ,r rwn, w}_    "-a+ yx;F cx^u-r -+nr      * -    .+ ^.4 . a. ,s     ws  .,k . "l Aam .ca..,a: ,";xak ",t . .=    s ~&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC6678-00000044"/>&#xD;
+<pb n="94-95" xml:id="VAC6678-00000044"/>&#xD;
 I&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -5302,7 +5307,7 @@ Frogs breathed very hard.&#xD;
 &#xD;
 ..rsw     -&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC6678-00000045"/>&#xD;
+<pb n="96-97" xml:id="VAC6678-00000045"/>&#xD;
 963&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -5424,7 +5429,7 @@ Rowley held open the door, and the party left Morton's chambers, talking -&#xD;
 &#xD;
 4.&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC6678-00000046"/>&#xD;
+<pb n="98-99" xml:id="VAC6678-00000046"/>&#xD;
 98&#xD;
 &#xD;
 HEADS AND HEARTS ; OR,&#xD;
@@ -5550,7 +5555,7 @@ The two vehicles were soon at a stand still under the shadow of the wall of&#xD;
 &#xD;
 ,-                     e                                                                       I&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC6678-00000047"/>&#xD;
+<pb n="100-101" xml:id="VAC6678-00000047"/>&#xD;
 MY BROTHER, THE COLONEL.                       1(1&#xD;
 Rowley was much more reserved and respectful to his master sincere had&#xD;
 found out that plenty of money had sprung from somewhere.&#xD;
@@ -5613,7 +5618,7 @@ at the charge, so that Abel was quite defeated, and he could only say-&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC6678-00000048"/>&#xD;
+<pb n="102-103" xml:id="VAC6678-00000048"/>&#xD;
 MY BROTHERS TUE COLONEL.                      194&#xD;
 CHAPTER RXXIX.&#xD;
 Wa have heard that Emma had stated the fact of Sir John's presence i&#xD;
@@ -5675,7 +5680,7 @@ The old man started. He had lapsed into one of those dreamy reveries of&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC6678-00000049"/>&#xD;
+<pb n="104-105" xml:id="VAC6678-00000049"/>&#xD;
 MY BROTHER, THE 'OLONEL%&#xD;
 &#xD;
 105&#xD;
@@ -5709,7 +5714,7 @@ _&#xD;
 &#xD;
 :..:. .        . ..._.r..                                                              -                                                           _&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC6678-00000050"/>&#xD;
+<pb n="106-107" xml:id="VAC6678-00000050"/>&#xD;
 MY BROTHER, THE COLONEL.                      107&#xD;
 to confide his wishes at once to his old man of business, in which case there&#xD;
 would have been no difficulty or publicity.&#xD;
@@ -5772,7 +5777,7 @@ See, ir John, whether or not I am correct in my opinion conerning him."&#xD;
 &#xD;
 ..rt           _  y r3 '  Ylrnf  N    Y. w: rtwul.        - F ,                       s                                            _     _&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC6678-00000051"/>&#xD;
+<pb n="108-109" xml:id="VAC6678-00000051"/>&#xD;
 SHADSC A1JJ                                                                             MY   fiROTNEN TUE C&#xD;
 At the sight of Sir John Morton, Mr. Lyon rather paused, although he did                i      l&#xD;
 not know that gentleman.                                                                             d   EkphoyuIda i1&#xD;
@@ -5877,7 +5882,7 @@ E&#xD;
 ;_&#xD;
 A    Ir  - -&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC6678-00000052"/>&#xD;
+<pb n="110-111" xml:id="VAC6678-00000052"/>&#xD;
 MY BROTHER, THE COLONEL,&#xD;
 &#xD;
 colonel, Mr. Elk, has drawn me into worse than extravagances. He has gone&#xD;
@@ -6009,7 +6014,7 @@ HEADS AND HEARTS; OR,&#xD;
 &#xD;
 19i&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC6678-00000053"/>&#xD;
+<pb n="112-113" xml:id="VAC6678-00000053"/>&#xD;
 112&#xD;
 &#xD;
 MS 1 OTRER, TUBCOO1lflL.&#xD;
@@ -6139,7 +6144,7 @@ and alleys in the neighborhood of Clare Market, until he reached the Strand ?&#x
 ; . ..   _o...o.      _ ._            ..._._ _.___      .._._..._         .,...__._       _._...._,,,,,_,,, ,,,&#xD;
 =,                                                    ..&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC6678-00000054"/>&#xD;
+<pb n="114-115" xml:id="VAC6678-00000054"/>&#xD;
 114&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -6275,7 +6280,7 @@ _&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC6678-00000055"/>&#xD;
+<pb n="116-117" xml:id="VAC6678-00000055"/>&#xD;
 116&#xD;
 &#xD;
 flEAI tSAND HEA1tS; on,&#xD;
@@ -6406,7 +6411,7 @@ F                                                                               
 &#xD;
 ir61i&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC6678-00000056"/>&#xD;
+<pb n="118-119" xml:id="VAC6678-00000056"/>&#xD;
 MY BRO THEI      THE COLONEL.                11&#xD;
 i  Who are you ?" roared Abel, "and. what do you want  re ?"&#xD;
 "You don't know me?   I mean, you don't recollect  ?"&#xD;
@@ -6468,7 +6473,7 @@ ItIT&#xD;
 -   .r.       ..y. n-.....-     __                                                                                                                                                                                                                                                                         '&#xD;
 .                    -                             e                         -                                                -&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC6678-00000057"/>&#xD;
+<pb n="120-121" xml:id="VAC6678-00000057"/>&#xD;
 I.    -x,&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -6567,7 +6572,7 @@ your father."&#xD;
 _                                                _                    _   _                          ..  .._       -                     -    -                                                                    a___4&#xD;
 yi&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC6678-00000058"/>&#xD;
+<pb n="122-123" xml:id="VAC6678-00000058"/>&#xD;
 122&#xD;
 &#xD;
 HEADS AND HEARTS OB,&#xD;
@@ -6698,7 +6703,7 @@ t                          LL                                                   
 .&#xD;
 ' ,    w ''.&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC6678-00000059"/>&#xD;
+<pb n="124-125" xml:id="VAC6678-00000059"/>&#xD;
 I&#xD;
 &#xD;
 124&#xD;
@@ -6836,7 +6841,7 @@ came here to blast you with the sight of one so deeply guilty as I am! (Io&#xD;
 &#xD;
 MY   Q° HF , 'rah COLQNEL.&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC6678-00000060"/>&#xD;
+<pb n="126-127" xml:id="VAC6678-00000060"/>&#xD;
 [26&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -6967,7 +6972,7 @@ NrnL&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC6678-00000061"/>&#xD;
+<pb n="128-129" xml:id="VAC6678-00000061"/>&#xD;
 "Pl r  rrfr. a un-&#xD;
 &#xD;
 128&#xD;
@@ -7097,7 +7102,7 @@ living man.&#xD;
 -L&#xD;
 I-s&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC6678-00000062"/>&#xD;
+<pb n="130-131" xml:id="VAC6678-00000062"/>&#xD;
 't&#xD;
 &#xD;
 130&#xD;
@@ -7228,7 +7233,7 @@ The colonel paced the room twice.&#xD;
 &#xD;
 ,'&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC6678-00000063"/>&#xD;
+<pb n="132-133" xml:id="VAC6678-00000063"/>&#xD;
 r I'&#xD;
 &#xD;
 13M&#xD;
@@ -7362,7 +7367,7 @@ Ty       3             _.&#xD;
 _                                                                                               I" {                          i&#xD;
 -                                                                                                                                                -&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC6678-00000064"/>&#xD;
+<pb n="134-135" xml:id="VAC6678-00000064"/>&#xD;
 184&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -7496,7 +7501,7 @@ E&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC6678-00000065"/>&#xD;
+<pb n="136-137" xml:id="VAC6678-00000065"/>&#xD;
 136                 HEADS AND HEARTS; OR,&#xD;
 " Why-a--ftha's good when you sent him. We all came to that conclu-&#xD;
 sion afterwards, for after taxing my memory, and a deuce of a trouble it was,&#xD;
@@ -7589,7 +7594,7 @@ L  t_ ET&#xD;
 &#xD;
 . ,.m.    , _.    _,           r&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC6678-00000066"/>&#xD;
+<pb n="138-139" xml:id="VAC6678-00000066"/>&#xD;
 a&#xD;
 &#xD;
 1&amp;amp;8                 HEADS AND HEARTS; OR,&#xD;
@@ -7714,7 +7719,7 @@ I&#xD;
 &#xD;
 -.             _&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC6678-00000067"/>&#xD;
+<pb n="140-141" xml:id="VAC6678-00000067"/>&#xD;
 MY BROTHER, THE COLONEL.                     11&#xD;
 CHAPTER XXXVIII.&#xD;
 It wanted a little persuasion upon the part of the young captain to get Abel&#xD;
@@ -7779,7 +7784,7 @@ f&#xD;
 ',&#xD;
 _&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC6678-00000068"/>&#xD;
+<pb n="142-143" xml:id="VAC6678-00000068"/>&#xD;
 I.&#xD;
 &#xD;
 4'&#xD;
@@ -7893,7 +7898,7 @@ Y~l111r      . ='S         ear, :/&#xD;
 &#xD;
 LL. Tt hm1 _____________________________________________&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC6678-00000069"/>&#xD;
+<pb n="144-145" xml:id="VAC6678-00000069"/>&#xD;
 Ii&#xD;
 &#xD;
 144&#xD;
@@ -8032,7 +8037,7 @@ _       ",_&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC6678-00000070"/>&#xD;
+<pb n="146-147" xml:id="VAC6678-00000070"/>&#xD;
 .-&#xD;
 &#xD;
 146&#xD;
@@ -8161,7 +8166,7 @@ but that she had encountered Elk, appeared to him to be propositions not at&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC6678-00000071"/>&#xD;
+<pb n="148-149" xml:id="VAC6678-00000071"/>&#xD;
 MY BROTHER, THE COLONEL.                     149&#xD;
 "Not so loud, my lord.&#xD;
 "Good. I suspect he is playing with me, and that is what I do not feel&#xD;
@@ -8229,7 +8234,7 @@ in common with the human race, that delicious mixed Character-'-he !-he !&#xD;
 -a _ ..&#xD;
 ,&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC6678-00000072"/>&#xD;
+<pb n="150-151" xml:id="VAC6678-00000072"/>&#xD;
 MY BROTHER, THE COLONEL.                      151&#xD;
 the dagger gleamed for a moment;like a comet in the moonlight, and the next&#xD;
 instant it was buried to the hilt in the heart of Lord Carlin.&#xD;
@@ -8296,7 +8301,7 @@ I&#xD;
 Ig&#xD;
 +  T&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC6678-00000073"/>&#xD;
+<pb n="152-153" xml:id="VAC6678-00000073"/>&#xD;
 IADaS AND nEArs  O,                   Y  OT;C     NL1&#xD;
 &#xD;
 There was no reply. and the house seemed to be as still as death itself--as&#xD;
@@ -8404,7 +8409,7 @@ Xg&#xD;
 &#xD;
 MY BROTHEf  THE COLONEL.&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC6678-00000074"/>&#xD;
+<pb n="154-155" xml:id="VAC6678-00000074"/>&#xD;
 I&#xD;
 &#xD;
 MY BROTHER, THE COLONEL.                     15&#xD;
@@ -8467,7 +8472,7 @@ IUIuI IL  1*$*        pTJ if                                                    
 &#xD;
 . _    ._    _  is        ..            . _  ,.. z.« ,,}"     -,,..,a u     n--'    " -  r -, ,.,b. r.m tr        :-s.= ..y   -* s«,..   : -..-,  .._,.,  .-,., . ....,+ti... ......, aa.. t-  -se:. :, .9. ~ .&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC6678-00000075"/>&#xD;
+<pb n="156-157" xml:id="VAC6678-00000075"/>&#xD;
 156&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -8603,7 +8608,7 @@ i                                i6&#xD;
 &#xD;
 ,          .,      _.&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC6678-00000076"/>&#xD;
+<pb n="158-159" xml:id="VAC6678-00000076"/>&#xD;
 1.- :,  ,,&#xD;
 &#xD;
 158&#xD;
@@ -8746,7 +8751,7 @@ _,&#xD;
 ;&#xD;
 -,&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC6678-00000077"/>&#xD;
+<pb n="160-161" xml:id="VAC6678-00000077"/>&#xD;
 HEADS AND HEARTS; OR,&#xD;
 &#xD;
 "A man, I say, be a man. Discard these unworthy fears, and speak to&#xD;
@@ -8891,7 +8896,7 @@ MY BROTHER, THE COLONEL.&#xD;
 &#xD;
 160&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC6678-00000078"/>&#xD;
+<pb n="162-163" xml:id="VAC6678-00000078"/>&#xD;
 PV&#xD;
 &#xD;
 162&#xD;
@@ -9029,7 +9034,7 @@ q&#xD;
 I&#xD;
 r&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC6678-00000079"/>&#xD;
+<pb n="164-165" xml:id="VAC6678-00000079"/>&#xD;
 I f&#xD;
 &#xD;
 164&#xD;
@@ -9162,7 +9167,7 @@ I&#xD;
 &#xD;
 ,.:, .. ,&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC6678-00000080"/>&#xD;
+<pb n="166-167" xml:id="VAC6678-00000080"/>&#xD;
 I&#xD;
 &#xD;
 166&#xD;
@@ -9289,7 +9294,7 @@ I&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC6678-00000081"/>&#xD;
+<pb n="168-169" xml:id="VAC6678-00000081"/>&#xD;
 UEAI)S AND HEARTS OR&#xD;
 &#xD;
 "Oh, yes, he just mentioned to me a friend of his would be here, and you&#xD;
@@ -9389,7 +9394,7 @@ AV&#xD;
 "'&#xD;
 . .&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC6678-00000082"/>&#xD;
+<pb n="170-171" xml:id="VAC6678-00000082"/>&#xD;
 170&#xD;
 &#xD;
 HEADS AND HEARTS ; ,OR&#xD;
@@ -9518,7 +9523,7 @@ ItHappears that we must stop; for if I mistake not, here we are at the top&#xD;
 &#xD;
 tl&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC6678-00000083"/>&#xD;
+<pb n="172-173" xml:id="VAC6678-00000083"/>&#xD;
 172&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -9653,7 +9658,7 @@ n       4.,.     -&#xD;
 _     r..    x          ..r                  -'a "        .ter              A   ''#   " V +rcG&#xD;
 '                                   ._           t                    _       w                               _                                                  '°"°aNh+m^v5=          ._2 ',4t1-tiar ^w++t w..w....   ...&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC6678-00000084"/>&#xD;
+<pb n="174-175" xml:id="VAC6678-00000084"/>&#xD;
 174&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -9777,7 +9782,7 @@ x_                                      .&#xD;
 &#xD;
 smannem&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC6678-00000085"/>&#xD;
+<pb n="176-177" xml:id="VAC6678-00000085"/>&#xD;
 .&#xD;
 &#xD;
 fIEADS  ND HE.lrTS; 0Rs&#xD;
@@ -9916,7 +9921,7 @@ _&#xD;
 '&#xD;
 ..  ;_&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC6678-00000086"/>&#xD;
+<pb n="178-179" xml:id="VAC6678-00000086"/>&#xD;
 g&#xD;
 t --&#xD;
 - , -, , :&#xD;
@@ -10054,7 +10059,7 @@ i&#xD;
 &#xD;
 t ,_&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC6678-00000087"/>&#xD;
+<pb n="180-181" xml:id="VAC6678-00000087"/>&#xD;
 p&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -10200,7 +10205,7 @@ _       -                          -&#xD;
 -         _   :-&#xD;
 ,-                ' _         -&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC6678-00000088"/>&#xD;
+<pb n="182-183" xml:id="VAC6678-00000088"/>&#xD;
 b&#xD;
 &#xD;
 MY BROTHER, TH-E COLONEL.&#xD;
@@ -10325,7 +10330,7 @@ s&#xD;
 "&#xD;
 . $r .&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC6678-00000089"/>&#xD;
+<pb n="184-185" xml:id="VAC6678-00000089"/>&#xD;
 I4&#xD;
 &#xD;
 MY BROTHER THE COLONEL.&#xD;
@@ -10425,7 +10430,7 @@ idity-poor Jobus, appeared yet ?"&#xD;
 ,&#xD;
 aF;&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC6678-00000090"/>&#xD;
+<pb n="186-187" xml:id="VAC6678-00000090"/>&#xD;
 I.&#xD;
 &#xD;
 186&#xD;
@@ -10612,7 +10617,7 @@ f&#xD;
 = ,&#xD;
 .  &#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC6678-00000091"/>&#xD;
+<pb n="188-189" xml:id="VAC6678-00000091"/>&#xD;
 If-&#xD;
 &#xD;
 188                 hEADS AND HEARTS ; OR,&#xD;
@@ -10740,7 +10745,7 @@ Henceforth, we never meet again ; and as for the innocent persons here, and.&#xD
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC6678-00000092"/>&#xD;
+<pb n="190-191" xml:id="VAC6678-00000092"/>&#xD;
 1;&#xD;
 &#xD;
 190&#xD;
@@ -10870,7 +10875,7 @@ MY BROTHER, THE COLONEL.&#xD;
 &#xD;
 191&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC6678-00000093"/>&#xD;
+<pb n="192-193" xml:id="VAC6678-00000093"/>&#xD;
 F&#xD;
 &#xD;
 192&#xD;
@@ -11022,7 +11027,7 @@ G&#xD;
 &#xD;
 '. . ....e....&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC6678-00000094"/>&#xD;
+<pb n="194-195" xml:id="VAC6678-00000094"/>&#xD;
 194&#xD;
 &#xD;
 HEADS AND HEARTS; OR,&#xD;
@@ -11188,7 +11193,7 @@ s F&#xD;
 &#xD;
 195&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC6678-00000095"/>&#xD;
+<pb n="196-197" xml:id="VAC6678-00000095"/>&#xD;
 Mt BROTHER' TIE COL'ONEL.19&#xD;
 &#xD;
 196&#xD;
@@ -11333,7 +11338,7 @@ y.                                                 _                         ,  
 &#xD;
 197&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC6678-00000096"/>&#xD;
+<pb n="198-199" xml:id="VAC6678-00000096"/>&#xD;
 198&#xD;
 &#xD;
 HEADS AND HEARTS; OR&#xD;
@@ -11477,7 +11482,7 @@ f,&#xD;
 .&#xD;
 -_  .&#xD;
 &#xD;
-<pb  n="200" xml:id="VAC6678-00000097"/>&#xD;
+<pb n="200" xml:id="VAC6678-00000097"/>&#xD;
 200                   t HEADS AND H ARTS.&#xD;
 "Stop him !" shouted the officer.&#xD;
 "Ha-ha !" cried Elk, "not caught yet. Oh, God'! Gone !"&#xD;
@@ -11542,8 +11547,8 @@ t&#xD;
 &#xD;
 &#xD;
   &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

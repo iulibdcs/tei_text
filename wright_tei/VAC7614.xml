@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7614">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7614">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Maid of the Ranche, or, The Regulators and Moderators </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>The Maid of the Ranche, or, The Regulators and Moderators </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7614</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7614</idno>
+            <idno type="wright2" n="previous">wright2-2072</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The maid of the Ranche, or, The regulators and moderators</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>The maid of the Ranche, or, The regulators and moderators</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date >[186-]</date>
+                  <date>[186-]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-02-16">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-02-16">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The maid of the Ranche, or, The regulators and moderators</head> 
+            <head>The maid of the Ranche, or, The regulators and moderators</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7614-00000001"/>THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7614-00000001"/>THE&#xD;
 &#xD;
 MAID OF THE RANOItE&#xD;
 OR, THE&#xD;
@@ -103,7 +108,7 @@ PEEUD~lt1    A. BRAD, P1uhliir,&#xD;
 i&#xD;
 f&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7614-00000002"/>&#xD;
+<pb n="" xml:id="VAC7614-00000002"/>&#xD;
 THE MAID OF TE1ANCII&#xD;
 By Dr. J. H. Robinson.&#xD;
 C H A P T E R I..&#xD;
@@ -159,7 +164,7 @@ x&#xD;
 &#xD;
 i e   P  y             "&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7614-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7614-00000003"/>&#xD;
 8&#xD;
 &#xD;
 Tim MAID OF THE RANCHE.&#xD;
@@ -255,7 +260,7 @@ ptessibn of hisresentient   N&#xD;
 "'YTu have affirmed," resumed.oel " that .e can't usearifle,,now in&#xD;
 estimation, that remains to be proved. The lad is perhaps ss ldfulin tha hie&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7614-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7614-00000004"/>&#xD;
 0Tm MAin or THE RANCH.&#xD;
 &#xD;
 as you or 1. I've watched him pretty closely, and concluded at last, that Mau-&#xD;
@@ -355,7 +360,7 @@ got any courage or honor, you'll, promise to meet ,ne, aised and eq ped, a.&#xD;
 " Speak and tell me what satisfaction you require ?" said the young hunter.&#xD;
 "Nothia' very wonderful-only that we should stand up at a convenient di.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7614-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7614-00000005"/>&#xD;
 la&#xD;
 &#xD;
 e insuch a rlaner as to look right uttaight into the ;mu sles of :eah 4tls&#xD;
@@ -446,7 +451,7 @@ bteeryy and address. Yon are chief of theLiipanat"&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7614-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7614-00000006"/>&#xD;
 14THE MAID -OF THE RANCH.&#xD;
 " Yes, white man, I am the chief of the Lipans. We have dug up the hatch.&#xD;
 et, to wipe out the wrongs which we have suffered at the hands of the Caman-&#xD;
@@ -539,7 +544,7 @@ on'the point of rising to leave the spot when a sharp cry, as of fear, reached h
 ears. Snatching his rifle instantly from the ground, he ran towards the thicket.&#xD;
 Honest was equally active, and bounded with a threatening growl in the same'&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7614-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7614-00000007"/>&#xD;
 tO              Tait, MAin of    E RAiron&#xD;
 direc' iin: *ith 1fig'htand 'agile ate i', ta~per :sprang' throes h ' the cor i!6i at&#xD;
 trees 'bat sBut nt uthe bowel, of the miden, and' bias wt &amp;amp;fiafW yards oathef&#xD;
@@ -627,7 +632,7 @@ ectelysdrew 1 h p  ~os froi  is; belt a 4dfired the  u ath fine i asun ex .&#xD;
 " Do not let the dog kill the poor wretch,", said Iris,  who ,  p1ljes, were&#xD;
 now excited for the saffei~er,                       .&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7614-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7614-00000008"/>&#xD;
 0&#xD;
 &#xD;
 38&#xD;
@@ -724,7 +729,7 @@ gers can get the hang of the country."&#xD;
 .&#xD;
 r&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7614-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7614-00000009"/>&#xD;
 I&#xD;
 &#xD;
 Tgg MAIiD OF THE BNCS.&#xD;
@@ -824,7 +829,7 @@ Haryer.&#xD;
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7614-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7614-00000010"/>&#xD;
 1'&#xD;
 &#xD;
 2-                    THsa MAID OF THE RANCHE.&#xD;
@@ -923,7 +928,7 @@ peril come as quickly asit may.; it will,aford me amusement, and. preventm.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7614-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7614-00000011"/>&#xD;
 w4&#xD;
 &#xD;
 T u: fl[D iowpmTAN. im&#xD;
@@ -1007,7 +1012,7 @@ and .then, straightening up, said, in a voice from which all traces of'$ :decisi
 &#xD;
 I5&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7614-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7614-00000012"/>&#xD;
 0&#xD;
 &#xD;
 T11 1HAID OF THE RANCHE-&#xD;
@@ -1104,7 +1109,7 @@ be out-witted or over-reached; but I have sounded you, and know your mental&#xD;
 &#xD;
 THE MAID OF' THE RANCH.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7614-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7614-00000013"/>&#xD;
 28&#xD;
 &#xD;
 T&amp;amp;. M inOF TRE0i&#xD;
@@ -1201,7 +1206,7 @@ self ?" continued Maurice, in the same serious voi&#xD;
 "I aint prepared to die," said Meltiab.&#xD;
 4'Neitherare godprepsred toylive."&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7614-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7614-00000014"/>&#xD;
 80-        -         TnE MAID oF THE R4NCHE.&#xD;
  tou couldn't think of killing.a fellow in this cold-blooded sort of a way !&#xD;
 Come, you're only ,anterin' like," resumed Meltiah, in an unsteady voice.&#xD;
@@ -1291,7 +1296,7 @@ could not refrain from  manifesting more: marked evidences of confusion. Shp&#xD
 did what ladies are apt to do when obliged to speak of certain persons.-blnshe?&#xD;
 ...atthe sainetiume trying to display the utmost nonchalance and indifference.&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7614-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7614-00000015"/>&#xD;
 Tau. MAID OF -THE RAN       .&#xD;
 NI may justly say that I owe m delivery from insut paxtly to a dg ':'&#xD;
 said, With a smile.                                       -&#xD;
@@ -1386,7 +1391,7 @@ for the pure apd gpileless was seldom found in that wild region. Miss  athbura&#
 was idterested in the ydug str gepr aotng'te-oand to hear such astound-&#xD;
 i ag disclosures relative to hin, uite ovtromeher.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7614-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7614-00000016"/>&#xD;
 84                   Tne M=D OF THE .RmacE.&#xD;
 Asshe approached the Ranche, she sawN Noel Noon near the corral, convers-&#xD;
 ing with Ramona. She slowly advanced and joined them, which, circumstance&#xD;
@@ -1474,7 +1479,7 @@ half frantic with delight :at the near prospect of a conflict. Hollowing and&#xD
 screaming wildly, he disappeared in the thicket, and his shrill voice was heard a&#xD;
 moment after in the small plateau beyond,&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7614-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7614-00000017"/>&#xD;
 36,&#xD;
 &#xD;
 THE Mxm of aUE. iiwr .&#xD;
@@ -1570,7 +1575,7 @@ vicinity that can look through the double sights.'&#xD;
 5&#xD;
 M' h OF 'IHL RA1w i .&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7614-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7614-00000018"/>&#xD;
 38&#xD;
 &#xD;
 THE   AID OF THE RANCHE.&#xD;
@@ -1671,7 +1676,7 @@ path.&#xD;
 "Be on your guard against Manl Hart and his two-villains,' said Noel to&#xD;
 Maurice, as they took trees near each other.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7614-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7614-00000019"/>&#xD;
 TM, Mai'. o ran .wca&#xD;
 "sThey'll belikely to getout afrthis  iges  spouos, possible,or .I 49 t&#xD;
 Xen  ijotbin' (of their naturs "-s  eraid Lor i .t'"&#xD;
@@ -1771,7 +1776,7 @@ I' was quiet evening hour. The fight had ended. The foe-ha4 bee repulsed,&#xD;
 and the survivors were'resting-after'the fatigues of the contest.  Harper was&#xD;
 alone, not far from the place where the new company was to rendezvous.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7614-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7614-00000020"/>&#xD;
 42                    THE MAID OF TIE RANCE.&#xD;
 The day just ended, had furnished his first experience in warfare,:and he natu.&#xD;
 rally dwelt on the scenes through which he had passed. He had shed blood, and&#xD;
@@ -1865,7 +1870,7 @@ elusively to myself."&#xD;
 &#xD;
 t S.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7614-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7614-00000021"/>&#xD;
 '4&#xD;
 &#xD;
 0&#xD;
@@ -1961,7 +1966,7 @@ and kind of prepare him for the'disappointment," said Noon.&#xD;
 &#xD;
 Txt  MAID -OF -;THERANCHE.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7614-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7614-00000022"/>&#xD;
 TAE- MAID OF THE - RANCHES.&#xD;
 Noel advanced to meet Harper, who was already coming towards him with&#xD;
 Doryille.&#xD;
@@ -2054,7 +2059,7 @@ fron Mexican ttirall."&#xD;
 " I trust none of ua have any selfish incentives toseek the field. At least, I&#xD;
 qaa speak for my two friends here," replied Harper.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7614-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7614-00000023"/>&#xD;
 48                   TMe MAI - OF "TA:E  A oC.&#xD;
 .oebne seintimated to Mauriehetthe beld like to iave-msore;na'uver stios&#xD;
 rih imnd rm-inatn theywalked way.&#xD;
@@ -2135,7 +2140,7 @@ though, on the first fire."&#xD;
 &#xD;
 rt&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7614-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7614-00000024"/>&#xD;
 50                   THm MAID OF THE' RANCHE.&#xD;
 " Such fights are dreadful to think of! Why do the Moderators and Regula.&#xD;
 tors assume sttchrahostile attitude towardseach other ?1&#xD;
@@ -2231,7 +2236,7 @@ t choose to be watched in an unkindly manner."&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7614-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7614-00000025"/>&#xD;
 THE  MAID or s' vn  Axrc~x.&#xD;
 &#xD;
 t WNatched?" repeated Haaper, in a deprecating tone.&#xD;
@@ -2330,7 +2335,7 @@ nearer-I wish to question gou before I consideryouer erranosiosly'&#xD;
 "Better git ready to go. nor lose no:tmne. Espect that-tie India*Ill be&#xD;
 down on the Ranche every minit."&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7614-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7614-00000026"/>&#xD;
 54                    Tass MAID OF THE .RANOH!.&#xD;
 "I am afraid to gowith this person," said Ramona, promptly.&#xD;
 So.apm I, and Lrefuse, without further question, to lease home;" added Iris,&#xD;
@@ -2425,7 +2430,7 @@ not Io easily extricate himself from the difficulty in which he had become invol
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7614-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7614-00000027"/>&#xD;
 O- TM                        bF .: MAn 'OF uIE nANE.&#xD;
 ed, Honest having worried him unuiercifally, and'still CotinUing to ip ish= him&#xD;
 in  a  iida  thiaetthreteaiedt-finalettintion° of life.&#xD;
@@ -2521,7 +2526,7 @@ way the wind blows, and will not At this time boast myown 1supefior courage,&#xD
 yet it is evident ' to me that a gross pines, 'of"knavery has' been attempted, and&#xD;
 that Meltiah Moss and Jack Lawless are not at the bottom of it."&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7614-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7614-00000028"/>&#xD;
 58                  .TaE MAID OF TH- IS   ANCHIE.&#xD;
 Bamona and Iris looked atseach other'inquiringly, as if to read each-other's&#xD;
 thoughts, and ask what might be the nature of theirlfriends' reflections.  .&#xD;
@@ -2633,7 +2638,7 @@ s4&#xD;
 r&#xD;
 t&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7614-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7614-00000029"/>&#xD;
 e1                    Ta            " or                r       _&#xD;
 Wwm t Lorrimer .ndon had lek the de2il6,lioitlle lingered on the threh-&#xD;
 old. jris.and Rsnona were near him. lie tQo the hand' of the f6rmerin his.&#xD;
@@ -2694,7 +2699,7 @@ wii vou not mention name t'.&#xD;
 &#xD;
 '    .E M LAn . o~'  HE ;1  CB&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7614-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7614-00000030"/>&#xD;
 62&#xD;
 &#xD;
 TfHE MAID OF THE inches '&#xD;
@@ -2800,7 +2805,7 @@ question, and he tried to dismiss it altogether as idle and even;whimsical.&#xD;
 &#xD;
 /V&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7614-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7614-00000031"/>&#xD;
 64                  Ts MD or fTHE    R A;cau,&#xD;
 When atjpngth sleep overpoweredlip, he was thinking of Iris Rathburningd&#xD;
 regretting Ihat she had misunderstood him. Her idea followed him intolgis&#xD;
@@ -2899,7 +2904,7 @@ in and the enemy did not appear. *The e' eWe 1passedlittout disttrbade.&#xD;
 :&#xD;
 p&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7614-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7614-00000032"/>&#xD;
 61          Tn M4ID .-F rTHE R&amp;amp;NcHsp&#xD;
 &#xD;
 At about ten o'c1qck a half-breed came into camp,;bringing- the report-that&#xD;
@@ -3017,7 +3022,7 @@ I&#xD;
 t"4&#xD;
 E i&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7614-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7614-00000033"/>&#xD;
 as gBE Ilr:OF THE ,BANSE.&#xD;
 "I believe the Grea :Spirit sometimesspeaks to me in dreams and visions'of&#xD;
 the darknight,",saidMaaribe.&#xD;
@@ -3116,7 +3121,7 @@ r,&#xD;
 &#xD;
 . t&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7614-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7614-00000034"/>&#xD;
 THE MAID oF THE RANCHE.&#xD;
 CHAPTER XL&#xD;
 THE AMBUSOADI .&#xD;
@@ -3230,7 +3235,7 @@ r{&#xD;
 kYI&#xD;
 Nii&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7614-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7614-00000035"/>&#xD;
 72                 TRE MAID OF THE RANCHE&#xD;
 terms had been 'thoroughly discussed,,"who mustn't Suriive the surprise, andl'I&#xD;
 want that to be understood."              '&#xD;
@@ -3359,7 +3364,7 @@ s&#xD;
 J&#xD;
 I'T&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7614-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7614-00000036"/>&#xD;
 A4&#xD;
 &#xD;
 THE MAID OF T   RANcHE.&#xD;
@@ -3486,7 +3491,7 @@ I' j  666gg&#xD;
 (41&#xD;
 I R&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7614-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7614-00000037"/>&#xD;
 70Q&#xD;
 &#xD;
 THE MAID OF THE RANCRE.&#xD;
@@ -3576,7 +3581,7 @@ i&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7614-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7614-00000038"/>&#xD;
 789&#xD;
 &#xD;
 THE MAID OF\ THE RANCH.&#xD;
@@ -3735,7 +3740,7 @@ r+l[+&#xD;
 Yypt&#xD;
 'I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7614-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7614-00000039"/>&#xD;
 8o&#xD;
 &#xD;
 THE MAID OF THE flANCHE.&#xD;
@@ -3886,7 +3891,7 @@ I  .&#xD;
 i '&#xD;
 '         r&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7614-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7614-00000040"/>&#xD;
 THE MAID OF THE- RANCHE.&#xD;
 &#xD;
 genge is paramount with bad men. Hart had objects to gain, and putting&#xD;
@@ -4024,7 +4029,7 @@ tg.&#xD;
 f-&#xD;
 JJ&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7614-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7614-00000041"/>&#xD;
 ( )&#xD;
 &#xD;
 THE MAID OF THE RANCHE.&#xD;
@@ -4175,7 +4180,7 @@ R   .                           ,yU&#xD;
 &#xD;
 4 85&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7614-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7614-00000042"/>&#xD;
 THE MAID- of THE RAIOHIC&#xD;
 "Or like a tree that shelters one as doesn't like to fight in the open air, with&#xD;
 nothin' afore him,," said Meltiah, sentimentally.&#xD;
@@ -4320,7 +4325,7 @@ r mss'&#xD;
 r&#xD;
 '3&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7614-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7614-00000043"/>&#xD;
 88                   THE MAID OF THE RANCHES&#xD;
 wall of considerable strength, and had formerly been .a convent of some note&#xD;
 but had now fallen into decay and neglect, and had, of late years, been inhabited&#xD;
@@ -4433,7 +4438,7 @@ ceptions of a parent, I behold, with secret dread, his increasing sternness.. Sh
 I say it, Ramon,-- he never was to me a father, and the chords of my affections&#xD;
 never responded to what few words of endearment he may have bestowed upon&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7614-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7614-00000044"/>&#xD;
 30         -          Tai AMAin o IriS  ANCHE.&#xD;
 me in happier days. There has been'(whyslhold I conceal it) an itnpassable&#xD;
 gulf between us. I could not pass over to him, because the abyss intervening&#xD;
@@ -4577,7 +4582,7 @@ Kf&#xD;
 t&#xD;
 t .&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7614-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7614-00000045"/>&#xD;
 92'          TE MAID OF'THE RANCHE.&#xD;
 &#xD;
 trace hisflight. 'They would accompany him, and cheerfully share his fortunes&#xD;
@@ -4719,7 +4724,7 @@ THE MAID, OF THE BRANCH.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7614-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7614-00000046"/>&#xD;
 I&#xD;
 &#xD;
 .TH  MAID OF THE   CAHNo.&#xD;
@@ -4839,7 +4844,7 @@ her truant thoughts-to cluster about honest 1oel Noon."&#xD;
 " Beware, Mr. Dorvilte!" said Ramoha, shaking her finger playfully. You&#xD;
 snust not discover all our secrets at once."&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7614-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7614-00000047"/>&#xD;
 I&#xD;
 &#xD;
 I&#xD;
@@ -4964,7 +4969,7 @@ tilit' intended to come 'afterwards."&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7614-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7614-00000048"/>&#xD;
 I&#xD;
 &#xD;
 Tom MAID O' TUE R       cHlS.&#xD;
@@ -5086,7 +5091,7 @@ scented him like a hound, and Iris, havia' grown to a pretty young woman, ]&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7614-00000049"/>&#xD;
+<pb n="100-101" xml:id="VAC7614-00000049"/>&#xD;
 /4  .&#xD;
 &#xD;
 10                   THE MAID OF THE IJANCHE.&#xD;
@@ -5144,8 +5149,8 @@ t.   T KK    E N    '.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7769">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7769">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >As Good as a Comedy, or, The Tennessean's Story </title>
-            <author >Simms, William Gilmore, (1806-1870)</author>
+            <title>As Good as a Comedy, or, The Tennessean's Story </title>
+            <author>Simms, William Gilmore, (1806-1870)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7769</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7769</idno>
+            <idno type="wright2" n="previous">wright2-2220</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >As good as a comedy, or, The Tennessean's story</title>
-                  <author >Simms, William Gilmore, (1806-1870)</author>
+                  <title>As good as a comedy, or, The Tennessean's story</title>
+                  <author>Simms, William Gilmore, (1806-1870)</author>
                </titleStmt>
-               <extent >xxiii [25]-251 p. </extent>
+               <extent>xxiii [25]-251 p. </extent>
                <publicationStmt>
-                  <publisher >A. Hart</publisher>
+                  <publisher>A. Hart</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-28">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-28">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>As good as a comedy, or, The Tennessean's story</head> 
+            <head>As good as a comedy, or, The Tennessean's story</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC7769-00000001"/>AS GOOD AS A COMEDY:&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC7769-00000001"/>AS GOOD AS A COMEDY:&#xD;
 OR, THE&#xD;
 TENNESSEEAN'S STORY.&#xD;
 &#xD;
@@ -101,7 +106,7 @@ A. HART, LATE CAREY AND HART,&#xD;
 126 CHESTNUT STREET.&#xD;
 1852.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7769-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7769-00000002"/>&#xD;
 Entered according to the Act of Congress, in the year 1862, by&#xD;
 A. JIA1~T,&#xD;
 in the Office of the Clerk o$~ the Districi~ Court in and for the Eastern&#xD;
@@ -131,7 +136,7 @@ TO IIAR1~Y PLACID.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7769-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7769-00000003"/>&#xD;
 ADVERTISEMENT.&#xD;
 IN good faith, I very sincemly hope that&#xD;
 *                      which this, little volume bears upon its f~ce&#xD;
@@ -184,7 +189,7 @@ blunder&#xD;
 rho was&#xD;
 ,omedy,&#xD;
 &#xD;
-<pb  n="vi-vii" xml:id="VAC7769-00000004"/>&#xD;
+<pb n="vi-vii" xml:id="VAC7769-00000004"/>&#xD;
 ADVERTISEMENT.&#xD;
 &#xD;
 and do all my laughing in tha wrong place, and after&#xD;
@@ -233,7 +238,7 @@ VI&#xD;
 &#xD;
 U&#xD;
 &#xD;
-<pb  n="viii-ix" xml:id="VAC7769-00000005"/>&#xD;
+<pb n="viii-ix" xml:id="VAC7769-00000005"/>&#xD;
 Viii                 PROEM.&#xD;
 &#xD;
 "Hech! There we go I"&#xD;
@@ -311,7 +316,7 @@ seemed to lie in the amiable good-nature with which&#xD;
 certain balls, precipitating themselves upon: e~ertMn.&#xD;
 levers, would thus continue a series of ground. and lofty&#xD;
 &#xD;
-<pb  n="x-xi" xml:id="VAC7769-00000006"/>&#xD;
+<pb n="x-xi" xml:id="VAC7769-00000006"/>&#xD;
 I&#xD;
 &#xD;
 PRO1EM.&#xD;
@@ -384,7 +389,7 @@ apologetically; - '~nd if ?twa~i1d 'be any satisfac~jo~&#xD;
 &#xD;
 KOMM.&#xD;
 &#xD;
-<pb  n="xii-xiii" xml:id="VAC7769-00000007"/>&#xD;
+<pb n="xii-xiii" xml:id="VAC7769-00000007"/>&#xD;
 F&#xD;
 &#xD;
 ?RO0EM.&#xD;
@@ -462,7 +467,7 @@ eyen ,our ~orth 'CaroJi~iiani ~roused '~hims~lf up ~with~~&#xD;
 &#xD;
 xii&#xD;
 &#xD;
-<pb  n="xiv-xv" xml:id="VAC7769-00000008"/>&#xD;
+<pb n="xiv-xv" xml:id="VAC7769-00000008"/>&#xD;
 j:&#xD;
 &#xD;
 flw~.&#xD;
@@ -537,7 +542,7 @@ really wanted. I' contrived, after a desperate effort, to&#xD;
 satisfy him, and, in some degr~ae; n~y'seW&#xD;
 ",I can't~ somehow, tnik~ easy,~f i~y~rms.~ ain't&#xD;
 &#xD;
-<pb  n="xvi-xvii" xml:id="VAC7769-00000009"/>&#xD;
+<pb n="xvi-xvii" xml:id="VAC7769-00000009"/>&#xD;
 /&#xD;
 &#xD;
 - i.&#xD;
@@ -612,7 +617,7 @@ so imposed on. ]3y the powers'!. I~d Bght t&amp;amp;the stun4,&#xD;
 9*&#xD;
 'K&#xD;
 &#xD;
-<pb  n="xviii-xix" xml:id="VAC7769-00000010"/>&#xD;
+<pb n="xviii-xix" xml:id="VAC7769-00000010"/>&#xD;
 xViii&#xD;
 en~ d~yuid h~4 1iu1~ ?di xrnil~&amp;amp; th~ riiexv see~ tho~&#xD;
 th~#ot *~ak ~Wo~naiV wn~t~ t~ be~ the oily sufferer !?'~&#xD;
@@ -684,7 +689,7 @@ of arousing. sph'i~si.&#xD;
 &#xD;
 PMEM&#xD;
 &#xD;
-<pb  n="xx-xxi" xml:id="VAC7769-00000011"/>&#xD;
+<pb n="xx-xxi" xml:id="VAC7769-00000011"/>&#xD;
 P~dOAM-&#xD;
 &#xD;
 "A~y, Tenuessae, o~W witJ~ it, ~u ~iort orde~," §was the&#xD;
@@ -755,7 +760,7 @@ reckon you oan w~ke &amp;amp;~b~tter~ mouti ul ~f: V z1~ 1.&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="xxii-xxiii" xml:id="VAC7769-00000012"/>&#xD;
+<pb n="xxii-xxiii" xml:id="VAC7769-00000012"/>&#xD;
 V&#xD;
 &#xD;
 ,i&#xD;
@@ -832,7 +837,7 @@ V&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="xxiv-25" xml:id="VAC7769-00000013"/>&#xD;
+<pb n="xxiv-25" xml:id="VAC7769-00000013"/>&#xD;
 V&#xD;
 &#xD;
 K&#xD;
@@ -863,7 +868,7 @@ apparent as we proceed; 'a&amp;amp; it is apparent, -in f~oi~, tOF&#xD;
 the eye which contrasts the 'exterior ofits dwelling"widi&#xD;
 3:          '            '&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7769-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7769-00000014"/>&#xD;
 26          AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 that of the neighboring settlements among which it&#xD;
@@ -947,7 +952,7 @@ liarities of face. His dress is, simple, after an ordinary&#xD;
 fashion of the country, but is surprisingly neat and be-&#xD;
 coming. A loose blouse, rather more after the Choctaw&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7769-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7769-00000015"/>&#xD;
 28          AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 F&#xD;
@@ -1035,7 +1040,7 @@ w~ are not unconscious that the platter of white fresh&#xD;
 butter, that occupied~ a place in the centre of the table,&#xD;
 3*&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7769-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7769-00000016"/>&#xD;
 80          AS GOOD AS A COMEDY: OR,                              THE TENNESSEEAN'S STORY.         81&#xD;
 &#xD;
 i~ suggestive of a pitcher of foaming buttermilk that&#xD;
@@ -1118,7 +1123,7 @@ and.dangerous. passion. What remains to us of former&#xD;
 wealth was ,happily secured by my fathers providence.&#xD;
 We had else been destitute. You resemble your father&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7769-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7769-00000017"/>&#xD;
 V&#xD;
 &#xD;
 U&#xD;
@@ -1207,7 +1212,7 @@ of Hammond. "Something singular for you. Where&#xD;
 was you last night ?"&#xD;
 The inquirer darted a swift but half~smiling glance: of&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7769-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7769-00000018"/>&#xD;
 I&#xD;
 &#xD;
 84&#xD;
@@ -1268,7 +1273,7 @@ to have a very decided will of his own; the' other of&#xD;
 having a tendency to good-fellowship of every kind,&#xD;
 without losing his equilibrium, in the license which good-&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7769-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7769-00000019"/>&#xD;
 86          ~s ~oori AS A COMEDY: OR,&#xD;
 &#xD;
 fellowship among young men is supposed to engender.&#xD;
@@ -1353,7 +1358,7 @@ that, if we lose some of it, we lose nothing-~"&#xD;
 without any male attendance. In fact, I promised her&#xD;
 '4&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7769-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7769-00000020"/>&#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
 to be on the ground at the beginning, in order to let&#xD;
 her know all about the horses. She is full of it, and&#xD;
@@ -1440,7 +1445,7 @@ the chances that seem to encourage me. Thus far, we&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7769-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7769-00000021"/>&#xD;
 40          AS GOOD AS A COMEDY: OR,                                TUE TE~NE8SEEAN's 8TORY.         41.&#xD;
 &#xD;
 have both sought her without interference of each other.&#xD;
@@ -1528,7 +1533,7 @@ that I am a man now-&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7769-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7769-00000022"/>&#xD;
 42           AS GOOD AS A COMEDY OR,                                 TILE TENNESSEEAN'S STORY.&#xD;
 &#xD;
 4g&#xD;
@@ -1579,7 +1584,7 @@ extinct.&#xD;
 &#xD;
 42&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7769-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7769-00000023"/>&#xD;
 THE TENNESSEEAN'S STORY.          45&#xD;
 &#xD;
 44          AS GOOD AS A COMEDY: OR,&#xD;
@@ -1659,7 +1664,7 @@ courses wind beneath his sight. His eye becomes bright&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7769-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7769-00000024"/>&#xD;
 TUE ~TENI~1E55EEAN'8 STORY.           47&#xD;
 &#xD;
 46          AS GOOD AS A COMEDY: OR,&#xD;
@@ -1746,7 +1751,7 @@ horse and foot. Many of these have a deeper interest&#xD;
 &#xD;
 46&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7769-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7769-00000025"/>&#xD;
 48          AS GOOD AS A COMEDY: OR,                             TILE. TENNESSEEAN'$ STORY.       49&#xD;
 &#xD;
 in the progress of the day than arises from simple&#xD;
@@ -1829,7 +1834,7 @@ the voice of a "blood-o'nouns,"&#xD;
 a double muzzle? Ain't I here for the. saving of such&#xD;
 miserable ainn~rs as you, that~ never think you're half&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7769-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7769-00000026"/>&#xD;
 TH'E.~TE~K~,S$EEAN'S ~TOUY.&#xD;
 &#xD;
 50          A~ GOOD 'AS A COMEDY: OR,                                                         51&#xD;
@@ -1918,7 +1923,7 @@ when the race is of peculiar interest, when all ~rnall&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7769-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7769-00000027"/>&#xD;
 52         AS 'GOODAS' A COMEDY: OR,                          T~E~Ti~TXS$EEAN'5 0~ORY.      '53&#xD;
 &#xD;
 matters are necessarily merged in', the one result. But&#xD;
@@ -1984,7 +1989,7 @@ though on a~ ~omeWhat humble scale, is 'the sooner of -his&#xD;
 &#xD;
 , /&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7769-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7769-00000028"/>&#xD;
 64            As ooo~ ~AS A O0M~DY: OR,&#xD;
 victo4es. He knows every race-course and horse of&#xD;
 heels in Georgia; knows every jockey, and his dimen-&#xD;
@@ -2072,7 +2077,7 @@ a horse is a horse!"&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7769-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7769-00000029"/>&#xD;
 TILE TE~1NESSEEAW'~ $TOUY.&#xD;
 &#xD;
 A$ GOOD' AS 'A QO~EDt OR,&#xD;
@@ -2157,7 +2162,7 @@ bay mar'; old fellow.' I don't 'reckon' 'she'Jl 'find her&#xD;
 &#xD;
 N&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7769-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7769-00000030"/>&#xD;
 58          AS ~OOD AS A 'C0~DY: OR;                                 TUF TE~~SSE~AN'S ST0'X~Y.&#xD;
 &#xD;
 match' on this ground to-day."' 'So cried one of this&#xD;
@@ -2244,7 +2249,7 @@ soon brought' together, and, the sum ascertained, it was&#xD;
 &#xD;
 58&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7769-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7769-00000031"/>&#xD;
 4$ OOOP 4$ 4QO)~&#xD;
 60                              PY:9R,&#xD;
 piiekly ooyere~ by4rieuds~ of. Jake Owens,, who had ~&#xD;
@@ -2333,7 +2338,7 @@ berry above my persimmon, but I reckon something 'can&#xD;
 be done. I believe in 'Graystreak,' and will go my&#xD;
 ''6&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7769-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7769-00000032"/>&#xD;
 TilE TEN1~SS~EA~q'5 STORY.         68&#xD;
 &#xD;
 62          AS GOOD AS A COMEDY: OR~&#xD;
@@ -2418,7 +2423,7 @@ was Ramsey's shadow.&#xD;
 "Who's he ?" inquired Ramsey, in a whisper of Barry&#xD;
 himself.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7769-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7769-00000033"/>&#xD;
 TIlE TENNESSEEA~I'S STORY.&#xD;
 &#xD;
 64          AS GOOD AS A COMEDY: OR,&#xD;
@@ -2504,7 +2509,7 @@ one who was compelled to acknowledge the genius of&#xD;
 the superior:&#xD;
 6*&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7769-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7769-00000034"/>&#xD;
 THE TENNE$$EEAN'$. STORY.        6T&#xD;
 &#xD;
 66          AS GOOD AS A COMEDY: OR,&#xD;
@@ -2579,7 +2584,7 @@ Hammond replied to his inquiry:&#xD;
 &#xD;
 a6&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7769-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7769-00000035"/>&#xD;
 68          AS GOOD AS A COMEDY: OR,                              TIlE TENNESSEEAN'S STORY.       69&#xD;
 &#xD;
 "Something late? No! We are soon enough, I&#xD;
@@ -2662,7 +2667,7 @@ The 'party of Mrs. Foster consisted of that lady her-&#xD;
 self:, her step-daughter,' Mi~~ ~era1dine Foster, and her&#xD;
 niece; Sophia Blane, a girl of twelve. Mrs. Poster was&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7769-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7769-00000036"/>&#xD;
 V&#xD;
 &#xD;
 70           AS GOOD AS A COMEDY OR~&#xD;
@@ -2747,7 +2752,7 @@ and not 'the angel he addressed. '~This reserve seemed&#xD;
 to betray a caution which no maiden likes to detect in I&#xD;
 the approaches of her h~ver, and seemed to implyade-&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7769-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7769-00000037"/>&#xD;
 4~S GOOD AS A OO~EDY OR,'&#xD;
 &#xD;
 TII~ TE-N~SSEflAN'S STORY.&#xD;
@@ -2832,7 +2837,7 @@ the rpdw6uild not suffer froni an occasional 'rolL'amniig&#xD;
 the soft crimson mire of our own ~la~ hills; and as our&#xD;
 7'&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7769-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7769-00000038"/>&#xD;
 A~ GQ0D 'A5~ A COMEDY: OR,                             THE ~TE~NE~SEE4N's STORY.       76&#xD;
 &#xD;
 sporting gentlemen drink deep usually before they leave&#xD;
@@ -2914,7 +2919,7 @@ dine' ought to give them all the wind."&#xD;
 "No'! there's another~ animal~ that Ne~ Ramsey&#xD;
 claims. I never saw her before, and don't think a great&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7769-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7769-00000039"/>&#xD;
 76             AS (*OOD AS A. CO1~EDY: 0R~&#xD;
 &#xD;
 TUE TEN~ESS~EAN's STORY.        77&#xD;
@@ -2999,7 +3004,7 @@ out seeking always to test his speed;. at all events,&#xD;
 without seeking to game with it."&#xD;
 7*&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7769-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7769-00000040"/>&#xD;
 THE TENNESSflEA~1'5 STORY.         79&#xD;
 &#xD;
 78          AS GOOD AS A OOMBDY: OR~&#xD;
@@ -3085,7 +3090,7 @@ the most 'dogged, stubborn, slow-.-"&#xD;
 &#xD;
 h p&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7769-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7769-00000041"/>&#xD;
 TIlE TENNES$]~EAN'S STORY.          81.&#xD;
 &#xD;
 80          AS GOOD AS A CO~vIEDY: OR,&#xD;
@@ -3169,7 +3174,7 @@ all the fair women in~the world to plead."&#xD;
 pleading, he may do for bantering. ' here do for&#xD;
 I'm     for. 'that,&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7769-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7769-00000042"/>&#xD;
 82           AS GOOD AS A COMEDY: OR,&#xD;
 colonel, and I'll double upon the hundred against your&#xD;
 foreign horse."&#xD;
@@ -3252,7 +3257,7 @@ indeed, you think-"&#xD;
 he's so full of notions !" the step-mother again interposed,&#xD;
 maliciously. GerNdine threw herself back in the car-&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7769-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7769-00000043"/>&#xD;
 84          AS GOOD AS A COMEDY: OR,&#xD;
 riage with an air of pique, and Henderson looked at&#xD;
 his friend commiseratingly, as if to say " You've done&#xD;
@@ -3304,7 +3309,7 @@ another.&#xD;
 No go," said a third.~&#xD;
 8&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7769-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7769-00000044"/>&#xD;
 AS A COM1~DY OR,&#xD;
 "Slow go," at least, quoth Tom. Nettles, addressing&#xD;
 Barry himself.&#xD;
@@ -3389,7 +3394,7 @@ dowdyisMooking beast, stirely ?~'&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7769-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7769-00000045"/>&#xD;
 88           AS GOOD AS A COMEDY: OR,&#xD;
 them; for the rudeness of her appearance is due rather&#xD;
 to the small arts of her owner, than tp her native defi-&#xD;
@@ -3473,7 +3478,7 @@ horses were together. Jif he won, it Was scarcely by 'his&#xD;
 own length."&#xD;
 8*&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7769-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7769-00000046"/>&#xD;
 TIlE TENNESSEEAN'S' STORY.       91&#xD;
 &#xD;
 *~9O         AS GOOD A~ A COMflDY: OR,&#xD;
@@ -3559,7 +3564,7 @@ husband !"'&#xD;
 1~arry; "my 'Glaucus' just lost the race by a;span. Jim&#xD;
 Perkins rode him badly. He held in where he should&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7769-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7769-00000047"/>&#xD;
 *   92           AS GOOD A~ A OQMEDY: OR,&#xD;
 *   have 'let. out, and' I saw him looking behind, and jerking&#xD;
 in, just when he should' have used the'whi.p. But that's&#xD;
@@ -3643,7 +3648,7 @@ information as unpretendingly as ho had' done betore.'-&#xD;
 &#xD;
 '1&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7769-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7769-00000048"/>&#xD;
 94s         A~ GOOD AS~ A COMEDY O~,                              TilE TE1~E8SEEAN'S STORY..     '95&#xD;
 &#xD;
 Uis manner was tkat of a gentleman who had nothing&#xD;
@@ -3730,7 +3735,7 @@ has work before her."&#xD;
 &#xD;
 4:&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7769-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7769-00000049"/>&#xD;
 (96&#xD;
 &#xD;
 45 E~OOD A~ A COMEDY: OR,&#xD;
@@ -3776,7 +3781,7 @@ credit of his rn~re; while our friend To~i 14~ttl~. w~&#xD;
 pretty safe iii takitig~ th~ fi~O11 &amp;amp;~&amp;amp;iiIst th~ "P~ir'4~ral~&#xD;
 9&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7769-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7769-00000050"/>&#xD;
 98           ASQOOD AS A COMEDY: 0R~&#xD;
 dine" and "Crazy Kate," to the tune of two or three&#xD;
 hundred more.&#xD;
@@ -3860,7 +3865,7 @@ affectionate embrace with the high-spirited and, aristo-&#xD;
 cratic beauty. Yainly did the latter try to shake her off.&#xD;
 All her efforts only served to keep the two in this position,&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7769-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7769-00000051"/>&#xD;
 1~0o~          AS %*90P AS A comedy: OIL,                                          ~EHE TEN~ESS13JnAN'S STORY.&#xD;
 &#xD;
 101&#xD;
@@ -3949,7 +3954,7 @@ You say nothing of my namesake !"&#xD;
 &#xD;
 am100&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7769-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7769-00000052"/>&#xD;
 102          AS GOOD A$ A cGM1~DY: OR~&#xD;
 mother; '.' I do believe you have a spite against that ani-&#xD;
 ""0 no, Mrs. Foster! I'm sure you believe"~no such&#xD;
@@ -4032,7 +4037,7 @@ ing ahead, as they both stretched through the first quar~&#xD;
 ter of the third mile. Hammond saw~ with satisfaction,&#xD;
 that, while the boy who rod~ "~Sorel1a" ~ppeared. to&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7769-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7769-00000053"/>&#xD;
 104         AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 labor anxiously, he used no whip, or only appeared to do&#xD;
@@ -4118,7 +4123,7 @@ her loins for the last great effort. She felt the necessity&#xD;
 of putting all her soul into her heels, as she felt that ~she&#xD;
 had a sterling customer beside her, one who took a deep&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7769-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7769-00000054"/>&#xD;
 THE TENN~SSEEA~'S STORY.        107&#xD;
 &#xD;
 106         AS GOOD AS A COMEDY: OR,&#xD;
@@ -4191,7 +4196,7 @@ well satisfied, no doubt, with the negro form of compli..'&#xD;
 ment, as with that which issued in rounded periods from&#xD;
 more polished lips. Let us now look to other parties.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7769-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7769-00000055"/>&#xD;
 1YO8&#xD;
 &#xD;
 A$ G~OOD AS A co1~EDY: OR,&#xD;
@@ -4271,7 +4276,7 @@ Foster, the~ eire~s;" -andhe rubbed: his, hands.- "'And&#xD;
 'I never -saw-the circus in ~yIife.~ I'm told th0y do ~il&#xD;
 '10&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7769-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7769-00000056"/>&#xD;
 110          AS GOOD A$ A COMEDY OR,&#xD;
 8QrtS of things. There's a man there that jumps through&#xD;
 .th~ eye of needlee"&#xD;
@@ -4356,7 +4361,7 @@ juggler-" though," added the speaker, with admirable&#xD;
 gravity, "it certainly takes in everybody-everybody&#xD;
 believes' ~&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7769-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7769-00000057"/>&#xD;
 I&#xD;
 &#xD;
 112&#xD;
@@ -4450,7 +4455,7 @@ you do not, it is quite as well that you should, form some&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7769-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7769-00000058"/>&#xD;
 11.4         AS ~0OD AS 'A COMEDY: OR,&#xD;
 /&#xD;
 idea of the sources of pleasure to the purely vulgar and&#xD;
@@ -4536,7 +4541,7 @@ from the multitude, which form no bad echoes to the&#xD;
 cries of the' goose.&#xD;
 ~So ~much~ for the sport in general.' It had been sortie&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7769-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7769-00000059"/>&#xD;
 116          AS GOOD AS A COMEDY: OR,                                    TI{E TE~TN~$SEEA~T'5 STORY.       lIT&#xD;
 &#xD;
 time in~ progress, when Nettles and Jones Barry drew&#xD;
@@ -4623,7 +4628,7 @@ M6&#xD;
 &#xD;
 117&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7769-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7769-00000060"/>&#xD;
 118          ~s QOWAS A COMEDY~ OR,&#xD;
 excitement, threw up both hands, and~grasped, not the&#xD;
 goose, bnt the rope by which it was suspended9 The&#xD;
@@ -4706,7 +4711,7 @@ sides.&#xD;
 "Well! what now~ Logan ?"&#xD;
 "Why, Squire, ef you'll only ax the capper to let me&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7769-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7769-00000061"/>&#xD;
 120&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -4763,7 +4768,7 @@ cus" by ~whom the victory was won?&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7769-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7769-00000062"/>&#xD;
 THE TENNESSEEAN'S STORY.        I2~&#xD;
 &#xD;
 122         A~ GOOD AS A COMEDY: OR,&#xD;
@@ -4842,7 +4847,7 @@ little fellow; you're rich; and have everything you&#xD;
 Want. You can ride, though you~'~e, quite too heavy&#xD;
 for 'Geraldine.'&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7769-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7769-00000063"/>&#xD;
 TIlE TENNESSEEAN'8 STORY.      12~&#xD;
 &#xD;
 124         AS GOOD AS A QOMEPY: OR,&#xD;
@@ -4928,7 +4933,7 @@ cus, or had probably had glimpses of such a vision in&#xD;
 their youthful days, came hither to revive old memories,&#xD;
 11*&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7769-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7769-00000064"/>&#xD;
 THE ~ENNESSE1~AN'$ STORY.           12r&#xD;
 &#xD;
 '126'        AS GOOD AS A coMEDY: OU,&#xD;
@@ -5018,7 +5023,7 @@ and his heels the negro portion, of the assembly.&#xD;
 &#xD;
 426 .&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7769-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7769-00000065"/>&#xD;
 128          AS ,aoop' AS A COMEDY: 0Th,                             TIlE TRNNESSEEAN'$ STORY.&#xD;
 &#xD;
 could articulate, but he screamed and kicked tremen-&#xD;
@@ -5101,7 +5106,7 @@ our unlucky jockey with 'the most ~tincomprornising fury&#xD;
 in their looks,. 'Re had spoiled the proceedings, throwrL&#xD;
 the assembly into' the most admired disorder, and it wa~~&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7769-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC7769-00000066"/>&#xD;
 180&#xD;
 &#xD;
 AS OOQD AS A COMEDY: OR,&#xD;
@@ -5192,7 +5197,7 @@ all the troupe. 'The" bowls were' filled; "hands were&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7769-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC7769-00000067"/>&#xD;
 ~82         AS OQOD' AS A 9OM~DY O1~,                           THE T~SI~EA~{'S STORY.         I~3&#xD;
 &#xD;
 shaken; eyes 'glistened and,' with the consent of the&#xD;
@@ -5280,7 +5285,7 @@ his upon her finger. She coyly' suffered him, in a mo~&#xD;
 &#xD;
 133&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7769-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC7769-00000068"/>&#xD;
 THE ThNN2ESSEEXR'$ 8TOUY.        18~&#xD;
 &#xD;
 184         AS GOOD ASA COMEDY: OIL,&#xD;
@@ -5330,7 +5335,7 @@ employed before the broken mirror which hung from one&#xD;
 of the uprights of the tent. Barry was astounded,&#xD;
 and would have started back; but she saw him in the -&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7769-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC7769-00000069"/>&#xD;
 ISO         AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 glass, and, wheeling round, at once summoned him,&#xD;
@@ -5417,7 +5422,7 @@ gage that Nell can throw him, or any man in company9"&#xD;
 &#xD;
 - r&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7769-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC7769-00000070"/>&#xD;
 188         AS GOOD AS A COMEDY: OU,                               T1I~ T~ENNEBSEEAN's $TOUY.&#xD;
 &#xD;
 performance. "Was ever such a monster! How he&#xD;
@@ -5502,7 +5507,7 @@ the courtier. The" equestrians played the part of ho5ts&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7769-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC7769-00000071"/>&#xD;
 TILE TENNI~SSEEAN'5 STORY.       141&#xD;
 &#xD;
 140         AS GOOD AS A COMEDY: OR,&#xD;
@@ -5587,7 +5592,7 @@ know, I suppose, who laid you out upon the benches?"&#xD;
 "No, Tom, Ii don't."&#xD;
 "Who, but Nell and myself? She took your arms,&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7769-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC7769-00000072"/>&#xD;
 142         AS GOOD AS A COMEDY: OR,                              VIE TJ~NNESSEEAN'S STORY.      148&#xD;
 &#xD;
 'rand I your feet, and we swung you up, saying, all the&#xD;
@@ -5668,7 +5673,7 @@ No, indeed! She'd kiss you in sight of fifty people.&#xD;
 But, you only be saucy, more than she is. prepared to&#xD;
 suffer, and she'd as soon dirk you as drink. This very&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7769-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC7769-00000073"/>&#xD;
 144&#xD;
 &#xD;
 A~ GOOD AS A COMEDY: OiL,&#xD;
@@ -5755,7 +5760,7 @@ any other might hav~e d&amp;amp;ne, anct dy~' c~Is~ to&#xD;
 'a&#xD;
 '1&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7769-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC7769-00000074"/>&#xD;
 ~46          A$'GOOD ASA COMEDY: OR,&#xD;
 be angry.. The truth is,.Jones, yen are in. too bad a&#xD;
 humor to. do Ran. Uammona justice."&#xD;
@@ -5837,7 +5842,7 @@ fortunes of her step-daughter. She was vain and giddy;&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7769-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC7769-00000075"/>&#xD;
 (A&#xD;
 &#xD;
 4$&#xD;
@@ -5928,7 +5933,7 @@ together in explanation, and mutual sympathies, sh.dden~&#xD;
 Jy rendered active, and- seeing under the- influence'~ of&#xD;
 favoring circumstances, might render the deterniined -&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7769-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC7769-00000076"/>&#xD;
 AS OOOI~ ~&amp;amp;S A GOM~DY: OI~,&#xD;
 will of Gerald e~stic1van~ ally of her heart as to defeat&#xD;
 fo~everthe subtle designs if The hostile mother. 'it~~as&#xD;
@@ -6012,7 +6017,7 @@ he saw 'of the success of his friend;l3ut reconciled to&#xD;
 his own apparent decline of fortune ~by the, conviction&#xD;
 that. his' fortunate rival was indeed his 'friend; while&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7769-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC7769-00000077"/>&#xD;
 TEE T   ~E$SFJ3~A~'s STORY~          1.68&#xD;
 &#xD;
 I~62         A8~ GOOD A0 A CQMDDY: OR,&#xD;
@@ -6100,7 +6105,7 @@ as&#xD;
 &#xD;
 us&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7769-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC7769-00000078"/>&#xD;
 AS' GOOD AS A O0M~Y~ OR,&#xD;
 &#xD;
 stotie, and s~ems.to look upon' women cinly' 'as so many&#xD;
@@ -6192,7 +6197,7 @@ STORY.&#xD;
 &#xD;
 '155&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7769-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC7769-00000079"/>&#xD;
 157T&#xD;
 &#xD;
 tEis I cax~ tell ~ '~hat, if2 over ke~ho~ld do s~, he shall&#xD;
@@ -6270,7 +6275,7 @@ played in a neighboring family, when she wasproirioted&#xD;
 &#xD;
 156         A$ QO~A5 A~oeM~DY: Oi~,                                TlE TENNESSEEAN'S STORY.&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7769-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC7769-00000080"/>&#xD;
 168         AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 by Foster, then sinking with ai feeble constitution, and&#xD;
@@ -6354,7 +6359,7 @@ had described her. Besides, she was evidently hostile&amp;amp;&#xD;
 to himself. But her' influence over her step-daughter&#xD;
 was nothing. If' exercised in any way, it was, only iii&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7769-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC7769-00000081"/>&#xD;
 1~O         AS GOOD AS A COMEDY: OR,&#xD;
 opposition. to himself', and he could readily understand&#xD;
 how she might operate successfully .by artifices, pa~rticu-&#xD;
@@ -6438,7 +6443,7 @@ This was said in a way to silence opposition. But&#xD;
 the step-mother had the last word, framed in a fashion&#xD;
 14*&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7769-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC7769-00000082"/>&#xD;
 162         AS GOOD AS A COMEDY: OR,                              THE TENNESSEEA~i's STORY.      16~&#xD;
 &#xD;
 that she had been too much accustomed to employ of&#xD;
@@ -6525,7 +6530,7 @@ bearing of her" step-mother, was not less chilled and&#xD;
 &#xD;
 16$&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7769-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC7769-00000083"/>&#xD;
 164         AS GOOD AS A COMEDYY: OR,                              THE TENNE~5EEAN'5 STORY.        165&#xD;
 &#xD;
 offended by that of her visitor. We need not detail the&#xD;
@@ -6606,7 +6611,7 @@ remember The' sweet words and the sad tears which the&#xD;
 mother of Hammond ha'd shared with herself when the&#xD;
 two were alone together. '&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7769-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC7769-00000084"/>&#xD;
 THE TENNE~SEEAN'$ STORY6          167&#xD;
 &#xD;
 166         AS GOOD AS A COMEDY: OR,&#xD;
@@ -6685,7 +6690,7 @@ ed with the younger of the three, and again renewed the&#xD;
 subject of her intercourse with her mother. The garden&#xD;
 itself afforded a sufficient reason for recalling the ~ubjeot.&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7769-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC7769-00000085"/>&#xD;
 168&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -6775,7 +6780,7 @@ it." ~ .&#xD;
 "7 7-'&#xD;
 7-.  4'  '     "&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7769-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC7769-00000086"/>&#xD;
 ~soot'A~ A'e6Mx0x~ ox~,&#xD;
 "Yes{ ho 'do~ibt'hodeserved The whip for 'his ,inso-&#xD;
 i~u~e ~ auid; in h~r indignation' she told him so."&#xD;
@@ -6859,7 +6864,7 @@ you from mishap. If~ as I suppo~e, yen are resolute to&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7769-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC7769-00000087"/>&#xD;
 I~t2         AS GOOD ~&amp;amp;S A~  MIWY: 'OR~,&#xD;
 dresss Geraldine, I warn you tli~t Mrs. 'Foster" is se~&#xD;
 working against you. ,&#xD;
@@ -6943,7 +6948,7 @@ pus of. you thati ev~r, and t~is, is t~, ~ ~ieasp~that&#xD;
 you get on 89 si~ccessfnlIy in fixi~g~the: ,inVe~st o*~&#xD;
 16~&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7769-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC7769-00000088"/>&#xD;
 '174         AS ~iOOD A8A co~fl~i~Y: On,                                TilE TENNESSEEAN'S SThRX~.       175&#xD;
 &#xD;
 raldine in~ spite of the clear dislike and the crossplays..&#xD;
@@ -7029,7 +7034,7 @@ Nettles repeated the question.&#xD;
 &#xD;
 175&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7769-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC7769-00000089"/>&#xD;
 176         AS GOOD AS A C0.M~EDY OR,&#xD;
 "You're a beast," cried Barry; "drink before I send&#xD;
 the bottle at your head."&#xD;
@@ -7111,7 +7116,7 @@ more dinners on Sunday, boys. No more wine for ~ood&#xD;
 fellows; and, instead of our excellent friend, Jones fla~ty,'&#xD;
 presiding where he does-now running a fine horse, now&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC7769-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC7769-00000090"/>&#xD;
 178         AS GOOD. A~ A CQMRDY OR,&#xD;
 &#xD;
 * opening a fine bottle, now jerking at~ a gander's gullet,&#xD;
@@ -7186,7 +7191,7 @@ upon a pretty correct knowledge of the oh~act~r' ~f both&#xD;
 persons. :Butt effai~es de'~urof y ng'p~ople ar~~6&#xD;
 Providence-that the nicest caleulatk~s 4~unnltig&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC7769-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC7769-00000091"/>&#xD;
 i~80         A$ GOOI~ A8 'A CO~i1IDY: '~R,                              THE TiENNES'SEEAN'8 STORY.       181&#xD;
 &#xD;
 are apt to fail at the nunne~rkt of exigency; and, with&#xD;
@@ -7274,7 +7279,7 @@ and. sneer. We haven't such a display of plate as~ the&#xD;
 &#xD;
 181&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC7769-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC7769-00000092"/>&#xD;
 THE TENNESSEEAN'S STORY.         188&#xD;
 &#xD;
 182         AS GOOD AS A COMEDY: OR,&#xD;
@@ -7360,7 +7365,7 @@ a delighted smile. "In some instances, I have gone out&#xD;
 of the county for my guests."&#xD;
 "That explains it," said he, quietly, as if assured&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC7769-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC7769-00000093"/>&#xD;
 TIlE TENNESSEEAN'S STORY.      185&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -7448,7 +7453,7 @@ This too was surrounded by an ample shade of evergreens,&#xD;
 &#xD;
 184&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC7769-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC7769-00000094"/>&#xD;
 186         AS GOOD AS A COMEDY: OR,                                THE TENNESSEEA!~'S STORY.       18T&#xD;
 &#xD;
 and the tot~t ensemble presented one of those lovely pictures&#xD;
@@ -7531,7 +7536,7 @@ plantains and bananas; pineapples and cocoanuts. There&#xD;
 were preserved fruits and foreign cordials, and a very&#xD;
 generous supply of champagne; a beverage which most&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC7769-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC7769-00000095"/>&#xD;
 188         AS GOOD AS A COMis~DY OR,&#xD;
 &#xD;
 effectually entrapped, to their overthrow, sundry per-&#xD;
@@ -7618,7 +7623,7 @@ instant by Hammond and Nettles. With these they&#xD;
 fished the poor fellow up by his clothes, to the bank,&#xD;
 the mischievous Nettles contriving, more than once,&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC7769-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC7769-00000096"/>&#xD;
 190         AS GOOD AS A COMEDY: 011,                              THE TENNESSEEM~'S STORY.        191&#xD;
 &#xD;
 by seemingly awkward movements, to thrust him down&#xD;
@@ -7672,7 +7677,7 @@ themselves again, Barry looking as happy as if nothing&#xD;
 had happened, and ready for all the grateful intricacies&#xD;
 of the Virginny reel.&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC7769-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC7769-00000097"/>&#xD;
 192          AS GOOD AS A COMEDY: OR,                                THI~ TEI~TN1~5SEEAN's STORY.     198&#xD;
 &#xD;
 CHAPTER XV.&#xD;
@@ -7752,7 +7757,7 @@ the "Fair Geraldine" being in too great esteem to be&#xD;
 &#xD;
 198&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC7769-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC7769-00000098"/>&#xD;
 194         AS GOOD AS A COMEDY: OR,                               THE TENNES5EEA~ '0 STORY.       195&#xD;
 &#xD;
 used for common purposes, in getting from home a fresh&#xD;
@@ -7834,7 +7839,7 @@ Geraldine. It was somewhat strange that she enter-&#xD;
 tamed no 'such fears of this young man as of his friend.&#xD;
 He was quite a wcirthy and a very lovable person; tall,&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC7769-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC7769-00000099"/>&#xD;
 196         AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 graceful, good-looking, very amiable, and tolerably well&#xD;
@@ -7918,7 +7923,7 @@ gay groups, most of them, after dancing, had taken a&#xD;
 similar direction ; and, as the night was pleasant, they&#xD;
 17*&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC7769-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC7769-00000100"/>&#xD;
 AS GOOD AS A COMEDY: OR,                                  THE TEN1%TESSEEAN~S STORY.       199&#xD;
 &#xD;
 might be seen straying ~away through the various groves,&#xD;
@@ -8000,7 +8005,7 @@ proach of being whimsical and* ridiculous; but you shall&#xD;
 know all. Mr. Hammond, your horse 'Ferraunt' is, you&#xD;
 tell me, the fastest horse in the country ?"&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC7769-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC7769-00000101"/>&#xD;
 200         AS GOOD AS A COMEDY: OR,                                 THE TENNE$SEEAN's STORY.       201&#xD;
 &#xD;
 Her companion was confounded. This question,&#xD;
@@ -8076,7 +8081,7 @@ you think so&#xD;
 &#xD;
 201&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC7769-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC7769-00000102"/>&#xD;
 "She would, indeed."&#xD;
 "Think of it. It's worth a thought."&#xD;
 "It's too late now."&#xD;
@@ -8164,7 +8169,7 @@ display which her legs would make, she was willing to&#xD;
 peril them rather than lose the chance of a market for&#xD;
 her face. With rosy red cheeks, and a rolling, swim-&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC7769-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC7769-00000103"/>&#xD;
 204&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -8251,7 +8256,7 @@ strength; and it'~as"left for Randatl.Ranim&amp;amp;nd;. who,&#xD;
 at the first signal of tumult, extricafed. Geraldine from&#xD;
 18&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC7769-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC7769-00000104"/>&#xD;
 206         AS GOOD AS A COMEDY: ~fl,                                THE TENNESSEEAN'8 STQRY.       ~OT&#xD;
 &#xD;
 the 'ring, to do this friendly office for the confounded&#xD;
@@ -8305,7 +8310,7 @@ all. Bsit how's your .h~ad'now, Mr. flarry?"'&#xD;
 something ~to settle my stomach. I ate. too many sweet&#xD;
 things last night."&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC7769-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC7769-00000105"/>&#xD;
 I&#xD;
 &#xD;
 208&#xD;
@@ -8394,7 +8399,7 @@ self saw that she was beaten by '$orella~"'&#xD;
 "Yes; but you told me that she was barely beaten,&#xD;
 18*&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC7769-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC7769-00000106"/>&#xD;
 4&#xD;
 &#xD;
 210Y&#xD;
@@ -8487,7 +8492,7 @@ Barry was confounded by the answer received to his&#xD;
 proposals, what was. the astonishment of Miles Hender-&#xD;
 son and Hammond? The letter to the ~form.er was a&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC7769-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC7769-00000107"/>&#xD;
 TIlE TENNflS$EEAN's STORY.&#xD;
 212         AS GOOD AS A COMEDY~ O~,                                                            213&#xD;
 &#xD;
@@ -8575,7 +8580,7 @@ and meet you here again at 'dinner."&#xD;
 &#xD;
 218&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC7769-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC7769-00000108"/>&#xD;
 4&#xD;
 &#xD;
 214&#xD;
@@ -8667,7 +8672,7 @@ stimulate her pride, therefore, wit'hQut making. 'timid&#xD;
 her 'hope,'was the policy of her game; and she ha4 just&#xD;
 the requisite cunning to succeed. When the ~erva~n~&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC7769-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC7769-00000109"/>&#xD;
 ''I&#xD;
 2I~6          ~s OO~OD AS A OO~1XJDflY: ou,&#xD;
 t~nnoun~e&amp;amp; Mt Ji~minond, witk 'the further intimation&#xD;
@@ -8756,7 +8761,7 @@ that moment yielded the lady t6 other knights. He&#xD;
 turned away from the reckless beauty who ~euld peril&#xD;
 19&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC7769-00000110"/>&#xD;
+<pb n="218-219" xml:id="VAC7769-00000110"/>&#xD;
 the life of her lover only to exhibit her power over him;&#xD;
 and the world applauded the desertion, and the beauty&#xD;
 was abandoned by all other knights."&#xD;
@@ -8843,7 +8848,7 @@ conditions which you couple with this hand~will, I fear,&#xD;
 &#xD;
 219&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC7769-00000111"/>&#xD;
+<pb n="220-221" xml:id="VAC7769-00000111"/>&#xD;
 220&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -8919,7 +8924,7 @@ all. If the lady don't like me sufficiently to answer&#xD;
 'Yes' at once, we're quits. I wouldn't have her now&#xD;
 19*&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC7769-00000112"/>&#xD;
+<pb n="222-223" xml:id="VAC7769-00000112"/>&#xD;
 222&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -9013,7 +9018,7 @@ of character as was entertained by Mrs. Foster; ~but he&#xD;
 said nothing against it. He told Jones Barry, however,&#xD;
 that the game was all up with him; that the "Fair&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC7769-00000113"/>&#xD;
+<pb n="224-225" xml:id="VAC7769-00000113"/>&#xD;
 224         AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 Geraldine" stood no chance against either the heels of&#xD;
@@ -9098,7 +9103,7 @@ looks of Hammond, in their last interview, whefi he&#xD;
 &#xD;
 TilE T~NNE5SEEAN'S STORY.      225&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC7769-00000114"/>&#xD;
+<pb n="226-227" xml:id="VAC7769-00000114"/>&#xD;
 came to expostulate, rise to her recollection! She&#xD;
 probably would not have been dressed but for the re-&#xD;
 appearance of Mrs. Foster, who insisted upon her&#xD;
@@ -9185,7 +9190,7 @@ in a constant state of fluctuation as they advanced.&#xD;
 &#xD;
 . 227&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC7769-00000115"/>&#xD;
+<pb n="228-229" xml:id="VAC7769-00000115"/>&#xD;
 '$28&#xD;
 &#xD;
 AS GOOD AS A COMiWY: OR,&#xD;
@@ -9273,7 +9278,7 @@ have the hand that he rejects with scorn."&#xD;
 &#xD;
 20&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC7769-00000116"/>&#xD;
+<pb n="230-231" xml:id="VAC7769-00000116"/>&#xD;
 230&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -9358,7 +9363,7 @@ affair was submitted to him. Hammond, as, in duty&#xD;
 &#xD;
 TilE TENNESSEEAN'$ $TORY~&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC7769-00000117"/>&#xD;
+<pb n="232-233" xml:id="VAC7769-00000117"/>&#xD;
 * bound; put himself in the hands of his friend, and the&#xD;
 subtle Nettles found it much' more easy to impress the&#xD;
 latter than the former with the propriety of his scheme,&#xD;
@@ -9449,7 +9454,7 @@ present."&#xD;
 &#xD;
 283&#xD;
 &#xD;
-<pb  n="234-235" xml:id="VAC7769-00000118"/>&#xD;
+<pb n="234-235" xml:id="VAC7769-00000118"/>&#xD;
 234&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -9510,7 +9515,7 @@ him on his horse, and saw him wheel about and disap-&#xD;
 pear. He fled, lookingg behind him, with terror and&#xD;
 vengeance dogging at ~his heels.&#xD;
 &#xD;
-<pb  n="236-237" xml:id="VAC7769-00000119"/>&#xD;
+<pb n="236-237" xml:id="VAC7769-00000119"/>&#xD;
 236&#xD;
 &#xD;
 AS GOOD AS A COMEDY: OR,&#xD;
@@ -9590,7 +9595,7 @@ life had any rm~n so bad a scare. lie had run, as I&#xD;
 may say, into the arms of the Ingins, without hearing&#xD;
 their rifles; and I do believe, as I am a free white man,&#xD;
 &#xD;
-<pb  n="238-239" xml:id="VAC7769-00000120"/>&#xD;
+<pb n="238-239" xml:id="VAC7769-00000120"/>&#xD;
 238         AS GOOD AS A COMEDY: OR,&#xD;
 &#xD;
 that he scared them a gr~at deal worse than our whole&#xD;
@@ -9673,7 +9678,7 @@ me and the wh&amp;amp;le house a most -outrageous scare. He&#xD;
 broke out in his night-shirt, and dashed out of the room,&#xD;
 and down the stairs into the hall, where he squatted&#xD;
 &#xD;
-<pb  n="240-241" xml:id="VAC7769-00000121"/>&#xD;
+<pb n="240-241" xml:id="VAC7769-00000121"/>&#xD;
 240         AS GOOD AS A COMEDY: 0~i,                                   THE TEN~ESSEEAN'g STORY.        241&#xD;
 &#xD;
 under the table. We -slept in the same room, ~nd as&#xD;
@@ -9763,7 +9768,7 @@ in the hu~gy, he's no ghost; and it's your conscience&#xD;
 1&#xD;
 A&#xD;
 &#xD;
-<pb  n="242-243" xml:id="VAC7769-00000122"/>&#xD;
+<pb n="242-243" xml:id="VAC7769-00000122"/>&#xD;
 24~         AS GOOD AS A GOMEPY: OR,                                   ~   TENNESSEEAN 'S STORY.&#xD;
 thi~t's been 'a troubling you. But let's push on, and see&#xD;
 your friend Nettles; he ought to be able to tell' us all&#xD;
@@ -9829,7 +9834,7 @@ five nie?&#xD;
 I, trying&#xD;
 me, and&#xD;
 &#xD;
-<pb  n="244-245" xml:id="VAC7769-00000123"/>&#xD;
+<pb n="244-245" xml:id="VAC7769-00000123"/>&#xD;
 I&#xD;
 &#xD;
 AS 'GOOD AS A COMEDY: OR,&#xD;
@@ -9921,7 +9926,7 @@ friend Nettles, that the latter posted off one pleasant&#xD;
 afternoon to the "Lodge," and did not return home&#xD;
 21*&#xD;
 &#xD;
-<pb  n="246-247" xml:id="VAC7769-00000124"/>&#xD;
+<pb n="246-247" xml:id="VAC7769-00000124"/>&#xD;
 246          As *QOD AS A COMEDY: 011,&#xD;
 ~unti ~the nest day. He was; as usual, received ia~ the&#xD;
 kindest ni~nner. by the widow.. He had always been&#xD;
@@ -10004,7 +10009,7 @@ attractive for most women, he hurried'forward ;t~ a full&#xD;
 revelation of his object, and of the' person in whose be-&#xD;
 half he came. He had his own way of doing this.&#xD;
 &#xD;
-<pb  n="248-249" xml:id="VAC7769-00000125"/>&#xD;
+<pb n="248-249" xml:id="VAC7769-00000125"/>&#xD;
 248         AS GOOD AS A COMEDY: OR~                                  THE TENNESSEEAN' S STORY.       249&#xD;
 &#xD;
 "Mrs. Foster," said he, gravely, "you have certainly&#xD;
@@ -10087,7 +10092,7 @@ He worshipped, you too devotedly. Had he felt, a weaker&#xD;
 passion, he would have been more bqld. But his heart&#xD;
 failed him, and he would have 'suffered himself to~ be&#xD;
 &#xD;
-<pb  n="250-251" xml:id="VAC7769-00000126"/>&#xD;
+<pb n="250-251" xml:id="VAC7769-00000126"/>&#xD;
 THD~ TENYES5EEAN'S STORY.        251&#xD;
 &#xD;
 250         AS GOOD AS A COMEDY: OR,&#xD;
@@ -10161,8 +10166,8 @@ THE END.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

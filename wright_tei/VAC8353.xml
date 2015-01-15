@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8353">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8353">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Combat of the People, or, Hillel and Herod </title>
-            <author >Wise, Isaac Mayer, (1819-1900)</author>
+            <title>The Combat of the People, or, Hillel and Herod </title>
+            <author>Wise, Isaac Mayer, (1819-1900)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8353</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8353</idno>
+            <idno type="wright2" n="previous">wright2-2777</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The combat of the people, or, Hillel and Herod</title>
-                  <author >Wise, Isaac Mayer, (1819-1900)</author>
+                  <title>The combat of the people, or, Hillel and Herod</title>
+                  <author>Wise, Isaac Mayer, (1819-1900)</author>
                </titleStmt>
-               <extent >151 p.</extent>
+               <extent>151 p.</extent>
                <publicationStmt>
-                  <publisher >Bloch</publisher>
+                  <publisher>Bloch</publisher>
                   <pubPlace>Cincinnati Ohio </pubPlace>
-                  <date  when="1859">1859</date>
+                  <date when="1859">1859</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The combat of the people, or, Hillel and Herod</head> 
+            <head>The combat of the people, or, Hillel and Herod</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8353-00000001"/>THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8353-00000001"/>THE&#xD;
 COMBAT OF THE PEOPLE&#xD;
 OR&#xD;
 HILLEL AND HEROD.&#xD;
@@ -100,7 +105,7 @@ Printed and Published by BLOCI &amp;amp; CO., at the Office of The Israeil e and
 -       1859.&#xD;
 /*-&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8353-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8353-00000002"/>&#xD;
 TI COMBAT OF THE                             *&#xD;
 CHAPTER         1.            earlyinthe morn&#xD;
 Borwt and harnaniots was the merry song oty.              M&#xD;
@@ -159,7 +164,7 @@ ar defeatt ii O~f&#xD;
 ,m,&#xD;
 - p   fi&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8353-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC8353-00000003"/>&#xD;
 Tun CotasAT 01&#xD;
 "very man, coming from the vi-&#xD;
 Issuspected to be an ene-&#xD;
@@ -320,7 +325,7 @@ very little i our days," he replied. "How transpire that I know you, or you reco
 )date a vulgar grave digger know an aristo- me. Therefore, I did not kinow you in the&#xD;
 ) eratic lady, in R~ome's richest attire ?"  presence of your attendants,"&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8353-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8353-00000004"/>&#xD;
 THE CoMnAT C&#xD;
 at*I ie, Abba Shaul,'; she said hastily,&#xD;
 ")ate you heard from Jericho? have you&#xD;
@@ -480,7 +485,7 @@ ties of our country. Farewell, farewell,&#xD;
 Helen, forget me."&#xD;
 The tears glittering in Simon's black eyed&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8353-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8353-00000005"/>&#xD;
 8                      THE COMBAT OF THE PEOPLE,&#xD;
 w    :ot calculated to calm Helen's pas- able of doing. I can not forget you, I can&#xD;
 itPW   "Leave me not, desert me not, Si- not love another woman, my love to you is&#xD;
@@ -622,7 +627,7 @@ told, that all were present; none of the peas-&#xD;
 ants would have betrayed the two young&#xD;
 men, whose secret mission they appeared te&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8353-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8353-00000006"/>&#xD;
 10                     Tan ConAT o&#xD;
 have guessed. The officers took two young&#xD;
 mew 'along, answering best to the descrip-&#xD;
@@ -784,7 +789,7 @@ When this was done the sacrifices were to truth, and walk in its path; for truth
 brought under the solemn performances ap- the sig'net of our God----in order that taith&#xD;
 pertaining t'o it, accompanied by the song~ and confidence in God justice and good-&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8353-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8353-00000007"/>&#xD;
 Tun CoMBAT OF TH      PvrorE,&#xD;
 Mess be your guiding startbrouglh the night a boy with such a beauteous countenance,&#xD;
 of misery, pain and death. Wherever God's so 'peevish, still so chaste a look? I must&#xD;
@@ -924,7 +929,7 @@ is the place where the royal child .Joash was hall. " Speak or die," it roared l
 hidden for six years and escaped the bloody from hundred throats. A deep sigh escaped&#xD;
 hands of Athaliah. Here we meet again to the tormented bosom of Simon, on uttering&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8353-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8353-00000008"/>&#xD;
 14                      THn COMBAT OF THE PROPEL,&#xD;
 love and filial affection prompted her. He lence. We ascend themarble stairs, and&#xD;
 couldsearcely breathe, nor could he turn his passing by the sentinels'and servants, leav-&#xD;
@@ -1103,7 +1108,7 @@ rod must return to that obscurity from&#xD;
 which he emerged by violence and blood-&#xD;
 shed. Queen! this is your sacred duty,and&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8353-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8353-00000009"/>&#xD;
 16                      THE CosBAT oF THEP 'EoPLE,&#xD;
 this is the proper time to effect your escape.  "Be merciful, my God, be merciful and&#xD;
 While Herod, with his army is engaged punish us not in thy just wrath, for the in-&#xD;
@@ -1214,7 +1219,7 @@ is the only remaining brother of her de- rod entered the saloon. The children ha
 eased husband. None can contest hisi tened to embrace their father, but he push-&#xD;
 3&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8353-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8353-00000010"/>&#xD;
 18                     THE COMnA? O      THn PEOPLE,&#xD;
 ed them away, with a curse on his lips, need it doubly. -Speak, my lord, without&#xD;
 They sought refuge with their mother, who restraint. Your children understand only&#xD;
@@ -1327,7 +1332,7 @@ door, but Tiered stopped her, and cried furn must be closely watched."&#xD;
 ously, " You shall not go from here before The trembling courtier bowed, submis-&#xD;
 I know the truth in these matters." sively, and turned to withdraw. " Stay!i"&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8353-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8353-00000011"/>&#xD;
 20                      THE COMBAT OF THE PboPLE,&#xD;
 the King thundered. " Who are the pens-  "Die! Baruch, the innocent, harmless,&#xD;
 ents from Jericho?"                    pious youth must die 1" Helen exclaimed,&#xD;
@@ -1484,7 +1489,7 @@ them."   ,                           , please Herod, they or you must die, and&#
 -Helen was not well disposed to day. your own father must be your executioner."&#xD;
 " This is no time for jokes," she said, " You are terrible to day," Helen said.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8353-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8353-00000012"/>&#xD;
 22   'Tuw COMBAT OF T HE PaOILE,&#xD;
 "Your imagination is fraught with evil de-  "I am Portubius Samonius Hervasto, a&#xD;
 mons. There is no such %a thing.-  must soldier of the fifth legion," the fellow said,&#xD;
@@ -1593,7 +1598,7 @@ of Helen were dried by the calm resignation he said, in a bitter tone, "I know e
 &#xD;
 .6&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8353-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8353-00000013"/>&#xD;
 24                     THE CoMAr o&#xD;
 yotir affairs. It is a pity that the affection-&#xD;
 ate meeting was frustrated, quite an officious&#xD;
@@ -1781,7 +1786,7 @@ love ? God assist me, that I prevent both  Before Elvira could speak Helen was&#
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8353-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8353-00000014"/>&#xD;
 26                      Tas CoIKIA? oF THE PEOPLE,&#xD;
 breathed again; his heart was somewhat re- Queen, on account of which both their lives&#xD;
 lie&amp;amp;ed. - The men, with the bearded, rough are in jeopardy. Before the morning dawns&#xD;
@@ -1892,7 +1897,7 @@ of the Asmoneans, the offspringof those who any one of you give us such aplan? A
 saved you from the hands of Antioches Epi- we are defeated our cause is lost."'&#xD;
 phanes, are in imminent danger; you must " I have but one plan," Abba Shaul said,&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8353-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8353-00000015"/>&#xD;
 28                     Tu CoMBAT oF THE PEOPLE,&#xD;
 ' and this is to start the insurrection, and .it redemption. When the ten thousands of Is'&#xD;
 will roll like a ball of wild fire all over the rael come to Jerusalem, to offer the Paschal&#xD;
@@ -2003,7 +2008,7 @@ people's council," Baba ben Buta repeated. though none had the impudence to dist
 the city," Helen prayed, "let not him be the his whole soul. Still q tall man dressed in&#xD;
 executioner."                         Greek costume most unceremoniously opens&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8353-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8353-00000016"/>&#xD;
 80                     Ta   COMAT OF Tan PEorLE,&#xD;
 the door hastily, and, without saluting the heaves its mighty treasures, and the earth&#xD;
 old sage, he ejaculates: " Are you Hillel ?" reels on command of the Great Unknown ?&#xD;
@@ -2199,7 +2204,7 @@ you?"&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8353-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8353-00000017"/>&#xD;
 Tsn 'OosfsAT OF fTN  PEOPLE,&#xD;
 &#xD;
 kew he protects me. God has many me-&#xD;
@@ -2419,7 +2424,7 @@ t:.&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8353-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8353-00000018"/>&#xD;
 Tn ,Cousp eoP knit  PzoPLu,&#xD;
 &#xD;
 a &amp;amp;1pists     ag   s Herod lead him&#xD;
@@ -2623,7 +2628,7 @@ hand He smote powerful Babylon and re-&#xD;
 stored Israel's faithful children; behold he&#xD;
 vanquished Syria and its presumptuous r-&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8353-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8353-00000019"/>&#xD;
 .               'rTs&amp;amp;#5W r    opt 'u :PEOPI.E,&#xD;
 krbd      oer fatbare, .and  hastised yon- saow fell fastfi;mthe clouds ,and covered&#xD;
 4dvQAAe eoa40euasen  of'her sine: Wait the benumbed form of the inquisitive stran-&#xD;
@@ -2732,7 +2737,7 @@ able despotism of Herod and his hirelings, of Jerusalem, the massacred multitude
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8353-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8353-00000020"/>&#xD;
 38    .'               TRUanOOMnAeoYrI       PEOPLE,&#xD;
 deredatmhers of Israel; I saw the man, to the peoples will, to the law of God. Be-&#xD;
 wha defled Israels- Sanhedrin, mount the hold !*the dead heroes, the revolution has&#xD;
@@ -2839,7 +2844,7 @@ standing all the means applied, replied. " My colleagues can not think for&#xD;
 Sabion stepped into the cabinet of the a moment, that Herod's rgyal consort suffer.&#xD;
 King and announced the death of Baruch of either of iose maladies,"&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8353-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8353-00000021"/>&#xD;
 40                     Tua COMBAT OP TS PEOPLE, .&#xD;
 -lHernd was visibly embarrassed, and walk- upon the unguarded man," Simon respond-&#xD;
 Ad the room, in rapid strides, his arms cross- ed, earnestly, "none of which should -ever&#xD;
@@ -2908,7 +2913,7 @@ an nsg  Q ~4ldensan       I&#xD;
 staedint te o",ne sof iep ho.Iouban  ~e&#xD;
 8Ir,                t-14i eti~  ,&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8353-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8353-00000022"/>&#xD;
 4I&#xD;
 d% Ma. I hhonly so&#xD;
 a efeigebio6nonI&#xD;
@@ -3061,7 +3066,7 @@ ley of Hinom, where she disappeared, then can bend their proud neckand matei&amp
 returned in company of many armed mien, submit to lagr and order. gea14, ff+o'i ,&#xD;
 who attacked others, he could not distinguish jcan this nation of rebellious ,sep,' j)5&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8353-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8353-00000023"/>&#xD;
 4                     Tnu ConkA't o '1113 '3lar"LB&#xD;
 i4   f ietrn be i verned without an frok anfeofdenee are the Very fBrst cotnditions&#xD;
 Sas,, yu'relimb, eonvined, of friendship."'&#xD;
@@ -3222,7 +3227,7 @@ no wrong. I hare disobeyed 4Wbh te,&#xD;
 and am ready and willing to receive my pain.&#xD;
 ishment Vitlidut a nurmur&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8353-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8353-00000024"/>&#xD;
 46                      TIa. CgsaAnT QF  I- PEOPLE,&#xD;
 ":Aadyou will receive a full. neasureef itan ty~a , rperjes sitti s: .9&#xD;
 - itisaWId  vira, 'P for he is enraged4t you.,- his friends beig afrai g g,     r&#xD;
@@ -3383,7 +3388,7 @@ mnon, who pressed her close to his bsa,-&#xD;
 A long kiss was the whole io&amp;amp;lili o&#xD;
 which passed between them theiOrsi fti&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8353-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8353-00000025"/>&#xD;
 Tun CoMBAT O1 TIs   aROPLX,&#xD;
 get, tiwas profusion of presentiments, of. Simon, who eputinued.i n .l  . phatin&#xD;
 thbla In tha t llenteloquence wbich-baff- tone : "Uf you, dearesAIsles, Wh her!k$&#xD;
@@ -3491,7 +3496,7 @@ naands where he shoul.l obey, and begs po- is no man without them, and he who hi
 scrutinizing aend penetrating looks, still stone, I first thought of ambition --but tho&#xD;
 7 -&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8353-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8353-00000026"/>&#xD;
 Tan 1x3aT OF TE= 'PEOPLE,&#xD;
 yg     nSBh s appease-    kOa4P ter he This iniust beforeIshand re sai a-secret t&#xD;
 y     ih~eafeseseur~agd4 hieap-the Esenee. ;Hei basA free "adesto the&#xD;
@@ -3602,7 +3607,7 @@ wisdom. I never had the fortune to beI will ruin him."    .        ", ; -  I&#xD
 among the great men of the country, and .' The door was opened, beled 'beistbido&#xD;
 rneed the forbearance of the wise." embrace her father, who zl'e Iedr htah-&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8353-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8353-00000027"/>&#xD;
 $2                     T an.oNATs oF&#xD;
 4&amp;amp;      gost aleotionatsly  "And-e0 you&#xD;
 -my ,y dear child ?" said Sa.&#xD;
@@ -3816,7 +3821,7 @@ asked.&#xD;
 " Not to rouse your indignation ainst&#xD;
 *your chief spy ; for you have t'o much&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8353-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8353-00000028"/>&#xD;
 THE COMBAT OF TB     PoPLE,&#xD;
 uewledge of the human aind  oto know to the-King of Arabia. .When L return, I&#xD;
 IitiaSledy. KI oqly iatendl to gi  you the will investigate closely into these -fairs..--&#xD;
@@ -3923,7 +3928,7 @@ embroidery, her head leaning on the bosom1 young man, a Babylonian by birth, ema
 of one of her ladies. The two young princes with the pilgrims of Jerieho to this efiy to&#xD;
 sat at her feet and from time to time looked offer the first fruits in God's temple. Witht&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8353-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8353-00000029"/>&#xD;
 Tun COMBAT or&#xD;
 r ye  iEg losing, puting' heart I hAst-&#xD;
 n O Seetim,~ and when I swr him again,:&#xD;
@@ -4089,7 +4094,7 @@ Aurionm and his excuse to visit Saloute, do assassin, a wretch."&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8353-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8353-00000030"/>&#xD;
 TaE CoMBAT oF THE PEOPLE,'&#xD;
 M    ae's mother, Queen Alexandra' Mother, I caution you against Dositheus."&#xD;
 a    ."I    -h ppy to see you as well aa  "You are not versed well enough in hu-&#xD;
@@ -4253,7 +4258,7 @@ teeth, the coral lips and the unfaded Sieauay&#xD;
 &#xD;
 59&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8353-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8353-00000031"/>&#xD;
 4-                    Tas COMBaT eo&#xD;
 of s yeng widow. Simon, who did not ev-&#xD;
 eut seea that hair and teeth were bor-&#xD;
@@ -4416,7 +4421,7 @@ Simon cast a contemptuous look upon the much in contact with Sahion's beauteous&
 man. "May God, in His infinite mercy, pro- daughter; she loves you, I am told by relia-&#xD;
 teot me against experiences like those of Able authority, and in two weeks from now,&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8353-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8353-00000032"/>&#xD;
 62                     Tas COMBAT OF THE PEOPLE,&#xD;
 you shall tell me, whether two fiery black remove her to a subtcrranean apartment&#xD;
 eyes can not work wonders. But, if you of the palace. I accordingly went there&#xD;
@@ -4523,7 +4528,7 @@ way. This be the proof of your love, get thank you for these words,'' said she, 
 that man out of my way. I hate, I abhor ingly, " you spoke as though you had look-&#xD;
 him. Prudence shipwrecks on his satanic ed into my heart. Just now, I was with the&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8353-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8353-00000033"/>&#xD;
 84                     TuE COMBAT OF THE PEOPLE,&#xD;
 Queen. She, not knowing you, suspects ten to the voice of suspicion, even if the&#xD;
 your sincerity. I advocated your cause. Queen shoulil speak it.&#xD;
@@ -4650,7 +4655,7 @@ dy said, smilingly,, way as of her husband, and is guilty 4Mtt'&#xD;
 9&#xD;
 59PaI&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8353-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8353-00000034"/>&#xD;
 I&#xD;
 &#xD;
 6            \         TUs CoauAT OF THE PEOPLE,&#xD;
@@ -4764,7 +4769,7 @@ not. If you repent now, you may relapse appears would catch him; Virtue, vepen.&
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8353-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8353-00000035"/>&#xD;
 68                    Tun 1COMBA   OF THE- PgoPLIR,&#xD;
 tanCe, a-failen angel attempting to rise, hn,'Simon, "I arm the messenger of a good ease,&#xD;
 as, ha,-that is his passion. He shall have and can not stumble. I must go to Jericho,&#xD;
@@ -4881,7 +4886,7 @@ and I have no father." ed for your kind sorvicec."&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8353-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8353-00000036"/>&#xD;
 '0                      Tun COMRAT oF TU     PEOPLE,&#xD;
 *aid Salome, on entering the room, "and Wickedness is the nutriment of the pas-&#xD;
 you shall have it,"                     sions, and gives them the superiority over&#xD;
@@ -5057,7 +5062,7 @@ I&#xD;
 &#xD;
 R&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8353-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8353-00000037"/>&#xD;
 72                     THE COMBAT oP 'h1E PEOPLE,&#xD;
 worships not, and whoever soils his handscall H erod's creatures by that honorable de-&#xD;
 with the blood of man is impure."       signation," said Abba Shaul. "The mem-&#xD;
@@ -5197,7 +5202,7 @@ to ascertain this isthe dltrebake-&#xD;
 den. Jerteho, I malatain Is a did soe&#xD;
 tug. by the force of beuiunttaaneeGe6 by&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8353-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8353-00000038"/>&#xD;
 74.                     TEII  CoMPAr OF&#xD;
 atof the auges.. Lou4 into-the+&#xD;
 b           l4,.first it ordains, that cities+&#xD;
@@ -5390,7 +5395,7 @@ it, thou' art guilty of pa(triclde and  i&#xD;
 aide, for both of us taust be' &amp;amp;na Eth&#xD;
 My son, my son, I fear the favorite of Ifl&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8353-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8353-00000039"/>&#xD;
 70                      THE COM4ATOF TA RJEOPLE,&#xD;
 rq4 ,      g Awickedi zmpa orr bepone; np themalioions spirits from the court of He-&#xD;
 Wwrop      is $her council of te wicked, rod, and he might be saved yet. Our p eo-&#xD;
@@ -5497,7 +5502,7 @@ so wise.--How happy a son 1 am, Hillel is touchstone for virtue and wickedness,"
 my father." He embrae'ed and kissed his Simon. " There is an impulse in me,.that&#xD;
 father. In a state of fervent enthusiasm hej never deceived me, by which I discriminate.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8353-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8353-00000040"/>&#xD;
 7T                      TRE COe     T ~1OF THE  PePLErr,&#xD;
 t neshewvitons re.m te ricius. There ees designs sre her wrk. Sabion, V s-&#xD;
 are n e   criteria udeniable symptoms, tobarus and Dositheus themeases are her&#xD;
@@ -5604,7 +5609,7 @@ her s. marc."                         ther, i. whae canntenasp he .nppend#&#xD;
 "Whmcsis she?" Simes asked almost pa- read as ehrmuti of the hae S&#xD;
 ralyznd with surprise and aprh  -ia     "IMess me, sg father, thst~mgstre4*fah&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8353-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8353-00000041"/>&#xD;
 80                     TilE COMBtAT o:&#xD;
 not," Simon cried. Hillel' laid his hands&#xD;
 upon his'head and said, solemnly, "God&#xD;
@@ -5780,7 +5785,7 @@ sneataieus ie(,ete andr&#xD;
 was .e p      e4                      ISti&#xD;
 66st Wku89 aal&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8353-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8353-00000042"/>&#xD;
 THE COMB1AT oF TIlE P E3LE,&#xD;
 Iillel," one askc,'"when we know him to  " Why should you have Hillel as your&#xD;
 be no friend of 'he people, but an admirer Nassi of the Sanhedrin," urged one of the&#xD;
@@ -5890,7 +5895,7 @@ high dignity ?" another asked. 'the men from the different parts of the oomn,&#x
 " None asked him," said Jonathan, " but try were instructed to prepare their *elgh-&#xD;
 we all know his doctrine. Since there are bors for the outbreak of the revolution, let -&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8353-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8353-00000043"/>&#xD;
 $4                     Tuax COBAT OF Tau!Eotr.x,&#xD;
 bem eoae to Jerusalem the week before   The Temple, its numerous cloisters and&#xD;
 Path feast, where plenty of arms would spacious courts, filled rapidly with myriads&#xD;
@@ -6020,7 +6025,7 @@ levitical chorus. When the Highpriest had who were followed by the a~uthorities~
 blessed the people and changed the white guards of the city, and the naultitu.depf st&#xD;
 for the usual vestments of his office, the peo- people who chose to follow. The rich men ~&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8353-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8353-00000044"/>&#xD;
 86                     Tn, COMBAT OF TE PnoPr.s,&#xD;
 of Jerualem were dressed in white silk, and arms were ornamented with wreaths of&#xD;
 rede on -white asses and bore white was flowers, blossoms, myrtle and vine leaves,&#xD;
@@ -6184,7 +6189,7 @@ sertsis the diggtant Giimania 1 WJ Red,&#xD;
 her, and return, her to yip. Deringempa&#xD;
 to says my grppd-fatheI will love yeu a&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8353-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8353-00000045"/>&#xD;
 88                     Tax COMBAT OF THE PiOPLE,&#xD;
 any brother, the savior of my family. My friend, and recommended you highly to my&#xD;
 wealth is yours, your wishes shall be mine. particular attention."&#xD;
@@ -6294,7 +6299,7 @@ then attempted and failed to run away with strumnents, despicable and disgusting
 her lover, succeeded after all; for gone she cessary to protect thrones. -Curse on royal-&#xD;
 is, and the old father knows not whither." ty, for the crown must perpetually be watch-&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8353-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8353-00000046"/>&#xD;
 90                    Tr C(uSAt oF TEE PEOLR,&#xD;
 ed by unmauly spies. The sword, ha, ha, my is my force, and my spies are my all see-&#xD;
 ha, the sword I Ah, enemies can be chas- ing eye. You can not expect a spy to be&#xD;
@@ -6404,7 +6409,7 @@ your spies and your system of slavery. Re hear. No wonder that flerod, suerroM&#
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8353-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8353-00000047"/>&#xD;
 9                      TuE COMBAT OF THE. 'PEoPts,&#xD;
 bgvile servants, sees a rogue in every man, not a traitor, and wish not to turn one, I&#xD;
 hU  e not always in the right place, But must leave you. Forget not, 1 have your&#xD;
@@ -6514,7 +6519,7 @@ company with Castobarus, to the foul means rael expected the remIssion of sins. 
 of assassinating you. But this failed and so my lady, if it was true what you toI4 ee&#xD;
 the evil had grown worse. Now he dreads last, especially must 'nave expected to.4c&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8353-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8353-00000048"/>&#xD;
 94                     THE COMBAT OP THE PEOPLE,&#xD;
 the grace efrour God. Will you this very demption of fferod from the clutches of the&#xD;
 night soil your soul with a lie?  Where is devil. Whether you assist me or not, Sa-&#xD;
@@ -6625,7 +6630,7 @@ about."                                stroy, annihilate foul, vile Sabion, if y
 "Sabion is a cunning fox and too useful to my own honor and the happiness 4gsy il-&#xD;
 my brother to he easily disposed of. The dren. Helen must speak no mo inhils&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8353-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8353-00000049"/>&#xD;
 96                      TuE CoMBAT OF THE PEOPLE,&#xD;
 country, anbhe two men of whom you speak her servant came in and brought her an in-.&#xD;
 can save their lives by silence only."  vitation to come early this morning to Re-&#xD;
@@ -6737,7 +6742,7 @@ tal disappearance; therefore I was deluded asked, with a peculiar emphasis.&#xD;
 to this place, and am kept a prisoner here,  The woman looked sosewhb igisp&#xD;
 13&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8353-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8353-00000050"/>&#xD;
 T n  CoMIAT  JTL Tuy  POg  ,g&#xD;
 Collecting herself, she said, " You do not and there was a commanding dignity in her&#xD;
 intend to seduce my children to disobedi. attitude, drew a dagger from its conceal-&#xD;
@@ -6856,7 +6861,7 @@ or ?"                                  |rounded the solitary room. The  M&#xD;
 &#xD;
 nI Q~i &#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8353-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8353-00000051"/>&#xD;
 100                   Tai: f'o.usa r oi, THI P :oi'i.&#xD;
 the lower part of the house filled her soul the execution of Us iillish plan. lie sne-&#xD;
 with disgust.                 .eeded la carrying her to the couch, when&#xD;
@@ -6971,7 +6976,7 @@ followed. Sohemus was the only man who forgotten."&#xD;
 ventured to say, " My lord, an insurrection " I hope it will be so," Her'od said. " I&#xD;
 of the people will and must be the result of fear much less my people than tii fauily.&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8353-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8353-00000052"/>&#xD;
 102                    THE CoMBAT or THE PEoPLE,&#xD;
 134t, Sabion, are you positive, that our evi- dies were called, Salome was conveyed to&#xD;
 deuce is sufficient to convict Hyrcan ?"  her room, and Simon followed.&#xD;
@@ -7082,7 +7087,7 @@ the physician to broach the secrets of his1 others who are very faithful servaun
 patient., still less it becomes a man to be- fore should you be encomabered byg spy, 9&#xD;
 tray his neighbor. You are your sister'5 dry and serious  ase who is dlstisAed&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8353-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8353-00000053"/>&#xD;
 104                    THE COMBAT OP THE PEOPLE,&#xD;
 with your system of government, and con- then, "if be must part with everything dear&#xD;
 demns your doings from the beginning to jto the heart ?" He crossed his arms over&#xD;
@@ -7188,7 +7193,7 @@ cut       . ra y , he  9tfmy sight," he .ra- nm f  andId iplo ~&#xD;
 w"Ay   Ar,~ to,&#xD;
 y,  '             s  r it  .  t   ti A"    i r s  :'ed  4 'd s  .   I  _ I'&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8353-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8353-00000054"/>&#xD;
 Te aap           'tn  PEoGI.E,&#xD;
 g pf 4vogrjevQusin,"said  h   "       dYog wi  eoe(orth le j  to atpge for&#xD;
 pi t h6 rimes of,              n,       old s oimesf   fence you fm ust grts ov6'&#xD;
@@ -7312,7 +7317,7 @@ While Abba Shaul _was. engaged l4    !;&#xD;
 during aaslsinoe where h    ne o a&#xD;
 es tin g  th e  Nri    elet"  if tk.   '&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8353-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8353-00000055"/>&#xD;
 TILE COM BAT OF THE PIOPL E,&#xD;
 &#xD;
 ocned his eyes, and, beholding ihelen, he&#xD;
@@ -7470,7 +7475,7 @@ OR HILLiL AND IIEROD.&#xD;
 &#xD;
 108g&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8353-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8353-00000056"/>&#xD;
 110&#xD;
 &#xD;
 Tin COMBAT OF THE FE3PLE,&#xD;
@@ -7629,7 +7634,7 @@ mnost&#xD;
 ('After the King has ien so graiiouslj&#xD;
 disposed   sir vo. andoared fu'&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8353-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8353-00000057"/>&#xD;
 112                   Taw Coxaa     o1 TUES PEOPLE,&#xD;
 theaingse wrath upon your heads and de'in several ambushes. Every body was rea-&#xD;
 tugw  ewnlve?" -tudy for action. A line of salliers arrived&#xD;
@@ -7729,7 +7734,7 @@ ae-ehdfor 544by nestPassover "        assume     uniforms of the solde.     .&#x
 -~   K~~te~~ere dispteboe4 do sae~           o the revol gr&#xD;
 * a ~      m        a        b         '    ferret.       n.~b~&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8353-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8353-00000058"/>&#xD;
 "h&#xD;
 . R&#xD;
 sy T '&#xD;
@@ -7858,7 +7863,7 @@ oyes fro    yhiule; when she again re        veia&#xD;
 ged dominonR over herself and iamv   j6Idengthe     n.ta4        .&#xD;
 hfg ans    om h~r eyes,8$afonesgata' )a tesje        '    "ikK       $&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8353-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8353-00000059"/>&#xD;
 16                    TU   Cosaa eOVTHa PsOPLE,&#xD;
 paisgpted minstrels of the air. There he closer; considered it best to be careful with&#xD;
 Bsooamd gazed on one side on the proud his words. "I mean, since Sabion is the&#xD;
@@ -7967,7 +7972,7 @@ tsei4 liimog so calmly, that iggiJmodf 'l e ggaugh,1 I~ aae sa&#xD;
 ,&#xD;
 &#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8353-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8353-00000060"/>&#xD;
 118                      Tun COMBAT OF 'PE PEOPLE,&#xD;
 uiat: sounds with such a violence, that Si "that.you are not altogether wrong. There&#xD;
 mos*egan to fear for his intellect,   is something self-evident in what you say,&#xD;
@@ -8068,7 +8073,7 @@ yea ro          t      nand   aliue i  pel you the 'veneavi ; off e    :&#xD;
 thisa4                    g;A.;ts'4  I amie  +aus1  teas  s dt r 'r&#xD;
 din th~  ca          agliessibf maind;iee  your ewra~p      BR~e~V&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8353-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8353-00000061"/>&#xD;
 Tuu 1o9)BAT OF THE PEOPLE,&#xD;
 essn so will be done you. 'Urimo has its "iBe must be stopped. No. He must be&#xD;
 tiosand wngues, idn each cries perpetual- brought back.  o,  that will act do. My&#xD;
@@ -8225,7 +8230,7 @@ greatoommotiod wl4hip re NaR45~&#xD;
 aa) e       sanidam    4    '&#xD;
 j ne&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8353-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8353-00000062"/>&#xD;
 122                     Te aCoMAT oF THE PKOPLe,&#xD;
 said Sabion. "First we must settle our diffi-! blue eyes under thin eyebrows, looked sad,&#xD;
 culties here, then we go to Sharon."   weary of life, and furrowed by the misfor-&#xD;
@@ -8334,7 +8339,7 @@ SOur sages also said, toasaniut one themf to packhi b"e .     esceeith&#xD;
 *e i  irme egnuaitt murder;athrea n. hi Repgrenighed     rwmilez,&#xD;
 believee, it is better to split wepd than their fidelity and bid t ~to say nothing of&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8353-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8353-00000063"/>&#xD;
 124                   Tu     COMBAT OF THE PEOPLE,&#xD;
 his plan, not even to his daughter. After when he still was the reigning head of Isra-&#xD;
 them a host of witnesses were introduced el, and he often thanked God, that he now&#xD;
@@ -8485,7 +8490,7 @@ ter tobS King of Israeli leaving to eHyrgoa paid therg.&#xD;
 goveroaqould not rest, did'nqt care for the sianderitygingthis pc4sation, wij ~  ~  d.&#xD;
 Sweai of Israel After a long eoid artral at- veagris resort to a falsifted 4dnead1&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8353-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8353-00000064"/>&#xD;
 .; 1&#xD;
 1&#xD;
 ((p&#xD;
@@ -8618,7 +8623,7 @@ is is prison. Dkhed M liis rown, and hia But in short timno is delato  wrux4&#xD
 thiis icceupied by anotier. ()ee hie Te fieafof Ii:trlanpted uptl.&#xD;
 ministak4 ielbre theo living': d is"%f ii te-. of flyedt eoppononte of alro4 g&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8353-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8353-00000065"/>&#xD;
 '18                  T CEOIBAT iOr HE PEOPLE,&#xD;
 }  'eriuled by the majority. When the Nas- him to Jericho. His reception in Jericho&#xD;
 i observed 'the state of affairs, he rose and was princely. The good man was so over-&#xD;
@@ -8749,7 +8754,7 @@ et ends $eaphi ;&#xD;
 04men," sai       A&#xD;
 8a* kissed&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8353-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8353-00000066"/>&#xD;
 OR HILLEL AND ITEROD.                  131&#xD;
 &#xD;
 A   ' gesatteoas, charming ,ae the color re-&#xD;
@@ -8935,7 +8940,7 @@ t  m  J       7f'¢PT~&#xD;
 &#xD;
 Tns CQMB&amp;amp;T OF sits PEOPLE,&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8353-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8353-00000067"/>&#xD;
 U.&#xD;
 &#xD;
 132                     Tus CoaiA'r oP THE PEorj.c,&#xD;
@@ -9075,7 +9080,7 @@ who arf n~~&#xD;
 ".  u r#.0 n a&#xD;
 To&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8353-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8353-00000068"/>&#xD;
 134                        THn COMBAT&#xD;
 *he documents is my possession are forged."I&#xD;
 Thew ig left the saloon, and Salome assail-&#xD;
@@ -9209,7 +9214,7 @@ stdfrst I must tl you what 1 have to Naythey mest not ev6n ki'w  s:s&#xD;
 °ey, th e l  iillea ve you.. You are blind S biqw;unningn.  ;k             'or&#xD;
 *ih nenlen.inn d I     ; aa .  Inaw IL RAmr o A v sw.mr&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8353-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8353-00000069"/>&#xD;
 TIRE Vo ,AT -OF 'THE PEOPLE,&#xD;
 &#xD;
 ,T4   a  taSm must be pa tto the 'plain&#xD;
@@ -9336,7 +9341,7 @@ or the other Aurion must be useful to tue. path of virtue, again ass&#xD;
 anybo~he inust remain in my haids,;nti 4 l otted withkoM&#xD;
 e    veeiie~tly desIere hlimi tliorNtd  oekf~his ow*an lte&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8353-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8353-00000070"/>&#xD;
 , $YTuR                     CoMa T oF T E PEOPLE,&#xD;
 4 efsand anio: malle4you 'planned she implored, "O, hear an unfortunate, tor-&#xD;
 ,theme toaanehate. Hyroad, oented woman who stands begging before&#xD;
@@ -9477,7 +9482,7 @@ N&#xD;
 &#xD;
 13p    Y,&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8353-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8353-00000071"/>&#xD;
 14                      THn OoMBAT OF Tn PonOPL,*&#xD;
 e&amp;amp; ejit alcolumn of the ancient'imple-  Here Ia Shamaite rose, and, having ve-&#xD;
 :   relics of .the place, which had spectfully bowed to the assembly, he said:&#xD;
@@ -9582,7 +9587,7 @@ OR. fnLLEL AND IlnnOD.&#xD;
 .1.- s&#xD;
 x&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8353-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8353-00000072"/>&#xD;
 142.                   THE .CoMBA.T OF TE PEOPLE,&#xD;
 &#xD;
 ieys    ags with n  tears, my trembling&#xD;
@@ -9719,7 +9724,7 @@ thema; ith tly- pure water of the-Law of strongemd unttReo .I&#xD;
 .                                                  ud.t $ ure4 isthe most holy place ofthe  'rthrp:Ir&#xD;
 Ie   l fethefhj    }fih acovernpnas de-  o a itsoi                   awk&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8353-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC8353-00000073"/>&#xD;
 144                    THU  CoIEAT or THE PBOPLU,&#xD;
 In}I~a    Two enemies arep abest e, Rome "For o4 and Israel!" it -esounded from&#xD;
 inI   eod. It reqe'   s  g doubleieourage to every mouth, and the mute walls re-ehbed&#xD;
@@ -9868,7 +9873,7 @@ I'M&#xD;
 t,  t&#xD;
 " } vI 4, 1ti&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8353-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC8353-00000074"/>&#xD;
 146                    Tau  COMBAT oF TEE PEOPLE,&#xD;
 too many women and children among them," dressed in black, Salome, his sister, who went&#xD;
 said Sabion, " besides this they are unarm- slowly and madly singing through the hail.&#xD;
@@ -9959,7 +9964,7 @@ e r sn   : f.of heis :{r            .eopi  t da4        disband f thwt ,&#xD;
 ~Inth_ name  f the ' 'od o tf -~Isrwe  o or  eeh y'jI      a&#xD;
 "i a The 6anttednin  r,,n_ ,.session," + e d  r '    N   .    ,          @01.  ''&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8353-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC8353-00000075"/>&#xD;
 THD CoMair O&#xD;
 Bat Jonathan continued: " And theft con-&#xD;
 mnittedon the people's property."' Herod's&#xD;
@@ -10093,7 +10098,7 @@ aI~ht Heeoi$ KioginIerae~l        etu   Kin l                ~      9p&#xD;
 &#xD;
 .  .&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8353-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC8353-00000076"/>&#xD;
 150                   THE COMBAT O1&#xD;
 Salome appeared to be altogether deranged&#xD;
 with fear. One adjutant after 'the other&#xD;
@@ -10252,7 +10257,7 @@ but for this time we must part with them,&#xD;
 and bid our readers FAREWELL.&#xD;
 THE AUTHOR&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8353-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC8353-00000077"/>&#xD;
 s;  ' j.   y   ~ p     4 .,"   ' "f  N   ' '   V v r   J  '     ''W ;ir&#xD;
 j  i t ; J  RR'+, Y       'l Ata   J  , p K,   ,&#xD;
 "  ~ .6.      y  ~Iyf 1 t   , i''r 1I ,     0 Jr  +.   I&#xD;
@@ -10262,8 +10267,8 @@ j  i t ; J  RR'+, Y       'l Ata   J  , p K,   ,&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

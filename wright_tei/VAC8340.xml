@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8340">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8340">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Macaria, or, Altars of Sacrifice </title>
-            <author >Evans, Augusta J. (1835-1909)</author>
+            <title>Macaria, or, Altars of Sacrifice </title>
+            <author>Evans, Augusta J. (1835-1909)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8340</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8340</idno>
+            <idno type="wright2" n="previous">wright2-2764</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Macaria, or, Altars of sacrifice</title>
-                  <author >Evans, Augusta J. (1835-1909)</author>
+                  <title>Macaria, or, Altars of sacrifice</title>
+                  <author>Evans, Augusta J. (1835-1909)</author>
                </titleStmt>
-               <extent >183 p. </extent>
+               <extent>183 p. </extent>
                <publicationStmt>
-                  <publisher >West &amp; Johnston</publisher>
+                  <publisher>West &amp; Johnston</publisher>
                   <pubPlace>Richmond </pubPlace>
-                  <date  when="1864">1864</date>
+                  <date when="1864">1864</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Macaria, or, Altars of sacrifice</head> 
+            <head>Macaria, or, Altars of sacrifice</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8340-00000001"/>4,1&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8340-00000001"/>4,1&#xD;
 &#xD;
 MAr CA RI A;'&#xD;
 &#xD;
@@ -133,7 +138,7 @@ _         f           }   ,Y&#xD;
 v    t                      , r,:j .&#xD;
 r   :.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8340-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8340-00000002"/>&#xD;
 ".A - , i&#xD;
 &#xD;
 I ,&#xD;
@@ -247,7 +252,7 @@ i                  r         ',&#xD;
 &#xD;
 '7c&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8340-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8340-00000003"/>&#xD;
 ''&#xD;
 &#xD;
 r&#xD;
@@ -359,7 +364,7 @@ to him.&#xD;
 and it keeps me a*ak . If you *lpold onl&#xD;
 let me help you.'                'i&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8340-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8340-00000004"/>&#xD;
 -- V  -S                                    -                a&#xD;
 &#xD;
 6&#xD;
@@ -630,7 +635,7 @@ can make for another.~ Russell was- about&#xD;
 eleven years of age, and, boy 'though he was,&#xD;
 realized .most fully the horrors of his parent's&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8340-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8340-00000005"/>&#xD;
 8,                   MALARIA.&#xD;
 &#xD;
 situation. The days of the trial came at last;&#xD;
@@ -832,7 +837,7 @@ sees yon that plight.                    heraunt the sunshine' fell upon'a face 
 seem to glory in finding fault. What is the. in the idealized heads of the old-masters. Her&#xD;
 matter wit my ' plight,' as you call it ?" hair was of an uncommon shiide, neither~ au-&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8340-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8340-00000006"/>&#xD;
 .AMACARIA.&#xD;
 &#xD;
 burn nor brown, but between gold and bronze ;."&#xD;
@@ -1107,7 +1112,7 @@ MACARIA.&#xD;
 &#xD;
 10&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8340-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8340-00000007"/>&#xD;
 I&#xD;
 &#xD;
 MALARIA. -&#xD;
@@ -1399,7 +1404,7 @@ t&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8340-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8340-00000008"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 recover her sight.. She has cataracts on her&#xD;
@@ -1674,7 +1679,7 @@ MACARIA.&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8340-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8340-00000009"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 to interpret the lines which sorrow had printed,&#xD;
@@ -1942,7 +1947,7 @@ MACARIA'&#xD;
 &#xD;
 171&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8340-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8340-00000010"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 18.                             MACARIA.&#xD;
@@ -2205,7 +2210,7 @@ ii deciphering the, strange1 heathensh figure&#xD;
 wined among the stai-s. When' er-y ofe&#xD;
 tudying thee 'ndex of the thermometer aad&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8340-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8340-00000011"/>&#xD;
 MACARIA.                 -  1&#xD;
 &#xD;
 barometer, and wondering why the quicksilver&#xD;
@@ -2453,7 +2458,7 @@ MACARIA'&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8340-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8340-00000012"/>&#xD;
 MECAMIA.                           23&#xD;
 &#xD;
 22                           MACARIA.&#xD;
@@ -2720,7 +2725,7 @@ wabh, a    kred to mis his m te  4 hi  ef&#xD;
 ignorajit han *d   lisW t pd xin hiousin's&#xD;
 hear-t; how little he sui  fetd thl iu*nsityof&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8340-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8340-00000013"/>&#xD;
 24&#xD;
 &#xD;
 MARIA.&#xD;
@@ -3000,7 +3005,7 @@ I&#xD;
 r&#xD;
 l ,&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8340-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8340-00000014"/>&#xD;
 26                                       [ACATRAIA.&#xD;
 &#xD;
 been ',poiled thus far by luxury and life-long&#xD;
@@ -3273,7 +3278,7 @@ M-A ARWA.&#xD;
 &#xD;
 ' 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8340-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8340-00000015"/>&#xD;
 28                                 MAC.&#xD;
 Art is no mere pastime, as some people sup-&#xD;
 ose ; an artist'slife is an arduous one at best.&#xD;
@@ -3541,7 +3546,7 @@ steod 'at her wind~wlooking .out on~ the lawn&#xD;
 where her life had beei passed. Although&#xD;
 Nlie was weeping bittrl   t 'er side, she.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8340-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8340-00000016"/>&#xD;
 CMACAR8A.                                                   31&#xD;
 &#xD;
 hadnot shed a tear ; but they face was full of'&#xD;
@@ -3809,7 +3814,7 @@ pupil, L.long to have yon in my owu' home.&#xD;
 &#xD;
 30             f           MACARRIA:&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8340-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8340-00000017"/>&#xD;
 A4&#xD;
 &#xD;
 32&#xD;
@@ -4084,7 +4089,7 @@ your hard earnings-in future ; I should be nus .&#xD;
 erable unless at work, and L, tell you I must&#xD;
 and will go to Mr. Clifton."&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8340-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8340-00000018"/>&#xD;
 MACARIA.MACARIA&#xD;
 &#xD;
 He looked at her no, urprised and pained.&#xD;
@@ -4377,7 +4382,7 @@ MACARIA.&#xD;
 &#xD;
 35&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8340-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8340-00000019"/>&#xD;
 'rl&#xD;
 ,!&#xD;
 11&#xD;
@@ -4605,7 +4610,7 @@ kiss, and went to his own room.              Somebody took a seat near her, nd, 
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8340-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8340-00000020"/>&#xD;
 iijr&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -4881,7 +4886,7 @@ P".&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8340-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8340-00000021"/>&#xD;
 fil&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -5096,7 +5101,7 @@ Lion-room. *We shall have a charming day.&#xD;
 lii&#xD;
 I&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8340-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8340-00000022"/>&#xD;
 MACARIA.                  43&#xD;
 &#xD;
 " Ah, Louisa! you are all very kind to rec-&#xD;
@@ -5365,7 +5370,7 @@ and then retired.&#xD;
 &#xD;
 42                               MA.C:ARIA..&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8340-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8340-00000023"/>&#xD;
 ARIA.&#xD;
 &#xD;
 44                                 MAC&#xD;
@@ -5639,7 +5644,7 @@ love and marry, like, the majority of women.&#xD;
 He set this fact before him and lookedd it in&#xD;
 the face,' but it would not answer ; he coul4&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8340-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8340-00000024"/>&#xD;
 46                    M40Al A.&#xD;
 &#xD;
 not realize that she would ever be other than&#xD;
@@ -5906,7 +5911,7 @@ MAC.     IA. r                                    4'?&#xD;
 &#xD;
 d&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8340-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8340-00000025"/>&#xD;
 48                        MACARIA.&#xD;
 &#xD;
 She counted the days between Itussell's&#xD;
@@ -6111,7 +6116,7 @@ a&#xD;
 &#xD;
 Y&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8340-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8340-00000026"/>&#xD;
 MAO ARIA                 51&#xD;
 &#xD;
 50.                      MACARIA'&#xD;
@@ -6384,7 +6389,7 @@ hir,:'Harvey turned ovet the leaves and&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8340-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8340-00000027"/>&#xD;
 52&#xD;
 &#xD;
 I&#xD;
@@ -6657,7 +6662,7 @@ ively:&#xD;
 artig gift'and seemedk~ much hurt about it.&#xD;
 ~here is no reason why -you'should not wear&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8340-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8340-00000028"/>&#xD;
 4&#xD;
 &#xD;
 54&#xD;
@@ -6863,7 +6868,7 @@ pondence with you. That article on chiar'o-&#xD;
 you can begin it at once."&#xD;
 Chiku-o-scuro, forsgathl Mockery I 'She 'had&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8340-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8340-00000029"/>&#xD;
 50                   MACARIA.A&#xD;
 &#xD;
 quite chiaro-scuro enough, and to spare; but&#xD;
@@ -7132,7 +7137,7 @@ ectual types is even grater than the physical,&#xD;
 &#xD;
 ;CARIA.                               3 7&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8340-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8340-00000030"/>&#xD;
 (.&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -7401,7 +7406,7 @@ sketches, yosthave'beeh more than my life to&#xD;
 me. -An uncomnerable love sprang up then,&#xD;
 and it has grown with the months and yea.,.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8340-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8340-00000031"/>&#xD;
 MACARIA.                    61&#xD;
 &#xD;
 taking sole possession of a heart which never&#xD;
@@ -7673,7 +7678,7 @@ MACA A&#xD;
 &#xD;
 60&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8340-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8340-00000032"/>&#xD;
 MACAIA.                    63&#xD;
 &#xD;
 now and then, as if striving to suppress bitter.&#xD;
@@ -7945,7 +7950,7 @@ t&#xD;
 &#xD;
 . i&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8340-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8340-00000033"/>&#xD;
 MACARIA.     -                        65&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -8215,7 +8220,7 @@ script; nothing hieroglyphic nor cuneitorm;&#xD;
 papyrus and pyramid ate alike silent on this&#xD;
 matter; nothing in the clouds above, nor ila the&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8340-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8340-00000034"/>&#xD;
 A IATTA&#xD;
 &#xD;
 66                                  M&#xD;
@@ -8484,7 +8489,7 @@ had returned during her absence,.hadsge t a&#xD;
 morning in. the studio-looking over bat''w'ork&#xD;
 and had gone' Southa,to establhsh hima~f e e&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8340-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8340-00000035"/>&#xD;
 60v&#xD;
 &#xD;
 laati et oghat r~h bagidbus, lidsons ii&#xD;
@@ -8682,7 +8687,7 @@ opened window ; -and there by the couch sat&#xD;
 11&#xD;
 t&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8340-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8340-00000036"/>&#xD;
 70                      MALARIA.&#xD;
 &#xD;
 tWe motionless watcher, noting the indescriba-&#xD;
@@ -8948,7 +8953,7 @@ and his voice ca'Imly but inflexibly directed.&#xD;
 &#xD;
 MALARIA.                           ?1&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8340-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8340-00000037"/>&#xD;
 MACARIA. 7&#xD;
 &#xD;
 72                      MACARIA.&#xD;
@@ -9214,7 +9219,7 @@ when the loug-dreaded struggle musg egin,&#xD;
 and, hopelessof averting i quietly fWaited for&#xD;
 the storm to break; Dropping the ring iii her&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8340-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8340-00000038"/>&#xD;
 74                    MACARIA.&#xD;
 &#xD;
 jewelry-box, she turned the key,. and just&#xD;
@@ -9485,7 +9490,7 @@ and whiling away the, tine as inclination&#xD;
 &#xD;
 M.ACARIA.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8340-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8340-00000039"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -9734,7 +9739,7 @@ Om$. hfu  910mI1 PTER   XVII.&#xD;
 &#xD;
 77&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8340-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8340-00000040"/>&#xD;
 78                   MACARIA.&#xD;
 &#xD;
 "6Irene, my child, it is one o'clock."&#xD;
@@ -9935,7 +9940,7 @@ of her proficiency, he objected most strenu- spell-bound. The delicate, subtle, 
 ously to her devoting so, large a share of her. problem' of parallax had'heretofore exerted&#xD;
 time and attention to this study, and had posi- the strongest fascination over her; but this&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8340-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8340-00000041"/>&#xD;
 so&#xD;
 &#xD;
 MALARIA.&#xD;
@@ -10144,7 +10149,7 @@ help myself., I have.more than once heard;&#xD;
 you quote Wallenftein'; have so'soon forgotten&#xD;
 his.words:&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8340-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8340-00000042"/>&#xD;
 82                    MACARIA.&#xD;
 &#xD;
 "' Permit her own will.&#xD;
@@ -10353,7 +10358,7 @@ people's minds; and if. Aubrey has -not the the paddle, and gathered up the rein
 huest legal intellect in W , I will throw father called from the open window, whence&#xD;
 up my judgeship. You, have seen Campbell, issued curling wreath's of blue smoke:&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8340-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8340-00000043"/>&#xD;
 84&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -10640,7 +10645,7 @@ I .&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8340-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8340-00000044"/>&#xD;
 MACARIA:s&#xD;
 &#xD;
 gled voices came out at the open "window, to&#xD;
@@ -10915,7 +10920,7 @@ moment:'&#xD;
 &#xD;
 #&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8340-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8340-00000045"/>&#xD;
 88                   MACARIA.&#xD;
 &#xD;
 "You, at least, dare not deny my charge,&#xD;
@@ -11185,7 +11190,7 @@ M.A.CABIA.                                      89.&#xD;
 &#xD;
 . .&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8340-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8340-00000046"/>&#xD;
 90  ' ,a      MACARIA.&#xD;
 &#xD;
 and cotton bales ? Oh, my father! would you&#xD;
@@ -11389,7 +11394,7 @@ soui-ces of a.well-stored, brilliant intellect. It ,I "-thought I 'should not se
 was evident that she labored con amore, and left America. I can 'not tell you what .&#xD;
 now the expectation of approaching triumph pleasure this surprise is to me.' O, 'Russell!&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8340-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8340-00000047"/>&#xD;
 MACARIA'&#xD;
 &#xD;
 - - "  I longed inexpressibly to be with you once&#xD;
@@ -11662,7 +11667,7 @@ MACAlRIA.&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8340-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8340-00000048"/>&#xD;
 94&#xD;
 &#xD;
 MALARIA.&#xD;
@@ -11945,7 +11950,7 @@ this country. 'Mrs Young has taken charge of&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8340-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8340-00000049"/>&#xD;
 MALARIA.&#xD;
 &#xD;
 the, money for me, and has kindly offered to'&#xD;
@@ -12217,7 +12222,7 @@ from than. antgonsi t e itra'6%&#xD;
 &#xD;
 1.&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8340-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8340-00000050"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 "Taou confound the ass and abuse of a sys-&#xD;
@@ -12491,7 +12496,7 @@ he mounted the 'steps of 4the 'innson firim&#xD;
 AWhich hais mee and sufferig 'mother hd&#xD;
 borne burdlies'of plain wdrk, r delicrqtema a'&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8340-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8340-00000051"/>&#xD;
 of embroidery, for the mother and daughter&#xD;
 *ho passed her in the street with a supercilious&#xD;
 stare.' Beau nande suddenly awoke to the&#xD;
@@ -12701,7 +12706,7 @@ tomed non-coninuttahism of the business-man of steps' serving- as a' temporary r
 the world      "e measured tones of the watch- night was dark' and cloudybut hugehonfires&#xD;
 man on the twn-tower recalled him, finally, 'blazing barrelt of; pith, threw j luridTIAir&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8340-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8340-00000052"/>&#xD;
 10MACAAIA.&#xD;
 over. the broad street, now converted into a ing the people of the state; warned the oppo-&#xD;
 sdrging sea of human heads.              sition of the probable results of their policy,&#xD;
@@ -12904,7 +12909,7 @@ leaned against the glossy trunk of.in 'aneiexn&#xD;
 wild-cherry: tree, 'and hooked in dream'b&#xD;
 straction down the lqng shadowy vista ofveni-&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8340-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8340-00000053"/>&#xD;
 104&#xD;
 &#xD;
 MALARIA.&#xD;
@@ -13114,7 +13119,7 @@ gray locks toucited hter cheek. She (lid not whiich I Oan call -mg own, except a
 shrink away, but looked at him steadily, and which he voluntarily' allows'~me per' annum.&#xD;
 answered : . . Mark you, I do' not complain 6f my 'father-&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8340-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8340-00000054"/>&#xD;
 106 ,                        MACARIA.&#xD;
 &#xD;
 MACARIA.          .      10y&#xD;
@@ -13378,7 +13383,7 @@ ad sold, sowed and reaped as uua-lttl&#xD;
 realizing that the 'temporary lull, the perfect&#xD;
 calm, was treacherous as the glassy green ed-&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8340-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8340-00000055"/>&#xD;
 108                      MACARIA.&#xD;
 &#xD;
 panse of waters which, it is said, sometimes&#xD;
@@ -13651,7 +13656,7 @@ MACARIA.                   109&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8340-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8340-00000056"/>&#xD;
 .110                                MACA&#xD;
 the table, John, and tell And  to take Mass'&#xD;
 Hugh's buggy."&#xD;
@@ -13923,7 +13928,7 @@ MACARIA.&#xD;
 &#xD;
 I111&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8340-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8340-00000057"/>&#xD;
 112                    MACARIA.&#xD;
 &#xD;
 and Russell came with a cushion from the li-&#xD;
@@ -14185,7 +14190,7 @@ sellor' whose strong good sense rendered her&#xD;
 &#xD;
 MACARIA:&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8340-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8340-00000058"/>&#xD;
 114  ACARA.                                          MCARI.                     FI&#xD;
 &#xD;
 advice and guidance valuable indeed. By a&#xD;
@@ -14453,7 +14458,7 @@ be'st on  Now, ten, what% to'p~y?&#xD;
 'me except whe youre;. Hna Q4  ele&#xD;
 ated herself to anotherspell of'reumtais,&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8340-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8340-00000059"/>&#xD;
 116                                 MAC&#xD;
 or Paragon broke his leg, or small-pox broke&#xD;
 out anywhere; or, worse than all, have the&#xD;
@@ -14660,7 +14665,7 @@ her babyhood,'and tightens as.she growsolder.. the risk beforeI was aware'tliat.
 ' That souls are dangerous things to carry straight any. Besides, I really do not think 1 shall take&#xD;
 Through all the spilt saltpetre of the world ' glt the fevdr. ' 'I believe a good resolution i.'a&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8340-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8340-00000060"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 powerful preventive] and that, you know, I&#xD;
@@ -14932,7 +14937,7 @@ MALARIA.&#xD;
 &#xD;
 118&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8340-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8340-00000061"/>&#xD;
 120                         .  .        MACARIA.&#xD;
 &#xD;
 completely unnerved, and he went home more&#xD;
@@ -15208,7 +15213,7 @@ longer."&#xD;
 " What did I tell you ? Next time don't be '&#xD;
 so hard-headed when you are advised by older&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8340-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8340-00000062"/>&#xD;
 MAhLMiACARIA.                                                               I23&#xD;
 &#xD;
 and wiser persons. I trust you are quite sat&#xD;
@@ -15479,7 +15484,7 @@ MAkCARFA.&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8340-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8340-00000063"/>&#xD;
 124&#xD;
 &#xD;
 MACARIA.&#xD;
@@ -15751,7 +15756,7 @@ hands ; are you in a mood for concession, ?"y&#xD;
 What is it ? Do you. want a new collar for&#xD;
 Paragon, or a bran new pigeon-box twice the&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8340-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8340-00000064"/>&#xD;
 126&#xD;
 &#xD;
 MALARIA:&#xD;
@@ -16026,7 +16031,7 @@ had maumuvred for this opportunity, and, Wa*&#xD;
 ed beside Irene, he eagerly 'and eloquenty&#xD;
 pleaded in cause,s assuring hr of a dvoi&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8340-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8340-00000065"/>&#xD;
 128&#xD;
 &#xD;
 which should know no diminution, and empha-&#xD;
@@ -16167,7 +16172,7 @@ faltered now and then, she sang it thirough-&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8340-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8340-00000066"/>&#xD;
 MACARIA'&#xD;
 &#xD;
 bitter heart -.hungers for one of your. gentle&#xD;
@@ -16440,7 +16445,7 @@ the' lasdoorlnn    a~wr~,'&#xD;
 idio4 and s~i~st       'xgt'hth'ee&#xD;
 bei Aed there lived one woniam wh~o woul be&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8340-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8340-00000067"/>&#xD;
 182&#xD;
 &#xD;
 MA t  C1. .&#xD;
@@ -16709,7 +16714,7 @@ t'eps, she niet him athe bngg~r .14&#xD;
 &#xD;
 .;III&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8340-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8340-00000068"/>&#xD;
 134                                MAC&#xD;
 "Beauregard has taken Sumter. Anderson&#xD;
 surrendered unconditionatly. No lives lost."'&#xD;
@@ -16978,7 +16983,7 @@ I       Z.&#xD;
 Jli&#xD;
 it"i {I F&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8340-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8340-00000069"/>&#xD;
 MAGARIA.&#xD;
 &#xD;
 Ever in that dim,.uncertain -gray light he tops; the sundflashed up in conqueringsplen-&#xD;
@@ -17179,7 +17184,7 @@ M AE4.&#xD;
 &#xD;
 137&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8340-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8340-00000070"/>&#xD;
 1i88&#xD;
 &#xD;
 4&#xD;
@@ -17472,7 +17477,7 @@ i           i&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8340-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8340-00000071"/>&#xD;
 MACARA.&#xD;
 &#xD;
 engaged in 'sealing' up a number of the jars,  "And what is to become of my conscience&#xD;
@@ -17684,7 +17689,7 @@ ate&#xD;
 &#xD;
 140&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8340-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8340-00000072"/>&#xD;
 142&#xD;
 &#xD;
 MACARtiA&#xD;
@@ -17817,7 +17822,7 @@ snen uintakable assurngee'            faded srgn :&#xD;
 "iti]dh6  d'1(" niyr''S(*'hd. "\;EI o  e 's'; , at, \ y,    +eheoeM   t 2&#xD;
 beey.                                             '&#xD;
 &#xD;
-<pb  n="144" xml:id="VAC8340-00000073"/>&#xD;
+<pb n="144" xml:id="VAC8340-00000073"/>&#xD;
 " No ! I had faith that, despite your angry&#xD;
 efforts, your heart would be true to me."&#xD;
 " Why-did you inflict no much pain on us&#xD;
@@ -17953,7 +17958,7 @@ bear a great sea of silende-betwebn.us'hence&amp;amp;&#xD;
 &#xD;
 MACARIA.'&#xD;
 &#xD;
-<pb  n="-145" xml:id="VAC8340-00000074"/>&#xD;
+<pb n="-145" xml:id="VAC8340-00000074"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 forth, you certainly should be stronger ; should&#xD;
@@ -18094,7 +18099,7 @@ grave ?"&#xD;
 4&#xD;
 f&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8340-00000075"/>&#xD;
+<pb n="146-147" xml:id="VAC8340-00000075"/>&#xD;
 148                     I~D ACAJUA..                                                                                                                      4&#xD;
 &#xD;
 His black locks lay upon her forehead as he  The suri had set, but waves of rich orange&#xD;
@@ -18301,7 +18306,7 @@ credentials which 'the passions of mankind&#xD;
 &#xD;
 147&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8340-00000076"/>&#xD;
+<pb n="148-149" xml:id="VAC8340-00000076"/>&#xD;
 148                         MACARIA.&#xD;
 &#xD;
 MACARIA                                          149$&#xD;
@@ -18572,7 +18577,7 @@ orders were despatched for an ambulance.&#xD;
 " It will come after my corpse.. i Hiram, see&#xD;
 that I am sent 'home at once. I don't want&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8340-00000077"/>&#xD;
+<pb n="150-151" xml:id="VAC8340-00000077"/>&#xD;
 MACARIA.&#xD;
 &#xD;
 my bones mixed here with other people's; and late child!1 what an awful shock for;her ! She&#xD;
@@ -18785,7 +18790,7 @@ claimed:&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8340-00000078"/>&#xD;
+<pb n="152-153" xml:id="VAC8340-00000078"/>&#xD;
 1W                                 M ACAR'i&#xD;
 Fatheriom'emnie to~iight.  o badk, and wait 'She resumed her walk, ith'her eyes strain-&#xD;
 f9r it. Tell Mr. Rogers, the operator, wht ed in the direction of the town.&#xD;
@@ -18991,7 +18996,7 @@ She laughed heartily...&#xD;
 '"Of curse net. 'We Wori are the s ird&#xD;
 to hazard all upoin'oue diet" ."&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8340-00000079"/>&#xD;
+<pb n="154-155" xml:id="VAC8340-00000079"/>&#xD;
 1W                                 M&amp;amp;QARIA.&#xD;
 "Well-well iYulee'that,we trust impor-  " Master, from  the way he watches, the&#xD;
 tant data to your cunning fingers. You leave clouds, I believe he is about to run out. May-&#xD;
@@ -19193,7 +19198,7 @@ ting oeurred to frustrateghp plai; Ernc&#xD;
 and Electra were- cordially receiA4 4aend at&#xD;
 dgsr Williss and the bpggage arrlked-psaneW&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8340-00000080"/>&#xD;
+<pb n="156-157" xml:id="VAC8340-00000080"/>&#xD;
 MACAiA&#xD;
 &#xD;
 ally. 'The schooner wae lying sohe- distani&#xD;
@@ -19460,7 +19465,7 @@ pbantly.; -1    . -              un a&#xD;
 -   MaryMammy Mar rylaudl"  ,.a -&#xD;
 -,  -   -   , ;  -  -   )  1 '  -,&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8340-00000081"/>&#xD;
+<pb n="158-159" xml:id="VAC8340-00000081"/>&#xD;
 -158lt MAATA.&#xD;
 ' Ifench bethe feeling of her sons, Captain, 'has given to gild life with. There is grief.and&#xD;
 she willMoon 'gird her beauteous limbs with, gloom enough at best; and so much innocent&#xD;
@@ -19662,7 +19667,7 @@ shibkythe airh'iks th1ideisy ndth e&#xD;
 &#xD;
 4'&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8340-00000082"/>&#xD;
+<pb n="160-161" xml:id="VAC8340-00000082"/>&#xD;
 blockaders'the unmistakable assaratice, ",Thus&#xD;
 farpdn4 no farther."&#xD;
 Tea schobner .strained on itssway ; a few&#xD;
@@ -19798,7 +19803,7 @@ r f o '6  t f&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8340-00000083"/>&#xD;
+<pb n="162-163" xml:id="VAC8340-00000083"/>&#xD;
 I I .&#xD;
 &#xD;
 MAO    rnA                                  a1s&#xD;
@@ -19859,7 +19864,7 @@ hrg htrt  ountry} t roum avariee' a  } aor- ih'  cataba      e.   r     c"ve&#xD
 ruiptnio;ii iltfie atl~s of Sparta gave their'd  o  ups ~tdw.4o4&#xD;
 Southern sWomninhave ued sire t itusu p leg.  a yfrr    4  ,  t&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8340-00000084"/>&#xD;
+<pb n="164-165" xml:id="VAC8340-00000084"/>&#xD;
 Arito&amp;amp;We want no;feeble,.sickly sentimentali-&#xD;
 tdr yet thewombra austerity which-seems to&#xD;
 -pervydb yourxmind,'jtidging..fron the works&#xD;
@@ -20125,7 +20130,7 @@ ly enzt ?hiim Ttin""&#xD;
 eaty'he it js      went to the .ln&#xD;
 asnhia'rdih    iith Isame gelitlenietI, sle a&amp;amp;&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8340-00000085"/>&#xD;
+<pb n="166-167" xml:id="VAC8340-00000085"/>&#xD;
 them neair ho rnig ch e.        oi- a    no     o       ent       n .~I&#xD;
 t shBI oL4f w  deuni  s llr iedah'er, fpise  t hbIs ellioy.: ; Jamwa ' e o'ih t r u  y,  °'o S  t  o                   3}&#xD;
 aft  al ", ,."         "ir         is;h   a     b  sd  1spoe    , #  , o                      s   x  ! r     '&#xD;
@@ -20187,7 +20192,7 @@ Dee&#xD;
 &#xD;
 4 , .r&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8340-00000086"/>&#xD;
+<pb n="168-169" xml:id="VAC8340-00000086"/>&#xD;
 ,r&#xD;
 &#xD;
 s&#xD;
@@ -20224,7 +20229,7 @@ xte  cueJ'                      , : 01  q g~&#xD;
 n      t Wi&#xD;
 "         a  ?4: :1 Lhp    X0      ?#RxI; Tr~'&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8340-00000087"/>&#xD;
+<pb n="170-171" xml:id="VAC8340-00000087"/>&#xD;
 0&#xD;
 &#xD;
 }ti l ~     i'v  'Yo   tl  ,_  "#, '  'tl 'iheeye § had  vvr  iy the bonds ;of'1-hh&#xD;
@@ -20323,7 +20328,7 @@ war«wolvess that -'hen &amp;amp; An hungry hoe  :aloe ' y'o  ' f ce lr  ' ti'' 
 the uor~ers'if h&amp;amp;$uth.'M~ee'vr 4twed ' " '~hankd to  'out uidaui'O41;. i&#xD;
 f atd revere' 7' '    flthe U : iion-4id 'eobtn#hlU' O em "l   mer '  y'"e am''"hfrt~  i#  1&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8340-00000088"/>&#xD;
+<pb n="172-173" xml:id="VAC8340-00000088"/>&#xD;
 ve t% fi l pItiton a  w   gtQ th M wo~&#xD;
 ~~~o vh-r4te ?ervpx , t ryt:do p&#xD;
 8i*Uiug8 efi~thoy   vt;, t    '~o l&#xD;
@@ -20542,7 +20547,7 @@ s eJ -  ha ..  bdenisleep 'a$~$4&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8340-00000089"/>&#xD;
+<pb n="174-175" xml:id="VAC8340-00000089"/>&#xD;
 fo  i 1  oek  q  H6W TM p  tv e":two  a ft '' .I  m  r  r  W  h t t -t   he  matter ? "Surely  you "1  are.a,4 +' ),  i {Si  ,,f"1 t  ~Jlt  fPCti   ,+r  ,' a.r i*14'D ii1i  h1 ,ild yih  B t  . .  i1tnd r-rA nl ?, o Ih v 'n&#xD;
 dead;  .... . ,R  ;  .i.',  w t -.,   f .4  ears ;about the: sa yo  i~ no l feieat is&#xD;
 ' i)hilhwg tlhbow dioi uragin k L*ent inotwritt ni ~ -' Lr .ion; ,but I shudder tin&#xD;
@@ -20664,7 +20669,7 @@ i&#xD;
 &#xD;
 t' i&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8340-00000090"/>&#xD;
+<pb n="176-177" xml:id="VAC8340-00000090"/>&#xD;
 ee r  e d'lfi 1&amp;amp;of' ' ae' s8t~tionu C~m&amp;amp; it'  VAYb eW is badlyfruded.&#xD;
 511'ss command had pj eIt~l tbi u&#xD;
 h'i~ii htd  dkii~~ eoifillt  "Y6ix are gj to faint, Miss Irene! Drink&#xD;
@@ -20843,7 +20848,7 @@ refresh, strengthen you."&#xD;
 &#xD;
 .r&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8340-00000091"/>&#xD;
+<pb n="178-179" xml:id="VAC8340-00000091"/>&#xD;
 178                               .MACARIA.&#xD;
 "«INoting *ill strengthen me. I Jiave' but rated in life; you and I shall be united by death.&#xD;
 a shore tiin to live ;'shall I sleep away' th op- Oh, Irene I but for your earnest piety this&#xD;
@@ -21039,7 +21044,7 @@ Gls have been defeatedpven.ack to James&#xD;
 standi all now! Whr jsae~        fJ,&#xD;
 ~he ipran up5u~t a deatlike pallor6e-&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8340-00000092"/>&#xD;
+<pb n="180-181" xml:id="VAC8340-00000092"/>&#xD;
 180                                MACARIA, .&#xD;
 sere   her face and she tottered 'to the open ported to the Army of Tennessee, and air and&#xD;
 Iene follow  dththi                      sunshine entered umpeded. Electra sat be-&#xD;
@@ -21248,7 +21253,7 @@ wonderfully sernie andl holy. 1k thn dlitancd,&#xD;
 &#xD;
 MALARIA.                         181&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8340-00000093"/>&#xD;
+<pb n="182-183" xml:id="VAC8340-00000093"/>&#xD;
 182                                  MAC&#xD;
 gleaning in the evenin light which streamed&#xD;
 fro4 the west, tents dotted -a hill-side; and&#xD;
@@ -21490,8 +21495,8 @@ i.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

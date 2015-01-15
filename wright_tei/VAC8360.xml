@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8360">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8360">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Wonderful, But True Life of Ella Cameron </title>
-            <author >Anonymous</author>
+            <title>The Wonderful, But True Life of Ella Cameron </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8360</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8360</idno>
+            <idno type="wright2" n="previous">wright2-2784</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The wonderful, but true life of Ella Cameron</title>
-                  <author >Anonymous</author>
+                  <title>The wonderful, but true life of Ella Cameron</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >72 p. </extent>
+               <extent>72 p. </extent>
                <publicationStmt>
-                  <publisher >Barclay</publisher>
+                  <publisher>Barclay</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1875">[1875]</date>
+                  <date when="1875">[1875]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-08">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-08">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The wonderful, but true life of Ella Cameron</head> 
+            <head>The wonderful, but true life of Ella Cameron</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8360-00000001"/>ALLA ,,LAA&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8360-00000001"/>ALLA ,,LAA&#xD;
 6f4&#xD;
 AN EXTRAORDINARY REVELATION,&#xD;
 BEING&#xD;
@@ -99,7 +104,7 @@ PHILADELPHIA:&#xD;
 13ARCLAY &amp;amp; CO., PUBLISHERS,&#xD;
 No. 21 NORTH SEVENTH *STREET.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8360-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8360-00000002"/>&#xD;
 k&#xD;
 &#xD;
 ELLA CAMERON.&#xD;
@@ -153,7 +158,7 @@ that one might fineygthat thesoul was, hi      gh  A&#xD;
 hi  with its beauty their rich hues her l    keyes&#xD;
 fiery as the eagles glance, piercing and   aspa&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8360-00000003"/>&#xD;
+<pb n="14-15" xml:id="VAC8360-00000003"/>&#xD;
 14            COL. LEONARD IN LoVE WITH ELLA.&#xD;
 when roused by passion; but when lit up by love, soft and gentle at.&#xD;
 a seraph's gaze: and when she turned a melting look upon you, theu&#xD;
@@ -262,7 +267,7 @@ dance.&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="16" xml:id="VAC8360-00000004"/>&#xD;
+<pb n="16" xml:id="VAC8360-00000004"/>&#xD;
 1a             JEALOUsY-A CHALLENGE.&#xD;
 &#xD;
 Leonard, who looked abashed at being thwarted so decisively,&#xD;
@@ -313,7 +318,7 @@ Willard's Hotel.&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="Illustration-17" xml:id="VAC8360-00000005"/>&#xD;
+<pb n="Illustration-17" xml:id="VAC8360-00000005"/>&#xD;
 THE CUNNING AND WITTY NEbPO, POMP.&#xD;
 When Moreland finished reading this, he smiled, and than wrote&#xD;
 the following note to his friend Lovell:&#xD;
@@ -365,7 +370,7 @@ Cooney in do kollor," &amp;amp;.&#xD;
 The sub was .just rising above 'the eastern horizon, When Koe'&#xD;
 tkd and Lovell descended from their earr'age in a secluded sad&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8360-00000006"/>&#xD;
+<pb n="18-19" xml:id="VAC8360-00000006"/>&#xD;
 -8           TuE DUEL.-LBONARD IS WOUNDED&#xD;
 lonely spot, a short distance from the turnpike leading from Wash&#xD;
 gton City to the village of Bladensburg.&#xD;
@@ -471,7 +476,7 @@ said: .My delay here is already a mest unjustifiable&#xD;
 though it pans me deeply, I must, to-nght, take leave of&#xD;
 Ella heard him with a strange mixture of relief and dread&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8360-00000007"/>&#xD;
+<pb n="20-21" xml:id="VAC8360-00000007"/>&#xD;
 20              MORELAND's DISAPPOiNTMENT.&#xD;
 could she live without him ? And yet it was madness to think of&#xD;
 life with him."&#xD;
@@ -575,7 +580,7 @@ fore, had the entre of this elegant and capatious saloon butmeng-&#xD;
 bers of congress, foreign ministers and their attaches, and wealthy:&#xD;
 pagers, who might be sojourning in the city, transacting business,&#xD;
 &#xD;
-<pb  n="22" xml:id="VAC8360-00000008"/>&#xD;
+<pb n="22" xml:id="VAC8360-00000008"/>&#xD;
 22        MORELAND ENTEhw THE GAMBLING SALOON.&#xD;
 with the Government, or in pursuit of pleasure; in fact no ,citie&#xD;
 or clerk was ever admitted.&#xD;
@@ -631,7 +636,7 @@ alsdeboard of rosewood inlaid witk pearl, in the centre of which it&#xD;
 &#xD;
 S                                                                                                                                                          S&#xD;
 &#xD;
-<pb  n="Illustration-23" xml:id="VAC8360-00000009"/>&#xD;
+<pb n="Illustration-23" xml:id="VAC8360-00000009"/>&#xD;
 /fi&#xD;
 &#xD;
 I&#xD;
@@ -700,7 +705,7 @@ Moreland said, addressing the 'dealer:&#xD;
 &#xD;
 ;,&#xD;
 &#xD;
-<pb  n="25-26" xml:id="VAC8360-00000010"/>&#xD;
+<pb n="25-26" xml:id="VAC8360-00000010"/>&#xD;
 I~ ~&#xD;
 I&#xD;
 jInY Ii&#xD;
@@ -807,7 +812,7 @@ Morehknd had rung a moment before.&#xD;
 in the ening' train."&#xD;
 Though Ella was dressed and ready to come down to dinner, she&#xD;
 &#xD;
-<pb  n="27-28" xml:id="VAC8360-00000011"/>&#xD;
+<pb n="27-28" xml:id="VAC8360-00000011"/>&#xD;
 R. CAMERONS SCHEME SUCCESSFUL.           27&#xD;
 felt so ill and depressed that she lay dowr again, toi  her maid&#xD;
 to close the shutters and leave her to herself.&#xD;
@@ -915,7 +920,7 @@ collected,&#xD;
 &#xD;
 AZI&#xD;
 &#xD;
-<pb  n="29-30" xml:id="VAC8360-00000012"/>&#xD;
+<pb n="29-30" xml:id="VAC8360-00000012"/>&#xD;
 MORELAND AMONG MURDEREiS, PICKPOCKETS, &amp;amp;o.       29&#xD;
 "What do you want with Captain Harrell?" asked the Captain.&#xD;
 "Your services in a matter of importance !" said Moreland after&#xD;
@@ -971,7 +976,7 @@ as he went out in obedience to Harrell's commands.&#xD;
 &#xD;
 77 771M-M,-,",&#xD;
 &#xD;
-<pb  n="31 (Illustration) -32" xml:id="VAC8360-00000013"/>&#xD;
+<pb n="31 (Illustration) -32" xml:id="VAC8360-00000013"/>&#xD;
 32M0RELANi's DriPRRATE PMAN MATURING.&#xD;
 make a tip-top-crossman, if he grows "Up as he's begun. If he don't&#xD;
 get too fond of lush, he'll be an invaluable-he will."&#xD;
@@ -1023,7 +1028,7 @@ had ventured to offer an observation, he had been put down by a&#xD;
 - surly " Hold your tongue, sir !" from his master.&#xD;
 They had walked on for some time without conversation, and poor&#xD;
 &#xD;
-<pb  n="33-35" xml:id="VAC8360-00000014"/>&#xD;
+<pb n="33-35" xml:id="VAC8360-00000014"/>&#xD;
 0&#xD;
 &#xD;
 rOMP, THE SERVANT'S ANXIETY AND RIGHT.          83&#xD;
@@ -1132,7 +1137,7 @@ veins traced beneath the transparent skin, and then an exrio-&#xD;
 &#xD;
 WMr                                                                                                                         lp&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8360-00000015"/>&#xD;
+<pb n="36-37" xml:id="VAC8360-00000015"/>&#xD;
 f&#xD;
 &#xD;
 ELLA's MARRIED WITH LEONARD.&#xD;
@@ -1257,7 +1262,7 @@ AD&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="38" xml:id="VAC8360-00000016"/>&#xD;
+<pb n="38" xml:id="VAC8360-00000016"/>&#xD;
 38    RIDE TO TIM DEPOT-FRIGHTFUL SCENES AT HAND.&#xD;
 the sharp rowels deep into the flanks of his horse, and holding the&#xD;
 reins with a nervous grip, he dashed away at a headlong rate.&#xD;
@@ -1309,7 +1314,7 @@ lessly by, and the surer weapon of the ruffiap's grasp was employed'&#xD;
 to as deadly a purpose. The Qaolonel felt that he was being dragged&#xD;
 to the edge of' the precipice. The desperation of intense fear lent&#xD;
 &#xD;
-<pb  n="Illustration-39" xml:id="VAC8360-00000017"/>&#xD;
+<pb n="Illustration-39" xml:id="VAC8360-00000017"/>&#xD;
 7&#xD;
 &#xD;
 LEONARD'S HORRIBLE DEATH.                  89&#xD;
@@ -1367,7 +1372,7 @@ through the ruffian s brain. As soon as he knew that his shot had&#xD;
 &#xD;
 N&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8360-00000018"/>&#xD;
+<pb n="40-41" xml:id="VAC8360-00000018"/>&#xD;
 N&#xD;
 &#xD;
 ELLA ROBBED BY HARRELL, THE ROBBER CHIEF.&#xD;
@@ -1482,7 +1487,7 @@ The night indicated in the advertisement arrived and everything&#xD;
 was ,prepared for the robber's capture in case he should make his&#xD;
 ppearanPe. At the hour named Hiarrell mounted the steps, rang&#xD;
 &#xD;
-<pb  n="42-45" xml:id="VAC8360-00000019"/>&#xD;
+<pb n="42-45" xml:id="VAC8360-00000019"/>&#xD;
 F'&#xD;
 &#xD;
 42 UA~RELL iS KILLeD--ELLA AND MORELAND ARE MARRIED.&#xD;
@@ -1572,7 +1577,7 @@ dulity, when the heart, yet new, follows freely the impulses of its&#xD;
 &#xD;
 '~1&#xD;
 &#xD;
-<pb  n="46" xml:id="VAC8360-00000020"/>&#xD;
+<pb n="46" xml:id="VAC8360-00000020"/>&#xD;
 46           ADVENTURES OF CHARLES MARSHALL&#xD;
 rising sensibility, and gives itself without division to the object of&#xD;
 its disinterested affection. Then friendship is not merely a name.&#xD;
@@ -1618,7 +1623,7 @@ hers should long remain ignorant of my attachnment; but they spoke&#xD;
 &#xD;
 MMO P'llp&#xD;
 &#xD;
-<pb  n="Illustration-47" xml:id="VAC8360-00000021"/>&#xD;
+<pb n="Illustration-47" xml:id="VAC8360-00000021"/>&#xD;
 IN&#xD;
 no,,&#xD;
 IoI&#xD;
@@ -1668,7 +1673,7 @@ dangers. attendant upon, an election campaign in a city which con-&#xD;
 tained its seet bands: of organized politicians, thatphe' greatly-&#xD;
 feared for my safety. She wept freely.&#xD;
 &#xD;
-<pb  n="48-51" xml:id="VAC8360-00000022"/>&#xD;
+<pb n="48-51" xml:id="VAC8360-00000022"/>&#xD;
 I&#xD;
 &#xD;
 "Dry your tears, child," he said to her stoically, "or keep them&#xD;
@@ -1765,7 +1770,7 @@ Percy Elmore! The four years which had rassed since our separa-&#xD;
 &#xD;
 AND mIS LOST BRIDE, CORNELIA ,DUNNINGTON.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8360-00000023"/>&#xD;
+<pb n="52-53" xml:id="VAC8360-00000023"/>&#xD;
 52         ADVENTURES OF CHARLES MARSHALL.&#xD;
 tion, had not changed him so much but that I was able to recognize&#xD;
 him, and I showed the surprise and joy which his unexpected&#xD;
@@ -1855,7 +1860,7 @@ shieldled 'from seduction !"'&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8360-00000024"/>&#xD;
+<pb n="54-55" xml:id="VAC8360-00000024"/>&#xD;
 :;i&#xD;
 &#xD;
 -DVENTURES OF CHARLES MARSHALL.&#xD;
@@ -1951,7 +1956,7 @@ Pi tme of the robbery they had set the hut on fire. This villain: I&#xD;
 &#xD;
 AND HIS LOST BRIDE, CORNELIA DUNNINGTON.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8360-00000025"/>&#xD;
+<pb n="56-57" xml:id="VAC8360-00000025"/>&#xD;
 '&#xD;
 &#xD;
 ADVENTURES OF CHARLES MARSHALV-&#xD;
@@ -2046,7 +2051,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8360-00000026"/>&#xD;
+<pb n="60-61" xml:id="VAC8360-00000026"/>&#xD;
 60&#xD;
 &#xD;
 A DVENTURE OF CHARLES MARSHALL.&#xD;
@@ -2143,7 +2148,7 @@ AND HIS LOST BRIDE, CORNELIA DUNNINGTON.&#xD;
 &#xD;
 61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8360-00000027"/>&#xD;
+<pb n="62-63" xml:id="VAC8360-00000027"/>&#xD;
 62&#xD;
 &#xD;
 ADVENTURES 01 CHARLES MARSHALL,&#xD;
@@ -2240,7 +2245,7 @@ I told her to write to me freely all necessary explanations,- and 1&#xD;
 &#xD;
 4-&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8360-00000028"/>&#xD;
+<pb n="64-65" xml:id="VAC8360-00000028"/>&#xD;
 I&#xD;
 &#xD;
 64           ADVENTURES (1 CHARLES MARSHALL,&#xD;
@@ -2289,7 +2294,7 @@ length I was brought, my arms still bound, before Hubbard, (n&#xD;
 &#xD;
 L!t '! 7&#xD;
 &#xD;
-<pb  n="66 (Illustration) -67" xml:id="VAC8360-00000029"/>&#xD;
+<pb n="66 (Illustration) -67" xml:id="VAC8360-00000029"/>&#xD;
 AND HIS LOST BRIDE, CORNELIA DUNNINGTON.&#xD;
 entering the room in which he was, I saw seated in an arm cha&#xD;
 fainting female  It was Cornelia!: Tut, oh Qod! how chan&#xD;
@@ -2371,7 +2376,7 @@ ed&#xD;
 &#xD;
 I       , ,      ' w41&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8360-00000030"/>&#xD;
+<pb n="68-69" xml:id="VAC8360-00000030"/>&#xD;
 68&#xD;
 &#xD;
 ADVENTURES OF CHARLES MARSHALL,&#xD;
@@ -2472,7 +2477,7 @@ i&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8360-00000031"/>&#xD;
+<pb n="70-71" xml:id="VAC8360-00000031"/>&#xD;
 70           ADVENTURES OF CHARLES MARSHALL,&#xD;
 the precaution to conceal beneath my pillow. I heaped upon the&#xD;
 accursed miscreantthe reproaches he justly merited, and vowed to&#xD;
@@ -2563,7 +2568,7 @@ which was the former residence of the lady, who took him and his.&#xD;
 negro friend in out of charity. I wonder where the negro is no'w ? '&#xD;
 He was shot by the robbers when they attacked the house, said&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8360-00000032"/>&#xD;
+<pb n="72-73" xml:id="VAC8360-00000032"/>&#xD;
 72           ADVENTURES Of CHARLES MARSHALL.&#xD;
 I, and his body is doubtless now consumed, the walls of the burning&#xD;
 building having fuller upon him, while he lay writhing in rain at&#xD;
@@ -2594,12 +2599,12 @@ I+--&#xD;
 &#xD;
 f0 , , .4'?. 15U S+e  - NI&#xD;
 &#xD;
-<pb  n="74 (Illustration) " xml:id="VAC8360-00000033"/>&#xD;
+<pb n="74 (Illustration) " xml:id="VAC8360-00000033"/>&#xD;
 !/ ]r///     /i t ~l f -  4r    l,\'&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="75 (Advertisement) " xml:id="VAC8360-00000034"/>&#xD;
+<pb n="75 (Advertisement) " xml:id="VAC8360-00000034"/>&#xD;
 I;:&#xD;
 &#xD;
 t0&#xD;
@@ -2615,8 +2620,8 @@ r'( 1 .&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

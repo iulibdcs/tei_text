@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8087">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8087">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Clouds and Sunshine </title>
-            <author >Townsend, Frederic.</author>
+            <title>Clouds and Sunshine </title>
+            <author>Townsend, Frederic.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8087</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8087</idno>
+            <idno type="wright2" n="previous">wright2-2525A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Clouds and sunshine</title>
-                  <author >Townsend, Frederic.</author>
+                  <title>Clouds and sunshine</title>
+                  <author>Townsend, Frederic.</author>
                </titleStmt>
-               <extent >254 p.</extent>
+               <extent>254 p.</extent>
                <publicationStmt>
-                  <publisher >J.S. Taylor</publisher>
+                  <publisher>J.S. Taylor</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1853">1853</date>
+                  <date when="1853">1853</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-06-27">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-06-27">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Clouds and sunshine</head> 
+            <head>Clouds and sunshine</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8087-00000001"/>CLOUDS&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8087-00000001"/>CLOUDS&#xD;
 &#xD;
 AND-&#xD;
 &#xD;
@@ -121,7 +126,7 @@ p&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8087-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8087-00000002"/>&#xD;
 Entered according to Act of Congress, in the year 1853, by&#xD;
 JOHN S. TAYLOR,&#xD;
 In the Clerk's office of the District Court of the United States,&#xD;
@@ -146,7 +151,7 @@ I&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="0Table of Contents-5" xml:id="VAC8087-00000003"/>&#xD;
+<pb n="0Table of Contents-5" xml:id="VAC8087-00000003"/>&#xD;
 CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 Page.&#xD;
@@ -184,7 +189,7 @@ Ier&#xD;
 &#xD;
 CONTENTS.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8087-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC8087-00000004"/>&#xD;
 (~f4(~Tf)$4 ANt) 5(~(fNi~.&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -254,7 +259,7 @@ I&#xD;
 &#xD;
 14.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8087-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC8087-00000005"/>&#xD;
 8         CLOUDS 4ND SUNSHINE.                                    CLOUDS AND SUNSHINE.         9&#xD;
 &#xD;
 *1&#xD;
@@ -318,7 +323,7 @@ I&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8087-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC8087-00000006"/>&#xD;
 !;I~~V;I~i AND ;1r:8f(f'4k.                 I'&#xD;
 &#xD;
 10           CLOlri)$ AND ~UN:4tI IN i;.&#xD;
@@ -390,7 +395,7 @@ original form.&#xD;
 &#xD;
 10&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8087-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC8087-00000007"/>&#xD;
 12         CLOUDS AND SUNShINE.&#xD;
 &#xD;
 1!&#xD;
@@ -443,7 +448,7 @@ B. You think so, do you?&#xD;
 &#xD;
 12&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8087-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC8087-00000008"/>&#xD;
 -I,&#xD;
 &#xD;
 14&#xD;
@@ -519,7 +524,7 @@ B. Forgive me, my dear fellow, forgive me. I&#xD;
 certainly meant no offence. But 1 say again, I dif-&#xD;
 fer with you, toto cwlo, on this subject. I can't see&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8087-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC8087-00000009"/>&#xD;
 1.~&#xD;
 &#xD;
 16&#xD;
@@ -590,7 +595,7 @@ Father.&#xD;
 B. What say you to this item? (pointing to the&#xD;
 Inspector's Report.) Two hundred and fifty, chil-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8087-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC8087-00000010"/>&#xD;
 18         CLOUDS AND SUNSHINE.                                   CLOUDS AND SUNSHINE.         19&#xD;
 &#xD;
 dren swept Qif last week by Chole~ra Infanturn and&#xD;
@@ -664,7 +669,7 @@ tion, and slowness of belief; for instance, you denomi-&#xD;
 &#xD;
 19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8087-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC8087-00000011"/>&#xD;
 20                                                                                                       21&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -738,7 +743,7 @@ V&#xD;
 &#xD;
 20&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8087-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC8087-00000012"/>&#xD;
 4~,i4&#xD;
 I&#xD;
 &#xD;
@@ -812,7 +817,7 @@ K&#xD;
 &#xD;
 23&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8087-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC8087-00000013"/>&#xD;
 CLOUDS ANt) SUNSHINE.&#xD;
 &#xD;
 duly recognize and cater to this propensity, and stuff&#xD;
@@ -887,7 +892,7 @@ Dry that betrays and torments, far more than it.serves&#xD;
 or soothes; that tells of wasted hours, neglected op-&#xD;
 portunities, cherished sins; of most magnificent pro-&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8087-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC8087-00000014"/>&#xD;
 26        CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.         27&#xD;
@@ -964,7 +969,7 @@ at the tomb. Yes, let that be the finis of my little&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8087-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC8087-00000015"/>&#xD;
 '-ii&#xD;
 &#xD;
 1'&#xD;
@@ -1046,7 +1051,7 @@ I.&#xD;
 'ii&#xD;
 Li&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8087-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC8087-00000016"/>&#xD;
 30&#xD;
 &#xD;
 I&#xD;
@@ -1129,7 +1134,7 @@ p&#xD;
 &#xD;
 31&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8087-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC8087-00000017"/>&#xD;
 us? I fear so. If there he any thing beyond it, it&#xD;
 seems to me that the powers of darkness will be&#xD;
 tenfold more the gainers thc&#xD;
@@ -1199,7 +1204,7 @@ A. Don't speak so bitterly. Oh, no, no; this&#xD;
 dear young soul was destined for happiness, for hea-&#xD;
 ven. So were all human souls. Who c~n doubt it?&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8087-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC8087-00000018"/>&#xD;
 fi&#xD;
 &#xD;
 I&#xD;
@@ -1282,7 +1287,7 @@ rately stopping their mouths forever, in the grave!&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8087-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC8087-00000019"/>&#xD;
 1'&#xD;
 si&#xD;
 ''I&#xD;
@@ -1355,7 +1360,7 @@ is&#xD;
 &#xD;
 CI4OUl)8 'A Ni) ~t~N8Ii I N IC.                                                            ('f.0fjI)8  AN~~   8UN8fTfNf';.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8087-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC8087-00000020"/>&#xD;
 7'&#xD;
 &#xD;
 N&#xD;
@@ -1425,7 +1430,7 @@ pq ~t[&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8087-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC8087-00000021"/>&#xD;
 ([f~1rJPF-4 AN ~ 8rfN~rffNf~&#xD;
 &#xD;
 to b% li( ~~Q I hTl I' Ct 1111 COUIOI'Q1ICCS 1 bOUt Ihen), and&#xD;
@@ -1499,7 +1504,7 @@ idea of such an immortality as this Is i~ ~ot&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8087-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC8087-00000022"/>&#xD;
 ~I4&#xD;
 p&#xD;
 IiII&#xD;
@@ -1572,7 +1577,7 @@ I&#xD;
 &#xD;
 43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8087-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC8087-00000023"/>&#xD;
 44&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -1663,7 +1668,7 @@ I,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8087-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC8087-00000024"/>&#xD;
 F&#xD;
 &#xD;
 around me, rno materials for any rational, much ,less&#xD;
@@ -1757,7 +1762,7 @@ Th~&#xD;
 &#xD;
 [&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8087-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC8087-00000025"/>&#xD;
 ii"&#xD;
 K&#xD;
 II&#xD;
@@ -1835,7 +1840,7 @@ Ii&#xD;
 $&#xD;
 If&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8087-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC8087-00000026"/>&#xD;
 ~4 'fjfj&#xD;
 Jft~ '~ jb&#xD;
 1111&#xD;
@@ -1919,7 +1924,7 @@ it&#xD;
 &#xD;
 .4:&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8087-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC8087-00000027"/>&#xD;
 CLOUDS AND SUNSHiNE.&#xD;
 &#xD;
 CLOIJI)8 ANI) SUNShINE.&#xD;
@@ -1999,7 +2004,7 @@ fi&#xD;
 2&#xD;
 I&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8087-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC8087-00000028"/>&#xD;
 V&#xD;
 &#xD;
 subject, too, as we do, and take refuge from&#xD;
@@ -2072,7 +2077,7 @@ fr~&#xD;
 &#xD;
 54&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8087-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC8087-00000029"/>&#xD;
 I&#xD;
 &#xD;
 has not Cond~$cended by the way, to explain the&#xD;
@@ -2146,7 +2151,7 @@ CLOtUI~S AND 8UNSH1N1~,&#xD;
 &#xD;
 &amp;amp;T&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8087-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC8087-00000030"/>&#xD;
 "~&#xD;
 IL&#xD;
 I&#xD;
@@ -2229,7 +2234,7 @@ It&#xD;
 &#xD;
 59&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8087-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC8087-00000031"/>&#xD;
 4?&#xD;
 I&#xD;
 &#xD;
@@ -2306,7 +2311,7 @@ Ad&#xD;
 &#xD;
 CLOUDS AND SUN5IIINfl.&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8087-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC8087-00000032"/>&#xD;
 4&#xD;
 i 1~4:4&#xD;
 4,&#xD;
@@ -2385,7 +2390,7 @@ CL0UD~ AND SUNSHINE.&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8087-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC8087-00000033"/>&#xD;
 t;4        CLOUVIS ANI) SUNSHINE.                                                                65 (A~OUD~4 ANI) SUN8IIINE.&#xD;
 &#xD;
 Yes. I repent it. slanderer though you think me. 1&#xD;
@@ -2452,7 +2457,7 @@ to pieces of all the bright creations that before so&#xD;
 engaged and cheered us, and the erection of far dif-&#xD;
 ferent structures in their stead, where suspicion sits&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8087-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC8087-00000034"/>&#xD;
 pit&#xD;
 f 1K ~,&#xD;
 ii ;!'t:&#xD;
@@ -2529,7 +2534,7 @@ suggestion of our own self-love. At least it deems&#xD;
 &#xD;
 CLOUDS ANI)   '~li1NE.                   '4&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8087-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8087-00000035"/>&#xD;
 p&#xD;
 ~I.&#xD;
 ~'t~&#xD;
@@ -2586,7 +2591,7 @@ B. Addio.&#xD;
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8087-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8087-00000036"/>&#xD;
 CONVERSATION III,&#xD;
 &#xD;
 A. AND now, my dear friend, I propose, to re-&#xD;
@@ -2643,7 +2648,7 @@ this question. Again, this idea of yours is, as I&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8087-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8087-00000037"/>&#xD;
 I&#xD;
 &#xD;
 72&#xD;
@@ -2731,7 +2736,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8087-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8087-00000038"/>&#xD;
 4~t&#xD;
 4&#xD;
 &#xD;
@@ -2807,7 +2812,7 @@ I,&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8087-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8087-00000039"/>&#xD;
 76         CLOUDS AND SUNSHiNE.&#xD;
 &#xD;
 call in our senses as witnesses on the side of skepti-&#xD;
@@ -2879,7 +2884,7 @@ a few words ~ung or spoken will melt an audience to&#xD;
 &#xD;
 76&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8087-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8087-00000040"/>&#xD;
 CLOUDS AM) SUN5J1INf~.&#xD;
 &#xD;
 CLOUDS ANT) SUNSHINE.&#xD;
@@ -2953,7 +2958,7 @@ strous conception! The idea of our Father in Hea-&#xD;
 ven's taking up this earth of his. a~d. without one&#xD;
 glance of pity either for his own work or fbr man's,&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8087-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8087-00000041"/>&#xD;
 80         CLOUDS AND SUNSHINE.                                     CLOUDS AND SUNSHtNE.         81&#xD;
 &#xD;
 (1&#xD;
@@ -3022,7 +3027,7 @@ eminent; with all this exquisite machinery in mo-&#xD;
 tion about you, this prodigality of thought expended&#xD;
 on the very minutest details* that appertain unto&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8087-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8087-00000042"/>&#xD;
 I&#xD;
 &#xD;
 82         CLOUDS AND SUNSHINE.&#xD;
@@ -3093,7 +3098,7 @@ our Father in heaven, just as the poor tenants of the&#xD;
 &#xD;
 ':1&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8087-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8087-00000043"/>&#xD;
 85&#xD;
 &#xD;
 CJ~OfJl)8 ANT) SiJN5FJfN~.&#xD;
@@ -3162,7 +3167,7 @@ cono'ratulation; the dear thincrs were thereby dcliv-&#xD;
 ered from far more temptations and troubles, than&#xD;
 they were defrauded of en2ovlnents: let the bened~c-&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8087-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8087-00000044"/>&#xD;
 86&#xD;
 &#xD;
 CLOUDS AND SUNSIIINi:.&#xD;
@@ -3246,7 +3251,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8087-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8087-00000045"/>&#xD;
 88           CLOTJDS AND STJNSH1NE.&#xD;
 as a witness against him; that epitaph so full of&#xD;
 pathos, informed as it is, with such an intense hu-&#xD;
@@ -3330,7 +3335,7 @@ I&#xD;
 12&#xD;
 dl&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8087-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8087-00000046"/>&#xD;
 90         CLOUDS AND SUNSHINE~                                   CLOUDS AND SUNSHINE.         91&#xD;
 &#xD;
 we had hut to follow them, and farewell, at once, to&#xD;
@@ -3404,7 +3409,7 @@ j&#xD;
 &#xD;
 91&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8087-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8087-00000047"/>&#xD;
 I                                       -&#xD;
 &#xD;
 92&#xD;
@@ -3488,7 +3493,7 @@ those that have been revealed to sense, and duly re-&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8087-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8087-00000048"/>&#xD;
 94&#xD;
 &#xD;
 CLOUDS AND SUNShINE&#xD;
@@ -3566,7 +3571,7 @@ A. Well then, allow me a few words upon the&#xD;
 last part of my question. I asked you, my dear&#xD;
 friend, if you saw nothing in your own nature, where-&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8087-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8087-00000049"/>&#xD;
 on to build a faith in immortality ; no aspirations,&#xD;
 no capacities, that all the acquisitions, all the expe-&#xD;
 rience of this life failed to meet or satisfy. No, said&#xD;
@@ -3633,7 +3638,7 @@ criticisms on each other, our wholesale censures of&#xD;
 God's works. I don't believe in them. I never yet&#xD;
 saw the man or woman, so stupid or degraded, but&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8087-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8087-00000050"/>&#xD;
 98&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -3711,7 +3716,7 @@ It&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8087-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8087-00000051"/>&#xD;
 100&#xD;
 &#xD;
 CLOUDS AND SUNShINE4&#xD;
@@ -3794,7 +3799,7 @@ and ages, ay, and planets ; will confer together; will&#xD;
 1&#xD;
 I&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8087-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8087-00000052"/>&#xD;
 102&#xD;
 &#xD;
 CLOUDS AND SUNSHINE&#xD;
@@ -3863,7 +3868,7 @@ Give us the sufferings that are fairly ours, e'en to&#xD;
 the last drop of bitterness, the last groan of anguish&#xD;
 and remorse; but oh, defraud us not of the duties,&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8087-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8087-00000053"/>&#xD;
 CLOUDS AND SUNSHINE.        105&#xD;
 &#xD;
 104&#xD;
@@ -3932,7 +3937,7 @@ of youth, and from the loftiness of its aims; that&#xD;
 we all became more sordid and narrow-minded, with&#xD;
 every step we took towards the grave.; the standard&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8087-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8087-00000054"/>&#xD;
 106        CLOUDS AND SUNSHINE9                                      CLOUDS AND SUNShINE.       107&#xD;
 &#xD;
 :&#xD;
@@ -4006,7 +4011,7 @@ friend, you may remember, in our last conversation,&#xD;
 4&#xD;
 4&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8087-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8087-00000055"/>&#xD;
 108&#xD;
 &#xD;
 CLOuDS AND SUNSIIINFX&#xD;
@@ -4083,7 +4088,7 @@ To the vast multitude, whose doom it is,&#xD;
 To run the giddy round of vain delight,&#xD;
 Or fret and labor on the plain below."&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8087-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8087-00000056"/>&#xD;
 ii&#xD;
 &#xD;
 CONVERSATION IV.&#xD;
@@ -4145,7 +4150,7 @@ III.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8087-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8087-00000057"/>&#xD;
 112&#xD;
 &#xD;
 CLOUDs AND SUNSHINE.&#xD;
@@ -4220,7 +4225,7 @@ we have of it, and dimly as we-perceive its qualities,&#xD;
 is there any thing in MIoliore, or Congreve, or Sheri-&#xD;
 dan, like it ? Is there any thing short of the blessed&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8087-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8087-00000058"/>&#xD;
 114        CLOUDS AND SUNSHiNE.                                     CLOUDS AND SUNSHINE.        115&#xD;
 &#xD;
 Twelfth Night, or the delicious As You Like It, that&#xD;
@@ -4294,7 +4299,7 @@ I&#xD;
 &#xD;
 114&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8087-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8087-00000059"/>&#xD;
 116&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -4369,7 +4374,7 @@ fifty? Even Gabriel Ravel, Efear, would have cut&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8087-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8087-00000060"/>&#xD;
 118&#xD;
 &#xD;
 CLOUDS AND SU~NSfllNE.&#xD;
@@ -4443,7 +4448,7 @@ lix&#xD;
 &#xD;
 119&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8087-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC8087-00000061"/>&#xD;
 C[,OUJ)5 AM) SUNSHINE.          121&#xD;
 &#xD;
 1'20          CLO~ii)S AND St1N~Wi1NI~&#xD;
@@ -4512,7 +4517,7 @@ toiling in mines, and galleys, and factories; more&#xD;
 &#xD;
 120&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8087-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC8087-00000062"/>&#xD;
 I&#xD;
 &#xD;
 CLOUDS 'AND SUNSHINE.&#xD;
@@ -4592,7 +4597,7 @@ L&#xD;
 4&#xD;
 4&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8087-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC8087-00000063"/>&#xD;
 124&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -4662,7 +4667,7 @@ V&#xD;
 &#xD;
 m.L~.&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8087-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC8087-00000064"/>&#xD;
 CLOUDS AND SUNSHINE.       12&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -4736,7 +4741,7 @@ I&#xD;
 &#xD;
 19/[&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8087-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC8087-00000065"/>&#xD;
 128       CLOUDS AND SUNSHIN1~.                                   CLOUDS AND SUNSHINE.      129&#xD;
 &#xD;
 boasted freedom of ours, when we think of these&#xD;
@@ -4805,7 +4810,7 @@ dwell upoii it. A few words upon the item of good-&#xD;
 &#xD;
 129&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8087-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC8087-00000066"/>&#xD;
 4&#xD;
 &#xD;
 'p&#xD;
@@ -4882,7 +4887,7 @@ if&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8087-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC8087-00000067"/>&#xD;
 182&#xD;
 &#xD;
 CIoUDS- AND SUJNSHIINE,&#xD;
@@ -4960,7 +4965,7 @@ ren of old, in the amount of our acquisitions. lNo&#xD;
 &#xD;
 I'&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8087-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC8087-00000068"/>&#xD;
 I&#xD;
 &#xD;
 134&#xD;
@@ -5041,7 +5046,7 @@ I&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8087-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC8087-00000069"/>&#xD;
 .1&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -5116,7 +5121,7 @@ if&#xD;
 &#xD;
 137&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8087-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC8087-00000070"/>&#xD;
 I&#xD;
 &#xD;
 188&#xD;
@@ -5189,7 +5194,7 @@ nian had any such set of books, or system of book-&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8087-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC8087-00000071"/>&#xD;
 i&#xD;
 &#xD;
 U&#xD;
@@ -5272,7 +5277,7 @@ true Homeric style, for conquest, is indeed most&#xD;
 I&#xD;
 I&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8087-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC8087-00000072"/>&#xD;
 *1&#xD;
 &#xD;
 MU&#xD;
@@ -5351,7 +5356,7 @@ r I&#xD;
 f~&#xD;
 I&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8087-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC8087-00000073"/>&#xD;
 I&#xD;
 &#xD;
 lli~&#xD;
@@ -5434,7 +5439,7 @@ ii&#xD;
 &#xD;
 71&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8087-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC8087-00000074"/>&#xD;
 ~4&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -5512,7 +5517,7 @@ t&#xD;
 I&#xD;
 ii&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8087-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC8087-00000075"/>&#xD;
 148  LOUD ANDSUNSINE.CLOUDs AND SUNSHINE.                                  14&#xD;
 &#xD;
 Surely, we have a larger assortment of mineral&#xD;
@@ -5585,7 +5590,7 @@ I&#xD;
 &#xD;
 169&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8087-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC8087-00000076"/>&#xD;
 150&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -5671,7 +5676,7 @@ j&#xD;
 7&#xD;
 I&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8087-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC8087-00000077"/>&#xD;
 i&#xD;
 &#xD;
 f&#xD;
@@ -5754,7 +5759,7 @@ I&#xD;
 i&#xD;
 'I&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8087-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC8087-00000078"/>&#xD;
 A&#xD;
 &#xD;
 154&#xD;
@@ -5832,7 +5837,7 @@ I&#xD;
 4&#xD;
 rL~ifIt2&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8087-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC8087-00000079"/>&#xD;
 16&#xD;
 &#xD;
 CLOUDS. AND SUNSHINE.&#xD;
@@ -5916,7 +5921,7 @@ I&#xD;
 &#xD;
 jv&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8087-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC8087-00000080"/>&#xD;
 T&#xD;
 158          CLOUDS AND SUNSHINE.&#xD;
 we next meet, you are disposed to renew the discus-&#xD;
@@ -5969,7 +5974,7 @@ ences; but&#xD;
 '4&#xD;
 11&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8087-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC8087-00000081"/>&#xD;
 1(30         (1 LOUDS AN]) SUNSHINE.&#xD;
 &#xD;
 161V&#xD;
@@ -6044,7 +6049,7 @@ I&#xD;
 &#xD;
 160&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8087-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC8087-00000082"/>&#xD;
 I&#xD;
 &#xD;
 162&#xD;
@@ -6118,7 +6123,7 @@ that very scheme of education which God intended&#xD;
 &#xD;
 C                       -.&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8087-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC8087-00000083"/>&#xD;
 I&#xD;
 &#xD;
 164.&#xD;
@@ -6199,7 +6204,7 @@ I',&#xD;
 A&#xD;
 A&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8087-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC8087-00000084"/>&#xD;
 [&#xD;
 &#xD;
 CLOUDS AN'D 'SUNSHINE.&#xD;
@@ -6274,7 +6279,7 @@ I&#xD;
 &#xD;
 166&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8087-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC8087-00000085"/>&#xD;
 I,&#xD;
 &#xD;
 U&#xD;
@@ -6362,7 +6367,7 @@ L&#xD;
 i&#xD;
 1-&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8087-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC8087-00000086"/>&#xD;
 I&#xD;
 &#xD;
 170&#xD;
@@ -6448,7 +6453,7 @@ ii"&#xD;
 4&#xD;
 I&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8087-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC8087-00000087"/>&#xD;
 *1&#xD;
 &#xD;
 m&#xD;
@@ -6532,7 +6537,7 @@ me, alike narrow-minded and presumptuous. What&#xD;
 5'&#xD;
 -5&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8087-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC8087-00000088"/>&#xD;
 174&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -6603,7 +6608,7 @@ earnest, that it always was, and will be through all&#xD;
 &#xD;
 ~1&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8087-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC8087-00000089"/>&#xD;
 ~'1&#xD;
 &#xD;
 I&#xD;
@@ -6679,7 +6684,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8087-00000090"/>&#xD;
+<pb n="178-179" xml:id="VAC8087-00000090"/>&#xD;
 iL~~s ha~~ c a(k ~\~vtvt ih~' ~nk!K ~nd n~4&#xD;
 'prcb~ern v~'g. iihc I~"m c~f p{Vj{\ jj~'1~, \~iiCh~ I&#xD;
 '~~c&amp;amp;k ~'rU on rth~' si~d VIC4 tC~ 'he (4('T~aIh ~'~ibin~&#xD;
@@ -6740,7 +6745,7 @@ a mcrt  dr~tu~that ~ be ~eaii~ed t:i ~&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8087-00000091"/>&#xD;
+<pb n="180-181" xml:id="VAC8087-00000091"/>&#xD;
 I&#xD;
 &#xD;
 180&#xD;
@@ -6817,7 +6822,7 @@ I '1&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8087-00000092"/>&#xD;
+<pb n="182-183" xml:id="VAC8087-00000092"/>&#xD;
 182        CLOUDS AND SUNSHINE.                                    CLOUDS AND SUNSHINE.        183&#xD;
 &#xD;
 seems to me, that there was a fervor about the piety&#xD;
@@ -6891,7 +6896,7 @@ Bedimmed with smoke, in wreaths voluminous,&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8087-00000093"/>&#xD;
+<pb n="184-185" xml:id="VAC8087-00000093"/>&#xD;
 184        CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 Flung from the body of devouring fires,&#xD;
@@ -6968,7 +6973,7 @@ I&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8087-00000094"/>&#xD;
+<pb n="186-187" xml:id="VAC8087-00000094"/>&#xD;
 186&amp;amp;&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -7038,7 +7043,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8087-00000095"/>&#xD;
+<pb n="188-189" xml:id="VAC8087-00000095"/>&#xD;
 1&#xD;
 &#xD;
 188&#xD;
@@ -7119,7 +7124,7 @@ I&#xD;
 &#xD;
 4"&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8087-00000096"/>&#xD;
+<pb n="190-191" xml:id="VAC8087-00000096"/>&#xD;
 190        CLOUDS AND SUNSHiNE.                                 CLOUDS AND SUNSHINEX        191&#xD;
 &#xD;
 ed for, could not endure that bright and beautiful&#xD;
@@ -7193,7 +7198,7 @@ I&#xD;
 &#xD;
 .191&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8087-00000097"/>&#xD;
+<pb n="192-193" xml:id="VAC8087-00000097"/>&#xD;
 i&#xD;
 &#xD;
 K&#xD;
@@ -7270,7 +7275,7 @@ I,&#xD;
 I&#xD;
 I;&#xD;
 &#xD;
-<pb  n="194-195" xml:id="VAC8087-00000098"/>&#xD;
+<pb n="194-195" xml:id="VAC8087-00000098"/>&#xD;
 194        CLOUDS AND SUNShINE.                                    CLOUDS AND SUNSHINE.        195&#xD;
 &#xD;
 not believe, then, in the triumphal career of the&#xD;
@@ -7339,7 +7344,7 @@ I&#xD;
 &#xD;
 195&#xD;
 &#xD;
-<pb  n="196-197" xml:id="VAC8087-00000099"/>&#xD;
+<pb n="196-197" xml:id="VAC8087-00000099"/>&#xD;
 196       CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 ence has not yet lighted on. They will doubtless&#xD;
@@ -7419,7 +7424,7 @@ I&#xD;
 &#xD;
 V.&#xD;
 &#xD;
-<pb  n="198-199" xml:id="VAC8087-00000100"/>&#xD;
+<pb n="198-199" xml:id="VAC8087-00000100"/>&#xD;
 198&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -7495,7 +7500,7 @@ I;&#xD;
 'I&#xD;
 *1&#xD;
 &#xD;
-<pb  n="200-201" xml:id="VAC8087-00000101"/>&#xD;
+<pb n="200-201" xml:id="VAC8087-00000101"/>&#xD;
 200&#xD;
 &#xD;
 CLOUDS AND SUNShINE.&#xD;
@@ -7573,7 +7578,7 @@ I&#xD;
 I&#xD;
 I&#xD;
 &#xD;
-<pb  n="202-203" xml:id="VAC8087-00000102"/>&#xD;
+<pb n="202-203" xml:id="VAC8087-00000102"/>&#xD;
 202       CLOUDS AND SUNSHINE.                                CLOUDS AND SUNSHINE.      203&#xD;
 &#xD;
 way in this summary style, but that he will keep&#xD;
@@ -7647,7 +7652,7 @@ ii&#xD;
 &#xD;
 203&#xD;
 &#xD;
-<pb  n="204-205" xml:id="VAC8087-00000103"/>&#xD;
+<pb n="204-205" xml:id="VAC8087-00000103"/>&#xD;
 204       CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 tuted human experience; now a season of plenty,&#xD;
@@ -7729,7 +7734,7 @@ I'&#xD;
 I&#xD;
 I.&#xD;
 &#xD;
-<pb  n="206-207" xml:id="VAC8087-00000104"/>&#xD;
+<pb n="206-207" xml:id="VAC8087-00000104"/>&#xD;
 206         CLOUDS AND SUNSHINE.&#xD;
 A. I can't agree with you. I am not convinced.&#xD;
 Ii believe there is a great deal to be said on the oth-&#xD;
@@ -7780,7 +7785,7 @@ ose miracle-working              j&#xD;
 nd of satirizing, for&#xD;
 I&#xD;
 &#xD;
-<pb  n="208-209" xml:id="VAC8087-00000105"/>&#xD;
+<pb n="208-209" xml:id="VAC8087-00000105"/>&#xD;
 208         CLOUDS AM) SUNSHINE~.&#xD;
 the instantaneous extirpation of all the diseases of&#xD;
 the world. I am no Socialist. I believe in home;&#xD;
@@ -7848,7 +7853,7 @@ than chills play: a state of things, wherein preven-&#xD;
 &#xD;
 !&#xD;
 &#xD;
-<pb  n="210-211" xml:id="VAC8087-00000106"/>&#xD;
+<pb n="210-211" xml:id="VAC8087-00000106"/>&#xD;
 210&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -7928,7 +7933,7 @@ Ii&#xD;
 &#xD;
 K.&#xD;
 &#xD;
-<pb  n="212-213" xml:id="VAC8087-00000107"/>&#xD;
+<pb n="212-213" xml:id="VAC8087-00000107"/>&#xD;
 I&#xD;
 &#xD;
 Ii&#xD;
@@ -8008,7 +8013,7 @@ I&#xD;
 'I&#xD;
 41&#xD;
 &#xD;
-<pb  n="214-215" xml:id="VAC8087-00000108"/>&#xD;
+<pb n="214-215" xml:id="VAC8087-00000108"/>&#xD;
 CLOUDS AND SUNSHINE.        215&#xD;
 &#xD;
 214&#xD;
@@ -8085,7 +8090,7 @@ j4&#xD;
 &#xD;
 215&#xD;
 &#xD;
-<pb  n="216-217" xml:id="VAC8087-00000109"/>&#xD;
+<pb n="216-217" xml:id="VAC8087-00000109"/>&#xD;
 4&#xD;
 &#xD;
 2163&#xD;
@@ -8170,7 +8175,7 @@ II&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="218-219" xml:id="VAC8087-00000110"/>&#xD;
+<pb n="218-219" xml:id="VAC8087-00000110"/>&#xD;
 218&#xD;
 &#xD;
 CLOUlIS AND S1Jr~$HINE.&#xD;
@@ -8254,7 +8259,7 @@ III&#xD;
 ii&#xD;
 V&#xD;
 &#xD;
-<pb  n="220-221" xml:id="VAC8087-00000111"/>&#xD;
+<pb n="220-221" xml:id="VAC8087-00000111"/>&#xD;
 220&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
@@ -8336,7 +8341,7 @@ j&#xD;
 1.~&#xD;
 *1~&#xD;
 &#xD;
-<pb  n="222-223" xml:id="VAC8087-00000112"/>&#xD;
+<pb n="222-223" xml:id="VAC8087-00000112"/>&#xD;
 222        CLOUDS AND SUNSHINE.                                      CLOUDS AND SUNSHINE.        22.3&#xD;
 &#xD;
 must not trespass on your patience, my friends.&#xD;
@@ -8410,7 +8415,7 @@ A&#xD;
 A&#xD;
 ~i4&#xD;
 &#xD;
-<pb  n="224-225" xml:id="VAC8087-00000113"/>&#xD;
+<pb n="224-225" xml:id="VAC8087-00000113"/>&#xD;
 I&#xD;
 &#xD;
 y&#xD;
@@ -8486,7 +8491,7 @@ I&#xD;
 &#xD;
 CLOUDS AND SUNShINE.&#xD;
 &#xD;
-<pb  n="226-227" xml:id="VAC8087-00000114"/>&#xD;
+<pb n="226-227" xml:id="VAC8087-00000114"/>&#xD;
 i&#xD;
 &#xD;
 226&#xD;
@@ -8568,7 +8573,7 @@ I&#xD;
 IL&#xD;
 if&#xD;
 &#xD;
-<pb  n="228-229" xml:id="VAC8087-00000115"/>&#xD;
+<pb n="228-229" xml:id="VAC8087-00000115"/>&#xD;
 I&#xD;
 &#xD;
 I&#xD;
@@ -8652,7 +8657,7 @@ C&#xD;
 &#xD;
 [&#xD;
 &#xD;
-<pb  n="230-231" xml:id="VAC8087-00000116"/>&#xD;
+<pb n="230-231" xml:id="VAC8087-00000116"/>&#xD;
 a&#xD;
 &#xD;
 j&#xD;
@@ -8733,7 +8738,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="232-233" xml:id="VAC8087-00000117"/>&#xD;
+<pb n="232-233" xml:id="VAC8087-00000117"/>&#xD;
 I&#xD;
 &#xD;
 232&#xD;
@@ -8810,7 +8815,7 @@ CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 00)&#xD;
 &#xD;
-<pb  n="234-235" xml:id="VAC8087-00000118"/>&#xD;
+<pb n="234-235" xml:id="VAC8087-00000118"/>&#xD;
 I,&#xD;
 &#xD;
 284       CLOUDS AND SUNSHINE.&#xD;
@@ -8894,7 +8899,7 @@ I&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="236-237" xml:id="VAC8087-00000119"/>&#xD;
+<pb n="236-237" xml:id="VAC8087-00000119"/>&#xD;
 *1&#xD;
 &#xD;
 ~23G      CLOUDS AND SUNSHINE&#xD;
@@ -8967,7 +8972,7 @@ I&#xD;
 &#xD;
 CLOUDS AND S1JNSHINE~&#xD;
 &#xD;
-<pb  n="238-239" xml:id="VAC8087-00000120"/>&#xD;
+<pb n="238-239" xml:id="VAC8087-00000120"/>&#xD;
 I&#xD;
 &#xD;
 238 .&#xD;
@@ -9048,7 +9053,7 @@ I&#xD;
 I&#xD;
 I'&#xD;
 &#xD;
-<pb  n="240-241" xml:id="VAC8087-00000121"/>&#xD;
+<pb n="240-241" xml:id="VAC8087-00000121"/>&#xD;
 I&#xD;
 &#xD;
 240&#xD;
@@ -9134,7 +9139,7 @@ it&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="242-243" xml:id="VAC8087-00000122"/>&#xD;
+<pb n="242-243" xml:id="VAC8087-00000122"/>&#xD;
 A&#xD;
 &#xD;
 CLOUDS AND SUNSUINV.&#xD;
@@ -9210,7 +9215,7 @@ I&#xD;
 &#xD;
 242&#xD;
 &#xD;
-<pb  n="244-245" xml:id="VAC8087-00000123"/>&#xD;
+<pb n="244-245" xml:id="VAC8087-00000123"/>&#xD;
 244&#xD;
 &#xD;
 CLOUDs AND SUNSHINE.&#xD;
@@ -9287,7 +9292,7 @@ r&#xD;
 &#xD;
 CLOUDS AND SUNSHINE.&#xD;
 &#xD;
-<pb  n="248-249" xml:id="VAC8087-00000124"/>&#xD;
+<pb n="248-249" xml:id="VAC8087-00000124"/>&#xD;
 248       CLOUDS AND SUNShINE.                                      CLOUI)3 AND SUNSHINE.      249&#xD;
 &#xD;
 this same glorioiis problem; the perfection appro-&#xD;
@@ -9360,7 +9365,7 @@ it&#xD;
 &#xD;
 249&#xD;
 &#xD;
-<pb  n="250-251" xml:id="VAC8087-00000125"/>&#xD;
+<pb n="250-251" xml:id="VAC8087-00000125"/>&#xD;
 250    CLOUDS AND SUNSHINE.&#xD;
 &#xD;
 more, continually, of the secrets and motives of His&#xD;
@@ -9431,7 +9436,7 @@ child of Adam, however humble or worthless. Far&#xD;
 &#xD;
 if&#xD;
 &#xD;
-<pb  n="252-253" xml:id="VAC8087-00000126"/>&#xD;
+<pb n="252-253" xml:id="VAC8087-00000126"/>&#xD;
 25  ~CLOUDS AND SUNSHINE-               CODANSUHNE25&#xD;
 &#xD;
 sooner would I believe this, than cherish the gloomy&#xD;
@@ -9504,7 +9509,7 @@ I,&#xD;
 &#xD;
 253&#xD;
 &#xD;
-<pb  n="254-255" xml:id="VAC8087-00000127"/>&#xD;
+<pb n="254-255" xml:id="VAC8087-00000127"/>&#xD;
 254         CLOUDS AND SUNSHINE.&#xD;
 shall have been consummated, these transformations   4,&#xD;
 completed, and no solitary stain of folly, guilt, or&#xD;
@@ -9527,7 +9532,7 @@ worlds to come.&#xD;
 &#xD;
 44~~&#xD;
 &#xD;
-<pb  n="256-257 (Advertisement) " xml:id="VAC8087-00000128"/>&#xD;
+<pb n="256-257 (Advertisement) " xml:id="VAC8087-00000128"/>&#xD;
 ,~&#xD;
 ~&#xD;
 ~&#xD;
@@ -9581,7 +9586,7 @@ ries. It is nothing&#xD;
 regress to guess at                        I&#xD;
 /&#xD;
 &#xD;
-<pb  n="258 (Advertisement) -259 (Advertisement) " xml:id="VAC8087-00000129"/>&#xD;
+<pb n="258 (Advertisement) -259 (Advertisement) " xml:id="VAC8087-00000129"/>&#xD;
 OPINIONS OF THE PRESS,&#xD;
 &#xD;
 the world unborn; but here we have the forms of things unseen&#xD;
@@ -9667,7 +9672,7 @@ I&#xD;
 &#xD;
 8&#xD;
 &#xD;
-<pb  n="260 (Advertisement) -261 (Advertisement) " xml:id="VAC8087-00000130"/>&#xD;
+<pb n="260 (Advertisement) -261 (Advertisement) " xml:id="VAC8087-00000130"/>&#xD;
 4&#xD;
 &#xD;
 OPINIONS OF THE ,PRESS.&#xD;
@@ -9750,8 +9755,8 @@ II&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

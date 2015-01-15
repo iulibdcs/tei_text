@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7584">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7584">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Life and Adventures of Joaquin Murieta, the Celebrated California Bandit </title>
-            <author >Ridge, John Rollin, (1827-1867)</author>
+            <title>The Life and Adventures of Joaquin Murieta, the Celebrated California Bandit </title>
+            <author>Ridge, John Rollin, (1827-1867)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7584</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7584</idno>
+            <idno type="wright2" n="previous">wright2-2040</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The life and adventures of Joaquin Murieta, the celebrated California bandit</title>
-                  <author >Ridge, John Rollin, (1827-1867)</author>
+                  <title>The life and adventures of Joaquin Murieta, the celebrated California bandit</title>
+                  <author>Ridge, John Rollin, (1827-1867)</author>
                </titleStmt>
-               <extent >98 p. </extent>
+               <extent>98 p. </extent>
                <publicationStmt>
-                  <publisher >F. MacCrellish</publisher>
+                  <publisher>F. MacCrellish</publisher>
                   <pubPlace>San Francisco </pubPlace>
-                  <date  when="1871">[1871]</date>
+                  <date when="1871">[1871]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The life and adventures of Joaquin Murieta, the celebrated California bandit</head> 
+            <head>The life and adventures of Joaquin Murieta, the celebrated California bandit</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC7584-00000001"/>-I~O&#xD;
+               <pb n=" (Cover) " xml:id="VAC7584-00000001"/>-I~O&#xD;
 &#xD;
 'l&#xD;
 &#xD;
@@ -106,7 +111,7 @@ K&#xD;
 &#xD;
 7Lr&#xD;
 &#xD;
-<pb  n=" (TitlePage) " xml:id="VAC7584-00000002"/>&#xD;
+<pb n=" (TitlePage) " xml:id="VAC7584-00000002"/>&#xD;
 THE&#xD;
 &#xD;
 LIFE AND ADVENTURES&#xD;
@@ -143,7 +148,7 @@ my&#xD;
 CIL&#xD;
 tool,&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7584-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7584-00000003"/>&#xD;
 HAVARD COLLEj URI&#xD;
 6abared according to Act of Congress in tba yen ISM, by 1'.MACCUw&amp;amp;M &amp;amp; Co., in&#xD;
 Oce of the District Counof the United S otr for the DbCct of C ,in a. i&#xD;
@@ -200,7 +205,7 @@ PUBLISHERS' PREFACE.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7584-00000004"/>&#xD;
+<pb n="0" xml:id="VAC7584-00000004"/>&#xD;
 4I&#xD;
 &#xD;
 '1&#xD;
@@ -304,7 +309,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7584-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7584-00000005"/>&#xD;
 I&#xD;
 &#xD;
 6              JOAQtJIN ifURTETA.&#xD;
@@ -477,7 +482,7 @@ cruelty and oppression.              outrage, suddenly seemed traneformd:&#xD;
 &#xD;
 (.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7584-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC7584-00000006"/>&#xD;
 -&#xD;
 &#xD;
 8&#xD;
@@ -700,7 +705,7 @@ n  ceived their blows, disdainin to  ter a&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7584-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7584-00000007"/>&#xD;
 10              JOAQUIN MURIETA.&#xD;
 &#xD;
 JO AQUIN' .MURIBTA.                11&#xD;
@@ -905,7 +910,7 @@ ous, frank and cordial disposition, and&#xD;
 in being utterly destitute of one merci-&#xD;
 ful trait of humanity. His delight was&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7584-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7584-00000008"/>&#xD;
 JOAQULN .&amp;amp;URIETA.&#xD;
 &#xD;
 11&#xD;
@@ -1118,7 +1123,7 @@ the money.&#xD;
 H]'&#xD;
 iii&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7584-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7584-00000009"/>&#xD;
 In&#xD;
 &#xD;
 proceeded together, engaged in&#xD;
@@ -1328,7 +1333,7 @@ I'l&#xD;
 &#xD;
 I I I I&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7584-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC7584-00000010"/>&#xD;
 sons-of the year, high above every other&#xD;
 peak, and serves at 'a distance of two&#xD;
 hundred miles to direct the course of the&#xD;
@@ -1503,7 +1508,7 @@ I!&#xD;
 &#xD;
 I JOA Q U&amp;amp; MVRtBTA.&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7584-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7584-00000011"/>&#xD;
 18                 301 QUill .3rrJtIETA.                                                JQ4~U~ MURIETA.             .,    ~19&#xD;
 &#xD;
 her favorite pastime 9f'elkchasing. It&#xD;
@@ -1709,7 +1714,7 @@ i8&#xD;
 &#xD;
 JOAQUJIf if 1YRIETA.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7584-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7584-00000012"/>&#xD;
 20              JOAQUINf MUETk.&#xD;
 &#xD;
 in game of evegy  d :ik, antelope&#xD;
@@ -1908,7 +1913,7 @@ _________&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7584-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7584-00000013"/>&#xD;
 22        JOgULV *tT1zTA.&#xD;
 &#xD;
 he mig    ave about  m   marking at&#xD;
@@ -2072,7 +2077,7 @@ spread before his guests, whch t.nd   weeno, r      epncat-like in the direc-&#x
 ,tempting, they respectfully declined, and   wereothcee pctingie i and the&#xD;
 .entered immediately upon their business.tion Of the UUPetin u&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7584-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7584-00000014"/>&#xD;
 24-&#xD;
 1 U4&#xD;
 &#xD;
@@ -2251,7 +2256,7 @@ reNecho with his uost refreahing'eald1of&#xD;
 utnerrinient.' The women hid themselves&#xD;
 inthe brush; and wee like motherEe,&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7584-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7584-00000015"/>&#xD;
 26                      JQAQUig&#xD;
 &amp;amp;.d~ensswithest -beingslddofit.&#xD;
 The uyatery being eleaxpd up nd ex-&#xD;
@@ -2463,7 +2468,7 @@ e- tained that Captain Wilson was at one&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7584-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7584-00000016"/>&#xD;
 II&#xD;
 &#xD;
 ~~T~49U   X4qw&#xD;
@@ -2656,7 +2661,7 @@ Lake rode over to the little town of&#xD;
 Hornitas, and feelingit to be his duty to&#xD;
 warn the citizens that so dangerous a&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7584-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7584-00000017"/>&#xD;
 :8s&#xD;
 &#xD;
 jkfO49U, W~4.&#xD;
@@ -2863,7 +2868,7 @@ water. The birds natied form the only&#xD;
 life above the surface, unless we except&#xD;
 a few desolate and lonesome looking&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7584-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC7584-00000018"/>&#xD;
 JOAQUI2(MURIETA.                                ~S'6&#xD;
 &#xD;
 wineri9pa P, 08iiou4*  ulfuv    9I&#xD;
@@ -3054,7 +3059,7 @@ since been found in theneigborhood,and&#xD;
 &#xD;
 WS&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7584-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7584-00000019"/>&#xD;
 &amp;amp; I&#xD;
 &#xD;
 iv&#xD;
@@ -3264,7 +3269,7 @@ about fifteen miles from this place, and&#xD;
 I seriously believe that you had better&#xD;
 look out."&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7584-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7584-00000020"/>&#xD;
 36 .&#xD;
 &#xD;
 "Very well," replied the chief, with-&#xD;
@@ -3483,7 +3488,7 @@ He and Valenzuela had stopped at a&#xD;
 &#xD;
 7(&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7584-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7584-00000021"/>&#xD;
 39&#xD;
 &#xD;
 -8JOAQULIN }{URIETA.&#xD;
@@ -3698,7 +3703,7 @@ ctOA QUIN X UBIETA&#xD;
 &#xD;
 8&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7584-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC7584-00000022"/>&#xD;
 40&#xD;
 &#xD;
 his place. Turning to the trembling&#xD;
@@ -3905,7 +3910,7 @@ their boat out into the stream, and tying&#xD;
 it to the schooner's side, leaped on board&#xD;
 of her, and commenced firing without&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7584-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7584-00000023"/>&#xD;
 42&#xD;
 &#xD;
 saying a word. They shot down the&#xD;
@@ -4122,7 +4127,7 @@ JOAQUIN .MURIETA.&#xD;
 &#xD;
 43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7584-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7584-00000024"/>&#xD;
 44              JOAQUIN MtRIETA.&#xD;
 &#xD;
 accompanied by fifteen picked men.&#xD;
@@ -4327,7 +4332,7 @@ gence the night before. But the fact of&#xD;
 the case was, that the unconscious sleeper&#xD;
 had received at midnight just one drop&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7584-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7584-00000025"/>&#xD;
 A&#xD;
 &#xD;
 of molten lead into his ear, tipped from,&#xD;
@@ -4540,7 +4545,7 @@ stood the whole company with their-&#xD;
 &#xD;
 MA Q UZZY A(MURTA.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7584-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7584-00000026"/>&#xD;
 :I&#xD;
 &#xD;
 48&#xD;
@@ -4756,7 +4761,7 @@ lars. He also added fifteen exceUent&#xD;
 horses and ten powerful mules to his live&#xD;
 stock.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7584-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC7584-00000027"/>&#xD;
 Jim Boyce and his surviving compan-&#xD;
 ions wandered to the distant settlements,&#xD;
 which,' after, many  har4s'hips, they&#xD;
@@ -4972,7 +4977,7 @@ alWWA&#xD;
 &#xD;
 51"&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7584-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC7584-00000028"/>&#xD;
 5                        ,JOAQUMlN&#xD;
 ed for you anxiously till morning, we&#xD;
 were at once convinced that ou' had'&#xD;
@@ -5179,7 +5184,7 @@ just now," the cut-throat replied, looking&#xD;
 &#xD;
 JOAQUI MURIETA..w&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7584-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC7584-00000029"/>&#xD;
 as blabk as a thunder cloud, " after what&#xD;
 you have done to Poor Francisco there,"&#xD;
 laying his hand onhis stolat the same&#xD;
@@ -5392,7 +5397,7 @@ higher purposes in view than to torture&#xD;
 &#xD;
 J0 AQUINM .MURIETA.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7584-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC7584-00000030"/>&#xD;
 58                   JOAQULh! URIETA.&#xD;
 &#xD;
 innocent females. I would have no&#xD;
@@ -5596,7 +5601,7 @@ existed is the breast of Jvaquin.&#xD;
 &#xD;
 JOAQ UM- MURMTA.                 5T&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7584-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC7584-00000031"/>&#xD;
 J#AQUIN AUTIETA.&#xD;
 &#xD;
 There was not a town of any import.&#xD;
@@ -5753,7 +5758,7 @@ pysedt ws here enquylhed.&#xD;
 It becmenownefragatwebh64Me pin                     As an     uoDR&#xD;
 for a certsanty., that this man was a  himself, the Captain.  As soon as their&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7584-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC7584-00000032"/>&#xD;
 60                  JOAQ TIN M UREIBTA.JT&#xD;
 &#xD;
 eyes Met, the young fellow drew the ri&#xD;
@@ -5964,7 +5969,7 @@ e - had dismounted, and were somewhat&#xD;
 e  protected by their animals. The Cap-&#xD;
 l, tain finding an opportunity for the first&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7584-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC7584-00000033"/>&#xD;
 tine to fire with any chance of' hitting&#xD;
 'shotdat! large Mejiean who stood or&#xD;
 the edge of a bush, who suddenlyretire&#xD;
@@ -6162,7 +6167,7 @@ to him after the fight at Chaparral Hill,&#xD;
 and who had seen the burning of his&#xD;
 friends' houses at Yackee Camp, had&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7584-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC7584-00000034"/>&#xD;
 JOAQ Un MUR tETA.&#xD;
 &#xD;
 edmedo*n- full of vengeance, as far? as&#xD;
@@ -6373,7 +6378,7 @@ n  He had scarcely landed on the other&#xD;
 y. side when he was attacked by Ament-&#xD;
 n  cans, for it-must be bone in mind that&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7584-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC7584-00000035"/>&#xD;
 t;h whole country was aroused, who be-&#xD;
 ingsuperior in number, poured hot lead&#xD;
 into his midst with such bewildering&#xD;
@@ -6581,7 +6586,7 @@ Rio Carrimo. Bernardo Carasco.&#xD;
 &#xD;
 JOAQUTJA V7IYT4&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7584-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC7584-00000036"/>&#xD;
 68                      ~TGAQrJLY )ifURIBITA.&#xD;
 &#xD;
 JOA Q1JMYMURIETA.6&#xD;
@@ -6791,7 +6796,7 @@ the river,' and rode up to Stone &amp;amp; Baker's&#xD;
 &#xD;
 tTOAQ','U, ZY %kURI,?9,TA-&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7584-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC7584-00000037"/>&#xD;
 av&#xD;
 &#xD;
 70.                      JTOAQUIN TURIETA.&#xD;
@@ -6913,7 +6918,7 @@ breast, and was amazed to see him staid&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7584-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC7584-00000038"/>&#xD;
 JOAQU  MUR TA.&#xD;
 &#xD;
 lrga after a momentary stagger, and' re&#xD;
@@ -7117,7 +7122,7 @@ e  the manner of his death, have been set&#xD;
 &#xD;
 JOAQ U Y N U =,T&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7584-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC7584-00000039"/>&#xD;
 afioat, Ihate takeri  r               igaconiipiled, for convelienc  ske,&#xD;
 p  iotng and siftingthefafcts  and gpiroseof reater sed rec, byag'lla&#xD;
 connected with that event,'andth~readei  bodiesofien.&#xD;
@@ -7225,7 +7230,7 @@ intention to go to the rendezvous in a  pany the town of San Josd and camped&#xD
 eli~rttimeand wait for thearrival iofhis  near San Juan for four or -five days,&#xD;
 forces. The extreme caution with which  scouring the mountains in that vicinity.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7584-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC7584-00000040"/>&#xD;
 -70OAQ         MTRIETA.&#xD;
 &#xD;
 From San Juan he started in the night&#xD;
@@ -7379,7 +7384,7 @@ on foot, and unable to gei to their horses, tumbling motions as in the example&#
 were scattered here and there others of - which had preceded him. He was not&#xD;
 the party. The danger to Joaquin was mounted so soon but that Joaquin. was&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7584-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC7584-00000041"/>&#xD;
 some'distance ahead before he was fairly&#xD;
 ed± -o ren*e the cha e.  The 'bold&#xD;
 iaffi*as fast' escapngdanger on his&#xD;
@@ -7535,7 +7540,7 @@ away. His hand, however, was preserved  ing into a deep slough near by, bravely&
 had 'dyed itself In many a quivering  to Mariposa county jail, and- there, con--&#xD;
 heai;had'torn with itstaloristhe throats fined until the company were ready to-&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7584-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC7584-00000042"/>&#xD;
 0  .tTUOA-   rV hU I.&#xD;
 &#xD;
 disbandd, when, he was transferred to&#xD;
@@ -7673,7 +7678,7 @@ JOAQUIN MURIETA              8&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7584-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC7584-00000043"/>&#xD;
 O&#xD;
 &#xD;
 BANDIT OF' SOLEDAD, SALINAS AND TRES PINOS.&#xD;
@@ -7689,7 +7694,7 @@ OF&#xD;
 -TIBURCIO VASQULZ&#xD;
 THE&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7584-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC7584-00000044"/>&#xD;
 I&#xD;
 &#xD;
 As the second greatest bandit of Cal-,&#xD;
@@ -7766,7 +7771,7 @@ the laws of God and men at, defiance.&#xD;
 &#xD;
 TIBURCIO VASQUEZ.&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7584-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC7584-00000045"/>&#xD;
 Timurcio VASQUEZ&#xD;
 was born August 11, 1889, in Monterey,&#xD;
 perhaps the most thoroughly Mexican&#xD;
@@ -7933,7 +7938,7 @@ I&#xD;
 &#xD;
 hr.&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7584-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC7584-00000046"/>&#xD;
 din                   TIW -U 710VA SQUEZ.&#xD;
 &#xD;
 rad for Livermore, butin the morning&#xD;
@@ -8073,7 +8078,7 @@ and waited for him. Vasques, on leav   -      TA     AsqEZ&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7584-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC7584-00000047"/>&#xD;
 TBURC  .O YASQUVZ.&#xD;
 THE ROBERY AT -FiaAUGH's FERRY   train on the Southern Pacific Rairoad.&#xD;
 it occed. The band then consisted The banditti selected a spot between San&#xD;
@@ -8246,7 +8251,7 @@ d  good their escape and fled in different&#xD;
 &#xD;
 TIBURCIO 'ASQUEZ-&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7584-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC7584-00000048"/>&#xD;
 Ortiogs. Whe.iz31i0      followed ,in&#xD;
 lose parsvit      ,t;,odays afterwards&#xD;
 o    *eVofdhe baA4t4 ,was captured, ,sodis&#xD;
@@ -8404,7 +8409,7 @@ ed  e    toretgrn to the'ranch with der view all the while. About non P&#xD;
 oney,and followed him with a par- party of Mexicans came along on horse-&#xD;
 the moneyy f                                   xi&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7584-00000049"/>&#xD;
+<pb n="94-95" xml:id="VAC7584-00000049"/>&#xD;
 g&amp;amp;.                TiMURCIO VAdSQUEZ.&#xD;
 baa   it was observed thatsamong claiming There he goes through the&#xD;
 theibwsensas aktltanearwhh Mitahe window." The partyleft ihp house as,&#xD;
@@ -8563,7 +8568,7 @@ this did not get drunk, neither did he leave&#xD;
 was town. Rowland had shanghaied him-,&#xD;
 ove- and kept him under close guard where&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7584-00000050"/>&#xD;
+<pb n="96-97" xml:id="VAC7584-00000050"/>&#xD;
 his-friends could not find him, untll the-&#xD;
 *vrt*ietdrned wi ththeir game from&#xD;
 Gteei George's.house.&#xD;
@@ -8728,7 +8733,7 @@ ow so &amp;amp;a&#xD;
 We"Howpso red Vasquez about half and way ports.&#xD;
 " We captured  VaqeZ          n&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7584-00000051"/>&#xD;
+<pb n="98-99" xml:id="VAC7584-00000051"/>&#xD;
 98o&#xD;
 &#xD;
 LYNCE LAW   EARED.&#xD;
@@ -8841,8 +8846,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7974">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7974">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Tables Turned </title>
-            <author >Anonymous</author>
+            <title>The Tables Turned </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7974</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7974</idno>
+            <idno type="wright2" n="previous">wright2-2416</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The tables turned</title>
-                  <author >Anonymous</author>
+                  <title>The tables turned</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >16 p.</extent>
+               <extent>16 p.</extent>
                <publicationStmt>
-                  <publisher >Central B. and T. Committee of Friends</publisher>
+                  <publisher>Central B. and T. Committee of Friends</publisher>
                   <pubPlace>Richmond Ind. </pubPlace>
-                  <date  when="1865">1865</date>
+                  <date when="1865">1865</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-05-30">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-05-30">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The tables turned</head> 
+            <head>The tables turned</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC7974-00000001"/>797521&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC7974-00000001"/>797521&#xD;
 &#xD;
 TilE&#xD;
 &#xD;
@@ -105,7 +110,7 @@ RICIIMONI), IND:&#xD;
 ~LNTI{A[. B. AND T. COMMITThI~OF FRIENDS.&#xD;
 1865.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7974-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7974-00000002"/>&#xD;
 II&#xD;
 ~\        .\&#xD;
 THE TABLES TURNED.&#xD;
@@ -132,7 +137,7 @@ tened, and his story was as follows:&#xD;
 "I wi~ very yonn~ when I tlr~t entered on ship-&#xD;
 ~o~r'1, md ~t the :~ge o~ t~tiiteen Iconsidered my~&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7974-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7974-00000003"/>&#xD;
 TABLES 'rt~R1~E$.           5&#xD;
 &#xD;
 4           THE TABLES TURNED).&#xD;
@@ -204,7 +209,7 @@ better at the time. for we h~id the nrii~i1 b~&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7974-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7974-00000004"/>&#xD;
 TAnLIrS TURNED.&#xD;
 4marning just as much as we had a mind to. The&#xD;
 pnth of the matter was, we five loved the idea of&#xD;
@@ -267,7 +272,7 @@ signified a willingness to go anywhere to pleaM&#xD;
 us, P)'Oyided we wonhl not go into any bad place.&#xD;
 "Dinner time came, and a most capital dinner&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7974-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7974-00000005"/>&#xD;
 THE TABLES TURNED.&#xD;
 we had~ We had selected one of th~ best lietels.&#xD;
 fer.the prices were n~ itighet' there than at plares&#xD;
@@ -329,7 +334,7 @@ the wltw.~&#xD;
 Mews!' cried two or three at a breath.&#xD;
 "'No, no. measmates', not rean. I Will pay for&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7974-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7974-00000006"/>&#xD;
 TIlE TABLES TURNED.&#xD;
 the whole of the dinner-for every article you&#xD;
 and I have had in the house, save the wine.'&#xD;
@@ -392,7 +397,7 @@ warm, and once, once I remember, ~vlmemm her very&#xD;
 tears froze on my check! 0, how my mother&#xD;
 prayed to God for her husband; and I, who could&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7974-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7974-00000007"/>&#xD;
 12           Th1~ ~mats TURN1~D.&#xD;
 btitJutsli ifl'attle, learned to pray. too. And I ns~t)&#xD;
 M~ ti~a~ husband ~nd father 1'etUI'H tO i~ home&#xD;
@@ -455,7 +460,7 @@ never, never, touch a single drop of the fata&#xD;
 poison that has wrought for us all this misery.'&#xD;
 "'0, shipmates, I did promise, then and there.&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7974-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7974-00000008"/>&#xD;
 14          TRY ABLB5 ~OR~CD&#xD;
 all that my mother asked, and God knows that ~&#xD;
 this moment that promise has never been broken.&#xD;
@@ -518,7 +523,7 @@ banded it to the captaju. He took it and read i~&#xD;
 and his face changed its exPression several times&#xD;
 At len~tl I saw a tear start to his eye&#xD;
 &#xD;
-<pb  n="16" xml:id="VAC7974-00000009"/>&#xD;
+<pb n="16" xml:id="VAC7974-00000009"/>&#xD;
 ~AV          TIflC ~'ABL~*I TI1INJCD~&#xD;
 "'y~l~e s~id, as he t~dded up the paper. 1$&#xD;
 a~ keep tl~is~ if yo~ stick 1;o you' ns~ble rcs~Iq&#xD;
@@ -553,8 +558,8 @@ take my refusal a~ a i~ark of coldness or disrQ~&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

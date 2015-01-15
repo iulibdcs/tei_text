@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7601">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7601">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Twin Brothers, or, The Victims of the Pressgang </title>
-            <author >Roberts, E. F. (1819-1864)</author>
+            <title>The Twin Brothers, or, The Victims of the Pressgang </title>
+            <author>Roberts, E. F. (1819-1864)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7601</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7601</idno>
+            <idno type="wright2" n="previous">wright2-2057</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The twin brothers, or, The victims of the pressgang</title>
-                  <author >Roberts, E. F. (1819-1864)</author>
+                  <title>The twin brothers, or, The victims of the pressgang</title>
+                  <author>Roberts, E. F. (1819-1864)</author>
                </titleStmt>
-               <extent >96 p.</extent>
+               <extent>96 p.</extent>
                <publicationStmt>
-                  <publisher >U.P. James</publisher>
+                  <publisher>U.P. James</publisher>
                   <pubPlace>Cincinnati </pubPlace>
-                  <date >[185-]</date>
+                  <date>[185-]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-02-16">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-02-16">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The twin brothers, or, The victims of the pressgang</head> 
+            <head>The twin brothers, or, The victims of the pressgang</head>
             <p>
-               <pb  n="0 (Cover) " xml:id="VAC7601-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
+               <pb n="0 (Cover) " xml:id="VAC7601-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
 HENRY E. HUNTINGTO         LIBRARY&#xD;
 FOR REFERENCE ONLY. NOT FOR REPRODUCTION&#xD;
 &#xD;
@@ -113,7 +118,7 @@ She drew the trigger desperately :-" All," she said-" take all."--Sea page 85.&#
 &#xD;
 PRICE,&#xD;
 &#xD;
-<pb  n="0Advertisement (TitlePage) " xml:id="VAC7601-00000002"/>&#xD;
+<pb n="0Advertisement (TitlePage) " xml:id="VAC7601-00000002"/>&#xD;
 Catalogue of U. P. James' Publications, Cincin ati.&#xD;
 &#xD;
 The Library of General Know-&#xD;
@@ -285,7 +290,7 @@ i     ..._ _                             _                                ---   
 &#xD;
 ,,   ,&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7601-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7601-00000003"/>&#xD;
 * :r 4CCi fL" t.F F  'w "r _&#xD;
 r4,, }&#xD;
 &#xD;
@@ -394,7 +399,7 @@ _               ,r&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7601-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC7601-00000004"/>&#xD;
 I&#xD;
 I&#xD;
 C&#xD;
@@ -555,7 +560,7 @@ with m6, #ill          ria'id ap tin se faq   i      r tsr es   il w&#xD;
 furned-up to hist .f                                     i&#xD;
 1 A 1-'   r         x 1tA' OA  Q            .       1;3 4    iQenht1&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7601-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7601-00000005"/>&#xD;
 I&#xD;
 t&#xD;
 t&#xD;
@@ -719,7 +724,7 @@ hirt&#xD;
 be&#xD;
 to&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7601-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC7601-00000006"/>&#xD;
 t&#xD;
 a&#xD;
 n&#xD;
@@ -882,7 +887,7 @@ we sladl get a keel-himling frin' that th iideling lef'nant of ours,  wegt&#xD;
 ou board to-morrp-, or myibanifes ist~-',                     n'egt&#xD;
 J                               -&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7601-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7601-00000007"/>&#xD;
 r'&#xD;
 v&#xD;
 &#xD;
@@ -1057,7 +1062,7 @@ I HE TWIN BR6T'liERS&#xD;
 &#xD;
 .  -&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7601-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7601-00000008"/>&#xD;
 X[2&#xD;
 &#xD;
 THE TWIN BROTHERS.&#xD;
@@ -1234,7 +1239,7 @@ r&#xD;
 &#xD;
 TWIN rB  fi,'o Ir H 1a1t, S .&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7601-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7601-00000009"/>&#xD;
 44&#xD;
 &#xD;
 THE' TWIN B QTH ERS.&#xD;
@@ -1409,7 +1414,7 @@ Af .41.&#xD;
 -,&#xD;
 i&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7601-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC7601-00000010"/>&#xD;
 r&#xD;
 &#xD;
 t&#xD;
@@ -1575,7 +1580,7 @@ and soul of a happy group at the present moment, and. thought, very likely, as~i
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7601-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7601-00000011"/>&#xD;
 j                     IltR^.r . ae-wv  ..e  r« ..,...u...«..: z ' F&#xD;
 &#xD;
 I&#xD;
@@ -1762,7 +1767,7 @@ Io&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7601-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7601-00000012"/>&#xD;
 (&#xD;
 &#xD;
 0&#xD;
@@ -1940,7 +1945,7 @@ I?&#xD;
 &#xD;
 THE TWIN BROTHERS.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7601-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7601-00000013"/>&#xD;
 1&#xD;
 I&#xD;
 I&#xD;
@@ -2111,7 +2116,7 @@ y&#xD;
 &#xD;
 22&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7601-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7601-00000014"/>&#xD;
 I&#xD;
 1&#xD;
 t&#xD;
@@ -2282,7 +2287,7 @@ morning tide-all turning out and going down the Channel with everything they&#xD
 .(1.-,            "a _Y+a+ ." tmm       w+v*+lal'n               V+ya.e:w.-a-,      ws+w.-.se........+q.,          y -r, .t,. w.+-..rv  e.:y...r.+.. v....-r      +ss.       '        .              ....&#xD;
 .      _ .              _                _                                                                                                        .                             ^-rn±ii °^"n '-i°"rir *s             .calm.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7601-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7601-00000015"/>&#xD;
 THE TWIN BROTHERS.&#xD;
 &#xD;
 I&#xD;
@@ -2451,7 +2456,7 @@ The sailor had heard all Edward's story, and saw at a glance what it all meant.&
 &#xD;
 ,1&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7601-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7601-00000016"/>&#xD;
 4'&#xD;
 &#xD;
 I&#xD;
@@ -2626,7 +2631,7 @@ TUE TWIN -BROTHERS.&#xD;
 &#xD;
 ,  .rew.vt...... .. 'rv. ...ps...,i.-riicsctacllNh- :--:F rs...a. w:s.. ,r.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7601-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7601-00000017"/>&#xD;
 *1&#xD;
 I&#xD;
 l&#xD;
@@ -2787,7 +2792,7 @@ t&#xD;
 &#xD;
 ,                            -&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7601-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC7601-00000018"/>&#xD;
 32&#xD;
 &#xD;
 THlE TWIN1BROTHERS.&#xD;
@@ -2956,7 +2961,7 @@ to&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7601-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7601-00000019"/>&#xD;
 1&#xD;
 t:&#xD;
 a&#xD;
@@ -3126,7 +3131,7 @@ to&#xD;
 &#xD;
 ~ .&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7601-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7601-00000020"/>&#xD;
 !-&#xD;
 &#xD;
 1&#xD;
@@ -3302,7 +3307,7 @@ t&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7601-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7601-00000021"/>&#xD;
 C&#xD;
 C&#xD;
 V&#xD;
@@ -3478,7 +3483,7 @@ t&#xD;
 &#xD;
 ,-.a ..    ,.   ,.   ... ..i   tr +      "     ,_..,ww   .+.... .. t..    v.--  ,ga..,v:a. yaw ;.aw iiAk .. t.t+. v      ..  vi ary,,+.r.:a~  3o-+rt.* ,^.uaw+Fi'i"yvaxcrvA  wrwtrl4.Mw,"".Y+pP , fE-+wt~ s  .xe sm            a+n.6Ht .q"E,,-+4.."", o-  1r,     a*att b.-... +r' -"c.     ,. ...vMk,,..  w..w    . t'Aie .+,R:.G *r :at   ; 1s+i-aKr w: r.J'".Ei""+e.r   ..... s.rr.rama&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7601-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC7601-00000022"/>&#xD;
 40&#xD;
 &#xD;
 THE TWIN BROTHER.&#xD;
@@ -3641,7 +3646,7 @@ into the cockpit; where, his assistants, with their open i6hests, were already w
 In the meantime the stranger had laid his sails flat,:'and theh furled them. f As the&#xD;
 ISnglisli flag vas waving on board'-the Harpy, the French tricolor opened its rust-&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7601-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7601-00000023"/>&#xD;
 i&#xD;
 &#xD;
 THE TWIN BR0THEI1S.&#xD;
@@ -3811,7 +3816,7 @@ the desk, and his life Was not worth ane minute's purchase, when FEdward, who ha
 ..w-r . awn . c-,.-..- ...-,.. «. .,x .. e.. a.. ..  ....._,.. ..b.. n. a. .u..r .t.:a  ,ii...,  ara,.i...,* .,, .wvdaw.i.-,.+h ., .arm..ea.a.^,A.a..asb.u NUnf+uw., rr  .r «+ v . .. ,....  w  .., aa..+sd +ah _: "t  , it, e.",  ,aidt wt^. F 44+ ,... st.'.*4n Ntar'.P'.  inn/a, .(a.a e1 rc74: '.,# x'v±bY, .Y:( . r '4a"wf4  ,rw 1  f..-ww     ariww.. e.n .a&#xD;
 "                                                                                                                                    f&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7601-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7601-00000024"/>&#xD;
 I&#xD;
 &#xD;
 t&#xD;
@@ -3978,7 +3983,7 @@ l2    nor-r,&#xD;
 &#xD;
 T  4' it' VI  n B A  ,' 11 1-It'S:&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7601-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7601-00000025"/>&#xD;
 0&#xD;
 &#xD;
 I&#xD;
@@ -4139,7 +4144,7 @@ L&#xD;
 r&#xD;
 -&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7601-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7601-00000026"/>&#xD;
 L i  f  "&#xD;
 &#xD;
 V {&#xD;
@@ -4296,7 +4301,7 @@ r&#xD;
 r'     ;  :    ..s.",      .1,,. ~r"..-aw-+........ .i.+_  -,+   .,+.._-.._.....r..ay..wr-" -.,,ir« 3t6*.,a.scw, : - M"w°Y.  ? iv:             _ k" .ii : . 'isth i x 2w  «iS  H 1K,&#xD;
 r.                       :.+r.u.E fs.r"airw.r  .ar,.,., 6w4s.-..,  ^.°,"ru.r " . r."a&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7601-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC7601-00000027"/>&#xD;
 'fN Il&#xD;
 &#xD;
 it&#xD;
@@ -4438,7 +4443,7 @@ i&#xD;
 ...,  c_..:y. ... .        n   -..-.".,...    _ pr, ,...wx...x"+Y.z  ,r rs .*w .  - c..-..   A..,n..w.-M.r.u,+Le w s w s rim       w'a.r+AWrw.++.  .;rwdvi.: i i.:.vi:a f  : w:k1 :".:wt'i.7 '.1 5"YS" 1.   iy ' ;p:"!S''  8i "Y:a+- ;.+"m.,..- ....&#xD;
 '                                                                I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7601-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC7601-00000028"/>&#xD;
 s ~t ~  t I&#xD;
 &#xD;
 THE,.TWI NT      RQTH.ER S.&#xD;
@@ -4550,7 +4555,7 @@ ab&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7601-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC7601-00000029"/>&#xD;
 I&#xD;
 &#xD;
 ,TH:- TWIN DBUOTHE1RS.&#xD;
@@ -4706,7 +4711,7 @@ b&#xD;
 QS&#xD;
 Y.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7601-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC7601-00000030"/>&#xD;
 43I&#xD;
 &#xD;
 .  .&#xD;
@@ -4857,7 +4862,7 @@ the Indian army; and 'she went by sighing heavily, praying for' the two Wrecked&
 creatures she could not otherwise help.&#xD;
 There was the gratre, pompous tradesman at his shop door, and at an open win-.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7601-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC7601-00000031"/>&#xD;
 , a;&#xD;
 &#xD;
 ,THE TWIN     BI OT.H ERt.&#xD;
@@ -4995,7 +5000,7 @@ about, and whileithe eyess were closing in the fastness 'of death, the relaxed, 
 flaccid limbs, as if tangled with sea-weed, which tied -and fastened theiii up, re-&#xD;
 tarding their action, were being ttossad from side to side. This fOrm was droWn-&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7601-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC7601-00000032"/>&#xD;
 TH.E TWI( BI OTHERS.&#xD;
 &#xD;
 ward-! mybrotherEdward-!" he seemed to cry aloud, but none heard the stifled&#xD;
@@ -5156,7 +5161,7 @@ J&#xD;
 r  _                     "                 yY .. " r                                   r&#xD;
 4r.         t              ,.      r             _ _ 1     4       3                               ;     .i&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7601-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC7601-00000033"/>&#xD;
 182&#xD;
 &#xD;
 T It ' TWI N -R0T RiBR-S.&#xD;
@@ -5296,7 +5301,7 @@ _  1&#xD;
 r&#xD;
 ,iY.ti:&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7601-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC7601-00000034"/>&#xD;
 TUZ    TWIN     RQTI     8.&#xD;
 CHAPTER XXTI-.&#xD;
 THE YOUNG SOLPDIlR's STORY.&#xD;
@@ -5463,7 +5468,7 @@ J,  .&#xD;
 + -- .             ,.1, w&#xD;
 -Ydi&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7601-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC7601-00000035"/>&#xD;
 Iii&#xD;
 &#xD;
 6                    L .  ' WWIN   B1RIO'THERUS.&#xD;
@@ -5573,7 +5578,7 @@ I&#xD;
 &#xD;
 l&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7601-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC7601-00000036"/>&#xD;
 ~c8          TIlE -TWIN BROTRI9.&#xD;
 &#xD;
 they seemed to be borne on with a resistless force that nothing could withstand,&#xD;
@@ -5708,7 +5713,7 @@ r li.y  htQ&#xD;
 lag,&#xD;
 "',ha_'!.- w,' .raa.,+ r  r, r*.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7601-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC7601-00000037"/>&#xD;
 '4..'."&#xD;
 &#xD;
 "&#xD;
@@ -5836,7 +5841,7 @@ _F&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7601-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC7601-00000038"/>&#xD;
 ," s I:' .&#xD;
 A&#xD;
 {l&#xD;
@@ -6011,7 +6016,7 @@ t&#xD;
 ,r   ' ,&#xD;
 t' ;    ;#&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7601-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC7601-00000039"/>&#xD;
 74&#xD;
 &#xD;
 SH E TW-IN B RO'T R-Rrg.&#xD;
@@ -6179,7 +6184,7 @@ e&#xD;
 &#xD;
 S '  -     a&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7601-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC7601-00000040"/>&#xD;
 ,'E -TWIN BROTHERS.&#xD;
 &#xD;
 8'TIlE -TWIN BROTHERS.&#xD;
@@ -6307,7 +6312,7 @@ I   :                            ..I                                        ,&#x
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7601-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC7601-00000041"/>&#xD;
 I''   i'. Y7&#xD;
 &#xD;
 CIAPTER XXVIH.&#xD;
@@ -6457,7 +6462,7 @@ y j9?&#xD;
 1 4&#xD;
 7&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7601-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC7601-00000042"/>&#xD;
 .,. _ i ,      . L  r     _ 1 a -&#xD;
 &#xD;
 80&#xD;
@@ -6564,7 +6569,7 @@ a r .&#xD;
 ,;};  ,&#xD;
 a _.s_&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7601-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC7601-00000043"/>&#xD;
 + j  ma..}'  da;v. g~   'iCRY k.Tv  +;&#xD;
 &#xD;
 s2&#xD;
@@ -6704,7 +6709,7 @@ i&#xD;
 &#xD;
 ,r $ TWIN BROTH-1iWS&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7601-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC7601-00000044"/>&#xD;
 84&#xD;
 &#xD;
 THE TWIN BROTHERS.&#xD;
@@ -6860,7 +6865,7 @@ tai      ' S&#xD;
 f&#xD;
 dy  i YI&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7601-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC7601-00000045"/>&#xD;
 86&#xD;
 &#xD;
 Tlt TWIN BI[OTHERS,&#xD;
@@ -6999,7 +7004,7 @@ Z&#xD;
 tl&#xD;
 Y&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7601-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC7601-00000046"/>&#xD;
 181&#xD;
 &#xD;
 THE TWIN. fROTlBE.K*&#xD;
@@ -7138,7 +7143,7 @@ _  n 4 ,   .,,,  y=,"  ,              ;      ,&#xD;
 ..u M  '&#xD;
 '                                                                 --   '&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7601-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC7601-00000047"/>&#xD;
 s90D&#xD;
 &#xD;
 TAR TWIN BiOT7IERS.&#xD;
@@ -7319,7 +7324,7 @@ S&#xD;
 ?g,&#xD;
 , ':&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7601-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC7601-00000048"/>&#xD;
 31&#xD;
 &#xD;
 92&#xD;
@@ -7470,7 +7475,7 @@ oth&#xD;
 &#xD;
 Ilk"&#xD;
 &#xD;
-<pb  n="96-97 (Advertisement) " xml:id="VAC7601-00000049"/>&#xD;
+<pb n="96-97 (Advertisement) " xml:id="VAC7601-00000049"/>&#xD;
 THE    TWIN    BRQ-TIHERS.&#xD;
 had once possessed- resided at the table, and saw that proper devotion was&#xD;
 shown to the punch, the wedding, and the mistletoe?  No-the, reader has anti-&#xD;
@@ -7628,7 +7633,7 @@ i&#xD;
 y  .r r   +     t l&#xD;
 O-A  1     "                 + ,&#xD;
 &#xD;
-<pb  n="98 (Advertisement) -99" xml:id="VAC7601-00000050"/>&#xD;
+<pb n="98 (Advertisement) -99" xml:id="VAC7601-00000050"/>&#xD;
 Kentucky TragedyI A history of&#xD;
 the Bloody Renconters, Street Fights, Battles,&#xD;
 etc., extending through a number of years, in&#xD;
@@ -7780,7 +7785,7 @@ FOR REFERENCE ONLY. NOT FOR REPRODUCTION&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="100-101 (Advertisement) " xml:id="VAC7601-00000051"/>&#xD;
+<pb n="100-101 (Advertisement) " xml:id="VAC7601-00000051"/>&#xD;
 I,&#xD;
 _;-&#xD;
 &#xD;
@@ -7827,8 +7832,8 @@ b/ ATO OF"PEFML  E,  VCTM  FFT,  CM-&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

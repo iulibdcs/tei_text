@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7111">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7111">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Good Mr. Bagglethorpe </title>
-            <author >Logan, Olive, (1839-1909)</author>
+            <title>The Good Mr. Bagglethorpe </title>
+            <author>Logan, Olive, (1839-1909)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7111</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7111</idno>
+            <idno type="wright2" n="previous">wright2-1575</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The good Mr. Bagglethorpe</title>
-                  <author >Logan, Olive, (1839-1909)</author>
+                  <title>The good Mr. Bagglethorpe</title>
+                  <author>Logan, Olive, (1839-1909)</author>
                </titleStmt>
-               <extent >27 p.</extent>
+               <extent>27 p.</extent>
                <publicationStmt>
-                  <publisher >American News Co.</publisher>
+                  <publisher>American News Co.</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1869">1869</date>
+                  <date when="1869">1869</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-10-08">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-10-08">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The good Mr. Bagglethorpe</head> 
+            <head>The good Mr. Bagglethorpe</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7111-00000001"/>OLIVE LOGAN'S NEW STORY&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7111-00000001"/>OLIVE LOGAN'S NEW STORY&#xD;
 &#xD;
 THE GOOD&#xD;
 MR. BAGGLETHORPE.&#xD;
@@ -125,7 +130,7 @@ TIE AMERICAN NEWS COMPANY&#xD;
 &#xD;
 ii&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7111-00000002"/>&#xD;
+<pb n="" xml:id="VAC7111-00000002"/>&#xD;
 F&#xD;
 &#xD;
 Entered, according to Act of Congress, in the year 1868, by&#xD;
@@ -215,7 +220,7 @@ THE GOOD MR. BAGGLETILORPE.&#xD;
 CIAPTEIR  I.&#xD;
 TIlE lINCE.&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7111-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7111-00000003"/>&#xD;
 7 IE GOOD AJR. BAGGLETHORPE.&#xD;
 &#xD;
 YOUNG    MIE s  11I L..&#xD;
@@ -421,7 +426,7 @@ y     nc les ifit lay ing diabolical plans tfor et-&#xD;
 ,  ing gutleleiS young tetn to p1etltiot. Oi th&#xD;
 ." other haul, the credulous and youthful /uriu&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7111-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7111-00000004"/>&#xD;
 6              TIr OODE looD  I. BAGGLETJIOIPTEE.&#xD;
 &#xD;
 well found a mis-representative in the person&#xD;
@@ -638,7 +643,7 @@ k'          ',&#xD;
 &#xD;
 71IE Or L'LE r&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7111-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7111-00000005"/>&#xD;
 rlGO1.BAS. Ar's NATURAL C'io.&#xD;
 &#xD;
 Was Mrs. Bagglethorpe fashionable ? It&#xD;
@@ -846,7 +851,7 @@ an elegant" lady on his arnt.&#xD;
 &#xD;
 S                TIlE GOOD 1 Ili. BAr G r Lr  O&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7111-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7111-00000006"/>&#xD;
 10            TI11 GOOD .MR. J.A GGLETHORPE.&#xD;
 &#xD;
 "Yes, Feefy," would this good old soul say,&#xD;
@@ -1051,7 +1056,7 @@ shut ot, began to cry ; and Mr. Uagglethorpe,&#xD;
 &#xD;
 Ii FIFI- E'S Fo O TSTEFS.           11&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7111-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7111-00000007"/>&#xD;
 It2           TIlE GOOD Aul?. BA. GLIBtT'OJP.                          1. u(LTIIFJ[l'4IICOS&#xD;
 &#xD;
 greatly distressed, took her in his arms and&#xD;
@@ -1258,7 +1263,7 @@ t&#xD;
 e  Y&#xD;
 i&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7111-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7111-00000008"/>&#xD;
 14             THE GOOD 3R. IIGGLETIORPE.&#xD;
 &#xD;
 arise. This was a proper occasion for the&#xD;
@@ -1462,7 +1467,7 @@ the good Mt. lagglethorpe-&#xD;
 " Vena1 l, (ad'yhv, " suiggestedl Fitini'.&#xD;
 That's what I mean, hdear," "till the old&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7111-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7111-00000009"/>&#xD;
 16                    THE   GOOD 31R.&#xD;
 man, smoothing the girl's curls. "XWho&#xD;
 amongst us as disdains to look out for num-&#xD;
@@ -1685,7 +1690,7 @@ Fifine ptutit her hand and touctd the ski t&#xD;
 of Will's overcoat,&#xD;
 "Won't you please, Mr. Genttry, take mc&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7111-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7111-00000010"/>&#xD;
 8                    TIIE  GOOD I.&#xD;
 back to Mi'. Raglethorpe ?" she asked in a&#xD;
 iupplicating  tone.&#xD;
@@ -1894,7 +1899,7 @@ Y&#xD;
 b&#xD;
 tl&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7111-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7111-00000011"/>&#xD;
 OUT LATE AGA~d LY.              1&#xD;
 &#xD;
 20            TiHE' GOOD .fR. BAGGLETHORPE.&#xD;
@@ -2095,7 +2100,7 @@ twn, ;with jialouisy and distrust ? How tdiv it'&#xD;
 that his fathicr andl miiother were cast in this&#xD;
 selfish loxiigi mould ?&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7111-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7111-00000012"/>&#xD;
 V4&#xD;
 &#xD;
 22                    THE' GOOD nMR.&#xD;
@@ -2339,7 +2344,7 @@ tred, thrust by their ottnt Itatils-&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7111-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7111-00000013"/>&#xD;
 24                    THE    GOOD AIR. .&#xD;
 time; but then I know, with your beauty and&#xD;
 sweetness, you stand a chance of making, in&#xD;
@@ -2559,7 +2564,7 @@ Years ago, and lie hues kep uxs under tver&#xD;
 setce."&#xD;
 With this lie iwent awa-.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7111-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7111-00000014"/>&#xD;
 1l.&#xD;
 &#xD;
 C)&#xD;
@@ -2733,8 +2738,8 @@ andl persistentlyv nusdircectd. .&#xD;
 &#xD;
 &#xD;
                
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

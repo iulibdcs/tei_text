@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8086">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8086">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Clifton, or, Modern Fashion, Politics and Morals </title>
-            <author >Townley, Arthur</author>
+            <title>Clifton, or, Modern Fashion, Politics and Morals </title>
+            <author>Townley, Arthur</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8086</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8086</idno>
+            <idno type="wright2" n="previous">wright2-2525</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Clifton, or, Modern fashion, politics and morals</title>
-                  <author >Townley, Arthur</author>
+                  <title>Clifton, or, Modern fashion, politics and morals</title>
+                  <author>Townley, Arthur</author>
                </titleStmt>
-               <extent >192 p.</extent>
+               <extent>192 p.</extent>
                <publicationStmt>
-                  <publisher >A. Hart</publisher>
+                  <publisher>A. Hart</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1852">1852</date>
+                  <date when="1852">1852</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Clifton, or, Modern fashion, politics and morals</head> 
+            <head>Clifton, or, Modern fashion, politics and morals</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC8086-00000001"/>/&#xD;
+               <pb n=" (Cover) " xml:id="VAC8086-00000001"/>/&#xD;
 &#xD;
 I&#xD;
 &#xD;
@@ -107,7 +112,7 @@ I&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n=" (TitlePage) " xml:id="VAC8086-00000002"/>&#xD;
+<pb n=" (TitlePage) " xml:id="VAC8086-00000002"/>&#xD;
 I&#xD;
 &#xD;
 I&#xD;
@@ -138,7 +143,7 @@ I&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8086-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8086-00000003"/>&#xD;
 Ii&#xD;
 11&#xD;
 &#xD;
@@ -252,7 +257,7 @@ in concert we might effect a reformation -&#xD;
 in public opinion. Without that union we&#xD;
 can hope for nothing, and all our protes-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8086-00000004"/>&#xD;
+<pb n="18-19" xml:id="VAC8086-00000004"/>&#xD;
 18                             CLI]&#xD;
 stations will prove powerless against the&#xD;
 nods, winks, and owl-like gravity of our&#xD;
@@ -516,7 +521,7 @@ I&#xD;
 &#xD;
 TON.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8086-00000005"/>&#xD;
+<pb n="20-21" xml:id="VAC8086-00000005"/>&#xD;
 I&#xD;
 &#xD;
 little Edward was a generous, brave, though&#xD;
@@ -777,7 +782,7 @@ O L I F T O N.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8086-00000006"/>&#xD;
+<pb n="22-23" xml:id="VAC8086-00000006"/>&#xD;
 I&#xD;
 11&#xD;
 Ii&#xD;
@@ -992,7 +997,7 @@ It&#xD;
 I&#xD;
 I i&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8086-00000007"/>&#xD;
+<pb n="24-25" xml:id="VAC8086-00000007"/>&#xD;
 ii&#xD;
 14&#xD;
 14&#xD;
@@ -1263,7 +1268,7 @@ I&#xD;
 11&#xD;
 I i&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8086-00000008"/>&#xD;
+<pb n="26-27" xml:id="VAC8086-00000008"/>&#xD;
 I'&#xD;
 It&#xD;
 &#xD;
@@ -1527,7 +1532,7 @@ of pheasants ran across the road.&#xD;
 I&#xD;
 if'&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8086-00000009"/>&#xD;
+<pb n="28-29" xml:id="VAC8086-00000009"/>&#xD;
 I I&#xD;
 I&#xD;
 ~&#xD;
@@ -1799,7 +1804,7 @@ the sun fall upon this rock with too much&#xD;
 warmth."&#xD;
 "Let us rest a minute here ;" and Fan-&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8086-00000010"/>&#xD;
+<pb n="30-31" xml:id="VAC8086-00000010"/>&#xD;
 'I&#xD;
 I&#xD;
 'I&#xD;
@@ -2072,7 +2077,7 @@ I&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8086-00000011"/>&#xD;
+<pb n="32-33" xml:id="VAC8086-00000011"/>&#xD;
 * ij'$&#xD;
 1k'&#xD;
 I ~&#xD;
@@ -2341,7 +2346,7 @@ waters of the lake.&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8086-00000012"/>&#xD;
+<pb n="34-35" xml:id="VAC8086-00000012"/>&#xD;
 34&#xD;
 &#xD;
 CL I FTO0N.&#xD;
@@ -2615,7 +2620,7 @@ such a death !"&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8086-00000013"/>&#xD;
+<pb n="36-37" xml:id="VAC8086-00000013"/>&#xD;
 36                  /          CLIF&#xD;
 Hastening onwards, /~e ascertained that&#xD;
 the rock gradually fdened, while the&#xD;
@@ -2869,7 +2874,7 @@ be worn exceedingly ~&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8086-00000014"/>&#xD;
+<pb n="38-39" xml:id="VAC8086-00000014"/>&#xD;
 38&#xD;
 &#xD;
 C L FT''O N.&#xD;
@@ -3072,7 +3077,7 @@ prit was found guilty of an assault wi4i French hjid, for the last minute, been&
 ~ A fish resembling the trout in 5a~our.  leaning his forehead upon the gunwale of&#xD;
 much larger in size.           hough the boat, but it did not avail him, and&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8086-00000015"/>&#xD;
+<pb n="40-41" xml:id="VAC8086-00000015"/>&#xD;
 40                    CLIFTON;                                                       CLIFTON.                    41&#xD;
 &#xD;
 throwing himself back, he fairly shouted&#xD;
@@ -3324,7 +3329,7 @@ which give them depreciated paper; it&#xD;
 &#xD;
 (&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8086-00000016"/>&#xD;
+<pb n="42-43" xml:id="VAC8086-00000016"/>&#xD;
 42                    CLIFTON.                                                      CLIFTON.                    43&#xD;
 &#xD;
 surely is not the fault of the general go-&#xD;
@@ -3574,7 +3579,7 @@ so 3"&#xD;
 fondness he gazes into her upturned eyes;&#xD;
 with what rapture he jistens to her soft&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8086-00000017"/>&#xD;
+<pb n="44-45" xml:id="VAC8086-00000017"/>&#xD;
 44&#xD;
 &#xD;
 J&#xD;
@@ -3771,7 +3776,7 @@ event a moment longer.~~&#xD;
 over his establishment. Me! Ha! ha !"&#xD;
 "He is the owner of many slaves, I be-&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8086-00000018"/>&#xD;
+<pb n="46-47" xml:id="VAC8086-00000018"/>&#xD;
 C-II F T 0 N.&#xD;
 &#xD;
 I&#xD;
@@ -4037,7 +4042,7 @@ C LI FT ON.&#xD;
 &#xD;
 47&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8086-00000019"/>&#xD;
+<pb n="48-49" xml:id="VAC8086-00000019"/>&#xD;
 CLIFTON.              49&#xD;
 &#xD;
 48                   CLIFTON.&#xD;
@@ -4289,7 +4294,7 @@ lovely a being.&#xD;
 so opportunely to our relief ~" she inquired.&#xD;
 "We were hunting in the forest. I first&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8086-00000020"/>&#xD;
+<pb n="50-51" xml:id="VAC8086-00000020"/>&#xD;
 50                            CLII&#xD;
 fell asleep, and then lost myself. Mait-&#xD;
 land lost himself too, I suppose, for he did&#xD;
@@ -4491,7 +4496,7 @@ T 0N.                                            C L I FTO0N.&#xD;
 &#xD;
 TON-&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8086-00000021"/>&#xD;
+<pb n="52-53" xml:id="VAC8086-00000021"/>&#xD;
 CLIFTON.&#xD;
 &#xD;
 tension was soon absorbed by the masterly&#xD;
@@ -4738,7 +4743,7 @@ women, splendidly robed. They were seat-&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8086-00000022"/>&#xD;
+<pb n="54-55" xml:id="VAC8086-00000022"/>&#xD;
 54                  CLIFTON.                                                 CLIFTON.                  55&#xD;
 &#xD;
 ed by the box-keeper, and Edward had&#xD;
@@ -4994,7 +4999,7 @@ utmost tenacity, and constantly refer to it&#xD;
 in set phrases. Your neighbour is one of a&#xD;
 thousand."&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8086-00000023"/>&#xD;
+<pb n="56-57" xml:id="VAC8086-00000023"/>&#xD;
 CLIFTON.              57&#xD;
 &#xD;
 56                    CLIFTON.&#xD;
@@ -5246,7 +5251,7 @@ Miss Howard, with some timidity, "must&#xD;
 come to the conclusion that they are an&#xD;
 inferior race. They are not allowed to&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8086-00000024"/>&#xD;
+<pb n="58-59" xml:id="VAC8086-00000024"/>&#xD;
 58                            CLIF&#xD;
 ride, in the stages, they yield the side-&#xD;
 walks to the whites, and in the perform-&#xD;
@@ -5500,7 +5505,7 @@ who had retumed several days before to&#xD;
 New York. He soon made preparations&#xD;
 for a hunting and fishing excursion to the&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8086-00000025"/>&#xD;
+<pb n="60-61" xml:id="VAC8086-00000025"/>&#xD;
 60                            C L I F T 0 N.&#xD;
 wilds of the West. Several months had&#xD;
 elapsed before they arrived at Milwaukie,&#xD;
@@ -5764,7 +5769,7 @@ would drive the deer from the island, Kel-&#xD;
 born determined to follow them. Disre-&#xD;
 garding the remonstrances of his com-&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8086-00000026"/>&#xD;
+<pb n="62-63" xml:id="VAC8086-00000026"/>&#xD;
 62                            CLIf&#xD;
 panions, he dismounted from his horse,&#xD;
 and divesting himself of his coat, and&#xD;
@@ -6025,7 +6030,7 @@ I&#xD;
 '&#xD;
 O N.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8086-00000027"/>&#xD;
+<pb n="64-65" xml:id="VAC8086-00000027"/>&#xD;
 64                   CLIFTON.                                                        CLIFTON.                    65&#xD;
 &#xD;
 cutting down the tree, not, however, with-&#xD;
@@ -6279,7 +6284,7 @@ the murthering insult yez put on me, but&#xD;
 upon me sowl, I'll saze the earliest oppor-&#xD;
 tunity to cancel obligations."&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8086-00000028"/>&#xD;
+<pb n="66-67" xml:id="VAC8086-00000028"/>&#xD;
 66                           CLIP&#xD;
 "Werry well, Tom1 you may make the&#xD;
 most you can out of Pete, onny you must&#xD;
@@ -6532,7 +6537,7 @@ saw the Indian girl spring eagerly for-&#xD;
 &#xD;
 TON.&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8086-00000029"/>&#xD;
+<pb n="68-69" xml:id="VAC8086-00000029"/>&#xD;
 68               CLIFTON.                                          CLIFTON.               69&#xD;
 &#xD;
 ward, and seizing his bowie-knife, quicker&#xD;
@@ -6790,7 +6795,7 @@ rested as well as they could in their con-&#xD;
 n&#xD;
 .4&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8086-00000030"/>&#xD;
+<pb n="70-71" xml:id="VAC8086-00000030"/>&#xD;
 70&#xD;
 &#xD;
 C.LI FTO0N.&#xD;
@@ -7052,7 +7057,7 @@ curled upwards, as the fiery element eat&#xD;
 up the dry timbers I had taken the pre-&#xD;
 caution to lash thesavage to the roots of a&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8086-00000031"/>&#xD;
+<pb n="72-73" xml:id="VAC8086-00000031"/>&#xD;
 72                      CLIFTON.                                                           CIFTO'~N.                     73&#xD;
 &#xD;
 tree, and escape was hopeless. The flame&#xD;
@@ -7301,7 +7306,7 @@ These thoughts flashed across his mind,&#xD;
 when the door was opened and he was&#xD;
 summoned to "take the stump.~~ As he&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8086-00000032"/>&#xD;
+<pb n="74-75" xml:id="VAC8086-00000032"/>&#xD;
 74                            CLII&#xD;
 passed into the court-room, a friend whis-&#xD;
 pered, "Can you go through with it~"&#xD;
@@ -7555,7 +7560,7 @@ sing my perilous situation, rushed for-&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8086-00000033"/>&#xD;
+<pb n="76-77" xml:id="VAC8086-00000033"/>&#xD;
 *&#xD;
 &#xD;
 76&#xD;
@@ -7811,7 +7816,7 @@ with her childlike simplicity and vivacity,&#xD;
 possessed more than an ordinary share of&#xD;
 mental acumen, and it was with a vague&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8086-00000034"/>&#xD;
+<pb n="78-79" xml:id="VAC8086-00000034"/>&#xD;
 78                            CLIFTON.&#xD;
 and modified feeling of interest, that he pleased smile, the attempt of Miss Drayton&#xD;
 parted from her as supper was announced. to fascinate him. Seating themselv esupon&#xD;
@@ -8001,7 +8006,7 @@ The gert l&amp;amp;air scarcely rustled the vane-&#xD;
 &#xD;
 §&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8086-00000035"/>&#xD;
+<pb n="80-81" xml:id="VAC8086-00000035"/>&#xD;
 CLIFTON.              81&#xD;
 &#xD;
 80                    CLIFTON.&#xD;
@@ -8257,7 +8262,7 @@ unpleas~int situation, n~bt, however, with-&#xD;
 out relieving her of a portion of her dress.&#xD;
 "Oh! I am so glad I am freed !" ex-&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8086-00000036"/>&#xD;
+<pb n="82-83" xml:id="VAC8086-00000036"/>&#xD;
 82            -        CLIFTON.                                                         CLIFTON.                      88&#xD;
 &#xD;
 claimed the damsel, as she burst into a&#xD;
@@ -8504,7 +8509,7 @@ Tengeanc e is in pursuit; and the hypocrWe,&#xD;
 rho has assumed the garb of 9hristianity.&#xD;
 ecklessly braves Divine indignation; yet&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8086-00000037"/>&#xD;
+<pb n="84-85" xml:id="VAC8086-00000037"/>&#xD;
 84                            ULIF&#xD;
 shrinks with tremulous limbs~ before the&#xD;
 finger of scorn.&#xD;
@@ -8704,7 +8709,7 @@ tact, changed the conversation~ by intro-&#xD;
 ducing Edward to her husband.&#xD;
 The society now adjourned, and as they&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8086-00000038"/>&#xD;
+<pb n="86-87" xml:id="VAC8086-00000038"/>&#xD;
 CLIFTON.               87&#xD;
 &#xD;
 Sti                    CLIFTON.&#xD;
@@ -8958,7 +8963,7 @@ siastic. Many of ther; v ,re disappointed&#xD;
 because Mr. Clay iot receive the&#xD;
 nomination, and iii ~. ~riaricy of their&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8086-00000039"/>&#xD;
+<pb n="88-89" xml:id="VAC8086-00000039"/>&#xD;
 CLIFTON.                    89&#xD;
 &#xD;
 88               CLIFTON.&#xD;
@@ -9208,7 +9213,7 @@ junior member of the bar.&#xD;
 While the court is empannelling the&#xD;
 grand jury, clients eagerly gather round&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8086-00000040"/>&#xD;
+<pb n="90-91" xml:id="VAC8086-00000040"/>&#xD;
 90&#xD;
 &#xD;
 C L I F T 0 N.&#xD;
@@ -9406,7 +9411,7 @@ to another assault, and closed and bolted&#xD;
 the door as soon as the others succeeded&#xD;
 in making their escape.&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8086-00000041"/>&#xD;
+<pb n="92-93" xml:id="VAC8086-00000041"/>&#xD;
 92                  CLIFTON.                                                CLIFTON.                  93&#xD;
 &#xD;
 "'Did you ever see such a swingecat V&#xD;
@@ -9654,7 +9659,7 @@ paused for a moment, and considered the&#xD;
 propriety of diverging from the road, when*&#xD;
 herefi~ted that if his companions were&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8086-00000042"/>&#xD;
+<pb n="94-95" xml:id="VAC8086-00000042"/>&#xD;
 CLIFTON.               95&#xD;
 &#xD;
 94                   CLIFTON.&#xD;
@@ -9911,7 +9916,7 @@ inained behind, as it was quite probable&#xD;
 his person was known to the criminal.&#xD;
 Fleming had been appointed a deputy&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8086-00000043"/>&#xD;
+<pb n="96-97" xml:id="VAC8086-00000043"/>&#xD;
 C&#xD;
 &#xD;
 96                           CLI]&#xD;
@@ -10172,7 +10177,7 @@ ed precisely with the measure which&#xD;
 Fleming had taken of the track, where the&#xD;
 hat of the murdered man had been found.&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8086-00000044"/>&#xD;
+<pb n="98-99" xml:id="VAC8086-00000044"/>&#xD;
 CLIFTON.                     99&#xD;
 &#xD;
 98               CLIFTON.&#xD;
@@ -10424,7 +10429,7 @@ in ~deep, there came upon his ear sounds,&#xD;
 indistinct and low, like the wailing of a&#xD;
 person in deep 'distress. Keenly alive to&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8086-00000045"/>&#xD;
+<pb n="100-101" xml:id="VAC8086-00000045"/>&#xD;
 100&#xD;
 the unhappiness of others, he listened&#xD;
 anxiously to ascertain from whence the&#xD;
@@ -10676,7 +10681,7 @@ honour conferred upon him, declined the&#xD;
 &#xD;
 'I U JN.&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8086-00000046"/>&#xD;
+<pb n="102-103" xml:id="VAC8086-00000046"/>&#xD;
 102                   CLIFTON.&#xD;
 &#xD;
 nomination. Several months after, he at-&#xD;
@@ -10934,7 +10939,7 @@ the yielding form nearer to his person, th~&#xD;
 tiny hand was elevated to his shoulder,&#xD;
 and her respiration became more rapid~ as&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8086-00000047"/>&#xD;
+<pb n="104-105" xml:id="VAC8086-00000047"/>&#xD;
 104&#xD;
 &#xD;
 CLI FTON.&#xD;
@@ -11131,7 +11136,7 @@ umbrage to the progressive democracy.&#xD;
 He did not keep pace with public opinion,&#xD;
 and no laggard can arrest the attention of&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8086-00000048"/>&#xD;
+<pb n="106-107" xml:id="VAC8086-00000048"/>&#xD;
 106                          OlAF&#xD;
 our enthusiastic population. They will&#xD;
 have more land. It is useless to resist the&#xD;
@@ -11326,7 +11331,7 @@ think of now."                       more vindictive than ever." And then&#xD;
 &#xD;
 T O N.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8086-00000049"/>&#xD;
+<pb n="108-109" xml:id="VAC8086-00000049"/>&#xD;
 108                   CLIFTON.                                                         CLIFTON.                     109&#xD;
 &#xD;
 she wept as though her heart would&#xD;
@@ -11571,7 +11576,7 @@ wherever a Clay man could be found.&#xD;
 Harry of the West ~has attained his object.&#xD;
 Captain Tyler is prostrate and powerless."&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8086-00000050"/>&#xD;
+<pb n="110-111" xml:id="VAC8086-00000050"/>&#xD;
 110&#xD;
 &#xD;
 C L I F T 0 N.&#xD;
@@ -11826,7 +11831,7 @@ surances. To know ourselves is next to&#xD;
 impossible. How many girls, ay, and&#xD;
 women too, fancy themselves beautiful'?&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8086-00000051"/>&#xD;
+<pb n="112-113" xml:id="VAC8086-00000051"/>&#xD;
 112                    CLIFTON.                                                        CLIFTON.                     113&#xD;
 &#xD;
 I think them shockingly plain. If I should&#xD;
@@ -12022,7 +12027,7 @@ be some other Edward Clifton. Glancing prosy speech. He had almost concluded,&#x
 over its columns, I saw a report of a aiid was then urging the nomination of&#xD;
 8&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8086-00000052"/>&#xD;
+<pb n="114-115" xml:id="VAC8086-00000052"/>&#xD;
 114  CLIF ON.C L I F T 0 N-                                                                               11&#xD;
 &#xD;
 Col. Burkhart, whom he represented as an litician, as he was introduced to the&#xD;
@@ -12218,7 +12223,7 @@ until Ihe pathway approached the dome;&#xD;
 &#xD;
 115&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8086-00000053"/>&#xD;
+<pb n="116-117" xml:id="VAC8086-00000053"/>&#xD;
 116                           CLIFTON.&#xD;
 it then fell away, and in the distance there "I do not know what you would think&#xD;
 were a succession of low-arched rooms. uf it here," observed Dr. Fielding, "but it&#xD;
@@ -12414,7 +12419,7 @@ flood as it disappeared.&#xD;
 gulf"&#xD;
 "Let me cast a stone over the falls to&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8086-00000054"/>&#xD;
+<pb n="118-119" xml:id="VAC8086-00000054"/>&#xD;
 118                    CLIFTON.                                                         CLIFTON.                     119&#xD;
 &#xD;
 ascertain their depth," observed Fielding.&#xD;
@@ -12669,7 +12674,7 @@ they not be inhabited by reckless and&#xD;
 desperate men, who have seized our com-&#xD;
 panions ~"&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8086-00000055"/>&#xD;
+<pb n="120-121" xml:id="VAC8086-00000055"/>&#xD;
 120&#xD;
 &#xD;
 C L I F T 0 N.&#xD;
@@ -12927,7 +12932,7 @@ ed address at once reassured them. His&#xD;
 form was slight, his features regular, and&#xD;
 his eyes dark and piercing.&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8086-00000056"/>&#xD;
+<pb n="122-123" xml:id="VAC8086-00000056"/>&#xD;
 122                           CLIF&#xD;
 "I regret, ladies, that you have been&#xD;
 put to any inconvenience. The Cave has&#xD;
@@ -13189,7 +13194,7 @@ I believe we are safe from viol~ace.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8086-00000057"/>&#xD;
+<pb n="124-125" xml:id="VAC8086-00000057"/>&#xD;
 124                    CLIFTON.                                                        CLIFTON.                     125&#xD;
 &#xD;
 Let us examine this window; it opens,&#xD;
@@ -13442,7 +13447,7 @@ tions upon the stage. Those in front of&#xD;
 the fountain stood revealed in all their&#xD;
 classic elegance, as chaste and pure as&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8086-00000058"/>&#xD;
+<pb n="126-127" xml:id="VAC8086-00000058"/>&#xD;
 126                           CLIF&#xD;
 Powers' statue of the Greek Slave, while&#xD;
 the figures beyond were softly shaded~y&#xD;
@@ -13636,7 +13641,7 @@ persons.~~                          the earth."&#xD;
 part of the cavern, as you suppose, the at-  "And vast rocks are piled mountains&#xD;
 tempt to keep away visitors will prove high over our heads."&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8086-00000059"/>&#xD;
+<pb n="128-129" xml:id="VAC8086-00000059"/>&#xD;
 CLIFTON.                     129&#xD;
 &#xD;
 128                   CLIFTON.&#xD;
@@ -13897,7 +13902,7 @@ Mrs. Foster was more than ordinarily&#xD;
 vivacious. Her wit was keen and sarcas-&#xD;
 tic, and she launched it at every one ex-&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8086-00000060"/>&#xD;
+<pb n="130-131" xml:id="VAC8086-00000060"/>&#xD;
 CLIFTON.                131&#xD;
 &#xD;
 130                    CLIFTON.&#xD;
@@ -14153,7 +14158,7 @@ month. No one is to be apprised of the&#xD;
 plan, and I shall accomplish two objects.&#xD;
 It will, in the first place, indicate an ex-&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8086-00000061"/>&#xD;
+<pb n="132-133" xml:id="VAC8086-00000061"/>&#xD;
 CLIFTON.                     133&#xD;
 &#xD;
 132                   CLIFTON.&#xD;
@@ -14411,7 +14416,7 @@ by the Romans, Saxons, Danes, and Nor-&#xD;
 &#xD;
 dl&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8086-00000062"/>&#xD;
+<pb n="134-135" xml:id="VAC8086-00000062"/>&#xD;
 134                    CLIFTON.                                                           CLIFTON.                     135&#xD;
 &#xD;
 mans. France can boast of the match-&#xD;
@@ -14662,7 +14667,7 @@ emotions, for whatever cause, will surely&#xD;
 be followed by the remorseless importu-&#xD;
 nity of love, until the sensibilities are de-&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8086-00000063"/>&#xD;
+<pb n="136-137" xml:id="VAC8086-00000063"/>&#xD;
 136                          CLLF&#xD;
 sir oyed, andth e warm current of affection&#xD;
 is changed to bitterness and woe.&#xD;
@@ -14919,7 +14924,7 @@ and she will repay it by devotion."*&#xD;
 It is utterly impossible."&#xD;
 "But, let me implore you, Mrs. Foster,"&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8086-00000064"/>&#xD;
+<pb n="138-139" xml:id="VAC8086-00000064"/>&#xD;
 18&#xD;
 &#xD;
 CLI FTON.&#xD;
@@ -15118,7 +15123,7 @@ yet to the critical observer, the expanded "Pshaw! give me the glass."&#xD;
 nostril,'well-developed hips, and prominent Slowly the maiden examined the open-&#xD;
 muscles, disclosed elements of strength ings from the point where the hunters dis-&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8086-00000065"/>&#xD;
+<pb n="140-141" xml:id="VAC8086-00000065"/>&#xD;
 140                    CLIFTON.                                                        CLIFTON.                     141&#xD;
 &#xD;
 appeared to the spot where they were ex-&#xD;
@@ -15372,7 +15377,7 @@ foes."&#xD;
 den; and with a voice that soared above&#xD;
 the cry of the hounds, he ordered David-&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8086-00000066"/>&#xD;
+<pb n="142-143" xml:id="VAC8086-00000066"/>&#xD;
 142&#xD;
 &#xD;
 C L I F T 0 N.&#xD;
@@ -15631,7 +15636,7 @@ and fiowino' Her eyes were deep blue,&#xD;
 fringed wit~i black lashes, her nose was&#xD;
 Grecian, the cheeks dimpled and bloom-&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8086-00000067"/>&#xD;
+<pb n="144-145" xml:id="VAC8086-00000067"/>&#xD;
 CLIFTON.                     14~&#xD;
 &#xD;
 144                   CLIFTON.&#xD;
@@ -15889,7 +15894,7 @@ next ~&#xD;
 &#xD;
 Q&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8086-00000068"/>&#xD;
+<pb n="146-147" xml:id="VAC8086-00000068"/>&#xD;
 146                    CLIFTON.&#xD;
 &#xD;
 tobacco, pressed in the leaf, and make a&#xD;
@@ -16083,7 +16088,7 @@ the surrounding scenery had been only forest trees.&#xD;
 partially revealed the evening before, by "There ought to be partridges here,&#xD;
 the fading twilight. The mansion rested Plato ?"&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8086-00000069"/>&#xD;
+<pb n="148-149" xml:id="VAC8086-00000069"/>&#xD;
 148                           CLIF&#xD;
 "Dere am, Miss Gusta; I seed 'em day&#xD;
 fore yesterday."&#xD;
@@ -16341,7 +16346,7 @@ hands were gloved with yellow kid. The&#xD;
 groom wore a broadcloth coat of the finest&#xD;
 texture, white pantaloons, a deep red cra-&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8086-00000070"/>&#xD;
+<pb n="150-151" xml:id="VAC8086-00000070"/>&#xD;
 CLIFTON.                    151&#xD;
 &#xD;
 150                    CLIFTON.~&#xD;
@@ -16588,7 +16593,7 @@ surpassed by her domestic accomplish-&#xD;
 ments. Either as a republican, or a pri-&#xD;
 vate companion, any gentleman would be&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC8086-00000071"/>&#xD;
+<pb n="152-153" xml:id="VAC8086-00000071"/>&#xD;
 152                   CLIFTON.&#xD;
 &#xD;
 honoured in winning her hand. I could&#xD;
@@ -16847,7 +16852,7 @@ end. Being no politician ourselves, btit&#xD;
 only a faithful chronicler of our hero's sen-&#xD;
 timents, we cannot decide between the&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8086-00000072"/>&#xD;
+<pb n="154-155" xml:id="VAC8086-00000072"/>&#xD;
 154                    CLIFTON.                                                       CLIFTON.                     155&#xD;
 &#xD;
 two orators. It is sufficient to say that the&#xD;
@@ -17094,7 +17099,7 @@ morrow I start for New York. Florence&#xD;
 Brainard has so often desired me to visit&#xD;
 her, that I can no longer decline. She re-&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8086-00000073"/>&#xD;
+<pb n="156-157" xml:id="VAC8086-00000073"/>&#xD;
 156                           CLI]&#xD;
 sides in Union Square, which is now con-&#xD;
 sidered the fashionable locality, though&#xD;
@@ -17351,7 +17356,7 @@ only to an old, but a poor man. There is&#xD;
 a fatal error in the education of young&#xD;
 ladies at the present day. The almost&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8086-00000074"/>&#xD;
+<pb n="158-159" xml:id="VAC8086-00000074"/>&#xD;
 C-&#xD;
 &#xD;
 158                           CLIF&#xD;
@@ -17615,7 +17620,7 @@ remain.&#xD;
 "This fondness for making exhibitions&#xD;
 can be traced, in a certain degree, to the&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8086-00000075"/>&#xD;
+<pb n="160-161" xml:id="VAC8086-00000075"/>&#xD;
 160&#xD;
 &#xD;
 C L I F T 0 N.&#xD;
@@ -17877,7 +17882,7 @@ the popular sentiment. A thousand ex-&#xD;
 traneous influences are mingled with the&#xD;
 political atmosphere of the metropolis&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8086-00000076"/>&#xD;
+<pb n="162-163" xml:id="VAC8086-00000076"/>&#xD;
 162                 CLIFTON.                                                   CLIFTON.                  163&#xD;
 &#xD;
 The foreign diplomatic corps exercise a&#xD;
@@ -18127,7 +18132,7 @@ make enemies of them for life."&#xD;
 "There, papa-what do you think of&#xD;
 that?"&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8086-00000077"/>&#xD;
+<pb n="164-165" xml:id="VAC8086-00000077"/>&#xD;
 C LI FT ON-.&#xD;
 &#xD;
 C L I F T 0 N-.&#xD;
@@ -18388,7 +18393,7 @@ of a scalded frame is indescribably awful.&#xD;
 &#xD;
 165&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC8086-00000078"/>&#xD;
+<pb n="166-167" xml:id="VAC8086-00000078"/>&#xD;
 166&#xD;
 &#xD;
 C LI FTO0N.&#xD;
@@ -18648,7 +18653,7 @@ like the original owners of this vast&#xD;
 domain, aliens f6~r all time. The Mexi-&#xD;
 can, with all his Spanish obstinacy, will&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC8086-00000079"/>&#xD;
+<pb n="168-169" xml:id="VAC8086-00000079"/>&#xD;
 168                   CLIFTON.                                                         CLIFTON.                     169&#xD;
 &#xD;
 at last yield to circumstances. The Indian&#xD;
@@ -18901,7 +18906,7 @@ land ~ and if noffling but hillocks boqnd&#xD;
 the vision, with untold pleasure we gaze&#xD;
 upon the roughest barrier which Nature has&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC8086-00000080"/>&#xD;
+<pb n="170-171" xml:id="VAC8086-00000080"/>&#xD;
 170                   CLIFTON.                                                         CLiFTON.                    171&#xD;
 &#xD;
 erected. The tempest is a welcome relief&#xD;
@@ -19155,7 +19160,7 @@ ing, until the nations are summoned by&#xD;
 the archangel's trump, to appear at the&#xD;
 judgment seat.&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC8086-00000081"/>&#xD;
+<pb n="172-173" xml:id="VAC8086-00000081"/>&#xD;
 CLIFTON.                     178&#xD;
 &#xD;
 172                   CLIFTON.&#xD;
@@ -19411,7 +19416,7 @@ am ignorant of them, r~hough I heard of&#xD;
 the case a long time ago."&#xD;
 "Simply these. Franklin, and Drum-&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC8086-00000082"/>&#xD;
+<pb n="174-175" xml:id="VAC8086-00000082"/>&#xD;
 174                           CLIF&#xD;
 mond, his co-defendant, were members&#xD;
 of the county court, a tribunal having&#xD;
@@ -19670,7 +19675,7 @@ belles-Iettres, been illustrated with a splen-&#xD;
 &#xD;
 CLIFTON.                    175&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC8086-00000083"/>&#xD;
+<pb n="176-177" xml:id="VAC8086-00000083"/>&#xD;
 176                           CLIF&#xD;
 dour and success that will claim the ad-&#xD;
 miration of posterity ~ Upon the ensan-&#xD;
@@ -19947,7 +19952,7 @@ It&#xD;
 I&#xD;
 4&#xD;
 &#xD;
-<pb  n="178-179" xml:id="VAC8086-00000084"/>&#xD;
+<pb n="178-179" xml:id="VAC8086-00000084"/>&#xD;
 178                   CLIFTON.                                                           CLIFTON.                    179&#xD;
 &#xD;
 dates at Bergen passed without any&#xD;
@@ -20209,7 +20214,7 @@ V&#xD;
 V&#xD;
 A&#xD;
 &#xD;
-<pb  n="180-181" xml:id="VAC8086-00000085"/>&#xD;
+<pb n="180-181" xml:id="VAC8086-00000085"/>&#xD;
 180&#xD;
 &#xD;
 C L I F T 0 N.&#xD;
@@ -20479,7 +20484,7 @@ ii&#xD;
 LI&#xD;
 II&#xD;
 &#xD;
-<pb  n="182-183" xml:id="VAC8086-00000086"/>&#xD;
+<pb n="182-183" xml:id="VAC8086-00000086"/>&#xD;
 182                             CLII&#xD;
 date for Governor, in the congressional&#xD;
 district, was one thousand and forty-five,&#xD;
@@ -20735,7 +20740,7 @@ tender, sensitive flower, upon whose&#xD;
 &#xD;
 1,&#xD;
 &#xD;
-<pb  n="184-185" xml:id="VAC8086-00000087"/>&#xD;
+<pb n="184-185" xml:id="VAC8086-00000087"/>&#xD;
 {1&#xD;
 &#xD;
 9&#xD;
@@ -21003,7 +21008,7 @@ II&#xD;
 ii&#xD;
 ~jI&#xD;
 &#xD;
-<pb  n="186-187" xml:id="VAC8086-00000088"/>&#xD;
+<pb n="186-187" xml:id="VAC8086-00000088"/>&#xD;
 186                          CLII&#xD;
 though he was turning upon his footsteps,&#xD;
 to obtain a renunciation of that decree&#xD;
@@ -21263,7 +21268,7 @@ ings.&#xD;
 I&#xD;
 ~ I11&#xD;
 &#xD;
-<pb  n="188-189" xml:id="VAC8086-00000089"/>&#xD;
+<pb n="188-189" xml:id="VAC8086-00000089"/>&#xD;
 188                                CLIF&#xD;
 continued, musingly. "I am certain he&#xD;
 was not at Newport last summer. Miss&#xD;
@@ -21527,7 +21532,7 @@ I&#xD;
 &#xD;
 I'&#xD;
 &#xD;
-<pb  n="190-191" xml:id="VAC8086-00000090"/>&#xD;
+<pb n="190-191" xml:id="VAC8086-00000090"/>&#xD;
 190                           CLIF&#xD;
 gers in the city were anxious to obtain&#xD;
 invitations, and the towns was on the qui&#xD;
@@ -21781,7 +21786,7 @@ to think that any dress will do for their&#xD;
 husbands. For them it is sufficient, that&#xD;
 to the close of the marriage ceremony,&#xD;
 &#xD;
-<pb  n="192-193" xml:id="VAC8086-00000091"/>&#xD;
+<pb n="192-193" xml:id="VAC8086-00000091"/>&#xD;
 192                           CLIF&#xD;
 their attire has always been faultless.&#xD;
 After the knot is tied, what necessity is&#xD;
@@ -21892,8 +21897,8 @@ T HE E ND.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

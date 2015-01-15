@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6965">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6965">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Hilliare Henderson, or, The Secret Revealed </title>
-            <author >Buntline, Ned, (1822 or 3-1886)</author>
+            <title>Hilliare Henderson, or, The Secret Revealed </title>
+            <author>Buntline, Ned, (1822 or 3-1886)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6965</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6965</idno>
+            <idno type="wright2" n="previous">wright2-1426</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Hilliare Henderson, or, The secret revealed</title>
-                  <author >Buntline, Ned, (1822 or 3-1886)</author>
+                  <title>Hilliare Henderson, or, The secret revealed</title>
+                  <author>Buntline, Ned, (1822 or 3-1886)</author>
                </titleStmt>
-               <extent >88 p. </extent>
+               <extent>88 p. </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1865">[1865]</date>
+                  <date when="1865">[1865]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-09-29">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-09-29">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Hilliare Henderson, or, The secret revealed</head> 
+            <head>Hilliare Henderson, or, The secret revealed</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6965-00000001"/>IIILLIARE HENDERSON:&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6965-00000001"/>IIILLIARE HENDERSON:&#xD;
 &#xD;
 0I,&#xD;
 tie $tutcet ee4eL&#xD;
@@ -107,7 +112,7 @@ s . 'k ~ -s- ..... .     «r&#xD;
 }&#xD;
 f&#xD;
 &#xD;
-<pb  n="" xml:id="VAC6965-00000002"/>&#xD;
+<pb n="" xml:id="VAC6965-00000002"/>&#xD;
 R                r&#xD;
 "R rsb isaoreag tl4  Vo ,i" T$&amp;amp; 1o&#xD;
 B7 CAVLDW*LL, BoywonWel?1 k Wurraxt,&#xD;
@@ -161,7 +166,7 @@ WoulJ hiagh both orders and threats to sieon, upon 1".-&#xD;
 W they ade from your lips !"               " Ah, now, lady-bird, you're too hard upon&#xD;
 An abrupt utranee caused her to cese a fellow that levee you to distraction."&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6965-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC6965-00000003"/>&#xD;
 'rHE SEOIET REVEALED.             I&#xD;
 &#xD;
 IHILLIARE HENDERSON ; OR,&#xD;
@@ -359,7 +364,7 @@ hi vs'o peed of money. IWam already rnob&#xD;
 ed ny'plsntation doubles' fin vale nearly&#xD;
 every year. But now sit down sad )Isten t4&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6965-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6965-00000004"/>&#xD;
 HILLIARB HENDERSON; OR,&#xD;
 &#xD;
 '.&#xD;
@@ -646,7 +651,7 @@ THE SECT T REVEALED.&#xD;
 &#xD;
 7&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC6965-00000005"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC6965-00000005"/>&#xD;
 from his eyes with the cuff of the snow whIte away. Oh! if that whidn approaches be but&#xD;
 dunk shirt he wore.                       the yacht of my Harold, how happy will I be.&#xD;
 "I know it, Nathan. Now call your boys, I will flee away from the tyranny and perse-&#xD;
@@ -721,7 +726,7 @@ I LLL&amp;amp;RE HEND1Rgnx : OR.&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6965-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6965-00000006"/>&#xD;
 ':&#xD;
 &#xD;
 TILE SECRET REVEALED.                               11&#xD;
@@ -803,7 +808,7 @@ Si&#xD;
 _&#xD;
 t+&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6965-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6965-00000007"/>&#xD;
 "Boy and man, sir, on the sea for over for-&#xD;
 ty Years, I have learned my duty too welt to&#xD;
 ever ask  myf captain what port ie i going&#xD;
@@ -1066,7 +1071,7 @@ anmy i"&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC6965-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6965-00000008"/>&#xD;
 14                      IILt.LIARE   HENDERSON; O1R,&#xD;
 "Let us hope, swe#t thieti'esst I I kin  t      CHAPTErI VIfi&#xD;
 why, but I feel so strong-hearted now, I f'el  lIarold Motley was ab ent from the cabin&#xD;
@@ -1198,7 +1203,7 @@ And I can buy them at Congo foramos- steward. If you rant to bean overis, lI&#xD
 et a Piece--sayabout four or tive dollars-  giVe you a chance any day, with, a g sod ale&#xD;
 ould run the risk and land a load, at five ary.'&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC6965-00000009"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC6965-00000009"/>&#xD;
 HILLIARE IIENDE RSON ; OR.&#xD;
 "Thankee. I'll think on it. I'm good at titctiv recognize the hated form of Guetiwe&#xD;
 getehin' niggers, but never tried driving' on Hendrson, and she fondly thought that, in&#xD;
@@ -1264,7 +1269,7 @@ on the deck fuo the form of him who held where."&#xD;
 possession of her heart. For the vessel was  "Tate a eat, Captain Perkins, Will yon&#xD;
 so near that, through her glass, she could die- have sne wins or other refreshmente ?" said&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6965-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6965-00000010"/>&#xD;
 r                                                                                   ^&#xD;
 THE SECRETJBEVEALED.&#xD;
 1lanter, who, ever-e-iutiou, was serutini:- Terrified for a moment; but&#xD;
@@ -1385,7 +1390,7 @@ ut ordered Na-&#xD;
 some fruit and&#xD;
 ce fr his host.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC6965-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6965-00000011"/>&#xD;
 20&#xD;
 &#xD;
 IlILLIARE flENDERSON; OR,&#xD;
@@ -1523,7 +1528,7 @@ r&#xD;
 t&#xD;
 .&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6965-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6965-00000012"/>&#xD;
 - 12                       HILLIARE fEl&#xD;
 striuefed. As eoon as' they were fairly ekear&#xD;
 of the louse, they hurried through a garden&#xD;
@@ -1722,7 +1727,7 @@ easily asOGustavo Heiderson brought her in. ef the case,&#xD;
 &#xD;
 I5&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC6965-00000013"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC6965-00000013"/>&#xD;
 HILLIARE HENDERSON ; OR,&#xD;
 &#xD;
 I        (&#xD;
@@ -1880,7 +1885,7 @@ e'.R&#xD;
 &#xD;
 s  1&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6965-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6965-00000014"/>&#xD;
 - THlE SECRET REYEALEDP&#xD;
 t&#xD;
 me drunk again! Where do you suppose the Itit come, Io    let -&#xD;
@@ -2000,7 +2005,7 @@ foir my  orlteaodi Is&#xD;
 Vw verf   wlte I t lt a&#xD;
 ow it, slia will 'not let e&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6965-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6965-00000015"/>&#xD;
 I&#xD;
 &#xD;
 trifling.ord threw a thadow br your path!1&#xD;
@@ -2236,7 +2241,7 @@ a}j&#xD;
 .. «_,--&#xD;
 .:.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6965-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6965-00000016"/>&#xD;
 ~ t&#xD;
 rf.&#xD;
 I&#xD;
@@ -2377,7 +2382,7 @@ a,&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC6965-00000017"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC6965-00000017"/>&#xD;
 reached the' bcnoti opj-osite tQ the polnt s most valuabe slavei n pn tmy plintation.&#xD;
 *herc they had last seeun the drifting vessi. Provide. you sC, is cr ring the thing blaok&#xD;
 they funnd that others, hppreh tisive df her to pn irshttent. If Ite escapes tfe sea, he&#xD;
@@ -2445,7 +2450,7 @@ Q1&#xD;
 Pi&#xD;
 0&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6965-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6965-00000018"/>&#xD;
 W;lIE SECRRIT I(FYE64EID.&#xD;
 OHAPTER    XX.               the long, hawser attach&#xD;
 Tarold Morley was iossessed ofa cooled, placed on the bows that&#xD;
@@ -2568,7 +2573,7 @@ anger very calmly, niy&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6965-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6965-00000019"/>&#xD;
 US                 BILLARE~ liENDYERSO~a- O,&#xD;
 '"Whywitoeld I not? ,Ani - nodithb ot   ef a  -es asjiaiily from lilalt.ttoaU&#xD;
 I hnt rather perish by yonr side, Harold Mop  tey from theis. Let the worst coni, if w&#xD;
@@ -2703,7 +2708,7 @@ the schooner gathered headway off the shore.  As.the vessel drew nearer and near
 &#xD;
 J&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6965-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6965-00000020"/>&#xD;
 13&#xD;
 &#xD;
 IIILLIAPE IIIDERsoL  ;&#xD;
@@ -2840,7 +2845,7 @@ anid lie muttercu :  "    .                "    'y  n:k,  der bee empeyed' t '' 
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC6965-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC6965-00000021"/>&#xD;
 IILLIARE ENDERSON, OR,&#xD;
 &#xD;
 .man steadily, than to run your risk of chance&#xD;
@@ -3044,7 +3049,7 @@ U&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6965-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6965-00000022"/>&#xD;
 A2                        ILLIARE IENDERSON; OR,&#xD;
 For where two souls are linked in love, two and beauty surround us here-though the air&#xD;
 hearts are joined as one, then they know no is balmy, and nil things are lovely, 1 still look&#xD;
@@ -3188,7 +3193,7 @@ sot n re blagk than hal) he Spsh ladies !!' your fortune; theea Dootor.Sangradqp
 &#xD;
 f !&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6965-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6965-00000023"/>&#xD;
 HILLIARE HENDERSON; OR,&#xD;
 &#xD;
 his sasdtdle-bags on one arm, and a basket of  " Yes, Massa Gin'ral. Pedro all same dumb&#xD;
@@ -3365,7 +3370,7 @@ I&#xD;
 &#xD;
 6&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6965-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6965-00000024"/>&#xD;
 dILiLARE l I    flERSON; Ok,&#xD;
 as &amp;amp; chicken under my arm-spurs and all," 1 choice bottle of old vino de Caihla and a&#xD;
 said Pedro, receiving his golden auxiliaries plate' of patos dc Florida, I'll tell you why I&#xD;
@@ -3513,7 +3518,7 @@ loons i Do you see them ?"                vited him to do so.&#xD;
 t&#xD;
 ,&#xD;
 &#xD;
-<pb  n="48-49 (Illustration) " xml:id="VAC6965-00000025"/>&#xD;
+<pb n="48-49 (Illustration) " xml:id="VAC6965-00000025"/>&#xD;
 )&#xD;
 4                         IILLIARE U1ENDERSON ; OR,&#xD;
 Pedro luul spok en truly wlien he s'aid thatt ounce of gold hidden away for Lire winter of&#xD;
@@ -3602,7 +3607,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6965-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6965-00000026"/>&#xD;
 -1)&#xD;
 &#xD;
 i&#xD;
@@ -3757,7 +3762,7 @@ THE SECRET REVEALED.&#xD;
 ,&#xD;
 11       i l l&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6965-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6965-00000027"/>&#xD;
 I&#xD;
 't&#xD;
 I&#xD;
@@ -3896,7 +3901,7 @@ asked Harold.                             Gin'ral 1 Benito is bound for the Bish
 "The gentleman has not been in Havana Garden !"&#xD;
 long, or he surely would not have asked that  "Good I" muttered Gustave Henderson.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6965-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6965-00000028"/>&#xD;
 64&#xD;
 &#xD;
 HILLIARE HENDERSON; OR,&#xD;
@@ -4048,7 +4053,7 @@ t('&#xD;
 ij&#xD;
 #+}.&#xD;
 &#xD;
-<pb  n="56-57 (Illustration) " xml:id="VAC6965-00000029"/>&#xD;
+<pb n="56-57 (Illustration) " xml:id="VAC6965-00000029"/>&#xD;
 IIiLLIARE HENDERSON, OR,&#xD;
 &#xD;
 Upon arriving at the place where he had&#xD;
@@ -4191,7 +4196,7 @@ ii&#xD;
 I&#xD;
 1&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC6965-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC6965-00000030"/>&#xD;
 THE SECRET REVEALED.&#xD;
 will never be safe1 !Nathan cannot always the party which ha.1 been&#xD;
 be near you; I may never again have such a garden had returned. T&#xD;
@@ -4317,7 +4322,7 @@ the knowledge that&#xD;
 ice, and must not&#xD;
 special permission.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6965-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6965-00000031"/>&#xD;
 60&#xD;
 &#xD;
 IIILLIARE HENDERSON ; OR,&#xD;
@@ -4469,7 +4474,7 @@ t&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC6965-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC6965-00000032"/>&#xD;
 62&#xD;
 &#xD;
 BILLIARE HENDERSON; OR,&#xD;
@@ -4619,7 +4624,7 @@ THE SECRET REVEALED.&#xD;
 &#xD;
 ;&#xD;
 &#xD;
-<pb  n="64-65 (Illustration) " xml:id="VAC6965-00000033"/>&#xD;
+<pb n="64-65 (Illustration) " xml:id="VAC6965-00000033"/>&#xD;
 yf&#xD;
 s&#xD;
 .  .&#xD;
@@ -4775,7 +4780,7 @@ ci&#xD;
 f&#xD;
 3&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC6965-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC6965-00000034"/>&#xD;
 f1I&#xD;
 THlE SECRET REVEALED.&#xD;
 to," said Gustave, nervously. "If by any though she had her suspicion&#xD;
@@ -4900,7 +4905,7 @@ ring," replied the&#xD;
 w hris sword with&#xD;
 thre other. " But&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC6965-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC6965-00000035"/>&#xD;
 i&#xD;
 &#xD;
 TILE SECRET REVEALED.&#xD;
@@ -5107,7 +5112,7 @@ post, as Henderson knew by the change of&#xD;
 confusion outside. The man evidently had&#xD;
 great influence with those whom ho called&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC6965-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC6965-00000036"/>&#xD;
 IIILLIARE IIENDERSON, OR,&#xD;
 &#xD;
 t        _&#xD;
@@ -5268,7 +5273,7 @@ well,'mutil lie was awakened by the sonid of hundred doubloons I promise. They a
 r&#xD;
 l   i. _&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC6965-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC6965-00000037"/>&#xD;
 72&#xD;
 &#xD;
 HILLIARE HENDERSON; OK,&#xD;
@@ -5511,7 +5516,7 @@ _}&#xD;
 &#xD;
 73&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC6965-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC6965-00000038"/>&#xD;
 F&#xD;
 I'            t&#xD;
 s&#xD;
@@ -5761,7 +5766,7 @@ V 4&#xD;
 &#xD;
 L(&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC6965-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC6965-00000039"/>&#xD;
 7t&#xD;
 &#xD;
 HILLIARE HFND)ERSON; OR,&#xD;
@@ -5981,7 +5986,7 @@ t&#xD;
 "&#xD;
 .&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC6965-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC6965-00000040"/>&#xD;
 _. 1&#xD;
 &#xD;
 78&#xD;
@@ -6144,7 +6149,7 @@ l&#xD;
 _&#xD;
 ._.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC6965-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC6965-00000041"/>&#xD;
 f&#xD;
 ,f&#xD;
 E&#xD;
@@ -6302,7 +6307,7 @@ down. sir," replied the waiter.         "At leastet me send a notoack1 sad&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC6965-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC6965-00000042"/>&#xD;
 $2&#xD;
 &#xD;
 HILLIARE IIENDERSON; OR,&#xD;
@@ -6466,7 +6471,7 @@ ringing in his ears.                 -   made mue a victim."&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC6965-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC6965-00000043"/>&#xD;
 84                       HILLIARE HENDERSON; OR,&#xD;
 The Recorder himself handed Ilarold the whose mate has fallen before the eruelsports.&#xD;
 required articles. The list was soon made man's gun.&#xD;
@@ -6613,7 +6618,7 @@ r            _&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC6965-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC6965-00000044"/>&#xD;
 N8&#xD;
 &#xD;
 IHILLIARE HENDERSON ; Ofi,&#xD;
@@ -6761,7 +6766,7 @@ head fell back andhle waa--DKAD I        tamn them. They were permitted to retur
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="88" xml:id="VAC6965-00000045"/>&#xD;
+<pb n="88" xml:id="VAC6965-00000045"/>&#xD;
 S88                                           HILLIARE HENDERSON.&#xD;
 to their own house, while the surrounding fearing the result of a trial , they gladly gaye&#xD;
 friends of poor Harold bore his body back to up to Adele Dumesle her own property, and&#xD;
@@ -6778,8 +6783,8 @@ tV&#xD;
 &#xD;
 &#xD;
                                               
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8071">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8071">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Nina's Atonement, and Other Stories </title>
-            <author >Reid, Christian, (1846-1920)</author>
+            <title>Nina's Atonement, and Other Stories </title>
+            <author>Reid, Christian, (1846-1920)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8071</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8071</idno>
+            <idno type="wright2" n="previous">wright2-2510</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Nina's atonement, and other stories</title>
-                  <author >Reid, Christian, (1846-1920)</author>
+                  <title>Nina's atonement, and other stories</title>
+                  <author>Reid, Christian, (1846-1920)</author>
                </titleStmt>
-               <extent >154 p. </extent>
+               <extent>154 p. </extent>
                <publicationStmt>
-                  <publisher >Appleton</publisher>
+                  <publisher>Appleton</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1873">1873</date>
+                  <date when="1873">1873</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Nina's atonement, and other stories</head> 
+            <head>Nina's atonement, and other stories</head>
             <p>
-               <pb  n="Illustration" xml:id="VAC8071-00000001"/>N"-:&#xD;
+               <pb n="Illustration" xml:id="VAC8071-00000001"/>N"-:&#xD;
 &#xD;
 I'&#xD;
 'ii&#xD;
@@ -94,7 +99,7 @@ i&#xD;
 &#xD;
 r 1&#xD;
 &#xD;
-<pb  n=" (TitlePage) " xml:id="VAC8071-00000002"/>&#xD;
+<pb n=" (TitlePage) " xml:id="VAC8071-00000002"/>&#xD;
 NINA'S ATONEMENT,&#xD;
 &#xD;
 AND OTHER&#xD;
@@ -112,7 +117,7 @@ D. APPLETON ANII COMPANY,&#xD;
 549 &amp;amp; 551 BROADWAY.~&#xD;
 1873.&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8071-00000003"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8071-00000003"/>&#xD;
 C ONTEI{TS.&#xD;
 &#xD;
 according to Act of Congress, in the year 1873,&#xD;
@@ -138,7 +143,7 @@ PAGN&#xD;
 &#xD;
 'l&#xD;
 &#xD;
-<pb  n="0-1" xml:id="VAC8071-00000004"/>&#xD;
+<pb n="0-1" xml:id="VAC8071-00000004"/>&#xD;
 NINA$ ATONEMENT.&#xD;
 &#xD;
 CHAPTER 1.&#xD;
@@ -214,7 +219,7 @@ came, and to content herself with her novelS,&#xD;
 her tnusic, her dreams, and the few domestic&#xD;
 occupations tl~t had fallen into her han4s.-&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC8071-00000005"/>&#xD;
+<pb n="2-3" xml:id="VAC8071-00000005"/>&#xD;
 NINA'S ATONEMENT.&#xD;
 &#xD;
 NINA'S ATONEMENT.&#xD;
@@ -391,7 +396,7 @@ was "a beauty.~~ As every one knows, how. Titania, and Puck?"&#xD;
 &#xD;
 3&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC8071-00000006"/>&#xD;
+<pb n="4-5" xml:id="VAC8071-00000006"/>&#xD;
 4                    NINA'S ATONEMENT.                                                       NINA'S ATONEMENT.&#xD;
 &#xD;
 "We will go out tonight, and look for&#xD;
@@ -620,7 +625,7 @@ he form of providing amusement for their&#xD;
 &#xD;
 NINA'S ATONEMENT.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC8071-00000007"/>&#xD;
+<pb n="6-7" xml:id="VAC8071-00000007"/>&#xD;
 6                    NINA'S ATONEMENT.                                                      NiNA'S ATONEMENT.                   7&#xD;
 &#xD;
 guests-but at least it was not necessary for&#xD;
@@ -847,7 +852,7 @@ jority of mankind could sign it with tue&#xD;
 greatest truthfulness."&#xD;
 "It is certainly true that we are often in-&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8071-00000008"/>&#xD;
+<pb n="8-9" xml:id="VAC8071-00000008"/>&#xD;
 8                    NINA'S ATONEMENT.                                                      NINA'S ATONEMENT.                   9&#xD;
 &#xD;
 debated to them for some very good gifts,"&#xD;
@@ -1071,7 +1076,7 @@ of falling in, the last I heard of it, however."&#xD;
 "It is not ugly," said a quiet voice, which&#xD;
 startled them both as it spoke out of the&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8071-00000009"/>&#xD;
+<pb n="10-11" xml:id="VAC8071-00000009"/>&#xD;
 NINA'S ATONEMENT,                1&#xD;
 &#xD;
 10                    NINA'S ATONEMENT.&#xD;
@@ -1304,7 +1309,7 @@ thing?"&#xD;
 &#xD;
 10&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8071-00000010"/>&#xD;
+<pb n="12-13" xml:id="VAC8071-00000010"/>&#xD;
 NINA'S ATONEMENT.                    13&#xD;
 &#xD;
 12                    NINA'S ATONEMENT.&#xD;
@@ -1534,7 +1539,7 @@ rank, resembled other foolish country maidens,&#xD;
 and, perhaps, were silly enough to believe&#xD;
 them. Then, when the charm of novelty wan&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8071-00000011"/>&#xD;
+<pb n="14-15" xml:id="VAC8071-00000011"/>&#xD;
 14                     NINA'S ATONEMENT.                                                     NINA'S ATONEMENT.                    15&#xD;
 &#xD;
 gone from these fair ladies, no more pretty&#xD;
@@ -1759,7 +1764,7 @@ know," answered honest, unsuspicious Ralph,&#xD;
 delighted with this first token of interest in&#xD;
 his beloved purs~sit. "If you really e&amp;amp;re' to&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8071-00000012"/>&#xD;
+<pb n="16-17" xml:id="VAC8071-00000012"/>&#xD;
 16                    NINA'S ATONEMENT.&#xD;
 &#xD;
 go, I will take you down as soon as I have fin-&#xD;
@@ -1992,7 +1997,7 @@ gaze, she chose to consider even this a fresh&#xD;
 &#xD;
 4,&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8071-00000013"/>&#xD;
+<pb n="18-19" xml:id="VAC8071-00000013"/>&#xD;
 18                    NINA'S ATONEMENT.                                                    NINA'S ATONEMENT.                   19&#xD;
 &#xD;
 cause of offense, and so turned away petulant-&#xD;
@@ -2219,7 +2224,7 @@ white throat give a quick, nervous gasp, and&#xD;
 the lids droop over the eyes. Never had she&#xD;
 looked more beautiful, and never had he felt&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8071-00000014"/>&#xD;
+<pb n="20-21" xml:id="VAC8071-00000014"/>&#xD;
 20                    NINA'S ATONEMENT.                                                      NINA'S ATONEMENT.                   21&#xD;
 &#xD;
 more resolved to win her at all hazards-&#xD;
@@ -2447,7 +2452,7 @@ only give me up, and-and let me sink out&#xD;
 &#xD;
 21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8071-00000015"/>&#xD;
+<pb n="22-23" xml:id="VAC8071-00000015"/>&#xD;
 22                          NINA'S AT&#xD;
 of your lice, you would be so much happi-&#xD;
 er!"&#xD;
@@ -2678,7 +2683,7 @@ mc since mid-day," answered Martindale. " I&#xD;
 am to blame foi~ my solitude, however. Ralph&#xD;
 invited me to accompany Mr. Wyverne and&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8071-00000016"/>&#xD;
+<pb n="24-25" xml:id="VAC8071-00000016"/>&#xD;
 NII{A'S ATONEMENT.                   2&#xD;
 &#xD;
 24              NINA'S ATONEMENT.&#xD;
@@ -2911,7 +2916,7 @@ seemed suddenly to rush over her. The hand-&#xD;
 &#xD;
 24&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8071-00000017"/>&#xD;
+<pb n="26-27" xml:id="VAC8071-00000017"/>&#xD;
 26                    NINA'S ATONEMENT.                                                       NINA'S ATONEMENT.                   27&#xD;
 &#xD;
 some, imperious face before her vanished&#xD;
@@ -3141,7 +3146,7 @@ NINA'S ATONEMENT.&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8071-00000018"/>&#xD;
+<pb n="28-29" xml:id="VAC8071-00000018"/>&#xD;
 28                    NINA'S ATONEMENT.&#xD;
 &#xD;
 ings and desires as bitter as they were fruit-&#xD;
@@ -3372,7 +3377,7 @@ ly. "Is it not your mother's cat? Jack, if&#xD;
 you are telling me what is not so-"&#xD;
 "I ain't a-tellin' you what ain't so, Misu&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8071-00000019"/>&#xD;
+<pb n="30-31" xml:id="VAC8071-00000019"/>&#xD;
 NINA'S ATONEMENT.                   31&#xD;
 &#xD;
 30                    NINA'S ATONEMENT,&#xD;
@@ -3607,7 +3612,7 @@ ing them thus, I' I cannot!" she said. "I&#xD;
 &#xD;
 30&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8071-00000020"/>&#xD;
+<pb n="32-33" xml:id="VAC8071-00000020"/>&#xD;
 32                    NINA'S ATONEMENT.&#xD;
 &#xD;
 cannot 1 Oh, why did you come? Why dli&#xD;
@@ -3835,7 +3840,7 @@ appearance reminded him of the night when&#xD;
 &#xD;
 32&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8071-00000021"/>&#xD;
+<pb n="34-35" xml:id="VAC8071-00000021"/>&#xD;
 34,                         NINA'S A&#xD;
 she had risen from the laboratory steps tc&#xD;
 meet Martindale and himself, and they ha~&#xD;
@@ -4065,7 +4070,7 @@ turning away, went down the terrace-steps.&#xD;
 &#xD;
 35&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8071-00000022"/>&#xD;
+<pb n="36-37" xml:id="VAC8071-00000022"/>&#xD;
 NINA'S ATONEMENT.&#xD;
 &#xD;
 NINA'S ATONEMENT.&#xD;
@@ -4299,7 +4304,7 @@ she should have asked this question, for cer-&#xD;
 &#xD;
 37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8071-00000023"/>&#xD;
+<pb n="38-39" xml:id="VAC8071-00000023"/>&#xD;
 NINA'S ATONEMENT.&#xD;
 &#xD;
 NINA'S ATONEMENT.&#xD;
@@ -4533,7 +4538,7 @@ again?"&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8071-00000024"/>&#xD;
+<pb n="40-41" xml:id="VAC8071-00000024"/>&#xD;
 40                           NINA'S ATONEMENT.&#xD;
 Martindale laughed-the faint, scornful Ralph made one quick, tiger-like spring&#xD;
 sound breaking the silence with ghastly Big- forward, but he was too late. In the throat&#xD;
@@ -4628,7 +4633,7 @@ TRE END.&#xD;
 &#xD;
 40&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8071-00000025"/>&#xD;
+<pb n="42-43" xml:id="VAC8071-00000025"/>&#xD;
 42             HUGH'S VENDETTA.&#xD;
 &#xD;
 in@ed, seemed to have wandered from her&#xD;
@@ -4860,7 +4865,7 @@ rhich the Churehills lived was verymuch out&#xD;
 f the large town of Ridgeford, and in a sub-&#xD;
 rb chiefly inhabited by the manufacturing&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8071-00000026"/>&#xD;
+<pb n="44-45" xml:id="VAC8071-00000026"/>&#xD;
 44                  HUGH'S VENDETTA.&#xD;
 &#xD;
 HUGH'S VENDETTA.                  45&#xD;
@@ -5090,7 +5095,7 @@ hard to say which of her twolisteners Mar-&#xD;
 garet had taken most by surprise. Tyrrell,&#xD;
 however, recovered hiss powes of speech and&#xD;
 &#xD;
-<pb  n="46" xml:id="VAC8071-00000027"/>&#xD;
+<pb n="46" xml:id="VAC8071-00000027"/>&#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
 action first. While Hugh still glared in&#xD;
@@ -5204,7 +5209,7 @@ ies. The man knew her well, and liked her&#xD;
 &#xD;
 46&#xD;
 &#xD;
-<pb  n="Illustration-47" xml:id="VAC8071-00000028"/>&#xD;
+<pb n="Illustration-47" xml:id="VAC8071-00000028"/>&#xD;
 S&#xD;
 U)&#xD;
 &#xD;
@@ -5344,7 +5349,7 @@ and a very dangerous neighborhood it is just&#xD;
 &#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8071-00000029"/>&#xD;
+<pb n="48-49" xml:id="VAC8071-00000029"/>&#xD;
 48                           HUGH'S V&#xD;
 now. To think of a woman here alone at&#xD;
 such an hour! You might have wandered&#xD;
@@ -5574,7 +5579,7 @@ now and then, in the business of cutting it, to&#xD;
 &#xD;
 VENDETTA.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8071-00000030"/>&#xD;
+<pb n="50-51" xml:id="VAC8071-00000030"/>&#xD;
 50            ~~~HUGH'S VENDETTA.                                             HG'VEDT.&#xD;
 &#xD;
 look, and wonder if he was awake or dream-&#xD;
@@ -5805,7 +5810,7 @@ Lb To find some means oI'getting you home,"&#xD;
 &#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8071-00000031"/>&#xD;
+<pb n="52-53" xml:id="VAC8071-00000031"/>&#xD;
 52                          HUGh'S '&#xD;
 he answered. "It was rather difficult, for&#xD;
 the rain last night seems to have inundated&#xD;
@@ -5981,7 +5986,7 @@ happened, surely?" Then drive as fast as you can to the mines."&#xD;
 &#xD;
 VENDETTA.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8071-00000032"/>&#xD;
+<pb n="54-55" xml:id="VAC8071-00000032"/>&#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
 HUGH'S VENDETTA.&#xD;
@@ -6216,7 +6221,7 @@ they were almost sure would prove the one&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8071-00000033"/>&#xD;
+<pb n="56-57" xml:id="VAC8071-00000033"/>&#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
 so anxiously sought. "Hold up, there!"&#xD;
@@ -6444,7 +6449,7 @@ icy detected signs of life; but no one could&#xD;
 sure of this. It was true there was some&#xD;
 ound of hope in the fact that the lights&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8071-00000034"/>&#xD;
+<pb n="58-59" xml:id="VAC8071-00000034"/>&#xD;
 5S                  HUGH'S VENDETTA.                                                      HUGH'S VENDETTA.&#xD;
 &#xD;
 had not been totally extinguished, and that&#xD;
@@ -6679,7 +6684,7 @@ I&#xD;
 &#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8071-00000035"/>&#xD;
+<pb n="60-61" xml:id="VAC8071-00000035"/>&#xD;
 60                            HUGH'S v~&#xD;
 She ran up to meet him, and insisted on&#xD;
 his leaning on her.&#xD;
@@ -6913,7 +6918,7 @@ only love which is worth receiving-and doub-&#xD;
 &#xD;
 O&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8071-00000036"/>&#xD;
+<pb n="62-63" xml:id="VAC8071-00000036"/>&#xD;
 HUGH'S VENDETTA.&#xD;
 &#xD;
 ly the only which is worth giving-is that She laughed again; but something in the&#xD;
@@ -7003,7 +7008,7 @@ MISS CHERITON'S RIVAL.&#xD;
 &#xD;
 T HE ENxD.&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8071-00000037"/>&#xD;
+<pb n="64-65" xml:id="VAC8071-00000037"/>&#xD;
 MISS CHERITON'S RIVAL.&#xD;
 &#xD;
 64&#xD;
@@ -7188,7 +7193,7 @@ It is one thing, however, to make an as- the rich lowlands, the soft, blue'hills
 and letter. Rafe Trefalden would have scorned whistle as he stood still and -looked around.&#xD;
 himself if he had suspected for a momentthat It had been two years since he saw the Manor&#xD;
 &#xD;
-<pb  n="66 (Illustration) " xml:id="VAC8071-00000038"/>&#xD;
+<pb n="66 (Illustration) " xml:id="VAC8071-00000038"/>&#xD;
 66&#xD;
 &#xD;
 MISS CHERITON'S RIVAL.&#xD;
@@ -7315,7 +7320,7 @@ a;&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="-67" xml:id="VAC8071-00000039"/>&#xD;
+<pb n="-67" xml:id="VAC8071-00000039"/>&#xD;
 4&#xD;
 &#xD;
 tal fancy of which he thought so lightly had&#xD;
@@ -7440,7 +7445,7 @@ MISS CHERITON'S RIVAL.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8071-00000040"/>&#xD;
+<pb n="68-69" xml:id="VAC8071-00000040"/>&#xD;
 68                        MISS CHERIT&#xD;
 ciety you would think that his sole aim in&#xD;
 life was to kill time and avoid being bored."&#xD;
@@ -7669,7 +7674,7 @@ im by the mere fragrance of that flower,&#xD;
 ~hich he had said alone retained for him the&#xD;
 roma of youth.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8071-00000041"/>&#xD;
+<pb n="70-71" xml:id="VAC8071-00000041"/>&#xD;
 F&#xD;
 &#xD;
 'TO                       MISS CHERIT&#xD;
@@ -7901,7 +7906,7 @@ able natureI always answered: 'What! Al-&#xD;
 fred? How absurd! Why, I've known Al.&#xD;
 fred all my life.'"&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8071-00000042"/>&#xD;
+<pb n="72-73" xml:id="VAC8071-00000042"/>&#xD;
 T&#xD;
 &#xD;
 MISS CHERITON'S RIVAL.&#xD;
@@ -8133,7 +8138,7 @@ Meanwhile, Trefalden-animated by Lati-&#xD;
 mer's example - was veering nearer and&#xD;
 nearer to his cousin, his fickle fancy wander-&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8071-00000043"/>&#xD;
+<pb n="74-75" xml:id="VAC8071-00000043"/>&#xD;
 74                   MISS CLIERITON'S RIVAL.&#xD;
 &#xD;
 ing daily farther and farther from the place&#xD;
@@ -8365,7 +8370,7 @@ unusual resentment came into her eyes.&#xD;
 'You do both, when you use such words to&#xD;
 ac! Do you think I am a toy to serve your&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8071-00000044"/>&#xD;
+<pb n="76-77" xml:id="VAC8071-00000044"/>&#xD;
 MISS CHERITON'S RIVAL.&#xD;
 &#xD;
 MISS CHERITON'S RIVAL.&#xD;
@@ -8596,7 +8601,7 @@ well enough to be sure of it."&#xD;
 &#xD;
 76o&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8071-00000045"/>&#xD;
+<pb n="78-79" xml:id="VAC8071-00000045"/>&#xD;
 MISS CHERITON'S RIVAL.                                                         MISS CIIERITON'S RIVAL.&#xD;
 &#xD;
 mer. "Your engagement to Trefalden? Poor&#xD;
@@ -8824,7 +8829,7 @@ glad of my own desolation."&#xD;
 "A desolation easily consoled by Miss&#xD;
 Trefalden. Hush, here they come! Let u~&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8071-00000046"/>&#xD;
+<pb n="80-81" xml:id="VAC8071-00000046"/>&#xD;
 /&#xD;
 &#xD;
 80                        MISS OLIIIRLT&#xD;
@@ -8991,7 +8996,7 @@ laid on the heart, and the great organ of life&#xD;
 had ceased its work forever. Miss Cheriton's&#xD;
 unintentional rival lay dead before her.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8071-00000047"/>&#xD;
+<pb n="82-83" xml:id="VAC8071-00000047"/>&#xD;
 I&#xD;
 &#xD;
 If&#xD;
@@ -9072,7 +9077,7 @@ ing not a single rift in their sullen gloom.&#xD;
 The brown earth was strewed with fallen&#xD;
 leaves, while the gaunt, bare branches of the&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8071-00000048"/>&#xD;
+<pb n="84-85" xml:id="VAC8071-00000048"/>&#xD;
 84&#xD;
 &#xD;
 MY STORY.&#xD;
@@ -9305,7 +9310,7 @@ For a minute nothing further occurred.&#xD;
 The clock ticked; the fire burned obtrusive-&#xD;
 ly; Uncle Kendall looked at the leaping blaze;&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8071-00000049"/>&#xD;
+<pb n="86-87" xml:id="VAC8071-00000049"/>&#xD;
 86&#xD;
 &#xD;
 MY STORY-.&#xD;
@@ -9539,7 +9544,7 @@ fellow, and would not harm you for the world."&#xD;
 I, impatiently. "It cannot possibly interest&#xD;
 you to be shut up, in a lonely country-house&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8071-00000050"/>&#xD;
+<pb n="88-89" xml:id="VAC8071-00000050"/>&#xD;
 88&#xD;
 &#xD;
 MY STORY.&#xD;
@@ -9774,7 +9779,7 @@ our feet lay the old house, with the lazy blue&#xD;
 smoke ascending from its chimneys, and its&#xD;
 panes of old-fashioned glass blinking redly in&#xD;
 &#xD;
-<pb  n="90" xml:id="VAC8071-00000051"/>&#xD;
+<pb n="90" xml:id="VAC8071-00000051"/>&#xD;
 90                               MY STORY.&#xD;
 the sunset glow; also in full view were the&#xD;
 out-houses, kitchens, and stables, while far-&#xD;
@@ -9896,7 +9901,7 @@ MY STORY.&#xD;
 &#xD;
 '~ ~&#xD;
 &#xD;
-<pb  n="Illustration-91" xml:id="VAC8071-00000052"/>&#xD;
+<pb n="Illustration-91" xml:id="VAC8071-00000052"/>&#xD;
 I&#xD;
 &#xD;
 MY STORY.&#xD;
@@ -10020,7 +10025,7 @@ said the faithful creature, sitting down and&#xD;
 sobbing in her apron. "I was the fast one&#xD;
 that took her after she come into this world&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8071-00000053"/>&#xD;
+<pb n="92-93" xml:id="VAC8071-00000053"/>&#xD;
 I&#xD;
 &#xD;
 MY STORY.&#xD;
@@ -10254,7 +10259,7 @@ After that I said nothing more. I let him.&#xD;
 help me over the stile, an&amp;amp;walked by him in~&#xD;
 utter silence toward the house. Since that&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8071-00000054"/>&#xD;
+<pb n="94-95" xml:id="VAC8071-00000054"/>&#xD;
 94&#xD;
 &#xD;
 MY.STORY'.&#xD;
@@ -10491,7 +10496,7 @@ eagerness. "I am sorry that I have wasted&#xD;
 so much time; but I did not know-I did Dot&#xD;
 understand. If it is necessary for me to marry&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8071-00000055"/>&#xD;
+<pb n="96-97" xml:id="VAC8071-00000055"/>&#xD;
 96  MY TORY.MY STORY.&#xD;
 &#xD;
 you before the will is signed, I-I will do it&#xD;
@@ -10720,7 +10725,7 @@ last will and testament signed and witnessed&#xD;
 scarce an hour before.&#xD;
 "So he is dead!" said I, shuddering a lit-&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8071-00000056"/>&#xD;
+<pb n="98-99" xml:id="VAC8071-00000056"/>&#xD;
 98                                MYS&#xD;
 tie. Then I drew my hands from the kind&#xD;
 clasp which held them, and walked over to&#xD;
@@ -10949,7 +10954,7 @@ fort of speaking-" I want to ask if it is true,&#xD;
 &#xD;
 MY STORY.&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8071-00000057"/>&#xD;
+<pb n="100-101" xml:id="VAC8071-00000057"/>&#xD;
 100&#xD;
 &#xD;
 MY sTORY.&#xD;
@@ -11184,7 +11189,7 @@ times-ah, Ross, did you suspect, though I&#xD;
 &#xD;
 101&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8071-00000058"/>&#xD;
+<pb n="102-103" xml:id="VAC8071-00000058"/>&#xD;
 102                                MY STORY.&#xD;
 never, that it was for the last time ?-then,&#xD;
 putting me into the chair where he had found&#xD;
@@ -11330,7 +11335,7 @@ MY STORY-&#xD;
 &#xD;
 102&#xD;
 &#xD;
-<pb  n="104 (Illustration) " xml:id="VAC8071-00000059"/>&#xD;
+<pb n="104 (Illustration) " xml:id="VAC8071-00000059"/>&#xD;
 104                  THE PAINTER'S DREAM.&#xD;
 &#xD;
 and have you done a stroke of work on any&#xD;
@@ -11459,7 +11464,7 @@ I'&#xD;
 0&#xD;
 C,,&#xD;
 &#xD;
-<pb  n="-105" xml:id="VAC8071-00000060"/>&#xD;
+<pb n="-105" xml:id="VAC8071-00000060"/>&#xD;
 THE PAINT&#xD;
 &#xD;
 'I&#xD;
@@ -11577,7 +11582,7 @@ and quite unnecessary."&#xD;
 no doubt."&#xD;
 "No1 my dear friend. A region much&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8071-00000061"/>&#xD;
+<pb n="106-107" xml:id="VAC8071-00000061"/>&#xD;
 106&#xD;
 &#xD;
 THE PAINTER'S DREAM.&#xD;
@@ -11810,7 +11815,7 @@ Mrs. Rivers, sitting'down in the chair nearest&#xD;
 to her, and looking at her daughter with an&#xD;
 air of appeal.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8071-00000062"/>&#xD;
+<pb n="108-109" xml:id="VAC8071-00000062"/>&#xD;
 108                        THE I~AINT1I&#xD;
 "It is not my fault, Marion. I said all I&#xD;
 could-but you know your father. It would&#xD;
@@ -12045,7 +12050,7 @@ III.&#xD;
 IN one of the most remote and wildly-pict~&#xD;
 uresque of the extreme western counties ofi&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8071-00000063"/>&#xD;
+<pb n="110-111" xml:id="VAC8071-00000063"/>&#xD;
 110&#xD;
 &#xD;
 THE PAINTER'S DREAM.&#xD;
@@ -12280,7 +12285,7 @@ nly Travers understood him when he-raised&#xD;
 is head, crying, " The picture i-"' and' then&#xD;
 ank back fainting.&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8071-00000064"/>&#xD;
+<pb n="112-113" xml:id="VAC8071-00000064"/>&#xD;
 112                        THE PAINT)&#xD;
 There was a great commotion. In a meas-&#xD;
 ure, they were reassured by perceiving that&#xD;
@@ -12512,7 +12517,7 @@ irs. Rivers, whose~ bright face and gentle&#xD;
 oice worked such a magical transformation&#xD;
 ic moment she entered his room, that he&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8071-00000065"/>&#xD;
+<pb n="114-115" xml:id="VAC8071-00000065"/>&#xD;
 succumbed at once into her hands, and yielded&#xD;
 himself captive without even a desire for res-&#xD;
 cue. She was light in her rule, however, and&#xD;
@@ -12744,7 +12749,7 @@ ever see a more striking likeness ?"&#xD;
 &#xD;
 115&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8071-00000066"/>&#xD;
+<pb n="116-117" xml:id="VAC8071-00000066"/>&#xD;
 116       -THE PAINT:&#xD;
 "It is perfect," said Mr. Rivers, looking&#xD;
 over her shoulder. " Every feature, every&#xD;
@@ -12977,7 +12982,7 @@ cant shrug.&#xD;
 repulsed, and now he has come to me."&#xD;
 " Come to you ! Not up here ?"&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8071-00000067"/>&#xD;
+<pb n="118-119" xml:id="VAC8071-00000067"/>&#xD;
 TER'S DREAM.&#xD;
 &#xD;
 '118                        THE PAIN&#xD;
@@ -13153,7 +13158,7 @@ very practical and decided kind. Miss For- Evidently she was'forming some resolu
 rest saw this at a glance, and her first remark and, when once formed, Marion's resolutions&#xD;
 was a question. were very much like her father's in the'&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC8071-00000068"/>&#xD;
+<pb n="120-121" xml:id="VAC8071-00000068"/>&#xD;
 120&#xD;
 &#xD;
 THE PAINTER'S DREAM.&#xD;
@@ -13387,7 +13392,7 @@ sen$e of outrage that rushed over her.&#xD;
 intimidate a woman by threats, or force her&#xD;
 by compulsion, to become his wife. And you&#xD;
 &#xD;
-<pb  n="122 (Illustration) " xml:id="VAC8071-00000069"/>&#xD;
+<pb n="122 (Illustration) " xml:id="VAC8071-00000069"/>&#xD;
 THE FAINTER'S DREAM.&#xD;
 &#xD;
 need not think that you will force me. I would&#xD;
@@ -13513,7 +13518,7 @@ a)&#xD;
 "5&#xD;
 0&#xD;
 &#xD;
-<pb  n="-123" xml:id="VAC8071-00000070"/>&#xD;
+<pb n="-123" xml:id="VAC8071-00000070"/>&#xD;
 /&#xD;
 &#xD;
 THE PAINTER'S DREAM.                 123&#xD;
@@ -13638,7 +13643,7 @@ I&#xD;
 &#xD;
 123&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8071-00000071"/>&#xD;
+<pb n="124-125" xml:id="VAC8071-00000071"/>&#xD;
 124            THE PAINTER'S DREAM.&#xD;
 &#xD;
 quickly. " I ought to explain at once that I&#xD;
@@ -13825,7 +13830,7 @@ that "there are more things in heaven and&#xD;
 earth than are dreamed of in our philoso-&#xD;
 phy."&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8071-00000072"/>&#xD;
+<pb n="126-127" xml:id="VAC8071-00000072"/>&#xD;
 POWELL VARDRAY'S LIFE.&#xD;
 &#xD;
 At last the weary term was over, and the&#xD;
@@ -13908,7 +13913,7 @@ child of Time must leais for itself-,-the lesson&#xD;
 that delight is twin-born with pain, and that&#xD;
 to live is to suffer.&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8071-00000073"/>&#xD;
+<pb n="128-129" xml:id="VAC8071-00000073"/>&#xD;
 Ii&#xD;
 &#xD;
 128                       POWELL Y~&#xD;
@@ -14140,7 +14145,7 @@ around her, precluding speech, and almost&#xD;
 threatening suffocation.&#xD;
 "Oh, lam so glad you are going with usi"&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8071-00000074"/>&#xD;
+<pb n="130-131" xml:id="VAC8071-00000074"/>&#xD;
 180&#xD;
 &#xD;
 POWELL VARDRAY'S LiFE.&#xD;
@@ -14319,7 +14324,7 @@ any day-and find her here."&#xD;
 "I see that I have failed in my plan," said&#xD;
 Mrs. During, coolly; "but~ at least, I have:&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8071-00000075"/>&#xD;
+<pb n="132-133" xml:id="VAC8071-00000075"/>&#xD;
 RDRAYI'S LIFE-.&#xD;
 &#xD;
 132                       POWELL VA&#xD;
@@ -14557,7 +14562,7 @@ Will you not even speak to me? It is true&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8071-00000076"/>&#xD;
+<pb n="134-135" xml:id="VAC8071-00000076"/>&#xD;
 134                POWELL VARDIIAY'S LIFE.                                                POWELL VA&#xD;
 &#xD;
 that we have known each other a very short to her than even a prospective baronet. She&#xD;
@@ -14739,7 +14744,7 @@ care."&#xD;
 &#xD;
 II&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8071-00000077"/>&#xD;
+<pb n="136-137" xml:id="VAC8071-00000077"/>&#xD;
 136                       POWELL YA&#xD;
 "Can you see me?"&#xD;
 "Yes, quite plainly."&#xD;
@@ -14973,7 +14978,7 @@ into that realm of dark shadow where only&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8071-00000078"/>&#xD;
+<pb n="138-139" xml:id="VAC8071-00000078"/>&#xD;
 138                       POWELL VA&#xD;
 faith can pierce and love can follow, She&#xD;
 knew that, but she also knew that he was all&#xD;
@@ -15203,7 +15208,7 @@ lived again. Yet these years were quiet enough,&#xD;
 and in one sense-the sense of duty fulfilled&#xD;
 and work performed-even happy. She never&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8071-00000079"/>&#xD;
+<pb n="140-141" xml:id="VAC8071-00000079"/>&#xD;
 140               POWELL YARDRAY'S LIFE.&#xD;
 &#xD;
 murmured at their length or their sameness, helped to bury the dead. She gave herself no&#xD;
@@ -15301,7 +15306,7 @@ buke of the flippant present. It was not a&#xD;
 pretty house, as beauty is reckoned now-no-&#xD;
 10&#xD;
 &#xD;
-<pb  n="142 (Illustration) " xml:id="VAC8071-00000080"/>&#xD;
+<pb n="142 (Illustration) " xml:id="VAC8071-00000080"/>&#xD;
 142BERNARD'S INVENTION.&#xD;
 &#xD;
 under favorable circumstances, she might ha~&#xD;
@@ -15442,7 +15447,7 @@ L&#xD;
 &#xD;
 142&#xD;
 &#xD;
-<pb  n="-143" xml:id="VAC8071-00000081"/>&#xD;
+<pb n="-143" xml:id="VAC8071-00000081"/>&#xD;
 BERNARD'S INVENTION-               14&#xD;
 &#xD;
 /&#xD;
@@ -15567,7 +15572,7 @@ I&#xD;
 &#xD;
 143&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8071-00000082"/>&#xD;
+<pb n="144-145" xml:id="VAC8071-00000082"/>&#xD;
 144             ~BERNARD'S INVENTION.                                                         BRADSIVNIN&#xD;
 &#xD;
 love, I should be still more happy, still moi&#xD;
@@ -15798,7 +15803,7 @@ it out-a large sheet covered with India-ink&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8071-00000083"/>&#xD;
+<pb n="146-147" xml:id="VAC8071-00000083"/>&#xD;
 146                  BERNARD'S INVENTION.                                                       BERNARD'S INVENTION.                 147&#xD;
 &#xD;
 designs-before the eyes of the eager in- "Nothing is the matter," said Mr. Gordon,&#xD;
@@ -15969,7 +15974,7 @@ from him all means of defence, while its sud-&#xD;
 denness so completely overwhelmed him, that&#xD;
 he stood in the centre of the floe; a pale,&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8071-00000084"/>&#xD;
+<pb n="148-149" xml:id="VAC8071-00000084"/>&#xD;
 148                 BERNARD'S INVENTION.                                                         BERNARD'S INVENTION~                149&#xD;
 &#xD;
 silejit picture of what seemed detected guilt.&#xD;
@@ -16195,7 +16200,7 @@ I over the 'same position again and again,' re-&#xD;
 peated the same statements, and made the&#xD;
 same predictions, with a patience that was&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8071-00000085"/>&#xD;
+<pb n="150-151" xml:id="VAC8071-00000085"/>&#xD;
 150                  BERNARD'S INVENTION.&#xD;
 &#xD;
 both marvellous and exhausting. It told a&#xD;
@@ -16432,7 +16437,7 @@ BERNARD'S INVENTION.                  151&#xD;
 &#xD;
 151&#xD;
 &#xD;
-<pb  n="152" xml:id="VAC8071-00000086"/>&#xD;
+<pb n="152" xml:id="VAC8071-00000086"/>&#xD;
 152                  BERNARD'S INVENTION.&#xD;
 &#xD;
 1'&#xD;
@@ -16557,7 +16562,7 @@ f&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="Illustration-153" xml:id="VAC8071-00000087"/>&#xD;
+<pb n="Illustration-153" xml:id="VAC8071-00000087"/>&#xD;
 @3&#xD;
 a&#xD;
 u&#xD;
@@ -16692,7 +16697,7 @@ BERNARD'S INVENTION.&#xD;
 &#xD;
 153&#xD;
 &#xD;
-<pb  n="154-155 (Advertisement) " xml:id="VAC8071-00000088"/>&#xD;
+<pb n="154-155 (Advertisement) " xml:id="VAC8071-00000088"/>&#xD;
 154&#xD;
 &#xD;
 BERNARD'S INVENTION.&#xD;
@@ -16825,7 +16830,7 @@ Price, '75 dnnts.&#xD;
 Either of the above mailed, poet-paid, to any part of the V)zited States, on receipt of price.&#xD;
 D. APPLETON &amp;amp; CO., Publishers, 549 &amp;amp; 551 Broadway, N. Y.&#xD;
 &#xD;
-<pb  n="156 (Advertisement) -157" xml:id="VAC8071-00000089"/>&#xD;
+<pb n="156 (Advertisement) -157" xml:id="VAC8071-00000089"/>&#xD;
 * The Masterpieces of Fiction at a Marvel of Cheapness.&#xD;
 J. FENIMORE COOPER'S NOVELS.&#xD;
 NEVV AND CHEAP EDITION.&#xD;
@@ -16893,8 +16898,8 @@ D. APPLETON &amp;amp; CO., Publishers, New York.&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

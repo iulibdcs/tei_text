@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7477">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7477">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The West Point Cadet, or, The Turns of Fortune's Wheel </title>
-            <author >Poore, Benjamin Perley, (1820-1887)</author>
+            <title>The West Point Cadet, or, The Turns of Fortune's Wheel </title>
+            <author>Poore, Benjamin Perley, (1820-1887)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7477</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7477</idno>
+            <idno type="wright2" n="previous">wright2-1930</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The West Point cadet, or, The turns of fortune's wheel</title>
-                  <author >Poore, Benjamin Perley, (1820-1887)</author>
+                  <title>The West Point cadet, or, The turns of fortune's wheel</title>
+                  <author>Poore, Benjamin Perley, (1820-1887)</author>
                </titleStmt>
-               <extent >127 p.</extent>
+               <extent>127 p.</extent>
                <publicationStmt>
-                  <publisher >Elliott Thomes &amp; Talbot</publisher>
+                  <publisher>Elliott Thomes &amp; Talbot</publisher>
                   <pubPlace>Boston </pubPlace>
-                  <date  when="1863">[1863]</date>
+                  <date when="1863">[1863]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-01-15">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-01-15">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The West Point cadet, or, The turns of fortune's wheel</head> 
+            <head>The West Point cadet, or, The turns of fortune's wheel</head>
             <p>
-               <pb  n="Advertisement (Cover) " xml:id="VAC7477-00000001"/>T."  N&#xD;
+               <pb n="Advertisement (Cover) " xml:id="VAC7477-00000001"/>T."  N&#xD;
 54&#xD;
 IS;&#xD;
 a&#xD;
@@ -146,7 +151,7 @@ im                                                                              
 P&#xD;
 Z.&#xD;
 &#xD;
-<pb  n="0Advertisement (TitlePage) " xml:id="VAC7477-00000002"/>&#xD;
+<pb n="0Advertisement (TitlePage) " xml:id="VAC7477-00000002"/>&#xD;
 AL~'             0,                           '!- -&#xD;
 -" mIislTE TTl GPs&#xD;
 IE                   . - ,-I&#xD;
@@ -249,7 +254,7 @@ NOMMON v  --w W-Iqwpm  ML-&#xD;
 &#xD;
 ---   9 v         %A A %FAA PA "Mdwvj 1 0&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7477-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7477-00000003"/>&#xD;
 2"&#xD;
 &#xD;
 ., I&#xD;
@@ -331,7 +336,7 @@ I&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7477-00000004"/>&#xD;
+<pb n="4-5" xml:id="VAC7477-00000004"/>&#xD;
 ,                              7 ~'K*' -:'        K  r.  .   'C 'C '&#xD;
 &#xD;
 4               THE WEST POINT CADET.&#xD;
@@ -428,7 +433,7 @@ f,&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7477-00000005"/>&#xD;
+<pb n="6-7" xml:id="VAC7477-00000005"/>&#xD;
 if,&#xD;
 &#xD;
 6&#xD;
@@ -534,7 +539,7 @@ Ju&#xD;
 &#xD;
 .a&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7477-00000006"/>&#xD;
+<pb n="8-9" xml:id="VAC7477-00000006"/>&#xD;
 1 1.&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -625,7 +630,7 @@ only possessed artistic ability, but a latent fund of good humor,&#xD;
 and a sauvity of manner well calculated to please the frank. peo-&#xD;
 ple of the West. His portraits were soon regarded as superior&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7477-00000007"/>&#xD;
+<pb n="10-11" xml:id="VAC7477-00000007"/>&#xD;
 TIE WEST POINT CADET. &#xD;
 &#xD;
 10&#xD;
@@ -732,7 +737,7 @@ IA&#xD;
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7477-00000008"/>&#xD;
+<pb n="12-13" xml:id="VAC7477-00000008"/>&#xD;
 THE WEST .POINT CADET*&#xD;
 &#xD;
 object of her care. To an almost childlike simplicity and sin-&#xD;
@@ -849,7 +854,7 @@ A&#xD;
 &#xD;
 e&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7477-00000009"/>&#xD;
+<pb n="14-15" xml:id="VAC7477-00000009"/>&#xD;
 THE W.ST POINT..CADET.&#xD;
 &#xD;
 14&#xD;
@@ -955,7 +960,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7477-00000010"/>&#xD;
+<pb n="16-17" xml:id="VAC7477-00000010"/>&#xD;
 44&#xD;
 &#xD;
 4&#xD;
@@ -1068,7 +1073,7 @@ limbs like lead. -On they went, and rapidly approached the falls.&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7477-00000011"/>&#xD;
+<pb n="18-19" xml:id="VAC7477-00000011"/>&#xD;
 18&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -1181,7 +1186,7 @@ A&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7477-00000012"/>&#xD;
+<pb n="20-21" xml:id="VAC7477-00000012"/>&#xD;
 'V&#xD;
 c~.&#xD;
 &#xD;
@@ -1286,7 +1291,7 @@ the mystery was connected withevil.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7477-00000013"/>&#xD;
+<pb n="22-23" xml:id="VAC7477-00000013"/>&#xD;
 22              THE WEST POINT CADET-&#xD;
 e remained some weeks at Coalboro', visiting the mines, an4&#xD;
 traversing the mountains on geological -expeditions, with young&#xD;
@@ -1384,7 +1389,7 @@ Ai&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7477-00000014"/>&#xD;
+<pb n="24-25" xml:id="VAC7477-00000014"/>&#xD;
 IM&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -1495,7 +1500,7 @@ had always been a model for neatness and attention to duty,&#xD;
 &#xD;
 S.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7477-00000015"/>&#xD;
+<pb n="26-27" xml:id="VAC7477-00000015"/>&#xD;
 1'&#xD;
 &#xD;
 26&#xD;
@@ -1602,7 +1607,7 @@ nouncement of the winning color in a voice little above a whis-&#xD;
 &#xD;
 &amp;amp;&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7477-00000016"/>&#xD;
+<pb n="28-29" xml:id="VAC7477-00000016"/>&#xD;
 -             I&#xD;
 &#xD;
 28&#xD;
@@ -1709,7 +1714,7 @@ A&#xD;
 &#xD;
 4.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7477-00000017"/>&#xD;
+<pb n="30-31" xml:id="VAC7477-00000017"/>&#xD;
 THE WEST POINT CADET.&#xD;
 &#xD;
 who urged, forward their "light-troops " against the parapets of&#xD;
@@ -1812,7 +1817,7 @@ t&#xD;
 &#xD;
 Z,&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7477-00000018"/>&#xD;
+<pb n="32-33" xml:id="VAC7477-00000018"/>&#xD;
 32&#xD;
 &#xD;
 -ITE WEST POINT CADET.&#xD;
@@ -1918,7 +1923,7 @@ ht"&#xD;
 &#xD;
 4 ,&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7477-00000019"/>&#xD;
+<pb n="34-35" xml:id="VAC7477-00000019"/>&#xD;
 (S*1&#xD;
 &#xD;
 I.&#xD;
@@ -2020,7 +2025,7 @@ II 1.&#xD;
 &#xD;
 .1&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7477-00000020"/>&#xD;
+<pb n="36-37" xml:id="VAC7477-00000020"/>&#xD;
 TIU-WEST POINT CADET.&#xD;
 *lch it left behindin weic- the sioops dipped andrckd asif&#xD;
 doing reveittai ormage to the giants of th0 wivs.&#xD;
@@ -2123,7 +2128,7 @@ e7&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7477-00000021"/>&#xD;
+<pb n="38-39" xml:id="VAC7477-00000021"/>&#xD;
 'I.&#xD;
 &#xD;
 THE:WEST POINT CADET.&#xD;
@@ -2232,7 +2237,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7477-00000022"/>&#xD;
+<pb n="40-41" xml:id="VAC7477-00000022"/>&#xD;
 40&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -2346,7 +2351,7 @@ i&#xD;
 &#xD;
 :         '&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7477-00000023"/>&#xD;
+<pb n="42-43" xml:id="VAC7477-00000023"/>&#xD;
 THE WEST POINT CADETS&#xD;
 &#xD;
 a&#xD;
@@ -2444,7 +2449,7 @@ ful sadness which brooded over the town, and the solemn grief&#xD;
 expressed on the countenances of the hundreds who wer-e group-&#xD;
 ed around the grave, when earth was mingled wit earth.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7477-00000024"/>&#xD;
+<pb n="44-45" xml:id="VAC7477-00000024"/>&#xD;
 44          TiE Wm T -PO21f T-,- AJD&#xD;
 &#xD;
 Returning to t4,e house,.no longer maile sacred bythe presence&#xD;
@@ -2532,7 +2537,7 @@ happy hours, and left the house. That afternoon he started on&#xD;
 -his return to West Point, sent forth gn the highway of life as he&#xD;
 had been whose -wealth the John Spencers now clutched.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7477-00000025"/>&#xD;
+<pb n="46-47" xml:id="VAC7477-00000025"/>&#xD;
 46&#xD;
 &#xD;
 TI WXtST POINT CADMT&#xD;
@@ -2633,7 +2638,7 @@ r.&#xD;
 &#xD;
 :4 4y&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7477-00000026"/>&#xD;
+<pb n="48-49" xml:id="VAC7477-00000026"/>&#xD;
 S&#xD;
 &#xD;
 48&#xD;
@@ -2740,7 +2745,7 @@ heart&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7477-00000027"/>&#xD;
+<pb n="50-51" xml:id="VAC7477-00000027"/>&#xD;
 50&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -2835,7 +2840,7 @@ a vigorous constitution and a mind not ovrer-sensitive to trouble&#xD;
 &#xD;
 !4&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7477-00000028"/>&#xD;
+<pb n="52-53" xml:id="VAC7477-00000028"/>&#xD;
 /&#xD;
 &#xD;
 52&#xD;
@@ -2946,7 +2951,7 @@ F&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7477-00000029"/>&#xD;
+<pb n="54-55" xml:id="VAC7477-00000029"/>&#xD;
 '54            THE WEST POINT CADET.&#xD;
 ' Nerd."&#xD;
 "What, you, Jenmy Ryan ?"&#xD;
@@ -3056,7 +3061,7 @@ iN IL&#xD;
 &#xD;
 I .&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7477-00000030"/>&#xD;
+<pb n="56-57" xml:id="VAC7477-00000030"/>&#xD;
 I&#xD;
 &#xD;
 young man could collect his thoughts. "Heretake' this five&#xD;
@@ -3149,7 +3154,7 @@ contemptuous manner, " and I now repeat it."&#xD;
 &#xD;
 fr(,&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7477-00000031"/>&#xD;
+<pb n="58-59" xml:id="VAC7477-00000031"/>&#xD;
 THE WEST POINT CADET.&#xD;
 To you, Clem Spencer or to any other coward I"&#xD;
 The others, who had listened in breathless astonishment,&#xD;
@@ -3260,7 +3265,7 @@ A&#xD;
 &#xD;
 o&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7477-00000032"/>&#xD;
+<pb n="60-61" xml:id="VAC7477-00000032"/>&#xD;
 THE, WEST POINT CADET.&#xD;
 &#xD;
 60,&#xD;
@@ -3371,7 +3376,7 @@ i~.&#xD;
 &#xD;
 4'&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7477-00000033"/>&#xD;
+<pb n="62-63" xml:id="VAC7477-00000033"/>&#xD;
 62&#xD;
 &#xD;
 THE WEST POINT CADET*&#xD;
@@ -3477,7 +3482,7 @@ ir&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7477-00000034"/>&#xD;
+<pb n="64-65" xml:id="VAC7477-00000034"/>&#xD;
 4.&#xD;
 &#xD;
 64&#xD;
@@ -3589,7 +3594,7 @@ I&#xD;
 &#xD;
 __&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7477-00000035"/>&#xD;
+<pb n="66-67" xml:id="VAC7477-00000035"/>&#xD;
 THE WEST POINT CADE.&#xD;
 &#xD;
 Yet Providence had another fate in store for him, and he was&#xD;
@@ -3693,7 +3698,7 @@ THE WEST POINT CADET.&#xD;
 &#xD;
 dq&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7477-00000036"/>&#xD;
+<pb n="68-69" xml:id="VAC7477-00000036"/>&#xD;
 THE WEST WOINT CADET.&#xD;
 &#xD;
 :68&#xD;
@@ -3799,7 +3804,7 @@ iI&#xD;
 &#xD;
 69&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7477-00000037"/>&#xD;
+<pb n="70-71" xml:id="VAC7477-00000037"/>&#xD;
 Tug WEST POINT CADETS&#xD;
 &#xD;
 71&#xD;
@@ -3896,7 +3901,7 @@ A&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7477-00000038"/>&#xD;
+<pb n="72-73" xml:id="VAC7477-00000038"/>&#xD;
 T1E -WAST POINT' CADET.&#xD;
 &#xD;
 72:&#xD;
@@ -3994,7 +3999,7 @@ THE WEST POINT CADfET.&#xD;
 &#xD;
 T&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7477-00000039"/>&#xD;
+<pb n="74-75" xml:id="VAC7477-00000039"/>&#xD;
 "THE WEST POINT CADET.&#xD;
 &#xD;
 sang those songs-felt fixed upon their hearts a profound contempt&#xD;
@@ -4090,7 +4095,7 @@ It&#xD;
 4&#xD;
 I&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7477-00000040"/>&#xD;
+<pb n="76-77" xml:id="VAC7477-00000040"/>&#xD;
 706&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -4186,7 +4191,7 @@ VIP&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7477-00000041"/>&#xD;
+<pb n="78-79" xml:id="VAC7477-00000041"/>&#xD;
 THE WEST POINT CADET.&#xD;
 &#xD;
 "Leave us," said the Invalid, in a faint voice. "I would speak&#xD;
@@ -4291,7 +4296,7 @@ IAT&#xD;
 I&#xD;
 I&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7477-00000042"/>&#xD;
+<pb n="80-81" xml:id="VAC7477-00000042"/>&#xD;
 80&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -4393,7 +4398,7 @@ I&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7477-00000043"/>&#xD;
+<pb n="82-83" xml:id="VAC7477-00000043"/>&#xD;
 0-0&#xD;
 82              THE WEST POINT CADET.&#xD;
 lace was full of rage and determination, while even the more&#xD;
@@ -4496,7 +4501,7 @@ V&#xD;
 Irk&#xD;
 I E&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7477-00000044"/>&#xD;
+<pb n="84-85" xml:id="VAC7477-00000044"/>&#xD;
 f&#xD;
 &#xD;
 THE WEST POINT CADETS&#xD;
@@ -4602,7 +4607,7 @@ I&#xD;
 1'&#xD;
 I&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7477-00000045"/>&#xD;
+<pb n="86-87" xml:id="VAC7477-00000045"/>&#xD;
 80&#xD;
 &#xD;
 lets, all-powerful will. The citadel may yet be carried. Hope's&#xD;
@@ -4701,7 +4706,7 @@ troops, firing their long muskets as. they advanced.. Then,&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7477-00000046"/>&#xD;
+<pb n="88-89" xml:id="VAC7477-00000046"/>&#xD;
 THE WEST POINT CADET.&#xD;
 &#xD;
 THE WEST POINT CADkT.&#xD;
@@ -4802,7 +4807,7 @@ I,.&#xD;
 &#xD;
 .0&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7477-00000047"/>&#xD;
+<pb n="90-91" xml:id="VAC7477-00000047"/>&#xD;
 .'THE fWEST- POINT CADET.&#xD;
 &#xD;
 THE WEST POINT VADET.                                                              9&#xD;
@@ -4904,7 +4909,7 @@ Was going on.&#xD;
 &#xD;
 U&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7477-00000048"/>&#xD;
+<pb n="92-93" xml:id="VAC7477-00000048"/>&#xD;
 THE WEST POINT, CADET.&#xD;
 &#xD;
 The domestics vanished, leavipg their master In doubt as to&#xD;
@@ -5003,7 +5008,7 @@ I&#xD;
 &#xD;
 G2&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7477-00000049"/>&#xD;
+<pb n="94-95" xml:id="VAC7477-00000049"/>&#xD;
 .oo&#xD;
 &#xD;
 94&#xD;
@@ -5095,7 +5100,7 @@ t:&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7477-00000050"/>&#xD;
+<pb n="96-97" xml:id="VAC7477-00000050"/>&#xD;
 THE WEST POINT CADET.&#xD;
 &#xD;
 THE WEST POINT CADET.&#xD;
@@ -5208,7 +5213,7 @@ LI&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7477-00000051"/>&#xD;
+<pb n="98-99" xml:id="VAC7477-00000051"/>&#xD;
 '4,l&#xD;
 &#xD;
 98&#xD;
@@ -5325,7 +5330,7 @@ I i&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7477-00000052"/>&#xD;
+<pb n="100-101" xml:id="VAC7477-00000052"/>&#xD;
 Ill.&#xD;
 &#xD;
 100&#xD;
@@ -5430,7 +5435,7 @@ I&#xD;
 &#xD;
 Jr&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7477-00000053"/>&#xD;
+<pb n="102-103" xml:id="VAC7477-00000053"/>&#xD;
 THE WEST POINT CADET.&#xD;
 &#xD;
 102&#xD;
@@ -5536,7 +5541,7 @@ A~4&#xD;
 &#xD;
 103&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7477-00000054"/>&#xD;
+<pb n="104-105" xml:id="VAC7477-00000054"/>&#xD;
 THE WEST POINT, CADET.&#xD;
 &#xD;
 A&#xD;
@@ -5639,7 +5644,7 @@ min&#xD;
 &#xD;
 cl&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7477-00000055"/>&#xD;
+<pb n="106-107" xml:id="VAC7477-00000055"/>&#xD;
 F,.--..&#xD;
 &#xD;
 THN WELL OF ST. CLARE.&#xD;
@@ -5752,7 +5757,7 @@ THIE W;ELt OF ST. CLARE.&#xD;
 &#xD;
 LN,&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7477-00000056"/>&#xD;
+<pb n="108-109" xml:id="VAC7477-00000056"/>&#xD;
 108&#xD;
 &#xD;
 THE WELL OF ST. CLAIE.&#xD;
@@ -5877,7 +5882,7 @@ I&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7477-00000057"/>&#xD;
+<pb n="110-111" xml:id="VAC7477-00000057"/>&#xD;
 Fwl&#xD;
 &#xD;
 THE ,WELL OF ST. CLARE,-&#xD;
@@ -5982,7 +5987,7 @@ V-&#xD;
 I&#xD;
 I,&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7477-00000058"/>&#xD;
+<pb n="112-113" xml:id="VAC7477-00000058"/>&#xD;
 THE WELL OF ST. CLARE.&#xD;
 &#xD;
 CHAPTER II.&#xD;
@@ -6081,7 +6086,7 @@ H&#xD;
 &#xD;
 1.&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7477-00000059"/>&#xD;
+<pb n="114-115" xml:id="VAC7477-00000059"/>&#xD;
 I&#xD;
 &#xD;
 THE WELL OF ST. CLArIE.&#xD;
@@ -6184,7 +6189,7 @@ another bribe. Aylesford breathed more freely when -the des-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7477-00000060"/>&#xD;
+<pb n="116-117" xml:id="VAC7477-00000060"/>&#xD;
 I&#xD;
 &#xD;
 I&#xD;
@@ -6286,7 +6291,7 @@ k I&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7477-00000061"/>&#xD;
+<pb n="118-119" xml:id="VAC7477-00000061"/>&#xD;
 THE WELL'OZ ST. CLAIIE*-&#xD;
 &#xD;
 THE WELL OF ST. CLARE.&#xD;
@@ -6398,7 +6403,7 @@ IL&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7477-00000062"/>&#xD;
+<pb n="120-121" xml:id="VAC7477-00000062"/>&#xD;
 0&#xD;
 &#xD;
 120-&#xD;
@@ -6499,7 +6504,7 @@ but finally I learned that heharetidtolgadthi&#xD;
 I1&#xD;
 Ig&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7477-00000063"/>&#xD;
+<pb n="122-123" xml:id="VAC7477-00000063"/>&#xD;
 123&#xD;
 &#xD;
 122&#xD;
@@ -6620,7 +6625,7 @@ ut,&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7477-00000064"/>&#xD;
+<pb n="124-125" xml:id="VAC7477-00000064"/>&#xD;
 THE WELL OF ST. 7CLA E-&#xD;
 &#xD;
 125&#xD;
@@ -6729,7 +6734,7 @@ hi&#xD;
 &#xD;
 f,&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7477-00000065"/>&#xD;
+<pb n="126-127" xml:id="VAC7477-00000065"/>&#xD;
 126            TUE WELL OF ST. CLAR.-&#xD;
 smile,, the sailor boy shall yet be an- artist of whom yon will be&#xD;
 proud.",&#xD;
@@ -6834,7 +6839,7 @@ I&#xD;
 1&#xD;
 4&#xD;
 &#xD;
-<pb  n="128 (Advertisement) -129 (Advertisement) " xml:id="VAC7477-00000066"/>&#xD;
+<pb n="128 (Advertisement) -129 (Advertisement) " xml:id="VAC7477-00000066"/>&#xD;
 UNION&#xD;
 &#xD;
 A&#xD;
@@ -6951,12 +6956,9 @@ heQuke anL&#xD;
 of~~~40          0 ions )y.          R I  CO.-MRR*&#xD;
 ~i~m AZ~Ui$4I AANIW: os,                 '.'&#xD;
 &#xD;
-<pb  n="130 (Advertisement) -131" xml:id="VAC7477-00000067"/>&#xD;
-
-               &#xD;
- &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+<pb n="130 (Advertisement) -131" xml:id="VAC7477-00000067"/>
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

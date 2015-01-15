@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8052">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8052">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Road to Ruin, or, The Felon's Doom </title>
-            <author >Thompson, George, (d. 1893)</author>
+            <title>Road to Ruin, or, The Felon's Doom </title>
+            <author>Thompson, George, (d. 1893)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8052</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8052</idno>
+            <idno type="wright2" n="previous">wright2-2491</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Road to ruin, or, The felon's doom</title>
-                  <author >Thompson, George, (d. 1893)</author>
+                  <title>Road to ruin, or, The felon's doom</title>
+                  <author>Thompson, George, (d. 1893)</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1851">[1851?]</date>
+                  <date when="1851">[1851?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Road to ruin, or, The felon's doom</head> 
+            <head>Road to ruin, or, The felon's doom</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC8052-00000001"/>THE&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC8052-00000001"/>THE&#xD;
 msLrn. ~u* a I&#xD;
 /&#xD;
 THE IUELON'S DOO. 1&#xD;
@@ -101,7 +106,7 @@ YRED~1L1C A. J3RAP~ ,?twusnEa&#xD;
 * 22 ANN bwfUET~~T,&#xD;
 u# roag.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8052-00000002"/>&#xD;
+<pb n="0" xml:id="VAC8052-00000002"/>&#xD;
 'mg&#xD;
 3I'AU 1&#xD;
 H'&#xD;
@@ -188,7 +193,7 @@ ce&#xD;
 &#xD;
 f4&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8052-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC8052-00000003"/>&#xD;
 a                   THE ~ftOAD TO RUIN.&#xD;
 &#xD;
 ~,ause on their journey to "take their&#xD;
@@ -358,7 +363,7 @@ soen~nI g~i~wdmy ii)pi~yI l~sst~ned&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8052-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC8052-00000004"/>&#xD;
 t&#xD;
 &#xD;
 resdtv~at6 lh#e~tighte arid appropriate&#xD;
@@ -489,7 +494,7 @@ I&#xD;
 &#xD;
 ~1~&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8052-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC8052-00000005"/>&#xD;
 THE IOisD TIO RUINS&#xD;
 &#xD;
 TUE ROAD' TO RUIN.&#xD;
@@ -711,7 +716,7 @@ A!&#xD;
 &#xD;
 'I&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8052-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC8052-00000006"/>&#xD;
 ThIE ROADUT4 RUIN.&#xD;
 &#xD;
 dwapite~f aM~ '&amp;amp;s cMirage, oeIf.pos~&#xD;
@@ -892,7 +897,7 @@ K&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8052-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC8052-00000007"/>&#xD;
 I.&#xD;
 &#xD;
 nm 1LQAD T~ 1~U1N4&#xD;
@@ -1044,7 +1049,7 @@ I&#xD;
 &#xD;
 1T&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8052-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC8052-00000008"/>&#xD;
 A~L. .t~wsg4~ mm,&#xD;
 in, q9~po4t~eyse~p5~&#xD;
 4~ijo~p~ ~o~~u~ing h~e the&#xD;
@@ -1209,7 +1214,7 @@ kit) ~&#xD;
 &#xD;
 [4&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8052-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC8052-00000009"/>&#xD;
 4&#xD;
 &#xD;
 .1&#xD;
@@ -1270,7 +1275,7 @@ te~l~t;A&#xD;
 Jack ~      r~4g~flirtelli~ence tender me inde6~iident~ t mear~o ~              ~         tI~p~so.~ vfr~akes ~&#xD;
 'I                  i8IQ~&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8052-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC8052-00000010"/>&#xD;
 4&#xD;
 &#xD;
 *5                       TIlE ROAD&#xD;
@@ -1431,7 +1436,7 @@ L \\&#xD;
 &#xD;
 1II~ ROAD 10 RUIN.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8052-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC8052-00000011"/>&#xD;
 3"&#xD;
 li'&#xD;
 &#xD;
@@ -1640,7 +1645,7 @@ qaently, whil,~ej~rikug~erselff(w&#xD;
 &#xD;
 "it&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8052-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC8052-00000012"/>&#xD;
 rn~ ROAD&#xD;
 repose, her lovely~countetiariee was suf-&#xD;
 fu~ed with. blushes, wit~n she m~rkedi&#xD;
@@ -1806,7 +1811,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8052-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC8052-00000013"/>&#xD;
 is                            ROAD&#xD;
 irag-~-a ~ort of 4ro~irsg ~oin~-~a.&#xD;
 ~a~re 1werp ~4eavonng to. aoet4~&#xD;
@@ -1947,7 +1952,7 @@ blenes, at purpose and an a ount o~ i~ ll'bbM~ ~it'' 1~.2i'' ~ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8052-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC8052-00000014"/>&#xD;
 a.&#xD;
 &#xD;
 "BahI the plaL is notabadonein&#xD;
@@ -2123,7 +2128,7 @@ I&#xD;
 &#xD;
 I'&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8052-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC8052-00000015"/>&#xD;
 ihe ~unt~t~';bf 'a;hav~h~t~ 'aTe the&#xD;
 vojee of Jack liarold ejaculated-.'-&#xD;
 l~te t0Mi~4he i~ld atanadife, b~~t' not&#xD;
@@ -2344,7 +2349,7 @@ THE LR&amp;amp;Ely!'901R&amp;amp;IN&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8052-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC8052-00000016"/>&#xD;
 U&#xD;
 &#xD;
 3*           ~~~TIlE ROAD TO. RIJN'm fOI DV UN&#xD;
@@ -2510,7 +2515,7 @@ IIR4&#xD;
 &#xD;
 gg&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8052-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC8052-00000017"/>&#xD;
 p&#xD;
 &#xD;
 U&#xD;
@@ -2627,7 +2632,7 @@ r&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8052-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC8052-00000018"/>&#xD;
 S9PM ~ ~chwiop.,~aud,&amp;amp;t&#xD;
 ~ ~t~p-'#M~this ohamh~r&#xD;
 ~           o~eoeclpie4 ~y the ~*"&#xD;
@@ -2815,7 +2820,7 @@ II&#xD;
 &#xD;
 TM~IAfl~IRUIft&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8052-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC8052-00000019"/>&#xD;
 a&#xD;
 &#xD;
 If&#xD;
@@ -2925,7 +2930,7 @@ V&#xD;
 &#xD;
 I .8&#xD;
 &#xD;
-<pb  n="42-47" xml:id="VAC8052-00000020"/>&#xD;
+<pb n="42-47" xml:id="VAC8052-00000020"/>&#xD;
 U&#xD;
 11&#xD;
 It&#xD;
@@ -2999,7 +3004,7 @@ H8.V111 .utter.e4thesewordi,.zQ.'verv&#xD;
 coi~bIih I          #ata   4a*X left&#xD;
 ~41&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8052-00000021"/>&#xD;
+<pb n="48-49" xml:id="VAC8052-00000021"/>&#xD;
 CHAT'TER~XV4&#xD;
 (j&#xD;
 m wzaamu~a ni~oiz~4&amp;amp;sn ~ux ,~oa~oa#&#xD;
@@ -3176,7 +3181,7 @@ frightf'il howl of pleasureu4~g~h~t'his&#xD;
 hr~wr~nd~ 1ienhaeteia~ *0ui~ that&#xD;
 day he was s~i~awd gltteat~m&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8052-00000022"/>&#xD;
+<pb n="50-51" xml:id="VAC8052-00000022"/>&#xD;
 S0&#xD;
 &#xD;
 TIZ ROAD ~Q tWIN&#xD;
@@ -3320,7 +3325,7 @@ an~at 4$' her diiilsa ~&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8052-00000023"/>&#xD;
+<pb n="52-53" xml:id="VAC8052-00000023"/>&#xD;
 5t&#xD;
 &#xD;
 TH~~i~OAD' Th9&#xD;
@@ -3419,7 +3424,7 @@ The landlordwho perfectly u ~4er..&#xD;
 ~tlsenh~ff&amp;amp;~~hur&#xD;
 found that tli~b~utd~ Ii~i1~ft#rn&amp;amp;. ~'&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8052-00000024"/>&#xD;
+<pb n="54-55" xml:id="VAC8052-00000024"/>&#xD;
 '4                                                                                           ra&amp;amp; ~~4D                            RI&#xD;
 &#xD;
 flight w~ia soon&#xD;
@@ -3520,7 +3525,7 @@ g~~and ~ ae~ only j Mnr~~ with ~ heW f~*Ru.TMR bg&#xD;
 &#xD;
 u&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8052-00000025"/>&#xD;
+<pb n="56-57" xml:id="VAC8052-00000025"/>&#xD;
 TIlE 'ko~b 'To kun~.&#xD;
 h~t~ 1O'd~ 4t~wient ~Ii~t he had co~npany, each me~,ber of t~hieh i~&#xD;
 oti~e ~ 1r6~et~t ~ agin~d hit~elf~ or her~elf to t~ th&amp;amp;j~r~&#xD;
@@ -3624,7 +3629,7 @@ wbwh an I litiozi"to~'tlju larg&amp;amp;vlnount lead," od ikzi4k~ w e e~'J 19h~&
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8052-00000026"/>&#xD;
+<pb n="58-59" xml:id="VAC8052-00000026"/>&#xD;
 0                       .~. ROAD TQ RUIN.&#xD;
 #~ing~ ~ ~ankpbited by ~tooing ~4. bject~iq~ ~~$he'fn~e o(~%.~o4!~ beuma&#xD;
 swine-thrhlat.forth~atj~Maaigi tiful earth, that woman seems tQ ~3e&#xD;
@@ -3726,7 +3731,7 @@ in~;'oatt1o his cb~in ~ ~5 ~fl r.syon~"g*owled&#xD;
 Wfh~T~&amp;amp;~ ~&#xD;
 ~&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8052-00000027"/>&#xD;
+<pb n="60-61" xml:id="VAC8052-00000027"/>&#xD;
 hp~g~Q1Z4~ ~ ~ P~p~~91WAtj~ e~      P~     Q4~)PYA~Ni~Wflbd&#xD;
 t~,~ee1     ~                       F~red~rjqk Ar~t~g@. ~, ~pf~u~4~ by&#xD;
 ~' ~ w~ q~4~5-.'~)you~ have ~h~r ~ssi~n~ ~vl~ie~i ~aFdcl~t~ ~zt&#xD;
@@ -3776,7 +3781,7 @@ The reader o~th~Cn~?            I(PA~r~L     ~U, ~19   te~eq&#xD;
 &#xD;
 TKIt. kOAD ~t&amp;amp; kui~~                           61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8052-00000028"/>&#xD;
+<pb n="62-63" xml:id="VAC8052-00000028"/>&#xD;
 I&#xD;
 &#xD;
 T10 -RO4D ~ J~UJ~4&#xD;
@@ -3909,7 +3914,7 @@ w~ con~w andidarrOa~koed nKa*e r.i he~~1fiu~*~tJ ~&#xD;
 &#xD;
 0 -&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8052-00000029"/>&#xD;
+<pb n="64-65" xml:id="VAC8052-00000029"/>&#xD;
 ~*~f~RQ4D 1N~;lWIN.&#xD;
 ~ ~ 4i~ 'of evety ex~nsiv~ 1u~iy pr~0mMe&#xD;
 4i&amp;amp;bas~a~iW~er IP the l~Pt4 ~Thi~ ~'z4 r~g~ed~ inmate ~ priaen~c~1l ~&#xD;
@@ -4033,7 +4038,7 @@ I&#xD;
 I&#xD;
 ~1&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC8052-00000030"/>&#xD;
+<pb n="66-67" xml:id="VAC8052-00000030"/>&#xD;
 "Qb cqse the larn.~g!"cried&#xD;
 ~&#xD;
 *~~to djspl~,y~&#xD;
@@ -4187,7 +4192,7 @@ L&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8052-00000031"/>&#xD;
+<pb n="68-69" xml:id="VAC8052-00000031"/>&#xD;
 -~                      llrnrfttMD ~   1IU~1~&#xD;
 youngomsu~'awnbnget~hevsbed1 tit~ ;~th~ ~~le ty'al~id~for ik~4&#xD;
 any ~ wl~h fr~be re~al~d *~th the s~4&#xD;
@@ -4336,7 +4341,7 @@ I&#xD;
 ~1&#xD;
 p'&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8052-00000032"/>&#xD;
+<pb n="70-71" xml:id="VAC8052-00000032"/>&#xD;
 ~TIU~ ROAO to ItlJtN.&#xD;
 &#xD;
 :1&#xD;
@@ -4472,7 +4477,7 @@ It&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8052-00000033"/>&#xD;
+<pb n="72-73" xml:id="VAC8052-00000033"/>&#xD;
 'I&#xD;
 &#xD;
 'I&#xD;
@@ -4550,7 +4555,7 @@ I$fs~ to&#xD;
 ~ tI$~&#xD;
 ~ (U&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8052-00000034"/>&#xD;
+<pb n="74-75" xml:id="VAC8052-00000034"/>&#xD;
 I&#xD;
 I&#xD;
 4&#xD;
@@ -4697,7 +4702,7 @@ to ~hllil~e~ -i~ X~W1 h~ ~IiOd~ md a~th@~h he *oes thsltitajuiehl~&#xD;
 the tilt ~ ~dg esut~tity~wiuolii&#xD;
 ger~tlemen of the pul~it-p~&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8052-00000035"/>&#xD;
+<pb n="76-77" xml:id="VAC8052-00000035"/>&#xD;
 U&#xD;
 &#xD;
 T~9AD 9JLU~.&#xD;
@@ -4802,7 +4807,7 @@ p~sp pfop~~q~w.~ Izar.&#xD;
 9P~AA~#w          ~&#xD;
 fQ~hOIWYl~&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8052-00000036"/>&#xD;
+<pb n="78-79" xml:id="VAC8052-00000036"/>&#xD;
 5,                       TIlE kOAD    tO  ~u~r~:                                                                             ~&#xD;
 ~ro ahwild get oiV.in s~tq~r, 4e~ia7~ d~Ax~ies,~o  U~ be fri~                   ~he~ai~. fully. ~letea~udne4 ~to dr~g~ 4~ie ~&amp;amp;ttango iu y~vi~ ~f h~r r~e~; A~rtunp)p&#xD;
 gfu~~c~nduc~ ~&amp;amp;ith r~akd t~ ~ ~       r6w,                 ye b~eft e&amp;amp;M1~'             ~u4u~ ~'4    ~ang   her~  Nofi~di~g    ~                       ~iJ~ 9PAY&#xD;
@@ -4860,7 +4865,7 @@ cape, the epr~gedt tand '~ lIIe~  hited                     ~                   
 &#xD;
 /(,~ ';~&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8052-00000037"/>&#xD;
+<pb n="80-81" xml:id="VAC8052-00000037"/>&#xD;
 ~.U~"M~lI' fad Eh~ ds~WheI~ sh~ fi*gt s~id~ Mrs. N~bie &amp;amp;n~Vh~tAueeul~'bfr&#xD;
 beheld Jatikdlatbl4! Wei~e ~it~t$t~for ~*tti swelled with the a~sbl~esnn'&#xD;
 ~*~# ~i~tai~hat 1ibhobldh~ no 1lb~a ~th~( ardse within her, a~"she&#xD;
@@ -4968,7 +4973,7 @@ TUE ROAD TO :RUIN.             I&#xD;
 &#xD;
 04&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8052-00000038"/>&#xD;
+<pb n="82-83" xml:id="VAC8052-00000038"/>&#xD;
 82                      Th~ ROAL) TO RUiN.&#xD;
 the opera~iem was pe~forme4 with ~ueh' upon my honor. Allow m~ to~pte~&#xD;
 ~xtra.r~ihary'~'ligl$n~ss an4 e~tttertie ~y~n to my friend, ~&#xD;
@@ -5091,7 +5096,7 @@ he saw them enter the&#xD;
 IMnoas       t~ce ~I~te~ look&#xD;
 nate," ho muts~o&amp;amp;~ Wu~tf~&amp;amp;~1&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8052-00000039"/>&#xD;
+<pb n="84-85" xml:id="VAC8052-00000039"/>&#xD;
 0~                                                                                                   1'HEROKD'.&#xD;
 &#xD;
 2hP~II&#xD;
@@ -5149,12 +5154,12 @@ Mukoko i&#xD;
 &#xD;
 u&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8052-00000040"/>&#xD;
+<pb n="86-87" xml:id="VAC8052-00000040"/>&#xD;
 SI&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8052-00000041"/>&#xD;
+<pb n="88-89" xml:id="VAC8052-00000041"/>&#xD;
 I&#xD;
 mme~Iyb~esArt~tn~iec&#xD;
 tihWeU~i~3"SS an~dj~~j~&#xD;
@@ -5243,7 +5248,7 @@ ithe ~6ef toitkrinkp ~ '&#xD;
 &#xD;
 p *&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8052-00000042"/>&#xD;
+<pb n="90-91" xml:id="VAC8052-00000042"/>&#xD;
 4~Ae)4~ h9pr sg~sy~i$h*ii~it~&#xD;
 '2&#xD;
 ~&#xD;
@@ -5373,7 +5378,7 @@ lto~~~&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8052-00000043"/>&#xD;
+<pb n="92-93" xml:id="VAC8052-00000043"/>&#xD;
 9~k~Lh~ j~r~4~ ~&#xD;
 t~1i~~ N~o&#xD;
 ~do~ ~.&#xD;
@@ -5419,7 +5424,7 @@ fi4~ ~&#xD;
 ,~ tt~p~    .~&#xD;
 ~~pf4~ 4?~u9~&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8052-00000044"/>&#xD;
+<pb n="94-95" xml:id="VAC8052-00000044"/>&#xD;
 TH~AD T&amp;amp; 'RUII~f.&#xD;
 &#xD;
 ~a ety of aii~u~sh&#xD;
@@ -5492,7 +5497,7 @@ e~d~ey..~n&amp;amp;de 4ooVI~ 21&#xD;
 &#xD;
 *&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8052-00000045"/>&#xD;
+<pb n="96-97" xml:id="VAC8052-00000045"/>&#xD;
 THI~ ~LOAD~ ~G RIJI$~'&#xD;
 &#xD;
 1Imt3~t4iV%~$:litF5 sn~jce wtin~e ias~~ ~e&#xD;
@@ -5645,7 +5650,7 @@ Several ~&#xD;
 &#xD;
 C&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8052-00000046"/>&#xD;
+<pb n="98-99" xml:id="VAC8052-00000046"/>&#xD;
 1&#xD;
 19&#xD;
 &#xD;
@@ -5847,7 +5852,7 @@ I.&#xD;
 &#xD;
 .~&#xD;
 &#xD;
-<pb  n="100-101 (Advertisement) " xml:id="VAC8052-00000047"/>&#xD;
+<pb n="100-101 (Advertisement) " xml:id="VAC8052-00000047"/>&#xD;
 ly i~toned,~dI~ad.monument erec.&#xD;
 W~u~eri4~kI~iar&#xD;
 abundantly gifted with every splendid&#xD;
@@ -5983,7 +5988,7 @@ imposslbllitie&amp;amp;,h55 iknhno ~bsww4 WbI91 #iioe.&#xD;
 m~ U.w*e ~eof4t,,#.- ~. p w~'*&#xD;
 C 't45 e~etw......--m-&#xD;
 &#xD;
-<pb  n="102 (Advertisement) -103 (Advertisement) " xml:id="VAC8052-00000048"/>&#xD;
+<pb n="102 (Advertisement) -103 (Advertisement) " xml:id="VAC8052-00000048"/>&#xD;
 pp&#xD;
 &#xD;
 flEDERIC A. BRADY'S CATALO(3UK&#xD;
@@ -6143,7 +6148,7 @@ Win' Copies ot' the aiove book5 sent to any part of dine ,Um~tp4 States, 4~'ee&#
 4               4&#xD;
 4"           4    4&#xD;
 &#xD;
-<pb  n="104 (Advertisement) " xml:id="VAC8052-00000049"/>&#xD;
+<pb n="104 (Advertisement) " xml:id="VAC8052-00000049"/>&#xD;
 i~ ~1'~&#xD;
 &#xD;
 rREDEI3IPA. ~3ThADY'S GAThLOGUJ~.&#xD;
@@ -6296,8 +6301,8 @@ k&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

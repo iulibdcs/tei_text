@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC8067">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC8067">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Ebb-tide, and Other Stories </title>
-            <author >Reid, Christian, (1846-1920)</author>
+            <title>Ebb-tide, and Other Stories </title>
+            <author>Reid, Christian, (1846-1920)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC8067</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC8067</idno>
+            <idno type="wright2" n="previous">wright2-2506</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Ebb-tide, and other stories</title>
-                  <author >Reid, Christian, (1846-1920)</author>
+                  <title>Ebb-tide, and other stories</title>
+                  <author>Reid, Christian, (1846-1920)</author>
                </titleStmt>
-               <extent >2 p. l. [7]-166 p. plates </extent>
+               <extent>2 p. l. [7]-166 p. plates </extent>
                <publicationStmt>
-                  <publisher >D. Appleton</publisher>
+                  <publisher>D. Appleton</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1872">1872</date>
+                  <date when="1872">1872</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Ebb-tide, and other stories</head> 
+            <head>Ebb-tide, and other stories</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC8067-00000001"/>f'&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC8067-00000001"/>f'&#xD;
 &#xD;
 ]EBB-TIDE,&#xD;
 &#xD;
@@ -132,7 +137,7 @@ AND&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n=" (Table of Contents) " xml:id="VAC8067-00000002"/>&#xD;
+<pb n=" (Table of Contents) " xml:id="VAC8067-00000002"/>&#xD;
 0 NT EKNT S.&#xD;
 &#xD;
 E BB-T I DE.&#xD;
@@ -194,7 +199,7 @@ PAGE&#xD;
 .102&#xD;
 106&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC8067-00000003"/>&#xD;
+<pb n="0" xml:id="VAC8067-00000003"/>&#xD;
 f~BB-TIDE.&#xD;
 PART I.&#xD;
 THE TIDE AT ITS FLOOD.&#xD;
@@ -267,7 +272,7 @@ where she loves best to dwell-nnder the deep.&#xD;
 &#xD;
 e '&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC8067-00000004"/>&#xD;
+<pb n="8-9" xml:id="VAC8067-00000004"/>&#xD;
 8                           EBB-TIDE.                                                                  "'JIB COMET NOT,' SHE SAID."                 9&#xD;
 &#xD;
 blue Southern sky, by the purple Southern wa-&#xD;
@@ -493,7 +498,7 @@ don't you think so?"&#xD;
 with a proposal, and ready to ~plode at any&#xD;
 moment," said Madelon. "Grace d .DiesI&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC8067-00000005"/>&#xD;
+<pb n="10-11" xml:id="VAC8067-00000005"/>&#xD;
 "'HE COMET NOT1' SHE SAID."&#xD;
 &#xD;
 I&#xD;
@@ -731,7 +736,7 @@ but it is scarcely worth while to tell a story by&#xD;
 &#xD;
 '~t'&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC8067-00000006"/>&#xD;
+<pb n="12-13" xml:id="VAC8067-00000006"/>&#xD;
 12&#xD;
 &#xD;
 A -CHARMING&#xD;
@@ -959,7 +964,7 @@ ly incredulous concerning the prevailing fair.-&#xD;
 ness of the celestial hosts. At all events, let&#xD;
 us hope that, when we get to heaven, we shall&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC8067-00000007"/>&#xD;
+<pb n="14-15" xml:id="VAC8067-00000007"/>&#xD;
 14                        EBB-TIDE.                                                         A CHARMING CIL&amp;amp;TELAINE.               15&#xD;
 &#xD;
 see some faces as dark, and bright, and frank,&#xD;
@@ -1186,7 +1191,7 @@ fashion ~"&#xD;
 "She would undergo torture and death&#xD;
 for either of them," said Madelon, "Isn't it&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC8067-00000008"/>&#xD;
+<pb n="16-17" xml:id="VAC8067-00000008"/>&#xD;
 16                       EBB-TIDE.                                                        MADELON GIVES ADVICE.&#xD;
 &#xD;
 remarkable? One would think that dresses,&#xD;
@@ -1415,7 +1420,7 @@ EBB-TIDE.&#xD;
 &#xD;
 16&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC8067-00000009"/>&#xD;
+<pb n="18-19" xml:id="VAC8067-00000009"/>&#xD;
 18                        EBB-TIDE.                                                          MADELON GIVES ADVICE.                19&#xD;
 &#xD;
 two things, and my surprise abated-very&#xD;
@@ -1644,7 +1649,7 @@ afternoon I have been working at my sea:&#xD;
 &#xD;
 ~it&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC8067-00000010"/>&#xD;
+<pb n="20-21" xml:id="VAC8067-00000010"/>&#xD;
 20                        EBB-TIDE.                                                         MADELON GIVES ADVICE.                21&#xD;
 &#xD;
 piece with such energy that it is almost fin-&#xD;
@@ -1873,7 +1878,7 @@ was sipping, he watched alternately his lemon-&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC8067-00000011"/>&#xD;
+<pb n="22-23" xml:id="VAC8067-00000011"/>&#xD;
 22                       EBB-TIDE.                                                       MADELON GIVES ADYIOE.                23&#xD;
 &#xD;
 colored gloves-on which some drops of the&#xD;
@@ -2107,7 +2112,7 @@ Ermine, is your greatest error."&#xD;
 then," said Ermine ungratefully. "And as for&#xD;
 Alan, the rest of you may be ashamed of him~&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC8067-00000012"/>&#xD;
+<pb n="24-25" xml:id="VAC8067-00000012"/>&#xD;
 24                        EBB-TIDE.                                                            UNDER THE STARLIGHT.                  25&#xD;
 &#xD;
 if you like, but I am proud of him-prouder&#xD;
@@ -2331,7 +2336,7 @@ of your eyes dilated as they are now! You&#xD;
 look as if you were dreaming dreams, or see-&#xD;
 ing visions. Is it hashish or excitement?"&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC8067-00000013"/>&#xD;
+<pb n="26-27" xml:id="VAC8067-00000013"/>&#xD;
 26                        EBB-TIDE.                                                           UNDER THE STARLIGHT.&#xD;
 &#xD;
 ~ .5&#xD;
@@ -2564,7 +2569,7 @@ mood. Eminently practical himself the sensi-.&#xD;
 &#xD;
 EBB-TIDE.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC8067-00000014"/>&#xD;
+<pb n="28-29" xml:id="VAC8067-00000014"/>&#xD;
 28                ~~~~~EBB-TIDE.UNETIESALG.&#xD;
 &#xD;
 tive, artistic temperament was to him m~e&#xD;
@@ -2793,7 +2798,7 @@ however, I must request that it may be defi-&#xD;
 nitely understood by everybody concerned,&#xD;
 that there is no truth in the rumors whicin&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC8067-00000015"/>&#xD;
+<pb n="30-31" xml:id="VAC8067-00000015"/>&#xD;
 30  EB-TDE.ERLES AND ERLES-.&#xD;
 &#xD;
 31&#xD;
@@ -3023,7 +3028,7 @@ different sketches, is a very faint way of ex-&#xD;
 &#xD;
 EBB-TIDE-&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC8067-00000016"/>&#xD;
+<pb n="32-33" xml:id="VAC8067-00000016"/>&#xD;
 ERLES AND ERLES.&#xD;
 &#xD;
 pressing what I really felt. I am forty-five&#xD;
@@ -3254,7 +3259,7 @@ why, but they do. Here is a little boat he&#xD;
 &#xD;
 22                        EBB-TIDE.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC8067-00000017"/>&#xD;
+<pb n="34-35" xml:id="VAC8067-00000017"/>&#xD;
 EBB-TIDE.&#xD;
 34&#xD;
 made me once-long ago. See! It still has ish, too. Idraw like Alan? I do any thing&#xD;
@@ -3427,7 +3432,7 @@ mother-else the blue water was very close at&#xD;
 hand, and youth is little able to bear those two&#xD;
 spectres that daunt the oldest and the hardest&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC8067-00000018"/>&#xD;
+<pb n="36-37" xml:id="VAC8067-00000018"/>&#xD;
 "SEE, THE CONQUERING HERO COMES!"&#xD;
 &#xD;
 - Disgrace and Mortal Agony. He came&#xD;
@@ -3658,7 +3663,7 @@ EBB--TIDE.&#xD;
 &#xD;
 37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC8067-00000019"/>&#xD;
+<pb n="38-39" xml:id="VAC8067-00000019"/>&#xD;
 SEE, TUE CONQUERING hERO COMES!"&#xD;
 &#xD;
 38                        EBB-TIDE.&#xD;
@@ -3889,7 +3894,7 @@ it was to be homesick even on the blue water!"&#xD;
 &#xD;
 '4&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC8067-00000020"/>&#xD;
+<pb n="40-41" xml:id="VAC8067-00000020"/>&#xD;
 /&#xD;
 &#xD;
 "SEE, THE CONQUERING HERO COMES!"&#xD;
@@ -4126,7 +4131,7 @@ EBB-TIDE.&#xD;
 &#xD;
 41&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC8067-00000021"/>&#xD;
+<pb n="42-43" xml:id="VAC8067-00000021"/>&#xD;
 42                          EBB-TIDE.                                                        STRATAGEMS AND SPOILS.                  43~&#xD;
 &#xD;
 settle the new governess in her duties with&#xD;
@@ -4350,7 +4355,7 @@ lant, so rarely moved by any deeper expression~&#xD;
 -looked, when convulsed, changed, intensi-&#xD;
 fied by the master-passion of human nature,.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC8067-00000022"/>&#xD;
+<pb n="44-45" xml:id="VAC8067-00000022"/>&#xD;
 STRATAGEMS AND SPOILS.                   45&#xD;
 &#xD;
 44                       EBB-TIDE.&#xD;
@@ -4579,7 +4584,7 @@ of the window at the 'blue sky beyond, and she&#xD;
 did not withdraw her eyes or utter a sylla-&#xD;
 ble.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC8067-00000023"/>&#xD;
+<pb n="46-47" xml:id="VAC8067-00000023"/>&#xD;
 THE ENCHANTED LAND.                  47&#xD;
 &#xD;
 46                       EBB-TIDE.&#xD;
@@ -4805,7 +4810,7 @@ arden and decked herself with rQses, like a&#xD;
 pen window with "Te~yson" in her lap, not&#xD;
 ending save by snatches, and repeating to her-&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC8067-00000024"/>&#xD;
+<pb n="48-49" xml:id="VAC8067-00000024"/>&#xD;
 48                        EBB-TIDE.&#xD;
 &#xD;
 self; whenever her eye rested on the fair scene&#xD;
@@ -4978,7 +4983,7 @@ Nix exactly." positively this morning that nobody had been&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC8067-00000025"/>&#xD;
+<pb n="50-51" xml:id="VAC8067-00000025"/>&#xD;
 THE ENCHANTED LAND.                  51&#xD;
 &#xD;
 50                       EBB-TIDE.&#xD;
@@ -5207,7 +5212,7 @@ rho can say?-made her conscious of some&#xD;
 cood on which her question had jarred, and&#xD;
 :ept her from saying any thing more, 'even&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC8067-00000026"/>&#xD;
+<pb n="52-53" xml:id="VAC8067-00000026"/>&#xD;
 52                        EBB-TIDE.                                                                  FLOOD-TIDE.&#xD;
 &#xD;
 when the tall figure came and stood over her,&#xD;
@@ -5433,7 +5438,7 @@ of the lovers, who had dared to bring their&#xD;
 &#xD;
 FLOOD-TIDE.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC8067-00000027"/>&#xD;
+<pb n="54-55" xml:id="VAC8067-00000027"/>&#xD;
 54'                        EBB-TIDE.                                                                   FLOOD-TIDE.                        55&#xD;
 &#xD;
 tendresse to an open engagement. If either&#xD;
@@ -5660,7 +5665,7 @@ have sacrificed his own pride to secure the&#xD;
 happiness of the woman ho had trusted all&#xD;
 to him. But l~e did not is e let his&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC8067-00000028"/>&#xD;
+<pb n="56-57" xml:id="VAC8067-00000028"/>&#xD;
 EBB-TIDE.                                                                  FLOOD-TIDE.                      57&#xD;
 &#xD;
 opportunity pass, and Fate seldom offers twice&#xD;
@@ -5888,7 +5893,7 @@ adieux to Madden, they went out together.&#xD;
 &#xD;
 EBB-TIDE.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC8067-00000029"/>&#xD;
+<pb n="58-59" xml:id="VAC8067-00000029"/>&#xD;
 58       ~EBB-TID~E&#xD;
 &#xD;
 Before the door, a groom was standing with&#xD;
@@ -6061,7 +6066,7 @@ dice you against her, Alan. She really has a did."&#xD;
 very kind heart."                            "She is not likely to have the chance,"&#xD;
 "I suppose she has," said Alan. "At said Alan, philosophically. "But all the same,&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC8067-00000030"/>&#xD;
+<pb n="60-61" xml:id="VAC8067-00000030"/>&#xD;
 00                                 EBB-TIDE.&#xD;
 she promised me to stand by you. 'Through&#xD;
 thick, and thin?' I asked. 'Yes,' she an-&#xD;
@@ -6294,7 +6299,7 @@ slack and more slack upon their necks, had&#xD;
 come down to a snail's pace, and were indul-.&#xD;
 ging. the vagaries of their own sweet wills, in&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC8067-00000031"/>&#xD;
+<pb n="62-63" xml:id="VAC8067-00000031"/>&#xD;
 02                        EBB-TIDE.&#xD;
 &#xD;
 'the way of sociably rubbing their noses to.&#xD;
@@ -6419,7 +6424,7 @@ only that one catches the low, soft murmur of One hour of life immortal spirits 
 This drains the world, and leaves but weariness,&#xD;
 that receding tide which, having flowed once And parching passion, and perplexing tears."&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC8067-00000032"/>&#xD;
+<pb n="64-65" xml:id="VAC8067-00000032"/>&#xD;
 (I                                    DOES TRUTH SOU~{D BITTER?                65&#xD;
 &#xD;
 PART II.&#xD;
@@ -6612,7 +6617,7 @@ aloud-nervously anxious to gain a little time.&#xD;
 &#xD;
 65&#xD;
 &#xD;
-<pb  n="66" xml:id="VAC8067-00000033"/>&#xD;
+<pb n="66" xml:id="VAC8067-00000033"/>&#xD;
 66&#xD;
 &#xD;
 EBB-TIDE.&#xD;
@@ -6732,7 +6737,7 @@ I&#xD;
 &#xD;
 2'&#xD;
 &#xD;
-<pb  n="Illustration-67" xml:id="VAC8067-00000034"/>&#xD;
+<pb n="Illustration-67" xml:id="VAC8067-00000034"/>&#xD;
 DOES TRUTH SOUND BITTER?                 67.&#xD;
 &#xD;
 t~.&#xD;
@@ -6883,7 +6888,7 @@ mirth, we cry out, "This is not for us!" and&#xD;
 &#xD;
 60&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC8067-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC8067-00000035"/>&#xD;
 THE TRUTH ELSEWHERE.                    69&#xD;
 &#xD;
 68                          El~B-TIDE.&#xD;
@@ -7110,7 +7115,7 @@ roof.&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC8067-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC8067-00000036"/>&#xD;
 prefer to do so," said he, courteously but&#xD;
 coldly. "I shall not detain you many min-&#xD;
 utes. I did not come to claim your congratu-&#xD;
@@ -7342,7 +7347,7 @@ read the record of a folly which my daughter&#xD;
 has happily outlived. Your obstinacy," she&#xD;
 went on," compels me to assure you that if you&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC8067-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC8067-00000037"/>&#xD;
 had not been shipwrecked-if your voyagehad&#xD;
 been successfully accomplished-you would&#xD;
 not have found Ermine the foolish girl you left&#xD;
@@ -7570,7 +7575,7 @@ room which Mrs. Sexton called her boudoir,&#xD;
 and inducted into a chair that might have&#xD;
 tempted an anchorite to repose. "Love&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC8067-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC8067-00000038"/>&#xD;
 sometimes flies through the window," pursued&#xD;
 the cynic, "but statues, and mirrors, and&#xD;
 French furniture, are not disturbed by any&#xD;
@@ -7804,7 +7809,7 @@ ips could end it I" said he, passionatelyr&#xD;
 "I have nothing to tell you," she aii~&#xD;
 werecL&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC8067-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC8067-00000039"/>&#xD;
 EBB-TIDE.&#xD;
 &#xD;
 "'But, Margaret-"&#xD;
@@ -8032,7 +8037,7 @@ CHAPTER IV.&#xD;
 THE dusk of Christmas -Eve was dying&#xD;
 away over the city roofs and spires, and the&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC8067-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC8067-00000040"/>&#xD;
 48                       EBB-TIDE.                                                    CHECKED AND CHECKMATED.&#xD;
 &#xD;
 "night before Christmas "-eagerly watched,&#xD;
@@ -8259,7 +8264,7 @@ note? Of course, therefore, I know it."&#xD;
 "The island, and the mountains, and no&#xD;
 doubt some old friends-these sailors know&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC8067-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC8067-00000041"/>&#xD;
 80&#xD;
 &#xD;
 EBB-TIDE.&#xD;
@@ -8494,7 +8499,7 @@ I always told you that. Trust me, a little self-&#xD;
 interest will develop them amazingly."&#xD;
 Mrs. ErIe glanced from one to the other-.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC8067-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC8067-00000042"/>&#xD;
 82                         EBB-TIDE.                                                                 AN EMPTY NEST.&#xD;
 &#xD;
 from the clear, handsome, dark face, to the fair,&#xD;
@@ -8663,7 +8668,7 @@ regarded the young man for a moment with could not have failed in carrying convi
 &#xD;
 AN EMPTY N1sST.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC8067-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC8067-00000043"/>&#xD;
 84&#xD;
 &#xD;
 EBB-TIDE-.&#xD;
@@ -8902,7 +8907,7 @@ island of which she never spoke save in tones&#xD;
 of tenderest affection-that it bore to his eyes&#xD;
 such a radiant seeming ? This may have been&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC8067-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC8067-00000044"/>&#xD;
 88                  ~~~~EBB-TIDE.                                                            AEMT        S.8I&#xD;
 &#xD;
 so, since we J~now that love has power to gild&#xD;
@@ -9133,7 +9138,7 @@ AN EMPTY NEST-&#xD;
 &#xD;
 86&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC8067-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC8067-00000045"/>&#xD;
 88                        EBB-TIDE.                                                              A NEW CHAMPION.                     89&#xD;
 &#xD;
 glance around the vacant shrine, went out with&#xD;
@@ -9357,7 +9362,7 @@ these, Madame Villarot was one. No man&#xD;
 could see her and believe for a moment that&#xD;
 she could ever be made an active or passive&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC8067-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC8067-00000046"/>&#xD;
 90                       EBB-TIDE.                                                         A NEW CHAMPION.                   91~&#xD;
 &#xD;
 agent in any deception, far less in any fraud.&#xD;
@@ -9586,7 +9591,7 @@ hearts (or whatever is supposed to do duty&#xD;
 for their hearts) on a hundred different follies&#xD;
 and fancies, until a feeble liking is all that..&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC8067-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC8067-00000047"/>&#xD;
 92                        EBB-TIDE.                                                          DRAMATIC CAPABILITIES.               93&#xD;
 &#xD;
 they have left to give .to any one; but that&#xD;
@@ -9812,7 +9817,7 @@ and delighted to see her that he made one&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC8067-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC8067-00000048"/>&#xD;
 -94         'EBB-Ti&#xD;
 -quick step forward and clasped the extended&#xD;
 htind in both his own-" what extraordinary&#xD;
@@ -10045,7 +10050,7 @@ of foresight and consideration in you, Nix "&#xD;
 (pulling the dog's long, silky ears again), " to&#xD;
 drag me on that sand-bank when my strength&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC8067-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC8067-00000049"/>&#xD;
 96&#xD;
 &#xD;
 EBB-TIDE.&#xD;
@@ -10281,7 +10286,7 @@ if you remain in Europe, her life will be passed&#xD;
 in a continual fever and dread of meeting&#xD;
 you.                  -&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC8067-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC8067-00000050"/>&#xD;
 98                     EBB-TIDE.                                                    "MON CAMARADE!"&#xD;
 &#xD;
 99&#xD;
@@ -10516,7 +10521,7 @@ EBB-TIDE.&#xD;
 &#xD;
 " MON CAMARADE ! "&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC8067-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC8067-00000051"/>&#xD;
 100&#xD;
 &#xD;
 EBB-TIDE.&#xD;
@@ -10750,7 +10755,7 @@ switzerland, but it is too cold for that just yet.&#xD;
 &#xD;
 p&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC8067-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC8067-00000052"/>&#xD;
 But I must start to-night. That is imperative.&#xD;
 Would you care to make such a sudden&#xD;
 move?"&#xD;
@@ -10976,7 +10981,7 @@ as if he had been any ordinary friend or ordi-&#xD;
 &#xD;
 103&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC8067-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC8067-00000053"/>&#xD;
 104&#xD;
 &#xD;
 EBB-TIDE-.&#xD;
@@ -11210,7 +11215,7 @@ not catch the words-in consequence of not&#xD;
 being gifted with the auditory powers of a&#xD;
 dog. The word "Nix" had scarcely passed&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC8067-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC8067-00000054"/>&#xD;
 106                        EBB-TIDE.                                                              THE TIDE GOES OUT.&#xD;
 &#xD;
 her bps, however, when the owner of that name&#xD;
@@ -11434,7 +11439,7 @@ have gone out of his wits."&#xD;
 out his hand to pat the dos's great, curlr&#xD;
 head. "But for him, I should lnwe passed b~&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC8067-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC8067-00000055"/>&#xD;
 108                       EBB-TIDE.&#xD;
 &#xD;
 without even faintly guessing who was so near&#xD;
@@ -11665,7 +11670,7 @@ to go to Lake Leman,~but Ermin&amp;amp; clung ~o&#xD;
 Italy. She could not bettr to cross the Alps;&#xD;
 and so we stayed here until her strength was&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC8067-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC8067-00000056"/>&#xD;
 'I&#xD;
 &#xD;
 '110&#xD;
@@ -11902,7 +11907,7 @@ At this he chokes it back. After all, life&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC8067-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC8067-00000057"/>&#xD;
 112&#xD;
 &#xD;
 EBB-TIDE.&#xD;
@@ -12061,7 +12066,7 @@ THlE END.&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC8067-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC8067-00000058"/>&#xD;
 MISS INGLESBY'S SISTER-IN-LAW.&#xD;
 &#xD;
 'a&#xD;
@@ -12147,7 +12152,7 @@ spoke of her as a great beauty."&#xD;
 said Rose, still looking at herself In the glass&#xD;
 "and if I married r am sure I should feel very&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC8067-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC8067-00000059"/>&#xD;
 116               MISS INGLESBY'S SISTER-IN-LAW.                                                    MISS INGLESBY'S SISTER-IN-LAW.              11 ~'&#xD;
 &#xD;
 badly if my husband did not think I was a~&#xD;
@@ -12376,7 +12381,7 @@ sit down." Meanwhile, she thought, "What&#xD;
 a vain fool I was to wonder if she would be&#xD;
 prettier than I ~km I" In truth, Mrs. Henry&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC8067-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC8067-00000060"/>&#xD;
 118               MISS INGLESBY'S SISTER-IN-LAW.&#xD;
 &#xD;
 Inglesby was a woman such as one does not&#xD;
@@ -12609,7 +12614,7 @@ thea-blinds were open, windows were raised,&#xD;
 stir and movement were plainly ~isibIe Within.&#xD;
 As she looked, a gentleman showed himself&#xD;
 &#xD;
-<pb  n="120" xml:id="VAC8067-00000061"/>&#xD;
+<pb n="120" xml:id="VAC8067-00000061"/>&#xD;
 120&#xD;
 &#xD;
 MISS INGLESBY'S SISTER-IN--LAW.&#xD;
@@ -12730,7 +12735,7 @@ mildly as prSsible. Whoever Mr. Philip&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="Illustration-121" xml:id="VAC8067-00000062"/>&#xD;
+<pb n="Illustration-121" xml:id="VAC8067-00000062"/>&#xD;
 MISS INGLESBY'S SISTER-IN-LAW.               121&#xD;
 &#xD;
 cd&#xD;
@@ -12889,7 +12894,7 @@ shrug. "There never was a juster man, or a&#xD;
 &#xD;
 121&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC8067-00000063"/>&#xD;
+<pb n="122-123" xml:id="VAC8067-00000063"/>&#xD;
 122               MISS INGLESBY'S 5ISTER-IN-LAW.                                                  MISS INGLESBY'S SISTER-IN-LAW.             12a&#xD;
 &#xD;
 man less likely to be deceived. It must have&#xD;
@@ -13118,7 +13123,7 @@ soon returned with a submission in due form.&#xD;
 The invitation was, therefore, accepted; and,&#xD;
 the principal points being settled, all other-&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC8067-00000064"/>&#xD;
+<pb n="124-125" xml:id="VAC8067-00000064"/>&#xD;
 124               MISS INGLESBY'S SISTER-IN-LAW.                                                   MISS INGLESBY'S SISTER-IN-LAW.              125&#xD;
 &#xD;
 issues were allowed to rest until Thursday-&#xD;
@@ -13343,7 +13348,7 @@ the last words that had not been spoken.&#xD;
 cious way, but he never would leave me," she&#xD;
 thought, considering the while what a pleas-&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC8067-00000065"/>&#xD;
+<pb n="126-127" xml:id="VAC8067-00000065"/>&#xD;
 126               MISS INGLESBY'S SISTER-IN-LAW.                                                 MISS INCLESBY'S SISTER-IN-LAW.             12~&#xD;
 &#xD;
 'sire it would be to show him that she at least&#xD;
@@ -13570,7 +13575,7 @@ it, therefore, still hung the mellow aroma of&#xD;
 age. It looked very inviting when they e'?l~&#xD;
 tered-with its books and pictures, and white&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC8067-00000066"/>&#xD;
+<pb n="128-129" xml:id="VAC8067-00000066"/>&#xD;
 128&#xD;
 &#xD;
 MISS INGLESBY'S SISTER-IN-LAW.&#xD;
@@ -13801,7 +13806,7 @@ Devereux, drawing up his horses on the sum-&#xD;
 mit of a hill, where the road they had been&#xD;
 following suddenly came to an end in the&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC8067-00000067"/>&#xD;
+<pb n="130-131" xml:id="VAC8067-00000067"/>&#xD;
 130&#xD;
 &#xD;
 MISS INGLESBY'S SISTER-IN-LAW.&#xD;
@@ -14035,7 +14040,7 @@ ore, have it over at once? In a second these&#xD;
 houghts flashed -through hermind, and, in a&#xD;
 econd, also, she acted on them.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC8067-00000068"/>&#xD;
+<pb n="132-133" xml:id="VAC8067-00000068"/>&#xD;
 MISS INGLESBY'S SISTER-IN-LkW.             133&#xD;
 &#xD;
 182               MISS INGLESBY'S SISTER-IN-LAW.&#xD;
@@ -14265,7 +14270,7 @@ ready to be won."&#xD;
 &#xD;
 $&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC8067-00000069"/>&#xD;
+<pb n="134-135" xml:id="VAC8067-00000069"/>&#xD;
 134&#xD;
 &#xD;
 MISS INGLESBY'S SISTER-IN-LAW.&#xD;
@@ -14504,7 +14509,7 @@ sides herself whom indecision and coriflictkept&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC8067-00000070"/>&#xD;
+<pb n="136-137" xml:id="VAC8067-00000070"/>&#xD;
 MISS INGLESBY'S SISTER-IN-LAW.                                                 MISS INGLESBY'S SISTER-iN-LAW.           la~&#xD;
 &#xD;
 wakeful during much of that night. Long&#xD;
@@ -14728,7 +14733,7 @@ Colonel Inglesby needed no further adjura-&#xD;
 tion. She heard him say, "The devil!" and&#xD;
 make one spring to the fool,. "P11 be there&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC8067-00000071"/>&#xD;
+<pb n="138-139" xml:id="VAC8067-00000071"/>&#xD;
 MISS INGLESBY'S SISTER-IN-LAW.&#xD;
 &#xD;
 138               MISS INGLESBY'S SISTER-IN-LAW.&#xD;
@@ -14959,7 +14964,7 @@ a few nights before, thinking of him-aixi&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC8067-00000072"/>&#xD;
+<pb n="140-141" xml:id="VAC8067-00000072"/>&#xD;
 140               MISS INGLESBY'S SISTER-IN-LAW.                                                 MISS INGLESBY'S SISTER-IN-LAW.              141&#xD;
 &#xD;
 climbing into the room already full of dense,&#xD;
@@ -15185,7 +15190,7 @@ He looked astonished-as, indeed, there&#xD;
 was good reason that he should be.&#xD;
 "I am glad to see you so entirely recov~&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC8067-00000073"/>&#xD;
+<pb n="142-143" xml:id="VAC8067-00000073"/>&#xD;
 142          MISS INGLESBY'S SISTER-IN-LAW.&#xD;
 &#xD;
 ored," he said, stopping before her, but speak-&#xD;
@@ -15400,7 +15405,7 @@ er Miss Inglesby ever has known, or ever&#xD;
 will know, all that she owes to her sister-in-&#xD;
 aw.&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC8067-00000074"/>&#xD;
+<pb n="144-145" xml:id="VAC8067-00000074"/>&#xD;
 I T was a very pleasant group that was as-&#xD;
 sembled ia the drawing-room of Colonel&#xD;
 Dulaney's country-house, as the dusk was&#xD;
@@ -15490,7 +15495,7 @@ till&#xD;
 &#xD;
 THE STORY OF A SOAR.&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC8067-00000075"/>&#xD;
+<pb n="146-147" xml:id="VAC8067-00000075"/>&#xD;
 146TH               E    STORY OF A SCAR.                                                        THE STORY OF A SCAR.                   147&#xD;
 &#xD;
 ways looked queenly and imposing, and peo. by all means, Mrs. Stuart. I am sure it is&#xD;
@@ -15661,7 +15666,7 @@ there Was something a little' bisarre~-~a~slight&#xD;
 flavor, as it were, of Bohemianism-in their&#xD;
 style, which might jar on conventional ideas,&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC8067-00000076"/>&#xD;
+<pb n="148-149" xml:id="VAC8067-00000076"/>&#xD;
 148&#xD;
 &#xD;
 THE STORY OF A SCAR.&#xD;
@@ -15897,7 +15902,7 @@ headlong into misery.&#xD;
 was to it, Imust tell you that, on~ cert~ln lovely&#xD;
 L&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC8067-00000077"/>&#xD;
+<pb n="150-151" xml:id="VAC8067-00000077"/>&#xD;
 150                       TUE STOW&#xD;
 Indian summer afternoon, when Clavering an&#xD;
 I were out riding, he formally addressed m&#xD;
@@ -16131,7 +16136,7 @@ have availed to make me change my domicile,&#xD;
 if a very clear and unheroic idea of being&#xD;
 protected by John-the dining-room was just&#xD;
 &#xD;
-<pb  n="152" xml:id="VAC8067-00000078"/>&#xD;
+<pb n="152" xml:id="VAC8067-00000078"/>&#xD;
 OF A SCAR.&#xD;
 &#xD;
 if:            152                       TilE STORY&#xD;
@@ -16251,7 +16256,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="Illustration-153" xml:id="VAC8067-00000079"/>&#xD;
+<pb n="Illustration-153" xml:id="VAC8067-00000079"/>&#xD;
 THE STORY OF A SCAR.&#xD;
 &#xD;
 chloroform-and then I asked myself; wildly&#xD;
@@ -16393,7 +16398,7 @@ an instinct-the instinct that causes even the&#xD;
 weakest to fight forilfe-mademe lift the hand&#xD;
 which was now free, and plunge the dagger&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC8067-00000080"/>&#xD;
+<pb n="154-155" xml:id="VAC8067-00000080"/>&#xD;
 154&#xD;
 &#xD;
 THE STORY OF A SCAR.&#xD;
@@ -16595,7 +16600,7 @@ she answered, with a wicked glance.&#xD;
 &#xD;
 T HE E ND.-&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC8067-00000081"/>&#xD;
+<pb n="156-157" xml:id="VAC8067-00000081"/>&#xD;
 CHAPTER 1.&#xD;
 T HE day was bright, still, and balmy.&#xD;
 Though January had told but a third&#xD;
@@ -16679,7 +16684,7 @@ I&#xD;
 &#xD;
 A DOIJ]3T.&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC8067-00000082"/>&#xD;
+<pb n="158-159" xml:id="VAC8067-00000082"/>&#xD;
 158&#xD;
 &#xD;
 A DOUBT.&#xD;
@@ -16914,7 +16919,7 @@ She spoke quietly now, as if the climax&#xD;
 of passionate feeling was past, and something&#xD;
 very like apathy was stealing over her. Mr.&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC8067-00000083"/>&#xD;
+<pb n="160-161" xml:id="VAC8067-00000083"/>&#xD;
 160&#xD;
 &#xD;
 A DOUBT.&#xD;
@@ -17148,7 +17153,7 @@ mshing up the sash; "the air is more like&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC8067-00000084"/>&#xD;
+<pb n="162-163" xml:id="VAC8067-00000084"/>&#xD;
 162                        A DOUBT.                                                                   A DOUBT.                        163&#xD;
 &#xD;
 crush your dress, though," she entreated, as&#xD;
@@ -17372,7 +17377,7 @@ overcast that dusk had already fallen; and&#xD;
 when Duncan Ashby and his sister arrived at&#xD;
 home, it was quite dark. Dinner had been&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC8067-00000085"/>&#xD;
+<pb n="164-165" xml:id="VAC8067-00000085"/>&#xD;
 164                        A DOUBT.                                                                     A DOUBT.                        165&#xD;
 &#xD;
 kept waiting for them, and to Duncan's satis-&#xD;
@@ -17599,7 +17604,7 @@ chill there as here." He pointed to the&#xD;
 brow.&#xD;
 Dr. Boyd did as requested. With some&#xD;
 &#xD;
-<pb  n="166-167 (Advertisement) " xml:id="VAC8067-00000086"/>&#xD;
+<pb n="166-167 (Advertisement) " xml:id="VAC8067-00000086"/>&#xD;
 1660&#xD;
 &#xD;
 A DOUBT.&#xD;
@@ -17685,7 +17690,7 @@ is now accepted as the great classic of our American literature, and his l)oOk~'
 as the prose epics of our early history.&#xD;
 D. APPLETON &amp;amp; CO., Publishers, New York.&#xD;
 &#xD;
-<pb  n="168 (Advertisement) -169" xml:id="VAC8067-00000087"/>&#xD;
+<pb n="168 (Advertisement) -169" xml:id="VAC8067-00000087"/>&#xD;
 AiJIhIetoll &amp;amp; CO.'S llnlill~lls of Fo~ll1ai~ NO~~Ii~t~.&#xD;
 4.4&#xD;
 BENJAMIN DISRAELI'S NOVELS.&#xD;
@@ -17728,8 +17733,8 @@ D. APPLETON &amp;amp; CO., Publishers,&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

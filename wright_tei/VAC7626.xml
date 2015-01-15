@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7626">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7626">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Sibylla, or, The Mystery of the Brown-stone House </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>Sibylla, or, The Mystery of the Brown-stone House </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7626</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7626</idno>
+            <idno type="wright2" n="previous">wright2-2084A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Sibylla, or, The mystery of the brown-stone house</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>Sibylla, or, The mystery of the brown-stone house</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >82 p.</extent>
+               <extent>82 p.</extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1864">[1864]</date>
+                  <date when="1864">[1864]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Sibylla, or, The mystery of the brown-stone house</head> 
+            <head>Sibylla, or, The mystery of the brown-stone house</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7626-00000001"/>SIBYLLA JOY;&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7626-00000001"/>SIBYLLA JOY;&#xD;
 &#xD;
 011&#xD;
 &#xD;
@@ -103,7 +108,7 @@ No. 22 ANN STREET.&#xD;
 &#xD;
 the       ta g a ' th     own-tone      a  a.&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7626-00000002"/>&#xD;
+<pb n="" xml:id="VAC7626-00000002"/>&#xD;
 I&#xD;
 &#xD;
 I&#xD;
@@ -232,7 +237,7 @@ t&#xD;
 &#xD;
 (          '&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7626-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7626-00000003"/>&#xD;
 4              .                SIBYLLA JOY.&#xD;
 furtive glances at Richard, who was not a  "I will order a brasier of coals," said Rich-&#xD;
 frequent visitor.. He shivered, rubbed the ard Parkhurst.&#xD;
@@ -446,7 +451,7 @@ I&#xD;
 &#xD;
 SIBYLLA JOY,&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7626-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7626-00000004"/>&#xD;
 6 SIBYLLA JOY.&#xD;
 not spare me; for pity were weakness. With well to remain too long with burning  h&#xD;
 your high. notions o ' rectitude, your regular coal. However"-he looked at the coals--.&#xD;
@@ -648,7 +653,7 @@ SI- hLA  JY.&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC7626-00000005"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC7626-00000005"/>&#xD;
 8.                               SIBYLLA JOY.&#xD;
 "I am glad to see you," she said, and her attractive. ' Her forehead was not high, but&#xD;
 expression bore testimony to her words. - . in harmony,.with the rest of her face. Her&#xD;
@@ -725,7 +730,7 @@ w&#xD;
 &#xD;
 \J1&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7626-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7626-00000006"/>&#xD;
 .'I&#xD;
 &#xD;
 ;.&#xD;
@@ -801,7 +806,7 @@ it wohld not keep for'gu ?'  ' -      or- Stephen to fall into. It was equally c
 &#xD;
 t r&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7626-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7626-00000007"/>&#xD;
 12                              SIBYLLA JOY.&#xD;
 trate a crime revolting to civilized communi- a year ; and joy shall wipe the eyes of grief."&#xD;
 ties, and shocking to the better, instincts of " Sorrow leaves scars upon the mind.&#xD;
@@ -939,7 +944,7 @@ shirt-bosom ; put his gold watch into his vest in the small hall of the side-doo
 &#xD;
 ~,&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7626-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7626-00000008"/>&#xD;
 14                               1BYL]&#xD;
 ingeniously masked by a closet. I am a tem-&#xD;
 perate man, Magnus, but I am choice of my&#xD;
@@ -1215,7 +1220,7 @@ f&#xD;
 &#xD;
 * I&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC7626-00000009"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC7626-00000009"/>&#xD;
 16&#xD;
 &#xD;
 - and caused.it to assume vast proportions. It&#xD;
@@ -1356,7 +1361,7 @@ cles with tortoise-shell bows, the glasses of&#xD;
 &#xD;
 ,I&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7626-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7626-00000010"/>&#xD;
 IV 1,&#xD;
 , rye-  4   .                .      (    n          /              f                                "         . ,&#xD;
 1&#xD;
@@ -1450,7 +1455,7 @@ l&#xD;
 1                                                                                                              J&#xD;
 Ott                                                                                                                                -     "                   -                        "     -      ..   " .                              _ a       r   f           r   R   "               Y       ,a              v        !       e .l" "      'F_&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7626-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7626-00000011"/>&#xD;
 P'A&#xD;
 *1'&#xD;
 &#xD;
@@ -1661,7 +1666,7 @@ patiently that "chooses to wag his- tongue, shut his eyes peacefully. He looked 
 Coolness and self-government are the essen- man with a good: conscience. It was a very&#xD;
 tials of success. if I am a villain, I am a easy, oily conscience; and' sip slipped over it&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7626-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7626-00000012"/>&#xD;
 2h&#xD;
 &#xD;
 8IB YL A TJY..&#xD;
@@ -1868,7 +1873,7 @@ a1d did not neglect to 'supply that pleasant' If I drift with you I shall expect
 pabulum  whenever it could be skillfully I cannot afford to drift' idly to sea. I am not&#xD;
 administered.                            one to shut my eyes, to.be delgded ad to-be&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7626-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7626-00000013"/>&#xD;
 iwi .iTanot died-dthatred drea   shelll get'lon     together. You take&#xD;
 re tdpo fon rught.i  r  11 ichar  corimbgAshnse views o things, and I do lik&#xD;
 k ti-it  ghtsha t  o.ry will, R     cules deqonon s'nse in women."'&#xD;
@@ -2012,7 +2017,7 @@ f&#xD;
 +.&#xD;
 13&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7626-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7626-00000014"/>&#xD;
 28                       B1BYLL ; JOY.&#xD;
 states. Ypprreward shall be in prop wtior to a id neglected nothing.  e did :otsventure4&#xD;
 your services.  .a-r                    ' o attendhis own funeral; but,from a conve-&#xD;
@@ -2165,7 +2170,7 @@ i&#xD;
 4&#xD;
 ° i&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7626-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7626-00000015"/>&#xD;
 1'&#xD;
 &#xD;
 SIBYLLEA JOY.&#xD;
@@ -2309,7 +2314,7 @@ i&#xD;
 a&#xD;
 ;&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7626-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7626-00000016"/>&#xD;
 I'&#xD;
 &#xD;
 $IBY  LL JOY.&#xD;
@@ -2466,7 +2471,7 @@ i&#xD;
 F       '&#xD;
 f l&#xD;
 &#xD;
-<pb  n="32-33 (Illustration) " xml:id="VAC7626-00000017"/>&#xD;
+<pb n="32-33 (Illustration) " xml:id="VAC7626-00000017"/>&#xD;
 s&#xD;
 h_&#xD;
 t&#xD;
@@ -2604,7 +2609,7 @@ ms&#xD;
 Hs&#xD;
 '0&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7626-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7626-00000018"/>&#xD;
 SIBYLTA JQY.&#xD;
 "No matter; I was there," answered Duke, lect instantW  seized&#xD;
 thoughtfully., "He asked me, with a strange Richard.  saw the&#xD;
@@ -2733,7 +2738,7 @@ erful tidings."&#xD;
 atment, Magnus Drake&#xD;
 awaiting his appear-&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7626-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7626-00000019"/>&#xD;
 ance, imatiently. AftrM soie conversation&#xD;
 %oy left the house, and were leaving the&#xD;
 urt,wh their attention was attractsya&#xD;
@@ -2946,7 +2951,7 @@ cellular maw to receive thieves, vagabonds and his own name. Drake and Drew were
 and Cain-marked ruffians. It had a magical at once made acquainted with Drigge and&#xD;
 capacity to absorb vice, intemperance, and Droolby, men whose acuteness had never&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7626-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7626-00000020"/>&#xD;
 Y&#xD;
 , 'I~&#xD;
 ii't&#xD;
@@ -3147,7 +3152,7 @@ Droolby, oracularly.&#xD;
 " The little coves will float one of these&#xD;
 days, perhaps," offered Driggs, as a kind of&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC7626-00000021"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC7626-00000021"/>&#xD;
 far-rate prophecy. "Tve khowed the tide   "Wery lmperlite' muttered Drbolby.&#xD;
 ;to l' people as was a lying' low on the corri  They found but one crib with a bed in It,&#xD;
 and the proprietress was as vicious a cata-&#xD;
@@ -3237,7 +3242,7 @@ to&#xD;
 1  '1&#xD;
 r                          ' ,                                1     11)                                                                             t&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7626-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7626-00000022"/>&#xD;
 - BSIBYLLA JOY.&#xD;
 cutting out his hands, Stephen could touch ter. A very dism&#xD;
 t amp walls on either side, and was often to light up its nasti&#xD;
@@ -3360,7 +3365,7 @@ ho received them gra-&#xD;
 ~isfied with the tardiness&#xD;
 distrust increased. He&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7626-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7626-00000023"/>&#xD;
 - 8191A A. gOy&#xD;
 &#xD;
 ~BYMMLJ   :Oy.&#xD;
@@ -3641,7 +3646,7 @@ ti"&#xD;
 r&#xD;
 t&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7626-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7626-00000024"/>&#xD;
 48                              SIBYLIA JQY.&#xD;
 afeared. I'll bring up in the rear." Then to Davids pressed forward, offigiously, to aid&#xD;
 the crone: "Don't shut pan on us. Leave the detective.&#xD;
@@ -3780,7 +3785,7 @@ Wentilate yer idees, Mr. Droo."         square as a brick, I don't mind answerin
 "So you Know my name ?" said Stephen, I wery much doubts it. I've hearn some-&#xD;
 somewhat startled to hear himself called by what of yer history, my swell' cove, an' I&#xD;
 &#xD;
-<pb  n="48-49 (Illustration) " xml:id="VAC7626-00000025"/>&#xD;
+<pb n="48-49 (Illustration) " xml:id="VAC7626-00000025"/>&#xD;
 /&#xD;
 &#xD;
 f-YLLJA JOY.&#xD;
@@ -3851,7 +3856,7 @@ VP&#xD;
 &#xD;
 I'              '&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7626-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7626-00000026"/>&#xD;
 y,&#xD;
 &#xD;
 ,)[&#xD;
@@ -4011,7 +4016,7 @@ the same. Had there been any morbid ten,&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7626-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7626-00000027"/>&#xD;
 dency to.suicide In Stepen's mind, the keen- looked like a tomb. She, was afraid ,to lift&#xD;
 witted and practical Magnus would have de- her eyes, at first, and to follow the flickering&#xD;
 tected it and guarded against its faal culmin- rays of her lamp into the dark background.&#xD;
@@ -4153,7 +4158,7 @@ and to avenge his wrong{, he made a rantic knowledge and yet such ignorance 1"&#
 , ,&#xD;
 1&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7626-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7626-00000028"/>&#xD;
 +l  e&#xD;
 } '&#xD;
 1 "  _&#xD;
@@ -4362,7 +4367,7 @@ iswer this, she saw Sibylla standing by the bed, and,&#xD;
 ms. Her somewhat irritated by the spectacle, said-&#xD;
 arly trans-  "Go to bed, you crazy thing I'&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7626-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7626-00000029"/>&#xD;
 fitI&#xD;
 &#xD;
 -&#xD;
@@ -4506,7 +4511,7 @@ R&#xD;
 &#xD;
 UUP&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7626-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7626-00000030"/>&#xD;
 0&#xD;
 &#xD;
 88&#xD;
@@ -4737,7 +4742,7 @@ grothingham. Eating his breakfast with&#xD;
 &#xD;
 AV&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7626-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7626-00000031"/>&#xD;
 M&#xD;
 f.&#xD;
 ab  '&#xD;
@@ -5034,7 +5039,7 @@ tI&#xD;
 &#xD;
 j&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7626-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7626-00000032"/>&#xD;
 S S&#xD;
 &#xD;
 A JOY.&#xD;
@@ -5298,7 +5303,7 @@ he had? His hands are white enough, I&#xD;
 hope ? But a lad can't have white hands&#xD;
 and work on a farm. Bless you, Ma. Gor=&#xD;
 &#xD;
-<pb  n="64-65 (Illustration) " xml:id="VAC7626-00000033"/>&#xD;
+<pb n="64-65 (Illustration) " xml:id="VAC7626-00000033"/>&#xD;
 64&#xD;
 &#xD;
 Sil3tIiLA 50Y.&#xD;
@@ -5451,7 +5456,7 @@ i&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7626-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7626-00000034"/>&#xD;
 i&#xD;
 f&#xD;
 &#xD;
@@ -5608,7 +5613,7 @@ i&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7626-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7626-00000035"/>&#xD;
 Pr&#xD;
 ~ i&#xD;
 V *&#xD;
@@ -5746,7 +5751,7 @@ ventures of the night.,                opened the drawer hurriedly, touched the&
 , -&#xD;
 ,t' '&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7626-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7626-00000036"/>&#xD;
 1~&#xD;
 c.i&#xD;
 4 t&#xD;
@@ -6062,7 +6067,7 @@ The douversatioat soon grew interesting, and&#xD;
 &#xD;
 2&#xD;
 &#xD;
-<pb  n="72-73 (Illustration) " xml:id="VAC7626-00000037"/>&#xD;
+<pb n="72-73 (Illustration) " xml:id="VAC7626-00000037"/>&#xD;
 flow'ed on without restraint. Richard Park- theirway in Murderers' Alley, never found&#xD;
 rst and Duke Mariaduke had every rea- it, and bave never been found. When Time&#xD;
 son'to believe that'they wer utterly alone. at length gives his evidence, it will be but&#xD;
@@ -6129,7 +6134,7 @@ have shared the fate of those who have lost kindlings of legal technicalities ; 
 &#xD;
 _V&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7626-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7626-00000038"/>&#xD;
 i&#xD;
 &#xD;
 SB&#xD;
@@ -6229,7 +6234,7 @@ a&#xD;
 f      ,&#xD;
 ,b&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7626-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7626-00000039"/>&#xD;
 Sibylla kissed this reclous' doeunient, aid 'She thought she saw Sibylla running eagerly&#xD;
 Waving her hatud to the boy, who' still'-'st into  the trap that was set for her, and felt -a&#xD;
 uponte ncurbstone, watching the Window, load suddenly lifted from her mind.a a&#xD;
@@ -6373,7 +6378,7 @@ ri&#xD;
 y r&#xD;
 1&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7626-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7626-00000040"/>&#xD;
 78&#xD;
 &#xD;
 SIBYLLA JOY.&#xD;
@@ -6533,7 +6538,7 @@ d&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7626-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7626-00000041"/>&#xD;
 ,?r&#xD;
 i,&#xD;
 ;&#xD;
@@ -6686,7 +6691,7 @@ i&#xD;
 &#xD;
 . r&#xD;
 &#xD;
-<pb  n="82-83 (Advertisement) " xml:id="VAC7626-00000042"/>&#xD;
+<pb n="82-83 (Advertisement) " xml:id="VAC7626-00000042"/>&#xD;
 I'&#xD;
 &#xD;
 g---                      - .     IBYLL. JOY.&#xD;
@@ -6853,7 +6858,7 @@ developed and educated woman of civilized life.&#xD;
 Washington I. present at the wedding and thanks&#xD;
 Saul in the name of a Free Country. Price $0 25&#xD;
 &#xD;
-<pb  n="84 (Advertisement) -85 (Advertisement) " xml:id="VAC7626-00000043"/>&#xD;
+<pb n="84 (Advertisement) -85 (Advertisement) " xml:id="VAC7626-00000043"/>&#xD;
 4                   1REDEWIC A. BRATY'S CATALOGUEK.&#xD;
 BRADY7S CELEBRATED "MERCURY'5 STORIES.&#xD;
 Luona Prescott; or the Curse Fulfilled. Morgan; or the Knight of the Mack Flag&#xD;
@@ -7138,7 +7143,7 @@ f&#xD;
 t&#xD;
 -&#xD;
 &#xD;
-<pb  n="86 (Advertisement) -87 (Advertisement) " xml:id="VAC7626-00000044"/>&#xD;
+<pb n="86 (Advertisement) -87 (Advertisement) " xml:id="VAC7626-00000044"/>&#xD;
 6-&#xD;
 &#xD;
 FREDERIO A. BRADY'S CATALOGt. -&#xD;
@@ -7334,7 +7339,7 @@ t&#xD;
 s&#xD;
 _&#xD;
 &#xD;
-<pb  n="88 (Advertisement) " xml:id="VAC7626-00000045"/>&#xD;
+<pb n="88 (Advertisement) " xml:id="VAC7626-00000045"/>&#xD;
 S                     FREDERIC A. BRADY'S CATALOGUE.&#xD;
 BRADYI     NRLEBRATNDI "EBRURY" STORIUK.&#xD;
 Kqty Atherton,; or a Broken Life.' By Melpomene Surf';' or the Little Middy.&#xD;
@@ -7408,8 +7413,8 @@ i&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

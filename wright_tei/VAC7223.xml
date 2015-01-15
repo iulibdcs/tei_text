@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7223">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7223">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Fatal Secret, or, Plots and Counterplots </title>
-            <author >Mayer, Nathan</author>
+            <title>The Fatal Secret, or, Plots and Counterplots </title>
+            <author>Mayer, Nathan</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7223</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7223</idno>
+            <idno type="wright2" n="previous">wright2-1687</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The fatal secret, or, Plots and counterplots</title>
-                  <author >Mayer, Nathan</author>
+                  <title>The fatal secret, or, Plots and counterplots</title>
+                  <author>Mayer, Nathan</author>
                </titleStmt>
-               <extent >176 p.</extent>
+               <extent>176 p.</extent>
                <publicationStmt>
-                  <publisher >Printed at the office of "The Israelite" and "Deborah"</publisher>
+                  <publisher>Printed at the office of "The Israelite" and "Deborah"</publisher>
                   <pubPlace>Cincinnati</pubPlace>
-                  <date  when="1858">1858</date>
+                  <date when="1858">1858</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-25">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The fatal secret, or, Plots and counterplots</head> 
+            <head>The fatal secret, or, Plots and counterplots</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7223-00000001"/>THE FATAL SECRET&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7223-00000001"/>THE FATAL SECRET&#xD;
 OR,&#xD;
 PLOTS AND COUNTERPLOTS.&#xD;
 &#xD;
@@ -123,7 +128,7 @@ F.&#xD;
 .t.         y&#xD;
 ,°&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7223-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7223-00000002"/>&#xD;
 /1&#xD;
 1i&#xD;
 &#xD;
@@ -152,7 +157,7 @@ District of Ohio.&#xD;
 /r/,&#xD;
 . !&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7223-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7223-00000003"/>&#xD;
 I&#xD;
 &#xD;
 THE FATAL SECIRET.&#xD;
@@ -272,7 +277,7 @@ t&#xD;
 &#xD;
 0"s&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7223-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7223-00000004"/>&#xD;
 S.&#xD;
 &#xD;
 t) 1t  PLOTS AND COUNT]I1PLOTS.&#xD;
@@ -439,7 +444,7 @@ deed, there,asweet-voiced beggar ata church&#xD;
 door, may collect considerable alms, if' he&#xD;
 pays attention to the trade. I did very well,&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7223-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7223-00000005"/>&#xD;
 I&#xD;
 &#xD;
 AL SECRET,&#xD;
@@ -648,7 +653,7 @@ his struggles bore him to the . carriage. A&#xD;
 &#xD;
 4%&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7223-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7223-00000006"/>&#xD;
 10&#xD;
 &#xD;
 I"h&#xD;
@@ -871,7 +876,7 @@ J&#xD;
 t&#xD;
 A&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7223-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7223-00000007"/>&#xD;
 T -B   F ATAL-  S E aaRI&#xD;
 sie- years, whose tender, shape was- al-. splendid palace,- when Dame Margarita&#xD;
 mosthiddenbehind the, voluminous gray made a last effortt to retrieve her former&#xD;
@@ -984,7 +989,7 @@ r&#xD;
 I&#xD;
 f&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7223-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7223-00000008"/>&#xD;
 T"a ,FATAL SacaRE,&#xD;
 &#xD;
 warded:my aid in your escape? Already&#xD;
@@ -1148,7 +1153,7 @@ a'esistanee. Having tied their arms, the men crystalizedbythe water, that oozed 
 wero proceeding to gag the two youths, who ually through the roof, andfellwith an ebbo.&#xD;
 made'the air resound with their' remon- ing splash. A door'on each side led into&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7223-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7223-00000009"/>&#xD;
 16&#xD;
 &#xD;
 Tu FATAL SMOREM&#xD;
@@ -1313,7 +1318,7 @@ I: can not see him distinctly," said En- could tell nothing. The same foung gips
 rique. . "Wait a little yet." who had related Gloria's history to the tribb,&#xD;
 3&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7223-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7223-00000010"/>&#xD;
 TnE F'ATA'L SeCRET,&#xD;
 &#xD;
 had? related it to Massor previously, when&#xD;
@@ -1473,7 +1478,7 @@ takithe'task; but finally-the brothers, Her- ers choose the lightestone,'and,loo
 nandond Enrique da Costa were chosen. others so that -they- floated -down; On the&#xD;
 They proceeded, secretly, to' the north of black current, entered it, witlithe lady.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7223-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7223-00000011"/>&#xD;
 Tnu RFATAL SuoRr, &#xD;
 &#xD;
 . j'ofd,'? whispered Hernando, "I have&#xD;
@@ -1685,7 +1690,7 @@ the cellars of the inn.&#xD;
 Silver lamps filled with perfumed oil'lung&#xD;
 from the ceiling, and all-around .the walls&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7223-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7223-00000012"/>&#xD;
 Tus FATAL SecnsT,"&#xD;
 gleamed beautiful branches loaded with ta- looks and mantietawer6 those of one' hora&#xD;
 pare 'of, thapareatwax. Thelight of the to command  His features Werewhandsome,&#xD;
@@ -1844,7 +1849,7 @@ and' the ecret Israelited"silmitly dispeised&#xD;
 &#xD;
 OE, PLOTs AND COUNTERPLOTS.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7223-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7223-00000013"/>&#xD;
 24                     . Tu     FATAL SEcRET,&#xD;
 Don.Tosel Pian mounted a horse, and gal- along, the wall of-the house,,t* thetarden..&#xD;
 Iqped, through the .street of Olives. out into In marble and gildedfpote bloomedtndian,&#xD;
@@ -2006,7 +2011,7 @@ of-love toearth;, far from that state of affeeo&#xD;
 tion, where the pure, elevated and chastely&#xD;
 happy' emotions df the $oal's love mingle&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7223-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7223-00000014"/>&#xD;
 OR, PLoTS AND&#xD;
 &#xD;
 "&#xD;
@@ -2168,7 +2173,7 @@ apartment "&#xD;
 "She is notso very bad, after all I"&#xD;
 "She is the sourestaegliest mosipoisonous&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7223-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7223-00000015"/>&#xD;
 28                       Tan    FATAL     SonRST,&#xD;
 monstuethat ever kept watch over a rich  Wheos M'Wais    the wasi olewS    e WW&#xD;
 treasury "               torodher room, closed widow cmd,49MM,&#xD;
@@ -2275,7 +2280,7 @@ beautiful hand of Gloria.               have Don Diego inn grasat in my p6wer&#x
 mands!" he oried, anu  with a sliglit move- ior says, wait dnth * hediaw thobet&#xD;
 mont of his hand, touched a concealed spring around hiin t 'm l he is iostbeyoad re.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7223-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7223-00000016"/>&#xD;
 30&#xD;
 &#xD;
 Tea FATA&#xD;
@@ -2442,7 +2447,7 @@ more than one way. Pearls'df wisdom are   "ItiN,- centiued tie lady, "that your&
 &#xD;
 to&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7223-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7223-00000017"/>&#xD;
 32                  .     T  i ;1Aia       Sa,L nCA.'t&#xD;
 aljestyppoiptttme to rqepive my jaugh- exhausted hipelfrin ppjo twes about the&#xD;
 ter aboart.'~                           causp qf the kipg's eotlo   "he&#xD;
@@ -2553,7 +2558,7 @@ Einrique; "diamond fetters, chain me to it. then regained the road, some distanc
 stir one step-:'                       a time, and sent regretful kisses and loving&#xD;
 "I can not understand your reluctance, blessings, to his fair betrothed.&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7223-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7223-00000018"/>&#xD;
 I&#xD;
 &#xD;
 34.                       T HEFATA&#xD;
@@ -2720,7 +2725,7 @@ the mannner of action in regard to this au- the sweatingworkmen, thateombine to 
 dacious murder, not to hear their private the bright pleasures of a king, and the mag-&#xD;
 dissensions."      ,         .nificence of a court. I love my master, but&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7223-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7223-00000019"/>&#xD;
 On, PLovs AND CouTantPLoTs.        37&#xD;
 &#xD;
 there is no liberty, no justice and no right&#xD;
@@ -2937,7 +2942,7 @@ whichh ripens the glowing grapes of Portu-&#xD;
 &#xD;
 36            Tnn FATAL SECRET,&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7223-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7223-00000020"/>&#xD;
 TI&#xD;
 &#xD;
 38&#xD;
@@ -3051,7 +3056,7 @@ state, and had some fine apartments with mistake the necessity of this flight, a
 heavy antique fOrniture; another part of! good service the prince has done us! But&#xD;
 the building, arranged in the Moorish style oh I" he added bitterly, " why can not I free&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7223-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7223-00000021"/>&#xD;
 40&#xD;
 &#xD;
 TILE FATAL SuecnsT,&#xD;
@@ -3220,7 +3225,7 @@ Would be deprive Christians of their chance&#xD;
 of salvation, by opening church too .late ?&#xD;
 Would he lose his situation? Would he dio-&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7223-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7223-00000022"/>&#xD;
 42&#xD;
 &#xD;
 Ti r, FATAL SECRET,&#xD;
@@ -3385,7 +3390,7 @@ galed himself with bread and onions. "I&#xD;
 have seen numbers burned; and such mag-&#xD;
 nificent processions, with the holy fathers,&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7223-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7223-00000023"/>&#xD;
 44&#xD;
 the, condemned, the San B&#xD;
 lay servants I"&#xD;
@@ -3606,7 +3611,7 @@ ddors a second proclamation, which shall&#xD;
 &#xD;
 V&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7223-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7223-00000024"/>&#xD;
 46                       Tif    FAT&#xD;
 lead all to think, that an Englishman and&#xD;
 Protestant wrote the first. Thus we will&#xD;
@@ -3824,7 +3829,7 @@ traitors?"&#xD;
 "Certainly. And, priest, I will even ac-&#xD;
 company you there."&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7223-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7223-00000025"/>&#xD;
 48&#xD;
 &#xD;
 TexFATAL SXeRET,&#xD;
@@ -4042,7 +4047,7 @@ to the secretary, what Fidaro had told her&#xD;
 concerning the necessity of giving the name&#xD;
 to gain entrance.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7223-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7223-00000026"/>&#xD;
 50&#xD;
 "Then it will be impossib]&#xD;
 ter," said the priest, stopping&#xD;
@@ -4209,7 +4214,7 @@ on behind Gloria, and drawing off the atten- Diego."&#xD;
 tion of -the doorkeepers, she would surely  The duke recognised his: page Fidaro in&#xD;
 have been discovered. For, could that ex- the voice and manner, and said:&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7223-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7223-00000027"/>&#xD;
 52                        Tun -FAT.&#xD;
 "Give the 'Prior's letter to me. My-son&#xD;
 sitsyonder."&#xD;
@@ -4430,7 +4435,7 @@ A crowd of idlers lounged around the gates&#xD;
 of a stately palace, not far from thePraadi&#xD;
 Parano, in Lisbon. Some were seateA upon&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7223-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7223-00000028"/>&#xD;
 54&#xD;
 &#xD;
 THa FATAL Scae,&#xD;
@@ -4652,7 +4657,7 @@ n the bosom of man. These are, as it werap&#xD;
 ooked and guarded by a goodand an evil&#xD;
 spirit. Do we resign ourselves to' the' in.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7223-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7223-00000029"/>&#xD;
 56              .         T-N a FATI&#xD;
 fiuence' of the evilspirit, we imagine still&#xD;
 that we 'preserve dominion over'him. We&#xD;
@@ -4872,7 +4877,7 @@ noon, under green leaves, and a dreamy&#xD;
 sky, with flowers and bees, and velvetty&#xD;
 grass around you, all quiet, sweetly quiet.-&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7223-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7223-00000030"/>&#xD;
 58            THE 1ATAL, ECRRT,&#xD;
 &#xD;
 Then there is the solemn quiet of the pale cies, the lightest touch, or the least noise&#xD;
@@ -4986,7 +4991,7 @@ and, returning to the window, threw a lad- to exist. Calmly, quietly,'she descen
 der constructed of silken cords,to the young walking around the house she was about to&#xD;
 noble.                                 go out into the street, when she perceived&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7223-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7223-00000031"/>&#xD;
 60                       THE FATA L       EftCRET,&#xD;
 an old man, at a window,cealmly looking Nuna, still holding to Don Diego with one&#xD;
 out upon the sky.                     hand, dropped the other, in astonishment at&#xD;
@@ -5155,7 +5160,7 @@ he was alone.-.&#xD;
 4&#xD;
 r&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7223-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7223-00000032"/>&#xD;
 62                       THE   FATA&#xD;
 "The page may have'gone somewhere,"&#xD;
 he mused, and dismissing the eireumstance&#xD;
@@ -5324,7 +5329,7 @@ r&#xD;
 &#xD;
 4,&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7223-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7223-00000033"/>&#xD;
 1&#xD;
 &#xD;
 64                       Tax    FArATA&#xD;
@@ -5493,7 +5498,7 @@ and addressed them,                    and took a full leather bag therefrom.&#x
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7223-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7223-00000034"/>&#xD;
 66                        THE    FATA&#xD;
 "Here,"he said, "is money to defray your&#xD;
 expenses. And now, having instructed you&#xD;
@@ -5710,7 +5715,7 @@ in her mistress' apartment, and listened out&#xD;
 side the door.&#xD;
 She saw enough to convince her ;hat Fi-&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7223-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7223-00000035"/>&#xD;
 I:&#xD;
 &#xD;
 TisE FATAL SECRET,&#xD;
@@ -5876,7 +5881,7 @@ to Fidaro's chamber, entered. Perplexity&#xD;
 &#xD;
 OR, PLOTS AND COUNTERP-LOTs.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7223-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7223-00000036"/>&#xD;
 70 "                     T a    FA T A I&#xD;
 was upon their face. Amaso carried in his&#xD;
 *rms, the rich dresses which Gloria hadI&#xD;
@@ -6095,7 +6100,7 @@ e is surrounded by the  The captain of the guard entered. He&#xD;
 was a stout,tall man, with a rough face and&#xD;
 LIBF4&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7223-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7223-00000037"/>&#xD;
 72                        TH E FATAL      gEcStET,&#xD;
 a soar across his forehead. He was follow-  The king was greatly enraged when he&#xD;
 ed by one or two of his inferior officers.  heard of this. More yet, when in a few dayd&#xD;
@@ -6258,7 +6263,7 @@ nitute of the apartment,&#xD;
 &#xD;
 7g&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7223-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7223-00000038"/>&#xD;
 74&#xD;
 &#xD;
 TuT FATAL&#xD;
@@ -6475,7 +6480,7 @@ many. But they would melt away like love'&#xD;
 before jealousy, were Juan to abolish the&#xD;
 Inquisition. How much in mine and in my&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7223-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7223-00000039"/>&#xD;
 76&#xD;
 &#xD;
 THaE FATAL SEOlBT,&#xD;
@@ -6693,7 +6698,7 @@ for your brother, if-"&#xD;
 "They but behold that which I h'ave to&#xD;
 show them."&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7223-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7223-00000040"/>&#xD;
 78&#xD;
 &#xD;
 Ta FATAL SacaNT,&#xD;
@@ -6910,7 +6915,7 @@ s abolished, or your brother-"&#xD;
 &#xD;
 ;&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7223-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7223-00000041"/>&#xD;
 V'&#xD;
 &#xD;
 80                        Tus FATAL 5ECR5T1&#xD;
@@ -7028,7 +7033,7 @@ OR, PLOTS A ND COUNTE'RPLOTS.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7223-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7223-00000042"/>&#xD;
 82                        Tun   FATAL Su-On'r,&#xD;
 face Senora," said the King. "It will be a trail of her long scarlet robe hung almost to&#xD;
 fne day for hunting."                  the ground. Her' velvet head gear was&#xD;
@@ -7143,7 +7148,7 @@ these-"                                 late, autumnal blossoms! The banisters o
 depend upon it sire, in' *circumstances like geous tapestry of green leaves.&#xD;
 these."                                   The Sun has been blazing all day, and&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7223-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7223-00000043"/>&#xD;
 I&#xD;
 &#xD;
 84                        THs    FATAL&#xD;
@@ -7309,7 +7314,7 @@ make me-unhappy?"                      the brothers escaped.  And in the tumult&
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7223-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7223-00000044"/>&#xD;
 88&#xD;
 &#xD;
 of his emotions, at his reconciliation with loves me; and-heis-agood'Christian, so help&#xD;
@@ -7476,7 +7481,7 @@ fore, want you to tell her that Enrique da&#xD;
 &#xD;
 'rB$ FATAL M110RTT,&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7223-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7223-00000045"/>&#xD;
 88                       T .EN   A T -A&#xD;
 Cota's, affections ,are previously engaged,&#xD;
 and that her love is hopeless. Thus your&#xD;
@@ -7696,7 +7701,7 @@ AL   E CR -E T,-&#xD;
 &#xD;
 89.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7223-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7223-00000046"/>&#xD;
 90)                Tn  FA.TAL SacanT,&#xD;
 &#xD;
 ments., The Countess was wrapped in al&#xD;
@@ -7860,7 +7865,7 @@ hour of life!" Iinformed the King. Through me you were&#xD;
 He took her unresisting hand, as a host taken prisoner.  g influence has caused&#xD;
 of happy memories swept over his soul, like you to be sentenced to death, and now I&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7223-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7223-00000047"/>&#xD;
 .   92                        TD s-FATA&#xD;
 come to gloat my eyes on the victims of re-&#xD;
 venge I&#xD;
@@ -8078,7 +8083,7 @@ on his brother stood, and in a softer mood&#xD;
 throwing his arm around Enrique's neck,&#xD;
 looked around.&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7223-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7223-00000048"/>&#xD;
 94                        T  E FA T A&#xD;
 The scene was superbly bright. Far in&#xD;
 the west, folds of scarlet and golden clouds&#xD;
@@ -8297,7 +8302,7 @@ gold.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7223-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7223-00000049"/>&#xD;
 96              -         TEE FATAL&#xD;
 CHAPTER        XXVII'.           on3&#xD;
 T HE  WILY LOVER.              ey&#xD;
@@ -8467,7 +8472,7 @@ yet stronger than before.                "But, many matches are made without&#xD
 &#xD;
 97&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7223-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7223-00000050"/>&#xD;
 }I&#xD;
 i&#xD;
 i'&#xD;
@@ -8645,7 +8650,7 @@ Captain Misardo, growing pale.&#xD;
 &#xD;
 0&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7223-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7223-00000051"/>&#xD;
 100                      TH E FATAL&#xD;
 "Do not be afraid. It is something con-&#xD;
 cerning myself, entirely."&#xD;
@@ -8859,7 +8864,7 @@ Great, indeed, was the joy of the Israel-&#xD;
 ites, when the suspension of the Inquisition&#xD;
 was proclaimed, and proportionately great&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7223-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7223-00000052"/>&#xD;
 102                       TnasiFATAL SicanT,&#xD;
 was the wrath of his Eminence Savelli. He  Through one of the broad streets, formed&#xD;
 protested in vain. Nothing could change by the division of the camp, was riding a&#xD;
@@ -9031,7 +9036,7 @@ d had arrived near&#xD;
 Castro.&#xD;
 his companions&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7223-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7223-00000053"/>&#xD;
 104&#xD;
 &#xD;
 TnE FATAL SECRET,&#xD;
@@ -9254,7 +9259,7 @@ rehended him.&#xD;
 will rather not be&#xD;
 a thorn in the side&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7223-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7223-00000054"/>&#xD;
 11&#xD;
 &#xD;
 I&#xD;
@@ -9385,7 +9390,7 @@ J&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7223-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7223-00000055"/>&#xD;
 108                       Timz   FATAL SEcRET,&#xD;
 rear of the chieftain's tent, a voice hailed  Don Seguol obeyed Massor's order, and,&#xD;
 him:                                   with his scarf bound the Prior's hands to&#xD;
@@ -9499,7 +9504,7 @@ I&#xD;
 &#xD;
 109&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7223-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7223-00000056"/>&#xD;
 110                      ''iHE  FATA&#xD;
 CHAPTER XXXI.&#xD;
 THE ROYAL SPIES,&#xD;
@@ -9719,7 +9724,7 @@ the French, and nothing else. That's why&#xD;
 &#xD;
 '  O , i'LOTS ANDJ COUNTEItPLOTS.&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC7223-00000057"/>&#xD;
+<pb n="112-113" xml:id="VAC7223-00000057"/>&#xD;
 112                       Trn   FATA&#xD;
 we came all the way from Valladolid to Lis-&#xD;
 bon, and that's why we are here, this morn-&#xD;
@@ -9933,7 +9938,7 @@ slept for some time."&#xD;
 But since you remained in your apartments&#xD;
 this evening, I came to bid you good night,&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC7223-00000058"/>&#xD;
+<pb n="114-115" xml:id="VAC7223-00000058"/>&#xD;
 114,                      Tn   FATAL-SCORET,&#xD;
 and ise whether you were well. You lay on  "But, dear lady, must we go further yet?&#xD;
 this cushion sleeping, and to judge by your I feel almost as if something dreadful wa&#xD;
@@ -10042,7 +10047,7 @@ peared, and carrying Maria.             brow, and, in the cabin, Rosa lay sobbin
 be discovered."                         merry, were busy at their usual duties.&#xD;
 "Aye, aye, senor," said Joseppo, the boats. Misardo was superintending the mending of&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC7223-00000059"/>&#xD;
+<pb n="116-117" xml:id="VAC7223-00000059"/>&#xD;
 F a , PLOTS AN  COOL N TE.-RPLO'rs.&#xD;
 &#xD;
 a sail. The waves reflected the sunny rays, the soprano of the ripples, the contralto of&#xD;
@@ -10160,7 +10165,7 @@ i&#xD;
 f&#xD;
 r&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC7223-00000060"/>&#xD;
+<pb n="118-119" xml:id="VAC7223-00000060"/>&#xD;
 118       -Tan                 FATA&#xD;
 Meanwhile the table was set, and the&#xD;
 victuals brought in.&#xD;
@@ -10376,7 +10381,7 @@ back upon him.&#xD;
 &#xD;
 119-&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC7223-00000061"/>&#xD;
+<pb n="120-121" xml:id="VAC7223-00000061"/>&#xD;
 120                       Tna    FATAL    SEC RET,&#xD;
 "Well, well, brother of mine," he said:- a straw in her misery, entreated him to pro.&#xD;
 I shall know how to acquaint the Inquisi- tect her until the ship arrived at Sicily; for&#xD;
@@ -10539,7 +10544,7 @@ the hge billows, with their angry ,white&#xD;
 &#xD;
 I,&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC7223-00000062"/>&#xD;
+<pb n="122-123" xml:id="VAC7223-00000062"/>&#xD;
 122                      Tan    FATAL    SCENT,&#xD;
 crest., and, fell again with a loud splash, nings flashed, with  continued intensity,&#xD;
 beating the surface of the sea. When the through the sky, and' seemed to tear fiery&#xD;
@@ -10704,7 +10709,7 @@ The sailors had rapidly filled' the other&#xD;
 wo boats, and it must be confessed, nottW&#xD;
 oon, for already was the ship settling&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC7223-00000063"/>&#xD;
+<pb n="124-125" xml:id="VAC7223-00000063"/>&#xD;
 194                       THE FATAL S         acOUXT,&#xD;
 dbwa. Every one was now intent upon get the. waves, on either side against the mad&#xD;
 tCog away from the vessel, that thevortex it bursts of the wind.&#xD;
@@ -10815,7 +10820,7 @@ guel. "Rosa, you feel no hunger ?"     ed all spirits and few words had been spo
 -''he lady merely shook her head.     en since noon.&#xD;
 "Oh Mlisardo, it is thy fault, that my bow-  But when the sun had set, Modestus rose&#xD;
 &#xD;
-<pb  n="126-127" xml:id="VAC7223-00000064"/>&#xD;
+<pb n="126-127" xml:id="VAC7223-00000064"/>&#xD;
 126                        TE   . FATAL   SERE T,&#xD;
 iv the silent -boat and lifting- up his dirty pillowed, continued to look steadily at the&#xD;
 handsprayed. And alljoined him, for in all waters that for ever swept past them. - Wild&#xD;
@@ -10974,7 +10979,7 @@ of the vessel, in the other two Hernando and&#xD;
 Enrique, and the small fat man, with the&#xD;
 good natured green goggle eyes who always&#xD;
 &#xD;
-<pb  n="128-129" xml:id="VAC7223-00000065"/>&#xD;
+<pb n="128-129" xml:id="VAC7223-00000065"/>&#xD;
 128                      'H EFA TA&#xD;
 polishes his nails with such industry, is a&#xD;
 Jewish physician, a cousin of the captain.-&#xD;
@@ -11187,7 +11192,7 @@ alone on the sea! Captain, what are your&#xD;
 conjectures about her?"  inquired Enrique.&#xD;
 "I suppose the boat contains the survi&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7223-00000066"/>&#xD;
+<pb n="130-131" xml:id="VAC7223-00000066"/>&#xD;
 ,iit&#xD;
 &#xD;
 130                      Tun    FATAL     SEcaRET,&#xD;
@@ -11349,7 +11354,7 @@ dead. It appeared, not as a ghost of former&#xD;
 affection, but as a living fire, bright and hot.&#xD;
 Ilernando loved Rosa, loved still, with the&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7223-00000067"/>&#xD;
+<pb n="132-133" xml:id="VAC7223-00000067"/>&#xD;
 132                       TU, F- FA T,&#xD;
 same ardor, the same hopes, the same desir&#xD;
 that had crazed his brain when he threi&#xD;
@@ -11509,7 +11514,7 @@ gipsy encampment.                      they would, for they are surrounded by an
 lowed these vagabonds to settle on their you expect to escape from our hands, unless&#xD;
 you fly through the solid rock ?"&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7223-00000068"/>&#xD;
+<pb n="134-135" xml:id="VAC7223-00000068"/>&#xD;
 134&#xD;
 &#xD;
 TE FATAL-SECRET,&#xD;
@@ -11677,7 +11682,7 @@ TREE RIvALs.&#xD;
 Love is of two kinds. Calm, earnest and&#xD;
 deep love. And warm passionate love. The&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7223-00000069"/>&#xD;
+<pb n="136-137" xml:id="VAC7223-00000069"/>&#xD;
 136                        THE    FATA&#xD;
 first is true, the latter not. True love will&#xD;
 never use grand expressions, will never&#xD;
@@ -11902,7 +11907,7 @@ tell you in this witching hour of eve, while&#xD;
 &#xD;
 gI&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7223-00000070"/>&#xD;
+<pb n="138-139" xml:id="VAC7223-00000070"/>&#xD;
 138                       Ta FATAL SECeRET,'&#xD;
 your heart is soft, that 1, too, love; Ani that for you, of what I said to night, of the ro.&#xD;
 my love is unfortunate."               testations which I shall constantly trumpet&#xD;
@@ -12009,7 +12014,7 @@ guests. There was music, and dancing, and heart are dead, can he be ought else t
 joy, and all the brilliant forms and actions, Enough,'then, of this, Don Hernando. Pois&#xD;
 in which it manifests itself. But, one brow on not ny joy."&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7223-00000071"/>&#xD;
+<pb n="140-141" xml:id="VAC7223-00000071"/>&#xD;
 w                       .,.&#xD;
 r      -        r.&#xD;
 . -&#xD;
@@ -12182,7 +12187,7 @@ ing to Donna Bananda, said:           this be the only mishap attending our joy!
 my wife. Wilt thou wed her, to me, ac- quick in'ovement, he lifted the crystal chalice&#xD;
 cording to the laws of Tsrael ?"       full of purple wine, and dashed it against&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7223-00000072"/>&#xD;
+<pb n="142-143" xml:id="VAC7223-00000072"/>&#xD;
 142&#xD;
 &#xD;
 (7j&#xD;
@@ -12297,7 +12302,7 @@ you will, doubtless, return the sum  to me."  "Rob you, knave," returned the'Fat
 manner, my brother," replied Modestus. "I his restblve to keep the money, which he&#xD;
 have accompanied you at your own bidding, had received, "and do you think to throw&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7223-00000073"/>&#xD;
+<pb n="144-145" xml:id="VAC7223-00000073"/>&#xD;
 44           ,Ta               PATAL     SUcan1,&#xD;
 words like these on orle of my holy calling?  "It i time to retire."&#xD;
 The money I received is a just reward of  Receiving no answer, he divested himself&#xD;
@@ -12478,7 +12483,7 @@ firm, dying, hopeless grasp, upon the gar-&#xD;
 &#xD;
 11,&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7223-00000074"/>&#xD;
+<pb n="146-147" xml:id="VAC7223-00000074"/>&#xD;
 146                       TEs FATAL-SECRET,&#xD;
 merts of the murderer. The latter again veying himself with a pleased look, "so it&#xD;
 pierced the body withhis poignard-Misardo seems, I have some charms left. And she&#xD;
@@ -12640,7 +12645,7 @@ kriow what it is to love?"&#xD;
 "My heart is silent, senora. I know what&#xD;
 it is to love, but, Donna Miranda is the wife&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7223-00000075"/>&#xD;
+<pb n="148-149" xml:id="VAC7223-00000075"/>&#xD;
 On, PLOTS AND COUT.raLOTS.       I49&#xD;
 &#xD;
 of Don Isidore. I dare not mention love in&#xD;
@@ -12852,7 +12857,7 @@ vation. But my passion, and my hate is&#xD;
 &#xD;
 148          'rHB  VATAL  SECRET,&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7223-00000076"/>&#xD;
+<pb n="150-151" xml:id="VAC7223-00000076"/>&#xD;
 T  L.&#xD;
 &#xD;
 150                       Ta    'FATA&#xD;
@@ -13072,7 +13077,7 @@ i&#xD;
 &#xD;
 -)&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7223-00000077"/>&#xD;
+<pb n="152-153" xml:id="VAC7223-00000077"/>&#xD;
 Tna    FA'AL SECRET,&#xD;
 that my business requires the :greatest  "Proceed ; But fail not o unburthen&#xD;
 secrecy."                              your heart in the confessional."&#xD;
@@ -13194,7 +13199,7 @@ I&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7223-00000078"/>&#xD;
+<pb n="154-155" xml:id="VAC7223-00000078"/>&#xD;
 it                     iTnsi    FATAL   SaOnnu,&#xD;
 Theeat'att4he right side of the ark, was .An4now he tops and t Mes up thsgor&#xD;
 . eoupiedo y.Doa)Lionel Dian, the one on the net. Holy instrument that has sounde4ere,&#xD;
@@ -13306,7 +13311,7 @@ of Israelitesfor they had been placed six to her, with a puzzled look.&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7223-00000079"/>&#xD;
+<pb n="156-157" xml:id="VAC7223-00000079"/>&#xD;
 T      F     L .83 .SJ&amp;amp;cai$r,&#xD;
 £'P  pgano~kerg m e2 ' ypppn9g   4 Ibnde4tsjp fpa prrigs~gag      gp ght&#xD;
 tearing away Jier .eapessn hpwpping .the Miadperying; g g. - , - p a&#xD;
@@ -13415,7 +13420,7 @@ come t Let us recite the prayers for the farewell. The lady goes fbrth on the mo
 &#xD;
 x"&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7223-00000080"/>&#xD;
+<pb n="158-159" xml:id="VAC7223-00000080"/>&#xD;
 158                  ' '  Tax FATAL-SBQRa       TS,&#xD;
 row atossuine the crown of-France, to wed  "Lionel, LiOel, risk not your lifedia -,&#xD;
 sadebauchedounloving husband'; the noble- perhaps vain endeavor. One man' against&#xD;
@@ -13592,7 +13597,7 @@ r&#xD;
 i&#xD;
 i&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7223-00000081"/>&#xD;
+<pb n="160-161" xml:id="VAC7223-00000081"/>&#xD;
 16G&#xD;
 hoses ones and pourfo&#xD;
 brown powder into the gob]&#xD;
@@ -13752,7 +13757,7 @@ Ili&#xD;
 &#xD;
 16-1&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7223-00000082"/>&#xD;
+<pb n="162-163" xml:id="VAC7223-00000082"/>&#xD;
 -                     .I  Ta    FATAL     S    Eac ants&#xD;
 Therewas an exqlsmationof astonishment.  "If you return, we will accompany yo,"&#xD;
 !!.Can'you return without danger!" in-. cried many men of the congregation.&#xD;
@@ -13912,7 +13917,7 @@ saay look at the win-&#xD;
 &#xD;
 Z)&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7223-00000083"/>&#xD;
+<pb n="164-165" xml:id="VAC7223-00000083"/>&#xD;
 t&#xD;
 &#xD;
 1104                      Tvs FAT&#xD;
@@ -14136,7 +14141,7 @@ I&#xD;
 &#xD;
 '1&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7223-00000084"/>&#xD;
+<pb n="166-167" xml:id="VAC7223-00000084"/>&#xD;
 Tuii} rAiL.SBcR~r,&#xD;
 &#xD;
 homes!   The whispered supplications of He had been wearied by the long and awe'&#xD;
@@ -14364,7 +14369,7 @@ s&#xD;
 f&#xD;
 t&#xD;
 &#xD;
-<pb  n="168-169" xml:id="VAC7223-00000085"/>&#xD;
+<pb n="168-169" xml:id="VAC7223-00000085"/>&#xD;
 Oa, PLOTS AND COUNTERPLOTS.      169&#xD;
 &#xD;
 The captain called his lieutenant.&#xD;
@@ -14594,7 +14599,7 @@ i&#xD;
 X4 1&#xD;
 I&#xD;
 &#xD;
-<pb  n="170-171" xml:id="VAC7223-00000086"/>&#xD;
+<pb n="170-171" xml:id="VAC7223-00000086"/>&#xD;
 170               THa FATAL SEcRET,&#xD;
 &#xD;
 it, a wreck,upon the rocky points. Enrique,&#xD;
@@ -14757,7 +14762,7 @@ I&#xD;
 &#xD;
 I:&#xD;
 &#xD;
-<pb  n="172-173" xml:id="VAC7223-00000087"/>&#xD;
+<pb n="172-173" xml:id="VAC7223-00000087"/>&#xD;
 A murmur went around th&#xD;
 Each looked upon the other i&#xD;
 " Royal Prince I" cried t&#xD;
@@ -14976,7 +14981,7 @@ well endowed convent of his order.&#xD;
 &#xD;
 I-&#xD;
 &#xD;
-<pb  n="174-175" xml:id="VAC7223-00000088"/>&#xD;
+<pb n="174-175" xml:id="VAC7223-00000088"/>&#xD;
 174&#xD;
 &#xD;
 IrSS&#xD;
@@ -15182,7 +15187,7 @@ l&#xD;
 ~ .&#xD;
 '&#xD;
 &#xD;
-<pb  n="176-177" xml:id="VAC7223-00000089"/>&#xD;
+<pb n="176-177" xml:id="VAC7223-00000089"/>&#xD;
 176                      THE    FATAL      SECRET.&#xD;
 I am done. Reader, I have learned to    Louis WYLER, Esq.&#xD;
 love you, during the course of this tale. I   My Dear Friend!&#xD;
@@ -15204,8 +15209,8 @@ TION so&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7625">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7625">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Scotto the Scout, or, The Union Rangers </title>
-            <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+            <title>Scotto the Scout, or, The Union Rangers </title>
+            <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7625</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7625</idno>
+            <idno type="wright2" n="previous">wright2-2084</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Scotto the scout, or, The Union Rangers</title>
-                  <author >Robinson, J. H. (John Hovey) (b. 1825)</author>
+                  <title>Scotto the scout, or, The Union Rangers</title>
+                  <author>Robinson, J. H. (John Hovey) (b. 1825)</author>
                </titleStmt>
-               <extent >69 p. </extent>
+               <extent>69 p. </extent>
                <publicationStmt>
-                  <publisher >F.A. Brady</publisher>
+                  <publisher>F.A. Brady</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1861">[1861]</date>
+                  <date when="1861">[1861]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Scotto the scout, or, The Union Rangers</head> 
+            <head>Scotto the scout, or, The Union Rangers</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7625-00000001"/>"K -     i&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7625-00000001"/>"K -     i&#xD;
 &#xD;
 f&#xD;
 f&#xD;
@@ -109,7 +114,7 @@ SCOTTO, THE SCOUT&#xD;
 &#xD;
 the Sian&#xD;
 &#xD;
-<pb  n="" xml:id="VAC7625-00000002"/>&#xD;
+<pb n="" xml:id="VAC7625-00000002"/>&#xD;
 ENTERED according to Act of Congress, in the year 1861,&#xD;
 BY CAULDWELL, SOUTHWORTH &amp;amp; WHITNEY,&#xD;
 In the Clerk's Office of the District Court for the Southern District of New York.&#xD;
@@ -223,7 +228,7 @@ f&#xD;
 &#xD;
 ywV  Ifr~+ri+nivr.N.M 'rrv~.r.r~ r&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7625-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7625-00000003"/>&#xD;
 4          SCOTTO, THE SCOUT ; OR, THE UNION RANGERS..&#xD;
 &#xD;
 roism. Indeed, their legs were their best arms,&#xD;
@@ -487,7 +492,7 @@ again at the lessening form of the horseman.&#xD;
 &#xD;
 SCOTTO, THE SCOUT; OR, THE UNION RANGERS.&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7625-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7625-00000004"/>&#xD;
 6          SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 &#xD;
 SCOTTO, THE SCOUT; O&amp;amp;, THE UNION RANGERS.&#xD;
@@ -749,7 +754,7 @@ slacken its speed. He had proceeded but a short&#xD;
 &#xD;
 11&#xD;
 &#xD;
-<pb  n="8-9 (Illustration) " xml:id="VAC7625-00000005"/>&#xD;
+<pb n="8-9 (Illustration) " xml:id="VAC7625-00000005"/>&#xD;
 8&#xD;
 &#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
@@ -818,7 +823,7 @@ sacred soil of Virgmia ?"           ,,    .Hurdlestone's clear, cold, gray eyes 
 e.ang to gain time. and evade a d rect answer.  "Beauregard !" repeated Inrdlstone. with&#xD;
 "Young man," retorted he of the black horse, eviL nt surprise, but incredulity.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7625-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7625-00000006"/>&#xD;
 SCOTTO, THE SCOUT; OR, THE UNION RANGERS.                         11&#xD;
 " The same," answered the young man, un- flag ; and I am not one to suffer my motives to&#xD;
 moved.                                     be called in question, even by you, sir !"&#xD;
@@ -884,7 +889,7 @@ reach the ears of our enemies."              "Talk not thus south of Centreville
 ed Girdwood, with spirit. " As I have informed Manassas will speedily cure such views as you&#xD;
 you, I think of taking service under the new have expressed. You cannot, M-.-Girdwood,&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7625-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7625-00000007"/>&#xD;
 12         SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 &#xD;
 teach chivalry to chivalry itself. You are in&#xD;
@@ -1096,7 +1101,7 @@ SCOTTO, i THE SCOUT ; OR, THE UNION RANGERS&#xD;
 ; )&#xD;
 +&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7625-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7625-00000008"/>&#xD;
 SCOTTO, THE SCOU'i'; O1, TUi 'MION RtAMGER S&#xD;
 &#xD;
 14        SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
@@ -1356,7 +1361,7 @@ rebels was ekal to five Yankees."&#xD;
 One of the soldiers obeyed, with singular&#xD;
 alaclity and .ilenee. Girdwood marveled that&#xD;
 &#xD;
-<pb  n="16-17 (Illustration) " xml:id="VAC7625-00000009"/>&#xD;
+<pb n="16-17 (Illustration) " xml:id="VAC7625-00000009"/>&#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 &#xD;
 Colonel Hurdlestone showed so much defer-a&#xD;
@@ -1497,7 +1502,7 @@ te1&#xD;
 &#xD;
 13&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7625-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7625-00000010"/>&#xD;
 SCOTTO, THE SCOUT; OR, THE UNION RANGERS.&#xD;
 &#xD;
 " I bought, and then ag'in I moughtn't I" an-&#xD;
@@ -1630,7 +1635,7 @@ request."&#xD;
 &#xD;
 19&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7625-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7625-00000011"/>&#xD;
 20&#xD;
 &#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
@@ -1767,7 +1772,7 @@ quests, as you leave me unarmed," remarked ter of our host, I dare say, will mak
 eicauregard, carelessly.                   amends for the restriction I lay upon you."&#xD;
 "..4 thousand pardons, general I" answered  "May I ask how long I am to be a prisoner 1.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7625-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7625-00000012"/>&#xD;
 22              SCOTTO,, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 " Till those arrive who will pronounce on I Hope. Then, in a lower tone : "Il suspect that&#xD;
 your goo i or bad faith. I daily expect some of your own position may not be a safe one."&#xD;
@@ -1973,7 +1978,7 @@ round the house, the chances of the prisoner-&#xD;
 are small," observed Ralph, reflectively. "No&#xD;
 one, Miss Hurdlestone, can gain aeess to him&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC7625-00000013"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC7625-00000013"/>&#xD;
 SCOTTO, THE SCOUT; OR.THE UNION RANGERS.&#xD;
 &#xD;
 so rea lily as yourself.  You are famuia' wii&#xD;
@@ -2083,7 +2088,7 @@ r&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7625-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7625-00000014"/>&#xD;
 i&#xD;
 &#xD;
 x&#xD;
@@ -2159,7 +2164,7 @@ longer, gin'ral ; we're sp'ilin' for a fight. Have un, B'uregard ! You're the ho
 to sprinkle a trifle of cheercoal over us, I al- declar' if you ain't some persimmons ! Le' me&#xD;
 low."                                      look at that ar?"&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7625-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7625-00000015"/>&#xD;
 28          SCOTTO, THE SCOUT; OR, THE UNION RANGERS.&#xD;
 &#xD;
 Zadoc laid hold of the general's arm with as&#xD;
@@ -2427,7 +2432,7 @@ ence," said Ralph.&#xD;
 "I smell the smoke of smould'ing amp.&#xD;
 I fires," said Ralph.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7625-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7625-00000016"/>&#xD;
 1&#xD;
 &#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
@@ -2683,7 +2688,7 @@ your mind, after a moment's reflection," an-&#xD;
 swered Hope, unruffled and dignified.&#xD;
 " Be silent, sir !" exclaimed the general, an-&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7625-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7625-00000017"/>&#xD;
 32                 SCOTTO, THE SCOUT ; OR, TIIE UNION RANGERS.&#xD;
 tiiritativelv.  "The word of Miss Hope is suffi- threatening y F t1  'ird wood, who saw in its&#xD;
 cient for her .       -nocace.'_             rigid lin'-4 I I " ' .' nope and much to fear.&#xD;
@@ -2843,7 +2848,7 @@ himself. many times.- With the gloomy reali-&#xD;
 ties of death before him, he was forced to an-&#xD;
 swer this query in the negative. That stern,&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7625-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7625-00000018"/>&#xD;
 SC T , T'IE SCOUT; OX. T lE UNION RANGE RS.&#xD;
 &#xD;
 a Ild conqueror of mcii, when seen at arms&#xD;
@@ -3041,7 +3046,7 @@ Bress. d Lor'! dey goes every day ! One and his character&#xD;
 went ist night," answered Dagon.              While he pondered -these things, the dog&#xD;
 el, if you can get me someat that he Jule trotted quietly by the scout, now looking '&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7625-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7625-00000019"/>&#xD;
 8d               SCOTTO, TUE SCOUT ; OR, THE UNION RANGERS.&#xD;
 up wistfully, now depressing her sharp muzzle l guard. I don't ask to understan', cyther. I don't&#xD;
 to the ground, and now scenting the chance want to understan', nyther.  'in only part of a&#xD;
@@ -3235,7 +3240,7 @@ to the Rui.",  -   .&#xD;
 Ralph.&#xD;
 " Th-y're itot gii' to attack in force to-day.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7625-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7625-00000020"/>&#xD;
 as          SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 &#xD;
 They're makin' a strong reconnoisanee of the&#xD;
@@ -3429,7 +3434,7 @@ hands of Touton Beauregard. Findin' you in   When Girdwood'went back that way, t
 sich company, it migl t be diffikils for ye to brave heart was cold.&#xD;
 prove your Innocence of loyalty to the old flag. The Minis and musket balls flew like hall.&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC7625-00000021"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC7625-00000021"/>&#xD;
 40               SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 stones, while whirling globes of -iron and lead I the scout, who ha l.dismounted and loosened the&#xD;
 from rifled cannon sheared the branches from-jgirths of his saddle. Then to Ralph, laying&#xD;
@@ -3495,7 +3500,7 @@ to me if 'tisat the same entirely thatrun the defend began to play again. TheFir
 picket with niver a countei'sign at Al, at alll" sprang to their feet, cheered tie flaunting Stars&#xD;
 eried Barney Malone, directing his remarks to sand Stripes, and disappeared ini the woods, like&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7625-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7625-00000022"/>&#xD;
 SCOTTO, .THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 &#xD;
 black and flitting shadows, relieved only by the&#xD;
@@ -3629,7 +3634,7 @@ e&#xD;
 &#xD;
 43&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7625-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7625-00000023"/>&#xD;
 '          .-   SCOTTO, THE SCOUT; OR, THE UNION RANGERS.&#xD;
 norsemen tried to escape, but few succeeded;  "Ay, ay, cap'n I  2ill etch him  acar on&#xD;
 and of all those who rode so proudly to I he en- alive," responded the worthy corpora&#xD;
@@ -3763,7 +3768,7 @@ the lurid sky.                                 "I had forgotten.  Thank you, Mur
 On and 'on rolled the portentous pareant. never traveled this ground but once, and then&#xD;
 Regiment after regiment burst from the glitter- in the night."&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7625-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7625-00000024"/>&#xD;
 'B    .     SCOTTO, THE SCOUT: OR, THE UNION RANGERS.&#xD;
 &#xD;
 "Exactly, mister. You brought dispatches&#xD;
@@ -3959,7 +3964,7 @@ sas ?"                                     Your fader and Abe Linkum'l he proper
 4 Alas, no! The arrival of Johnston has to see ye," urged Dagon, earnestly.&#xD;
 plucked the laurels of victory from our brows  Miss Hurdlestone arose, hesitated,' blaad-1,&#xD;
 &#xD;
-<pb  n="48-49 (Illustration) " xml:id="VAC7625-00000025"/>&#xD;
+<pb n="48-49 (Illustration) " xml:id="VAC7625-00000025"/>&#xD;
 SCOTTO, THE.SCOUT; OR, THE UNION RANGERS.&#xD;
 &#xD;
 and gave her hand to'Girdwood, who, with swell-&#xD;
@@ -4100,7 +4105,7 @@ O.&#xD;
 &#xD;
 48 .&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7625-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7625-00000026"/>&#xD;
 SCOTTO, THE SCOUT ;-OR, THE UNION RANGERS.&#xD;
 &#xD;
 to fight, let 'em eome up and tackle each other, I Hope. He was not embarrassed for want of&#xD;
@@ -4169,7 +4174,7 @@ face an enemy, he faltered in the presence of tunity is everything."&#xD;
 &#xD;
 5I&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7625-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7625-00000027"/>&#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.   63&#xD;
 &#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
@@ -4435,7 +4440,7 @@ let the poor critters have it. It may be   ut ,t&#xD;
 to stay awhile where we are. Artr -I've t am&#xD;
 our bearin's, we'll make a fresh "mit, v-' p&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7625-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7625-00000028"/>&#xD;
 SCOTTO, THE SCOUT-; OR, THE UNION RANG 5.    65&#xD;
 &#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
@@ -4695,7 +4700,7 @@ arter mine.  You owe me nothing' worth the&#xD;
 mentioning . I trust when I see you ag'in, it&#xD;
 may be at Wadhin'ton, or Baltimore. or -&#xD;
 &#xD;
-<pb  n="56-57 (Illustration) " xml:id="VAC7625-00000029"/>&#xD;
+<pb n="56-57 (Illustration) " xml:id="VAC7625-00000029"/>&#xD;
 Is               SCOTTO, THE SCOUT ; GR, THE UNION RANGERS.&#xD;
 delphy,'or some o' them ere doomed cities !" ed one of the men. "lHe don't see nothin' but&#xD;
 said Murch, with an expression not easy of com- her, and no bullet could touch her, if he could&#xD;
@@ -4772,7 +4777,7 @@ Jp&#xD;
 &#xD;
 S1&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7625-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7625-00000030"/>&#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANGERS.&#xD;
 &#xD;
 i&#xD;
@@ -4907,7 +4912,7 @@ all."&#xD;
 &#xD;
 T'&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7625-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7625-00000031"/>&#xD;
 SCOTTO, TIIE SCOUT; OR, TIE UNION RANGERS.&#xD;
 &#xD;
 The vivandiere pressed Hope's hand affection-&#xD;
@@ -5113,7 +5118,7 @@ SCOTTO, TUE SCOUT ; OR, THI UNIN RANGERS.&#xD;
 &#xD;
 C1&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7625-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7625-00000032"/>&#xD;
 62         SCOTTO, THE SCOUT; OR, THE UNION RANGERS.&#xD;
 &#xD;
 an oak glade, and were glad to sink upon the&#xD;
@@ -5378,7 +5383,7 @@ when I fired was about six feet from the muzzle&#xD;
 &#xD;
 .I'~&#xD;
 &#xD;
-<pb  n="64-65 (Illustration) " xml:id="VAC7625-00000033"/>&#xD;
+<pb n="64-65 (Illustration) " xml:id="VAC7625-00000033"/>&#xD;
 64               SCOTTO, THE SCOUT ; OR, THE UNION RANGER .&#xD;
 of me pistol, and his horse bounding' forrard doubtitn' me I fear ye are?" answered Barney,&#xD;
 with him, he toppled off at my side. Quick as looking at her inquistively. " It's little I'd be&#xD;
@@ -5444,7 +5449,7 @@ me."                                       . nayther do they bn'.st. Ilt's tnt o
 then ?" aiked the vivadiere.               t beef ant pt''raties. I won bi not he he liinnme'-&#xD;
 " More'n I could t Il ye int a day,'ittiss. Its pot ta.wt Would b t, insi i a eabstbtZt moeself&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7625-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7625-00000034"/>&#xD;
 SCOTTO, TUE SCOUT;, OR, THE UNION RANGERS.&#xD;
 &#xD;
 y&#xD;
@@ -5578,7 +5583,7 @@ national hanter with singular intensity.&#xD;
 "Human selfishness and lhn:na, hate are ieeL&#xD;
 ing from view. Our Revtelutionary fathers wru's&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7625-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7625-00000035"/>&#xD;
 68&#xD;
 &#xD;
 SCOTTO, THE SCOUT ; OR, THE UNION RANr ERS.&#xD;
@@ -5669,7 +5674,7 @@ The Rangers having been recruited to a reg-&#xD;
 -&#xD;
 " -&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7625-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7625-00000036"/>&#xD;
 PUTHEOWLET;s&#xD;
 THE ROYAL HIGHWAYMAN.&#xD;
 CHAPTER I.                  were ready to make a new day wit their&#xD;
@@ -5789,7 +5794,7 @@ f!&#xD;
 &#xD;
 . f&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7625-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7625-00000037"/>&#xD;
 THE OWLET; OR, THE ROYAL HIGHWAYMAN.                           6&#xD;
 aide of the hall, a  ,cw a loud e',a  g3c 1o.fall to rise:no more-for Newgate was never&#xD;
 on their trumpet   i  to theoth eride, a the tyrant's dungeon, in which politicalcreeds&#xD;
@@ -5857,8 +5862,8 @@ like the old Bastile of Paris ; but not like it, rout of sounds that belong to t
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;   
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

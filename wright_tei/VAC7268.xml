@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7268">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7268">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Going and Son </title>
-            <author >Moine.</author>
+            <title>Going and Son </title>
+            <author>Moine.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7268</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7268</idno>
+            <idno type="wright2" n="previous">wright2-1729</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Going and son</title>
-                  <author >Moine.</author>
+                  <title>Going and son</title>
+                  <author>Moine.</author>
                </titleStmt>
-               <extent >167 p.</extent>
+               <extent>167 p.</extent>
                <publicationStmt>
-                  <publisher >Published for the author by The American News Co.</publisher>
+                  <publisher>Published for the author by The American News Co.</publisher>
                   <pubPlace>New York </pubPlace>
-                  <date  when="1869">1869</date>
+                  <date when="1869">1869</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-11">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-11">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Going and son</head> 
+            <head>Going and son</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC7268-00000001"/>GOING AND SON&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC7268-00000001"/>GOING AND SON&#xD;
 A NOVEL.&#xD;
 &#xD;
 By&#xD;
@@ -115,7 +120,7 @@ Y ;&#xD;
 I&#xD;
 'I&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7268-00000002"/>&#xD;
+<pb n="0" xml:id="VAC7268-00000002"/>&#xD;
 r&#xD;
 '&#xD;
 s;&#xD;
@@ -145,7 +150,7 @@ human nature in general.&#xD;
 &#xD;
 PR F.ACE.&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC7268-00000003"/>&#xD;
+<pb n="0" xml:id="VAC7268-00000003"/>&#xD;
 GOING AND SON.&#xD;
 A NOVEL.&#xD;
 &#xD;
@@ -263,7 +268,7 @@ L&#xD;
 S&#xD;
 i&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7268-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7268-00000004"/>&#xD;
 6&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -489,7 +494,7 @@ extent of her desires, she finally placed the and losing all my gloomy fancies, 
 whole of my fortune beyond my control, and that night was approaching.&#xD;
 when I proved myself a beggar, her protesta- The massing of heavy clouds enveloped the&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7268-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7268-00000005"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 F&#xD;
@@ -822,7 +827,7 @@ thought to himself, " Either pay no attention&#xD;
 to me at all, or else be courteous."&#xD;
 Mr. Walter Going disappeared with the note&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7268-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7268-00000006"/>&#xD;
 r&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -1119,7 +1124,7 @@ peculiar, but more- on a par between the&#xD;
 " castes " of the office, for the partners would&#xD;
 leave at four o'clock; and five minutes later,&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7268-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7268-00000007"/>&#xD;
 FANTASY.&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -1440,7 +1445,7 @@ for these lands, Mr. Muller ?" asked our here.&#xD;
 " August Muller's affairs are open to the&#xD;
 world," was the pompous answer. " He&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7268-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7268-00000008"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 r&#xD;
@@ -1783,7 +1788,7 @@ FANTASY-.&#xD;
 &#xD;
 15&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7268-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC7268-00000009"/>&#xD;
 16&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -2079,7 +2084,7 @@ She colored deeply; but her features re-&#xD;
 mained unmoved, and with downcast eyes&#xD;
 she made a courtesy.-&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7268-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7268-00000010"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 FANTASY.                         19&#xD;
@@ -2378,7 +2383,7 @@ cnnot givecy.a woman much satisfaction, I&#xD;
 t2&#xD;
 I&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7268-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7268-00000011"/>&#xD;
 ju&#xD;
 Iir~&#xD;
 &#xD;
@@ -2678,7 +2683,7 @@ r}&#xD;
 &#xD;
 of&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7268-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7268-00000012"/>&#xD;
 7  !&#xD;
 !.&#xD;
 t"&#xD;
@@ -3000,7 +3005,7 @@ ti&#xD;
 &#xD;
 GOING AND SON.&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7268-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC7268-00000013"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 j[f5&#xD;
@@ -3338,7 +3343,7 @@ in order to redeem her character, he must go&#xD;
 !&#xD;
 ,&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7268-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7268-00000014"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 IF&#xD;
@@ -3645,7 +3650,7 @@ c&#xD;
 E.&#xD;
 !&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7268-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7268-00000015"/>&#xD;
 28 .&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -3943,7 +3948,7 @@ Walter's suggestion was favorably received,&#xD;
 &#xD;
 It,&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7268-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7268-00000016"/>&#xD;
 FANTASY.                         31&#xD;
 &#xD;
 30                   GOING AND SON.&#xD;
@@ -4236,7 +4241,7 @@ such a thing; but I have learned to look at&#xD;
 you with Walter's eyes; will you make me&#xD;
 this promise ?"&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7268-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC7268-00000017"/>&#xD;
 32                              GOING A4&#xD;
 Our hero looked at her face, all glowing&#xD;
 with fixedness of purpose, and felt that he&#xD;
@@ -4528,7 +4533,7 @@ Going.&#xD;
 ,,&#xD;
 1&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7268-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7268-00000018"/>&#xD;
 8-j                  GOING AND SON.F&#xD;
 &#xD;
 absurd as ever," criticized Miss Jessie. Look&#xD;
@@ -4821,7 +4826,7 @@ raving maniac, ready to show it at any moment.&#xD;
 &#xD;
 FAti TASY.                     35&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7268-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7268-00000019"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 37t&#xD;
@@ -5118,7 +5123,7 @@ very well; yet, is anxious to learn again, a&#xD;
 &#xD;
 FANTASY.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7268-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7268-00000020"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 38&#xD;
@@ -5411,7 +5416,7 @@ but melancholy originality.&#xD;
 You have often promised to tell me of&#xD;
 your past life, Mr. Bates," said our hero.&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7268-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7268-00000021"/>&#xD;
 40&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -5715,7 +5720,7 @@ craven sulbmissiveness with which he threw&#xD;
 himself at my feet in the cell, weeping anid&#xD;
 Groaning as a miserable sinner should do,-only&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7268-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7268-00000022"/>&#xD;
 42&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -6011,7 +6016,7 @@ ihoe changed. With a grim look he asked&#xD;
 himself,&#xD;
 -- Have I made another blunder to-night ?"&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7268-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7268-00000023"/>&#xD;
 FACT.&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -6310,7 +6315,7 @@ quired books from the safe, and books from the&#xD;
 &#xD;
 z&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7268-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7268-00000024"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 ''&#xD;
@@ -6664,7 +6669,7 @@ FACT.&#xD;
 &#xD;
 i&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7268-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC7268-00000025"/>&#xD;
 FACT.&#xD;
 &#xD;
 f i&#xD;
@@ -7005,7 +7010,7 @@ r j&#xD;
 ]&#xD;
 '&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7268-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7268-00000026"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 ii 1t&#xD;
@@ -7320,7 +7325,7 @@ x )&#xD;
 s&#xD;
 - ..-_ _.&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7268-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7268-00000027"/>&#xD;
 52&#xD;
 &#xD;
 FACT.&#xD;
@@ -7549,7 +7554,7 @@ and not at all displeased. " What a charming&#xD;
 repartee! So very witty i Well, I have come&#xD;
 to the conclusion that Bates stole the first&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7268-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7268-00000028"/>&#xD;
 54&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -7856,7 +7861,7 @@ I ii&#xD;
 xi&#xD;
 3&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7268-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7268-00000029"/>&#xD;
 56                    GOING AND SON.&#xD;
 &#xD;
 took the advice, trying to cover his admiration&#xD;
@@ -8077,7 +8082,7 @@ himi, even when threatened with the worst this affair except our hero, who could
 &#xD;
 FACT.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7268-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7268-00000030"/>&#xD;
 58                   GOING AND SON.&#xD;
 &#xD;
 have told that this was nothing new; that it&#xD;
@@ -8377,7 +8382,7 @@ f&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7268-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7268-00000031"/>&#xD;
 60                   GOING AND SON.&#xD;
 &#xD;
 manteau, which looked as if broken open by&#xD;
@@ -8671,7 +8676,7 @@ rI&#xD;
 &#xD;
 FACT.                          61&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7268-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7268-00000032"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 words from Stilletto had changed the anger of&#xD;
@@ -8984,7 +8989,7 @@ p t r"&#xD;
 I  Y&#xD;
 t&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7268-00000033"/>&#xD;
+<pb n="64-65" xml:id="VAC7268-00000033"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 eration, some pleasant, others more threaten-&#xD;
@@ -9280,7 +9285,7 @@ FACT.&#xD;
 &#xD;
 65&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7268-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7268-00000034"/>&#xD;
 66                   GOING AND SON.&#xD;
 &#xD;
 before he went into it; but he would not listen&#xD;
@@ -9583,7 +9588,7 @@ t  '&#xD;
 &#xD;
 FACT.                        67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7268-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7268-00000035"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 if you think of me at all, remember only the&#xD;
@@ -9891,7 +9896,7 @@ ft&#xD;
 itt('&#xD;
 f  j'&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7268-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7268-00000036"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 FACT.                            71&#xD;
@@ -10182,7 +10187,7 @@ coming?"&#xD;
 &#xD;
 31&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7268-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7268-00000037"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 swered Bella, with a bright and happy face&#xD;
@@ -10491,7 +10496,7 @@ r l&#xD;
 :'k&#xD;
 ;llc&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7268-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7268-00000038"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 weeping, "and I shall pray to God all my&#xD;
@@ -10794,7 +10799,7 @@ r&#xD;
 &#xD;
 FELONY-.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7268-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7268-00000039"/>&#xD;
 76                    GOING AND SON.&#xD;
 &#xD;
 man, and" not like a blag-gard, saving your&#xD;
@@ -11087,7 +11092,7 @@ undisguised adgiiration, struck by her charm-&#xD;
 &#xD;
 FELONY                          7' j&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7268-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7268-00000040"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 ing appearance in a morning dress, with her&#xD;
@@ -11374,7 +11379,7 @@ ing found out that, after all, a trustee, even&#xD;
 &#xD;
 FELONY.&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7268-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7268-00000041"/>&#xD;
 80                              GOING A&#xD;
 though it be inconvenient, is expected to do&#xD;
 something for the company that has purchased&#xD;
@@ -11664,7 +11669,7 @@ superior to this one. The sun was now some'&#xD;
 time at rest, and the stranger approached&#xD;
 them closely .before they recognized him.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7268-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7268-00000042"/>&#xD;
 FELONY.                          83&#xD;
 &#xD;
 Judge Bates, with an altered manner, stared&#xD;
@@ -11956,7 +11961,7 @@ spectues to appall human kind.&#xD;
 &#xD;
 GOING AND SON.&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7268-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7268-00000043"/>&#xD;
 84                   GOING AND SON.&#xD;
 &#xD;
 Who could have written it? The penman-&#xD;
@@ -12240,7 +12245,7 @@ I think we had better make an end of every&#xD;
 &#xD;
 FELONY.                        8j&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7268-00000044"/>&#xD;
+<pb n="86-87" xml:id="VAC7268-00000044"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 thing. If the company does not pay us, sus-&#xD;
@@ -12535,7 +12540,7 @@ upon lier with pity-nan expression that would&#xD;
 &#xD;
 FELONY.,&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7268-00000045"/>&#xD;
+<pb n="88-89" xml:id="VAC7268-00000045"/>&#xD;
 FELONY.                          89&#xD;
 &#xD;
 move a brazen image to hot tears, a gaze that&#xD;
@@ -12749,7 +12754,7 @@ great comfort," said Walter, lighting a cigar, year in tire country, and many pu
 &#xD;
 00                   GOING AND SON.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7268-00000046"/>&#xD;
+<pb n="90-91" xml:id="VAC7268-00000046"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 the city had been induced to attend the sale&#xD;
@@ -13040,7 +13045,7 @@ FELONY.&#xD;
 &#xD;
 91&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7268-00000047"/>&#xD;
+<pb n="92-93" xml:id="VAC7268-00000047"/>&#xD;
 92                   GOING AND SON.&#xD;
 &#xD;
 John's interest in ordinary matters, by con-&#xD;
@@ -13333,7 +13338,7 @@ showed that the flashing eyes, the tharious Ire-&#xD;
 &#xD;
 FELONY.                        93&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7268-00000048"/>&#xD;
+<pb n="94-95" xml:id="VAC7268-00000048"/>&#xD;
 94                    GOING AND SON.&#xD;
 &#xD;
 mor of Montant's whole frame, had not escaped&#xD;
@@ -13620,7 +13625,7 @@ most people, and especially herself.&#xD;
 &#xD;
 FELONY.                    . 95&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7268-00000049"/>&#xD;
+<pb n="96-97" xml:id="VAC7268-00000049"/>&#xD;
 96                    GOING AND SON.&#xD;
 &#xD;
 When the lights in the village had all dis.&#xD;
@@ -13914,7 +13919,7 @@ fields, on their way to the village. "I tell you&#xD;
 &#xD;
 FELONY.             -       97&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7268-00000050"/>&#xD;
+<pb n="98-99" xml:id="VAC7268-00000050"/>&#xD;
 98                    GOING AND SON.&#xD;
 &#xD;
 that my wife is not like other women; she's   "I do not blame Mrs. Van Strom," said&#xD;
@@ -14136,7 +14141,7 @@ me-" shte faltered arid stopped, arrested by&#xD;
 the expression of that demoniac white face&#xD;
 before her. With a benumbing sensation, she&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7268-00000051"/>&#xD;
+<pb n="100-101" xml:id="VAC7268-00000051"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 FELONY.&#xD;
@@ -14426,7 +14431,7 @@ tured mc; do you, dear ?" shte added, laughing,&#xD;
 &#xD;
 101&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC7268-00000052"/>&#xD;
+<pb n="102-103" xml:id="VAC7268-00000052"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 and stroking his stubborn hair; "although,&#xD;
@@ -14723,7 +14728,7 @@ FELONY.&#xD;
 &#xD;
 103&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC7268-00000053"/>&#xD;
+<pb n="104-105" xml:id="VAC7268-00000053"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 village to make a legal and thoroughly com-&#xD;
@@ -15017,7 +15022,7 @@ FELONY.&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC7268-00000054"/>&#xD;
+<pb n="106-107" xml:id="VAC7268-00000054"/>&#xD;
 FORTUNE.                      107&#xD;
 &#xD;
 fortune. God knows I would willingly pay&#xD;
@@ -15255,7 +15260,7 @@ the taight of that eloquence, which could sway i that word is "  Ilobgoblin."&#x
 &#xD;
 GOING AND SON.&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC7268-00000055"/>&#xD;
+<pb n="108-109" xml:id="VAC7268-00000055"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 On his right, "IHobgoblin " awaits him, on&#xD;
@@ -15480,7 +15485,7 @@ a"that you could have found one creature to phemous doubt of God's integrity.&#x
 &#xD;
 FORTUNE.&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC7268-00000056"/>&#xD;
+<pb n="110-111" xml:id="VAC7268-00000056"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 Visions of the misery on earth, of dingy&#xD;
@@ -15705,7 +15710,7 @@ FORTU.NE.&#xD;
 &#xD;
 110&#xD;
 &#xD;
-<pb  n="112" xml:id="VAC7268-00000057"/>&#xD;
+<pb n="112" xml:id="VAC7268-00000057"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 brought up under the kind influences of home&#xD;
@@ -15854,7 +15859,7 @@ dered his friend, John Van Strom. Martin&#xD;
 &#xD;
 112&#xD;
 &#xD;
-<pb  n="-113" xml:id="VAC7268-00000058"/>&#xD;
+<pb n="-113" xml:id="VAC7268-00000058"/>&#xD;
 Bates, from his acquaintance with both parties,&#xD;
 was convinced that Stilletto was the guilty man,&#xD;
 and nothing would have prevented him from&#xD;
@@ -16002,7 +16007,7 @@ I 13&#xD;
 &#xD;
 FORTUNE.&#xD;
 &#xD;
-<pb  n="114" xml:id="VAC7268-00000059"/>&#xD;
+<pb n="114" xml:id="VAC7268-00000059"/>&#xD;
 114                     .       GOING A:&#xD;
 tool, his accessory, Oh, for God's sake!4 tear&#xD;
 the diabolical net of lies which has been spread&#xD;
@@ -16155,7 +16160,7 @@ an&#xD;
 acs&#xD;
 au&#xD;
 &#xD;
-<pb  n="-115" xml:id="VAC7268-00000060"/>&#xD;
+<pb n="-115" xml:id="VAC7268-00000060"/>&#xD;
 FORTUNE.&#xD;
 &#xD;
 The human race has produced brutes,-&#xD;
@@ -16304,7 +16309,7 @@ Cash any more, Solomons ?"&#xD;
 " The day of cash is done," answered Solo-&#xD;
 mons, dolefully. " Cash is dead, it has taken&#xD;
 &#xD;
-<pb  n="116" xml:id="VAC7268-00000061"/>&#xD;
+<pb n="116" xml:id="VAC7268-00000061"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 wings and fled. My diamonds and watch are&#xD;
@@ -16496,7 +16501,7 @@ life.&#xD;
 &#xD;
 I bee&#xD;
 &#xD;
-<pb  n="-117" xml:id="VAC7268-00000062"/>&#xD;
+<pb n="-117" xml:id="VAC7268-00000062"/>&#xD;
 Avenue; but it appeared to them as if they&#xD;
 enjoyed the fine residence only as tenants,&#xD;
 simply tolerated out of charity by those who&#xD;
@@ -16640,7 +16645,7 @@ FORTUNE.&#xD;
 &#xD;
 117&#xD;
 &#xD;
-<pb  n="118" xml:id="VAC7268-00000063"/>&#xD;
+<pb n="118" xml:id="VAC7268-00000063"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 remove it? -Have you taken that interest,&#xD;
@@ -16789,7 +16794,7 @@ is a great science. He had plenty of beer and&#xD;
 &#xD;
 118&#xD;
 &#xD;
-<pb  n="-119" xml:id="VAC7268-00000064"/>&#xD;
+<pb n="-119" xml:id="VAC7268-00000064"/>&#xD;
 FORT&#xD;
 tobacco, and the flight of time was to him only&#xD;
 the source of a majestic contentment as he&#xD;
@@ -16939,7 +16944,7 @@ alliance in a bumper of malt."&#xD;
 SStiletto. " Well, take it down until you burst&#xD;
 your-self, if you want to: but excuse me."&#xD;
 &#xD;
-<pb  n="120" xml:id="VAC7268-00000065"/>&#xD;
+<pb n="120" xml:id="VAC7268-00000065"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 Muller. " To-day I was subpoenaed for the&#xD;
@@ -17088,7 +17093,7 @@ Stump. " Just as you please sir."&#xD;
 &#xD;
 120&#xD;
 &#xD;
-<pb  n="-121" xml:id="VAC7268-00000066"/>&#xD;
+<pb n="-121" xml:id="VAC7268-00000066"/>&#xD;
 FORTUNE.&#xD;
 &#xD;
 Paradise. "And since you want to re-enter&#xD;
@@ -17235,7 +17240,7 @@ there."&#xD;
 Paradise..." So I think. I will send for&#xD;
 Stump at once. He is our man."&#xD;
 &#xD;
-<pb  n="122" xml:id="VAC7268-00000067"/>&#xD;
+<pb n="122" xml:id="VAC7268-00000067"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 CHAPTER V.&#xD;
@@ -17381,7 +17386,7 @@ me&#xD;
 &#xD;
 122&#xD;
 &#xD;
-<pb  n="-123" xml:id="VAC7268-00000068"/>&#xD;
+<pb n="-123" xml:id="VAC7268-00000068"/>&#xD;
 FORTUNE.&#xD;
 &#xD;
 there is no fght .in him when he meets his&#xD;
@@ -17530,7 +17535,7 @@ want to rescue the innocent, although it cost a&#xD;
 brother's life, or happiness, or virtue, or honor,&#xD;
 or what you may call all the cursed things.&#xD;
 &#xD;
-<pb  n="124" xml:id="VAC7268-00000069"/>&#xD;
+<pb n="124" xml:id="VAC7268-00000069"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 Now, what harm has that brother done to you&#xD;
@@ -17679,7 +17684,7 @@ Stump, shocked at Martin's ejaculation.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="-125" xml:id="VAC7268-00000070"/>&#xD;
+<pb n="-125" xml:id="VAC7268-00000070"/>&#xD;
 FORTUNE.&#xD;
 &#xD;
 tess, in a whisper. "My son, Stilletto, Mar-&#xD;
@@ -17826,7 +17831,7 @@ great New York lawyer," was whispered&#xD;
 through the audience, and the intelligence of&#xD;
 his marked features, and the brightness of his&#xD;
 &#xD;
-<pb  n="126" xml:id="VAC7268-00000071"/>&#xD;
+<pb n="126" xml:id="VAC7268-00000071"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 eyes received a dumb tribute from these rus-&#xD;
@@ -17975,7 +17980,7 @@ Here the district attorney put the question'&#xD;
 &#xD;
 120&#xD;
 &#xD;
-<pb  n="-127" xml:id="VAC7268-00000072"/>&#xD;
+<pb n="-127" xml:id="VAC7268-00000072"/>&#xD;
 FORTUNE.&#xD;
 &#xD;
 " Was not your husband's mind of that&#xD;
@@ -18124,7 +18129,7 @@ to keep his eye on him, for he will be wanted&#xD;
 very much, when this trial is closed, and I amn&#xD;
 sure he will not be here then if he is allowed&#xD;
 &#xD;
-<pb  n="128" xml:id="VAC7268-00000073"/>&#xD;
+<pb n="128" xml:id="VAC7268-00000073"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 a chance to escape." Under the spell of the&#xD;
@@ -18273,7 +18278,7 @@ The district attorney objected. He saw no&#xD;
 &#xD;
 128&#xD;
 &#xD;
-<pb  n="-129" xml:id="VAC7268-00000074"/>&#xD;
+<pb n="-129" xml:id="VAC7268-00000074"/>&#xD;
 FORTUNE.&#xD;
 &#xD;
 sense in losing time by' compelling witnesses&#xD;
@@ -18430,7 +18435,7 @@ lic&#xD;
 1&#xD;
 I&#xD;
 &#xD;
-<pb  n="130-131" xml:id="VAC7268-00000075"/>&#xD;
+<pb n="130-131" xml:id="VAC7268-00000075"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 131&#xD;
@@ -18727,7 +18732,7 @@ ed revenge as a crime, that-"&#xD;
 &#xD;
 FORTUNE.&#xD;
 &#xD;
-<pb  n="132-133" xml:id="VAC7268-00000076"/>&#xD;
+<pb n="132-133" xml:id="VAC7268-00000076"/>&#xD;
 132&#xD;
 &#xD;
 GOING AND SON.&#xD;
@@ -19016,7 +19021,7 @@ he know not ; but when, after an immense&#xD;
 effort, he again turned to her, sire was pale,&#xD;
 and calm, and stately.&#xD;
 &#xD;
-<pb  n="134-135" xml:id="VAC7268-00000077"/>&#xD;
+<pb n="134-135" xml:id="VAC7268-00000077"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 "I am truly glad to see you, Mr. Montant,"&#xD;
@@ -19313,7 +19318,7 @@ the security of this money. I would suggest&#xD;
 that we immediately look inao the condition of&#xD;
 your affairs provided you have the requisite&#xD;
 &#xD;
-<pb  n="136-137" xml:id="VAC7268-00000078"/>&#xD;
+<pb n="136-137" xml:id="VAC7268-00000078"/>&#xD;
 136               -              GOI    AND SON.&#xD;
 leisure, and can, from memory, make s ch ex-  "I know what it is I" cried the girl, and&#xD;
 tracts from the books as may be required."  stepping up to our hero, who turned around&#xD;
@@ -19528,7 +19533,7 @@ lower classes, and such pursuits were despised&#xD;
 &#xD;
 137&#xD;
 &#xD;
-<pb  n="138-139" xml:id="VAC7268-00000079"/>&#xD;
+<pb n="138-139" xml:id="VAC7268-00000079"/>&#xD;
 138                             GOING&#xD;
 and looked down upon by those of gentle&#xD;
 breeding, whose ancestry had for generations&#xD;
@@ -19827,7 +19832,7 @@ They are groping in the night of despair while&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="140-141" xml:id="VAC7268-00000080"/>&#xD;
+<pb n="140-141" xml:id="VAC7268-00000080"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 the sun is shedding golden beams upon the&#xD;
@@ -20096,7 +20101,7 @@ FATE.&#xD;
 &#xD;
 BOOK V.-FATE.&#xD;
 &#xD;
-<pb  n="142-143" xml:id="VAC7268-00000081"/>&#xD;
+<pb n="142-143" xml:id="VAC7268-00000081"/>&#xD;
 142                   GOING AND SON.&#xD;
 &#xD;
 The kind manner of the doctor reassured&#xD;
@@ -20384,7 +20389,7 @@ myself to him to get rid of him."&#xD;
 &#xD;
 FATE.                        143&#xD;
 &#xD;
-<pb  n="144-145" xml:id="VAC7268-00000082"/>&#xD;
+<pb n="144-145" xml:id="VAC7268-00000082"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 " You have not got rid of me yet," he cried.&#xD;
@@ -20610,7 +20615,7 @@ FATE.&#xD;
 &#xD;
 145&#xD;
 &#xD;
-<pb  n="146-147" xml:id="VAC7268-00000083"/>&#xD;
+<pb n="146-147" xml:id="VAC7268-00000083"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 In an excited-almost angry manner, she&#xD;
@@ -20899,7 +20904,7 @@ I entertaining one of the noble youths, Montant&#xD;
 &#xD;
 FATE.&#xD;
 &#xD;
-<pb  n="148-149" xml:id="VAC7268-00000084"/>&#xD;
+<pb n="148-149" xml:id="VAC7268-00000084"/>&#xD;
 148                             GOING AND SON.&#xD;
 again failed to see her alone. Shortly after them, and Miss Jessie declared, with anima.&#xD;
 his dinner, he was listening to Walter's ac- tion,-&#xD;
@@ -21119,7 +21124,7 @@ student of human nature."&#xD;
 sThe philosopher looked very much crest-&#xD;
 fallen, and as the twitching of his mouth, by&#xD;
 &#xD;
-<pb  n="150-151" xml:id="VAC7268-00000085"/>&#xD;
+<pb n="150-151" xml:id="VAC7268-00000085"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 FATE.                         151&#xD;
@@ -21414,7 +21419,7 @@ When they rode up to the house, they found&#xD;
 &#xD;
 150&#xD;
 &#xD;
-<pb  n="152-153" xml:id="VAC7268-00000086"/>&#xD;
+<pb n="152-153" xml:id="VAC7268-00000086"/>&#xD;
 GOING AND -SON.&#xD;
 &#xD;
 that the three gentlemen, who, instigated by&#xD;
@@ -21698,7 +21703,7 @@ FATE.&#xD;
 &#xD;
 153&#xD;
 &#xD;
-<pb  n="154-155" xml:id="VAC7268-00000087"/>&#xD;
+<pb n="154-155" xml:id="VAC7268-00000087"/>&#xD;
 154                   GOING AND SON.&#xD;
 &#xD;
 CHAPTER VI.&#xD;
@@ -21988,7 +21993,7 @@ think less of the mind, which judges from&#xD;
 &#xD;
 FATE.                       100&#xD;
 &#xD;
-<pb  n="156-157" xml:id="VAC7268-00000088"/>&#xD;
+<pb n="156-157" xml:id="VAC7268-00000088"/>&#xD;
 156                  GOING AND SON..&#xD;
 &#xD;
 outside objects entirely, than of the heart&#xD;
@@ -22275,7 +22280,7 @@ o mourning, who alighted, and was greeted with&#xD;
 &#xD;
 FATE.                       157&#xD;
 &#xD;
-<pb  n="158-159" xml:id="VAC7268-00000089"/>&#xD;
+<pb n="158-159" xml:id="VAC7268-00000089"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 some surprise on the part of Mr. Going and&#xD;
@@ -22572,7 +22577,7 @@ FATE.&#xD;
 &#xD;
 159&#xD;
 &#xD;
-<pb  n="160-161" xml:id="VAC7268-00000090"/>&#xD;
+<pb n="160-161" xml:id="VAC7268-00000090"/>&#xD;
 160                   GOING AND SON.&#xD;
 &#xD;
 the negro, running up with great servility.&#xD;
@@ -22862,7 +22867,7 @@ rather decidedly:- and without paying any&#xD;
 more attention to him, she left the room.&#xD;
 .Did she already know what he had to con-&#xD;
 &#xD;
-<pb  n="162-163" xml:id="VAC7268-00000091"/>&#xD;
+<pb n="162-163" xml:id="VAC7268-00000091"/>&#xD;
 fess to her? Had she listened in the con-&#xD;
 servatory ? As he tortured himself with these&#xD;
 doubts, Jessie entered the room, and Montant&#xD;
@@ -23155,7 +23160,7 @@ mirotuse huimr.; lie laiid away his cigar immitediate-&#xD;
 &#xD;
 FATE.&#xD;
 &#xD;
-<pb  n="164-165" xml:id="VAC7268-00000092"/>&#xD;
+<pb n="164-165" xml:id="VAC7268-00000092"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 ly, and descended to his sister's room. He&#xD;
@@ -23448,7 +23453,7 @@ FATE.&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="166-167" xml:id="VAC7268-00000093"/>&#xD;
+<pb n="166-167" xml:id="VAC7268-00000093"/>&#xD;
 GOING AND SON.&#xD;
 &#xD;
 was blue, it was on this splendid day, and the&#xD;
@@ -23652,8 +23657,8 @@ J&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

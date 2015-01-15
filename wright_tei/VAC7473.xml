@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7473">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7473">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Poor Mary Pomeroy! </title>
-            <author >Anonymous</author>
+            <title>Poor Mary Pomeroy! </title>
+            <author>Anonymous</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7473</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7473</idno>
+            <idno type="wright2" n="previous">wright2-1925</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Poor Mary Pomeroy!</title>
-                  <author >Anonymous</author>
+                  <title>Poor Mary Pomeroy!</title>
+                  <author>Anonymous</author>
                </titleStmt>
-               <extent >86 p.</extent>
+               <extent>86 p.</extent>
                <publicationStmt>
-                  <publisher >Old Franklin Publishing House</publisher>
+                  <publisher>Old Franklin Publishing House</publisher>
                   <pubPlace>Philadelphia</pubPlace>
-                  <date  when="1874">1874</date>
+                  <date when="1874">1874</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-01-15">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-01-15">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Poor Mary Pomeroy!</head> 
+            <head>Poor Mary Pomeroy!</head>
             <p>
-               <pb  n="0 (TitlePage) " xml:id="VAC7473-00000001"/>II&#xD;
+               <pb n="0 (TitlePage) " xml:id="VAC7473-00000001"/>II&#xD;
 &#xD;
 POOR MARY POMEROYI&#xD;
 THE JERSEY CITY MUSIC TEACHER.&#xD;
@@ -104,7 +109,7 @@ PHILADELPHIA, PA.&#xD;
 Enteed ccoringto Act of.Congress,In the year 1874, by C. W. A LEXANDE, In th. Ofiss o&#xD;
 the Librarian of Congress, at, Washington, D. C.&#xD;
 &#xD;
-<pb  n="Advertisement-3" xml:id="VAC7473-00000002"/>&#xD;
+<pb n="Advertisement-3" xml:id="VAC7473-00000002"/>&#xD;
 B~c. ood:&amp;amp; Go: Palor Orgw&#xD;
 &#xD;
 i&#xD;
@@ -171,7 +176,7 @@ popular on account of his talents nd winning manners, and, of course,&#xD;
 &#xD;
 'A&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC7473-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC7473-00000003"/>&#xD;
 S&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -274,7 +279,7 @@ Said one lady.&#xD;
 time, as the sweet and solemn sounds made me weep with emotion ith&#xD;
 Mary was thus, like the swan, singing her last and best strains befi&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC7473-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC7473-00000004"/>&#xD;
 POOR MARY POMEROY.&#xD;
 The agony of mind which she endured at that time must have&#xD;
 n horrible. But who knows? it might have been consoling and hea-&#xD;
@@ -376,7 +381,7 @@ watched her countenance, that the end was rapidly approaching. Early&#xD;
 in the morning Mr. Dudley the Overseer called at the house, and being&#xD;
 ,admitted to the sick room, he at once perceived that Mary was dying.&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7473-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC7473-00000005"/>&#xD;
 POOR 'MARY POMEROY.&#xD;
 e immediately sent for Justice Aldridge to take her ante mortem state-.&#xD;
 na ent. But the latter gentleman refused to come ercept the victim her-&#xD;
@@ -474,7 +479,7 @@ rage and determination enough to have taken the accused man's life "&#xD;
 right or wrong.&#xD;
 MARY'S FUNERAL.&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7473-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC7473-00000006"/>&#xD;
 L&#xD;
 &#xD;
 I-0&#xD;
@@ -576,7 +581,7 @@ worker ia God's vineyard had been accused in the most sOlemnl fork&#xD;
 &#xD;
 '1&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7473-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC7473-00000007"/>&#xD;
 POOR MARY 'POMEROY.&#xD;
 &#xD;
 V nown to mankind, by the now silent lips of Mary Pomei oy, of the vilest&#xD;
@@ -668,7 +673,7 @@ body of the unfortunate girl was lowered into the grave, e clods of&#xD;
 earth heaped in upoa her coffin until the mound was finished an rounded&#xD;
 vff into shape. So ended the mortal career of Mary Pomeroy.&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7473-00000008"/>&#xD;
+<pb n="14-15" xml:id="VAC7473-00000008"/>&#xD;
 14:                   POOR MIARY POMEROY.&#xD;
 THE SUBSEQUENT MOVEMENTS.&#xD;
 Of course, after the decease of the alleged victim all sorts of surmises&#xD;
@@ -714,7 +719,7 @@ Ninth street, which I did ; stated the facts to him and said my object&#xD;
 was to get the child into the institution to be properly nursed, He said&#xD;
 that really they had no right to take the child, as it belonged to New&#xD;
 &#xD;
-<pb  n="16 (Illustration) -17" xml:id="VAC7473-00000009"/>&#xD;
+<pb n="16 (Illustration) -17" xml:id="VAC7473-00000009"/>&#xD;
 POOR MARY POMEROY.                             4&#xD;
 Jersey, and ought not to be supported by a New York institution, but&#xD;
 that there would be a meeting of the Board of Managers Saturday, the&#xD;
@@ -761,7 +766,7 @@ meo notice him particularly." She also said that the doctor's would come&#xD;
 &#xD;
 Miss Pomeroy.&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7473-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC7473-00000010"/>&#xD;
 18&#xD;
 &#xD;
 PoOR MARY POMEROY.&#xD;
@@ -863,7 +868,7 @@ rather sharply to the objection of his colleague.&#xD;
 A, motion was, now made and carried to appoint a committee of six,&#xD;
 three clergymen and three elders, to take the matter into consideration.&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7473-00000011"/>&#xD;
+<pb n="20-21" xml:id="VAC7473-00000011"/>&#xD;
 20&#xD;
 &#xD;
 -OOR MARY POMEROT.&#xD;
@@ -974,7 +979,7 @@ Mrs. Fannie S Birmingham, Thomas Aldridge, Mrs. Lizzie E. Reeve,&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7473-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC7473-00000012"/>&#xD;
 22&#xD;
 &#xD;
 POOR MARY POMEROY.,&#xD;
@@ -1074,7 +1079,7 @@ POOR MARY POMEROY.&#xD;
 &#xD;
 231-&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC7473-00000013"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC7473-00000013"/>&#xD;
 24                     POOR MARY POMEROY.&#xD;
 Mrs.'Birmingham and Mrs, Walcott sat beside the 'death bed of Miss&#xD;
 Pomeroy and to them it was that the poor, perishing girl unburdened&#xD;
@@ -1125,7 +1130,7 @@ v&#xD;
 &#xD;
 * 11&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7473-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC7473-00000014"/>&#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
 her account of the interview, between her and I&#xD;
@@ -1209,7 +1214,7 @@ fore them-viz., the trial&#xD;
 r was seated beside his&#xD;
 'osecuting counsel, Rev.&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7473-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC7473-00000015"/>&#xD;
 28&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -1312,7 +1317,7 @@ Counsel for defence here objected to the reception of this testimony,&#xD;
 and while the discussion on this question was being carried on the Court&#xD;
 adjourned.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7473-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC7473-00000016"/>&#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
 On the second day Mr. J. S. Miller resumed the witness stand and&#xD;
@@ -1360,7 +1365,7 @@ denning's arrest; I consulted my lawyer and he advised me to go and&#xD;
 see Mr. Glendenning and that perhaps he would come like a man and&#xD;
 marry her, but that in case he refused we had better be prepared ; we&#xD;
 &#xD;
-<pb  n="32 (Illustration) -33" xml:id="VAC7473-00000017"/>&#xD;
+<pb n="32 (Illustration) -33" xml:id="VAC7473-00000017"/>&#xD;
 POOR MARY POMBOY.&#xD;
 &#xD;
 bad him first arrested on the charge of bastardy to prevent his going&#xD;
@@ -1410,7 +1415,7 @@ S&#xD;
 &#xD;
 33&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7473-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC7473-00000018"/>&#xD;
 34&#xD;
 &#xD;
 courts had dealt with'the case Mr. Glandenning would have to father the&#xD;
@@ -1505,7 +1510,7 @@ hardly speak; I was overcome with indignation at the thought that such&#xD;
 a thing could occur under my roof; Mary did not speak a word ; she&#xD;
 lay with her head in my wife's lap; some of the neighbot-s e,ame into my)~&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7473-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC7473-00000019"/>&#xD;
 -96&#xD;
 &#xD;
 house that evening, but I can't remember the exact language they used;&#xD;
@@ -1606,7 +1611,7 @@ habitsk" "Wher is he now?" anda score of such questions were put&#xD;
 ato Mr Miller, in rapid succession. The object of the defence in this was&#xD;
 sufficiently apparent.&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7473-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC7473-00000020"/>&#xD;
 W8                     POOR MARY POMEROY.&#xD;
 Mr. Randall was the first witness next day. He testified that he went,&#xD;
 in company with Mr. Nort hrup, to Mr. Millers's house on the night of&#xD;
@@ -1704,7 +1709,7 @@ and see her all right, but that she must clear him; she then wrote as be&#xD;
 Alictated, and she told me that everything seemed black before her eyes.&#xD;
 Here Glendenning laughed outright, and Mrs. Miller resented it quickly,$&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7473-00000021"/>&#xD;
+<pb n="40-41" xml:id="VAC7473-00000021"/>&#xD;
 40                   POOR MARY POMEROY.&#xD;
 &#xD;
 POOR MARY POMEROY.                    41&#xD;
@@ -1806,7 +1811,7 @@ astonished me'; Dr. Hubbard seemed to be annoyed at the nurse'&amp;amp;&#xD;
 4&#xD;
 4&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7473-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC7473-00000022"/>&#xD;
 .POOR MARY POMEROY.&#xD;
 &#xD;
 43&#xD;
@@ -1905,7 +1910,7 @@ picture and she answered," "Yes, I did, I will not take back anything I&#xD;
 have said,but the officers of the institution have positively forbidden me&#xD;
 to say anything about it."&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7473-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC7473-00000023"/>&#xD;
 44&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -2009,7 +2014,7 @@ the father of her child, and she said "yes;" I then asked her if she ever&#xD;
 &#xD;
 4.&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7473-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC7473-00000024"/>&#xD;
 46&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -2059,7 +2064,7 @@ I would my own daughter, several times that she ought not to receive&#xD;
 those presents.&#xD;
 Mrs. Sarah Graves, on cross-examination, testified:..-When I asked&#xD;
 &#xD;
-<pb  n="48 (Illustration) -49" xml:id="VAC7473-00000025"/>&#xD;
+<pb n="48 (Illustration) -49" xml:id="VAC7473-00000025"/>&#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
 I'&#xD;
@@ -2114,7 +2119,7 @@ Mrs. Caroline D. Wilson testified.-I knew 'Miss Poreroy after she&#xD;
 &#xD;
 :i.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7473-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC7473-00000026"/>&#xD;
 -50                    POOa MARY POMEROY.&#xD;
 was pregnant; knew her parents well when they lived in Ovid; Mary&#xD;
 went to live with Mr. Miller's family because she could not agree with&#xD;
@@ -2210,7 +2215,7 @@ mnent that there had been a previous arrangement in regard to it? A. No&#xD;
 &#xD;
 51&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7473-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC7473-00000027"/>&#xD;
 POOR MARY POMEROY'&#xD;
 fr, I had no such impression; but, perhaps, it might have r ult  from&#xD;
 'y obtuseness. (Laughter.)&#xD;
@@ -2304,7 +2309,7 @@ her finger; she mentioned uo name when she said she was engaged.&#xD;
 &#xD;
 58&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7473-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC7473-00000028"/>&#xD;
 POOR MARY POMEROY.                     55&#xD;
 &#xD;
 A TELL-TALE LETTER.&#xD;
@@ -2400,7 +2405,7 @@ ing I raised my hat and bowed to her, but she never spoke to me; I&#xD;
 4&#xD;
 54,                POOR MARY POMEROY.&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7473-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC7473-00000029"/>&#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
 thought it very-curious, as she always before spoke to me so pleasantly:&#xD;
@@ -2493,7 +2498,7 @@ had personal knowledge of Miss Pomeroy's remaining, but had no per-&#xD;
 &#xD;
 POOR * MAR'Y POMEROY.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7473-00000030"/>&#xD;
+<pb n="58-59" xml:id="VAC7473-00000030"/>&#xD;
 58                  POOR MARY POMERUOY.&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -2586,7 +2591,7 @@ Dr. Imbrie quickly rejoined: "Oh, but it makes very good sense."&#xD;
 The witness simply rehearsed the interview with Dr. Hybbard and the&#xD;
 nurse at the asylum.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7473-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC7473-00000031"/>&#xD;
 POORI MAIRY POMEOROY.&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -2687,7 +2692,7 @@ Cross-examined--...Don't think my son ever complainedd to me about&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7473-00000032"/>&#xD;
+<pb n="62-63" xml:id="VAC7473-00000032"/>&#xD;
 62                   POOR MARY POMEROY.&#xD;
 &#xD;
 Miss Pomeroy endeavoring to attract his attention ; never knew him to&#xD;
@@ -2735,7 +2740,7 @@ I doubted it.; he said he did not know so many people had left the church&#xD;
 en the following day be told me he did know, so I found him out in a lie&#xD;
 (laughter); I went away from the church, leaving Mr. Glendenning and&#xD;
 &#xD;
-<pb  n="64 (Illustration) -65" xml:id="VAC7473-00000033"/>&#xD;
+<pb n="64 (Illustration) -65" xml:id="VAC7473-00000033"/>&#xD;
 POOR MARY POMEROY.                      65&#xD;
 Miss Pomeroy alone; I saw him go into Mr. Miller's one evening;.he&#xD;
 Aid not know I saw him; next day he told me, he was not there at all;&#xD;
@@ -2782,7 +2787,7 @@ mnents of such persons .regarding the authors of their ruin, she dropped .&#xD;
 one sentence which elicted a loud expression of horror from the audiene&#xD;
 .56&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7473-00000034"/>&#xD;
+<pb n="66-67" xml:id="VAC7473-00000034"/>&#xD;
 $8- .                 POOR MARY POMEROY.&#xD;
 as the object and venom were too palpable. "My experience is that in'&#xD;
 cases where a woman takes an oath as to the father of her illegitimate&#xD;
@@ -2875,7 +2880,7 @@ against him; the trustees, elders and deacons held meetings, on two or&#xD;
 -three occasions, and took a vote, when Mr. Glendenning was pronounced&#xD;
 innocent of all these charges.-&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7473-00000035"/>&#xD;
+<pb n="68-69" xml:id="VAC7473-00000035"/>&#xD;
 68.-POOR MARY POMEROY.&#xD;
 Cross-examinod.-Never investigated the charges against Mr. Glen,-&#xD;
 xenning; pronounced him innocent without hearing any of the testimony,&#xD;
@@ -2968,7 +2973,7 @@ justice. Witness replied that Mr. Glendenning had a fe friends left yet,&#xD;
 and they would not let him be crowded down&#xD;
 Mr. Wall for the defence stated that they had endeavored to procure&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7473-00000036"/>&#xD;
+<pb n="70-71" xml:id="VAC7473-00000036"/>&#xD;
 I0                    POOR MARY POMEROY.&#xD;
 the attendance of Mrs. Middleton, a most important witness, but her hus-&#xD;
 oand refused to permit her presence, as so many comments had been&#xD;
@@ -3070,7 +3075,7 @@ would ever sign such an affidavit as that; Officer Benson came 'to me&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7473-00000037"/>&#xD;
+<pb n="72-73" xml:id="VAC7473-00000037"/>&#xD;
 POOR MARY POMEROY.&#xD;
 lady up the street in trouble, and that I had better go and marry her or&#xD;
 settle up the matter fn some way; I told him that was impossible; he&#xD;
@@ -3164,7 +3169,7 @@ of paper; can't describe it, because I am not good at description; she&#xD;
 gave other small presents; never had any conversation with her about a&#xD;
 ring with an inscription: on it; never took a ring away from her ; sh&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7473-00000038"/>&#xD;
+<pb n="74-75" xml:id="VAC7473-00000038"/>&#xD;
 POoo MARY POMEBOY.                  75&#xD;
 &#xD;
 wore_ three rings, one of which was given her by a young man in the&#xD;
@@ -3259,7 +3264,7 @@ Millers in regard to me; I would like to have visited her between the&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7473-00000039"/>&#xD;
+<pb n="76-77" xml:id="VAC7473-00000039"/>&#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -3357,7 +3362,7 @@ of some such sum as $1,000 would settrb the matter; Mary Pomeroy in&#xD;
 &#xD;
 TT&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7473-00000040"/>&#xD;
+<pb n="78-79" xml:id="VAC7473-00000040"/>&#xD;
 78&#xD;
 &#xD;
 . POOR MARY POMEROY.&#xD;
@@ -3461,7 +3466,7 @@ A"-&#xD;
 &#xD;
 .11&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7473-00000041"/>&#xD;
+<pb n="80-81" xml:id="VAC7473-00000041"/>&#xD;
 y&#xD;
 &#xD;
 01&#xD;
@@ -3560,7 +3565,7 @@ after depended on the course the prosecution might take.&#xD;
 &#xD;
 \&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7473-00000042"/>&#xD;
+<pb n="82-83" xml:id="VAC7473-00000042"/>&#xD;
 t,&#xD;
 &#xD;
 82&#xD;
@@ -3662,7 +3667,7 @@ of the session on Tuesday in prayer for God's guidance. On Wednesday&#xD;
 '1&#xD;
 I" l1&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7473-00000043"/>&#xD;
+<pb n="84-85" xml:id="VAC7473-00000043"/>&#xD;
 84&#xD;
 &#xD;
 POOR MARY POMEROY.&#xD;
@@ -3773,7 +3778,7 @@ intimacies such as these. With the utmost sadness of heart that such a&#xD;
 &#xD;
 a&#xD;
 &#xD;
-<pb  n="86-87 (Illustration) " xml:id="VAC7473-00000044"/>&#xD;
+<pb n="86-87 (Illustration) " xml:id="VAC7473-00000044"/>&#xD;
 POOR MARY POMEROY.&#xD;
 &#xD;
 charge -should rest upon one of its menibers the Presbytery hereby ad-&#xD;
@@ -3836,8 +3841,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

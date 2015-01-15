@@ -1,96 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7689">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7689">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Die russischen Schwestern </title>
-            <author >Russell, Robert.</author>
+            <title>Die russischen Schwestern </title>
+            <author>Russell, Robert.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7689</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7689</idno>
+            <idno type="wright2" n="previous">wright2-2144A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Die russischen Schwestern</title>
-                  <author >Russell, Robert.</author>
+                  <title>Die russischen Schwestern</title>
+                  <author>Russell, Robert.</author>
                </titleStmt>
-               <extent >50 p. </extent>
+               <extent>50 p. </extent>
                <publicationStmt>
-                  <publisher >A.R. Orton</publisher>
+                  <publisher>A.R. Orton</publisher>
                   <pubPlace>Baltimore </pubPlace>
-                  <date  when="1856">1856</date>
+                  <date when="1856">1856</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-03-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-03-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Die russischen Schwestern</head> 
+            <head>Die russischen Schwestern</head>
             <p>
-               <pb  n=" (Cover) " xml:id="VAC7689-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
+               <pb n=" (Cover) " xml:id="VAC7689-00000001"/>REPRODUCED FROM THE COPY IN THE&#xD;
 HENRY E. HUNTINGTON LIBRARY&#xD;
 FOR REFERENCE ONLY. NOT FOR REPRODUCTION&#xD;
 &#xD;
-<pb  n=" (TitlePage) " xml:id="VAC7689-00000002"/>&#xD;
+<pb n=" (TitlePage) " xml:id="VAC7689-00000002"/>&#xD;
 ~ie&#xD;
 u~~i~4jen $~&#xD;
 &#xD;
@@ -116,7 +121,7 @@ I&#xD;
 ~~timore,                   91e'tv ~Jor~ n~n~ ~~zf~ato4&#xD;
 1 8 5 6.&#xD;
 &#xD;
-<pb  n="Illustration-21" xml:id="VAC7689-00000003"/>&#xD;
+<pb n="Illustration-21" xml:id="VAC7689-00000003"/>&#xD;
                 \ ~&#xD;
 it                       !~cf41~did~e ~&#xD;
 2~rn fub({d~en Zt~eife ~&#xD;
@@ -190,7 +195,7 @@ t0iCt'Ct 3n befucfjen, fo m~id~tiq iii tt)ifl, t'~ii) er&#xD;
 &#xD;
 p //&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7689-00000004"/>&#xD;
+<pb n="22-23" xml:id="VAC7689-00000004"/>&#xD;
 99&#xD;
 &#xD;
 bie Y~etrnatt) nub 1~6 2~at)te fotfteu ~etftreiden, et)e er ba.~ lifer be~&#xD;
@@ -312,7 +317,7 @@ I&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7689-00000005"/>&#xD;
+<pb n="24-25" xml:id="VAC7689-00000005"/>&#xD;
 I,&#xD;
 &#xD;
 ,/13di rnu~ bcute 9?ad~t nod, biuirber/' fagte ber ~rernbe, nub nad~i&#xD;
@@ -420,7 +425,7 @@ I&#xD;
 &#xD;
 25&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7689-00000006"/>&#xD;
+<pb n="26-27" xml:id="VAC7689-00000006"/>&#xD;
 ruffif'4,~m ~dnvef~evn.           21&#xD;
 &#xD;
 26                 ~~ic ruffif'4,ctt ed~,tvefte~n.&#xD;
@@ -524,7 +529,7 @@ V&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="28-29 (Illustration) " xml:id="VAC7689-00000007"/>&#xD;
+<pb n="28-29 (Illustration) " xml:id="VAC7689-00000007"/>&#xD;
 ~ie rufrifd)en ~dn'ef~ern~&#xD;
 ~in ~ro0L'r Zferifdirm fiaub am ~ener; ber ~rernbe er~ob fid, nub&#xD;
 wcirf beiifeL~en mit cinern ~1tt~tritte nut.&#xD;
@@ -580,7 +585,7 @@ I&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7689-00000008"/>&#xD;
+<pb n="30-31" xml:id="VAC7689-00000008"/>&#xD;
 4&#xD;
 14&#xD;
 14&#xD;
@@ -689,7 +694,7 @@ bie ~iuger be~ ~Inbeten briicftcn iNn bie S~et)fe ~U.&#xD;
 &#xD;
 31&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7689-00000009"/>&#xD;
+<pb n="32-33" xml:id="VAC7689-00000009"/>&#xD;
 ~Ie ruffifd    t                                  33&#xD;
 &#xD;
 32                  ~Ae ruffifd)m    edrn~eftert&#xD;
@@ -802,7 +807,7 @@ bann uirb fie auntarig abfterben/' Zie £pro~t~e~ei~nug fdugt an fid~&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7689-00000010"/>&#xD;
+<pb n="34-35" xml:id="VAC7689-00000010"/>&#xD;
 F&#xD;
 &#xD;
 K~                         ~&#xD;
@@ -933,7 +938,7 @@ V&#xD;
 ~) V&#xD;
 '//&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7689-00000011"/>&#xD;
+<pb n="36-37" xml:id="VAC7689-00000011"/>&#xD;
 36&#xD;
 &#xD;
 ~ie ri~f'ftfd~en edtvefh~rtt.&#xD;
@@ -1044,7 +1049,7 @@ ig&#xD;
 I&#xD;
 -4&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7689-00000012"/>&#xD;
+<pb n="38-39" xml:id="VAC7689-00000012"/>&#xD;
 4&#xD;
 &#xD;
 A&#xD;
@@ -1162,7 +1167,7 @@ I I&#xD;
 &#xD;
 A&#xD;
 &#xD;
-<pb  n="40 (Illustration) -41" xml:id="VAC7689-00000013"/>&#xD;
+<pb n="40 (Illustration) -41" xml:id="VAC7689-00000013"/>&#xD;
 2n biefern ~IMornent~&#xD;
 non tfd~n~. Zie bri&#xD;
 ,, ~ie id~ erxoartet&#xD;
@@ -1255,7 +1260,7 @@ er, 1'~nr ~iirbcn jet~t itt's ~.kgCV 3ntucFrct)ten ?"&#xD;
 &#xD;
 /&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7689-00000014"/>&#xD;
+<pb n="42-43" xml:id="VAC7689-00000014"/>&#xD;
 42&#xD;
 &#xD;
 43&#xD;
@@ -1360,7 +1365,7 @@ nerbe ict~ ~ud), ~x'eun 53~t ~ntn~~e~rct, aurn Z~berft eruenuen/'&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7689-00000015"/>&#xD;
+<pb n="44-45" xml:id="VAC7689-00000015"/>&#xD;
 44                   ~ie rufl~i~d,,eat ~4n,,efh~rn.&#xD;
 &#xD;
 Zen inugen 9.Thtun iiberfarn em roaf~ret ~5reubeuranfd) bei biefen&#xD;
@@ -1485,7 +1490,7 @@ Untertbctnen gegen ba~ £~eben eiuc~ eiu~igen ~ugtduber~ in bie (Scban~e&#xD;
 &#xD;
 e&#xD;
 &#xD;
-<pb  n="46-47 (Illustration) " xml:id="VAC7689-00000016"/>&#xD;
+<pb n="46-47 (Illustration) " xml:id="VAC7689-00000016"/>&#xD;
 ~er 5Z.xr.q, ber anf t~ic im originn Ma~ic~ er3dtfteu ~rci~niffe fo~~te,&#xD;
 foUtc bnrd~ ciuc ber fd~recF(id4tcn ~d~fadteu, bie je swfd~tas3en ~vurbc,&#xD;
 311 euiem ber bfltt~qftctt in ber ®e~ct~idjte verbena. (~r ift befaunt ah~&#xD;
@@ -1537,7 +1542,7 @@ A                -                      --~      -            --                
 &#xD;
 *                  T&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7689-00000017"/>&#xD;
+<pb n="48-49" xml:id="VAC7689-00000017"/>&#xD;
 48&#xD;
 &#xD;
 ~ic r ~Yifd~en ~d)ibefvern.&#xD;
@@ -1650,7 +1655,7 @@ ii&#xD;
 &#xD;
 4.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7689-00000018"/>&#xD;
+<pb n="50-51" xml:id="VAC7689-00000018"/>&#xD;
 /&#xD;
 50                 ~ic ruffifdett ect~vefterit.&#xD;
 Zie 93ier ~,erbeu~teu ffd~ nub ~edie~en ba~ 3ininwr. Z'ie ndd~fte&#xD;
@@ -1711,8 +1716,8 @@ A,                                                                             ;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

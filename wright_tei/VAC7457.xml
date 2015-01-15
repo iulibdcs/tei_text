@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7457">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7457">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Kate Wynward; or, The Wanderer of the Sea. </title>
-            <author >Barrington, F. Clinton</author>
+            <title>Kate Wynward; or, The Wanderer of the Sea. </title>
+            <author>Barrington, F. Clinton</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7457</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7457</idno>
+            <idno type="wright2" n="previous">wright2-1910A</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Kate Wynward; or, The wanderer of the sea.</title>
-                  <author >Barrington, F. Clinton</author>
+                  <title>Kate Wynward; or, The wanderer of the sea.</title>
+                  <author>Barrington, F. Clinton</author>
                </titleStmt>
-               <extent >100 p.</extent>
+               <extent>100 p.</extent>
                <publicationStmt>
-                  <publisher >Gleason</publisher>
+                  <publisher>Gleason</publisher>
                   <pubPlace>Boston</pubPlace>
-                  <date  when="1851">1851</date>
+                  <date when="1851">1851</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-23">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Kate Wynward; or, The wanderer of the sea.</head> 
+            <head>Kate Wynward; or, The wanderer of the sea.</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC7457-00000001"/>43K . .  .z z4 . a  J  L&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC7457-00000001"/>43K . .  .z z4 . a  J  L&#xD;
 &#xD;
 pV                t&#xD;
 KATE WYNARD&#xD;
@@ -115,7 +120,7 @@ f&#xD;
 t&#xD;
 {&#xD;
 &#xD;
-<pb  n="Advertisement" xml:id="VAC7457-00000002"/>&#xD;
+<pb n="Advertisement" xml:id="VAC7457-00000002"/>&#xD;
 PUBLIsHEa's No'r.-The following Novellette was originally published in Ti FLAG OF OUR&#xD;
 UNION, and is but one among the many deeply interesting productions emanating from that source.&#xD;
 The FLAG has attained to a circulation unrivalled in newspaper literature ; its contributors form a corps&#xD;
@@ -222,7 +227,7 @@ fields, winding about the bases of pleasant hfs,&#xD;
 meandering amid groves and reflecting updO its&#xD;
 placid breast many a villa, farm-house an'd' ot-&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC7457-00000003"/>&#xD;
+<pb n="8-9" xml:id="VAC7457-00000003"/>&#xD;
 KATE WYNYARD.&#xD;
 &#xD;
 ta&#xD;
@@ -420,7 +425,7 @@ positively.&#xD;
 then let him be a minister; but he must not&#xD;
 thrust himself into that holy place."'&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7457-00000004"/>&#xD;
+<pb n="10-11" xml:id="VAC7457-00000004"/>&#xD;
 KATE WYNYARD.                11&#xD;
 &#xD;
 "True. What, then, my sweet Madge, shall&#xD;
@@ -618,7 +623,7 @@ breaker."&#xD;
 &#xD;
 10                KATE W YN YARD.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7457-00000005"/>&#xD;
+<pb n="12-13" xml:id="VAC7457-00000005"/>&#xD;
 12&#xD;
 &#xD;
 KATE WYNYARD.&#xD;
@@ -768,7 +773,7 @@ wood. You can hardly see to read now, as the certain now that he recollects anyt
 sun is down."                               that time."&#xD;
 " Your age is just forty-nine, David," she " Yet he told us so odd a story, wife, when&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7457-00000006"/>&#xD;
+<pb n="14-15" xml:id="VAC7457-00000006"/>&#xD;
 KATE= WXNYARD.&#xD;
 &#xD;
 he woke up. Wasn't it a heavy sleep be was&#xD;
@@ -902,7 +907,7 @@ ite piece. All nature reflected his happiness;&#xD;
 &#xD;
 " e&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7457-00000007"/>&#xD;
+<pb n="16-17" xml:id="VAC7457-00000007"/>&#xD;
 16         e                     KATE WI&#xD;
 and he saw in all around him, in the beauty of&#xD;
 the skies, the splendor of the sun, the verdant&#xD;
@@ -1120,7 +1125,7 @@ blushing.  "I am sure I have quite forgotten&#xD;
 e0 ing one from his little finger and presenting it to&#xD;
 her."&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7457-00000008"/>&#xD;
+<pb n="18-19" xml:id="VAC7457-00000008"/>&#xD;
 KATE WYNYARD.                19&#xD;
 &#xD;
 18                 1ATE WYNYARD.&#xD;
@@ -1317,7 +1322,7 @@ has grown so noble looking and handsome."&#xD;
 " Humi Did you shake hands with him'?"&#xD;
 "0O, no," answered Isabel, laughing. " We&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7457-00000009"/>&#xD;
+<pb n="20-21" xml:id="VAC7457-00000009"/>&#xD;
 20                KATE WYNYARD. .&#xD;
 &#xD;
 met almost as strangers, and if I hadn't pro-&#xD;
@@ -1514,7 +1519,7 @@ sir, and you will see it on the right bank asyou&#xD;
 &#xD;
 KATE WYNYARD.                21&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7457-00000010"/>&#xD;
+<pb n="22-23" xml:id="VAC7457-00000010"/>&#xD;
 KATE WYNYARD.&#xD;
 &#xD;
 ascend. It is painted red and has a gallery&#xD;
@@ -1592,7 +1597,7 @@ and igetos                                 braye interferenso for her."&#xD;
 . "yes.  Now do you know whylI havesought    "I did no more than my ;uty, .Capt&#xD;
 you ?"&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC7457-00000011"/>&#xD;
+<pb n="24-25" xml:id="VAC7457-00000011"/>&#xD;
 2I                             KATE WYNYARD.&#xD;
 Wynyard, for I think your sister or mother told was turned down stream and the oarsmen giving&#xD;
 me you were a captain."                     way at a signal of their young captain's hand,&#xD;
@@ -1740,7 +1745,7 @@ with many other students on this day. Though'&#xD;
 we have named only two who were observing the&#xD;
 mother and daughter, there wore ether student.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7457-00000012"/>&#xD;
+<pb n="26-27" xml:id="VAC7457-00000012"/>&#xD;
 KATE WYNYARD.&#xD;
 &#xD;
 kAT1i * VART .&#xD;
@@ -1939,7 +1944,7 @@ him, for in the open noon, had they met in the&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7457-00000013"/>&#xD;
+<pb n="28-29" xml:id="VAC7457-00000013"/>&#xD;
 KATE WYNYARD-               29&#xD;
 &#xD;
 have passed between them only a short formal&#xD;
@@ -2124,7 +2129,7 @@ reach his rooms without any lifficulty. It was&#xD;
 &#xD;
 23                 KATE-'WYNYARD.&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7457-00000014"/>&#xD;
+<pb n="30-31" xml:id="VAC7457-00000014"/>&#xD;
 20               KATE WYNYARD;&#xD;
 &#xD;
 'with great reluctance the widow saw-him depart, What a fine girl that is.! She has a heart as&#xD;
@@ -2198,7 +2203,7 @@ gtini  Ndverthele's, he believed t itahlliked&#xD;
 him, and took occais   he,)dinin'' to t6Ullyer&#xD;
 howfdevQted helwks-tol biet  ihatead f lis&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7457-00000015"/>&#xD;
+<pb n="32-33" xml:id="VAC7457-00000015"/>&#xD;
 KATE WYNYABJ                     3&#xD;
 &#xD;
 32                 KATE WYNYARD&#xD;
@@ -2397,7 +2402,7 @@ of the person who hq4 yelled himnselfaistudent.&#xD;
 &#xD;
 33&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7457-00000016"/>&#xD;
+<pb n="34-35" xml:id="VAC7457-00000016"/>&#xD;
 34                      I(AMiE, WVNYARD&#xD;
 &#xD;
 KATE .WYNYARD.&#xD;
@@ -2590,7 +2595,7 @@ weapons but a boat knife."&#xD;
 waylaid. We will strike him down with rocks.&#xD;
 He will soon leave for the college."&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7457-00000017"/>&#xD;
+<pb n="36-37" xml:id="VAC7457-00000017"/>&#xD;
 36                JCATE WYNYARDT&#xD;
 &#xD;
 They armed themselves with heavy pieces of&#xD;
@@ -2731,7 +2736,7 @@ looks bad ; I would hardly have known her if they've got to be quite a box full.
 &#xD;
 -K T:W WYNA =ABA.                        37&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7457-00000018"/>&#xD;
+<pb n="38-39" xml:id="VAC7457-00000018"/>&#xD;
 38                 KATEWYNYARD.&#xD;
 &#xD;
 r "And you must see my presents, too, Mr.&#xD;
@@ -2820,7 +2825,7 @@ the young seaman, as Edward left the door of&#xD;
 that happy home.&#xD;
 " Now, my good friend and shipmate," said&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7457-00000019"/>&#xD;
+<pb n="40-41" xml:id="VAC7457-00000019"/>&#xD;
 40               'KATE WYNYARDK&#xD;
 &#xD;
 Captain Walter, as they walked along through&#xD;
@@ -3019,7 +3024,7 @@ sons to come on board. That they were ex-&#xD;
 &#xD;
 KATE W NYARD.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7457-00000020"/>&#xD;
+<pb n="42-43" xml:id="VAC7457-00000020"/>&#xD;
 pected from above the river was very evident,&#xD;
 by the earnest gaze which this young officer&#xD;
 scanned that direction from the vessel. While&#xD;
@@ -3238,7 +3243,7 @@ They soopi handed at, the cottage,. and. Ed.&#xD;
 ward, parting from them, sought once more th9&#xD;
 retirement of his rooms.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7457-00000021"/>&#xD;
+<pb n="44-45" xml:id="VAC7457-00000021"/>&#xD;
 CHAPTER VI.&#xD;
 Infuence of his visit on the young student. , Manfred Lawrence again. Encounter with&#xD;
 Wynyard. Sad' intelligence. A phase of   Kate's heart. A  death scene.  Sympathy&#xD;
@@ -3391,7 +3396,7 @@ him again, you rhay depend upon that."&#xD;
 Edward was about to express his hope that it&#xD;
 would end here, when one of the stable boys of&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7457-00000022"/>&#xD;
+<pb n="46-47" xml:id="VAC7457-00000022"/>&#xD;
 KATE WYNYARD.               47&#xD;
 &#xD;
 the Brown Bear came galloping up the road, within her own. She felt he regarded her only&#xD;
@@ -3558,7 +3563,7 @@ scious of the rectitude and benevolence of her&#xD;
 motives, she ascended the slight eminence and&#xD;
 reached the ruin upon which the moon, now at&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC7457-00000023"/>&#xD;
+<pb n="48-49" xml:id="VAC7457-00000023"/>&#xD;
 49                              iKAT     W W&#xD;
 4er full, was pouring its rosy beams with touch-&#xD;
 ing beauty.  She saw him seated upon the stepsI&#xD;
@@ -3694,7 +3699,7 @@ for the blissful words that my scarcely believing honor--my heart's king and lor
 &#xD;
 A T1TtTYi T&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7457-00000024"/>&#xD;
+<pb n="50-51" xml:id="VAC7457-00000024"/>&#xD;
 CHAPTER VII.&#xD;
 The happy interview. Its sudden interruption. A precious brace of scoundrels. A second&#xD;
 plan of abduction. Manfred's cowardly and hostile act.&#xD;
@@ -3859,7 +3864,7 @@ A&#xD;
 &#xD;
 #4&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7457-00000025"/>&#xD;
+<pb n="52-53" xml:id="VAC7457-00000025"/>&#xD;
 52                  KATE WYNYARD&#xD;
 &#xD;
 supports herself by her needle, as fair game for&#xD;
@@ -4057,7 +4062,7 @@ me in this affair, I inform you that Blacklock&#xD;
 &#xD;
 KATE WYNYARD.&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7457-00000026"/>&#xD;
+<pb n="54-55" xml:id="VAC7457-00000026"/>&#xD;
 ,KATE WYNYARD.               56&#xD;
 &#xD;
 loves her, and that you will despite him by car-'&#xD;
@@ -4253,7 +4258,7 @@ Captain Wat went to the funeral of the publi,&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7457-00000027"/>&#xD;
+<pb n="56-57" xml:id="VAC7457-00000027"/>&#xD;
 56                  ATE WYNYARD.              KATE WYNYARD.&#xD;
 &#xD;
 can. He pulled up in his boat, taking his love-&#xD;
@@ -4374,7 +4379,7 @@ ing to the earth,&#xD;
 &#xD;
 KATE WYNYARD.&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7457-00000028"/>&#xD;
+<pb n="58-59" xml:id="VAC7457-00000028"/>&#xD;
 CHAPTER VIII.&#xD;
 The wounded sister.    Her concern for her     brother.  The forged note.   Assault upon&#xD;
 Edward.    He beats of  his assailants, and recognizes in the fallen foe the features c l&#xD;
@@ -4535,7 +4540,7 @@ So as my boat had just come up after me to take&#xD;
 me aboard,-for I stay aboard nights, as I can't&#xD;
 get a wink o' sleep in a shore bed,-I took her&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7457-00000029"/>&#xD;
+<pb n="60-61" xml:id="VAC7457-00000029"/>&#xD;
 60                KATE WYNYARD.&#xD;
 &#xD;
 and pulled up. Now, what is in the wind?&#xD;
@@ -4732,7 +4737,7 @@ I&#xD;
 &#xD;
 KATE WYNYARD.&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7457-00000030"/>&#xD;
+<pb n="62-63" xml:id="VAC7457-00000030"/>&#xD;
 62                KATE WYNYARD.&#xD;
 &#xD;
 I stiffened those waxy white fingers !  I !  I!!&#xD;
@@ -4933,7 +4938,7 @@ KATE WYNYARD.               . 63&#xD;
 &#xD;
 VUW   VI UUW LUVUZU iLU1t       6G4UlU0 -   111131 w.&amp;amp; Vry1N11 vu%&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7457-00000031"/>&#xD;
+<pb n="64-65" xml:id="VAC7457-00000031"/>&#xD;
 64                KATE WYNYARD.&#xD;
 &#xD;
 gaunt, who had come out of the great, black,&#xD;
@@ -5104,7 +5109,7 @@ strode straight towards them ! Ket fired his pis-&#xD;
 t&#xD;
 i&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7457-00000032"/>&#xD;
+<pb n="66-67" xml:id="VAC7457-00000032"/>&#xD;
 66                KATE WYNYARD.&#xD;
 &#xD;
 and fled. The ball grazed his bared head,&#xD;
@@ -5300,7 +5305,7 @@ drew near:&#xD;
 &#xD;
 KATE WYNYARD.               67&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7457-00000033"/>&#xD;
+<pb n="68-69" xml:id="VAC7457-00000033"/>&#xD;
 8                           .KATE WYN YARD.&#xD;
 A  dreadful murder, Mr. Ket.   We see taken up from the grass. The result of this&#xD;
 him stick a knife in him after he had knocked search made him unmerciful ; for the very idea&#xD;
@@ -5452,7 +5457,7 @@ am a- murderer. Farewell, dear spot ! Fare-&#xD;
 &#xD;
 KATE WYNYARD.&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7457-00000034"/>&#xD;
+<pb n="70-71" xml:id="VAC7457-00000034"/>&#xD;
 70                KATE WYNYARD&#xD;
 &#xD;
 well, spirit of Isabel, once here present ! I&#xD;
@@ -5590,7 +5595,7 @@ At length they came near the bead of the off!"&#xD;
 ,&#xD;
 y&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7457-00000035"/>&#xD;
+<pb n="72-73" xml:id="VAC7457-00000035"/>&#xD;
 CHAPTER X.&#xD;
 Wynyard's unsuccessful search 'at the house in the forest.  En counter with Ket.&#xD;
 of Kate from    her prison.   The marketman's barge, and young Lovewell.&#xD;
@@ -5782,7 +5787,7 @@ two of his men. The woman was coming from&#xD;
 the direction of the river. Her head was bare,&#xD;
 and the gray hair, which was cut short, liae a&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7457-00000036"/>&#xD;
+<pb n="74-75" xml:id="VAC7457-00000036"/>&#xD;
 74                               KATE WYNYARD.&#xD;
 man's, shone silvery in the moonlight, as it her arms securely pinioned with the leatherni&#xD;
 hung dishevelled about her neck. Her dress belt of one of her captors.&#xD;
@@ -5935,7 +5940,7 @@ KATE WYNYARD.&#xD;
 &#xD;
 x&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7457-00000037"/>&#xD;
+<pb n="76-77" xml:id="VAC7457-00000037"/>&#xD;
 76                KATE WYNYARD.&#xD;
 &#xD;
 nations as he now experienced. A breeze at this&#xD;
@@ -6132,7 +6137,7 @@ stances involving his life, What pen shall des-.&#xD;
 &#xD;
 KATE WYNYARD.                77&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7457-00000038"/>&#xD;
+<pb n="78-79" xml:id="VAC7457-00000038"/>&#xD;
 78                               KATE WY&#xD;
 cribe the re-union of mother and daughter ?s&#xD;
 and who shall portray the widow's gratitude tot&#xD;
@@ -6263,7 +6268,7 @@ y&#xD;
 L&#xD;
 t&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7457-00000039"/>&#xD;
+<pb n="80-81" xml:id="VAC7457-00000039"/>&#xD;
 CHAPTER XI.&#xD;
 Blindness of Justice.  The bearer of despatches.   Arrival at Cadiz. Another voyage.&#xD;
 The coast of    Africa.  The barranca.     Cruelty of Wynyard.    The voyage to Rio&#xD;
@@ -6402,7 +6407,7 @@ The week following, Edward enibarked inthe&#xD;
 schooner, the name of which we have not given,&#xD;
 for the very good reason. that it had no nMtne.&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7457-00000040"/>&#xD;
+<pb n="82-83" xml:id="VAC7457-00000040"/>&#xD;
 KATE WYNYA.KATE WYN&#xD;
 &#xD;
 Edward had never heard it called by any other&#xD;
@@ -6579,7 +6584,7 @@ KATE WYNYARD.&#xD;
 &#xD;
 83]&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7457-00000041"/>&#xD;
+<pb n="84-85" xml:id="VAC7457-00000041"/>&#xD;
 RATE WYNYARD.&#xD;
 &#xD;
 84                 KATE WYNVARD.&#xD;
@@ -6790,7 +6795,7 @@ barranca so full."&#xD;
 " What do you mean by a new batch 2"&#xD;
 " Of prisoners. You see the traders keep up&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7457-00000042"/>&#xD;
+<pb n="86-87" xml:id="VAC7457-00000042"/>&#xD;
 66                KATE WYNYARD.&#xD;
 &#xD;
 the supply by means of wars between the tribes. a&#xD;
@@ -6947,7 +6952,7 @@ frigate with deep interest. Rib own fate was&#xD;
 NMI&#xD;
 a&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7457-00000043"/>&#xD;
+<pb n="88-89" xml:id="VAC7457-00000043"/>&#xD;
 88                 KATE WYNYARD.&#xD;
 &#xD;
 now at issue. He was likely either to be killed&#xD;
@@ -7144,7 +7149,7 @@ ate's boats were engaged in removing the blabku&#xD;
 &#xD;
 RATE WYNYARD.&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC7457-00000044"/>&#xD;
+<pb n="90-91" xml:id="VAC7457-00000044"/>&#xD;
 KATE WYNYARD.                  91&#xD;
 &#xD;
 from the wrecked- slaver.  As the day broke,&#xD;
@@ -7369,7 +7374,7 @@ I was on board the sver."&#xD;
 " I will listen to you," answered Lord Olif-&#xD;
 ford, whose eyes rested on his features with' an&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC7457-00000045"/>&#xD;
+<pb n="92-93" xml:id="VAC7457-00000045"/>&#xD;
 KATE WYNYARD.                93&#xD;
 &#xD;
 sBn-long lost put at last;found--related to them 1&#xD;
@@ -7536,7 +7541,7 @@ land, and taken his true position in society.  horror at what the latter had bee
 her exclamation.  She at once ordered the car- an impartial light, and acquitted Edward in her&#xD;
 iage, and drove with all speed to the inn, which heart of all crime. But before writing to him,&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC7457-00000046"/>&#xD;
+<pb n="94-95" xml:id="VAC7457-00000046"/>&#xD;
 94                 KATE WYNYARD.&#xD;
 &#xD;
 saying that she forgave him, which he asked her&#xD;
@@ -7661,7 +7666,7 @@ She Nature's counsel keeps.&#xD;
 [FROM THE FLAG OF OUR UNION.)&#xD;
 BY E. G. IOLLAND.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7457-00000047"/>&#xD;
+<pb n="96-97" xml:id="VAC7457-00000047"/>&#xD;
 There is a small town, a few miles distant&#xD;
 from Edinburgh, in which were located (a few&#xD;
 years ago), the head quarters of an English&#xD;
@@ -7842,7 +7847,7 @@ very sudden, and onexpected," and that they&#xD;
 had " had no idee that the gentleman was so&#xD;
 aerous in his attentions"-yet they accepted&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7457-00000048"/>&#xD;
+<pb n="98-99" xml:id="VAC7457-00000048"/>&#xD;
 THE DOUBLE MA1IAGE,             99&#xD;
 &#xD;
 THE DOUBLE MARRIAGE.&#xD;
@@ -7989,7 +7994,7 @@ and bore a mourning seal. le opened it, and&#xD;
 learned that his wife had been dead over three&#xD;
 months--having fallen from her horse while rid-&#xD;
 &#xD;
-<pb  n="100" xml:id="VAC7457-00000049"/>&#xD;
+<pb n="100" xml:id="VAC7457-00000049"/>&#xD;
 THE* DOUBLE MARRIAGE.&#xD;
 &#xD;
 ing out, and received injuries which termina-&#xD;
@@ -8055,8 +8060,8 @@ I&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

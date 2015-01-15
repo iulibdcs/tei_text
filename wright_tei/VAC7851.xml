@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7851">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7851">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Coral Lady, or, The Bronzed Beauty of Paris </title>
-            <author >Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
+            <title>The Coral Lady, or, The Bronzed Beauty of Paris </title>
+            <author>Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7851</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7851</idno>
+            <idno type="wright2" n="previous">wright2-2299</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The coral lady, or, The bronzed beauty of Paris</title>
-                  <author >Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
+                  <title>The coral lady, or, The bronzed beauty of Paris</title>
+                  <author>Southworth, Emma Dorothy Eliza Nevitte, (1819-1899)</author>
                </titleStmt>
-               <extent >1 p. l. 19-78 p. plates </extent>
+               <extent>1 p. l. 19-78 p. plates </extent>
                <publicationStmt>
-                  <publisher >C.W. Alexander</publisher>
+                  <publisher>C.W. Alexander</publisher>
                   <pubPlace>Philadelphia </pubPlace>
-                  <date  when="1867">1867</date>
+                  <date when="1867">1867</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-04-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-04-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The coral lady, or, The bronzed beauty of Paris</head> 
+            <head>The coral lady, or, The bronzed beauty of Paris</head>
             <p>
-               <pb  n="0 (Cover) " xml:id="VAC7851-00000001"/>K&#xD;
+               <pb n="0 (Cover) " xml:id="VAC7851-00000001"/>K&#xD;
 K&#xD;
 &#xD;
 224 SouTil Taian STRE1~T: PRJTAAD~LPIIIA; PA.&#xD;
@@ -97,7 +102,7 @@ AfIENTS WANTED TO SELL OUt~ PO~ ULAR BOOKS.&#xD;
 &#xD;
 s&#xD;
 &#xD;
-<pb  n="0 (TitlePage) " xml:id="VAC7851-00000002"/>&#xD;
+<pb n="0 (TitlePage) " xml:id="VAC7851-00000002"/>&#xD;
 /&#xD;
 &#xD;
 TilE CORAL lADY&#xD;
@@ -124,7 +129,7 @@ Entered according to Act of Congress, in the year 1867, by C. W. ALEXANDER,&#xD;
 in the Clerk's Office of the District Court in and for the $astern District of&#xD;
 PennsyIvania~&#xD;
 &#xD;
-<pb  n="0-19" xml:id="VAC7851-00000003"/>&#xD;
+<pb n="0-19" xml:id="VAC7851-00000003"/>&#xD;
 co~&#xD;
 &#xD;
 /&#xD;
@@ -176,7 +181,7 @@ manner. The liveri~s~ot th~ Coachnian and f~otrnt~n, bot~~ of v~hogi were&#xD;
 &#xD;
 x&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC7851-00000004"/>&#xD;
+<pb n="20-21" xml:id="VAC7851-00000004"/>&#xD;
 THR CORAL LADY~&#xD;
 &#xD;
 20                        THE COI~AL LADY.&#xD;
@@ -275,7 +280,7 @@ norM ep1ip~ge coniin~ dashin~down fifter us nt a rapid rat~ I ol'dr~d&#xD;
 oui~ c~oachriian to i~ciii'asidea~litU~ and allow the strdn~&amp;amp;~ togo by that I&#xD;
 * right have an&amp;amp;thex' look a~ {h~ Coral 'Lady.&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC7851-00000005"/>&#xD;
+<pb n="22-23" xml:id="VAC7851-00000005"/>&#xD;
 2:&#xD;
 &#xD;
 !MI~Z COItAL 1A~&#xD;
@@ -373,7 +378,7 @@ mention for fear it might require me to deny the instant and importunate&#xD;
 applications, I knew weuld~have been thrust at me to;take a friend with ins.&#xD;
 4.&#xD;
 &#xD;
-<pb  n="24-25 (Illustration) " xml:id="VAC7851-00000006"/>&#xD;
+<pb n="24-25 (Illustration) " xml:id="VAC7851-00000006"/>&#xD;
 THE VQR4.AL.L4~Ya&#xD;
 -    ,t'r~                  4&#xD;
 ~  ~   ,~'  ~   ~4~44  4~~44.  4  .~4  j4~~  , .4  44  .,  ~4 4&#xD;
@@ -418,7 +423,7 @@ a flash the j~ortal was again closed by theebony servant.&#xD;
 mart that had ever been heard of4 and Romance indee&amp;amp;was begibnin~&#xD;
 to flap her fairy wing over my senses.&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7851-00000007"/>&#xD;
+<pb n="26-27" xml:id="VAC7851-00000007"/>&#xD;
 I'&#xD;
 &#xD;
 ',&#xD;
@@ -472,7 +477,7 @@ Reader, do not imagine that; because J have been somewhat long and&#xD;
 prosey in my description of the ~a1ov4 of the, Corsil Lady, I was lone ~n&#xD;
 seeing its details and beauties and singuI~irities, for my eyes drank in al~&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7851-00000008"/>&#xD;
+<pb n="28-29" xml:id="VAC7851-00000008"/>&#xD;
 CO~AZ~ LADY~&#xD;
 &#xD;
 ~it~&amp;amp;sfew5 glvisces Yen iniay~ inx~gino ~owe~v~r, if i~ou can;'b'ow intebse&#xD;
@@ -558,7 +563,7 @@ flerbert and myself~bein~ nhzn~st ofLt1~sameag~pdidif Ofiposite tehipe~&#xD;
 Z'atneate, rapidly kindleds witijili achother's;br~asts~ontinsentsc of 4aff~.&#xD;
 ti~tz,~wl~i~h ~addltioi1al time int~ifi~dd~o~buksiiug fervidIo~re. ii i~ A&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7851-00000009"/>&#xD;
+<pb n="30-31" xml:id="VAC7851-00000009"/>&#xD;
 OO1~AL LX1~L&#xD;
 &#xD;
 ii&#xD;
@@ -640,7 +645,7 @@ IL&#xD;
 3&#xD;
 sik&#xD;
 &#xD;
-<pb  n="32 (Illustration) -33" xml:id="VAC7851-00000010"/>&#xD;
+<pb n="32 (Illustration) -33" xml:id="VAC7851-00000010"/>&#xD;
 TILiI COUAL LADZ&#xD;
 ____________      ________________                                DarnePe b~d ~p~irp0s~1y ahstajne~1 frop~ e  ~utipg one w&#xD;
 IIerbert~ saK~1y ~rn~r&amp;amp;~ind~Vo the~yom~g h~iy ho h&amp;amp;d~ ohQse&#xD;
@@ -718,7 +723,7 @@ ived a pOli~hed&#xD;
 sho wa~ heft in&#xD;
 N&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7851-00000011"/>&#xD;
+<pb n="34-35" xml:id="VAC7851-00000011"/>&#xD;
 4&#xD;
 &#xD;
 i%~d1~tPe~1tnAIt1CeS. 'Th~ahum~ca I eaina ~o~n her abaut 'that period'&#xD;
@@ -803,7 +808,7 @@ while ago, this vary d~y, you' were in company~with~so~e t~s&amp;amp;&#xD;
 "'Well; bless my soulVK lie exclaiz~uid, in at~n~ ~f ,angsrgtl~In~.&#xD;
 et~imtly~ ea# *iW ass~wwd for~ t o~ea~i~n~ ~un~b I be sae~ ~r~hh ~&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7851-00000012"/>&#xD;
+<pb n="36-37" xml:id="VAC7851-00000012"/>&#xD;
 1'&#xD;
 &#xD;
 T1if acolilt LAIJT,&#xD;
@@ -906,7 +911,7 @@ yo~aiid tak~ her to E~irope, too.                .' '''     '&#xD;
 "'H~ said somethIng about you going o~ like. a~~i4. ~oma~, ~a~d&#xD;
 threatening to kxfl someLocly, utnd they both laughed at that. 411, I as-&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7851-00000013"/>&#xD;
+<pb n="38-39" xml:id="VAC7851-00000013"/>&#xD;
 t&#xD;
 I)&#xD;
 &#xD;
@@ -1006,7 +1011,7 @@ it&#xD;
 A&#xD;
 'A?&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC7851-00000014"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC7851-00000014"/>&#xD;
 CO~R4L LADY,:&#xD;
 secured immediately after Lena's departure. I knew that if it were Lena,&#xD;
 ~he would knock an~ then call me by name. And there was no one else&#xD;
@@ -1056,7 +1061,7 @@ J4&#xD;
 V&#xD;
 44&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7851-00000015"/>&#xD;
+<pb n="42-43" xml:id="VAC7851-00000015"/>&#xD;
 I&#xD;
 &#xD;
 A~                +&#xD;
@@ -1125,7 +1130,7 @@ r&#xD;
 te&#xD;
 s&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC7851-00000016"/>&#xD;
+<pb n="44-45" xml:id="VAC7851-00000016"/>&#xD;
 I'.&#xD;
 &#xD;
 F ~''&#xD;
@@ -1237,7 +1242,7 @@ I&#xD;
 &#xD;
 COt~AJ4 L4I~Y~&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC7851-00000017"/>&#xD;
+<pb n="46-47" xml:id="VAC7851-00000017"/>&#xD;
 LADY.&#xD;
 CIIAS1~D DOWN AT LAgT.&#xD;
 I&#xD;
@@ -1279,7 +1284,7 @@ there to ~ottl&amp;amp;dowpIn sorpo obscure town and live only for Eloise. I soo
 betel a ~qu~are drtw~ below it.&#xD;
 hd Wkea apartmnents, ai~d I promptly se~urvd npartiiiem~te Th enotber&#xD;
 &#xD;
-<pb  n="48 (Illustration) -49" xml:id="VAC7851-00000018"/>&#xD;
+<pb n="48 (Illustration) -49" xml:id="VAC7851-00000018"/>&#xD;
 T~IF~ CORAL LADY~&#xD;
 On ~h9 ~sec n 1 afternoon ~ftpr I ha4 taJ~en diese&#xD;
 which fronted on the main ~ree~t ~r prprnena~e, o~Lh~&#xD;
@@ -1349,7 +1354,7 @@ you ~Iiiy depend.'&#xD;
 i~Si',), that&#xD;
 praevie~bIe. This&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7851-00000019"/>&#xD;
+<pb n="50-51" xml:id="VAC7851-00000019"/>&#xD;
 ii&#xD;
 'I&#xD;
 &#xD;
@@ -1453,7 +1458,7 @@ for the murder of IlerbTertDarnejle,&#xD;
 &#xD;
 59&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7851-00000020"/>&#xD;
+<pb n="52-53" xml:id="VAC7851-00000020"/>&#xD;
 ~,&#xD;
 J&#xD;
 1''&#xD;
@@ -1556,7 +1561,7 @@ any trace b~ found of her, though the most streunous exertions had been&#xD;
 &#xD;
 rn ~OB~AL LA3i~!&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7851-00000021"/>&#xD;
+<pb n="54-55" xml:id="VAC7851-00000021"/>&#xD;
 TILn, CORAn. LA~&#xD;
 &#xD;
 Ii&#xD;
@@ -1659,7 +1664,7 @@ th&amp;amp;doomed'and'~ui1t~ wretch was directly pppps~t~ to me-so clos~ in~&#xD
 &#xD;
 54&#xD;
 &#xD;
-<pb  n="56-57 (Illustration) " xml:id="VAC7851-00000022"/>&#xD;
+<pb n="56-57 (Illustration) " xml:id="VAC7851-00000022"/>&#xD;
 ~COflAL LA1~'.&#xD;
 4rn~i1 ~h ~ ni~~hth&amp;amp; 'rho itber rnPi ha~&#xD;
 ~xkmd)ii*i~t h ~ntthGrE~&amp;amp;W~htiW4 1~he cliff Intot tb6 ~ below.&#xD;
@@ -1704,7 +1709,7 @@ sh9tttln)e,, ~h "went to ~ leaving everyho~ly strugglii~jn5th~&#xD;
 Py'the light~ d~iy, that' was just daw9~&#xD;
 ing I ebul&amp;amp;see~saverat 'ti~tive~ on the 'be~ch,~Vatch4li~ as~&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7851-00000023"/>&#xD;
+<pb n="58-59" xml:id="VAC7851-00000023"/>&#xD;
 -44                                                                      4&#xD;
 P4&#xD;
 '4'4'4      '44'4'4&#xD;
@@ -1794,7 +1799,7 @@ for' EnglaiU1fr~in 'Australia, all trace was lost of Ann Thvel. But hO~e&#xD;
 &#xD;
 THE ORlAL LADY.&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7851-00000024"/>&#xD;
+<pb n="60-61" xml:id="VAC7851-00000024"/>&#xD;
 ~Ivas' u~ lw~yauit astel~r ~tithin mo~ and in the first vessel that touched at&#xD;
 .'~iawatra~ I ~et ~ut f&amp;amp;, Bngland atte~de4 by four female~se~'gant~s, and tWo&#xD;
 iwen servauts- -tbose wh6 'are now with nie. Fortune favored u~ie,~ and&#xD;
@@ -1886,7 +1891,7 @@ the! int~ in~ the Calendar, that our conversatiot~ ~6ould be'kep~~~i'fb'ctly&#xD
 ~aered.&#xD;
 "The tollowiug meriiing' I' mounted ap~ny. of ~y eat'~~ an&amp;amp;roe~pu-&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7851-00000025"/>&#xD;
+<pb n="62-63" xml:id="VAC7851-00000025"/>&#xD;
 162                                  LADY.&#xD;
 !afly i~ the, 4ire~tioz~ 'of the ~ottage. Oh, how my heart throbbed, o~ I&#xD;
 ';ne~d.t~heapet. '~Now. them fo~ her!' I once in pre said, ~o wy,~e1f; and&#xD;
@@ -1936,7 +1941,7 @@ several costly pi~ents ;~ ~II~ to coutmud ~b~rseai'ch for hWtiftl~ I~loise,&#xD;
 and I 'to wonder-as I have no doubt the reader will do-nt the si~igular&#xD;
 ~ this. str~ngestif woinr~n4~rn~ ~e~&amp;amp;L~14~Vh&#xD;
 &#xD;
-<pb  n="64 (Illustration) -65" xml:id="VAC7851-00000026"/>&#xD;
+<pb n="64 (Illustration) -65" xml:id="VAC7851-00000026"/>&#xD;
 This is the only likeness ever published of the mysterious Coral&#xD;
 Lady; and was engraved from an Ivory Miniature obtained by Mrs.&#xD;
 Southworth, the authoress.&#xD;
@@ -1991,7 +1996,7 @@ high and low, in all kinds of n*hborboods I sent detectives, end often&#xD;
 went myself in disguise with the object of obtaining some clue that might&#xD;
 4&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7851-00000027"/>&#xD;
+<pb n="66-67" xml:id="VAC7851-00000027"/>&#xD;
 THE CORAL LADY.&#xD;
 lead to the detection of the whereabouts of my intended victim. Yet, day&#xD;
 after day, and night after night, the same result was always reached, and&#xD;
@@ -2083,7 +2088,7 @@ girl was with her, and she never stopped but went away as fast as she&#xD;
 "No, Madame; but, as I saw her leaving with so much precipitation,&#xD;
 it occurred to me that most likely you were approaching onr little village&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7851-00000028"/>&#xD;
+<pb n="68-69" xml:id="VAC7851-00000028"/>&#xD;
 OS                     TX~E CORAL LADY.&#xD;
 in pursuit of her again. I had cause to remember you gratefully, and I&#xD;
 sent Jacques, my son, to follow Madame Rivel for two or three days, sup-&#xD;
@@ -2171,7 +2176,7 @@ turned back; but no~ now. No! not if Satan himself had stood in my&#xD;
 &#xD;
 THE CORAL LADY&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7851-00000029"/>&#xD;
+<pb n="70-71" xml:id="VAC7851-00000029"/>&#xD;
 '10                     THE  CORAL LADY.&#xD;
 ~p~thway would Ii have taken one retrograde step~ On we kept, and sure&#xD;
 enough,, when the animal I rode got to the dangerous portion of the route&#xD;
@@ -2265,7 +2270,7 @@ t\&#xD;
 &#xD;
 71&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC7851-00000030"/>&#xD;
+<pb n="72-73" xml:id="VAC7851-00000030"/>&#xD;
 COIIAL LADY.&#xD;
 The wotiiail IMi~hed boistetouslY~ at what Bhe thought was very ludi.~&#xD;
 crous, and the mau *ithe~ gAffaw, added:&#xD;
@@ -2363,7 +2368,7 @@ recover my child, Eloise. I at once engaged the two peasants, Christine&#xD;
 and her husband, and turning back with me they entered the town of&#xD;
 Besancen~&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC7851-00000031"/>&#xD;
+<pb n="74-75" xml:id="VAC7851-00000031"/>&#xD;
 '14                    TUE CORAl. LAM.&#xD;
 &#xD;
 EUNTEP DOWN AT LAST.&#xD;
@@ -2451,7 +2456,7 @@ doubt that haggard face, those checks, hollow, and white as marble;&#xD;
 those eyes, brilliantly glassy, and the sweat of near dissolution standing on&#xD;
 her~forehead in beads. r&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC7851-00000032"/>&#xD;
+<pb n="76-77" xml:id="VAC7851-00000032"/>&#xD;
 THE CORAL LADY.&#xD;
 "You have come at last! and disguised I" exclaimed Ann Rivel, glar-&#xD;
 ing at me like &amp;amp; tigress, and endeavoring to rise to a sitting posture, but&#xD;
@@ -2554,7 +2559,7 @@ down i'ito the barrel. She stopped and thrusting her hand into the bar-&#xD;
 &#xD;
 THE CORAL LAPY.&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7851-00000033"/>&#xD;
+<pb n="78-79" xml:id="VAC7851-00000033"/>&#xD;
 THlE CORAL LADY.&#xD;
 &#xD;
 ?el, brought forth a mass of gunpowder soaked with water.&#xD;
@@ -2606,7 +2611,7 @@ seen known.&#xD;
 &#xD;
 TUE EN~D.&#xD;
 &#xD;
-<pb  n="80 (Illustration) -81" xml:id="VAC7851-00000034"/>&#xD;
+<pb n="80 (Illustration) -81" xml:id="VAC7851-00000034"/>&#xD;
 c' j&#xD;
 c12&#xD;
 0~.&#xD;
@@ -2617,8 +2622,8 @@ LB J&amp;amp;22&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

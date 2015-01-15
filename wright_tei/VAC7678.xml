@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC7678">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC7678">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Mock Marriage, or, The Libertine's Victim </title>
-            <author >Rulison, H. M.</author>
+            <title>The Mock Marriage, or, The Libertine's Victim </title>
+            <author>Rulison, H. M.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC7678</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC7678</idno>
+            <idno type="wright2" n="previous">wright2-2134</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The mock marriage, or, The libertine's victim</title>
-                  <author >Rulison, H. M.</author>
+                  <title>The mock marriage, or, The libertine's victim</title>
+                  <author>Rulison, H. M.</author>
                </titleStmt>
-               <extent >102 p. </extent>
+               <extent>102 p. </extent>
                <publicationStmt>
-                  <publisher >E. Mendenhall</publisher>
+                  <publisher>E. Mendenhall</publisher>
                   <pubPlace>Cincinnati </pubPlace>
-                  <date  when="1855">[1855]</date>
+                  <date when="1855">[1855]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The mock marriage, or, The libertine's victim</head> 
+            <head>The mock marriage, or, The libertine's victim</head>
             <p>
-               <pb  n="Illustration (TitlePage) " xml:id="VAC7678-00000001"/>4&#xD;
+               <pb n="Illustration (TitlePage) " xml:id="VAC7678-00000001"/>4&#xD;
 &#xD;
 CINCINNATI:&#xD;
 PUBLISHED BY E. MENDENHALL,&#xD;
@@ -102,7 +107,7 @@ V&#xD;
 MYSTERIES AND MI~ERIE~&#xD;
 OF THE&#xD;
 &#xD;
-<pb  n="0-9" xml:id="VAC7678-00000002"/>&#xD;
+<pb n="0-9" xml:id="VAC7678-00000002"/>&#xD;
 4. 4' 4 .&#xD;
 &#xD;
 44.4~44#'4,44           444 ~                  ,~    4&#xD;
@@ -208,7 +213,7 @@ p~rAipr~w~ ko~4e44~y4~e 4Qb~e~ or I~ give,4 p~a~e to. piin~1y ~&#xD;
 wi~ ~ JtaJAd44'usj~44jeps~, ~Tjiej ~ t~ezte~din~ up-tJ~p ~&#xD;
 -  4    (~)&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC7678-00000003"/>&#xD;
+<pb n="10-11" xml:id="VAC7678-00000003"/>&#xD;
 10&#xD;
 &#xD;
 THE QUEEN CITY:&#xD;
@@ -343,7 +348,7 @@ infested by banditti, who find it neces-&#xD;
 ~sary to league together against their foes,&#xD;
 ~as though every person they met, who&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC7678-00000004"/>&#xD;
+<pb n="12-13" xml:id="VAC7678-00000004"/>&#xD;
 wazot*n:fI~ia1x~sakwan tkeir~~he~h~,i 9~ it     I ~&#xD;
 atcbatebqdiaoe~ordin~1y.; 'i;~               C1IAPTE~         II.   '&#xD;
 i~h.ure&amp;amp;atAni.xcp~eiti~nf iubinxue~iiKi&amp;amp; ~ r ~i ? n~r~r ~i:ov t~4 L~2i&#xD;
@@ -439,7 +444,7 @@ tlons/' xind robbed'~4-yes~ ~r~bbed' of pleai~ at z*y expense; an4~ 4x~g tl2ie&#
 everything he possessed ini~ the~ worid:;~ time, iean~ iniirm you o ~t~hit!~at ~:&#xD;
 nd at the 4ime 'when: hans ixitrodxi~e4 ha~e'inyIe#, iyj~i~b I ~W)~ q1S~Wfl,~&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC7678-00000005"/>&#xD;
+<pb n="14-15" xml:id="VAC7678-00000005"/>&#xD;
 ;: T~R BEN TY~&#xD;
 ~illi~ay di~wai 1~altd8omely~ VWhat ~say4 ,geu~rally ~di~ting~1iali~d. ~Bhe pas~e~1&#xD;
 yOu~ ~hn1ld ~ ~the~ along; witheutwihterrizpLon~u~*1il ~&#xD;
@@ -534,7 +539,7 @@ own, walked rapidly trnw.nrd. ~. . tl~tipt~rve~e bcfqj~e: tl~,u~ual ~ij~oo~&#xD;
 be~~ ~g adtial, but terrihie ~, 'Ha4 thot~ ~ uppi ~the&#xD;
 4       ~rgotwh~u thie grrni       te~De~h, op@u- space in , f'ro~it~ j$~ Ahe .N~pn~i&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC7678-00000006"/>&#xD;
+<pb n="16-17" xml:id="VAC7678-00000006"/>&#xD;
 TI~ ~QU~&#xD;
 l~MwtWr, tasger~ aiwa$4I~ 4he ~roomeut&#xD;
 ~1dk~ 4~pr~ n~y~e 14hr~wn ~&#xD;
@@ -671,7 +676,7 @@ opinion wanld long o~ies, as worr~b7 our&#xD;
 '~~fl a chp&#xD;
 .snLcially in ~i~es.J~Abuiqa~o JruiJ ~th'~dpa~'lbvdt~ii ~&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC7678-00000007"/>&#xD;
+<pb n="18-19" xml:id="VAC7678-00000007"/>&#xD;
 Is                    .&amp;amp;f';u~UXE~JOITYW&#xD;
 .6      hosent         ehn4Ius~e~     tinzv~f ~thei ~ritei~:* We~cousider that&#xD;
 qtrrfeatiWeaLLe{fi~hki IwaAare ~ioli~ tviiihaza~d ~ltotZaing in t~te ~s~ti~ tt&#xD;
@@ -755,7 +760,7 @@ sing " matters in 'generaI~ 'and nothiiig ii~ maybe ~.iiabl~d' t~ fdrm dome r~a'
 particular." At one si~le' of the '~t2 coh~lus~on~ as to 'the 'charact~ of~ th~&#xD;
 mont was a bar, which exhibited several ~ssemb1y.'' ~' ' '&#xD;
 &#xD;
-<pb  n="20 (Illustration) " xml:id="VAC7678-00000008"/>&#xD;
+<pb n="20 (Illustration) " xml:id="VAC7678-00000008"/>&#xD;
 THE QUEiN~QITY:&#xD;
 &#xD;
 Eir*t~ tJie;~was Burt Maekay. Almost&#xD;
@@ -854,7 +859,7 @@ throat 1-Page 88.&#xD;
 &#xD;
 4&#xD;
 &#xD;
-<pb  n="-25" xml:id="VAC7678-00000009"/>&#xD;
+<pb n="-25" xml:id="VAC7678-00000009"/>&#xD;
 4'.&#xD;
 "3         :3'                                      ".3,&#xD;
 I',""&#xD;
@@ -984,7 +989,7 @@ within their grasp that thoughts'of escape&#xD;
 were useless; and unless he immedii~t~1'y&#xD;
 assisted tbem in gaining ~n ei~tra~c&amp;amp;into&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC7678-00000010"/>&#xD;
+<pb n="26-27" xml:id="VAC7678-00000010"/>&#xD;
 ITS MY'ST~R1ESA~D MISERIES.&#xD;
 &#xD;
 TFIF~ QITEEN CIT~&#xD;
@@ -1128,7 +1133,7 @@ persist in calling her worser-haltf' by the&#xD;
 of everything that 4otld Wiir~e&amp;amp;-hy ~-er&#xD;
 aristociatie atm aaid' dau~bWr~i ~. -&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC7678-00000011"/>&#xD;
+<pb n="28-29" xml:id="VAC7678-00000011"/>&#xD;
 B&#xD;
 &#xD;
 i&#xD;
@@ -1232,7 +1237,7 @@ mainder lived within the' shade cast&#xD;
 upon the earth by their spreading&#xD;
 branches. ' '&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC7678-00000012"/>&#xD;
+<pb n="30-31" xml:id="VAC7678-00000012"/>&#xD;
 THE %~IT~E1f CITY':                                            ITS MYSTERIES AND MISERIES.&#xD;
 &#xD;
 0 TRW VI.&#xD;
@@ -1419,7 +1424,7 @@ this reckless course, and bring his brigiit&#xD;
 hopes and futures antieipationsto~an ~eu4,&#xD;
 Sally had often told him t'into~ti~&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC7678-00000013"/>&#xD;
+<pb n="32-33" xml:id="VAC7678-00000013"/>&#xD;
 'THE QUEE ~ :OITY&#xD;
 waste niost detestable awl beastly habit There are m~pjy such thieving land&#xD;
 iuthe~world, and no one should ever en- sharks, who constantly prey upon the&#xD;
@@ -1514,7 +1519,7 @@ j they are often 'unexpectedly' called versation ~vhich followed the introduc-&#
 away in the morning, and do not return ti6n mentioned above, for the reader who&#xD;
 until long after the 'tin~e 'their presence has any experience in life, can easily&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC7678-00000014"/>&#xD;
+<pb n="34-35" xml:id="VAC7678-00000014"/>&#xD;
 -                T~QT.W&#xD;
 qenoeive it.~ chax~oter; we will only ~ay,&#xD;
 that when he took his leave, at a lat~&#xD;
@@ -1705,7 +1710,7 @@ noticed a'pai~of "sweet, temptingdevlls,"&#xD;
 whci.so eh~arly resemble ~aeh 6ther, that&#xD;
 nine times out of ten they would be&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC7678-00000015"/>&#xD;
+<pb n="36-37" xml:id="VAC7678-00000015"/>&#xD;
 TT~E Q&amp;amp;E~N CITY:&#xD;
 How this relation- is said.&#xD;
 pronoun~eds~4t~*s.'         .              to be a person occupying an&#xD;
@@ -1818,7 +1823,7 @@ a REAL, live baronet, had arrived ,a the satisfied that he was in a&#xD;
 &#xD;
 27&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC7678-00000016"/>&#xD;
+<pb n="38-39" xml:id="VAC7678-00000016"/>&#xD;
 i~B&#xD;
 III"&#xD;
 &#xD;
@@ -1919,7 +1924,7 @@ same time he drew from his breast pocket ~ffe6t thereon.' Life' i~ an' 'l~n~erta
 a small pair'~f scissors, with which he thing hut, few know ho* to'iy~ro~iat~&#xD;
 4&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC7678-00000017"/>&#xD;
+<pb n="40-41" xml:id="VAC7678-00000017"/>&#xD;
 40                          THE QUBI&#xD;
 it untiF if is~about to pass from their&#xD;
 possession. How4earto our hearts are&#xD;
@@ -2049,7 +2054,7 @@ ear to try again-his luck would certainly had takeii only a few dollarr, so far~
 &#xD;
 ITS MYSTEItIES AI~(D MfSERIES.&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC7678-00000018"/>&#xD;
+<pb n="42-43" xml:id="VAC7678-00000018"/>&#xD;
 T~B~ QUJ~EI~ OITY:&#xD;
 &#xD;
 ~a4 ean~a thousand, jt~rere not more&#xD;
@@ -2229,7 +2234,7 @@ weu~e just be~huhing to burst through&#xD;
 window in thethird stoi~y. But $tuddeu-&#xD;
 ly ~he pi~usel~ and 'for an instant' stood&#xD;
 &#xD;
-<pb  n="44 (Illustration) " xml:id="VAC7678-00000019"/>&#xD;
+<pb n="44 (Illustration) " xml:id="VAC7678-00000019"/>&#xD;
 44                                 THE '~l~E~&#xD;
 &#xD;
 4&#xD;
@@ -2287,7 +2292,7 @@ seizing a wine*bottle, he dashed it against a costly mirror, which was shattered
 pieces! Gus and his companions then "went in," and overturned tables, lamps,&#xD;
 and every thing they could lay hands upon.-.-Pa~e 54.&#xD;
 &#xD;
-<pb  n="-49" xml:id="VAC7678-00000020"/>&#xD;
+<pb n="-49" xml:id="VAC7678-00000020"/>&#xD;
 ITS MY8~8~&amp;amp;NP          ERIES.&#xD;
 tras. of bit'1~0me~tary daratiou.i Re- eeld ~hudderTcouyiilsed hiafrante. He&#xD;
 covering hissetf~pessession, which r~trely thought of home-of sister and mothen~.-..&#xD;
@@ -2343,7 +2348,7 @@ lip q~iivered with excitement, andj a paper, published, etc. ~He was a~ inaat&#x
 &#xD;
 1.     .    i.&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC7678-00000021"/>&#xD;
+<pb n="50-51" xml:id="VAC7678-00000021"/>&#xD;
 evidezftly' Iwell adi~aneed In years; 4' Them, that"wiIl 'do," exclaimed&#xD;
 some.' ~ ~. ' ' ~~uilldm1ver~ ~'one woi~d' in 'the 'Star&#xD;
 9 "Thlrty, forty, more or less."~' (which is probably the namneof the paper)&#xD;
@@ -2437,7 +2442,7 @@ say enough about money not" suffielent' throng the ~ide~all~s. Rca4~r, our view&
 t~ bribe us into silence.' 'Heweve4 that of a model editor ~eb~fore you; 'is It ~&#xD;
 *ill 'do 'for the ~res~ht. ~otrtak5 t1~e~ correct one&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC7678-00000022"/>&#xD;
+<pb n="52-53" xml:id="VAC7678-00000022"/>&#xD;
 TIU~1 Q~E~V CITY.&#xD;
 &#xD;
 * " ~1'''&#xD;
@@ -2579,7 +2584,7 @@ with an, exaiauiatio~i of surprise, and refuse one mite fr~w~ y~1~'yast: h~ard~,
 to a ~person who was seated in one corner- do'yoti dare to repi~ac~ and. cast~a~'stilI&#xD;
 of the rooin- beside those miserable' gre,~t~r g4jum upoii ~ae, who, had' she~&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC7678-00000023"/>&#xD;
+<pb n="54-55" xml:id="VAC7678-00000023"/>&#xD;
 ITS MYSTEBIiES'ANP MISERIES.&#xD;
 &#xD;
 been properly car~d for, night still have wind it up iti a regulaf khock.down aM&#xD;
@@ -2721,7 +2726,7 @@ whieW2sbe wa~at last awakened ~bytbo&#xD;
 enfrande~f se pralpersqns, wi~o b~,iu&#xD;
 their arsns tbeib~4y of the krayq young&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC7678-00000024"/>&#xD;
+<pb n="56-57" xml:id="VAC7678-00000024"/>&#xD;
 fireman, and the fair being he had res- ~ appeared ~o&#xD;
 cued froi~ 4h&amp;amp; ft1~n~es. With a wild ~ ?*e..&#xD;
 shriek, Adelaide rushed forward and fell ~tendix~g t&amp;amp;be a'bf~tated~ by th~ most diaw&#xD;
@@ -2823,7 +2828,7 @@ St. Charles exchange, Wedneidaya~ter~ bls~ I&#xD;
 &#xD;
 9&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC7678-00000025"/>&#xD;
+<pb n="58-59" xml:id="VAC7678-00000025"/>&#xD;
 m&#xD;
 ~ytwud with difrhkad ;~estiug3 o~x Ibis ~wa~ tha1~ s~ine OU~lsQ dfihgerw is-&#xD;
 d; Th                  closer pr~41mity to his ~wa11et thaw his&#xD;
@@ -2966,7 +2971,7 @@ no ~b~u~n in bat g~~~rC4I~r ~a~4l~pw&#xD;
 f~onS~. too. Wee ~t. ~ ~'&#xD;
 -                ~ ?M~&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC7678-00000026"/>&#xD;
+<pb n="60-61" xml:id="VAC7678-00000026"/>&#xD;
 ~qi~ah~a suid~tli~re can bi~no lnnn Ii t~hltng&#xD;
 h~nt%~, 'fo~'I e""c&amp;amp;~t       ~           "'It~ ~aAnot he sb des  A~iet. 'Thr~&#xD;
 when he comes."         '~ '~ ~     '~1' iih~3tWi~s~I will tdll ybtr k~1?.  fhth~t;&#xD;
@@ -3043,7 +3048,7 @@ suspects ~my~ intentlima are not of the wi~h~d hi~ friend'A pl~nsant~venj~ig,&#x
 ~st honorable nature. Eeztorahle~J and departad9t~ ~tt~en4l to Pr: t4~&#xD;
 pshawit is '4nzidie ~vowd4 When on~ u~ eon1~eoiL~on~ ~th~ hi ~m~fa*n-# pl~&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC7678-00000027"/>&#xD;
+<pb n="62-63" xml:id="VAC7678-00000027"/>&#xD;
 THE Qu~EE~cm:.&#xD;
 ~det4pr~p4i~eiov~ 4~ie rec~ptiotx'of his gazed aMmndAipoxi Those familiar objeot~s&#xD;
 bride. that~ had ~formerl~r been his de1ikht,~ he&#xD;
@@ -3143,7 +3148,7 @@ the inniate of a fel6h#s cell.: ' " ' ""''door~ Guts walked carelessly beside 'b
 'At'~en o'cl~ek"'the' Same ~ening, and aft~r making a few unimportant u~x.&#xD;
 ihileEdwai~d Mert4~n' lay'iii 'hisX'glokmiyi quiirios; id thati 'the suspicions of ~&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC7678-00000028"/>&#xD;
+<pb n="64-65" xml:id="VAC7678-00000028"/>&#xD;
 84&#xD;
 might not he ~ex~ ,A~ask~d~ in, .~ l(w~ ~b ew~.4evih~s p~b~l4y r~epgn*~ed&#xD;
 whisper Kfmoi' J~ I u {a~; tJi~ a~h~i~Jerh. fol ~ut~ irn~lixie~l to do&#xD;
@@ -3239,7 +3244,7 @@ being now flus1edt4i~h' ~&#xD;
 Ad~elsJWiWil~* -'&#xD;
 ~ti~re1kst'vi~it~d' i~~liile rlck$tb ti~di~ M~ ~J~htlini2the 'aubj~t of&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC7678-00000029"/>&#xD;
+<pb n="66-67" xml:id="VAC7678-00000029"/>&#xD;
 iii&#xD;
 &#xD;
 ~w'~hkh may heiie~si*y ~divine4 ~y~vlj~t .~ hreetedtjq ~osn~plkit.eou.&#xD;
@@ -3334,7 +3339,7 @@ e~uld w~ pqnt owtpin ~ howl updersta~d ?" ~"&#xD;
 i~ocent~an&amp;amp;n~l~le eui~4ed~ Edward M~rq will get her to acoonipnny you~ out in&#xD;
 ~His fated la enly hut. ~too ~tTru~ p the 4ity ~onze evening -.-.'~'&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC7678-00000030"/>&#xD;
+<pb n="68-69" xml:id="VAC7678-00000030"/>&#xD;
 e&#xD;
 &#xD;
 I&#xD;
@@ -3434,7 +3439,7 @@ eyes upon the face of 'tWo' nta~at 6f'pi'ety, tn~1ividual' eenfes~ed that~ the a
 &#xD;
 h&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC7678-00000031"/>&#xD;
+<pb n="70-71" xml:id="VAC7678-00000031"/>&#xD;
 ~tJ7~~ QIYDEE;OITY:&#xD;
 &#xD;
 b&#xD;
@@ -3610,7 +3615,7 @@ devil-may-care fellow, who stood beside&#xD;
 &#xD;
 j~i4&#xD;
 &#xD;
-<pb  n="72 (Illustration) " xml:id="VAC7678-00000032"/>&#xD;
+<pb n="72 (Illustration) " xml:id="VAC7678-00000032"/>&#xD;
 'THE' ~UEEK' crr~&#xD;
 &#xD;
 1I&#xD;
@@ -3714,7 +3719,7 @@ of a villain, and he dreaded lest she had already become his victim I With one b
 the hall, and seizing the woman by the throat~ shouted; "Now, you infernaihag, tell me what has&#xD;
 beco±ae of Pembroke and the lady that came with him a few hours since !"-pagc 62.&#xD;
 &#xD;
-<pb  n="-77" xml:id="VAC7678-00000033"/>&#xD;
+<pb n="-77" xml:id="VAC7678-00000033"/>&#xD;
 44&#xD;
 &#xD;
 )&#xD;
@@ -3781,7 +3786,7 @@ g~irl. "Did not' he Who now spurns me and quitted the apartment in consider-&#xD
 offering to brlb~ meto sitexice,'cause the glancO of the wronged and excited girl.&#xD;
 wreck which you' now affect te despise? Left alone, Agnes sunk back upon the&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC7678-00000034"/>&#xD;
+<pb n="78-79" xml:id="VAC7678-00000034"/>&#xD;
 78                          1~E QIJE&#xD;
 couch,' rind burst into tears-the fir~t&#xD;
 she1hait shed for many long' days.&#xD;
@@ -3970,7 +3975,7 @@ street, in company of her pretended lover,&#xD;
 'Charles Ietnbroke. Upon 'being: ~tt~&#xD;
 mitted, as before remarked, the two ~w~eft&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC7678-00000035"/>&#xD;
+<pb n="80-81" xml:id="VAC7678-00000035"/>&#xD;
 oii4ueted by a aertant into aback pnr1or,~ piano. This was declined' by Adelaide,&#xD;
 where three ladies, agreement, were who aeknowled~ed she did not play.&#xD;
 seated, ii rt~~n~.et'psrM in 'the "Not play I" exclaimed Miss Clara, in&#xD;
@@ -4090,7 +4095,7 @@ ITS MY$TIIRIES AND MISERIES.               81&#xD;
 &#xD;
 81&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC7678-00000036"/>&#xD;
+<pb n="82-83" xml:id="VAC7678-00000036"/>&#xD;
 82                           THE QU~EI~T OITY~&#xD;
 :~ "'No hut for n~' ~ ~ sum will' I ~1f-doat,.~ti~ ratli~~' tlia,~ 'f1~' 'win-lA&#xD;
 &#xD;
@@ -4186,7 +4191,7 @@ through the newspapers. or emperor was forced, to adop1~ ~a cer-&#xD;
 In the despotic governments, of Eu- tam line qf avti~n through th~ oo~peU-&#xD;
 rope, public opinioii 'is regarded' as little big' fdr4e of public opim~ion-~--when, hi&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC7678-00000037"/>&#xD;
+<pb n="84-85" xml:id="VAC7678-00000037"/>&#xD;
 TH~ QITEEN OITY:&#xD;
 t~ith; the germ of ~uci~ popular 'notions opinions without molestation; but, mark&#xD;
 oi~i~inated with himsi~If.' ''the fact, the free discussion of Rouiaxz..&#xD;
@@ -4329,7 +4334,7 @@ of their space to the cause of dducatiwt&#xD;
 and general intelligence, than to elabo'-&#xD;
 rate and complitnentary 'puffs 'of "horse&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC7678-00000038"/>&#xD;
+<pb n="86-87" xml:id="VAC7678-00000038"/>&#xD;
 86&#xD;
 &#xD;
 ~TIIE QUEEN CITY:&#xD;
@@ -4470,7 +4475,7 @@ Mayhap, he imagines himself surrounded reality, and are astonished to find that&
 each moment tofasten their deadly fangs It was at this hour that Gideon Hart-&#xD;
 4eep in his trembling flesh; yet he feels kins, the resurrectionist, was seated in&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC7678-00000039"/>&#xD;
+<pb n="88-89" xml:id="VAC7678-00000039"/>&#xD;
 U&#xD;
 &#xD;
 'li~' QUFA~N CITY:&#xD;
@@ -4611,7 +4616,7 @@ plish it," said the resurreiti6it' iban,~ig-&#xD;
 nifieantI~Y ' ~nflne~iiekiV'~h '~ dungeon,&#xD;
 "i'underetand what you say; blit my&#xD;
 &#xD;
-<pb  n="90 (Illustration) " xml:id="VAC7678-00000040"/>&#xD;
+<pb n="90 (Illustration) " xml:id="VAC7678-00000040"/>&#xD;
 TH~QUEB~qOI!~~Y:&#xD;
 ~a~e~ip ~. deepq~ra~e pue, a~4 therefore, eon~liqn~f his-nefa~ioi.rs plans anti&#xD;
 ;~qa~d~pera~ xue4y.'~ answered schemes f~r, his future operations;&#xD;
@@ -4669,7 +4674,7 @@ eonfronted by Wilson, who bounded upon Pembroke with the fury of a madman, and h
 to the floor, whispered the name of ADELAIEEE between JAs teeth, and tightened the grasp on his&#xD;
 throat I-Psge 88.&#xD;
 &#xD;
-<pb  n="-95" xml:id="VAC7678-00000041"/>&#xD;
+<pb n="-95" xml:id="VAC7678-00000041"/>&#xD;
 '~',~)&#xD;
 1'',~&#xD;
 "~l'II&#xD;
@@ -4786,7 +4791,7 @@ of the others' voice fell upon his ear, and&#xD;
 bending over the table, he gazed for a few&#xD;
 moments in silence into the other's face.&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC7678-00000042"/>&#xD;
+<pb n="96-97" xml:id="VAC7678-00000042"/>&#xD;
 I&#xD;
 &#xD;
 ~ou'I" ha added to a' waitor'-who' was&#xD;
@@ -4909,7 +4914,7 @@ yo~ ~iet ~' .A.h~ been in '~b&amp;amp; *ea1Eh~' men' o~'oiir&#xD;
 "~o~ no~ I bate tnot; I will noti-see - a~le ortu :l~e~product; o~a life of'&#xD;
 he~ rt~rtlN ha'/e d~&amp;amp;*oMe tha'tmiia~ ~tievgyen4~4tivity-.'ai1d lta~ieg euIo~tte4-&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC7678-00000043"/>&#xD;
+<pb n="98-99" xml:id="VAC7678-00000043"/>&#xD;
 T14B QV~EN;QJ~Y~;&#xD;
 &#xD;
 ~bsa~Ji~4 i~esideucoia ~ fashionable portion&#xD;
@@ -5077,7 +5082,7 @@ riph uncle:?" drawled.Pembrokewho was en- intimated. toyHenley,4his morning, my 
 gaged 'izi th~ perusal *f Reynolds' last "thrill- that the nuptials should take place imme..&#xD;
 zngromance," from which occupation lip occa-, d~iately, or that ~ ~hould withdraw my attaa-&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC7678-00000044"/>&#xD;
+<pb n="100-101" xml:id="VAC7678-00000044"/>&#xD;
 LIOd* fr~iri hia~daught~e~.u~irely. At thief thelatilted them by the light of the nearest lamp.&#xD;
 old fellow appeared co dSatAjtroabledtrod While doing sO, his attention was ~ttraeted by&#xD;
 argSd that thE~oajy Irape )imentiiwthe wayivn.s a hackney coach sending sbnie distance up&#xD;
@@ -5189,7 +5194,7 @@ of spring, has been blighted by the chilly blast forward, as he observed the han
 of unkindness. Many a sweet disposition has struggling females eluteh the throat of the&#xD;
 ecess corrupted by its poisonous breath. And other, whose features, being at the rams time&#xD;
 &#xD;
-<pb  n="102-103 (Advertisement) " xml:id="VAC7678-00000045"/>&#xD;
+<pb n="102-103 (Advertisement) " xml:id="VAC7678-00000045"/>&#xD;
 10StL&#xD;
 &#xD;
 THE QUEEN CITY.&#xD;
@@ -5383,7 +5388,7 @@ Jr Co., Louisville. For sale at all Book and Periodical Depots throughout the Un
 Price SOOs in Paper, and 750. in beautifully embossed Muslin.&#xD;
 ~cL~&#xD;
 &#xD;
-<pb  n="104 (Advertisement) -105" xml:id="VAC7678-00000046"/>&#xD;
+<pb n="104 (Advertisement) -105" xml:id="VAC7678-00000046"/>&#xD;
 A)&#xD;
 &#xD;
 ~1&#xD;
@@ -5426,8 +5431,8 @@ js&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="VAC6658">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6658">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >The Rivals </title>
-            <author >Haw, M. J.</author>
+            <title>The Rivals </title>
+            <author>Haw, M. J.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
             <respStmt>
-               <resp >General Editor</resp>
-               <name  xml:id="mdalmau">Michelle Dalmau</name>
+               <resp>General Editor</resp>
+               <name xml:id="mdalmau">Michelle Dalmau</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6658</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6658</idno>
+            <idno type="wright2" n="previous">wright2-1131</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >The rivals :</title>
-                  <author >Haw, M. J.</author>
+                  <title>The rivals :</title>
+                  <author>Haw, M. J.</author>
                </titleStmt>
-               <extent >61 p. </extent>
+               <extent>61 p. </extent>
                <publicationStmt>
-                  <publisher >Ayres &amp; Wade</publisher>
+                  <publisher>Ayres &amp; Wade</publisher>
                   <pubPlace>Richmond Va. </pubPlace>
-                  <date  when="1864">1864</date>
+                  <date when="1864">1864</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2002-10-24">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>The rivals :</head> 
+            <head>The rivals :</head>
             <p>
-               <pb  n=" (TitlePage) " xml:id="VAC6658-00000001"/>7 'is:&#xD;
+               <pb n=" (TitlePage) " xml:id="VAC6658-00000001"/>7 'is:&#xD;
 &#xD;
 _    TM&#xD;
 A ' ;&#xD;
@@ -192,7 +197,7 @@ r&#xD;
 &#xD;
 ..&#xD;
 &#xD;
-<pb  n="0" xml:id="VAC6658-00000002"/>&#xD;
+<pb n="0" xml:id="VAC6658-00000002"/>&#xD;
 - BOUND.&#xD;
 &#xD;
 4&#xD;
@@ -263,7 +268,7 @@ t.&#xD;
 .t&#xD;
 K&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC6658-00000003"/>&#xD;
+<pb n="4-5" xml:id="VAC6658-00000003"/>&#xD;
 T~lE TLVALS:A CI1IC1 Ai1OMINY' STORiY,&#xD;
 &#xD;
 4&#xD;
@@ -380,7 +385,7 @@ down cupon them.""'                                                           a&
 &#xD;
 THE RIVALS&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC6658-00000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6658-00000004"/>&#xD;
 6&#xD;
 &#xD;
 THE RIVALS:&#xD;
@@ -497,7 +502,7 @@ ing, Walter,' he said, graspi'ng his friend's hand, ''I va4e your friendship far
 suchtiviaV thingsas money 'ahd property, anid would delight-in rendering more sub-&#xD;
 stantial service if -you would let me.'  '-&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC6658-00000005"/>&#xD;
+<pb n="8-9" xml:id="VAC6658-00000005"/>&#xD;
 8                            TIlE RIVALS:&#xD;
 CHAPTER ii.&#xD;
 Monday morning found the whole school, compokedof about a dozen boarders&#xD;
@@ -613,7 +618,7 @@ y'&#xD;
 1&#xD;
 L&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC6658-00000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6658-00000006"/>&#xD;
 30Q&#xD;
 &#xD;
 The foremost in this galaxy, of youth and beauty, undoubtedly, was Nellie'&#xD;
@@ -856,7 +861,7 @@ o bright, wa-m singer&#xD;
 &#xD;
 A CHICKAHOMITY S]ORY.&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC6658-00000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6658-00000007"/>&#xD;
 hies  t three of them, at least, never forgot those charming .rides along the smooth&#xD;
 comotry roads, edged with green turf and brilliant wild flowers, and bordered by st ps&#xD;
 s..ifioUth ftoresti or, by straggling rail fences covered over with the magnificent trumpet&#xD;
@@ -972,7 +977,7 @@ w&#xD;
 tgtg(                                                                                      ,j i         it      _       _&#xD;
 4&#xD;
 &#xD;
-<pb  n="14 (Illustration) -15" xml:id="VAC6658-00000008"/>&#xD;
+<pb n="14 (Illustration) -15" xml:id="VAC6658-00000008"/>&#xD;
 "&#xD;
 &#xD;
 "t" ow, Mare Wttr, t'icd T~omas, rcprov ngT3)&#xD;
@@ -1058,7 +1063,7 @@ for sevene r l :gnra  T&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC6658-00000009"/>&#xD;
+<pb n="16-17" xml:id="VAC6658-00000009"/>&#xD;
 THE RIVALS:&#xD;
 on the ladies and Uncle Thomas. for the volume on human nature which he was men-&#xD;
 tally compiling. Charley returned home, The visit, by maki g him acquainted with&#xD;
@@ -1143,7 +1148,7 @@ bw the1 s wther ? . lba; prty~r.# I&#xD;
 4 I u  ;a~l eq  s1  aer  * }i~ c i been,'l, ;dre m  Fclon Vhet i   i&#xD;
 Cl lyw takn  Yrd    esltlrre,  oy  p4oi y-t  r,   l&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC6658-00000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6658-00000010"/>&#xD;
 THE RIVALS:&#xD;
 Nellie's side, as proud and happy as a. king'is generally supposed to be.Y Tho  ques&#xD;
 triaa party soon discovered that the dust from:the carriage was unendurable, and rode&#xD;
@@ -1260,7 +1265,7 @@ A&#xD;
 &#xD;
 STORY.&#xD;
 &#xD;
-<pb  n="20-21 (Illustration) " xml:id="VAC6658-00000011"/>&#xD;
+<pb n="20-21 (Illustration) " xml:id="VAC6658-00000011"/>&#xD;
 s~&#xD;
 &#xD;
 At t i sr ng&amp;amp;'ne vt;n iiw itethe .ej&#xD;
@@ -1310,7 +1315,7 @@ eomae one th er e.""&#xD;
 &#xD;
 "&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC6658-00000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6658-00000012"/>&#xD;
 M&#xD;
 'a&#xD;
 .&#xD;
@@ -1411,7 +1416,7 @@ I        -&#xD;
 "&#xD;
 s"&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC6658-00000013"/>&#xD;
+<pb n="24-25" xml:id="VAC6658-00000013"/>&#xD;
 "&#xD;
 &#xD;
 4 "I A -tASi'&#xD;
@@ -1540,7 +1545,7 @@ w&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC6658-00000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6658-00000014"/>&#xD;
 26                               THE RIVALS:&#xD;
 The Fort was situated in a wild and picturesque country, abour ing in game, and&#xD;
 aifbrding many charming prospects; 'and  hen their military  dut es would permit,,&#xD;
@@ -1655,7 +1660,7 @@ occasion required, he bade the man usher them in,&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC6658-00000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6658-00000015"/>&#xD;
 A~~  ~ HWAQI'STORY.&#xD;
 &#xD;
 TIE  RIVALS :&#xD;
@@ -1745,7 +1750,7 @@ t8&#xD;
 &#xD;
 U&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC6658-00000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6658-00000016"/>&#xD;
 30&#xD;
 &#xD;
 THE RIVALS:&#xD;
@@ -1904,7 +1909,7 @@ er eyes enq iiringly&#xD;
 riner.&#xD;
 even more so, Since&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC6658-00000017"/>&#xD;
+<pb n="32-33" xml:id="VAC6658-00000017"/>&#xD;
 2&#xD;
 t&#xD;
 &#xD;
@@ -2014,7 +2019,7 @@ striking with his sword'tho ifratar Wir ednes in his wt#  U&amp;amp;-aMsV  .&#xD
 &#xD;
 .4&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC6658-00000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6658-00000018"/>&#xD;
 14&#xD;
 &#xD;
 THE .IIVALS:&#xD;
@@ -2129,7 +2134,7 @@ torn's uneasime s, but of course they did niot- express t eir op mon.&#xD;
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC6658-00000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6658-00000019"/>&#xD;
 - - 'fl*H -~VA~8~:&#xD;
 &#xD;
 a&#xD;
@@ -2245,7 +2250,7 @@ notehe aatehde toaccuse LeiBru,.stati g conciselytali ,e'fact Qinhi$had&#xD;
 tr ttandx lb an hutppoi'the         dow-wheT! itfoh          sofp&#xD;
 e-,tihe mpre son ie hade during tpat itne of hvingoey  .ud. gre in g&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC6658-00000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6658-00000020"/>&#xD;
 withdrawn quicklyjfrom the window ; the circumstance of his see ng a man approach"&#xD;
 ing from the direction of the bridge w'ho avoided ,i'em ; and the 'further circumstance of&#xD;
 I.e Brun's having been' at that particular time *bsent from the. fort without leave; 'tW&#xD;
@@ -2361,7 +2366,7 @@ bWad been 'willing to risk 'hisrlife for another worns. Sah ,iifihed a uh&#xD;
 nat i'ethat this lt argniaent did not faif to' tell upon her'r s li iti  csI ~aid&#xD;
 Mmr condemned t~ suffer innocently' an ignomninious3 death,'rand to 'be eut off W&#xD;
 &#xD;
-<pb  n="40-41 (Illustration) " xml:id="VAC6658-00000021"/>&#xD;
+<pb n="40-41 (Illustration) " xml:id="VAC6658-00000021"/>&#xD;
 0I&#xD;
 v: life tfralJ1its ho es and joys, shae.wo~tdha .e lintksd her (ate with his,:in..pi of&#xD;
 4!1Y f~y w~ih might have opposed, so strong -Was ber wat arily" 1 "e 'aupty  ,4&#xD;
@@ -2408,7 +2413,7 @@ j   Ii,         {&#xD;
 &#xD;
 K&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC6658-00000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6658-00000022"/>&#xD;
 - .~   ,,&#xD;
 -     .a  ,  ^ .&#xD;
 &#xD;
@@ -2577,7 +2582,7 @@ f&#xD;
 Vii.&#xD;
 _          ' *.&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC6658-00000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6658-00000023"/>&#xD;
 apetior: rusgAultiioed resurees tard .itsegular     ny -arnd rd y,he.p'edid e.&#xD;
 mest rape):dod a   iian suece ; etd; in inmgination, pictured his 1frising ra pS44&#xD;
 ap, in the vi tri ieaI my ,to a high, peritji the chief cp mnr ..&#xD;
@@ -2686,7 +2691,7 @@ t6'd'  eWhe' 'tunge; ooi'oeiddiece.. 'On 'a 11Lte t ble by the Wntf'de   ~ hsaud
 pmt4ik of alketidhe aiid ertiruavngs' ud wfittei on the miggde o? ti1  iorfftdijd&#xD;
 bew6  iting wnich she hrnidiadt'el  'gided' as jod.'tr    ig       id'&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC6658-00000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6658-00000024"/>&#xD;
 48.&#xD;
 &#xD;
 T   ",W f iALS i,&#xD;
@@ -2832,7 +2837,7 @@ slowly tidvanced to the gank of colonel. Disati fied with tli   sei gtvongly&#xD
 &#xD;
 .&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC6658-00000025"/>&#xD;
+<pb n="48-49" xml:id="VAC6658-00000025"/>&#xD;
 OCti   . h e olie d hirdio recdrgize as. the pleasant t, py hon estead 6E forrier&#xD;
 ti   .    er warderilij imlessly through the room  in which he iasbut s ma&#xD;
 happy hours, he went out into the garded and stood once more before the honeywuckie&#xD;
@@ -2908,7 +2913,7 @@ A CHICkAHOb INY STORY.&#xD;
 &#xD;
 :&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC6658-00000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6658-00000026"/>&#xD;
 THlE RIVALS&#xD;
 &#xD;
 -5t&#xD;
@@ -3005,7 +3010,7 @@ meen me an thga and he just told a.hit be di l for- a lie'&#xD;
 'But my aunts,' said Whlter' where 'ire th ' and hae they satd notdba&#xD;
 Went to Xrahmaod, thArlt the Ikd at1 crr!rt1 are  C th&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC6658-00000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6658-00000027"/>&#xD;
 THE IUVALS:&#xD;
 &#xD;
 52&#xD;
@@ -3119,7 +3124,7 @@ situated on ahe hilt whore the foiedgrate arti le y as bsing piae ~lin petegn&#x
 sawt with, what sacrilege iis parent's grare had b n gi0!tede by the ~akeetbatrbage,&#xD;
 his .beart swelled with strong emotion. The wo d a railhng around he grave had been&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC6658-00000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6658-00000028"/>&#xD;
 w&#xD;
 &#xD;
 0&#xD;
@@ -3224,7 +3229,7 @@ w f * tI'utz&#xD;
 &#xD;
 fS&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC6658-00000029"/>&#xD;
+<pb n="56-57" xml:id="VAC6658-00000029"/>&#xD;
 fought unscathed through the whole battle, until its close, when in pursuit of tIhtflying&#xD;
 .emy be had his le fturm fractured by a minie ball. TJ'he fracture, though not, au i-&#xD;
 cien to-require amp tatiopwas severe, and the surgeon, on bindlg a 'thewgiud,&#xD;
@@ -3326,7 +3331,7 @@ claimed,.'I am, sure I know that voice  Isn't it Nel"li" ardier'?'-&#xD;
 Oharley nodded afirmatively.t'&#xD;
 ' ''Well, then, beg her, for Heaven's sake,'to come here instantly; I ha &amp;amp; some-&#xD;
 &#xD;
-<pb  n="58-59 (Illustration) " xml:id="VAC6658-00000030"/>&#xD;
+<pb n="58-59 (Illustration) " xml:id="VAC6658-00000030"/>&#xD;
 thi.ng. of hipottLauce to say to her.; brig her quickly7, fori, lhaw4er yitiy&#xD;
 Oh1a4"y hurried out to the carria cand fterfjal tifr  ,th e,Mjde  sid anr/jj' tI" ~e  ;""f i  i".t  ^yi *[ 'ilS",a"  yg&#xD;
 j°ohe tiaitournd iref        d,'   c     dkrAdmtojjin         atlh&#xD;
@@ -3386,7 +3391,7 @@ j&#xD;
 r#&#xD;
 i&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC6658-00000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6658-00000031"/>&#xD;
 9&#xD;
 &#xD;
 "&#xD;
@@ -3493,8 +3498,8 @@ a&#xD;
 &#xD;
 &#xD;
  &#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD;&#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>

@@ -1,86 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/vwwp/vwwp.xsd" xml:id="Wright2-1077">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.dlib.indiana.edu/lib/xml/tei/p5/general.xsd"
+     xml:id="VAC6603">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title >Chris Spangler; or, The Scout's Revenge </title>
-            <author >Dominie.</author>
+            <title>Chris Spangler; or, The Scout's Revenge </title>
+            <author>Dominie.</author>
             <respStmt>
-               <resp >General Editor</resp>
-               <name >Perry Willett</name>
+               <resp>General Editor</resp>
+               <name>Perry Willett</name>
             </respStmt>
             <respStmt>
-               <resp >Electronic Text Specialist</resp>
-               <name  xml:id="adamhoch">Adam Hochstetter</name>
+               <resp>Electronic Text Specialist</resp>
+               <name xml:id="adamhoch">Adam Hochstetter</name>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher >Digital Library Program, Indiana University</publisher>
+            <publisher>Digital Library Program, Indiana University</publisher>
             <pubPlace>Bloomington, IN</pubPlace>
-            <address >
-               <addrLine >1320 E. 10th St.</addrLine>
-               <addrLine >Bloomington, IN 47405</addrLine>
+            <address>
+               <addrLine>1320 E. 10th St.</addrLine>
+               <addrLine>Bloomington, IN 47405</addrLine>
             </address>
-            <idno >VAC6603</idno>
-            <availability  status="unknown">
-               <p>2000, The Trustees of Indiana University. Indiana University makes a claim of
-                    copyright only to original contributions made by the Victorian Women Writers
-                    Project participants and other members of the university community. Indiana
-                    University makes no claim of copyright to the original text. Permission is
-                    granted to download, transmit or otherwise reproduce, distribute or display the
-                    contributions to this work claimed by Indiana University for non-profit
-                    educational purposes, provided that this header is included in its entirety. For
-                    inquiries about commercial uses, please contact the Digital Library Program.</p>
+            <idno type="wright">VAC6603</idno>
+            <idno type="wright2" n="previous">wright2-1077</idno>
+            <availability status="unknown">
+               <p>2013, The Trustees of Indiana University. Indiana University makes a claim of
+                copyright only to original contributions made by the Wright American Fiction project 
+                participants and other members of the university community. Indiana
+                University makes no claim of copyright to the original text. Permission is
+                granted to download, transmit or otherwise reproduce, distribute or display the
+                contributions to this work claimed by Indiana University for non-profit
+                educational purposes, provided that this header is included in its entirety. For
+                inquiries about commercial uses, please contact the Indiana University Libraries.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title  level="s" type="project">Wright American Fiction: An Electronic
+            <title level="s" type="project">Wright American Fiction: An Electronic
                     Collection</title>
          </seriesStmt>
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title >Chris Spangler; or, The scout's revenge</title>
-                  <author >Dominie.</author>
+                  <title>Chris Spangler; or, The scout's revenge</title>
+                  <author>Dominie.</author>
                </titleStmt>
-               <extent >125 p.</extent>
+               <extent>125 p.</extent>
                <publicationStmt>
-                  <publisher >Berry &amp; Howell,</publisher>
+                  <publisher>Berry &amp; Howell,</publisher>
                   <pubPlace>Orangeburg, S.C. :</pubPlace>
-                  <date >[18--?]</date>
+                  <date>[18--?]</date>
                </publicationStmt>
             </biblFull>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p >This text was created as part of a project by the Committee on Institutional
+            <p>This text was created as part of a project by the Committee on Institutional
                     Cooperation. Project description and participants are available at the project
                     website at http://www.letrs.indiana.edu/wright.</p>
          </projectDesc>
          <editorialDecl>
-            <p >This electronic text file was created by Optical Character Recognition (OCR), and
+            <p>This electronic text file was created by Optical Character Recognition (OCR), and
                     has been encoding and edited using the recommendations for Level 4 of the TEI in
                     Libraries Guidelines. Digital page images are linked to the text file.</p>
          </editorialDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language  ident="fra">French</language>
-            <language  ident="deu">German</language>
-            <language  ident="grc">Classical Greek</language>
-            <language  ident="lat">Latin</language>
+            <language ident="fra">French</language>
+            <language ident="deu">German</language>
+            <language ident="grc">Classical Greek</language>
+            <language ident="lat">Latin</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change  who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
-         <change  who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Perry Willett, Indiana University" when="2001-12-17">Finished OCR, rough encoding and error checking</change>
+         <change who="adamhoch" when="2012-12-21">Converted doc from sgml to TEI P5. Inserted OCR text. Linked image files</change>
+         <change who="Nick Homenda" when="2013-10-21">Mass transformation to fix page breaks, update schema, and update project information.</change>
       </revisionDesc>
    </teiHeader>
-   <text > 
+   <text>
       <body>
          <div type="book">
-            <head>Chris Spangler; or, The scout's revenge</head> 
+            <head>Chris Spangler; or, The scout's revenge</head>
+            <pb n="0 (TitlePage) " xml:id="VAC6603-00000001"/>
             <p>i&#xD;
 &#xD;
 ti _f    F4."&#xD;
@@ -169,7 +175,7 @@ i&#xD;
 &#xD;
 '&#xD;
 &#xD;
-<pb  n="0 (TitlePage) " xml:id="VAC660300000002"/>&#xD;
+<pb n="2-3" xml:id="VAC6603-00000002"/>&#xD;
 2                  'J _1177SSP ^i (~LEE-1J , OR&#xD;
 &#xD;
 to-niht an(1d t}rivi' on W0C. ]    itos  al'ho =:bt.&#xD;
@@ -271,7 +277,7 @@ ii&#xD;
 &#xD;
 ,;&#xD;
 &#xD;
-<pb  n="2-3" xml:id="VAC660300000003"/>&#xD;
+<pb n="4-5" xml:id="VAC6603-00000003"/>&#xD;
 ,  - r  -  -.&#xD;
 &#xD;
 t1 R J '.")ro  'ir  he    1~am o&#xD;
@@ -419,7 +425,7 @@ t r s d-"A&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="4-5" xml:id="VAC660300000004"/>&#xD;
+<pb n="6-7" xml:id="VAC6603-00000004"/>&#xD;
 C(Jm US SPA TCGL f 1, OR,&#xD;
 &#xD;
 The horses thundered on.&#xD;
@@ -620,7 +626,7 @@ t&#xD;
 &#xD;
 "    k-      4        a             x&#xD;
 &#xD;
-<pb  n="6-7" xml:id="VAC660300000005"/>&#xD;
+<pb n="8-9" xml:id="VAC6603-00000005"/>&#xD;
 a   -  Y 1                                         2          -.&#xD;
 &#xD;
 r&#xD;
@@ -753,7 +759,7 @@ S, y&#xD;
 Y      Si&#xD;
 '4k   a&#xD;
 &#xD;
-<pb  n="8-9" xml:id="VAC660300000006"/>&#xD;
+<pb n="10-11" xml:id="VAC6603-00000006"/>&#xD;
 /*1&#xD;
 I: /..----.----.-..---------'---.&#xD;
 (Jw~iIRI.S-.  PAN(%IL. a ,  ORa...e , ,, "  ..-.&#xD;
@@ -983,7 +989,7 @@ i&#xD;
 gs&#xD;
 l&#xD;
 &#xD;
-<pb  n="10-11" xml:id="VAC660300000007"/>&#xD;
+<pb n="12-13" xml:id="VAC6603-00000007"/>&#xD;
 ,                                                                                                s&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -1232,7 +1238,7 @@ F&#xD;
 &#xD;
 _. .:&#xD;
 &#xD;
-<pb  n="12-13" xml:id="VAC660300000008"/>&#xD;
+<pb n="14-15" xml:id="VAC6603-00000008"/>&#xD;
 :r----&#xD;
 &#xD;
 14&#xD;
@@ -1520,7 +1526,7 @@ h&#xD;
 ^t&#xD;
 5&#xD;
 &#xD;
-<pb  n="14-15" xml:id="VAC660300000009"/>&#xD;
+<pb n="16-17" xml:id="VAC6603-00000009"/>&#xD;
 16           CHRIS SPANGLER, OR&#xD;
 &#xD;
 A a' 3&#xD;
@@ -1778,7 +1784,7 @@ i&#xD;
 WAZ&#xD;
 IMF.&#xD;
 &#xD;
-<pb  n="16-17" xml:id="VAC660300000010"/>&#xD;
+<pb n="18-19" xml:id="VAC6603-00000010"/>&#xD;
 .,   . ,   1&#xD;
 t&#xD;
 &#xD;
@@ -2010,7 +2016,7 @@ x&#xD;
 &#xD;
 S&#xD;
 &#xD;
-<pb  n="18-19" xml:id="VAC660300000011"/>&#xD;
+<pb n="20-21" xml:id="VAC6603-00000011"/>&#xD;
 20                     CHRIS SPANGLER, OR&#xD;
 He tested the disabled arm. An acute Mutila       my&#xD;
 pain dismissed quickly allidea of re- Tully  the limb seriously and paic..&#xD;
@@ -2205,7 +2211,7 @@ INk&#xD;
 7  . ys'      sue. '  e&#xD;
 _x                       3         %-&#xD;
 &#xD;
-<pb  n="20-21" xml:id="VAC660300000012"/>&#xD;
+<pb n="22-23" xml:id="VAC6603-00000012"/>&#xD;
 r.22                   CRSS&#xD;
 HRIS SPANGLER, OR&#xD;
 pregnably   The assault on the rebel hopeless&#xD;
@@ -2431,7 +2437,7 @@ i&#xD;
 &#xD;
 tt&#xD;
 &#xD;
-<pb  n="22-23" xml:id="VAC660300000013"/>&#xD;
+<pb n="24-25" xml:id="VAC6603-00000013"/>&#xD;
 24            CHRIS SPANGLER, OR&#xD;
 &#xD;
 like example tells us, that, neither&#xD;
@@ -2616,7 +2622,7 @@ F&#xD;
 &#xD;
 f&#xD;
 &#xD;
-<pb  n="24-25" xml:id="VAC660300000014"/>&#xD;
+<pb n="26-27" xml:id="VAC6603-00000014"/>&#xD;
 26&#xD;
 &#xD;
 CHRIS SPA NGLER, OR&#xD;
@@ -2837,7 +2843,7 @@ i&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="26-27" xml:id="VAC660300000015"/>&#xD;
+<pb n="28-29" xml:id="VAC6603-00000015"/>&#xD;
 I ,&#xD;
 &#xD;
 28'&#xD;
@@ -3062,7 +3068,7 @@ THE SCOUT'S REVENGE.&#xD;
 &#xD;
 29&#xD;
 &#xD;
-<pb  n="28-29" xml:id="VAC660300000016"/>&#xD;
+<pb n="30-31" xml:id="VAC6603-00000016"/>&#xD;
 decr p!Itold figure doubled in a hide&#xD;
 seated chair.&#xD;
 "It's cold enough for more fire," re-&#xD;
@@ -3283,7 +3289,7 @@ i T&#xD;
 J&#xD;
 ..&#xD;
 &#xD;
-<pb  n="30-31" xml:id="VAC660300000017"/>&#xD;
+<pb n="32-33" xml:id="VAC6603-00000017"/>&#xD;
 32           CHRIS SPANGLER, OR&#xD;
 &#xD;
 other of the respectable branches."&#xD;
@@ -3523,7 +3529,7 @@ I&#xD;
 ,      ,&#xD;
 ,       ;F&#xD;
 &#xD;
-<pb  n="32-33" xml:id="VAC660300000018"/>&#xD;
+<pb n="34-35" xml:id="VAC6603-00000018"/>&#xD;
 CHRIS SPANGLER, OR&#xD;
 &#xD;
 THE SCOUT'S REVENGE.&#xD;
@@ -3763,7 +3769,7 @@ I_&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="34-35" xml:id="VAC660300000019"/>&#xD;
+<pb n="36-37" xml:id="VAC6603-00000019"/>&#xD;
 irV f.,-ul  _ _  = .':,f  : ."'  _  ea.  -.aI.&#xD;
 &#xD;
 36&#xD;
@@ -4003,7 +4009,7 @@ L1_&#xD;
 &#xD;
 !°'&#xD;
 &#xD;
-<pb  n="36-37" xml:id="VAC660300000020"/>&#xD;
+<pb n="38-39" xml:id="VAC6603-00000020"/>&#xD;
 36&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -4214,7 +4220,7 @@ amy right."&#xD;
 ---   ,          'Y            r .ra' "'      'a:c 4iF          #       i      Sy  ^e  _      s   r'tT i      '+i '     .'r   -&#xD;
 ?                                               fir,&#xD;
 &#xD;
-<pb  n="38-39" xml:id="VAC660300000021"/>&#xD;
+<pb n="40-41" xml:id="VAC6603-00000021"/>&#xD;
 THE SCOUT'S REVENGE.&#xD;
 &#xD;
 40            CHRIS SPANGLER, OR&#xD;
@@ -4444,7 +4450,7 @@ CHRIS SPANGLED, OR&#xD;
 &#xD;
 1&#xD;
 &#xD;
-<pb  n="40-41" xml:id="VAC660300000022"/>&#xD;
+<pb n="42-43" xml:id="VAC6603-00000022"/>&#xD;
 42&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -4688,7 +4694,7 @@ a&#xD;
 &#xD;
 I&#xD;
 &#xD;
-<pb  n="42-43" xml:id="VAC660300000023"/>&#xD;
+<pb n="44-45" xml:id="VAC6603-00000023"/>&#xD;
 ..._.&#xD;
 &#xD;
 were no impediment to the easy jump&#xD;
@@ -4920,7 +4926,7 @@ I'-     3&#xD;
 &#xD;
 ,&#xD;
 &#xD;
-<pb  n="44-45" xml:id="VAC660300000024"/>&#xD;
+<pb n="46-47" xml:id="VAC6603-00000024"/>&#xD;
 CHRIS SPANGLER, OR&#xD;
 &#xD;
 if I say, I did not expect you to over-&#xD;
@@ -5140,7 +5146,7 @@ f&#xD;
 &#xD;
 -   Aggff&#xD;
 &#xD;
-<pb  n="46-47" xml:id="VAC660300000025"/>&#xD;
+<pb n="48-49" xml:id="VAC6603-00000025"/>&#xD;
 48&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -5362,7 +5368,7 @@ that viol (al'e(' l l \'t in 1  1i&#xD;
 3&#xD;
 i&#xD;
 &#xD;
-<pb  n="48-49" xml:id="VAC660300000026"/>&#xD;
+<pb n="50-51" xml:id="VAC6603-00000026"/>&#xD;
 CHRIS SPANGLER, OR&#xD;
 &#xD;
 "At the Crawford's, and will re-&#xD;
@@ -5586,7 +5592,7 @@ t&#xD;
 &#xD;
 1  .,:_&#xD;
 &#xD;
-<pb  n="50-51" xml:id="VAC660300000027"/>&#xD;
+<pb n="52-53" xml:id="VAC6603-00000027"/>&#xD;
 THE SCOUT'S REVENGE.&#xD;
 &#xD;
 52             CHRIS SPANGLER, OR&#xD;
@@ -5807,7 +5813,7 @@ ti.   Y eWm .. r     f   :..r:: _n    ___   ~_&#xD;
 &#xD;
 CHRIS SPANGLEI1, 0R&#xD;
 &#xD;
-<pb  n="52-53" xml:id="VAC660300000028"/>&#xD;
+<pb n="54-55" xml:id="VAC6603-00000028"/>&#xD;
 54&#xD;
 &#xD;
 .   _    ,     ,             _&#xD;
@@ -6022,7 +6028,7 @@ x.t A&#xD;
 &#xD;
 Ni  {&#xD;
 &#xD;
-<pb  n="54-55" xml:id="VAC660300000029"/>&#xD;
+<pb n="56-57" xml:id="VAC6603-00000029"/>&#xD;
 .43          ,CHRIS SPANGLER, OR&#xD;
 &#xD;
 wid Mars Ralph "&#xD;
@@ -6253,7 +6259,7 @@ L&#xD;
 &#xD;
 t&#xD;
 &#xD;
-<pb  n="56-57" xml:id="VAC660300000030"/>&#xD;
+<pb n="58-59" xml:id="VAC6603-00000030"/>&#xD;
 58&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -6450,7 +6456,7 @@ J&#xD;
 &#xD;
 WIN&#xD;
 &#xD;
-<pb  n="58-59" xml:id="VAC660300000031"/>&#xD;
+<pb n="60-61" xml:id="VAC6603-00000031"/>&#xD;
 THE SCOUT'S REVENGE.&#xD;
 &#xD;
 60             CHRIS SPANGLER, OR&#xD;
@@ -6674,7 +6680,7 @@ ma's&#xD;
 &#xD;
 m"W"T&#xD;
 &#xD;
-<pb  n="60-61" xml:id="VAC660300000032"/>&#xD;
+<pb n="62-63" xml:id="VAC6603-00000032"/>&#xD;
 62&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -6900,7 +6906,7 @@ Irs St Clair led her in by the&#xD;
 .~&#xD;
 -9 ^I   q&#xD;
 &#xD;
-<pb  n="62-63" xml:id="VAC660300000033"/>&#xD;
+<pb n="64-65" xml:id="VAC6603-00000033"/>&#xD;
 ~I~lE  0 LT FSRXNW&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -7099,7 +7105,7 @@ Z   tl       r.&#xD;
 s Y    r&#xD;
 i _" 'r&#xD;
 &#xD;
-<pb  n="64-65" xml:id="VAC660300000034"/>&#xD;
+<pb n="66-67" xml:id="VAC6603-00000034"/>&#xD;
 66&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -7320,7 +7326,7 @@ t4&#xD;
 s&#xD;
 i3&#xD;
 &#xD;
-<pb  n="66-67" xml:id="VAC660300000035"/>&#xD;
+<pb n="68-69" xml:id="VAC6603-00000035"/>&#xD;
 CHRIS SPANGLER, OR&#xD;
 &#xD;
 CHAPTER X1.&#xD;
@@ -7481,7 +7487,7 @@ yyi'&#xD;
 7&#xD;
 :F&#xD;
 &#xD;
-<pb  n="68-69" xml:id="VAC660300000036"/>&#xD;
+<pb n="70-71" xml:id="VAC6603-00000036"/>&#xD;
 70&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -7702,7 +7708,7 @@ w&#xD;
 &#xD;
 L&#xD;
 &#xD;
-<pb  n="70-71" xml:id="VAC660300000037"/>&#xD;
+<pb n="72-73" xml:id="VAC6603-00000037"/>&#xD;
 72&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -7921,7 +7927,7 @@ wmw&#xD;
 &#xD;
 r")&#xD;
 &#xD;
-<pb  n="72-73" xml:id="VAC660300000038"/>&#xD;
+<pb n="74-75" xml:id="VAC6603-00000038"/>&#xD;
 74            CHRIS SPANGLER, OR&#xD;
 &#xD;
 Hal was following at a smart canter,&#xD;
@@ -8149,7 +8155,7 @@ i&#xD;
 ,q ,I      " X3d3&#xD;
 Amu&#xD;
 &#xD;
-<pb  n="74-75" xml:id="VAC660300000039"/>&#xD;
+<pb n="76-77" xml:id="VAC6603-00000039"/>&#xD;
 THE SCOUT'S REVENGE.&#xD;
 &#xD;
 and gentlemen, my friends, I would&#xD;
@@ -8375,7 +8381,7 @@ CHRIS SPANGLED, OR&#xD;
 &#xD;
 -&#xD;
 &#xD;
-<pb  n="76-77" xml:id="VAC660300000040"/>&#xD;
+<pb n="78-79" xml:id="VAC6603-00000040"/>&#xD;
 THE SCOUT'S REVENGE.          7&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -8599,7 +8605,7 @@ r sky&#xD;
 &#xD;
 ri                 z          ;&#xD;
 &#xD;
-<pb  n="78-79" xml:id="VAC660300000041"/>&#xD;
+<pb n="80-81" xml:id="VAC6603-00000041"/>&#xD;
 80&#xD;
 &#xD;
 bling propensities, and died cruelly&#xD;
@@ -8832,7 +8838,7 @@ if - - 111&#xD;
 1&#xD;
 f&#xD;
 &#xD;
-<pb  n="80-81" xml:id="VAC660300000042"/>&#xD;
+<pb n="82-83" xml:id="VAC6603-00000042"/>&#xD;
 82&#xD;
 &#xD;
 fearless tone. Come darling, let me&#xD;
@@ -9055,7 +9061,7 @@ E&#xD;
 i4r1             ,&#xD;
 i&#xD;
 &#xD;
-<pb  n="82-83" xml:id="VAC660300000043"/>&#xD;
+<pb n="84-85" xml:id="VAC6603-00000043"/>&#xD;
 84.&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -9274,7 +9280,7 @@ i&#xD;
 &#xD;
 t-z ra&#xD;
 &#xD;
-<pb  n="84-85" xml:id="VAC660300000044"/>&#xD;
+<pb n="86-87" xml:id="VAC6603-00000044"/>&#xD;
 CHRIS SPANGLER, OR&#xD;
 &#xD;
 The enthusiastic brother was telling&#xD;
@@ -9508,7 +9514,7 @@ THE ~\ 1ol lr 'S RE  EN ; E.&#xD;
 t&#xD;
 i&#xD;
 &#xD;
-<pb  n="86-87" xml:id="VAC660300000045"/>&#xD;
+<pb n="88-89" xml:id="VAC6603-00000045"/>&#xD;
 88            CHRIS SPANGLER, OR&#xD;
 &#xD;
 mas; a great time among the south-&#xD;
@@ -9767,7 +9773,7 @@ f&#xD;
 &#xD;
 rm&#xD;
 &#xD;
-<pb  n="88-89" xml:id="VAC660300000046"/>&#xD;
+<pb n="90-91" xml:id="VAC6603-00000046"/>&#xD;
 T0  i m1"1&#xD;
 &#xD;
 cates of marriage to the controller, he&#xD;
@@ -9988,7 +9994,7 @@ yi ,&#xD;
 &#xD;
 LIP w VW71.rte Vf ' ik&#xD;
 &#xD;
-<pb  n="90-91" xml:id="VAC660300000047"/>&#xD;
+<pb n="92-93" xml:id="VAC6603-00000047"/>&#xD;
 CHRIS SPANGLER, OR&#xD;
 &#xD;
 "Ready? One!"&#xD;
@@ -10213,7 +10219,7 @@ It&#xD;
 . .&#xD;
 r : J&#xD;
 &#xD;
-<pb  n="92-93" xml:id="VAC660300000048"/>&#xD;
+<pb n="94-95" xml:id="VAC6603-00000048"/>&#xD;
 94&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -10430,7 +10436,7 @@ I&#xD;
 &#xD;
 ..&#xD;
 &#xD;
-<pb  n="94-95" xml:id="VAC660300000049"/>&#xD;
+<pb n="96-97" xml:id="VAC6603-00000049"/>&#xD;
 rpiiS'OjS 4ElN(K&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -10626,7 +10632,7 @@ t&#xD;
 ,,v&#xD;
 .&#xD;
 &#xD;
-<pb  n="96-97" xml:id="VAC660300000050"/>&#xD;
+<pb n="98-99" xml:id="VAC6603-00000050"/>&#xD;
 F&#xD;
 &#xD;
 98&#xD;
@@ -10862,7 +10868,7 @@ F&#xD;
 ,&#xD;
 =&#xD;
 &#xD;
-<pb  n="98-99" xml:id="VAC660300000051"/>&#xD;
+<pb n="100-101" xml:id="VAC6603-00000051"/>&#xD;
 12&#xD;
 &#xD;
 100&#xD;
@@ -11085,7 +11091,7 @@ t  I&#xD;
 &#xD;
 ^!&#xD;
 &#xD;
-<pb  n="100-101" xml:id="VAC660300000052"/>&#xD;
+<pb n="102-103" xml:id="VAC6603-00000052"/>&#xD;
 102&#xD;
 &#xD;
 My Alice was nineteen. A pretty&#xD;
@@ -11309,7 +11315,7 @@ S&#xD;
 &#xD;
 1EVEN;f:.&#xD;
 &#xD;
-<pb  n="102-103" xml:id="VAC660300000053"/>&#xD;
+<pb n="104-105" xml:id="VAC6603-00000053"/>&#xD;
 104&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -11518,7 +11524,7 @@ lumber of the house.&#xD;
 '  1+      t&#xD;
 vi&#xD;
 &#xD;
-<pb  n="104-105" xml:id="VAC660300000054"/>&#xD;
+<pb n="106-107" xml:id="VAC6603-00000054"/>&#xD;
 106&#xD;
 &#xD;
 Pearl too had told her all.&#xD;
@@ -11734,7 +11740,7 @@ E&#xD;
 &#xD;
 r&#xD;
 &#xD;
-<pb  n="106-107" xml:id="VAC660300000055"/>&#xD;
+<pb n="108-109" xml:id="VAC6603-00000055"/>&#xD;
 THIE SCOUT'S REVENGE.&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -11953,7 +11959,7 @@ Z WT.&#xD;
 &#xD;
 !+ }rq  7&#xD;
 &#xD;
-<pb  n="108-109" xml:id="VAC660300000056"/>&#xD;
+<pb n="110-111" xml:id="VAC6603-00000056"/>&#xD;
 TILE SCOUT'S REVENGE.&#xD;
 &#xD;
 to-day under the guise of philan-&#xD;
@@ -12181,7 +12187,7 @@ z&#xD;
 t&#xD;
 ...  _  ..          ,...  -&#xD;
 &#xD;
-<pb  n="110-111" xml:id="VAC660300000057"/>&#xD;
+<pb n="112-113" xml:id="VAC6603-00000057"/>&#xD;
 112          CHRIS SPANGLER, OR&#xD;
 &#xD;
 "Him   ride  past yer yesterday!&#xD;
@@ -12392,7 +12398,7 @@ p4;.&#xD;
 &#xD;
 lIIEsco rS M AI&#xD;
 &#xD;
-<pb  n="112-113" xml:id="VAC660300000058"/>&#xD;
+<pb n="114-115" xml:id="VAC6603-00000058"/>&#xD;
 114-&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -12608,7 +12614,7 @@ r&#xD;
 &#xD;
 ._&#xD;
 &#xD;
-<pb  n="114-115" xml:id="VAC660300000059"/>&#xD;
+<pb n="116-117" xml:id="VAC6603-00000059"/>&#xD;
 THE SCOUT'S REVENGE. 1,,&#xD;
 &#xD;
 where that large chip is, there you&#xD;
@@ -12842,7 +12848,7 @@ r  .  .&#xD;
 &#xD;
 rJ,;, s&#xD;
 &#xD;
-<pb  n="116-117" xml:id="VAC660300000060"/>&#xD;
+<pb n="118-119" xml:id="VAC6603-00000060"/>&#xD;
 118           CHRIS SPANGLER, OR&#xD;
 &#xD;
 thy.' I kept my troubles from you&#xD;
@@ -13080,7 +13086,7 @@ ir'r&#xD;
 t&#xD;
 e&#xD;
 &#xD;
-<pb  n="118-119" xml:id="VAC660300000061"/>&#xD;
+<pb n="120-121" xml:id="VAC6603-00000061"/>&#xD;
 120           CHRIS SPANGLER, OR&#xD;
 &#xD;
 jwace.   You   are  supremely  blest.,&#xD;
@@ -13299,7 +13305,7 @@ CHRIS SPANGLED, OR&#xD;
 &#xD;
 Li&#xD;
 &#xD;
-<pb  n="120-121" xml:id="VAC660300000062"/>&#xD;
+<pb n="122-123" xml:id="VAC6603-00000062"/>&#xD;
 122&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -13526,7 +13532,7 @@ Fc f&#xD;
 t&#xD;
 Mme, .;i-&#xD;
 &#xD;
-<pb  n="122-123" xml:id="VAC660300000063"/>&#xD;
+<pb n="124-125" xml:id="VAC6603-00000063"/>&#xD;
 THE SCOUT'S REVENGE.&#xD;
 &#xD;
 CHRIS SPANGLER, OR&#xD;
@@ -13735,10 +13741,8 @@ y&#xD;
 #f&#xD;
 F y  4E ' r  t&#xD;
 &#xD;
-<pb  n="124-125" xml:id="VAC660300000064"/>&#xD;
-  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD;  &#xD; &#xD;
-            </p> 
+            </p>
          </div>
-      </body> 
+      </body>
    </text>
 </TEI>
