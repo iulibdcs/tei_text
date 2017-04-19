@@ -14,26 +14,15 @@ support teaching and research endeavors rooted in the text, I present TEI (P4 & 
 <p><b>So please FORK away!</b> And <b>POST</b> to this repository's <b><a href="https://github.com/iulibdcs/tei_text/wiki">WIKI</a></b> with feedback, anecdotes of use, and links to this data in action so I can track your wizardry NSA-style.</p>
 
 <h2>Data Sets</h2>
-The following TEI/XML and plain text files are made available for good times:
+The following TEI/XML and plain text files are made available for good times in the following GitHub repos:
 
-* <a href="http://dlib.indiana.edu/collections/imh/">Indiana Magazine of History</a>, one the nation's oldest scholarly historical journal, 1905-2011 (TEI P4)
-* <a href="http://dlib.indiana.edu/collections/vwwp/">Victorian Women Writers Project</a>, 1830-1929 (TEI P5)
-* <a href="http://www.dlib.indiana.edu/collections/inauthors/">Indiana Authors and Their Books</a>, 1850-1929 (TEI Lite P4) 
-* <a href="http://www.dlib.indiana.edu/collections/law/brevier/">Brevier Legislative Reports</a>, transcripts from Indiana State Legislature, 1858-1887 (TEI P5)
-* Wright American Fiction,1851-1875 (undergoing web site migration, TEI P5)
+* <a href="https://github.com/iulibdcs/Indiana-Magazine-of-History">Indiana Magazine of History</a>, one the nation's oldest scholarly historical journal, 1905-2011 (TEI P4)
+* <a href="https://github.com/iulibdcs/Victorian-Women-Writers-Project">Victorian Women Writers Project</a>, 1830-1929 (TEI P5)
+* <a href="https://github.com/iulibdcs/Indiana-Authors-and-Their-Books">Indiana Authors and Their Books</a>, 1850-1929 (TEI Lite P4) 
+* <a href="https://github.com/iulibdcs/Brevier-Legislative-Reports">Brevier Legislative Reports</a>, transcripts from Indiana State Legislature, 1858-1887 (TEI P5)
+* <a href="https://github.com/iulibdcs/Wright-American-Fiction">Wright American Fiction,1851-1875</a> (TEI P5) 
 
-<h2>Textual Analysis Tools</h2>
-The following are a list of sample tools that can be used with the above data:
 
-<h3>TEI-Aware Tools</h3>
-* <a href="http://code.google.com/p/philomine/">PhiloLogic/PhiloMine</a> (installation required) 
-* <a href="http://sourceforge.net/projects/txm">TXM</a> (installation required)
 
-<h3>Plain Text Tools</h3>
-* <a href="https://github.com/richardneal/Lexos">Lexos</a> (installation required)
-* <a href="http://mallet.cs.umass.edu">Mallet</a> for topic-modeling (installation required) 
-* <a href="http://voyant-tools.org">Voyant</a> for textual analysis (web-based)
-* <a href="https://vue.tufts.edu/">VUE</a> for visualization and other analyses (registration and installation required)
 
-<h3>Terms of Use</h3>
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
